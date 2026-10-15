@@ -19,7 +19,7 @@ Tiledash turns your Homey into dashboards built from tiles: lights, thermostats,
 ## What's in this repository
 
 - **Issues.** Found a bug, or missing something? [Open an issue](https://github.com/tiledash/tiledash/issues/new). Please search the existing ones first.
-- **Widgets and themes.** Community widgets and themes from the Tiledash store will be published here, so anyone can read their code.
+- **Widgets and themes.** Community widgets and themes from the Tiledash community will be published here, so anyone can read their code.
 
 The Tiledash app itself is developed in a separate repository.
 
