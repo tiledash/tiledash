@@ -1,4 +1,76 @@
 {
+  "account.accessRules.linkControl": {
+    "en": "Switch lights and sockets, and set the thermostat, on this dashboard",
+    "context": "What a share link that can control can do.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.linkNoFlows": {
+    "en": "Start flows, open locks, set the alarm or open garage doors",
+    "context": "What a share link that can control still can’t do, since anyone with the link could. Flows are Homey’s automations.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.linkNoOthers": {
+    "en": "See your other dashboards, devices or account",
+    "context": "What a share link can’t do.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.linkSee": {
+    "en": "See {dashboard} live, as it changes",
+    "context": "What a share link can do: watch the dashboard, updating live.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.noChange": {
+    "en": "Change anything: taps do nothing",
+    "context": "What a view-only link or screen can’t do: tapping a tile does nothing.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.noLogin": {
+    "en": "Get your login or your Homey’s",
+    "context": "What a share link or screen can’t do: it never gets the person’s login, nor their Homey’s.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.screenControl": {
+    "en": "Everything the panel’s tiles do, flows and locks included",
+    "context": "What a paired screen that can control can do.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.screenKeeps": {
+    "en": "Keep working when you log out elsewhere",
+    "context": "What a paired screen can do: it keeps working when the person logs out on another device.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.screenNoEdit": {
+    "en": "Edit dashboards, open other panels or your account",
+    "context": "What a paired screen can’t do.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.screenShow": {
+    "en": "Show the {panel} wall panel and its dashboards, live",
+    "context": "What a paired screen can do.",
+    "params": {
+      "panel": "The wall panel’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
+  "account.accessRules.screenShowChosen": {
+    "en": "Show the chosen wall panel and its dashboards, live",
+    "context": "What a paired screen can do, before a wall panel is chosen.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
+  },
   "account.actions.deleteFailed": {
     "en": "Your account couldn’t be deleted. Nothing changed; please try again.",
     "context": "Red text in the delete dialog when deleting the account failed.",
@@ -92,6 +164,199 @@
     "context": "Text under a red message about downloading or deleting.",
     "maxLength": 40,
     "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.aiAssistants.allow0": {
+    "en": "Read and change your own widgets and partials, and see their history",
+    "context": "What a connected assistant can do. Use the same words as login.consent.widgetsAllow0.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow1": {
+    "en": "Make and change test devices",
+    "context": "What a connected assistant can do. Use the same words as login.consent.widgetsAllow1.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow2": {
+    "en": "Read your devices: their names, kinds, capabilities and current readings",
+    "context": "What a connected assistant can do. Use the same words as login.consent.widgetsAllow2.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow3": {
+    "en": "Read the names of your themes",
+    "context": "What a connected assistant can do. Use the same words as login.consent.widgetsAllow3.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.appLine": {
+    "en": "from {host} · connected {date} · {used, select, yes {used {lastUsed}} other {not used yet}}{links, plural, =0 {} one { · # preview link} other { · # preview links}}",
+    "context": "Line under a connected app’s name: the web address it came from, when it was connected, when it was last used, and how many preview links it has.",
+    "params": {
+      "date": "When it was connected, such as \"3 October\".",
+      "host": "The app’s web address, such as \"claude.ai\". Not translated.",
+      "lastUsed": "How long ago it was last used, such as \"5 min ago\".",
+      "links": "How many preview links it has.",
+      "used": "\"yes\" when it was used, \"no\" when not yet."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.askDisconnect": {
+    "en": "Disconnect {app}? Its preview links stop too.",
+    "context": "Question before disconnecting an app.",
+    "params": {
+      "app": "The app’s name, such as \"Claude\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.assistant": {
+    "en": "Assistant",
+    "context": "Name of the row of choices of AI assistant, read out by screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.canSwitch": {
+    "en": "{app} can switch {device} until {time}",
+    "context": "Warning on a preview link whose taps reach the Homey: until when the app can switch the device.",
+    "params": {
+      "app": "The app’s name. Not translated.",
+      "device": "The device’s name. Not translated.",
+      "time": "A time of day, such as \"14:32\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.connectTitle": {
+    "en": "Connect an assistant",
+    "context": "Heading of the card with the steps to connect an AI assistant.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.connected": {
+    "en": "Connected",
+    "context": "Heading of the list of AI assistants (apps) connected to Tiledash.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.copied": {
+    "en": "Copied",
+    "context": "Button text for a moment after copying the address or command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.copy": {
+    "en": "Copy",
+    "context": "Button that copies the address, file or command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.deny0": {
+    "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
+    "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny0.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.deny1": {
+    "en": "Read your history, dashboards, billing or account",
+    "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny1.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.deny2": {
+    "en": "See your Homey password or tokens",
+    "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny2.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.deny3": {
+    "en": "Reach anyone else’s widgets",
+    "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny3.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.disconnect": {
+    "en": "Disconnect",
+    "context": "Button that disconnects an app (it asks first); also the red button that does it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.free": {
+    "en": "Building widgets with an assistant needs Pro. You can connect now; it starts working once you’re on Pro.",
+    "context": "Note on the Free plan: building widgets with an AI assistant needs Pro, the paid plan.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.keep": {
+    "en": "Keep",
+    "context": "Button that keeps the app connected after all.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.lead": {
+    "en": "Build and polish your widgets with the AI you already use: Claude, ChatGPT, Copilot in VS Code, Cursor. Connect it once; you sign in with your Homey account, and it gets a key that only works for your widgets.",
+    "context": "Text at the top of the AI assistants tab. Keep the product names.",
+    "maxLength": 230,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.none": {
+    "en": "No assistant connected yet. Connect one below.",
+    "context": "Shown when no AI assistant is connected.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.previewOn": {
+    "en": "<b>{widget}</b> · preview on {device}",
+    "context": "A preview link of an app: the widget (bold) and which device it draws.",
+    "params": {
+      "device": "The device’s name. Not translated.",
+      "widget": "The widget’s name. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.previewOnTest": {
+    "en": "<b>{widget}</b> · preview on test data",
+    "context": "A preview link of an app that draws a test or demo device: the widget (bold).",
+    "params": {
+      "widget": "The widget’s name. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.rulesTitle": {
+    "en": "What a connected assistant can do",
+    "context": "Heading of the lists of what a connected assistant can and can’t do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.send": {
+    "en": "Send taps to my Homey",
+    "context": "Switch on a preview link: taps in the preview really switch the device, for an hour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.sendLabel": {
+    "en": "Send taps from {app}’s preview to my Homey",
+    "context": "Name of the switch, read out by screen readers.",
+    "params": {
+      "app": "The app’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.simulated": {
+    "en": "Taps stay simulated",
+    "context": "On a preview link of test data: taps never reach a real device.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.upgrade": {
+    "en": "Upgrade",
+    "context": "Button in the note that opens paying for Pro.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.alertRules.always": {
     "en": "Always",
@@ -849,6 +1114,306 @@
     "maxLength": 40,
     "file": "packages/ui/src/calendars/calendars.messages.ts"
   },
+  "account.configBackup.busy": {
+    "en": "Another import is running, or there were many tries in the last hour. Please try again later.",
+    "context": "Text under \"Couldn’t read the file\" when restoring was tried too often.",
+    "maxLength": 110,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.downloadFailed": {
+    "en": "Couldn’t download a backup",
+    "context": "Title of a red message when downloading a backup failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.downloadTooOften": {
+    "en": "You downloaded one a few times just now (5 an hour). Please try again later.",
+    "context": "Text under \"Couldn’t download a backup\" when it was downloaded too often.",
+    "maxLength": 90,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.noRoom": {
+    "en": "Your plan doesn’t have room for everything chosen. Nothing was changed.",
+    "context": "Red text in the restore dialog when the plan doesn’t allow all that was chosen.",
+    "maxLength": 90,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.readFailed": {
+    "en": "Couldn’t read the file",
+    "context": "Title of a red message when the chosen backup file couldn’t be read.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.restoreFailed": {
+    "en": "The restore didn’t finish. Nothing was changed. Please try again.",
+    "context": "Red text in the restore dialog when restoring failed.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.tryLater": {
+    "en": "Please try again in a moment.",
+    "context": "Text under a red message about a backup, used when no more specific reason is known.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.unreachable": {
+    "en": "Tiledash couldn’t be reached. Nothing was changed.",
+    "context": "Red text in the restore dialog when the browser got no answer.",
+    "maxLength": 70,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configBackup.yourHomey": {
+    "en": "your Homey",
+    "context": "Stands in for a Homey’s name in \"Connect … first\" and \"Still reading …\" when the name isn’t known. Lower case.",
+    "maxLength": 24,
+    "file": "apps/web/src/account/configBackup.messages.ts"
+  },
+  "account.configImport.alreadyHereDetail": {
+    "en": "What you have here is kept as it is.",
+    "context": "Line under \"Already set up here\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.alreadyHereTitle": {
+    "en": "Already set up here",
+    "context": "Heading of parts that are already set up on this account.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.childTilesDetail": {
+    "en": "The widget has no Tiles setting of that name here, so these stay behind.",
+    "context": "Line under \"Tiles inside widgets without a place for them\". \"Tiles\" is the name of a widget setting.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.childTilesTitle": {
+    "en": "Tiles inside widgets without a place for them",
+    "context": "Heading of tiles that were inside a widget, which has no place for them here.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.connectDetail": {
+    "en": "This backup is for {homey}, which isn’t connected to this account. Connect it, then choose the file again.",
+    "context": "Line under \"Connect … first\".",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.connectTitle": {
+    "en": "Connect {homey} first",
+    "context": "Heading when the backup is for a Homey this account doesn’t have.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.damagedDetail": {
+    "en": "It may not have downloaded completely. Choose another backup.",
+    "context": "Line under \"This file can’t be read\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.damagedTitle": {
+    "en": "This file can’t be read",
+    "context": "Heading when the chosen file is damaged.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.emptiedDetail": {
+    "en": "The tile comes along and asks for it again.",
+    "context": "Line under \"Settings naming something this Homey doesn’t have\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.emptiedTitle": {
+    "en": "Settings naming something this Homey doesn’t have",
+    "context": "Heading of tile settings that point at a device, flow or mood this Homey doesn’t have.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.group": {
+    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} other {{count, plural, one {# recording} other {# recordings}}}}",
+    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; recordings keep a reading’s history.",
+    "params": {
+      "count": "How many.",
+      "key": "Which part: themes, presets, widgets, pictures, testDevices or recordings."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.groupName": {
+    "en": "{key, select, alerts {Alert rules} energy {Energy settings} other {Account settings}}",
+    "context": "A part of the backup that is one thing: the alert rules, the energy settings or the account settings.",
+    "params": {
+      "key": "Which part: alerts, energy or settings."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.homeyMissingDetail": {
+    "en": "Its dashboards, wall panels and energy settings stay behind. Connect it and restore again.",
+    "context": "Line under \"A Homey that isn’t connected here\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.homeyMissingTitle": {
+    "en": "A Homey that isn’t connected here",
+    "context": "Heading of a part of the backup that stays behind: it belongs to a Homey this account doesn’t have.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.limit": {
+    "en": "{key, select, dashboards {Your plan has room for {room} dashboards; you have {have} and chose {adding}.} recordings {Your plan has room for {room} recordings; you have {have} and chose {adding}.} themes {Your plan has room for {room} themes of your own; you have {have} and chose {adding}.} widgets {Your plan has room for {room} widgets of your own; you have {have} and chose {adding}.} other {Your plan has room for {room} pictures; you have {have} and chose {adding}.}}",
+    "context": "Why the chosen parts don’t fit the plan: how many it allows, how many there are, and how many were chosen to come along.",
+    "params": {
+      "adding": "How many were chosen from the backup.",
+      "have": "How many there are already.",
+      "key": "Which limit: dashboards, recordings, themes, widgets or pictures.",
+      "room": "How many the plan allows."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.missingDeviceDetail": {
+    "en": "These tiles stay behind.",
+    "context": "Line under \"Tiles whose device isn’t on this Homey\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.missingDeviceTitle": {
+    "en": "Tiles whose device isn’t on this Homey",
+    "context": "Heading of tiles that stay behind: the device they show isn’t on this Homey.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.namesMore": {
+    "en": "{first}, {second} and {count} more",
+    "context": "The first two of several dashboard names and how many more, such as \"Home, Energy and 2 more\".",
+    "params": {
+      "count": "How many more.",
+      "first": "A dashboard’s name.",
+      "second": "Another dashboard’s name."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.needsProDetail": {
+    "en": "Your own themes, widgets, partials and test devices need Pro here.",
+    "context": "Line under \"Pro only\".",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.needsProTitle": {
+    "en": "Pro only",
+    "context": "Heading of parts that need Pro, the paid plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.notConfigDetail": {
+    "en": "Choose a file made with Download a backup (Account → Back up your setup). Download your data gives a different zip, which can’t be restored.",
+    "context": "Line under \"This isn’t a Tiledash backup\". \"Download a backup\", \"Account → Back up your setup\" and \"Download your data\" name buttons and cards of the Account tab: use the same words as they do.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.notConfigTitle": {
+    "en": "This isn’t a Tiledash backup",
+    "context": "Heading when the chosen file isn’t a backup made by Tiledash.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.partialKeptDetail": {
+    "en": "Yours are kept; the widgets that render them use yours.",
+    "context": "Line under \"Partials you already have with another template\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.partialKeptTitle": {
+    "en": "Partials you already have with another template",
+    "context": "Heading of partials (pieces of widget code) that exist here already with other code.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.restore": {
+    "en": "Restore",
+    "context": "Button that restores the chosen parts, when no dashboard is chosen.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.restoreDashboards": {
+    "en": "{count, plural, one {Restore # dashboard} other {Restore # dashboards}}",
+    "context": "Button that restores the chosen dashboards.",
+    "params": {
+      "count": "How many dashboards are chosen."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.restoreDashboardsMore": {
+    "en": "{count, plural, one {Restore # dashboard and more} other {Restore # dashboards and more}}",
+    "context": "Button that restores the chosen dashboards and other parts (wall panels, themes…).",
+    "params": {
+      "count": "How many dashboards are chosen."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.storeDetail": {
+    "en": "Install them here from the community; a theme falls back to the default meanwhile.",
+    "context": "Line under \"From the community\".",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.storeTitle": {
+    "en": "From the community",
+    "context": "Heading of themes and widgets that came from the community; they aren’t in the backup.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.syncingDetail": {
+    "en": "Tiledash is reading {homey}’s devices, flows and moods, so it can match the tiles to them. This takes a minute.",
+    "context": "Line under \"Still reading …\". Flows and moods are Homey’s automations and scenes.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.syncingTitle": {
+    "en": "Still reading {homey}",
+    "context": "Heading while Tiledash is still reading the Homey’s devices, before it can restore.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.tooLargeDetail": {
+    "en": "A backup is at most 64 MB. Check that you chose the right file.",
+    "context": "Line under \"This file is too large\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.tooLargeTitle": {
+    "en": "This file is too large",
+    "context": "Heading when the chosen file is bigger than a backup can be.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.tooNewDetail": {
+    "en": "This backup comes from a newer version of Tiledash, so it can’t be restored here.",
+    "context": "Line under \"Made by a newer Tiledash\".",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.tooNewTitle": {
+    "en": "Made by a newer Tiledash",
+    "context": "Heading when the backup comes from a newer version of Tiledash.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
   "account.credits.copyright": {
     "en": "OpenStreetMap copyright",
     "context": "A link to OpenStreetMap’s copyright page.",
@@ -1032,6 +1597,320 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
   },
+  "account.importDialog.adds": {
+    "en": "Adds to what you have; nothing here changes.",
+    "context": "Short line next to the buttons: restoring only adds.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.all": {
+    "en": "All",
+    "context": "Checkbox that ticks or unticks every dashboard.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.also": {
+    "en": "<b>Also:</b> {made}.",
+    "context": "Line after restoring: what else was made (themes, widgets…).",
+    "params": {
+      "made": "What else was made, already joined."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.alsoBring": {
+    "en": "Also bring",
+    "context": "Heading of the other parts of the backup to choose from: themes, widgets, settings…",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.anotherFile": {
+    "en": "Another file",
+    "context": "Button that goes back to choosing another file.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog or stops reading the file.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.cantCome": {
+    "en": "What can’t come along",
+    "context": "Heading of the list of what stays behind, and why.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.checkAgain": {
+    "en": "Check again",
+    "context": "Button that asks again whether the Homey has been read.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.chooseAnother": {
+    "en": "Choose another file",
+    "context": "Button that goes back to choosing a file.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.chooseFile": {
+    "en": "Choose file…",
+    "context": "Button that opens the file picker.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.close": {
+    "en": "Close",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.connectHomey": {
+    "en": "Connect a Homey",
+    "context": "Button that opens connecting another Homey to this account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.dashboards": {
+    "en": "Dashboards",
+    "context": "Heading of the backup’s dashboards to choose from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog after restoring.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.drop": {
+    "en": "Drop the backup here",
+    "context": "Bold line in the area where a file can be dropped (dragged onto it).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.exported": {
+    "en": "<b>{file}</b> · exported {date}",
+    "context": "Line about the chosen backup: its file name (bold) and when it was made.",
+    "params": {
+      "date": "A date and time, such as \"12 October 2026, 14:05\".",
+      "file": "The file’s name. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.failedBody": {
+    "en": "Nothing was restored and nothing here changed. Try again, or choose another backup.",
+    "context": "Text under the reason when restoring failed.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.homeyConnected": {
+    "en": "{homey} · connected here",
+    "context": "Green badge: a Homey the backup is for, which is connected to this account.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.homeyNotConnected": {
+    "en": "{homey} · not connected here",
+    "context": "Yellow badge: a Homey the backup is for, which isn’t connected to this account.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.homeyNotHere": {
+    "en": "Homey not here",
+    "context": "Badge on a dashboard whose Homey isn’t connected here, so it can’t come along.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.issue": {
+    "en": "<b>{title}.</b> {detail}",
+    "context": "One kind of thing that stayed behind: its heading (bold) and its line.",
+    "params": {
+      "detail": "The line, already translated.",
+      "title": "The heading, already translated."
+    },
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.lead": {
+    "en": "Brings back dashboards, wall panels, themes and widgets from a backup. What you choose is added next to what you have; nothing you have now changes.",
+    "context": "Text at the top of the dialog, before a file is chosen.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.matching": {
+    "en": "Matching its tiles to your Homey’s devices.",
+    "context": "Line under \"Reading …\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.neededBy": {
+    "en": "Needed by {dashboards}",
+    "context": "Under a part that a chosen dashboard needs, so it comes along anyway.",
+    "params": {
+      "dashboards": "The dashboards’ names, already joined as a list."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.needsPro": {
+    "en": "Needs Pro here",
+    "context": "Under a part that needs Pro, the paid plan, on this account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.noHistory": {
+    "en": "A backup holds no recorded history: recordings start again from the moment you restore.",
+    "context": "Note at the bottom of the first step.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.open": {
+    "en": "Open",
+    "context": "Button that opens a restored dashboard.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.orChoose": {
+    "en": "or choose the file (tiledash-backup-….zip)",
+    "context": "Line under \"Drop the backup here\": or click to choose it. \"tiledash-backup-….zip\" is the name a backup file has; keep it as it is.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.overBody": {
+    "en": "{limit} Untick some, or go Pro.",
+    "context": "Text of the red banner: why it doesn’t fit, then what to do.",
+    "params": {
+      "limit": "A whole sentence about the limit, already translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.overFooter": {
+    "en": "More than your plan has room for: untick some.",
+    "context": "Short line next to the buttons when the chosen parts don’t fit the plan.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.overTitle": {
+    "en": "More than your plan has room for",
+    "context": "Title of a red banner when the chosen parts don’t fit the plan.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.reading": {
+    "en": "Reading {file}…",
+    "context": "Shown while the chosen file is being read.",
+    "params": {
+      "file": "The file’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.ready": {
+    "en": "{count, plural, one {# dashboard is ready. Recordings start again from now.} other {# dashboards are ready. Recordings start again from now.}}",
+    "context": "Line after restoring: how many dashboards came back.",
+    "params": {
+      "count": "How many dashboards."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.seePro": {
+    "en": "See Pro",
+    "context": "Button that opens the plans, under parts that need Pro.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.stayedBehind": {
+    "en": "What stayed behind",
+    "context": "Heading of the folded list of what didn’t come along after restoring.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.step1": {
+    "en": "A backup comes from <b>Account</b> → <b>Back up your setup</b> → <b>Download a backup</b>.",
+    "context": "First step: where a backup is made. The bold parts name a page, a card and a button: use the same words as the Account tab does (shell.names.account, account.profile.backupTitle, account.profile.downloadBackup).",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.step2": {
+    "en": "Connect the same Homey here first.",
+    "context": "Second step, when no Homey is connected yet.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.step2Connected": {
+    "en": "Connect the same Homey here. <b>{homey}</b> is connected",
+    "context": "Second step, when a Homey is connected: its name is bold, followed by a tick.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.step3": {
+    "en": "Choose the file, see what comes back, and restore.",
+    "context": "Third step of restoring a backup, after making one and connecting the Homey.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.tiles": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "How many tiles a dashboard of the backup has.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.tilesStay": {
+    "en": "{count, plural, one {# tile stays behind} other {# tiles stay behind}}",
+    "context": "Badge on a dashboard some of whose tiles can’t come along.",
+    "params": {
+      "count": "How many tiles stay behind."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.title": {
+    "en": "Restore a backup",
+    "context": "Title of the dialog that restores a backup.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.titleBlocked": {
+    "en": "Can’t restore this file",
+    "context": "Title of the dialog when the chosen file can’t be restored.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.titleDone": {
+    "en": "Your setup is back",
+    "context": "Title of the dialog after the backup was restored.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.tryAgain": {
+    "en": "Try again",
+    "context": "Button that tries restoring again after it failed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
+  "account.importDialog.wallPanels": {
+    "en": "Wall panels",
+    "context": "Heading of the backup’s wall panels to choose from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
+  },
   "account.keepChoices.daysAgo": {
     "en": "Opened {count} days ago",
     "context": "Under a dashboard that was last opened 2 to 6 days ago.",
@@ -1088,6 +1967,117 @@
     "context": "Under a dashboard that was last opened yesterday.",
     "maxLength": 30,
     "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.linksScreens.all": {
+    "en": "All · {count}",
+    "context": "Filter that shows every link and screen, with how many.",
+    "params": {
+      "count": "How many there are."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.bothFull": {
+    "en": "Your share link and paired screen are both in use. Revoke the link or unpair the screen to make room, or go Pro for as many as you like.",
+    "context": "Text of a box on Free when its one link and one screen are both used.",
+    "maxLength": 175,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.emptyBody": {
+    "en": "Share a dashboard from its ⋯ menu, view only or able to control. Or pair a tablet to run a wall panel without logging in on it.",
+    "context": "Line under \"Nothing is shared\". ⋯ is the menu button of a dashboard.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.emptyTitle": {
+    "en": "Nothing is shared",
+    "context": "Title when there are no share links or paired screens.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.expiredDontCount": {
+    "en": "Expired links don’t count.",
+    "context": "Hint under the share links meter.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.fullTitle": {
+    "en": "Free has one link and one screen",
+    "context": "Title of the box on Free when a share link or screen place is used.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.linkFull": {
+    "en": "Your one share link is in use. Revoke it to share another way, or go Pro for as many links as you like.",
+    "context": "Text of a box on Free when its one share link is used.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.links": {
+    "en": "Links · {count}",
+    "context": "Filter that shows only share links, with how many.",
+    "params": {
+      "count": "How many links."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.listLabel": {
+    "en": "Links and screens",
+    "context": "Name of the list, read out by screen readers. Same words as the tab.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.pair": {
+    "en": "Pair a screen",
+    "context": "Button that opens pairing a tablet or screen. The pairing steps elsewhere use the same words (nl \"Scherm koppelen\", de \"Bildschirm koppeln\", es \"Vincular una pantalla\", fr \"Associer un écran\").",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.pairedScreens": {
+    "en": "Paired screens",
+    "context": "Label of the meter of paired screens used of the plan’s limit.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.proNote": {
+    "en": "As many links and screens as you like on Pro.",
+    "context": "Line on Pro instead of the meters.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.screenFull": {
+    "en": "Your one paired screen is in use. Unpair it to pair another, or go Pro for a screen in every room.",
+    "context": "Text of a box on Free when its one paired screen is used.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.screens": {
+    "en": "Screens · {count}",
+    "context": "Filter that shows only paired screens, with how many.",
+    "params": {
+      "count": "How many screens."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.shareLinks": {
+    "en": "Share links",
+    "context": "Label of the meter of share links used of the plan’s limit.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.show": {
+    "en": "Show",
+    "context": "Name of the filter, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
+  },
+  "account.linksScreens.upgrade": {
+    "en": "Upgrade to Pro",
+    "context": "Button that opens paying for Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/LinksAndScreensSection.messages.ts"
   },
   "account.locale.example": {
     "en": "Example: {sample}",
@@ -1472,6 +2462,202 @@
     "context": "Green message when Pro, the paid plan, has started after paying.",
     "maxLength": 40,
     "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.pairScreen.aScreen": {
+    "en": "A screen",
+    "context": "Stands in for the screen’s name when it isn’t known.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.askedFor": {
+    "en": "Asked for code <code>{code}</code> {when}",
+    "context": "Line under the screen’s name: which code it asked for, and when. The code is in its own style.",
+    "params": {
+      "code": "The code, such as \"K7M 4QX\". Not translated.",
+      "when": "When, such as \"just now\" or \"2 minutes ago\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.back": {
+    "en": "Back",
+    "context": "Button that goes back to the code.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the pairing dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.code": {
+    "en": "Code",
+    "context": "Label of the field where the screen’s code is typed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.dashboards": {
+    "en": "{count, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Next to a wall panel in the choice: how many dashboards it has.",
+    "params": {
+      "count": "How many dashboards."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.description": {
+    "en": "On the tablet or screen, open {address}. Type the code it shows.",
+    "context": "Line under the title of the first step.",
+    "params": {
+      "address": "The pairing page’s address, such as \"my.tiledash.app/pair\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.descriptionConfirm": {
+    "en": "It gets its own key for one wall panel. Nothing else of yours.",
+    "context": "Line under the title of the second step.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.itCan": {
+    "en": "It can",
+    "context": "Label above the choice of what the screen may do: view only or control.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.justNow": {
+    "en": "just now",
+    "context": "When the screen asked for the code: a moment ago. Lower case.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.letters": {
+    "en": "Codes don’t use O, 0, I, 1, S or B. Check the screen again.",
+    "context": "Red text when the typed code has a letter or digit codes never use (they look too alike).",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.name": {
+    "en": "Name",
+    "context": "Label of the field with the screen’s name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.nameHint": {
+    "en": "How it’s listed under Links and screens.",
+    "context": "Hint under the screen’s name. \"Links and screens\" is a tab of the account page.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.namePlaceholder": {
+    "en": "{panel} tablet",
+    "context": "Suggested name of the screen, such as \"Hallway tablet\".",
+    "params": {
+      "panel": "The chosen wall panel’s name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.namePlaceholderNone": {
+    "en": "Hallway tablet",
+    "context": "Suggested name of the screen before a wall panel is chosen.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.newPanel": {
+    "en": "New",
+    "context": "Button that makes a new wall panel.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.next": {
+    "en": "Next",
+    "context": "Button that checks the code and goes to the next step.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.once": {
+    "en": "A code works once, for 10 minutes. The screen gets nothing until you confirm on the next step.",
+    "context": "Note under the code field.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.pair": {
+    "en": "Pair screen",
+    "context": "Button that pairs the screen.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.paused": {
+    "en": "Pairing is paused for a while to keep guessers out. Try again in {time}.",
+    "context": "Text of the banner: pairing waits, counting down.",
+    "params": {
+      "time": "How long to wait, counting down, such as \"4:59\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.rulesTitle": {
+    "en": "What this screen will be able to do",
+    "context": "Heading of the lists of what the screen can and can’t do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.runs": {
+    "en": "It runs {panel} until you unpair it, here or on the screen itself.",
+    "context": "Line under the lists: how long the screen works.",
+    "params": {
+      "panel": "The wall panel’s name. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.runsNone": {
+    "en": "It runs the panel until you unpair it, here or on the screen itself.",
+    "context": "Line under the lists, before a wall panel is chosen.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.title": {
+    "en": "Pair a screen",
+    "context": "Title of the pairing dialog’s first step. The pairing steps elsewhere use the same words (nl \"Scherm koppelen\", de \"Bildschirm koppeln\", es \"Vincular una pantalla\", fr \"Associer un écran\").",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.titleConfirm": {
+    "en": "What should this screen show?",
+    "context": "Title of the pairing dialog’s second step: choose the wall panel and what it may do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.tooMany": {
+    "en": "Too many tries",
+    "context": "Title of a red banner after too many wrong codes.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.wallPanel": {
+    "en": "Wall panel",
+    "context": "Label of the choice of which wall panel the screen runs.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.wrong": {
+    "en": "That code doesn’t work. It may have expired: the screen shows a new one every 10 minutes.",
+    "context": "Red text when the code isn’t valid.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
+  },
+  "account.pairScreen.wrongTries": {
+    "en": "{count, plural, one {That code doesn’t work. It may have expired: the screen shows a new one every 10 minutes. # try left before pairing pauses.} other {That code doesn’t work. It may have expired: the screen shows a new one every 10 minutes. # tries left before pairing pauses.}}",
+    "context": "Red text when the code isn’t valid, with how many tries are left.",
+    "params": {
+      "count": "How many tries are left."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/pairing/PairScreenDialog.messages.ts"
   },
   "account.pairing.aScreen": {
     "en": "A screen",
@@ -2741,6 +3927,658 @@
     "context": "Tab of the account page with the changelog: what changed in Tiledash lately.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.shareDialog.all": {
+    "en": "All links and screens",
+    "context": "Link that opens Account → Links and screens.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.another": {
+    "en": "Make another",
+    "context": "Button that makes another link.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.cameras": {
+    "en": "Camera tiles show live video. Watching it lets the guest’s browser see your home’s internet address.",
+    "context": "Note when the dashboard has camera tiles: the video comes straight from the Homey, so the guest’s browser sees the home’s IP address.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog without making a link.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.close": {
+    "en": "Close",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.copied": {
+    "en": "Copied",
+    "context": "Button text for a moment after copying the link.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.copy": {
+    "en": "Copy link",
+    "context": "Button that copies the new link.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.create": {
+    "en": "Create link",
+    "context": "Button that makes the link.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.description": {
+    "en": "Anyone with the link opens this dashboard, without an account or a Homey. Nothing else of yours comes with it.",
+    "context": "Line under the title of the share dialog.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog after making a link.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.fullBody": {
+    "en": "{used, select, yes {It’s in use: {usedBy}. Revoke it to make another, or go Pro to share as many dashboards, as many ways, as you like.} other {Revoke it to make another, or go Pro to share as many dashboards, as many ways, as you like.}}",
+    "context": "Text of the box: which link uses the place, when known, and what to do.",
+    "params": {
+      "used": "\"yes\" when the link using the place is known.",
+      "usedBy": "That link, such as \"For the babysitter, on Energy\". Not translated."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.fullTitle": {
+    "en": "Free has one share link",
+    "context": "Title of a box on the Free plan when its one share link is in use. Free is the plan’s name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.linksLabel": {
+    "en": "Links to this dashboard",
+    "context": "Name of the list of this dashboard’s links, read out by screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.linksTo": {
+    "en": "Links to {dashboard}",
+    "context": "Heading of this dashboard’s links, followed by how many.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.made": {
+    "en": "Link made",
+    "context": "Small heading above the new link.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.name": {
+    "en": "Name",
+    "context": "Label of the field with the link’s name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.nameHint": {
+    "en": "Optional. Only you see it, in your list of links.",
+    "context": "Hint under the link’s name.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.namePlaceholder": {
+    "en": "For the babysitter",
+    "context": "Example name of a link, shown in the empty name field.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.once": {
+    "en": "Copy it now. Tiledash keeps only a fingerprint of the link, so it can’t show it again. Lost it? Revoke it and make a new one.",
+    "context": "Note under the new link: it is shown only this once.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.qr": {
+    "en": "QR code of the link to {dashboard}",
+    "context": "Description of the QR code, read out by screen readers.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.revokingWorks": {
+    "en": "Revoking works at once.",
+    "context": "Note at the bottom of the dialog: a revoked link stops working at once.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.rulesTitle": {
+    "en": "What this link can do",
+    "context": "Heading of the lists of what the link can and can’t do.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.scan": {
+    "en": "Scan it with a phone to open it there.",
+    "context": "Line under the QR code.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.title": {
+    "en": "Share {dashboard}",
+    "context": "Title of the share dialog.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.upgrade": {
+    "en": "Upgrade to Pro",
+    "context": "Button that opens paying for Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.worksFor": {
+    "en": "Works for",
+    "context": "Label of the choice of how long the link works: a day, a week, or never expiring.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.sharing.aDay": {
+    "en": "A day",
+    "context": "Choice of how long a new share link works: one day.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.aWeek": {
+    "en": "A week",
+    "context": "Choice of how long a new share link works: one week.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.canControl": {
+    "en": "Can control",
+    "context": "What a share link or screen may do: also switch devices and start flows.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.expired": {
+    "en": "Expired {when}",
+    "context": "Under a share link that no longer works: when it ran out, such as \"Expired yesterday\" or \"Expired 3 days ago\".",
+    "params": {
+      "when": "When, in words such as \"yesterday\", \"3 days ago\" or a date like \"3 Oct\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.expires": {
+    "en": "Expires {when}",
+    "context": "Under a share link: when it stops working, such as \"Expires tomorrow\" or \"Expires in 5 hours\".",
+    "params": {
+      "when": "When, in words such as \"tomorrow\" or \"in 5 hours\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.linkTo": {
+    "en": "Link to {dashboard}",
+    "context": "Name of a share link that has no name of its own.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.never": {
+    "en": "Never",
+    "context": "Choice of how long a new share link works: it never expires.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.neverExpires": {
+    "en": "Never expires",
+    "context": "Under a share link that works until it is revoked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.notUsed": {
+    "en": "Not used yet",
+    "context": "Under a share link or screen that was never opened.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.openNow": {
+    "en": "{on, select, yes {Open now · {device}} other {Open now}}",
+    "context": "Under a share link or screen that is open right now, with the browser and device when known.",
+    "params": {
+      "device": "The browser and device, such as \"Safari on iPhone\". Not translated.",
+      "on": "\"yes\" when the device is known."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.targetDashboard": {
+    "en": "Dashboard · {dashboard}",
+    "context": "What a share link opens: a dashboard.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.targetPanel": {
+    "en": "Wall panel · {panel}",
+    "context": "What a paired screen shows: a wall panel.",
+    "params": {
+      "panel": "The wall panel’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.used": {
+    "en": "{on, select, yes {Used {when} · {device}} other {Used {when}}}",
+    "context": "Under a share link or screen: when it was last opened, and on what when known.",
+    "params": {
+      "device": "The browser and device, such as \"Safari on iPhone\". Not translated.",
+      "on": "\"yes\" when the device is known.",
+      "when": "When, in words such as \"12 minutes ago\" or \"yesterday\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharing.viewOnly": {
+    "en": "View only",
+    "context": "What a share link or screen may do: only look, not switch anything.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharingViews.messages.ts"
+  },
+  "account.sharingActions.changedNow": {
+    "en": "It changed straight away.",
+    "context": "Text under the theme message when the screen is open right now.",
+    "maxLength": 40,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.copyFailed": {
+    "en": "Couldn’t copy the link: select it and copy it yourself.",
+    "context": "Message when copying the link failed (the browser didn’t allow it).",
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.loadFailed": {
+    "en": "Couldn’t load your links and screens.",
+    "context": "Red message when Account → Links and screens couldn’t load.",
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.loadLinksFailed": {
+    "en": "Couldn’t load the links.",
+    "context": "Red message when the share dialog couldn’t load the dashboard’s links.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.makeFailed": {
+    "en": "Couldn’t make the link.",
+    "context": "Red message when making a share link failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.panelsFailed": {
+    "en": "Couldn’t load your wall panels.",
+    "context": "Red message when the wall panels to pair a screen with couldn’t load.",
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.removeFailed": {
+    "en": "Couldn’t do that.",
+    "context": "Red message when revoking a link or unpairing a screen failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.revokeFailed": {
+    "en": "Couldn’t revoke the link.",
+    "context": "Red message when revoking a share link failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.revoked": {
+    "en": "Revoked",
+    "context": "Green message after a share link was revoked.",
+    "maxLength": 24,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.revokedBody": {
+    "en": "It stopped working at once, also where it was open.",
+    "context": "Text under the message after revoking a share link.",
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.revokedName": {
+    "en": "Revoked {name}",
+    "context": "Green message after a share link was revoked.",
+    "params": {
+      "name": "The link’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.themeFailed": {
+    "en": "Couldn’t change its theme.",
+    "context": "Red message when changing a paired screen’s theme failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.unpaired": {
+    "en": "Unpaired {name}",
+    "context": "Green message after a screen was unpaired.",
+    "params": {
+      "name": "The screen’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.unpairedBody": {
+    "en": "It went back to its pairing page.",
+    "context": "Text under \"Unpaired …\": the screen shows its pairing page again.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.usedBy": {
+    "en": "{link}, on {dashboard}",
+    "context": "Which share link uses the Free plan’s one place, in \"It’s in use: …\", such as \"For the babysitter, on Energy\".",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated.",
+      "link": "The link’s name, or \"Link to …\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.wears": {
+    "en": "{name} wears {theme}",
+    "context": "Green message after choosing a theme for a paired screen.",
+    "params": {
+      "name": "The screen’s name. Not translated.",
+      "theme": "The theme’s name."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingActions.wearsOwn": {
+    "en": "{name} wears its own theme again",
+    "context": "Green message after a paired screen went back to the wall panel’s own theme.",
+    "params": {
+      "name": "The screen’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/sharingActions.messages.ts"
+  },
+  "account.sharingParts.actionFor": {
+    "en": "{action, select, unpair {Unpair {name}} remove {Remove {name}} other {Revoke {name}}}",
+    "context": "Name of the row’s button, read out by screen readers.",
+    "params": {
+      "action": "\"unpair\", \"remove\" or \"revoke\".",
+      "name": "The link’s or screen’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.can": {
+    "en": "Can: ",
+    "context": "Read out by screen readers before a line it can do. Keep the space at the end.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.canControl": {
+    "en": "Can control",
+    "context": "Choice of what a share link or screen may do: also switch things.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.cannot": {
+    "en": "Can’t: ",
+    "context": "Read out by screen readers before a line it can’t do. Keep the space at the end.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.controlLink": {
+    "en": "Lights, sockets and the thermostat. No flows or locks.",
+    "context": "Line under \"Can control\" for a share link. Flows are Homey’s automations.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.controlScreen": {
+    "en": "Everything the panel’s tiles do.",
+    "context": "Line under \"Can control\" for a paired screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.keep": {
+    "en": "Keep",
+    "context": "Button that keeps the link or screen after all.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.made": {
+    "en": "Made",
+    "context": "Small label before the date a link or screen was made.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.ownTheme": {
+    "en": "Its own",
+    "context": "The theme of a paired screen when it wears the wall panel’s own theme.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.pausedFree": {
+    "en": "Paused · over Free’s limit",
+    "context": "On a link or screen that is paused because the Free plan allows fewer.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.qr": {
+    "en": "QR code of the link",
+    "context": "Description of a QR code, read out by screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.remove": {
+    "en": "Remove",
+    "context": "Button that takes an expired link off the list.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.removeBody": {
+    "en": "It has expired already, so it no longer opens anything. This only takes it off the list.",
+    "context": "Text of the question before removing an expired link.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.removeTitle": {
+    "en": "Remove {name}?",
+    "context": "Title of the question before taking an expired link off the list.",
+    "params": {
+      "name": "The link’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.revoke": {
+    "en": "Revoke",
+    "context": "Button that ends a share link at once.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.revokeBody": {
+    "en": "Anyone with this link loses {dashboard} at once, also with the page open. It can’t be turned back on; make a new link instead.",
+    "context": "Text of the question before revoking a share link.",
+    "params": {
+      "dashboard": "The dashboard’s name. Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.revokeNow": {
+    "en": "Revoke now?",
+    "context": "Short question on a link’s row before revoking it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.revokeTitle": {
+    "en": "Revoke {name}?",
+    "context": "Title of the question before revoking a share link.",
+    "params": {
+      "name": "The link’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyChecked": {
+    "en": "Checked every time",
+    "context": "Point about sharing safety: every tap is checked on the server.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyCheckedText": {
+    "en": "Every tap from a link or screen is checked again on our server against what it may do.",
+    "context": "Text under \"Checked every time\". \"Our\" is Tiledash’s.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyCodes": {
+    "en": "Codes work once",
+    "context": "Point about sharing safety: pairing codes.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyCodesText": {
+    "en": "A pairing code works for 10 minutes and only once. Too many wrong tries and pairing pauses.",
+    "context": "Text under \"Codes work once\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyLogin": {
+    "en": "Never your login",
+    "context": "Point about sharing safety: a link or screen never gets the person’s login.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyLoginText": {
+    "en": "A link or screen gets a key for one dashboard or one wall panel. Never your Tiledash login or your Homey’s.",
+    "context": "Text under \"Never your login\".",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyRevoke": {
+    "en": "Revoking works at once",
+    "context": "Point about sharing safety: revoking a link or unpairing a screen is immediate.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyRevokeText": {
+    "en": "Revoke a link or unpair a screen and it’s disconnected within seconds, also while open.",
+    "context": "Text under \"Revoking works at once\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.safetyTitle": {
+    "en": "How sharing stays safe",
+    "context": "Heading of four points about why sharing is safe.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.theme": {
+    "en": "Theme",
+    "context": "Small label before the theme a paired screen wears.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.themeButton": {
+    "en": "Theme…",
+    "context": "Button that opens the choice of theme for a paired screen.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.themeFor": {
+    "en": "Theme for {name}",
+    "context": "Name of the Theme… button of a screen, read out by screen readers.",
+    "params": {
+      "name": "The screen’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.unnamed": {
+    "en": "Unnamed link",
+    "context": "Name of a share link that has no name of its own.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.unpair": {
+    "en": "Unpair",
+    "context": "Button that ends a paired screen at once.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.unpairBody": {
+    "en": "It stops showing {panel} at once and goes back to its pairing page. Its key is deleted; to use it again, pair it with a new code.",
+    "context": "Text of the question before unpairing a screen.",
+    "params": {
+      "panel": "The wall panel’s name. Not translated."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.unpairTitle": {
+    "en": "Unpair {name}?",
+    "context": "Title of the question before unpairing a screen.",
+    "params": {
+      "name": "The screen’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.untilUnpair": {
+    "en": "Until you unpair it",
+    "context": "How long a paired screen works: until it is unpaired.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.viewLink": {
+    "en": "Live values. Taps do nothing.",
+    "context": "Line under \"View only\" for a share link.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.viewOnly": {
+    "en": "View only",
+    "context": "Choice of what a share link or screen may do: only look.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.viewScreen": {
+    "en": "The panel, live. Taps do nothing.",
+    "context": "Line under \"View only\" for a paired screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
+  },
+  "account.sharingParts.whatItCanDo": {
+    "en": "What it can do",
+    "context": "Name of the choice and the lists of what a link or screen may do, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
   },
   "account.whatsNew.emptyBody": {
     "en": "From the next version on, every change shows up here, newest first.",

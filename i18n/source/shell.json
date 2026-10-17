@@ -1,4 +1,166 @@
 {
+  "shell.aiSetup.address": {
+    "en": "Address",
+    "context": "Label of the Tiledash server’s address to copy.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.chatgpt1": {
+    "en": "In ChatGPT, turn on developer mode (in Settings, under Apps and Advanced settings; which plans have it, and where, changes now and then).",
+    "context": "First step to connect ChatGPT.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.chatgpt2": {
+    "en": "Choose Create, name it Tiledash, paste the address below and pick OAuth (leave the client id and secret empty).",
+    "context": "Second step to connect ChatGPT. OAuth is a way of signing in; keep it.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.chatgpt3": {
+    "en": "Sign in with your Homey account and allow it.",
+    "context": "Third step to connect ChatGPT.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claude1": {
+    "en": "In Claude (claude.ai or the Claude app), open Settings → Connectors and choose Add custom connector. On a Team or Enterprise plan an owner adds it first, under Admin settings.",
+    "context": "First step to connect Claude. Team and Enterprise are names of Claude’s plans.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claude2": {
+    "en": "Name it Tiledash and paste the address below.",
+    "context": "Second step to connect Claude: the address is the Tiledash server’s, shown under the steps.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claude3": {
+    "en": "Choose Connect: Tiledash asks you to sign in with your Homey account and to allow it.",
+    "context": "Third step to connect Claude.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claude4": {
+    "en": "In a chat, ask Claude to help with a widget. It can open a live preview in its browser.",
+    "context": "Fourth step to connect Claude.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claudeCode1": {
+    "en": "Run the command below in a terminal.",
+    "context": "First step to connect Claude Code.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.claudeCode2": {
+    "en": "In Claude Code, run /mcp and choose Tiledash to sign in.",
+    "context": "Second step to connect Claude Code. Keep \"/mcp\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.command": {
+    "en": "Command",
+    "context": "Label of the command to copy and run in a terminal.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.cursor1": {
+    "en": "Add the server to ~/.cursor/mcp.json (or .cursor/mcp.json in a project).",
+    "context": "First step to connect Cursor. Keep the file names.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.cursor2": {
+    "en": "Cursor shows Tiledash under Settings → MCP with a button to sign in.",
+    "context": "Second step to connect Cursor.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.vscode1": {
+    "en": "Add the server to .vscode/mcp.json in your project (or your user settings).",
+    "context": "First step to connect VS Code. Keep the file name.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.vscode2": {
+    "en": "Start it from the file, or with MCP: List Servers. VS Code opens Tiledash to sign in.",
+    "context": "Second step to connect VS Code. \"MCP: List Servers\" is a VS Code command; keep it.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.aiSetup.vscode3": {
+    "en": "Use it from Copilot Chat in agent mode.",
+    "context": "Third step to connect VS Code. Copilot Chat is a product name.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/aiAssistants.messages.ts"
+  },
+  "shell.connectedApps.copied": {
+    "en": "Copied",
+    "context": "Green message after the address, file or command was copied.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.copyFailed": {
+    "en": "Couldn’t copy: select it and copy it yourself.",
+    "context": "Message when copying failed (the browser didn’t allow it).",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.disconnectFailed": {
+    "en": "Couldn’t disconnect {app}.",
+    "context": "Red message when disconnecting an AI assistant failed.",
+    "params": {
+      "app": "The app’s name, such as \"Claude\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.disconnectFailedUnnamed": {
+    "en": "Couldn’t disconnect the app.",
+    "context": "Red message when disconnecting an AI assistant failed, when its name isn’t known.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.disconnected": {
+    "en": "{app} disconnected: its key and preview links stopped",
+    "context": "Green message after an AI assistant was disconnected.",
+    "params": {
+      "app": "The app’s name, such as \"Claude\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.disconnectedUnnamed": {
+    "en": "The app is disconnected: its key and preview links stopped",
+    "context": "Green message after an AI assistant was disconnected, when its name isn’t known.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.loadFailed": {
+    "en": "Couldn’t load your connected apps.",
+    "context": "Red message when the list of connected AI assistants couldn’t be loaded.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.tapsFailed": {
+    "en": "Couldn’t change whether taps go to your Homey.",
+    "context": "Red message when switching whether a preview link’s taps really switch devices (for an hour) failed.",
+    "maxLength": 70,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.tapsOff": {
+    "en": "Taps are only simulated again",
+    "context": "Message: taps in the preview no longer reach the Homey.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
+  "shell.connectedApps.tapsOn": {
+    "en": "Taps go to your Homey for an hour",
+    "context": "Yellow message: taps in an AI assistant’s preview now really switch devices, for an hour.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/useConnectedApps.messages.ts"
+  },
   "shell.layout.adminCaption": {
     "en": "All of Tiledash",
     "context": "Small line under the name \"Admin\" at the top of the admin sidebar. It says the admin area is about the whole of Tiledash (all users, not only this account).",

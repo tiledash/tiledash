@@ -1,4 +1,160 @@
 {
+  "shell.aiSetup.address": {
+    "text": "Adres",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt1": {
+    "text": "Zet in ChatGPT de ontwikkelaarsmodus aan (in Instellingen, onder Apps en Geavanceerde instellingen; welke abonnementen het hebben, en waar, verandert af en toe).",
+    "source": "3a79efbfc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt2": {
+    "text": "Kies Create, noem hem Tiledash, plak het adres hieronder en kies OAuth (laat de client-id en het secret leeg).",
+    "source": "10595a399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt3": {
+    "text": "Log in met je Homey-account en geef toestemming.",
+    "source": "40987708e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude1": {
+    "text": "Open in Claude (claude.ai of de Claude-app) Settings → Connectors en kies Add custom connector. Bij een Team- of Enterprise-abonnement voegt een eigenaar hem eerst toe, onder Admin settings.",
+    "source": "441bd6c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude2": {
+    "text": "Noem hem Tiledash en plak het adres hieronder.",
+    "source": "13f65c0cac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude3": {
+    "text": "Kies Connect: Tiledash vraagt je in te loggen met je Homey-account en toestemming te geven.",
+    "source": "dcde30803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude4": {
+    "text": "Vraag Claude in een chat om hulp bij een widget. Claude kan een live voorbeeld in de browser openen.",
+    "source": "f7e5bb8458",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode1": {
+    "text": "Voer de opdracht hieronder uit in een terminal.",
+    "source": "48eb753e55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode2": {
+    "text": "Voer in Claude Code /mcp uit en kies Tiledash om in te loggen.",
+    "source": "e09ea093b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.command": {
+    "text": "Opdracht",
+    "source": "713166971d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor1": {
+    "text": "Voeg de server toe aan ~/.cursor/mcp.json (of .cursor/mcp.json in een project).",
+    "source": "0d599291ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor2": {
+    "text": "Cursor toont Tiledash onder Settings → MCP met een knop om in te loggen.",
+    "source": "092e3b0c87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode1": {
+    "text": "Voeg de server toe aan .vscode/mcp.json in je project (of aan je gebruikersinstellingen).",
+    "source": "16a64516d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode2": {
+    "text": "Start hem vanuit het bestand, of met MCP: List Servers. VS Code opent Tiledash om in te loggen.",
+    "source": "f1a80c1734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode3": {
+    "text": "Gebruik hem vanuit Copilot Chat in de agentmodus.",
+    "source": "4789093257",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copied": {
+    "text": "Gekopieerd",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copyFailed": {
+    "text": "Kopiëren lukte niet: selecteer het en kopieer het zelf.",
+    "source": "806d0b93da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailed": {
+    "text": "{app} kon niet worden ontkoppeld.",
+    "source": "65700ea76e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailedUnnamed": {
+    "text": "De app kon niet worden ontkoppeld.",
+    "source": "631c8dd837",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnected": {
+    "text": "{app} ontkoppeld: de sleutel en voorbeeldlinks werken niet meer",
+    "source": "3b8edccf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectedUnnamed": {
+    "text": "De app is ontkoppeld: de sleutel en voorbeeldlinks werken niet meer",
+    "source": "6026df5bce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.loadFailed": {
+    "text": "Je gekoppelde apps konden niet worden geladen.",
+    "source": "981a4dd978",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsFailed": {
+    "text": "Kon niet wijzigen of tikken naar je Homey gaan.",
+    "source": "83ae24c348",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOff": {
+    "text": "Tikken worden weer alleen gesimuleerd",
+    "source": "de63f4a9ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOn": {
+    "text": "Tikken gaan een uur lang naar je Homey",
+    "source": "b0be0e805d",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.adminCaption": {
     "text": "Heel Tiledash",
     "source": "35759a6dee",

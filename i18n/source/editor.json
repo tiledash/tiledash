@@ -7994,6 +7994,48 @@
     "maxLength": 70,
     "file": "apps/web/src/dashboards/childTiles/tilesWouldGo.messages.ts"
   },
+  "editor.timelineValues.failedText": {
+    "en": "Your Homey didn’t answer. Try again in a moment.",
+    "context": "Text under the note title when the Homey did not answer the request for its Timeline.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.failedTitle": {
+    "en": "The timeline couldn’t be read",
+    "context": "Bold title of a note in the Timeline tab when the Homey did not answer.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.forbiddenText": {
+    "en": "Tiledash may not see your Homey’s timeline yet. Log in again and allow it (homey.notifications.readonly).",
+    "context": "Text under the note title when Tiledash has no permission to read the Homey’s Timeline. Logging in again asks the Homey for it. Keep the permission name in brackets exactly as it is: homey.notifications.readonly.",
+    "maxLength": 150,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.forbiddenTitle": {
+    "en": "The timeline isn’t available",
+    "context": "Bold title of a note in the Timeline tab when Tiledash has no permission to read the Homey’s Timeline (its notifications). Use the name the Homey app gives the Timeline in your language.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.loadingTitle": {
+    "en": "Reading the timeline…",
+    "context": "Bold title shown in the Timeline tab while the Homey is still being asked for it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.nothingText": {
+    "en": "This place takes neither text nor a number.",
+    "context": "Text under \"Nothing that fits\" in the Timeline tab: the place where the value is picked takes no text and no number.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
+  "editor.timelineValues.nothingTitle": {
+    "en": "Nothing that fits",
+    "context": "Bold title of a note in the Timeline tab when none of its values fit the place where a value is picked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
+  },
   "editor.useChildTilesWindow.addFailed": {
     "en": "Couldn’t add that.",
     "context": "Red notification (toast) when adding tiles to a widget that holds tiles did not work, for example because the connection to Tiledash was lost.",
@@ -8284,6 +8326,12 @@
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdValuePicker.messages.ts"
   },
+  "editor.valuePicker.inTextTimeline": {
+    "en": "timeline",
+    "context": "The Timeline tab of the value picker named inside a sentence such as \"Search devices and timeline\", in lower case. Used only to build the placeholder of the search box.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdValuePicker.messages.ts"
+  },
   "editor.valuePicker.inTextVariables": {
     "en": "variables",
     "context": "The Variables tab of the value picker named inside the sentence \"Search devices and variables\", in lower case. Used only to build the placeholder of the search box.",
@@ -8390,6 +8438,12 @@
   "editor.valuePicker.tabPrices": {
     "en": "Prices",
     "context": "Name of a tab of the value picker that lists energy price values, such as the current electricity price.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdValuePicker.messages.ts"
+  },
+  "editor.valuePicker.tabTimeline": {
+    "en": "Timeline",
+    "context": "Name of a tab of the value picker that lists values from the Homey’s Timeline (its notifications), such as the latest entry. Use the name the Homey app gives the Timeline in your language.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdValuePicker.messages.ts"
   },

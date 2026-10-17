@@ -1,4 +1,160 @@
 {
+  "shell.aiSetup.address": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt1": {
+    "text": "Schalten Sie in ChatGPT den Entwicklermodus ein (in den Einstellungen unter Apps und Erweiterte Einstellungen; welche Abos ihn haben und wo, ändert sich ab und zu).",
+    "source": "3a79efbfc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt2": {
+    "text": "Wählen Sie Erstellen, nennen Sie ihn Tiledash, fügen Sie die Adresse unten ein und wählen Sie OAuth (Client-ID und Secret leer lassen).",
+    "source": "10595a399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt3": {
+    "text": "Melden Sie sich mit Ihrem Homey-Konto an und erlauben Sie den Zugriff.",
+    "source": "40987708e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude1": {
+    "text": "Wählen Sie in Claude (claude.ai oder App) Einstellungen → Konnektoren → Benutzerdefinierten Konnektor hinzufügen. Bei Team oder Enterprise fügt ihn vorher ein Inhaber in den Admin-Einstellungen hinzu.",
+    "source": "441bd6c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude2": {
+    "text": "Nennen Sie ihn Tiledash und fügen Sie die Adresse unten ein.",
+    "source": "13f65c0cac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude3": {
+    "text": "Wählen Sie Verbinden: Tiledash bittet Sie, sich mit Ihrem Homey-Konto anzumelden und den Zugriff zu erlauben.",
+    "source": "dcde30803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude4": {
+    "text": "Bitten Sie Claude im Chat um Hilfe bei einem Widget. Claude kann eine Live-Vorschau in seinem Browser öffnen.",
+    "source": "f7e5bb8458",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode1": {
+    "text": "Führen Sie den Befehl unten in einem Terminal aus.",
+    "source": "48eb753e55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode2": {
+    "text": "Führen Sie in Claude Code /mcp aus und wählen Sie Tiledash, um sich anzumelden.",
+    "source": "e09ea093b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.command": {
+    "text": "Befehl",
+    "source": "713166971d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor1": {
+    "text": "Fügen Sie den Server zu ~/.cursor/mcp.json hinzu (oder zu .cursor/mcp.json in einem Projekt).",
+    "source": "0d599291ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor2": {
+    "text": "Cursor zeigt Tiledash unter Settings → MCP mit einer Schaltfläche zum Anmelden.",
+    "source": "092e3b0c87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode1": {
+    "text": "Fügen Sie den Server zu .vscode/mcp.json im Projekt hinzu (oder zu Ihren Benutzereinstellungen).",
+    "source": "16a64516d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode2": {
+    "text": "Starten Sie ihn aus der Datei oder mit MCP: List Servers. VS Code öffnet Tiledash zum Anmelden.",
+    "source": "f1a80c1734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode3": {
+    "text": "Nutzen Sie ihn in Copilot Chat im Agent-Modus.",
+    "source": "4789093257",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copied": {
+    "text": "Kopiert",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copyFailed": {
+    "text": "Kopieren fehlgeschlagen: Markieren und selbst kopieren.",
+    "source": "806d0b93da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailed": {
+    "text": "{app} konnte nicht getrennt werden.",
+    "source": "65700ea76e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailedUnnamed": {
+    "text": "Die App konnte nicht getrennt werden.",
+    "source": "631c8dd837",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnected": {
+    "text": "{app} getrennt: Schlüssel und Vorschaulinks funktionieren nicht mehr",
+    "source": "3b8edccf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectedUnnamed": {
+    "text": "Die App ist getrennt: Schlüssel und Vorschaulinks funktionieren nicht mehr",
+    "source": "6026df5bce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.loadFailed": {
+    "text": "Ihre verbundenen Apps konnten nicht geladen werden.",
+    "source": "981a4dd978",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsFailed": {
+    "text": "Ob Tippen Ihren Homey erreicht, konnte nicht geändert werden.",
+    "source": "83ae24c348",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOff": {
+    "text": "Tippen wird wieder nur simuliert",
+    "source": "de63f4a9ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOn": {
+    "text": "Tippen erreicht eine Stunde lang Ihren Homey",
+    "source": "b0be0e805d",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.adminCaption": {
     "text": "Für ganz Tiledash",
     "source": "35759a6dee",

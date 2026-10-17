@@ -1,4 +1,70 @@
 {
+  "account.accessRules.linkControl": {
+    "text": "Commander lumières et prises, et régler le thermostat, sur ce tableau de bord",
+    "source": "c16d3307f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkNoFlows": {
+    "text": "Lancer des Flows, ouvrir les serrures, armer l’alarme ou ouvrir le garage",
+    "source": "c57c37be65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkNoOthers": {
+    "text": "Voir vos autres tableaux de bord, appareils ou votre compte",
+    "source": "feeb06b2a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkSee": {
+    "text": "Voir {dashboard} en direct, au fil des changements",
+    "source": "0e8c3462f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.noChange": {
+    "text": "Modifier quoi que ce soit : un appui ne fait rien",
+    "source": "c5d5ef7674",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.noLogin": {
+    "text": "Obtenir vos identifiants ou ceux de votre Homey",
+    "source": "266873e32e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenControl": {
+    "text": "Tout ce que font les tuiles de l’écran, Flows et serrures compris",
+    "source": "c290bb52ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenKeeps": {
+    "text": "Rester actif quand vous vous déconnectez ailleurs",
+    "source": "031c948d3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenNoEdit": {
+    "text": "Modifier les tableaux de bord, ouvrir d’autres écrans ou votre compte",
+    "source": "de82f15bee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenShow": {
+    "text": "Afficher l’écran mural {panel} et ses tableaux de bord, en direct",
+    "source": "7a941c2012",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenShowChosen": {
+    "text": "Afficher l’écran mural choisi et ses tableaux de bord, en direct",
+    "source": "380a043756",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.deleteFailed": {
     "text": "Impossible de supprimer votre compte. Rien n’a changé ; réessayez.",
     "source": "c0d2d41027",
@@ -86,6 +152,174 @@
   "account.actions.tryLater": {
     "text": "Réessayez dans un instant.",
     "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow0": {
+    "text": "Lire et modifier vos propres widgets et fragments, et voir leur historique",
+    "source": "ce5a152aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow1": {
+    "text": "Créer et modifier des appareils de test",
+    "source": "9e70dd2145",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow2": {
+    "text": "Lire vos appareils : noms, types, fonctions et mesures actuelles",
+    "source": "2c2d5f6c4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow3": {
+    "text": "Lire les noms de vos thèmes",
+    "source": "2742fd64c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.appLine": {
+    "text": "de {host} · connecté le {date} · {used, select, yes {utilisé {lastUsed}} other {pas encore utilisé}}{links, plural, =0 {} one { · # lien d’aperçu} other { · # liens d’aperçu}}",
+    "source": "34a43f92dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.askDisconnect": {
+    "text": "Déconnecter {app} ? Ses liens d’aperçu s’arrêtent aussi.",
+    "source": "6bffd6399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.assistant": {
+    "text": "Assistant",
+    "source": "391e405152",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.canSwitch": {
+    "text": "{app} peut commander {device} jusqu’à {time}",
+    "source": "007bc7d081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.connectTitle": {
+    "text": "Connecter un assistant",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.connected": {
+    "text": "Connectés",
+    "source": "22965568d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.copied": {
+    "text": "Copié",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.copy": {
+    "text": "Copier",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny0": {
+    "text": "Commander vos appareils ou lancer des Flows (vous seul pouvez activer les appuis d’un aperçu, pour une heure)",
+    "source": "2a48357995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny1": {
+    "text": "Lire votre historique, tableaux de bord, facturation ou compte",
+    "source": "9e1d025f01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny2": {
+    "text": "Voir votre mot de passe Homey ou vos jetons",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny3": {
+    "text": "Accéder aux widgets d’autres personnes",
+    "source": "a2404a1adf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.disconnect": {
+    "text": "Déconnecter",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.free": {
+    "text": "Créer des widgets avec un assistant nécessite Pro. Vous pouvez le connecter dès maintenant ; il fonctionnera une fois sur Pro.",
+    "source": "c53014012c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.keep": {
+    "text": "Garder",
+    "source": "183f00f483",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.lead": {
+    "text": "Créez et peaufinez vos widgets avec l’IA que vous utilisez déjà : Claude, ChatGPT, Copilot dans VS Code, Cursor. Connectez-la une fois avec votre compte Homey ; elle reçoit une clé valable uniquement pour vos widgets.",
+    "source": "1e34df424b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.none": {
+    "text": "Aucun assistant connecté. Connectez-en un ci-dessous.",
+    "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewOn": {
+    "text": "<b>{widget}</b> · aperçu sur {device}",
+    "source": "b692e8ca1c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewOnTest": {
+    "text": "<b>{widget}</b> · aperçu avec des données de test",
+    "source": "5c127cd724",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.rulesTitle": {
+    "text": "Ce qu’un assistant connecté peut faire",
+    "source": "359ac6ab3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.send": {
+    "text": "Envoyer les appuis à mon Homey",
+    "source": "5c94977258",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.sendLabel": {
+    "text": "Envoyer les appuis de l’aperçu de {app} à mon Homey",
+    "source": "0334ad7226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.simulated": {
+    "text": "Les appuis restent simulés",
+    "source": "324712ac73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.upgrade": {
+    "text": "Passer à Pro",
+    "source": "7ec0261b8e",
     "by": "ai",
     "reviewed": false
   },
@@ -743,6 +977,270 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.configBackup.busy": {
+    "text": "Une autre importation est en cours, ou trop d’essais dans la dernière heure. Réessayez plus tard.",
+    "source": "26ffb75fe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.downloadFailed": {
+    "text": "Impossible de télécharger une sauvegarde",
+    "source": "2a26e0f1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.downloadTooOften": {
+    "text": "Vous en avez téléchargé plusieurs à l’instant (5 par heure). Réessayez plus tard.",
+    "source": "4d5de7b772",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.noRoom": {
+    "text": "Votre forfait n’a pas la place pour tout ce qui est choisi. Rien n’a changé.",
+    "source": "c8c88b8919",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.readFailed": {
+    "text": "Impossible de lire le fichier",
+    "source": "81df2a6873",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.restoreFailed": {
+    "text": "La restauration n’a pas abouti. Rien n’a changé. Réessayez.",
+    "source": "912513319f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.tryLater": {
+    "text": "Réessayez dans un instant.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.unreachable": {
+    "text": "Impossible de joindre Tiledash. Rien n’a changé.",
+    "source": "29075a6f2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.yourHomey": {
+    "text": "votre Homey",
+    "source": "32fccec15b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.alreadyHereDetail": {
+    "text": "Ce que vous avez ici reste tel quel.",
+    "source": "7cad8620b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.alreadyHereTitle": {
+    "text": "Déjà configuré ici",
+    "source": "129cfecaea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.childTilesDetail": {
+    "text": "Ici, le widget n’a pas de réglage de tuiles de ce nom : elles ne sont pas reprises.",
+    "source": "d8345752ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.childTilesTitle": {
+    "text": "Tuiles dans des widgets sans place pour elles",
+    "source": "ee5b24ae69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.connectDetail": {
+    "text": "Cette sauvegarde concerne {homey}, qui n’est pas connecté à ce compte. Connectez-le, puis choisissez à nouveau le fichier.",
+    "source": "7f2e334441",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.connectTitle": {
+    "text": "Connectez d’abord {homey}",
+    "source": "0d495de74d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.damagedDetail": {
+    "text": "Le téléchargement est peut-être incomplet. Choisissez une autre sauvegarde.",
+    "source": "ee758181f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.damagedTitle": {
+    "text": "Impossible de lire ce fichier",
+    "source": "5fdf7a4ffe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.emptiedDetail": {
+    "text": "La tuile est reprise et vous demandera de le choisir.",
+    "source": "95d835474f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.emptiedTitle": {
+    "text": "Réglages qui visent un élément absent de ce Homey",
+    "source": "1b79976a96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.group": {
+    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
+    "source": "d5339b17f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.groupName": {
+    "text": "{key, select, alerts {Règles d’alerte} energy {Réglages d’énergie} other {Réglages du compte}}",
+    "source": "160e121d86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.homeyMissingDetail": {
+    "text": "Ses tableaux de bord, écrans muraux et réglages d’énergie ne sont pas repris. Connectez-le, puis restaurez.",
+    "source": "59696dc07a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.homeyMissingTitle": {
+    "text": "Un Homey qui n’est pas connecté ici",
+    "source": "cabc25b8dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.limit": {
+    "text": "{key, select, dashboards {Votre forfait permet {room} tableaux de bord ; vous en avez {have} et en avez choisi {adding}.} recordings {Votre forfait permet {room} enregistrements ; vous en avez {have} et en avez choisi {adding}.} themes {Votre forfait permet {room} thèmes personnels ; vous en avez {have} et en avez choisi {adding}.} widgets {Votre forfait permet {room} widgets personnels ; vous en avez {have} et en avez choisi {adding}.} other {Votre forfait permet {room} images ; vous en avez {have} et en avez choisi {adding}.}}",
+    "source": "52b2eed793",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.missingDeviceDetail": {
+    "text": "Ces tuiles ne sont pas reprises.",
+    "source": "742121bdc7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.missingDeviceTitle": {
+    "text": "Tuiles dont l’appareil n’est pas sur ce Homey",
+    "source": "96c2add6c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.namesMore": {
+    "text": "{first}, {second} et {count} de plus",
+    "source": "c0167fb70a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.needsProDetail": {
+    "text": "Ici, vos propres thèmes, widgets, fragments et appareils de test nécessitent Pro.",
+    "source": "f8bdad3d03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.needsProTitle": {
+    "text": "Pro uniquement",
+    "source": "52ec204947",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.notConfigDetail": {
+    "text": "Choisissez un fichier issu de Télécharger une sauvegarde (Compte → Sauvegarder votre configuration). Télécharger vos données donne un autre zip, non restaurable.",
+    "source": "b8473c9fbc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.notConfigTitle": {
+    "text": "Ce n’est pas une sauvegarde Tiledash",
+    "source": "cda9cd5db6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.partialKeptDetail": {
+    "text": "Les vôtres sont gardés et utilisés par les widgets qui les affichent.",
+    "source": "7b84ec3cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.partialKeptTitle": {
+    "text": "Fragments que vous avez déjà avec un autre modèle",
+    "source": "a8048c6333",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restore": {
+    "text": "Restaurer",
+    "source": "a76e13b983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restoreDashboards": {
+    "text": "{count, plural, one {Restaurer # tableau de bord} other {Restaurer # tableaux de bord}}",
+    "source": "8a1179b34d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restoreDashboardsMore": {
+    "text": "{count, plural, one {Restaurer # tableau de bord et plus} other {Restaurer # tableaux de bord et plus}}",
+    "source": "54f7b56a67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.storeDetail": {
+    "text": "Installez-les ici depuis la communauté ; en attendant, un thème revient à celui par défaut.",
+    "source": "36f6a42ae1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.storeTitle": {
+    "text": "De la communauté",
+    "source": "e40f81313b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.syncingDetail": {
+    "text": "Tiledash lit les appareils, Flows et ambiances de {homey} pour y associer les tuiles. Cela prend une minute.",
+    "source": "b5cdc30d17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.syncingTitle": {
+    "text": "Tiledash lit encore {homey}",
+    "source": "778f6a15fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooLargeDetail": {
+    "text": "Une sauvegarde fait au plus 64 Mo. Vérifiez que vous avez choisi le bon fichier.",
+    "source": "086e12303d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooLargeTitle": {
+    "text": "Ce fichier est trop volumineux",
+    "source": "9ac87b3379",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooNewDetail": {
+    "text": "Cette sauvegarde vient d’une version plus récente de Tiledash : elle ne peut pas être restaurée ici.",
+    "source": "1fb692e66f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooNewTitle": {
+    "text": "Créée par un Tiledash plus récent",
+    "source": "747fffe5f0",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.credits.copyright": {
     "text": "Droits d’auteur OpenStreetMap",
     "source": "e5ee1cf66a",
@@ -899,6 +1397,282 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.importDialog.adds": {
+    "text": "S’ajoute à ce que vous avez ; rien ici ne change.",
+    "source": "4452f514f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.all": {
+    "text": "Tous",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.also": {
+    "text": "<b>Également :</b> {made}.",
+    "source": "3c3e260869",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.alsoBring": {
+    "text": "Reprendre aussi",
+    "source": "83a6f818ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.anotherFile": {
+    "text": "Autre fichier",
+    "source": "2d7b141433",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.cantCome": {
+    "text": "Ce qui ne peut pas être repris",
+    "source": "aa036d0e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.checkAgain": {
+    "text": "Vérifier à nouveau",
+    "source": "fb7099ad8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.chooseAnother": {
+    "text": "Choisir un autre fichier",
+    "source": "26eac8f8c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.chooseFile": {
+    "text": "Choisir un fichier…",
+    "source": "5c6623857c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.close": {
+    "text": "Fermer",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.connectHomey": {
+    "text": "Connecter un Homey",
+    "source": "8775fded59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.dashboards": {
+    "text": "Tableaux de bord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.done": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.drop": {
+    "text": "Déposez la sauvegarde ici",
+    "source": "0087a0f658",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.exported": {
+    "text": "<b>{file}</b> · exportée le {date}",
+    "source": "21852c57c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.failedBody": {
+    "text": "Rien n’a été restauré et rien n’a changé ici. Réessayez ou choisissez une autre sauvegarde.",
+    "source": "dbbe78b525",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyConnected": {
+    "text": "{homey} · connecté ici",
+    "source": "f1d94dbc79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyNotConnected": {
+    "text": "{homey} · non connecté ici",
+    "source": "7c5450af2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyNotHere": {
+    "text": "Homey absent",
+    "source": "651e46d4d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.issue": {
+    "text": "<b>{title}.</b> {detail}",
+    "source": "b86a8118da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.lead": {
+    "text": "Récupère tableaux de bord, écrans muraux, thèmes et widgets depuis une sauvegarde. Ce que vous choisissez s’ajoute à ce que vous avez ; rien de l’existant ne change.",
+    "source": "cedc0aa1de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.matching": {
+    "text": "Association de ses tuiles aux appareils de votre Homey.",
+    "source": "b6bd4491a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.neededBy": {
+    "text": "Nécessaire pour {dashboards}",
+    "source": "32028b16f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.needsPro": {
+    "text": "Nécessite Pro ici",
+    "source": "5f57ce1dc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.noHistory": {
+    "text": "Une sauvegarde ne contient pas d’historique : les enregistrements recommencent à la restauration.",
+    "source": "5fc26b6883",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.open": {
+    "text": "Ouvrir",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.orChoose": {
+    "text": "ou choisissez le fichier (tiledash-backup-….zip)",
+    "source": "0e63753999",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overBody": {
+    "text": "{limit} Décochez-en, ou passez à Pro.",
+    "source": "080ab922d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overFooter": {
+    "text": "Plus que ce que votre forfait permet : décochez-en.",
+    "source": "68714cc914",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overTitle": {
+    "text": "Plus que ce que votre forfait permet",
+    "source": "84761dc08b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.reading": {
+    "text": "Ouverture de {file}…",
+    "source": "f62d3dea1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.ready": {
+    "text": "{count, plural, one {# tableau de bord est prêt. Les enregistrements recommencent dès maintenant.} other {# tableaux de bord sont prêts. Les enregistrements recommencent dès maintenant.}}",
+    "source": "b06793f322",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.seePro": {
+    "text": "Voir Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.stayedBehind": {
+    "text": "Ce qui n’a pas été repris",
+    "source": "92b0060487",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step1": {
+    "text": "Une sauvegarde se crée dans <b>Compte</b> → <b>Sauvegarder votre configuration</b> → <b>Télécharger une sauvegarde</b>.",
+    "source": "1617c3b844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step2": {
+    "text": "Connectez d’abord le même Homey ici.",
+    "source": "1ec8ab3e94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step2Connected": {
+    "text": "Connectez le même Homey ici. <b>{homey}</b> est connecté",
+    "source": "eb204e4487",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step3": {
+    "text": "Choisissez le fichier, voyez ce qui revient, puis restaurez.",
+    "source": "aeafe50991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tiles": {
+    "text": "{count, plural, one {# tuile} other {# tuiles}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tilesStay": {
+    "text": "{count, plural, one {# tuile non reprise} other {# tuiles non reprises}}",
+    "source": "49a37b0d10",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.title": {
+    "text": "Restaurer une sauvegarde",
+    "source": "96276c8b3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.titleBlocked": {
+    "text": "Impossible de restaurer ce fichier",
+    "source": "28e91c5589",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.titleDone": {
+    "text": "Votre configuration est de retour",
+    "source": "052e7553f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tryAgain": {
+    "text": "Réessayer",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.wallPanels": {
+    "text": "Écrans muraux",
+    "source": "bee64c8441",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.keepChoices.daysAgo": {
     "text": "Ouvert il y a {count} jours",
     "source": "399e7a924e",
@@ -944,6 +1718,108 @@
   "account.keepChoices.yesterday": {
     "text": "Ouvert hier",
     "source": "38d598afde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.all": {
+    "text": "Tous · {count}",
+    "source": "440116eff5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.bothFull": {
+    "text": "Votre lien de partage et votre écran associé sont utilisés. Pour libérer une place, il faut révoquer le lien ou dissocier l’écran, ou passer à Pro.",
+    "source": "1e5d6968c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.emptyBody": {
+    "text": "Partagez un tableau de bord via son menu ⋯, en consultation seule ou avec commande. Ou associez une tablette à un écran mural, sans connexion.",
+    "source": "e9884f0562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.emptyTitle": {
+    "text": "Rien n’est partagé",
+    "source": "03313b3c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.expiredDontCount": {
+    "text": "Les liens expirés ne comptent pas.",
+    "source": "303c80ca4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.fullTitle": {
+    "text": "Free inclut un lien et un écran",
+    "source": "e4df6445fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.linkFull": {
+    "text": "Votre unique lien de partage est utilisé. Révoquez-le pour partager autrement, ou passez à Pro pour des liens illimités.",
+    "source": "5e635c12db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.links": {
+    "text": "Liens · {count}",
+    "source": "6e4ffed082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.listLabel": {
+    "text": "Liens et écrans",
+    "source": "e5b768d15f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.pair": {
+    "text": "Associer un écran",
+    "source": "81c090b365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.pairedScreens": {
+    "text": "Écrans associés",
+    "source": "580a9c64b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.proNote": {
+    "text": "Autant de liens et d’écrans que vous voulez avec Pro.",
+    "source": "b5587f33f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.screenFull": {
+    "text": "Votre unique écran associé est utilisé. Dissociez-le pour en associer un autre, ou passez à Pro pour un écran par pièce.",
+    "source": "f69acd8939",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.screens": {
+    "text": "Écrans · {count}",
+    "source": "0cbe56b251",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.shareLinks": {
+    "text": "Liens de partage",
+    "source": "16ce9683d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.show": {
+    "text": "Afficher",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.upgrade": {
+    "text": "Passer à Pro",
+    "source": "acb320d7f3",
     "by": "ai",
     "reviewed": false
   },
@@ -1298,6 +2174,180 @@
   "account.page.welcomePro": {
     "text": "Bienvenue dans Pro",
     "source": "86e148d1df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.aScreen": {
+    "text": "Un écran",
+    "source": "d0a58876a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.askedFor": {
+    "text": "A demandé le code <code>{code}</code> {when}",
+    "source": "2940405caa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.back": {
+    "text": "Retour",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.code": {
+    "text": "Code",
+    "source": "340f463033",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.dashboards": {
+    "text": "{count, plural, one {# tableau de bord} many {# tableaux de bord} other {# tableaux de bord}}",
+    "source": "400c1fb0db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.description": {
+    "text": "Sur la tablette ou l’écran, ouvrez {address}. Saisissez le code affiché.",
+    "source": "e83c13f509",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.descriptionConfirm": {
+    "text": "Il reçoit sa propre clé pour un seul écran mural. Rien d’autre à vous.",
+    "source": "fa83a1e76f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.itCan": {
+    "text": "Il peut",
+    "source": "f79b3f0da0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.justNow": {
+    "text": "à l’instant",
+    "source": "7ddb44d8a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.letters": {
+    "text": "Les codes n’utilisent ni O, 0, I, 1, S ni B. Vérifiez à nouveau l’écran.",
+    "source": "552970e828",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.nameHint": {
+    "text": "Son nom dans Liens et écrans.",
+    "source": "a5b3b9cf4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.namePlaceholder": {
+    "text": "Tablette {panel}",
+    "source": "f7d01003f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.namePlaceholderNone": {
+    "text": "Tablette de l’entrée",
+    "source": "f7a30ab1e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.newPanel": {
+    "text": "Nouveau",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.next": {
+    "text": "Suivant",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.once": {
+    "text": "Un code sert une fois, pendant 10 minutes. L’écran ne reçoit rien avant votre confirmation à l’étape suivante.",
+    "source": "ebe09c967d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.pair": {
+    "text": "Associer l’écran",
+    "source": "0968e9f564",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.paused": {
+    "text": "L’association est suspendue un moment pour bloquer les tentatives. Réessayez dans {time}.",
+    "source": "5f86601288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.rulesTitle": {
+    "text": "Ce que cet écran pourra faire",
+    "source": "f1798565f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.runs": {
+    "text": "Il affiche {panel} jusqu’à sa dissociation, ici ou sur l’écran lui-même.",
+    "source": "27d1e4b651",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.runsNone": {
+    "text": "Il affiche l’écran mural jusqu’à sa dissociation, ici ou sur l’écran lui-même.",
+    "source": "e6661a81e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.title": {
+    "text": "Associer un écran",
+    "source": "81c090b365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.titleConfirm": {
+    "text": "Que doit afficher cet écran ?",
+    "source": "9931be73a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.tooMany": {
+    "text": "Trop de tentatives",
+    "source": "c33b778ba5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wallPanel": {
+    "text": "Écran mural",
+    "source": "f447698e2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wrong": {
+    "text": "Ce code ne fonctionne pas. Il a peut-être expiré : l’écran en affiche un nouveau toutes les 10 minutes.",
+    "source": "43977cb518",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wrongTries": {
+    "text": "{count, plural, one {Ce code ne fonctionne pas. Il a peut-être expiré : l’écran en affiche un nouveau toutes les 10 minutes. Encore # essai avant la pause.} many {Ce code ne fonctionne pas. Il a peut-être expiré : l’écran en affiche un nouveau toutes les 10 minutes. Encore # essais avant la pause.} other {Ce code ne fonctionne pas. Il a peut-être expiré : l’écran en affiche un nouveau toutes les 10 minutes. Encore # essais avant la pause.}}",
+    "source": "0f35a0999e",
     "by": "ai",
     "reviewed": false
   },
@@ -2396,6 +3446,582 @@
   "account.screen.whatsNewTab": {
     "text": "Nouveautés",
     "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.all": {
+    "text": "Tous les liens et écrans",
+    "source": "66c5674f6f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.another": {
+    "text": "En créer un autre",
+    "source": "e54a14dfda",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.cameras": {
+    "text": "Les tuiles caméra montrent la vidéo en direct : le navigateur de l’invité voit l’adresse internet de votre domicile.",
+    "source": "aaca782b6c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.close": {
+    "text": "Fermer",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.copied": {
+    "text": "Copié",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.copy": {
+    "text": "Copier le lien",
+    "source": "dbf362d4f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.create": {
+    "text": "Créer le lien",
+    "source": "e6b850cff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.description": {
+    "text": "Toute personne ayant le lien ouvre ce tableau de bord, sans compte ni Homey. Rien d’autre de vous ne l’accompagne.",
+    "source": "aaf9240405",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.done": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.fullBody": {
+    "text": "{used, select, yes {Il est utilisé : {usedBy}. Révoquez-le pour en créer un autre, ou passez à Pro pour partager autant de tableaux de bord que vous voulez, de toutes les façons.} other {Révoquez-le pour en créer un autre, ou passez à Pro pour partager autant de tableaux de bord que vous voulez, de toutes les façons.}}",
+    "source": "6e7f02426c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.fullTitle": {
+    "text": "Free inclut un lien de partage",
+    "source": "80379b7e82",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.linksLabel": {
+    "text": "Liens vers ce tableau de bord",
+    "source": "b072d72670",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.linksTo": {
+    "text": "Liens vers {dashboard}",
+    "source": "6c180816c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.made": {
+    "text": "Lien créé",
+    "source": "7bc94b050d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.nameHint": {
+    "text": "Facultatif. Vous seul le voyez, dans votre liste de liens.",
+    "source": "029eee9509",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.namePlaceholder": {
+    "text": "Pour la baby-sitter",
+    "source": "ab075af2cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.once": {
+    "text": "Copiez-le maintenant. Tiledash ne garde qu’une empreinte du lien et ne peut pas le réafficher. Perdu ? Révoquez-le et créez-en un autre.",
+    "source": "76d2934fe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.qr": {
+    "text": "Code QR du lien vers {dashboard}",
+    "source": "ddd04aaa7e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.revokingWorks": {
+    "text": "La révocation est immédiate.",
+    "source": "cce9033bfe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.rulesTitle": {
+    "text": "Ce que ce lien peut faire",
+    "source": "e0a0b8f863",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.scan": {
+    "text": "Scannez-le avec un téléphone pour l’y ouvrir.",
+    "source": "67ae08abb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.title": {
+    "text": "Partager {dashboard}",
+    "source": "4c9017f1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.upgrade": {
+    "text": "Passer à Pro",
+    "source": "acb320d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.worksFor": {
+    "text": "Durée de validité",
+    "source": "dd8110e999",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.aDay": {
+    "text": "Un jour",
+    "source": "087fcff3ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.aWeek": {
+    "text": "Une semaine",
+    "source": "a2f81034eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.canControl": {
+    "text": "Peut commander",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.expired": {
+    "text": "Expiré {when}",
+    "source": "11a689ecb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.expires": {
+    "text": "Expire {when}",
+    "source": "68347ab762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.linkTo": {
+    "text": "Lien vers {dashboard}",
+    "source": "40e44cb5b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.never": {
+    "text": "Sans limite",
+    "source": "6300ef800b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.neverExpires": {
+    "text": "N’expire jamais",
+    "source": "6a9894204c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.notUsed": {
+    "text": "Pas encore utilisé",
+    "source": "9de87487a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.openNow": {
+    "text": "{on, select, yes {Ouvert en ce moment · {device}} other {Ouvert en ce moment}}",
+    "source": "102ff7978a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.targetDashboard": {
+    "text": "Tableau de bord · {dashboard}",
+    "source": "89f25db0a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.targetPanel": {
+    "text": "Écran mural · {panel}",
+    "source": "cfe1597608",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.used": {
+    "text": "{on, select, yes {Utilisé {when} · {device}} other {Utilisé {when}}}",
+    "source": "cbc14b3be1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.viewOnly": {
+    "text": "Consultation seule",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.changedNow": {
+    "text": "Le changement est immédiat.",
+    "source": "affb22c2cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.copyFailed": {
+    "text": "Impossible de copier le lien : sélectionnez-le et copiez-le vous-même.",
+    "source": "1fd11a8d9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.loadFailed": {
+    "text": "Impossible de charger vos liens et écrans.",
+    "source": "4ec7c01826",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.loadLinksFailed": {
+    "text": "Impossible de charger les liens.",
+    "source": "b5fb111e1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.makeFailed": {
+    "text": "Impossible de créer le lien.",
+    "source": "245b82f550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.panelsFailed": {
+    "text": "Impossible de charger vos écrans muraux.",
+    "source": "ede1f889ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.removeFailed": {
+    "text": "Impossible d’effectuer cette action.",
+    "source": "37b332bb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokeFailed": {
+    "text": "Impossible de révoquer le lien.",
+    "source": "943efdcc80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revoked": {
+    "text": "Révoqué",
+    "source": "f6f738d043",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokedBody": {
+    "text": "Il a cessé de fonctionner aussitôt, même là où il était ouvert.",
+    "source": "3bd82c556c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokedName": {
+    "text": "Lien révoqué : {name}",
+    "source": "6f0c4e9ea7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.themeFailed": {
+    "text": "Impossible de changer son thème.",
+    "source": "a69f85fa51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.unpaired": {
+    "text": "Écran dissocié : {name}",
+    "source": "07638a0cff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.unpairedBody": {
+    "text": "Il est revenu à sa page d’association.",
+    "source": "93e242de08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.usedBy": {
+    "text": "{link}, sur {dashboard}",
+    "source": "377cf64182",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.wears": {
+    "text": "{name} affiche le thème {theme}",
+    "source": "fc0624ff85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.wearsOwn": {
+    "text": "{name} reprend son propre thème",
+    "source": "44e1b20a83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.actionFor": {
+    "text": "{action, select, unpair {Dissocier {name}} remove {Retirer {name}} other {Révoquer {name}}}",
+    "source": "0207a4af6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.can": {
+    "text": "Autorisé : ",
+    "source": "9e662fa280",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.canControl": {
+    "text": "Peut commander",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.cannot": {
+    "text": "Interdit : ",
+    "source": "98cab392ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.controlLink": {
+    "text": "Lumières, prises et thermostat. Ni Flows ni serrures.",
+    "source": "d010574880",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.controlScreen": {
+    "text": "Tout ce que font les tuiles de l’écran.",
+    "source": "b81e1646bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.keep": {
+    "text": "Garder",
+    "source": "183f00f483",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.made": {
+    "text": "Créé",
+    "source": "45a5300c04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.ownTheme": {
+    "text": "Le sien",
+    "source": "5307bb2df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.pausedFree": {
+    "text": "En pause · au-delà de la limite Free",
+    "source": "1871b53dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.qr": {
+    "text": "Code QR du lien",
+    "source": "98ab52d40d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.remove": {
+    "text": "Retirer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.removeBody": {
+    "text": "Il a déjà expiré et n’ouvre donc plus rien. Ceci le retire simplement de la liste.",
+    "source": "bb9a45660a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.removeTitle": {
+    "text": "Retirer {name} ?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revoke": {
+    "text": "Révoquer",
+    "source": "87e6d00bbf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeBody": {
+    "text": "Toute personne ayant ce lien perd {dashboard} aussitôt, même page ouverte. Il ne peut pas être réactivé ; créez plutôt un nouveau lien.",
+    "source": "390f6ae33c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeNow": {
+    "text": "Révoquer maintenant ?",
+    "source": "3aaeec570e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeTitle": {
+    "text": "Révoquer {name} ?",
+    "source": "ac32fedf0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyChecked": {
+    "text": "Vérifié à chaque fois",
+    "source": "af6897270e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCheckedText": {
+    "text": "Chaque appui depuis un lien ou un écran est revérifié sur notre serveur selon ce qu’il a le droit de faire.",
+    "source": "f73cc48fa6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCodes": {
+    "text": "Codes à usage unique",
+    "source": "fd12737883",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCodesText": {
+    "text": "Un code d’association vaut 10 minutes, une seule fois. Après trop d’erreurs, l’association est suspendue.",
+    "source": "56b75cbf7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyLogin": {
+    "text": "Jamais vos identifiants",
+    "source": "d5cd0c0796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyLoginText": {
+    "text": "Un lien ou un écran reçoit une clé pour un seul tableau de bord ou écran mural. Jamais vos identifiants Tiledash ni Homey.",
+    "source": "5ba74dc81b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyRevoke": {
+    "text": "Révocation immédiate",
+    "source": "e67b0764ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyRevokeText": {
+    "text": "Révoquez un lien ou dissociez un écran : il est déconnecté en quelques secondes, même ouvert.",
+    "source": "69db7c22d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyTitle": {
+    "text": "Comment le partage reste sûr",
+    "source": "a9637d3a13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.theme": {
+    "text": "Thème",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.themeButton": {
+    "text": "Thème…",
+    "source": "3f3b89ceb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.themeFor": {
+    "text": "Thème de {name}",
+    "source": "55164d1432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unnamed": {
+    "text": "Lien sans nom",
+    "source": "e582ee4d7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpair": {
+    "text": "Dissocier",
+    "source": "10be2fd8bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpairBody": {
+    "text": "Il cesse aussitôt d’afficher {panel} et revient à sa page d’association. Sa clé est supprimée ; pour le réutiliser, associez-le avec un nouveau code.",
+    "source": "6322a128d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpairTitle": {
+    "text": "Dissocier {name} ?",
+    "source": "a0396a24b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.untilUnpair": {
+    "text": "Jusqu’à sa dissociation",
+    "source": "4f178fae0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewLink": {
+    "text": "Valeurs en direct. Les appuis sont sans effet.",
+    "source": "aeeddc0e35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewOnly": {
+    "text": "Consultation seule",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewScreen": {
+    "text": "L’écran, en direct. Les appuis sont sans effet.",
+    "source": "c2e15e2da6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.whatItCanDo": {
+    "text": "Ce qu’il peut faire",
+    "source": "55e8e93ff5",
     "by": "ai",
     "reviewed": false
   },

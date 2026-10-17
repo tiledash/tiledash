@@ -1,4 +1,160 @@
 {
+  "shell.aiSetup.address": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt1": {
+    "text": "Dans ChatGPT, activez le mode développeur (dans Paramètres, sous Applications et Paramètres avancés ; les forfaits concernés et l’emplacement changent de temps en temps).",
+    "source": "3a79efbfc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt2": {
+    "text": "Choisissez Créer, nommez-le Tiledash, collez l’adresse ci-dessous et choisissez OAuth (laissez l’ID client et le secret vides).",
+    "source": "10595a399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt3": {
+    "text": "Connectez-vous avec votre compte Homey et autorisez l’accès.",
+    "source": "40987708e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude1": {
+    "text": "Dans Claude (claude.ai ou l’app), ouvrez Paramètres → Connecteurs → Ajouter un connecteur personnalisé. En forfait Team ou Enterprise, un propriétaire l’ajoute d’abord (Paramètres d’administration).",
+    "source": "441bd6c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude2": {
+    "text": "Nommez-le Tiledash et collez l’adresse ci-dessous.",
+    "source": "13f65c0cac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude3": {
+    "text": "Choisissez Connecter : Tiledash vous demande de vous connecter avec votre compte Homey et d’autoriser l’accès.",
+    "source": "dcde30803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude4": {
+    "text": "Dans un chat, demandez à Claude de l’aide pour un widget. Il peut l’afficher en direct dans son navigateur.",
+    "source": "f7e5bb8458",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode1": {
+    "text": "Lancez la commande ci-dessous dans un terminal.",
+    "source": "48eb753e55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode2": {
+    "text": "Dans Claude Code, lancez /mcp et choisissez Tiledash pour vous connecter.",
+    "source": "e09ea093b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.command": {
+    "text": "Commande",
+    "source": "713166971d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor1": {
+    "text": "Ajoutez le serveur à ~/.cursor/mcp.json (ou .cursor/mcp.json dans un projet).",
+    "source": "0d599291ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor2": {
+    "text": "Cursor affiche Tiledash sous Settings → MCP avec un bouton de connexion.",
+    "source": "092e3b0c87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode1": {
+    "text": "Ajoutez le serveur à .vscode/mcp.json dans votre projet (ou dans vos paramètres utilisateur).",
+    "source": "16a64516d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode2": {
+    "text": "Démarrez-le depuis le fichier, ou avec MCP: List Servers. VS Code ouvre Tiledash pour vous connecter.",
+    "source": "f1a80c1734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode3": {
+    "text": "Utilisez-le depuis Copilot Chat en mode agent.",
+    "source": "4789093257",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copied": {
+    "text": "Copié",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copyFailed": {
+    "text": "Copie impossible : sélectionnez-le et copiez-le vous-même.",
+    "source": "806d0b93da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailed": {
+    "text": "Impossible de déconnecter {app}.",
+    "source": "65700ea76e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailedUnnamed": {
+    "text": "Impossible de déconnecter l’application.",
+    "source": "631c8dd837",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnected": {
+    "text": "{app} déconnecté : sa clé et ses liens d’aperçu ne fonctionnent plus",
+    "source": "3b8edccf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectedUnnamed": {
+    "text": "L’application est déconnectée : sa clé et ses liens d’aperçu sont coupés",
+    "source": "6026df5bce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.loadFailed": {
+    "text": "Impossible de charger vos applications connectées.",
+    "source": "981a4dd978",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsFailed": {
+    "text": "Impossible de modifier l’envoi des appuis à votre Homey.",
+    "source": "83ae24c348",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOff": {
+    "text": "Les appuis sont de nouveau simulés",
+    "source": "de63f4a9ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOn": {
+    "text": "Les appuis vont à votre Homey pendant une heure",
+    "source": "b0be0e805d",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.adminCaption": {
     "text": "Tout Tiledash",
     "source": "35759a6dee",

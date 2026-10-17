@@ -1,4 +1,70 @@
 {
+  "account.accessRules.linkControl": {
+    "text": "Lampen en stopcontacten schakelen en de thermostaat instellen op dit dashboard",
+    "source": "c16d3307f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkNoFlows": {
+    "text": "Flows starten, sloten openen, het alarm aanzetten of garagedeuren openen",
+    "source": "c57c37be65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkNoOthers": {
+    "text": "Je andere dashboards, apparaten of account zien",
+    "source": "feeb06b2a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.linkSee": {
+    "text": "{dashboard} live zien, terwijl het verandert",
+    "source": "0e8c3462f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.noChange": {
+    "text": "Iets wijzigen: tikken doet niets",
+    "source": "c5d5ef7674",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.noLogin": {
+    "text": "Je inloggegevens of die van je Homey krijgen",
+    "source": "266873e32e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenControl": {
+    "text": "Alles wat de tegels van het paneel doen, ook flows en sloten",
+    "source": "c290bb52ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenKeeps": {
+    "text": "Blijven werken als je ergens anders uitlogt",
+    "source": "031c948d3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenNoEdit": {
+    "text": "Dashboards bewerken, andere wandpanelen of je account openen",
+    "source": "de82f15bee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenShow": {
+    "text": "Het wandpaneel {panel} en zijn dashboards tonen, live",
+    "source": "7a941c2012",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.accessRules.screenShowChosen": {
+    "text": "Het gekozen wandpaneel en zijn dashboards tonen, live",
+    "source": "380a043756",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.deleteFailed": {
     "text": "Je account kon niet worden verwijderd. Er is niets veranderd; probeer het opnieuw.",
     "source": "c0d2d41027",
@@ -86,6 +152,174 @@
   "account.actions.tryLater": {
     "text": "Probeer het zo nog eens.",
     "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow0": {
+    "text": "Je eigen widgets en partials lezen en wijzigen, en hun geschiedenis zien",
+    "source": "ce5a152aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow1": {
+    "text": "Testapparaten maken en wijzigen",
+    "source": "9e70dd2145",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow2": {
+    "text": "Je apparaten lezen: hun namen, soorten, eigenschappen en huidige meetwaarden",
+    "source": "2c2d5f6c4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow3": {
+    "text": "De namen van je thema’s lezen",
+    "source": "2742fd64c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.appLine": {
+    "text": "van {host} · gekoppeld op {date} · {used, select, yes {gebruikt {lastUsed}} other {nog niet gebruikt}}{links, plural, =0 {} one { · # voorbeeldlink} other { · # voorbeeldlinks}}",
+    "source": "34a43f92dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.askDisconnect": {
+    "text": "{app} ontkoppelen? De voorbeeldlinks stoppen dan ook.",
+    "source": "6bffd6399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.assistant": {
+    "text": "Assistent",
+    "source": "391e405152",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.canSwitch": {
+    "text": "{app} kan {device} schakelen tot {time}",
+    "source": "007bc7d081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.connectTitle": {
+    "text": "Een assistent koppelen",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.connected": {
+    "text": "Gekoppeld",
+    "source": "22965568d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.copied": {
+    "text": "Gekopieerd",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.copy": {
+    "text": "Kopiëren",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny0": {
+    "text": "Je apparaten schakelen of flows starten (alleen jij kunt tikken in een voorbeeld een uur doorlaten)",
+    "source": "2a48357995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny1": {
+    "text": "Je geschiedenis, dashboards, facturatie of account lezen",
+    "source": "9e1d025f01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny2": {
+    "text": "Je Homey-wachtwoord of tokens zien",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.deny3": {
+    "text": "Bij de widgets van anderen komen",
+    "source": "a2404a1adf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.disconnect": {
+    "text": "Ontkoppelen",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.free": {
+    "text": "Widgets bouwen met een assistent kan met Pro. Je kunt nu al koppelen; het werkt zodra je Pro hebt.",
+    "source": "c53014012c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.keep": {
+    "text": "Behouden",
+    "source": "183f00f483",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.lead": {
+    "text": "Bouw en verfijn je widgets met de AI die je al gebruikt: Claude, ChatGPT, Copilot in VS Code, Cursor. Koppel hem één keer; je logt in met je Homey-account en hij krijgt een sleutel die alleen voor jouw widgets werkt.",
+    "source": "1e34df424b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.none": {
+    "text": "Nog geen assistent gekoppeld. Koppel er hieronder een.",
+    "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewOn": {
+    "text": "<b>{widget}</b> · voorbeeld op {device}",
+    "source": "b692e8ca1c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewOnTest": {
+    "text": "<b>{widget}</b> · voorbeeld met testgegevens",
+    "source": "5c127cd724",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.rulesTitle": {
+    "text": "Wat een gekoppelde assistent kan",
+    "source": "359ac6ab3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.send": {
+    "text": "Tikken naar mijn Homey sturen",
+    "source": "5c94977258",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.sendLabel": {
+    "text": "Tikken uit het voorbeeld van {app} naar mijn Homey sturen",
+    "source": "0334ad7226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.simulated": {
+    "text": "Tikken blijven gesimuleerd",
+    "source": "324712ac73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.upgrade": {
+    "text": "Upgraden",
+    "source": "7ec0261b8e",
     "by": "ai",
     "reviewed": false
   },
@@ -743,6 +977,270 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.configBackup.busy": {
+    "text": "Er loopt al een import, of er waren veel pogingen in het afgelopen uur. Probeer het later opnieuw.",
+    "source": "26ffb75fe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.downloadFailed": {
+    "text": "Back-up kon niet worden gedownload",
+    "source": "2a26e0f1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.downloadTooOften": {
+    "text": "Je hebt er net een paar keer een gedownload (5 per uur). Probeer het later opnieuw.",
+    "source": "4d5de7b772",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.noRoom": {
+    "text": "Je plan heeft geen ruimte voor alles wat je koos. Er is niets veranderd.",
+    "source": "c8c88b8919",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.readFailed": {
+    "text": "Het bestand kon niet worden gelezen",
+    "source": "81df2a6873",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.restoreFailed": {
+    "text": "Terugzetten is niet afgerond. Er is niets veranderd. Probeer het opnieuw.",
+    "source": "912513319f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.tryLater": {
+    "text": "Probeer het zo nog eens.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.unreachable": {
+    "text": "Tiledash was niet bereikbaar. Er is niets veranderd.",
+    "source": "29075a6f2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configBackup.yourHomey": {
+    "text": "je Homey",
+    "source": "32fccec15b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.alreadyHereDetail": {
+    "text": "Wat je hier hebt, blijft zoals het is.",
+    "source": "7cad8620b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.alreadyHereTitle": {
+    "text": "Hier al ingesteld",
+    "source": "129cfecaea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.childTilesDetail": {
+    "text": "De widget heeft hier geen tegelinstelling met die naam, dus deze tegels blijven achter.",
+    "source": "d8345752ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.childTilesTitle": {
+    "text": "Tegels in widgets zonder plek ervoor",
+    "source": "ee5b24ae69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.connectDetail": {
+    "text": "Deze back-up is voor {homey}, die niet aan dit account is gekoppeld. Koppel hem en kies het bestand opnieuw.",
+    "source": "7f2e334441",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.connectTitle": {
+    "text": "Koppel eerst {homey}",
+    "source": "0d495de74d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.damagedDetail": {
+    "text": "Misschien is het niet helemaal gedownload. Kies een andere back-up.",
+    "source": "ee758181f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.damagedTitle": {
+    "text": "Dit bestand kan niet worden gelezen",
+    "source": "5fdf7a4ffe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.emptiedDetail": {
+    "text": "De tegel komt mee en vraagt er opnieuw om.",
+    "source": "95d835474f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.emptiedTitle": {
+    "text": "Instellingen met iets wat deze Homey niet heeft",
+    "source": "1b79976a96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.group": {
+    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} other {{count, plural, one {# opname} other {# opnames}}}}",
+    "source": "d5339b17f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.groupName": {
+    "text": "{key, select, alerts {Meldingsregels} energy {Energie-instellingen} other {Accountinstellingen}}",
+    "source": "160e121d86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.homeyMissingDetail": {
+    "text": "De dashboards, wandpanelen en energie-instellingen ervan blijven achter. Koppel hem en zet opnieuw terug.",
+    "source": "59696dc07a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.homeyMissingTitle": {
+    "text": "Een Homey die hier niet is gekoppeld",
+    "source": "cabc25b8dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.limit": {
+    "text": "{key, select, dashboards {Je plan heeft ruimte voor {room} dashboards; je hebt er {have} en koos er {adding}.} recordings {Je plan heeft ruimte voor {room} opnames; je hebt er {have} en koos er {adding}.} themes {Je plan heeft ruimte voor {room} eigen thema’s; je hebt er {have} en koos er {adding}.} widgets {Je plan heeft ruimte voor {room} eigen widgets; je hebt er {have} en koos er {adding}.} other {Je plan heeft ruimte voor {room} afbeeldingen; je hebt er {have} en koos er {adding}.}}",
+    "source": "52b2eed793",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.missingDeviceDetail": {
+    "text": "Deze tegels blijven achter.",
+    "source": "742121bdc7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.missingDeviceTitle": {
+    "text": "Tegels waarvan het apparaat niet op deze Homey staat",
+    "source": "96c2add6c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.namesMore": {
+    "text": "{first}, {second} en nog {count}",
+    "source": "c0167fb70a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.needsProDetail": {
+    "text": "Eigen thema’s, widgets, partials en testapparaten hebben hier Pro nodig.",
+    "source": "f8bdad3d03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.needsProTitle": {
+    "text": "Alleen Pro",
+    "source": "52ec204947",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.notConfigDetail": {
+    "text": "Kies een bestand gemaakt met Back-up downloaden (Account → Back-up van je inrichting). Je gegevens downloaden geeft een andere zip, die je niet kunt terugzetten.",
+    "source": "b8473c9fbc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.notConfigTitle": {
+    "text": "Dit is geen back-up van Tiledash",
+    "source": "cda9cd5db6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.partialKeptDetail": {
+    "text": "Die van jou blijven; de widgets die ze tonen, gebruiken die van jou.",
+    "source": "7b84ec3cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.partialKeptTitle": {
+    "text": "Partials die je al hebt met een andere template",
+    "source": "a8048c6333",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restore": {
+    "text": "Terugzetten",
+    "source": "a76e13b983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restoreDashboards": {
+    "text": "{count, plural, one {# dashboard terugzetten} other {# dashboards terugzetten}}",
+    "source": "8a1179b34d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.restoreDashboardsMore": {
+    "text": "{count, plural, one {# dashboard en meer terugzetten} other {# dashboards en meer terugzetten}}",
+    "source": "54f7b56a67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.storeDetail": {
+    "text": "Installeer ze hier uit de community; een thema valt tot die tijd terug op de standaard.",
+    "source": "36f6a42ae1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.storeTitle": {
+    "text": "Uit de community",
+    "source": "e40f81313b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.syncingDetail": {
+    "text": "Tiledash leest de apparaten, Flows en sferen van {homey}, om de tegels eraan te koppelen. Dit duurt een minuut.",
+    "source": "b5cdc30d17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.syncingTitle": {
+    "text": "{homey} wordt nog ingelezen",
+    "source": "778f6a15fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooLargeDetail": {
+    "text": "Een back-up is maximaal 64 MB. Controleer of je het juiste bestand koos.",
+    "source": "086e12303d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooLargeTitle": {
+    "text": "Dit bestand is te groot",
+    "source": "9ac87b3379",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooNewDetail": {
+    "text": "Deze back-up komt uit een nieuwere versie van Tiledash, dus je kunt hem hier niet terugzetten.",
+    "source": "1fb692e66f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.tooNewTitle": {
+    "text": "Gemaakt met een nieuwere Tiledash",
+    "source": "747fffe5f0",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.credits.copyright": {
     "text": "Auteursrecht van OpenStreetMap",
     "source": "e5ee1cf66a",
@@ -899,6 +1397,282 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.importDialog.adds": {
+    "text": "Komt bij wat je hebt; hier verandert niets.",
+    "source": "4452f514f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.all": {
+    "text": "Alle",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.also": {
+    "text": "<b>Ook:</b> {made}.",
+    "source": "3c3e260869",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.alsoBring": {
+    "text": "Ook meenemen",
+    "source": "83a6f818ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.anotherFile": {
+    "text": "Ander bestand",
+    "source": "2d7b141433",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.cantCome": {
+    "text": "Wat niet mee kan",
+    "source": "aa036d0e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.checkAgain": {
+    "text": "Opnieuw controleren",
+    "source": "fb7099ad8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.chooseAnother": {
+    "text": "Ander bestand kiezen",
+    "source": "26eac8f8c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.chooseFile": {
+    "text": "Bestand kiezen…",
+    "source": "5c6623857c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.close": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.connectHomey": {
+    "text": "Homey koppelen",
+    "source": "8775fded59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.dashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.done": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.drop": {
+    "text": "Sleep de back-up hierheen",
+    "source": "0087a0f658",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.exported": {
+    "text": "<b>{file}</b> · geëxporteerd op {date}",
+    "source": "21852c57c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.failedBody": {
+    "text": "Er is niets teruggezet en hier is niets veranderd. Probeer het opnieuw of kies een andere back-up.",
+    "source": "dbbe78b525",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyConnected": {
+    "text": "{homey} · hier gekoppeld",
+    "source": "f1d94dbc79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyNotConnected": {
+    "text": "{homey} · hier niet gekoppeld",
+    "source": "7c5450af2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.homeyNotHere": {
+    "text": "Homey ontbreekt",
+    "source": "651e46d4d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.issue": {
+    "text": "<b>{title}.</b> {detail}",
+    "source": "b86a8118da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.lead": {
+    "text": "Zet dashboards, wandpanelen, thema’s en widgets terug uit een back-up. Wat je kiest, komt naast wat je hebt; niets wat je nu hebt, verandert.",
+    "source": "cedc0aa1de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.matching": {
+    "text": "De tegels koppelen aan de apparaten van je Homey.",
+    "source": "b6bd4491a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.neededBy": {
+    "text": "Nodig voor {dashboards}",
+    "source": "32028b16f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.needsPro": {
+    "text": "Hier is Pro nodig",
+    "source": "5f57ce1dc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.noHistory": {
+    "text": "Een back-up bevat geen vastgelegde geschiedenis: opnames beginnen opnieuw vanaf het moment dat je terugzet.",
+    "source": "5fc26b6883",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.open": {
+    "text": "Openen",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.orChoose": {
+    "text": "of kies het bestand (tiledash-backup-….zip)",
+    "source": "0e63753999",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overBody": {
+    "text": "{limit} Vink er een paar uit, of ga naar Pro.",
+    "source": "080ab922d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overFooter": {
+    "text": "Meer dan in je plan past: vink er een paar uit.",
+    "source": "68714cc914",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.overTitle": {
+    "text": "Meer dan in je plan past",
+    "source": "84761dc08b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.reading": {
+    "text": "{file} lezen…",
+    "source": "f62d3dea1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.ready": {
+    "text": "{count, plural, one {# dashboard is klaar. Opnames beginnen nu opnieuw.} other {# dashboards zijn klaar. Opnames beginnen nu opnieuw.}}",
+    "source": "b06793f322",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.seePro": {
+    "text": "Bekijk Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.stayedBehind": {
+    "text": "Wat is achtergebleven",
+    "source": "92b0060487",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step1": {
+    "text": "Een back-up maak je via <b>Account</b> → <b>Back-up van je inrichting</b> → <b>Back-up downloaden</b>.",
+    "source": "1617c3b844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step2": {
+    "text": "Koppel hier eerst dezelfde Homey.",
+    "source": "1ec8ab3e94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step2Connected": {
+    "text": "Koppel hier dezelfde Homey. <b>{homey}</b> is gekoppeld",
+    "source": "eb204e4487",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.step3": {
+    "text": "Kies het bestand, bekijk wat er terugkomt en zet het terug.",
+    "source": "aeafe50991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tiles": {
+    "text": "{count, plural, one {# tegel} other {# tegels}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tilesStay": {
+    "text": "{count, plural, one {# tegel blijft achter} other {# tegels blijven achter}}",
+    "source": "49a37b0d10",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.title": {
+    "text": "Back-up terugzetten",
+    "source": "96276c8b3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.titleBlocked": {
+    "text": "Dit bestand kan niet worden teruggezet",
+    "source": "28e91c5589",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.titleDone": {
+    "text": "Je inrichting is terug",
+    "source": "052e7553f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.tryAgain": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.importDialog.wallPanels": {
+    "text": "Wandpanelen",
+    "source": "bee64c8441",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.keepChoices.daysAgo": {
     "text": "{count} dagen geleden geopend",
     "source": "399e7a924e",
@@ -944,6 +1718,108 @@
   "account.keepChoices.yesterday": {
     "text": "Gisteren geopend",
     "source": "38d598afde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.all": {
+    "text": "Alle · {count}",
+    "source": "440116eff5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.bothFull": {
+    "text": "Je deellink en gekoppelde scherm zijn allebei in gebruik. Maak ruimte door de link in te trekken of het scherm te ontkoppelen, of neem Pro voor zoveel als je wilt.",
+    "source": "1e5d6968c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.emptyBody": {
+    "text": "Deel een dashboard via zijn ⋯-menu, alleen bekijken of met bediening. Of koppel een tablet om een wandpaneel te tonen zonder erop in te loggen.",
+    "source": "e9884f0562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.emptyTitle": {
+    "text": "Er is niets gedeeld",
+    "source": "03313b3c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.expiredDontCount": {
+    "text": "Verlopen links tellen niet mee.",
+    "source": "303c80ca4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.fullTitle": {
+    "text": "Free heeft één link en één scherm",
+    "source": "e4df6445fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.linkFull": {
+    "text": "Je ene deellink is in gebruik. Trek hem in om op een andere manier te delen, of neem Pro voor zoveel links als je wilt.",
+    "source": "5e635c12db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.links": {
+    "text": "Links · {count}",
+    "source": "6e4ffed082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.listLabel": {
+    "text": "Links en schermen",
+    "source": "e5b768d15f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.pair": {
+    "text": "Scherm koppelen",
+    "source": "81c090b365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.pairedScreens": {
+    "text": "Gekoppelde schermen",
+    "source": "580a9c64b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.proNote": {
+    "text": "Met Pro zoveel links en schermen als je wilt.",
+    "source": "b5587f33f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.screenFull": {
+    "text": "Je ene gekoppelde scherm is in gebruik. Ontkoppel het om een ander te koppelen, of neem Pro voor een scherm in elke kamer.",
+    "source": "f69acd8939",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.screens": {
+    "text": "Schermen · {count}",
+    "source": "0cbe56b251",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.shareLinks": {
+    "text": "Deellinks",
+    "source": "16ce9683d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.show": {
+    "text": "Tonen",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.linksScreens.upgrade": {
+    "text": "Upgrade naar Pro",
+    "source": "acb320d7f3",
     "by": "ai",
     "reviewed": false
   },
@@ -1298,6 +2174,180 @@
   "account.page.welcomePro": {
     "text": "Welkom bij Pro",
     "source": "86e148d1df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.aScreen": {
+    "text": "Een scherm",
+    "source": "d0a58876a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.askedFor": {
+    "text": "Vroeg {when} om code <code>{code}</code>",
+    "source": "2940405caa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.back": {
+    "text": "Terug",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.code": {
+    "text": "Code",
+    "source": "340f463033",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.dashboards": {
+    "text": "{count, plural, one {# dashboard} other {# dashboards}}",
+    "source": "400c1fb0db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.description": {
+    "text": "Open {address} op de tablet of het scherm. Typ de code die daar staat.",
+    "source": "e83c13f509",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.descriptionConfirm": {
+    "text": "Het krijgt een eigen sleutel voor één wandpaneel. Verder niets van jou.",
+    "source": "fa83a1e76f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.itCan": {
+    "text": "Het kan",
+    "source": "f79b3f0da0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.justNow": {
+    "text": "zojuist",
+    "source": "7ddb44d8a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.letters": {
+    "text": "Codes gebruiken geen O, 0, I, 1, S of B. Kijk nog eens op het scherm.",
+    "source": "552970e828",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.nameHint": {
+    "text": "Zo staat het onder Links en schermen.",
+    "source": "a5b3b9cf4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.namePlaceholder": {
+    "text": "Tablet {panel}",
+    "source": "f7d01003f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.namePlaceholderNone": {
+    "text": "Tablet in de gang",
+    "source": "f7a30ab1e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.newPanel": {
+    "text": "Nieuw",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.next": {
+    "text": "Volgende",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.once": {
+    "text": "Een code werkt één keer, 10 minuten lang. Het scherm krijgt niets tot je bevestigt in de volgende stap.",
+    "source": "ebe09c967d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.pair": {
+    "text": "Scherm koppelen",
+    "source": "0968e9f564",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.paused": {
+    "text": "Koppelen is even gepauzeerd om gokkers buiten te houden. Probeer het over {time} opnieuw.",
+    "source": "5f86601288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.rulesTitle": {
+    "text": "Wat dit scherm straks kan",
+    "source": "f1798565f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.runs": {
+    "text": "Het toont {panel} tot je het ontkoppelt, hier of op het scherm zelf.",
+    "source": "27d1e4b651",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.runsNone": {
+    "text": "Het toont het wandpaneel tot je het ontkoppelt, hier of op het scherm zelf.",
+    "source": "e6661a81e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.title": {
+    "text": "Scherm koppelen",
+    "source": "81c090b365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.titleConfirm": {
+    "text": "Wat moet dit scherm tonen?",
+    "source": "9931be73a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.tooMany": {
+    "text": "Te veel pogingen",
+    "source": "c33b778ba5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wallPanel": {
+    "text": "Wandpaneel",
+    "source": "f447698e2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wrong": {
+    "text": "Die code werkt niet. Misschien is hij verlopen: het scherm toont elke 10 minuten een nieuwe.",
+    "source": "43977cb518",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.pairScreen.wrongTries": {
+    "text": "{count, plural, one {Die code werkt niet. Misschien is hij verlopen: het scherm toont elke 10 minuten een nieuwe. Nog # poging voordat koppelen pauzeert.} other {Die code werkt niet. Misschien is hij verlopen: het scherm toont elke 10 minuten een nieuwe. Nog # pogingen voordat koppelen pauzeert.}}",
+    "source": "0f35a0999e",
     "by": "ai",
     "reviewed": false
   },
@@ -2396,6 +3446,582 @@
   "account.screen.whatsNewTab": {
     "text": "Wat is er nieuw",
     "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.all": {
+    "text": "Alle links en schermen",
+    "source": "66c5674f6f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.another": {
+    "text": "Nog een maken",
+    "source": "e54a14dfda",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.cameras": {
+    "text": "Camerategels tonen live beeld. Daarbij ziet de browser van je gast het internetadres van je huis.",
+    "source": "aaca782b6c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.close": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.copied": {
+    "text": "Gekopieerd",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.copy": {
+    "text": "Link kopiëren",
+    "source": "dbf362d4f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.create": {
+    "text": "Link maken",
+    "source": "e6b850cff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.description": {
+    "text": "Iedereen met de link opent dit dashboard, zonder account of Homey. Verder gaat er niets van jou mee.",
+    "source": "aaf9240405",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.done": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.fullBody": {
+    "text": "{used, select, yes {Hij is in gebruik: {usedBy}. Trek hem in om een nieuwe te maken, of neem Pro om zoveel dashboards op zoveel manieren te delen als je wilt.} other {Trek hem in om een nieuwe te maken, of neem Pro om zoveel dashboards op zoveel manieren te delen als je wilt.}}",
+    "source": "6e7f02426c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.fullTitle": {
+    "text": "Free heeft één deellink",
+    "source": "80379b7e82",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.linksLabel": {
+    "text": "Links naar dit dashboard",
+    "source": "b072d72670",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.linksTo": {
+    "text": "Links naar {dashboard}",
+    "source": "6c180816c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.made": {
+    "text": "Link gemaakt",
+    "source": "7bc94b050d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.nameHint": {
+    "text": "Optioneel. Alleen jij ziet hem, in je lijst met links.",
+    "source": "029eee9509",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.namePlaceholder": {
+    "text": "Voor de oppas",
+    "source": "ab075af2cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.once": {
+    "text": "Kopieer hem nu. Tiledash bewaart alleen een vingerafdruk van de link en kan hem dus niet opnieuw tonen. Kwijt? Trek hem in en maak een nieuwe.",
+    "source": "76d2934fe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.qr": {
+    "text": "QR-code van de link naar {dashboard}",
+    "source": "ddd04aaa7e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.revokingWorks": {
+    "text": "Intrekken werkt meteen.",
+    "source": "cce9033bfe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.rulesTitle": {
+    "text": "Wat deze link kan",
+    "source": "e0a0b8f863",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.scan": {
+    "text": "Scan hem met een telefoon om hem daar te openen.",
+    "source": "67ae08abb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.title": {
+    "text": "{dashboard} delen",
+    "source": "4c9017f1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.upgrade": {
+    "text": "Upgrade naar Pro",
+    "source": "acb320d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.worksFor": {
+    "text": "Geldig",
+    "source": "dd8110e999",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.aDay": {
+    "text": "Een dag",
+    "source": "087fcff3ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.aWeek": {
+    "text": "Een week",
+    "source": "a2f81034eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.canControl": {
+    "text": "Kan bedienen",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.expired": {
+    "text": "Verlopen: {when}",
+    "source": "11a689ecb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.expires": {
+    "text": "Verloopt {when}",
+    "source": "68347ab762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.linkTo": {
+    "text": "Link naar {dashboard}",
+    "source": "40e44cb5b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.never": {
+    "text": "Altijd",
+    "source": "6300ef800b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.neverExpires": {
+    "text": "Verloopt nooit",
+    "source": "6a9894204c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.notUsed": {
+    "text": "Nog niet gebruikt",
+    "source": "9de87487a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.openNow": {
+    "text": "{on, select, yes {Nu open · {device}} other {Nu open}}",
+    "source": "102ff7978a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.targetDashboard": {
+    "text": "Dashboard · {dashboard}",
+    "source": "89f25db0a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.targetPanel": {
+    "text": "Wandpaneel · {panel}",
+    "source": "cfe1597608",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.used": {
+    "text": "{on, select, yes {Laatst gebruikt {when} · {device}} other {Laatst gebruikt {when}}}",
+    "source": "cbc14b3be1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharing.viewOnly": {
+    "text": "Alleen bekijken",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.changedNow": {
+    "text": "Het is meteen veranderd.",
+    "source": "affb22c2cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.copyFailed": {
+    "text": "Kopiëren lukte niet: selecteer de link en kopieer hem zelf.",
+    "source": "1fd11a8d9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.loadFailed": {
+    "text": "Je links en schermen konden niet worden geladen.",
+    "source": "4ec7c01826",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.loadLinksFailed": {
+    "text": "De links konden niet worden geladen.",
+    "source": "b5fb111e1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.makeFailed": {
+    "text": "De link kon niet worden gemaakt.",
+    "source": "245b82f550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.panelsFailed": {
+    "text": "Je wandpanelen konden niet worden geladen.",
+    "source": "ede1f889ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.removeFailed": {
+    "text": "Dat lukte niet.",
+    "source": "37b332bb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokeFailed": {
+    "text": "De link kon niet worden ingetrokken.",
+    "source": "943efdcc80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revoked": {
+    "text": "Ingetrokken",
+    "source": "f6f738d043",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokedBody": {
+    "text": "Hij werkte meteen niet meer, ook waar hij open was.",
+    "source": "3bd82c556c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.revokedName": {
+    "text": "{name} ingetrokken",
+    "source": "6f0c4e9ea7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.themeFailed": {
+    "text": "Het thema kon niet worden gewijzigd.",
+    "source": "a69f85fa51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.unpaired": {
+    "text": "{name} ontkoppeld",
+    "source": "07638a0cff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.unpairedBody": {
+    "text": "Het toont weer zijn koppelpagina.",
+    "source": "93e242de08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.usedBy": {
+    "text": "{link}, op {dashboard}",
+    "source": "377cf64182",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.wears": {
+    "text": "{name} gebruikt nu {theme}",
+    "source": "fc0624ff85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingActions.wearsOwn": {
+    "text": "{name} gebruikt weer zijn eigen thema",
+    "source": "44e1b20a83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.actionFor": {
+    "text": "{action, select, unpair {{name} ontkoppelen} remove {{name} verwijderen} other {{name} intrekken}}",
+    "source": "0207a4af6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.can": {
+    "text": "Kan: ",
+    "source": "9e662fa280",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.canControl": {
+    "text": "Kan bedienen",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.cannot": {
+    "text": "Kan niet: ",
+    "source": "98cab392ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.controlLink": {
+    "text": "Lampen, stopcontacten en de thermostaat. Geen flows of sloten.",
+    "source": "d010574880",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.controlScreen": {
+    "text": "Alles wat de tegels van het paneel doen.",
+    "source": "b81e1646bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.keep": {
+    "text": "Houden",
+    "source": "183f00f483",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.made": {
+    "text": "Gemaakt",
+    "source": "45a5300c04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.ownTheme": {
+    "text": "Eigen thema",
+    "source": "5307bb2df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.pausedFree": {
+    "text": "Gepauzeerd · boven de limiet van Free",
+    "source": "1871b53dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.qr": {
+    "text": "QR-code van de link",
+    "source": "98ab52d40d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.remove": {
+    "text": "Verwijderen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.removeBody": {
+    "text": "Hij is al verlopen en opent dus niets meer. Dit haalt hem alleen van de lijst.",
+    "source": "bb9a45660a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.removeTitle": {
+    "text": "{name} verwijderen?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revoke": {
+    "text": "Intrekken",
+    "source": "87e6d00bbf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeBody": {
+    "text": "Iedereen met deze link verliest {dashboard} meteen, ook met de pagina open. Hij kan niet weer aan; maak in plaats daarvan een nieuwe link.",
+    "source": "390f6ae33c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeNow": {
+    "text": "Nu intrekken?",
+    "source": "3aaeec570e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.revokeTitle": {
+    "text": "{name} intrekken?",
+    "source": "ac32fedf0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyChecked": {
+    "text": "Elke keer gecontroleerd",
+    "source": "af6897270e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCheckedText": {
+    "text": "Onze server controleert elke tik van een link of scherm opnieuw op wat die mag.",
+    "source": "f73cc48fa6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCodes": {
+    "text": "Codes werken één keer",
+    "source": "fd12737883",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyCodesText": {
+    "text": "Een koppelcode werkt 10 minuten en maar één keer. Te veel foute pogingen en koppelen pauzeert.",
+    "source": "56b75cbf7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyLogin": {
+    "text": "Nooit je inloggegevens",
+    "source": "d5cd0c0796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyLoginText": {
+    "text": "Een link of scherm krijgt een sleutel voor één dashboard of één wandpaneel. Nooit je inloggegevens van Tiledash of je Homey.",
+    "source": "5ba74dc81b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyRevoke": {
+    "text": "Intrekken werkt meteen",
+    "source": "e67b0764ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyRevokeText": {
+    "text": "Trek een link in of ontkoppel een scherm, en binnen seconden is de verbinding weg, ook als hij open is.",
+    "source": "69db7c22d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.safetyTitle": {
+    "text": "Zo blijft delen veilig",
+    "source": "a9637d3a13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.theme": {
+    "text": "Thema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.themeButton": {
+    "text": "Thema…",
+    "source": "3f3b89ceb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.themeFor": {
+    "text": "Thema voor {name}",
+    "source": "55164d1432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unnamed": {
+    "text": "Link zonder naam",
+    "source": "e582ee4d7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpair": {
+    "text": "Ontkoppelen",
+    "source": "10be2fd8bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpairBody": {
+    "text": "Het toont {panel} meteen niet meer en gaat terug naar zijn koppelpagina. De sleutel wordt verwijderd; wil je het weer gebruiken, koppel het dan met een nieuwe code.",
+    "source": "6322a128d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.unpairTitle": {
+    "text": "{name} ontkoppelen?",
+    "source": "a0396a24b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.untilUnpair": {
+    "text": "Tot je het ontkoppelt",
+    "source": "4f178fae0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewLink": {
+    "text": "Live waarden. Tikken doet niets.",
+    "source": "aeeddc0e35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewOnly": {
+    "text": "Alleen bekijken",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.viewScreen": {
+    "text": "Het paneel, live. Tikken doet niets.",
+    "source": "c2e15e2da6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.sharingParts.whatItCanDo": {
+    "text": "Wat het kan",
+    "source": "55e8e93ff5",
     "by": "ai",
     "reviewed": false
   },

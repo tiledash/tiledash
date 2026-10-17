@@ -165,6 +165,11 @@ terms:
       - editor.peopleValues.loadingTitle
       # "reading order", the order a page is read in.
       - editor.sizeScope.followsPhone
+      # Reading a backup file or a Homey's devices.
+      - account.configImport.syncingTitle
+      - account.configImport.syncingDetail
+      - account.importDialog.reading
+      - editor.timelineValues.loadingTitle
     nl: { preferred: meetwaarde }
     de: { preferred: Messwert }
     es: { preferred: lectura }
@@ -172,6 +177,8 @@ terms:
   # Added 2026-10-17 from what the translators chose for the login pages (approved by the user).
   - term: plan
     meaning: A Tiledash subscription level (Free or Pro) and what it allows.
+    # Claude's and ChatGPT's own plans, in the steps to connect them.
+    except: [shell.aiSetup.claude1, shell.aiSetup.chatgpt1]
     nl: { preferred: plan, notes: '"abonnement" only where the English says subscription.' }
     de: { preferred: Tarif }
     es: { preferred: plan }
