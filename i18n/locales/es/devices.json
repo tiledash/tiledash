@@ -1,0 +1,1250 @@
+{
+  "devices.card.addLabel": {
+    "text": "Añadir {device} a un dashboard",
+    "source": "d5e1b4bdb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.addTip": {
+    "text": "Añadir a un dashboard",
+    "source": "1a73c1dcd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.open": {
+    "text": "Abrir {device}",
+    "source": "2f9be586ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.switchOther": {
+    "text": "{device}: {capability}",
+    "source": "325686df2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.switchPower": {
+    "text": "Encendido de {device}",
+    "source": "3b399b25b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.unavailable": {
+    "text": "No disponible",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.euroNote": {
+    "text": "Precios en euros, convertidos con el cambio diario del BCE si pagas en otra moneda.",
+    "source": "f08cd510b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.example": {
+    "text": "{market} en el mercado pasa a ser {price} por kWh",
+    "source": "61411c698e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.from": {
+    "text": "Hora a hora, de {provider}; los de mañana llegan hacia las {time}.",
+    "source": "1cc9a42569",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.markup": {
+    "text": "Margen del proveedor",
+    "source": "7af5b1ebd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.markupHint": {
+    "text": "Sin IVA",
+    "source": "1753eaeb08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.tax": {
+    "text": "Impuesto energético",
+    "source": "81a47e22a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.taxHint": {
+    "text": "Con IVA",
+    "source": "12f166f8d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.vat": {
+    "text": "IVA",
+    "source": "4885a17383",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.vatHint": {
+    "text": "Sobre el precio de mercado y el margen",
+    "source": "68fc517d3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneField": {
+    "text": "Tu país o zona",
+    "source": "c302933fd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneLabel": {
+    "text": "Zona de oferta",
+    "source": "03033b8a2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneName": {
+    "text": "{zone, select, NL {Países Bajos} BE {Bélgica} DELU {Alemania y Luxemburgo} FR {Francia} AT {Austria} DK1 {Dinamarca, oeste} DK2 {Dinamarca, este} NO1 {Noruega, Oslo} SE3 {Suecia, Estocolmo} SE4 {Suecia, Malmö} FI {Finlandia} PL {Polonia} ES {España} PT {Portugal} ITNORD {Italia, norte} other {{zone}}}",
+    "source": "ce584a85c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.loadFailed": {
+    "text": "No se pudieron cargar los ajustes de energía",
+    "source": "caa32aaee3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.loadFailedBody": {
+    "text": "Comprueba tu conexión e inténtalo de nuevo.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterFailed": {
+    "text": "No se pudo cambiar el contador",
+    "source": "03af8d3d84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterFailedBody": {
+    "text": "Los widgets de energía siguen contando lo mismo que antes. Inténtalo de nuevo.",
+    "source": "3df4e7acc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSaved": {
+    "text": "{name}: cambios guardados",
+    "source": "85703a8c76",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedOff": {
+    "text": "Los widgets de energía lo dejan fuera.",
+    "source": "29d45b5576",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedOn": {
+    "text": "Los widgets de energía lo cuentan a partir de ahora.",
+    "source": "8e788f10e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedStopped": {
+    "text": "Se dejó de registrar el contador anterior para hacer sitio.",
+    "source": "9f395f9501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.powerNow": {
+    "text": "{power} W ahora",
+    "source": "8e711ba749",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.saveFailed": {
+    "text": "No se pudieron guardar los ajustes de energía",
+    "source": "80f1338dff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.saveFailedBody": {
+    "text": "Los dashboards mantienen los precios que tenían. Revísalos e inténtalo de nuevo.",
+    "source": "9e621b9389",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.tryAgain": {
+    "text": "Reintentar",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energySettings.description": {
+    "text": "Tus precios y lo que cuentan los widgets de energía.",
+    "source": "24bae7a626",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energySettings.title": {
+    "text": "Ajustes de energía",
+    "source": "a624d28319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.day": {
+    "text": "Día",
+    "source": "8f2364e11b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.dayNight": {
+    "text": "Día y noche",
+    "source": "8b1a00de93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.label": {
+    "text": "Tarifa",
+    "source": "cbaa1d8c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.night": {
+    "text": "Noche",
+    "source": "4e9f8db824",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.nightFrom": {
+    "text": "Noche desde",
+    "source": "78982d33da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.price": {
+    "text": "Precio",
+    "source": "93c91c851e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.priceHint": {
+    "text": "Todo incluido, por kWh",
+    "source": "1aa0faea8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.single": {
+    "text": "Un solo precio",
+    "source": "aa855fd22b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.until": {
+    "text": "Hasta",
+    "source": "7caf856e80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.weekends": {
+    "text": "Fines de semana a tarifa nocturna",
+    "source": "47dfaf1024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.stopOld": {
+    "text": "Dejar de registrar el contador anterior para hacer sitio",
+    "source": "e3d71287e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.stopOldHint": {
+    "text": "También se borra su historial; solo los registros que inició Tiledash.",
+    "source": "bde7082a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.title": {
+    "text": "Al guardar",
+    "source": "04fff5c519",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.carEnergy": {
+    "text": "Energía cargada",
+    "source": "25dfa39d16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.charged": {
+    "text": "Cargada y entregada",
+    "source": "3df75c2346",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.chargedDetail": {
+    "text": "Sus dos contadores",
+    "source": "4283c83b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.counterDetail": {
+    "text": "Su contador",
+    "source": "00bba9691a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.daily": {
+    "text": "Contadores de hoy",
+    "source": "81354e16aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.dailyDetail": {
+    "text": "Cargada y entregada hoy, vuelve a 0 a medianoche",
+    "source": "5c11df48b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.gas": {
+    "text": "Gas",
+    "source": "e23a445d0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.in": {
+    "text": "Solo entrada",
+    "source": "eaf8528920",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inDetail": {
+    "text": "Lo que entra; la energía devuelta no se cuenta",
+    "source": "00f37060a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inOut": {
+    "text": "Entrada y salida",
+    "source": "87632e2cb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inOutDetail": {
+    "text": "Dos contadores: lo que entra y lo que se devuelve",
+    "source": "66e197b11a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.m3Detail": {
+    "text": "Su contador, en m³",
+    "source": "632f9d722a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.power": {
+    "text": "Solo potencia",
+    "source": "29fe80b510",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.powerDetail": {
+    "text": "{kind, select, solar {Sin contador de energía: lo producido se calcula con su potencia, algo menos exacto} battery {Sin contador de energía: lo cargado y entregado se calcula con su potencia, algo menos exacto} other {Sin contador de energía: lo cargado se calcula con su potencia, algo menos exacto}}",
+    "source": "bf4fbfb255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.solarEnergy": {
+    "text": "Energía producida",
+    "source": "00c7e45195",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.total": {
+    "text": "Un solo total",
+    "source": "16b1317e6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totalDetail": {
+    "text": "Un contador: el gasto no distingue lo que se devolvió",
+    "source": "596950acb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totals": {
+    "text": "Totales",
+    "source": "6bd6df68b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totalsDetail": {
+    "text": "Cargada y entregada desde su instalación",
+    "source": "21571a9cb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.water": {
+    "text": "Agua",
+    "source": "7ca7dea906",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.alsoFor": {
+    "text": "También {meter}",
+    "source": "ba4366fa84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.estimated": {
+    "text": "Estimado",
+    "source": "b774599a9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.found": {
+    "text": "Detectado",
+    "source": "b0ee315f4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.howLabel": {
+    "text": "Cómo cuenta {device}",
+    "source": "cbbda442c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.now": {
+    "text": "Actual",
+    "source": "fe18013d93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.unavailable": {
+    "text": "No disponible",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.goneBody": {
+    "text": "Eliminado o emparejado de nuevo: no cuenta nada hasta que elijas otro",
+    "source": "f6a11277ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.goneTitle": {
+    "text": "Ya no está en tu Homey",
+    "source": "a1ee641eec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.noMatch": {
+    "text": "Nada coincide con «{query}».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.noRoom": {
+    "text": "Sin habitación",
+    "source": "369ba41e5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.othersHidden": {
+    "text": "Mostrar otros dispositivos con contador de energía ({count, number})",
+    "source": "4bbaa96026",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.othersShown": {
+    "text": "Otros dispositivos con contador de energía",
+    "source": "48eb684034",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.remove": {
+    "text": "Quitarlo",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.search": {
+    "text": "Buscar dispositivos o habitaciones",
+    "source": "1f360850b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.addsUpDetail": {
+    "text": "Lo que cuenta cada uno se suma en todos los widgets de energía.",
+    "source": "5d6b386168",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.addsUpTitle": {
+    "text": "{kind, select, solar {{count, plural, one {# inversor se suma} other {# inversores se suman}}} battery {{count, plural, one {# batería se suma} other {# baterías se suman}}} other {{count, plural, one {# cargador se suma} other {# cargadores se suman}}}}",
+    "source": "3dee649a53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.foundTitle": {
+    "text": "Sigue a tu Homey",
+    "source": "eee8178242",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.fullDetail": {
+    "text": "{count, plural, one {{names} no se registra} other {{names} no se registran}}: los widgets muestran lo actual, sin totales ni comparaciones. Detén uno en Registros{pro, select, yes { o ten {proLimit} con Pro} other {}}.",
+    "source": "aa3f00f3da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.fullTitle": {
+    "text": "{free, select, yes {Free permite {limit} registros} other {Tu plan permite {limit} registros}}, {left, plural, =0 {todos en uso} one {queda #} other {quedan #}}",
+    "source": "987de41a53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.keepsDetail": {
+    "text": "Se registra desde el {date}; sigue en Registros y en sus gráficos, y se sigue registrando hasta que lo detengas allí.",
+    "source": "c57ac64009",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.keepsTitle": {
+    "text": "{device} conserva su historial",
+    "source": "58a446de98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.notRecorded": {
+    "text": "Sin registrar",
+    "source": "b37c7879f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.offDetail": {
+    "text": "{kind, select, grid {Los widgets de energía no muestran nada de electricidad.} gas {Los widgets de energía no muestran nada de gas.} water {Los widgets de energía no muestran nada de agua.} solar {Los widgets de energía no muestran nada de energía solar.} battery {Los widgets de energía no muestran nada de la batería de casa.} other {Los widgets de energía no muestran nada de la carga del coche.}} Energy flow también lo omite, salvo que un mosaico haya elegido sus propios dispositivos.",
+    "source": "01a86a85b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.offTitle": {
+    "text": "{name} queda fuera",
+    "source": "9322682ce2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partFresh": {
+    "text": "{count, plural, one {{names} aún no tiene historial: las horas antes de las {time} quedan vacías y los días anteriores aparecen sin registrar hasta que lo haya.} other {{names} aún no tienen historial: las horas antes de las {time} quedan vacías y los días anteriores aparecen sin registrar hasta que lo haya.}}",
+    "source": "5a8d9c7486",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partFrom": {
+    "text": "{device} cuenta desde las {time}, cuando empieza su historial.",
+    "source": "e3aa6fa4ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partWhole": {
+    "text": "{count, plural, one {{names} cuenta desde medianoche.} other {{names} cuentan desde medianoche.}}",
+    "source": "ff5710cf43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partlyRecorded": {
+    "text": "Registrado en parte",
+    "source": "31b3e4de21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.recordedSinceDate": {
+    "text": "Se registra desde el {date}",
+    "source": "ed11f33c6c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.recordedSinceTime": {
+    "text": "Se registra desde las {time}",
+    "source": "bd9f94b64f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.startsDetail": {
+    "text": "{added, plural, one {# registro más} other {# registros más}}: {used} de {limit} en uso{free, select, yes { en Free} other {}}.",
+    "source": "d178a1b0da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.startsTitle": {
+    "text": "Empieza el registro de {names}",
+    "source": "5e121dde63",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.stopsDetail": {
+    "text": "{count, plural, one {Su historial desde el {date} también se borra, y deja sitio para # registro.} other {Su historial desde el {date} también se borra, y deja sitio para # registros.}}",
+    "source": "75893719e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.stopsTitle": {
+    "text": "Se deja de registrar {device}",
+    "source": "e594f1e13d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromNow": {
+    "text": "Hoy cuenta a partir de ahora",
+    "source": "d21a4e1dcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromNowFor": {
+    "text": "Hoy cuenta a partir de ahora para {names}",
+    "source": "9d9bf7ef5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromTime": {
+    "text": "Hoy cuenta desde las {time}",
+    "source": "4276936475",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromTimeFor": {
+    "text": "Hoy cuenta desde las {time} para {device}",
+    "source": "a6bc634876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayWholeDetail": {
+    "text": "Desde medianoche, y los días anteriores hasta donde llega el historial ({date}).",
+    "source": "0af8f6ce92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayWholeTitle": {
+    "text": "Los totales de hoy se recalculan con el historial de {names}",
+    "source": "813c3b13e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.count": {
+    "text": "{kind, select, solar {{count, plural, one {# inversor} other {# inversores}}} battery {{count, plural, one {# batería} other {# baterías}}} car {{count, plural, one {# cargador} other {# cargadores}}} other {{count, plural, one {# contador} other {# contadores}}}}",
+    "source": "d4248619e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.follows": {
+    "text": "{kind, select, grid {Un nuevo contador inteligente en tu Homey lo sustituye automáticamente.} gas {Un nuevo contador de gas en tu Homey lo sustituye automáticamente.} water {Un nuevo contador de agua en tu Homey lo sustituye automáticamente.} solar {Un nuevo inversor en tu Homey se suma automáticamente.} battery {Una nueva batería de casa en tu Homey se suma automáticamente.} other {Un nuevo cargador en tu Homey se suma automáticamente.}}",
+    "source": "e68899e373",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.lookingFor": {
+    "text": "{kind, select, grid {Tiledash busca un contador que cuente lo que entra de la red (y lo que se devuelve). Añade uno a tu Homey y aparecerá aquí.} gas {Tiledash busca un dispositivo que cuente gas en m³ (meter_gas), como un medidor P1 o una caldera. Añade uno a tu Homey y aparecerá aquí.} water {Tiledash busca un dispositivo que cuente agua en m³ (meter_water), como un HomeWizard Watermeter. Añade uno a tu Homey y aparecerá aquí.} solar {Tiledash busca un inversor o paneles solares. Añade uno a tu Homey y aparecerá aquí.} battery {Tiledash busca una batería de casa que cuente lo que carga y entrega. Añade una a tu Homey y aparecerá aquí.} other {Tiledash busca un cargador de coche que cuente la energía que entrega. Añade uno a tu Homey y aparecerá aquí.}}",
+    "source": "c1016e6748",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.nothingCounts": {
+    "text": "{kind, select, grid {Nada en este Homey cuenta la electricidad} gas {Nada en este Homey cuenta el gas} water {Nada en este Homey cuenta el agua} solar {Nada en este Homey cuenta la energía solar} battery {Nada en este Homey cuenta la batería de casa} other {Nada en este Homey cuenta la carga del coche}}",
+    "source": "085ae3bfe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.title": {
+    "text": "{kind, select, grid {Electricidad} gas {Gas} water {Agua} solar {Solar} battery {Batería de casa} other {Coche}}",
+    "source": "4ceaf53b3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.cancel": {
+    "text": "Cancelar",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.chosenBody": {
+    "text": "{kind, select, solar {Los inversores que marques abajo se suman y se quedan hasta que los cambies.} battery {Las baterías que marques abajo se suman y se quedan hasta que las cambies.} car {Los cargadores que marques abajo se suman y se quedan hasta que los cambies.} other {El contador que elijas abajo, hasta que lo cambies.}}",
+    "source": "348c5b0507",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.chosenTitle": {
+    "text": "Elegido por ti",
+    "source": "e4b802b7ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.description": {
+    "text": "{kind, select, grid {Qué dispositivo cuenta como electricidad en todos los widgets de energía de este Homey.} gas {Qué dispositivo cuenta como gas en todos los widgets de energía de este Homey.} water {Qué dispositivo cuenta como agua en todos los widgets de energía de este Homey.} solar {Qué dispositivos cuentan como energía solar en todos los widgets de energía de este Homey. Varios se suman.} battery {Qué dispositivos cuentan como batería de casa en todos los widgets de energía de este Homey. Varios se suman.} other {Qué dispositivos cuentan como carga del coche en todos los widgets de energía de este Homey. Varios se suman.}}",
+    "source": "d0d0c33c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.emptyPick": {
+    "text": "{several, select, yes {Marca uno o más para contarlos, o elige «Ninguno».} other {Marca uno para contarlo o elige «Ninguno».}}",
+    "source": "b901885b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.emptyUnchanged": {
+    "text": "Aún no cambia nada. Marca un dispositivo o elige otra opción arriba; aquí verás lo que hace guardar.",
+    "source": "4608fb2ee4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundBody": {
+    "text": "{devices}. Sigue a tu Homey.",
+    "source": "28e7650468",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundNone": {
+    "text": "Aún no se ha encontrado nada; el que aparezca contará automáticamente.",
+    "source": "0dc100db94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundTitle": {
+    "text": "Detección automática",
+    "source": "f64e12a6d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.modesLabel": {
+    "text": "{kind, select, grid {Cómo se cuenta la electricidad} gas {Cómo se cuenta el gas} water {Cómo se cuenta el agua} solar {Cómo se cuenta la energía solar} battery {Cómo se cuenta la batería de casa} other {Cómo se cuenta la carga del coche}}",
+    "source": "0d73816408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.offBody": {
+    "text": "{kind, select, grid {Dejar la electricidad fuera de los widgets de energía.} gas {Dejar el gas fuera de los widgets de energía.} water {Dejar el agua fuera de los widgets de energía.} solar {Dejar la energía solar fuera de los widgets de energía.} battery {Dejar la batería de casa fuera de los widgets de energía.} other {Dejar la carga del coche fuera de los widgets de energía.}}",
+    "source": "edd45e3b91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.offTitle": {
+    "text": "Ninguno",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.save": {
+    "text": "Guardar",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryChosen": {
+    "text": "Has elegido {devices}",
+    "source": "7c0ccf9502",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryFound": {
+    "text": "{devices}, por detección automática",
+    "source": "0646e61f40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryNothing": {
+    "text": "Aún no cuenta nada",
+    "source": "ef640db7ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryOff": {
+    "text": "{name} queda fuera",
+    "source": "b3570f22a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryOnlyGone": {
+    "text": "Solo un dispositivo borrado: marca otro o elige «Detección automática»",
+    "source": "f290c89c8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryPick": {
+    "text": "{several, select, yes {Marca uno o más, o elige «Ninguno»} other {Marca uno o elige «Ninguno»}}",
+    "source": "4798d9884d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.title": {
+    "text": "{name} · qué cuenta",
+    "source": "562e8cfa50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.change": {
+    "text": "Cambiar",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.choose": {
+    "text": "Elegir",
+    "source": "c7f937836f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.chooseAnother": {
+    "text": "Elegir otro",
+    "source": "8a2bca07ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.chosenBadge": {
+    "text": "Elegido por ti",
+    "source": "e4b802b7ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.foundBadge": {
+    "text": "Detección automática",
+    "source": "f64e12a6d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.mightFit": {
+    "text": "{count, plural, one {No se detectó nada · # dispositivo podría servir} other {No se detectó nada · # dispositivos podrían servir}}",
+    "source": "3b938d406d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.noneHere": {
+    "text": "Ninguno en este Homey",
+    "source": "ed52d3ba81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.off": {
+    "text": "Fuera: los widgets de energía no muestran nada de esto",
+    "source": "d9982010ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.offBadge": {
+    "text": "Ninguno",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.addingUp": {
+    "text": "{kind, select, solar {{count, plural, one {# inversor que se suma} other {# inversores que se suman}}} battery {{count, plural, one {# batería que se suma} other {# baterías que se suman}}} other {{count, plural, one {# cargador que se suma} other {# cargadores que se suman}}}}",
+    "source": "86545ac3ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.gone": {
+    "text": "{device} ya no está en tu Homey: no cuenta nada",
+    "source": "1430c78179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.homeyCounts": {
+    "text": "{kind, select, grid {Homey cuenta {names} como electricidad} gas {Homey cuenta {names} como gas} water {Homey cuenta {names} como agua} solar {Homey cuenta {names} como energía solar} battery {Homey cuenta {names} como batería de casa} other {Homey cuenta {names} como carga del coche}}",
+    "source": "e3837a2cfa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.recordingsFull": {
+    "text": "{free, select, yes {Los {limit} registros de Free están todos en uso: detén uno en Registros o pásate a Pro.} other {Tus {limit} registros están todos en uso: detén uno en Registros.}}",
+    "source": "f1d3f3d626",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.source": {
+    "text": "{devices} · {how}",
+    "source": "47929feabd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.unavailable": {
+    "text": "{device} no está disponible: no cuenta nada hasta que vuelva",
+    "source": "2f7eaff332",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.intro": {
+    "text": "Se detectan automáticamente en tu Homey; puedes cambiar cualquiera. Sus lecturas se registran para que los widgets muestren los totales de hoy y los comparen con días anteriores.",
+    "source": "1e82e88a23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.recordings": {
+    "text": "Registros",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.title": {
+    "text": "Qué cuentan los widgets de energía",
+    "source": "c2b6352ed0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.usage": {
+    "text": "{meters, plural, one {Los contadores usan # registro} other {Los contadores usan # registros}}; {free, select, yes {{used} de los {limit} de Free están en uso.} other {{used} de tus {limit} están en uso.}}",
+    "source": "90b0926d03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.page.changeFailedUnnamed": {
+    "text": "No se pudo cambiar el dispositivo",
+    "source": "cb5674c2e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.priceField.invalid": {
+    "text": "No es un precio válido",
+    "source": "82bcf8b60f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.average": {
+    "text": "Media <b>{price}</b>",
+    "source": "dec87e47ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.fallback": {
+    "text": "Tu tarifa fija, porque {source} dejó de responder a las {time}.",
+    "source": "7cfa67b579",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.fixedNote": {
+    "text": "Tu tarifa fija.",
+    "source": "c149340556",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.high": {
+    "text": "Máximo <b>{price}</b> a las {time}",
+    "source": "5019d8da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.low": {
+    "text": "Mínimo <b>{price}</b> a las {time}",
+    "source": "8bece7bf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.now": {
+    "text": "<b>{price}</b>/kWh ahora · {level}",
+    "source": "9a3afd3a41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.updated": {
+    "text": "Actualizado a las {time} desde {source}.",
+    "source": "b85bc94f32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyField": {
+    "text": "Precios y costes en",
+    "source": "6e8c583b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyFromHomey": {
+    "text": "{code}, de tu Homey ({country})",
+    "source": "664d4d377b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyLabel": {
+    "text": "Moneda",
+    "source": "3ac1a9ec4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyTitle": {
+    "text": "Moneda",
+    "source": "3ac1a9ec4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.dayAheadBody": {
+    "text": "El precio de mercado por horas de tu país, más tu margen e impuesto por kWh.",
+    "source": "d11e4f7555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.dayAheadTitle": {
+    "text": "Precios del mercado diario",
+    "source": "a0f878b9d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.downBody": {
+    "text": "Desde las {time}. Tus dashboards muestran tu tarifa fija hasta que vuelva; seguimos intentándolo cada pocos minutos.",
+    "source": "81a74a4a71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.downTitle": {
+    "text": "{source} no responde",
+    "source": "2dfef6e19b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.electricityIntro": {
+    "text": "Lo que cuesta un kWh, hora a hora: los widgets de energía se colorean según él, calculan costes y encuentran las horas más baratas.",
+    "source": "efa5a8f682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.electricityTitle": {
+    "text": "Precio de la electricidad",
+    "source": "1993f13ed1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fallbackSummary": {
+    "text": "Tu tarifa fija: {tariff}",
+    "source": "f7e2ce6dd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fallbackTitle": {
+    "text": "Si no está disponible",
+    "source": "85006dc1c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedIn": {
+    "text": "Precio por energía devuelta",
+    "source": "d822e9612d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedInHint": {
+    "text": "Si está vacío, vale lo que cuesta un kWh esa hora",
+    "source": "ff85d350b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedInTitle": {
+    "text": "Energía que devuelves a la red",
+    "source": "d849968bb2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedAllDay": {
+    "text": "{price} todo el día",
+    "source": "b3f5e498c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedBody": {
+    "text": "Un solo precio, o una tarifa de día y otra de noche.",
+    "source": "34fc3d0699",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedDayNight": {
+    "text": "{day} de día, {night} de {from} a {to}",
+    "source": "89da68c15a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedTitle": {
+    "text": "Tarifa fija",
+    "source": "d4325ae9c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gas": {
+    "text": "Gas",
+    "source": "e23a445d0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gasHint": {
+    "text": "Todo incluido; déjalo vacío para no mostrar costes de gas",
+    "source": "3b974b47aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gasWaterTitle": {
+    "text": "Gas y agua",
+    "source": "2bfbf82500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyBody": {
+    "text": "Los precios dinámicos de Homey Energy, con los recargos de tu proveedor y los impuestos ya incluidos.",
+    "source": "2231480236",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyNeeds": {
+    "text": "Necesita un Homey Pro (2023), Homey Pro mini o Homey Cloud con Homey v12.6 o posterior. Este: {homey}.",
+    "source": "24bbf7c602",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyTitle": {
+    "text": "De tu Homey",
+    "source": "669acda4cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.notOnThisHomey": {
+    "text": "No en este Homey",
+    "source": "97fe8e3088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.recommended": {
+    "text": "Recomendado",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.todayTitle": {
+    "text": "Precios de hoy",
+    "source": "9e5e43719a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.water": {
+    "text": "Agua",
+    "source": "7ca7dea906",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.waterHint": {
+    "text": "1 m³ son 1000 litros",
+    "source": "dd0020bd0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.description": {
+    "text": "{count, plural, one {# dispositivo, en vivo desde tu Homey.} other {# dispositivos, en vivo desde tu Homey.}}",
+    "source": "fabedfb408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupAll": {
+    "text": "Todos",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupClimate": {
+    "text": "Clima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupEnergy": {
+    "text": "Energía",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupLighting": {
+    "text": "Iluminación",
+    "source": "07607d609f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupMedia": {
+    "text": "Multimedia",
+    "source": "d357175cfe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupOther": {
+    "text": "Otros",
+    "source": "f97e9da0e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupSecurity": {
+    "text": "Seguridad",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupsLabel": {
+    "text": "Tipo de dispositivo",
+    "source": "8562a30fdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.noneBody": {
+    "text": "Prueba con otro nombre o tipo de dispositivo.",
+    "source": "c443243a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.noneTitle": {
+    "text": "Sin resultados",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.offlineBody": {
+    "text": "Comprueba que tenga corriente e internet. Seguimos intentándolo.",
+    "source": "3f40312a16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.offlineTitle": {
+    "text": "No se puede conectar con tu Homey",
+    "source": "a07c0e8377",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthAction": {
+    "text": "Iniciar sesión",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthBody": {
+    "text": "Tu sesión de Athom ha caducado, así que no podemos hablar con tu Homey.",
+    "source": "5e4a9837c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthTitle": {
+    "text": "Vuelve a iniciar sesión con Homey",
+    "source": "44cc5d77ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reconnectingBody": {
+    "text": "Los valores pueden ir unos segundos por detrás.",
+    "source": "a857332d3d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reconnectingTitle": {
+    "text": "Reconectando con tu Homey…",
+    "source": "d3926bb226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.search": {
+    "text": "Buscar dispositivos",
+    "source": "3aebaefc3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.title": {
+    "text": "Dispositivos",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  }
+}

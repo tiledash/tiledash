@@ -1,0 +1,1460 @@
+{
+  "viewer.actions.capabilityNeeded": {
+    "text": "Ein Funktionsname ist erforderlich",
+    "source": "65dd6cbec6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeFailed": {
+    "text": "{device} konnte nicht geändert werden",
+    "source": "7f6f34c160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeRefused": {
+    "text": "Ihr Homey hat die Änderung nicht angenommen.",
+    "source": "64483e4e34",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.confirmOk": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNoLonger": {
+    "text": "Dieses Dashboard gibt es nicht mehr",
+    "source": "802794aa5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNotHere": {
+    "text": "Dieses Dashboard ist nicht mehr da",
+    "source": "87a119cef1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceMissing": {
+    "text": "Dieses Gerät ist nicht auf diesem Homey",
+    "source": "4a0a16e476",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceUnavailable": {
+    "text": "{device} ist nicht erreichbar",
+    "source": "a65a3c7c4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowFailed": {
+    "text": "„{name}“ konnte nicht gestartet werden",
+    "source": "809bd3838b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowMissing": {
+    "text": "Dieser Flow ist nicht auf diesem Homey",
+    "source": "e21c99ac9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowNotManual": {
+    "text": "„{name}“ kann nicht manuell gestartet werden",
+    "source": "6543a14d25",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowStarted": {
+    "text": "„{name}“ gestartet",
+    "source": "478ddb4b72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.logInAgain": {
+    "text": "Neu anmelden",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodFailed": {
+    "text": "„{name}“ konnte nicht aktiviert werden",
+    "source": "1c796ba3ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodMissing": {
+    "text": "Diese Stimmung ist nicht auf diesem Homey",
+    "source": "a8dadc15a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodSet": {
+    "text": "Stimmung „{name}“ aktiviert",
+    "source": "264eeaf91c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noCapability": {
+    "text": "{device} hat keine Funktion „{capability}“",
+    "source": "b9f191b898",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noDevice": {
+    "text": "Dieses Widget hat kein Gerät zum Steuern",
+    "source": "4ea30deedd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noValueYet": {
+    "text": "{title} hat noch keinen Wert",
+    "source": "a0fe379149",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notChangeable": {
+    "text": "{title} von {device} kann nicht geändert werden",
+    "source": "a22650c2a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notNumber": {
+    "text": "{title} ist keine Zahl",
+    "source": "dadcc64599",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notSwitch": {
+    "text": "{title} ist kein Schalter",
+    "source": "8fcfd7fe99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.stepNotNumber": {
+    "text": "Die Schrittweite muss eine Zahl sein",
+    "source": "cbb50d59b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableMissing": {
+    "text": "Diese Variable fehlt auf diesem Homey oder ist nicht lesbar",
+    "source": "cfc292a1af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotAllowed": {
+    "text": "Tiledash darf noch keine Logic-Variablen ändern. Bitte neu anmelden und zulassen.",
+    "source": "c5cef397ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotChanged": {
+    "text": "„{name}“ wurde nicht geändert",
+    "source": "c5cd1ce6db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNow": {
+    "text": "{kind, select, on {„{name}“ ist jetzt ein} off {„{name}“ ist jetzt aus} number {„{name}“ ist jetzt {value}} other {„{name}“ ist jetzt „{value}“}}",
+    "source": "7c23dc922f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableRefusesValue": {
+    "text": "„{name}“ akzeptiert diesen Wert nicht",
+    "source": "bc6e57c4e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variablesReadOnly": {
+    "text": "Variablen können hier nicht geändert werden",
+    "source": "40cd47be98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addFailed": {
+    "text": "{device} konnte nicht zu {dashboard} hinzugefügt werden",
+    "source": "cadf20c493",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.added": {
+    "text": "Zu {dashboard} hinzugefügt",
+    "source": "9a4a462421",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addedBody": {
+    "text": "Ganz unten; dort können Sie sie verschieben und anpassen.",
+    "source": "e7f326b162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.loadFailed": {
+    "text": "Ihre Dashboards konnten nicht geladen werden",
+    "source": "53f9ece07c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.noTile": {
+    "text": "Für {device} gibt es noch keine Kachel",
+    "source": "0cf17b286f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSynced": {
+    "text": "Dieses Gerät ist noch nicht synchronisiert",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSyncedBody": {
+    "text": "Warten Sie einen Moment und versuchen Sie es erneut.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.tryAgain": {
+    "text": "Bitte versuchen Sie es erneut.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarm": {
+    "text": "Alarm deaktivieren",
+    "source": "4fa160cd1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmBody": {
+    "text": "Die Alarmanlage wird auf allen Bildschirmen deaktiviert.",
+    "source": "cd902a9148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmConfirm": {
+    "text": "Deaktivieren",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmTitle": {
+    "text": "„{name}“ deaktivieren?",
+    "source": "1128420006",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openCamera": {
+    "text": "Kamera öffnen",
+    "source": "4adab8263a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openDevice": {
+    "text": "Gerät öffnen",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.startFlow": {
+    "text": "„{name}“ starten",
+    "source": "8adce4aae1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.allClear": {
+    "text": "Entwarnung",
+    "source": "96ed94a7e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.barView": {
+    "text": "Ansehen",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.closeToBar": {
+    "text": "Schließen; bleibt oben als Leiste",
+    "source": "7c30804bdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindCo": {
+    "text": "CO-Melder",
+    "source": "8ce4282227",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindContact": {
+    "text": "Türsensor",
+    "source": "a90e004bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindDoorbell": {
+    "text": "Türklingel",
+    "source": "3a3c261519",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindMotion": {
+    "text": "Bewegungsmelder",
+    "source": "07359fd27c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSiren": {
+    "text": "Alarm",
+    "source": "f3b6795735",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSmoke": {
+    "text": "Rauchmelder",
+    "source": "0f119d8840",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindWater": {
+    "text": "Wassermelder",
+    "source": "baeb75217e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.silence": {
+    "text": "Hier stumm schalten",
+    "source": "8cbdf63995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.since": {
+    "text": "Seit {since} · <ago></ago>",
+    "source": "d1c33c8635",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.stoppedAt": {
+    "text": "{headline} um {since}, <ago></ago> beendet",
+    "source": "4079e3e1d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tabsLabel": {
+    "text": "Alarme",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tapForSound": {
+    "text": "Für Ton tippen",
+    "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.addWidget": {
+    "text": "Widget hinzufügen",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictBody": {
+    "text": "Neu laden zeigt die neueste Version. Ihre letzte Änderung wurde nicht gespeichert.",
+    "source": "73e8b06bcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictTitle": {
+    "text": "Dieses Dashboard wurde anderswo geändert",
+    "source": "0e8671b9ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyBody": {
+    "text": "Fügen Sie Widgets für Ihre Geräte, Flows und Stimmungen hinzu und ordnen Sie sie beliebig an.",
+    "source": "c944b021f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyTitle": {
+    "text": "Eine leere Wand",
+    "source": "aabccf0d11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDelete": {
+    "text": "Dashboard löschen…",
+    "source": "dfebfc45b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDuplicate": {
+    "text": "Duplizieren…",
+    "source": "5d202208fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEdit": {
+    "text": "Dashboard bearbeiten",
+    "source": "84e69aa06e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEditNeedsWider": {
+    "text": "Braucht ein breiteres Fenster",
+    "source": "174c693a2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOff": {
+    "text": "E-Ink-Vorschau beenden",
+    "source": "4dc9d4c676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOn": {
+    "text": "Vorschau auf E-Ink",
+    "source": "46337fb14b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuPanel": {
+    "text": "Als Wandpanel nutzen…",
+    "source": "c7b555432c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuPinHide": {
+    "text": "In Seitenleiste ausblenden",
+    "source": "a96ec22ac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuPinShow": {
+    "text": "In Seitenleiste einblenden",
+    "source": "333bbfedde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuRename": {
+    "text": "Name und Symbol…",
+    "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuSettings": {
+    "text": "Dashboard-Einstellungen…",
+    "source": "1ca8cc7349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuShare": {
+    "text": "Teilen…",
+    "source": "51fc2d24df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuStartOff": {
+    "text": "Nicht beim Start öffnen",
+    "source": "a560036e1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuStartOn": {
+    "text": "Beim Start öffnen",
+    "source": "aa8b07ca43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuSummaries": {
+    "text": "Übersichten…",
+    "source": "4fb1a43e9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.opensOnStart": {
+    "text": "Öffnet beim Start",
+    "source": "df10843e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.optionsLabel": {
+    "text": "Dashboard-Optionen",
+    "source": "3e15f369f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.reload": {
+    "text": "Neu laden",
+    "source": "bdc090ec61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.tileCount": {
+    "text": "{count, plural, one {# Kachel} other {# Kacheln}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedBody": {
+    "text": "Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedTitle": {
+    "text": "Das Dashboard konnte nicht geladen werden",
+    "source": "48caa3b699",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.leavePanel": {
+    "text": "Wandpanel verlassen",
+    "source": "e93ef0c6ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingBody": {
+    "text": "Es wurde vielleicht gelöscht oder gehört zu einem anderen Homey.",
+    "source": "a2c06090a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingTitle": {
+    "text": "Dieses Dashboard gibt es hier nicht",
+    "source": "9f6516dab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.toDevices": {
+    "text": "Zu den Geräten",
+    "source": "33486f372e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPopup.openFailed": {
+    "text": "Dieses Dashboard konnte nicht geöffnet werden.",
+    "source": "0c29dc1d84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.controls": {
+    "text": "Steuerung",
+    "source": "799c269135",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.higher": {
+    "text": "Höher",
+    "source": "f20a248eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.lower": {
+    "text": "Niedriger",
+    "source": "4e8bbf3a2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.addToDashboard": {
+    "text": "Zum Dashboard hinzufügen",
+    "source": "81c5e9c7bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.changed": {
+    "text": "Geändert <ago></ago>",
+    "source": "17b9f045cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.days": {
+    "text": "{count, plural, one {# Tag} other {# Tage}}",
+    "source": "52e7b5cd5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.history": {
+    "text": "Verlauf",
+    "source": "0e76960093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.historyOf": {
+    "text": "Verlauf von {reading}",
+    "source": "4cced4dbed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.online": {
+    "text": "Online",
+    "source": "0d21bd5202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.paused": {
+    "text": "Pausiert: Ihr Tarif hat keinen Platz dafür",
+    "source": "2538962bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.planFull": {
+    "text": "{limit, plural, one {Ihr Tarif zeichnet # Messwert auf. Beenden Sie erst einen oder upgraden Sie.} other {Ihr Tarif zeichnet # Messwerte auf. Beenden Sie erst einen oder upgraden Sie.}}",
+    "source": "08d4f7a049",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.readings": {
+    "text": "Messwerte",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordLabel": {
+    "text": "{reading} aufzeichnen",
+    "source": "465b71698f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordMore": {
+    "text": "Mit Pro mehr aufzeichnen",
+    "source": "afd198e64c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordNote": {
+    "text": "Die Aufzeichnung speichert den Verlauf eines Messwerts, damit Widgets Diagramme zeigen können. Wenn Sie sie beenden, wird dieser Verlauf gelöscht.",
+    "source": "1b73ab1861",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordingSince": {
+    "text": "Aufgezeichnet seit {since}",
+    "source": "27d5999369",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionAll": {
+    "text": "Ihr {planName}-Tarif speichert jeden Wert für {raw}, stündlich für {hourly} und täglich für {daily}.",
+    "source": "2444f8d432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRaw": {
+    "text": "Ihr {planName}-Tarif speichert jeden Wert für {raw}.",
+    "source": "a6df985512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawDaily": {
+    "text": "Ihr {planName}-Tarif speichert jeden Wert für {raw} und täglich für {daily}.",
+    "source": "317fc46657",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawHourly": {
+    "text": "Ihr {planName}-Tarif speichert jeden Wert für {raw} und stündlich für {hourly}.",
+    "source": "409f6dcf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.unavailable": {
+    "text": "Nicht erreichbar",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageCount": {
+    "text": "<count>{used} von {limit}</count> Messwerten auf diesem Homey aufgezeichnet",
+    "source": "adc94b128b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageLabel": {
+    "text": "Aufgezeichnete Messwerte auf diesem Homey",
+    "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.years": {
+    "text": "{count, plural, one {# Jahr} other {# Jahre}}",
+    "source": "6689c10961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.devicePopup.pinSaveFailed": {
+    "text": "Die PIN-Aktionen konnten nicht gespeichert werden.",
+    "source": "65e81c73a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.loadFailed": {
+    "text": "Aufzeichnungseinstellungen konnten nicht geladen werden",
+    "source": "7a8f23bf58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSynced": {
+    "text": "Dieses Gerät ist noch nicht synchronisiert",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSyncedBody": {
+    "text": "Warten Sie einen Moment und versuchen Sie es erneut.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.startFailed": {
+    "text": "Aufzeichnung konnte nicht gestartet werden",
+    "source": "fb53a09295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.started": {
+    "text": "Aufzeichnung gestartet",
+    "source": "be3f4838b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopFailed": {
+    "text": "Aufzeichnung konnte nicht beendet werden",
+    "source": "fc4cd9a9fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopped": {
+    "text": "Aufzeichnung beendet",
+    "source": "7105c577db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.tryAgain": {
+    "text": "Bitte versuchen Sie es erneut.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.headingLabel": {
+    "text": "Überschrift {text}",
+    "source": "c4a8518f35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.summariesLabel": {
+    "text": "Übersichten {text}",
+    "source": "96086a8d87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.unavailableWidget": {
+    "text": "Nicht verfügbares Widget",
+    "source": "791c75a3af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.average": {
+    "text": "Durchschnitt",
+    "source": "b38ae2c5b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailDaily": {
+    "text": "Täglich",
+    "source": "b36c2611dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailFine": {
+    "text": "Fein",
+    "source": "fa67303aec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailHourly": {
+    "text": "Stündlich",
+    "source": "eab0cd8fdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailLabel": {
+    "text": "Detailgrad",
+    "source": "fb5f27d545",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.emptyRange": {
+    "text": "In diesem Zeitraum wurde noch nichts aufgezeichnet.",
+    "source": "8ee1ff504a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.highest": {
+    "text": "Höchstwert",
+    "source": "d402ef10d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedText": {
+    "text": "Pro speichert jeden Wert für 30 Tage, stündlich für 2 Jahre und täglich für 10 Jahre.",
+    "source": "2a416551b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedTitle": {
+    "text": "Ihr {planName}-Tarif speichert den Verlauf ab dem {date}",
+    "source": "5f0eecb45b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.linesLabel": {
+    "text": "Linien",
+    "source": "3b26a54274",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.loadFailed": {
+    "text": "Der Verlauf konnte nicht geladen werden.",
+    "source": "9f45dad12c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.lowest": {
+    "text": "Tiefstwert",
+    "source": "5c590931c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingText": {
+    "text": "Die Linie umfasst nur {names}.",
+    "source": "747fb6cd9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingTitle": {
+    "text": "{missing, plural, one {# von {total} Geräten zeichnet „{reading}“ noch nicht auf} other {# von {total} Geräten zeichnen „{reading}“ noch nicht auf}}",
+    "source": "6e9b85229a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.noneRecord": {
+    "text": "Keines dieser Geräte zeichnet „{reading}“ bisher auf.",
+    "source": "65ed464c35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.notRecorded": {
+    "text": "Der Verlauf von „{reading}“ wird noch nicht aufgezeichnet.",
+    "source": "0cfb330d90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.oneDoesNotRecord": {
+    "text": "{name} zeichnet „{reading}“ noch nicht auf.",
+    "source": "1ee3fd5520",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range12h": {
+    "text": "12 Std.",
+    "source": "7b018bf0a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range1y": {
+    "text": "Jahr",
+    "source": "89f6832560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range24h": {
+    "text": "24 Std.",
+    "source": "a00380040f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range30d": {
+    "text": "30 Tage",
+    "source": "ffd7280513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range6h": {
+    "text": "6 Std.",
+    "source": "56a627fb88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range7d": {
+    "text": "7 Tage",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.rangeLabel": {
+    "text": "Zeitraum",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.recordThem": {
+    "text": "Auch aufzeichnen",
+    "source": "308ffee9f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.seePro": {
+    "text": "Pro ansehen",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.showLabel": {
+    "text": "Anzeigen",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitEach": {
+    "text": "Je Gerät",
+    "source": "a7f8c76d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitTotal": {
+    "text": "Gesamt",
+    "source": "c9b3c38247",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.startRecording": {
+    "text": "Aufzeichnung starten",
+    "source": "30756af013",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestDay": {
+    "text": "Höchster Tagesverbrauch",
+    "source": "4addb0cd14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestHour": {
+    "text": "Höchster Stundenverbrauch",
+    "source": "c3fa7ec17e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerDay": {
+    "text": "Durchschnitt pro Tag",
+    "source": "9c07f1febd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerHour": {
+    "text": "Durchschnitt pro Stunde",
+    "source": "93cd552d94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statUsed": {
+    "text": "Verbraucht",
+    "source": "ae7d8dfac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.thisDevice": {
+    "text": "Dieses Gerät",
+    "source": "d052579c6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewMeter": {
+    "text": "Zählerstand",
+    "source": "2293b30e53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewUsage": {
+    "text": "Verbrauch",
+    "source": "8d59829c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pageDots.label": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.body": {
+    "text": "Ihr Free-Tarif hat Platz für {limit, plural, one {# Dashboard} other {# Dashboards}}. Dieses bleibt, wie es ist: Behalten Sie es statt eines anderen oder holen Sie Pro für alle.",
+    "source": "18de3f654d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.goPro": {
+    "text": "Pro holen",
+    "source": "28c0f3aab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.keepInstead": {
+    "text": "Statt eines anderen behalten",
+    "source": "bb73b116ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.title": {
+    "text": "„{name}“ ist pausiert",
+    "source": "7ef5cefa28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.arm": {
+    "text": "Scharf schalten",
+    "source": "d5cb968264",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.armPartly": {
+    "text": "Teilweise scharf",
+    "source": "5d0d9086f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.change": {
+    "text": "{reading} ändern",
+    "source": "6ac831d600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.close": {
+    "text": "Schließen",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.disarm": {
+    "text": "Unscharf schalten",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOff": {
+    "text": "{reading}: aus",
+    "source": "413b32eb97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOn": {
+    "text": "{reading}: ein",
+    "source": "ffdb5e0b1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.heading": {
+    "text": "Vorher nach der PIN fragen",
+    "source": "f7fef065fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.lock": {
+    "text": "Verriegeln",
+    "source": "db44b8db4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.note": {
+    "text": "Wandpanels, gekoppelte Bildschirme, Freigabelinks und die App fragen zuerst nach Ihrer PIN, danach eine Minute lang nicht mehr.",
+    "source": "ba8090300e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.open": {
+    "text": "Öffnen",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptText": {
+    "text": "Geben Sie Ihre PIN ein.",
+    "source": "76e6dc8244",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptTitle": {
+    "text": "{device}: {action}",
+    "source": "fe77433684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setPin": {
+    "text": "PIN festlegen",
+    "source": "c7a8116f31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setTo": {
+    "text": "Auf {choice} setzen",
+    "source": "6a4ff4c3c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOff": {
+    "text": "Ausschalten",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOn": {
+    "text": "Einschalten",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unlock": {
+    "text": "Entriegeln",
+    "source": "4ac709aa58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unset": {
+    "text": "Legen Sie zuerst eine PIN für Ihr Konto fest; bis dahin fragt nichts danach.",
+    "source": "f7cb0e3a68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.description": {
+    "text": "Ein Dashboard als Pop-up.",
+    "source": "7eff77efab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.descriptionAuto": {
+    "text": "Schließt sich von selbst, wenn es unberührt bleibt.",
+    "source": "8da8919ac2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.choose": {
+    "text": "Auswählen…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.chooseElsewhere": {
+    "text": "Wählen Sie es in Tiledash auf diesem Dashboard aus.",
+    "source": "559fed6ab1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.canControl": {
+    "text": "Steuerung erlaubt",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredHint": {
+    "text": "Geteilte Links gelten einen Tag oder eine Woche. Bitten Sie die Person, die ihn geteilt hat, um einen neuen.",
+    "source": "ed4622588f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredTitle": {
+    "text": "Dieser Link ist abgelaufen",
+    "source": "7cb87dcb8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredWorked": {
+    "text": "Er war bis {when} gültig.",
+    "source": "93fbf0def0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintTile": {
+    "text": "Dieser Link kann Lampen und Steckdosen schalten, aber nicht das hier.",
+    "source": "f06f69f4b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintViewOnly": {
+    "text": "Dieser Link zeigt das Dashboard live. Er kann nichts ändern.",
+    "source": "5c0a6c789f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.notOnLink": {
+    "text": "Nicht über diesen Link",
+    "source": "d8cc86fe72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineText": {
+    "text": "Das sind die letzten Werte. Sie aktualisieren sich von selbst, sobald er wieder erreichbar ist.",
+    "source": "0add2feb53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTextSince": {
+    "text": "Das sind die letzten Werte von {time}. Sie aktualisieren sich von selbst, sobald er wieder erreichbar ist.",
+    "source": "76107d9905",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTitle": {
+    "text": "Der Homey dieses Zuhauses ist offline",
+    "source": "507f3586aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkBody": {
+    "text": "Die Person, die ihn geteilt hat, hat ihn vorerst pausiert. Er funktioniert von selbst wieder, sobald sie ihn wieder einschaltet.",
+    "source": "f7a2b280e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkTitle": {
+    "text": "Dieser Link ist pausiert",
+    "source": "5784dd5ecd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenBody": {
+    "text": "Der Besitzer hat ihn vorerst pausiert. Er funktioniert von selbst wieder, sobald er wieder eingeschaltet wird.",
+    "source": "4f3d88e579",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenTitle": {
+    "text": "Dieser Bildschirm ist pausiert",
+    "source": "659dde77a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.reasonFlows": {
+    "text": "Flows bleiben beim Besitzer",
+    "source": "13256c0f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.notPartOfLink": {
+    "text": "Nicht Teil dieses Links",
+    "source": "24344e03ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.ok": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedOnScreen": {
+    "text": "Auf diesem Bildschirm nicht erlaubt",
+    "source": "094263cfe0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedText": {
+    "text": "Unser Server hat das abgelehnt: Der Besitzer hat vielleicht geändert, was dieser Link darf.",
+    "source": "0577bf9f24",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedTitle": {
+    "text": "Über diesen Link nicht erlaubt",
+    "source": "edc4175535",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.unpairFailed": {
+    "text": "Dieser Bildschirm konnte nicht entkoppelt werden. Versuchen Sie es erneut.",
+    "source": "ea00dee3aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedBody": {
+    "text": "Die Person, die ihn geteilt hat, hat ihn ausgeschaltet. Wenn Sie ihn noch brauchen, bitten Sie sie um einen neuen.",
+    "source": "29a7f36a67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedTitle": {
+    "text": "Dieser Link funktioniert nicht mehr",
+    "source": "9b5318fcc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.sharedWithYou": {
+    "text": "Mit Ihnen geteilt",
+    "source": "b447129c6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusLive": {
+    "text": "Live",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusOffline": {
+    "text": "Homey offline",
+    "source": "57b5ecc357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnecting": {
+    "text": "Verbindet neu…",
+    "source": "27b80374e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnectingLabel": {
+    "text": "Verbindet neu",
+    "source": "afb118fcb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.tagline": {
+    "text": "Tiledash · Live-Dashboards für Homey",
+    "source": "d8503664e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.viewOnly": {
+    "text": "Nur ansehen",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.nothingToChart": {
+    "text": "Derzeit keine Daten für ein Diagramm.",
+    "source": "15575c94fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOff": {
+    "text": "Alle ausschalten",
+    "source": "59d74fd7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOn": {
+    "text": "Alle einschalten",
+    "source": "08f6d3f555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOff": {
+    "text": "Alles ist bereits ausgeschaltet",
+    "source": "a2fb318226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOn": {
+    "text": "Alles ist bereits eingeschaltet",
+    "source": "a9f7c48c5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOff": {
+    "text": "Ausschalten",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffDevices": {
+    "text": "{count, plural, one {# Gerät ausschalten?} other {# Geräte ausschalten?}}",
+    "source": "be8a6fb910",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffLights": {
+    "text": "{count, plural, one {# Lampe ausschalten?} other {# Lampen ausschalten?}}",
+    "source": "5016fc027f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOn": {
+    "text": "Einschalten",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnDevices": {
+    "text": "{count, plural, one {# Gerät einschalten?} other {# Geräte einschalten?}}",
+    "source": "f81e13391c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnLights": {
+    "text": "{count, plural, one {# Lampe einschalten?} other {# Lampen einschalten?}}",
+    "source": "395af7406e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.blocked": {
+    "text": "Von Tiledash zur Sicherheit gesperrt. Deinstallieren Sie es oder wählen Sie ein anderes Widget.",
+    "source": "3e0af134be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.deviceGone": {
+    "text": "Das Gerät ist nicht mehr auf Ihrem Homey.",
+    "source": "e09c77c173",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.flowGone": {
+    "text": "Der Flow ist nicht mehr auf Ihrem Homey.",
+    "source": "56a7e315e0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.missingFromCommunity": {
+    "text": "Community-Widget nicht mehr installiert. Installieren Sie es erneut oder wählen Sie ein anderes Widget.",
+    "source": "8e5235c017",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.moodGone": {
+    "text": "Die Stimmung ist nicht mehr auf Ihrem Homey.",
+    "source": "90245cce77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.notInstalled": {
+    "text": "Dieses Widget ist nicht installiert.",
+    "source": "de3252b000",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.openInCommunity": {
+    "text": "In der Community öffnen",
+    "source": "49b02e17df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.ownDeleted": {
+    "text": "Ihr eigenes Widget wurde gelöscht. Entfernen Sie die Kachel oder wählen Sie ein anderes Widget.",
+    "source": "dd2f18d884",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.unavailable": {
+    "text": "Widget nicht verfügbar",
+    "source": "41659b48f2",
+    "by": "ai",
+    "reviewed": false
+  }
+}

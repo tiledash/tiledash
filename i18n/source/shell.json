@@ -1,0 +1,988 @@
+{
+  "shell.layout.adminCaption": {
+    "en": "All of Tiledash",
+    "context": "Small line under the name \"Admin\" at the top of the admin sidebar. It says the admin area is about the whole of Tiledash (all users, not only this account).",
+    "maxLength": 30,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.ctrl": {
+    "en": "Ctrl",
+    "context": "The name of the Control key, written on keyboards that are not from Apple. It is shown in the shortcut of the \"Jump to\" search (Ctrl K) at the top of the sidebar. Use what is printed on the key in the language.",
+    "maxLength": 8,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.foldHint": {
+    "en": "Folded for the editor. Open it here.",
+    "context": "Hint beside the narrow, icons-only sidebar while the widget code editor is open: the sidebar was folded by itself to give the editor room, and the button beside the hint opens it again.",
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.hideSidebar": {
+    "en": "Hide the sidebar",
+    "context": "Menu item of the account menu. It hides the sidebar completely, so a dashboard on a wall screen gets the whole width; a button at the bottom left brings the sidebar back.",
+    "maxLength": 28,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsAccount": {
+    "en": "profile, data, download, delete",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Account\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 70,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsAdmin": {
+    "en": "admin",
+    "context": "Not shown. Extra search words, separated by commas, that make the admin pages in the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 40,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsDevices": {
+    "en": "lights, sensors, homey",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Devices\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including synonyms.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsEditSidebar": {
+    "en": "hide, arrange, groups, folders, menu",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Edit sidebar\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 80,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsEnergy": {
+    "en": "prices, tariff, meters, solar, gas, water",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Energy settings\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including synonyms.",
+    "maxLength": 90,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsLogOut": {
+    "en": "sign out",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Log out\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including other ways to say log out.",
+    "maxLength": 40,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsNewDashboard": {
+    "en": "create, add",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"New dashboard\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including synonyms.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsNewPanel": {
+    "en": "wall panel, tablet, kiosk",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"New wall panel\" entry of the \"Jump to\" search appear when the person types them. A kiosk is a screen that is locked to one dashboard. Give the words people would type in the language.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsNewTheme": {
+    "en": "theme, colours, colors, fonts",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"New theme\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including regional spellings.",
+    "maxLength": 70,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsPanel": {
+    "en": "wall panel, tablet",
+    "context": "Not shown. Extra search words, separated by commas, that make the entries that start a wall panel appear in the \"Jump to\" search when the person types them. Give the words people would type in the language.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsPlan": {
+    "en": "pro, upgrade, billing, subscription",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Plan\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 80,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsRecordings": {
+    "en": "history, tracking, power",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Recordings\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsThemes": {
+    "en": "theme, colours, colors, fonts, look",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Themes\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language, including regional spellings.",
+    "maxLength": 80,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsThisDevice": {
+    "en": "theme, themes, motion, dark, light, appearance, screen",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"This device\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "maxLength": 100,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsWidgets": {
+    "en": "customize, partials, widget editor",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Your widgets\" entry of the \"Jump to\" search appear when the person types them. A partial is a reusable piece shared by several widgets. Give the words people would type in the language.",
+    "maxLength": 70,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.newTheme": {
+    "en": "New theme",
+    "context": "Entry in the \"Jump to\" search that starts making a new theme of the person's own (colours, fonts).",
+    "maxLength": 28,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.paused": {
+    "en": "Paused",
+    "context": "Small quiet detail at the right of a dashboard in the \"Jump to\" search: the dashboard is paused (switched off because the Free plan has fewer dashboards than the person made).",
+    "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.sidebarNotSaved": {
+    "en": "Couldn’t save the sidebar.",
+    "context": "Red message (toast) that appears when saving a change to the sidebar (its tools, dashboards or groups) failed. It is followed by the reason, when one is known.",
+    "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.signupsWaiting": {
+    "en": "{count, plural, one {# signup waiting} other {# signups waiting}}",
+    "context": "Description of the small amber dot beside \"Admin\" in the sidebar, read out by screen readers and shown as a tooltip: people who asked for an account on the waiting list and wait to be let in.",
+    "params": {
+      "count": "The number of people waiting, at least 1."
+    },
+    "maxLength": 110,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.startPanel": {
+    "en": "Start {name}",
+    "context": "Entry in the \"Jump to\" search that starts a wall panel (a tablet or screen on a wall that always shows a dashboard) on this screen.",
+    "params": {
+      "name": "The name of the wall panel. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.storeNew": {
+    "en": "{count} new",
+    "context": "Small count beside \"Community\" in the sidebar: how many updates there are of the widgets, themes and partials the person installed from the community. \"New\" means new versions are available.",
+    "params": {
+      "count": "The number of updates, at least 1."
+    },
+    "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.tiles": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "Small quiet detail at the right of a dashboard in the \"Jump to\" search: how many tiles (widgets) the dashboard has.",
+    "params": {
+      "count": "The number of tiles on the dashboard."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.undo": {
+    "en": "Undo",
+    "context": "Button in the message (toast) that appears after a change to the sidebar, such as hiding a dashboard. It takes the change back.",
+    "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.whatsNew": {
+    "en": "What's new",
+    "context": "Menu item of the account menu at the foot of the sidebar. It opens the page that lists the changes of the latest releases of Tiledash. Other texts refer to this page by this name.",
+    "maxLength": 24,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.whatsNewBadge": {
+    "en": "New",
+    "context": "Small badge next to \"What’s new\" in the account menu while there is a release the person has not seen yet.",
+    "maxLength": 10,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.names.account": {
+    "en": "Account",
+    "context": "Name of the account page: first entry of the account menu at the foot of the sidebar, a result in the \"Jump to\" search, and the name shown for a user whose own name is unknown. Other texts refer to this page by this name, so use the same word.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.admin": {
+    "en": "Admin",
+    "context": "Name of the administration area, only seen by the people who run this Tiledash: a link at the foot of the sidebar that opens the admin sidebar, its heading, and the group of admin pages in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.community": {
+    "en": "Community",
+    "context": "Name of the page where people share widgets, themes and partials with each other (the community store): a link in the sidebar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.dashboards": {
+    "en": "Dashboards",
+    "context": "Name of the sidebar's list of dashboards: its heading, the label of the list for screen readers, and the \"back\" link at the top of the admin sidebar that leads back to the dashboards. Dashboards are the pages of tiles that show the smart home.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.devices": {
+    "en": "Devices",
+    "context": "Name of the page that lists the devices of the Homey (smart-home hub): a link in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.editSidebar": {
+    "en": "Edit sidebar",
+    "context": "Command that lets the person rearrange the sidebar (hide, sort and group what it shows). A menu item in the account menu and in the menu of a sidebar row, a button on the dashboards heading and a result in the \"Jump to\" search. Other texts refer to it by this name.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.energySettings": {
+    "en": "Energy settings",
+    "context": "Name of the page where the person sets energy prices, tariffs and meters: a link in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.jumpTo": {
+    "en": "Jump to…",
+    "context": "Label of the search field at the top of the sidebar and of the search button on a phone: it opens a search to jump to any dashboard or page. The dots mean a search follows. Also the name of the search dialog for screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.newDashboard": {
+    "en": "New dashboard",
+    "context": "Command that starts making a new dashboard: a button in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.newWallPanel": {
+    "en": "New wall panel",
+    "context": "Command that starts making a new wall panel (a tablet or screen on a wall that always shows a dashboard): last entry of the Wall panels section of the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.plan": {
+    "en": "Plan",
+    "context": "Name of the account page's tab about the subscription (Free or Pro). A result in the \"Jump to\" search. Other texts refer to this tab by this name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.recordings": {
+    "en": "Recordings",
+    "context": "Name of the account page's tab that lists which device values Tiledash records the history of. A result in the \"Jump to\" search. Other texts refer to this tab by this name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.themes": {
+    "en": "Themes",
+    "context": "Name of the page where the person manages the looks (colours, fonts) of the app and the dashboards: a link in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.thisDevice": {
+    "en": "This device",
+    "context": "Title of the dialog where the person picks the theme and the amount of motion for this one device (the screen they are looking at), and name of the matching result in the \"Jump to\" search. \"Device\" is the phone, tablet or computer, not a smart-home device.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.thisDeviceMenu": {
+    "en": "This device…",
+    "context": "Menu item of the account menu that opens the dialog for the theme and motion of the screen the person is looking at. The dots mean a dialog follows. It shows the name of the current theme next to it. \"Device\" is the phone, tablet or computer, not a smart-home device. Other texts refer to it by this name.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.wallPanels": {
+    "en": "Wall panels",
+    "context": "Name of the sidebar section that lists the wall panels (a tablet or screen on a wall that always shows a dashboard), which opens and closes like a folder. Also the name of the sidebar tool when it is shown or hidden while editing the sidebar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.yourWidgets": {
+    "en": "Your widgets",
+    "context": "Name of the page with the widgets the person made themselves (a widget is a tile type with its own template): a link in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.patterns.collapseSidebar": {
+    "en": "Collapse the sidebar",
+    "context": "Name of the small icon button next to the logo in the full sidebar. It narrows the sidebar to icons only. Appears as a tooltip and is read out by screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.editDashboard": {
+    "en": "Edit dashboard",
+    "context": "Name of the floating toolbar at the bottom of a dashboard while it is being edited, read out by screen readers. Not visible as text.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.editing": {
+    "en": "Editing",
+    "context": "Status at the left of the floating toolbar at the bottom of a dashboard that is being edited, next to a pulsing dot. It tells that edit mode is on. Shown while no tile is selected.",
+    "maxLength": 16,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.expandSidebar": {
+    "en": "Expand the sidebar",
+    "context": "Name of the small icon button next to the logo in the narrow, icons-only sidebar. It widens the sidebar again so the names show. Appears as a tooltip and is read out by screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.gotIt": {
+    "en": "Got it",
+    "context": "Name of the small × button of the hint beside the narrow sidebar. Pressing it says \"I have read this\" and the hint does not come back. Read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyConnecting": {
+    "en": "Connecting",
+    "context": "Small badge at the foot of the sidebar: Tiledash is setting up the connection to the Homey (smart-home hub) for the first time.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyLive": {
+    "en": "Live",
+    "context": "Small green badge at the foot of the sidebar: the connection to the Homey (smart-home hub) is working and values update as they happen.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyOffline": {
+    "en": "Offline",
+    "context": "Small red badge at the foot of the sidebar: the Homey (smart-home hub) cannot be reached at the moment.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyReauth": {
+    "en": "Log in again",
+    "context": "Small amber badge at the foot of the sidebar: the Homey login has expired, so the person has to log in again to get the Homey connected. Short, it is a badge.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyReconnecting": {
+    "en": "Reconnecting",
+    "context": "Small amber badge at the foot of the sidebar: the connection to the Homey (smart-home hub) dropped and Tiledash is trying to get it back.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.homeyTip": {
+    "en": "{name} · {status}",
+    "context": "Tooltip and screen reader name of the Homey in the narrow sidebar (icons only): the name of the Homey, a dot and its connection status.",
+    "params": {
+      "name": "The name the person gave their Homey (smart-home hub). Not translated.",
+      "status": "The connection status as a word (Live, Offline…). Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.mainNavigation": {
+    "en": "Main",
+    "context": "Name of the sidebar as the main navigation of the app, read out by screen readers when they list the regions of the page. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.menu": {
+    "en": "Menu",
+    "context": "Name of the \"hamburger\" button (three lines) in the top bar on a phone, which opens the sidebar as a drawer. Read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.moveRow": {
+    "en": "Move {label}; use the up and down arrows",
+    "context": "Name of the drag handle beside a sidebar row, read out by screen readers. It tells how to move the row with the keyboard: the up and down arrow keys. Not visible as text.",
+    "params": {
+      "label": "The name of the dashboard or group being moved. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.moved": {
+    "en": "{label} moved to place {place} of {total}",
+    "context": "Announcement for screen readers after a sidebar row was moved with the keyboard: its new position in the list. Not visible as text.",
+    "params": {
+      "label": "The name of the dashboard that moved. Not translated.",
+      "place": "Its new position, counted from 1.",
+      "total": "The number of rows in the list."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.options": {
+    "en": "{label} options",
+    "context": "Name of the small \"…\" button beside a sidebar item (a wall panel) that opens its menu, read out by screen readers. Not visible as text.",
+    "params": {
+      "label": "The name of the item, for instance the name of a wall panel. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.selected": {
+    "en": "{count, plural, one {# selected} other {# selected}}",
+    "context": "Status at the left of the floating toolbar at the bottom of a dashboard that is being edited, replacing \"Editing\" while tiles are selected. It says how many tiles are selected.",
+    "params": {
+      "count": "The number of selected tiles, at least 1."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.showSidebar": {
+    "en": "Show the sidebar",
+    "context": "Name of the icon button at the bottom left of the screen that brings the sidebar back after the person hid it completely (for a wall screen). Appears as a tooltip and is read out by screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.usageFull": {
+    "en": "Full",
+    "context": "Small tag next to the count over a usage bar when the limit of the plan is reached, such as \"10 of 10 Full\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.patterns.usageOf": {
+    "en": "<used>{used}</used> of {limit}",
+    "context": "Count over a usage bar on the plan page, such as \"7 of 10\": how much of a limit of the plan is used. The used number is shown in bold.",
+    "params": {
+      "limit": "What the plan allows.",
+      "used": "How much is used."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/messages.ts"
+  },
+  "shell.paymentFailed.dismiss": {
+    "en": "Dismiss",
+    "context": "Name of the × button that hides the banner, read out by screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.paymentFailed.openPaypal": {
+    "en": "Open PayPal",
+    "context": "Button in the banner that opens PayPal.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.paymentFailed.paypal": {
+    "en": "<b>Your last payment didn’t go through.</b> Check your payment method in PayPal before {date} to keep Pro.",
+    "context": "Banner when the last payment through PayPal failed. The first sentence is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.paymentFailed.stripe": {
+    "en": "<b>Your last payment didn’t go through.</b> Update your card before {date} to keep Pro.",
+    "context": "Banner when the last card payment through Stripe failed. The first sentence is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.paymentFailed.updateCard": {
+    "en": "Update card",
+    "context": "Button in the banner that opens Stripe to change the card.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.sidebar.accountMenu": {
+    "en": "{name}, account menu{news, select, yes {, something new} other {}}",
+    "context": "Name of the account button when only the avatar shows (narrow sidebar, phone top bar), read out by screen readers: the person's name and that it opens the account menu. With \"yes\" it adds that there is something new in it (a release the person has not seen). Not visible as text.",
+    "params": {
+      "name": "The name of the person. Not translated.",
+      "news": "\"yes\" when there is something new (what's new has an unseen release), otherwise \"no\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.createNamed": {
+    "en": "New dashboard “{query}”",
+    "context": "Button in the \"Jump to\" dialog, shown when nothing matched. It starts a new dashboard with the typed name as its name.",
+    "params": {
+      "query": "What the person typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.dashboardTotal": {
+    "en": "{count, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Count at the right of the footer of the \"Jump to\" dialog: how many dashboards there are in all.",
+    "params": {
+      "count": "The number of dashboards."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.deleteGroup": {
+    "en": "Delete group",
+    "context": "Red menu item of a group (folder) while editing the sidebar. It removes the group; the dashboards in it stay and move out of the group.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.done": {
+    "en": "Done",
+    "context": "Primary button in the bar at the top of the sidebar while it is being edited. It saves the arrangement and leaves edit mode.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.editBarLabel": {
+    "en": "Editing the sidebar",
+    "context": "Name of the bar at the top of the sidebar while it is being edited, read out by screen readers. Also its visible title. A short line that says the sidebar is in edit mode.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.editHint": {
+    "en": "Drag to sort; the eye hides.",
+    "context": "Small hint under the title of the bar at the top of the sidebar while it is being edited: drag a row by its handle to sort it, and the eye icon beside a row hides it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.empty": {
+    "en": "No dashboards in the sidebar. ⌘K finds every one.",
+    "context": "Shown in the sidebar where the dashboards would be when the person has hidden all of them. It says they are all still reachable through the \"Jump to\" search, which opens with the keys ⌘K. Keep ⌘K as it is. A button \"Edit sidebar\" sits under it.",
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.escapeCloses": {
+    "en": "Escape closes",
+    "context": "Name of the small \"esc\" key badge at the right of the search field of the \"Jump to\" dialog, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.freePlan": {
+    "en": "Free plan",
+    "context": "Small line under the person's name at the foot of the sidebar when they are on the Free plan (the plan without payment). The Pro plan shows just \"Pro\".",
+    "maxLength": 16,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.goPro": {
+    "en": "Go Pro",
+    "context": "Small button at the foot of the sidebar next to the account (also an entry of the account menu on a phone): it leads to the page where the person can upgrade to the paid Pro plan. Only shown on the Free plan. \"Pro\" is the name of the plan and stays.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupDashboards": {
+    "en": "Dashboards",
+    "context": "Heading of the group of dashboards in the \"Jump to\" dialog: when the person has typed something, it holds the matching dashboards; when nothing is typed it holds all of them, if none are pinned or recent.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupGoTo": {
+    "en": "Go to",
+    "context": "Heading of the group of app pages and commands (Devices, Themes, Account…) in the \"Jump to\" dialog when nothing is typed yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupName": {
+    "en": "Group name",
+    "context": "Name of the text field where the person types the name of a group (folder) in the sidebar, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupOtherDashboards": {
+    "en": "Other dashboards",
+    "context": "Heading of the group with the remaining dashboards, those not in the sidebar and not recent, in the \"Jump to\" dialog when nothing is typed yet.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupPages": {
+    "en": "Pages",
+    "context": "Heading of the group of app pages and commands that match what the person typed in the \"Jump to\" dialog.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupPinned": {
+    "en": "In the sidebar",
+    "context": "Heading of the group of dashboards that are shown in the sidebar, at the top of the \"Jump to\" dialog when nothing is typed yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.groupRecent": {
+    "en": "Recent",
+    "context": "Heading of the group of dashboards the person opened most recently, in the \"Jump to\" dialog when nothing is typed yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hideFromSidebar": {
+    "en": "Hide from sidebar",
+    "context": "Menu item in the right-click menu of a dashboard or a tool in the sidebar. It removes the row from the sidebar; the dashboard still exists and is found through \"Jump to\".",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hideGroup": {
+    "en": "Hide group",
+    "context": "Menu item in the right-click menu of a group (folder) in the sidebar. It hides the group, and the dashboards in it, from the sidebar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hideItem": {
+    "en": "Hide {label}",
+    "context": "Name of the eye button beside a visible row while editing the sidebar. It hides the dashboard, group or tool from the sidebar. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "label": "The name of the row. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hintMove": {
+    "en": "Move",
+    "context": "Hint in the footer of the \"Jump to\" dialog, after the up and down arrow keys: those keys move through the results.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hintOpen": {
+    "en": "Open",
+    "context": "Hint in the footer of the \"Jump to\" dialog, after the Enter key: it opens the highlighted result.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.hintToggle": {
+    "en": "Show or hide in the sidebar",
+    "context": "Hint in the footer of the \"Jump to\" dialog, after the Shift and Enter keys: they show or hide the highlighted dashboard in the sidebar.",
+    "maxLength": 48,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.isHidden": {
+    "en": "{name} is hidden",
+    "context": "Short note in the message (toast) that appears after the person hid a dashboard, a group or a tool from the sidebar through its menu; next to it sits an Undo button.",
+    "params": {
+      "name": "The name of the dashboard, group or tool that was hidden. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.isInGroup": {
+    "en": "{name} is in {group}",
+    "context": "Short note in the message (toast) that appears after the person moved a dashboard into a group (folder) of the sidebar; next to it sits an Undo button. Also announced to screen readers when a dashboard is dropped into a group while editing the sidebar.",
+    "params": {
+      "group": "The name of the group it is in now. Not translated.",
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.isOutOfGroup": {
+    "en": "{name} is out of {group}",
+    "context": "Short note in the message (toast) that appears after the person took a dashboard out of a group (folder) of the sidebar; next to it sits an Undo button.",
+    "params": {
+      "group": "The name of the group it was in. Not translated.",
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.listLabel": {
+    "en": "Dashboards in the sidebar",
+    "context": "Name of the list of dashboards in the sidebar, read out by screen readers. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.moveToGroup": {
+    "en": "Move to group",
+    "context": "Menu item in the right-click menu of a dashboard in the sidebar. It opens a submenu that lists the groups (folders) the dashboard can be put in.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.moved": {
+    "en": "{name} moved",
+    "context": "Announcement for screen readers after the person moved a dashboard or group with the keyboard while editing the sidebar. Not visible as text.",
+    "params": {
+      "name": "The name of the dashboard or group that moved. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.nameAndIcon": {
+    "en": "Name and icon…",
+    "context": "Menu item of a group (folder) in the sidebar, in its right-click menu and in its menu while editing the sidebar. It opens a dialog to change the group's name and icon. The dots mean a dialog follows.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.newGroup": {
+    "en": "New group",
+    "context": "Button at the bottom of the dashboards list while the sidebar is being edited. It adds a group (a folder) to put dashboards in.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.newGroupMenu": {
+    "en": "New group…",
+    "context": "Last item of the \"Move to group\" submenu: makes a new group (folder) and puts the dashboard in it. The dots mean a name is asked next.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.nothingCalled": {
+    "en": "Nothing called “{query}”.",
+    "context": "Shown in the \"Jump to\" dialog when what the person typed finds no dashboard or page. Below it a button offers to make a dashboard with that name.",
+    "params": {
+      "query": "What the person typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.onScreen": {
+    "en": "On screen",
+    "context": "Small quiet label at the right of a result in the \"Jump to\" dialog: the dashboard or page the person is looking at right now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.pinHide": {
+    "en": "Hide {name} from the sidebar",
+    "context": "Name of the pin button beside a dashboard in the \"Jump to\" search results when the dashboard is in the sidebar. It removes the dashboard from the sidebar. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.pinShow": {
+    "en": "Show {name} in the sidebar",
+    "context": "Name of the pin button beside a dashboard in the \"Jump to\" search results. It makes the dashboard appear in the sidebar. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.reset": {
+    "en": "Reset",
+    "context": "Button in the bar at the top of the sidebar while it is being edited. It brings the tools back to how a new account has them (the dashboards and groups stay).",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.results": {
+    "en": "Results",
+    "context": "Name of the list of search results in the \"Jump to\" dialog, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.rowOptions": {
+    "en": "{label} options",
+    "context": "Name of the small \"…\" button beside a row while editing the sidebar; it opens that row's menu. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "label": "The name of the row. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.showItem": {
+    "en": "Show {label}",
+    "context": "Name of the eye button beside a hidden row while editing the sidebar. It shows the dashboard, group or tool in the sidebar again. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "label": "The name of the row. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.switcherDescription": {
+    "en": "Type to find a dashboard or page. Up and down arrows move, Enter opens, Shift Enter pins or unpins a dashboard, Escape closes.",
+    "context": "Instructions read out by screen readers when the \"Jump to\" search opens. Not visible as text. Names the keys: arrows, Enter, Shift Enter (pin or unpin a dashboard in the sidebar) and Escape. Use the usual names of those keys.",
+    "maxLength": 170,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.switcherPlaceholder": {
+    "en": "Find a dashboard or page",
+    "context": "Placeholder in the search field of the \"Jump to\" dialog, where the person types the name of a dashboard or a page of the app.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.switcherTitle": {
+    "en": "Jump to",
+    "context": "Name of the \"Jump to\" dialog (a search to go to any dashboard or page), read out by screen readers when it opens. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.takeOutOf": {
+    "en": "Take out of {group}",
+    "context": "Menu item in the right-click menu of a dashboard that is inside a group (folder) in the sidebar. It puts the dashboard back outside the group.",
+    "params": {
+      "group": "The name of the group the dashboard is in. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.thisScreen.description": {
+    "en": "How the app looks and moves on this device only. Your other devices keep their own; a dashboard with a theme of its own keeps it.",
+    "context": "Description under the title of the dialog for the device the person is using. It explains that the choices apply to this device only, and not to dashboards that have a theme of their own. \"Device\" is the phone, tablet or computer, not a smart-home device.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.descriptionFor": {
+    "en": "Chosen here, the screen wears it in place of what is set on the screen itself, and shows it straight away. A dashboard with a theme of its own keeps it.",
+    "context": "Description under the title of the dialog for a paired screen (a wall panel or tablet paired with the account). It explains that what is chosen in this dialog replaces what was set on the screen itself and applies immediately, except on dashboards that have a theme of their own.",
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.done": {
+    "en": "Done",
+    "context": "Primary button at the bottom right of the dialog. It applies the chosen theme and motion and closes the dialog.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.keptInBrowser": {
+    "en": "Kept in this browser",
+    "context": "Small quiet line at the bottom left of the dialog: the choices are stored in this browser only, so other devices are not changed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.keptWithPairing": {
+    "en": "Kept with the pairing",
+    "context": "Small quiet line at the bottom left of the dialog for a paired screen: the choices are stored with the pairing of that screen (in the account).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionAuto": {
+    "en": "Like the device",
+    "context": "Choice for the amount of motion: follow the setting of the device (its \"reduce motion\" option). It is a button of four in a row, so keep it short.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionAutoHint": {
+    "en": "Follows the device’s “reduce motion” setting.",
+    "context": "Explanation next to the motion choices when \"Like the device\" is chosen. \"Reduce motion\" is the name of the accessibility setting of the phone, tablet or computer; use the name that device setting has in the language.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionCalm": {
+    "en": "Calm",
+    "context": "Choice for the amount of motion: only simple movements, nothing that loops or repeats. It is a button of four in a row, so keep it short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionCalmHint": {
+    "en": "Things move straight into place; nothing loops.",
+    "context": "Explanation next to the motion choices when \"Calm\" is chosen: things go to their place directly, and nothing repeats.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionFull": {
+    "en": "Full",
+    "context": "Choice for the amount of motion: everything animates (numbers count, icons move). It is a button of four in a row, so keep it short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionFullHint": {
+    "en": "Numbers count, dots flow, locks bounce.",
+    "context": "Explanation next to the motion choices when \"Full\" is chosen: examples of what animates (numbers counting up, the dots in a flow, lock icons that bounce).",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionHeading": {
+    "en": "Motion",
+    "context": "Small heading of the row where the person picks how much the app moves (animations): like the device setting, full, calm or none.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionLabel": {
+    "en": "Motion on this device",
+    "context": "Name of the group of four choices for the amount of motion, read out by screen readers. Not visible as text. \"Device\" is the phone, tablet or computer.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionNone": {
+    "en": "None",
+    "context": "Choice for the amount of motion: nothing moves at all. It is a button of four in a row, so keep it short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionNoneHint": {
+    "en": "Nothing moves, like on e-ink. Kind to slow tablets.",
+    "context": "Explanation next to the motion choices when \"None\" is chosen: no movement at all, as suits e-ink screens (e-readers) and slow tablets.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.sourceHere": {
+    "en": "Chosen here",
+    "context": "Second choice of the two-choice switch in the dialog for a paired screen: the theme and motion are the ones chosen in this dialog, from the account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.sourceLabel": {
+    "en": "Where its theme is set",
+    "context": "Name of the two-choice switch at the top of the dialog for a paired screen, read out by screen readers: the theme comes from the screen itself or from what is chosen here. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.sourceScreen": {
+    "en": "Set on the screen",
+    "context": "First choice of the two-choice switch in the dialog for a paired screen: the screen keeps the theme and motion that were set on the screen itself.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.sourceScreenHint": {
+    "en": "{screen} wears what is set under {place} on the screen itself.",
+    "context": "Explanation under the two-choice switch in the dialog for a paired screen, when \"Set on the screen\" is chosen: the screen shows whatever was set on it, in the account menu entry that has the name of the dialog on the screen itself.",
+    "params": {
+      "place": "The name of the account menu entry that opens this dialog (\"This device…\"). Already translated; keep it exactly as given.",
+      "screen": "The name of the paired screen. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.themeHeading": {
+    "en": "Theme",
+    "context": "Small heading above the theme browser where the person picks the colours and fonts (the theme) of the app.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.titleFor": {
+    "en": "Theme for {screen}",
+    "context": "Title of the dialog when the person sets the theme and motion of a paired screen (a wall panel or tablet that was paired with their account) instead of the device they are using.",
+    "params": {
+      "screen": "The name of the paired screen. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.wallPanels.copyFailed": {
+    "en": "Couldn’t copy the link",
+    "context": "Message (toast) when the browser did not allow copying the link of a wall panel. Below it the link is shown so the person can copy it by hand.",
+    "maxLength": 40,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.deleteBody": {
+    "en": "Screens that open its link stop showing it. Your dashboards are not touched.",
+    "context": "Explanation in the confirmation dialog before a wall panel is deleted: screens that were opened with the wall panel's link no longer show it, and the dashboards themselves stay as they are.",
+    "maxLength": 110,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.deleteConfirm": {
+    "en": "Delete wall panel",
+    "context": "Red button in the confirmation dialog before a wall panel is deleted. It deletes the wall panel for good.",
+    "maxLength": 24,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.deleteFailed": {
+    "en": "Couldn’t delete the wall panel.",
+    "context": "Red message (toast) when deleting a wall panel failed. It is followed by the reason, when one is known.",
+    "maxLength": 50,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.deleteTitle": {
+    "en": "Delete “{name}”?",
+    "context": "Question that is the title of the confirmation dialog before a wall panel is deleted. The quotes are around the name of the wall panel.",
+    "params": {
+      "name": "The name of the wall panel. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.deleted": {
+    "en": "Deleted “{name}”",
+    "context": "Message (toast) after a wall panel was deleted. The quotes are around the name of the wall panel.",
+    "params": {
+      "name": "The name of the wall panel that was deleted. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.linkCopied": {
+    "en": "Link copied",
+    "context": "Green message (toast) after the person copied the link of a wall panel. Below it the link itself is shown.",
+    "maxLength": 30,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.menuCopy": {
+    "en": "Copy link",
+    "context": "Menu item of a wall panel in the sidebar. It copies the web address that opens the wall panel, to type or send it to another screen.",
+    "maxLength": 24,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.menuDelete": {
+    "en": "Delete",
+    "context": "Red menu item of a wall panel in the sidebar. It asks for confirmation and then removes the wall panel.",
+    "maxLength": 16,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.menuEdit": {
+    "en": "Edit…",
+    "context": "Menu item of a wall panel in the sidebar. It opens the dialog to change the wall panel's settings. The dots mean a dialog follows.",
+    "maxLength": 16,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.wallPanels.menuStart": {
+    "en": "Start on this screen",
+    "context": "Menu item of a wall panel (a tablet or screen on a wall that always shows a dashboard) in the sidebar. It opens the wall panel on the screen the person is using now.",
+    "maxLength": 30,
+    "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  }
+}

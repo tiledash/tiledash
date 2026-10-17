@@ -1,0 +1,902 @@
+{
+  "login.connectApp.connectedTitle": {
+    "text": "{client} is gekoppeld.",
+    "source": "b3c17ed0c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.disconnect": {
+    "text": "Ontkoppel het wanneer je wilt via <link>Account → AI-assistenten</link>.",
+    "source": "a39f1cc7c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredBody": {
+    "text": "Koppelen moet binnen tien minuten klaar zijn. Ga terug naar je AI-app en koppel Tiledash opnieuw.",
+    "source": "bc101a3a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredTitle": {
+    "text": "Dit verzoek is verlopen.",
+    "source": "1c419d0b45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freeNote": {
+    "text": "Widgets bouwen kan met Pro. Je kunt nu al koppelen; de tools werken zodra je Pro hebt.",
+    "source": "cd85c08753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introNote": {
+    "text": "De app koos die naam zelf; Tiledash kan dat niet nagaan. Na toestaan ga je terug naar <strong>{host}</strong>.",
+    "source": "dccd3cc6c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introPublish": {
+    "text": "<strong>{client}</strong> wil namens jou publiceren in de community.",
+    "source": "03caf75c92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introWidgets": {
+    "text": "<strong>{client}</strong> wil je helpen je widgets te bouwen.",
+    "source": "608ebc039d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.leaving": {
+    "text": "Je gaat terug naar {host}… Gebeurt er niets, dan kun je dit tabblad sluiten.",
+    "source": "0e84b9fcd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.notConnectedTitle": {
+    "text": "Niet gekoppeld.",
+    "source": "3b3d279616",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.signInIntro": {
+    "text": "Log eerst in met je Homey-account om een app aan Tiledash te koppelen.",
+    "source": "4d6d81c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.title": {
+    "text": "{client} koppelen aan Tiledash?",
+    "source": "088001eecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow0": {
+    "text": "Nieuwe items en nieuwe versies publiceren onder je communitynaam",
+    "source": "218a64c120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow1": {
+    "text": "Zien wat je hebt gepubliceerd en de versies daarvan",
+    "source": "81e05a3983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny0": {
+    "text": "Je widgets, thema’s of dashboards wijzigen",
+    "source": "d585815121",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny1": {
+    "text": "Je apparaten, geschiedenis, facturatie of account lezen",
+    "source": "73de084bd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny2": {
+    "text": "Wat je hebt gepubliceerd verwijderen of terugtrekken",
+    "source": "3ca6465bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny3": {
+    "text": "Je Homey-wachtwoord of tokens zien",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.signedIn": {
+    "text": "Ingelogd als {name} · <switch>Niet jij?</switch>",
+    "source": "ec579cec10",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow0": {
+    "text": "Je eigen widgets en partials lezen en wijzigen, en hun geschiedenis zien",
+    "source": "ce5a152aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow1": {
+    "text": "Testapparaten maken en wijzigen",
+    "source": "9e70dd2145",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow2": {
+    "text": "Je apparaten lezen: hun namen, soorten, eigenschappen en huidige meetwaarden",
+    "source": "2c2d5f6c4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow3": {
+    "text": "De namen van je thema’s lezen",
+    "source": "2742fd64c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny0": {
+    "text": "Je apparaten schakelen of flows starten (alleen jij kunt tikken in een voorbeeld een uur doorlaten)",
+    "source": "2a48357995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny1": {
+    "text": "Je geschiedenis, dashboards, facturatie of account lezen",
+    "source": "9e1d025f01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny2": {
+    "text": "Je Homey-wachtwoord of tokens zien",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny3": {
+    "text": "Bij de widgets van anderen komen",
+    "source": "a2404a1adf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.willBeAble": {
+    "text": "Dit kan het",
+    "source": "5b8d75f668",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.wontBeAble": {
+    "text": "Dit kan het niet",
+    "source": "806c8830c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.body": {
+    "text": "Je hebt gevraagd het te verwijderen, dus het is vergrendeld: je dashboards, wandpanelen en geschiedenis zijn er nog, maar niets draait. Houd je het, dan komt alles terug zoals het was.",
+    "source": "23236bbaf0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.bodyPro": {
+    "text": "Je hebt gevraagd het te verwijderen, dus het is vergrendeld: je dashboards, wandpanelen en geschiedenis zijn er nog, maar niets draait. Houd je het, dan komt alles terug zoals het was, op Free: je Pro-abonnement is gestopt toen je erom vroeg.",
+    "source": "5220695bc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.fine": {
+    "text": "Log je alleen uit, dan wordt het op {date} verwijderd.",
+    "source": "3dfb2449b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.keep": {
+    "text": "Account behouden",
+    "source": "d62ce03448",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.title": {
+    "text": "Je account wordt op {date} verwijderd.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.titleNamed": {
+    "text": "{name}, je account wordt op {date} verwijderd.",
+    "source": "c399ecb125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codeLabel": {
+    "text": "De code",
+    "source": "73887dbb42",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codePlaceholder": {
+    "text": "WDJB-MJHT",
+    "source": "4670091e02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntro": {
+    "text": "<strong>{client}</strong> vraagt om namens jou te publiceren. Controleer of je terminal <shown>{code}</shown> toont. Heb je niet net <cmd>tiledash auth login</cmd> uitgevoerd, annuleer dan.",
+    "source": "a428d11106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntroHost": {
+    "text": "<strong>{client}</strong> vraagt om namens jou te publiceren. Controleer of je terminal op {host} <shown>{code}</shown> toont. Heb je niet net <cmd>tiledash auth login</cmd> uitgevoerd, annuleer dan.",
+    "source": "d86163f82d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmTitle": {
+    "text": "Opdrachtregel aanmelden?",
+    "source": "0b685da9e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.defaultClient": {
+    "text": "Tiledash-opdrachtregel",
+    "source": "eb7889b937",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedBody": {
+    "text": "Er is niets toegestaan. Je kunt dit tabblad sluiten.",
+    "source": "5a218f8242",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedTitle": {
+    "text": "Niet aangemeld.",
+    "source": "a3905eb93e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneBody": {
+    "text": "Ga terug naar je terminal: die gaat vanzelf verder. Je kunt dit tabblad sluiten.",
+    "source": "7850c91548",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneTitle": {
+    "text": "De opdrachtregel is aangemeld.",
+    "source": "51e763b875",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterBody": {
+    "text": "Typ de code die je terminal toont na <cmd>tiledash auth login</cmd>.",
+    "source": "33e7aa2d8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterTitle": {
+    "text": "Opdrachtregel aanmelden",
+    "source": "f1bbffe9e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredBody": {
+    "text": "Een code werkt één keer, tien minuten lang. Voer <cmd>tiledash auth login</cmd> opnieuw uit.",
+    "source": "2a8733c652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredTitle": {
+    "text": "Deze code is verlopen.",
+    "source": "60d8d61451",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.noHandle": {
+    "text": "Je hebt nog geen communitynaam: bij je eerste publicatie kies je er hier een.",
+    "source": "1128f4328e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.publishesAs": {
+    "text": "Het publiceert als <strong>@{handle}</strong>",
+    "source": "18719a7ff4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signInIntro": {
+    "text": "Log eerst met je Homey-account in bij Tiledash om de opdrachtregel aan te melden.",
+    "source": "9b3b6826fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signOut": {
+    "text": "Meld het af wanneer je wilt via <link>Account → AI-assistenten</link>, of met <cmd>tiledash auth logout</cmd>.",
+    "source": "e2fc8912d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhat": {
+    "text": "De naam en het model, en een kopie van de kamers, apparaten, flows en sferen: hun namen, wat elk apparaat kan en de waarden op dat moment. De kopie wordt bijgewerkt als je apparaten toevoegt, wijzigt of verwijdert; een verwijderd apparaat wordt 30 dagen later gewist, tenzij een tegel of opname het nog gebruikt.",
+    "source": "ca8f5e30a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhen": {
+    "text": "Als je een Homey koppelt",
+    "source": "bbe4d8f88d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.dailyFor": {
+    "text": "dagwaarden voor {period}",
+    "source": "bb7e4a02f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhat": {
+    "text": "Alleen de waarden die je kiest vast te leggen, en de meetwaarden van energiemeters die de energiewidgets nodig hebben; die starten vanzelf als zo’n widget voor het eerst te zien is. Free bewaart {free}; Pro bewaart {pro}. Waarden die je niet vastlegt, gaan rechtstreeks van je Homey naar je browser.",
+    "source": "a90713b9c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhen": {
+    "text": "Als je geschiedenis vastlegt",
+    "source": "fa4b765c0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.hourlyFor": {
+    "text": "uurwaarden voor {period}",
+    "source": "5e20531e5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhat": {
+    "text": "Je naam, e-mailadres en profielfoto van je Athom-account, en het versleutelde token waarmee Tiledash je Homey kan bereiken. Voor elke browser waarin je inlogt: wanneer, het IP-adres en welke browser het is, tot je daar uitlogt of tot 30 dagen nadat je hem voor het laatst gebruikte.",
+    "source": "f505387ff3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhen": {
+    "text": "Als je inlogt",
+    "source": "a4d4c5d5c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodDays": {
+    "text": "{days, plural, one {een dag} other {# dagen}}",
+    "source": "72f7274d5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodYears": {
+    "text": "{years, plural, one {een jaar} other {# jaar}}",
+    "source": "ae86386367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhat": {
+    "text": "Je betaalgegevens blijven bij PayPal. Tiledash bewaart je abonnement: het plan, de status en het kenmerk dat PayPal eraan geeft.",
+    "source": "4d131ba155",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhen": {
+    "text": "Als je Pro neemt",
+    "source": "22d266ed7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.readingsFor": {
+    "text": "meetwaarden voor {period}",
+    "source": "1ba2748cc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhat": {
+    "text": "Je dashboards, thema’s, widgets, wandpanelen en instellingen, en de afbeeldingen en lettertypen die je uploadt.",
+    "source": "2fdd76f887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhen": {
+    "text": "Terwijl je Tiledash gebruikt",
+    "source": "49c07ef35c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailed": {
+    "text": "Je antwoord kon niet worden verstuurd.",
+    "source": "789c20a295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailedHint": {
+    "text": "Er is niets besloten. Probeer het opnieuw.",
+    "source": "132653ff4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerTerminalFailed": {
+    "text": "Tiledash kon de terminal geen antwoord geven. Probeer het zo opnieuw.",
+    "source": "fe29cb848c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailed": {
+    "text": "Het verzoek kon niet worden gecontroleerd.",
+    "source": "7b2a487c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailedHint": {
+    "text": "Ga terug naar je AI-app en koppel opnieuw.",
+    "source": "20753f3a9b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeCheckFailed": {
+    "text": "Tiledash kon de code niet controleren. Probeer het zo opnieuw.",
+    "source": "b44a0601f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeShape": {
+    "text": "Een code bestaat uit acht letters, zoals WDJB-MJHT.",
+    "source": "6ee53ddb71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeTooMany": {
+    "text": "Dat waren veel pogingen. Wacht een paar minuten en probeer het dan opnieuw.",
+    "source": "f6351315bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeUnknown": {
+    "text": "Die code is onbekend. Vergelijk hem met je terminal, of voer tiledash auth login opnieuw uit.",
+    "source": "1c486b75b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.logoutFailed": {
+    "text": "Uitloggen is niet gelukt.",
+    "source": "ab90ad7f86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitle": {
+    "text": "App koppelen · Tiledash",
+    "source": "a10ab94925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitleClient": {
+    "text": "{client} koppelen · Tiledash",
+    "source": "72b75665e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedBody": {
+    "text": "Probeer het zo opnieuw.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedTitle": {
+    "text": "Je Homey kon niet worden gekoppeld",
+    "source": "71841add1c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedBody": {
+    "text": "Er is niets veranderd. Probeer het zo opnieuw.",
+    "source": "7c207e20a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedTitle": {
+    "text": "Je account kon niet worden behouden",
+    "source": "ed29d87568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.loadHomeysFailed": {
+    "text": "We konden je Homeys niet laden.",
+    "source": "5c56cc92b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.planNoMoreHomeys": {
+    "text": "Je plan staat geen extra Homey toe",
+    "source": "cc997f9995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.askAgain": {
+    "text": "Athom vraagt het bij elke login opnieuw.",
+    "source": "652ad3d396",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.continue": {
+    "text": "Verder naar Homey",
+    "source": "916a7a7ec9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlTitle": {
+    "text": "Je apparaten bedienen",
+    "source": "38c20d143f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlWhy": {
+    "text": "Zodat een tik op een tegel een lamp schakelt, de thermostaat instelt of de zonwering sluit.",
+    "source": "a091cc3eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesTitle": {
+    "text": "Je favorieten lezen",
+    "source": "95648de8e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesWhy": {
+    "text": "Om je eerste dashboard te beginnen met de apparaten en flows die je een ster gaf in de Homey-app.",
+    "source": "7ad6bda847",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsTitle": {
+    "text": "Je flows zien en starten",
+    "source": "dd53a61e19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsWhy": {
+    "text": "Voor tegels die met een tik een flow starten. Tiledash kan je flows niet wijzigen.",
+    "source": "c90f6e8dc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsTitle": {
+    "text": "Insights en energie lezen",
+    "source": "6d5e913512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsWhy": {
+    "text": "Voor grafieken van een waarde door de tijd, en de energie- en prijswidgets.",
+    "source": "8dbaeb6d38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.intro": {
+    "text": "Daarna vraagt Athom of Tiledash je Homey mag gebruiken. Hier zie je wat er gevraagd wordt en waarom, en wat Tiledash bewaart.",
+    "source": "18f052b389",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.keptFooter": {
+    "text": "Onder Account › Account kun je alles downloaden of je account verwijderen: Tiledash wist het zeven dagen later.",
+    "source": "6cfea386ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationTitle": {
+    "text": "Weten waar je Homey staat",
+    "source": "93740a4360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationWhy": {
+    "text": "Zodat de Weer-widget de locatie van je Homey kan gebruiken in plaats van een plaats die je opzoekt.",
+    "source": "a68f4c36e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicTitle": {
+    "text": "Logic-variabelen lezen",
+    "source": "027db4ecdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicWhy": {
+    "text": "Zodat een widget een variabele kan volgen die je bijhoudt in Homey Logic.",
+    "source": "0741c27961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsTitle": {
+    "text": "Je sferen zien en instellen",
+    "source": "d71ff06887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsWhy": {
+    "text": "Voor tegels die een sfeer in een kamer instellen.",
+    "source": "bd0e04e6f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.never": {
+    "text": "Tiledash ziet nooit je wachtwoord. Het kan geen apparaten toevoegen of verwijderen, je flows bewerken of de instellingen van je Homey wijzigen, en je kunt de toegang altijd intrekken in je Athom-account.",
+    "source": "0c76520f81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalHint": {
+    "text": "Zonder deze werkt al het andere gewoon.",
+    "source": "1a9fa56255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalTitle": {
+    "text": "Optioneel",
+    "source": "59be71333c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleTitle": {
+    "text": "Zien wie er bij je woont",
+    "source": "d68b9c71c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleWhy": {
+    "text": "Zodat een widget kan tonen wie er thuis, weg of in slaap is. Nooit op een deellink.",
+    "source": "1609a0ec4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesTitle": {
+    "text": "Je kamers en apparaten zien",
+    "source": "dcb616c9a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesWhy": {
+    "text": "Om je apparaten op tegels te zetten, per kamer gegroepeerd, met hun waarden zodra ze veranderen.",
+    "source": "e083cadf81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicTitle": {
+    "text": "Logic-variabelen wijzigen",
+    "source": "1ac68c6f1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicWhy": {
+    "text": "Zodat een tik een variabele kan instellen die je in Homey Logic bijhoudt, zoals Gastmodus. De toestemming van Homey staat ook het maken en verwijderen van variabelen toe; Tiledash wijzigt alleen die je tegels noemen.",
+    "source": "a9858a7594",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabAsks": {
+    "text": "Wat het vraagt",
+    "source": "0956a54574",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabKeeps": {
+    "text": "Wat het bewaart",
+    "source": "d959459cef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineTitle": {
+    "text": "De tijdlijn van je Homey zien",
+    "source": "98e29307cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineWhy": {
+    "text": "Zodat een widget kan tonen wat er gebeurde, zoals de deurbel of een klare was. Alleen lezen, nooit wissen. Nooit op een deellink.",
+    "source": "900be79c62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.title": {
+    "text": "Voordat je naar Homey gaat",
+    "source": "3416ed1a28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.alreadyConnected": {
+    "text": "· al gekoppeld",
+    "source": "9384f5b09f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.connect": {
+    "text": "Koppelen",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.homeysLabel": {
+    "text": "Je Homeys",
+    "source": "be22c21740",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.lead": {
+    "text": "Welke Homey zullen we koppelen? Je kunt er later meer toevoegen.",
+    "source": "a14c589b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.loginAgain": {
+    "text": "Opnieuw inloggen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneBody": {
+    "text": "Je Athom-account heeft geen Homey met ons gedeeld. Log opnieuw in en zorg dat je toegang tot je Homey geeft.",
+    "source": "91b284639c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneTitle": {
+    "text": "Geen Homey gevonden",
+    "source": "2d29940664",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.otherAccount": {
+    "text": "Ander account gebruiken",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepChoose": {
+    "text": "Kies je Homey",
+    "source": "611aeb12ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepDashboard": {
+    "text": "Eerste dashboard",
+    "source": "ebbf85a9f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepLogIn": {
+    "text": "Inloggen",
+    "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcome": {
+    "text": "Welkom.",
+    "source": "3fc2118d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcomeNamed": {
+    "text": "Welkom, {name}.",
+    "source": "c4e4983240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionHint": {
+    "text": "Je bent overal uitgelogd. Log voor die datum in om je account te houden.",
+    "source": "5cc62bd911",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionTitle": {
+    "text": "Je account wordt op {date} verwijderd.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.demoButton": {
+    "text": "Bekijk het demohuis",
+    "source": "984b601bdc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAccessDenied": {
+    "text": "Je hebt het inloggen bij Homey geannuleerd. Er is niets gedeeld.",
+    "source": "cb0489a9ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAthomBusy": {
+    "text": "De inlogdienst van Homey is nu erg druk. Probeer het over een minuut opnieuw.",
+    "source": "fdb80654cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorLoginFailed": {
+    "text": "Inloggen met Homey is niet gelukt. Probeer het zo opnieuw.",
+    "source": "6203c5631c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorOther": {
+    "text": "Er ging iets mis bij het inloggen. Probeer het opnieuw.",
+    "source": "2df7ccdf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrint": {
+    "text": "Je logt in bij Athom, dat elke keer vraagt wat Tiledash mag doen. Wij zien nooit je wachtwoord, en je kunt de toegang altijd intrekken.",
+    "source": "79ceacc756",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrintDemo": {
+    "text": "Demomodus: geen Homey-account nodig.",
+    "source": "0972ccd0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.headline": {
+    "text": "Je huis, <accent>in één oogopslag.</accent>",
+    "source": "f04a276ec0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.lead": {
+    "text": "Mooie, live dashboards voor je Homey. Elke lamp, sensor en meter, ingedeeld zoals jij wilt, op elk scherm in huis.",
+    "source": "af9cfebb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.loginButton": {
+    "text": "Inloggen met Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointEverywhere": {
+    "text": "<strong>Overal.</strong> Desktop, tablet aan de muur, zelfs e-ink.",
+    "source": "a02df0c6b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointLive": {
+    "text": "<strong>Live.</strong> Waarden komen rechtstreeks van je Homey.",
+    "source": "ab37a73fe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointYours": {
+    "text": "<strong>Eigen.</strong> Elke widget en elk thema kun je zelf restylen.",
+    "source": "64c25805aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.whatItAsks": {
+    "text": "Waar vraagt Tiledash om?",
+    "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.body": {
+    "text": "Tiledash gaat in kleine groepen open, zodat elk dashboard top aanvoelt. We laten je erin zodra er plek is, en mailen je als het zover is.",
+    "source": "ad78514391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.title": {
+    "text": "Je staat op de lijst.",
+    "source": "0e13555c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.titleNamed": {
+    "text": "Je staat op de lijst, {name}.",
+    "source": "0e65da0dfa",
+    "by": "ai",
+    "reviewed": false
+  }
+}

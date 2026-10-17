@@ -1,0 +1,139 @@
+{
+  "pairing.start.codeSpoken": {
+    "en": "Code: {code}",
+    "context": "The pairing code, read out by screen readers. The big code on screen is hidden from them, this is read instead. Not visible as text.",
+    "params": {
+      "code": "The six characters of the code, separated by spaces so each is read alone, such as \"K 7 M 3 P X\". Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.kicker": {
+    "en": "Pair this screen",
+    "context": "Small line above the big title of the pairing page shown on a tablet or kiosk that is not paired yet. It names what this page is for.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.newCodeComing": {
+    "en": "A new pairing code comes up in a moment.",
+    "context": "Second sentence of the text under the title \"This screen was unpaired\": the screen will show a new code to pair again. Reads straight after the first sentence.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.newCodeIn": {
+    "en": "New code in {time}",
+    "context": "Small text at the right under the pairing code: a countdown to the moment the code stops working and a new one appears.",
+    "params": {
+      "time": "The time left as minutes and seconds, such as \"9:05\". Already formatted."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.newCodeSoon": {
+    "en": "A new code in {time}",
+    "context": "Small text at the right under the pairing code, in the last minute of the code: a countdown to the moment a new code comes. Shown in a warning colour.",
+    "params": {
+      "time": "The time left as minutes and seconds, such as \"0:45\". Already formatted."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.paired": {
+    "en": "Paired with {owner}’s wall panel <panel>{panelName}</panel>",
+    "context": "Big title of the pairing page for a moment after the owner confirmed the pairing: whose wall panel this screen will now show. The tag marks the name of the wall panel, which is shown in the accent colour; keep it around the name.",
+    "params": {
+      "owner": "The owner’s first name. Not translated.",
+      "panelName": "The name of the wall panel, such as \"Hallway\". Chosen by the owner; not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.safety": {
+    "en": "Each code works once, for 10 minutes. This screen never sees your login: it gets a key for one wall panel, and only after you confirm.",
+    "context": "Small reassurance at the foot of the pairing page, next to a shield icon: a code can be used once and only for 10 minutes, and the screen never gets the owner’s login, only a key for one wall panel.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.starting": {
+    "en": "Starting the panel…",
+    "context": "Line under the title of the pairing page, with a progress bar: the screen got its key and is about to show the wall panel.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.step1": {
+    "en": "On your phone or computer, open Tiledash: <path>Account › Links and screens</path>.",
+    "context": "First of three numbered steps under the pairing code. Where to go in the Tiledash app on another device. The text in the tag is shown in italics and names screens of the Tiledash app: the \"Account\" page and its \"Links and screens\" tab; keep the › separator and use the same words as the app does for those names.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.step2": {
+    "en": "Choose <action>Pair a screen</action> and type the code.",
+    "context": "Second of three numbered steps under the pairing code. The text in the tag is shown in italics and is the name of a button in the Tiledash app (\"Pair a screen\"); use the same words as the app does for that button.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.step3": {
+    "en": "Pick the wall panel this screen should show.",
+    "context": "Third of three numbered steps under the pairing code. After typing the code the owner chooses which wall panel (a dashboard set up to run on a screen like this) this screen will show.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.title": {
+    "en": "Enter this code in Tiledash",
+    "context": "Big title of the pairing page shown on a tablet or kiosk, above a six-character code. The person types that code into Tiledash on their phone or computer. A command.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.unpairedFromAccount": {
+    "en": "It was unpaired from the account it belonged to, and its key is gone.",
+    "context": "First sentence of the text under the title \"This screen was unpaired\", when the owner unpaired the screen from the Tiledash app. A second sentence follows after it.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.unpairedFromScreen": {
+    "en": "It was unpaired here on the screen, and its key is gone.",
+    "context": "First sentence of the text under the title \"This screen was unpaired\", when someone at the screen itself unpaired it. A second sentence follows after it.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.unpairedTitle": {
+    "en": "This screen was unpaired",
+    "context": "Big title of the pairing page after the screen lost its link to the account (the owner removed it, or someone at the screen did).",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.start.waiting": {
+    "en": "Waiting for you to enter this code in Tiledash",
+    "context": "Small status line next to a pulsing dot under the pairing code: the screen is waiting until the owner types the code in the Tiledash app.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/pairing/PairingStartScreen.messages.ts"
+  },
+  "pairing.unpair.description": {
+    "en": "It stops showing {owner}’s wall panel {panelName} and forgets its key. To use it again, pair it from the account with a new code.",
+    "context": "Text of the confirmation dialog for unpairing a wall panel screen: what happens (the screen stops showing the panel and forgets its access key) and how to undo it (pair it again with a new code from the Tiledash account).",
+    "params": {
+      "owner": "The owner’s first name. Not translated.",
+      "panelName": "The name of the wall panel, such as \"Hallway\". Chosen by the owner; not translated."
+    },
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/pairing/UnpairScreenDialog.messages.ts"
+  },
+  "pairing.unpair.keep": {
+    "en": "Keep it paired",
+    "context": "Button of the dialog that asks whether to unpair a screen. It closes the dialog and changes nothing.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/UnpairScreenDialog.messages.ts"
+  },
+  "pairing.unpair.title": {
+    "en": "Unpair this screen?",
+    "context": "Title of the confirmation dialog on a paired wall panel screen, opened from the options bar. A question.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/UnpairScreenDialog.messages.ts"
+  },
+  "pairing.unpair.unpair": {
+    "en": "Unpair",
+    "context": "Red button of the dialog that asks whether to unpair a screen. It unpairs the screen at once. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/UnpairScreenDialog.messages.ts"
+  }
+}

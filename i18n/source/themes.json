@@ -1,0 +1,1634 @@
+{
+  "themes.actions.edit": {
+    "en": "Edit",
+    "context": "Menu item on a theme the person made themselves: opens it in the theme editor. A command.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.actions.newTheme": {
+    "en": "New theme",
+    "context": "Button and tile title that starts a new theme of the person’s own, made from their own colours and fonts. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.actions.onThisDevice": {
+    "en": "On this device",
+    "context": "Badge on the card of the theme that this screen wears now, and the text that replaces the \"Use on this device\" button. A status, not a command. \"Device\" is the phone, tablet or computer, not a smart-home device.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.actions.openInCommunity": {
+    "en": "Open in the community",
+    "context": "Menu item on a theme installed from the community: opens its page there (the store where people share themes). A command.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.actions.useOnDashboards": {
+    "en": "Use on dashboards…",
+    "context": "Menu item on a theme and button while previewing: opens a dialog to choose which dashboards wear the theme. The dots mean a dialog follows. A command.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.actions.useOnDevice": {
+    "en": "Use on this device",
+    "context": "Button on a theme (a card on the Themes page and the bar while previewing): the screen the person is looking at starts to wear the theme, kept in this browser. \"Device\" is the phone, tablet or computer, not a smart-home device. A command.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/themeActions.messages.ts"
+  },
+  "themes.baseField.change": {
+    "en": "Change…",
+    "context": "Small text at the end of the \"Starts from\" button at the top of the theme editor, next to the name of the built-in theme. It opens a dialog to pick another one. The dots mean a dialog follows. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeBaseField.messages.ts"
+  },
+  "themes.baseField.confirm": {
+    "en": "Start from this",
+    "context": "Main button of the \"Start from\" dialog: use the theme that is chosen in the list as the starting point. \"This\" is the chosen theme. A command.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeBaseField.messages.ts"
+  },
+  "themes.baseField.description": {
+    "en": "The built-in theme yours is made from. Your colours, fonts and corners stay where you changed them.",
+    "context": "Text under the title of the \"Start from\" dialog: the chosen built-in theme is the starting point of the person’s own theme. The colours, fonts and corners that they changed themselves are kept when they pick another one.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/themes/ThemeBaseField.messages.ts"
+  },
+  "themes.baseField.title": {
+    "en": "Start from",
+    "context": "Title of the dialog in the theme editor where the person picks the built-in theme that their own theme is made from. A command, as in \"Start from this theme\".",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeBaseField.messages.ts"
+  },
+  "themes.browser.autoMode": {
+    "en": "Automatic · {mode, select, dark {dark now} other {light now}}",
+    "context": "Small caption in the preview of a theme that follows the device: it switches between its light and dark look, and shows which one it is right now. The dot is a separator.",
+    "params": {
+      "mode": "Which look the device asks for now: dark or light (any other value is light)."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.emptyAction": {
+    "en": "Show all themes",
+    "context": "Button under \"No theme matches\" in the theme picker: clears the search and the filter so every theme shows again. A command.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.emptyText": {
+    "en": "Try another word, or show every theme.",
+    "context": "Text under \"No theme matches\" in the theme picker. The button below it clears the search and the filter.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.emptyTitle": {
+    "en": "No theme matches",
+    "context": "Title of the empty state of the theme picker when the search and the filter find no theme.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.filterAll": {
+    "en": "All",
+    "context": "First choice of the filter above the list of themes: shows every theme, light, dark and e-ink. Next to Dark, Light and E-ink.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.filterLabel": {
+    "en": "Show",
+    "context": "Screen reader label of the row of choices (All, Dark, Light, E-ink) that filters the list of themes by look. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.followAppDescription": {
+    "en": "The app's theme, wherever it changes.",
+    "context": "One-line description of the \"Same as the app\" choice in the preview: it is whatever theme the app has, also when the person changes it later.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.followAppHint": {
+    "en": "Now {name}, and whatever the app changes to",
+    "context": "Small text under \"Same as the app\" in the theme picker: which theme the app wears right now, and that the dashboard follows if it changes.",
+    "params": {
+      "name": "The name of the theme the app wears now. A product name, not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.followAppMode": {
+    "en": "Follows the app · now {name}",
+    "context": "Small caption in the preview of the \"Same as the app\" choice: the dashboard follows the app, which wears this theme right now. The dot is a separator.",
+    "params": {
+      "name": "The name of the theme the app wears now. A product name, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.followAppName": {
+    "en": "Same as the app",
+    "context": "Name of a choice in the theme picker of a dashboard: the dashboard has no theme of its own and wears whatever theme the app has. Also the title of its preview. Shown on a row with the current app theme under it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.newHint": {
+    "en": "Start from any theme and make it yours.",
+    "context": "Small text on the dashed tile \"New theme\" at the end of the section with the themes the person made: they begin with any theme and change its colours and fonts.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.newLocked": {
+    "en": "Your own themes come with Pro.",
+    "context": "Small text on the dimmed \"New theme\" tile when the plan is Free: making themes of your own needs the paid Pro plan. A badge \"Pro\" sits next to the tile’s title.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.browser.searchPlaceholder": {
+    "en": "Find a theme",
+    "context": "Placeholder in the search field above the list of themes in the theme picker. The person types a name, a word of its description or a font.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeBrowser.messages.ts"
+  },
+  "themes.card.lockedOnFree": {
+    "en": "Can’t be changed on Free",
+    "context": "Small text with a lock on one of the person’s own themes on the Themes page: on the Free plan their themes stay in use but can no longer be edited. Free is a plan name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeCard.messages.ts"
+  },
+  "themes.card.optionsLabel": {
+    "en": "{name} options",
+    "context": "Screen reader label of the round button with three dots on a theme card; it opens a menu with more choices for that theme. Not visible as text.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/ThemeCard.messages.ts"
+  },
+  "themes.card.preview": {
+    "en": "Preview",
+    "context": "Small label that appears over the corner of a theme’s picture on the Themes page while the pointer is on it: clicking previews the theme. A command.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeCard.messages.ts"
+  },
+  "themes.card.previewLabel": {
+    "en": "Preview {name}",
+    "context": "Screen reader label of the picture of a theme on the Themes page. Pressing it shows the whole app in that theme, to try it before using it. A command.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/ThemeCard.messages.ts"
+  },
+  "themes.card.updateOut": {
+    "en": "{version} is out",
+    "context": "Badge on the picture of a theme installed from the community: a newer version of it is available.",
+    "params": {
+      "version": "The version number of the newer version, such as 1.2.0. Not translated."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCard.messages.ts"
+  },
+  "themes.catalog.dark": {
+    "en": "Dark",
+    "context": "The dark look of a theme (a dark background and light text). A filter choice, a caption under a theme in the picker and the name of a mode button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.installedDescription": {
+    "en": "Installed.",
+    "context": "One-line description of a theme installed from the community, shown in the theme preview: it has no description of its own. A single word with a full stop.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.light": {
+    "en": "Light",
+    "context": "The light look of a theme (a bright background and dark text). A filter choice, a caption under a theme in the picker and the name of a mode button. An adjective, not \"light\" as in a lamp.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.paper": {
+    "en": "E-ink",
+    "context": "The look of a theme made for e-ink screens (for example an e-reader, with little or no colour). A filter choice and a caption under a theme in the picker. \"E-ink\" is the screen technology of e-readers.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.sourceBuiltin": {
+    "en": "Built in",
+    "context": "Heading of the section in the theme picker with the themes that come with Tiledash. Shown in capital letters, with a count after it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.sourceInstalled": {
+    "en": "Installed",
+    "context": "Heading of the section in the theme picker with the themes installed from the community (the store where people share themes). Shown in capital letters, with a count after it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.sourceOwn": {
+    "en": "Your themes",
+    "context": "Heading of the section in the theme picker with the themes the person made themselves. Shown in capital letters, with a count after it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.catalog.sourceShared": {
+    "en": "Shared with you",
+    "context": "Heading of the section in the theme picker with the themes other people shared with this person. Shown in capital letters, with a count after it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
+  },
+  "themes.colorField.auto": {
+    "en": "auto",
+    "context": "Placeholder in the small field for the colour code (such as #1a2b3c) of a colour field in the theme editor, shown when the colour is not a plain code because it is worked out from other colours. Short, lower case, like \"automatic\".",
+    "maxLength": 10,
+    "file": "packages/ui/src/components/HdColorField.messages.ts"
+  },
+  "themes.colorField.pick": {
+    "en": "{label}: pick a colour",
+    "context": "Name for screen readers of the round colour swatch in a colour field of the theme editor. Pressing it opens the browser’s colour picker. Not visible as text. A command after the colon.",
+    "params": {
+      "label": "The name of the colour field, such as Background. Already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/components/HdColorField.messages.ts"
+  },
+  "themes.colours.accent": {
+    "en": "Accent",
+    "context": "Name of the colour field for the accent colour of a theme: the colour of main buttons, sliders and highlights. Also the fourth key colour in the quick start. It can be a gradient.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.border": {
+    "en": "Borders",
+    "context": "Name of the colour field for the thin lines around tiles, fields and dividers in the list of all colours of a theme.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.canvas": {
+    "en": "Background",
+    "context": "Name of the colour field for the page background of a theme, behind the tiles. Also the first of the five key colours in the quick start. It can be a gradient.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.cool": {
+    "en": "Cool (cooling, water)",
+    "context": "Name of the colour field for the cool blue colour that shows cooling or water, for example an air conditioner that cools. The brackets list what it is used for.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.danger": {
+    "en": "Danger",
+    "context": "Name of the colour field for the colour that says something is wrong or dangerous, usually red, for example an alarm.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.focus": {
+    "en": "Keyboard focus",
+    "context": "Name of the colour field for the ring that shows which button or field has the keyboard focus when someone navigates with the Tab key.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.good": {
+    "en": "Good",
+    "context": "Name of the colour field for the colour that says all is well, usually green, for example a device that is fine.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.groupAccent": {
+    "en": "Accent and states",
+    "context": "Heading of the group in the list of all colours of a theme with the accent colour and the colours that say something about a state: lights on, good, warning, danger. Shown above the colour fields.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.groupBackground": {
+    "en": "Background and tiles",
+    "context": "Heading of the first group in the list of all colours of a theme: the colours behind everything and the tiles on it (background, tiles, menus, borders). Shown above the colour fields.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.groupControls": {
+    "en": "Controls",
+    "context": "Heading of the last group in the list of all colours of a theme: the colours of sliders, bars and the keyboard focus ring. Shown above the colour fields.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.groupText": {
+    "en": "Text",
+    "context": "Heading of the group in the list of all colours of a theme with the colours of writing (text, muted text, faint text). Shown above the colour fields.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.hintAccent": {
+    "en": "Sliders, buttons, highlights, the focus ring",
+    "context": "Small text under the \"Accent\" colour field in the quick start: a list of what the accent colour is used for. The focus ring is the outline around the item the keyboard is on.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.hintCanvas": {
+    "en": "Behind the tiles",
+    "context": "Small text under the \"Background\" colour field in the quick start: the background is the colour behind all tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.hintLit": {
+    "en": "Lamps and sockets that are on",
+    "context": "Small text under the \"Lights on\" colour field in the quick start: the colour of lamps and sockets that are switched on.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.hintSurface": {
+    "en": "Tiles, panels and menus",
+    "context": "Small text under the \"Tiles\" colour field in the quick start: this colour is used for tiles, panels and menus.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.hintText": {
+    "en": "Lighter and fainter shades follow",
+    "context": "Small text under the \"Text\" colour field in the quick start: the muted and faint text colours are made from this one automatically.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.lit": {
+    "en": "Lights on",
+    "context": "Name of the colour field for the colour of lamps and sockets that are switched on. Also the fifth key colour in the quick start. \"Lights\" are the lamps of the home, not daylight.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.litSoft": {
+    "en": "Lights on, soft",
+    "context": "Name of the colour field for the soft, faded version of the lights-on colour, used as a glow around a lamp that is on.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.onAccent": {
+    "en": "Text on the accent",
+    "context": "Name of the colour field for the text colour on top of the accent colour, for example the words on a main button. It has to be readable on the accent.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.overlay": {
+    "en": "Menus and dialogs",
+    "context": "Name of the colour field for the background of menus, pop-ups and dialogs, which float over the page. Shown in the colour list and in the sidebar and app settings.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.surface": {
+    "en": "Tiles",
+    "context": "Name of the colour field for the colour of the tiles, panels and menus of a theme. Also the second key colour in the quick start. It can be a gradient. \"Tile\" is the box of one widget on a dashboard.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.surfaceRaised": {
+    "en": "Raised tiles",
+    "context": "Name of the colour field for tiles that sit on top of other tiles, a little lighter or darker than the normal ones, for example a button inside a tile.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.text": {
+    "en": "Text",
+    "context": "Name of the colour field for the main text colour of a theme. Also the third key colour in the quick start.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.textFaint": {
+    "en": "Faint text",
+    "context": "Name of the colour field for the faintest text colour of a theme, used for hints and disabled things. Fainter than muted text.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.textMuted": {
+    "en": "Muted text",
+    "context": "Name of the colour field for the quieter text colour of a theme, used for secondary lines under titles.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.track": {
+    "en": "Slider and bar tracks",
+    "context": "Name of the colour field for the empty part of sliders and progress bars, the line the handle runs along.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.warn": {
+    "en": "Warning",
+    "context": "Name of the colour field for the colour that warns about something that needs attention, usually orange or yellow.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.warnAccentOnTiles": {
+    "en": "<b>Accent on tiles</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
+    "context": "Warning under the five key colours in the quick start: the chosen accent colour is hard to see on the chosen tile colour. The bold part names what is hard to see. The numbers are contrast ratios such as 2.1:1, written with a colon.",
+    "params": {
+      "needs": "The contrast it should have at least, such as 3. A number.",
+      "ratio": "The contrast between the two colours as it is now, such as 2.1. A number."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.warnTextOnBackground": {
+    "en": "<b>Text on the background</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
+    "context": "Warning under the five key colours in the quick start: the chosen text colour is hard to read on the chosen background colour. The bold part names what is hard to read. The numbers are contrast ratios such as 3.2:1, written with a colon.",
+    "params": {
+      "needs": "The contrast it should have at least, such as 4.5. A number.",
+      "ratio": "The contrast between the two colours as it is now, such as 3.2. A number."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.warnTextOnTiles": {
+    "en": "<b>Text on tiles</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
+    "context": "Warning under the five key colours in the quick start: the chosen text colour is hard to read on the chosen tile colour. The bold part names what is hard to read. The numbers are contrast ratios such as 3.2:1, written with a colon.",
+    "params": {
+      "needs": "The contrast it should have at least, such as 4.5. A number.",
+      "ratio": "The contrast between the two colours as it is now, such as 3.2. A number."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.dashboardsDialog.apply": {
+    "en": "Use on {count, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Blue button in the footer of the dialog that gives a theme to dashboards, when at least one dashboard is ticked. It says how many. With none ticked the button reads \"Save\". A command.",
+    "params": {
+      "count": "How many dashboards are ticked: 1 or more."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.dashboardsDialog.description": {
+    "en": "A dashboard’s own theme wins over this device’s. Untick one to let it follow the device again.",
+    "context": "Text under the title of the dialog that gives a theme to dashboards. A dashboard that has a theme of its own wears that, not the one set for this screen. \"Device\" is the phone, tablet or computer.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.dashboardsDialog.followsDevice": {
+    "en": "Follows the device",
+    "context": "Small text at the right of a dashboard in the list: it has no theme of its own and wears the theme set for this screen. \"Device\" is the phone, tablet or computer.",
+    "maxLength": 26,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.dashboardsDialog.listLabel": {
+    "en": "Dashboards",
+    "context": "Screen reader label of the list of dashboards with a checkbox each in the dialog that gives a theme to dashboards. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.dashboardsDialog.none": {
+    "en": "No dashboards yet.",
+    "context": "Line in the dialog that gives a theme to dashboards when the person has no dashboard to give it to.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.dashboardsDialog.title": {
+    "en": "Use {themeName} on dashboards",
+    "context": "Title of the dialog where the person ticks the dashboards that should wear one theme. A command.",
+    "params": {
+      "themeName": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeDashboardsDialog.messages.ts"
+  },
+  "themes.editor.chartLine": {
+    "en": "Line {number}",
+    "context": "Name of the colour field for one of the lines in a chart, in the order they are used: Line 1, Line 2…",
+    "params": {
+      "number": "Which line it is, counted from 1."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.chartsHeading": {
+    "en": "Charts",
+    "context": "Heading of the group at the end of the list of all colours with the colours of the lines in charts.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.close": {
+    "en": "Close",
+    "context": "Button in the footer of the theme editor that leaves the editor and goes back to where the person came from. If there are unsaved changes it asks first.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.deleteTheme": {
+    "en": "Delete theme",
+    "context": "Button at the bottom left of the theme editor that deletes the theme. It asks to confirm first. A command.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.followsFrom": {
+    "en": "{key, select, canvas {Made from the background, changes with it} surface {Made from the tiles, changes with it} text {Made from the text, changes with it} accent {Made from the accent, changes with it} other {Made from the lights on, changes with it}}",
+    "context": "Small text under the name of a colour in the list of all colours, for a colour that has not been set by hand: it is worked out from one of the five key colours and changes when that one changes. \"Lights on\" is the colour of lamps that are switched on.",
+    "params": {
+      "key": "Which key colour it is made from: canvas (the background), surface (the tiles), text, accent, or any other value for the lights-on colour."
+    },
+    "maxLength": 300,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.fontsFailed": {
+    "en": "{count, plural, one {Couldn't get {fonts} from Google. Pick it again to try once more.} other {Couldn't get {fonts} from Google. Pick them again to try once more.}}",
+    "context": "Warning under the preview in the theme editor: Tiledash could not copy a Google font the person picked. Picking it again tries a second time. A warning icon comes before it.",
+    "params": {
+      "count": "How many fonts failed: 1 or 2.",
+      "fonts": "The names of the fonts, joined in a list such as \"Lora and Fraunces\". Font names, not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.fontsGetting": {
+    "en": "{count, plural, one {Getting {fonts}; the preview switches to it in a moment.} other {Getting {fonts}; the preview switches to them in a moment.}}",
+    "context": "Note under the preview in the theme editor while a Google font the person picked is being copied to Tiledash, which takes a moment. The preview shows the old font until it arrives. A small pulsing dot comes before it.",
+    "params": {
+      "count": "How many fonts are on their way: 1 or 2.",
+      "fonts": "The names of the fonts, joined in a list such as \"Lora and Fraunces\". Font names, not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.fontsLimited": {
+    "en": "You can add {max, plural, one {# new Google Font} other {# new Google Fonts}} a day, and today's are used. Fonts you picked before still work; try {fonts} again later.",
+    "context": "Warning under the preview in the theme editor: the limit of new Google fonts per day is reached, so the font the person picked cannot be added today. Fonts picked before still work. \"Today's are used\" means the allowance of today has been used up. A warning icon comes before it.",
+    "params": {
+      "fonts": "The names of the fonts that could not be added, joined in a list such as \"Lora and Fraunces\". Font names, not translated.",
+      "max": "The number of new Google fonts a person may add per day."
+    },
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.goPro": {
+    "en": "Go Pro",
+    "context": "Button in the footer of the theme editor, next to the note that own themes need Pro: it opens the page where the person can upgrade to the Pro plan. Pro is the name of a plan. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.keepEditing": {
+    "en": "Keep editing",
+    "context": "Button in the \"Leave without saving?\" question: stay in the theme editor and carry on. The safe choice, next to \"Leave without saving\". A command.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.leaveAnyway": {
+    "en": "Leave without saving",
+    "context": "Red button in the \"Leave without saving?\" question: leave the theme editor and lose the unsaved changes. A command, the answer to the title.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.leaveText": {
+    "en": "Your changes to this theme are lost.",
+    "context": "Text under the title \"Leave without saving?\": if the person leaves now, the changes made since the last save are gone for good.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.leaveTitle": {
+    "en": "Leave without saving?",
+    "context": "Title of the question that appears when the person leaves the theme editor while there are unsaved changes. A yes or no question.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.messagePlaceholder": {
+    "en": "What changed? (optional)",
+    "context": "Placeholder in the small field in the footer of the theme editor where the person can write a note on what they changed. The note goes into the history of saved versions. The field can stay empty.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.nameLabel": {
+    "en": "Name",
+    "context": "Label of the text field at the top of the theme editor where the person types the name of their theme.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.namePlaceholder": {
+    "en": "My theme",
+    "context": "Placeholder in the name field of the theme editor, shown while the field is empty. Also the name in the preview while the theme has no name yet. A neutral example name for a theme the person makes.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.notSavedYet": {
+    "en": "Not saved yet",
+    "context": "Small text in the footer of the theme editor next to the Save button: there are changes that are not saved. A status.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewAnother": {
+    "en": "Another",
+    "context": "Label of the sample plain button next to \"A button\" in the preview in the theme editor: a second button, to show how an ordinary button looks.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewButton": {
+    "en": "A button",
+    "context": "Label of the sample main button in the preview in the theme editor. It only shows how a main button looks, so any button word will do.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewEnergy": {
+    "en": "Energy",
+    "context": "Name of the second sample page in the sample sidebar of the preview in the theme editor: the one with the pointer on it. A dashboard about energy use.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewGarden": {
+    "en": "Garden",
+    "context": "Name of the third sample page in the sample sidebar of the preview in the theme editor. A dashboard about the garden.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewHome": {
+    "en": "Home",
+    "context": "Name of the highlighted sample page in the sample sidebar of the preview in the theme editor. It stands for the page that is open now, like a home dashboard.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewLabel": {
+    "en": "Preview",
+    "context": "Name for screen readers of the area on the right of the theme editor that shows a sample dashboard in the theme as it is now. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.previewLive": {
+    "en": "Live",
+    "context": "Label of the sample green badge in the preview in the theme editor. A badge with a dot that says something is up to date, like \"Live\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.proLocked": {
+    "en": "Your own themes come with Pro.",
+    "context": "Small text in the footer of the theme editor when the paid plan (Pro) has ended while the editor was open: saving own themes needs Pro. A button \"Go Pro\" sits next to it. Pro is the name of a plan.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.publish": {
+    "en": "Publish to the community…",
+    "context": "Button in the footer of the theme editor for a theme that was never published: it opens a dialog to share the theme in the community (the store where people share themes). The dots mean a dialog follows. A command.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.publishFirst": {
+    "en": "Save it first",
+    "context": "Tooltip of the dimmed button that publishes the theme to the community, while there are unsaved changes: what is published is the last saved version, so the person has to save first. \"It\" is the theme.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.publishNewVersion": {
+    "en": "Publish a new version…",
+    "context": "Button in the footer of the theme editor for a theme that was published before: it opens a dialog to publish the changes as a new version in the community (the store where people share themes). The dots mean a dialog follows. A command.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.relink": {
+    "en": "{key, select, canvas {Make it from the background again} surface {Make it from the tiles again} text {Make it from the text again} accent {Make it from the accent again} other {Make it from the lights on again}}",
+    "context": "Small button under a colour that was set by hand: it takes that away, so the colour is worked out from the key colour again. A command; \"it\" is that colour. \"Lights on\" is the colour of lamps that are switched on.",
+    "params": {
+      "key": "Which key colour it is made from: canvas (the background), surface (the tiles), text, accent, or any other value for the lights-on colour."
+    },
+    "maxLength": 280,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.saveTheme": {
+    "en": "Save theme",
+    "context": "Main button in the footer of the theme editor that saves the theme. After saving, the editor stays open. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.saved": {
+    "en": "Saved",
+    "context": "The main button in the footer of the theme editor, where it reads \"Save theme\", while there is nothing new to save. It is dimmed and has a check mark. A status.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionColours": {
+    "en": "All colours",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with every colour of the theme on its own.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionCss": {
+    "en": "Your own CSS",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, where the person can write CSS of their own (CSS is the web style language). Also the name of the code editor for screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionDepth": {
+    "en": "Depth",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with shadows, glow, frosted glass, borders and grain.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionHistory": {
+    "en": "History",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with the earlier saved versions of the theme, which can be restored or compared.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionMotion": {
+    "en": "Motion",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with the settings for animation: whether things move, and how fast.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionShape": {
+    "en": "Shape",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with the roundness of corners and the spacing of tiles.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionSidebar": {
+    "en": "Sidebar and app",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with the colours of the sidebar (the menu on the left of the app) and of menus and dialogs.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionStart": {
+    "en": "Quick start",
+    "context": "Name of the first section of the theme editor, in the list of sections on the left. It holds five key colours; the rest of the theme follows them.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.sectionType": {
+    "en": "Type",
+    "context": "Name of the section of the theme editor, in the list of sections on the left, with fonts and the look of numbers and labels. \"Type\" as in typography, not a kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.setIt": {
+    "en": "Set it",
+    "context": "Small button next to a colour that is made from a key colour: it lets the person set that colour by hand. A command; \"it\" is that colour.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.settingsLabel": {
+    "en": "Theme settings",
+    "context": "Name for screen readers of the list of sections (Quick start, All colours…) on the left of the theme editor. Not visible as text.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.startIntro": {
+    "en": "Five colours, and the rest of the theme follows them.",
+    "context": "Introduction at the top of the quick start section of the theme editor: below are five colour fields, and all other colours of the theme are made from them.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.startsFrom": {
+    "en": "Starts from",
+    "context": "Label above the button at the top of the theme editor that shows which built-in theme the person’s theme is made from. Under it sits the name of that theme.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editorFields.blur": {
+    "en": "Frosted glass",
+    "context": "Name of the slider in the theme editor that sets how much the background behind tiles is blurred, like frosted glass. Also its name for screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.blurOff": {
+    "en": "Off",
+    "context": "Value shown next to the frosted glass slider when it is at its lowest: no blur. Shown instead of \"0 px\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.borderColour": {
+    "en": "Border colour",
+    "context": "Name of the colour field in the theme editor for the colour of the lines around tiles, in the section about depth.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.borderNone": {
+    "en": "None",
+    "context": "Value shown next to the border width slider when it is at its lowest: tiles have no border. Shown instead of \"0 px\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.borderWidth": {
+    "en": "Border width",
+    "context": "Name of the slider in the theme editor that sets how thick the lines around tiles are. Also its name for screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cornersButtons": {
+    "en": "Corners of buttons",
+    "context": "Visible name of the slider in the theme editor that sets how round the corners of buttons and fields are. Its name for screen readers is the longer \"Corners of buttons and fields\".",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cornersButtonsLabel": {
+    "en": "Corners of buttons and fields",
+    "context": "Name for screen readers of the slider in the theme editor that sets how round the corners of buttons and input fields are. Not visible as text.",
+    "maxLength": 48,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cornersSmall": {
+    "en": "Small corners",
+    "context": "Name of the slider in the theme editor that sets how round the corners of small things are, such as badges and chips. Also its name for screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cornersTiles": {
+    "en": "Corners of tiles",
+    "context": "Name of the slider in the theme editor that sets how round the corners of tiles are. Also its name for screen readers. A tile is the box of one widget on a dashboard.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cssChecked": {
+    "en": "Checked again when it is saved.",
+    "context": "Small note under the code editor for CSS in the theme editor: the CSS is checked once more when the theme is saved, so problems might still show up then.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.cssIntro": {
+    "en": "For what has no setting: CSS for the dashboard and its parts, using the theme's variables (<code>--hd-*</code>) and the widgets' documented hooks. It only reaches dashboards in this theme.",
+    "context": "Introduction above the code editor in the theme editor’s own CSS section. CSS is the web style language. The part in code tags is a technical name pattern that stays exactly as written: keep the tags. \"Hooks\" are the documented class names widgets offer to style them.",
+    "maxLength": 230,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.fontDisplay": {
+    "en": "Big numbers and titles",
+    "context": "Name of the font choice in the theme editor for the font of big numbers and titles. Shown above the font list, followed by a colon and the name of the chosen font.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.fontUi": {
+    "en": "Everything else",
+    "context": "Name of the font choice in the theme editor for the font of all other text, below \"Big numbers and titles\". Shown above the font list, followed by a colon and the name of the chosen font.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.gap": {
+    "en": "Between tiles",
+    "context": "Visible name of the slider in the theme editor that sets the empty space between neighbouring tiles. Its name for screen readers is the longer \"Space between tiles\".",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.gapLabel": {
+    "en": "Space between tiles",
+    "context": "Name for screen readers of the slider in the theme editor that sets the empty space between neighbouring tiles. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.glow": {
+    "en": "Glow around lights that are on",
+    "context": "Name of the switch in the theme editor that turns on a soft glow around lamps that are switched on. Also its name for screen readers. \"Lights\" are the lamps of the home.",
+    "maxLength": 48,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.grain": {
+    "en": "Grain",
+    "context": "Name of the switch in the theme editor that adds a fine noise texture over the background, like paper or film grain. Also its name for screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.labelsCaps": {
+    "en": "Labels in capitals",
+    "context": "Name of the switch in the theme editor that makes the small labels on tiles show in capital letters. Also its name for screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.motionCalm": {
+    "en": "Calm",
+    "context": "Choice in the movement setting of the theme editor: fades stay, but things do not move around. Next to Full.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.motionFull": {
+    "en": "Full",
+    "context": "Choice in the movement setting of the theme editor: all animation is used. Next to Calm.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.motionHint": {
+    "en": "Calm keeps fades and drops movement; e-ink screens never move.",
+    "context": "Small note under the motion settings: the Calm choice keeps fading but stops things moving around, and screens for e-ink (like an e-reader) never animate at all.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.movement": {
+    "en": "Movement",
+    "context": "Name of the choice (Full, Calm) in the theme editor that sets whether things on screen move and fade. Also its name for screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.numberWeight": {
+    "en": "Weight of numbers",
+    "context": "Visible name of the slider in the theme editor that sets how bold the big numbers are (a font weight from thin to heavy). Its name for screen readers is \"Weight of big numbers\".",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.numberWeightLabel": {
+    "en": "Weight of big numbers",
+    "context": "Name for screen readers of the slider in the theme editor that sets how bold the big numbers are (a font weight from thin to heavy). Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.numbers": {
+    "en": "Big numbers",
+    "context": "Name of the colour field in the theme editor for the colour of the big numbers on tiles, such as a temperature. It can be a gradient.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.numbersHint": {
+    "en": "Their colour, or a gradient through the letters",
+    "context": "Small text under the \"Big numbers\" colour field: the numbers get one colour, or a gradient that runs through the digits themselves. \"Letters\" means the digits of the numbers.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.padding": {
+    "en": "Room inside tiles",
+    "context": "Name of the slider in the theme editor that sets the empty space between the edge of a tile and what is in it. Also its name for screen readers.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.shadowLifted": {
+    "en": "Lifted",
+    "context": "Choice in the shadows setting of the theme editor: a strong shadow that makes tiles look like they float above the page. Next to None and Soft.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.shadowNone": {
+    "en": "None",
+    "context": "Choice in the shadows setting of the theme editor: no shadow under tiles at all. Next to Soft and Lifted.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.shadowSoft": {
+    "en": "Soft",
+    "context": "Choice in the shadows setting of the theme editor: a light, subtle shadow under tiles. Next to None and Lifted.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.shadows": {
+    "en": "Shadows",
+    "context": "Name of the choice (None, Soft, Lifted) in the theme editor that sets how strong the shadows under tiles are. Also its name for screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebar": {
+    "en": "Sidebar",
+    "context": "Name of the colour field for the background of the sidebar (the menu on the left of the app) in the theme editor, in the section about the sidebar and the app.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarActive": {
+    "en": "The page you're on",
+    "context": "Name of the colour field for the background of the sidebar item of the page that is open now, in the theme editor. \"You\" is the person using the app.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarActiveText": {
+    "en": "Its text",
+    "context": "Name of the colour field right under \"The page you’re on\": the text colour of that sidebar item. \"Its\" refers to the item of the page that is open now.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarBorder": {
+    "en": "Sidebar border",
+    "context": "Name of the colour field for the thin line along the edge of the sidebar in the theme editor.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarHint": {
+    "en": "Its background: a colour or a gradient",
+    "context": "Small text under the \"Sidebar\" colour field: this field sets the background of the sidebar, and it can be one colour or a gradient.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarHover": {
+    "en": "Under the pointer",
+    "context": "Name of the colour field for the background of a sidebar item while the mouse pointer is on it, in the theme editor. Also the tooltip of the sample item that shows it in the preview.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarHoverHint": {
+    "en": "An item you hover over",
+    "context": "Small text under the \"Under the pointer\" colour field: it is the colour of a sidebar item that the mouse pointer rests on.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarHoverText": {
+    "en": "Its text",
+    "context": "Name of the colour field right under \"Under the pointer\": the text colour of the sidebar item the mouse pointer is on. \"Its\" refers to that item.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.sidebarText": {
+    "en": "Sidebar text",
+    "context": "Name of the colour field for the text colour of the sidebar items in the theme editor.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.spacingHint": {
+    "en": "A dashboard's own spacing (its settings) still wins over the theme's.",
+    "context": "Small note under the shape sliders: a dashboard has its own spacing setting, and when that is set it is used instead of the theme’s spacing. \"Its settings\" are the dashboard’s settings.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.speed": {
+    "en": "Speed",
+    "context": "Name of the slider in the theme editor that sets how fast animations run, from quick to slow. The value is in milliseconds.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFields.speedLabel": {
+    "en": "How long a change takes",
+    "context": "Name for screen readers of the animation speed slider in the theme editor: the time a change takes to show, in milliseconds. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
+  },
+  "themes.editorFonts.addFailed": {
+    "en": "Couldn’t add {file}.",
+    "context": "Toast when uploading a font file in the theme editor failed. A reason may follow under it.",
+    "params": {
+      "file": "The file name the person chose, such as MyFont.woff2. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/fonts/useEditorFonts.messages.ts"
+  },
+  "themes.editorFonts.added": {
+    "en": "{font} added",
+    "context": "Toast after a font file was uploaded in the theme editor.",
+    "params": {
+      "font": "The name of the font that was added. A font name, not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/themes/fonts/useEditorFonts.messages.ts"
+  },
+  "themes.editorFonts.pickIt": {
+    "en": "Pick it in Your own.",
+    "context": "Text of the toast after a font file was uploaded: the font is in the list \"Your own\" (one of three choices above the font list in the theme editor), where the person can pick it. \"It\" is the new font.",
+    "maxLength": 40,
+    "file": "apps/web/src/themes/fonts/useEditorFonts.messages.ts"
+  },
+  "themes.editorFonts.tooBig": {
+    "en": "A font file can be at most 2 MB.",
+    "context": "Toast when the font file the person chose to upload in the theme editor is too big. 2 MB is the limit and stays as written.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/fonts/useEditorFonts.messages.ts"
+  },
+  "themes.editorPage.compareFailed": {
+    "en": "Couldn’t compare these saves.",
+    "context": "Toast in the theme editor when two saved versions from the history could not be compared. \"Saves\" are saved versions of the theme.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deleteConfirm": {
+    "en": "Delete theme",
+    "context": "Red button of the question before a theme is deleted: it deletes the theme for good. A command.",
+    "maxLength": 24,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deleteText": {
+    "en": "Dashboards in it go back to the app’s theme. This can’t be undone.",
+    "context": "Text of the question before a theme is deleted: dashboards that wear this theme will follow the theme of the app again, and the deletion is permanent. \"It\" is the theme.",
+    "maxLength": 100,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deleteTitleNamed": {
+    "en": "Delete {name}?",
+    "context": "Title of the question that asks to confirm before a theme is deleted in the theme editor. A yes or no question.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deleteTitleUnnamed": {
+    "en": "Delete this theme?",
+    "context": "Title of the question that asks to confirm before a theme is deleted in the theme editor, for a theme whose name field is empty. A yes or no question.",
+    "maxLength": 40,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.loadFailedText": {
+    "en": "Check your connection and try again.",
+    "context": "Text under \"Couldn’t load the theme\": the person should check their internet connection. A button \"Try again\" sits below it.",
+    "maxLength": 70,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.loadFailedTitle": {
+    "en": "Couldn’t load the theme",
+    "context": "Title of the message shown instead of the theme editor when loading the theme failed, for example because of the connection.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.missingText": {
+    "en": "It may have been deleted. Dashboards that were in it follow the app’s theme.",
+    "context": "Text under \"No such theme\": the theme was probably deleted, and dashboards that wore it now follow the theme of the app. \"It\" is the theme.",
+    "maxLength": 110,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.missingTitle": {
+    "en": "No such theme",
+    "context": "Title of the message shown instead of the theme editor when the address does not point to a theme of the person: it does not exist (any more).",
+    "maxLength": 40,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.openSaveFailed": {
+    "en": "Couldn’t open that save.",
+    "context": "Toast in the theme editor when an earlier saved version from the history could not be opened to go back to it. \"Save\" is a saved version of the theme.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorSave.deleteFailed": {
+    "en": "Couldn’t delete the theme.",
+    "context": "Toast when deleting a theme in the theme editor failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.deleted": {
+    "en": "{name} deleted",
+    "context": "Toast after a theme was deleted in the theme editor.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.pickIt": {
+    "en": "Pick it in a dashboard’s theme or in {device}.",
+    "context": "Text of the toast after a new theme was saved: where the person can choose to use it. \"A dashboard’s theme\" is the theme setting of a dashboard. \"It\" is the new theme.",
+    "params": {
+      "device": "The name of the dialog for the theme of the screen the person is looking at (\"This device\"). Already translated."
+    },
+    "maxLength": 90,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.saveFailed": {
+    "en": "Couldn’t save the theme.",
+    "context": "Toast when saving a theme in the theme editor failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.saved": {
+    "en": "{name} saved",
+    "context": "Toast after a theme was saved in the theme editor. The editor stays open.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.switchFailed": {
+    "en": "Couldn’t switch to {name}; pick it in the theme picker.",
+    "context": "Toast when a new theme was saved but could not be put to use right away, where the person asked for that (on a dashboard or on this device): they can pick it themselves in the theme picker.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 90,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.familyCard.autoTitle": {
+    "en": "Follows the device: light by day, dark at night",
+    "context": "Tooltip of the Auto button under a theme in the picker: the theme is light by day and dark at night, as the device is set. \"Device\" is the phone, tablet or computer.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.familyCard.kindPair": {
+    "en": "Light and dark",
+    "context": "Small caption under the name of a theme in the picker: the theme has both a light and a dark look. Other captions are \"Light\", \"Dark\" and \"E-ink\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.familyCard.modeAuto": {
+    "en": "Auto",
+    "context": "Small button under a theme in the picker, next to Light and Dark: the theme follows the device and switches between its light and dark look. A very short word, like \"Automatic\".",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.familyCard.modesLabel": {
+    "en": "{name}: light or dark",
+    "context": "Screen reader label of the small group of buttons under a theme (Light, Dark, Auto) that chooses which look it is used in. Not visible as text.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.familyCard.more": {
+    "en": "More",
+    "context": "Screen reader label of the small round button with three dots on a theme card in the picker; it opens a menu with Edit. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.familyCard.pickLabel": {
+    "en": "{name}, {kind}",
+    "context": "Screen reader label of the button that chooses a theme in the picker: its name, then which looks it has. Not visible as text.",
+    "params": {
+      "kind": "Its looks as written in the caption: Light, Dark, E-ink or Light and dark (translated).",
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeFamilyCard.messages.ts"
+  },
+  "themes.fillField.addColour": {
+    "en": "A colour",
+    "context": "Small button under the colours of a gradient in the theme editor, with a plus icon: it adds one more colour to the gradient. Read as \"(add) a colour\".",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.colourLabel": {
+    "en": "{label}: colour {number}",
+    "context": "Name for screen readers of one of the colour swatches of a gradient in the theme editor, counted from 1 in the order the colours blend. Not visible as text.",
+    "params": {
+      "label": "The name of the fill field, such as Background. Already translated.",
+      "number": "Which colour of the gradient it is, counted from 1."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.direction": {
+    "en": "Direction",
+    "context": "Name of the slider in a gradient fill of the theme editor that sets the angle along which the colours blend, in degrees.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.directionLabel": {
+    "en": "{label}: direction",
+    "context": "Name for screen readers of the direction slider of a gradient in the theme editor. Not visible as text.",
+    "params": {
+      "label": "The name of the fill field, such as Background. Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.duplicate": {
+    "en": "The same colour again as the next step",
+    "context": "Tooltip of the small button next to a colour of a gradient in the theme editor: it adds a copy of that colour right after it. A command, in the sense of \"add the same colour again\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.duplicateLabel": {
+    "en": "Colour {number} again as the next step",
+    "context": "Name for screen readers of the small button next to a colour of a gradient in the theme editor: it adds a copy of that colour right after it, which makes smooth gradients quick. Not visible as text.",
+    "params": {
+      "number": "Which colour of the gradient it is, counted from 1."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.kindLabel": {
+    "en": "{label}: colour or gradient",
+    "context": "Name for screen readers of the row of three choices (Colour, Gradient, Glow) of a fill in the theme editor. Not visible as text.",
+    "params": {
+      "label": "The name of the fill field, such as Background. Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.kindLinear": {
+    "en": "Gradient",
+    "context": "Choice in the row of three (Colour, Gradient, Glow) in the theme editor that says what fills a surface: a smooth blend from one colour to another along a line.",
+    "maxLength": 14,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.kindRadial": {
+    "en": "Glow",
+    "context": "Choice in the row of three (Colour, Gradient, Glow) in the theme editor that says what fills a surface: a blend that spreads out from a point, like a glow.",
+    "maxLength": 14,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.kindSolid": {
+    "en": "Colour",
+    "context": "Choice in the row of three (Colour, Gradient, Glow) in the theme editor that says what fills a surface: one plain colour. Also the name of the colour field inside a fill that is a plain colour.",
+    "maxLength": 14,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.positionLabel": {
+    "en": "Where colour {number} sits",
+    "context": "Name for screen readers of the slider of a colour in a gradient in the theme editor that sets where along the blend, from 0 to 100 per cent, that colour is. Not visible as text.",
+    "params": {
+      "number": "Which colour of the gradient it is, counted from 1."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.removeLabel": {
+    "en": "Remove colour {number}",
+    "context": "Name for screen readers of the small × button next to a colour of a gradient in the theme editor: it takes that colour out of the gradient. A command.",
+    "params": {
+      "number": "Which colour of the gradient it is, counted from 1."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.toGradient": {
+    "en": "Make it a gradient",
+    "context": "Tooltip of the small gradient button next to a colour field in the theme editor: it turns the plain colour into a gradient. A command.",
+    "maxLength": 32,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fillField.toGradientLabel": {
+    "en": "{label}: make it a gradient",
+    "context": "Name for screen readers of the small gradient button next to a colour field in the theme editor: it turns the plain colour into a gradient. Not visible as text. A command after the colon.",
+    "params": {
+      "label": "The name of the colour field, such as Background. Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFillField.messages.ts"
+  },
+  "themes.fontPicker.categoryDisplay": {
+    "en": "display",
+    "context": "Small grey text after the name of a Google font that says what kind of font it is: a decorative font for big titles (display). Lower case, a typography word.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.categoryHandwriting": {
+    "en": "handwriting",
+    "context": "Small grey text after the name of a Google font that says what kind of font it is: letters that look handwritten. Lower case, a typography word.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.categoryMonospace": {
+    "en": "monospace",
+    "context": "Small grey text after the name of a Google font that says what kind of font it is: every letter has the same width, like in code (monospace). Lower case, a typography word.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.categorySans": {
+    "en": "sans-serif",
+    "context": "Small grey text after the name of a Google font that says what kind of letters it has: without the little feet on the letters (sans-serif). Lower case, a typography word.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.categorySerif": {
+    "en": "serif",
+    "context": "Small grey text after the name of a Google font that says what kind of letters it has: with little feet on the letters (serif). Lower case, a typography word.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.copyNote": {
+    "en": "Picking a font copies it to Tiledash's server; it shows in the preview a moment later. Nobody looking at a dashboard talks to Google.",
+    "context": "Small explanation under the list of Google fonts in the theme editor: when a font is picked, Tiledash copies it to its own server, so the preview takes a moment, and people who look at a dashboard never connect to Google (a privacy promise). Tiledash is the product name.",
+    "maxLength": 170,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.current": {
+    "en": "{label}: <b>{font}</b>",
+    "context": "Line above a font list in the theme editor: what the font is for, then the name of the font in use now in bold, for example \"Everything else: Inter\".",
+    "params": {
+      "font": "The name of the font in use now. A font name, not translated.",
+      "label": "What the font is for, such as \"Big numbers and titles\". Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.dropLabel": {
+    "en": "Add a font file (woff2, ttf or otf, up to 2 MB)",
+    "context": "Text of the button with a plus icon in the theme editor that lets the person choose a font file from their computer. The file types and the size limit in the brackets stay as they are. A command.",
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.failedIt": {
+    "en": "Couldn’t get it, pick it again",
+    "context": "Small red text after the name of a Google font in the font list in the theme editor when copying that font failed. Picking the font again tries once more.",
+    "maxLength": 44,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.gettingIt": {
+    "en": "Getting it…",
+    "context": "Small grey text after the name of a Google font in the font list in the theme editor while Tiledash copies that font, which takes a moment. A status.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.licence": {
+    "en": "Only fonts you may use: you are responsible for the font's licence.",
+    "context": "Small warning under the button that uploads a font file in the theme editor: only upload fonts that you are allowed to use, because the person is responsible for the licence of the font.",
+    "maxLength": 90,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.limitedIt": {
+    "en": "Too many new fonts today",
+    "context": "Small red text after the name of a Google font in the font list in the theme editor when the limit of new fonts per day is reached, so this font cannot be added today.",
+    "maxLength": 36,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.sample": {
+    "en": "1.71 kW · Living room",
+    "context": "Sample text after the name of each font in the list of fonts that come with Tiledash, to show how a number and a word look in that font. Demo content: a power reading and the name of a room, with a dot between them. Use the number style and the usual word for a living room of your language.",
+    "maxLength": 40,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.searchHint": {
+    "en": "Type a name to search Google’s fonts, such as “Fraunces” or “Space Grotesk”.",
+    "context": "Small text under the search field before anything is typed: the person types a font name to search. The two example names are real fonts and stay as they are, in quotation marks of your language.",
+    "maxLength": 100,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.searchNone": {
+    "en": "No Google font is called that.",
+    "context": "Small text under the search field when the search found no font: no font of Google has the name that was typed.",
+    "maxLength": 50,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.searchPlaceholder": {
+    "en": "Search Google Fonts",
+    "context": "Placeholder in the search field above the list of Google fonts in the theme editor. Also the name of the field for screen readers. \"Google Fonts\" is a service name, not translated.",
+    "maxLength": 32,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.sourceBundled": {
+    "en": "With Tiledash",
+    "context": "Choice in the row of three (With Tiledash, Google Fonts, Your own) above a font list in the theme editor: the fonts that come built into Tiledash. Tiledash is the product name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.sourceGoogle": {
+    "en": "Google Fonts",
+    "context": "Choice in the row of three (With Tiledash, Google Fonts, Your own) above a font list in the theme editor: search the free fonts of Google. \"Google Fonts\" is a service name, not translated.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.sourceLabel": {
+    "en": "{label}: where from",
+    "context": "Name for screen readers of the row of three choices (With Tiledash, Google Fonts, Your own) that says where a font comes from. Not visible as text.",
+    "params": {
+      "label": "What the font is for, such as \"Big numbers and titles\". Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.sourceUpload": {
+    "en": "Your own",
+    "context": "Choice in the row of three (With Tiledash, Google Fonts, Your own) above a font list in the theme editor: font files that the person uploaded themselves. Short for \"your own fonts\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.fontPicker.uploaded": {
+    "en": "uploaded",
+    "context": "Small grey text after the name of a font file the person uploaded earlier, in the list of their own fonts in the theme editor. A status, lower case.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.previewPane.fonts": {
+    "en": "{display} for numbers, {ui} for text",
+    "context": "Line under the description of a theme in the picker that names its two fonts: one for the big numbers and one for the other text. Both are font names.",
+    "params": {
+      "display": "The name of the font for big numbers, such as Space Grotesk. A font name, not translated.",
+      "ui": "The name of the font for other text, such as Inter. A font name, not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemePreviewPane.messages.ts"
+  },
+  "themes.previewPane.label": {
+    "en": "Preview",
+    "context": "Name for screen readers of the big preview area in the theme picker, which shows the chosen theme on sample tiles. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePreviewPane.messages.ts"
+  },
+  "themes.previewPane.lookAt": {
+    "en": "Look at",
+    "context": "Name for screen readers of the two buttons (Light, Dark) under the preview of a theme in the picker, with which the person looks at the light or the dark look. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePreviewPane.messages.ts"
+  },
+  "themes.screen.description": {
+    "en": "The looks your dashboards and devices wear: yours, the ones you installed from the community, and Tiledash's. Click one to preview it, then use it on this device or on your dashboards.",
+    "context": "Text under the title of the Themes page. A theme is a look (colours, fonts and corners). \"Device\" is the phone, tablet or computer, not a smart-home device. The community is the store where people share themes.",
+    "maxLength": 280,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.filterLabel": {
+    "en": "Show",
+    "context": "Screen reader label of the row of choices (All, Yours, From the community) that filters the themes on the Themes page. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.kicker": {
+    "en": "Customize",
+    "context": "Small word above the title of the Themes page: the page is about changing how Tiledash looks. Shown in capital letters, like a category. A verb.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.newTileText": {
+    "en": "From your own colours and fonts, starting from any theme.",
+    "context": "Small text on the dashed \"New theme\" tile on the Themes page: a new theme is made from the person’s own colours and fonts, beginning with any theme they like.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.noneInstalled": {
+    "en": "Nothing installed yet. The community has themes other people made.",
+    "context": "Line in the \"From the community\" section of the Themes page when no community theme is installed. The community is the store where people share themes.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.noneOwn": {
+    "en": "No themes of your own.",
+    "context": "Line in the \"Yours\" section of the Themes page for a person on the Free plan who has made no themes.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.previewing": {
+    "en": "Previewing <b>{name}</b>",
+    "context": "Text in the bar at the top of the Themes page while the person previews a theme: the whole app shows that theme for now. The theme’s name is in bold.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.previewingCurrent": {
+    "en": "Previewing <b>{name}</b> (on this device now)",
+    "context": "Text in the bar at the top of the Themes page while the person previews the theme that this screen already wears: so previewing changes nothing. The theme’s name is in bold. \"Device\" is the phone, tablet or computer.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.sectionCommunity": {
+    "en": "From the community",
+    "context": "Choice of the filter and heading of the section on the Themes page with the themes installed from the community (the store where people share themes). The count of themes follows the heading.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.sectionTiledash": {
+    "en": "Tiledash’s",
+    "context": "Heading of the section on the Themes page with the themes that come with Tiledash, in the sense of \"Tiledash’s own\". Keep the name Tiledash. The count of themes follows the heading.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.sectionYours": {
+    "en": "Yours",
+    "context": "Choice of the filter and heading of the section on the Themes page with the themes the person made themselves. The count of themes follows the heading.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.seePro": {
+    "en": "See Pro",
+    "context": "Button in the notice on the Themes page: opens the page with the Pro plan. Pro is a plan name. A command.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.showAll": {
+    "en": "All",
+    "context": "First choice of the filter on the Themes page: shows every theme. Next to \"Yours\" and \"From the community\".",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.upsellText": {
+    "en": "Make a theme from your own colours and fonts. Back on Free, the ones you made still dress your dashboards, but can't be changed.",
+    "context": "Text of the notice on the Themes page for people on the Free plan. If a person drops from Pro back to Free, the themes they made keep working on their dashboards but can no longer be edited. Pro and Free are plan names.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.screen.upsellTitle": {
+    "en": "Themes of your own come with Pro",
+    "context": "Title of the notice on the Themes page for people on the Free plan: making themes needs the paid Pro plan. Pro and Free are plan names.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/themes/ThemesScreen.messages.ts"
+  },
+  "themes.target.dashboardNow": {
+    "en": "{name} is now in it.",
+    "context": "Toast after the person saved a new theme that they began from a dashboard’s theme picker: the theme is saved and that dashboard now wears it. \"It\" is the new theme.",
+    "params": {
+      "name": "The dashboard’s name. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/themeTarget.messages.ts"
+  },
+  "themes.target.deviceNow": {
+    "en": "This device now shows it.",
+    "context": "Toast after the person saved a new theme that they began from \"This device…\": the theme is saved and this screen now wears it. \"It\" is the new theme. \"Device\" is the phone, tablet or computer, not a smart-home device.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/themeTarget.messages.ts"
+  },
+  "themes.themesPage.changeFailed": {
+    "en": "Couldn’t change the dashboards.",
+    "context": "Toast shown when giving a theme to dashboards failed. It is the fallback: when the server gave a reason, the reason is shown instead.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/ThemesPage.messages.ts"
+  },
+  "themes.themesPage.deviceWears": {
+    "en": "This device wears {name}",
+    "context": "Toast after the person used a theme on this device on the Themes page: this screen now shows the app in that theme, kept in this browser. \"Device\" is the phone, tablet or computer, not a smart-home device.",
+    "params": {
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/ThemesPage.messages.ts"
+  },
+  "themes.themesPage.onDashboards": {
+    "en": "{name} on {count, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Toast after the person saved which dashboards wear a theme: the theme is now used by that many dashboards (it can be none, when they unticked them all).",
+    "params": {
+      "count": "How many dashboards wear the theme now: 0 or more.",
+      "name": "The theme’s name. A product name or the owner’s own words, not translated."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/themes/ThemesPage.messages.ts"
+  },
+  "themes.usage.none": {
+    "en": "Not used yet",
+    "context": "Small line on a theme’s card on the Themes page: no dashboard and no device wears this theme yet.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/themesPage.messages.ts"
+  },
+  "themes.usage.on": {
+    "en": "On {names}",
+    "context": "Small line on a theme’s card on the Themes page: it is worn by these dashboards and devices. Used for one to three names.",
+    "params": {
+      "names": "One to three names as a list, such as \"Home\", \"Home and Energy\" or \"Home, Energy and Hallway tablet\". Dashboard names are the owner’s own words, not translated; \"This device\" may be one of them."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/themes/themesPage.messages.ts"
+  },
+  "themes.usage.onMore": {
+    "en": "On {names} and {more, plural, one {# more} other {# more}}",
+    "context": "Small line on a theme’s card on the Themes page: it is worn by more than three dashboards and devices. Shows the first two and how many more there are.",
+    "params": {
+      "more": "How many more there are: 2 or more.",
+      "names": "The first two names as a short list, such as \"Home, Energy\". Dashboard names are the owner’s own words, not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/themes/themesPage.messages.ts"
+  }
+}

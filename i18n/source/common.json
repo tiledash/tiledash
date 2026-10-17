@@ -1,0 +1,476 @@
+{
+  "common.actions.allow": {
+    "en": "Allow",
+    "context": "Button on a consent screen that gives an app or tool the permission it asked for. The opposite of Cancel next to it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.back": {
+    "en": "Back",
+    "context": "Button that goes one step back, for example from an explanation to the page before it. Not the browser's back button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.cancel": {
+    "en": "Cancel",
+    "context": "Button that backs out of a choice or a dialog without changing anything. Used where the surrounding text makes clear what is cancelled.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.continue": {
+    "en": "Continue",
+    "context": "Button that goes on to the next step of a short flow, for example after typing a code. Used where nothing more specific can be said.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.logOut": {
+    "en": "Log out",
+    "context": "Button that ends the person's session. A verb: after it they are logged out of Tiledash on this browser.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.next": {
+    "en": "Next",
+    "context": "Button in the footer of a dialog with steps that goes on to the next step, after something was picked. Used where nothing more specific can be said.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.save": {
+    "en": "Save",
+    "context": "Button in the footer of a dialog that keeps what the person filled in and closes the dialog. Used where the surrounding dialog makes clear what is saved.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.seePlans": {
+    "en": "See plans",
+    "context": "Button on a message (toast) that says a limit of the plan (Free or Pro) was reached. It opens the page that compares the plans and lets the person upgrade.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.actions.tryAgain": {
+    "en": "Try again",
+    "context": "Button in an error message that repeats the action that just failed, for example loading a list.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/actions.messages.ts"
+  },
+  "common.confirm.cancel": {
+    "en": "Cancel",
+    "context": "Quiet button on the left of a confirmation dialog, used when the dialog does not give its own label: it closes the dialog without doing what was asked. The confirming button next to it has its own label.",
+    "maxLength": 16,
+    "file": "apps/web/src/dashboards/ConfirmDialog.messages.ts"
+  },
+  "common.errors.athomBusy": {
+    "en": "Athom is asking us to slow down; try again in a minute.",
+    "context": "Error text in a toast or banner when Athom, the company behind Homey, limits how often Tiledash may ask it for data. \"Us\" is Tiledash.",
+    "maxLength": 90,
+    "file": "apps/web/src/pages/describeError.messages.ts"
+  },
+  "common.errors.athomLoginExpired": {
+    "en": "Your Athom login expired. Log in again to continue.",
+    "context": "Error text in a toast or banner when the Homey account session ran out and the person has to log in again. Athom is the company behind Homey.",
+    "maxLength": 90,
+    "file": "apps/web/src/pages/describeError.messages.ts"
+  },
+  "common.errors.homeyUnreachable": {
+    "en": "Your Homey can’t be reached right now.",
+    "context": "Error text in a toast or banner when Tiledash cannot connect to the person's Homey (the smart-home hub), for example because it is offline.",
+    "maxLength": 70,
+    "file": "apps/web/src/pages/describeError.messages.ts"
+  },
+  "common.errors.offline": {
+    "en": "{what} Check your connection and try again.",
+    "context": "Error text shown in a toast or banner when the browser got no answer from Tiledash at all, for example because the device is offline. It starts with the sentence of whatever failed and then tells the person to check the internet connection.",
+    "params": {
+      "what": "A whole sentence, already translated, saying what could not be done (\"We couldn’t load your Homeys.\"). It ends with a full stop."
+    },
+    "maxLength": 160,
+    "file": "apps/web/src/pages/describeError.messages.ts"
+  },
+  "common.plan.limitCalendars": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# calendar} other {# calendars}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or message when the person tried to add more calendars (iCal links, shown in widgets) than their plan allows. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of calendars the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitDashboards": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# dashboard} other {# dashboards}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person tried to make more dashboards than their plan allows. It states how many the plan includes; on the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of dashboards the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitHomeys": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# Homey} other {# Homeys}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person tried to connect more Homeys (smart-home hubs) than their plan allows. It states how many the plan includes; on the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of Homeys the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitOther": {
+    "en": "You’ve reached a limit of {plan, select, free {your Free plan} pro {your Pro plan} other {your current plan}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person hit a plan limit that has no message of its own. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitScreens": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# paired screen} other {# paired screens}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person tried to pair more screens (wall panels) than their plan allows. A paired screen is a display that was connected to Tiledash with a code. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of paired screens the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitSeries": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# tracked capability} other {# tracked capabilities}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person tried to record the history of more values than their plan allows. A \"tracked capability\" is one value of a device (such as a temperature) whose history is recorded. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of tracked values the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.limitShareLinks": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# share link} other {# share links}} at a time.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person tried to make more share links than their plan allows. A share link lets someone view a dashboard without logging in. \"At a time\" means active at the same moment. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of share links the plan allows at a time.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.plan.notIncluded": {
+    "en": "This isn’t included in {plan, select, free {your Free plan} pro {your Pro plan} other {your current plan}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or banner when the person used a feature their plan does not include. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
+  "common.preview.board": {
+    "en": "Sample widgets",
+    "context": "Screen reader label of the board of five sample widgets (small tiles with made-up values) shown to demonstrate how a theme looks. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energyGrid": {
+    "en": "Grid",
+    "context": "Small label above a power value in the sample energy tile: the part of the power that comes from the electricity grid.",
+    "maxLength": 16,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energyMeter": {
+    "en": "P1 meter",
+    "context": "Small grey text in the corner of the sample energy tile: the name of the smart meter the made-up power comes from (a P1 meter is the digital port of a Dutch or Belgian electricity meter). Keep \"P1\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energyShare": {
+    "en": "{share} from solar",
+    "context": "Screen reader label of the thin bar at the bottom of the sample energy tile: what part of the power comes from solar panels, such as \"40% from solar\". Not visible as text.",
+    "params": {
+      "share": "The share as a percentage, already formatted, such as \"40%\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energySolar": {
+    "en": "Solar",
+    "context": "Small label above a power value in the sample energy tile: the part of the power that comes from solar panels.",
+    "maxLength": 16,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energyTitle": {
+    "en": "Home power",
+    "context": "Title of the sample energy tile: how much electricity the home uses right now. The tile shows a made-up number in watts.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.energyUsing": {
+    "en": "Using now",
+    "context": "Small caption under the big power number of the sample energy tile: this is what the home uses right now.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.flowDone": {
+    "en": "Done",
+    "context": "Small line on the sample Flow tile when the Flow has finished running. A status.",
+    "maxLength": 16,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.flowName": {
+    "en": "Goodnight",
+    "context": "Example name of a Flow (an automation of the Homey) that puts the house to rest at night, the big name on the sample Flow tile. It is demo content: use a common word for good night.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.flowRunning": {
+    "en": "Running…",
+    "context": "Small line on the sample Flow tile while the Flow is running, after it is tapped. A status.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.flowSummary": {
+    "en": "Lights off · doors locked · 17°",
+    "context": "Small line on the sample Flow tile that says what the Flow does: it switches the lights off, locks the doors and sets the heating to 17 degrees. The parts are separated by a middle dot. Keep the dots and the degree sign.",
+    "maxLength": 60,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.flowZone": {
+    "en": "Evening",
+    "context": "Example group name shown in the corner of the sample Flow tile: the time of day the Flow is for. It is demo content.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightBrightness": {
+    "en": "Brightness",
+    "context": "Screen reader label of the slider on the sample light tile that sets how bright the lamp is. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightName": {
+    "en": "Sofa lamp",
+    "context": "Example name of a lamp, the title of the sample light tile. It is demo content, so use a common name for a lamp by a sofa in the language.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightOff": {
+    "en": "Off",
+    "context": "Big status word on the sample light tile: the lamp is switched off. A state, not a command.",
+    "maxLength": 12,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightOn": {
+    "en": "On",
+    "context": "Big status word on the sample light tile: the lamp is switched on. A state, not a command.",
+    "maxLength": 12,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightTap": {
+    "en": "Tap to turn on",
+    "context": "Small line under \"Off\" on the sample light tile. It tells that tapping the tile switches the lamp on. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.lightWarm": {
+    "en": "{brightness}% · warm white",
+    "context": "Small line under \"On\" on the sample light tile: the brightness of the lamp and the colour of its light, such as \"62% · warm white\".",
+    "params": {
+      "brightness": "The brightness in percent, such as 62. A number."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.livingRoom": {
+    "en": "Living room",
+    "context": "Example name of a room, shown in the corner of the sample light tile and the sample thermostat tile. It is demo content: use the usual word for a living room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.sensorHumidity": {
+    "en": "% rh",
+    "context": "Unit that follows the humidity number on the sample sensor tile, such as \"48% rh\": the percent sign and an abbreviation of \"relative humidity\". Use the usual abbreviation of the language.",
+    "maxLength": 10,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.sensorRoom": {
+    "en": "Kids room",
+    "context": "Example name of a room, shown in the corner of the sample sensor tile. It is demo content: use the usual word for a children’s room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.sensorTitle": {
+    "en": "Climate",
+    "context": "Title of the sample sensor tile, which shows a temperature and a humidity. It names the kind of reading: the climate of a room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.sensorUpdatedAgo": {
+    "en": "Updated {seconds, number} s ago",
+    "context": "Small line at the bottom of the sample sensor tile: how many seconds ago the value was updated, such as \"Updated 12 s ago\". It counts up every second.",
+    "params": {
+      "seconds": "How many seconds ago. A number."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.sensorUpdatedNow": {
+    "en": "Updated just now",
+    "context": "Small line at the bottom of the sample sensor tile when the value was updated a moment ago.",
+    "maxLength": 40,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.thermostatHeating": {
+    "en": "Heating to {target}°",
+    "context": "Small line under the big temperature on the sample thermostat tile while the room is colder than the target: the thermostat is heating up to the target temperature, such as \"Heating to 21.5°\".",
+    "params": {
+      "target": "The target temperature as a number, already formatted. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.thermostatHolding": {
+    "en": "Holding {target}°",
+    "context": "Small line under the big temperature on the sample thermostat tile when the room has reached the target: the thermostat keeps the temperature at the target, such as \"Holding 21.5°\".",
+    "params": {
+      "target": "The target temperature as a number, already formatted. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.thermostatLower": {
+    "en": "Lower target",
+    "context": "Screen reader label of the minus button on the sample thermostat tile: it lowers the target temperature a little. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.thermostatRaise": {
+    "en": "Raise target",
+    "context": "Screen reader label of the plus button on the sample thermostat tile: it raises the target temperature a little. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.preview.thermostatTitle": {
+    "en": "Thermostat",
+    "context": "Title of the sample thermostat tile, a round dial with a temperature.",
+    "maxLength": 24,
+    "file": "packages/ui/src/previews/preview.messages.ts"
+  },
+  "common.theme.autoDescription": {
+    "en": "Light by day and dark at night, as the device is set.",
+    "context": "One-line description of a built-in theme that follows the device: it is light or dark depending on what the device is set to (the phone, tablet or computer, not a smart-home device).",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/ownThemes.messages.ts"
+  },
+  "common.theme.autoName": {
+    "en": "{name} · Automatic",
+    "context": "Name of a built-in theme that follows the device: its light look by day and its dark look at night. Shown in the account menu next to \"This device…\" and in lists of themes. The dot is a separator.",
+    "params": {
+      "name": "The name of the theme family (such as Tonal or Nocturne). A product name, not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ownThemes.messages.ts"
+  },
+  "common.theme.mine": {
+    "en": "One of your own themes.",
+    "context": "One-line description of a theme the person made themselves, shown under its name in the theme picker and used by the theme search.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/ownThemes.messages.ts"
+  },
+  "common.themeThumb.indoor": {
+    "en": "Indoor",
+    "context": "Tiny label on the second made-up tile of a theme’s miniature, above \"21°\": it shows the temperature inside the home. Decorative, not read aloud.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeThumb.messages.ts"
+  },
+  "common.themeThumb.on": {
+    "en": "On",
+    "context": "Big word on the first made-up tile of a theme’s miniature: the lamp is on. Decorative, not read aloud. One short word.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeThumb.messages.ts"
+  },
+  "common.themeThumb.room": {
+    "en": "Living",
+    "context": "Tiny label on the first made-up tile of a theme’s miniature: the room the lamp is in, short for \"Living room\". Decorative, not read aloud. Pick a short everyday word for a room.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeThumb.messages.ts"
+  },
+  "common.ui.choose": {
+    "en": "Choose…",
+    "context": "Placeholder in a dropdown that has no value chosen yet, shown in the closed dropdown where the chosen option would be. An invitation to open the list and pick one.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.close": {
+    "en": "Close",
+    "context": "Name of the small × button in the corner of a dialog or side drawer, read out by screen readers. It closes the dialog. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.dismiss": {
+    "en": "Dismiss",
+    "context": "Name of the small × button on a toast or status bar message, read out by screen readers. It hides the message without doing anything else. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.nothingMatches": {
+    "en": "Nothing matches",
+    "context": "Shown in the open dropdown list when what the person typed in the filter field matches none of the options.",
+    "maxLength": 40,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.pairingCode": {
+    "en": "Pairing code",
+    "context": "Name of the field where the six-character code shown on a tablet or kiosk is typed (as six boxes), read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.searchLabel": {
+    "en": "Search {label}",
+    "context": "Name of the filter field at the top of a long dropdown list, read out by screen readers. Not visible as text. For a dropdown called \"Device\" it reads \"Search device\".",
+    "params": {
+      "label": "The name of the dropdown, in lower case, in the language of the page (device, room…). Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.searchLabelPlain": {
+    "en": "Search",
+    "context": "Name of the filter field at the top of a long dropdown list, read out by screen readers, when the dropdown itself has no name. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.searchPlaceholder": {
+    "en": "Search…",
+    "context": "Placeholder in the filter field at the top of a long dropdown list. Typing there narrows the list down.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.stepOf": {
+    "en": "Step {step} of {total}",
+    "context": "Name of the row of numbered steps at the top of a multi-step flow (such as choosing a Homey after login), read out by screen readers, so \"Step 2 of 3\". The steps themselves show their own names. Not visible as text.",
+    "params": {
+      "step": "The number of the current step, counted from 1.",
+      "total": "The number of steps in the flow."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.tabNew": {
+    "en": ", something new",
+    "context": "Read out by screen readers straight after a tab's name when the tab has a small dot meaning something new happened in it, so \"Alerts, something new\". Starts with a comma on purpose: it is joined to the tab name as a pause. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.tabToChoose": {
+    "en": ", something to choose",
+    "context": "Read out by screen readers straight after a tab's name when the tab has a small marker meaning something in it still needs a choice from the person, so \"Layout, something to choose\". Starts with a comma on purpose: it is joined to the tab name as a pause. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/components/messages.ts"
+  }
+}

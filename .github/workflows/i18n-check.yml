@@ -1,0 +1,42 @@
+# Checks translation pull requests (i18n/). Runs the checker that ships in the repository itself
+# (i18n/tools/check.mjs), with plain Node and no secrets, so it also works for pull requests from forks.
+# Pull requests here are not merged: the maintainers import them into the source repository and
+# close them (see i18n/CONTRIBUTING.md). i18n/source/ and i18n/tools/ come from there, so
+# a pull request may not change them.
+name: Check translations
+
+on:
+  pull_request:
+    paths:
+      - i18n/**
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Only translations are changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE_SHA...$HEAD_SHA" -- i18n/source i18n/tools)
+          if [ -n "$changed" ]; then
+            echo "::error title=Only translations can be changed::i18n/source/ and i18n/tools/ come from our source repository and can't be changed here. Please change only locales/, glossary.yaml and style/, as described in i18n/CONTRIBUTING.md."
+            echo "These files are not allowed in a pull request:"
+            echo "$changed"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Check the translations
+        run: node i18n/tools/check.mjs

@@ -1,0 +1,2799 @@
+{
+  "account.actions.deleteFailed": {
+    "en": "Your account couldn’t be deleted. Nothing changed; please try again.",
+    "context": "Red text in the delete dialog when deleting the account failed.",
+    "maxLength": 90,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.deletionFailed": {
+    "en": "Couldn’t open the account’s deletion",
+    "context": "Title of a red message when the dialog that deletes the account couldn’t open.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.downloadFailed": {
+    "en": "Couldn’t download your data",
+    "context": "Title of a red message when downloading everything Tiledash keeps for the person failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.downloadTooOften": {
+    "en": "You downloaded it a few times just now. Please try again later.",
+    "context": "Text under \"Couldn’t download your data\" when it was downloaded too often in a short time.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.pinFailed": {
+    "en": "Couldn’t save the PIN.",
+    "context": "Red text on the PIN card when saving or removing the PIN failed, used when no more specific reason is known.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.pinRemoved": {
+    "en": "PIN removed",
+    "context": "Green message after the account’s PIN was removed.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.pinSaved": {
+    "en": "PIN saved",
+    "context": "Green message after the account’s PIN was set or changed.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.removedDevice": {
+    "en": "Removed device",
+    "context": "Shown instead of a device’s name on Account → Recordings when the device was deleted in Homey.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.stopCancel": {
+    "en": "Keep recording",
+    "context": "Button of the question that keeps the recording.",
+    "maxLength": 24,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.stopConfirm": {
+    "en": "Stop and delete history",
+    "context": "Red button of the question that stops the recording and deletes its history.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.stopFailed": {
+    "en": "Couldn’t stop recording",
+    "context": "Title of a red message when stopping a recording failed. The reason follows under it.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.stopTitle": {
+    "en": "Stop recording?",
+    "context": "Title of the question before stopping a recording (its history is deleted with it).",
+    "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.stopped": {
+    "en": "Stopped recording {reading} of {device}",
+    "context": "Message (toast) after a recording was stopped.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "reading": "The name of the reading, such as \"Temperature\"."
+    },
+    "maxLength": 90,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.tryAgain": {
+    "en": "Please try again.",
+    "context": "Text under a red message, used when no more specific reason is known.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.tryLater": {
+    "en": "Please try again in a moment.",
+    "context": "Text under a red message about downloading or deleting.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.alertRules.always": {
+    "en": "Always",
+    "context": "Choice of when a device’s alert wakes the screens: at any time.",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.armed": {
+    "en": "While armed",
+    "context": "Choice of when a device’s alert wakes the screens: only while the home alarm is armed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.armedMeans": {
+    "en": "Armed means",
+    "context": "Label of the choice of home alarm whose state counts as \"armed\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.cameraLabel": {
+    "en": "Camera for {device}",
+    "context": "Name of the choice of camera for a device’s alert, read out by screen readers.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.chime": {
+    "en": "Chime",
+    "context": "Label of the switch that plays a sound with alerts.",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.chimeHint": {
+    "en": "Beeps for danger, ding-dong for the bell. A browser lets it sound after one tap on the screen.",
+    "context": "Hint under \"Chime\": what it sounds like, and that a browser only plays sound after someone tapped the screen once.",
+    "maxLength": 120,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.chimeLabel": {
+    "en": "Chime on alerts",
+    "context": "Name of the switch, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.danger": {
+    "en": "Danger",
+    "context": "Heading of the group of devices that raise danger alerts.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.dangerHint": {
+    "en": "Smoke, CO, water and sirens. They wake the screens day and night unless you say otherwise.",
+    "context": "Line under \"Danger\". CO is carbon monoxide.",
+    "maxLength": 110,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.default": {
+    "en": "default",
+    "context": "Small hint next to the choice that is the default for this kind of device. Lower case.",
+    "maxLength": 16,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.flowLabel": {
+    "en": "Flow to offer",
+    "context": "Name of the choice of flow, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.homeAlarm": {
+    "en": "Home alarm",
+    "context": "Name of the choice of home alarm, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.never": {
+    "en": "Never",
+    "context": "Choice of when a device’s alert wakes the screens: never.",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.news": {
+    "en": "News",
+    "context": "Heading of the group of devices that raise milder alerts: the doorbell, motion, doors.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.newsHint": {
+    "en": "The doorbell always; motion and doors only while the alarm is armed, unless you say otherwise.",
+    "context": "Line under \"News\", the group of milder alerts: which of those devices wake the screens by default.",
+    "maxLength": 110,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.night": {
+    "en": "At night",
+    "context": "Choice of when a device’s alert wakes the screens: only during the night hours set below.",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nightFor": {
+    "en": "For alerts set to “At night”.",
+    "context": "Hint under \"Night\" while no alert uses it. Use the same words as the choice \"At night\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nightFrom": {
+    "en": "Night from",
+    "context": "Name of the choice of when the night starts, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nightLabel": {
+    "en": "Night",
+    "context": "Label of the night hours, used by alerts set to \"At night\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nightOwnTime": {
+    "en": "In each screen’s own time.",
+    "context": "Hint under \"Night\": the hours are in each wall panel’s own time zone.",
+    "maxLength": 50,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nightTo": {
+    "en": "Night to",
+    "context": "Name of the choice of when the night ends, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.noAlarm": {
+    "en": "No home alarm",
+    "context": "Choice: there is no home alarm.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.noAlarmHint": {
+    "en": "Without one, “While armed” never wakes the screens.",
+    "context": "Hint under \"Armed means\" when no home alarm is chosen. Use the same words as the choice \"While armed\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.noCamera": {
+    "en": "No camera",
+    "context": "Choice of camera: no camera comes along with this device’s alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.noFlow": {
+    "en": "None",
+    "context": "Choice: no flow is offered.",
+    "maxLength": 16,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.noRoom": {
+    "en": "No room",
+    "context": "Under a device that isn’t in any room of the house.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.none": {
+    "en": "None in this home.",
+    "context": "Shown under \"Danger\" or \"News\" when the Homey has no such devices.",
+    "maxLength": 40,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nowArmed": {
+    "en": "Now: armed",
+    "context": "Hint under \"Armed means\": the chosen home alarm is armed right now.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.nowNotArmed": {
+    "en": "Now: not armed",
+    "context": "Hint under \"Armed means\": the chosen home alarm isn’t armed right now.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.offerFlow": {
+    "en": "Offer a flow",
+    "context": "Label of the choice of a flow (a Homey automation) to offer as a button on danger alerts.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.offerFlowHint": {
+    "en": "A button on danger alerts, e.g. “Everyone out”.",
+    "context": "Hint under \"Offer a flow\". \"Everyone out\" is an example of a flow’s name.",
+    "maxLength": 60,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.roomCameras": {
+    "en": "Its room’s: {cameras}",
+    "context": "Choice of camera that comes along with a device’s alert: the cameras in the device’s own room, named.",
+    "params": {
+      "cameras": "The names of the cameras, already joined as a list. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.roomNoCamera": {
+    "en": "Its room’s (none)",
+    "context": "Choice of camera: the cameras in the device’s own room, when the room has none.",
+    "maxLength": 30,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.screensHint": {
+    "en": "They wake from their sleep screen and show the alert full screen. Others show a bar on top.",
+    "context": "Line under \"Screens that wake for alerts\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.screensTitle": {
+    "en": "Screens that wake for alerts",
+    "context": "Heading above the list of wall panels to tick.",
+    "maxLength": 50,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.to": {
+    "en": "to",
+    "context": "Word between the start and the end of the night, such as \"22:00 to 07:00\".",
+    "maxLength": 10,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.alertRules.whenLabel": {
+    "en": "When {device} wakes the screens",
+    "context": "Name of the choice of when a device’s alert wakes the screens, read out by screen readers.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
+  },
+  "account.billing.choose": {
+    "en": "Choose",
+    "context": "Button in the \"back to Free\" panel that opens the choice of which recordings, dashboards or Homey keep going on Free.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.dashboardsAllStay": {
+    "en": "{count, plural, one {Your # dashboard stays} other {Your # dashboards stay}}",
+    "context": "Line in the \"back to Free\" panel when the account has no more dashboards than Free allows.",
+    "params": {
+      "count": "How many dashboards there are."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.dashboardsStay": {
+    "en": "{limit, plural, one {# of your {total} dashboards stays} other {# of your {total} dashboards stay}}",
+    "context": "Line in the \"back to Free\" panel when the account has more dashboards than Free allows: only this many stay active.",
+    "params": {
+      "limit": "How many dashboards Free allows.",
+      "total": "How many dashboards there are."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.dashboardsStayText": {
+    "en": "{paused, plural, one {Free has room for {limit}. Choose which; the other one is paused, kept as it is, and back with Pro.} other {Free has room for {limit}. Choose which; the other # are paused, kept as they are, and back with Pro.}}",
+    "context": "Text under \"… of your … dashboards stay\": the person chooses which stay; the others are paused, not deleted, and come back with Pro.",
+    "params": {
+      "limit": "How many dashboards Free allows.",
+      "paused": "How many dashboards are paused."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.historyHidden": {
+    "en": "Older history is hidden, not deleted",
+    "context": "Line in the \"back to Free\" panel about recorded history beyond what Free keeps.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.historyHiddenText": {
+    "en": "Free shows {detailed, plural, one {# day} other {# days}} in detail and {hourly, plural, one {# day} other {# days}} hourly. The rest is kept for {kept, plural, one {# day} other {# days}}, so it’s all back if you return to Pro.",
+    "context": "Text under \"Older history is hidden, not deleted\": how much history Free shows, and how long the rest is kept in case the person goes back to Pro.",
+    "params": {
+      "detailed": "Days of detailed history Free shows.",
+      "hourly": "Days of hourly history Free shows.",
+      "kept": "Days the hidden history is kept."
+    },
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.homeysStay": {
+    "en": "{limit, plural, one {# of your {total} Homeys stays connected} other {# of your {total} Homeys stay connected}}",
+    "context": "Line in the \"back to Free\" panel when the account has more Homeys than Free allows: only this many stay connected.",
+    "params": {
+      "limit": "How many Homeys Free allows.",
+      "total": "How many Homeys there are."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.homeysStayText": {
+    "en": "{paused, plural, one {Choose which; the other one is paused: its dashboards and recordings wait until you go Pro again.} other {Choose which; the other # are paused: their dashboards and recordings wait until you go Pro again.}}",
+    "context": "Text under \"… of your … Homeys stay connected\": the person chooses which; the others pause with their dashboards and recordings.",
+    "params": {
+      "paused": "How many Homeys are paused."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.monthsFree": {
+    "en": "{count, plural, one {# month free} other {# months free}}",
+    "context": "What paying yearly saves against paying monthly, when it is about whole months, such as \"2 months free\". Shown next to \"Yearly\".",
+    "params": {
+      "count": "How many months a year of Pro saves."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.nothingChanges": {
+    "en": "Nothing changes about them.",
+    "context": "Text under \"Your … dashboards stay\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.price": {
+    "en": "{interval, select, month {{price} a month} other {{price} a year}}",
+    "context": "A price of Pro with how often it is paid, such as \"€4 a month\" or \"€40 a year\".",
+    "params": {
+      "interval": "\"month\" or \"year\".",
+      "price": "The amount with its currency, such as \"€4\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.recordingInterval": {
+    "en": "{minute, select, yes {At most every minute, as Free records.} other {At most every {seconds} s, as Free records.}}",
+    "context": "Text under \"All … recordings keep going\": on Free a reading is recorded at most this often.",
+    "params": {
+      "minute": "\"yes\" when Free records at most once a minute, \"no\" otherwise.",
+      "seconds": "How many seconds apart, when not a minute."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.recordingSame": {
+    "en": "Recording works the same",
+    "context": "Line in the \"back to Free\" panel when the account records nothing: recording works on Free as before.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.recordingsKeepGoing": {
+    "en": "{count, plural, one {Your # recording keeps going} other {All # recordings keep going}}",
+    "context": "Line in the \"back to Free\" panel when the account records no more readings than Free allows: they all go on.",
+    "params": {
+      "count": "How many recordings there are."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.recordingsPause": {
+    "en": "{over, plural, one {# recording of your {total} pauses} other {# recordings of your {total} pause}}",
+    "context": "Line in the \"back to Free\" panel when the account records more readings than Free allows: this many of them pause.",
+    "params": {
+      "over": "How many recordings pause.",
+      "total": "How many recordings there are in all."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.recordingsPauseText": {
+    "en": "Free records {limit}. Choose which keep going; the others pause and keep their history.",
+    "context": "Text under \"… recordings of your … pause\".",
+    "params": {
+      "limit": "How many readings Free records: a bare number, so add the noun your language needs."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billing.save": {
+    "en": "save {percent}",
+    "context": "What paying yearly saves against paying monthly, such as \"save 17%\". Shown next to \"Yearly\", after a dot, so lower case.",
+    "params": {
+      "percent": "The saving, as a percentage such as \"17%\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/billingViews.messages.ts"
+  },
+  "account.billingActions.alreadyPro": {
+    "en": "You already have Pro",
+    "context": "Title of a red message when the person subscribed to Pro while already having it (for example from a second tab).",
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.alreadyProBody": {
+    "en": "The new subscription was cancelled, so you don’t pay twice.",
+    "context": "Text under \"You already have Pro\".",
+    "maxLength": 80,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.cancelFailed": {
+    "en": "Couldn’t cancel Pro",
+    "context": "Title of a red message when cancelling the Pro subscription failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.checkConnection": {
+    "en": "Check your connection and try again.",
+    "context": "Text under a failed payment action when the browser got no answer at all.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.checkoutFailed": {
+    "en": "Couldn’t start the upgrade",
+    "context": "Title of a red message when paying for Pro couldn’t start.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.confirmFailed": {
+    "en": "Couldn’t start Pro",
+    "context": "Title of a red message when Pro couldn’t start after paying.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.confirmFailedBody": {
+    "en": "PayPal approved it, but Tiledash couldn’t check it. {advice}",
+    "context": "Text under \"Couldn’t start Pro\" after paying with PayPal: PayPal said yes, but Tiledash couldn’t confirm the subscription.",
+    "params": {
+      "advice": "A sentence saying what to try, already translated."
+    },
+    "maxLength": 140,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.portalFailed": {
+    "en": "Couldn’t open billing",
+    "context": "Title of a red message when the payment provider’s billing page couldn’t be opened.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.switchFailed": {
+    "en": "{interval, select, year {Couldn’t switch to yearly} other {Couldn’t switch to monthly}}",
+    "context": "Title of a red message when switching between paying monthly and yearly failed.",
+    "params": {
+      "interval": "\"year\" or \"month\": what it tried to switch to."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.billingActions.tryLater": {
+    "en": "Please try again in a moment.",
+    "context": "Text under a failed payment action for any other reason.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/billingActions.messages.ts"
+  },
+  "account.calendarToasts.added": {
+    "en": "{name} added",
+    "context": "Toast after a calendar (an iCal link) was added on the account page. {name} is its name.",
+    "params": {
+      "name": "The calendar’s name."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendarToasts.loadFailed": {
+    "en": "Couldn’t load your calendars.",
+    "context": "Shown on the account page when the list of calendars couldn’t be read.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendarToasts.removeFailed": {
+    "en": "Couldn’t remove the calendar.",
+    "context": "Toast when removing a calendar from the account failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendarToasts.removed": {
+    "en": "{name} removed",
+    "context": "Toast after a calendar was removed from the account. {name} is its name.",
+    "params": {
+      "name": "The calendar’s name."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendarToasts.saveFailed": {
+    "en": "Couldn’t save the calendar.",
+    "context": "Error in the calendar dialog when saving it failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendarToasts.saved": {
+    "en": "{name} saved",
+    "context": "Toast after a calendar was changed on the account page. {name} is its name.",
+    "params": {
+      "name": "The calendar’s name."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/useAccountCalendars.messages.ts"
+  },
+  "account.calendars.add": {
+    "en": "Add a calendar",
+    "context": "Button in the Calendars card that opens the dialog to add a calendar by its iCal link.",
+    "maxLength": 30,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.cancel": {
+    "en": "Cancel",
+    "context": "Button in a calendar dialog that closes it without saving.",
+    "maxLength": 20,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.colour": {
+    "en": "Colour",
+    "context": "Label of the colour choice of a calendar; widgets can show its events in it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.dialogAdd": {
+    "en": "Add a calendar",
+    "context": "Title of the dialog that adds a calendar by its iCal link.",
+    "maxLength": 40,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.dialogEdit": {
+    "en": "Edit {name}",
+    "context": "Title of the dialog that changes a calendar. {name} is its name.",
+    "params": {
+      "name": "The calendar’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.edit": {
+    "en": "Edit",
+    "context": "Button on a calendar in the Calendars card: change its name, colour or link.",
+    "maxLength": 20,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.empty": {
+    "en": "No calendars yet.",
+    "context": "Shown in the Calendars card while the account has none.",
+    "maxLength": 60,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.failedNever": {
+    "en": "Can’t be loaded",
+    "context": "Status of a calendar whose link has never loaded, in red.",
+    "maxLength": 40,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.failedSince": {
+    "en": "Can’t be loaded since {time}",
+    "context": "First part of the status of a calendar whose link fails, in red. {time} is when it started failing, such as 09:40 or a date.",
+    "params": {
+      "time": "When it started failing, formatted."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.keptEvents": {
+    "en": "Widgets show its events as they were at {time}.",
+    "context": "Small text under a failing calendar: tiles keep showing the events from the last time it loaded. {time} is that moment, formatted.",
+    "params": {
+      "time": "When it last loaded, formatted."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.lead": {
+    "en": "Add a calendar’s private iCal link, and widgets can show its events. Tiledash keeps the link encrypted and loads it every 15 minutes.",
+    "context": "Text at the top of the Calendars card on the account page. An iCal link is a web address a calendar app (Google, iCloud, Outlook) gives to read a calendar. It is private: anyone with it can read the calendar.",
+    "maxLength": 200,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.limit": {
+    "en": "{used} of {limit} calendars on {plan}.",
+    "context": "Small text at the foot of the Calendars card: how many calendars the account has out of what its plan allows. {plan} is the plan’s name (Free or Pro).",
+    "params": {
+      "limit": "How many the plan allows.",
+      "plan": "The plan’s name.",
+      "used": "How many it has."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.limitUpgrade": {
+    "en": "Pro has room for {limit}.",
+    "context": "Link after the count of calendars on Free, leading to the upgrade. {limit} is how many calendars Pro allows.",
+    "params": {
+      "limit": "How many calendars Pro allows."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.link": {
+    "en": "Private iCal link",
+    "context": "Label of the field for a calendar’s web address (an iCal link, https:// or webcal://).",
+    "maxLength": 30,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.linkBad": {
+    "en": "Paste a link that starts with https:// or webcal://.",
+    "context": "Error under the link field of a calendar when what was typed is not such a web address.",
+    "maxLength": 80,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.linkKept": {
+    "en": "The link from {host} is kept. Paste a new one to replace it.",
+    "context": "Hint under the empty link field when editing a calendar: its link is a secret and isn’t shown again. {host} is the link’s site, such as calendar.google.com.",
+    "params": {
+      "host": "The site of the link, such as calendar.google.com."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.loaded": {
+    "en": "{events, plural, one {# event} other {# events}} in the next 30 days · loaded at {time}",
+    "context": "Status line of a calendar that loads fine. {events} is how many events it has in the next 30 days, {time} when it was last loaded, such as 10:12.",
+    "params": {
+      "events": "How many events.",
+      "time": "The time it was loaded, formatted."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.loading": {
+    "en": "Loading…",
+    "context": "Status of a calendar just added, while its link is loaded for the first time.",
+    "maxLength": 30,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.name": {
+    "en": "Name",
+    "context": "Label of the field for a calendar’s name, such as “Family”.",
+    "maxLength": 24,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.namePlaceholder": {
+    "en": "Family",
+    "context": "Example name in the empty name field of a calendar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.paused": {
+    "en": "Paused: {plan} keeps {limit, plural, one {# calendar} other {# calendars}}. Widgets don’t show it.",
+    "context": "Status of a calendar past what the plan allows (after going back from Pro to Free): it isn’t loaded and widgets don’t show its events. {plan} is the plan’s name, {limit} how many calendars it keeps.",
+    "params": {
+      "limit": "How many calendars the plan keeps.",
+      "plan": "The plan’s name, Free or Pro."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.pickAll": {
+    "en": "All my calendars",
+    "context": "First choice of a widget’s calendar setting: show the events of every calendar of the account, also ones added later.",
+    "maxLength": 40,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.pickFailing": {
+    "en": "can’t be loaded",
+    "context": "Small red note after a calendar’s name in a widget’s calendar setting, when its link fails. Lower case.",
+    "maxLength": 30,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.pickNone": {
+    "en": "No calendars yet. Add one under Account › Calendars.",
+    "context": "Shown in a widget’s calendar setting while the account has no calendars.",
+    "maxLength": 90,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.problemNotCalendar": {
+    "en": "The link doesn’t lead to a calendar. Use the link that ends in .ics.",
+    "context": "Why a calendar can’t be loaded: the web address gives something else than an iCal calendar, such as a web page.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.problemNotFound": {
+    "en": "The link isn’t there anymore. Was the calendar unshared, or its link reset?",
+    "context": "Why a calendar can’t be loaded: its web address answers “not found”. Calendar apps let people reset a private link, which ends the old one.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.problemRefused": {
+    "en": "The calendar’s server refused. The link may need signing in; use the private iCal link.",
+    "context": "Why a calendar can’t be loaded: its server refused (it asked to sign in, or forbade it). The private iCal link works without signing in.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.problemTooBig": {
+    "en": "The calendar is over 5 MB, too big to load.",
+    "context": "Why a calendar can’t be loaded: the file it gives is larger than 5 megabytes.",
+    "maxLength": 90,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.problemUnreachable": {
+    "en": "The calendar’s server didn’t answer. Tiledash keeps trying.",
+    "context": "Why a calendar can’t be loaded: its server could not be reached or took too long. It is tried again every 15 minutes.",
+    "maxLength": 90,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.remove": {
+    "en": "Remove",
+    "context": "Button on a calendar in the Calendars card: remove it from the account.",
+    "maxLength": 20,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.removeText": {
+    "en": "Widgets showing it lose its events. Its link is deleted from Tiledash.",
+    "context": "Text of the dialog that asks before removing a calendar.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.removeTitle": {
+    "en": "Remove {name}?",
+    "context": "Title of the dialog that asks before removing a calendar. {name} is its name.",
+    "params": {
+      "name": "The calendar’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.retry": {
+    "en": "Try again",
+    "context": "Button on a calendar whose link failed to load: load it again now.",
+    "maxLength": 24,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.save": {
+    "en": "Save",
+    "context": "Button in the calendar dialog that saves it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.title": {
+    "en": "Calendars",
+    "context": "Heading of the card on the account page that lists the calendars (iCal links) added to the account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.whereApple": {
+    "en": "iCloud: Calendar › Share › Public calendar, then copy the link.",
+    "context": "Where Apple’s iCloud Calendar shows a calendar’s link. Use the names iCloud shows in your language.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.whereGoogle": {
+    "en": "Google Calendar: Settings › your calendar › Secret address in iCal format.",
+    "context": "Where Google Calendar shows a calendar’s private link. Use the names Google Calendar shows in your language.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.whereOutlook": {
+    "en": "Outlook: Settings › Calendar › Shared calendars › Publish, the ICS link.",
+    "context": "Where Outlook shows a calendar’s published link. Use the names Outlook shows in your language.",
+    "maxLength": 110,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.calendars.whereTitle": {
+    "en": "Where to find the link",
+    "context": "Small heading in the dialog that adds a calendar, over where each calendar app shows its private link.",
+    "maxLength": 40,
+    "file": "packages/ui/src/calendars/calendars.messages.ts"
+  },
+  "account.credits.copyright": {
+    "en": "OpenStreetMap copyright",
+    "context": "A link to OpenStreetMap’s copyright page.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.maps": {
+    "en": "Maps",
+    "context": "Name of what a data source is used for: the maps.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.mapsText": {
+    "en": "Map data © OpenStreetMap contributors. Map tiles come from OpenFreeMap with OpenMapTiles unless you picked another provider above.",
+    "context": "The credit for the maps. Map tiles are the pictures the map is drawn from; \"above\" is the Maps card.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.places": {
+    "en": "Places",
+    "context": "Name of what a data source is used for: searching places (addresses, towns).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.placesText": {
+    "en": "Places are searched with OpenStreetMap Nominatim. Data © OpenStreetMap contributors, under the Open Database Licence.",
+    "context": "The credit OpenStreetMap’s licence asks for.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.weather": {
+    "en": "Weather",
+    "context": "Name of what a data source is used for: the weather.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.credits.weatherText": {
+    "en": "Weather data from MET Norway (Locationforecast and Sunrise), licensed under Creative Commons Attribution 4.0.",
+    "context": "The credit MET Norway’s licence asks for. Locationforecast and Sunrise are the names of its services; keep them.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.delete.confirm": {
+    "en": "Delete my account",
+    "context": "Red button that deletes the account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.copyBody": {
+    "en": "Your dashboards, settings and themes as JSON, your history as CSV, in one zip.",
+    "context": "Text after \"Want a copy first?\". JSON and CSV are file formats; zip is a compressed file.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.copyTitle": {
+    "en": "Want a copy first?",
+    "context": "Bold question in the delete dialog, before the download button.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.dashboards": {
+    "en": "{count, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Item of the list of what is deleted.",
+    "params": {
+      "count": "How many dashboards."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.download": {
+    "en": "Download your data",
+    "context": "Button in the delete dialog that downloads everything Tiledash keeps for the person.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.goesLabel": {
+    "en": "What is deleted",
+    "context": "Name of the list of what is deleted, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.homeyLink": {
+    "en": "{count, plural, one {The link to your Homey} other {The link to your # Homeys}}",
+    "context": "Last item of the list of what is deleted: Tiledash’s connection to the person’s Homeys.",
+    "params": {
+      "count": "How many Homeys."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.keep": {
+    "en": "Keep my account",
+    "context": "Button that closes the delete dialog without deleting.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.lead": {
+    "en": "This removes everything you made in Tiledash. Your Homey itself isn’t touched: its devices, flows and Insights stay as they are.",
+    "context": "Text at the top of the delete dialog. Insights is Homey’s own history; keep the name.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.proNoRefund": {
+    "en": "It isn’t refunded for the rest of the period (until {date}).",
+    "context": "Text of the warning: the rest of the paid period isn’t paid back.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.proStops": {
+    "en": "Your Pro subscription stops now",
+    "context": "Title of a warning in the delete dialog when the person pays for Pro.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.recordings": {
+    "en": "{count, plural, one {# recording and all the history it kept} other {# recordings and all the history they kept}}",
+    "context": "Item of the list of what is deleted: recorded readings and their history.",
+    "params": {
+      "count": "How many recordings."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.themes": {
+    "en": "{count, plural, one {# theme of your own} other {# themes of your own}}",
+    "context": "Item of the list of what is deleted: the themes the person made.",
+    "params": {
+      "count": "How many themes."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.title": {
+    "en": "Delete your account?",
+    "context": "Title of the dialog that deletes the Tiledash account.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.typeLabel": {
+    "en": "Type {word} to confirm",
+    "context": "Name of the field where the person types the word, read out by screen readers.",
+    "params": {
+      "word": "The word to type, such as \"delete\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.typeToConfirm": {
+    "en": "Type <b>{word}</b> to confirm",
+    "context": "Label above the field where the person types the word. The word is bold.",
+    "params": {
+      "word": "The word to type, such as \"delete\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.wallPanels": {
+    "en": "{count, plural, one {# wall panel} other {# wall panels}}",
+    "context": "Item of the list of what is deleted. A wall panel is a screen on the wall paired with Tiledash.",
+    "params": {
+      "count": "How many wall panels."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.when": {
+    "en": "You’re signed out everywhere and your wall panels stop straight away. On <b>{date}</b> it’s gone for good; log in before then to keep your account.",
+    "context": "Line in the delete dialog: what happens at once, and when the account is deleted for good. The date is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.delete.word": {
+    "en": "delete",
+    "context": "The word the person types to confirm deleting the account. One short lower-case word, easy to type; English \"delete\" also works.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.keepChoices.daysAgo": {
+    "en": "Opened {count} days ago",
+    "context": "Under a dashboard that was last opened 2 to 6 days ago.",
+    "params": {
+      "count": "How many days ago, 2 to 6."
+    },
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.lastMonth": {
+    "en": "Opened last month",
+    "context": "Under a dashboard that was last opened 30 to 59 days ago.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.lastWeek": {
+    "en": "Opened last week",
+    "context": "Under a dashboard that was last opened 7 to 13 days ago.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.monthsAgo": {
+    "en": "Opened {count} months ago",
+    "context": "Under a dashboard that was last opened 2 or more months ago.",
+    "params": {
+      "count": "How many months ago, 2 or more."
+    },
+    "maxLength": 36,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.notLately": {
+    "en": "Not opened lately",
+    "context": "Under a dashboard that hasn’t been opened for a long time (or never).",
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.today": {
+    "en": "Opened today",
+    "context": "Under a dashboard that was opened today.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.weeksAgo": {
+    "en": "Opened {count} weeks ago",
+    "context": "Under a dashboard that was last opened 2 to 4 weeks ago.",
+    "params": {
+      "count": "How many weeks ago, 2 to 4."
+    },
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.keepChoices.yesterday": {
+    "en": "Opened yesterday",
+    "context": "Under a dashboard that was last opened yesterday.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/keepChoices.messages.ts"
+  },
+  "account.locale.example": {
+    "en": "Example: {sample}",
+    "context": "Under the region dropdown, in front of the example line of the chosen region.",
+    "params": {
+      "sample": "The example line (see the preview message)."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.intro": {
+    "en": "Choose the language of Tiledash and how dates, times and numbers are written.",
+    "context": "One sentence under the card heading, shown to people who can pick both a language and a region.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.introRegion": {
+    "en": "Choose how dates, times and numbers are written.",
+    "context": "One sentence under the card heading, shown instead of the intro to people who can only pick the region and formats (the language picker is not yet open to everyone).",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.languageAuto": {
+    "en": "Auto: {language}",
+    "context": "First choice in the language dropdown: Tiledash follows the browser. Shows what that gives right now, so \"Auto: Nederlands\" means the browser asks for Dutch.",
+    "params": {
+      "language": "The language the browser asks for, written in its own language (Nederlands, Deutsch…). Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.languageBeta": {
+    "en": "Beta",
+    "context": "Small badge next to a language, and the note under the dropdown, for a language whose translation has not been checked by a person yet. \"Beta\" in the sense of \"not finished\".",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.languageBetaNote": {
+    "en": "Translated by AI, not yet checked.",
+    "context": "Line next to the Beta badge under the language dropdown, when the chosen language has not been checked by a person yet. Tells people some texts may be awkward or wrong.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.languageHint": {
+    "en": "Auto uses the language your browser asks for.",
+    "context": "Small grey help text under the language dropdown. \"Auto\" is the first choice in that dropdown.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.languageLabel": {
+    "en": "Language",
+    "context": "Label above the dropdown with the language the app is shown in. Also the name of that dropdown for screen readers, and the label of the same choice in the wall panel dialog.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.likeAccount": {
+    "en": "Like your account: {value}",
+    "context": "First choice in the language and the region dropdown of the wall panel dialog: the panel uses whatever the account is set to. Shows what that is now, so \"Like your account: Nederlands\".",
+    "params": {
+      "value": "The account's language or region, written in its own language (Nederlands, Nederlands (België)). Not translated."
+    },
+    "maxLength": 48,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.panelLanguageHint": {
+    "en": "The language this wall panel is shown in.",
+    "context": "Small grey help text under the language dropdown in the wall panel dialog. A wall panel is a tablet or screen on the wall that only shows dashboards.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.panelRegionHint": {
+    "en": "How this wall panel writes dates, times and numbers.",
+    "context": "Small grey help text under the region dropdown in the wall panel dialog. A wall panel is a tablet or screen on the wall that only shows dashboards.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.preview": {
+    "en": "{date} · {time} · {number} · Week starts on {weekday}",
+    "context": "A one-line example of a region choice, shown under each option in the open region dropdown and under the dropdown for the chosen one. Written with that region's own formats, so people see what they get. Keep the \" · \" separators, or use another short separator.",
+    "params": {
+      "date": "A sample date, already written in the region's style (16/10/2026).",
+      "number": "The sample number 1234.5 in the region's style (1,234.5 or 1.234,5).",
+      "time": "A sample time of day in the region's style (14:30 or 2:30 PM).",
+      "weekday": "The first day of the week in that region, spelled out in the app's language (Monday, Sunday). Goes after \"on\" or its equivalent, so the sentence must work with any day."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.regionAuto": {
+    "en": "Auto: {region}",
+    "context": "First choice in the region dropdown: formats follow the language and the browser. Shows what that gives right now, so \"Auto: Nederlands (België)\" means Dutch as written in Belgium.",
+    "params": {
+      "region": "The format locale it gives, written in its own language (Nederlands (België), Deutsch (Österreich)…). Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.regionHint": {
+    "en": "Dates, times, numbers and the first day of the week. Auto follows your language and browser.",
+    "context": "Small grey help text under the region dropdown. \"Auto\" is the first choice in that dropdown.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.regionLabel": {
+    "en": "Region & formats",
+    "context": "Label above the dropdown that picks how dates, times and numbers are written (for example 16/10/2026 or 10/16/2026, 14:30 or 2:30 PM, 1,234.5 or 1.234,5). Also the name of that dropdown for screen readers, and the label of the same choice in the wall panel dialog.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.saveFailedHint": {
+    "en": "Check your connection and try again.",
+    "context": "Second line of the red save-failed message, when the server gave no reason of its own.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.saveFailedTitle": {
+    "en": "Couldn’t save your choice",
+    "context": "Title of the red message in the card when saving the language or region failed. The old choice stays.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.saving": {
+    "en": "Saving…",
+    "context": "Small status next to the card heading while a changed choice is being sent to the server.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.locale.title": {
+    "en": "Language & region",
+    "context": "Heading of the card on the Account tab, above two dropdowns: the language Tiledash is shown in, and how dates and numbers are written. \"Region\" here means the country-style formatting of dates, times and numbers, not a place on a map.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/messages.ts"
+  },
+  "account.mapTiles.aboutCustom": {
+    "en": "A MapLibre style URL from your own tile server, for example OpenMapTiles or Protomaps. Optionally a second one for dark themes.",
+    "context": "Small grey text under the provider choice when Own server is chosen: the person gives the web address of a MapLibre style on their own server. The second, optional address is used for dark themes. Keep MapLibre, OpenMapTiles and Protomaps.",
+    "maxLength": 190,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.aboutMapTiler": {
+    "en": "Your own key from cloud.maptiler.com. Free for personal use; their paid plans for more.",
+    "context": "Small grey text under the provider choice when MapTiler is chosen: the person needs their own key (a code) from that website, free for personal use. Keep the web address exactly.",
+    "maxLength": 130,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.aboutOpenFreeMap": {
+    "en": "Free and without a key, from OpenStreetMap data. It runs on donations, without guarantees, so you can switch any time.",
+    "context": "Small grey text under the provider choice when OpenFreeMap is chosen: it is a free service with no account needed, funded by donations, so it may stop. Keep the names OpenStreetMap and OpenFreeMap.",
+    "maxLength": 170,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.aboutStadia": {
+    "en": "Your own key from client.stadiamaps.com. Free for personal use; their paid plans for more.",
+    "context": "Small grey text under the provider choice when Stadia Maps is chosen: the person needs their own key (a code) from that website, free for personal use. Keep the web address exactly.",
+    "maxLength": 130,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.addressError": {
+    "en": "An https:// address.",
+    "context": "Red error under a style web address field when what is typed is not a secure web address. Keep https:// as it is.",
+    "maxLength": 36,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.darkStyleUrl": {
+    "en": "Dark style URL",
+    "context": "Label of the optional second field for the web address of a map style used in dark themes.",
+    "maxLength": 28,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.keyError": {
+    "en": "That doesn’t look like a key.",
+    "context": "Red error under the key field when what is typed cannot be a key (wrong characters or length).",
+    "maxLength": 45,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.keyHint": {
+    "en": "Lock it to this site’s address in your account there, so no one else can use it.",
+    "context": "Small grey text under the key field: advice to restrict the key to this website’s address in the account at the provider, so nobody else can use it. \"There\" is the provider’s website.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.keyLabel": {
+    "en": "Your key",
+    "context": "Label of the password field where the person pastes the key (a secret code) they got from MapTiler or Stadia Maps.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.keyPlaceholder": {
+    "en": "Paste your key",
+    "context": "Placeholder of the key field before anything is typed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.label": {
+    "en": "Map tiles",
+    "context": "Label of the choice of the map provider (OpenFreeMap, MapTiler, Stadia Maps or an own server), and its screen reader label. Tiles are the small square pictures a map is drawn from.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.optional": {
+    "en": "Optional.",
+    "context": "Small grey text under the Dark style URL field: it can be left empty.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.originsHint": {
+    "en": "This server allows {origins}.",
+    "context": "Small grey text under a style address field, and the red error when the address is not one of them: this installation only accepts style addresses from these web servers.",
+    "params": {
+      "origins": "The allowed web addresses as a list in the page’s language, such as \"https://a.example, https://b.example\". The addresses are not translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.privacyText": {
+    "en": "To draw a map, your browser fetches its tiles from the provider: it sees which area is shown (so roughly where your car or phone is) and your IP address. Tiledash sends it nothing else.",
+    "context": "Text of the privacy information box: the provider learns which area is shown and the visitor’s IP address, and nothing else is sent by Tiledash. Keep the term IP address.",
+    "maxLength": 260,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.privacyTitle": {
+    "en": "What the tile provider sees",
+    "context": "Bold title of a blue information box about privacy: what the map provider can see when maps are drawn.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.providerCustom": {
+    "en": "Own server",
+    "context": "Option of the map provider choice, next to the names of three services: the person runs their own map tile server.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.styleUrl": {
+    "en": "Style URL",
+    "context": "Label of the field for the web address of the map style on the person’s own server. URL is a web address.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.waiting": {
+    "en": "The maps keep their current tiles until this is filled in.",
+    "context": "Small grey text under the fields while the settings are incomplete (no valid key or address yet): nothing changes for the maps until they are.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.page.alertsFailed": {
+    "en": "Couldn’t save the alert rules",
+    "context": "Title of a red message when the alert rules (which devices raise an alert on the screens) couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.alertsFailedBody": {
+    "en": "The screens keep the rules they had. Check them and try again.",
+    "context": "Text under \"Couldn’t save the alert rules\".",
+    "maxLength": 80,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.dashboardsStay": {
+    "en": "{count, plural, one {# dashboard stays on Free} other {# dashboards stay on Free}}",
+    "context": "Green message after choosing which dashboards stay active on Free.",
+    "params": {
+      "count": "How many dashboards stay."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.homeyStays": {
+    "en": "{name} stays connected on Free",
+    "context": "Green message after choosing which Homey stays connected on Free.",
+    "params": {
+      "name": "The name of the Homey. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.homeyStaysUnnamed": {
+    "en": "Your Homey stays connected on Free",
+    "context": "Green message after choosing which Homey stays connected on Free, when its name isn’t known.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.keepDashboardsFailed": {
+    "en": "Couldn’t save which dashboards stay",
+    "context": "Title of a red message when the choice of which dashboards stay active on Free couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.keepHomeyFailed": {
+    "en": "Couldn’t save which Homey stays",
+    "context": "Title of a red message when the choice of which Homey stays connected on Free couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.loadFailed": {
+    "en": "Couldn’t load your account",
+    "context": "Title shown on the account page when it couldn’t be loaded.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.loadFailedBody": {
+    "en": "Check your connection and try again.",
+    "context": "Line under \"Couldn’t load your account\".",
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.loadingAlerts": {
+    "en": "Loading your alert rules…",
+    "context": "Shown on the Alerts card of the account page while the alert rules load.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.mapsFailed": {
+    "en": "Couldn’t save the map settings",
+    "context": "Title of a red message when the settings of the maps (where their tiles come from) couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.mapsFailedBody": {
+    "en": "The maps keep what they had. Check them and try again.",
+    "context": "Text under \"Couldn’t save the map settings\".",
+    "maxLength": 80,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.nothingChanged": {
+    "en": "Nothing changed. Please try again in a moment.",
+    "context": "Text under a red message about saving what stays on Free.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.nothingDeleted": {
+    "en": "Nothing is deleted.",
+    "context": "Text under \"Pro is cancelled\".",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.panelFailed": {
+    "en": "Couldn’t change “{panel}”",
+    "context": "Red message when switching whether a wall panel wakes for alerts failed.",
+    "params": {
+      "panel": "The name of the wall panel. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.proCancelled": {
+    "en": "Pro is cancelled",
+    "context": "Green message after cancelling Pro; it runs until the end of the paid period.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.proFailed": {
+    "en": "Couldn’t start Pro",
+    "context": "Red message when the test payment button couldn’t start Pro.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.proKeepsGoing": {
+    "en": "Pro keeps going",
+    "context": "Green message after subscribing to Pro again before it ended.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.switched": {
+    "en": "Switched",
+    "context": "Green message after switching between paying monthly and yearly.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.switchedBody": {
+    "en": "The new price starts at your next renewal.",
+    "context": "Text under \"Switched\".",
+    "maxLength": 60,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.tryAgain": {
+    "en": "Try again",
+    "context": "Button under \"Couldn’t load your account\" that loads it again.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.page.welcomePro": {
+    "en": "Welcome to Pro",
+    "context": "Green message when Pro, the paid plan, has started after paying.",
+    "maxLength": 40,
+    "file": "apps/web/src/account/AccountPage.messages.ts"
+  },
+  "account.pairing.aScreen": {
+    "en": "A screen",
+    "context": "Stands in for the name of the screen in the \"Pair a screen\" dialog when the tablet or kiosk sent no name. Reads like \"A screen asked for code just now\".",
+    "maxLength": 24,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.checkFailed": {
+    "en": "Couldn’t check the code.",
+    "context": "Red message (toast) in the account when checking the pairing code the owner typed failed for another reason than a wrong code, for example a broken connection.",
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.justNow": {
+    "en": "just now",
+    "context": "Small grey text in the \"Pair a screen\" dialog, after the code was found: how long ago the screen asked for its code. It is a moment ago, under a minute. Reads like \"Asked for code just now\".",
+    "maxLength": 24,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.minutesAgo": {
+    "en": "{minutes} min ago",
+    "context": "Small grey text in the \"Pair a screen\" dialog, after the code was found: how long ago the screen asked for its code. Minutes is abbreviated. Reads like \"Asked for code 3 min ago\".",
+    "params": {
+      "minutes": "How many whole minutes ago, at least 1."
+    },
+    "maxLength": 24,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.pairFailed": {
+    "en": "Couldn’t pair the screen.",
+    "context": "Red message (toast) in the account when confirming the pairing of a screen failed for another reason than a wrong code, for example a broken connection.",
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.pairedText": {
+    "en": "It shows {panelName} now.",
+    "context": "Text of the green message (toast) after a screen was paired: which wall panel the screen shows from now on.",
+    "params": {
+      "panelName": "The name of the wall panel, such as \"Hallway\". Chosen by the owner; not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.pairing.pairedTitle": {
+    "en": "Paired {name}",
+    "context": "Title of a green message (toast) in the account after a screen (a tablet or kiosk) was paired successfully.",
+    "params": {
+      "name": "The name the screen was given, such as \"Hallway tablet\". Chosen by the owner; not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/sharing/usePairing.messages.ts"
+  },
+  "account.paypal.failed": {
+    "en": "PayPal couldn’t be loaded. A blocker may be stopping it.",
+    "context": "Shown where PayPal’s payment buttons should be when they couldn’t load; an ad or tracker blocker in the browser is a common cause.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/PayPalSubscribeButtons.messages.ts"
+  },
+  "account.paypal.loading": {
+    "en": "Loading PayPal…",
+    "context": "Shown where PayPal’s payment buttons appear, while they load.",
+    "maxLength": 30,
+    "file": "apps/web/src/account/PayPalSubscribeButtons.messages.ts"
+  },
+  "account.paypal.tryAgain": {
+    "en": "Try again",
+    "context": "Button that loads PayPal’s payment buttons again.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/PayPalSubscribeButtons.messages.ts"
+  },
+  "account.pin.again": {
+    "en": "Again",
+    "context": "Label of the field where the PIN is typed a second time, to check it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.badDigits": {
+    "en": "Use 4 to 8 digits.",
+    "context": "Red text under the PIN fields when the PIN isn’t 4 to 8 digits.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the PIN fields without saving.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.change": {
+    "en": "Change",
+    "context": "Button that opens the fields to set a new PIN.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.changedOn": {
+    "en": "Changed on {date}",
+    "context": "Line under \"A PIN is set\": when it was last set or changed.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.digits": {
+    "en": "4 to 8 digits",
+    "context": "Placeholder of the PIN field.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.isSet": {
+    "en": "A PIN is set",
+    "context": "Bold line of the PIN card when the account has a PIN.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.keep": {
+    "en": "Keep it",
+    "context": "Button that keeps the PIN after all.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.lead": {
+    "en": "Keypads on your dashboards, wall panels and links ask for this PIN before they unlock, disarm or open something. It is kept as a code nobody can read back, Tiledash included.",
+    "context": "Text at the top of the PIN card. \"Links\" are share links.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.newPin": {
+    "en": "New PIN",
+    "context": "Label of the field for a new PIN, when one is set already.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.noMatch": {
+    "en": "The two don’t match.",
+    "context": "Red text under the PIN fields when the PIN typed again differs.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.none": {
+    "en": "No PIN yet",
+    "context": "Bold line of the PIN card when the account has no PIN.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.noneBody": {
+    "en": "Keypads ask you to set one first.",
+    "context": "Line under \"No PIN yet\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.pin": {
+    "en": "PIN",
+    "context": "Label of the field for the PIN, when none is set yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.remove": {
+    "en": "Remove",
+    "context": "Red button that removes the PIN; also the button next to a PIN that is set.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.removeBody": {
+    "en": "Keypads won’t unlock anything until you set one again.",
+    "context": "Text after \"Remove the PIN?\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.removeLabel": {
+    "en": "Remove the PIN",
+    "context": "Name of the question about removing the PIN, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.removeTitle": {
+    "en": "Remove the PIN?",
+    "context": "Bold question before removing the PIN.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.save": {
+    "en": "Save PIN",
+    "context": "Button that saves the PIN.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.pin.set": {
+    "en": "Set a PIN",
+    "context": "Button that opens the fields to set the account’s first PIN.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PinSettings.messages.ts"
+  },
+  "account.plan.cancelAnyTime": {
+    "en": "Cancel any time; you keep Pro until the end of what you paid for.",
+    "context": "Small text under the price of Pro.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.cancelPro": {
+    "en": "Cancel Pro",
+    "context": "Button on Pro that asks before cancelling the subscription.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.checkAgain": {
+    "en": "Check again",
+    "context": "Button that asks again whether the payment was confirmed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.compareTitle": {
+    "en": "The plans side by side",
+    "context": "Heading of the table comparing what Free and Pro give.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.compareWhat": {
+    "en": "What you get",
+    "context": "Header of the table’s first column (the row names), read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.ending": {
+    "en": "<b>Pro until {date}.</b> You cancelled: after that it’s Free again. Nothing is deleted.",
+    "context": "Line on the plan page after cancelling Pro: it runs until the end of the paid period. The first sentence is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.failedPaypal": {
+    "en": "<b>Your last payment didn’t go through.</b> PayPal tries again; check your payment method in PayPal before {date} to keep Pro.",
+    "context": "Warning on the plan page when the last payment through PayPal failed. The first sentence is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.failedStripe": {
+    "en": "<b>Your last payment didn’t go through.</b> Stripe tries again; update your card before {date} to keep Pro.",
+    "context": "Warning on the plan page when the last card payment through Stripe failed. The first sentence is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.firstPayment": {
+    "en": "Your first payment is on {date}; until then you have Pro.",
+    "context": "Small text under the price when subscribing again after cancelling: the first payment is when the paid period ends.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.freeAgain": {
+    "en": "You’re back on Free",
+    "context": "Title of the panel about being back on Free, after Pro ended.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.freeOn": {
+    "en": "On {date} you go back to Free",
+    "context": "Title of the panel about going back to Free, after cancelling Pro.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.fullBody": {
+    "en": "Free has room for {free}; Pro for {pro}, with years of history.",
+    "context": "Text of the box about a full limit, comparing Free and Pro.",
+    "params": {
+      "free": "How many Free allows.",
+      "pro": "How many Pro allows."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.fullTitle": {
+    "en": "{what, select, recordings {All your recorded readings are in use} other {All your dashboards are in use}}",
+    "context": "Title of a box on the Free plan when a limit is reached: every recorded reading, or every dashboard, the plan allows is used.",
+    "params": {
+      "what": "\"recordings\" or \"dashboards\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.given": {
+    "en": "Given to you by Tiledash: nothing to pay.",
+    "context": "Line on the plan page when Tiledash gave the person Pro for free.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.intervalLabel": {
+    "en": "Pay monthly or yearly",
+    "context": "Name of the choice between paying monthly and yearly, read out by screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.keepPro": {
+    "en": "Keep Pro",
+    "context": "Button after cancelling Pro: subscribe again, so Pro doesn’t end.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.kept": {
+    "en": "History is kept {kept}.",
+    "context": "Line under the plan’s name: how long recorded history is kept, such as \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year.\"",
+    "params": {
+      "kept": "The list of how long each kind of history is kept, already translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.manageBilling": {
+    "en": "Manage billing",
+    "context": "Button on Pro that opens Stripe’s page for invoices, the card and cancelling.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.monthly": {
+    "en": "Monthly",
+    "context": "Choice: pay for Pro every month.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.notNow": {
+    "en": "Not now",
+    "context": "Link that closes the price and payment buttons after choosing to keep Pro, without paying.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.openPaypal": {
+    "en": "Open PayPal",
+    "context": "Link in the failed-payment warning that opens PayPal in a new tab.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.orPrice": {
+    "en": "or {price}",
+    "context": "Under Pro’s monthly price in the plans table: the yearly price as the other way to pay.",
+    "params": {
+      "price": "The price, such as \"€40 a year\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.payWithPaypal": {
+    "en": "Pay with PayPal",
+    "context": "Button that pays for Pro through PayPal.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.paymentDue": {
+    "en": "{price} · payment due",
+    "context": "Line on the plan page when the last payment failed: the price, and that it is due.",
+    "params": {
+      "price": "The price, such as \"€4 a month\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.paypalManage": {
+    "en": "Payment method and receipts in PayPal",
+    "context": "Link on Pro that opens PayPal, where the payment method and receipts are.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.paypalNote": {
+    "en": "Payment by PayPal, with your PayPal account or a card where PayPal offers it. Your payment details never reach Tiledash.",
+    "context": "Small text under the PayPal buttons.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.perMonth": {
+    "en": "That’s {price} a month.",
+    "context": "Small text under a yearly price: what it comes to per month.",
+    "params": {
+      "price": "The amount with its currency, such as \"€3.33\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.priceInterval": {
+    "en": "{interval, select, month {a month} other {a year}}",
+    "context": "Small text after the big price of Pro, such as \"€4\" then \"a month\".",
+    "params": {
+      "interval": "\"month\" or \"year\"."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.renews": {
+    "en": "{price} · renews on {date}",
+    "context": "Line on the plan page on Pro: what it costs and when it renews.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\".",
+      "price": "The price, such as \"€4 a month\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.seeRecorded": {
+    "en": "See what’s recorded",
+    "context": "Link under the meters that opens Account → Recordings.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.settingUp": {
+    "en": "<b>Setting up Pro…</b> {provider} is confirming your payment.",
+    "context": "Line on the plan page just after paying, while the payment provider confirms. The first part is bold.",
+    "params": {
+      "provider": "\"PayPal\" or \"Stripe\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.stillWaiting": {
+    "en": "<b>Still waiting for {provider}.</b> This can take a minute; Pro starts as soon as the payment is confirmed, and you’ll get an email from {provider}.",
+    "context": "Line on the plan page when the payment provider takes long to confirm. The first sentence is bold.",
+    "params": {
+      "provider": "\"PayPal\" or \"Stripe\"."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.stripeManage": {
+    "en": "Invoices, your card, monthly or yearly, and cancelling: at Stripe.",
+    "context": "Small text under \"Manage billing\": what can be done at Stripe.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.stripeNote": {
+    "en": "Payment by Stripe. Your card never reaches Tiledash.",
+    "context": "Small text under the button that pays for Pro through Stripe.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.switchTo": {
+    "en": "{interval, select, year {Switch to yearly} other {Switch to monthly}}",
+    "context": "Button on Pro that switches between paying monthly and yearly.",
+    "params": {
+      "interval": "\"year\" or \"month\": what to switch to."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.unavailable": {
+    "en": "Upgrading isn’t available right now.",
+    "context": "Small text on the Free plan when paying for Pro is switched off on this server.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.updateCard": {
+    "en": "Update card",
+    "context": "Button in the failed-payment warning that opens Stripe to change the card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.upgrade": {
+    "en": "Upgrade to Pro",
+    "context": "Button that starts paying for Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.usageDashboards": {
+    "en": "Dashboards",
+    "context": "Label of a meter: how many dashboards are used of the plan’s limit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.usageHomeys": {
+    "en": "Homeys",
+    "context": "Label of a meter: how many Homeys (smart-home hubs) are used of the plan’s limit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.usageLabel": {
+    "en": "What you use",
+    "context": "Name of the box with how much of each limit is used, read out by screen readers. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.usageRecordings": {
+    "en": "Recorded readings",
+    "context": "Label of a meter: how many device readings are recorded of the plan’s limit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.vatIncluded": {
+    "en": "Including VAT.",
+    "context": "Small text under the price: the price includes VAT. Use the language’s usual abbreviation.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.vatPlus": {
+    "en": "Plus VAT where it applies.",
+    "context": "Small text under the price: VAT is added where the law asks for it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.yearly": {
+    "en": "Yearly",
+    "context": "Choice: pay for Pro once a year.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.yearlySaving": {
+    "en": "Yearly · {saving}",
+    "context": "Choice: pay for Pro once a year, with what that saves, such as \"Yearly · 2 months free\".",
+    "params": {
+      "saving": "What a year saves, such as \"2 months free\" or \"save 17%\"."
+    },
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.yourPlan": {
+    "en": "Your plan",
+    "context": "Small heading above the name of the plan (Free or Pro); also a tag on the plan’s column in the plans table.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.planDialogs.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog without saving which ones stay.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.cancelNoCharge": {
+    "en": "{provider} won’t charge you again. You can subscribe again any time.",
+    "context": "Second line of the cancel dialog.",
+    "params": {
+      "provider": "Who takes the payments: \"PayPal\" or \"Stripe\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.cancelPro": {
+    "en": "Cancel Pro",
+    "context": "Red button of the cancel dialog that cancels the Pro subscription.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.cancelTitle": {
+    "en": "Cancel Pro?",
+    "context": "Title of the dialog that asks before cancelling the Pro subscription.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.cancelUntil": {
+    "en": "You keep Pro until <b>{date}</b>. After that it’s Free again; nothing is deleted.",
+    "context": "Text of the cancel dialog. The date is bold.",
+    "params": {
+      "date": "A date, such as \"12 November 2026\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.continuePaypal": {
+    "en": "Continue to PayPal",
+    "context": "Button of the switch dialog that goes to PayPal to approve the new amount.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.freeLead": {
+    "en": "Nothing is deleted. This is what changes:",
+    "context": "Line at the top of the panel about going back to Free, above a list of what changes.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.freeLeadWould": {
+    "en": "Nothing is deleted. This is what would change:",
+    "context": "Line at the top of the folded \"back to Free\" question, above a list.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.freeQuestion": {
+    "en": "What happens if I go back to Free?",
+    "context": "A folded question on Pro: opening it shows what would change on Free.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepDashboardsBody": {
+    "en": "Free has room for {limit}. The others are paused, kept as they are, and back with Pro.",
+    "context": "Line under the title of the dialog that picks which dashboards stay.",
+    "params": {
+      "limit": "How many dashboards Free allows."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepDashboardsTitle": {
+    "en": "Which dashboards stay?",
+    "context": "Title of the dialog in which the person picks which dashboards stay active on Free; the others pause.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepHomeysBody": {
+    "en": "Free has room for {limit}. The others are paused: their dashboards and recordings wait until you go Pro again.",
+    "context": "Line under the title of the dialog that picks which Homey stays.",
+    "params": {
+      "limit": "How many Homeys Free allows."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepHomeysTitle": {
+    "en": "Which Homey stays connected?",
+    "context": "Title of the dialog in which the person picks which Homey stays connected on Free; the others pause.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepPro": {
+    "en": "Keep Pro",
+    "context": "Button of the cancel dialog that closes it without cancelling.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepThese": {
+    "en": "{what, select, homeys {{count, plural, one {Keep this Homey} other {Keep these Homeys}}} other {{count, plural, one {Keep this dashboard} other {Keep these dashboards}}}}",
+    "context": "Button that saves which dashboards or Homeys stay active on Free.",
+    "params": {
+      "count": "How many may stay (1 makes it \"this\").",
+      "what": "\"dashboards\" or \"homeys\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keptCount": {
+    "en": "{paused, plural, =0 {{kept} of {limit} kept} other {{kept} of {limit} kept · # paused}}",
+    "context": "Line in the dialog that picks what stays: how many are picked to stay, of how many may, and how many pause.",
+    "params": {
+      "kept": "How many are picked to stay.",
+      "limit": "How many may stay.",
+      "paused": "How many pause."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.notNow": {
+    "en": "Not now",
+    "context": "Button of the switch dialog that closes it without switching.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.paused": {
+    "en": "Paused",
+    "context": "Small word at the end of a dashboard or Homey that pauses on Free.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.stays": {
+    "en": "Stays",
+    "context": "Small word at the end of a dashboard or Homey picked to stay active on Free.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.switchBody": {
+    "en": "From <b>{date}</b> you pay <b>{next}</b> instead of {current}. Until then nothing changes.",
+    "context": "Text of the switch dialog. The date and the new price are bold.",
+    "params": {
+      "current": "The price now, such as \"€4 a month\".",
+      "date": "The next renewal date, such as \"12 November 2026\".",
+      "next": "The new price, such as \"€40 a year\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.switchPaypal": {
+    "en": "PayPal asks you to approve the new amount, then brings you back here.",
+    "context": "Second line of the switch dialog.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.switchTitle": {
+    "en": "{interval, select, year {Switch to yearly?} other {Switch to monthly?}}",
+    "context": "Title of the dialog that asks before switching between paying monthly and yearly.",
+    "params": {
+      "interval": "\"year\" or \"month\": what to switch to."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.plans.days": {
+    "en": "{count, plural, one {# day} other {# days}}",
+    "context": "A length of time in days: in the plans table (\"30 days\"), in \"History is kept …\", and how much history a recording has.",
+    "params": {
+      "count": "The number of days."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.everyMinute": {
+    "en": "Every minute",
+    "context": "Cell of the plans table on the row \"Records at most\": once a minute.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.everyMinutes": {
+    "en": "Every {count} min",
+    "context": "Cell of the plans table on the row \"Records at most\": once every so many minutes. Use the short form for minutes.",
+    "params": {
+      "count": "The number of minutes."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.everySeconds": {
+    "en": "Every {count} s",
+    "context": "Cell of the plans table on the row \"Records at most\": once every so many seconds. Use the short form for seconds.",
+    "params": {
+      "count": "The number of seconds."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.keptDaily": {
+    "en": "daily for {time}",
+    "context": "Part of \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year\": how long one value per day is kept.",
+    "params": {
+      "time": "A length of time, such as \"1 year\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.keptDetailed": {
+    "en": "detailed for {time}",
+    "context": "Part of \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year\": how long every value is kept. The parts are joined into a list.",
+    "params": {
+      "time": "A length of time, such as \"2 days\" or \"1 year\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.keptHourly": {
+    "en": "hourly for {time}",
+    "context": "Part of \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year\": how long one value per hour is kept.",
+    "params": {
+      "time": "A length of time, such as \"30 days\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.notKept": {
+    "en": "Not kept",
+    "context": "Cell of the plans table on a history row: this plan doesn’t keep that history.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.nothingYet": {
+    "en": "Nothing yet",
+    "context": "How much history a recorded reading has, on Account → Recordings, when no value has arrived yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowAi": {
+    "en": "Build widgets with your AI",
+    "context": "Row of the plans table: whether you may let your own AI assistant (such as Claude) build widgets for you.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowBackfill": {
+    "en": "Fill history from Homey",
+    "context": "Row of the plans table: whether a new recording can be filled with the history Homey already kept (Homey Insights).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowCalendars": {
+    "en": "Calendars",
+    "context": "Row of the plans table: how many calendars (iCal links) the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowDaily": {
+    "en": "Daily history",
+    "context": "Row of the plans table: how long one value per day is kept.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowDashboards": {
+    "en": "Dashboards",
+    "context": "Row of the plans table: how many dashboards the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowDetailed": {
+    "en": "Detailed history",
+    "context": "Row of the plans table: how long every recorded value is kept, before it is thinned to hourly.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowHomeys": {
+    "en": "Homeys",
+    "context": "Row of the plans table: how many Homeys (smart-home hubs) the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowHourly": {
+    "en": "Hourly history",
+    "context": "Row of the plans table: how long one value per hour is kept.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowInterval": {
+    "en": "Records at most",
+    "context": "Row of the plans table: how often a reading is recorded at most. The cells next to it say \"Every minute\" or \"Every 10 s\", so row and cell read together as \"Records at most every minute\"; a label that stands on its own is fine too.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowRecordings": {
+    "en": "Recorded readings",
+    "context": "Row of the plans table: how many device readings the plan records (keeps the history of).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowSharing": {
+    "en": "Share links and screens",
+    "context": "Row of the plans table: how many share links (dashboards shared by link) and paired screens (wall panels) the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowThemes": {
+    "en": "Your own themes",
+    "context": "Row of the plans table: whether the plan lets you make your own themes.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowWidgets": {
+    "en": "Your own widgets",
+    "context": "Row of the plans table: whether the plan lets you make your own widgets.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.sharing": {
+    "en": "{links, plural, one {# link} other {# links}}, {screens, plural, one {# screen} other {# screens}}",
+    "context": "Cell of the plans table on the row of share links and screens, such as \"1 link, 1 screen\".",
+    "params": {
+      "links": "How many share links the plan allows.",
+      "screens": "How many paired screens the plan allows."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.sinceToday": {
+    "en": "Since today",
+    "context": "How much history a recorded reading has, on Account → Recordings, when it started today.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.stopHistory": {
+    "en": "{reading} of {device} stops recording, and its history ({kept}) is deleted. Charts of it start empty if you record it again.",
+    "context": "Text of the dialog that asks before stopping a recording: its recorded history is deleted with it.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "kept": "How much history it has, such as \"4 days\" or \"1 year\".",
+      "reading": "The name of the reading, such as \"Temperature\"."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.stopNothing": {
+    "en": "{reading} of {device} stops recording, and nothing was recorded yet. Charts of it start empty if you record it again.",
+    "context": "Text of the dialog that asks before stopping a recording that has no values yet.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "reading": "The name of the reading, such as \"Temperature\"."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.stopToday": {
+    "en": "{reading} of {device} stops recording, and today’s history is deleted. Charts of it start empty if you record it again.",
+    "context": "Text of the dialog that asks before stopping a recording that started today: its history goes with it.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "reading": "The name of the reading, such as \"Temperature\"."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.unlimited": {
+    "en": "Unlimited",
+    "context": "Cell of the plans table on the row of share links and screens: as many as you like.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.years": {
+    "en": "{count, plural, one {# year} other {# years}}",
+    "context": "A length of time in years: in the plans table (\"1 year\"), in \"History is kept …\", and how much history a recording has.",
+    "params": {
+      "count": "The number of years."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.yes": {
+    "en": "Yes",
+    "context": "Cell of the plans table: the plan has this.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.profile.addHomey": {
+    "en": "Add a Homey",
+    "context": "Button that connects another Homey to the account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.alerts": {
+    "en": "Alerts",
+    "context": "Heading of the card with the alert rules: which devices wake the wall panels with an alert.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.backupBody": {
+    "en": "Your dashboards, wall panels, themes and widgets in one file, to bring back if something goes wrong. Recorded history isn’t in it.",
+    "context": "Text of the backup card.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.backupTitle": {
+    "en": "Back up your setup",
+    "context": "Heading of the card for downloading and restoring a backup of the setup.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.dataBody": {
+    "en": "Everything Tiledash keeps for you in one zip: your settings, dashboards, wall panels and themes as JSON, and your recorded history as CSV.",
+    "context": "Text of the \"Your data\" card. JSON and CSV are file formats; zip is a compressed file.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.dataSources": {
+    "en": "Data sources",
+    "context": "Heading of the card that credits the data Tiledash shows from others (weather, places, maps).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.dataTitle": {
+    "en": "Your data",
+    "context": "Heading of the card for downloading everything Tiledash keeps for the person.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.deleteAccount": {
+    "en": "Delete account…",
+    "context": "Red button that opens the dialog to delete the account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.deleteBody": {
+    "en": "Removes your dashboards, wall panels, themes and recorded history from Tiledash, 7 days after you ask; log in before then to keep it. Your Homey itself isn’t touched.",
+    "context": "Text of the card for deleting the account.",
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.deleteTitle": {
+    "en": "Delete your account",
+    "context": "Heading of the card for deleting the Tiledash account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.downloadBackup": {
+    "en": "Download a backup",
+    "context": "Button that downloads a backup file of the setup.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.downloadData": {
+    "en": "Download your data",
+    "context": "Button that downloads everything Tiledash keeps for the person.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.homeys": {
+    "en": "Homeys",
+    "context": "Heading of the card listing the person’s Homeys (smart-home hubs).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.maps": {
+    "en": "Maps",
+    "context": "Heading of the card that sets where the maps’ tiles (the map pictures) come from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.paused": {
+    "en": "Paused",
+    "context": "Badge on a Homey that is paused on the Free plan: not connected until it is picked to stay.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.pin": {
+    "en": "PIN",
+    "context": "Heading of the card with the account’s PIN, which keypads ask for. Use the usual abbreviation.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.proRoomFor": {
+    "en": "Pro has room for {count}.",
+    "context": "Link after \"Your plan has room for …\" on Free: Pro allows more Homeys.",
+    "params": {
+      "count": "How many Homeys Pro allows."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.restore": {
+    "en": "Restore…",
+    "context": "Button that opens the dialog to bring back a backup file.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.roomFor": {
+    "en": "{count, plural, one {Your plan has room for # Homey.} other {Your plan has room for # Homeys.}}",
+    "context": "Shown instead of \"Add a Homey\" when the plan allows no more Homeys.",
+    "params": {
+      "count": "How many Homeys the plan allows."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.showThis": {
+    "en": "Show this one",
+    "context": "Button on another Homey that switches the app to it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.shownNow": {
+    "en": "Shown now",
+    "context": "Badge on the Homey whose dashboards and devices the app shows now.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.signOut": {
+    "en": "Sign out",
+    "context": "Button on the Account tab that signs out of Tiledash.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.signedInWith": {
+    "en": "Signed in with your Homey account; your name and email come from there.",
+    "context": "Small text under the person’s name and email on the Account tab.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.youLabel": {
+    "en": "You",
+    "context": "Name of the card with the person’s name and email, read out by screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.recordings.elsewhere": {
+    "en": "{here, select, yes {{count, plural, one {And # recording on your other Homeys.} other {And # recordings on your other Homeys.}}} other {{count, plural, one {# recording on your other Homeys.} other {# recordings on your other Homeys.}}}}",
+    "context": "Line at the bottom of the Recordings tab: recordings on the person’s other Homeys, which count towards the same limit. Starts with \"And\" when this Homey has recordings too.",
+    "params": {
+      "count": "How many recordings on the other Homeys.",
+      "here": "\"yes\" when this Homey has recordings too, \"no\" otherwise."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.emptyBody": {
+    "en": "Record a reading from a device’s details to keep its history, for charts and the history dialog.",
+    "context": "Line under \"Nothing is recorded yet\": where to start recording.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.emptyTitle": {
+    "en": "Nothing is recorded yet",
+    "context": "Title on the Recordings tab when no reading is recorded.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.everyMinute": {
+    "en": "every minute",
+    "context": "How often a reading is recorded at most: once a minute. In lower case.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.everyMinutes": {
+    "en": "every {count} min",
+    "context": "How often a reading is recorded at most: every so many minutes. Short form, lower case.",
+    "params": {
+      "count": "The number of minutes."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.everySeconds": {
+    "en": "every {count} s",
+    "context": "How often a reading is recorded at most: every so many seconds. Short form, lower case.",
+    "params": {
+      "count": "The number of seconds."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.fullBody": {
+    "en": "Stop one below to record something else, or go Pro for {pro} recordings and years of history.",
+    "context": "Text of the box when every recording place is taken.",
+    "params": {
+      "pro": "How many readings Pro records."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.fullTitle": {
+    "en": "Every place is taken",
+    "context": "Title of a box on Free when every recording the plan allows is used.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.history": {
+    "en": "History",
+    "context": "Small label before how much history a recording has, such as \"History 4 days\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.historyOf": {
+    "en": "History of {reading}, {device}",
+    "context": "Name of the button that opens a recording’s history, read out by screen readers.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "reading": "The name of the reading, such as \"Temperature\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.kept": {
+    "en": "History is kept {kept}.",
+    "context": "Line under the meter: how long recorded history is kept, such as \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year.\"",
+    "params": {
+      "kept": "The list of how long each kind of history is kept, already translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.meter": {
+    "en": "Recorded readings",
+    "context": "Label of the meter of how many readings are recorded of the plan’s limit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.noMatch": {
+    "en": "Nothing matches “{query}”.",
+    "context": "Shown when no recording matches the search.",
+    "params": {
+      "query": "What the person typed. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.noRoom": {
+    "en": "No room",
+    "context": "Heading above the recordings of devices that aren’t in any room. A room of the house.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.pausedBadge": {
+    "en": "Paused · over your plan",
+    "context": "Badge on a recording that is paused because the plan allows fewer.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.pausedBody": {
+    "en": "Free has room for {limit}. Stop one to let a paused one record again, or go Pro for {pro}.",
+    "context": "Text of the box about paused recordings.",
+    "params": {
+      "limit": "How many Free records.",
+      "pro": "How many Pro records."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.pausedTitle": {
+    "en": "{count, plural, one {# recording is paused} other {# recordings are paused}}",
+    "context": "Title of a box when some recordings are paused because the account went back to Free and has more than Free allows.",
+    "params": {
+      "count": "How many are paused."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.recording": {
+    "en": "Recording",
+    "context": "Green badge on a recording that is recording now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.search": {
+    "en": "Search devices, readings, rooms",
+    "context": "Placeholder of the search box on the Recordings tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.since": {
+    "en": "Since",
+    "context": "Small label before the date a recording started, such as \"Since 3 Mar\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.stop": {
+    "en": "Stop",
+    "context": "Button that stops a recording (it asks first; its history is deleted).",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.toDevices": {
+    "en": "Go to devices",
+    "context": "Button under \"Nothing is recorded yet\" that opens the devices page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.recordings.upgrade": {
+    "en": "Upgrade to Pro",
+    "context": "Button that opens paying for Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
+  },
+  "account.screen.assistantsTab": {
+    "en": "AI assistants",
+    "context": "Tab of the account page where AI assistants (such as Claude) are connected to build widgets.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.freePlan": {
+    "en": "Free plan",
+    "context": "Small line above the account page’s title when the person is on Free.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.linksTab": {
+    "en": "Links and screens",
+    "context": "Tab of the account page with every share link and paired screen. Other texts point to it as \"Account › Links and screens\"; use the same words as they do (nl \"Links en schermen\", de \"Links und Bildschirme\", es \"Enlaces y pantallas\", fr \"Liens et écrans\").",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.proPlan": {
+    "en": "Pro plan",
+    "context": "Small line above the account page’s title when the person is on Pro (the paid plan).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.signedInAs": {
+    "en": "Signed in as {name}.",
+    "context": "Line under the account page’s title: who is logged in.",
+    "params": {
+      "name": "The person’s name, as their Homey account says it. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.tabsLabel": {
+    "en": "Account",
+    "context": "Name of the row of tabs on the account page, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.screen.whatsNewTab": {
+    "en": "What’s new",
+    "context": "Tab of the account page with the changelog: what changed in Tiledash lately.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+  },
+  "account.whatsNew.emptyBody": {
+    "en": "From the next version on, every change shows up here, newest first.",
+    "context": "Line under \"The first release notes are on their way\".",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.emptyTitle": {
+    "en": "The first release notes are on their way",
+    "context": "Title on the What’s new tab while there are no release notes yet.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.ideas": {
+    "en": "Missing something, or found a bug? <link>Tell us on GitHub</link>",
+    "context": "Line at the bottom of the What’s new tab. The part in the tag is a link to Tiledash’s public issues on GitHub.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.inDevelopment": {
+    "en": "In development",
+    "context": "Badge when this copy of Tiledash is a development build, not a release.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.newestFirst": {
+    "en": "Here’s what changed, newest first.",
+    "context": "Line under the title, above the list of releases.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.onNewest": {
+    "en": "You’re on the newest Tiledash",
+    "context": "Title of the What’s new tab when the version number isn’t known.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.onVersion": {
+    "en": "You’re on Tiledash <version>{version}</version>",
+    "context": "Title of the What’s new tab: the version of Tiledash the person uses, such as \"You’re on Tiledash v26.4.0\". The version is shown in its own style.",
+    "params": {
+      "version": "The version, such as \"v26.4.0\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.released": {
+    "en": "Released {date}.",
+    "context": "Line under the title: when this version came out.",
+    "params": {
+      "date": "A date, such as \"12 October 2026\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  }
+}

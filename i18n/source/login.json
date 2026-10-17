@@ -1,0 +1,976 @@
+{
+  "login.connectApp.connectedTitle": {
+    "en": "{client} is connected.",
+    "context": "Heading shown after the person allowed an AI app to connect, just before the browser goes back to the app.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.disconnect": {
+    "en": "Disconnect it any time under <link>Account → AI assistants</link>.",
+    "context": "Small print on the consent page. \"It\" is the app. The part in the tag is a link to the settings page where connected AI apps are listed and removed; \"Account → AI assistants\" names two places in the app, the account page and its AI assistants section, so write them as the app names them.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.expiredBody": {
+    "en": "Connecting has to be finished within ten minutes. Go back to your AI app and connect Tiledash again.",
+    "context": "Explanation under the heading \"This request ran out.\": a connection request is only valid for ten minutes, so the person has to start again in the AI app.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.expiredTitle": {
+    "en": "This request ran out.",
+    "context": "Heading shown when the request of an AI app to connect is no longer valid (it took too long, was used before or was changed).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.freeNote": {
+    "en": "Building widgets needs Pro. You can connect now; the tools start working once you’re on Pro.",
+    "context": "Note on the consent page for people on the Free plan: the app can be connected, but its tools only work with the Pro plan. \"Pro\" is a plan name and stays as it is.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.introNote": {
+    "en": "It named itself; Tiledash can’t check that. Allowing sends you back to <strong>{host}</strong>.",
+    "context": "Second and third sentence of the paragraph on the consent page. \"It\" is the app: the name was given by the app itself and Tiledash cannot verify it. After allowing, the browser returns to the address in bold.",
+    "params": {
+      "host": "The web address or app the browser returns to (claude.ai, 127.0.0.1, cursor:). Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.introPublish": {
+    "en": "<strong>{client}</strong> wants to publish to the community for you.",
+    "context": "First sentence of the paragraph on the consent page when the tool asks to publish to the community, Tiledash's public store for widgets and themes. The tag marks the name of the tool in bold.",
+    "params": {
+      "client": "The name the tool calls itself (Tiledash command line…). Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.introWidgets": {
+    "en": "<strong>{client}</strong> wants to help you build your widgets.",
+    "context": "First sentence of the paragraph on the consent page when an AI app asks to help build widgets. The tag marks the name of the app in bold. A widget is one tile of a dashboard.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.leaving": {
+    "en": "Taking you back to {host}… You can close this tab if nothing happens.",
+    "context": "Line under the heading after the person chose, while the browser returns to the AI app. The tab can be closed if the return does not happen by itself.",
+    "params": {
+      "host": "The web address or app the browser returns to (claude.ai, 127.0.0.1, cursor:). Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.notConnectedTitle": {
+    "en": "Not connected.",
+    "context": "Heading shown after the person cancelled the connection of an AI app, just before the browser goes back to the app.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.signInIntro": {
+    "en": "To connect an app to Tiledash, first log in with your Homey account.",
+    "context": "Sentence at the top of the permissions page shown before the login when someone arrives from an AI app that wants to connect. Explains why a login comes first.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.title": {
+    "en": "Connect {client} to Tiledash?",
+    "context": "Main heading of the consent page: an AI app asks to be connected to the person's Tiledash. A question; the buttons Allow and Cancel answer it.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.consent.publishAllow0": {
+    "en": "Publish new items and new versions under your community name",
+    "context": "Item in the list of what the Tiledash command line may do after the person allows it. The community is Tiledash's public store where people share widgets and themes; an item is a widget or a theme there; the community name is the person's public name in it.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.publishAllow1": {
+    "en": "See what you published and its versions",
+    "context": "Item in the list of what the Tiledash command line may do. \"What you published\" means the items the person shared in the community; \"its versions\" the versions of each.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.publishDeny0": {
+    "en": "Change your widgets, themes or dashboards",
+    "context": "Item in the list of what the Tiledash command line can never do. A widget is one tile of a dashboard; a theme is its look.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.publishDeny1": {
+    "en": "Read your devices, history, billing or account",
+    "context": "Item in the list of what the Tiledash command line can never do. History means recorded values over time; billing is the payment data.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.publishDeny2": {
+    "en": "Delete or withdraw what you published",
+    "context": "Item in the list of what the Tiledash command line can never do. Withdraw means taking an item back out of the community store; \"what you published\" means the items the person shared there.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.publishDeny3": {
+    "en": "See your Homey password or tokens",
+    "context": "Item in the list of what the Tiledash command line can never do. A token is a secret key that gives access.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.signedIn": {
+    "en": "Signed in as {name} · <switch>Not you?</switch>",
+    "context": "Small print on a consent page: who is logged in, and a link that logs out so someone else can log in. The part in the tag is the clickable link; the middle dot between the two parts separates them and stays.",
+    "params": {
+      "name": "The name of the person, as in their account. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow0": {
+    "en": "Read and change your own widgets and partials, and see their history",
+    "context": "Item in the list of what an AI app may do after the person allows it. A widget is one tile of a dashboard; a partial is a reusable piece shared between widgets; \"their history\" is the earlier saved versions.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow1": {
+    "en": "Make and change test devices",
+    "context": "Item in the list of what an AI app may do. Test devices are pretend devices Tiledash offers for trying out widgets.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow2": {
+    "en": "Read your devices: their names, kinds, capabilities and current readings",
+    "context": "Item in the list of what an AI app may do. A capability is something a device can do or report (on/off, temperature…); readings are the current values.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow3": {
+    "en": "Read the names of your themes",
+    "context": "Item in the list of what an AI app may do. A theme is the look (colours, fonts) of a dashboard.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsDeny0": {
+    "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
+    "context": "Item in the list of what an AI app can never do. A flow is an automation in Homey. The part in brackets says that only the person themselves can let taps in a widget preview really switch devices, and only for an hour.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsDeny1": {
+    "en": "Read your history, dashboards, billing or account",
+    "context": "Item in the list of what an AI app can never do. History means recorded values over time; billing is the payment data.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsDeny2": {
+    "en": "See your Homey password or tokens",
+    "context": "Item in the list of what an AI app can never do or what the command line can never do. A token is a secret key that gives access.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsDeny3": {
+    "en": "Reach anyone else’s widgets",
+    "context": "Item in the list of what an AI app can never do. A widget is one tile of a dashboard; this is about widgets of other Tiledash users.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.willBeAble": {
+    "en": "It will be able to",
+    "context": "Small heading of the left list on a consent page, above the things the app or command line is allowed to do once the person allows it. \"It\" is the app or tool asking for access.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.wontBeAble": {
+    "en": "It won’t be able to",
+    "context": "Small heading of the right list on a consent page, above the things the app or command line can never do. \"It\" is the app or tool asking for access.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.deletion.body": {
+    "en": "You asked to delete it, so it’s locked: your dashboards, wall panels and history are still here, but nothing runs. Keep it and everything comes back as it was.",
+    "context": "Paragraph under the heading of the account-deletion page. \"It\" is the account: it is locked, so data is kept but nothing works until the person keeps the account. A wall panel is a screen on the wall showing a dashboard.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deletion.bodyPro": {
+    "en": "You asked to delete it, so it’s locked: your dashboards, wall panels and history are still here, but nothing runs. Keep it and everything comes back as it was, on Free: your Pro subscription stopped when you asked.",
+    "context": "Paragraph under the heading of the account-deletion page for someone who had a paid Pro subscription: the same as the plain paragraph, plus a note that they come back on the Free plan because the subscription stopped when they asked to delete. \"Free\" and \"Pro\" are plan names and stay as they are.",
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deletion.fine": {
+    "en": "Logging out leaves it to be deleted on {date}.",
+    "context": "Small print under the buttons of the account-deletion page: if the person only logs out, the account will still be deleted on that day. \"It\" is the account.",
+    "params": {
+      "date": "The day the account is deleted, as a long date (12 November 2026) in the language of the page. Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deletion.keep": {
+    "en": "Keep my account",
+    "context": "Main button on the account-deletion page: cancels the deletion so the account stays.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deletion.title": {
+    "en": "Your account will be deleted on {date}.",
+    "context": "Heading of the page shown to someone who logs in while their account is scheduled for deletion. States the day the account is gone for good.",
+    "params": {
+      "date": "The day the account is deleted, as a long date (12 November 2026) in the language of the page. Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deletion.titleNamed": {
+    "en": "{name}, your account will be deleted on {date}.",
+    "context": "Heading of the account-deletion page when the person's first name is known: the same message as \"Your account will be deleted on {date}.\" addressed to them by name.",
+    "params": {
+      "date": "The day the account is deleted, as a long date (12 November 2026) in the language of the page. Already translated.",
+      "name": "The first name of the person, as they wrote it in their account. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DeletionPendingScreen.messages.ts"
+  },
+  "login.deviceSignIn.codeLabel": {
+    "en": "The code",
+    "context": "Name of the field where the person types the code from the terminal, read out by screen readers. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.codePlaceholder": {
+    "en": "WDJB-MJHT",
+    "context": "Example code in the empty code field: two groups of four letters. It only shows the shape of a code. Keep it exactly as it is.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.confirmIntro": {
+    "en": "<strong>{client}</strong> asks to publish for you. Make sure your terminal shows <shown>{code}</shown>. If you didn’t run <cmd>tiledash auth login</cmd> just now, cancel.",
+    "context": "Paragraph on the page where the person allows the sign-in. The program asks to publish items to the community (Tiledash's public store for widgets and themes) in the person's name; the code in the tag must be the same as in the terminal, as a safety check. Keep the tags and the command.",
+    "params": {
+      "client": "The name of the program asking (Tiledash command line). Not translated.",
+      "code": "The code to compare with the terminal, like WDJB-MJHT. Not translated."
+    },
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.confirmIntroHost": {
+    "en": "<strong>{client}</strong> asks to publish for you. Make sure your terminal shows <shown>{code}</shown> on {host}. If you didn’t run <cmd>tiledash auth login</cmd> just now, cancel.",
+    "context": "The same paragraph as the one without a computer name, for when the program also says which computer it runs on (\"on wim-macbook\"). Keep the tags and the command.",
+    "params": {
+      "client": "The name of the program asking (Tiledash command line). Not translated.",
+      "code": "The code to compare with the terminal, like WDJB-MJHT. Not translated.",
+      "host": "The name of the computer the terminal runs on (wim-macbook). Not translated."
+    },
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.confirmTitle": {
+    "en": "Sign in the command line?",
+    "context": "Main heading of the page where the person allows or cancels the sign-in of the command line. A question; the buttons Allow and Cancel answer it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.defaultClient": {
+    "en": "Tiledash command line",
+    "context": "Name of the program that wants to sign in, shown when the program did not give a name: the Tiledash tool that is run in a terminal window.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.deniedBody": {
+    "en": "Nothing was allowed. You can close this tab.",
+    "context": "Line under the heading after the sign-in of the command line was cancelled.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.deniedTitle": {
+    "en": "Not signed in.",
+    "context": "Heading shown after the person cancelled the sign-in of the command line, on the last page of the flow.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.doneBody": {
+    "en": "Go back to your terminal: it carries on by itself. You can close this tab.",
+    "context": "Line under the heading after the command line was allowed: the terminal window continues without anything more to do here.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.doneTitle": {
+    "en": "The command line is signed in.",
+    "context": "Heading shown after the person allowed the command line to sign in, on the last page of the flow.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.enterBody": {
+    "en": "Type the code your terminal shows after <cmd>tiledash auth login</cmd>.",
+    "context": "Line under the heading of the code page. The part in the tag is a command typed in a terminal and must stay exactly as it is.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.enterTitle": {
+    "en": "Sign in the command line",
+    "context": "Heading of the page where the person types the code the terminal shows. A command: sign in the Tiledash terminal program.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.expiredBody": {
+    "en": "A code works once, for ten minutes. Run <cmd>tiledash auth login</cmd> again for a new one.",
+    "context": "Explanation under the heading \"This code ran out.\": a code can be used once and only for ten minutes. The part in the tag is a command typed in a terminal and must stay exactly as it is.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.expiredTitle": {
+    "en": "This code ran out.",
+    "context": "Heading shown when the code from the terminal is no longer valid (it was used or took too long).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.noHandle": {
+    "en": "You have no community name yet: the first publish asks you to choose one here.",
+    "context": "Note on the page where the person allows the sign-in, for someone who has not yet chosen a public name in the community (Tiledash's public store for widgets and themes): they will be asked when they first publish.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.publishesAs": {
+    "en": "It publishes as <strong>@{handle}</strong>",
+    "context": "Note on the page where the person allows the sign-in: under which public community name the command line will publish. \"It\" is the command line; the tag marks the name in bold.",
+    "params": {
+      "handle": "The community name of the person, without the @. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.signInIntro": {
+    "en": "To sign in the command line, first log in to Tiledash with your Homey account.",
+    "context": "Sentence at the top of the permissions page shown before the login when someone arrives from the command line. Explains why a login comes first.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.signOut": {
+    "en": "Sign it out any time under <link>Account → AI assistants</link>, or with <cmd>tiledash auth logout</cmd>.",
+    "context": "Small print on the sign-in confirmation page. \"It\" is the command line. The part in the first tag is a link to the settings page where connected tools are listed (\"Account → AI assistants\" names two places in the app, the account page and its AI assistants section, so write them as the app names them); the second tag is a command typed in a terminal and must stay exactly as it is.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.kept.connectWhat": {
+    "en": "Its name and model, and a copy of its rooms, devices, flows and moods: their names, what each device can do and its values at that moment. The copy is brought up to date when you add, change or remove devices; a removed one is deleted 30 days later, unless a tile or a recording still uses it.",
+    "context": "What is kept after connecting a Homey, as one paragraph under \"When you connect a Homey\". \"Its\" is the Homey's. A flow is an automation and a mood a room preset in Homey; a tile is one block on a dashboard; a recording is saved history of a value.",
+    "maxLength": 360,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.connectWhen": {
+    "en": "When you connect a Homey",
+    "context": "Bold heading of an item in the list of kept data: the moment the person connects their Homey (the smart-home hub) to Tiledash.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.dailyFor": {
+    "en": "daily figures for {period}",
+    "context": "Part of a list of how long history is kept. Daily figures are the recorded values averaged per day. Lower case: it continues a sentence.",
+    "params": {
+      "period": "A length of time such as \"a year\" or \"10 years\". Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.historyWhat": {
+    "en": "Only the values you choose to record, and the energy meter readings the energy widgets need, which start by themselves when one is first shown. Free keeps {free}; Pro keeps {pro}. Values you don’t record go straight from your Homey to your browser.",
+    "context": "What is kept when recording history, as one paragraph. \"Free\" and \"Pro\" are the names of the two Tiledash plans and stay as they are. A widget is one tile of a dashboard.",
+    "params": {
+      "free": "How long the Free plan keeps recorded history, as a phrase like \"readings for 2 days\". Already translated.",
+      "pro": "How long the Pro plan keeps recorded history, as a phrase like \"readings for 30 days, hourly figures for a year and daily figures for 10 years\". Already translated."
+    },
+    "maxLength": 420,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.historyWhen": {
+    "en": "When you record history",
+    "context": "Bold heading of an item in the list of kept data: the moment the person chooses to record the history of values (a chart of a value over time).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.hourlyFor": {
+    "en": "hourly figures for {period}",
+    "context": "Part of a list of how long history is kept. Hourly figures are the recorded values averaged per hour. Lower case: it continues a sentence.",
+    "params": {
+      "period": "A length of time such as \"30 days\" or \"a year\". Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.loginWhat": {
+    "en": "Your name, email address and profile picture from your Athom account, and the encrypted token that lets Tiledash reach your Homey. For each browser you log in on: when, its IP address and which browser it is, until you log out there or 30 days after you last used it.",
+    "context": "What is kept at login, as one paragraph under \"When you log in\". Athom is the company behind Homey; the token is the secret key that gives Tiledash access, stored encrypted.",
+    "maxLength": 320,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.loginWhen": {
+    "en": "When you log in",
+    "context": "Bold heading of an item in the list of kept data: the moment the first data is stored, here the login.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.periodDays": {
+    "en": "{days, plural, one {a day} other {# days}}",
+    "context": "A length of time in days, inside a list of how long history is kept (\"readings for 30 days\"). One day reads \"a day\".",
+    "params": {
+      "days": "The number of days."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.periodYears": {
+    "en": "{years, plural, one {a year} other {# years}}",
+    "context": "A length of time in whole years, inside a list of how long history is kept (\"daily figures for 10 years\"). One year reads \"a year\".",
+    "params": {
+      "years": "The number of years."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.proWhat": {
+    "en": "Your payment details stay with PayPal. Tiledash keeps your subscription: its plan, its status and PayPal’s reference for it.",
+    "context": "What is kept for paying customers, as one paragraph under \"If you take Pro\". PayPal is the payment company and stays as written.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.proWhen": {
+    "en": "If you take Pro",
+    "context": "Bold heading of an item in the list of kept data: what is kept when the person pays for the Pro plan. \"Pro\" is the plan name and stays as it is.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.readingsFor": {
+    "en": "readings for {period}",
+    "context": "Part of a list of how long history is kept, \"readings for 2 days, hourly figures for a year and daily figures for 10 years\". Readings are the raw recorded values. Lower case: it continues a sentence.",
+    "params": {
+      "period": "A length of time such as \"2 days\" or \"a year\". Already translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.useWhat": {
+    "en": "Your dashboards, themes, widgets, wall panels and settings, and the pictures and fonts you upload.",
+    "context": "What is kept while using Tiledash, as one paragraph under \"While you use Tiledash\". A wall panel is a screen on the wall that shows a dashboard.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.kept.useWhen": {
+    "en": "While you use Tiledash",
+    "context": "Bold heading of an item in the list of kept data: what is kept while the person works with Tiledash.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/keptData.messages.ts"
+  },
+  "login.oauth.answerFailed": {
+    "en": "Couldn’t send your answer.",
+    "context": "Title of a red toast when Allow or Cancel on the consent page of an AI app could not be sent. A whole sentence: a specific cause may be added after it.",
+    "maxLength": 60,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.answerFailedHint": {
+    "en": "Nothing was decided. Try again.",
+    "context": "Text of the red toast after \"Couldn’t send your answer.\": no choice was recorded.",
+    "maxLength": 60,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.answerTerminalFailed": {
+    "en": "Tiledash couldn’t answer the terminal. Try again in a moment.",
+    "context": "Red line on the command-line sign-in page when Allow or Cancel could not be sent to the terminal that is waiting for the answer.",
+    "maxLength": 90,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.checkFailed": {
+    "en": "Couldn’t check the request.",
+    "context": "Title of a red toast when the page could not check the request of an AI app to connect. A whole sentence: a specific cause may be added after it.",
+    "maxLength": 60,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.checkFailedHint": {
+    "en": "Go back to your AI app and connect again.",
+    "context": "Text of the red toast after \"Couldn’t check the request.\": the person should start the connection again in the AI app.",
+    "maxLength": 70,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.codeCheckFailed": {
+    "en": "Tiledash couldn’t check the code. Try again in a moment.",
+    "context": "Red line under the code field of the command-line sign-in page when checking the code failed for a reason that is not the code.",
+    "maxLength": 90,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.codeShape": {
+    "en": "A code is eight letters, like WDJB-MJHT.",
+    "context": "Red line under the code field of the command-line sign-in page when what was typed is not a code. The example shows the shape of a code, two groups of four letters; keep it exactly as it is.",
+    "maxLength": 70,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.codeTooMany": {
+    "en": "That was a lot of tries. Wait a few minutes, then try again.",
+    "context": "Red line under the code field of the command-line sign-in page when too many wrong codes were typed in a short time.",
+    "maxLength": 90,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.codeUnknown": {
+    "en": "That code isn’t known. Check it against your terminal, or run tiledash auth login again.",
+    "context": "Red line under the code field of the command-line sign-in page when the typed code does not exist. \"tiledash auth login\" is a command typed in a terminal and stays exactly as it is.",
+    "maxLength": 120,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.logoutFailed": {
+    "en": "Couldn’t log you out.",
+    "context": "Title of a red toast when the person pressed \"Not you?\" on the consent page of an AI app and the logout did not work. A whole sentence: a specific cause may be added after it.",
+    "maxLength": 50,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.tabTitle": {
+    "en": "Connect an app · Tiledash",
+    "context": "Title of the browser tab on the page where an AI app asks to connect to Tiledash, when the app is not known yet. The middle dot separates the page from the product name and stays.",
+    "maxLength": 40,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.oauth.tabTitleClient": {
+    "en": "Connect {client} · Tiledash",
+    "context": "Title of the browser tab on the page where an AI app asks to connect to Tiledash. The middle dot separates the page from the product name and stays.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/oauth/oauth.messages.ts"
+  },
+  "login.pages.connectFailedBody": {
+    "en": "Please try again in a moment.",
+    "context": "Text of the red toast after \"Couldn’t connect your Homey\" when no more specific reason is known.",
+    "maxLength": 50,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.connectFailedTitle": {
+    "en": "Couldn’t connect your Homey",
+    "context": "Title of a red toast on the Homey-choosing page when connecting the chosen Homey (smart-home hub) failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.keepFailedBody": {
+    "en": "Nothing changed. Please try again in a moment.",
+    "context": "Text of the red toast after \"Couldn’t keep your account\": the account is still scheduled for deletion, trying again may work.",
+    "maxLength": 70,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.keepFailedTitle": {
+    "en": "Couldn’t keep your account",
+    "context": "Title of a red toast on the account-deletion page: the person pressed \"Keep my account\" but it did not work.",
+    "maxLength": 50,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.loadHomeysFailed": {
+    "en": "We couldn’t load your Homeys.",
+    "context": "Red banner on the Homey-choosing page when the list of the person's Homeys (smart-home hubs) could not be loaded. A \"Try again\" button sits under it. A whole sentence: a specific cause may be added after it.",
+    "maxLength": 60,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.planNoMoreHomeys": {
+    "en": "Your plan doesn’t allow another Homey",
+    "context": "Title of an orange toast on the Homey-choosing page when the person's plan does not allow connecting one more Homey (smart-home hub). The text below it says how many the plan includes, and a button offers to upgrade.",
+    "maxLength": 50,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.permissions.askAgain": {
+    "en": "Athom asks again each time you log in.",
+    "context": "Small print under the buttons of the permissions page: Athom (the company behind Homey) shows its permission screen at every login.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.continue": {
+    "en": "Continue to Homey",
+    "context": "Main button at the bottom of the permissions page: it sends the person to Athom (the company behind Homey) to log in.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.controlTitle": {
+    "en": "Control your devices",
+    "context": "Bold title of one permission in the list, as the person would put it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.controlWhy": {
+    "en": "So tapping a tile switches a light, sets the thermostat or closes the blinds.",
+    "context": "Reason under the permission \"Control your devices\". A tile is one block on a dashboard.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.favouritesTitle": {
+    "en": "Read your favourites",
+    "context": "Bold title of one permission in the list: the devices and flows the person marked with a star in the Homey app.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.favouritesWhy": {
+    "en": "To start your first dashboard with the devices and flows you starred in the Homey app.",
+    "context": "Reason under the permission \"Read your favourites\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.flowsTitle": {
+    "en": "See and start your flows",
+    "context": "Bold title of one permission in the list. A flow is an automation in Homey (\"Flow\" is Homey's own name for it).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.flowsWhy": {
+    "en": "For tiles that start a flow with a tap. Tiledash can’t change your flows.",
+    "context": "Reason under the permission \"See and start your flows\". A tile is one block on a dashboard.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.insightsTitle": {
+    "en": "Read Insights and energy",
+    "context": "Bold title of one permission in the list. \"Insights\" is the name of Homey's history feature and stays as written in Homey; energy is the energy and power data.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.insightsWhy": {
+    "en": "For charts of a value over time, and the energy and price widgets.",
+    "context": "Reason under the permission \"Read Insights and energy\". A widget is one tile of a dashboard with a particular job.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.intro": {
+    "en": "Next, Athom asks whether Tiledash may use your Homey. This is what it will ask for and why, and what Tiledash keeps.",
+    "context": "Paragraph under the heading of the permissions page. \"It\" is Tiledash; \"keeps\" refers to the data Tiledash stores, listed in the second tab.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.keptFooter": {
+    "en": "Under Account › Account you can download all of it, or delete your account: Tiledash removes it seven days later.",
+    "context": "Paragraph below the list of kept data, in the second tab of the permissions page. \"Account › Account\" is the path to a tab in the account page (the second word is the tab); \"all of it\" is all the data listed above.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.locationTitle": {
+    "en": "Know where your Homey is",
+    "context": "Bold title of an optional permission: Tiledash may read the geographic location the person set in Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.locationWhy": {
+    "en": "So the Weather widget can use your Homey’s location instead of a place you search for.",
+    "context": "Reason under the optional permission \"Know where your Homey is\". \"Weather\" is the name of a widget.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.logicTitle": {
+    "en": "Read Logic variables",
+    "context": "Bold title of an optional permission. \"Logic\" is the name of Homey's feature for variables and stays as written in Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.logicWhy": {
+    "en": "So a widget can follow a variable you keep in Homey Logic.",
+    "context": "Reason under the optional permission \"Read Logic variables\". \"Homey Logic\" is a Homey feature.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.moodsTitle": {
+    "en": "See and set your moods",
+    "context": "Bold title of one permission in the list. A mood is a preset of a room in Homey (Homey's own word) that sets lights and devices together.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.moodsWhy": {
+    "en": "For tiles that set a mood in a room.",
+    "context": "Reason under the permission \"See and set your moods\". A tile is one block on a dashboard.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.never": {
+    "en": "Tiledash never sees your password. It can’t add or remove devices, edit your flows or change your Homey’s settings, and you can take its access away any time in your Athom account.",
+    "context": "Reassurance in a box below the permission list: what Tiledash can never do, and that access can be withdrawn. A flow is an automation in Homey. Athom is the company behind Homey.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.optionalHint": {
+    "en": "Without these, everything else still works.",
+    "context": "Grey explanation next to the heading \"Optional\" on the permissions page: Tiledash works without these permissions, only the features named in them stop working.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.optionalTitle": {
+    "en": "Optional",
+    "context": "Small heading above the permissions that are not strictly needed, in the first tab of the permissions page, followed by an explanation on the same line.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.peopleTitle": {
+    "en": "See who lives in your home",
+    "context": "Bold title of an optional permission: Tiledash may read the household members from Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.peopleWhy": {
+    "en": "So a widget can show who is home, away or asleep. Never on a share link.",
+    "context": "Reason under the optional permission \"See who lives in your home\". A share link is a link the person can send to show a dashboard to someone else without a login; people are never shown there.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.roomsDevicesTitle": {
+    "en": "See your rooms and devices",
+    "context": "Bold title of one permission in the list, as the person would put it. A room is a zone of the home in Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.roomsDevicesWhy": {
+    "en": "To put your devices on tiles, grouped by room, with their values as they change.",
+    "context": "Reason under the permission \"See your rooms and devices\". A tile is one block on a dashboard that shows a device.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.setLogicTitle": {
+    "en": "Change Logic variables",
+    "context": "Bold title of an optional permission. \"Logic\" is the name of Homey's feature for variables and stays as written in Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.setLogicWhy": {
+    "en": "So a tap can set a variable you keep in Homey Logic, like Guest mode. Homey’s permission also allows making and deleting variables; Tiledash only changes the ones your tiles name.",
+    "context": "Reason under the optional permission \"Change Logic variables\". \"Guest mode\" is an example of a variable the person might keep. Explains that Homey's permission is broader than what Tiledash does. A tile is one block on a dashboard.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.tabAsks": {
+    "en": "What it asks for",
+    "context": "First tab on the permissions page: lists the permissions Tiledash asks Athom for. \"It\" is Tiledash.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.tabKeeps": {
+    "en": "What it keeps",
+    "context": "Second tab on the permissions page: lists what data Tiledash stores and when. \"It\" is Tiledash.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.timelineTitle": {
+    "en": "See your Homey’s timeline",
+    "context": "Bold title of an optional permission: Tiledash may read the entries of the Homey’s Timeline (its notifications: what apps, Flows and Homey itself wrote there). Use the name the Homey app gives the Timeline in your language.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.timelineWhy": {
+    "en": "So a widget can show what happened, like the doorbell or a finished wash. Only read, never cleared. Never on a share link.",
+    "context": "Reason under the optional permission \"See your Homey’s timeline\". Tiledash only reads the entries and never deletes them. A share link is a link to show a dashboard to someone without a login; the timeline is never shown there.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.permissions.title": {
+    "en": "Before you go to Homey",
+    "context": "Heading of the page that explains the permissions Tiledash asks for, shown before the person is sent to log in at Athom (the company behind Homey). Also the name of its tab list for screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/login/permissions.messages.ts"
+  },
+  "login.picker.alreadyConnected": {
+    "en": "· already connected",
+    "context": "Small grey note after the model name of a Homey in the list that is already connected to Tiledash. Starts with a middle dot that separates it from the model; keep the dot.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.connect": {
+    "en": "Connect",
+    "context": "Main button on the Homey-choosing page: connects the chosen Homey to Tiledash. A verb.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.homeysLabel": {
+    "en": "Your Homeys",
+    "context": "Name of the list of Homeys the person can choose from, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.lead": {
+    "en": "Which Homey should we connect? You can add more later.",
+    "context": "Line under the heading of the Homey-choosing page. Asks which of their Homeys (smart-home hubs) to connect first; more can be added later.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.loginAgain": {
+    "en": "Log in again",
+    "context": "Button in the empty state of the Homey-choosing page: starts the login again so the person can allow access to their Homey.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.noneBody": {
+    "en": "Your Athom account didn’t share a Homey with us. Log in again and make sure you allow access to your Homey.",
+    "context": "Explanation in the empty state of the Homey-choosing page. Athom is the company behind Homey; during the login the person has to allow access to a Homey.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.noneTitle": {
+    "en": "No Homey found",
+    "context": "Heading of the empty state when the person's Athom account does not share any Homey with Tiledash.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.otherAccount": {
+    "en": "Use another account",
+    "context": "Quiet button next to Connect on the Homey-choosing page: logs out so the person can log in with a different Athom account.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.stepChoose": {
+    "en": "Choose your Homey",
+    "context": "Second of three step names in the progress bar at the top of the onboarding: the current step. Homey is the smart-home hub and stays as it is.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.stepDashboard": {
+    "en": "First dashboard",
+    "context": "Third of three step names in the progress bar at the top of the onboarding: making the first dashboard.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.stepLogIn": {
+    "en": "Log in",
+    "context": "First of three step names in the progress bar at the top of the onboarding: the login, which is already done. Short.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.welcome": {
+    "en": "Welcome.",
+    "context": "Big heading on the Homey-choosing page, welcoming the person who just logged in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.welcomeNamed": {
+    "en": "Welcome, {name}.",
+    "context": "Big heading on the Homey-choosing page when the person's first name is known: the same welcome with their name.",
+    "params": {
+      "name": "The first name of the person, as they wrote it in their account. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.screen.deletionHint": {
+    "en": "You’re signed out everywhere. Log in before then to keep it.",
+    "context": "Second line of the account-deletion notice on the login page: the person was logged out on all their devices, and logging in again before the deletion date cancels the deletion. \"It\" is the account.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.deletionTitle": {
+    "en": "Your account will be deleted on {date}.",
+    "context": "Title of a blue notice on the login page, shown to someone who just asked to delete their account. It says on which day the account is gone for good.",
+    "params": {
+      "date": "The day the account is deleted, written as a long date (12 November 2026) in the language of the page. Already translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.demoButton": {
+    "en": "Explore the demo house",
+    "context": "The main button on the login page of a demo installation, replacing the login button: it opens Tiledash with a pretend smart home, no account needed.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.errorAccessDenied": {
+    "en": "You cancelled the Homey login. Nothing was shared.",
+    "context": "Red banner on the login page after the person pressed Cancel on Athom's (the company behind Homey) permission screen. Reassures them that no data went to Tiledash.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.errorAthomBusy": {
+    "en": "Homey’s login service is busy right now. Please try again in a minute.",
+    "context": "Red banner on the login page when Athom's (the company behind Homey) login service is overloaded or asked us to slow down.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.errorLoginFailed": {
+    "en": "Logging in with Homey didn’t work. Please try again in a moment.",
+    "context": "Red banner on the login page when the login with the Homey account failed for a reason we do not know.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.errorOther": {
+    "en": "Something went wrong while logging in. Please try again.",
+    "context": "Red banner on the login page for any login problem not covered by a more specific message.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.finePrint": {
+    "en": "You log in at Athom, which asks each time what Tiledash may do. We never see your password, and you can revoke access any time.",
+    "context": "Small print under the login button. Explains that the login happens at Athom (the company behind Homey), that Athom asks for permission each time, and that Tiledash never gets the password.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.finePrintDemo": {
+    "en": "Demo mode: no Homey account needed.",
+    "context": "Small print under the demo button on the login page of a demo installation.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.headline": {
+    "en": "Your home, <accent>at a glance.</accent>",
+    "context": "The big headline at the top of the login page, in two lines: the second half is highlighted in the accent colour and starts on its own line. It says what Tiledash is for: seeing the whole smart home in one look. Keep the tag and keep it short, the type is very large.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.lead": {
+    "en": "Beautiful, live dashboards for your Homey. Every light, sensor and meter, arranged the way you want, on any screen in the house.",
+    "context": "Paragraph under the headline on the login page, introducing the product. \"Homey\" is the smart-home hub and stays as it is; \"meter\" is a measuring device such as an energy meter.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.loginButton": {
+    "en": "Log in with Homey",
+    "context": "The main button on the login page. It sends the person to Athom (the company behind Homey) to log in with their Homey account.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.pointEverywhere": {
+    "en": "<strong>Everywhere.</strong> Desktop, tablet on the wall, even e-ink.",
+    "context": "Third of three short selling points under the login button. The tag marks the bold lead word, followed by a short sentence listing the screens Tiledash runs on, including e-ink displays.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.pointLive": {
+    "en": "<strong>Live.</strong> Values stream straight from your Homey.",
+    "context": "First of three short selling points under the login button. The tag marks the bold lead word, followed by a short sentence. Keep the bold word one word if the language allows.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.pointYours": {
+    "en": "<strong>Yours.</strong> Every widget and theme can be restyled.",
+    "context": "Second of three short selling points under the login button. The tag marks the bold lead word, followed by a short sentence. A widget is one tile of a dashboard; a theme is its look.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.screen.whatItAsks": {
+    "en": "What does Tiledash ask for?",
+    "context": "Text link under the login button. It opens a page explaining which permissions Tiledash asks for at Athom and what it keeps.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.waitlist.body": {
+    "en": "Tiledash is opening up in small batches while we make sure every dashboard feels great. We’ll let you in as soon as there’s room, and email you when it happens.",
+    "context": "Paragraph under the heading of the waiting-list page. Explains why they wait and that they will get an email when they can come in.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/WaitlistScreen.messages.ts"
+  },
+  "login.waitlist.title": {
+    "en": "You’re on the list.",
+    "context": "Heading of the waiting-list page, shown to someone who logged in but cannot use Tiledash yet because it opens in small batches. Friendly and welcoming.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WaitlistScreen.messages.ts"
+  },
+  "login.waitlist.titleNamed": {
+    "en": "You’re on the list, {name}.",
+    "context": "Heading of the waiting-list page when the person's first name is known: the same message as \"You're on the list.\" with their name.",
+    "params": {
+      "name": "The first name of the person, as they wrote it in their account. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WaitlistScreen.messages.ts"
+  }
+}

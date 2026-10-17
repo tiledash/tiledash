@@ -1,0 +1,1645 @@
+{
+  "viewer.actions.capabilityNeeded": {
+    "en": "A capability name is needed",
+    "context": "Red message (toast) when a widget asked to control or show something of a device without saying what. A capability is one thing a device can do or report, such as on/off or brightness.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.changeFailed": {
+    "en": "Couldn’t change {device}",
+    "context": "Title of a red message (toast) after sending a change to a device failed. The reason follows under it.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.changeRefused": {
+    "en": "Your Homey didn’t accept the change.",
+    "context": "Text under the red toast about a change that failed, used when no more specific reason is known. The Homey is the smart-home hub.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.confirmOk": {
+    "en": "OK",
+    "context": "Button of the dialog that a widget opens to ask the person to confirm something with a message of its own. It confirms. The widget decides the question.",
+    "maxLength": 12,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.dashboardNoLonger": {
+    "en": "That dashboard no longer exists",
+    "context": "Amber message (toast) when a tile or widget tried to go to a dashboard that was deleted.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.dashboardNotHere": {
+    "en": "That dashboard isn’t here any more",
+    "context": "Amber message (toast) when a tile, a summary or a popup tried to open a dashboard that was deleted or does not belong to this Homey any more.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.deviceMissing": {
+    "en": "That device is not on this Homey",
+    "context": "Red message (toast) when a tile tried to control a device that this Homey (the smart-home hub) does not have.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.deviceUnavailable": {
+    "en": "{device} is unavailable",
+    "context": "Red message (toast) when a tile tried to control a device that is switched off, out of range or otherwise not reachable at the moment.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.flowFailed": {
+    "en": "Couldn’t start “{name}”",
+    "context": "Title of a red message (toast) after starting a flow (an automation of the Homey) failed. The reason follows under it. The quotes are around the name of the flow.",
+    "params": {
+      "name": "The name of the flow. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.flowMissing": {
+    "en": "That flow is not on this Homey",
+    "context": "Red message (toast) when a tile tried to start a flow (an automation of the Homey) that no longer exists on this Homey.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.flowNotManual": {
+    "en": "“{name}” can’t be started by hand",
+    "context": "Red message (toast) when a tile tried to start a flow (an automation of the Homey) that only runs by itself, so it has no manual start. The quotes are around the name of the flow.",
+    "params": {
+      "name": "The name of the flow. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.flowStarted": {
+    "en": "Started “{name}”",
+    "context": "Green message (toast) after a tile started a flow (an automation of the Homey). The quotes are around the name of the flow.",
+    "params": {
+      "name": "The name of the flow. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.logInAgain": {
+    "en": "Log in again",
+    "context": "Button on the red toast about a Logic variable that could not be changed. It logs in to Athom (the maker of Homey) again, which asks for the permissions again. A command.",
+    "maxLength": 20,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.moodFailed": {
+    "en": "Couldn’t set “{name}”",
+    "context": "Title of a red message (toast) after setting a mood (a scene of the Homey) failed. The reason follows under it. The quotes are around the name of the mood.",
+    "params": {
+      "name": "The name of the mood. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.moodMissing": {
+    "en": "That mood is not on this Homey",
+    "context": "Red message (toast) when a tile tried to set a mood (a scene of the Homey) that no longer exists on this Homey.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.moodSet": {
+    "en": "Mood “{name}” set",
+    "context": "Green message (toast) after a tile set a mood (a scene of the Homey, such as Evening). The quotes are around the name of the mood.",
+    "params": {
+      "name": "The name of the mood. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.noCapability": {
+    "en": "{device} has no “{capability}”",
+    "context": "Red message (toast) when a tile tried to use a capability (one thing a device can do or report) that the device does not have. The quotes are around the technical name of the capability.",
+    "params": {
+      "capability": "The technical name of the capability, such as onoff or dim. Not translated.",
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.noDevice": {
+    "en": "This widget has no device to control",
+    "context": "Red message (toast) when a tile tried to control a device but the widget is not linked to any. A widget is the type of the tile.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.noValueYet": {
+    "en": "{title} has no value yet",
+    "context": "Red message (toast) when a tile tried to raise or lower a value of a device that has not reported any value yet, so there is nothing to add to. The value is the name of that thing.",
+    "params": {
+      "title": "The name of the capability, as the Homey calls it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.notChangeable": {
+    "en": "{title} of {device} can’t be changed",
+    "context": "Red message (toast) when a tile tried to change something of a device that can only be read, such as a temperature sensor reading. The first value is the name of that thing, such as \"Temperature\".",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "title": "The name of the capability, as the Homey calls it, such as Temperature. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.notNumber": {
+    "en": "{title} is not a number",
+    "context": "Red message (toast) when a tile tried to raise or lower something that is not a number, such as a switch. The value is the name of that thing.",
+    "params": {
+      "title": "The name of the capability, as the Homey calls it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.notSwitch": {
+    "en": "{title} is not a switch",
+    "context": "Red message (toast) when a tile tried to switch something on or off that has no on/off state, such as a temperature. The value is the name of that thing.",
+    "params": {
+      "title": "The name of the capability, as the Homey calls it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.stepNotNumber": {
+    "en": "The step must be a number",
+    "context": "Red message (toast) when a widget asked to raise or lower a value by a step that is not a number.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variableMissing": {
+    "en": "That variable isn’t on this Homey, or can’t be read",
+    "context": "Red message (toast) after a tile tried to change a Logic variable (a value the Homey keeps for its flows) that does not exist on this Homey, or whose list could not be read.",
+    "maxLength": 70,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variableNotAllowed": {
+    "en": "Tiledash may not change Logic variables yet. Log in again and allow it.",
+    "context": "Text under the red toast about a Logic variable that could not be changed, when Homey refused because Tiledash lacks the permission. It says to log in again and allow it. \"Logic\" is the name of the Homey feature and stays as it is.",
+    "maxLength": 90,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variableNotChanged": {
+    "en": "“{name}” wasn’t changed",
+    "context": "Red message (toast) after changing a Logic variable (a value the Homey keeps for its flows) failed. The quotes are around the name of the variable. The reason follows under it.",
+    "params": {
+      "name": "The name of the Logic variable. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variableNow": {
+    "en": "{kind, select, on {“{name}” is now on} off {“{name}” is now off} number {“{name}” is now {value}} other {“{name}” is now “{value}”}}",
+    "context": "Green message (toast) after a Logic variable (a value the Homey keeps for its flows) was changed from a tile. It says its new value. The quotes are around the name of the variable; a text value is quoted too.",
+    "params": {
+      "kind": "\"on\" or \"off\" for a yes/no variable, \"number\" for a number, \"text\" for any other value.",
+      "name": "The name of the Logic variable. Not translated.",
+      "value": "The new value, as a number or the text. Already formatted; not given for on and off."
+    },
+    "maxLength": 200,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variableRefusesValue": {
+    "en": "“{name}” can’t take that",
+    "context": "Red message (toast) after a tile tried to give a Logic variable a value of the wrong kind, for example text for a yes/no variable. The quotes are around the name of the variable.",
+    "params": {
+      "name": "The name of the Logic variable. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.variablesReadOnly": {
+    "en": "Variables can’t be changed here",
+    "context": "Red message (toast) after a tile tried to change a Logic variable on a screen that is not allowed to change them (a read-only view).",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.addToDashboard.addFailed": {
+    "en": "Couldn’t add {device} to {dashboard}",
+    "context": "Title of a red message (toast) when putting a tile of a device on a dashboard failed. The reason follows under it.",
+    "params": {
+      "dashboard": "The name of the dashboard, as the person named it. Not translated.",
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.added": {
+    "en": "Added to {dashboard}",
+    "context": "Title of a green message (toast) after a tile of a device was put on a dashboard.",
+    "params": {
+      "dashboard": "The name of the dashboard, as the person named it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.addedBody": {
+    "en": "At the bottom; move or restyle it there.",
+    "context": "Text under \"Added to …\": the new tile is at the bottom of the dashboard, and the person can move it or change its look on that dashboard.",
+    "maxLength": 60,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.loadFailed": {
+    "en": "Couldn’t look at your dashboards",
+    "context": "Title of a red message (toast) when the list of dashboards to put a device on could not be loaded. The reason follows under it.",
+    "maxLength": 50,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.noTile": {
+    "en": "There is no tile for {device} yet",
+    "context": "Title of a yellow message (toast) when the person tried to put a device on a dashboard, but Tiledash has no kind of tile that can show this device yet.",
+    "params": {
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.notSynced": {
+    "en": "This device isn’t synced yet",
+    "context": "Title of a red message (toast) when the person tried to put a device on a dashboard, but Tiledash hasn’t received the device from the Homey yet (it was just added).",
+    "maxLength": 50,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.notSyncedBody": {
+    "en": "Give it a moment and try again.",
+    "context": "Text under \"This device isn’t synced yet\": Tiledash will have the device in a moment, then trying again works.",
+    "maxLength": 60,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.addToDashboard.tryAgain": {
+    "en": "Please try again.",
+    "context": "Text under the title of a red message (toast) about putting a device on a dashboard, used when no more specific reason is known.",
+    "maxLength": 40,
+    "file": "apps/web/src/devices/useAddToDashboard.messages.ts"
+  },
+  "viewer.alertActions.disarm": {
+    "en": "Disarm the alarm",
+    "context": "Big button on the alert screen, shown while the home alarm is armed. It starts the confirmation to switch the home alarm off.",
+    "maxLength": 30,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.disarmBody": {
+    "en": "The home alarm goes to disarmed on every screen.",
+    "context": "Text of the confirmation dialog before the home alarm is switched off from the alert screen. It says the alarm is disarmed for every screen, not only this one.",
+    "maxLength": 70,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.disarmConfirm": {
+    "en": "Disarm",
+    "context": "Red button of the confirmation dialog before the home alarm is switched off. It confirms and disarms the alarm. A command.",
+    "maxLength": 20,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.disarmTitle": {
+    "en": "Disarm “{name}”?",
+    "context": "Question that is the title of the confirmation dialog before the home alarm is switched off from the alert screen. The quotes are around the name of the alarm.",
+    "params": {
+      "name": "The name of the home alarm device. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.openCamera": {
+    "en": "Open the camera",
+    "context": "Big button on the alert screen, shown when a camera sees the place of the alert. It shows that camera big and live.",
+    "maxLength": 30,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.openDevice": {
+    "en": "Open device",
+    "context": "Big button on the alert screen, with an arrow. It opens the page of the device that raised the alert, with its details.",
+    "maxLength": 24,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alertActions.startFlow": {
+    "en": "Start “{name}”",
+    "context": "Big button on the alert screen of a danger alert, with a flow icon. It starts a flow (an automation of the Homey) that the person chose to offer on danger, such as \"Everyone out\". The quotes are around the name of the flow.",
+    "params": {
+      "name": "The name of the flow. Not translated."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.allClear": {
+    "en": "All clear",
+    "context": "Big green headline of the alert screen once the alert has stopped and the danger is over. It replaces the name of the alert, and the screen closes itself shortly after.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.barView": {
+    "en": "View",
+    "context": "Label at the right end of the alert bar, the slim strip on top of the screen that shows the most urgent alert that is still going. Tapping the bar opens the full alert screen. A verb: \"view the alert\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.closeToBar": {
+    "en": "Close; it stays on top as a bar",
+    "context": "Name of the round × button at the top right of the alert screen, shown as a tooltip and read out by screen readers. It closes the full screen, but while the alert lasts it stays visible as a slim bar on top. Not visible as text.",
+    "maxLength": 50,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindCo": {
+    "en": "CO alarm",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a carbon monoxide (CO) detector. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindContact": {
+    "en": "Door sensor",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a door or window contact sensor. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindDoorbell": {
+    "en": "Doorbell",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from the doorbell. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindMotion": {
+    "en": "Motion sensor",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a motion sensor. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindSiren": {
+    "en": "Alarm",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a siren or the home alarm. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindSmoke": {
+    "en": "Smoke alarm",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a smoke detector. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.kindWater": {
+    "en": "Water sensor",
+    "context": "Small caps line above the big headline of the alert screen when the alert comes from a water leak sensor. It names the kind of device that raised the alert.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.silence": {
+    "en": "Silence here",
+    "context": "Big button at the bottom of the alert screen, with a muted speaker icon, shown while the alarm chime is sounding on this screen. It stops the sound on this screen only; the alert itself continues.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.since": {
+    "en": "Since {since} · <ago></ago>",
+    "context": "Line under the big headline of the alert screen while the alert is still going. It says since when (a clock time) and how long ago that is. The tag <ago></ago> is replaced by that time ago, such as \"2 min ago\"; keep it exactly once. The dot is a separator.",
+    "params": {
+      "since": "The clock time the alert began, such as 14:03. Already formatted."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.stoppedAt": {
+    "en": "{headline} from {since}, stopped <ago></ago>",
+    "context": "Line under the big \"All clear\" headline of the alert screen. It says what the alert was, when it began (a clock time) and how long ago it stopped. The tag <ago></ago> is replaced by that time ago, such as \"2 min ago\"; keep it exactly once, in a place where it reads naturally.",
+    "params": {
+      "headline": "What the alert was, such as \"Smoke detected\". Not translated here.",
+      "since": "The clock time the alert began, such as 14:03. Already formatted."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.tabsLabel": {
+    "en": "Alerts",
+    "context": "Name of the row of tabs along the top of the alert screen when several alerts are going at once, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.alerts.tapForSound": {
+    "en": "Tap for sound",
+    "context": "Button with a speaker icon at the top of the alert screen. The browser only lets the alarm chime sound after the person touched the screen, so this asks for a tap to allow the sound.",
+    "maxLength": 24,
+    "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.dashboard.addWidget": {
+    "en": "Add a widget",
+    "context": "Button of the empty dashboard message. It opens the picker where the person chooses a widget (a type of tile) to put on the dashboard.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.conflictBody": {
+    "en": "Reload to see the latest version. Your last move wasn’t saved.",
+    "context": "Text of the warning banner under its title. It says to reload the dashboard to get the newest version, and that the change the person just made here was not saved.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.conflictTitle": {
+    "en": "This dashboard was changed somewhere else",
+    "context": "Title of the warning banner above the tiles. Someone (or the person on another screen) saved a change to this dashboard while it was open here, so what is shown is out of date.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.emptyBody": {
+    "en": "Add widgets for your devices, flows and moods, then arrange them however you like.",
+    "context": "Text under the title of the empty dashboard message. It invites the person to add widgets (tile types) for their devices, flows (automations) and moods (Homey scenes) and to move them around.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.emptyTitle": {
+    "en": "An empty wall",
+    "context": "Title of the message shown instead of the tiles on a dashboard that has no tiles yet. \"Wall\" is a playful word for the empty canvas of tiles; it is a title, not a command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuDelete": {
+    "en": "Delete dashboard…",
+    "context": "Red last item of the dashboard menu. It asks for confirmation and then deletes the dashboard and its tiles. The dots mean a confirmation follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuDuplicate": {
+    "en": "Duplicate…",
+    "context": "Item of the dashboard menu. It opens a dialog to make a copy of the whole dashboard under a new name. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuEdit": {
+    "en": "Edit dashboard",
+    "context": "First item of the dashboard menu. It switches the dashboard to edit mode, where tiles can be moved, added and removed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuEditNeedsWider": {
+    "en": "Needs a wider window",
+    "context": "Grey hint at the right of the greyed-out \"Edit dashboard\" menu item, shown when the window is too narrow to edit the dashboard in. It tells the person to make the browser window wider.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuEinkOff": {
+    "en": "Stop the e-ink preview",
+    "context": "Item of the dashboard menu, shown while the e-ink preview is on. It goes back to the normal colours.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuEinkOn": {
+    "en": "Preview on e-ink",
+    "context": "Item of the dashboard menu. It shows the dashboard the way an e-ink screen (black and white, like an e-reader) would draw it, to check it before putting it on one.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuPanel": {
+    "en": "Use as wall panel…",
+    "context": "Item of the dashboard menu. It opens a dialog to set up a wall panel (a tablet or screen on a wall that always shows a dashboard) that shows this dashboard. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuPinHide": {
+    "en": "Hide from sidebar",
+    "context": "Item of the dashboard menu, shown while the dashboard is listed in the sidebar (the navigation column at the left). It removes it from the sidebar list; the dashboard itself stays.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuPinShow": {
+    "en": "Show in sidebar",
+    "context": "Item of the dashboard menu, shown while the dashboard is not listed in the sidebar (the navigation column at the left). It adds it to the sidebar list.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuRename": {
+    "en": "Name and icon…",
+    "context": "Item of the dashboard menu. It opens a dialog to change the name and the icon of the dashboard. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuSettings": {
+    "en": "Dashboard settings…",
+    "context": "Item of the dashboard menu. It opens a dialog with the dashboard settings: spacing, layout and theme. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuShare": {
+    "en": "Share…",
+    "context": "Item of the dashboard menu. It opens a dialog to share the dashboard with a link anyone can open. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuStartOff": {
+    "en": "Don’t open on start",
+    "context": "Item of the dashboard menu, shown while this dashboard is the one the app opens with. It undoes that, so the app opens on the devices page again. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuStartOn": {
+    "en": "Open on start",
+    "context": "Item of the dashboard menu. It makes this dashboard the one the app opens with when it starts. A command, not a status.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.menuSummaries": {
+    "en": "Summaries…",
+    "context": "Item of the dashboard menu. It opens a dialog to choose the summaries (small live figures, like \"3 lights on\") shown next to the dashboard name. The dots mean a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.opensOnStart": {
+    "en": "Opens on start",
+    "context": "Small accent-coloured note above the dashboard name, next to a small house icon. It says this dashboard is the one the app opens with when it starts.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.optionsLabel": {
+    "en": "Dashboard options",
+    "context": "Name of the round \"…\" button at the top right of a dashboard that opens its menu (edit, rename, share, delete…). Appears as a tooltip and is read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.reload": {
+    "en": "Reload",
+    "context": "Button in the warning banner that says the dashboard was changed elsewhere. It loads the newest saved version of the dashboard.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.tileCount": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "Small line above the dashboard name, after the name of the Homey (smart-home hub) and a dot, so \"My Home · 12 tiles\". It says how many tiles (the boxes that each show a device, flow or value) the dashboard holds.",
+    "params": {
+      "count": "The number of tiles on the dashboard, 0 or more."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboardPage.failedBody": {
+    "en": "Check your connection and try again.",
+    "context": "Text under the title of the message about a dashboard that could not be loaded. It asks the person to check their internet connection and to press the button below.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPage.failedTitle": {
+    "en": "Couldn’t load the dashboard",
+    "context": "Title of the message shown instead of a dashboard when loading it failed, for example because the connection dropped.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPage.leavePanel": {
+    "en": "Leave wall panel",
+    "context": "Button of the message about a dashboard that cannot be found, shown on a wall panel (a screen on a wall that only shows a dashboard). It leaves the wall panel mode and goes back to the start of the app.",
+    "maxLength": 24,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPage.missingBody": {
+    "en": "It may have been deleted, or it belongs to another Homey.",
+    "context": "Text under the title of the message about a dashboard that cannot be found. It gives the two likely reasons: the dashboard was deleted, or it belongs to another Homey (the smart-home hub) than the one that is active.",
+    "maxLength": 80,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPage.missingTitle": {
+    "en": "This dashboard isn’t here",
+    "context": "Title of the message shown instead of a dashboard when its address is opened but no such dashboard can be found.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPage.toDevices": {
+    "en": "Go to devices",
+    "context": "Button of the message about a dashboard that cannot be found, shown in the normal app. It opens the page that lists the devices of the Homey.",
+    "maxLength": 24,
+    "file": "apps/web/src/dashboards/DashboardPage.messages.ts"
+  },
+  "viewer.dashboardPopup.openFailed": {
+    "en": "Couldn’t open that dashboard.",
+    "context": "Amber message (toast) when the person tapped something that opens another dashboard over this one (as a popup or side panel) and loading it failed, for example because the connection dropped.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/DashboardPopup.messages.ts"
+  },
+  "viewer.deviceControls.controls": {
+    "en": "Controls",
+    "context": "Name of the group of controls (switch, sliders, temperature stepper) in a device’s detail drawer, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HdDeviceControls.messages.ts"
+  },
+  "viewer.deviceControls.higher": {
+    "en": "Higher",
+    "context": "Name of the \"+\" button next to a target temperature, read out by screen readers. It raises the target temperature by one step. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HdDeviceControls.messages.ts"
+  },
+  "viewer.deviceControls.lower": {
+    "en": "Lower",
+    "context": "Name of the \"−\" button next to a target temperature, read out by screen readers. It lowers the target temperature by one step. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HdDeviceControls.messages.ts"
+  },
+  "viewer.deviceDetail.addToDashboard": {
+    "en": "Add to dashboard",
+    "context": "Button at the top of a device’s detail drawer. It puts a tile of this device on a dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.changed": {
+    "en": "Changed <ago></ago>",
+    "context": "Small grey text under the name of a reading in a device’s detail drawer, for a reading that is not recorded: when its value last changed. The tag <ago></ago> is replaced by a time ago such as \"2 min ago\"; keep it exactly once.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.days": {
+    "en": "{count, plural, one {# day} other {# days}}",
+    "context": "A length of time in days, used inside the sentence about how long the plan keeps history (\"every value for 30 days\").",
+    "params": {
+      "count": "The number of days."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.history": {
+    "en": "History",
+    "context": "Small link with a clock icon under the name of a recorded reading in a device’s detail drawer. It opens the full history chart of that reading.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.historyOf": {
+    "en": "History of {reading}",
+    "context": "Name of the small chart under a reading in a device’s detail drawer, read out by screen readers. Pressing it opens the full history. Not visible as text.",
+    "params": {
+      "reading": "The name of the reading, such as \"Power\". Comes from Homey; not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.online": {
+    "en": "Online",
+    "context": "Small green badge at the top of a device’s detail drawer: the device can be reached and works.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.paused": {
+    "en": "Paused: your plan has no room for it",
+    "context": "Small grey text under the name of a reading in a device’s detail drawer. Recording was set up but is paused because the plan’s limit of recorded readings is reached.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.planFull": {
+    "en": "{limit, plural, one {Your plan records # reading; stop one first or upgrade.} other {Your plan records # readings; stop one first or upgrade.}}",
+    "context": "Tooltip over a disabled recording switch of a reading in a device’s detail drawer. The plan’s limit of recorded readings is reached: stop recording another reading first, or upgrade the plan.",
+    "params": {
+      "limit": "How many readings the plan allows to record."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.readings": {
+    "en": "Readings",
+    "context": "Small heading above the list of readings of a device (power, temperature, on/off…), each with its live value and a switch to record its history.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.recordLabel": {
+    "en": "Record {reading}",
+    "context": "Name of the recording switch of a reading in a device’s detail drawer, read out by screen readers. Switching it on starts recording the reading’s history. Not visible as text.",
+    "params": {
+      "reading": "The name of the reading, such as \"Power\", or Homey’s technical id of it. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.recordMore": {
+    "en": "Record more with Pro",
+    "context": "Button in the box about recorded readings of a device’s detail drawer, shown when the plan’s limit is reached. It opens the plans page. Pro is a plan name.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.recordNote": {
+    "en": "Recording keeps a reading’s history so widgets can show charts. Stopping it deletes that history.",
+    "context": "Small grey note at the bottom of a device’s detail drawer, under the list of readings. Explains the recording switches; stopping recording removes what was recorded.",
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.recordingSince": {
+    "en": "Recording since {since}",
+    "context": "Small grey text under the name of a reading in a device’s detail drawer. The reading is being recorded, from that day on.",
+    "params": {
+      "since": "A short date, such as \"3 Oct\". Already formatted."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.retentionAll": {
+    "en": "Your {planName} plan keeps every value for {raw}, hourly for {hourly}, daily for {daily}.",
+    "context": "Small grey text in a box of a device’s detail drawer. What the plan keeps of recorded readings: every value for a time, then one averaged value per hour for longer, then one per day for longest.",
+    "params": {
+      "daily": "How long the daily values are kept, such as \"10 years\". Already translated.",
+      "hourly": "How long the hourly values are kept, such as \"2 years\". Already translated.",
+      "planName": "The name of the plan, such as Pro. A product name; not translated.",
+      "raw": "How long every value is kept, such as \"30 days\". Already translated."
+    },
+    "maxLength": 230,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.retentionRaw": {
+    "en": "Your {planName} plan keeps every value for {raw}.",
+    "context": "Small grey text in a box of a device’s detail drawer. What the plan keeps of recorded readings: every value, for a limited time.",
+    "params": {
+      "planName": "The name of the plan, such as Free. A product name; not translated.",
+      "raw": "How long every value is kept, such as \"7 days\". Already translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.retentionRawDaily": {
+    "en": "Your {planName} plan keeps every value for {raw}, daily for {daily}.",
+    "context": "Small grey text in a box of a device’s detail drawer. What the plan keeps of recorded readings: every value for a time, then one averaged value per day for a longer time.",
+    "params": {
+      "daily": "How long the daily values are kept, such as \"10 years\". Already translated.",
+      "planName": "The name of the plan, such as Free. A product name; not translated.",
+      "raw": "How long every value is kept, such as \"30 days\". Already translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.retentionRawHourly": {
+    "en": "Your {planName} plan keeps every value for {raw}, hourly for {hourly}.",
+    "context": "Small grey text in a box of a device’s detail drawer. What the plan keeps of recorded readings: every value for a time, then one averaged value per hour for a longer time.",
+    "params": {
+      "hourly": "How long the hourly values are kept, such as \"2 years\". Already translated.",
+      "planName": "The name of the plan, such as Free. A product name; not translated.",
+      "raw": "How long every value is kept, such as \"30 days\". Already translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.unavailable": {
+    "en": "Unavailable",
+    "context": "Small yellow badge at the top of a device’s detail drawer: Homey says the device cannot be reached right now.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.usageCount": {
+    "en": "<count>{used} of {limit}</count> readings recorded on this Homey",
+    "context": "Line in a box of a device’s detail drawer, with a bar under it. The part in the tag is shown big and bold: the number of readings recorded on the whole Homey against the plan’s limit, such as \"12 of 20\". Keep the tag around the numbers.",
+    "params": {
+      "limit": "How many readings the plan allows.",
+      "used": "How many readings are recorded on this Homey."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.usageLabel": {
+    "en": "Recorded readings on this Homey",
+    "context": "Name of the box in a device’s detail drawer that shows how many readings are recorded against the plan’s limit, read out by screen readers. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.years": {
+    "en": "{count, plural, one {# year} other {# years}}",
+    "context": "A length of time in years, used inside the sentence about how long the plan keeps history (\"daily for 10 years\").",
+    "params": {
+      "count": "The number of years."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.devicePopup.pinSaveFailed": {
+    "en": "Couldn’t save which actions ask for the PIN.",
+    "context": "Red message (toast) when switching an action of a device (such as Unlock) to ask for the PIN, or back, couldn’t be saved.",
+    "maxLength": 70,
+    "file": "apps/web/src/devices/DevicePopup.messages.ts"
+  },
+  "viewer.deviceTracking.loadFailed": {
+    "en": "Couldn’t load the recording settings",
+    "context": "Title of a red message (toast) when a device’s drawer couldn’t load which of its readings are recorded (their history kept). The reason follows under it.",
+    "maxLength": 60,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.notSynced": {
+    "en": "This device isn’t synced yet",
+    "context": "Title of a red message (toast) when the person switched on recording a reading, but Tiledash hasn’t received the device from the Homey yet (it was just added).",
+    "maxLength": 50,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.notSyncedBody": {
+    "en": "Give it a moment and try again.",
+    "context": "Text under \"This device isn’t synced yet\": Tiledash will have the device in a moment, then trying again works.",
+    "maxLength": 60,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.startFailed": {
+    "en": "Couldn’t start recording",
+    "context": "Title of a red message (toast) when switching on recording a reading of a device failed. The reason follows under it.",
+    "maxLength": 50,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.started": {
+    "en": "Recording started",
+    "context": "Green message (toast) after the person switched on recording a reading of a device: from now on its history is kept.",
+    "maxLength": 40,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.stopFailed": {
+    "en": "Couldn’t stop recording",
+    "context": "Title of a red message (toast) when switching off recording a reading of a device failed. The reason follows under it.",
+    "maxLength": 50,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.stopped": {
+    "en": "Recording stopped",
+    "context": "Message (toast) after the person switched off recording a reading of a device: its history is no longer kept.",
+    "maxLength": 40,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.deviceTracking.tryAgain": {
+    "en": "Please try again.",
+    "context": "Text under the title of a red message (toast) about recording a device’s readings, used when no more specific reason is known.",
+    "maxLength": 40,
+    "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
+  },
+  "viewer.gridItems.headingLabel": {
+    "en": "Heading {text}",
+    "context": "Screen reader label of a heading tile on a dashboard (a title over a section of tiles), followed by its text. Also how a toast or menu names the heading.",
+    "params": {
+      "text": "The heading’s text. The owner’s own words, not translated. May be empty."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/gridItems.messages.ts"
+  },
+  "viewer.gridItems.summariesLabel": {
+    "en": "Summaries {text}",
+    "context": "Screen reader label of a heading tile on a dashboard that shows only its summaries (the small live figures such as \"3 lights on\") and hides its own text. It is followed by the heading’s text, which may be empty.",
+    "params": {
+      "text": "The heading’s own text, hidden on screen. The owner’s own words, not translated. May be empty."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/gridItems.messages.ts"
+  },
+  "viewer.gridItems.unavailableWidget": {
+    "en": "Unavailable widget",
+    "context": "Name of a tile on a dashboard whose widget is not installed or known any more and that has no name of its own. It is what a screen reader reads for that tile, and what a toast or menu calls it.",
+    "maxLength": 40,
+    "file": "apps/web/src/dashboards/gridItems.messages.ts"
+  },
+  "viewer.history.average": {
+    "en": "Average",
+    "context": "Used twice: as an option above the history chart (show the average value per period), and as the name of the figure under the chart (the average over the whole range). Also the option for a combined line of several devices that is their average. Short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.detailDaily": {
+    "en": "Daily",
+    "context": "Option of the \"Detail\" choice above the history chart: the line shows one averaged value per day. Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.detailFine": {
+    "en": "Fine",
+    "context": "Option of the \"Detail\" choice above the history chart: every recorded value, as detailed as it gets. Opposite of hourly and daily averages. Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.detailHourly": {
+    "en": "Hourly",
+    "context": "Option of the \"Detail\" choice above the history chart: the line shows one averaged value per hour. Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.detailLabel": {
+    "en": "Detail",
+    "context": "Name of the row of options that choose how fine the history line is (fine, hourly, daily), read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.emptyRange": {
+    "en": "Nothing recorded in this range yet.",
+    "context": "Text in the history chart when the reading is recorded but no value falls in the time range chosen.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.highest": {
+    "en": "Highest",
+    "context": "Used twice: as an option above the history chart (show the highest value per period), and as the name of the figure under the chart (the highest value in the whole range). Short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.limitedText": {
+    "en": "Pro keeps every value for 30 days, hourly for 2 years and daily for 10 years.",
+    "context": "Text of the blue notice above the history chart, saying what the Pro plan keeps: every recorded value for 30 days, one value per hour for 2 years and one per day for 10 years.",
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.limitedTitle": {
+    "en": "Your {planName} plan keeps history from {date}",
+    "context": "Title of a blue notice above the history chart. The plan keeps only part of the history, so the chart starts at that date instead of at the start of the range chosen.",
+    "params": {
+      "date": "The day the kept history starts, such as \"3 October\". Already formatted.",
+      "planName": "The name of the plan, such as Free. A product name; not translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.linesLabel": {
+    "en": "Lines",
+    "context": "Name of the pair of options that choose between one combined line and a line per device, in the history of a figure made of several devices. Read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.loadFailed": {
+    "en": "Couldn’t load the history.",
+    "context": "Text in the history chart when loading the recorded values failed, for example because the connection broke. A \"Try again\" button sits under it.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.lowest": {
+    "en": "Lowest",
+    "context": "Used twice: as an option above the history chart (show the lowest value per period), and as the name of the figure under the chart (the lowest value in the whole range). Short.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.missingText": {
+    "en": "The line only counts {names}.",
+    "context": "Text of the blue notice above the history chart: the devices that do record this reading, which are the only ones in the line. Reads as a sentence after the title.",
+    "params": {
+      "names": "The names of the devices that record it, as a list (\"Lamp, Desk and Floor\"). Already formatted."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.missingTitle": {
+    "en": "{missing, plural, one {# of {total} devices doesn’t record “{reading}” yet} other {# of {total} devices don’t record “{reading}” yet}}",
+    "context": "Title of a blue notice above the history chart of a figure made of several devices (such as the total of all lights): some of the devices do not record this reading yet, so they are not in the chart.",
+    "params": {
+      "missing": "How many of the devices do not record it, at least 1.",
+      "reading": "The name of the reading, such as \"Power\" or \"Temperature\". Comes from Homey; not translated.",
+      "total": "How many devices the figure is made of."
+    },
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.noneRecord": {
+    "en": "None of these devices record “{reading}” yet.",
+    "context": "Text in the empty history chart of a figure made of several devices: none of them records this reading, so there is no history.",
+    "params": {
+      "reading": "The name of the reading, such as \"Power\". Comes from Homey; not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.notRecorded": {
+    "en": "The history of “{reading}” isn’t recorded yet.",
+    "context": "Text in the empty history chart of one reading of one device: the reading is not being recorded, so there is no history.",
+    "params": {
+      "reading": "The name of the reading, such as \"Power\". Comes from Homey; not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.oneDoesNotRecord": {
+    "en": "{name} doesn’t record “{reading}” yet.",
+    "context": "Text in the empty history chart when the figure has one device behind it and that device does not record this reading, so there is no history.",
+    "params": {
+      "name": "The name of the device. Not translated.",
+      "reading": "The name of the reading, such as \"Power\". Comes from Homey; not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range12h": {
+    "en": "12 h",
+    "context": "Option in the row of time ranges above the history chart: the last 12 hours. Short, like a button in a segmented control.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range1y": {
+    "en": "Year",
+    "context": "Option in the row of time ranges above the history chart: the last year (365 days). Short, like a button in a segmented control.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range24h": {
+    "en": "24 h",
+    "context": "Option in the row of time ranges above the history chart: the last 24 hours. Short, like a button in a segmented control.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range30d": {
+    "en": "30 days",
+    "context": "Option in the row of time ranges above the history chart: the last 30 days. Short, like a button in a segmented control.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range6h": {
+    "en": "6 h",
+    "context": "Option in the row of time ranges above the history chart: the last 6 hours. Short, like a button in a segmented control.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.range7d": {
+    "en": "7 days",
+    "context": "Option in the row of time ranges above the history chart: the last 7 days. Short, like a button in a segmented control.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.rangeLabel": {
+    "en": "Range",
+    "context": "Name of the row of time range options above the history chart (6 h, 24 h, 7 days…), read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.recordThem": {
+    "en": "Record them too",
+    "context": "Button in the blue notice above the history chart. It starts recording this reading for the devices that do not record it yet, so they join the chart.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.seePro": {
+    "en": "See Pro",
+    "context": "Button in the blue notice above the history chart. It opens the plans page, to see what Pro keeps. Pro is a plan name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.showLabel": {
+    "en": "Show",
+    "context": "Name of the row of options that choose what the history chart shows (average, lowest, highest, or for meters usage and meter reading), read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.splitEach": {
+    "en": "Per device",
+    "context": "Option above the history chart of a figure made of several devices: one line for each device. Opposite of the combined line. Short, like a button.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.splitTotal": {
+    "en": "Total",
+    "context": "Option above the history chart of a figure made of several devices: one line that adds the devices up. Opposite of \"Per device\". Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.startRecording": {
+    "en": "Start recording",
+    "context": "Button in the empty history chart. It starts recording the reading, so its history builds up from now on.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.statBusiestDay": {
+    "en": "Busiest day",
+    "context": "Name of a figure under the history chart of a meter: the most that was used in a single day of the range. The number and unit are shown below it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.statBusiestHour": {
+    "en": "Busiest hour",
+    "context": "Name of a figure under the history chart of a meter: the most that was used in a single hour of the range. The number and unit are shown below it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.statPerDay": {
+    "en": "Per day on average",
+    "context": "Name of a figure under the history chart of a meter: how much was used in an average day of the range. The number and unit are shown below it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.statPerHour": {
+    "en": "Per hour on average",
+    "context": "Name of a figure under the history chart of a meter: how much was used in an average hour of the range. The number and unit are shown below it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.statUsed": {
+    "en": "Used",
+    "context": "Name of a figure under the history chart of a meter: how much was used in total over the whole range. The number and unit are shown below it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.thisDevice": {
+    "en": "This device",
+    "context": "Stands in for the name of a device, at the start of the sentence \"This device doesn’t record this reading yet\", when the device has no name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.viewMeter": {
+    "en": "Meter",
+    "context": "Option above the history chart of a meter (such as kWh or m³): the meter reading itself over time, instead of the usage per hour or day. Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.history.viewUsage": {
+    "en": "Usage",
+    "context": "Option above the history chart of a meter (such as kWh or m³): bars of how much was used per hour or day. Short, like a button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/HistoryDialog.messages.ts"
+  },
+  "viewer.pageDots.label": {
+    "en": "Dashboards",
+    "context": "Name of the row of small dots at the bottom of a wall panel (a screen on a wall) with one dot per dashboard it cycles through, read out by screen readers. Not visible as text. Dashboards are the pages of tiles that show the smart home.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdPageDots.messages.ts"
+  },
+  "viewer.paused.body": {
+    "en": "You’re on Free, which has room for {limit, plural, one {# dashboard} other {# dashboards}}. This one is kept as it is: keep it instead of another, or go Pro to have them all.",
+    "context": "Text under the title of a paused dashboard. It says the Free plan holds only so many dashboards, that this one is kept unchanged, and offers two ways out: keep this one instead of another, or go Pro (the paid plan) to have them all. Free and Pro are plan names.",
+    "params": {
+      "limit": "The number of dashboards the Free plan has room for, at least 1."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
+  },
+  "viewer.paused.goPro": {
+    "en": "Go Pro",
+    "context": "Button of the paused dashboard message, with an upward arrow. It opens the plan page to upgrade to Pro (the paid plan). Pro is the name of the plan.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
+  },
+  "viewer.paused.keepInstead": {
+    "en": "Keep it instead of another",
+    "context": "Button of the paused dashboard message. It opens the page where the person chooses which dashboards stay active on the Free plan, to make room for this one.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
+  },
+  "viewer.paused.title": {
+    "en": "“{name}” is paused",
+    "context": "Title of the message shown instead of the tiles of a dashboard that is paused because the Free plan has room for fewer dashboards than the person made. The quotes are around the name of the dashboard.",
+    "params": {
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
+  },
+  "viewer.pin.arm": {
+    "en": "Arm",
+    "context": "Name of an action on a chip in a home alarm’s details: arming it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.armPartly": {
+    "en": "Arm partly",
+    "context": "Name of an action on a chip in a home alarm’s details: arming only part of it (for example at night, downstairs only).",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.change": {
+    "en": "Change {reading}",
+    "context": "Name of an action on a chip in a device’s details: any change of a reading, such as its brightness. {reading} is its name.",
+    "params": {
+      "reading": "The name of the reading."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.close": {
+    "en": "Close",
+    "context": "Name of an action on a chip in a garage door’s details: closing it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.disarm": {
+    "en": "Disarm",
+    "context": "Name of an action on a chip in a home alarm’s details: disarming it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.flagOff": {
+    "en": "{reading}: off",
+    "context": "Name of an action on a chip in a device’s details: setting a yes/no reading to no. {reading} is its name, such as \"Night mode\".",
+    "params": {
+      "reading": "The name of the reading."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.flagOn": {
+    "en": "{reading}: on",
+    "context": "Name of an action on a chip in a device’s details: setting a yes/no reading to yes. {reading} is its name, such as \"Night mode\".",
+    "params": {
+      "reading": "The name of the reading."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.heading": {
+    "en": "Ask for the PIN before",
+    "context": "Small heading in a device’s details, over chips with its actions (Unlock, Open, Turn off…). A chosen action asks for the account’s PIN before it runs.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.lock": {
+    "en": "Lock",
+    "context": "Name of an action on a chip in a lock’s details: locking it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.note": {
+    "en": "Wall panels, paired screens, share links and the app ask for your PIN first, then not again for a minute.",
+    "context": "Small text under the chips of actions that ask for the PIN, in a device’s details. Once the right PIN is typed on a screen, it doesn’t ask there again for a minute.",
+    "maxLength": 140,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.open": {
+    "en": "Open",
+    "context": "Name of an action on a chip in a garage door’s details: opening it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.promptText": {
+    "en": "Enter your PIN.",
+    "context": "Line under the title of the small dialog with a keypad that asks for the PIN.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.promptTitle": {
+    "en": "{action} {device}",
+    "context": "Title of the small dialog that asks for the PIN before an action runs. {action} is the action, such as \"Unlock\", and {device} the device, such as \"Front door\". Change the order if your language needs it.",
+    "params": {
+      "action": "The action, such as Unlock.",
+      "device": "The name of the device."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.setPin": {
+    "en": "Set a PIN",
+    "context": "Button in a device’s details while the account has no PIN. It opens the account page where the PIN is set.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.setTo": {
+    "en": "Set to {choice}",
+    "context": "Name of an action on a chip in a device’s details: setting a reading to one of its choices. {choice} is the choice, such as \"Away\".",
+    "params": {
+      "choice": "The name of the choice."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.turnOff": {
+    "en": "Turn off",
+    "context": "Name of an action on a chip in a device’s details: switching the device off.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.turnOn": {
+    "en": "Turn on",
+    "context": "Name of an action on a chip in a device’s details: switching the device on.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.unlock": {
+    "en": "Unlock",
+    "context": "Name of an action on a chip in a lock’s details: unlocking it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.unset": {
+    "en": "Set a PIN for your account first; until then nothing asks for it.",
+    "context": "Small text in a device’s details instead of the explanation, while the account has no PIN. The chips are greyed out until one is set.",
+    "maxLength": 100,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.popup.description": {
+    "en": "A dashboard as a popup.",
+    "context": "Hidden description of a dashboard that opened as a popup over another dashboard, read out by screen readers after its name. It stays open until the person closes it. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDashboardPopup.messages.ts"
+  },
+  "viewer.popup.descriptionAuto": {
+    "en": "Closes by itself when left alone.",
+    "context": "Hidden description of a dashboard that opened as a popup over another dashboard, read out by screen readers after its name. This popup closes on its own after a while without anyone touching it. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDashboardPopup.messages.ts"
+  },
+  "viewer.settingsNeeded.choose": {
+    "en": "Choose…",
+    "context": "Small button on a tile that cannot show anything until a device or value is chosen (again) in its settings, with a small gear icon. It opens the settings of the tile. The dots mean more follows.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdSettingsNeeded.messages.ts"
+  },
+  "viewer.settingsNeeded.chooseElsewhere": {
+    "en": "Choose it on this dashboard in Tiledash.",
+    "context": "Note on a tile of a wall panel (a screen on a wall that only shows a dashboard) that cannot show anything until something is chosen in its settings. A wall panel cannot change settings, so it tells the person to do it on the dashboard in the Tiledash app on another device.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdSettingsNeeded.messages.ts"
+  },
+  "viewer.share.canControl": {
+    "en": "Can control",
+    "context": "Small badge under the dashboard’s name on a shared page: this link lets the visitor switch lights, sockets and similar things, not only look. Short.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.expiredHint": {
+    "en": "Shared links can be made to last a day or a week. Ask whoever shared it for a new one.",
+    "context": "Text under the title \"This link has expired\", after the sentence that says until when it worked (when that is known): why it ended and what to do.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.expiredTitle": {
+    "en": "This link has expired",
+    "context": "Title of the full-page message a visitor sees when a share link was made to last only a day or a week and that time is over.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.expiredWorked": {
+    "en": "It worked until {when}.",
+    "context": "First sentence of the text under the title \"This link has expired\": when the link stopped working. A second, separate sentence follows after it. Left out when the date is unknown.",
+    "params": {
+      "when": "The date and time the link stopped working, such as \"3 Oct, 14:03\". Already formatted."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.hintTile": {
+    "en": "This link can switch lights and sockets, not this.",
+    "context": "Calm text at the foot of a shared page, under the title that says why (for example \"Flows stay with the owner\"), shown when a visitor taps a tile that a link with control still cannot operate, such as a lock or a flow.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.hintViewOnly": {
+    "en": "This link shows the dashboard live. It can’t change anything.",
+    "context": "Calm text at the foot of a shared page, under the title \"View only\", shown for a few seconds when a visitor taps a tile on a link that only lets them look.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.notOnLink": {
+    "en": "Not on this link",
+    "context": "Used as the title of the calm word at the foot of a shared page when a visitor taps a tile that this link does not operate, if no more specific reason is known; also the name of the small lock on such a tile. Short.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.offlineText": {
+    "en": "These are the last values. They update by themselves when it’s back.",
+    "context": "Text of the yellow banner on a shared page when the Homey is offline and it is not known since when: the tiles show old values.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.offlineTextSince": {
+    "en": "These are the last values, from {time}. They update by themselves when it’s back.",
+    "context": "Text of the yellow banner on a shared page when the Homey is offline: the tiles show the values from a clock time, and update by themselves once it is reachable again.",
+    "params": {
+      "time": "The clock time of the last values, such as 14:03. Already formatted."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.offlineTitle": {
+    "en": "The Homey of this home is offline",
+    "context": "Title of a yellow banner on a shared page: the smart-home hub (a Homey) behind the dashboard cannot be reached right now.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.pausedLinkBody": {
+    "en": "Whoever shared it has paused it for now. It opens again by itself once they turn it on again.",
+    "context": "Text under the title \"This link is paused\" for a visitor of a share link: the person who shared it paused it, and it works again by itself when they turn it back on.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.pausedLinkTitle": {
+    "en": "This link is paused",
+    "context": "Title of the full-page message a visitor sees when the owner of a share link paused it, for example because the plan only allows one link. Nothing is shown of the dashboard.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.pausedScreenBody": {
+    "en": "Its owner has paused it for now. It comes back by itself once they turn it on again.",
+    "context": "Text under the title \"This screen is paused\" on a paired screen: the owner paused it, and it works again by itself when they turn it back on.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.pausedScreenTitle": {
+    "en": "This screen is paused",
+    "context": "Title of the full-page message on a paired screen (a tablet or kiosk) whose owner paused it, for example because the plan only allows one. Nothing is shown of the dashboard.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.reasonFlows": {
+    "en": "Flows stay with the owner",
+    "context": "Title of the calm word at the foot of a shared page, and the name of the small lock on a tile: this tile starts a flow (an automation) or a mood, which a share link never does. Flow is a Homey term.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.relay.notPartOfLink": {
+    "en": "Not part of this link",
+    "context": "Small message (toast) on a shared page when a visitor taps a tile that opens another dashboard: a share link shows one dashboard only, so the other one is not available.",
+    "maxLength": 40,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.relay.ok": {
+    "en": "OK",
+    "context": "Button of a confirmation question on a shared page or a paired screen (for example before switching many lamps off). It confirms and carries on.",
+    "maxLength": 10,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.relay.refusedOnScreen": {
+    "en": "Not allowed on this screen",
+    "context": "Red message (toast) on a paired wall panel screen when the server refused a command (such as switching a lamp) that was given on the screen. The owner may have changed what the screen may do.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.relay.refusedText": {
+    "en": "Our server turned this down: the owner may have changed what this link can do.",
+    "context": "Text under the red title \"Not allowed on this link\" at the foot of a shared page: the server refused the command, probably because the owner changed what the link may do since the page opened.",
+    "maxLength": 130,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.relay.refusedTitle": {
+    "en": "Not allowed on this link",
+    "context": "Title of a red word at the foot of a shared page, shown for a few seconds when the server refused a command (such as switching a lamp) that a visitor of a share link just gave.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.relay.unpairFailed": {
+    "en": "Couldn’t unpair this screen. Try again.",
+    "context": "Red message (toast) on a paired wall panel screen when unpairing it from the screen itself did not work, for example because the connection broke.",
+    "maxLength": 90,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
+  "viewer.share.revokedBody": {
+    "en": "Whoever shared it has turned it off. If you still need it, ask them for a new one.",
+    "context": "Text under the title \"This link no longer works\": the link was turned off by the person who shared it, and the visitor can ask for a new one.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.revokedTitle": {
+    "en": "This link no longer works",
+    "context": "Title of the full-page message a visitor sees when a share link was turned off by whoever shared it, or never existed. It deliberately says nothing about which of the two.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.sharedWithYou": {
+    "en": "Shared with you",
+    "context": "Small text next to the badge under the dashboard’s name on a shared page. Someone gave the visitor this link; nothing is said about who.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.statusLive": {
+    "en": "Live",
+    "context": "Name of the quiet green dot in the corner of a shared page when everything works, read out by screen readers. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.statusOffline": {
+    "en": "Homey offline",
+    "context": "Small status text in the corner of a shared page, and the name of that status for screen readers: the Homey behind the dashboard cannot be reached. Homey is a product name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.statusReconnecting": {
+    "en": "Reconnecting…",
+    "context": "Small status text in the corner of a shared page while the connection to Tiledash is being restored.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.statusReconnectingLabel": {
+    "en": "Reconnecting",
+    "context": "Name of the status dot in the corner of a shared page while the connection is being restored, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.tagline": {
+    "en": "Tiledash · live dashboards for Homey",
+    "context": "Small line at the foot of the page for a link that no longer works: the product name, a dot and what the product is. Tiledash and Homey are product names; not translated.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.viewOnly": {
+    "en": "View only",
+    "context": "Used twice on a shared dashboard: the small grey badge under the dashboard’s name, and the title of the calm word at the foot of the page when a visitor taps something on a link that only lets them look. Short.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.summary.nothingToChart": {
+    "en": "Nothing to chart right now.",
+    "context": "Message in the popup of a summary chip that was meant to show a chart (for example of energy use) when there is no data to draw it from at the moment.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdSummaryChips.messages.ts"
+  },
+  "viewer.summary.turnAllOff": {
+    "en": "Turn all off",
+    "context": "Button at the foot of the popup of a summary chip that lists several devices (for example the lights that are on). It switches every device in the list off at once.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdSummaryChips.messages.ts"
+  },
+  "viewer.summary.turnAllOn": {
+    "en": "Turn all on",
+    "context": "Button at the foot of the popup of a summary chip that lists several devices (for example the lights that are off). It switches every device in the list on at once.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdSummaryChips.messages.ts"
+  },
+  "viewer.summaryTaps.alreadyOff": {
+    "en": "Everything is already off",
+    "context": "Message (toast) after the person tapped a summary chip that switches its devices off, when all of those devices are off already, so nothing happened.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.alreadyOn": {
+    "en": "Everything is already on",
+    "context": "Message (toast) after the person tapped a summary chip that switches its devices on, when all of those devices are on already, so nothing happened.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOff": {
+    "en": "Turn off",
+    "context": "Button of the confirmation dialog that asks whether to switch the devices of a summary chip off. It confirms and switches them off. A command.",
+    "maxLength": 16,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOffDevices": {
+    "en": "{count, plural, one {Turn off # device?} other {Turn off # devices?}}",
+    "context": "Question that is the title of the confirmation dialog before a summary chip switches its devices (not only lights) off. The names of the devices are listed under it.",
+    "params": {
+      "count": "How many devices would be switched off, at least 1."
+    },
+    "maxLength": 110,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOffLights": {
+    "en": "{count, plural, one {Turn off # light?} other {Turn off # lights?}}",
+    "context": "Question that is the title of the confirmation dialog before a summary chip switches its lights off. The names of the lights are listed under it.",
+    "params": {
+      "count": "How many lights would be switched off, at least 1."
+    },
+    "maxLength": 110,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOn": {
+    "en": "Turn on",
+    "context": "Button of the confirmation dialog that asks whether to switch the devices of a summary chip on. It confirms and switches them on. A command.",
+    "maxLength": 16,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOnDevices": {
+    "en": "{count, plural, one {Turn on # device?} other {Turn on # devices?}}",
+    "context": "Question that is the title of the confirmation dialog before a summary chip switches its devices (not only lights) on. The names of the devices are listed under it.",
+    "params": {
+      "count": "How many devices would be switched on, at least 1."
+    },
+    "maxLength": 110,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.summaryTaps.turnOnLights": {
+    "en": "{count, plural, one {Turn on # light?} other {Turn on # lights?}}",
+    "context": "Question that is the title of the confirmation dialog before a summary chip switches its lights on. The names of the lights are listed under it.",
+    "params": {
+      "count": "How many lights would be switched on, at least 1."
+    },
+    "maxLength": 110,
+    "file": "apps/web/src/dashboards/summaryTaps.messages.ts"
+  },
+  "viewer.tile.blocked": {
+    "en": "Taken down by Tiledash for safety. Uninstall it, or put another widget here.",
+    "context": "Explanation inside a tile whose widget came from the community and was taken down by Tiledash for safety reasons. It tells the person to uninstall it or to choose another widget for the tile.",
+    "maxLength": 100,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.camera": {
+    "en": "Camera",
+    "context": "Title of the dialog that shows a camera big and live, used only when the device has no name to show instead.",
+    "maxLength": 20,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.deviceGone": {
+    "en": "Its device is no longer on your Homey.",
+    "context": "Explanation inside a tile that shows or controls a device, when that device no longer exists on the Homey (the smart-home hub).",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.flowGone": {
+    "en": "Its flow is no longer on your Homey.",
+    "context": "Explanation inside a tile that starts a flow (an automation of the Homey), when that flow no longer exists on the Homey (the smart-home hub).",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.missingFromCommunity": {
+    "en": "This community widget is no longer installed. Install it again, or put another widget here.",
+    "context": "Explanation inside a tile whose widget came from the community (the place where people share widgets) but is no longer installed on this account. It tells the person to install it again or to choose another widget.",
+    "maxLength": 110,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.moodGone": {
+    "en": "Its mood is no longer on your Homey.",
+    "context": "Explanation inside a tile that sets a mood (a scene of the Homey), when that mood no longer exists on the Homey (the smart-home hub).",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.notInstalled": {
+    "en": "This widget isn’t installed.",
+    "context": "Explanation inside a tile whose widget cannot be found at all, for a widget that is not built in, from the community or the person’s own.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.openInCommunity": {
+    "en": "Open in the community",
+    "context": "Small link-like button under the explanation in a tile whose widget came from the community (the place where people share widgets, themes and partials). It opens the page of that widget there.",
+    "maxLength": 30,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.ownDeleted": {
+    "en": "This widget of yours was deleted. Remove the tile, or put another widget here.",
+    "context": "Explanation inside a tile whose widget was one the person made themselves, and that widget has been deleted. It tells the person to remove the tile or to choose another widget for it.",
+    "maxLength": 100,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.unavailable": {
+    "en": "Widget unavailable",
+    "context": "Bold heading inside a tile that cannot be drawn because its widget (the type of the tile) is missing or blocked, with a warning icon. Below it a sentence says why.",
+    "maxLength": 30,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  }
+}

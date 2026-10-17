@@ -1,0 +1,902 @@
+{
+  "login.connectApp.connectedTitle": {
+    "text": "{client} está conectado.",
+    "source": "b3c17ed0c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.disconnect": {
+    "text": "Desconéctalo cuando quieras en <link>Cuenta → Asistentes de IA</link>.",
+    "source": "a39f1cc7c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredBody": {
+    "text": "La conexión debe completarse en diez minutos. Vuelve a tu app de IA y conecta Tiledash de nuevo.",
+    "source": "bc101a3a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredTitle": {
+    "text": "Esta solicitud ha caducado.",
+    "source": "1c419d0b45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freeNote": {
+    "text": "Para crear widgets necesitas Pro. Puedes conectarla ya; las herramientas funcionarán en cuanto tengas Pro.",
+    "source": "cd85c08753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introNote": {
+    "text": "Ese nombre lo da la app; Tiledash no puede comprobarlo. Al permitirlo, vuelves a <strong>{host}</strong>.",
+    "source": "dccd3cc6c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introPublish": {
+    "text": "<strong>{client}</strong> quiere publicar en la comunidad por ti.",
+    "source": "03caf75c92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introWidgets": {
+    "text": "<strong>{client}</strong> quiere ayudarte a crear tus widgets.",
+    "source": "608ebc039d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.leaving": {
+    "text": "Volviendo a {host}… Si no pasa nada, puedes cerrar esta pestaña.",
+    "source": "0e84b9fcd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.notConnectedTitle": {
+    "text": "Sin conectar.",
+    "source": "3b3d279616",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.signInIntro": {
+    "text": "Para conectar una app a Tiledash, primero inicia sesión con tu cuenta de Homey.",
+    "source": "4d6d81c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.title": {
+    "text": "¿Conectar {client} a Tiledash?",
+    "source": "088001eecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow0": {
+    "text": "Publicar elementos nuevos y nuevas versiones con tu nombre en la comunidad",
+    "source": "218a64c120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow1": {
+    "text": "Ver lo que has publicado y sus versiones",
+    "source": "81e05a3983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny0": {
+    "text": "Cambiar tus widgets, temas o dashboards",
+    "source": "d585815121",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny1": {
+    "text": "Leer tus dispositivos, historial, facturación o cuenta",
+    "source": "73de084bd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny2": {
+    "text": "Eliminar o retirar lo que has publicado",
+    "source": "3ca6465bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny3": {
+    "text": "Ver tu contraseña o tus tokens de Homey",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.signedIn": {
+    "text": "Sesión iniciada como {name} · <switch>¿No eres tú?</switch>",
+    "source": "ec579cec10",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow0": {
+    "text": "Leer y cambiar tus propios widgets y fragmentos, y ver su historial",
+    "source": "ce5a152aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow1": {
+    "text": "Crear y cambiar dispositivos de prueba",
+    "source": "9e70dd2145",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow2": {
+    "text": "Leer tus dispositivos: sus nombres, tipos, funciones y lecturas actuales",
+    "source": "2c2d5f6c4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow3": {
+    "text": "Leer los nombres de tus temas",
+    "source": "2742fd64c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny0": {
+    "text": "Accionar dispositivos o iniciar flows (solo tú puedes activar los toques de una vista previa, por una hora)",
+    "source": "2a48357995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny1": {
+    "text": "Leer tu historial, dashboards, facturación o cuenta",
+    "source": "9e1d025f01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny2": {
+    "text": "Ver tu contraseña o tus tokens de Homey",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny3": {
+    "text": "Acceder a los widgets de otras personas",
+    "source": "a2404a1adf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.willBeAble": {
+    "text": "Podrá",
+    "source": "5b8d75f668",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.wontBeAble": {
+    "text": "No podrá",
+    "source": "806c8830c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.body": {
+    "text": "Pediste eliminarla, así que está bloqueada: tus dashboards, paneles de pared e historial siguen aquí, pero nada funciona. Si la conservas, todo vuelve a estar como antes.",
+    "source": "23236bbaf0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.bodyPro": {
+    "text": "Pediste eliminarla, así que está bloqueada: tus dashboards, paneles de pared e historial siguen aquí, pero nada funciona. Si la conservas, todo vuelve a estar como antes, con Free: tu suscripción Pro terminó cuando lo pediste.",
+    "source": "5220695bc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.fine": {
+    "text": "Si solo cierras sesión, se eliminará el {date}.",
+    "source": "3dfb2449b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.keep": {
+    "text": "Conservar mi cuenta",
+    "source": "d62ce03448",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.title": {
+    "text": "Tu cuenta se eliminará el {date}.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.titleNamed": {
+    "text": "{name}, tu cuenta se eliminará el {date}.",
+    "source": "c399ecb125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codeLabel": {
+    "text": "El código",
+    "source": "73887dbb42",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codePlaceholder": {
+    "text": "WDJB-MJHT",
+    "source": "4670091e02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntro": {
+    "text": "<strong>{client}</strong> pide publicar por ti. Comprueba que tu terminal muestra <shown>{code}</shown>. Si no acabas de ejecutar <cmd>tiledash auth login</cmd>, cancela.",
+    "source": "a428d11106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntroHost": {
+    "text": "<strong>{client}</strong> pide publicar por ti. Comprueba que tu terminal muestra <shown>{code}</shown> en {host}. Si no acabas de ejecutar <cmd>tiledash auth login</cmd>, cancela.",
+    "source": "d86163f82d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmTitle": {
+    "text": "¿Conectar la línea de comandos?",
+    "source": "0b685da9e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.defaultClient": {
+    "text": "Línea de comandos de Tiledash",
+    "source": "eb7889b937",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedBody": {
+    "text": "No se ha permitido nada. Puedes cerrar esta pestaña.",
+    "source": "5a218f8242",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedTitle": {
+    "text": "Sin conectar.",
+    "source": "a3905eb93e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneBody": {
+    "text": "Vuelve a tu terminal: sigue sin que tengas que hacer nada. Puedes cerrar esta pestaña.",
+    "source": "7850c91548",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneTitle": {
+    "text": "La línea de comandos está conectada.",
+    "source": "51e763b875",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterBody": {
+    "text": "Escribe el código que muestra tu terminal tras <cmd>tiledash auth login</cmd>.",
+    "source": "33e7aa2d8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterTitle": {
+    "text": "Conectar la línea de comandos",
+    "source": "f1bbffe9e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredBody": {
+    "text": "Un código vale una vez, diez minutos. Ejecuta de nuevo <cmd>tiledash auth login</cmd> para otro.",
+    "source": "2a8733c652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredTitle": {
+    "text": "Este código ha caducado.",
+    "source": "60d8d61451",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.noHandle": {
+    "text": "Aún no tienes nombre en la comunidad: al publicar por primera vez te pediremos que elijas uno aquí.",
+    "source": "1128f4328e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.publishesAs": {
+    "text": "Publica como <strong>@{handle}</strong>",
+    "source": "18719a7ff4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signInIntro": {
+    "text": "Para conectar la línea de comandos, primero inicia sesión en Tiledash con tu cuenta de Homey.",
+    "source": "9b3b6826fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signOut": {
+    "text": "Desconéctala cuando quieras en <link>Cuenta → Asistentes de IA</link> o con <cmd>tiledash auth logout</cmd>.",
+    "source": "e2fc8912d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhat": {
+    "text": "Su nombre y modelo, y una copia de sus habitaciones, dispositivos, flows y ambientes: sus nombres, lo que puede hacer cada dispositivo y sus valores en ese momento. La copia se actualiza cuando añades, cambias o quitas dispositivos; uno quitado se elimina 30 días después, salvo que aún lo use un mosaico o un registro.",
+    "source": "ca8f5e30a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhen": {
+    "text": "Al conectar un Homey",
+    "source": "bbe4d8f88d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.dailyFor": {
+    "text": "datos diarios durante {period}",
+    "source": "bb7e4a02f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhat": {
+    "text": "Solo los valores que eliges registrar y las lecturas del contador de energía que necesitan los widgets de energía, que empiezan solas la primera vez que se muestra uno. Free guarda {free}; Pro guarda {pro}. Los valores que no registras van directos de tu Homey a tu navegador.",
+    "source": "a90713b9c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhen": {
+    "text": "Al registrar historial",
+    "source": "fa4b765c0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.hourlyFor": {
+    "text": "datos por hora durante {period}",
+    "source": "5e20531e5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhat": {
+    "text": "Tu nombre, correo electrónico y foto de perfil de tu cuenta de Athom, y el token cifrado que permite a Tiledash acceder a tu Homey. Por cada navegador en el que inicias sesión: cuándo, su dirección IP y qué navegador es, hasta que cierres sesión allí o 30 días después de usarlo por última vez.",
+    "source": "f505387ff3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhen": {
+    "text": "Al iniciar sesión",
+    "source": "a4d4c5d5c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodDays": {
+    "text": "{days, plural, one {un día} other {# días}}",
+    "source": "72f7274d5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodYears": {
+    "text": "{years, plural, one {un año} other {# años}}",
+    "source": "ae86386367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhat": {
+    "text": "Tus datos de pago se quedan en PayPal. Tiledash guarda tu suscripción: su plan, su estado y la referencia de PayPal.",
+    "source": "4d131ba155",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhen": {
+    "text": "Si te pasas a Pro",
+    "source": "22d266ed7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.readingsFor": {
+    "text": "lecturas durante {period}",
+    "source": "1ba2748cc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhat": {
+    "text": "Tus dashboards, temas, widgets, paneles de pared y ajustes, y las imágenes y fuentes que subes.",
+    "source": "2fdd76f887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhen": {
+    "text": "Mientras usas Tiledash",
+    "source": "49c07ef35c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailed": {
+    "text": "No se pudo enviar tu respuesta.",
+    "source": "789c20a295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailedHint": {
+    "text": "No se ha decidido nada. Inténtalo de nuevo.",
+    "source": "132653ff4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerTerminalFailed": {
+    "text": "Tiledash no pudo responder al terminal. Inténtalo de nuevo en un momento.",
+    "source": "fe29cb848c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailed": {
+    "text": "No se pudo comprobar la solicitud.",
+    "source": "7b2a487c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailedHint": {
+    "text": "Vuelve a tu app de IA y conéctala de nuevo.",
+    "source": "20753f3a9b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeCheckFailed": {
+    "text": "Tiledash no pudo comprobar el código. Inténtalo de nuevo en un momento.",
+    "source": "b44a0601f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeShape": {
+    "text": "Un código tiene ocho letras, como WDJB-MJHT.",
+    "source": "6ee53ddb71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeTooMany": {
+    "text": "Demasiados intentos. Espera unos minutos y vuelve a intentarlo.",
+    "source": "f6351315bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeUnknown": {
+    "text": "Ese código no existe. Compáralo con tu terminal o vuelve a ejecutar tiledash auth login.",
+    "source": "1c486b75b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.logoutFailed": {
+    "text": "No se pudo cerrar tu sesión.",
+    "source": "ab90ad7f86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitle": {
+    "text": "Conectar una app · Tiledash",
+    "source": "a10ab94925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitleClient": {
+    "text": "Conectar {client} · Tiledash",
+    "source": "72b75665e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedBody": {
+    "text": "Inténtalo de nuevo en un momento.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedTitle": {
+    "text": "No se pudo conectar tu Homey",
+    "source": "71841add1c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedBody": {
+    "text": "No ha cambiado nada. Inténtalo de nuevo en un momento.",
+    "source": "7c207e20a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedTitle": {
+    "text": "No se pudo conservar tu cuenta",
+    "source": "ed29d87568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.loadHomeysFailed": {
+    "text": "No pudimos cargar tus Homeys.",
+    "source": "5c56cc92b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.planNoMoreHomeys": {
+    "text": "Tu plan no permite otro Homey",
+    "source": "cc997f9995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.askAgain": {
+    "text": "Athom lo pregunta cada vez que inicias sesión.",
+    "source": "652ad3d396",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.continue": {
+    "text": "Continuar a Homey",
+    "source": "916a7a7ec9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlTitle": {
+    "text": "Controlar tus dispositivos",
+    "source": "38c20d143f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlWhy": {
+    "text": "Para que al tocar un mosaico se encienda una luz, se ajuste el termostato o bajen las persianas.",
+    "source": "a091cc3eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesTitle": {
+    "text": "Leer tus favoritos",
+    "source": "95648de8e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesWhy": {
+    "text": "Para empezar tu primer dashboard con los dispositivos y flows que marcaste como favoritos en la app Homey.",
+    "source": "7ad6bda847",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsTitle": {
+    "text": "Ver e iniciar tus flows",
+    "source": "dd53a61e19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsWhy": {
+    "text": "Para mosaicos que inician un flow con un toque. Tiledash no puede cambiar tus flows.",
+    "source": "c90f6e8dc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsTitle": {
+    "text": "Leer Insights y energía",
+    "source": "6d5e913512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsWhy": {
+    "text": "Para gráficos de un valor a lo largo del tiempo y los widgets de energía y precios.",
+    "source": "8dbaeb6d38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.intro": {
+    "text": "Después, Athom te preguntará si Tiledash puede usar tu Homey. Esto es lo que pide Tiledash y por qué, y lo que guarda.",
+    "source": "18f052b389",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.keptFooter": {
+    "text": "En Cuenta › Cuenta puedes descargarlo todo o eliminar tu cuenta: Tiledash la borra siete días después.",
+    "source": "6cfea386ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationTitle": {
+    "text": "Saber dónde está tu Homey",
+    "source": "93740a4360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationWhy": {
+    "text": "Para que el widget Tiempo use la ubicación de tu Homey en lugar de un lugar que busques.",
+    "source": "a68f4c36e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicTitle": {
+    "text": "Leer variables de Logic",
+    "source": "027db4ecdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicWhy": {
+    "text": "Para que un widget siga una variable que guardas en Homey Logic.",
+    "source": "0741c27961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsTitle": {
+    "text": "Ver y activar tus ambientes",
+    "source": "d71ff06887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsWhy": {
+    "text": "Para mosaicos que activan un ambiente en una habitación.",
+    "source": "bd0e04e6f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.never": {
+    "text": "Tiledash nunca ve tu contraseña. No puede añadir ni quitar dispositivos, editar tus flows ni cambiar los ajustes de tu Homey, y puedes retirarle el acceso cuando quieras en tu cuenta de Athom.",
+    "source": "0c76520f81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalHint": {
+    "text": "Sin estos permisos, todo lo demás sigue funcionando.",
+    "source": "1a9fa56255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalTitle": {
+    "text": "Opcionales",
+    "source": "59be71333c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleTitle": {
+    "text": "Ver quién vive en tu casa",
+    "source": "d68b9c71c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleWhy": {
+    "text": "Para que un widget muestre quién está en casa, fuera o durmiendo. Nunca en un enlace para compartir.",
+    "source": "1609a0ec4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesTitle": {
+    "text": "Ver tus habitaciones y dispositivos",
+    "source": "dcb616c9a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesWhy": {
+    "text": "Para poner tus dispositivos en mosaicos, agrupados por habitación, con sus valores al momento.",
+    "source": "e083cadf81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicTitle": {
+    "text": "Cambiar variables de Logic",
+    "source": "1ac68c6f1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicWhy": {
+    "text": "Para que un toque cambie una variable que guardas en Homey Logic, como Modo invitado. El permiso de Homey también permite crear y eliminar variables; Tiledash solo cambia las que usan tus mosaicos.",
+    "source": "a9858a7594",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabAsks": {
+    "text": "Qué pide",
+    "source": "0956a54574",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabKeeps": {
+    "text": "Qué guarda",
+    "source": "d959459cef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineTitle": {
+    "text": "Ver la cronología de tu Homey",
+    "source": "98e29307cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineWhy": {
+    "text": "Para que un widget muestre lo que pasó, como el timbre o una colada terminada. Solo leer, nunca borrar. Nunca en un enlace para compartir.",
+    "source": "900be79c62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.title": {
+    "text": "Antes de ir a Homey",
+    "source": "3416ed1a28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.alreadyConnected": {
+    "text": "· ya conectado",
+    "source": "9384f5b09f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.connect": {
+    "text": "Conectar",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.homeysLabel": {
+    "text": "Tus Homeys",
+    "source": "be22c21740",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.lead": {
+    "text": "¿Qué Homey conectamos? Puedes añadir más después.",
+    "source": "a14c589b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.loginAgain": {
+    "text": "Iniciar sesión de nuevo",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneBody": {
+    "text": "Tu cuenta de Athom no compartió ningún Homey con nosotros. Vuelve a iniciar sesión y asegúrate de permitir el acceso a tu Homey.",
+    "source": "91b284639c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneTitle": {
+    "text": "No se encontró ningún Homey",
+    "source": "2d29940664",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.otherAccount": {
+    "text": "Usar otra cuenta",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepChoose": {
+    "text": "Elige tu Homey",
+    "source": "611aeb12ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepDashboard": {
+    "text": "Primer dashboard",
+    "source": "ebbf85a9f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepLogIn": {
+    "text": "Iniciar sesión",
+    "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcome": {
+    "text": "Te damos la bienvenida.",
+    "source": "3fc2118d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcomeNamed": {
+    "text": "Te damos la bienvenida, {name}.",
+    "source": "c4e4983240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionHint": {
+    "text": "Has cerrado sesión en todas partes. Inicia sesión antes de esa fecha para conservarla.",
+    "source": "5cc62bd911",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionTitle": {
+    "text": "Tu cuenta se eliminará el {date}.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.demoButton": {
+    "text": "Explorar la casa demo",
+    "source": "984b601bdc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAccessDenied": {
+    "text": "Cancelaste el inicio de sesión de Homey. No se compartió nada.",
+    "source": "cb0489a9ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAthomBusy": {
+    "text": "El servicio de inicio de sesión de Homey está ocupado. Inténtalo de nuevo en un minuto.",
+    "source": "fdb80654cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorLoginFailed": {
+    "text": "No se pudo iniciar sesión con Homey. Inténtalo de nuevo en un momento.",
+    "source": "6203c5631c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorOther": {
+    "text": "Algo salió mal al iniciar sesión. Inténtalo de nuevo.",
+    "source": "2df7ccdf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrint": {
+    "text": "Inicias sesión en Athom, que te pregunta cada vez qué puede hacer Tiledash. Nunca vemos tu contraseña y puedes retirar el acceso cuando quieras.",
+    "source": "79ceacc756",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrintDemo": {
+    "text": "Modo demo: no necesitas cuenta de Homey.",
+    "source": "0972ccd0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.headline": {
+    "text": "Tu casa, <accent>de un vistazo.</accent>",
+    "source": "f04a276ec0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.lead": {
+    "text": "Dashboards bonitos y en vivo para tu Homey. Cada luz, sensor y contador, colocados como quieras, en cualquier pantalla de la casa.",
+    "source": "af9cfebb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.loginButton": {
+    "text": "Iniciar sesión con Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointEverywhere": {
+    "text": "<strong>En todas partes.</strong> Ordenador, tablet en la pared o incluso e-ink.",
+    "source": "a02df0c6b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointLive": {
+    "text": "<strong>En vivo.</strong> Los valores llegan directamente de tu Homey.",
+    "source": "ab37a73fe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointYours": {
+    "text": "<strong>Tuyo.</strong> Puedes cambiar el estilo de cada widget y tema.",
+    "source": "64c25805aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.whatItAsks": {
+    "text": "¿Qué pide Tiledash?",
+    "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.body": {
+    "text": "Tiledash se abre poco a poco mientras nos aseguramos de que cada dashboard funcione de maravilla. Te dejaremos entrar en cuanto haya sitio y te avisaremos por correo.",
+    "source": "ad78514391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.title": {
+    "text": "Estás en la lista.",
+    "source": "0e13555c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.titleNamed": {
+    "text": "Estás en la lista, {name}.",
+    "source": "0e65da0dfa",
+    "by": "ai",
+    "reviewed": false
+  }
+}

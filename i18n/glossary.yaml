@@ -1,0 +1,238 @@
+# Agreed words per language. `i18n:check` follows the avoid and keep words; `i18n:translate` puts the
+# terms that occur in a batch in the model's prompt. See docs/i18n.md.
+#
+# approved: a person sets this to true once the glossary may be used to translate; `i18n:translate`
+# refuses until then. Unconfirmed items below are marked in their notes.
+approved: true
+
+terms:
+  # Left as they are in every language.
+  - term: Homey
+    meaning: The smart-home hub brand and the hub itself, as users call it.
+    keep: true
+  - term: Homey Pro
+    meaning: The Homey hub model Tiledash connects to.
+    keep: true
+  - term: Advanced Flow
+    meaning: Homey's visual automation editor with free-form blocks; a product feature name.
+    keep: true
+  - term: Flow
+    meaning: A Homey automation (when this happens, then do that); a product feature name.
+    keep: true
+  - term: Insights
+    meaning: Homey's feature that logs capability values over time and draws graphs; a product feature name.
+    keep: true
+  - term: Tiledash
+    meaning: This product's name.
+    keep: true
+  - term: Pro
+    meaning: The paid Tiledash plan.
+    keep: true
+  - term: Free
+    meaning: The free Tiledash plan.
+    keep: true
+    # The plain adjective, not the plan.
+    except:
+      - editor.dashboardSettings.freePlacement
+      - account.mapTiles.aboutMapTiler
+      - account.mapTiles.aboutOpenFreeMap
+      - account.mapTiles.aboutStadia
+  - term: Logic
+    meaning: Homey's variables (Homey Logic), as named in the Homey app; kept as it is (the user, 2026-10-17).
+    keep: true
+
+  - term: dashboard
+    meaning: A screen of tiles that shows and controls the house, made by the user.
+    nl: { preferred: dashboard }
+    de: { preferred: Dashboard }
+    es:
+      preferred: dashboard
+      avoid: panel
+      notes: Never "panel" for a dashboard; "panel" is only part of "panel de pared" (wall panel).
+    fr: { preferred: tableau de bord }
+  - term: tile
+    meaning: One rectangle on a dashboard that shows one device, value or widget.
+    # Map tiles are map images, not dashboard tiles.
+    except: [account.mapTiles.*, account.credits.mapsText]
+    nl: { preferred: tegel }
+    de: { preferred: Kachel, avoid: Fliese }
+    es: { preferred: mosaico, avoid: azulejo }
+    fr: { preferred: tuile }
+  - term: widget
+    meaning: A custom or built-in piece of content (a clock, a graph, a button) shown in a tile.
+    nl: { preferred: widget }
+    de: { preferred: Widget }
+    es: { preferred: widget }
+    fr: { preferred: widget }
+  - term: device
+    meaning: A physical or virtual thing paired with Homey (a lamp, a thermostat, a sensor).
+    nl: { preferred: apparaat, avoid: toestel }
+    de: { preferred: Gerät }
+    es: { preferred: dispositivo, avoid: aparato }
+    fr: { preferred: appareil, avoid: dispositif }
+  - term: zone
+    meaning: A room or area of the house that groups devices (living room, upstairs, garden).
+    nl: { preferred: zone }
+    de: { preferred: Zone }
+    es: { preferred: zona }
+    fr: { preferred: zone }
+  - term: mood
+    meaning: A Homey preset that sets several devices to a remembered state at once (Homey's own word).
+    nl:
+      preferred: sfeer
+      notes: Unconfirmed, check the word in the Homey app.
+    de:
+      preferred: Stimmung
+      notes: Unconfirmed, check the word in the Homey app.
+    es:
+      preferred: ambiente
+      notes: Unconfirmed, check the word in the Homey app.
+    fr:
+      preferred: ambiance
+      notes: Unconfirmed, check the word in the Homey app.
+  - term: scene
+    meaning: A saved set of device states that a person starts with one tap.
+    nl: { preferred: scène }
+    de: { preferred: Szene }
+    es: { preferred: escena }
+    fr: { preferred: scène }
+  - term: capability
+    meaning: One thing a device can report or be told to do (on or off, dim level, temperature, power).
+    nl:
+      preferred: eigenschap
+      notes: Unconfirmed, check the word in the Homey app.
+    de:
+      preferred: Funktion
+      notes: Unconfirmed, check the word in the Homey app.
+    es:
+      preferred: función
+      notes: Unconfirmed, check the word in the Homey app.
+    fr:
+      preferred: fonction
+      notes: Unconfirmed, check the word in the Homey app.
+  - term: dim level
+    meaning: How bright a dimmable light is, from 0 to 100 percent.
+    nl: { preferred: dimniveau }
+    de: { preferred: Dimmlevel }
+    es: { preferred: intensidad de la luz }
+    fr: { preferred: intensité lumineuse }
+  - term: on / off
+    meaning: The two states of a switch, light or socket; also the labels of its toggle.
+    nl: { preferred: aan / uit }
+    de: { preferred: ein / aus }
+    es: { preferred: encendido / apagado }
+    fr: { preferred: allumé / éteint }
+  - term: wall panel
+    meaning: A screen fixed to a wall (often a tablet) that shows a dashboard all day.
+    nl: { preferred: wandpaneel }
+    de: { preferred: Wandpanel }
+    es: { preferred: panel de pared }
+    fr: { preferred: écran mural }
+  - term: paired screen
+    meaning: A screen (a tablet, an e-ink panel) linked to a Tiledash account with a pairing code.
+    nl: { preferred: gekoppeld scherm }
+    de: { preferred: gekoppelter Bildschirm }
+    es: { preferred: pantalla vinculada }
+    fr: { preferred: écran associé, avoid: écran apparié }
+  - term: share link
+    meaning: A web address that lets someone see a dashboard without an account.
+    nl: { preferred: deellink }
+    de: { preferred: Freigabelink }
+    es: { preferred: enlace para compartir }
+    fr: { preferred: lien de partage }
+  - term: theme
+    meaning: The colours, fonts and look of a dashboard.
+    nl: { preferred: thema }
+    de: { preferred: Design, avoid: Thema }
+    es: { preferred: tema }
+    fr: { preferred: thème }
+  - term: community
+    meaning: The place where users share widgets, themes and dashboards with each other.
+    nl: { preferred: community }
+    de: { preferred: Community }
+    es: { preferred: comunidad }
+    fr: { preferred: communauté }
+  - term: energy meter
+    meaning: A device that measures electricity use or solar production of the house.
+    nl: { preferred: energiemeter }
+    de: { preferred: Energiezähler }
+    es: { preferred: contador de energía, avoid: metro de energía }
+    fr: { preferred: compteur d'énergie }
+  - term: reading
+    meaning: One measured value of a sensor or meter at a moment (a temperature, a kWh count).
+    # The verb ("Reading who lives here…"), not a measured value.
+    except:
+      - editor.peopleValues.loadingTitle
+      # "reading order", the order a page is read in.
+      - editor.sizeScope.followsPhone
+    nl: { preferred: meetwaarde }
+    de: { preferred: Messwert }
+    es: { preferred: lectura }
+    fr: { preferred: mesure, avoid: lecture }
+  # Added 2026-10-17 from what the translators chose for the login pages (approved by the user).
+  - term: plan
+    meaning: A Tiledash subscription level (Free or Pro) and what it allows.
+    nl: { preferred: plan, notes: '"abonnement" only where the English says subscription.' }
+    de: { preferred: Tarif }
+    es: { preferred: plan }
+    fr: { preferred: forfait }
+  - term: account
+    meaning: The person's Tiledash account, and the Account page in the app.
+    nl: { preferred: account }
+    de: { preferred: Konto }
+    es: { preferred: cuenta }
+    fr: { preferred: compte }
+  - term: AI assistant
+    meaning: An AI app (Claude, ChatGPT…) connected to Tiledash to build widgets; also the page Account → AI assistants.
+    nl: { preferred: AI-assistent }
+    de: { preferred: KI-Assistent }
+    es: { preferred: asistente de IA }
+    fr: { preferred: assistant IA }
+  - term: command line
+    meaning: The Tiledash command-line tool (`tiledash auth login`…).
+    nl: { preferred: opdrachtregel }
+    de: { preferred: Kommandozeile }
+    es: { preferred: línea de comandos }
+    fr: { preferred: ligne de commande }
+  - term: partial
+    meaning: A reusable piece of a widget template, shared between widgets.
+    nl: { preferred: partial }
+    de: { preferred: Partial }
+    es: { preferred: fragmento }
+    fr: { preferred: fragment }
+  # Added 2026-10-17 from what the translators used in area 1 (approved by the user).
+  - term: record
+    meaning: Keeping the history of a reading (a temperature, a meter) so it can be shown over time; "recording" is that history.
+    nl:
+      preferred: [vastleggen, vast]
+      avoid: opnemen
+      notes: A separable verb, so "legt … vast" counts.
+    de:
+      preferred: [aufzeichnen, zeichnen]
+      notes: A separable verb, so "zeichnet … auf" counts.
+    es: { preferred: registrar }
+    fr: { preferred: enregistrer }
+  - term: unpair
+    meaning: Disconnecting a paired screen (a wall panel tablet) from the account.
+    nl: { preferred: ontkoppelen }
+    de: { preferred: entkoppeln }
+    es: { preferred: desvincular }
+    fr: { preferred: dissocier }
+  - term: stack
+    meaning: A tile that holds several tiles as pages, swiped or tabbed through.
+    nl: { preferred: stapel }
+    de: { preferred: Stapel }
+    es: { preferred: pila }
+    fr: { preferred: pile }
+  - term: summary
+    meaning: The small live figures beside a dashboard's or heading's name (lights on, power, average temperature).
+    nl: { preferred: samenvatting }
+    de: { preferred: Übersicht }
+    es: { preferred: resumen }
+    fr: { preferred: résumé }
+  - term: sidebar
+    meaning: The navigation column at the left of the app.
+    nl: { preferred: zijbalk }
+    de: { preferred: Seitenleiste }
+    es: { preferred: barra lateral }
+    fr: { preferred: barre latérale }

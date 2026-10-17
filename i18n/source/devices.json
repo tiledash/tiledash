@@ -1,0 +1,1504 @@
+{
+  "devices.card.addLabel": {
+    "en": "Add {device} to a dashboard",
+    "context": "Name of the small plus button on a device’s card, read out by screen readers. It puts a tile of this device on one of the person’s dashboards.",
+    "params": {
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.card.addTip": {
+    "en": "Add to a dashboard",
+    "context": "Tooltip of the small plus button on a device’s card on the devices page. It puts a tile of this device on one of the person’s dashboards.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.card.open": {
+    "en": "Open {device}",
+    "context": "Name of a device’s card on the devices page, read out by screen readers. Tapping the card opens the device’s details. Not visible as text.",
+    "params": {
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.card.switchOther": {
+    "en": "{device}: {capability}",
+    "context": "Name of the switch on a device’s card when it controls something other than on/off, read out by screen readers. Not visible as text.",
+    "params": {
+      "capability": "What the switch controls, as Homey names it, such as \"Locked\".",
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.card.switchPower": {
+    "en": "{device} power",
+    "context": "Name of the on/off switch on a device’s card, read out by screen readers: it turns the device on or off. Not visible as text.",
+    "params": {
+      "device": "The name of the device, as the person named it in Homey. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.card.unavailable": {
+    "en": "Unavailable",
+    "context": "Small yellow badge on a device’s card on the devices page: Homey says the device cannot be reached right now.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DeviceCard.messages.ts"
+  },
+  "devices.dayAhead.euroNote": {
+    "en": "Prices in euro, converted with the ECB’s daily rates when you pay in another currency.",
+    "context": "Second sentence of that line for zones whose prices come from ENTSO-E: they are in euros, converted with the European Central Bank’s daily exchange rates.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.example": {
+    "en": "{market} on the market becomes {price} per kWh",
+    "context": "Example under the fields: what a market price becomes with the markup, tax and VAT filled in, such as \"€0.10 on the market becomes €0.2156 per kWh\".",
+    "params": {
+      "market": "The example market price, with its currency.",
+      "price": "What it becomes, with its currency."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.from": {
+    "en": "Hour by hour from {provider}, tomorrow’s around {time}.",
+    "context": "Line under the zone choice: where the hourly prices come from, and that tomorrow’s prices are published around 13:00.",
+    "params": {
+      "provider": "The name of the price publisher, such as \"EnergyZero\" or \"ENTSO-E\". Not translated.",
+      "time": "The time tomorrow’s prices come out, 13:00, written as the region writes times."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.markup": {
+    "en": "Supplier’s markup",
+    "context": "Label of the field with what the energy supplier adds to the market price per kWh.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.markupHint": {
+    "en": "Before VAT",
+    "context": "Hint under the supplier’s markup: fill it in without VAT.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.tax": {
+    "en": "Energy tax",
+    "context": "Label of the field with the tax per kWh the state adds.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.taxHint": {
+    "en": "With VAT",
+    "context": "Hint under the energy tax: fill it in including VAT.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.vat": {
+    "en": "VAT",
+    "context": "Label of the field with the VAT percentage. Use the usual abbreviation of the language.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.vatHint": {
+    "en": "Over the market price and markup",
+    "context": "Hint under VAT: the percentage is added to the market price plus the supplier’s markup.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.zoneField": {
+    "en": "Your country or zone",
+    "context": "Label of the choice of the market area whose prices are used.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.zoneLabel": {
+    "en": "Bidding zone",
+    "context": "Name of the choice of market area, read out by screen readers. A bidding zone is an area of the electricity market with one price.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.dayAhead.zoneName": {
+    "en": "{zone, select, NL {Netherlands} BE {Belgium} DELU {Germany and Luxembourg} FR {France} AT {Austria} DK1 {Denmark, west} DK2 {Denmark, east} NO1 {Norway, Oslo} SE3 {Sweden, Stockholm} SE4 {Sweden, Malmö} FI {Finland} PL {Poland} ES {Spain} PT {Portugal} ITNORD {Italy, north} other {{zone}}}",
+    "context": "Name of an area of the European electricity market, in the zone choice. Most are a country; some countries have several (Denmark, Norway, Sweden, Italy), named by part or city.",
+    "params": {
+      "zone": "The zone’s code without dashes, such as \"NL\", \"DELU\" or \"SE3\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/DayAheadFields.messages.ts"
+  },
+  "devices.energyPanel.loadFailed": {
+    "en": "Couldn’t load the energy settings",
+    "context": "Title shown on the energy settings page when they couldn’t be loaded.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.loadFailedBody": {
+    "en": "Check your connection and try again.",
+    "context": "Line under \"Couldn’t load the energy settings\".",
+    "maxLength": 70,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterFailed": {
+    "en": "Couldn’t change the meter",
+    "context": "Title of a red message (toast) when changing what an energy meter counts couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterFailedBody": {
+    "en": "The energy widgets keep counting what they did. Try again.",
+    "context": "Text under \"Couldn’t change the meter\": nothing changed.",
+    "maxLength": 90,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterSaved": {
+    "en": "{name} saved",
+    "context": "Title of a green message (toast) after changing what an energy meter counts, such as \"Solar saved\".",
+    "params": {
+      "name": "The name of the meter, such as \"Electricity\" or \"Home battery\"."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterSavedOff": {
+    "en": "The energy widgets leave it out.",
+    "context": "Text under \"… saved\" when the meter was set to None.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterSavedOn": {
+    "en": "The energy widgets count it from now on.",
+    "context": "Text under \"… saved\" when the meter counts other devices now.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.meterSavedStopped": {
+    "en": "The old meter’s recording stopped to make room.",
+    "context": "Text under \"… saved\" when the person chose to stop recording the old meter’s readings, to make room in the plan for the new one.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.powerNow": {
+    "en": "{power} W now",
+    "context": "What a device uses or makes right now, shown next to it in the meter dialog so the right one is recognised, such as \"2,140 W now\". W is watts.",
+    "params": {
+      "power": "The power in watts, already formatted as a number."
+    },
+    "maxLength": 30,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.saveFailed": {
+    "en": "Couldn’t save the energy settings",
+    "context": "Title of a red message (toast) when a change to the energy prices couldn’t be saved.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.saveFailedBody": {
+    "en": "The dashboards keep the prices they had. Check them and try again.",
+    "context": "Text under \"Couldn’t save the energy settings\": the energy widgets keep using the prices from before the change.",
+    "maxLength": 90,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energyPanel.tryAgain": {
+    "en": "Try again",
+    "context": "Button under \"Couldn’t load the energy settings\" that loads them again.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/EnergySettingsPanel.messages.ts"
+  },
+  "devices.energySettings.description": {
+    "en": "Your prices and the meters the energy widgets count.",
+    "context": "Line under the title of the energy settings page.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergySettingsScreen.messages.ts"
+  },
+  "devices.energySettings.title": {
+    "en": "Energy settings",
+    "context": "Big title of the energy settings page: the prices and meters the energy widgets use.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergySettingsScreen.messages.ts"
+  },
+  "devices.fixedTariff.day": {
+    "en": "Day",
+    "context": "Label of the field with the day rate per kWh.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.dayNight": {
+    "en": "Day and night",
+    "context": "Choice of a fixed tariff: a day rate and a cheaper night rate.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.label": {
+    "en": "Tariff",
+    "context": "Name of the choice between one price and a day and night rate, read out by screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.night": {
+    "en": "Night",
+    "context": "Label of the field with the night rate per kWh.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.nightFrom": {
+    "en": "Night from",
+    "context": "Label of the field with the time the night rate starts, such as 23:00.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.price": {
+    "en": "Price",
+    "context": "Label of the field with the one price per kWh.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.priceHint": {
+    "en": "All in, per kWh",
+    "context": "Hint under the price: including every surcharge and tax, for one kWh.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.single": {
+    "en": "One price",
+    "context": "Choice of a fixed tariff: the same price all day.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.until": {
+    "en": "Until",
+    "context": "Label of the field with the time the night rate ends, such as 07:00.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.weekends": {
+    "en": "Weekends at the night rate",
+    "context": "Switch: Saturday and Sunday are billed at the night rate all day.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.meterChange.stopOld": {
+    "en": "Stop recording the old meter to make room",
+    "context": "Checkbox in the meter dialog when the plan has no room for the new meter’s recordings: stop the old meter’s recordings to free room.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/MeterChangeEffects.messages.ts"
+  },
+  "devices.meterChange.stopOldHint": {
+    "en": "Its history goes with it; only recordings it started by itself.",
+    "context": "Small text under \"Stop recording the old meter to make room\": its recorded history is deleted too, and only recordings Tiledash started by itself for the meter are stopped.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/MeterChangeEffects.messages.ts"
+  },
+  "devices.meterChange.title": {
+    "en": "When you save",
+    "context": "Heading in the meter dialog above the list of what saving the change does (recordings that start, what the old meter keeps…).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterChangeEffects.messages.ts"
+  },
+  "devices.meterChoices.carEnergy": {
+    "en": "Energy charged",
+    "context": "How a car charger counts for the car charging meter: by its counter of the energy it charged into the car.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.charged": {
+    "en": "Charged and given",
+    "context": "How a home battery counts for the home battery meter: by its two counters of the energy it charged and gave back.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.chargedDetail": {
+    "en": "Its two counters",
+    "context": "Explanation under the \"Charged and given\" way of a home battery: it uses the battery’s two counters.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.counterDetail": {
+    "en": "Its counter",
+    "context": "Explanation under a way of counting that uses the device’s one energy counter (of a solar inverter or a car charger).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.daily": {
+    "en": "Today’s counters",
+    "context": "Choice in the meter picker for a home battery: use its two counters of the energy charged and given today, which go back to 0 every night.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.dailyDetail": {
+    "en": "Charged and given today, back to 0 at midnight",
+    "context": "Explanation under the \"Today’s counters\" choice of a home battery: the counters start again from 0 at midnight.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.gas": {
+    "en": "Gas",
+    "context": "How a device counts for the gas meter: by its gas counter.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.in": {
+    "en": "In only",
+    "context": "Choice in the meter picker for an electricity meter that only counts the energy that came in from the grid.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.inDetail": {
+    "en": "What came in; power sent back isn’t counted",
+    "context": "Explanation under the \"In only\" choice of an electricity meter: only energy from the grid is counted, energy sent back to the grid is not.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.inOut": {
+    "en": "In and out",
+    "context": "Choice in the meter picker for an electricity meter that has two counters: the energy that came in from the grid and the energy that went back to it (from solar panels).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.inOutDetail": {
+    "en": "Two counters: what came in and what went back",
+    "context": "Explanation under the \"In and out\" choice of an electricity meter: it uses two counters, one for energy from the grid and one for energy sent back to the grid.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.m3Detail": {
+    "en": "Its counter, in m³",
+    "context": "Explanation under the way a gas or water meter counts: its counter, in cubic metres.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.power": {
+    "en": "Power only",
+    "context": "How a device without an energy counter counts for a meter: from its power (watts) now, which Tiledash adds up over time. A little less exact.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.powerDetail": {
+    "en": "{kind, select, solar {No energy counter: what it produced is worked out from its power, a little less exact} battery {No energy counter: what it charged and gave is worked out from its power, a little less exact} other {No energy counter: what it charged is worked out from its power, a little less exact}}",
+    "context": "Explanation under the \"Power only\" way of counting: the device has no energy counter, so its energy is worked out from its power, which is a little less exact.",
+    "params": {
+      "kind": "Which meter: solar, battery or car."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.solarEnergy": {
+    "en": "Energy produced",
+    "context": "How a solar inverter counts for the solar meter: by its counter of the energy it produced.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.total": {
+    "en": "One total",
+    "context": "Choice in the meter picker for an electricity meter: use its one counter of all energy, instead of separate counters for in and out.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.totalDetail": {
+    "en": "One counter: costs can’t tell what went back",
+    "context": "Explanation under the \"One total\" choice of an electricity meter: with one counter, the energy costs can’t take the energy sent back to the grid into account.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.totals": {
+    "en": "Totals",
+    "context": "Choice in the meter picker for a home battery: use its two counters of all energy charged and given since it was installed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.totalsDetail": {
+    "en": "Charged and given since it was installed",
+    "context": "Explanation under the \"Totals\" choice of a home battery: its counters of the energy it charged and gave back, since it was installed.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterChoices.water": {
+    "en": "Water",
+    "context": "How a device counts for the water meter: by its water counter.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/meterChoices.messages.ts"
+  },
+  "devices.meterDevice.alsoFor": {
+    "en": "Also {meter}",
+    "context": "Badge on a device in the meter dialog when another meter already counts it, such as \"Also Gas\".",
+    "params": {
+      "meter": "The name of the other meter, such as \"Gas\" or \"Electricity\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevice.estimated": {
+    "en": "Estimated",
+    "context": "Yellow badge on a device in the meter dialog: it has no energy counter, so its energy is worked out from its power and is a little less exact.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevice.found": {
+    "en": "Found",
+    "context": "Badge on a device in the meter dialog: Tiledash found it by itself for this meter.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevice.howLabel": {
+    "en": "How {device} counts",
+    "context": "Name of the row of choices under a ticked device that can count in more than one way, read out by screen readers. Not visible as text.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevice.now": {
+    "en": "Now",
+    "context": "Green badge on a device in the meter dialog: it is the one that counts for this meter today.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevice.unavailable": {
+    "en": "Unavailable",
+    "context": "Yellow badge on a device in the meter dialog: Homey says it can’t be reached right now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/MeterDeviceOption.messages.ts"
+  },
+  "devices.meterDevices.goneBody": {
+    "en": "Removed or re-paired: it counts nothing until you pick another",
+    "context": "Line under a device that is gone from the Homey in the meter dialog: it was removed, or paired again (which gives it a new identity), so nothing counts until another is picked.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.goneTitle": {
+    "en": "Gone from your Homey",
+    "context": "Heading in the meter dialog above a device the meter counted that was removed from the Homey.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.noMatch": {
+    "en": "Nothing matches “{query}”.",
+    "context": "Shown in the meter dialog when no device matches what was typed in the search box.",
+    "params": {
+      "query": "What the person typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.noRoom": {
+    "en": "No room",
+    "context": "Heading in the meter dialog above the devices that aren’t in any room of the Homey. A room as in a part of the house.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.othersHidden": {
+    "en": "Show other devices with an energy counter ({count, number})",
+    "context": "Toggle in the meter dialog, when closed: shows the other devices that count energy but don’t look like this kind of meter, with how many there are.",
+    "params": {
+      "count": "How many other devices there are."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.othersShown": {
+    "en": "Other devices with an energy counter",
+    "context": "Toggle in the meter dialog, when open: the devices below also count energy but don’t look like this kind of meter (a car charger on a smart plug).",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.remove": {
+    "en": "Remove it",
+    "context": "Name of the small × button next to a device that is gone from the Homey, read out by screen readers: takes it off the meter.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterDevices.search": {
+    "en": "Search devices or rooms",
+    "context": "Placeholder of the search box above the devices in the meter dialog.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/MeterDeviceList.messages.ts"
+  },
+  "devices.meterEffects.addsUpDetail": {
+    "en": "What each counts is added together in every energy widget.",
+    "context": "Detail under \"2 inverters add up\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.addsUpTitle": {
+    "en": "{kind, select, solar {{count, plural, one {# inverter adds up} other {# inverters add up}}} battery {{count, plural, one {# battery adds up} other {# batteries add up}}} other {{count, plural, one {# charger adds up} other {# chargers add up}}}}",
+    "context": "Bold line when several devices count for one meter, such as \"2 inverters add up\": what each counts is added together.",
+    "params": {
+      "count": "How many devices.",
+      "kind": "Which meter: solar, battery or car."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.foundTitle": {
+    "en": "Follows your Homey",
+    "context": "Bold line when the meter is set to be found by itself: it counts what the Homey has, and changes when devices are added.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.fullDetail": {
+    "en": "{count, plural, one {{names} isn’t recorded} other {{names} aren’t recorded}}: the widgets show live values but no totals or comparisons. Stop a recording under Recordings{pro, select, yes {, or go Pro for {proLimit}} other {}}.",
+    "context": "Detail under \"… has room for … recordings\": these devices aren’t recorded, so the energy widgets can show what they do now but no totals or comparisons with earlier days. Recordings is a section of the account page. On the Free plan it adds that Pro (the paid plan) allows more.",
+    "params": {
+      "count": "How many devices aren’t recorded.",
+      "names": "The names of those devices, already joined as a list (\"A and B\").",
+      "pro": "\"yes\" on the Free plan when Pro allows more, \"no\" otherwise.",
+      "proLimit": "How many recordings Pro allows."
+    },
+    "maxLength": 230,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.fullTitle": {
+    "en": "{free, select, yes {Free has room for {limit} recordings} other {Your plan has room for {limit} recordings}}, {left, plural, =0 {all in use} other {# left}}",
+    "context": "Bold warning line when not every new reading can be recorded: the plan allows a number of recordings, and this many are left. Free is the name of the plan.",
+    "params": {
+      "free": "\"yes\" on the Free plan, \"no\" on others.",
+      "left": "How many recordings are still free; 0 when all are in use.",
+      "limit": "How many recordings the plan allows."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.keepsDetail": {
+    "en": "Recorded since {date}; it stays under Recordings and in its charts, and keeps recording until you stop it there.",
+    "context": "Detail under \"… keeps its history\". Recordings is a section of the account page that lists every recorded reading.",
+    "params": {
+      "date": "When its recording started, as a short date such as \"3 Mar\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.keepsTitle": {
+    "en": "{device} keeps its history",
+    "context": "Bold line about the old meter’s device: its recorded history stays.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.notRecorded": {
+    "en": "Not recorded",
+    "context": "Short note on a device in the meter picker (and a badge on a meter): its readings for the meter aren’t recorded, so there are no totals or comparisons.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.offDetail": {
+    "en": "{kind, select, grid {The energy widgets show nothing for electricity.} gas {The energy widgets show nothing for gas.} water {The energy widgets show nothing for water.} solar {The energy widgets show nothing for solar.} battery {The energy widgets show nothing for the home battery.} other {The energy widgets show nothing for car charging.}} The Energy flow leaves it out too, unless a tile chose its own.",
+    "context": "Detail under \"… is left out\". The Energy flow is a widget that shows how energy flows between the grid, solar, the battery, the car and the home; a tile of it may have chosen its own devices, which then still show.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.offTitle": {
+    "en": "{name} is left out",
+    "context": "Bold line when the meter is set to None: the energy widgets will ignore it.",
+    "params": {
+      "name": "The name of the meter, such as \"Electricity\" or \"Home battery\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.partFresh": {
+    "en": "{count, plural, one {{names} has no history yet: the hours before {time} stay empty, and earlier days show as not recorded until there is some.} other {{names} have no history yet: the hours before {time} stay empty, and earlier days show as not recorded until there is some.}}",
+    "context": "One sentence of the detail under \"Today counts from now on\": these devices have no recorded history, so today’s chart is empty before now and earlier days show as not recorded.",
+    "params": {
+      "count": "How many devices.",
+      "names": "The names of the devices, already joined as a list.",
+      "time": "The time now, such as \"14:20\"."
+    },
+    "maxLength": 230,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.partFrom": {
+    "en": "{device} counts from {time}, when its history starts.",
+    "context": "One sentence of the detail under \"Today counts from …\": this device’s recording started earlier today, so today counts from then.",
+    "params": {
+      "device": "The name of the device.",
+      "time": "A time of day, such as \"09:12\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.partWhole": {
+    "en": "{count, plural, one {{names} counts from midnight.} other {{names} count from midnight.}}",
+    "context": "One sentence of the detail under \"Today counts from …\": these devices have history from before midnight, so today counts in full for them.",
+    "params": {
+      "count": "How many devices.",
+      "names": "The names of the devices, already joined as a list."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.partlyRecorded": {
+    "en": "Partly recorded",
+    "context": "Short note on a device in the meter picker (and a badge on a meter): some of its readings for the meter are recorded, others aren’t.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.recordedSinceDate": {
+    "en": "Recorded since {date}",
+    "context": "Short note on a device in the meter dialog: since which day its readings for the meter are recorded.",
+    "params": {
+      "date": "A short date, such as \"3 Mar\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.recordedSinceTime": {
+    "en": "Recorded since {time}",
+    "context": "Short note on a device in the meter dialog: its readings for the meter are recorded since this time today.",
+    "params": {
+      "time": "A time of day today, such as \"09:12\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.startsDetail": {
+    "en": "{added, plural, one {# more recording} other {# more recordings}}: {used} of {limit} in use{free, select, yes { on Free} other {}}.",
+    "context": "Detail under \"Recording starts for …\": how many recordings are added, and how many of the plan’s recordings are then in use. On the Free plan it ends with \"on Free\"; Free is the name of the plan.",
+    "params": {
+      "added": "How many recordings start.",
+      "free": "\"yes\" on the Free plan, \"no\" on others.",
+      "limit": "How many recordings the plan allows.",
+      "used": "How many recordings are in use after saving."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.startsTitle": {
+    "en": "Recording starts for {names}",
+    "context": "Bold line: saving starts recording (keeping the history of) the readings of these devices.",
+    "params": {
+      "names": "The names of the devices, already joined as a list (\"A, B and C\")."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.stopsDetail": {
+    "en": "{count, plural, one {Its history since {date} goes with it, making room for # recording.} other {Its history since {date} goes with it, making room for # recordings.}}",
+    "context": "Detail under \"Recording stops for …\": its recorded history is deleted too, and that frees room for this many new recordings.",
+    "params": {
+      "count": "How many recordings that frees.",
+      "date": "When its recording started, as a short date such as \"3 Mar\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.stopsTitle": {
+    "en": "Recording stops for {device}",
+    "context": "Bold warning line: saving stops recording the old meter’s device, to make room for the new one (the person ticked that).",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayFromNow": {
+    "en": "Today counts from now on",
+    "context": "Bold line when the newly counted devices have no recorded history: today’s totals only start counting now.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayFromNowFor": {
+    "en": "Today counts from now on for {names}",
+    "context": "Bold line when some of the counted devices have no recorded history: for them, today’s totals only start counting now.",
+    "params": {
+      "names": "The names of the devices without history, already joined as a list."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayFromTime": {
+    "en": "Today counts from {time}",
+    "context": "Bold line when the counted device’s recording started earlier today: today’s totals start at that time.",
+    "params": {
+      "time": "A time of day, such as \"09:12\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayFromTimeFor": {
+    "en": "Today counts from {time} for {device}",
+    "context": "Bold line when one of the counted devices only started recording earlier today: for it, today’s totals start at that time.",
+    "params": {
+      "device": "The name of the device.",
+      "time": "A time of day, such as \"09:12\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayWholeDetail": {
+    "en": "From midnight on, and the days before as far back as the history goes ({date}).",
+    "context": "Detail under \"Today’s totals are worked out again from …\".",
+    "params": {
+      "date": "When the history starts, as a short date such as \"3 Mar\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterEffects.todayWholeTitle": {
+    "en": "Today’s totals are worked out again from {names}",
+    "context": "Bold line when the newly counted devices have history from before midnight: today’s energy totals are calculated again from their history.",
+    "params": {
+      "names": "The names of the devices, already joined as a list (\"A and B\")."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/energy/meterEffects.messages.ts"
+  },
+  "devices.meterKinds.count": {
+    "en": "{kind, select, solar {{count, plural, one {# inverter} other {# inverters}}} battery {{count, plural, one {# battery} other {# batteries}}} car {{count, plural, one {# charger} other {# chargers}}} other {{count, plural, one {# meter} other {# meters}}}}",
+    "context": "How many devices count for a meter, such as \"2 inverters\" or \"1 meter\", at the bottom of the meter picker before \", found by itself\" or \"chosen\". Solar is counted in inverters, the home battery in batteries, car charging in chargers, the rest in meters.",
+    "params": {
+      "count": "How many devices.",
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterKinds.messages.ts"
+  },
+  "devices.meterKinds.follows": {
+    "en": "{kind, select, grid {A new smart meter on your Homey takes its place by itself.} gas {A new gas meter on your Homey takes its place by itself.} water {A new water meter on your Homey takes its place by itself.} solar {A new inverter on your Homey joins in by itself.} battery {A new home battery on your Homey joins in by itself.} other {A new charger on your Homey joins in by itself.}}",
+    "context": "Line under \"Follows your Homey\" in the list of what saving a meter does, when the meter is set to be found by itself: what happens when a new device of that kind is added to the Homey. Electricity, gas and water have one meter, which a new one replaces; solar inverters, home batteries and car chargers add up, so a new one is added to them.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/meterKinds.messages.ts"
+  },
+  "devices.meterKinds.lookingFor": {
+    "en": "{kind, select, grid {Tiledash looks for a meter that counts what comes in from the grid (and what goes back). Add one to your Homey and it shows here.} gas {Tiledash looks for a device that counts gas in m³ (meter_gas), like a P1 meter or a boiler. Add one to your Homey and it shows here.} water {Tiledash looks for a device that counts water in m³ (meter_water), like a HomeWizard Watermeter. Add one to your Homey and it shows here.} solar {Tiledash looks for a solar inverter or panels. Add one to your Homey and it shows here.} battery {Tiledash looks for a home battery that counts what it charged and gave. Add one to your Homey and it shows here.} other {Tiledash looks for a car charger that counts the energy it gave. Add one to your Homey and it shows here.}}",
+    "context": "Text under \"Nothing on this Homey counts …\" in the meter picker: what kind of device would fit, and that it shows up once it is added to the Homey. A P1 meter reads a Dutch or Belgian smart meter; HomeWizard Watermeter is a product name. Keep meter_gas and meter_water as they are: they are Homey’s names of the readings.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/energy/meterKinds.messages.ts"
+  },
+  "devices.meterKinds.nothingCounts": {
+    "en": "{kind, select, grid {Nothing on this Homey counts electricity} gas {Nothing on this Homey counts gas} water {Nothing on this Homey counts water} solar {Nothing on this Homey counts solar} battery {Nothing on this Homey counts the home battery} other {Nothing on this Homey counts car charging}}",
+    "context": "Bold line in the meter picker when no device of the Homey can count for this meter at all.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/meterKinds.messages.ts"
+  },
+  "devices.meterKinds.title": {
+    "en": "{kind, select, grid {Electricity} gas {Gas} water {Water} solar {Solar} battery {Home battery} other {Car}}",
+    "context": "Name of one of the six energy meters in the energy settings, as a title: the row’s name, the start of a toast \"… saved\", the badge \"Also …\" on a device another meter counts. Electricity is the connection to the grid; Car is charging an electric car.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/meterKinds.messages.ts"
+  },
+  "devices.meterPicker.cancel": {
+    "en": "Cancel",
+    "context": "Button of the meter dialog that closes it without saving.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.chosenBody": {
+    "en": "{kind, select, solar {The inverters you tick below add up and stay until you change them.} battery {The batteries you tick below add up and stay until you change them.} car {The chargers you tick below add up and stay until you change them.} other {The meter you pick below, until you change it.}}",
+    "context": "Line under \"Chosen by you\" in the meter dialog. Solar, the home battery and car charging may have several devices (ticked), whose energy is added together; the others have one meter (picked).",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.chosenTitle": {
+    "en": "Chosen by you",
+    "context": "Second choice in the meter dialog: the person picks the devices from the list below. Also a badge on a meter set this way.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.description": {
+    "en": "{kind, select, grid {Which device counts as electricity in every energy widget on this Homey.} gas {Which device counts as gas in every energy widget on this Homey.} water {Which device counts as water in every energy widget on this Homey.} solar {Which devices count as solar in every energy widget on this Homey. Several add up.} battery {Which devices count as the home battery in every energy widget on this Homey. Several add up.} other {Which devices count as car charging in every energy widget on this Homey. Several add up.}}",
+    "context": "Line under the title of the meter dialog. Solar, the home battery and car charging may have several devices, whose energy is added together.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.emptyPick": {
+    "en": "{several, select, yes {Tick one or more to count, or choose None.} other {Tick one to count, or choose None.}}",
+    "context": "Shown under \"When you save\" in the meter dialog when \"Chosen by you\" is on but no device is ticked yet. None is the name of the third choice.",
+    "params": {
+      "several": "\"yes\" when several devices may be ticked, \"no\" when one is picked."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.emptyUnchanged": {
+    "en": "Nothing changes yet. Tick a device, or pick another way above; what saving does shows here.",
+    "context": "Shown under \"When you save\" in the meter dialog while nothing was changed yet: the list of what saving does appears here once something is.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.foundBody": {
+    "en": "{devices}. Follows your Homey.",
+    "context": "Line under \"Found by itself\" in the meter dialog when it found devices: their names, then that it follows the Homey (changes when devices are added).",
+    "params": {
+      "devices": "The names of the devices found, already joined as a list (\"A and B\")."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.foundNone": {
+    "en": "Nothing found yet; one that turns up counts by itself.",
+    "context": "Line under \"Found by itself\" in the meter dialog when no device fits yet: a device that is added to the Homey later is used by itself.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.foundTitle": {
+    "en": "Found by itself",
+    "context": "First choice in the meter dialog: Tiledash finds the devices that count for this meter on the Homey by itself, and follows changes. Also a badge on a meter set this way.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.modesLabel": {
+    "en": "{kind, select, grid {How electricity is counted} gas {How gas is counted} water {How water is counted} solar {How solar is counted} battery {How the home battery is counted} other {How car charging is counted}}",
+    "context": "Name of the group of three choices at the top of the meter dialog (found by itself, chosen by you, none), read out by screen readers. Not visible as text.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.offBody": {
+    "en": "{kind, select, grid {Leave electricity out of the energy widgets.} gas {Leave gas out of the energy widgets.} water {Leave water out of the energy widgets.} solar {Leave solar out of the energy widgets.} battery {Leave the home battery out of the energy widgets.} other {Leave car charging out of the energy widgets.}}",
+    "context": "Line under \"None\" in the meter dialog.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.offTitle": {
+    "en": "None",
+    "context": "Third choice in the meter dialog: no device counts for this meter; the energy widgets leave it out. Also a badge on a meter set this way.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.save": {
+    "en": "Save",
+    "context": "Button of the meter dialog that saves what the meter counts.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryChosen": {
+    "en": "{devices} chosen",
+    "context": "Short line at the bottom of the meter dialog when the person chose the devices, such as \"2 inverters chosen\".",
+    "params": {
+      "devices": "How many devices, such as \"2 inverters\" or \"1 meter\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryFound": {
+    "en": "{devices}, found by itself",
+    "context": "Short line at the bottom of the meter dialog when it is set to be found by itself, such as \"2 inverters, found by itself\".",
+    "params": {
+      "devices": "How many devices, such as \"2 inverters\" or \"1 meter\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryNothing": {
+    "en": "Nothing counts yet",
+    "context": "Short line at the bottom of the meter dialog when it is set to be found by itself but nothing was found.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryOff": {
+    "en": "{name} left out",
+    "context": "Short line at the bottom of the meter dialog, next to the buttons, when None is chosen.",
+    "params": {
+      "name": "The name of the meter, such as \"Electricity\" or \"Home battery\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryOnlyGone": {
+    "en": "Only a device that’s gone: tick another, or go back to Found",
+    "context": "Short warning at the bottom of the meter dialog when the only device chosen was removed from the Homey. Found stands for the choice \"Found by itself\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.summaryPick": {
+    "en": "{several, select, yes {Tick one or more, or choose None} other {Tick one, or choose None}}",
+    "context": "Short warning at the bottom of the meter dialog when \"Chosen by you\" is on but no device is ticked. None is the name of the third choice.",
+    "params": {
+      "several": "\"yes\" when several devices may be ticked, \"no\" when one is picked."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterPicker.title": {
+    "en": "{name} · what counts",
+    "context": "Title of the dialog that changes what one energy meter counts, such as \"Solar · what counts\".",
+    "params": {
+      "name": "The name of the meter, such as \"Electricity\" or \"Home battery\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
+  },
+  "devices.meterRow.change": {
+    "en": "Change",
+    "context": "Button on a meter’s row that opens the dialog to change what it counts.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.choose": {
+    "en": "Choose",
+    "context": "Button on a meter’s row when nothing was found by itself but devices might fit: opens the dialog to choose one.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.chooseAnother": {
+    "en": "Choose another",
+    "context": "Button on a meter’s row when its device is gone from the Homey: opens the dialog to choose another.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.chosenBadge": {
+    "en": "Chosen by you",
+    "context": "Badge next to a meter’s name: the person chose its devices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.foundBadge": {
+    "en": "Found by itself",
+    "context": "Badge next to a meter’s name: Tiledash found its devices by itself and follows the Homey.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.mightFit": {
+    "en": "{count, plural, one {Nothing found by itself · # device might fit} other {Nothing found by itself · # devices might fit}}",
+    "context": "Line under a meter’s name when Tiledash found nothing to count by itself, but some devices of the Homey could count if chosen.",
+    "params": {
+      "count": "How many devices might fit."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.noneHere": {
+    "en": "None on this Homey",
+    "context": "Line under a meter’s name when no device of the Homey can count for it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.off": {
+    "en": "Left out: the energy widgets show nothing for it",
+    "context": "Line under a meter’s name when it is set to None.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRow.offBadge": {
+    "en": "None",
+    "context": "Badge next to a meter’s name: it is left out, nothing counts for it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/energy/EnergyMeterRow.messages.ts"
+  },
+  "devices.meterRows.addingUp": {
+    "en": "{kind, select, solar {{count, plural, one {# inverter adding up} other {# inverters adding up}}} battery {{count, plural, one {# battery adding up} other {# batteries adding up}}} other {{count, plural, one {# charger adding up} other {# chargers adding up}}}}",
+    "context": "After the device names on a meter’s row when several devices count for it, such as \"2 inverters adding up\": their energy is added together.",
+    "params": {
+      "count": "How many devices.",
+      "kind": "Which meter: solar, battery or car."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.meterRows.gone": {
+    "en": "{device} is gone from your Homey: it counts nothing",
+    "context": "Red line on a meter’s row when the device it counted was removed from the Homey (or paired again, which gives it a new identity).",
+    "params": {
+      "device": "The name the device had. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.meterRows.homeyCounts": {
+    "en": "{kind, select, grid {Homey counts {names} as electricity} gas {Homey counts {names} as gas} water {Homey counts {names} as water} solar {Homey counts {names} as solar} battery {Homey counts {names} as the home battery} other {Homey counts {names} as car charging}}",
+    "context": "Note on a meter’s row when Homey’s own energy setup (in the Homey app) counts other devices for this kind than Tiledash does, so the numbers differ from Homey’s Energy tab.",
+    "params": {
+      "kind": "Which meter: grid, gas, water, solar, battery or car.",
+      "names": "The names of the devices Homey counts, already joined as a list."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.meterRows.recordingsFull": {
+    "en": "{free, select, yes {Free’s {limit} recordings are all in use: stop one under Recordings, or go Pro.} other {Your {limit} recordings are all in use: stop one under Recordings.}}",
+    "context": "Note on a meter’s row when its readings aren’t (all) recorded because the plan’s recordings are all in use. Recordings is a section of the account page; Free and Pro are the plans.",
+    "params": {
+      "free": "\"yes\" on the Free plan, \"no\" on others.",
+      "limit": "How many recordings the plan allows."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.meterRows.source": {
+    "en": "{devices} · {how}",
+    "context": "Line under a meter’s name: which devices it counts and how, such as \"P1 meter · In and out\" or \"Roof inverter and Garage inverter · 2 inverters adding up\".",
+    "params": {
+      "devices": "The names of the devices, already joined as a list.",
+      "how": "How they count: the name of the way of counting, or \"2 inverters adding up\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.meterRows.unavailable": {
+    "en": "{device} is unavailable: it counts nothing until it’s back",
+    "context": "Yellow line on a meter’s row when Homey says the device it counts can’t be reached right now.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/energy/meterRows.messages.ts"
+  },
+  "devices.metersSection.intro": {
+    "en": "Found by themselves on your Homey; change any of them. Their readings are recorded, so the widgets can show today’s totals and compare with earlier days.",
+    "context": "Text under the title of the meters card: Tiledash finds the meters by itself, the person can change each one, and their readings’ history is kept for totals and comparisons.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/energy/EnergyMetersSection.messages.ts"
+  },
+  "devices.metersSection.recordings": {
+    "en": "Recordings",
+    "context": "Button at the bottom of the meters card that opens the Recordings section of the account page, which lists every recorded reading.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyMetersSection.messages.ts"
+  },
+  "devices.metersSection.title": {
+    "en": "What the energy widgets count",
+    "context": "Title of the meters card in the energy settings.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/EnergyMetersSection.messages.ts"
+  },
+  "devices.metersSection.usage": {
+    "en": "{meters, plural, one {The meters use # recording} other {The meters use # recordings}}; {free, select, yes {{used} of Free’s {limit} are in use.} other {{used} of your {limit} are in use.}}",
+    "context": "Line at the bottom of the meters card: how many recordings the meters take, and how many of the plan’s recordings are in use. Free is the name of the plan.",
+    "params": {
+      "free": "\"yes\" on the Free plan, \"no\" on others.",
+      "limit": "How many recordings the plan allows.",
+      "meters": "How many recordings the meters use.",
+      "used": "How many recordings are in use in all."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/EnergyMetersSection.messages.ts"
+  },
+  "devices.page.changeFailedUnnamed": {
+    "en": "Couldn’t change the device",
+    "context": "Title of a red message (toast) on the devices page after switching or setting a device failed, when its name isn’t known. The reason follows under it.",
+    "maxLength": 60,
+    "file": "apps/web/src/pages/DevicesPage.messages.ts"
+  },
+  "devices.priceField.invalid": {
+    "en": "Not a price we can use",
+    "context": "Red text under a price field when what was typed isn’t a number.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/PriceField.messages.ts"
+  },
+  "devices.pricePreview.average": {
+    "en": "Average <b>{price}</b>",
+    "context": "Under the price bars: the day’s average price (bold).",
+    "params": {
+      "price": "The price, with its currency."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.fallback": {
+    "en": "Your fixed tariff, since {source} stopped answering at {time}.",
+    "context": "Small line under the prices when the chosen source doesn’t answer, so the fixed tariff is shown.",
+    "params": {
+      "source": "The name of the source, such as \"EnergyZero\". Not translated.",
+      "time": "A time of day, such as \"14:05\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.fixedNote": {
+    "en": "Your fixed tariff.",
+    "context": "Small line under the prices when the electricity price is set to a fixed tariff (instead of the line saying when and where the prices were fetched).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.high": {
+    "en": "High <b>{price}</b> at {time}",
+    "context": "Under the price bars: the day’s highest price (bold) and at what time.",
+    "params": {
+      "price": "The price, with its currency.",
+      "time": "A time of day, such as \"18:00\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.low": {
+    "en": "Low <b>{price}</b> at {time}",
+    "context": "Under the price bars: the day’s lowest price (bold) and at what time.",
+    "params": {
+      "price": "The price, with its currency.",
+      "time": "A time of day, such as \"13:00\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.now": {
+    "en": "<b>{price}</b>/kWh now · {level}",
+    "context": "Line above the price bars: the price of one kWh right now (bold), and how it compares with the rest of the day.",
+    "params": {
+      "level": "A word for how cheap it is, such as \"Cheap\" or \"Expensive\".",
+      "price": "The price, with its currency, such as \"€0.23\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.pricePreview.updated": {
+    "en": "Updated {time} from {source}.",
+    "context": "Small line under the prices: when they were last fetched, and where from.",
+    "params": {
+      "source": "The name of the source, such as \"EnergyZero\" or \"Homey Energy\". Not translated.",
+      "time": "A time of day, such as \"14:05\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/PricePreview.messages.ts"
+  },
+  "devices.prices.currencyField": {
+    "en": "Prices and costs in",
+    "context": "Label of the currency choice, followed by the currency.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.currencyFromHomey": {
+    "en": "{code}, from your Homey ({country})",
+    "context": "First option of the currency choice: the currency of the country the Homey is in, such as \"EUR, from your Homey (Netherlands)\".",
+    "params": {
+      "code": "The currency code, such as \"EUR\". Not translated.",
+      "country": "The country or zone the Homey is in, already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.currencyLabel": {
+    "en": "Currency",
+    "context": "Name of the currency choice, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.currencyTitle": {
+    "en": "Currency",
+    "context": "Title of the card in the energy settings that sets the currency of prices and costs.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.dayAheadBody": {
+    "en": "Your country’s hourly market price, plus your markup and tax per kWh.",
+    "context": "Line under \"Day-ahead market prices\": the market price is raised by what the person’s supplier adds and the energy tax, which they fill in below.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.dayAheadTitle": {
+    "en": "Day-ahead market prices",
+    "context": "Second choice of where the electricity price comes from: the hourly prices of the energy market, published a day ahead.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.downBody": {
+    "en": "Since {time}. Your dashboards show your fixed tariff until it’s back; we keep trying every few minutes.",
+    "context": "Text of the banner when the price source isn’t answering. \"We\" is Tiledash.",
+    "params": {
+      "time": "When it stopped answering, as a time of day such as \"14:05\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.downTitle": {
+    "en": "{source} isn’t answering",
+    "context": "Title of a yellow banner when the chosen source of the electricity prices stopped answering.",
+    "params": {
+      "source": "The name of the source, such as \"EnergyZero\" or \"Homey Energy\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.electricityIntro": {
+    "en": "What a kWh costs, hour by hour: the energy widgets colour by it, work out costs and find the cheapest hours.",
+    "context": "Text under \"Electricity price\": what the price is used for on the dashboards.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.electricityTitle": {
+    "en": "Electricity price",
+    "context": "Title of the card in the energy settings that sets where the electricity price comes from.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fallbackSummary": {
+    "en": "Your fixed tariff: {tariff}",
+    "context": "Line next to \"If it can’t be reached\": the fixed tariff it uses then.",
+    "params": {
+      "tariff": "The tariff in short, such as \"€0.25 all day\" or \"€0.28 by day, €0.21 from 23:00 to 07:00\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fallbackTitle": {
+    "en": "If it can’t be reached",
+    "context": "Title of a folded part under the price choices: the fixed tariff used while the chosen price source doesn’t answer.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.feedIn": {
+    "en": "Feed-in price",
+    "context": "Label of the field with what one kWh sent back to the grid earns.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.feedInHint": {
+    "en": "Empty: it earns what a kWh costs that hour",
+    "context": "Hint under the feed-in price: left empty, energy sent back earns the same as the electricity price of that hour.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.feedInTitle": {
+    "en": "Power you send back",
+    "context": "Title of the card in the energy settings with what energy sent back to the grid (from solar panels) earns.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fixedAllDay": {
+    "en": "{price} all day",
+    "context": "A fixed tariff in short when it is one price, such as \"€0.25 all day\".",
+    "params": {
+      "price": "The price per kWh, with its currency."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fixedBody": {
+    "en": "One price, or a day and a night rate.",
+    "context": "Line under \"Fixed tariff\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fixedDayNight": {
+    "en": "{day} by day, {night} from {from} to {to}",
+    "context": "A fixed tariff in short when it has a day and a night rate, such as \"€0.28 by day, €0.21 from 23:00 to 07:00\".",
+    "params": {
+      "day": "The day price per kWh, with its currency.",
+      "from": "When the night rate starts, such as \"23:00\".",
+      "night": "The night price per kWh, with its currency.",
+      "to": "When it ends, such as \"07:00\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fixedTitle": {
+    "en": "Fixed tariff",
+    "context": "Third choice of where the electricity price comes from: a price the person fills in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.gas": {
+    "en": "Gas",
+    "context": "Label of the field with the price of one m³ of gas.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.gasHint": {
+    "en": "All in; leave empty to show no gas costs",
+    "context": "Hint under the gas price: the price including every surcharge and tax; empty means no gas costs are shown.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.gasWaterTitle": {
+    "en": "Gas and water",
+    "context": "Title of the card in the energy settings with the price of gas and of water per m³.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.homeyBody": {
+    "en": "Homey Energy’s dynamic prices, with your supplier’s surcharges and tax already in.",
+    "context": "Line under \"From your Homey\". Homey Energy is the energy part of the Homey app; keep the name. Dynamic prices change every hour.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.homeyNeeds": {
+    "en": "Needs a Homey Pro (2023), Homey Pro mini or Homey Cloud with Homey v12.6 or later. This one: {homey}.",
+    "context": "Small text under the \"From your Homey\" price choice when it can’t be chosen: which Homey models and version give their prices, and what this Homey is. Keep the model names as they are.",
+    "params": {
+      "homey": "This Homey’s model and version, such as \"Homey Pro (2019), v12.4\". Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.homeyTitle": {
+    "en": "From your Homey",
+    "context": "First choice of where the electricity price comes from: the dynamic prices the person set up in Homey Energy (in the Homey app).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.notOnThisHomey": {
+    "en": "Not on this Homey",
+    "context": "Badge on the \"From your Homey\" price choice when this Homey can’t give its prices (too old a model or version).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.recommended": {
+    "en": "Recommended",
+    "context": "Badge on the \"From your Homey\" price choice when this Homey can give its prices.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.todayTitle": {
+    "en": "Today’s prices",
+    "context": "Title of the card in the energy settings that shows today’s electricity prices hour by hour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.water": {
+    "en": "Water",
+    "context": "Label of the field with the price of one m³ of water.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.waterHint": {
+    "en": "1 m³ is 1,000 litres",
+    "context": "Hint under the water price, to help convert a price per litre. Write the number as the language does.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.screen.description": {
+    "en": "{count, plural, one {# device, live from your Homey.} other {# devices, live from your Homey.}}",
+    "context": "Line under the title of the devices page: how many devices the Homey has, and that their values update live. Homey is the smart-home hub.",
+    "params": {
+      "count": "The number of devices on the Homey."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupAll": {
+    "en": "All",
+    "context": "Tab on the devices page that shows every device, of every kind. The first of the tabs.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupClimate": {
+    "en": "Climate",
+    "context": "Tab on the devices page that shows only thermostats, heating, air conditioning and temperature or humidity sensors.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupEnergy": {
+    "en": "Energy",
+    "context": "Tab on the devices page that shows only energy devices: meters, solar panels, batteries, chargers, sockets that measure power.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupLighting": {
+    "en": "Lighting",
+    "context": "Tab on the devices page that shows only lights and other lighting.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupMedia": {
+    "en": "Media",
+    "context": "Tab on the devices page that shows only speakers, TVs and other media players.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupOther": {
+    "en": "Other",
+    "context": "Tab on the devices page that shows the devices that fit none of the other kinds.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupSecurity": {
+    "en": "Security",
+    "context": "Tab on the devices page that shows only security devices: locks, alarms, motion and door sensors, cameras.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.groupsLabel": {
+    "en": "Device type",
+    "context": "Name of the row of tabs on the devices page that show only one kind of device (lighting, climate…), read out by screen readers. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.noneBody": {
+    "en": "Try another name or device type.",
+    "context": "Line under \"Nothing matches\" on the devices page: search for another name or pick another tab.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.noneTitle": {
+    "en": "Nothing matches",
+    "context": "Title shown on the devices page when no device matches the search and the chosen tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.offlineBody": {
+    "en": "Check that it has power and internet. We keep trying.",
+    "context": "Text of the red banner on the devices page when the Homey can’t be reached: what the person can check. \"We\" is Tiledash, which keeps trying to connect.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.offlineTitle": {
+    "en": "Your Homey can’t be reached",
+    "context": "Title of a red banner on the devices page when Tiledash cannot connect to the person’s Homey at all.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.reauthAction": {
+    "en": "Log in again",
+    "context": "Button in the banner on the devices page when the Homey account login ran out: it starts logging in with Homey again.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.reauthBody": {
+    "en": "Your Athom login expired, so we can’t talk to your Homey.",
+    "context": "Text of the yellow banner on the devices page when the Homey account login ran out. Athom is the company behind Homey; \"we\" is Tiledash.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.reauthTitle": {
+    "en": "Please log in with Homey again",
+    "context": "Title of a yellow banner on the devices page when the person’s Homey account login ran out, so Tiledash can no longer reach the Homey.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.reconnectingBody": {
+    "en": "Values may be a few seconds behind.",
+    "context": "Text of the yellow banner on the devices page while the live connection to the Homey is coming back: the values shown may be slightly out of date.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.reconnectingTitle": {
+    "en": "Reconnecting to your Homey…",
+    "context": "Title of a yellow banner on the devices page while the live connection to the Homey dropped and Tiledash is connecting again.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.search": {
+    "en": "Search devices",
+    "context": "Placeholder of the search box on the devices page. Typing a name shows only the devices whose name contains it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.title": {
+    "en": "Devices",
+    "context": "Big title of the devices page, which lists every device of the person’s Homey (lights, sensors, plugs…) with its live values.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  }
+}

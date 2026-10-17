@@ -1,0 +1,135 @@
+{
+  "panel.route.emptyText": {
+    "en": "Its dashboard was deleted, and there are no other dashboards on its Homey.",
+    "context": "Text under the title \"This wall panel has nothing to show\". A Homey is the smart-home hub the dashboards belong to.",
+    "maxLength": 120,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.route.emptyTitle": {
+    "en": "This wall panel has nothing to show",
+    "context": "Title of the message on a wall panel page when the dashboard of the panel was deleted and the Homey has no other dashboard to show instead.",
+    "maxLength": 70,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.route.failedText": {
+    "en": "Check your connection and try again.",
+    "context": "Text under the title \"Couldn’t open the wall panel\". Two buttons follow: try again, and leave the wall panel.",
+    "maxLength": 80,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.route.failedTitle": {
+    "en": "Couldn’t open the wall panel",
+    "context": "Title of the message on a wall panel page (a dashboard shown full screen on a tablet or kiosk) when loading the panel failed, for example because the connection broke.",
+    "maxLength": 60,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.route.leave": {
+    "en": "Leave wall panel",
+    "context": "Button on the wall panel page when the panel cannot open. It stops using this browser as a wall panel and goes back to the Tiledash app. A command.",
+    "maxLength": 30,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.route.unnamed": {
+    "en": "Wall panel",
+    "context": "Stands in for the name of a wall panel that was opened from an old dashboard link and so has no name of its own. Shown in the options bar of the wall panel screen.",
+    "maxLength": 24,
+    "file": "apps/web/src/panel/PanelRoute.messages.ts"
+  },
+  "panel.screen.bar": {
+    "en": "Wall panel",
+    "context": "Name of the small options bar that appears at the top of a wall panel screen, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.barName": {
+    "en": "{panel} · {dashboard}",
+    "context": "Text at the left of the options bar on a wall panel screen: the name of the wall panel and the name of the dashboard it shows now, separated by a dot.",
+    "params": {
+      "dashboard": "The dashboard’s name. Chosen by the owner; not translated.",
+      "panel": "The wall panel’s name, such as \"Hallway\". Chosen by the owner; not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.edit": {
+    "en": "Edit",
+    "context": "Button in the options bar of a wall panel screen. It opens the dashboard for editing in the app.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.fullScreen": {
+    "en": "Full screen",
+    "context": "Name and tooltip of the small button at the bottom of a wall panel screen that makes the browser show the page full screen.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.hide": {
+    "en": "Hide",
+    "context": "Name of the small × button of the options bar on a wall panel screen, read out by screen readers. It hides the bar again. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.holdForOptions": {
+    "en": "Hold for wall panel options",
+    "context": "Name of the invisible button in the top-left corner of a wall panel screen, read out by screen readers. Holding it brings up the options bar. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.leaveFullScreen": {
+    "en": "Leave full screen",
+    "context": "Name and tooltip of the small button at the bottom of a wall panel screen that makes the browser go back from full screen to a window.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.leavePanel": {
+    "en": "Leave wall panel",
+    "context": "Name and tooltip of the small button at the bottom of a wall panel screen, and the label of a button in the options bar. It stops showing the wall panel and goes back to the Tiledash app. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.statusLive": {
+    "en": "Live",
+    "context": "Name of the quiet status dot in the corner of a wall panel screen when everything works and values are up to date, read out by screen readers. On e-ink screens it is not shown as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.statusOffline": {
+    "en": "Offline",
+    "context": "Small status word in the corner of a wall panel screen: the connection to Tiledash is lost and the values on screen may be old. Also the name of that status for screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.statusReconnecting": {
+    "en": "Reconnecting",
+    "context": "Small status word in the corner of a wall panel screen: the connection was lost and is being restored. Also the name of that status for screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.unnamedPanel": {
+    "en": "Wall panel",
+    "context": "Stands in for the name of a wall panel that has no name of its own, in the options bar at the top of a wall panel screen, before the dashboard’s name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.unpair": {
+    "en": "Unpair this screen",
+    "context": "Button in the options bar of a paired wall panel screen (a tablet that was paired with a code). It asks whether to cut the link between this screen and the account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.updated": {
+    "en": "Updated {time}",
+    "context": "Small status text in the corner of a wall panel on an e-ink screen, which cannot show a pulsing dot: the clock time the values on screen were taken.",
+    "params": {
+      "time": "The clock time, such as 21:43. Already formatted."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  },
+  "panel.screen.wake": {
+    "en": "Wake up",
+    "context": "Name of the invisible button that covers a sleeping wall panel screen, read out by screen readers. A touch on it wakes the screen. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelScreen.messages.ts"
+  }
+}

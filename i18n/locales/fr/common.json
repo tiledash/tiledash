@@ -1,0 +1,410 @@
+{
+  "common.actions.allow": {
+    "text": "Autoriser",
+    "source": "e213c161d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.back": {
+    "text": "Retour",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.continue": {
+    "text": "Continuer",
+    "source": "31fbef1625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.logOut": {
+    "text": "Se déconnecter",
+    "source": "4961614551",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.next": {
+    "text": "Suivant",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.save": {
+    "text": "Enregistrer",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.seePlans": {
+    "text": "Voir les forfaits",
+    "source": "d989893356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.tryAgain": {
+    "text": "Réessayer",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.confirm.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomBusy": {
+    "text": "Athom nous demande de ralentir ; réessayez dans une minute.",
+    "source": "e773897c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomLoginExpired": {
+    "text": "Votre connexion Athom a expiré. Reconnectez-vous pour continuer.",
+    "source": "d65e729bde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.homeyUnreachable": {
+    "text": "Votre Homey est injoignable pour le moment.",
+    "source": "c3d1befd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.offline": {
+    "text": "{what} Vérifiez votre connexion et réessayez.",
+    "source": "643a906c0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitCalendars": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} comprend {limit, plural, one {# calendrier} other {# calendriers}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "2376175d64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitDashboards": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} comprend {limit, plural, one {# tableau de bord} other {# tableaux de bord}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "e34411f789",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitHomeys": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} comprend {limit, plural, one {# Homey} other {# Homey}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "cd6f5401f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitOther": {
+    "text": "Vous avez atteint une limite de {plan, select, free {votre forfait Free} pro {votre forfait Pro} other {votre forfait}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "b84c0bde79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitScreens": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} comprend {limit, plural, one {# écran associé} other {# écrans associés}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "af80eb35e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitSeries": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} comprend {limit, plural, one {# fonction suivie} other {# fonctions suivies}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "23e2d586cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitShareLinks": {
+    "text": "{plan, select, free {Votre forfait Free} pro {Votre forfait Pro} other {Votre forfait}} permet {limit, plural, one {# lien de partage} other {# liens de partage}} à la fois.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "ca2edadc37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.notIncluded": {
+    "text": "Ceci n’est pas inclus dans {plan, select, free {votre forfait Free} pro {votre forfait Pro} other {votre forfait}}.{upgrade, select, yes { Pro en offre plus.} other {}}",
+    "source": "71a39a17d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.board": {
+    "text": "Exemples de widgets",
+    "source": "813e33fc8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyGrid": {
+    "text": "Réseau",
+    "source": "0d7d12ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyMeter": {
+    "text": "Compteur P1",
+    "source": "a114a2bb21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyShare": {
+    "text": "{share} d’énergie solaire",
+    "source": "8ac6596f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energySolar": {
+    "text": "Solaire",
+    "source": "31ce6e7917",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyTitle": {
+    "text": "Consommation",
+    "source": "c884bfc089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyUsing": {
+    "text": "En ce moment",
+    "source": "c5d6413c0a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowDone": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowName": {
+    "text": "Bonne nuit",
+    "source": "e107f49b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowRunning": {
+    "text": "En cours…",
+    "source": "46c541363b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowSummary": {
+    "text": "Lumières éteintes · portes verrouillées · 17°",
+    "source": "38f0b8cb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowZone": {
+    "text": "Soir",
+    "source": "458c1fed57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightBrightness": {
+    "text": "Luminosité",
+    "source": "ec811d30a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightName": {
+    "text": "Lampe du canapé",
+    "source": "3025650cd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOff": {
+    "text": "Éteint",
+    "source": "ca7981b46e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOn": {
+    "text": "Allumé",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightTap": {
+    "text": "Touchez pour allumer",
+    "source": "3979ab3057",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightWarm": {
+    "text": "{brightness}% · blanc chaud",
+    "source": "2fae0e50e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.livingRoom": {
+    "text": "Salon",
+    "source": "268d40ee19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorHumidity": {
+    "text": "% HR",
+    "source": "485e73a1eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorRoom": {
+    "text": "Chambre d’enfant",
+    "source": "6cf4693953",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorTitle": {
+    "text": "Climat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedAgo": {
+    "text": "Mis à jour il y a {seconds, number} s",
+    "source": "ad0415dfbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedNow": {
+    "text": "Mis à jour à l’instant",
+    "source": "c5cb2e5302",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHeating": {
+    "text": "Chauffe à {target}°",
+    "source": "eba58d68c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHolding": {
+    "text": "Maintient {target}°",
+    "source": "1a1728537c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatLower": {
+    "text": "Baisser la consigne",
+    "source": "38e9cbf808",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatRaise": {
+    "text": "Augmenter la consigne",
+    "source": "09a104784b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatTitle": {
+    "text": "Thermostat",
+    "source": "dd1eeb3ccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoDescription": {
+    "text": "Clair le jour et sombre la nuit, selon le réglage de l’appareil.",
+    "source": "9e78a53162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoName": {
+    "text": "{name} · Automatique",
+    "source": "c202e1809d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.mine": {
+    "text": "Un de vos propres thèmes.",
+    "source": "49e6bfb127",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.indoor": {
+    "text": "Intérieur",
+    "source": "a9cb38b7dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.on": {
+    "text": "Allumé",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.room": {
+    "text": "Salon",
+    "source": "4876f89796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.choose": {
+    "text": "Choisir…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.close": {
+    "text": "Fermer",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.dismiss": {
+    "text": "Masquer",
+    "source": "48845bff33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.nothingMatches": {
+    "text": "Aucun résultat",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.pairingCode": {
+    "text": "Code d’association",
+    "source": "1c5ea2f7ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabel": {
+    "text": "Rechercher : {label}",
+    "source": "70f005ced0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabelPlain": {
+    "text": "Rechercher",
+    "source": "49c266baaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchPlaceholder": {
+    "text": "Rechercher…",
+    "source": "7336265a04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.stepOf": {
+    "text": "Étape {step} sur {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNew": {
+    "text": ", du nouveau",
+    "source": "6972ca611a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabToChoose": {
+    "text": ", un choix à faire",
+    "source": "9e5cc728e1",
+    "by": "ai",
+    "reviewed": false
+  }
+}

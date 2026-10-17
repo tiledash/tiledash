@@ -1,0 +1,410 @@
+{
+  "common.actions.allow": {
+    "text": "Toestaan",
+    "source": "e213c161d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.back": {
+    "text": "Terug",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.continue": {
+    "text": "Doorgaan",
+    "source": "31fbef1625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.logOut": {
+    "text": "Uitloggen",
+    "source": "4961614551",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.next": {
+    "text": "Volgende",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.save": {
+    "text": "Opslaan",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.seePlans": {
+    "text": "Plannen bekijken",
+    "source": "d989893356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.tryAgain": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.confirm.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomBusy": {
+    "text": "Athom vraagt ons het rustiger aan te doen; probeer het over een minuut opnieuw.",
+    "source": "e773897c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomLoginExpired": {
+    "text": "Je Athom-login is verlopen. Log opnieuw in om door te gaan.",
+    "source": "d65e729bde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.homeyUnreachable": {
+    "text": "Je Homey is nu niet bereikbaar.",
+    "source": "c3d1befd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.offline": {
+    "text": "{what} Controleer je verbinding en probeer het opnieuw.",
+    "source": "643a906c0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitCalendars": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# agenda} other {# agenda’s}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "2376175d64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitDashboards": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# dashboard} other {# dashboards}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "e34411f789",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitHomeys": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# Homey} other {# Homeys}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "cd6f5401f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitOther": {
+    "text": "Je hebt een limiet van {plan, select, free {je Free-plan} pro {je Pro-plan} other {je huidige plan}} bereikt.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "b84c0bde79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitScreens": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# gekoppeld scherm} other {# gekoppelde schermen}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "af80eb35e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitSeries": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# bijgehouden eigenschap} other {# bijgehouden eigenschappen}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "23e2d586cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitShareLinks": {
+    "text": "{plan, select, free {Je Free-plan} pro {Je Pro-plan} other {Je huidige plan}} bevat {limit, plural, one {# deellink} other {# deellinks}} tegelijk.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "ca2edadc37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.notIncluded": {
+    "text": "Dit zit niet in {plan, select, free {je Free-plan} pro {je Pro-plan} other {je huidige plan}}.{upgrade, select, yes { Upgrade naar Pro voor meer.} other {}}",
+    "source": "71a39a17d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.board": {
+    "text": "Voorbeeldwidgets",
+    "source": "813e33fc8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyGrid": {
+    "text": "Net",
+    "source": "0d7d12ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyMeter": {
+    "text": "P1-meter",
+    "source": "a114a2bb21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyShare": {
+    "text": "{share} van de zon",
+    "source": "8ac6596f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energySolar": {
+    "text": "Zon",
+    "source": "31ce6e7917",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyTitle": {
+    "text": "Stroom in huis",
+    "source": "c884bfc089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyUsing": {
+    "text": "Verbruik nu",
+    "source": "c5d6413c0a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowDone": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowName": {
+    "text": "Welterusten",
+    "source": "e107f49b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowRunning": {
+    "text": "Bezig…",
+    "source": "46c541363b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowSummary": {
+    "text": "Lichten uit · deuren op slot · 17°",
+    "source": "38f0b8cb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowZone": {
+    "text": "Avond",
+    "source": "458c1fed57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightBrightness": {
+    "text": "Helderheid",
+    "source": "ec811d30a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightName": {
+    "text": "Lamp bij de bank",
+    "source": "3025650cd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOff": {
+    "text": "Uit",
+    "source": "ca7981b46e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOn": {
+    "text": "Aan",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightTap": {
+    "text": "Tik om aan te zetten",
+    "source": "3979ab3057",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightWarm": {
+    "text": "{brightness}% · warm wit",
+    "source": "2fae0e50e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.livingRoom": {
+    "text": "Woonkamer",
+    "source": "268d40ee19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorHumidity": {
+    "text": "% RV",
+    "source": "485e73a1eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorRoom": {
+    "text": "Kinderkamer",
+    "source": "6cf4693953",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorTitle": {
+    "text": "Klimaat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedAgo": {
+    "text": "Bijgewerkt {seconds, number} s geleden",
+    "source": "ad0415dfbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedNow": {
+    "text": "Zojuist bijgewerkt",
+    "source": "c5cb2e5302",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHeating": {
+    "text": "Verwarmt tot {target}°",
+    "source": "eba58d68c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHolding": {
+    "text": "Houdt {target}° aan",
+    "source": "1a1728537c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatLower": {
+    "text": "Doeltemperatuur omlaag",
+    "source": "38e9cbf808",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatRaise": {
+    "text": "Doeltemperatuur omhoog",
+    "source": "09a104784b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatTitle": {
+    "text": "Thermostaat",
+    "source": "dd1eeb3ccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoDescription": {
+    "text": "Overdag licht en ’s avonds donker, zoals het apparaat is ingesteld.",
+    "source": "9e78a53162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoName": {
+    "text": "{name} · Automatisch",
+    "source": "c202e1809d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.mine": {
+    "text": "Een van je eigen thema’s.",
+    "source": "49e6bfb127",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.indoor": {
+    "text": "Binnen",
+    "source": "a9cb38b7dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.on": {
+    "text": "Aan",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.room": {
+    "text": "Woonkamer",
+    "source": "4876f89796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.choose": {
+    "text": "Kies…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.close": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.dismiss": {
+    "text": "Verbergen",
+    "source": "48845bff33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.nothingMatches": {
+    "text": "Niets gevonden",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.pairingCode": {
+    "text": "Koppelcode",
+    "source": "1c5ea2f7ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabel": {
+    "text": "{label} zoeken",
+    "source": "70f005ced0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabelPlain": {
+    "text": "Zoeken",
+    "source": "49c266baaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchPlaceholder": {
+    "text": "Zoeken…",
+    "source": "7336265a04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.stepOf": {
+    "text": "Stap {step} van {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNew": {
+    "text": ", iets nieuws",
+    "source": "6972ca611a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabToChoose": {
+    "text": ", nog iets te kiezen",
+    "source": "9e5cc728e1",
+    "by": "ai",
+    "reviewed": false
+  }
+}
