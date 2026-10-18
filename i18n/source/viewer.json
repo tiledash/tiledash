@@ -1164,6 +1164,12 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
   },
+  "viewer.pin.add": {
+    "en": "Add an action…",
+    "context": "Placeholder of a dropdown in a device’s details, under the actions that ask for the PIN: picking one of the device’s actions (Unlock, Turn off…) makes it ask for the PIN too.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
   "viewer.pin.arm": {
     "en": "Arm",
     "context": "Name of an action on a chip in a home alarm’s details: arming it.",
@@ -1227,6 +1233,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/pin/pin.messages.ts"
   },
+  "viewer.pin.none": {
+    "en": "Nothing on this device asks for it yet.",
+    "context": "Small text in a device’s details where the actions that ask for the PIN would be listed, while none do.",
+    "maxLength": 80,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
   "viewer.pin.note": {
     "en": "Wall panels, paired screens, share links and the app ask for your PIN first, then not again for a minute.",
     "context": "Small text under the chips of actions that ask for the PIN, in a device’s details. Once the right PIN is typed on a screen, it doesn’t ask there again for a minute.",
@@ -1251,6 +1263,15 @@
     "params": {
       "action": "The action, such as Unlock.",
       "device": "The name of the device."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.removeAction": {
+    "en": "Stop asking for {action}",
+    "context": "Spoken name (for screen readers) of the small × button on the badge of an action that asks for the PIN. {action} is the action, such as \"Unlock\".",
+    "params": {
+      "action": "The action, such as Unlock."
     },
     "maxLength": 80,
     "file": "packages/ui/src/pin/pin.messages.ts"
@@ -1292,6 +1313,30 @@
     "en": "Set a PIN for your account first; until then nothing asks for it.",
     "context": "Small text in a device’s details instead of the explanation, while the account has no PIN. The chips are greyed out until one is set.",
     "maxLength": 100,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.whoAlways": {
+    "en": "always",
+    "context": "Small grey note after \"Your PIN\" in the panel: it always unlocks the action. Lower case.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.whoMore": {
+    "en": "Other PINs are added on your account’s PIN card.",
+    "context": "Small text at the foot of the panel, saying where other PINs (such as \"Kids\") are made.",
+    "maxLength": 80,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.whoTitle": {
+    "en": "Which PINs it takes",
+    "context": "Heading of a small panel opened from the badge of an action that asks for a PIN (such as Unlock): which PINs unlock it. The account’s own PIN always does; others (such as \"Kids\") can be ticked.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/pin.messages.ts"
+  },
+  "viewer.pin.whoYours": {
+    "en": "Your PIN",
+    "context": "First, always ticked choice in the panel: the account owner’s own PIN, which unlocks every action.",
+    "maxLength": 30,
     "file": "packages/ui/src/pin/pin.messages.ts"
   },
   "viewer.popup.description": {

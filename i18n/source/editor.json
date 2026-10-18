@@ -2776,6 +2776,54 @@
     "maxLength": 16,
     "file": "apps/web/src/dashboards/FavouriteColours.messages.ts"
   },
+  "editor.floorPlanSetting.gone": {
+    "en": "The plan this tile showed is gone. Choose another.",
+    "context": "Shown under the floor plan dropdown when the plan the tile showed was deleted.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.level": {
+    "en": "Level",
+    "context": "Label of the dropdown that picks a level of the floor plan (a floor of the house: ground floor, first floor).",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.none": {
+    "en": "No floor plans of this Homey yet. Draw your house under Floor plans first.",
+    "context": "Shown in a tile’s settings instead of the floor plan dropdowns while the person has no floor plan. \"Floor plans\" is the name of a page in the sidebar.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.paused": {
+    "en": "Paused",
+    "context": "Hint beside a floor plan in the dropdown when it is paused (the account has more plans than its subscription allows) and a tile can’t show it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.plan": {
+    "en": "Plan",
+    "context": "Label of the dropdown that picks one of the person’s floor plans for a tile.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.show": {
+    "en": "Show",
+    "context": "Label of the dropdown that picks whether the tile shows the whole level of the floor plan or one room of it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.showHint": {
+    "en": "One room fills the tile and the rooms around it fade.",
+    "context": "Line under the dropdown \"Show\" of a floor plan setting.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
+  "editor.floorPlanSetting.wholeLevel": {
+    "en": "The whole level",
+    "context": "Choice in the dropdown \"Show\": the tile shows the whole level of the floor plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicker.messages.ts"
+  },
   "editor.followDesktop.description": {
     "en": "{size}’s own arrangement is thrown away. It shows {kind, select, phone {{desktop}’s tiles in one column} other {{desktop}’s arrangement}} again, and follows every move made on {desktop}.",
     "context": "First part of the explanation in the confirmation dialog for following Desktop again on one screen size. It says that what the person arranged for this size is lost, what the size will show instead and that later moves on Desktop reach it. \"Desktop’s tiles in one column\" is for Phone, whose tiles are stacked in reading order; \"Desktop’s arrangement\" is for Tablet, which shows the Desktop layout as it is. If tiles are hidden on the size, a second sentence follows after a space.",
@@ -5851,6 +5899,102 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/screenLayouts/screenSize.messages.ts"
   },
+  "editor.settingKinds.addGesture": {
+    "en": "{gesture, select, hold {Add hold} double {Add double tap} other {Add tap}}",
+    "context": "Button that adds what a gesture on the part does.",
+    "params": {
+      "gesture": "tap, hold or double."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.change": {
+    "en": "Change",
+    "context": "Not a gesture: a control on the tile (such as a slider) was changed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.changeTitle": {
+    "en": "A control’s value changed",
+    "context": "Tooltip of the Change chip.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.double": {
+    "en": "Double tap",
+    "context": "A gesture on a tile: two taps quickly.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.doubleTitle": {
+    "en": "Two taps quickly",
+    "context": "Tooltip of the Double tap gesture chip.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.fewer": {
+    "en": "Fewer: {label}",
+    "context": "Read out for the − button of a counter.",
+    "params": {
+      "label": "What is counted, such as \"Columns\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.hold": {
+    "en": "Hold",
+    "context": "A gesture on a tile: a long press.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.holdLabel": {
+    "en": "Hold: {label}",
+    "context": "Read out for what holding a part does.",
+    "params": {
+      "label": "The part’s name, such as \"Tapping a part\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.holdTitle": {
+    "en": "A long press",
+    "context": "Tooltip of the Hold gesture chip.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.more": {
+    "en": "More: {label}",
+    "context": "Read out for the + button of a counter.",
+    "params": {
+      "label": "What is counted, such as \"Columns\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.nothingElse": {
+    "en": "This device has nothing else to show.",
+    "context": "When a device has no more readings to pick.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.range": {
+    "en": "Range",
+    "context": "Label of the time range a reading’s history covers, such as 24 hours.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.tap": {
+    "en": "Tap",
+    "context": "A gesture on a tile: a short tap.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
+  "editor.settingKinds.tapTitle": {
+    "en": "A tap",
+    "context": "Tooltip of the Tap gesture chip.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
+  },
   "editor.showWhen.add": {
     "en": "Add",
     "context": "Small word in front of two buttons that add a condition: \"Add  A value  The time\". It reads as a label for the buttons next to it, not as a button itself.",
@@ -7230,6 +7374,102 @@
     },
     "maxLength": 120,
     "file": "packages/ui/src/dashboard/HdTabSearchNone.messages.ts"
+  },
+  "editor.tapActions.camera": {
+    "en": "Open the camera",
+    "context": "Tap action: open a camera’s image.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.dashboard": {
+    "en": "Open a dashboard",
+    "context": "Tap action: go to another dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.device": {
+    "en": "Open device",
+    "context": "Tap action: open the device’s details.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.flow": {
+    "en": "Start a flow",
+    "context": "Tap action: start a Homey flow (an automation).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.history": {
+    "en": "Show the history",
+    "context": "Tap action: show the history of the reading.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.mood": {
+    "en": "Set a mood",
+    "context": "Tap action: set a Homey mood (a scene).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.none": {
+    "en": "Nothing",
+    "context": "Tap action: nothing happens.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range12h": {
+    "en": "12 hours",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range1y": {
+    "en": "A year",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range24h": {
+    "en": "24 hours",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range30d": {
+    "en": "30 days",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range6h": {
+    "en": "6 hours",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.range7d": {
+    "en": "7 days",
+    "context": "A history time range.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.toggle": {
+    "en": "Switch it on or off",
+    "context": "Tap action: toggle the device.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.variable": {
+    "en": "Set a variable",
+    "context": "Tap action: set a Homey variable to a value.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.widget": {
+    "en": "What the widget does",
+    "context": "Tap action: whatever the widget itself does on a tap.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
   },
   "editor.tapChoices.defaultHint": {
     "en": "Default",
@@ -9505,6 +9745,24 @@
     "en": "Look from the community",
     "context": "Screen reader label of the group of cards of community looks (not installed yet) in the add-widgets window. Not visible as text.",
     "maxLength": 40,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.everyLevel": {
+    "en": "Every level of “{plan}”",
+    "context": "A row on the Other tab of the add-widgets window: adds a Stack (a tile that holds several tiles on pages you swipe between) with a Floor plan for each level of the person’s floor plan (a drawing of their house).",
+    "params": {
+      "plan": "The name of the floor plan, such as \"Our house\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.everyLevelDetail": {
+    "en": "A Stack with a Floor plan for each of its {count} levels",
+    "context": "Line under the row \"Every level of …\" in the add-widgets window. A level is a floor of the house; a Stack holds tiles on pages you swipe between.",
+    "params": {
+      "count": "How many levels the plan has, 2 or more."
+    },
+    "maxLength": 70,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.exampleDashboard": {

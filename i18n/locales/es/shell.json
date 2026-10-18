@@ -371,6 +371,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.names.floorPlans": {
+    "text": "Planos",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.names.jumpTo": {
     "text": "Ir a…",
     "source": "bf48883b6d",
@@ -428,6 +434,12 @@
   "shell.names.yourWidgets": {
     "text": "Tus widgets",
     "source": "91b425b9b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.namesList.more": {
+    "text": "{count, plural, one {# más} other {# más}}",
+    "source": "44381042fd",
     "by": "ai",
     "reviewed": false
   },
@@ -578,6 +590,96 @@
   "shell.paymentFailed.updateCard": {
     "text": "Actualizar tarjeta",
     "source": "e28b5def97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.compare": {
+    "text": "Comparar",
+    "source": "e888155d8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.current": {
+    "text": "Actual",
+    "source": "e0d1b68224",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.goBack": {
+    "text": "Volver",
+    "source": "6aadac2f2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.goingBack": {
+    "text": "Al volver, esa versión pasa al editor; tus mosaicos la muestran cuando la guardes.",
+    "source": "d60b727e8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.inEditor": {
+    "text": "En el editor",
+    "source": "cdb2a7b178",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.keepsAll": {
+    "text": "Tiledash guarda todas las versiones mientras esté en la comunidad.",
+    "source": "b19b9e4217",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.keepsLast": {
+    "text": "Tiledash guarda tus últimas {count} versiones.",
+    "source": "703081a7bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.nothing": {
+    "text": "<b>Aún no hay nada guardado.</b> Cada versión queda aquí para que puedas volver a ella.",
+    "source": "b0ee8a3d0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.showChanges": {
+    "text": "Mostrar cambios",
+    "source": "b12a6ef893",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.since": {
+    "text": "{count, plural, one {<b># versión</b> desde <code>{version}</code> en la comunidad} other {<b># versiones</b> desde <code>{version}</code> en la comunidad}}",
+    "source": "23d6ef22fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.dayAt": {
+    "text": "{date}, {time}",
+    "source": "1a88956dc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.justNow": {
+    "text": "Ahora mismo",
+    "source": "66f53417d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.notSaved": {
+    "text": "Aún sin guardar",
+    "source": "35c5fe4395",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.today": {
+    "text": "Hoy, {time}",
+    "source": "461f4e0a08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.yesterday": {
+    "text": "Ayer, {time}",
+    "source": "59dfd2db8c",
     "by": "ai",
     "reviewed": false
   },
@@ -848,6 +950,78 @@
   "shell.sidebar.takeOutOf": {
     "text": "Sacar de {group}",
     "source": "2e082b653c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.builtin": {
+    "text": "{title} (incluido en Tiledash)",
+    "source": "4cd9ddf0f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.copiedFrom": {
+    "text": "Copiado de",
+    "source": "7bd2260afb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.more": {
+    "text": "{count} más",
+    "source": "5f4f590acb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.removed": {
+    "text": "{title} {version} (eliminado)",
+    "source": "18eb38d360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.badge": {
+    "text": "Direcciones externas",
+    "source": "0a530fee6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.dynamic": {
+    "text": "Y de direcciones que le dan sus ajustes o tus dispositivos, que solo se conocen al mostrarse.",
+    "source": "fe99c94092",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.dynamicPart": {
+    "text": "direcciones de sus ajustes o de datos de dispositivos",
+    "source": "05a6f3498b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.new": {
+    "text": "nueva",
+    "source": "11507a0e2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.summary": {
+    "text": "Carga imágenes de {places}",
+    "source": "dc359720db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.title": {
+    "text": "Carga desde fuera de tu Homey",
+    "source": "f5b40c1f06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.what": {
+    "text": "Tu pantalla obtiene estas imágenes directamente de ahí, sin cookies: esos sitios pueden ver que una pantalla las pidió, y lo que envían puede cambiar sin una versión nueva.",
+    "source": "35abc99b72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.why": {
+    "text": "Por qué, según su autor",
+    "source": "d85fbe966e",
     "by": "ai",
     "reviewed": false
   },

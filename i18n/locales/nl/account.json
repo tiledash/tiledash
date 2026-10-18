@@ -89,9 +89,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.extraPinAdded": {
+    "text": "PIN {name} toegevoegd",
+    "source": "6c53d4c833",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "De pincode is niet opgeslagen.",
     "source": "c207f0554d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinNameTaken": {
+    "text": "Een andere PIN heeft die naam al.",
+    "source": "77e6b3e768",
     "by": "ai",
     "reviewed": false
   },
@@ -104,6 +116,12 @@
   "account.actions.pinSaved": {
     "text": "Pincode opgeslagen",
     "source": "fd87ef1a5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinTaken": {
+    "text": "Die PIN is al in gebruik. Kies andere cijfers.",
+    "source": "96844ac9c0",
     "by": "ai",
     "reviewed": false
   },
@@ -1092,8 +1110,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} other {{count, plural, one {# opname} other {# opnames}}}}",
-    "source": "d5339b17f9",
+    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} floorPlans {{count, plural, one {# plattegrond} other {# plattegronden}}} other {{count, plural, one {# opname} other {# opnames}}}}",
+    "source": "fb051db92d",
     "by": "ai",
     "reviewed": false
   },
@@ -1116,8 +1134,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Je plan heeft ruimte voor {room} dashboards; je hebt er {have} en koos er {adding}.} recordings {Je plan heeft ruimte voor {room} opnames; je hebt er {have} en koos er {adding}.} themes {Je plan heeft ruimte voor {room} eigen thema’s; je hebt er {have} en koos er {adding}.} widgets {Je plan heeft ruimte voor {room} eigen widgets; je hebt er {have} en koos er {adding}.} other {Je plan heeft ruimte voor {room} afbeeldingen; je hebt er {have} en koos er {adding}.}}",
-    "source": "52b2eed793",
+    "text": "{key, select, dashboards {Je plan heeft ruimte voor {room} dashboards; je hebt er {have} en koos er {adding}.} recordings {Je plan heeft ruimte voor {room} opnames; je hebt er {have} en koos er {adding}.} themes {Je plan heeft ruimte voor {room} eigen thema’s; je hebt er {have} en koos er {adding}.} widgets {Je plan heeft ruimte voor {room} eigen widgets; je hebt er {have} en koos er {adding}.} floorPlans {Je plan heeft ruimte voor {room} plattegronden; je hebt er {have} en koos er {adding}.} other {Je plan heeft ruimte voor {room} afbeeldingen; je hebt er {have} en koos er {adding}.}}",
+    "source": "934ae6bc1f",
     "by": "ai",
     "reviewed": false
   },
@@ -1394,6 +1412,90 @@
   "account.delete.word": {
     "text": "verwijder",
     "source": "6197595503",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.add": {
+    "text": "PIN toevoegen",
+    "source": "a661c3bbe1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.lead": {
+    "text": "Geef iemand een eigen PIN, zoals de kinderen voor de voordeur. Bij elke actie die om een PIN vraagt kies je welke werken; die van jou werkt altijd.",
+    "source": "8156fef6d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.namePlaceholder": {
+    "text": "Kinderen",
+    "source": "8f5abd926d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.nameTaken": {
+    "text": "Een andere PIN heeft die naam al.",
+    "source": "77e6b3e768",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.none": {
+    "text": "Nog geen andere PIN’s.",
+    "source": "7c9be0f181",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewNone": {
+    "text": "Nog niets vraagt om een PIN. Kies acties in de details van een apparaat.",
+    "source": "348a5151b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewOpen": {
+    "text": "{device} openen",
+    "source": "2f9be586ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewTitle": {
+    "text": "Wat om een PIN vraagt",
+    "source": "88f6891cec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewYours": {
+    "text": "Jouw PIN",
+    "source": "b42a6aa196",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeBody": {
+    "text": "Acties die hem gebruikten, vragen dan alleen nog om je eigen PIN.",
+    "source": "bdfe07af6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeTitle": {
+    "text": "{name} verwijderen?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.title": {
+    "text": "Andere PIN’s",
+    "source": "9ee6062290",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.usedBy": {
+    "text": "{count, plural, =0 {Nog door niets gebruikt} one {Gebruikt door # actie} other {Gebruikt door # acties}}",
+    "source": "59126fc615",
     "by": "ai",
     "reviewed": false
   },
@@ -3035,6 +3137,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowFloorPlans": {
+    "text": "Plattegronden",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowFloorPlans3d": {
+    "text": "Plattegronden in 3D",
+    "source": "84842af5d7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homeys",
     "source": "ecc1293aa7",
@@ -3506,6 +3620,12 @@
   "account.shareDialog.done": {
     "text": "Klaar",
     "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.floorPlans": {
+    "text": "Plattegrondtegels tonen de indeling van je huis, en de lampen, deuren en sloten, aan iedereen met de link.",
+    "source": "16d9d1eafb",
     "by": "ai",
     "reviewed": false
   },

@@ -108,6 +108,17 @@
     "maxLength": 230,
     "file": "apps/web/src/api/planErrors.messages.ts"
   },
+  "common.plan.limitFloorPlans": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# floor plan} other {# floor plans}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
+    "context": "Toast or message when the person tried to make more floor plans (drawings of their house, level by level) than their plan allows. On the Free plan a second sentence suggests upgrading to Pro.",
+    "params": {
+      "limit": "The number of floor plans the plan includes.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the suggestion to upgrade to Pro; \"no\" on other plans."
+    },
+    "maxLength": 230,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
   "common.plan.limitHomeys": {
     "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# Homey} other {# Homeys}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
     "context": "Toast or banner when the person tried to connect more Homeys (smart-home hubs) than their plan allows. It states how many the plan includes; on the Free plan a second sentence suggests upgrading to Pro.",

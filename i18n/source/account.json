@@ -95,10 +95,25 @@
     "maxLength": 80,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
+  "account.actions.extraPinAdded": {
+    "en": "PIN {name} added",
+    "context": "Green message after another PIN was added on the PIN card. {name} is its name, such as \"Kids\".",
+    "params": {
+      "name": "The name of the new PIN."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
   "account.actions.pinFailed": {
     "en": "Couldn’t save the PIN.",
     "context": "Red text on the PIN card when saving or removing the PIN failed, used when no more specific reason is known.",
     "maxLength": 40,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.pinNameTaken": {
+    "en": "Another PIN has that name.",
+    "context": "Red text on the PIN card when another of the account’s PINs already has that name.",
+    "maxLength": 60,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
   "account.actions.pinRemoved": {
@@ -111,6 +126,12 @@
     "en": "PIN saved",
     "context": "Green message after the account’s PIN was set or changed.",
     "maxLength": 30,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.pinTaken": {
+    "en": "That PIN is already in use. Pick other digits.",
+    "context": "Red text on the PIN card when the digits typed are already the account’s own PIN or one of its other PINs (each PIN must be different).",
+    "maxLength": 80,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
   "account.actions.removedDevice": {
@@ -1235,11 +1256,11 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.group": {
-    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} other {{count, plural, one {# recording} other {# recordings}}}}",
-    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; recordings keep a reading’s history.",
+    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} floorPlans {{count, plural, one {# floor plan} other {# floor plans}}} other {{count, plural, one {# recording} other {# recordings}}}}",
+    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; floor plans are drawings of the house, level by level; recordings keep a reading’s history.",
     "params": {
       "count": "How many.",
-      "key": "Which part: themes, presets, widgets, pictures, testDevices or recordings."
+      "key": "Which part: themes, presets, widgets, pictures, testDevices, floorPlans or recordings."
     },
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
@@ -1266,12 +1287,12 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.limit": {
-    "en": "{key, select, dashboards {Your plan has room for {room} dashboards; you have {have} and chose {adding}.} recordings {Your plan has room for {room} recordings; you have {have} and chose {adding}.} themes {Your plan has room for {room} themes of your own; you have {have} and chose {adding}.} widgets {Your plan has room for {room} widgets of your own; you have {have} and chose {adding}.} other {Your plan has room for {room} pictures; you have {have} and chose {adding}.}}",
+    "en": "{key, select, dashboards {Your plan has room for {room} dashboards; you have {have} and chose {adding}.} recordings {Your plan has room for {room} recordings; you have {have} and chose {adding}.} themes {Your plan has room for {room} themes of your own; you have {have} and chose {adding}.} widgets {Your plan has room for {room} widgets of your own; you have {have} and chose {adding}.} floorPlans {Your plan has room for {room} floor plans; you have {have} and chose {adding}.} other {Your plan has room for {room} pictures; you have {have} and chose {adding}.}}",
     "context": "Why the chosen parts don’t fit the plan: how many it allows, how many there are, and how many were chosen to come along.",
     "params": {
       "adding": "How many were chosen from the backup.",
       "have": "How many there are already.",
-      "key": "Which limit: dashboards, recordings, themes, widgets or pictures.",
+      "key": "Which limit: dashboards, recordings, themes, widgets, floorPlans or pictures.",
       "room": "How many the plan allows."
     },
     "maxLength": 110,
@@ -1596,6 +1617,99 @@
     "context": "The word the person types to confirm deleting the account. One short lower-case word, easy to type; English \"delete\" also works.",
     "maxLength": 16,
     "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
+  },
+  "account.extraPins.add": {
+    "en": "Add a PIN",
+    "context": "Button that opens the form to add another PIN with a name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.lead": {
+    "en": "Give someone a PIN of their own, such as the kids for the front door. Each action that asks for a PIN says which ones it takes; yours always works.",
+    "context": "Text under the \"Other PINs\" heading. An action is something a device does that asks for a PIN first, such as unlocking a door.",
+    "maxLength": 200,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.name": {
+    "en": "Name",
+    "context": "Label of the field for the name of another PIN, such as \"Kids\" or \"Cleaner\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.namePlaceholder": {
+    "en": "Kids",
+    "context": "Example name in the empty name field of another PIN.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.nameTaken": {
+    "en": "Another PIN has that name.",
+    "context": "Error under the name of a new PIN when another PIN has the same name.",
+    "maxLength": 60,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.none": {
+    "en": "No other PINs yet.",
+    "context": "Shown in the \"Other PINs\" list while there are none.",
+    "maxLength": 50,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.overviewNone": {
+    "en": "Nothing asks for a PIN yet. Pick actions in a device’s details.",
+    "context": "Shown under \"What asks for a PIN\" while no action asks for one.",
+    "maxLength": 90,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.overviewOpen": {
+    "en": "Open {device}",
+    "context": "Spoken name (screen readers) of the button on a device in the list of what asks for a PIN; it opens that device’s details, where its actions are chosen. {device} is the device’s name.",
+    "params": {
+      "device": "The device’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.overviewTitle": {
+    "en": "What asks for a PIN",
+    "context": "Small heading on the PIN card of the account page, over a list of every device action that asks for a PIN (such as Front door · Unlock) with the names of the PINs it takes. The PINs themselves are never shown.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.overviewYours": {
+    "en": "Your PIN",
+    "context": "Name shown for the account’s own PIN in the list of what asks for a PIN.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.removeBody": {
+    "en": "Actions that took it then ask for your own PIN only.",
+    "context": "Text after \"Remove {name}?\" explaining what happens when another PIN is removed.",
+    "maxLength": 100,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.removeTitle": {
+    "en": "Remove {name}?",
+    "context": "Bold start of the question before removing another PIN. {name} is its name.",
+    "params": {
+      "name": "The PIN’s name, such as Kids."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.title": {
+    "en": "Other PINs",
+    "context": "Small heading on the PIN card of the account page, over a list of extra PINs with a name each (such as \"Kids\"), besides the account’s own PIN.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
+  },
+  "account.extraPins.usedBy": {
+    "en": "{count, plural, =0 {Asked for by nothing yet} one {Asked for by # action} other {Asked for by # actions}}",
+    "context": "Small text under the name of another PIN: how many protected actions take it. {count} is that number.",
+    "params": {
+      "count": "How many actions take this PIN."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/pin/extraPins.messages.ts"
   },
   "account.importDialog.adds": {
     "en": "Adds to what you have; nothing here changes.",
@@ -3455,6 +3569,18 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowFloorPlans": {
+    "en": "Floor plans",
+    "context": "Row of the plans table: how many floor plans (drawings of the house, level by level, shown on dashboards) the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowFloorPlans3d": {
+    "en": "Floor plans in 3D",
+    "context": "Row of the plans table: whether the plan shows floor plans in 3D (yes or a dash).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowHomeys": {
     "en": "Homeys",
     "context": "Row of the plans table: how many Homeys (smart-home hubs) the plan allows.",
@@ -3986,6 +4112,12 @@
     "en": "Done",
     "context": "Button that closes the dialog after making a link.",
     "maxLength": 16,
+    "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
+  },
+  "account.shareDialog.floorPlans": {
+    "en": "Floor plan tiles show the layout of your house, and its lights, doors and locks, to anyone with the link.",
+    "context": "Note when the dashboard has floor plan tiles (a drawing of the person’s house from above, with its rooms and the devices placed on it): the guest sees how the house is laid out, and live which lights are on, which doors are open and whether they are locked.",
+    "maxLength": 120,
     "file": "packages/ui/src/screens/sharing/ShareDialog.messages.ts"
   },
   "account.shareDialog.fullBody": {

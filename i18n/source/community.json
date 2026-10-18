@@ -1,0 +1,3356 @@
+{
+  "community.becomePublisher.accept": {
+    "en": "I accept the <link>community terms</link>: what I publish is mine to share, under the licence I choose.",
+    "context": "Checkbox that must be ticked to continue. <link> wraps the words that open the community terms.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.continue": {
+    "en": "Continue",
+    "context": "Button that saves the name and goes on to publishing.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.description": {
+    "en": "Others see what you publish under this name. Pick it once: it stays with everything you publish.",
+    "context": "Line under the title.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.displayName": {
+    "en": "Display name",
+    "context": "Label of the field for the name shown next to the handle.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.displayNameExample": {
+    "en": "Your name or your studio’s",
+    "context": "Example in the empty display name field.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.displayNameHint": {
+    "en": "Shown next to your handle; you can change it later.",
+    "context": "Hint under the display name field.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.handle": {
+    "en": "Handle",
+    "context": "Label of the field for the handle: a short unique name in lowercase, shown with an @ in front, such as \"@soft-lamps\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.handleExample": {
+    "en": "your-name",
+    "context": "Example in the empty handle field, and in the preview before one is typed. Only lowercase letters a–z, digits and dashes, no spaces or accents.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.nameReserved": {
+    "en": "That name could pass for Tiledash; pick another.",
+    "context": "Error under the display name field when the name looks like Tiledash’s own (such as \"Tiledash team\").",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.onYourItems": {
+    "en": "How it shows on your items",
+    "context": "Small note next to the preview of the name and handle.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.preview": {
+    "en": "How it shows in the community",
+    "context": "Read out by screen readers for the preview of the name and handle.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.private": {
+    "en": "Your Homey account’s name and email stay private: the community only shows the name above.",
+    "context": "Note with a lock icon.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.title": {
+    "en": "Your name in the community",
+    "context": "Title of the dialog.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.becomePublisher.yourName": {
+    "en": "Your name",
+    "context": "Shown in the preview before a display name is typed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
+  },
+  "community.browse.browse": {
+    "en": "Browse",
+    "context": "Tab with everything in the community.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.clear": {
+    "en": "Clear the filters",
+    "context": "Button that turns the search and filters off.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.count": {
+    "en": "{filtered, select, yes {{total, plural, one {# item matches} other {# items match}}} other {{total, plural, one {# item} other {# items}}}}",
+    "context": "How many items there are, or how many match the search and filters.",
+    "params": {
+      "filtered": "\"yes\" when a search or filter is on.",
+      "total": "How many items."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.countShown": {
+    "en": "{filtered, select, yes {{shown} of {total, plural, one {# item matches} other {# items match}}} other {{shown} of {total, plural, one {# item} other {# items}}}}",
+    "context": "How many items are shown of how many there are, such as \"24 of 60 items\".",
+    "params": {
+      "filtered": "\"yes\" when a search or filter is on.",
+      "shown": "How many are shown.",
+      "total": "How many items there are."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.description": {
+    "en": "Widgets, themes and partials other people made. Nothing here shows up in your widget picker, theme list or widgets until you install it.",
+    "context": "Line under the community page’s title.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.emptyBody": {
+    "en": "Nobody has published a widget, theme or partial yet. Made one you like? Publish it, and it’s the first.",
+    "context": "Line under \"Nothing in the community yet\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.emptyTitle": {
+    "en": "Nothing in the community yet",
+    "context": "Title when nobody has published anything yet.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.installed": {
+    "en": "Installed ({count})",
+    "context": "Tab with what the person installed from the community, with how many.",
+    "params": {
+      "count": "How many are installed."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.installedUpdates": {
+    "en": "{updates, plural, one {Installed ({count}) · # update} other {Installed ({count}) · # updates}}",
+    "context": "Tab with what the person installed, with how many and how many have an update.",
+    "params": {
+      "count": "How many are installed.",
+      "updates": "How many have an update."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.kicker": {
+    "en": "Customize",
+    "context": "Small line above the community page’s title: the part of the app it belongs to, as the themes page says it (themes.screen.kicker).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.kind": {
+    "en": "Kind",
+    "context": "Name of the choice of kind (widgets, themes, partials), read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.more": {
+    "en": "Show more",
+    "context": "Button that loads more items.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.noMatch": {
+    "en": "No item matches these filters.",
+    "context": "Line under \"Nothing matches\" when only filters are on.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.noMatchQuery": {
+    "en": "No widget, theme or publisher matches “{query}” with these filters.",
+    "context": "Line under \"Nothing matches\" when something was searched.",
+    "params": {
+      "query": "What the person typed. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.noMatchTitle": {
+    "en": "Nothing matches",
+    "context": "Title when no item matches the search and filters.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.noOutside": {
+    "en": "No outside addresses",
+    "context": "Checkbox that shows only items that load nothing from outside the Homey.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.publish": {
+    "en": "Publish yours",
+    "context": "Button that starts sharing one of the person’s own widgets, themes or partials in the community.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.published": {
+    "en": "Published ({count})",
+    "context": "Tab with what the person published in the community, with how many.",
+    "params": {
+      "count": "How many they published."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.search": {
+    "en": "Search widgets, themes, partials and publishers",
+    "context": "Placeholder of the community’s search box.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.searchLabel": {
+    "en": "Search the community",
+    "context": "Name of the search box, read out by screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.sort": {
+    "en": "Sort",
+    "context": "Name of the choice of order, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.tabsLabel": {
+    "en": "Community",
+    "context": "Name of the row of tabs, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.tags": {
+    "en": "Tags",
+    "context": "Name of the row of tag buttons, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.browse.title": {
+    "en": "Community",
+    "context": "Big title of the community page. Use the same word as the sidebar (shell.names.community).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+  },
+  "community.card.installed": {
+    "en": "Installed",
+    "context": "Green badge on an item the person has installed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreCard.messages.ts"
+  },
+  "community.card.open": {
+    "en": "Open {title}",
+    "context": "Name of the card’s preview button, read out by screen readers: it opens the item’s page.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCard.messages.ts"
+  },
+  "community.compare.breaking": {
+    "en": "Tiles may need their settings again",
+    "context": "Title of a yellow banner when the newer version changes the settings.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.close": {
+    "en": "Close",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.comparing": {
+    "en": "Comparing…",
+    "context": "Shown while the two versions are compared.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.filesLabel": {
+    "en": "Changed files",
+    "context": "Name of the list of changed files, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.from": {
+    "en": "From",
+    "context": "Label before the older version to compare.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.fromLabel": {
+    "en": "From version",
+    "context": "Name of the choice of the older version, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.manifest": {
+    "en": "Manifest and settings",
+    "context": "Name shown for the widget’s description file (widget.json): its manifest and settings.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.same": {
+    "en": "These two versions are the same.",
+    "context": "Shown when nothing changed between the two versions.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.title": {
+    "en": "What changed in {title}",
+    "context": "Title of the dialog that compares two versions.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.to": {
+    "en": "To",
+    "context": "Label before the newer version to compare.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.compare.toLabel": {
+    "en": "To version",
+    "context": "Name of the choice of the newer version, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
+  },
+  "community.dialogs.allowOutside": {
+    "en": "Show pictures from these addresses on my screens",
+    "context": "Checkbox in the install dialog for an item that loads pictures from outside: the person agrees.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes a community dialog without doing anything.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.copyChoice": {
+    "en": "Copy it to change it",
+    "context": "First option explained in the copy dialog.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.copyChoiceText": {
+    "en": "{kind, select, theme {It becomes one of your themes and opens in the editor. It stays as you leave it: a new version in the community doesn’t change it, though you can bring its changes in when you like.} other {It becomes one of your widgets and opens in the editor. It stays as you leave it: a new version in the community doesn’t change it, though you can bring its changes in when you like.}}",
+    "context": "Text under \"Copy it to change it\".",
+    "params": {
+      "kind": "\"theme\" or \"widget\"."
+    },
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.copyDescription": {
+    "en": "{kind, select, theme {A copy is for making your own version of this theme.} other {A copy is for making your own version of this widget.}}",
+    "context": "Line under the title of the copy dialog.",
+    "params": {
+      "kind": "\"theme\" or \"widget\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.copyTitle": {
+    "en": "Make your own copy of {title}?",
+    "context": "Title of the dialog that asks before copying a community item into the person’s own.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.install": {
+    "en": "Install",
+    "context": "Button that installs the item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installChoice": {
+    "en": "Install it to use it",
+    "context": "Second option explained in the copy dialog.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installChoiceText": {
+    "en": "{kind, select, theme {It is used as it is, from the theme list, and gets the publisher’s updates.} other {It is used as it is, from the widget picker, and gets the publisher’s updates.}}",
+    "context": "Text under \"Install it to use it\".",
+    "params": {
+      "kind": "\"theme\" or \"widget\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installInstead": {
+    "en": "Install instead",
+    "context": "Button in the copy dialog that installs the item instead of copying it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installLead": {
+    "en": "Version <b>{version}</b> by {publisher}. {where}",
+    "context": "First line of the install dialog: the version (bold), who made it, and where it shows up.",
+    "params": {
+      "publisher": "The publisher’s name. Not translated.",
+      "version": "The version, such as \"1.2.0\".",
+      "where": "A sentence saying where the item shows up after installing, already translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installLicence": {
+    "en": "{kind, select, widget {Shared under the {licence}: you may copy it into your own widgets and change it. New versions don’t come by themselves; you’ll see when there is one.} theme {Shared under the {licence}: you may copy it into your own themes and change it. New versions don’t come by themselves; you’ll see when there is one.} other {Shared under the {licence}: you may copy it into your own partials and change it. New versions don’t come by themselves; you’ll see when there is one.}}",
+    "context": "Line in the install dialog about the licence and updates.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\".",
+      "licence": "The licence’s name, such as \"MIT License\". Not translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.installTitle": {
+    "en": "Install {title}?",
+    "context": "Title of the dialog that asks before installing a community item.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.makeCopy": {
+    "en": "Make a copy",
+    "context": "Button in the copy dialog that makes the copy.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.newMajor": {
+    "en": "New major",
+    "context": "Badge on a version with big changes (its settings may need setting again).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.noNotes": {
+    "en": "No notes.",
+    "context": "Shown when a version has no release notes.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.useVersion": {
+    "en": "Use this version",
+    "context": "Button that switches to the chosen version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.versionsDescription": {
+    "en": "Pick the version your tiles draw.",
+    "context": "Line under the title of the versions dialog.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.versionsTitle": {
+    "en": "Versions of {title}",
+    "context": "Title of the dialog that picks which version the tiles draw.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.wherePartial": {
+    "en": "Your own widgets can then render it by its id. Nothing changes until one of them does.",
+    "context": "What an installed partial is for.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.whereTheme": {
+    "en": "It joins From the community in the theme list, for your dashboards and screens. Nothing changes until you choose it.",
+    "context": "Where an installed theme shows up. \"From the community\" is a section of the theme list: use the same words as it does (themes.screen.sectionCommunity).",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.whereWidget": {
+    "en": "It joins Installed in the widget picker. Nothing changes on your dashboards until you add it to a tile.",
+    "context": "Where an installed widget shows up. \"Installed\" is a section of the widget picker.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.withdrawn": {
+    "en": "Withdrawn",
+    "context": "Badge on a version its author withdrew.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.youHave": {
+    "en": "You have this",
+    "context": "Badge on the version the person uses now.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.drafts.changes": {
+    "en": "{files, plural, one {# file changed} other {# files changed}}, {added, plural, one {# line added} other {# lines added}}, {removed, plural, one {# removed} other {# removed}}",
+    "context": "In the publish dialog: how much changed since the last version published, such as \"3 files changed, 24 lines added, 6 removed\". The last part means lines removed.",
+    "params": {
+      "added": "How many lines were added.",
+      "files": "How many files changed.",
+      "removed": "How many lines were removed."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.checking": {
+    "en": "Checking…",
+    "context": "Line under the handle field while Tiledash checks whether the handle is free.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.handleFree": {
+    "en": "@{handle} is yours to take. It can’t be changed later.",
+    "context": "Line under the handle field when the handle is free.",
+    "params": {
+      "handle": "The handle typed, such as \"soft-lamps\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.handleReserved": {
+    "en": "@{handle} could pass for Tiledash or its staff; pick another.",
+    "context": "Line under the handle field when the handle looks like Tiledash’s own.",
+    "params": {
+      "handle": "The handle typed, such as \"tiledash-team\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.handleShape": {
+    "en": "3 to 24 lowercase letters, digits and dashes, not starting or ending with a dash.",
+    "context": "Line under the handle field while choosing a community name, before a good one is typed. The handle is a short unique name shown with an @, such as \"@soft-lamps\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.handleTaken": {
+    "en": "@{handle} is taken.",
+    "context": "Line under the handle field when someone else has the handle.",
+    "params": {
+      "handle": "The handle typed, such as \"soft-lamps\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.httpsOnly": {
+    "en": "An https:// address.",
+    "context": "Under the Repository or Homepage field when what is typed isn’t a web address starting with https://.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.licenceMissing": {
+    "en": "Choose a licence.",
+    "context": "Under the Licence field when none is chosen.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.nothingChanged": {
+    "en": "Nothing changed since the last version.",
+    "context": "In the publish dialog, when the save being published is the same as the last version published.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.outsideReason": {
+    "en": "Say why: everyone sees it before they install.",
+    "context": "Under the empty field that asks why the item loads things from outside addresses (other websites); the reason is shown to everyone before they install it.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.slugShape": {
+    "en": "2 to 32 lowercase letters, digits and dashes.",
+    "context": "Under the Address field when it doesn’t fit: the last part of the item’s address in the community, such as \"soft-lamp\" in \"@you/soft-lamp\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.summaryMissing": {
+    "en": "Say in a line what it does.",
+    "context": "Under the empty Summary field of a listing: one line shown on the item’s card.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.tagLetters": {
+    "en": "“{tag}”: only letters a–z, digits and dashes.",
+    "context": "Under the Tags field when a tag has other characters. Use the quotation marks of the language.",
+    "params": {
+      "tag": "The tag, as typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.tagLong": {
+    "en": "{max, plural, one {“{tag}” is over # character.} other {“{tag}” is over # characters.}}",
+    "context": "Under the Tags field when a tag is too long. Use the quotation marks of the language.",
+    "params": {
+      "max": "How many characters a tag may have.",
+      "tag": "The tag, as typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.tagStart": {
+    "en": "“{tag}” must start with a letter or digit.",
+    "context": "Under the Tags field when a tag starts with a dash. Use the quotation marks of the language.",
+    "params": {
+      "tag": "The tag, as typed. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.titleMissing": {
+    "en": "Give it a title.",
+    "context": "Under the empty Title field of a listing.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.tooLong": {
+    "en": "{max, plural, one {At most # character.} other {At most # characters.}}",
+    "context": "Under the Title or Summary field when it is too long.",
+    "params": {
+      "max": "How many characters it may have, such as 60."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.drafts.tooManyTags": {
+    "en": "{max, plural, one {At most # tag.} other {At most # tags.}}",
+    "context": "Under the Tags field when there are too many.",
+    "params": {
+      "max": "How many tags an item may have."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publishViews.messages.ts"
+  },
+  "community.installed.asksFirst": {
+    "en": "{count, plural, one {One asks first: it would load pictures from new places.} other {Some ask first: they would load pictures from new places.}}",
+    "context": "After the update count: some updates aren’t done by \"Update all\", because they would load pictures from new outside places.",
+    "params": {
+      "count": "How many ask first."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.autoTip": {
+    "en": "Minor and patch versions come in by themselves; a new major or new outside addresses still ask",
+    "context": "Tooltip of the \"Updates itself\" switch.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.blockedNote": {
+    "en": "Tiledash blocked it for safety: it draws nowhere now. Uninstall it, or go back to a version that isn’t blocked.",
+    "context": "Red note on a blocked item.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.breakingSettings": {
+    "en": "Its settings changed: {reasons}.",
+    "context": "Warning on an update that changes the settings, for an item not on tiles.",
+    "params": {
+      "reasons": "Why, already joined, or \"a new major version\"."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.breakingTiles": {
+    "en": "Its tiles may need their settings again: {reasons}.",
+    "context": "Warning on an update that changes the settings, for an item used on tiles.",
+    "params": {
+      "reasons": "Why, already joined, or \"a new major version\"."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.browse": {
+    "en": "Browse the community",
+    "context": "Button that opens the community’s Browse tab.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.earlierVersions": {
+    "en": "Earlier versions…",
+    "context": "Menu item that opens the choice of version.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.emptyBody": {
+    "en": "What you install from the community shows up here, with its updates. Widgets join the widget picker, themes the theme list, and partials are yours to render in your widgets.",
+    "context": "Line under \"Nothing installed yet\".",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.emptyTitle": {
+    "en": "Nothing installed yet",
+    "context": "Title of the Installed tab when nothing is installed.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.isOut": {
+    "en": "<b>{version}</b> is out",
+    "context": "Line on an installed item with an update: the new version (bold) is available.",
+    "params": {
+      "version": "The new version, such as \"1.3.0\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.knownWhenDraws": {
+    "en": "addresses known only when it draws",
+    "context": "Part of \"It would load pictures from …\": addresses that are only known when it draws. Lower case.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.newMajor": {
+    "en": "a new major version",
+    "context": "The reason in the warnings above when none is given. Lower case.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.noDashboard": {
+    "en": "No dashboard uses it yet",
+    "context": "Under an installed theme no dashboard uses yet.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.notNow": {
+    "en": "Not now",
+    "context": "Button that puts the update off.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.notOnDashboard": {
+    "en": "Not on a dashboard yet",
+    "context": "Under an installed widget that has no tile yet.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.notRendered": {
+    "en": "No widget of yours renders it yet",
+    "context": "Under an installed partial no widget uses yet.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.official": {
+    "en": "Official",
+    "context": "Mark on a publisher that is Tiledash itself.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.openInCommunity": {
+    "en": "Open in the community",
+    "context": "Menu item that opens the item’s page in the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.options": {
+    "en": "{title} options",
+    "context": "Name of the ⋯ button of an installed item, read out by screen readers.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.putOff": {
+    "en": "{version} is out; you put it off.",
+    "context": "Line on an item whose update the person put off.",
+    "params": {
+      "version": "The new version, such as \"1.3.0\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.removed": {
+    "en": "Removed from the community",
+    "context": "Badge on an item that was removed from the community.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.renderedBy": {
+    "en": "{count, plural, one {Rendered by {widgets}} other {Rendered by {widgets}}}",
+    "context": "Under an installed partial: which of the person’s widgets use it.",
+    "params": {
+      "count": "How many widgets.",
+      "widgets": "The widgets’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.showChanges": {
+    "en": "Show changes",
+    "context": "Button that compares the installed version with the update.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.takenDown": {
+    "en": "Taken down",
+    "context": "Red badge on an item Tiledash blocked for safety.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.themeOf": {
+    "en": "The theme of {dashboards}",
+    "context": "Under an installed theme: which dashboards use it.",
+    "params": {
+      "dashboards": "The dashboards’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.tilesOn": {
+    "en": "{count, plural, one {# tile on {dashboards}} other {# tiles on {dashboards}}}",
+    "context": "Under an installed widget: how many tiles use it and on which dashboards.",
+    "params": {
+      "count": "How many tiles.",
+      "dashboards": "The dashboards’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.uninstall": {
+    "en": "Uninstall…",
+    "context": "Red menu item that asks before uninstalling.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.update": {
+    "en": "Update",
+    "context": "Button that updates the item.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updateAll": {
+    "en": "Update all",
+    "context": "Button that updates every item that doesn’t ask first.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updateAnyway": {
+    "en": "Update anyway",
+    "context": "Link that updates an item whose update was put off.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updateByItself": {
+    "en": "Update by itself",
+    "context": "Name of that switch, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updateSome": {
+    "en": "Update {count}",
+    "context": "Button that updates the items that don’t ask first, with how many.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updatesItself": {
+    "en": "Updates itself",
+    "context": "Label of the switch that lets an item update by itself.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.updatesWaiting": {
+    "en": "{count, plural, one {# update waiting.} other {# updates waiting.}}",
+    "context": "Bold line at the top: how many installed items have an update.",
+    "params": {
+      "count": "How many updates."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.withdrawn": {
+    "en": "Withdrawn by its author",
+    "context": "Badge on a version its author withdrew.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.wouldLoad": {
+    "en": "It would load pictures from {places}.",
+    "context": "Warning on an update that would load pictures from new outside places.",
+    "params": {
+      "places": "The new places, already joined as a list."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.item.about": {
+    "en": "About",
+    "context": "Heading of the item’s description.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.back": {
+    "en": "Community",
+    "context": "Link back to the community page, at the top of an item’s page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.blockedBody": {
+    "en": "It was blocked for safety and draws nowhere now. Your tiles show that it was taken down; uninstall it to choose another.",
+    "context": "Text of the banner on a blocked item.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.blockedTitle": {
+    "en": "Taken down by Tiledash",
+    "context": "Title of a red banner on an item Tiledash blocked for safety.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.copied": {
+    "en": "Copied",
+    "context": "Name of the copy button for a moment after copying, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.copy": {
+    "en": "Copy",
+    "context": "Name of the button that copies the code line, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.copyTo": {
+    "en": "{kind, select, widget {Copy to my widgets} theme {Copy to my themes} other {Copy to my partials}}",
+    "context": "Button that makes the person’s own copy of the item, to change it.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.forks": {
+    "en": "Forks",
+    "context": "Heading of the list of copies other people made of this item, followed by how many.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.forksMore": {
+    "en": "{count, plural, one {# more isn’t listed.} other {# more aren’t listed.}}",
+    "context": "Under the list of forks: how many more there are.",
+    "params": {
+      "count": "How many more."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.install": {
+    "en": "Install",
+    "context": "Big button that installs the item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.installed": {
+    "en": "Installed · {version}",
+    "context": "Green badge: the person installed this item, with the version.",
+    "params": {
+      "version": "The installed version, such as \"1.2.0\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.licence": {
+    "en": "Licence",
+    "context": "Label in the item’s details: its licence (such as MIT License).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.licenceHint": {
+    "en": "{kind, select, widget {Copy it into your own widgets and change it.} theme {Copy it into your own themes and change it.} other {Copy it into your own partials and change it.}}",
+    "context": "Small text after the licence: the licence lets people copy and change it.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.manage": {
+    "en": "Manage",
+    "context": "Button that opens what the person can do with an installed item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.previewLabel": {
+    "en": "Preview",
+    "context": "Name of the preview box, read out by screen readers.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.removedBody": {
+    "en": "Nobody can install it any more. You keep the version you have; it keeps working.",
+    "context": "Text of the banner on a removed item.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.removedTitle": {
+    "en": "Removed from the community",
+    "context": "Title of a yellow banner on an item that was removed from the community.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.renderHint": {
+    "en": "It sees what a render passes and the tile’s device. Try its parameters in the preview.",
+    "context": "Small text under the code line of a partial.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.renderInstalled": {
+    "en": "Your own widgets render it by its id:",
+    "context": "Line above the code line that renders an installed partial.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.renderIt": {
+    "en": "Render it",
+    "context": "Heading on a partial’s page: how a widget uses it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.renderNotInstalled": {
+    "en": "Once installed, your own widgets render it by its id:",
+    "context": "Line above the code line that renders a partial, before it is installed.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.report": {
+    "en": "{kind, select, widget {Report this widget} theme {Report this theme} other {Report this partial}}",
+    "context": "Link that opens reporting the item to Tiledash (for something wrong or unsafe).",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.screenshotAlt": {
+    "en": "Screenshot {number} of {title}",
+    "context": "Description of a screenshot, read out by screen readers.",
+    "params": {
+      "number": "Which screenshot, from 1.",
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.screenshots": {
+    "en": "Screenshots",
+    "context": "Heading of the item’s screenshots.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.source": {
+    "en": "Source",
+    "context": "Label in the item’s details: where its code is (such as a GitHub repository).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.tags": {
+    "en": "Tags",
+    "context": "Label in the item’s details: its tags.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.unlistedBody": {
+    "en": "It isn’t in the community’s lists: only people with its link find it.",
+    "context": "Text of the banner on an unlisted item.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.unlistedTitle": {
+    "en": "Unlisted",
+    "context": "Title of a banner on an item its author hid from the community’s lists.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.updateTo": {
+    "en": "Update to {version}",
+    "context": "Button that opens updating to a newer version.",
+    "params": {
+      "version": "The newer version, such as \"1.3.0\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.uses": {
+    "en": "Uses",
+    "context": "Label in the item’s details: the partials it uses.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.usesHint": {
+    "en": "A copy comes with it: you don’t need to install these.",
+    "context": "Small text after the partials it uses.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.version": {
+    "en": "Version",
+    "context": "Label in the item’s details: its latest version.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.versions": {
+    "en": "Versions",
+    "context": "Heading of the item’s versions, followed by how many.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.website": {
+    "en": "Website",
+    "context": "Label in the item’s details: its website.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.lineage.builtin": {
+    "en": "built into Tiledash",
+    "context": "Under the first item of the list when it is one that comes with Tiledash. Lower case.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreLineage.messages.ts"
+  },
+  "community.lineage.more": {
+    "en": "… {count} more",
+    "context": "Stands for the copies in between that are left out of the list.",
+    "params": {
+      "count": "How many are left out."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreLineage.messages.ts"
+  },
+  "community.lineage.removed": {
+    "en": "{id} · {version} · removed",
+    "context": "Under an earlier item that was removed from the community.",
+    "params": {
+      "id": "The item’s id, such as \"@ann/clock\". Not translated.",
+      "version": "Its version, such as \"1.2.0\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreLineage.messages.ts"
+  },
+  "community.lineage.title": {
+    "en": "Forked from",
+    "context": "Heading of the list of items this community item was copied from, newest first.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreLineage.messages.ts"
+  },
+  "community.lineage.unlisted": {
+    "en": "unlisted",
+    "context": "Small mark on an earlier item that its author hid from the community’s lists. Lower case.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreLineage.messages.ts"
+  },
+  "community.listing.address": {
+    "en": "Address",
+    "context": "Label of the field for the last part of the item’s address in the community, shown after the handle: \"@you/\" followed by what is typed, such as \"soft-lamp\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.addressKept": {
+    "en": "Kept for every version.",
+    "context": "Hint under the Address field (which can’t be changed) for an item already published.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.addressNew": {
+    "en": "Can’t change once published.",
+    "context": "Hint under the Address field while publishing an item for the first time.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.chooseLicence": {
+    "en": "Choose a licence",
+    "context": "Shown in the licence list before one is chosen.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.description": {
+    "en": "Description",
+    "context": "Label of the longer text about the item, shown on its page in the community.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.descriptionExample": {
+    "en": "How it looks, what it fits, which settings it has…",
+    "context": "Example in the empty description field.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.everyone": {
+    "en": "Everyone",
+    "context": "Choice under \"Who finds it\": it is listed in the community.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.homepage": {
+    "en": "Homepage",
+    "context": "Label of the field for the web address of the item’s own website.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.icon": {
+    "en": "Icon",
+    "context": "Button for adding the item’s icon; also read out for the icon picture.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.licence": {
+    "en": "Licence",
+    "context": "Label of the field for the item’s licence, such as MIT.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.licenceHint": {
+    "en": "Everyone may copy and change what’s in the community; this says on which terms.",
+    "context": "Hint under the Licence field.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.markdown": {
+    "en": "Markdown: headings, lists, links, <code>**bold**</code> and <code>`code`</code>. Optional.",
+    "context": "Hint under the description: it may use Markdown. Inside <code>, keep the ** and ` marks exactly; the words between them (bold, code) may be translated.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.media": {
+    "en": "Icon and screenshots",
+    "context": "Heading above the item’s icon and screenshots.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.mediaHint": {
+    "en": "{max, plural, one {Square icon; up to # screenshot. Without them, the community draws a preview of it.} other {Square icon; up to # screenshots. Without them, the community draws a preview of it.}}",
+    "context": "Hint under the icon and screenshots: the icon should be square; without screenshots the community shows a drawn preview of the item.",
+    "params": {
+      "max": "How many screenshots an item may have."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.nothingWritten": {
+    "en": "Nothing written yet.",
+    "context": "Shown in the description preview when no description is typed.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.preview": {
+    "en": "Preview",
+    "context": "Tab above the description: see how it will look.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.removeIcon": {
+    "en": "Remove the icon",
+    "context": "Read out by screen readers for the cross button on the icon.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.removeScreenshot": {
+    "en": "Remove screenshot {n}",
+    "context": "Read out by screen readers for the cross button on a screenshot.",
+    "params": {
+      "n": "Which screenshot, counting from 1."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.repository": {
+    "en": "Repository",
+    "context": "Label of the field for the web address of the item’s source code, such as on GitHub.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.repositoryHint": {
+    "en": "Where its source lives, if anywhere.",
+    "context": "Hint under the Repository field.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.screenshot": {
+    "en": "Screenshot",
+    "context": "Button for adding a screenshot of the item.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.screenshotN": {
+    "en": "Screenshot {n}",
+    "context": "Read out by screen readers for a screenshot of the item.",
+    "params": {
+      "n": "Which screenshot, counting from 1."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.summary": {
+    "en": "Summary",
+    "context": "Label of the field for one line about the item, shown on its card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.summaryHint": {
+    "en": "One line on the card. {count}/{max}",
+    "context": "Hint under the Summary field: it shows on the item’s card; then how many characters are typed out of how many it may have, such as \"42/120\".",
+    "params": {
+      "count": "How many characters are typed.",
+      "max": "How many it may have."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.tags": {
+    "en": "Tags",
+    "context": "Label of the field for the item’s tags: words people search for.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.tagsExample": {
+    "en": "clock, big, minimal",
+    "context": "Example in the empty Tags field. Tags are lowercase words, separated by commas; translate them as tags in the language.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.tagsHint": {
+    "en": "{max, plural, one {Comma-separated, at most #.} other {Comma-separated, at most #.}}",
+    "context": "Hint under the Tags field: tags are separated by commas, with a maximum number of tags.",
+    "params": {
+      "max": "How many tags an item may have."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.title": {
+    "en": "Title",
+    "context": "Label of the field for the item’s name in the community.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.whoFinds": {
+    "en": "Who finds it",
+    "context": "Label of the choice of who can find the item in the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.withLink": {
+    "en": "Only with its link",
+    "context": "Choice under \"Who finds it\": it isn’t listed; only people with its link find it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.listing.write": {
+    "en": "Write",
+    "context": "Tab above the description: type it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreListingFields.messages.ts"
+  },
+  "community.manage.again": {
+    "en": "You can install it again from the community at any time.",
+    "context": "Line in the uninstall dialog.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.allowOutside": {
+    "en": "Show pictures from these addresses on my screens",
+    "context": "Checkbox for an update that loads pictures from new outside places: the person agrees.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.backFrom": {
+    "en": "From {version}. You can update again whenever you like.",
+    "context": "Line under the title when going back to an earlier version.",
+    "params": {
+      "version": "The version the person has now."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.backLead": {
+    "en": "Your tiles and dashboards draw {version} again, as they did then.",
+    "context": "Line in the dialog when going back to an earlier version.",
+    "params": {
+      "version": "The earlier version."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.backTitle": {
+    "en": "Go back to {version}?",
+    "context": "Title of the dialog that asks before going back to an earlier version.",
+    "params": {
+      "version": "The earlier version, such as \"1.2.0\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.checking": {
+    "en": "Checking your tiles and widgets…",
+    "context": "Shown while checking what the new version means for the tiles and widgets.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.noNotes": {
+    "en": "No notes for this version.",
+    "context": "Shown when a version has no release notes.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.partialUnused": {
+    "en": "No widget of yours renders it. Your widgets can no longer render it once it is gone.",
+    "context": "Uninstall dialog of a partial no widget uses.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.partialUsed": {
+    "en": "{count, plural, one {{widgets} renders it. Take it out of that widget first: it can’t be drawn without it.} other {{widgets} render it. Take it out of those widgets first: they can’t be drawn without it.}}",
+    "context": "Uninstall dialog of a partial that widgets still use: it can’t be uninstalled yet.",
+    "params": {
+      "count": "How many widgets use it.",
+      "widgets": "Their names, already joined as a list. Not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.removeTiles": {
+    "en": "{count, plural, one {Remove that tile} other {Remove those # tiles}}",
+    "context": "Checkbox the person ticks to agree that the tiles are removed.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.showChanges": {
+    "en": "Show changes",
+    "context": "Button that compares the two versions.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.themeUnused": {
+    "en": "No dashboard uses it.",
+    "context": "Uninstall dialog of a theme no dashboard uses.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.themeUsed": {
+    "en": "{count, plural, one {{dashboards} goes back to the app’s theme.} other {{dashboards} go back to the app’s theme.}}",
+    "context": "Uninstall dialog of a theme dashboards use: they switch to the app’s own theme.",
+    "params": {
+      "count": "How many dashboards use it.",
+      "dashboards": "Their names, already joined as a list. Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.tilesAsk": {
+    "en": "{count, plural, one {# tile asks for settings again} other {# tiles ask for settings again}}",
+    "context": "Title of a warning: after updating, tiles need some settings chosen again.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.tilesAskBody": {
+    "en": "On {dashboards}: {problems}. They ask for their settings until you choose.",
+    "context": "Text of that warning: until the settings are chosen, those tiles show what they need instead of their content.",
+    "params": {
+      "dashboards": "The dashboards’ names, already joined as a list. Not translated.",
+      "problems": "What needs choosing, already joined."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.uninstall": {
+    "en": "Uninstall",
+    "context": "Red button that uninstalls the item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.uninstallTitle": {
+    "en": "Uninstall {title}?",
+    "context": "Title of the dialog that asks before uninstalling a community item.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.update": {
+    "en": "Update",
+    "context": "Button that updates the item.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.updateFrom": {
+    "en": "From {version}.",
+    "context": "Line under the title when updating.",
+    "params": {
+      "version": "The version the person has now."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.updateTitle": {
+    "en": "Update {title} to {version}?",
+    "context": "Title of the dialog that asks before updating.",
+    "params": {
+      "title": "The item’s name. Not translated.",
+      "version": "The new version, such as \"1.3.0\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.use": {
+    "en": "Use {version}",
+    "context": "Button that goes back to the earlier version.",
+    "params": {
+      "version": "The earlier version."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.whatsNew": {
+    "en": "What’s new",
+    "context": "Name of the release notes, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.widgetBack": {
+    "en": "{count, plural, one {Its # tile on {dashboards} goes back to {builtin}, keeping its settings.} other {Its # tiles on {dashboards} go back to {builtin}, keeping their settings.}}",
+    "context": "Uninstall dialog of a widget that replaced a built-in one: its tiles go back to the built-in.",
+    "params": {
+      "builtin": "The built-in widget’s name.",
+      "count": "How many tiles.",
+      "dashboards": "The dashboards’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.widgetGone": {
+    "en": "{count, plural, one {Its # tile on {dashboards} has no built-in to go back to: it goes too.} other {Its # tiles on {dashboards} have no built-in to go back to: they go too.}}",
+    "context": "Uninstall dialog of a widget with tiles and no built-in to fall back to: the tiles are removed.",
+    "params": {
+      "count": "How many tiles.",
+      "dashboards": "The dashboards’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.widgetUnused": {
+    "en": "No tile uses it; it leaves the widget picker.",
+    "context": "Uninstall dialog of a widget no tile uses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.widgetsWontFit": {
+    "en": "{count, plural, one {{widgets} won’t fit {version}} other {{widgets} won’t fit {version}}}",
+    "context": "Title of a warning: these widgets pass things the new version of a partial doesn’t take.",
+    "params": {
+      "count": "How many widgets.",
+      "version": "The new version.",
+      "widgets": "The widgets’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.widgetsWontFitBody": {
+    "en": "Change what they pass after updating, or stay on {version}.",
+    "context": "Text of that warning.",
+    "params": {
+      "version": "The version the person has now."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.mine.backOn": {
+    "en": "{title} is back on {version}",
+    "context": "Green message after going back to an earlier version of an installed item.",
+    "params": {
+      "title": "The item’s name. Not translated.",
+      "version": "A version number, such as \"1.2.0\"."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.changeFailed": {
+    "en": "Couldn’t change that.",
+    "context": "Red message when turning automatic updates on or off for an item failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.checkFailed": {
+    "en": "Couldn’t check your tiles.",
+    "context": "Red message when Tiledash couldn’t check what changing an installed item’s version does to the tiles that use it.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.compareFailed": {
+    "en": "Couldn’t compare these versions.",
+    "context": "Red message when comparing two versions of an item failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.copied": {
+    "en": "Copied",
+    "context": "Green message after copying a publish token or a workflow to the clipboard.",
+    "maxLength": 30,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.copyFailed": {
+    "en": "Couldn’t copy it: select it and copy by hand.",
+    "context": "Red message when copying to the clipboard failed.",
+    "maxLength": 70,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.deleteBody": {
+    "en": "It and every version leave the community for good. Its address stays yours: nobody else can take it.",
+    "context": "Text of the dialog that asks to delete an item you published. Its address is the item’s id in the community, such as \"@you/soft-lamp\".",
+    "maxLength": 150,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.deleteFailed": {
+    "en": "Couldn’t delete it.",
+    "context": "Red message when deleting an item you published failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.deleteIt": {
+    "en": "Delete it",
+    "context": "Button that deletes the item.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.deleteTitle": {
+    "en": "Delete {title}?",
+    "context": "Title of the dialog that asks to delete an item you published from the community.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.deleted": {
+    "en": "{title} deleted",
+    "context": "Message after deleting an item you published from the community.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.listingFailed": {
+    "en": "Couldn’t save the listing.",
+    "context": "Red message when saving the listing of an item you published failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.listingSaved": {
+    "en": "Listing saved",
+    "context": "Green message after saving the listing of an item you published: its name, summary, description and tags in the community.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.loadFailed": {
+    "en": "What you published didn’t load",
+    "context": "Title on the Published tab of the community when it couldn’t load.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.makingToken": {
+    "en": "Making a publish token",
+    "context": "Shown in the \"Confirm it’s you\" dialog: what you confirm. A publish token lets the command line or a GitHub Action publish without signing in.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.moveFailed": {
+    "en": "Couldn’t change the version.",
+    "context": "Red message when changing an installed item to another version failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.notNowFailed": {
+    "en": "Couldn’t put it off.",
+    "context": "Red message when choosing \"Not now\" for an update failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.picturesFailed": {
+    "en": "Couldn’t change its pictures.",
+    "context": "Red message when changing the icon or screenshots of an item you published failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.publishFailed": {
+    "en": "Couldn’t publish it.",
+    "context": "Red message when publishing an uploaded zip failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.revokeFailed": {
+    "en": "Couldn’t revoke it.",
+    "context": "Red message when revoking a publish token failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.tilesAskAgain": {
+    "en": "{count, plural, one {# tile asks for its settings again.} other {# tiles ask for their settings again.}}",
+    "context": "Line under \"… updated to …\": the new version changed its settings, so these tiles need them filled in again.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.tilesChanged": {
+    "en": "{count, plural, one {# tile changed.} other {# tiles changed.}}",
+    "context": "Line under \"… uninstalled\": the tiles that used the item were changed (moved to a built-in widget or removed).",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.tilesWouldGo": {
+    "en": "{title} wasn’t updated: tiles inside widgets would go",
+    "context": "Red message while updating everything at once: updating this item would remove tiles placed inside its widgets, so it was skipped.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.tokenFailed": {
+    "en": "Couldn’t make the token.",
+    "context": "Red message in the new publish token dialog when making it failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.tokenRevoked": {
+    "en": "Token revoked",
+    "context": "Message after revoking a publish token: it no longer works.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.uninstallFailed": {
+    "en": "Couldn’t uninstall it.",
+    "context": "Red message when uninstalling a community item failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.uninstalled": {
+    "en": "{title} uninstalled",
+    "context": "Message after uninstalling a community item.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.updateFailed": {
+    "en": "Couldn’t update {title}.",
+    "context": "Red message when updating one installed item failed.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.updateOnItsOwn": {
+    "en": "Update it on its own to choose.",
+    "context": "Line under \"… wasn’t updated: tiles inside widgets would go\": updating just this item asks what to do with those tiles.",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.updated": {
+    "en": "{count, plural, one {# updated} other {# updated}}",
+    "context": "Green message after \"Update all\": how many installed items were updated to their newest version.",
+    "params": {
+      "count": "How many items."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.updatedTo": {
+    "en": "{title} updated to {version}",
+    "context": "Green message after updating an installed item to a newer version.",
+    "params": {
+      "title": "The item’s name. Not translated.",
+      "version": "A version number, such as \"1.3.0\"."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.versionsFailed": {
+    "en": "Couldn’t load its versions.",
+    "context": "Red message when the list of an item’s earlier versions couldn’t load.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.withdrawBody": {
+    "en": "Nobody can install it or update to it any more. Those who have it keep it, marked as withdrawn by you. It can’t be undone.",
+    "context": "Text of the dialog that asks to withdraw a version you published.",
+    "maxLength": 170,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.withdrawFailed": {
+    "en": "Couldn’t withdraw it.",
+    "context": "Red message when withdrawing a version you published failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.withdrawIt": {
+    "en": "Withdraw it",
+    "context": "Button that withdraws the version.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.withdrawTitle": {
+    "en": "Withdraw {version}?",
+    "context": "Title of the dialog that asks to withdraw a version you published.",
+    "params": {
+      "version": "A version number, such as \"1.2.0\"."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.withdrawn": {
+    "en": "{version} withdrawn",
+    "context": "Message after withdrawing a version you published: nobody can install it any more.",
+    "params": {
+      "version": "A version number, such as \"1.2.0\"."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.pages.compareFailed": {
+    "en": "Couldn’t compare these versions.",
+    "context": "Red message when two versions couldn’t be compared.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.copyFailed": {
+    "en": "Couldn’t copy it.",
+    "context": "Red message when copying a community item into the person’s own failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.demoHome": {
+    "en": "Demo home",
+    "context": "Choice of what a widget’s preview shows: made-up devices.",
+    "maxLength": 20,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.device": {
+    "en": "Device",
+    "context": "Name of the choice of device for the preview, read out by screen readers.",
+    "maxLength": 20,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.failedBody": {
+    "en": "Check your connection and try again.",
+    "context": "Line under a title about something that didn’t load.",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.failedTitle": {
+    "en": "The community didn’t load",
+    "context": "Title on the community page when it couldn’t load.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.installFailed": {
+    "en": "Couldn’t install it.",
+    "context": "Red message when installing a community item failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.installed": {
+    "en": "{title} installed",
+    "context": "Green message after installing a community item.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.installedPartial": {
+    "en": "Render it in a widget of yours with {line}.",
+    "context": "Text under \"… installed\" for a partial: the code line that renders it.",
+    "params": {
+      "line": "The code line, such as {% render '@ann/clock' %}. Not translated."
+    },
+    "maxLength": 100,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.installedTheme": {
+    "en": "Choose it in the theme list of a dashboard or of this device.",
+    "context": "Text under \"… installed\" for a theme: where to choose it.",
+    "maxLength": 80,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.installedWidget": {
+    "en": "Add it from Installed in the widget picker.",
+    "context": "Text under \"… installed\" for a widget. \"Installed\" is a section of the widget picker.",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.itemFailedTitle": {
+    "en": "This item didn’t load",
+    "context": "Title when a community item’s page couldn’t load.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.large": {
+    "en": "Large",
+    "context": "Choice of preview size.",
+    "maxLength": 12,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.loadMoreFailed": {
+    "en": "Couldn’t load more.",
+    "context": "Red message when more community items couldn’t be loaded.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.medium": {
+    "en": "Medium",
+    "context": "Choice of preview size.",
+    "maxLength": 12,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.missingBody": {
+    "en": "It may have been removed, or the link is mistyped.",
+    "context": "Line under \"Not in the community\".",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.missingTitle": {
+    "en": "Not in the community",
+    "context": "Title when a community item’s link leads nowhere.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.previewWith": {
+    "en": "Preview with",
+    "context": "Name of the choice of devices for the preview, read out by screen readers.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.reportFailed": {
+    "en": "Couldn’t send the report.",
+    "context": "Red text in the report dialog when sending failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.size": {
+    "en": "Size",
+    "context": "Name of the choice of preview size, read out by screen readers.",
+    "maxLength": 12,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.small": {
+    "en": "Small",
+    "context": "Choice of preview size.",
+    "maxLength": 12,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.toCommunity": {
+    "en": "To the community",
+    "context": "Button that opens the community page.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.tooManyReports": {
+    "en": "You sent ten reports today. Try again tomorrow.",
+    "context": "Red text in the report dialog when the daily limit of reports is reached.",
+    "maxLength": 75,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.tryAgain": {
+    "en": "Try again",
+    "context": "Button that loads the page again.",
+    "maxLength": 20,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.yourDevices": {
+    "en": "Your devices",
+    "context": "Choice of what a widget’s preview shows: the person’s own devices.",
+    "maxLength": 20,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.publish.back": {
+    "en": "Back",
+    "context": "Button that goes back to the Listing step.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog once published.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.download": {
+    "en": "Download as package",
+    "context": "Button that downloads the item as a zip package, to publish later from the command line or GitHub.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.fileChange": {
+    "en": "{change, select, added {added} removed {removed} other {changed}}",
+    "context": "Small note next to a changed file name: whether the file is new or was removed.",
+    "params": {
+      "change": "added, removed or changed."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.firstVersion": {
+    "en": "The first version is <code>1.0.0</code>. Later ones count up from there.",
+    "context": "Under \"Version\" when publishing an item for the first time.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.inCommunity": {
+    "en": "<b>{title} {version}</b> is in the community as <code>{id}</code>.",
+    "context": "Line once published: the item and its version, and its address in the community.",
+    "params": {
+      "id": "The item’s address, such as \"@you/soft-lamp\". Not translated.",
+      "title": "The item’s name. Not translated.",
+      "version": "The version published, such as \"1.2.0\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.latestSave": {
+    "en": "{when} (the latest)",
+    "context": "The newest save in the list of saves to publish.",
+    "params": {
+      "when": "When it was saved, such as \"Today, 14:20\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.listed": {
+    "en": "Anyone can find and install it now. Those who have it see the update.",
+    "context": "Line under \"… is in the community as …\" for an item everyone can find.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.listing": {
+    "en": "Listing",
+    "context": "First step of the dialog: how the item shows in the community (title, summary, description, tags…).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.loadsOutside": {
+    "en": "It loads from outside your Homey",
+    "context": "Heading when the item loads pictures, data or code from other websites, which is listed under it.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.major": {
+    "en": "Major",
+    "context": "Kind of version: the biggest step, such as 1.2.0 to 2.0.0, when tiles may need their settings again. A technical term (semantic versioning).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.majorSays": {
+    "en": "Tiles may need their settings again",
+    "context": "What a major version is for, under \"Major\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.manifest": {
+    "en": "Manifest and settings",
+    "context": "Shown in the list of changed files instead of the file name widget.json, which holds the widget’s description and settings.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.minor": {
+    "en": "Minor",
+    "context": "Kind of version: the middle step, such as 1.2.0 to 1.3.0, for something new that keeps every tile working. A technical term (semantic versioning).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.minorSays": {
+    "en": "Something new; every tile keeps working",
+    "context": "What a minor version is for, under \"Minor\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.needsMajor": {
+    "en": "This needs a major version",
+    "context": "Warning title when the changes mean tiles need their settings again, so only a major version can be chosen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.needsMajorBody": {
+    "en": "Tiles using {version} would need their settings again: {reasons}.",
+    "context": "Text under \"This needs a major version\", followed by why (in English for now, joined with semicolons).",
+    "params": {
+      "reasons": "Why, such as \"the setting room was removed\". In English for now.",
+      "version": "The latest version published, such as \"1.2.0\"."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.newHosts": {
+    "en": "New in this version: {hosts}. Those who turned on updating by itself are asked first.",
+    "context": "Added after the list of websites it loads from: these websites are new, so people whose installs update automatically are asked before this version is installed.",
+    "params": {
+      "hosts": "The new web addresses, already joined as a list."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.newItem": {
+    "en": "{kind, select, theme {A new theme} partial {A new partial} other {A new widget}}",
+    "context": "Choice in the \"Publish as\" list: publish it as a new item, rather than as a new version of one you published before.",
+    "params": {
+      "kind": "What is published: widget, theme or partial."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.next": {
+    "en": "Next",
+    "context": "Button that goes on to the Version step.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.notPublished": {
+    "en": "It wasn’t published",
+    "context": "Red banner title when the community refused it; why follows under it (in English for now).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.notes": {
+    "en": "Notes for this version",
+    "context": "Label of the field for notes on the first version of an item.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.notesExample": {
+    "en": "The first version.",
+    "context": "Example in the empty \"Notes for this version\" field.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.open": {
+    "en": "Open in the community",
+    "context": "Button that opens the item’s page in the community once published.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.optional": {
+    "en": "Optional.",
+    "context": "Hint under \"Notes for this version\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.patch": {
+    "en": "Patch",
+    "context": "Kind of version: the smallest step, such as 1.2.0 to 1.2.1, for fixes. A technical term (semantic versioning); many languages keep \"Patch\".",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.patchSays": {
+    "en": "Fixes; nothing new to set",
+    "context": "What a patch version is for, under \"Patch\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.publish": {
+    "en": "Publish {version}",
+    "context": "Button that publishes the version, such as \"Publish 1.3.0\".",
+    "params": {
+      "version": "The version number, such as \"1.3.0\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.publishAs": {
+    "en": "Publish as",
+    "context": "Label of the list that chooses whether this is a new item or a new version of one you published before.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.publishSave": {
+    "en": "Publish the save of",
+    "context": "Label of the list that chooses which save to publish; each choice is when it was saved, such as \"Today, 14:20\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.published": {
+    "en": "Published",
+    "context": "Title of the dialog once the item is in the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.publishedBy": {
+    "en": "{chosen, select, yes {Published by {name} (<code>@{handle}</code>) under the {licence}.} other {Published by {name} (<code>@{handle}</code>) under the licence you choose.}}",
+    "context": "Line at the bottom of the Version step: who publishes it and under which licence, such as \"under the MIT License\"; before a licence is chosen, \"under the licence you choose\".",
+    "params": {
+      "chosen": "\"yes\" once a licence is chosen, \"no\" before.",
+      "handle": "Your handle, such as \"soft-lamps\". Not translated.",
+      "licence": "The licence’s official name, such as \"MIT License\". Not translated.",
+      "name": "Your display name in the community. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.savesSince": {
+    "en": "{count, plural, one {# save since <code>{version}</code>:} other {# saves since <code>{version}</code>:}}",
+    "context": "Line above the list of saves made in the editor since the last version published; each save shows when it was made and what it changed.",
+    "params": {
+      "count": "How many saves.",
+      "version": "The latest version published, such as \"1.2.0\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.showChanges": {
+    "en": "Show changes",
+    "context": "Button that shows the changes line by line.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.since": {
+    "en": "Since <code>{version}</code>: {changes}",
+    "context": "Line above the changed files: what changed since the latest version published, such as \"3 files changed, 24 lines added, 6 removed\".",
+    "params": {
+      "changes": "How much changed, already put in words.",
+      "version": "The latest version published, such as \"1.2.0\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.steps": {
+    "en": "Steps",
+    "context": "Read out by screen readers for the two steps of the dialog, Listing and Version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.suggested": {
+    "en": "Suggested",
+    "context": "Badge on the kind of version suggested from what changed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.titleNew": {
+    "en": "Publish {name}",
+    "context": "Title of the dialog when publishing an item for the first time.",
+    "params": {
+      "name": "The name of your widget, theme or partial. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.titleVersion": {
+    "en": "Publish a new version of {title}",
+    "context": "Title of the dialog when publishing a new version of an item published before.",
+    "params": {
+      "title": "The item’s name in the community. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.unlisted": {
+    "en": "It’s unlisted: only people with its link find it.",
+    "context": "Line under \"… is in the community as …\" for an item only found through its link.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.version": {
+    "en": "Version",
+    "context": "Second step of the dialog, and the heading of its first part: the version number to publish.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whatsInIt": {
+    "en": "What’s in it",
+    "context": "Heading above the saves since the last version and what changed in them.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whatsNew": {
+    "en": "What’s new",
+    "context": "Label of the field for what changed in this version.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whatsNewExample": {
+    "en": "Seconds can be turned off.",
+    "context": "Example in the empty \"What’s new\" field, such as for a clock widget.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whatsNewHint": {
+    "en": "Shown with the update to everyone who installed it. Optional.",
+    "context": "Hint under \"What’s new\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whichSave": {
+    "en": "Which save",
+    "context": "Read out by screen readers for the list of saves to publish.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whyOutside": {
+    "en": "Why does it load these?",
+    "context": "Label of the field that asks why it loads from these websites.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whyOutsideExample": {
+    "en": "It shows the weather radar from…",
+    "context": "Example in the empty \"Why does it load these?\" field.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.whyOutsideHint": {
+    "en": "Shown to everyone before they install it.",
+    "context": "Hint under \"Why does it load these?\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.published.blocked": {
+    "en": "Blocked",
+    "context": "Badge on an item Tiledash blocked for safety.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.blockedBy": {
+    "en": "Blocked by Tiledash",
+    "context": "Title of the banner on an item Tiledash blocked for safety.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.blockedSays": {
+    "en": "It draws nowhere, not even for those who installed it.",
+    "context": "Text of the banner on a blocked item.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.canDelete": {
+    "en": "Nobody has it installed. Deleting it takes it and every version out for good.",
+    "context": "Line when the item can be deleted.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.cantDelete": {
+    "en": "{installs}: it can’t be deleted while anyone has it. Choose <em>Only with its link</em> above to take it out of the community’s lists instead.",
+    "context": "Why an installed item can’t be deleted, and what to do instead. The part in the tag is the name of a choice above; use the same words.",
+    "params": {
+      "installs": "How many installs, such as \"12 installs\"."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.commandLine": {
+    "en": "Command line",
+    "context": "How a version was published: with the command-line tool.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.delete": {
+    "en": "Delete…",
+    "context": "Red button that asks before deleting the item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.deleteLabel": {
+    "en": "Delete",
+    "context": "Name of the delete section, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.deleteTitle": {
+    "en": "Delete it",
+    "context": "Heading of the section that deletes the item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.deletedItem": {
+    "en": "a deleted item",
+    "context": "Stands in for an item’s name when it was deleted. Lower case.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.emptyBody": {
+    "en": "Publish a widget, theme or partial of yours from its editor, upload a package, or publish from the command line.",
+    "context": "Line under \"Nothing published yet\".",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.emptyTitle": {
+    "en": "Nothing published yet",
+    "context": "Title when the person published nothing yet.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.everyItem": {
+    "en": "Every item, new ones too",
+    "context": "What a publish token may publish: every item of the person, including future ones.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.expired": {
+    "en": "Expired",
+    "context": "State of a publish token that ran out.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.expires": {
+    "en": "Expires {date}",
+    "context": "State of a publish token: when it runs out.",
+    "params": {
+      "date": "A date, such as \"12 Nov 2026\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.forks": {
+    "en": "{count, plural, one {# fork} other {# forks}}",
+    "context": "How many copies other people made of the item.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.fromApp": {
+    "en": "From the app",
+    "context": "How a version was published: from the app’s editor.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.fromRepo": {
+    "en": "From Tiledash’s repository",
+    "context": "How a version was published: from Tiledash’s own code repository (for built-in widgets moved to the community).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.hiddenBy": {
+    "en": "Hidden by Tiledash",
+    "context": "Badge on an item Tiledash hid from the community’s lists.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.hiddenSays": {
+    "en": "It isn’t shown when people browse; those who have it keep it.",
+    "context": "Text of the banner on a hidden item.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.itemLabel": {
+    "en": "Item",
+    "context": "Name of the drawer’s tabs, read out by screen readers.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.itemsMore": {
+    "en": "{first} and {count} more",
+    "context": "What a publish token may publish: the first item and how many more.",
+    "params": {
+      "count": "How many more.",
+      "first": "The first item’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.latest": {
+    "en": "Latest",
+    "context": "Badge on the newest version.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.listingHint": {
+    "en": "Changes show at once; no new version is needed.",
+    "context": "Note next to the button that saves the listing.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.listingTab": {
+    "en": "Listing",
+    "context": "Tab of the item drawer with its listing (title, description, tags…).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.moderationBody": {
+    "en": "{reason} {says}",
+    "context": "Text of the banner: Tiledash’s reason, then what it means.",
+    "params": {
+      "reason": "Tiledash’s reason (English for now).",
+      "says": "What it means, already translated."
+    },
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.neverExpires": {
+    "en": "Never expires",
+    "context": "State of a publish token that lasts until revoked.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.neverUsed": {
+    "en": "Never used",
+    "context": "A token that was never used.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.newMajor": {
+    "en": "New major",
+    "context": "Badge on a version with big changes.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.newToken": {
+    "en": "New token…",
+    "context": "Button that opens making a new publish token.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.onlyLink": {
+    "en": "Only with its link",
+    "context": "Badge on an item that isn’t in the community’s lists. Use the same words as the listing’s choice of visibility.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.openInCommunity": {
+    "en": "Open in the community",
+    "context": "Button that opens the item’s page in the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.outside": {
+    "en": "Outside addresses",
+    "context": "Badge on a version that loads pictures from outside the Homey.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.removedBy": {
+    "en": "Removed by Tiledash",
+    "context": "Badge on an item Tiledash removed from the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.removedSays": {
+    "en": "Nobody can find or install it; those who have it keep it.",
+    "context": "Text of the banner on a removed item.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.reports": {
+    "en": "{count, plural, one {# report} other {# reports}}",
+    "context": "Badge with how many open reports people sent about the item.",
+    "params": {
+      "count": "How many reports."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.revoke": {
+    "en": "Revoke",
+    "context": "Button that ends a publish token at once.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.revoked": {
+    "en": "Revoked",
+    "context": "State of a publish token that was revoked.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.saveListing": {
+    "en": "Save the listing",
+    "context": "Button that saves the listing.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.sourceCommit": {
+    "en": "{source} · {commit}",
+    "context": "How a version was published, with the code commit it was built from.",
+    "params": {
+      "commit": "A short commit id. Not translated.",
+      "source": "How it was published, already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.stopped": {
+    "en": "<b>Publishing is stopped.</b> {reason} What you published stays in the community and keeps working.",
+    "context": "Note when Tiledash stopped the person from publishing. The first sentence is bold.",
+    "params": {
+      "reason": "Why, in Tiledash’s words (English for now)."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.tokens": {
+    "en": "Publish tokens",
+    "context": "Heading of the list of keys for publishing without signing in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.tokensIntro": {
+    "en": "{count, plural, =0 {For publishing from the command line or a GitHub Action, without signing in. You have none in use.} other {For publishing from the command line or a GitHub Action, without signing in. # in use.}}",
+    "context": "Line under \"Publish tokens\": what they are for, and how many are in use. GitHub Action is a product name.",
+    "params": {
+      "count": "How many tokens are in use."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.upload": {
+    "en": "Upload a package…",
+    "context": "Button that opens uploading a zip package to publish.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.used": {
+    "en": "Used {when}",
+    "context": "When a token was last used.",
+    "params": {
+      "when": "When, such as \"3 days ago\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.usedFrom": {
+    "en": "Used {when} from {place}",
+    "context": "When a token was last used, and from where.",
+    "params": {
+      "place": "Where from, such as an IP address or \"GitHub\". Not translated.",
+      "when": "When, such as \"3 days ago\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.versionMeta": {
+    "en": "{when} · {source}",
+    "context": "Line under a version: when it came out and how it was published.",
+    "params": {
+      "source": "How it was published, already translated.",
+      "when": "When, such as \"3 days ago\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.versionsTab": {
+    "en": "Versions · {count}",
+    "context": "Tab of the item drawer with its versions, with how many.",
+    "params": {
+      "count": "How many versions."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.withdraw": {
+    "en": "Withdraw…",
+    "context": "Button that asks before withdrawing a version.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.withdrawn": {
+    "en": "Withdrawn",
+    "context": "Badge on a version the person withdrew.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.yourItems": {
+    "en": "Your items",
+    "context": "Heading of the list of what the person published.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.published.zip": {
+    "en": "Zip upload",
+    "context": "How a version was published: by uploading a zip file.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/publisherViews.messages.ts"
+  },
+  "community.publisher.by": {
+    "en": "by {name}",
+    "context": "Who published a community item, such as \"by Ann\".",
+    "params": {
+      "name": "The publisher’s name. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
+  },
+  "community.publisher.official": {
+    "en": "Official",
+    "context": "Mark on a publisher that is Tiledash itself.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
+  },
+  "community.publisher.officialTip": {
+    "en": "Made and checked by Tiledash",
+    "context": "Tooltip of the \"Official\" mark on a publisher.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
+  },
+  "community.publishing.checkFailed": {
+    "en": "Couldn’t check it.",
+    "context": "Red message when Tiledash couldn’t work out what changed since the last version published.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldAddress": {
+    "en": "Address",
+    "context": "Name of the publish dialog’s Address field (the last part of the item’s address in the community), before why it was refused. As the field’s label in the dialog.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldChangelog": {
+    "en": "What’s new",
+    "context": "Name of the publish dialog’s \"What’s new\" field, before why it was refused.",
+    "maxLength": 30,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldDescription": {
+    "en": "Description",
+    "context": "Name of the publish dialog’s Description field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldHomepage": {
+    "en": "Homepage",
+    "context": "Name of the publish dialog’s Homepage field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldIssue": {
+    "en": "{field}: {issue}",
+    "context": "Why the community refused a field of the publish dialog: its name, then why (in English for now), such as \"Tags: A tag is up to 24 characters.\".",
+    "params": {
+      "field": "The field’s name, such as \"Tags\".",
+      "issue": "Why it was refused. In English for now."
+    },
+    "maxLength": 200,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldLicence": {
+    "en": "Licence",
+    "context": "Name of the publish dialog’s Licence field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldOutside": {
+    "en": "Why it loads from outside",
+    "context": "Name of the publish dialog’s field that says why the item loads from other websites, before why it was refused. Use the words of its label, \"Why does it load these?\" (community.publish.whyOutside), without the question.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldRepository": {
+    "en": "Repository",
+    "context": "Name of the publish dialog’s Repository field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldSource": {
+    "en": "Which save",
+    "context": "Name of the publish dialog’s choice of which save to publish, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldSummary": {
+    "en": "Summary",
+    "context": "Name of the publish dialog’s Summary field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldTags": {
+    "en": "Tags",
+    "context": "Name of the publish dialog’s Tags field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldTitle": {
+    "en": "Title",
+    "context": "Name of the publish dialog’s Title field, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldVersion": {
+    "en": "Version",
+    "context": "Name of the publish dialog’s version choice, before why it was refused.",
+    "maxLength": 24,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.fieldVisibility": {
+    "en": "Who finds it",
+    "context": "Name of the publish dialog’s \"Who finds it\" choice (everyone, or only with its link), before why it was refused.",
+    "maxLength": 30,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.nameFailed": {
+    "en": "Couldn’t save your community name.",
+    "context": "Red message in the dialog for choosing your name in the community (a handle and a display name) when saving it failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.ok": {
+    "en": "OK",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.packageFailed": {
+    "en": "Couldn’t make the package.",
+    "context": "Red message when downloading the item as a zip package failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.picturesFailed": {
+    "en": "Published, but its pictures didn’t all go up.",
+    "context": "Orange message when the item was published but some of its icon or screenshots failed to upload.",
+    "maxLength": 70,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.publishFailed": {
+    "en": "Couldn’t publish it.",
+    "context": "Red message when publishing to the community failed.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.stoppedBody": {
+    "en": "Tiledash stopped your community name from publishing new items and versions. What you published stays in the community and keeps working.",
+    "context": "Text of that dialog. Why follows under it, as Tiledash wrote it (not translated).",
+    "maxLength": 180,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.stoppedTitle": {
+    "en": "Publishing is stopped",
+    "context": "Title of the dialog shown instead of publishing when Tiledash stopped you publishing.",
+    "maxLength": 40,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.unreachable": {
+    "en": "Couldn’t reach the community.",
+    "context": "Red message when publishing couldn’t start because the community didn’t answer.",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.report.already": {
+    "en": "{kind, select, widget {You reported this widget already. Tiledash looks at it soon.} theme {You reported this theme already. Tiledash looks at it soon.} other {You reported this partial already. Tiledash looks at it soon.}}",
+    "context": "Text when the person reported this item before.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.broken": {
+    "en": "It doesn’t work",
+    "context": "Reason to report: the item is broken.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.brokenSays": {
+    "en": "It draws wrong, errors, or does nothing.",
+    "context": "Explanation under \"It doesn’t work\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog without reporting.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.copyright": {
+    "en": "It copies someone’s work",
+    "context": "Reason to report: the item copies someone else’s work.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.copyrightSays": {
+    "en": "Yours or someone else’s, without permission.",
+    "context": "Explanation under \"It copies someone’s work\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.description": {
+    "en": "{kind, select, widget {What’s wrong with this widget? Tiledash looks at every report; the publisher isn’t told who sent it.} theme {What’s wrong with this theme? Tiledash looks at every report; the publisher isn’t told who sent it.} other {What’s wrong with this partial? Tiledash looks at every report; the publisher isn’t told who sent it.}}",
+    "context": "Line under the title of the report dialog.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog after reporting.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.hint": {
+    "en": "At most 1,000 characters. Don’t include passwords or personal details.",
+    "context": "Hint under the text field. Write the number as the language does.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.malicious": {
+    "en": "It does something harmful",
+    "context": "Reason to report: the item is harmful.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.maliciousSays": {
+    "en": "Sends your data somewhere, switches things you didn’t ask for, or tricks people.",
+    "context": "Explanation under \"It does something harmful\".",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.offensive": {
+    "en": "It’s offensive",
+    "context": "Reason to report: the item is offensive.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.offensiveSays": {
+    "en": "Hateful, explicit or meant to hurt.",
+    "context": "Explanation under \"It’s offensive\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.other": {
+    "en": "Something else",
+    "context": "Reason to report: anything else.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.otherSays": {
+    "en": "Tell us what.",
+    "context": "Explanation under \"Something else\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.reasonsLabel": {
+    "en": "What’s wrong",
+    "context": "Name of the choice of what’s wrong, read out by screen readers; also the label of the text field when \"Something else\" is chosen.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.send": {
+    "en": "Send the report",
+    "context": "Button that sends the report.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.sent": {
+    "en": "Tiledash looks at it soon. If it’s harmful, it’s taken down for everyone, and you see it under <em>Installed</em> if you have it.",
+    "context": "Text after the report was sent. \"Installed\" is the tab of the community with what the person installed; it is in italics.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.thanks": {
+    "en": "Thanks for telling us",
+    "context": "Title of the dialog after the report was sent. \"Us\" is Tiledash.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.title": {
+    "en": "Report {title}",
+    "context": "Title of the report dialog.",
+    "params": {
+      "title": "The item’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.version": {
+    "en": "Which version",
+    "context": "Label of the choice of which version is wrong.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.whatYouSaw": {
+    "en": "What did you see? (optional)",
+    "context": "Label of the text field, when a reason other than \"Something else\" is chosen.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.report.yours": {
+    "en": "{version} (yours)",
+    "context": "The version the person has installed, in the choice of version.",
+    "params": {
+      "version": "The version, such as \"1.2.0\"."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.token.body": {
+    "en": "For publishing from the command line or a GitHub Action, without signing in.",
+    "context": "Line under the title of the dialog.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog without making a token.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.copy": {
+    "en": "Copy",
+    "context": "Button that copies the token or the workflow file.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.days30": {
+    "en": "30 days",
+    "context": "Choice: the token works for 30 days.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.days90": {
+    "en": "90 days",
+    "context": "Choice: the token works for 90 days.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.everyHint": {
+    "en": "Every item of yours, and new ones.",
+    "context": "Line under the choice when \"Every item\" is chosen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.everyItem": {
+    "en": "Every item",
+    "context": "Choice: the token may publish every item.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.hint": {
+    "en": "It publishes {folder} each time you push a tag like <code>v1.2.0</code>, with the version from <code>tiledash.json</code>.",
+    "context": "Line under the workflow: when it publishes.",
+    "params": {
+      "folder": "The package folder, such as \"@ann/clock\" or \"your package folder\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.lasts": {
+    "en": "Lasts",
+    "context": "Label of the choice of how long the token works.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.madeBody": {
+    "en": "Copy it now: Tiledash shows it only this once. Put it in your repository’s secrets as TILEDASH_TOKEN.",
+    "context": "Line under the title after the token was made.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.make": {
+    "en": "Make the token",
+    "context": "Button that makes the token.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.mayPublish": {
+    "en": "May publish",
+    "context": "Label of the choice of what the token may publish.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.name": {
+    "en": "Name",
+    "context": "Label of the field with the token’s name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.nameHint": {
+    "en": "To know it by: where it is used.",
+    "context": "Hint under the token’s name.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.onlySome": {
+    "en": "Only some",
+    "context": "Choice: the token may publish only the ticked items.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.title": {
+    "en": "New publish token",
+    "context": "Title of the dialog that makes a publish token.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.titleMade": {
+    "en": "Your new token",
+    "context": "Title of the dialog after the token was made.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.untilRevoked": {
+    "en": "Until revoked",
+    "context": "Choice: the token works until it is revoked.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.workflow": {
+    "en": "A GitHub Actions workflow, <code>{file}</code>",
+    "context": "Heading above a ready-made workflow file for GitHub Actions. The file name is in its own style.",
+    "params": {
+      "file": "The file’s path. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.year": {
+    "en": "A year",
+    "context": "Choice: the token works for a year.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.token.yourFolder": {
+    "en": "your package folder",
+    "context": "Stands in for the folder’s name in the line above. Lower case.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreNewTokenDialog.messages.ts"
+  },
+  "community.versions.breaking": {
+    "en": "Needs settings again",
+    "context": "Badge on a version whose settings changed, so tiles using it need to be set again.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.builtFrom": {
+    "en": "Built from",
+    "context": "Before the code commit a version was built from, such as \"Built from a1b2c3d\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.compare": {
+    "en": "Compare",
+    "context": "Button that compares this version with the one before.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.installed": {
+    "en": "Installed",
+    "context": "Green badge on the version the person has installed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.latest": {
+    "en": "Latest",
+    "context": "Badge on the newest version.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.noNotes": {
+    "en": "No notes for this version.",
+    "context": "Shown when a version has no release notes.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.versions.withdrawn": {
+    "en": "Withdrawn by its author",
+    "context": "Badge on a version its author withdrew.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
+  },
+  "community.views.all": {
+    "en": "All",
+    "context": "Filter of the community that shows every kind of item.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.installs": {
+    "en": "{count, plural, one {# install} other {{shown} installs}}",
+    "context": "How many times a community item was installed, such as \"840 installs\" or \"12.4k installs\".",
+    "params": {
+      "count": "The number of installs.",
+      "shown": "The number as shown, short for big ones, such as \"12.4k\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.kind": {
+    "en": "{kind, select, widget {Widget} theme {Theme} other {Partial}}",
+    "context": "The kind of a community item, as a small label.",
+    "params": {
+      "kind": "\"widget\", \"theme\" or \"partial\"."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.mostInstalled": {
+    "en": "Most installed",
+    "context": "Sort order of the community: the most installed first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.newest": {
+    "en": "Newest",
+    "context": "Sort order of the community: the newest first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.noInstalls": {
+    "en": "No installs yet",
+    "context": "Under a community item nobody installed yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.partials": {
+    "en": "Partials",
+    "context": "Filter of the community that shows only partials (pieces of widget code).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.recentlyUpdated": {
+    "en": "Recently updated",
+    "context": "Sort order of the community: the latest updated first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.themes": {
+    "en": "Themes",
+    "context": "Filter of the community that shows only themes.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.widgets": {
+    "en": "Widgets",
+    "context": "Filter of the community that shows only widgets.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.zip.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the dialog without uploading.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.commit": {
+    "en": "Built from commit",
+    "context": "Label of the field with the code commit the package was built from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.commitHint": {
+    "en": "Optional: shown on the listing, linked to the repository.",
+    "context": "Hint under the commit field.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.description": {
+    "en": "A zip of a package folder: tiledash.json with the item and version, the template, theme or partial, and the rest.",
+    "context": "Line under the title. tiledash.json is a file name; keep it.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.drop": {
+    "en": "Drop a <code>.zip</code> here, or choose one",
+    "context": "Text of the area where a zip file is dropped or chosen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.ignored": {
+    "en": "Left out, since a package doesn’t use them: {files}.",
+    "context": "Line after publishing: files in the zip that were ignored.",
+    "params": {
+      "files": "The file names, joined. Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.inCommunity": {
+    "en": "<code>{id}</code> <b>{version}</b> is in the community.",
+    "context": "Line after publishing: the item’s id and the version (bold).",
+    "params": {
+      "id": "The item’s id, such as \"@ann/clock\". Not translated.",
+      "version": "The version."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.notPublished": {
+    "en": "It wasn’t published.",
+    "context": "Bold line above the problems that stopped publishing.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.open": {
+    "en": "Open in the community",
+    "context": "Button that opens the published item’s page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.publish": {
+    "en": "Publish",
+    "context": "Button that uploads and publishes the package.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.published": {
+    "en": "Published",
+    "context": "Title of the dialog after the package was published.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  },
+  "community.zip.title": {
+    "en": "Upload a package",
+    "context": "Title of the dialog that uploads a zip package.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreZipUploadDialog.messages.ts"
+  }
+}

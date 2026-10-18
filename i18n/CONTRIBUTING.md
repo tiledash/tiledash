@@ -10,7 +10,7 @@ Thank you for helping Tiledash speak your language. Translations live here, in `
 | `glossary.yaml`                    | The agreed words for terms like "wall panel" or "tile".              |
 | `style/<language>.md`              | How the app talks in that language (tone, quotes, spacing).          |
 
-Please change nothing else. `source/` (the English) and `tools/` (the checker) are generated in our source repository and are overwritten by it. A pull request that changes them fails its check.
+Please change nothing else. `source/` (the English) and `tools/` (the checker) are generated in our source repository and are overwritten by it, and `languages.yaml` (which languages are out of Beta) is ours to decide. A pull request that changes them fails its check.
 
 ## Reading the English
 

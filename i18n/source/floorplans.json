@@ -1,0 +1,1453 @@
+{
+  "floorplans.devices.allPlaced": {
+    "en": "All placed",
+    "context": "Shown beside a room in the Devices panel when all its devices are on the plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.contact": {
+    "en": "Contact sensor",
+    "context": "Label: the sensor that says whether this door or window is open.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.covering": {
+    "en": "Blinds or curtains",
+    "context": "Label: the motorised covering of this window.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.coveringKind": {
+    "en": "{kind, select, blinds {Blinds} curtains {Curtains} shutter {Shutter} other {None}}",
+    "context": "What covers a window. A shutter is a roller shutter outside the window.",
+    "params": {
+      "kind": "blinds, curtains, shutter, or anything else for none."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.device": {
+    "en": "Device",
+    "context": "Label of the device a placed shape or a piece of furniture shows (a lamp, a TV).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.elsewhere": {
+    "en": "Elsewhere on {level}",
+    "context": "Heading in the Devices panel for devices of this floor that are in no room drawn on the plan.",
+    "params": {
+      "level": "The level’s name, such as “Ground floor”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.hint": {
+    "en": "Drag a device onto the plan, or place a room’s devices all at once and tidy up after.",
+    "context": "Line at the top of the Devices panel.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.inZone": {
+    "en": "In {zone}",
+    "context": "Under a device’s name: the Homey zone it is in.",
+    "params": {
+      "zone": "The zone’s name, such as “Living room”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.linkHint": {
+    "en": "On a dashboard a door lies shut or stands open, and blinds close over the window.",
+    "context": "Note under the devices a door or window shows.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.linksTitle": {
+    "en": "Shows",
+    "context": "Heading in a door’s or window’s panel above the devices it shows on the plan (its contact sensor, its lock, its blinds): the devices linked to this door or window.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.lock": {
+    "en": "Lock",
+    "context": "Label: the smart lock on this door.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.look": {
+    "en": "Looks like",
+    "context": "Label of the choice between a device’s own shape and its icon on the plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.lookIcon": {
+    "en": "Its icon",
+    "context": "Choice: the device is drawn as its icon in a small round disc.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.lookShape": {
+    "en": "A shape",
+    "context": "Choice: the device is drawn as a shape from above, like furniture.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.mount": {
+    "en": "{mount, select, ceiling {On the ceiling} wall {On a wall} floor {On the floor} other {Room card}}",
+    "context": "Where a device sits on the plan. Room card: shown on its room’s label (for a thermostat: the room’s temperature and target) instead of at a spot.",
+    "params": {
+      "mount": "ceiling, wall, floor or room."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.noDevice": {
+    "en": "None",
+    "context": "Choice in a device list: the piece shows no device.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.noZone": {
+    "en": "Tie this room to a zone to place its devices.",
+    "context": "Shown under a room in the Devices panel that is not linked to a Homey zone.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.nothingFound": {
+    "en": "No device called that.",
+    "context": "Shown in the Devices panel when the search finds nothing.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.placeAll": {
+    "en": "Place all ({count})",
+    "context": "Button beside a room in the Devices panel: puts all of the room’s devices on the plan at once, at their usual spots.",
+    "params": {
+      "count": "How many devices it places."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.reach": {
+    "en": "Light reaches",
+    "context": "Label of the slider for how far a light’s glow reaches on the plan, in metres.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.reachHint": {
+    "en": "Walls stop it; it goes through open doors and doorways.",
+    "context": "Note under the light-reach slider of a light on the floor plan.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.reachValue": {
+    "en": "{metres} m",
+    "context": "How far a light reaches, in metres.",
+    "params": {
+      "metres": "A number of metres, formatted."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.remove": {
+    "en": "Take off the plan",
+    "context": "Button: removes the device from the floor plan (the device itself stays in Homey).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.search": {
+    "en": "Find a device",
+    "context": "Placeholder and label of the search field in the Devices panel.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.shape": {
+    "en": "{shape, select, ceiling-light {Ceiling light} pendant {Pendant} spot {Spot} wall-light {Wall light} led-strip {LED strip} table-lamp {Table lamp} floor-lamp {Floor lamp} plug {Plug} sensor {Sensor} motion-sensor {Motion sensor} smoke-detector {Smoke detector} thermostat {Thermostat} speaker {Speaker} camera {Camera} lock {Lock} button {Button} vacuum {Robot vacuum} fan {Fan} tv {TV} radiator {Radiator} other {Device}}",
+    "context": "The name of a shape a device is drawn as on the floor plan.",
+    "params": {
+      "shape": "The shape."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.shapeLabel": {
+    "en": "Shape",
+    "context": "Label of the list of shapes a device can be drawn as.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.thermostat": {
+    "en": "Thermostat",
+    "context": "Label in a room’s panel: the thermostat whose temperature and target the room’s card shows.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.thermostatHint": {
+    "en": "On a dashboard the room shows its temperature and target, and a tap sets the target.",
+    "context": "Hint under the Thermostat field of a room’s panel.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.title": {
+    "en": "Devices",
+    "context": "Title of the editor’s side panel listing devices to place, and the Devices tool.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.where": {
+    "en": "Sits",
+    "context": "Label of the choice of where a device sits: on the ceiling, a wall, the floor, or as its room’s card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.editor.addLevel": {
+    "en": "Add a level",
+    "context": "Button that adds a level (a floor of the house) to the plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.addPicture": {
+    "en": "Add a picture",
+    "context": "Button that adds a picture to trace.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.area": {
+    "en": "{area} m²",
+    "context": "A floor area in square metres, such as \"33.6 m²\".",
+    "params": {
+      "area": "The area, already written with its decimal mark."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.back": {
+    "en": "Back to floor plans",
+    "context": "Button at the top left of the floor plan editor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.backToPlans": {
+    "en": "Floor plans",
+    "context": "Button back to the list of floor plans, where a floor plan couldn’t be opened.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.blank": {
+    "en": "Blank",
+    "context": "A way to start a new floor plan: one empty level.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.blankChoiceText": {
+    "en": "One empty level. Draw it yourself, or over a picture of your plan.",
+    "context": "Line under \"Blank\", the choice that starts with one empty level.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.blankText": {
+    "en": "Pick a shape and drag it to size, draw walls corner by corner, or trace a picture of your plan.",
+    "context": "Text on an empty level in the editor, above three buttons for those ways.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.blankTitle": {
+    "en": "Start with a room",
+    "context": "Heading on an empty level in the editor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes a dialog without doing anything.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.catalogueHint": {
+    "en": "Pick one, then click a wall, or drag it onto a wall. It slides along the wall and makes its own opening.",
+    "context": "Note above the doors or windows to put on a wall.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.catalogueItem": {
+    "en": "{item, select, door {Door} front-door {Front door} double-door {Double door} sliding-door {Sliding door} doorway {Doorway} wide-opening {Wide opening} small-window {Small window} window {Window} wide-window {Wide window} other {Window wall}}",
+    "context": "A door or window to put on a wall. A doorway is an opening without a door; a window wall is a window from floor to ceiling.",
+    "params": {
+      "item": "Which one."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.centimetres": {
+    "en": "Centimetres.",
+    "context": "Note: the sizes above are in centimetres.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.choosePicture": {
+    "en": "Choose a picture",
+    "context": "Button that opens the file chooser for a picture to trace.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.conflict": {
+    "en": "This plan was changed somewhere else. Your last changes aren’t saved.",
+    "context": "Banner in the editor when the plan was saved from another tab or device while it was being edited here.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.copyOuter": {
+    "en": "Copy the outer walls from {level}",
+    "context": "Button: draw the outer walls of the level below on this level, to start from.",
+    "params": {
+      "level": "The name of the level below."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.createFailed": {
+    "en": "Couldn’t make the plan. Check your connection and try again.",
+    "context": "Toast when making a new floor plan failed.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.createPlan": {
+    "en": "Create plan",
+    "context": "Button that makes the new floor plan and opens it in the editor.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.defaultPlanName": {
+    "en": "Our house",
+    "context": "The name a new floor plan starts with, which the person can change.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.delete": {
+    "en": "Delete",
+    "context": "Button that deletes the wall, door or window.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleteConfirm": {
+    "en": "Delete plan",
+    "context": "Button that deletes the floor plan, in the question before it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleteLevel": {
+    "en": "Delete level",
+    "context": "Button that deletes the level with what is drawn on it (undo brings it back).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deletePlan": {
+    "en": "Delete",
+    "context": "Tooltip of the button that deletes a floor plan (it asks first).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deletePlanNamed": {
+    "en": "Delete {name}",
+    "context": "Screen reader label of the button that deletes a floor plan (it asks first).",
+    "params": {
+      "name": "The floor plan’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleteRoom": {
+    "en": "Delete the room and its own walls",
+    "context": "Button that deletes a room with the walls it doesn’t share with another room.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleteText": {
+    "en": "Its levels, rooms, doors and windows go. The pictures you traced stay with your pictures.",
+    "context": "Text of the question before a floor plan is deleted.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleteTitle": {
+    "en": "Delete “{name}”?",
+    "context": "Title of the question before a floor plan is deleted.",
+    "params": {
+      "name": "The floor plan’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deleted": {
+    "en": "“{name}” is deleted",
+    "context": "Toast after a floor plan was deleted.",
+    "params": {
+      "name": "The floor plan’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.deletedElsewhere": {
+    "en": "This floor plan was deleted somewhere else.",
+    "context": "Toast when the floor plan being edited was deleted from another tab or device.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.emptyText": {
+    "en": "Draw the walls, rooms, doors and windows, starting from your Homey’s zones or over a picture of your plan. Later your lights, blinds and sensors show on it, live.",
+    "context": "Text under \"Your house, drawn\". Zones are the rooms as the person’s Homey (smart home hub) has them; a picture of a plan can be traced; showing devices on the plan comes later.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.emptyTitle": {
+    "en": "Your house, drawn",
+    "context": "Heading on the floor plans page before the person made any floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.faintness": {
+    "en": "Strength",
+    "context": "Slider: how strongly the picture shows under the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.finish": {
+    "en": "{finish, select, wood {Wood} tiles {Tiles} carpet {Carpet} stone {Stone} concrete {Concrete} other {Plain}}",
+    "context": "What a room’s floor is made of, shown as its colour on the plan.",
+    "params": {
+      "finish": "wood, tiles, carpet, stone, concrete or plain."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.fixRatio": {
+    "en": "Fix the ratio",
+    "context": "Button that scales the picture so both ways are right.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.flipHinge": {
+    "en": "Flip the hinge",
+    "context": "Button that moves a door’s hinge to its other side.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.flipSide": {
+    "en": "Open to the other side",
+    "context": "Button that makes a door open into the room on the other side of the wall.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.floor": {
+    "en": "Floor",
+    "context": "Label of what a room’s floor is made of.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.floorArea": {
+    "en": "Floor area",
+    "context": "Label of a room’s floor area.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.floorAt": {
+    "en": "Floor at",
+    "context": "Label: how high a level’s floor is above the ground floor’s.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.freeLimit": {
+    "en": "Free has room for {limit, plural, one {# floor plan} other {# floor plans}}. Go Pro for more, and to see them in 3D later.",
+    "context": "Banner on the floor plans page when the Free plan’s floor plans are used up. Free and Pro are plan names; 3D views of floor plans come in a later version.",
+    "params": {
+      "limit": "How many floor plans Free has room for, at least 1."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.fromZones": {
+    "en": "From your zones",
+    "context": "A way to start a new floor plan: a level for each floor of the person’s Homey, with its rooms ready to place. Zones are the rooms and floors as the Homey (smart home hub) has them.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.fromZonesNone": {
+    "en": "Your Homey has no floors among its zones.",
+    "context": "Line under \"From your zones\" when that can’t be used: the Homey (smart home hub) has no zones that hold other zones, such as floors.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.fromZonesText": {
+    "en": "{levels, plural, one {# level} other {# levels}} ({names}) with {rooms, plural, one {# room} other {# rooms}} to place.",
+    "context": "Line under \"From your zones\", such as \"2 levels (Ground floor, First floor) with 10 rooms to place.\"",
+    "params": {
+      "levels": "How many levels it makes.",
+      "names": "The names of those levels, from the Homey, separated by commas. Not translated.",
+      "rooms": "How many rooms are ready to place."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.gapAfter": {
+    "en": "To the corner after",
+    "context": "How far a door or window is from the corner at the end of its wall.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.gapBefore": {
+    "en": "To the corner before",
+    "context": "How far a door or window is from the corner at the start of its wall.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.goPro": {
+    "en": "Go Pro",
+    "context": "Button that opens the plan page to upgrade to Pro (the paid plan). Pro is a name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.groundFloor": {
+    "en": "Ground floor",
+    "context": "The name of the one level of a new blank floor plan, which the person can change.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.height": {
+    "en": "Height",
+    "context": "Label of a door’s or window’s height.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.hidePicture": {
+    "en": "Hide",
+    "context": "Button that hides the picture being traced.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.hints": {
+    "en": "{tool, select, select {Click: select; Shift-click: add · Drag: move · Drag over a room: select several · Arrow keys: nudge · Delete: remove · Space and drag: move the plan} room {Drag: draw the room to its size · R: turn it · Shift: no snapping · Esc or right-click: stop} wall {Click: place a corner · Type a length: the wall follows; Enter places it · Shift: no snapping · Esc or right-click: stop} door {Click a wall: place the door · F: open to the other side · Esc or right-click: stop} window {Click a wall: place the window · Esc or right-click: stop} measure {Click two points to measure between them · Esc or right-click: stop} furniture {Drag a piece from the panel onto the plan · R: turn it 15° · Shift: no lining up · Esc or right-click: stop} devices {Drag a device from the panel onto the plan, or pick it and click · Esc or right-click: stop} other {Drag: move the picture · Measure with two clicks when asked}}",
+    "context": "Hints along the foot of the editor for the tool in hand, parts separated by \" · \" (keep that separator). Keys (Delete, Space, R, Shift, Enter, Esc, F, the arrow keys) are keyboard keys; translate their names as keyboards in the language show them. \"Right-click\" is the right mouse button. \"Nudge\": move the selected items a little.",
+    "params": {
+      "tool": "select, room, wall, door, window, measure, furniture, devices or picture."
+    },
+    "maxLength": 300,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.howToStart": {
+    "en": "How to start",
+    "context": "Screen reader label of the two ways to start a new floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.inside": {
+    "en": "Inside",
+    "context": "Label of a room’s size inside its walls.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.keepMine": {
+    "en": "Keep mine",
+    "context": "Button in the banner: save the plan as it is here, over the changes made elsewhere.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.keepRatio": {
+    "en": "Keep it as it is",
+    "context": "Button that leaves the stretched picture as it is.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.kind": {
+    "en": "Kind",
+    "context": "Label of the kind of wall, door or window.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.length": {
+    "en": "Length",
+    "context": "Label of a wall’s length.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelDown": {
+    "en": "Move down",
+    "context": "Button: move the level one down among the levels.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelHeading": {
+    "en": "This level",
+    "context": "Heading of moving and deleting the level.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelUnits": {
+    "en": "Metres. A level’s floor is measured from the ground floor’s.",
+    "context": "Note under the wall height and floor height of a level.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelUp": {
+    "en": "Move up",
+    "context": "Button: move the level one up among the levels.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelZone": {
+    "en": "Floor",
+    "context": "Label of the Homey zone (a floor) a level stands for.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levelZoneHint": {
+    "en": "Its rooms are listed below to place.",
+    "context": "Hint under the level’s floor zone: the zones inside it are listed to place as rooms.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.levels": {
+    "en": "Levels",
+    "context": "Screen reader label of the tabs of the plan’s levels (floors of the house).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.lineUp": {
+    "en": "Line it up",
+    "context": "Heading of moving, turning and fading the picture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.lineUpPicture": {
+    "en": "Line up the picture",
+    "context": "Button that opens the steps of lining up the picture being traced.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.lineUpText": {
+    "en": "Drag the picture to move it; turn it and fade it here.",
+    "context": "Text under \"Line it up\".",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.loadFailed": {
+    "en": "Couldn’t load your floor plans. Check your connection and try again.",
+    "context": "Message when the list of floor plans could not be loaded.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.measureHint": {
+    "en": "Click two points to measure between them. Measuring leaves nothing on the plan.",
+    "context": "Text in the panel while the Measure tool is in hand.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.measureLengthField": {
+    "en": "The real length of this line in metres",
+    "context": "Screen reader label of the field where the real length of a line drawn over a picture is typed, to set the picture’s size.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.metresUnit": {
+    "en": "m",
+    "context": "The unit after a length field on the plan: metres, as its symbol.",
+    "maxLength": 4,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.missing": {
+    "en": "This floor plan isn’t there any more.",
+    "context": "Shown when the floor plan opened was deleted, or the address is wrong.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.name": {
+    "en": "Name",
+    "context": "Label of a name field (of a floor plan, a level or a room).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.newLevelName": {
+    "en": "Level {number}",
+    "context": "The name of a level just added to the plan, which the person can change.",
+    "params": {
+      "number": "Its place among the levels, 2 or more."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.newPlan": {
+    "en": "New plan",
+    "context": "Button that starts a new floor plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.newPlanTitle": {
+    "en": "New floor plan",
+    "context": "Title of the dialog that starts a new floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.noZone": {
+    "en": "No zone",
+    "context": "Choice for a room or level that stands for none of the Homey’s zones.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.noZoneHint": {
+    "en": "A room of its own: stairs, a landing",
+    "context": "Hint next to \"No zone\" in the zone list.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.onPlan": {
+    "en": "On the plan",
+    "context": "A zone that already has its room on the plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.openPlan": {
+    "en": "Open {name}",
+    "context": "Screen reader label of a floor plan’s card, which opens it in the editor.",
+    "params": {
+      "name": "The floor plan’s name, such as \"Our house\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.panelTitle": {
+    "en": "{mode, select, level {Level} room {Room} wall {Wall} opening {{kind, select, window {Window} opening {Opening} other {Door}}} doors {Doors} windows {Windows} walls {Walls} picture {Picture to trace} furniture {Furniture} item {Furniture} items {Selection} devices {Devices} device {Device} other {Measure}}",
+    "context": "Title of the editor’s side panel: what is selected (a level, room, wall, door, window or opening in a wall), or what the tool in hand needs.",
+    "params": {
+      "kind": "For an opening: door, double-door, sliding, window or opening.",
+      "mode": "level, room, wall, opening, doors, windows, walls (the Wall tool’s settings), picture, furniture (the catalogue), item (a piece of furniture), items (several pieces and devices selected at once), devices (the Devices tool’s list), device (a placed device) or measure."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.paused": {
+    "en": "This plan is paused: your plan has room for fewer floor plans. You can look, not change it.",
+    "context": "Banner in the editor on a paused floor plan: the Free plan has room for fewer floor plans than the person has.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.pausedBadge": {
+    "en": "Paused",
+    "context": "Badge on a floor plan that is kept but can’t be changed: the Free plan has room for fewer plans than the person has.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.phone": {
+    "en": "Floor plans are drawn on a tablet or computer. Here you can look around.",
+    "context": "Banner in the editor on a phone, where the plan shows but can’t be edited.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.pictureAdded": {
+    "en": "Picture added",
+    "context": "Step 1 done: the picture was added.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.pictureFailed": {
+    "en": "Couldn’t add that picture. Use a PNG, JPEG or WebP of 2 MB at most.",
+    "context": "Toast when uploading a picture to trace failed. PNG, JPEG and WebP are file types.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.pictureHeading": {
+    "en": "Picture to trace",
+    "context": "Heading in the level’s panel: a picture of a plan shown faintly to draw over.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.pictureIntro": {
+    "en": "A scan, a photo of a drawing or an estate agent’s plan, shown faintly under this level to draw over.",
+    "context": "Text under \"Picture to trace\" before a picture was added.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.place": {
+    "en": "Place",
+    "context": "Button next to a zone: place its room on the plan with the Room tool.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.placing": {
+    "en": "Placing…",
+    "context": "A zone whose room is being placed now: the next shape placed becomes it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.planFacts": {
+    "en": "{levels, plural, one {# level} other {# levels}} · {rooms, plural, one {# room} other {# rooms}} · edited {edited}",
+    "context": "Line under a floor plan’s name on its card, such as \"3 levels · 13 rooms · edited 17 Oct\".",
+    "params": {
+      "edited": "The day it last changed, already written as a short date, such as \"17 Oct\".",
+      "levels": "How many levels (floors of the house) the plan has.",
+      "rooms": "How many rooms are drawn on it in all."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.planLabel": {
+    "en": "{level}, {rooms, plural, one {# room} other {# rooms}}",
+    "context": "Screen reader label of the drawing of a level.",
+    "params": {
+      "level": "The level’s name.",
+      "rooms": "How many rooms it has."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.planName": {
+    "en": "Name of the floor plan",
+    "context": "Screen reader label of the plan’s name, which can be typed over at the top of the editor.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.plansIntro": {
+    "en": "Draw {homey}’s rooms, level by level, to show them on your dashboards.",
+    "context": "Line under the title of the floor plans page. A level is a floor of the house (ground floor, first floor).",
+    "params": {
+      "homey": "The name of the person’s Homey (smart home hub), such as \"Home\". Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.plansTitle": {
+    "en": "Floor plans",
+    "context": "Title of the page listing the person’s floor plans (drawings of their house).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.preview3d": {
+    "en": "3D preview",
+    "context": "Tooltip and label of a switch in the floor plan editor’s top bar: shows the level being drawn in 3D, as a dollhouse you can turn, instead of the drawing.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.preview3dReset": {
+    "en": "Back to the start view",
+    "context": "Button on the 3D preview: turns the house back to how it was first shown.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.preview3dUnsupported": {
+    "en": "This screen can’t draw the house in 3D.",
+    "context": "Shown instead of the 3D preview on a browser without WebGL 2.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.ratioFine": {
+    "en": "Done",
+    "context": "Button when step 3 found the picture right.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.redo": {
+    "en": "Redo",
+    "context": "Button that does again what was undone.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.removePicture": {
+    "en": "Remove",
+    "context": "Button that takes the picture off this level (it stays among your pictures).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.roomHint": {
+    "en": "Drag a corner to change the room, or type a wall’s length; the rooms beside it follow.",
+    "context": "Hint in a room’s panel.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.roomShape": {
+    "en": "Room shape",
+    "context": "Screen reader label of the shapes the Room tool places.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.roomTapsHeading": {
+    "en": "On a dashboard",
+    "context": "Heading in a room’s panel, above what tapping, holding and double tapping the room does on a Floor plan tile of a dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.roomTapsHint": {
+    "en": "What touching this room does on a Floor plan tile. Every tile showing this plan does the same.",
+    "context": "Line under the heading \"On a dashboard\" in a room’s panel.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.roomsIn": {
+    "en": "Rooms in {zone}",
+    "context": "Heading of the Homey zones inside this level’s floor, to place as rooms.",
+    "params": {
+      "zone": "The floor zone’s name, such as \"Ground floor\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.saveState": {
+    "en": "{state, select, saved {Saved} saving {Saving…} offline {Not saved: offline} other {Not saved yet}}",
+    "context": "What the top bar of the editor says about saving, which happens by itself: saved, saving now, not saved because there is no connection, or changes not saved yet.",
+    "params": {
+      "state": "saved, saving, offline or anything else for changes waiting."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.shapeLabel": {
+    "en": "{name} · {width} × {depth}",
+    "context": "Label on a room shape while it is being placed, such as \"Kitchen · 3.80 m × 5.80 m\".",
+    "params": {
+      "depth": "Its depth inside with its unit.",
+      "name": "The room’s name, or \"Room\".",
+      "width": "Its width inside with its unit."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.shapeName": {
+    "en": "{shape, select, rectangle {Rectangle} l {L-shape} u {U-shape} other {T-shape}}",
+    "context": "A shape for a new room, by the letter it looks like.",
+    "params": {
+      "shape": "rectangle, l, u or t."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.show": {
+    "en": "Show on the plan",
+    "context": "Screen reader label of the switches for what the plan shows: grid, lengths, picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.showBelow": {
+    "en": "Show {level} underneath",
+    "context": "Switch: show the level below faintly, to draw over it.",
+    "params": {
+      "level": "The name of the level below, such as \"Ground floor\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.showGrid": {
+    "en": "Grid",
+    "context": "Switch: show the grid under the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.showLengths": {
+    "en": "Lengths",
+    "context": "Switch: show the lengths of the walls on the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.showPicture": {
+    "en": "Show",
+    "context": "Button that shows the hidden picture again.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.showPictureToggle": {
+    "en": "Picture",
+    "context": "Switch: show the picture being traced under the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.sill": {
+    "en": "Sill",
+    "context": "Label of how high a window starts above the floor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.size": {
+    "en": "{width} × {depth}",
+    "context": "A room’s size inside its walls, such as \"5.80 m × 4.10 m\".",
+    "params": {
+      "depth": "The depth with its unit.",
+      "width": "The width with its unit."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.skipRatio": {
+    "en": "Skip",
+    "context": "Button that skips step 3 (checking the picture the other way).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.snapping": {
+    "en": "Snap · hold Shift to switch it",
+    "context": "Tooltip and label of a switch in the floor plan editor’s top bar: whether what you draw or move lines up with the grid, walls, corners and furniture. Holding the Shift key switches it the other way for as long as the key is held: off when it is on, on when it is off.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.split": {
+    "en": "Split",
+    "context": "Button that splits a wall in two at its middle.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepAdd": {
+    "en": "Add a picture",
+    "context": "Step 1 of lining up a picture to trace.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepAddText": {
+    "en": "A scan or a photo of a plan, PNG, JPEG or WebP. It stays in the editor and never shows on a dashboard.",
+    "context": "Text of step 1. PNG, JPEG and WebP are file types; keep them.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepRatio": {
+    "en": "Check it the other way",
+    "context": "Step 3 of lining up a picture to trace: measure across the first line.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepRatioText": {
+    "en": "A scan is often a little stretched. Measure a length across the first one to check.",
+    "context": "Text of step 3 of lining up a picture: measure a second line across the first one.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepScale": {
+    "en": "Set its size",
+    "context": "Step 2 of lining up a picture to trace.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stepScaleText": {
+    "en": "Draw a line over something you know the length of, a wall or the scale bar, and type how long it really is.",
+    "context": "Text of step 2: two clicks draw the line, then its real length is typed on it.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.stretched": {
+    "en": "The picture is {percent}% {way, select, wider {wider} other {narrower}} than it should be.",
+    "context": "Step 3 found the picture stretched: how much wider or narrower than tall it is compared with the real house.",
+    "params": {
+      "percent": "The difference, a whole number of percent.",
+      "way": "wider or narrower."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.takeTheirs": {
+    "en": "Show the other changes",
+    "context": "Button in the banner: drop the changes made here and load the plan as saved elsewhere.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.thickness": {
+    "en": "Thickness",
+    "context": "Label of a wall’s thickness.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.thicknessCustom": {
+    "en": "Thickness in centimetres",
+    "context": "Label of the field where a thickness for new walls is typed instead of a ready-made one.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.thicknessPreset": {
+    "en": "{preset, select, thin {Thin} medium {Medium} other {Thick}}",
+    "context": "A ready-made thickness for new walls: thin (10 cm, inside walls), medium (20 cm) or thick (30 cm, outside walls).",
+    "params": {
+      "preset": "thin, medium or thick."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.tool": {
+    "en": "{tool, select, select {Select and move} room {Room from a shape} wall {Draw walls} door {Doors} window {Windows} measure {Measure} furniture {Furniture} devices {Devices} other {Picture to trace}}",
+    "context": "A tool of the floor plan editor: select and move things, place a room from a shape, draw walls corner by corner, put doors or windows on walls, measure, place furniture, or a picture of a plan to trace.",
+    "params": {
+      "tool": "select, room, wall, door, window, measure, furniture, devices or picture."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.toolKey": {
+    "en": "{tool, select, select {Select and move} room {Room from a shape} wall {Draw walls} door {Doors} window {Windows} measure {Measure} furniture {Furniture} devices {Devices} other {Picture to trace}} ({key})",
+    "context": "Tooltip of a tool, with the key on the keyboard that picks it, such as \"Draw walls (W)\".",
+    "params": {
+      "key": "A letter key. Not translated.",
+      "tool": "select, room, wall, door, window, measure, furniture, devices or picture."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.tools": {
+    "en": "Tools",
+    "context": "Screen reader label of the editor’s tools.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.tracePicture": {
+    "en": "Trace a picture",
+    "context": "Button on an empty level: add a picture of a plan to draw over.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.tryAgain": {
+    "en": "Try again",
+    "context": "Button that loads the floor plans again after it failed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.turn": {
+    "en": "Turn",
+    "context": "Slider: turn the picture a little, in degrees.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.undo": {
+    "en": "Undo",
+    "context": "Button that undoes the last change to the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.unnamedRoom": {
+    "en": "Room",
+    "context": "Shown for a room that has no name yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.uploading": {
+    "en": "Adding the picture…",
+    "context": "Shown while a picture of a plan is being uploaded to trace.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallHeight": {
+    "en": "Wall height",
+    "context": "Label: how tall a level’s walls are.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallKind": {
+    "en": "{kind, select, wall {Wall} low {Low} railing {Railing} other {None}}",
+    "context": "A kind of wall: a full wall, a low wall, a railing (around stairs), or none (only a line dividing two rooms).",
+    "params": {
+      "kind": "wall, low, railing or invisible."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallKindNote": {
+    "en": "{kind, select, low {A knee wall or a half wall: drawn lighter, lower in 3D.} railing {Around stairs or a landing.} invisible {Divides two rooms without a wall, as an open kitchen.} other {Full height, {height} on this level.}}",
+    "context": "Note under the kind of wall saying what it is.",
+    "params": {
+      "height": "The level’s wall height with its unit, such as \"2.60 m\".",
+      "kind": "wall, low, railing or invisible."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallLengthField": {
+    "en": "Length of this wall in metres",
+    "context": "Screen reader label of the field on the plan where a wall’s length is typed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallToolHint": {
+    "en": "New walls are drawn this thick, at most 40 m long. To change one wall, select it with the cursor.",
+    "context": "Note in the Wall tool’s panel, under the thickness for new walls.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.wallUnits": {
+    "en": "Length in metres along the wall’s middle, thickness in centimetres.",
+    "context": "Note under a wall’s length and thickness.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.where": {
+    "en": "{level} · {rooms, plural, one {# room} other {# rooms}}",
+    "context": "At the end of the hints line: the level shown and how many rooms it has.",
+    "params": {
+      "level": "The level’s name, such as \"Ground floor\".",
+      "rooms": "How many rooms."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.width": {
+    "en": "Width",
+    "context": "Label of a door’s or window’s width.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.zone": {
+    "en": "Zone",
+    "context": "Label of the Homey zone a room stands for.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.zoneHint": {
+    "en": "Its devices can be placed once devices come to the plan.",
+    "context": "Hint under a room’s zone: placing devices on the plan comes in a later version.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.zoomFit": {
+    "en": "Fit the level",
+    "context": "Button that zooms so the whole level (floor of the house) fits.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.zoomIn": {
+    "en": "Zoom in",
+    "context": "Button that zooms in on the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.editor.zoomOut": {
+    "en": "Zoom out",
+    "context": "Button that zooms out of the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
+  "floorplans.furniture.depth": {
+    "en": "Depth",
+    "context": "Label of a piece of furniture’s depth (front to back), in cm.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.deviceGroup": {
+    "en": "{group, select, lights {Lights} other {Plugs, sensors and more}}",
+    "context": "Heading of a group of the furniture catalogue for devices’ shapes (F9: one catalogue for furniture and devices). Any piece can show a device; these are shaped like the devices themselves.",
+    "params": {
+      "group": "lights or other."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.elevation": {
+    "en": "Above the floor",
+    "context": "Label of the height of a piece hung on a wall (a TV, a shelf): from the floor to its bottom, in cm.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.group": {
+    "en": "{group, select, living {Living room} dining {Dining} kitchen {Kitchen} bedroom {Bedroom} bathroom {Bathroom and laundry} office {Office} hallway {Hallway} outside {Outside and garage} other {Anything else}}",
+    "context": "Heading of a group of the furniture catalogue: the room the furniture is for. \"Anything else\" holds a plain box and cylinder the person names themselves.",
+    "params": {
+      "group": "living, dining, kitchen, bedroom, bathroom, office, hallway, outside or other."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.height": {
+    "en": "Height",
+    "context": "Label of a piece of furniture’s own height, in cm.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.hint": {
+    "en": "Drag a piece onto the plan. It lines up against walls and other furniture; turn it with R.",
+    "context": "Line at the top of the furniture catalogue panel. R is the R key on the keyboard.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.item": {
+    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV on the wall} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} other {Furniture}}",
+    "context": "The name of a piece of furniture in the catalogue and on its panel. A hob is the cooking top with its burners; a cot is a baby’s bed with bars.",
+    "params": {
+      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, chair, sideboard, counter, sink-unit, hob-unit, fridge, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.name": {
+    "en": "Name",
+    "context": "Label of the field naming a plain box or cylinder placed on the plan, such as \"Piano\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.namePlaceholder": {
+    "en": "For example: piano",
+    "context": "Placeholder of the name field of a plain box or cylinder on the floor plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.nothingFound": {
+    "en": "No furniture called that.",
+    "context": "Shown in the furniture catalogue when the search finds nothing.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.onCeiling": {
+    "en": "On the ceiling",
+    "context": "Small tag beside a device’s shape in the catalogue that goes on the ceiling (a ceiling light, a smoke detector).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.onWall": {
+    "en": "On a wall",
+    "context": "Small tag beside a piece of furniture in the catalogue that hangs on a wall (a TV, a radiator, a shelf).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.remove": {
+    "en": "Remove",
+    "context": "Button that removes the selected piece of furniture from the plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.search": {
+    "en": "Find furniture",
+    "context": "Placeholder and label of the search field above the furniture catalogue.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.show": {
+    "en": "Furniture",
+    "context": "Toggle in the editor’s top bar that shows or hides the furniture on the plan, for drawing walls without it in the way.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.size": {
+    "en": "{w} × {d} cm",
+    "context": "The size of a piece of furniture under its name in the catalogue: width × depth.",
+    "params": {
+      "d": "Depth in centimetres.",
+      "w": "Width in centimetres."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.title": {
+    "en": "Furniture",
+    "context": "Title of the editor’s side panel with the furniture catalogue, and the name of the Furniture tool.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.turn": {
+    "en": "Turned",
+    "context": "Label of how far a piece of furniture is turned, in degrees, with buttons to turn it 15° either way.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.turnLeft": {
+    "en": "Turn 15° left",
+    "context": "Button that turns the selected piece of furniture 15 degrees anticlockwise.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.turnRight": {
+    "en": "Turn 15° right",
+    "context": "Button that turns the selected piece of furniture 15 degrees clockwise.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.wallHint": {
+    "en": "Hangs on the wall. Drag it along the wall to move it.",
+    "context": "Note in the panel of a piece of furniture hung on a wall.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.width": {
+    "en": "Width",
+    "context": "Label of a piece of furniture’s width, in cm.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.lineUp.align": {
+    "en": "Line up",
+    "context": "Heading over six buttons that line the selected items up on one edge or their middles.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.alignEdge": {
+    "en": "{edge, select, left {Left edges} centre {Horizontal centres} right {Right edges} top {Top edges} middle {Vertical centres} other {Bottom edges}}",
+    "context": "Tooltip of a button lining the selected items up: on their left edges, centred horizontally (their middles on one vertical line), on their right edges, their top edges, centred vertically (their middles on one horizontal line), or their bottom edges.",
+    "params": {
+      "edge": "left, centre (centred horizontally), right, top, middle (centred vertically) or bottom."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.cmUnit": {
+    "en": "cm",
+    "context": "The unit after a distance field: centimetres, as its symbol.",
+    "maxLength": 4,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.distances": {
+    "en": "Distance to the walls",
+    "context": "Heading over four fields with a selected item’s distance to the nearest wall each way.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.distancesHint": {
+    "en": "Type a distance to move it there. The arrow keys nudge it 1 cm, 10 cm with Shift.",
+    "context": "Line under the distance fields.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.noWall": {
+    "en": "No wall",
+    "context": "Shown in a distance field when there is no wall that way.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.remove": {
+    "en": "Delete {count, plural, one {# item} other {# items}}",
+    "context": "Button that deletes all selected items from the plan.",
+    "params": {
+      "count": "How many items are selected."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.several": {
+    "en": "{count, plural, one {# item} other {# items}}",
+    "context": "Title of the side panel when several items (furniture and devices) are selected.",
+    "params": {
+      "count": "How many items are selected (two or more)."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.severalHint": {
+    "en": "Drag one to move them together. Shift-click adds or takes one.",
+    "context": "Line at the top of the panel for several selected items.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.side": {
+    "en": "{side, select, left {Left} right {Right} up {Above} other {Below}}",
+    "context": "Label of one distance field: the wall to the left of the item, to the right, above it or below it on the plan.",
+    "params": {
+      "side": "left, right, up (above the item) or down (below it)."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.space": {
+    "en": "Space evenly",
+    "context": "Heading over two buttons that put equal gaps between three or more selected items.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.spaceAxis": {
+    "en": "{axis, select, x {Left to right} other {Top to bottom}}",
+    "context": "Tooltip of a button spacing the selected items evenly, across or up and down the plan.",
+    "params": {
+      "axis": "x (left to right) or y (top to bottom)."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.lineUp.spaceNeedsThree": {
+    "en": "Select three or more to space them.",
+    "context": "Shown instead of the spacing buttons when only two items are selected.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  }
+}

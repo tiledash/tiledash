@@ -89,9 +89,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.extraPinAdded": {
+    "text": "PIN {name} hinzugefügt",
+    "source": "6c53d4c833",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "Die PIN konnte nicht gespeichert werden.",
     "source": "c207f0554d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinNameTaken": {
+    "text": "Eine andere PIN hat bereits diesen Namen.",
+    "source": "77e6b3e768",
     "by": "ai",
     "reviewed": false
   },
@@ -104,6 +116,12 @@
   "account.actions.pinSaved": {
     "text": "PIN gespeichert",
     "source": "fd87ef1a5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinTaken": {
+    "text": "Diese PIN wird schon verwendet. Wählen Sie andere Ziffern.",
+    "source": "96844ac9c0",
     "by": "ai",
     "reviewed": false
   },
@@ -1092,8 +1110,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# Design} other {# Designs}}} presets {{count, plural, one {# Stilvorlage} other {# Stilvorlagen}}} widgets {{count, plural, one {# Widget oder Partial} other {# Widgets und Partials}}} pictures {{count, plural, one {# Bild} other {# Bilder}}} testDevices {{count, plural, one {# Testgerät} other {# Testgeräte}}} other {{count, plural, one {# Aufzeichnung} other {# Aufzeichnungen}}}}",
-    "source": "d5339b17f9",
+    "text": "{key, select, themes {{count, plural, one {# Design} other {# Designs}}} presets {{count, plural, one {# Stilvorlage} other {# Stilvorlagen}}} widgets {{count, plural, one {# Widget oder Partial} other {# Widgets und Partials}}} pictures {{count, plural, one {# Bild} other {# Bilder}}} testDevices {{count, plural, one {# Testgerät} other {# Testgeräte}}} floorPlans {{count, plural, one {# Grundriss} other {# Grundrisse}}} other {{count, plural, one {# Aufzeichnung} other {# Aufzeichnungen}}}}",
+    "source": "fb051db92d",
     "by": "ai",
     "reviewed": false
   },
@@ -1116,8 +1134,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Ihr Tarif hat Platz für {room} Dashboards; Sie haben {have} und {adding} gewählt.} recordings {Ihr Tarif hat Platz für {room} Aufzeichnungen; Sie haben {have} und {adding} gewählt.} themes {Ihr Tarif hat Platz für {room} eigene Designs; Sie haben {have} und {adding} gewählt.} widgets {Ihr Tarif hat Platz für {room} eigene Widgets; Sie haben {have} und {adding} gewählt.} other {Ihr Tarif hat Platz für {room} Bilder; Sie haben {have} und {adding} gewählt.}}",
-    "source": "52b2eed793",
+    "text": "{key, select, dashboards {Ihr Tarif hat Platz für {room} Dashboards; Sie haben {have} und {adding} gewählt.} recordings {Ihr Tarif hat Platz für {room} Aufzeichnungen; Sie haben {have} und {adding} gewählt.} themes {Ihr Tarif hat Platz für {room} eigene Designs; Sie haben {have} und {adding} gewählt.} widgets {Ihr Tarif hat Platz für {room} eigene Widgets; Sie haben {have} und {adding} gewählt.} floorPlans {Ihr Tarif hat Platz für {room} Grundrisse; Sie haben {have} und {adding} gewählt.} other {Ihr Tarif hat Platz für {room} Bilder; Sie haben {have} und {adding} gewählt.}}",
+    "source": "934ae6bc1f",
     "by": "ai",
     "reviewed": false
   },
@@ -1394,6 +1412,90 @@
   "account.delete.word": {
     "text": "löschen",
     "source": "6197595503",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.add": {
+    "text": "PIN hinzufügen",
+    "source": "a661c3bbe1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.lead": {
+    "text": "Geben Sie jemandem eine eigene PIN, etwa den Kindern für die Haustür. Jede Aktion, die nach einer PIN fragt, sagt, welche sie annimmt; Ihre gilt immer.",
+    "source": "8156fef6d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.name": {
+    "text": "Name",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.namePlaceholder": {
+    "text": "Kinder",
+    "source": "8f5abd926d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.nameTaken": {
+    "text": "Eine andere PIN hat bereits diesen Namen.",
+    "source": "77e6b3e768",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.none": {
+    "text": "Noch keine weiteren PINs.",
+    "source": "7c9be0f181",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewNone": {
+    "text": "Noch fragt nichts nach einer PIN. Wählen Sie Aktionen in den Details eines Geräts.",
+    "source": "348a5151b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewOpen": {
+    "text": "{device} öffnen",
+    "source": "2f9be586ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewTitle": {
+    "text": "Was nach einer PIN fragt",
+    "source": "88f6891cec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewYours": {
+    "text": "Ihre PIN",
+    "source": "b42a6aa196",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeBody": {
+    "text": "Aktionen, die sie annahmen, fragen dann nur noch nach Ihrer eigenen PIN.",
+    "source": "bdfe07af6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeTitle": {
+    "text": "{name} entfernen?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.title": {
+    "text": "Weitere PINs",
+    "source": "9ee6062290",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.usedBy": {
+    "text": "{count, plural, =0 {Noch von nichts verwendet} one {Von # Aktion verwendet} other {Von # Aktionen verwendet}}",
+    "source": "59126fc615",
     "by": "ai",
     "reviewed": false
   },
@@ -3035,6 +3137,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowFloorPlans": {
+    "text": "Grundrisse",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowFloorPlans3d": {
+    "text": "Grundrisse in 3D",
+    "source": "84842af5d7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homeys",
     "source": "ecc1293aa7",
@@ -3506,6 +3620,12 @@
   "account.shareDialog.done": {
     "text": "Fertig",
     "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.floorPlans": {
+    "text": "Grundriss-Kacheln zeigen jedem mit dem Link die Aufteilung Ihres Hauses und seine Lampen, Türen und Schlösser.",
+    "source": "16d9d1eafb",
     "by": "ai",
     "reviewed": false
   },

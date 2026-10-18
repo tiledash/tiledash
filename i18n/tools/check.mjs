@@ -26,7 +26,8 @@ var I18N_BUNDLES = [
   "code",
   "devices",
   "account",
-  "community"
+  "community",
+  "floorplans"
 ];
 
 // packages/shared/src/i18n/messageSyntax.ts
@@ -292,6 +293,7 @@ var SOURCE_DIR = "source";
 var LOCALES_DIR = "locales";
 var STYLE_DIR = "style";
 var GLOSSARY_FILE = "glossary.yaml";
+var LANGUAGES_FILE = "languages.yaml";
 function sourcePath(bundle) {
   return `${SOURCE_DIR}/${bundle}.json`;
 }
@@ -529,28 +531,64 @@ function glossaryPreferredRule(data2) {
   return problems2;
 }
 
+// packages/i18n-tools/src/check/rules/shownLength.ts
+function lengthOf(nodes) {
+  let length = 0;
+  for (const node2 of nodes) {
+    switch (node2.type) {
+      case "text":
+        length += node2.value.length;
+        break;
+      case "arg":
+      case "number":
+        length += node2.name.length + 2;
+        break;
+      case "pound":
+        length += 1;
+        break;
+      case "tag":
+        length += lengthOf(node2.children);
+        break;
+      case "plural":
+      case "select":
+        length += Math.max(0, ...Object.values(node2.branches).map(lengthOf));
+        break;
+    }
+  }
+  return length;
+}
+function shownLength(text2) {
+  try {
+    return lengthOf(parseMessage(text2));
+  } catch {
+    return text2.length;
+  }
+}
+
 // packages/i18n-tools/src/check/rules/maxLength.ts
 function maxLengthRule(data2) {
   const problems2 = [];
   for (const { file: file2, id, entry } of sourceMessagesOf(data2)) {
-    if (entry.maxLength !== void 0 && entry.en.length > entry.maxLength) {
+    const length = shownLength(entry.en);
+    if (entry.maxLength !== void 0 && length > entry.maxLength) {
       problems2.push({
         severity: "error",
         rule: "maxLength",
         file: file2,
         key: id,
-        message: `English is ${entry.en.length} characters, over its maxLength of ${entry.maxLength}`
+        message: `English is ${length} characters, over its maxLength of ${entry.maxLength}`
       });
     }
   }
   for (const { file: file2, id, entry, source } of translationsOf(data2)) {
-    if (source.maxLength !== void 0 && entry.text.length > source.maxLength) {
+    const length = shownLength(entry.text);
+    if (source.maxLength !== void 0 && length > source.maxLength) {
       problems2.push({
         severity: "error",
         rule: "maxLength",
         file: file2,
         key: id,
-        message: `text is ${entry.text.length} characters, over the maxLength of ${source.maxLength}`
+        message: `text is ${length} characters, over the maxLength of ${source.maxLength}`
       });
     }
   }
@@ -894,6 +932,12 @@ function unknownNamesRule(data2) {
   for (const language of Object.keys(data2.style).sort()) {
     if (LANGUAGES.indexOf(language) < 0)
       error2(stylePath(language), `unknown language "${language}"`);
+  }
+  for (const language of data2.languages?.released ?? []) {
+    if (!isTranslatedLanguage(language)) {
+      const known = LANGUAGES.filter((name) => name !== "en").join(", ");
+      error2(LANGUAGES_FILE, `unknown language "${language}" in released (${known})`);
+    }
   }
   return problems2;
 }
@@ -19610,6 +19654,11 @@ var glossarySchema = external_exports.strictObject({
   terms: external_exports.array(glossaryTermSchema)
 });
 
+// packages/i18n-tools/src/files/languagesFile.ts
+var languagesFileSchema = external_exports.strictObject({
+  released: external_exports.array(external_exports.string())
+});
+
 // packages/i18n-tools/src/files/localeFile.ts
 var localeEntrySchema = external_exports.strictObject({
   text: external_exports.string(),
@@ -19695,6 +19744,9 @@ function readI18n(dir2) {
   }
   if (existsSync(join(dir2, GLOSSARY_FILE))) {
     data2.glossary = load(GLOSSARY_FILE, (text2) => glossarySchema.parse(parse(text2)));
+  }
+  if (existsSync(join(dir2, LANGUAGES_FILE))) {
+    data2.languages = load(LANGUAGES_FILE, (text2) => languagesFileSchema.parse(parse(text2)));
   }
   for (const language of names(join(dir2, STYLE_DIR), ".md")) {
     const guide = load(stylePath(language), parseStyleGuide);

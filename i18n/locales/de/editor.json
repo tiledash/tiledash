@@ -2555,6 +2555,54 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.floorPlanSetting.gone": {
+    "text": "Der Grundriss dieser Kachel ist nicht mehr da. Wählen Sie einen anderen.",
+    "source": "536f44efb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.level": {
+    "text": "Etage",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.none": {
+    "text": "Noch keine Grundrisse für diesen Homey. Zeichnen Sie Ihr Haus zuerst unter „Grundrisse“.",
+    "source": "83d18ebe65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.paused": {
+    "text": "Pausiert",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.plan": {
+    "text": "Grundriss",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.show": {
+    "text": "Anzeigen",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.showHint": {
+    "text": "Ein Raum füllt die Kachel und die Räume daneben verblassen.",
+    "source": "e0113bdbec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.wholeLevel": {
+    "text": "Die ganze Etage",
+    "source": "98f14a9dde",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.followDesktop.description": {
     "text": "Die eigene Anordnung für {size} wird verworfen. {size} zeigt wieder {kind, select, phone {die Kacheln von {desktop} in einer Spalte} other {die Anordnung von {desktop}}} und folgt jeder Änderung auf {desktop}.",
     "source": "91b8811dd8",
@@ -5255,6 +5303,90 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.settingKinds.addGesture": {
+    "text": "{gesture, select, hold {Halten hinzufügen} double {Doppeltipp hinzufügen} other {Tippen hinzufügen}}",
+    "source": "92e65a804f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.change": {
+    "text": "Änderung",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.changeTitle": {
+    "text": "Wert eines Steuerelements geändert",
+    "source": "d1bed35b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.double": {
+    "text": "Doppeltippen",
+    "source": "b7f18903d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.doubleTitle": {
+    "text": "Zweimal schnell tippen",
+    "source": "3fda227ba6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.fewer": {
+    "text": "Weniger: {label}",
+    "source": "f52358ccc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.hold": {
+    "text": "Halten",
+    "source": "8e685d5409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.holdLabel": {
+    "text": "Halten: {label}",
+    "source": "3a146b9077",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.holdTitle": {
+    "text": "Langes Drücken",
+    "source": "6dfc711f9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.more": {
+    "text": "Mehr: {label}",
+    "source": "4e85cb8153",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.nothingElse": {
+    "text": "Dieses Gerät hat nichts weiter zu zeigen.",
+    "source": "42693184c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.range": {
+    "text": "Zeitraum",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.tap": {
+    "text": "Tippen",
+    "source": "464d23b54f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.tapTitle": {
+    "text": "Kurz tippen",
+    "source": "9aca73badf",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Hinzufügen",
     "source": "9fd728c66c",
@@ -6452,6 +6584,102 @@
   "editor.tabSearch.none": {
     "text": "Nichts in {tab} passt zu „{query}“.",
     "source": "d63d5a151f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.camera": {
+    "text": "Kamera öffnen",
+    "source": "4adab8263a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.dashboard": {
+    "text": "Dashboard öffnen",
+    "source": "07151dee4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.device": {
+    "text": "Gerät öffnen",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.flow": {
+    "text": "Flow starten",
+    "source": "54ef6dbaec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.history": {
+    "text": "Verlauf anzeigen",
+    "source": "5b597be490",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.mood": {
+    "text": "Stimmung setzen",
+    "source": "f11565423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.none": {
+    "text": "Nichts",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range12h": {
+    "text": "12 h",
+    "source": "ff627200d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range1y": {
+    "text": "Ein Jahr",
+    "source": "98a6011672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range24h": {
+    "text": "24 h",
+    "source": "f0514e8df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range30d": {
+    "text": "30 Tage",
+    "source": "ffd7280513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range6h": {
+    "text": "6 h",
+    "source": "4105ae3b8a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range7d": {
+    "text": "7 Tage",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.toggle": {
+    "text": "Ein- oder ausschalten",
+    "source": "f62f512676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.variable": {
+    "text": "Variable setzen",
+    "source": "a6662a3ab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.widget": {
+    "text": "Was das Widget tut",
+    "source": "c84f94dfe0",
     "by": "ai",
     "reviewed": false
   },
@@ -8570,6 +8798,18 @@
   "editor.widgetPicker.communityLooks": {
     "text": "Aussehen aus der Community",
     "source": "1c76774fea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.everyLevel": {
+    "text": "Alle Etagen von „{plan}“",
+    "source": "4398aa59aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.everyLevelDetail": {
+    "text": "Ein Stapel mit je einem Grundriss für alle {count} Etagen",
+    "source": "ae9af4950f",
     "by": "ai",
     "reviewed": false
   },

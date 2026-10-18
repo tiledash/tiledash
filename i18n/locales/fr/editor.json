@@ -2555,6 +2555,54 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.floorPlanSetting.gone": {
+    "text": "Le plan d’étage de cette tuile n’existe plus. Choisissez-en un autre.",
+    "source": "536f44efb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.level": {
+    "text": "Niveau",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.none": {
+    "text": "Pas encore de plan d’étage pour ce Homey. Dessinez d’abord votre maison dans « Plans d’étage ».",
+    "source": "83d18ebe65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.paused": {
+    "text": "En pause",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.plan": {
+    "text": "Plan d’étage",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.show": {
+    "text": "Afficher",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.showHint": {
+    "text": "Une pièce remplit la tuile et les pièces autour s’estompent.",
+    "source": "e0113bdbec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.floorPlanSetting.wholeLevel": {
+    "text": "Tout le niveau",
+    "source": "98f14a9dde",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.followDesktop.description": {
     "text": "La disposition {size} est supprimée. La taille {size} affiche de nouveau {kind, select, phone {les tuiles de la disposition {desktop} sur une colonne} other {la disposition {desktop}}} et suit chaque déplacement fait sur {desktop}.",
     "source": "91b8811dd8",
@@ -5255,6 +5303,90 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.settingKinds.addGesture": {
+    "text": "{gesture, select, hold {Ajouter appui long} double {Ajouter double appui} other {Ajouter appui}}",
+    "source": "92e65a804f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.change": {
+    "text": "Changement",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.changeTitle": {
+    "text": "La valeur d’une commande a changé",
+    "source": "d1bed35b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.double": {
+    "text": "Double appui",
+    "source": "b7f18903d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.doubleTitle": {
+    "text": "Deux appuis rapides",
+    "source": "3fda227ba6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.fewer": {
+    "text": "Moins : {label}",
+    "source": "f52358ccc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.hold": {
+    "text": "Appui long",
+    "source": "8e685d5409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.holdLabel": {
+    "text": "Appui long : {label}",
+    "source": "3a146b9077",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.holdTitle": {
+    "text": "Un appui long",
+    "source": "6dfc711f9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.more": {
+    "text": "Plus : {label}",
+    "source": "4e85cb8153",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.nothingElse": {
+    "text": "Cet appareil n’a rien d’autre à afficher.",
+    "source": "42693184c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.range": {
+    "text": "Période",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.tap": {
+    "text": "Appui",
+    "source": "464d23b54f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.settingKinds.tapTitle": {
+    "text": "Un appui",
+    "source": "9aca73badf",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Ajouter",
     "source": "9fd728c66c",
@@ -6452,6 +6584,102 @@
   "editor.tabSearch.none": {
     "text": "Aucun résultat pour « {query} » dans {tab}.",
     "source": "d63d5a151f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.camera": {
+    "text": "Ouvrir la caméra",
+    "source": "4adab8263a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.dashboard": {
+    "text": "Ouvrir un tableau de bord",
+    "source": "07151dee4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.device": {
+    "text": "Ouvrir l’appareil",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.flow": {
+    "text": "Lancer un Flow",
+    "source": "54ef6dbaec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.history": {
+    "text": "Afficher l’historique",
+    "source": "5b597be490",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.mood": {
+    "text": "Activer une ambiance",
+    "source": "f11565423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.none": {
+    "text": "Rien",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range12h": {
+    "text": "12 h",
+    "source": "ff627200d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range1y": {
+    "text": "Un an",
+    "source": "98a6011672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range24h": {
+    "text": "24 h",
+    "source": "f0514e8df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range30d": {
+    "text": "30 jours",
+    "source": "ffd7280513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range6h": {
+    "text": "6 h",
+    "source": "4105ae3b8a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.range7d": {
+    "text": "7 jours",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.toggle": {
+    "text": "L’allumer ou l’éteindre",
+    "source": "f62f512676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.variable": {
+    "text": "Régler une variable",
+    "source": "a6662a3ab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapActions.widget": {
+    "text": "Ce que fait le widget",
+    "source": "c84f94dfe0",
     "by": "ai",
     "reviewed": false
   },
@@ -8570,6 +8798,18 @@
   "editor.widgetPicker.communityLooks": {
     "text": "Apparence de la communauté",
     "source": "1c76774fea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.everyLevel": {
+    "text": "Tous les niveaux de « {plan} »",
+    "source": "4398aa59aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.everyLevelDetail": {
+    "text": "Une pile avec un plan d’étage pour chacun de ses {count} niveaux",
+    "source": "ae9af4950f",
     "by": "ai",
     "reviewed": false
   },

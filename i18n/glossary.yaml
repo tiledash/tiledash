@@ -53,7 +53,8 @@ terms:
   - term: tile
     meaning: One rectangle on a dashboard that shows one device, value or widget.
     # Map tiles are map images, not dashboard tiles.
-    except: [account.mapTiles.*, account.credits.mapsText]
+    # Floor tiles are a floor's finish on a floor plan.
+    except: [account.mapTiles.*, account.credits.mapsText, floorplans.editor.finish]
     nl: { preferred: tegel }
     de: { preferred: Kachel, avoid: Fliese }
     es: { preferred: mosaico, avoid: azulejo }
@@ -66,6 +67,7 @@ terms:
     fr: { preferred: widget }
   - term: device
     meaning: A physical or virtual thing paired with Homey (a lamp, a thermostat, a sensor).
+    except: [code.partials.hintIcon, code.partials.renderingNote]
     nl: { preferred: apparaat, avoid: toestel }
     de: { preferred: Gerät }
     es: { preferred: dispositivo, avoid: aparato }
@@ -178,11 +180,33 @@ terms:
   - term: plan
     meaning: A Tiledash subscription level (Free or Pro) and what it allows.
     # Claude's and ChatGPT's own plans, in the steps to connect them.
-    except: [shell.aiSetup.claude1, shell.aiSetup.chatgpt1]
+    # Floor plans (drawings of the house) are a term of their own, below.
+    except:
+      [
+        shell.aiSetup.claude1,
+        shell.aiSetup.chatgpt1,
+        floorplans.*,
+        shell.names.floorPlans,
+        account.plans.rowFloorPlans,
+        account.plans.rowFloorPlans3d,
+        account.configImport.group,
+        account.shareDialog.floorPlans,
+        editor.floorPlanSetting.*,
+        editor.widgetPicker.everyLevelDetail,
+        code.kindPicker.floorplan,
+        code.settingViews.kind,
+        code.settingViews.newLabel,
+      ]
     nl: { preferred: plan, notes: '"abonnement" only where the English says subscription.' }
     de: { preferred: Tarif }
     es: { preferred: plan }
     fr: { preferred: forfait }
+  - term: floor plan
+    meaning: A drawing of the person's house from above, level by level (30.8f).
+    nl: { preferred: plattegrond }
+    de: { preferred: Grundriss }
+    es: { preferred: plano }
+    fr: { preferred: plan d’étage }
   - term: account
     meaning: The person's Tiledash account, and the Account page in the app.
     nl: { preferred: account }
@@ -233,6 +257,7 @@ terms:
     fr: { preferred: pile }
   - term: summary
     meaning: The small live figures beside a dashboard's or heading's name (lights on, power, average temperature).
+    except: [community.listing.*, community.publishing.fieldSummary, community.drafts.*]
     nl: { preferred: samenvatting }
     de: { preferred: Übersicht }
     es: { preferred: resumen }

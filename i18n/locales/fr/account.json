@@ -89,9 +89,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.extraPinAdded": {
+    "text": "Code PIN {name} ajouté",
+    "source": "6c53d4c833",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "Impossible d’enregistrer le code PIN.",
     "source": "c207f0554d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinNameTaken": {
+    "text": "Un autre code PIN porte déjà ce nom.",
+    "source": "77e6b3e768",
     "by": "ai",
     "reviewed": false
   },
@@ -104,6 +116,12 @@
   "account.actions.pinSaved": {
     "text": "Code PIN enregistré",
     "source": "fd87ef1a5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.pinTaken": {
+    "text": "Ce code PIN est déjà utilisé. Choisissez d’autres chiffres.",
+    "source": "96844ac9c0",
     "by": "ai",
     "reviewed": false
   },
@@ -1092,8 +1110,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
-    "source": "d5339b17f9",
+    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} floorPlans {{count, plural, one {# plan d’étage} other {# plans d’étage}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
+    "source": "fb051db92d",
     "by": "ai",
     "reviewed": false
   },
@@ -1116,8 +1134,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Votre forfait permet {room} tableaux de bord ; vous en avez {have} et en avez choisi {adding}.} recordings {Votre forfait permet {room} enregistrements ; vous en avez {have} et en avez choisi {adding}.} themes {Votre forfait permet {room} thèmes personnels ; vous en avez {have} et en avez choisi {adding}.} widgets {Votre forfait permet {room} widgets personnels ; vous en avez {have} et en avez choisi {adding}.} other {Votre forfait permet {room} images ; vous en avez {have} et en avez choisi {adding}.}}",
-    "source": "52b2eed793",
+    "text": "{key, select, dashboards {Votre forfait permet {room} tableaux de bord ; vous en avez {have} et en avez choisi {adding}.} recordings {Votre forfait permet {room} enregistrements ; vous en avez {have} et en avez choisi {adding}.} themes {Votre forfait permet {room} thèmes personnels ; vous en avez {have} et en avez choisi {adding}.} widgets {Votre forfait permet {room} widgets personnels ; vous en avez {have} et en avez choisi {adding}.} floorPlans {Votre forfait permet {room} plans d’étage ; vous en avez {have} et en avez choisi {adding}.} other {Votre forfait permet {room} images ; vous en avez {have} et en avez choisi {adding}.}}",
+    "source": "934ae6bc1f",
     "by": "ai",
     "reviewed": false
   },
@@ -1394,6 +1412,90 @@
   "account.delete.word": {
     "text": "supprimer",
     "source": "6197595503",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.add": {
+    "text": "Ajouter un code PIN",
+    "source": "a661c3bbe1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.lead": {
+    "text": "Donnez à quelqu’un son propre code PIN, comme aux enfants pour la porte d’entrée. Chaque action qui demande un code dit lesquels elle accepte ; le vôtre marche toujours.",
+    "source": "8156fef6d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.namePlaceholder": {
+    "text": "Enfants",
+    "source": "8f5abd926d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.nameTaken": {
+    "text": "Un autre code PIN porte déjà ce nom.",
+    "source": "77e6b3e768",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.none": {
+    "text": "Aucun autre code PIN pour l’instant.",
+    "source": "7c9be0f181",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewNone": {
+    "text": "Rien ne demande encore de code PIN. Choisissez des actions dans les détails d’un appareil.",
+    "source": "348a5151b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewOpen": {
+    "text": "Ouvrir {device}",
+    "source": "2f9be586ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewTitle": {
+    "text": "Ce qui demande un code PIN",
+    "source": "88f6891cec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.overviewYours": {
+    "text": "Votre code PIN",
+    "source": "b42a6aa196",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeBody": {
+    "text": "Les actions qui l’acceptaient ne demanderont plus que votre propre code PIN.",
+    "source": "bdfe07af6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.removeTitle": {
+    "text": "Supprimer {name} ?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.title": {
+    "text": "Autres codes PIN",
+    "source": "9ee6062290",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.extraPins.usedBy": {
+    "text": "{count, plural, =0 {Utilisé par rien pour l’instant} one {Utilisé par # action} other {Utilisé par # actions}}",
+    "source": "59126fc615",
     "by": "ai",
     "reviewed": false
   },
@@ -3035,6 +3137,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowFloorPlans": {
+    "text": "Plans d’étage",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowFloorPlans3d": {
+    "text": "Plans d’étage en 3D",
+    "source": "84842af5d7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homey",
     "source": "ecc1293aa7",
@@ -3506,6 +3620,12 @@
   "account.shareDialog.done": {
     "text": "Terminé",
     "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.shareDialog.floorPlans": {
+    "text": "Les tuiles plan d’étage montrent l’agencement de votre maison, ses lampes, portes et serrures, à qui a le lien.",
+    "source": "16d9d1eafb",
     "by": "ai",
     "reviewed": false
   },

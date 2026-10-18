@@ -389,6 +389,12 @@
     "maxLength": 28,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
+  "shell.names.floorPlans": {
+    "en": "Floor plans",
+    "context": "Name of the page with the drawings of the person’s house, level by level (floor plans): a link in the sidebar and a result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
   "shell.names.jumpTo": {
     "en": "Jump to…",
     "context": "Label of the search field at the top of the sidebar and of the search button on a phone: it opens a search to jump to any dashboard or page. The dots mean a search follows. Also the name of the search dialog for screen readers.",
@@ -448,6 +454,15 @@
     "context": "Name of the page with the widgets the person made themselves (a widget is a tile type with its own template): a link in the sidebar and a result in the \"Jump to\" search.",
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.namesList.more": {
+    "en": "{count, plural, one {# more} other {# more}}",
+    "context": "The last item of a shortened list of names, joined with \"and\": \"Home, Energy and 2 more\".",
+    "params": {
+      "count": "How many names were left out."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/namesList.messages.ts"
   },
   "shell.patterns.collapseSidebar": {
     "en": "Collapse the sidebar",
@@ -626,6 +641,113 @@
     "context": "Button in the banner that opens Stripe to change the card.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
+  },
+  "shell.saveHistory.compare": {
+    "en": "Compare",
+    "context": "Button on an earlier save: compares it with what is in the editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.current": {
+    "en": "Current",
+    "context": "Badge on the save tiles draw now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.goBack": {
+    "en": "Go back",
+    "context": "Button on an earlier save: puts it in the editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.goingBack": {
+    "en": "Going back puts that save in the editor; your tiles show it once you save it.",
+    "context": "Note at the bottom of History, after how many saves are kept.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.inEditor": {
+    "en": "In the editor",
+    "context": "Badge on the earlier save that is in the editor now.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.keepsAll": {
+    "en": "Tiledash keeps every save while it is in the community.",
+    "context": "Note at the bottom of History once it is published to the community.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.keepsLast": {
+    "en": "Tiledash keeps your last {count} saves.",
+    "context": "Note at the bottom of History.",
+    "params": {
+      "count": "How many saves are kept, such as 10 or 100."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.nothing": {
+    "en": "<b>Nothing saved yet.</b> Each save is kept here, so you can go back to it.",
+    "context": "Shown in History before anything was saved.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.showChanges": {
+    "en": "Show changes",
+    "context": "Button that shows what those saves changed, together.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.saveHistory.since": {
+    "en": "{count, plural, one {<b># save</b> since <code>{version}</code> in the community} other {<b># saves</b> since <code>{version}</code> in the community}}",
+    "context": "At the top of History once it is published to the community: how many saves came after the version published there.",
+    "params": {
+      "count": "How many saves.",
+      "version": "The version in the community, such as \"1.2.0\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/SaveHistory.messages.ts"
+  },
+  "shell.savedAt.dayAt": {
+    "en": "{date}, {time}",
+    "context": "When it was saved, on an earlier day.",
+    "params": {
+      "date": "A short date, such as \"7 Oct\".",
+      "time": "A time of day, such as \"21:05\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
+  },
+  "shell.savedAt.justNow": {
+    "en": "Just now",
+    "context": "When it was saved: less than a minute ago.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
+  },
+  "shell.savedAt.notSaved": {
+    "en": "Not saved yet",
+    "context": "When a widget, partial or theme was saved: it never was.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
+  },
+  "shell.savedAt.today": {
+    "en": "Today, {time}",
+    "context": "When it was saved: today at this time.",
+    "params": {
+      "time": "A time of day, such as \"10:42\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
+  },
+  "shell.savedAt.yesterday": {
+    "en": "Yesterday, {time}",
+    "context": "When it was saved: yesterday at this time.",
+    "params": {
+      "time": "A time of day, such as \"21:05\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
   },
   "shell.sidebar.accountMenu": {
     "en": "{name}, account menu{news, select, yes {, something new} other {}}",
@@ -941,6 +1063,91 @@
     },
     "maxLength": 40,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.storeOrigin.builtin": {
+    "en": "{title} (built into Tiledash)",
+    "context": "The first item of the line when it is one that comes with Tiledash.",
+    "params": {
+      "title": "Its name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreOriginLine.messages.ts"
+  },
+  "shell.storeOrigin.copiedFrom": {
+    "en": "Copied from",
+    "context": "Start of the line naming the community item this theme or widget was copied from.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreOriginLine.messages.ts"
+  },
+  "shell.storeOrigin.more": {
+    "en": "{count} more",
+    "context": "Stands for the copies in between that are left out of the line, such as \"2 more\".",
+    "params": {
+      "count": "How many are left out."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreOriginLine.messages.ts"
+  },
+  "shell.storeOrigin.removed": {
+    "en": "{title} {version} (removed)",
+    "context": "An earlier item in the line that was removed from the community.",
+    "params": {
+      "title": "The item’s name. Not translated.",
+      "version": "Its version, such as \"1.2.0\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreOriginLine.messages.ts"
+  },
+  "shell.storeOutside.badge": {
+    "en": "Outside addresses",
+    "context": "Small badge on a community item that loads pictures from outside the Homey.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.dynamic": {
+    "en": "And from addresses its settings or your devices give it, known only when it draws.",
+    "context": "Line under the list of addresses.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.dynamicPart": {
+    "en": "addresses from its settings or device data",
+    "context": "Part of \"Loads pictures from …\": addresses that are only known when it draws, because they come from its settings or a device. Lower case, joined into the list.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.new": {
+    "en": "new",
+    "context": "Small mark next to an address that is new in this version. Lower case.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.summary": {
+    "en": "Loads pictures from {places}",
+    "context": "One line saying where a community item fetches pictures from outside the Homey, such as \"Loads pictures from api.example.com and addresses from its settings or device data\".",
+    "params": {
+      "places": "The web addresses and/or the phrase below, already joined as a list."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.title": {
+    "en": "Loads from outside your Homey",
+    "context": "Heading of the panel listing the outside places a community item loads pictures from.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.what": {
+    "en": "Your screen fetches these pictures straight from there, without cookies: those places can see that a screen asked, and what they send can change without a new version.",
+    "context": "Explanation at the bottom of the panel: what loading from outside means for privacy.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
+  },
+  "shell.storeOutside.why": {
+    "en": "Why, says its author",
+    "context": "Small heading above the author’s own reason for loading from outside.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
   },
   "shell.thisScreen.description": {
     "en": "How the app looks and moves on this device only. Your other devices keep their own; a dashboard with a theme of its own keeps it.",
