@@ -1540,6 +1540,15 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.changedSince": {
+    "en": "Changed since {version}",
+    "context": "Under a model you shared on the Community: you changed it since that version, which is the latest one others have.",
+    "params": {
+      "version": "The latest version on the Community, such as 1.0.0."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.checking": {
     "en": "Checking and compressing {file}…",
     "context": "Shown while the server reads, checks and compresses the uploaded model file.",
@@ -1761,6 +1770,12 @@
   "floorplans.models.publish": {
     "en": "Share on the Community",
     "context": "Button: publish the model on the Community so others can install it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.publishChanges": {
+    "en": "Publish the changes",
+    "context": "Button on a model you shared on the Community and changed since (its size, name…): publish a new version with those changes.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
