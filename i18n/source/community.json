@@ -423,10 +423,10 @@
     "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
   },
   "community.dialogs.installLicence": {
-    "en": "{kind, select, widget {Shared under the {licence}: you may copy it into your own widgets and change it. New versions don’t come by themselves; you’ll see when there is one.} theme {Shared under the {licence}: you may copy it into your own themes and change it. New versions don’t come by themselves; you’ll see when there is one.} other {Shared under the {licence}: you may copy it into your own partials and change it. New versions don’t come by themselves; you’ll see when there is one.}}",
-    "context": "Line in the install dialog about the licence and updates.",
+    "en": "{kind, select, widget {Shared under the {licence}: you may copy it into your own widgets and change it. New versions don’t come by themselves; you’ll see when there is one.} theme {Shared under the {licence}: you may copy it into your own themes and change it. New versions don’t come by themselves; you’ll see when there is one.} model {Shared under the {licence}: you may place it on your floor plans. New versions don’t come by themselves; you’ll see when there is one.} other {Shared under the {licence}: you may copy it into your own partials and change it. New versions don’t come by themselves; you’ll see when there is one.}}",
+    "context": "Line in the install dialog about the licence and updates. A model is a 3D model for floor plans.",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\".",
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\".",
       "licence": "The licence’s name, such as \"MIT License\". Not translated."
     },
     "maxLength": 190,
@@ -478,6 +478,12 @@
       "title": "The item’s name. Not translated."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.whereModel": {
+    "en": "It joins From the Community in the floor plan editor’s furniture. Nothing changes until you place it.",
+    "context": "Where an installed 3D model shows up. \"From the Community\" is a group of the floor plan editor’s furniture catalogue: use the same words as it does (floorplans.models.community).",
+    "maxLength": 130,
     "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
   },
   "community.dialogs.wherePartial": {
@@ -750,6 +756,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
   },
+  "community.installed.notOnPlan": {
+    "en": "Not on a floor plan yet",
+    "context": "Under an installed 3D model no floor plan uses yet.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
   "community.installed.notRendered": {
     "en": "No widget of yours renders it yet",
     "context": "Under an installed partial no widget uses yet.",
@@ -760,6 +772,15 @@
     "en": "Official",
     "context": "Mark on a publisher that is Tiledash itself.",
     "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.onPlans": {
+    "en": "On {plans}",
+    "context": "Under an installed 3D model: the floor plans it is placed on.",
+    "params": {
+      "plans": "The floor plans’ names, already joined as a list. Not translated."
+    },
+    "maxLength": 120,
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
   },
   "community.installed.openInCommunity": {
@@ -984,10 +1005,10 @@
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
   "community.item.licenceHint": {
-    "en": "{kind, select, widget {Copy it into your own widgets and change it.} theme {Copy it into your own themes and change it.} other {Copy it into your own partials and change it.}}",
-    "context": "Small text after the licence: the licence lets people copy and change it.",
+    "en": "{kind, select, widget {Copy it into your own widgets and change it.} theme {Copy it into your own themes and change it.} model {Place it on your floor plans.} other {Copy it into your own partials and change it.}}",
+    "context": "Small text after the licence: the licence lets people copy and change it. A model (a 3D model for floor plans) can only be placed.",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\"."
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
     "maxLength": 70,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
@@ -1041,10 +1062,10 @@
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
   "community.item.report": {
-    "en": "{kind, select, widget {Report this widget} theme {Report this theme} other {Report this partial}}",
+    "en": "{kind, select, widget {Report this widget} theme {Report this theme} model {Report this model} other {Report this partial}}",
     "context": "Link that opens reporting the item to Tiledash (for something wrong or unsafe).",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\"."
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
@@ -1416,6 +1437,22 @@
     "en": "Checking your tiles and widgets…",
     "context": "Shown while checking what the new version means for the tiles and widgets.",
     "maxLength": 50,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.modelUnused": {
+    "en": "No floor plan uses it; it leaves the furniture.",
+    "context": "Uninstall dialog of a 3D model no floor plan uses: it leaves the floor plan editor’s furniture.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.manage.modelUsed": {
+    "en": "{count, plural, one {{plans} shows a plain piece in its place.} other {{plans} show a plain piece in its place.}}",
+    "context": "Uninstall dialog of a 3D model placed on floor plans: they show a plain box-like piece where it was.",
+    "params": {
+      "count": "How many floor plans it is on.",
+      "plans": "Their names, already joined as a list. Not translated."
+    },
+    "maxLength": 160,
     "file": "packages/ui/src/screens/store/storeManage.messages.ts"
   },
   "community.manage.noNotes": {
@@ -1903,6 +1940,12 @@
     "maxLength": 60,
     "file": "apps/web/src/store/storePages.messages.ts"
   },
+  "community.pages.installedModel": {
+    "en": "Place it from From the Community in the floor plan editor’s furniture.",
+    "context": "Text under \"… installed\" for a 3D model. \"From the Community\" is a group of the floor plan editor’s furniture catalogue (floorplans.models.community).",
+    "maxLength": 90,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
   "community.pages.installedPartial": {
     "en": "Render it in a widget of yours with {line}.",
     "context": "Text under \"… installed\" for a partial: the code line that renders it.",
@@ -2141,10 +2184,10 @@
     "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
   },
   "community.publish.newItem": {
-    "en": "{kind, select, theme {A new theme} partial {A new partial} other {A new widget}}",
+    "en": "{kind, select, theme {A new theme} partial {A new partial} model {A new model} other {A new widget}}",
     "context": "Choice in the \"Publish as\" list: publish it as a new item, rather than as a new version of one you published before.",
     "params": {
-      "kind": "What is published: widget, theme or partial."
+      "kind": "What is published: widget, theme, partial or model (a 3D model for floor plans)."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
@@ -2872,10 +2915,10 @@
     "file": "apps/web/src/store/storePublishing.messages.ts"
   },
   "community.report.already": {
-    "en": "{kind, select, widget {You reported this widget already. Tiledash looks at it soon.} theme {You reported this theme already. Tiledash looks at it soon.} other {You reported this partial already. Tiledash looks at it soon.}}",
+    "en": "{kind, select, widget {You reported this widget already. Tiledash looks at it soon.} theme {You reported this theme already. Tiledash looks at it soon.} model {You reported this model already. Tiledash looks at it soon.} other {You reported this partial already. Tiledash looks at it soon.}}",
     "context": "Text when the person reported this item before.",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\"."
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
     "maxLength": 80,
     "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
@@ -2911,10 +2954,10 @@
     "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
   },
   "community.report.description": {
-    "en": "{kind, select, widget {What’s wrong with this widget? Tiledash looks at every report; the publisher isn’t told who sent it.} theme {What’s wrong with this theme? Tiledash looks at every report; the publisher isn’t told who sent it.} other {What’s wrong with this partial? Tiledash looks at every report; the publisher isn’t told who sent it.}}",
+    "en": "{kind, select, widget {What’s wrong with this widget? Tiledash looks at every report; the publisher isn’t told who sent it.} theme {What’s wrong with this theme? Tiledash looks at every report; the publisher isn’t told who sent it.} model {What’s wrong with this model? Tiledash looks at every report; the publisher isn’t told who sent it.} other {What’s wrong with this partial? Tiledash looks at every report; the publisher isn’t told who sent it.}}",
     "context": "Line under the title of the report dialog.",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\"."
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
     "maxLength": 130,
     "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
@@ -3218,11 +3261,17 @@
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
   },
   "community.views.kind": {
-    "en": "{kind, select, widget {Widget} theme {Theme} other {Partial}}",
-    "context": "The kind of a community item, as a small label.",
+    "en": "{kind, select, widget {Widget} theme {Theme} model {Model} other {Partial}}",
+    "context": "The kind of a community item, as a small label. A model is a 3D model for floor plans.",
     "params": {
-      "kind": "\"widget\", \"theme\" or \"partial\"."
+      "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.views.models": {
+    "en": "Models",
+    "context": "Filter of the community that shows only 3D models (furniture for floor plans).",
     "maxLength": 16,
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
   },

@@ -378,8 +378,8 @@
     "reviewed": false
   },
   "community.dialogs.installLicence": {
-    "text": "{kind, select, widget {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Widgets kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.} theme {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Designs kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.} other {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Partials kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.}}",
-    "source": "ac58a30cbf",
+    "text": "{kind, select, widget {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Widgets kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.} theme {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Designs kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.} model {Geteilt unter {licence}: Sie dürfen es in Ihren Grundrissen platzieren. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.} other {Geteilt unter {licence}: Sie dürfen es in Ihre eigenen Partials kopieren und ändern. Neue Versionen kommen nicht von selbst; Sie sehen, wenn es eine gibt.}}",
+    "source": "8cb84d99d7",
     "by": "ai",
     "reviewed": false
   },
@@ -422,6 +422,12 @@
   "community.dialogs.versionsTitle": {
     "text": "Versionen von {title}",
     "source": "14c6d3bd85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.whereModel": {
+    "text": "Es erscheint unter „Aus der Community“ bei den Möbeln im Grundriss-Editor. Nichts ändert sich, bis Sie es platzieren.",
+    "source": "60e121985d",
     "by": "ai",
     "reviewed": false
   },
@@ -653,6 +659,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.installed.notOnPlan": {
+    "text": "Noch in keinem Grundriss",
+    "source": "05b62c764d",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.installed.notRendered": {
     "text": "Noch von keinem Ihrer Widgets eingebunden",
     "source": "9e87d278dd",
@@ -662,6 +674,12 @@
   "community.installed.official": {
     "text": "Offiziell",
     "source": "c409c66f71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.onPlans": {
+    "text": "In {plans}",
+    "source": "05b61721bf",
     "by": "ai",
     "reviewed": false
   },
@@ -852,8 +870,8 @@
     "reviewed": false
   },
   "community.item.licenceHint": {
-    "text": "{kind, select, widget {Kopieren Sie es in Ihre eigenen Widgets und ändern Sie es.} theme {Kopieren Sie es in Ihre eigenen Designs und ändern Sie es.} other {Kopieren Sie es in Ihre eigenen Partials und ändern Sie es.}}",
-    "source": "65a30a55a9",
+    "text": "{kind, select, widget {Kopieren Sie es in Ihre eigenen Widgets und ändern Sie es.} theme {Kopieren Sie es in Ihre eigenen Designs und ändern Sie es.} model {Platzieren Sie es in Ihren Grundrissen.} other {Kopieren Sie es in Ihre eigenen Partials und ändern Sie es.}}",
+    "source": "b95ef4907c",
     "by": "ai",
     "reviewed": false
   },
@@ -906,8 +924,8 @@
     "reviewed": false
   },
   "community.item.report": {
-    "text": "{kind, select, widget {Dieses Widget melden} theme {Dieses Design melden} other {Dieses Partial melden}}",
-    "source": "bd1e24eaa3",
+    "text": "{kind, select, widget {Dieses Widget melden} theme {Dieses Design melden} model {Dieses Modell melden} other {Dieses Partial melden}}",
+    "source": "13d1f3571e",
     "by": "ai",
     "reviewed": false
   },
@@ -1238,6 +1256,18 @@
   "community.manage.checking": {
     "text": "Ihre Kacheln und Widgets werden geprüft…",
     "source": "1b452eced4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.manage.modelUnused": {
+    "text": "Kein Grundriss nutzt es; es verschwindet aus den Möbeln.",
+    "source": "de210401ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.manage.modelUsed": {
+    "text": "{count, plural, one {{plans} zeigt an seiner Stelle einen schlichten Platzhalter.} other {{plans} zeigen an seiner Stelle einen schlichten Platzhalter.}}",
+    "source": "54b49a3c79",
     "by": "ai",
     "reviewed": false
   },
@@ -1637,6 +1667,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.pages.installedModel": {
+    "text": "Platzieren Sie es aus „Aus der Community“ bei den Möbeln im Grundriss-Editor.",
+    "source": "305ef1fea2",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.pages.installedPartial": {
     "text": "Binden Sie es mit {line} in eines Ihrer Widgets ein.",
     "source": "cf7be067ce",
@@ -1854,8 +1890,8 @@
     "reviewed": false
   },
   "community.publish.newItem": {
-    "text": "{kind, select, theme {Ein neues Design} partial {Ein neues Partial} other {Ein neues Widget}}",
-    "source": "6cdba68cb6",
+    "text": "{kind, select, theme {Ein neues Design} partial {Ein neues Partial} model {Ein neues Modell} other {Ein neues Widget}}",
+    "source": "d10d339ec4",
     "by": "ai",
     "reviewed": false
   },
@@ -2508,8 +2544,8 @@
     "reviewed": false
   },
   "community.report.already": {
-    "text": "{kind, select, widget {Sie haben dieses Widget bereits gemeldet. Tiledash prüft es bald.} theme {Sie haben dieses Design bereits gemeldet. Tiledash prüft es bald.} other {Sie haben dieses Partial bereits gemeldet. Tiledash prüft es bald.}}",
-    "source": "6113f278da",
+    "text": "{kind, select, widget {Sie haben dieses Widget bereits gemeldet. Tiledash prüft es bald.} theme {Sie haben dieses Design bereits gemeldet. Tiledash prüft es bald.} model {Sie haben dieses Modell bereits gemeldet. Tiledash prüft es bald.} other {Sie haben dieses Partial bereits gemeldet. Tiledash prüft es bald.}}",
+    "source": "8919a1e33d",
     "by": "ai",
     "reviewed": false
   },
@@ -2544,8 +2580,8 @@
     "reviewed": false
   },
   "community.report.description": {
-    "text": "{kind, select, widget {Was stimmt mit diesem Widget nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.} theme {Was stimmt mit diesem Design nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.} other {Was stimmt mit diesem Partial nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.}}",
-    "source": "28118a2ab6",
+    "text": "{kind, select, widget {Was stimmt mit diesem Widget nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.} theme {Was stimmt mit diesem Design nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.} model {Was stimmt mit diesem Modell nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.} other {Was stimmt mit diesem Partial nicht? Tiledash prüft jede Meldung; der Herausgeber erfährt nicht, wer sie gesendet hat.}}",
+    "source": "2db21d0fbc",
     "by": "ai",
     "reviewed": false
   },
@@ -2832,8 +2868,14 @@
     "reviewed": false
   },
   "community.views.kind": {
-    "text": "{kind, select, widget {Widget} theme {Design} other {Partial}}",
-    "source": "5e8c226c08",
+    "text": "{kind, select, widget {Widget} theme {Design} model {Modell} other {Partial}}",
+    "source": "fca8477733",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.views.models": {
+    "text": "Modelle",
+    "source": "d17d2d78d7",
     "by": "ai",
     "reviewed": false
   },

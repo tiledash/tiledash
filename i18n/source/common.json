@@ -53,6 +53,94 @@
     "maxLength": 20,
     "file": "packages/ui/src/components/actions.messages.ts"
   },
+  "common.colourMemory.favourites": {
+    "en": "Favourites",
+    "context": "Small heading over the person’s favourite colours in a colour picker (the same list everywhere, also on a light’s colour wheel).",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourMemory.keep": {
+    "en": "Keep this colour as a favourite",
+    "context": "Name for screen readers and tooltip of the ☆ button after the favourite colours: adds the colour now picked to them.",
+    "maxLength": 50,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourMemory.menuForget": {
+    "en": "Remove from favourites",
+    "context": "Item in the menu of a favourite colour (right-click or hold it): takes it off the favourites.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourMemory.menuKeep": {
+    "en": "Keep as a favourite",
+    "context": "Item in the menu of a recent colour (right-click or hold it): adds it to the favourites.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourMemory.recent": {
+    "en": "Recent",
+    "context": "Small heading over the colours picked last, anywhere in the app, in a colour picker.",
+    "maxLength": 20,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourMemory.use": {
+    "en": "Use {colour}",
+    "context": "Name for screen readers of a recent or favourite colour swatch; pressing it picks that colour.",
+    "params": {
+      "colour": "The colour’s code, such as #e8c4bd."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/components/HdColourMemory.messages.ts"
+  },
+  "common.colourPicker.colour": {
+    "en": "{colour, select, warm-white {Warm white} greige {Greige} blush {Blush pink} sand {Sand} sage {Sage green} mist {Misty blue} lavender {Lavender} slate {Slate} clay {Clay} oak {Oak} walnut {Walnut} terracotta {Terracotta} mustard {Mustard} teal {Teal} denim {Denim blue} navy {Navy} red {Red} orange {Orange} yellow {Yellow} green {Green} cyan {Cyan} blue {Blue} purple {Purple} pink {Pink} other {Colour}}",
+    "context": "The name of a ready-made colour in the colour picker, read out by screen readers and shown when pointed at: soft tones for walls and floors, woods and fabric colours, and bright colours.",
+    "params": {
+      "colour": "warm-white, greige, blush, sand, sage, mist, lavender, slate, clay, oak, walnut, terracotta, mustard, teal, denim, navy, red, orange, yellow, green, cyan, blue, purple or pink."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.colours": {
+    "en": "Colours",
+    "context": "Small heading over the ready-made colours the app offers in the colour picker.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.mixed": {
+    "en": "Several colours",
+    "context": "What the colour picker’s swatch says when the selected things have different colours.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.open": {
+    "en": "{label}: {colour}. Change the colour",
+    "context": "Name for screen readers of the swatch button that opens the colour picker: what the field is, the colour it has now, and what pressing it does.",
+    "params": {
+      "colour": "The colour now: its name, \"Theme colour\", or its code such as #e8c4bd.",
+      "label": "What the colour is for, such as \"Tile colour\" or \"Living room side\". Already translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.other": {
+    "en": "Other colour",
+    "context": "Label in the colour picker of the field to pick any colour, or type its code such as #e9c9c3.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.theme": {
+    "en": "Theme colour",
+    "context": "Choice in the colour picker: no colour of its own, so it takes the one the theme gives it (and changes with the theme).",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.themeColours": {
+    "en": "From the theme",
+    "context": "Small heading over the theme’s own colours (accent, good, warning…) in the colour picker.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
   "common.confirm.cancel": {
     "en": "Cancel",
     "context": "Quiet button on the left of a confirmation dialog, used when the dialog does not give its own label: it closes the dialog without doing what was asked. The confirming button next to it has its own label.",

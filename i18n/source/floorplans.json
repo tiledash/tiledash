@@ -1,4 +1,31 @@
 {
+  "floorplans.colours.cover": {
+    "en": "Colour of the covering",
+    "context": "Label of the colour field for a window’s blinds, curtains or shutter, in the panel of a window on the floor plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/colours.messages.ts"
+  },
+  "floorplans.colours.label": {
+    "en": "Colour",
+    "context": "Label of the colour field in the floor plan editor’s side panel, for a wall, a floor, a door, a piece of furniture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/colours.messages.ts"
+  },
+  "floorplans.colours.outside": {
+    "en": "Outside",
+    "context": "Label of the colour field for the side of a wall that faces no room: the outside of the house.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/colours.messages.ts"
+  },
+  "floorplans.colours.side": {
+    "en": "{room} side",
+    "context": "Label of the colour field for one side of a wall on the floor plan: the side facing that room. Each side of a wall can have its own colour.",
+    "params": {
+      "room": "The room’s name, such as \"Living room\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/colours.messages.ts"
+  },
   "floorplans.devices.allPlaced": {
     "en": "All placed",
     "context": "Shown beside a room in the Devices panel when all its devices are on the plan.",
@@ -32,6 +59,24 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
   },
+  "floorplans.devices.dropLink": {
+    "en": "Let it show {device}",
+    "context": "Choice when a device is let go over a piece of furniture on the floor plan (its name is the heading above): the piece itself shows the device and switches it when tapped, such as a TV cabinet that switches the light under it.",
+    "params": {
+      "device": "The device’s name, such as \"Reading lamp\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.dropOn": {
+    "en": "Put {device} on it",
+    "context": "Choice when a device is let go over a piece of furniture on the floor plan (its name is the heading above): place the device on top of it, such as a lamp on a table.",
+    "params": {
+      "device": "The device’s name, such as \"Reading lamp\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
   "floorplans.devices.elsewhere": {
     "en": "Elsewhere on {level}",
     "context": "Heading in the Devices panel for devices of this floor that are in no room drawn on the plan.",
@@ -39,6 +84,21 @@
       "level": "The level’s name, such as “Ground floor”."
     },
     "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.everyShape": {
+    "en": "{open, select, yes {Only the shapes that fit} other {Every shape}}",
+    "context": "Button under the shapes a piece on the floor plan can take: shows every shape of the catalogue (any piece can show any device: a TV cabinet that switches a light), or only those that fit again.",
+    "params": {
+      "open": "yes while every shape shows, no otherwise."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.findShape": {
+    "en": "Find a shape",
+    "context": "Placeholder and label of the search field over every shape a piece can take.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
   },
   "floorplans.devices.hint": {
@@ -896,6 +956,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
   },
+  "floorplans.editor.selectWall": {
+    "en": "Select its wall",
+    "context": "Button in the panel of a door or window on the floor plan: selects the wall it is in, to change that wall (its colour, its thickness). A click on the plan where the window is picks the window.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
   "floorplans.editor.shapeLabel": {
     "en": "{name} · {width} × {depth}",
     "context": "Label on a room shape while it is being placed, such as \"Kitchen · 3.80 m × 5.80 m\".",
@@ -1449,5 +1515,372 @@
     "context": "Shown instead of the spacing buttons when only two items are selected.",
     "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
+  },
+  "floorplans.models.add": {
+    "en": "Add a model",
+    "context": "Button in the furniture catalogue of the floor plan editor: add your own 3D model.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.addIt": {
+    "en": "Add to my models",
+    "context": "The dialog’s main button: keeps the fitted model and puts it in the catalogue.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.addTitle": {
+    "en": "Add a model",
+    "context": "Title of the dialog that adds your own 3D model to the floor plan’s catalogue.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.back": {
+    "en": "Back",
+    "context": "Button: the previous step of the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.checking": {
+    "en": "Checking and compressing {file}…",
+    "context": "Shown while the server reads, checks and compresses the uploaded model file.",
+    "params": {
+      "file": "The file’s name, such as \"sofa.usdz\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.community": {
+    "en": "From the Community",
+    "context": "Heading of the furniture catalogue’s group of 3D models installed from the Community (what other people shared).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.deleteText": {
+    "en": "{count, plural, =0 {It isn’t on any floor plan.} one {It’s on # floor plan, which shows a plain piece in its place.} other {It’s on # floor plans, which show a plain piece in its place.}}",
+    "context": "Text of the dialog that asks before deleting one of your own 3D models: what happens to the plans it is on.",
+    "params": {
+      "count": "On how many floor plans the model is placed."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.deleteTitle": {
+    "en": "Delete {name}?",
+    "context": "Title of the dialog that asks before deleting one of your own 3D models.",
+    "params": {
+      "name": "The model’s name, such as \"Our sofa\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.deleted": {
+    "en": "{name} deleted",
+    "context": "Toast after deleting one of your own 3D models.",
+    "params": {
+      "name": "The model’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.drop": {
+    "en": "Drop a 3D model here, or choose a file",
+    "context": "The large drop area in the Add a model dialog.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.edit": {
+    "en": "Edit",
+    "context": "Button: fit the model again (turn, size, name).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.fitHint": {
+    "en": "Stand it upright with its front toward you: the arrow on the floor points out of its front.",
+    "context": "Line above the turning buttons in the Add a model dialog.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.fitTitle": {
+    "en": "Fit it",
+    "context": "Step of the Add a model dialog where the person turns the model upright and gives its real size.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.formats": {
+    "en": "GLB or glTF, OBJ, or USDZ from an iPhone scan, up to {mb} MB.",
+    "context": "Line under the drop area: the file types that work, and the largest file.",
+    "params": {
+      "mb": "The largest file in megabytes, such as 25."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.group": {
+    "en": "In the catalogue under",
+    "context": "Label of the furniture catalogue group (room) the model is listed in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.install": {
+    "en": "Add to my catalogue",
+    "context": "Button on a model’s Community page: install it, so it is in the floor plan’s furniture catalogue.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.installed": {
+    "en": "In your catalogue under {group}",
+    "context": "Line after installing a model from the Community: where it is in the furniture catalogue.",
+    "params": {
+      "group": "The catalogue group, such as \"Living room\". Already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.keepShape": {
+    "en": "Keep its proportions",
+    "context": "Switch: changing one of the width, depth and height changes the others with it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.limit": {
+    "en": "{count} of {max} models",
+    "context": "How many own models the person has, and the most their plan keeps.",
+    "params": {
+      "count": "How many models they have.",
+      "max": "The most their plan keeps: 3 or 50."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.loadFailed": {
+    "en": "Couldn’t load your models",
+    "context": "Shown in place of the list of your own 3D models when it could not be loaded.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.look": {
+    "en": "Colours",
+    "context": "Label of how the model is coloured.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.lookTextures": {
+    "en": "Its own",
+    "context": "Choice: the model keeps its own colours and pictures (textures), as a scan has them.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.lookTheme": {
+    "en": "The theme’s",
+    "context": "Choice: the model takes the theme’s tones, like the built-in furniture.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.mine": {
+    "en": "My models",
+    "context": "Heading of the furniture catalogue’s group of the person’s own 3D models.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.name": {
+    "en": "Name",
+    "context": "Label of the model’s name, such as \"Our sofa\".",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.namePlaceholder": {
+    "en": "For example: our sofa",
+    "context": "Placeholder of the model’s name.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.problem": {
+    "en": "{problem, select, unreadable {This file couldn’t be read as a 3D model.} toolarge {Even compressed, it’s {value}: at most {limit}. Export it with fewer details, or smaller textures.} triangles {It’s too detailed: {value} triangles, at most {limit}. Most scanning apps can export a lighter version.} other {This model can’t be used.}}",
+    "context": "Why an uploaded model can’t be used, and what to do about it.",
+    "params": {
+      "limit": "The most allowed, formatted.",
+      "problem": "unreadable, toolarge or triangles.",
+      "value": "What the model has, formatted."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressMb": {
+    "en": "{done} of {total} MB",
+    "context": "Beside the upload step of adding a 3D model: how much of the file has been sent.",
+    "params": {
+      "done": "Megabytes sent, such as 12.4.",
+      "total": "The file’s size in megabytes."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressSize": {
+    "en": "{size} of at most {limit}",
+    "context": "Beside the step \"Compress it\": the compressed size and the most it may be.",
+    "params": {
+      "limit": "The most, such as 5 MB.",
+      "size": "The size, such as 4.2 MB."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressSlow": {
+    "en": "A detailed scan can take a minute.",
+    "context": "Under the list of what adding a 3D model is doing, while the server works on it.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressStep": {
+    "en": "{step, select, convert {Make it a GLB} upload {Upload it} read {Read the model} topView {Draw it from above} textures {Shrink its textures} compress {Compress it} turn {Stand it as you fitted it} keep {Keep it} other {Check it}}",
+    "context": "A step in the list of what adding a 3D model is doing; a mark beside it says waiting, working, done or failed. \"Draw it from above\" makes the picture the 2D floor plan shows. Short imperative phrases, the same form for every step.",
+    "params": {
+      "step": "convert, upload, read, topView, textures, compress, turn (turned and tipped as fitted) or keep."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressTextures": {
+    "en": "{count, plural, =0 {None} one {# texture} other {# textures}}",
+    "context": "Beside the step \"Shrink its textures\": how many pictures the model has on it.",
+    "params": {
+      "count": "How many textures."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.progressTriangles": {
+    "en": "{count} triangles",
+    "context": "Beside the step \"Read the model\": how detailed the model is.",
+    "params": {
+      "count": "How many triangles, already formatted, such as 282,111."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.publish": {
+    "en": "Share on the Community",
+    "context": "Button: publish the model on the Community so others can install it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.published": {
+    "en": "On the Community",
+    "context": "Badge on a model the person shared on the Community.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.remove": {
+    "en": "Delete",
+    "context": "Button: delete the model.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.saving": {
+    "en": "Adding {name} to your models…",
+    "context": "Above the list of what saving a fitted 3D model is doing.",
+    "params": {
+      "name": "The model’s name, such as \"Our sofa\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.scanTip": {
+    "en": "Scan a real piece with your phone (Polycam, Scaniverse, an iPhone’s Object Capture) or use a free model, and say its licence when you share it.",
+    "context": "Tip under the drop area: where a model can come from.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.size": {
+    "en": "Real size",
+    "context": "Label of its width, depth and height in centimetres.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.size3": {
+    "en": "{w} × {d} × {h} cm",
+    "context": "A model’s size: width × depth × height in centimetres.",
+    "params": {
+      "d": "Depth.",
+      "h": "Height.",
+      "w": "Width."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tip": {
+    "en": "Tip over",
+    "context": "Label of the two buttons that tip the model a quarter forward or back, to stand up one that lies down.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tipBack": {
+    "en": "Tip back",
+    "context": "Button: tip the model a quarter back.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tipForward": {
+    "en": "Tip forward",
+    "context": "Button: tip the model a quarter forward.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.topView": {
+    "en": "On the 2D plan",
+    "context": "Label of how the model is drawn on the plan seen from above.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.topViewMade": {
+    "en": "Drawn from the model, seen from above.",
+    "context": "Line beside the made top view of the model.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.topViewPicture": {
+    "en": "Use a picture of your own",
+    "context": "Button: upload a picture to show on the 2D plan instead of the made top view.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.topViewRemove": {
+    "en": "Use the made one again",
+    "context": "Button: drop the uploaded 2D picture and draw the model from above again.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tryAnother": {
+    "en": "Choose another file",
+    "context": "Button after a problem with an uploaded model.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.turn": {
+    "en": "Turn",
+    "context": "Label of the two buttons that turn the model a quarter left or right.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.turnLeft": {
+    "en": "Turn left",
+    "context": "Button: turn the model a quarter to the left.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.turnRight": {
+    "en": "Turn right",
+    "context": "Button: turn the model a quarter to the right.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.usedIn": {
+    "en": "{count, plural, =0 {Not on a plan} one {On # plan} other {On # plans}}",
+    "context": "Under a model in the list of your models: on how many floor plans it is placed.",
+    "params": {
+      "count": "How many plans."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   }
 }

@@ -181,14 +181,20 @@ terms:
     meaning: A Tiledash subscription level (Free or Pro) and what it allows.
     # Claude's and ChatGPT's own plans, in the steps to connect them.
     # Floor plans (drawings of the house) are a term of their own, below.
-    except:
-      [
+    except: [
         shell.aiSetup.claude1,
         shell.aiSetup.chatgpt1,
         floorplans.*,
         shell.names.floorPlans,
         account.plans.rowFloorPlans,
         account.plans.rowFloorPlans3d,
+        # Where a 3D model goes in the Community (F10.4): on your floor plans.
+        community.dialogs.installLicence,
+        community.dialogs.whereModel,
+        community.installed.notOnPlan,
+        community.item.licenceHint,
+        community.manage.modelUnused,
+        community.pages.installedModel,
         account.configImport.group,
         account.shareDialog.floorPlans,
         editor.floorPlanSetting.*,

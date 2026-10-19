@@ -1,4 +1,28 @@
 {
+  "floorplans.colours.cover": {
+    "text": "Kleur van de raambekleding",
+    "source": "48016bac11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.label": {
+    "text": "Kleur",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.outside": {
+    "text": "Buitenkant",
+    "source": "dacf15163a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.side": {
+    "text": "Kant van {room}",
+    "source": "6a96610257",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.devices.allPlaced": {
     "text": "Alles geplaatst",
     "source": "643b691018",
@@ -29,9 +53,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.devices.dropLink": {
+    "text": "Laat het {device} tonen",
+    "source": "92369b2886",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.dropOn": {
+    "text": "Zet {device} erop",
+    "source": "ff03bcc166",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.devices.elsewhere": {
     "text": "Elders op {level}",
     "source": "a4944e4f90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.everyShape": {
+    "text": "{open, select, yes {Alleen vormen die passen} other {Alle vormen}}",
+    "source": "6c113d2ff3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.findShape": {
+    "text": "Vorm zoeken",
+    "source": "c412448135",
     "by": "ai",
     "reviewed": false
   },
@@ -815,6 +863,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.editor.selectWall": {
+    "text": "Muur selecteren",
+    "source": "8c7b860364",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.editor.shapeLabel": {
     "text": "{name} · {width} × {depth}",
     "source": "b8b40106a7",
@@ -1298,6 +1352,318 @@
   "floorplans.lineUp.spaceNeedsThree": {
     "text": "Selecteer er drie of meer om ze te verdelen.",
     "source": "783ee48eab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.add": {
+    "text": "Model toevoegen",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.addIt": {
+    "text": "Aan mijn modellen toevoegen",
+    "source": "be942edcd3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.addTitle": {
+    "text": "Model toevoegen",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.back": {
+    "text": "Terug",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.checking": {
+    "text": "{file} controleren en comprimeren…",
+    "source": "358631aebe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.community": {
+    "text": "Uit de community",
+    "source": "fb4606a9b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleteText": {
+    "text": "{count, plural, =0 {Het staat op geen enkele plattegrond.} one {Het staat op # plattegrond; daar komt een eenvoudig blok voor in de plaats.} other {Het staat op # plattegronden; daar komt een eenvoudig blok voor in de plaats.}}",
+    "source": "5c9a8b7357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleteTitle": {
+    "text": "{name} verwijderen?",
+    "source": "a4b982a9e0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleted": {
+    "text": "{name} verwijderd",
+    "source": "5c4c48b54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.drop": {
+    "text": "Sleep hier een 3D-model naartoe, of kies een bestand",
+    "source": "6f074d8254",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.edit": {
+    "text": "Bewerken",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.fitHint": {
+    "text": "Zet het rechtop met de voorkant naar je toe: de pijl op de vloer wijst uit de voorkant.",
+    "source": "d0cdf85741",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.fitTitle": {
+    "text": "Rechtzetten",
+    "source": "ac15a76e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.formats": {
+    "text": "GLB of glTF, OBJ, of USDZ van een iPhone-scan, tot {mb} MB.",
+    "source": "d8cb171d7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.group": {
+    "text": "In de catalogus onder",
+    "source": "4b95d88400",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.install": {
+    "text": "Aan mijn catalogus toevoegen",
+    "source": "2a0e41f742",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installed": {
+    "text": "In je catalogus onder {group}",
+    "source": "d393146d8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.keepShape": {
+    "text": "Verhoudingen behouden",
+    "source": "d20f9345ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.limit": {
+    "text": "{count} van {max} modellen",
+    "source": "434e77ec78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.loadFailed": {
+    "text": "Je modellen konden niet worden geladen",
+    "source": "87f166ae17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.look": {
+    "text": "Kleuren",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.lookTextures": {
+    "text": "Eigen kleuren",
+    "source": "5307bb2df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.lookTheme": {
+    "text": "Van het thema",
+    "source": "5d23c1bc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.mine": {
+    "text": "Mijn modellen",
+    "source": "3720357307",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.namePlaceholder": {
+    "text": "Bijvoorbeeld: onze bank",
+    "source": "22c0679715",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.problem": {
+    "text": "{problem, select, unreadable {Dit bestand kan niet als 3D-model worden gelezen.} toolarge {Ook gecomprimeerd is het {value}: hooguit {limit}. Exporteer het met minder details of kleinere texturen.} triangles {Het is te gedetailleerd: {value} driehoeken, hooguit {limit}. De meeste scanapps kunnen een lichtere versie exporteren.} other {Dit model kan niet worden gebruikt.}}",
+    "source": "2b352cff55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressMb": {
+    "text": "{done} van {total} MB",
+    "source": "1f66d6f6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressSize": {
+    "text": "{size} van hooguit {limit}",
+    "source": "4c63a91f2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressSlow": {
+    "text": "Een gedetailleerde scan kan een minuut duren.",
+    "source": "318f2c1e37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressStep": {
+    "text": "{step, select, convert {Er een GLB van maken} upload {Uploaden} read {Het model lezen} topView {Van boven tekenen} textures {Texturen verkleinen} compress {Comprimeren} turn {Neerzetten zoals ingesteld} keep {Bewaren} other {Controleren}}",
+    "source": "807ad6ed44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressTextures": {
+    "text": "{count, plural, =0 {Geen} one {# textuur} other {# texturen}}",
+    "source": "7367c8ffc7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressTriangles": {
+    "text": "{count} driehoeken",
+    "source": "19364a2cf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.publish": {
+    "text": "Op de community delen",
+    "source": "d046e17eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.published": {
+    "text": "Op de community",
+    "source": "0bb7b47711",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.remove": {
+    "text": "Verwijderen",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.saving": {
+    "text": "{name} wordt aan je modellen toegevoegd…",
+    "source": "91b86f06aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.scanTip": {
+    "text": "Scan een echt meubel met je telefoon (Polycam, Scaniverse, Object Capture op een iPhone) of gebruik een gratis model, en vermeld de licentie als je het deelt.",
+    "source": "4b02fbe49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.size": {
+    "text": "Echte afmetingen",
+    "source": "ce3fc85728",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.size3": {
+    "text": "{w} × {d} × {h} cm",
+    "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tip": {
+    "text": "Kantelen",
+    "source": "aad9156b83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tipBack": {
+    "text": "Achterover kantelen",
+    "source": "be11e8fe68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tipForward": {
+    "text": "Voorover kantelen",
+    "source": "634f95a2f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topView": {
+    "text": "Op de 2D-plattegrond",
+    "source": "db3e2928f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewMade": {
+    "text": "Getekend vanuit het model, van bovenaf gezien.",
+    "source": "b2847ddf6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewPicture": {
+    "text": "Eigen afbeelding gebruiken",
+    "source": "fa908b0dd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewRemove": {
+    "text": "Weer de getekende gebruiken",
+    "source": "c8bc807ba3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tryAnother": {
+    "text": "Ander bestand kiezen",
+    "source": "26eac8f8c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turn": {
+    "text": "Draaien",
+    "source": "b823d5f9d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turnLeft": {
+    "text": "Naar links draaien",
+    "source": "1aa12f9220",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turnRight": {
+    "text": "Naar rechts draaien",
+    "source": "f00ba3f306",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.usedIn": {
+    "text": "{count, plural, =0 {Op geen plattegrond} one {Op # plattegrond} other {Op # plattegronden}}",
+    "source": "cbe64624a4",
     "by": "ai",
     "reviewed": false
   }

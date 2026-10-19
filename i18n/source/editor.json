@@ -1238,12 +1238,6 @@
     "maxLength": 90,
     "file": "packages/ui/src/dashboard/childTilesView.messages.ts"
   },
-  "editor.colorSwatches.custom": {
-    "en": "Custom colour",
-    "context": "Screen reader label of the small field at the end of the swatches, where a colour can be typed as a hex code such as #ff8800. Not shown.",
-    "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HdColorSwatches.messages.ts"
-  },
   "editor.colorSwatches.name": {
     "en": "{colour, select, accent {Accent} lit {Lit} cool {Cool} good {Good} warn {Warn} danger {Danger} text {Text} surface {Surface} canvas {Canvas} chart1 {Chart 1} chart2 {Chart 2} chart3 {Chart 3} chart4 {Chart 4} chart5 {Chart 5} other {Chart 6}}",
     "context": "Tooltip and screen reader label of one swatch: the name of a colour of the theme. Accent is the theme’s highlight colour; Lit is the colour of something switched on, such as a lamp; Cool is a cold, blue tone; Good, Warn and Danger are the colours for fine, careful and bad; Text is the colour of text; Surface and Canvas are the colours of cards and of the dashboard behind them; Chart 1 to Chart 6 are the colours of the series in charts.",
@@ -1251,12 +1245,6 @@
       "colour": "Which colour: accent, lit, cool, good, warn, danger, text, surface, canvas, chart1 to chart6."
     },
     "maxLength": 330,
-    "file": "packages/ui/src/dashboard/HdColorSwatches.messages.ts"
-  },
-  "editor.colorSwatches.theme": {
-    "en": "Theme",
-    "context": "Tooltip and screen reader label of the first swatch: no colour of its own, use the theme’s own colour here.",
-    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdColorSwatches.messages.ts"
   },
   "editor.configSections.chart": {
