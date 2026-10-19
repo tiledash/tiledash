@@ -1397,6 +1397,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.communityLoading": {
+    "text": "Modellen uit de community worden geladen",
+    "source": "9a2ea676e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.communityOffline": {
+    "text": "De community is niet bereikbaar. Modellen die je hebt geïnstalleerd, staan hier nog.",
+    "source": "f8c2cc0173",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.deleteText": {
     "text": "{count, plural, =0 {Het staat op geen enkele plattegrond.} one {Het staat op # plattegrond; daar komt een eenvoudig blok voor in de plaats.} other {Het staat op # plattegronden; daar komt een eenvoudig blok voor in de plaats.}}",
     "source": "5c9a8b7357",
@@ -1451,15 +1463,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.inGroup": {
+    "text": "Komt onder {group}",
+    "source": "17fbaba3d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.install": {
     "text": "Aan mijn catalogus toevoegen",
     "source": "2a0e41f742",
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.installFailed": {
+    "text": "{name} kon niet worden geïnstalleerd. Tot dat lukt, staat er een eenvoudig blok.",
+    "source": "a0e9cc2abc",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.installed": {
     "text": "In je catalogus onder {group}",
     "source": "d393146d8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installedFromCommunity": {
+    "text": "{name} geïnstalleerd uit de community",
+    "source": "da7e8cb2f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1505,6 +1535,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.moreCommunity": {
+    "text": "Meer uit de community",
+    "source": "555b302f37",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.name": {
     "text": "Naam",
     "source": "dcd1d5223f",
@@ -1514,6 +1550,18 @@
   "floorplans.models.namePlaceholder": {
     "text": "Bijvoorbeeld: onze bank",
     "source": "22c0679715",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.notInstalled": {
+    "text": "Niet geïnstalleerd: wordt geïnstalleerd bij plaatsen",
+    "source": "b785ed6b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.placingInstalls": {
+    "text": "Nog niet geïnstalleerd: plaats je er een op de plattegrond, dan wordt die geïnstalleerd.",
+    "source": "7bf9df0f73",
     "by": "ai",
     "reviewed": false
   },
@@ -1583,6 +1631,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.retry": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.saving": {
     "text": "{name} wordt aan je modellen toegevoegd…",
     "source": "91b86f06aa",
@@ -1592,6 +1646,12 @@
   "floorplans.models.scanTip": {
     "text": "Scan een echt meubel met je telefoon (Polycam, Scaniverse, Object Capture op een iPhone) of gebruik een gratis model, en vermeld de licentie als je het deelt.",
     "source": "4b02fbe49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.showMore": {
+    "text": "Meer tonen",
+    "source": "f5c9bd1314",
     "by": "ai",
     "reviewed": false
   },
@@ -1673,9 +1733,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.usedBy": {
+    "text": "{publisher} · {count, plural, =0 {nieuw} one {# gebruikt het} other {# gebruiken het}}",
+    "source": "e386a6b66a",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.usedIn": {
     "text": "{count, plural, =0 {Op geen plattegrond} one {Op # plattegrond} other {Op # plattegronden}}",
     "source": "cbe64624a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.viewInCommunity": {
+    "text": "Bekijken",
+    "source": "dcc839a401",
     "by": "ai",
     "reviewed": false
   }

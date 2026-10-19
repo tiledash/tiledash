@@ -1397,6 +1397,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.communityLoading": {
+    "text": "Modelle der Community werden geladen",
+    "source": "9a2ea676e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.communityOffline": {
+    "text": "Die Community ist nicht erreichbar. Ihre installierten Modelle sind weiterhin da.",
+    "source": "f8c2cc0173",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.deleteText": {
     "text": "{count, plural, =0 {Es ist in keinem Grundriss platziert.} one {Es ist in # Grundriss platziert; dort erscheint stattdessen ein schlichter Platzhalter.} other {Es ist in # Grundrissen platziert; dort erscheint stattdessen ein schlichter Platzhalter.}}",
     "source": "5c9a8b7357",
@@ -1451,15 +1463,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.inGroup": {
+    "text": "Wird unter {group} einsortiert",
+    "source": "17fbaba3d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.install": {
     "text": "Zu meinem Katalog hinzufügen",
     "source": "2a0e41f742",
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.installFailed": {
+    "text": "„{name}“ konnte nicht installiert werden. Bis dahin erscheint ein schlichter Platzhalter.",
+    "source": "a0e9cc2abc",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.installed": {
     "text": "In Ihrem Katalog unter {group}",
     "source": "d393146d8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installedFromCommunity": {
+    "text": "„{name}“ aus der Community installiert",
+    "source": "da7e8cb2f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1505,6 +1535,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.moreCommunity": {
+    "text": "Mehr aus der Community",
+    "source": "555b302f37",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.name": {
     "text": "Name",
     "source": "dcd1d5223f",
@@ -1514,6 +1550,18 @@
   "floorplans.models.namePlaceholder": {
     "text": "Zum Beispiel: unser Sofa",
     "source": "22c0679715",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.notInstalled": {
+    "text": "Nicht installiert: Beim Platzieren wird es installiert",
+    "source": "b785ed6b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.placingInstalls": {
+    "text": "Noch nicht installiert: Beim Platzieren im Grundriss wird es für Sie installiert.",
+    "source": "7bf9df0f73",
     "by": "ai",
     "reviewed": false
   },
@@ -1583,6 +1631,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.retry": {
+    "text": "Erneut versuchen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.saving": {
     "text": "{name} wird zu Ihren Modellen hinzugefügt…",
     "source": "91b86f06aa",
@@ -1592,6 +1646,12 @@
   "floorplans.models.scanTip": {
     "text": "Scannen Sie ein echtes Möbelstück mit dem Handy (Polycam, Scaniverse, Object Capture am iPhone) oder nutzen Sie ein freies Modell; nennen Sie beim Teilen die Lizenz.",
     "source": "4b02fbe49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.showMore": {
+    "text": "Mehr anzeigen",
+    "source": "f5c9bd1314",
     "by": "ai",
     "reviewed": false
   },
@@ -1673,9 +1733,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.usedBy": {
+    "text": "{publisher} · {count, plural, =0 {neu} one {# nutzt es} other {# nutzen es}}",
+    "source": "e386a6b66a",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.usedIn": {
     "text": "{count, plural, =0 {In keinem Grundriss} one {In # Grundriss} other {In # Grundrissen}}",
     "source": "cbe64624a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.viewInCommunity": {
+    "text": "Ansehen",
+    "source": "dcc839a401",
     "by": "ai",
     "reviewed": false
   }

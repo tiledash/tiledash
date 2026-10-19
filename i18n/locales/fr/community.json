@@ -89,12 +89,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.browse": {
-    "text": "Parcourir",
-    "source": "3227aa9666",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.clear": {
     "text": "Effacer les filtres",
     "source": "2bc8f75ad4",
@@ -113,24 +107,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.description": {
-    "text": "Des widgets, thèmes et fragments créés par d’autres. Rien n’apparaît dans votre sélecteur de widgets, votre liste des thèmes ou vos widgets avant installation.",
-    "source": "d9998e1fb3",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.emptyBody": {
-    "text": "Personne n’a encore publié de widget, thème ou fragment. Un des vôtres vous plaît ? Publiez-le en premier.",
-    "source": "b1b6fb15d6",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.emptyTitle": {
-    "text": "Rien dans la communauté pour l’instant",
-    "source": "76b76f1441",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.installed": {
     "text": "Installés ({count})",
     "source": "ad7e1246ed",
@@ -146,12 +122,6 @@
   "community.browse.kicker": {
     "text": "Personnaliser",
     "source": "c5276e27af",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.kind": {
-    "text": "Type",
-    "source": "f5387f9bb6",
     "by": "ai",
     "reviewed": false
   },
@@ -197,12 +167,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.search": {
-    "text": "Rechercher widgets, thèmes, fragments et auteurs",
-    "source": "822d91a125",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.searchLabel": {
     "text": "Rechercher dans la communauté",
     "source": "a409f201af",
@@ -212,12 +176,6 @@
   "community.browse.sort": {
     "text": "Trier",
     "source": "bec69036aa",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.tabsLabel": {
-    "text": "Communauté",
-    "source": "bb501d7877",
     "by": "ai",
     "reviewed": false
   },
@@ -2681,6 +2639,126 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.sections.anyRoom": {
+    "text": "Toutes les pièces",
+    "source": "9bd14ebde7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.description": {
+    "text": "Des widgets, thèmes, fragments et modèles créés par d’autres. Un widget ajouté depuis le sélecteur de widgets ou un modèle placé sur un plan d’étage s’installe tout seul.",
+    "source": "426288e600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fits": {
+    "text": "Convient à",
+    "source": "71d396e03e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fitsAlone": {
+    "text": "Sans appareil",
+    "source": "9bfeb49dea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fitsAnything": {
+    "text": "Tout appareil",
+    "source": "99127b6c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.found": {
+    "text": "{count, plural, one {# trouvé} other {# trouvés}}",
+    "source": "15295e9112",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindEmpty": {
+    "text": "{kind, select, widget {Aucun widget partagé pour l’instant.} theme {Aucun thème partagé pour l’instant.} model {Aucun modèle partagé pour l’instant.} other {Aucun fragment partagé pour l’instant.}}",
+    "source": "5e86d2d5e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindNote": {
+    "text": "{kind, select, widget {Des tuiles pour vos tableaux de bord. En ajouter un depuis le sélecteur de widgets l’installe.} theme {Couleurs et typographie pour tous vos tableaux de bord.} model {Des meubles en 3D pour vos plans d’étage. En placer un l’installe.} other {Des morceaux de code de widget à utiliser dans vos propres widgets.}}",
+    "source": "addbdbe1e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindTitle": {
+    "text": "{kind, select, widget {Widgets} theme {Thèmes} model {Modèles} other {Fragments}}",
+    "source": "728ba3d154",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.mount": {
+    "text": "Emplacement",
+    "source": "c4124d6386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.mountChoice": {
+    "text": "{mount, select, floor {Sol} wall {Mur} ceiling {Plafond} other {Partout}}",
+    "source": "59527528e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.navLabel": {
+    "text": "Sections de la communauté",
+    "source": "9a302c3a9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.nothingFound": {
+    "text": "Rien dans la communauté ne correspond à « {query} ».",
+    "source": "67baee5029",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.overview": {
+    "text": "Vue d’ensemble",
+    "source": "d4b1ea5708",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.room": {
+    "text": "Pièce",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.scheme": {
+    "text": "Clair ou sombre",
+    "source": "9c25990197",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.schemeChoice": {
+    "text": "{scheme, select, dark {Sombre} light {Clair} other {Les deux}}",
+    "source": "64a7890442",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.searchAll": {
+    "text": "Rechercher widgets, thèmes, fragments, modèles et auteurs",
+    "source": "9d45a207b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.searchKind": {
+    "text": "{kind, select, widget {Rechercher des widgets} theme {Rechercher des thèmes} model {Rechercher des modèles} other {Rechercher des fragments}}",
+    "source": "7fb01a2109",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.seeAll": {
+    "text": "{kind, select, widget {{count, plural, one {Voir le widget} other {Voir les # widgets}}} theme {{count, plural, one {Voir le thème} other {Voir les # thèmes}}} model {{count, plural, one {Voir le modèle} other {Voir les # modèles}}} other {{count, plural, one {Voir le fragment} other {Voir les # fragments}}}}",
+    "source": "bffd657856",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.token.body": {
     "text": "Pour publier depuis la ligne de commande ou une GitHub Action, sans vous connecter.",
     "source": "1d3bd2f377",
@@ -2855,12 +2933,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.views.all": {
-    "text": "Tous",
-    "source": "a52ace420f",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.views.installs": {
     "text": "{count, plural, one {# installation} other {{shown} installations}}",
     "source": "57e69af780",
@@ -2870,12 +2942,6 @@
   "community.views.kind": {
     "text": "{kind, select, widget {Widget} theme {Thème} model {Modèle} other {Fragment}}",
     "source": "fca8477733",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.models": {
-    "text": "Modèles",
-    "source": "d17d2d78d7",
     "by": "ai",
     "reviewed": false
   },
@@ -2897,27 +2963,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.views.partials": {
-    "text": "Fragments",
-    "source": "b530ef9cde",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.views.recentlyUpdated": {
     "text": "Mis à jour récemment",
     "source": "474b2a869a",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.themes": {
-    "text": "Thèmes",
-    "source": "43ae3265b9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.widgets": {
-    "text": "Widgets",
-    "source": "1fda79ffb6",
     "by": "ai",
     "reviewed": false
   },

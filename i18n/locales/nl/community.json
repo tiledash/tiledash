@@ -89,12 +89,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.browse": {
-    "text": "Bladeren",
-    "source": "3227aa9666",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.clear": {
     "text": "Filters wissen",
     "source": "2bc8f75ad4",
@@ -113,24 +107,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.description": {
-    "text": "Widgets, thema’s en partials die anderen hebben gemaakt. Niets hiervan komt in je widgetkiezer, themalijst of widgets tot je het installeert.",
-    "source": "d9998e1fb3",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.emptyBody": {
-    "text": "Nog niemand heeft een widget, thema of partial gepubliceerd. Zelf iets moois gemaakt? Publiceer het als eerste.",
-    "source": "b1b6fb15d6",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.emptyTitle": {
-    "text": "Nog niets in de community",
-    "source": "76b76f1441",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.installed": {
     "text": "Geïnstalleerd ({count})",
     "source": "ad7e1246ed",
@@ -146,12 +122,6 @@
   "community.browse.kicker": {
     "text": "Aanpassen",
     "source": "c5276e27af",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.kind": {
-    "text": "Soort",
-    "source": "f5387f9bb6",
     "by": "ai",
     "reviewed": false
   },
@@ -197,12 +167,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.browse.search": {
-    "text": "Zoek widgets, thema’s, partials en makers",
-    "source": "822d91a125",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.browse.searchLabel": {
     "text": "Zoek in de community",
     "source": "a409f201af",
@@ -212,12 +176,6 @@
   "community.browse.sort": {
     "text": "Sorteren",
     "source": "bec69036aa",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.browse.tabsLabel": {
-    "text": "Community",
-    "source": "bb501d7877",
     "by": "ai",
     "reviewed": false
   },
@@ -2681,6 +2639,126 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.sections.anyRoom": {
+    "text": "Elke kamer",
+    "source": "9bd14ebde7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.description": {
+    "text": "Widgets, thema’s, partials en modellen van anderen. Een widget die je in de widgetkiezer toevoegt of een model dat je op een plattegrond zet, installeert zich vanzelf.",
+    "source": "426288e600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fits": {
+    "text": "Past bij",
+    "source": "71d396e03e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fitsAlone": {
+    "text": "Niet voor een apparaat",
+    "source": "9bfeb49dea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.fitsAnything": {
+    "text": "Elk apparaat",
+    "source": "99127b6c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.found": {
+    "text": "{count, plural, one {# gevonden} other {# gevonden}}",
+    "source": "15295e9112",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindEmpty": {
+    "text": "{kind, select, widget {Nog geen widgets gedeeld.} theme {Nog geen thema’s gedeeld.} model {Nog geen modellen gedeeld.} other {Nog geen partials gedeeld.}}",
+    "source": "5e86d2d5e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindNote": {
+    "text": "{kind, select, widget {Tegels voor je dashboards. Voeg je er een toe in de widgetkiezer, dan wordt die geïnstalleerd.} theme {Kleuren en lettertypen voor elk dashboard.} model {3D-meubels voor je plattegronden. Plaats je er een, dan wordt die geïnstalleerd.} other {Stukjes widgetcode om in je eigen widgets te gebruiken.}}",
+    "source": "addbdbe1e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.kindTitle": {
+    "text": "{kind, select, widget {Widgets} theme {Thema’s} model {Modellen} other {Partials}}",
+    "source": "728ba3d154",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.mount": {
+    "text": "Plaatsing",
+    "source": "c4124d6386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.mountChoice": {
+    "text": "{mount, select, floor {Vloer} wall {Muur} ceiling {Plafond} other {Overal}}",
+    "source": "59527528e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.navLabel": {
+    "text": "Onderdelen van de community",
+    "source": "9a302c3a9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.nothingFound": {
+    "text": "Niets in de community past bij “{query}”.",
+    "source": "67baee5029",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.overview": {
+    "text": "Overzicht",
+    "source": "d4b1ea5708",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.room": {
+    "text": "Kamer",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.scheme": {
+    "text": "Licht of donker",
+    "source": "9c25990197",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.schemeChoice": {
+    "text": "{scheme, select, dark {Donker} light {Licht} other {Beide}}",
+    "source": "64a7890442",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.searchAll": {
+    "text": "Zoek widgets, thema’s, partials, modellen en makers",
+    "source": "9d45a207b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.searchKind": {
+    "text": "{kind, select, widget {Zoek widgets} theme {Zoek thema’s} model {Zoek modellen} other {Zoek partials}}",
+    "source": "7fb01a2109",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.seeAll": {
+    "text": "{kind, select, widget {{count, plural, one {De widget bekijken} other {Alle # widgets bekijken}}} theme {{count, plural, one {Het thema bekijken} other {Alle # thema’s bekijken}}} model {{count, plural, one {Het model bekijken} other {Alle # modellen bekijken}}} other {{count, plural, one {De partial bekijken} other {Alle # partials bekijken}}}}",
+    "source": "bffd657856",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.token.body": {
     "text": "Om te publiceren vanaf de opdrachtregel of een GitHub Action, zonder in te loggen.",
     "source": "1d3bd2f377",
@@ -2855,12 +2933,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.views.all": {
-    "text": "Alle",
-    "source": "a52ace420f",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.views.installs": {
     "text": "{count, plural, one {# installatie} other {{shown} installaties}}",
     "source": "57e69af780",
@@ -2870,12 +2942,6 @@
   "community.views.kind": {
     "text": "{kind, select, widget {Widget} theme {Thema} model {Model} other {Partial}}",
     "source": "fca8477733",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.models": {
-    "text": "Modellen",
-    "source": "d17d2d78d7",
     "by": "ai",
     "reviewed": false
   },
@@ -2897,27 +2963,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "community.views.partials": {
-    "text": "Partials",
-    "source": "b530ef9cde",
-    "by": "ai",
-    "reviewed": false
-  },
   "community.views.recentlyUpdated": {
     "text": "Onlangs bijgewerkt",
     "source": "474b2a869a",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.themes": {
-    "text": "Thema’s",
-    "source": "43ae3265b9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "community.views.widgets": {
-    "text": "Widgets",
-    "source": "1fda79ffb6",
     "by": "ai",
     "reviewed": false
   },

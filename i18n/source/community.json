@@ -89,17 +89,11 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StorePublisherDialog.messages.ts"
   },
-  "community.browse.browse": {
-    "en": "Browse",
-    "context": "Tab with everything in the community.",
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
   "community.browse.clear": {
     "en": "Clear the filters",
     "context": "Button that turns the search and filters off.",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.count": {
     "en": "{filtered, select, yes {{total, plural, one {# item matches} other {# items match}}} other {{total, plural, one {# item} other {# items}}}}",
@@ -109,7 +103,7 @@
       "total": "How many items."
     },
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.countShown": {
     "en": "{filtered, select, yes {{shown} of {total, plural, one {# item matches} other {# items match}}} other {{shown} of {total, plural, one {# item} other {# items}}}}",
@@ -120,25 +114,7 @@
       "total": "How many items there are."
     },
     "maxLength": 40,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.description": {
-    "en": "Widgets, themes and partials other people made. Nothing here shows up in your widget picker, theme list or widgets until you install it.",
-    "context": "Line under the community page’s title.",
-    "maxLength": 170,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.emptyBody": {
-    "en": "Nobody has published a widget, theme or partial yet. Made one you like? Publish it, and it’s the first.",
-    "context": "Line under \"Nothing in the community yet\".",
-    "maxLength": 120,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.emptyTitle": {
-    "en": "Nothing in the community yet",
-    "context": "Title when nobody has published anything yet.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.installed": {
     "en": "Installed ({count})",
@@ -147,7 +123,7 @@
       "count": "How many are installed."
     },
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.installedUpdates": {
     "en": "{updates, plural, one {Installed ({count}) · # update} other {Installed ({count}) · # updates}}",
@@ -157,31 +133,25 @@
       "updates": "How many have an update."
     },
     "maxLength": 40,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.kicker": {
     "en": "Customize",
     "context": "Small line above the community page’s title: the part of the app it belongs to, as the themes page says it (themes.screen.kicker).",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.kind": {
-    "en": "Kind",
-    "context": "Name of the choice of kind (widgets, themes, partials), read out by screen readers.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.more": {
     "en": "Show more",
     "context": "Button that loads more items.",
     "maxLength": 20,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.noMatch": {
     "en": "No item matches these filters.",
     "context": "Line under \"Nothing matches\" when only filters are on.",
     "maxLength": 50,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.noMatchQuery": {
     "en": "No widget, theme or publisher matches “{query}” with these filters.",
@@ -190,25 +160,25 @@
       "query": "What the person typed. Not translated."
     },
     "maxLength": 100,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.noMatchTitle": {
     "en": "Nothing matches",
     "context": "Title when no item matches the search and filters.",
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.noOutside": {
     "en": "No outside addresses",
     "context": "Checkbox that shows only items that load nothing from outside the Homey.",
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.publish": {
     "en": "Publish yours",
     "context": "Button that starts sharing one of the person’s own widgets, themes or partials in the community.",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.published": {
     "en": "Published ({count})",
@@ -217,43 +187,31 @@
       "count": "How many they published."
     },
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.search": {
-    "en": "Search widgets, themes, partials and publishers",
-    "context": "Placeholder of the community’s search box.",
-    "maxLength": 60,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.searchLabel": {
     "en": "Search the community",
     "context": "Name of the search box, read out by screen readers.",
     "maxLength": 40,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.sort": {
     "en": "Sort",
     "context": "Name of the choice of order, read out by screen readers.",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
-  },
-  "community.browse.tabsLabel": {
-    "en": "Community",
-    "context": "Name of the row of tabs, read out by screen readers.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.tags": {
     "en": "Tags",
     "context": "Name of the row of tag buttons, read out by screen readers.",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.title": {
     "en": "Community",
     "context": "Big title of the community page. Use the same word as the sidebar (shell.names.community).",
     "maxLength": 30,
-    "file": "packages/ui/src/screens/store/StoreBrowseScreen.messages.ts"
+    "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.card.installed": {
     "en": "Installed",
@@ -3064,6 +3022,154 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
   },
+  "community.sections.anyRoom": {
+    "en": "Any room",
+    "context": "First choice of the \"Room\" filter on the community’s models page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.description": {
+    "en": "Widgets, themes, partials and models other people made. A widget you add from the widget picker, or a model you place on a floor plan, installs itself.",
+    "context": "Text under the title of the community’s overview. The widget picker is the add-widgets window of a dashboard; a model is 3D furniture for a floor plan; partials are pieces of widget code other widgets reuse.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.fits": {
+    "en": "Fits",
+    "context": "Label of the filter on the community’s widgets page: only widgets that fit one kind of device of the person’s Homey (lights, thermostats…).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.fitsAlone": {
+    "en": "Not about a device",
+    "context": "Choice of the \"Fits\" filter on the community’s widgets page: widgets that stand alone, such as a clock or the weather.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.fitsAnything": {
+    "en": "Any device",
+    "context": "First choice of the \"Fits\" filter on the community’s widgets page: widgets for any kind of device, and those not about a device.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.found": {
+    "en": "{count, plural, one {# found} other {# found}}",
+    "context": "Small count next to a kind’s heading in the search results on the community’s overview, such as \"Widgets · 3 found\".",
+    "params": {
+      "count": "How many of that kind match the search. A number."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.kindEmpty": {
+    "en": "{kind, select, widget {No widgets shared yet.} theme {No themes shared yet.} model {No models shared yet.} other {No partials shared yet.}}",
+    "context": "Shown in a kind’s row on the community’s overview while nobody shared anything of that kind.",
+    "params": {
+      "kind": "widget, theme, partial or model."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.kindNote": {
+    "en": "{kind, select, widget {Tiles for your dashboards. Adding one from the widget picker installs it.} theme {Colours and type for every dashboard.} model {Furniture in 3D for your floor plans. Placing one installs it.} other {Pieces of widget code to use in widgets of your own.}}",
+    "context": "One line under a kind’s heading on the community’s overview and on that kind’s page: what that kind is for.",
+    "params": {
+      "kind": "widget, theme, partial or model."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.kindTitle": {
+    "en": "{kind, select, widget {Widgets} theme {Themes} model {Models} other {Partials}}",
+    "context": "Heading of a kind’s row on the community’s overview, and of that kind’s page.",
+    "params": {
+      "kind": "widget, theme, partial or model."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.mount": {
+    "en": "Sits",
+    "context": "Label of the filter on the community’s models page: where the model goes, on the floor, on a wall or on the ceiling.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.mountChoice": {
+    "en": "{mount, select, floor {Floor} wall {Wall} ceiling {Ceiling} other {Anywhere}}",
+    "context": "Choices of the \"Sits\" filter on the community’s models page.",
+    "params": {
+      "mount": "floor, wall, ceiling or any."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.navLabel": {
+    "en": "Community sections",
+    "context": "Screen reader label of the row of tabs on the community page (Overview, Widgets, Themes…). Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.nothingFound": {
+    "en": "Nothing in the community matches “{query}”.",
+    "context": "Shown on the community’s overview when a search finds nothing of any kind.",
+    "params": {
+      "query": "What the person searched for."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.overview": {
+    "en": "Overview",
+    "context": "Tab of the community page: the overview, with a row of the most used items of each kind (widgets, themes, partials, models).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.room": {
+    "en": "Room",
+    "context": "Label of the filter on the community’s models page: the furniture catalogue’s group a model goes in (Living room, Kitchen…).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.scheme": {
+    "en": "Light or dark",
+    "context": "Label of the filter on the community’s themes page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.schemeChoice": {
+    "en": "{scheme, select, dark {Dark} light {Light} other {Both}}",
+    "context": "Choices of the \"Light or dark\" filter on the community’s themes page: dark themes, light ones, or both.",
+    "params": {
+      "scheme": "dark, light or any."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.searchAll": {
+    "en": "Search widgets, themes, partials, models and publishers",
+    "context": "Placeholder of the search box on the community’s overview. It searches every kind at once.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.searchKind": {
+    "en": "{kind, select, widget {Search widgets} theme {Search themes} model {Search models} other {Search partials}}",
+    "context": "Placeholder of the search box on one kind’s page of the community, such as \"Search widgets\".",
+    "params": {
+      "kind": "widget, theme, partial or model."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.seeAll": {
+    "en": "{kind, select, widget {{count, plural, one {See the widget} other {See all # widgets}}} theme {{count, plural, one {See the theme} other {See all # themes}}} model {{count, plural, one {See the model} other {See all # models}}} other {{count, plural, one {See the partial} other {See all # partials}}}}",
+    "context": "Link at the end of a kind’s row on the community’s overview, or of a kind’s search results: opens that kind’s page. A command.",
+    "params": {
+      "count": "How many there are. A number.",
+      "kind": "widget, theme, partial or model."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
   "community.token.body": {
     "en": "For publishing from the command line or a GitHub Action, without signing in.",
     "context": "Line under the title of the dialog.",
@@ -3244,12 +3350,6 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StoreVersions.messages.ts"
   },
-  "community.views.all": {
-    "en": "All",
-    "context": "Filter of the community that shows every kind of item.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
-  },
   "community.views.installs": {
     "en": "{count, plural, one {# install} other {{shown} installs}}",
     "context": "How many times a community item was installed, such as \"840 installs\" or \"12.4k installs\".",
@@ -3266,12 +3366,6 @@
     "params": {
       "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
-  },
-  "community.views.models": {
-    "en": "Models",
-    "context": "Filter of the community that shows only 3D models (furniture for floor plans).",
     "maxLength": 16,
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
   },
@@ -3293,28 +3387,10 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
   },
-  "community.views.partials": {
-    "en": "Partials",
-    "context": "Filter of the community that shows only partials (pieces of widget code).",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
-  },
   "community.views.recentlyUpdated": {
     "en": "Recently updated",
     "context": "Sort order of the community: the latest updated first.",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
-  },
-  "community.views.themes": {
-    "en": "Themes",
-    "context": "Filter of the community that shows only themes.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/store/storeViews.messages.ts"
-  },
-  "community.views.widgets": {
-    "en": "Widgets",
-    "context": "Filter of the community that shows only widgets.",
-    "maxLength": 16,
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
   },
   "community.zip.cancel": {

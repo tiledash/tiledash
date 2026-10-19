@@ -1397,6 +1397,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.communityLoading": {
+    "text": "Chargement des modèles de la communauté",
+    "source": "9a2ea676e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.communityOffline": {
+    "text": "Impossible de joindre la communauté. Les modèles que vous avez installés sont toujours là.",
+    "source": "f8c2cc0173",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.deleteText": {
     "text": "{count, plural, =0 {Il ne figure sur aucun plan d’étage.} one {Il figure sur # plan d’étage, qui affichera une forme simple à sa place.} other {Il figure sur # plans d’étage, qui afficheront une forme simple à sa place.}}",
     "source": "5c9a8b7357",
@@ -1451,15 +1463,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.inGroup": {
+    "text": "Rejoindra la rubrique {group}",
+    "source": "17fbaba3d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.install": {
     "text": "Ajouter à mon catalogue",
     "source": "2a0e41f742",
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.installFailed": {
+    "text": "Impossible d’installer {name}. Une forme simple s’affiche à sa place en attendant.",
+    "source": "a0e9cc2abc",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.installed": {
     "text": "Dans votre catalogue, rubrique {group}",
     "source": "d393146d8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installedFromCommunity": {
+    "text": "{name} installé depuis la communauté",
+    "source": "da7e8cb2f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1505,6 +1535,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.moreCommunity": {
+    "text": "Plus dans la communauté",
+    "source": "555b302f37",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.name": {
     "text": "Nom",
     "source": "dcd1d5223f",
@@ -1514,6 +1550,18 @@
   "floorplans.models.namePlaceholder": {
     "text": "Par exemple : notre canapé",
     "source": "22c0679715",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.notInstalled": {
+    "text": "Pas installé : le placer l’installe",
+    "source": "b785ed6b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.placingInstalls": {
+    "text": "Pas encore installés : en placer un sur le plan l’installe pour vous.",
+    "source": "7bf9df0f73",
     "by": "ai",
     "reviewed": false
   },
@@ -1583,6 +1631,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.retry": {
+    "text": "Réessayer",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.saving": {
     "text": "Ajout de {name} à vos modèles…",
     "source": "91b86f06aa",
@@ -1592,6 +1646,12 @@
   "floorplans.models.scanTip": {
     "text": "Scannez un vrai meuble avec votre téléphone (Polycam, Scaniverse, Object Capture sur iPhone) ou prenez un modèle gratuit, et indiquez sa licence en le partageant.",
     "source": "4b02fbe49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.showMore": {
+    "text": "Afficher plus",
+    "source": "f5c9bd1314",
     "by": "ai",
     "reviewed": false
   },
@@ -1673,9 +1733,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.usedBy": {
+    "text": "{publisher} · {count, plural, =0 {nouveau} one {# l’utilise} other {# l’utilisent}}",
+    "source": "e386a6b66a",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.usedIn": {
     "text": "{count, plural, =0 {Sur aucun plan} one {Sur # plan} other {Sur # plans}}",
     "source": "cbe64624a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.viewInCommunity": {
+    "text": "Voir",
+    "source": "dcc839a401",
     "by": "ai",
     "reviewed": false
   }

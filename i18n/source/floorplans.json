@@ -1564,6 +1564,18 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.communityLoading": {
+    "en": "Loading the Community’s models",
+    "context": "Screen reader text while the furniture catalogue loads the Community’s models. Grey placeholder tiles show meanwhile. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.communityOffline": {
+    "en": "Couldn’t reach the Community. Models you installed are still here.",
+    "context": "Text in the furniture catalogue when the Community’s models could not be loaded. A button \"Try again\" follows it.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.deleteText": {
     "en": "{count, plural, =0 {It isn’t on any floor plan.} one {It’s on # floor plan, which shows a plain piece in its place.} other {It’s on # floor plans, which show a plain piece in its place.}}",
     "context": "Text of the dialog that asks before deleting one of your own 3D models: what happens to the plans it is on.",
@@ -1630,10 +1642,28 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.inGroup": {
+    "en": "Goes under {group}",
+    "context": "Small text on the picked Community model in the furniture catalogue: the catalogue group it lands in once installed.",
+    "params": {
+      "group": "The catalogue group, such as \"Living room\". Already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.install": {
     "en": "Add to my catalogue",
     "context": "Button on a model’s Community page: install it, so it is in the floor plan’s furniture catalogue.",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.installFailed": {
+    "en": "Couldn’t install {name}. It shows as a plain piece until it is.",
+    "context": "Red message (toast) when a 3D model from the Community, just placed on the floor plan, could not be installed. The plan shows a plain box in its place meanwhile.",
+    "params": {
+      "name": "The model’s name, such as \"Egg chair\". Not translated."
+    },
+    "maxLength": 110,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.installed": {
@@ -1643,6 +1673,15 @@
       "group": "The catalogue group, such as \"Living room\". Already translated."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.installedFromCommunity": {
+    "en": "{name} installed from the Community",
+    "context": "Green message (toast) after a 3D model from the Community was installed by placing it on the floor plan. A button \"View\" follows it.",
+    "params": {
+      "name": "The model’s name, such as \"Egg chair\". Not translated."
+    },
+    "maxLength": 100,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.keepShape": {
@@ -1691,6 +1730,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.moreCommunity": {
+    "en": "More from the Community",
+    "context": "Heading of the furniture catalogue’s group of 3D models other people shared on the Community that the person has not installed yet, the most used first. Placing one on the plan installs it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.name": {
     "en": "Name",
     "context": "Label of the model’s name, such as \"Our sofa\".",
@@ -1701,6 +1746,18 @@
     "en": "For example: our sofa",
     "context": "Placeholder of the model’s name.",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.notInstalled": {
+    "en": "Not installed: placing it installs it",
+    "context": "Screen reader label of the small download mark on a Community model in the furniture catalogue that is not installed yet. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.placingInstalls": {
+    "en": "Not installed yet: placing one on the plan installs it for you.",
+    "context": "Small text under the heading \"More from the Community\" in the furniture catalogue of the floor plan editor.",
+    "maxLength": 90,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.problem": {
@@ -1791,6 +1848,12 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.retry": {
+    "en": "Try again",
+    "context": "Button after \"Couldn’t reach the Community\" in the furniture catalogue: loads it again. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.saving": {
     "en": "Adding {name} to your models…",
     "context": "Above the list of what saving a fitted 3D model is doing.",
@@ -1804,6 +1867,12 @@
     "en": "Scan a real piece with your phone (Polycam, Scaniverse, an iPhone’s Object Capture) or use a free model, and say its licence when you share it.",
     "context": "Tip under the drop area: where a model can come from.",
     "maxLength": 170,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.showMore": {
+    "en": "Show more",
+    "context": "Button at the end of the group \"More from the Community\" in the furniture catalogue: loads more models. A command.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.size": {
@@ -1889,6 +1958,16 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.usedBy": {
+    "en": "{publisher} · {count, plural, =0 {new} one {# uses it} other {# use it}}",
+    "context": "Small text on a Community model in the furniture catalogue: who shared it and how many people installed it, such as \"@kees · 41 use it\".",
+    "params": {
+      "count": "How many people installed it. A number.",
+      "publisher": "The publisher’s Community name, such as \"@kees\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.usedIn": {
     "en": "{count, plural, =0 {Not on a plan} one {On # plan} other {On # plans}}",
     "context": "Under a model in the list of your models: on how many floor plans it is placed.",
@@ -1896,6 +1975,12 @@
       "count": "How many plans."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.viewInCommunity": {
+    "en": "View",
+    "context": "Button in the message \"… installed from the Community\": opens the model’s page on the Community. A command.",
+    "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   }
 }

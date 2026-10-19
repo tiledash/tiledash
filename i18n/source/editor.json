@@ -1853,6 +1853,15 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
+  "editor.dashboardPage.installedFromCommunity": {
+    "en": "{title} installed from the community",
+    "context": "Green message (toast) after a widget from the community (where people share widgets) was installed by adding it to the dashboard from the add-widgets window. A button \"View\" follows it.",
+    "params": {
+      "title": "The widget’s name, such as \"EV charger\". Not translated."
+    },
+    "maxLength": 100,
+    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
+  },
   "editor.dashboardPage.nothingToAdd": {
     "en": "Nothing to add yet",
     "context": "Amber message (toast) when the person confirmed the widget picker without having chosen any widget, so nothing was added.",
@@ -1953,6 +1962,12 @@
   "editor.dashboardPage.undo": {
     "en": "Undo",
     "context": "Button on the message (toast) after tiles were removed. It puts them back where they were, with their settings and style.",
+    "maxLength": 16,
+    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
+  },
+  "editor.dashboardPage.viewInCommunity": {
+    "en": "View",
+    "context": "Button in the message \"… installed from the community\": opens the widget’s page in the community. A command.",
     "maxLength": 16,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
@@ -9713,13 +9728,13 @@
   },
   "editor.widgetPicker.browseAll": {
     "en": "Browse the whole community",
-    "context": "Button at the end of the Suggested tab of the add-widgets window, after the question \"Not what you’re after?\". It goes to the community page. A command.",
+    "context": "Button at the end of the Community tab of the add-widgets window, after the question \"Not what you’re after?\". It goes to the community page. A command.",
     "maxLength": 40,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.browseCommunity": {
     "en": "Browse the community",
-    "context": "Button under the empty Installed tab of the add-widgets window. It goes to the community page, where widgets, themes and partials made by people can be browsed. A command.",
+    "context": "Button under the empty Community tab of the add-widgets window. It goes to the community page, where widgets, themes and partials made by people can be browsed. A command.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
@@ -9729,10 +9744,28 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.communityLoading": {
+    "en": "Loading the community’s widgets",
+    "context": "Screen reader text while the Community tab of the add-widgets window loads the community’s widgets. Grey placeholder rows show meanwhile. Not visible as text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.communityLooks": {
     "en": "Look from the community",
     "context": "Screen reader label of the group of cards of community looks (not installed yet) in the add-widgets window. Not visible as text.",
     "maxLength": 40,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.communityNone": {
+    "en": "Nothing in the community fits your Homey yet. Widgets people share show up here.",
+    "context": "Text shown on the Community tab of the add-widgets window when the community has no widget for anything on the person’s Homey, and none that stands alone. A button \"Browse the community\" is under it.",
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.communityOffline": {
+    "en": "Couldn’t reach the community. Widgets you installed are still here.",
+    "context": "Text on the Community tab of the add-widgets window when the community could not be loaded (no connection, or the server had a problem). A button \"Try again\" follows it.",
+    "maxLength": 110,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.everyLevel": {
@@ -9781,6 +9814,12 @@
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.forYourHomey": {
+    "en": "For your Homey",
+    "context": "Title of the first group on the Community tab of the add-widgets window: community widgets that fit a device, Flow or mood of the person’s Homey, each with the things it fits under it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.inCommunityNote": {
     "en": "Not installed yet: adding one installs it for you.",
     "context": "Small text under the heading \"In the community\": these widgets are not installed yet, and adding one to the dashboard installs it automatically.",
@@ -9793,10 +9832,10 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
-  "editor.widgetPicker.installedNone": {
-    "en": "Widgets you install from the community show up here, with what they fit on your Homey.",
-    "context": "Text shown on the Installed tab of the add-widgets window while the person has installed no community widgets. A button \"Browse the community\" is under it.",
-    "maxLength": 140,
+  "editor.widgetPicker.installed": {
+    "en": "Installed",
+    "context": "Small badge with a check mark on a community widget in the add-widgets window that the person has installed already.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.installsWhenAdded": {
@@ -9837,7 +9876,7 @@
   },
   "editor.widgetPicker.notWhatYouWant": {
     "en": "Not what you're after?",
-    "context": "Question at the end of the Suggested tab of the add-widgets window. A button \"Browse the whole community\" follows it.",
+    "context": "Question at the end of the Community tab of the add-widgets window. A button \"Browse the whole community\" follows it.",
     "maxLength": 50,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
@@ -9861,7 +9900,7 @@
   },
   "editor.widgetPicker.popular": {
     "en": "Popular",
-    "context": "Title of the group, on the Suggested tab of the add-widgets window, of the most used community widgets that stand alone (not tied to a device).",
+    "context": "Title of the group, on the Community tab of the add-widgets window, of the community widgets that stand alone (not tied to a device), the most used first.",
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
@@ -9880,6 +9919,12 @@
     "maxLength": 18,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.retry": {
+    "en": "Try again",
+    "context": "Button after the text \"Couldn’t reach the community\" on the Community tab of the add-widgets window: loads it again. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.searchPlaceholder": {
     "en": "Search devices, flows, moods and widgets",
     "context": "Placeholder of the search box at the top of the add-widgets window. It searches every tab at once.",
@@ -9895,6 +9940,18 @@
     "maxLength": 70,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.showMore": {
+    "en": "Show more",
+    "context": "Button at the end of the Community tab of the add-widgets window: loads more widgets from the community. A command.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.tabCommunity": {
+    "en": "Community",
+    "context": "Tab of the add-widgets window: every widget from the community (where people share widgets), installed or not, those that fit the person’s Homey first. Adding one that is not installed installs it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.tabDevices": {
     "en": "Devices",
     "context": "Tab of the add-widgets window: the devices of the Homey (lights, sensors, thermostats) to put on the dashboard.",
@@ -9904,12 +9961,6 @@
   "editor.widgetPicker.tabFlows": {
     "en": "Flows",
     "context": "Tab of the add-widgets window: the Flows of the Homey (its automations) that can be started with a button.",
-    "maxLength": 16,
-    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
-  },
-  "editor.widgetPicker.tabInstalled": {
-    "en": "Installed",
-    "context": "Tab of the add-widgets window: widgets from the community that the person installed.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
@@ -9928,12 +9979,6 @@
   "editor.widgetPicker.tabOwn": {
     "en": "My own",
     "context": "Tab of the add-widgets window: the widgets the person made themselves.",
-    "maxLength": 16,
-    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
-  },
-  "editor.widgetPicker.tabSuggested": {
-    "en": "Suggested",
-    "context": "Tab of the add-widgets window: widgets from the community, not installed yet, that fit something on the person’s Homey.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
