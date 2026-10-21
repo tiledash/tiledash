@@ -2077,10 +2077,10 @@
     "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
   },
   "floorplans.modelPreview.partShapeValue": {
-    "en": "{shape, select, box {Box} cylinder {Cylinder} sphere {Sphere} extrusion {Outline} lathe {Turned profile} other {Shape}}",
-    "context": "A part’s shape. Outline: a flat outline pushed out. Turned profile: a profile turned around an axis, like a vase on a lathe.",
+    "en": "{shape, select, box {Box} cylinder {Cylinder} sphere {Sphere} extrusion {Outline} loft {Loft} lathe {Turned profile} other {Shape}}",
+    "context": "A part’s shape. Outline: a flat outline pushed out. Loft: several outlines joined into one shape, as in 3D modelling tools. Turned profile: a profile turned around an axis, like a vase on a lathe.",
     "params": {
-      "shape": "box, cylinder, sphere, extrusion or lathe."
+      "shape": "box, cylinder, sphere, extrusion, loft or lathe."
     },
     "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
