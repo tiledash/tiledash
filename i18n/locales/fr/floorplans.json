@@ -29,6 +29,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.devices.climateAverage": {
+    "text": "Moyenne de la pièce",
+    "source": "2f0c5264a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.climateFrom": {
+    "text": "{reading, select, temperature {Température de} other {Humidité de}}",
+    "source": "33ebf865b1",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.devices.contact": {
     "text": "Capteur d’ouverture",
     "source": "019200444b",
@@ -50,6 +62,12 @@
   "floorplans.devices.device": {
     "text": "Appareil",
     "source": "6ba0bdeccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.deviceInZone": {
+    "text": "{device} · {zone}",
+    "source": "4650716157",
     "by": "ai",
     "reviewed": false
   },
@@ -707,6 +725,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.editor.panelWidth": {
+    "text": "Largeur du panneau latéral",
+    "source": "b1a89c7455",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.editor.paused": {
     "text": "Ce plan est en pause : votre forfait permet moins de plans d’étage. Vous pouvez le consulter, pas le modifier.",
     "source": "d08dde4724",
@@ -1145,6 +1169,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.catalogueTab": {
+    "text": "{tab, select, library {Bibliothèque} placed {Dans ce plan} mine {Mes modèles} other {Communauté}}",
+    "source": "2812a08781",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.catalogueTabs": {
+    "text": "Meubles à afficher",
+    "source": "1ae5410b34",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.depth": {
     "text": "Profondeur",
     "source": "f1dbc33978",
@@ -1154,6 +1190,12 @@
   "floorplans.furniture.deviceGroup": {
     "text": "{group, select, lights {Éclairage} other {Prises, capteurs et plus}}",
     "source": "74ab7b90f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.doors": {
+    "text": "Portes",
+    "source": "7989480e41",
     "by": "ai",
     "reviewed": false
   },
@@ -1181,9 +1223,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.inThisPlan": {
+    "text": "À ce niveau",
+    "source": "d8b7a3a252",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.item": {
-    "text": "{item, select, sofa-2 {Canapé 2 places} sofa-3 {Canapé 3 places} corner-sofa {Canapé d’angle} armchair {Fauteuil} coffee-table {Table basse} side-table {Bout de canapé} tv-cabinet {Meuble TV} tv {TV murale} bookcase {Bibliothèque} floor-lamp {Lampadaire} rug {Tapis} plant {Plante} dining-table-4 {Table à manger pour 4} dining-table-6 {Table à manger pour 6} round-table {Table ronde} chair {Chaise} sideboard {Buffet} counter {Plan de travail} sink-unit {Évier} hob-unit {Plaque de cuisson} fridge {Réfrigérateur} dishwasher {Lave-vaisselle} oven {Four} island {Îlot de cuisine} bar-stool {Tabouret de bar} double-bed {Lit double} single-bed {Lit simple} bedside-table {Table de chevet} wardrobe {Armoire} dresser {Commode} cot {Lit à barreaux} bath {Baignoire} shower {Douche} toilet {Toilettes} washbasin {Lavabo} washing-machine {Lave-linge} dryer {Sèche-linge} radiator {Radiateur} desk {Bureau} office-chair {Chaise de bureau} shelf {Étagère murale} coat-rack {Portemanteau} shoe-cabinet {Meuble à chaussures} wall-cabinet {Placard mural} garden-table {Table de jardin} sun-lounger {Chaise longue} barbecue {Barbecue} car {Voiture} box {Boîte} cylinder {Cylindre} other {Meuble}}",
-    "source": "422b2cf9e8",
+    "text": "{item, select, sofa-2 {Canapé 2 places} sofa-3 {Canapé 3 places} corner-sofa {Canapé d’angle} armchair {Fauteuil} coffee-table {Table basse} picture {Tableau} side-table {Bout de canapé} tv-cabinet {Meuble TV} tv {TV} tv-lowboard {Meuble TV bas} bookcase {Bibliothèque} floor-lamp {Lampadaire} rug {Tapis} plant {Plante} dining-table-4 {Table à manger pour 4} dining-table-6 {Table à manger pour 6} round-table {Table ronde} table {Table} chair {Chaise} sideboard {Buffet} counter {Plan de travail} sink-unit {Évier} hob-unit {Plaque de cuisson} fridge {Réfrigérateur} dishwasher {Lave-vaisselle} oven {Four} island {Îlot de cuisine} bar-stool {Tabouret de bar} double-bed {Lit double} single-bed {Lit simple} bedside-table {Table de chevet} wardrobe {Armoire} dresser {Commode} cot {Lit à barreaux} bath {Baignoire} shower {Douche} toilet {Toilettes} washbasin {Lavabo} washing-machine {Lave-linge} dryer {Sèche-linge} radiator {Radiateur} desk {Bureau} office-chair {Chaise de bureau} shelf {Étagère murale} coat-rack {Portemanteau} shoe-cabinet {Meuble à chaussures} wall-cabinet {Placard mural} garden-table {Table de jardin} sun-lounger {Chaise longue} barbecue {Barbecue} car {Voiture} box {Boîte} cylinder {Cylindre} solid {Forme libre} kk-couch {Canapé} kk-armchair {Fauteuil} kk-coffee-table {Table basse} kk-side-table {Bout de canapé} kk-cabinet {Meuble} kk-cabinet-small {Petit meuble} kk-bookcase {Bibliothèque murale} kk-shelf {Étagère murale profonde} kk-shelf-small {Petite bibliothèque murale} kk-wall-shelf {Étagère flottante} kk-wall-shelf-small {Petite étagère flottante} kk-picture {Tableau} kk-rug-oval {Tapis ovale} kk-rug-stripes {Tapis rayé} kk-cactus {Cactus} kk-lamp-floor {Lampadaire} kk-lamp-table {Lampe de table} kk-table {Table carrée} kk-table-long {Table à manger} kk-chair {Chaise} kk-chair-wood {Chaise en bois} kk-stool {Tabouret} kk-bed-double {Lit double} kk-bed-single {Lit simple} q-sofa {Canapé} q-sofa-long {Canapé d’angle} q-armchair {Fauteuil} q-coffee-table {Table basse} q-bookcase {Bibliothèque} q-bookcase-empty {Bibliothèque vide} q-bookcase-wide {Grande bibliothèque} q-wardrobe {Armoire} q-dresser {Commode} q-table {Table à manger} q-chair {Chaise} q-chair-cushioned {Chaise rembourrée} q-chair-arms {Fauteuil en bois} q-stool {Tabouret} q-bed {Lit simple} q-bed-king {Lit king size} q-lamp {Lampadaire} q-plant {Plante} q-vase {Vase} base-drawers {Meuble à tiroirs} corner-cabinet {Meuble d’angle} corner-cabinet-round {Meuble d’angle arrondi} tall-cabinet {Colonne} fridge-builtin {Réfrigérateur encastré} fridge-small {Réfrigérateur sous plan} hob-electric {Plaque électrique} wall-cabinet-double {Meuble haut double} wall-cabinet-low {Meuble haut bas} wall-cabinet-corner {Étagère d’angle} hood {Hotte} hood-large {Grande hotte} microwave {Micro-ondes} coffee-maker {Cafetière} toaster {Grille-pain} blender {Blender} kettle {Bouilloire} tap {Robinet} bin {Poubelle} washer-dryer {Lave-linge séchant} washbasin-square {Lavabo carré} toilet-square {Toilettes carrées} shower-round {Douche ronde} bathroom-cabinet {Meuble de salle de bain} bathroom-mirror {Miroir} other {Meuble}}",
+    "source": "8a017f15fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitBy": {
+    "text": "Par {author} · {licence}",
+    "source": "fff4cea63e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitSource": {
+    "text": "D’où ils viennent",
+    "source": "873623346b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.mount": {
+    "text": "{mount, select, wall {Au mur} other {Posé}}",
+    "source": "36f2d13830",
     "by": "ai",
     "reviewed": false
   },
@@ -1205,6 +1271,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.nothingPlaced": {
+    "text": "Rien n’est encore placé à ce niveau. Ce que vous placez apparaît ici, pour en ajouter un autre.",
+    "source": "ad91b9838e",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.onCeiling": {
     "text": "Au plafond",
     "source": "e6a7666198",
@@ -1217,15 +1289,117 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.outline": {
+    "text": "{outline, select, rectangle {Rectangle} rounded {Arrondi} oval {Ovale} other {Naturel}}",
+    "source": "4f2f735628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKit": {
+    "text": "Dessiné par Tiledash",
+    "source": "652727b362",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKitHint": {
+    "text": "Façonnés à la taille que vous leur donnez.",
+    "source": "8f3f4e7452",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureArt": {
+    "text": "Couleur de l’image",
+    "source": "741573cdef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureCustom": {
+    "text": "Taille libre",
+    "source": "806a2d8eb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrame": {
+    "text": "{frame, select, thin {Fin} thick {Épais} canvas {Toile} other {Affiche}}",
+    "source": "87e3e0ccea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrameLabel": {
+    "text": "Cadre",
+    "source": "d0b50e064a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSize": {
+    "text": "{size, select, a4 {A4} a3 {A3} a2 {A2} other {{w} × {h} cm}}",
+    "source": "e826ef7d02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSizeLabel": {
+    "text": "Taille",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWay": {
+    "text": "Sens",
+    "source": "09e5b4e95f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWayOption": {
+    "text": "{way, select, portrait {Portrait} other {Paysage}}",
+    "source": "737d4a1b17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTab": {
+    "text": "{tab, select, details {Détails} place {Place} other {Forme}}",
+    "source": "44038499df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTabs": {
+    "text": "Réglages à afficher",
+    "source": "c0917e7d05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.placedCount": {
+    "text": "{count, plural, one {Une fois à ce niveau} other {# fois à ce niveau}}",
+    "source": "cd929239d0",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.remove": {
     "text": "Retirer",
     "source": "c3812fc4ac",
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.screenSize": {
+    "text": "Taille d’écran",
+    "source": "d9f527dacd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.screenSizeValue": {
+    "text": "{inches}″ · {width} × {height} cm",
+    "source": "4d1c566c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.search": {
     "text": "Rechercher un meuble",
     "source": "22a102a822",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.seats": {
+    "text": "Chaises",
+    "source": "09e99d8899",
     "by": "ai",
     "reviewed": false
   },
@@ -1238,6 +1412,24 @@
   "floorplans.furniture.size": {
     "text": "{w} × {d} cm",
     "source": "7349014d3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidHint": {
+    "text": "Clic : ajouter un coin · Clic sur le premier coin ou Entrée : terminé · Retour arrière : retirer un coin · Maj : sans aimantation · Échap : arrêter",
+    "source": "9f0ffca167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidSize": {
+    "text": "{width} × {depth}",
+    "source": "1f7beb5101",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.tableTop": {
+    "text": "Plateau",
+    "source": "d5cdfcf7ff",
     "by": "ai",
     "reviewed": false
   },

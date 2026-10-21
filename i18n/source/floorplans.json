@@ -32,6 +32,21 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
   },
+  "floorplans.devices.climateAverage": {
+    "en": "Average of the room",
+    "context": "The first choice for where a room’s temperature or humidity comes from: the average of every sensor in its zone.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.climateFrom": {
+    "en": "{reading, select, temperature {Temperature from} other {Humidity from}}",
+    "context": "Label in a room’s panel: which device the room’s temperature (or humidity) on the floor plan comes from, or the average of all its sensors.",
+    "params": {
+      "reading": "temperature or humidity."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
   "floorplans.devices.contact": {
     "en": "Contact sensor",
     "context": "Label: the sensor that says whether this door or window is open.",
@@ -57,6 +72,16 @@
     "en": "Device",
     "context": "Label of the device a placed shape or a piece of furniture shows (a lamp, a TV).",
     "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
+  },
+  "floorplans.devices.deviceInZone": {
+    "en": "{device} · {zone}",
+    "context": "A device in a list, with the room (zone) it is in, for devices that share a name, such as several called “Sensor”.",
+    "params": {
+      "device": "The device’s name.",
+      "zone": "Its zone’s name, such as “Bedroom”."
+    },
+    "maxLength": 80,
     "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
   },
   "floorplans.devices.dropLink": {
@@ -782,6 +807,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
   },
+  "floorplans.editor.panelWidth": {
+    "en": "Side panel width",
+    "context": "Accessible name of the divider between the floor plan and the side panel, dragged (or moved with the arrow keys) to make the panel wider or narrower.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
+  },
   "floorplans.editor.paused": {
     "en": "This plan is paused: your plan has room for fewer floor plans. You can look, not change it.",
     "context": "Banner in the editor on a paused floor plan: the Free plan has room for fewer floor plans than the person has.",
@@ -1278,6 +1309,21 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
   },
+  "floorplans.furniture.catalogueTab": {
+    "en": "{tab, select, library {Library} placed {In this plan} mine {My models} other {Community}}",
+    "context": "Tabs of the furniture catalogue: every built-in piece; the kinds of piece already on this floor plan; the 3D models you added; models shared by others on the Community.",
+    "params": {
+      "tab": "library, placed, mine or community."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.catalogueTabs": {
+    "en": "Furniture to show",
+    "context": "Accessible name of the tabs above the furniture catalogue in the floor plan editor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.depth": {
     "en": "Depth",
     "context": "Label of a piece of furniture’s depth (front to back), in cm.",
@@ -1291,6 +1337,12 @@
       "group": "lights or other."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.doors": {
+    "en": "Doors",
+    "context": "Label of the number of doors along the front of a lowboard (a long, low TV cabinet).",
+    "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.elevation": {
@@ -1320,13 +1372,44 @@
     "maxLength": 110,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.inThisPlan": {
+    "en": "On this level",
+    "context": "Heading of the furniture catalogue’s “In this plan” tab: each kind of piece already placed on the level shown.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.item": {
-    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV on the wall} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} other {Furniture}}",
-    "context": "The name of a piece of furniture in the catalogue and on its panel. A hob is the cooking top with its burners; a cot is a baby’s bed with bars.",
+    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV} tv-lowboard {Lowboard} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} table {Table} picture {Picture} solid {Your own shape} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} kk-couch {Couch} kk-armchair {Armchair} kk-coffee-table {Coffee table} kk-side-table {Side table} kk-cabinet {Cabinet} kk-cabinet-small {Small cabinet} kk-bookcase {Wall bookcase} kk-shelf {Wall shelf, deep} kk-shelf-small {Small wall bookcase} kk-wall-shelf {Floating shelf} kk-wall-shelf-small {Small floating shelf} kk-picture {Picture} kk-rug-oval {Oval rug} kk-rug-stripes {Striped rug} kk-cactus {Cactus} kk-lamp-floor {Floor lamp} kk-lamp-table {Table lamp} kk-table {Square table} kk-table-long {Dining table} kk-chair {Chair} kk-chair-wood {Wooden chair} kk-stool {Stool} kk-bed-double {Double bed} kk-bed-single {Single bed} q-sofa {Sofa} q-sofa-long {Corner sofa} q-armchair {Armchair} q-coffee-table {Coffee table} q-bookcase {Bookcase} q-bookcase-empty {Empty bookcase} q-bookcase-wide {Wide bookcase} q-wardrobe {Wardrobe} q-dresser {Dresser} q-table {Dining table} q-chair {Chair} q-chair-cushioned {Cushioned chair} q-chair-arms {Armchair, wooden} q-stool {Stool} q-bed {Single bed} q-bed-king {King-size bed} q-lamp {Floor lamp} q-plant {Plant} q-vase {Vase} base-drawers {Drawer cabinet} corner-cabinet {Corner cabinet} corner-cabinet-round {Rounded corner cabinet} tall-cabinet {Tall cabinet} fridge-builtin {Built-in fridge} fridge-small {Under-counter fridge} hob-electric {Electric hob} wall-cabinet-double {Double wall cabinet} wall-cabinet-low {Low wall cabinet} wall-cabinet-corner {Corner wall shelf} hood {Cooker hood} hood-large {Large cooker hood} microwave {Microwave} coffee-maker {Coffee maker} toaster {Toaster} blender {Blender} kettle {Kettle} tap {Tap} bin {Bin} washer-dryer {Washer-dryer} washbasin-square {Square washbasin} toilet-square {Square toilet} shower-round {Round shower} bathroom-cabinet {Bathroom cabinet} bathroom-mirror {Mirror} other {Furniture}}",
+    "context": "The name of a piece of furniture in the catalogue and on its panel. A hob is the cooking top with its burners; a lowboard is a long, low TV cabinet with flat doors, often hung on the wall; a tap is a kitchen faucet; a bin is a kitchen waste bin; a cot is a baby’s bed with bars.",
     "params": {
-      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, chair, sideboard, counter, sink-unit, hob-unit, fridge, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder."
+      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, tv-lowboard, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, table, picture, chair, sideboard, counter, sink-unit, hob-unit, fridge, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder, solid, base-drawers, corner-cabinet, corner-cabinet-round, tall-cabinet, fridge-builtin, fridge-small, hob-electric, wall-cabinet-double, wall-cabinet-low, wall-cabinet-corner, hood, hood-large, microwave, coffee-maker, toaster, blender, kettle, tap, bin, washer-dryer, washbasin-square, toilet-square, shower-round, bathroom-cabinet, bathroom-mirror, kk-couch, kk-armchair, kk-coffee-table, kk-side-table, kk-cabinet, kk-cabinet-small, kk-bookcase, kk-shelf, kk-shelf-small, kk-wall-shelf, kk-wall-shelf-small, kk-picture, kk-rug-oval, kk-rug-stripes, kk-cactus, kk-lamp-floor, kk-lamp-table, kk-table, kk-table-long, kk-chair, kk-chair-wood, kk-stool, kk-bed-double, kk-bed-single, q-sofa, q-sofa-long, q-armchair, q-coffee-table, q-bookcase, q-bookcase-empty, q-bookcase-wide, q-wardrobe, q-dresser, q-table, q-chair, q-chair-cushioned, q-chair-arms, q-stool, q-bed, q-bed-king, q-lamp, q-plant, q-vase."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.kitBy": {
+    "en": "By {author} · {licence}",
+    "context": "Under a furniture kit’s name in the catalogue: who made the free 3D models and their licence (such as “CC0 1.0”, free for anyone to use).",
+    "params": {
+      "author": "Who made the kit, such as “Kenney”.",
+      "licence": "Its licence, such as “CC0 1.0”."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.kitSource": {
+    "en": "Where it comes from",
+    "context": "Link under a furniture kit’s name in the catalogue, to the website the free 3D models come from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.mount": {
+    "en": "{mount, select, wall {On a wall} other {Standing}}",
+    "context": "Where a piece of furniture is: standing (on the floor, or on the piece under it, such as a TV on its cabinet) or hung on a wall (a floating TV cabinet).",
+    "params": {
+      "mount": "floor or wall."
+    },
+    "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.name": {
@@ -1347,6 +1430,12 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.nothingPlaced": {
+    "en": "Nothing placed on this level yet. Pieces you place show up here, to add another.",
+    "context": "The furniture catalogue’s “In this plan” tab when the level has no furniture yet.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.onCeiling": {
     "en": "On the ceiling",
     "context": "Small tag beside a device’s shape in the catalogue that goes on the ceiling (a ceiling light, a smoke detector).",
@@ -1359,16 +1448,143 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.outline": {
+    "en": "{outline, select, rectangle {Rectangle} rounded {Rounded} oval {Oval} other {Natural}}",
+    "context": "The shape of a table’s top: a rectangle, a rectangle with rounded corners, an oval (round when its width and depth are equal), or natural: a gently irregular, organic edge like a slab of a tree.",
+    "params": {
+      "outline": "rectangle, rounded, oval or natural."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.ownKit": {
+    "en": "Drawn by Tiledash",
+    "context": "Heading of the catalogue’s section of pieces Tiledash draws itself from their size (a box, a table of any shape, your own shape), not from a downloaded 3D model.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.ownKitHint": {
+    "en": "Shaped to the size you give them.",
+    "context": "Under “Drawn by Tiledash” in the furniture catalogue: these pieces are drawn from their size.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureArt": {
+    "en": "Picture colour",
+    "context": "Label of the colour of what is in a picture frame (the painting or poster itself), not the frame.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureCustom": {
+    "en": "Own size",
+    "context": "The choice of a picture size typed in the width and height fields instead of a usual one.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureFrame": {
+    "en": "{frame, select, thin {Thin} thick {Thick} canvas {Canvas} other {Poster}}",
+    "context": "A picture’s frame: a thin frame, a thick frame, a canvas (deep, no frame, the picture wrapping round its sides), or a poster (flat, no frame).",
+    "params": {
+      "frame": "thin, thick, canvas or poster."
+    },
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureFrameLabel": {
+    "en": "Frame",
+    "context": "Label of the choice of a picture’s frame on the floor plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureSize": {
+    "en": "{size, select, a4 {A4} a3 {A3} a2 {A2} other {{w} × {h} cm}}",
+    "context": "A picture’s usual size: paper sizes A4, A3, A2, or a size in cm such as 50 × 70 cm.",
+    "params": {
+      "h": "Its height in cm.",
+      "size": "a4, a3, a2, 50x70 or 70x100.",
+      "w": "Its width in cm."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureSizeLabel": {
+    "en": "Size",
+    "context": "Label of the choice of a picture’s (a painting’s or poster’s) usual size on the floor plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureWay": {
+    "en": "Way up",
+    "context": "Label of the choice whether a picture hangs upright (portrait) or on its side (landscape).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pictureWayOption": {
+    "en": "{way, select, portrait {Portrait} other {Landscape}}",
+    "context": "A picture upright (portrait, taller than wide) or on its side (landscape, wider than tall).",
+    "params": {
+      "way": "portrait or landscape."
+    },
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pieceTab": {
+    "en": "{tab, select, details {Details} place {Place} other {Shape}}",
+    "context": "Tabs in the panel of a selected piece on the floor plan: its details (name, device, size, colour), where it is (standing or on a wall, turn, height, distances to the walls), and its shape (which piece of the catalogue it looks like).",
+    "params": {
+      "tab": "details, place or shape."
+    },
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.pieceTabs": {
+    "en": "Settings to show",
+    "context": "Accessible name of the tabs in the panel of a selected piece of furniture or device on the floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.placedCount": {
+    "en": "{count, plural, one {Once on this level} other {# times on this level}}",
+    "context": "Under a piece in the “In this plan” tab: how often it is on the level already.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.remove": {
     "en": "Remove",
     "context": "Button that removes the selected piece of furniture from the plan.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.screenSize": {
+    "en": "Screen size",
+    "context": "Label of the slider setting a TV’s size by its screen’s diagonal, in inches.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.screenSizeValue": {
+    "en": "{inches}″ · {width} × {height} cm",
+    "context": "A TV’s screen size in inches, then the width and height that gives it, in cm.",
+    "params": {
+      "height": "Its height in cm.",
+      "inches": "The diagonal in inches, such as 55.",
+      "width": "Its width in cm."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.search": {
     "en": "Find furniture",
     "context": "Placeholder and label of the search field above the furniture catalogue.",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.seats": {
+    "en": "Chairs",
+    "context": "Label of the number of chairs standing around a table.",
+    "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.show": {
@@ -1384,6 +1600,28 @@
       "d": "Depth in centimetres.",
       "w": "Width in centimetres."
     },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.solidHint": {
+    "en": "Click: add a corner · Click the first corner or press Enter: done · Backspace: take back a corner · Shift: no snapping · Esc: stop",
+    "context": "Hints along the foot of the floor plan editor while you draw your own shape (a solid block such as a boxed-in corner) corner by corner. Parts separated by \" · \" (keep that separator); keys are keyboard keys.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.solidSize": {
+    "en": "{width} × {depth}",
+    "context": "Next to your own shape while it is drawn on the floor plan: its width and depth so far.",
+    "params": {
+      "depth": "Its depth.",
+      "width": "Its width, such as “1.20 m”."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.tableTop": {
+    "en": "Top",
+    "context": "Label of the choice of a table’s top: its shape seen from above.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },

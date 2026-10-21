@@ -29,6 +29,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.devices.climateAverage": {
+    "text": "Gemiddelde van de ruimte",
+    "source": "2f0c5264a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.climateFrom": {
+    "text": "{reading, select, temperature {Temperatuur van} other {Luchtvochtigheid van}}",
+    "source": "33ebf865b1",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.devices.contact": {
     "text": "Contactsensor",
     "source": "019200444b",
@@ -50,6 +62,12 @@
   "floorplans.devices.device": {
     "text": "Apparaat",
     "source": "6ba0bdeccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.deviceInZone": {
+    "text": "{device} · {zone}",
+    "source": "4650716157",
     "by": "ai",
     "reviewed": false
   },
@@ -707,6 +725,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.editor.panelWidth": {
+    "text": "Breedte zijpaneel",
+    "source": "b1a89c7455",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.editor.paused": {
     "text": "Deze plattegrond is gepauzeerd: je plan heeft ruimte voor minder plattegronden. Je kunt kijken, maar niets wijzigen.",
     "source": "d08dde4724",
@@ -1145,6 +1169,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.catalogueTab": {
+    "text": "{tab, select, library {Bibliotheek} placed {In dit plan} mine {Mijn modellen} other {Community}}",
+    "source": "2812a08781",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.catalogueTabs": {
+    "text": "Te tonen meubels",
+    "source": "1ae5410b34",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.depth": {
     "text": "Diepte",
     "source": "f1dbc33978",
@@ -1154,6 +1190,12 @@
   "floorplans.furniture.deviceGroup": {
     "text": "{group, select, lights {Lampen} other {Stekkers, sensoren en meer}}",
     "source": "74ab7b90f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.doors": {
+    "text": "Deuren",
+    "source": "7989480e41",
     "by": "ai",
     "reviewed": false
   },
@@ -1181,9 +1223,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.inThisPlan": {
+    "text": "Op deze verdieping",
+    "source": "d8b7a3a252",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.item": {
-    "text": "{item, select, sofa-2 {Bank, 2-zits} sofa-3 {Bank, 3-zits} corner-sofa {Hoekbank} armchair {Fauteuil} coffee-table {Salontafel} side-table {Bijzettafel} tv-cabinet {Tv-meubel} tv {Tv aan de muur} bookcase {Boekenkast} floor-lamp {Staande lamp} rug {Vloerkleed} plant {Plant} dining-table-4 {Eettafel voor 4} dining-table-6 {Eettafel voor 6} round-table {Ronde tafel} chair {Stoel} sideboard {Dressoir} counter {Aanrecht} sink-unit {Spoelbak} hob-unit {Kookplaat} fridge {Koelkast} dishwasher {Vaatwasser} oven {Oven} island {Kookeiland} bar-stool {Barkruk} double-bed {Tweepersoonsbed} single-bed {Eenpersoonsbed} bedside-table {Nachtkastje} wardrobe {Kledingkast} dresser {Ladekast} cot {Babybedje} bath {Bad} shower {Douche} toilet {Toilet} washbasin {Wastafel} washing-machine {Wasmachine} dryer {Droger} radiator {Radiator} desk {Bureau} office-chair {Bureaustoel} shelf {Wandplank} coat-rack {Kapstok} shoe-cabinet {Schoenenkast} wall-cabinet {Hangkast} garden-table {Tuintafel} sun-lounger {Ligbed} barbecue {Barbecue} car {Auto} box {Blok} cylinder {Cilinder} other {Meubel}}",
-    "source": "422b2cf9e8",
+    "text": "{item, select, sofa-2 {Bank, 2-zits} sofa-3 {Bank, 3-zits} corner-sofa {Hoekbank} armchair {Fauteuil} coffee-table {Salontafel} picture {Schilderij} side-table {Bijzettafel} tv-cabinet {Tv-meubel} tv {Tv} tv-lowboard {Zwevend tv-meubel} bookcase {Boekenkast} floor-lamp {Staande lamp} rug {Vloerkleed} plant {Plant} dining-table-4 {Eettafel voor 4} dining-table-6 {Eettafel voor 6} round-table {Ronde tafel} table {Tafel} chair {Stoel} sideboard {Dressoir} counter {Aanrecht} sink-unit {Spoelbak} hob-unit {Kookplaat} fridge {Koelkast} dishwasher {Vaatwasser} oven {Oven} island {Kookeiland} bar-stool {Barkruk} double-bed {Tweepersoonsbed} single-bed {Eenpersoonsbed} bedside-table {Nachtkastje} wardrobe {Kledingkast} dresser {Ladekast} cot {Babybedje} bath {Bad} shower {Douche} toilet {Toilet} washbasin {Wastafel} washing-machine {Wasmachine} dryer {Droger} radiator {Radiator} desk {Bureau} office-chair {Bureaustoel} shelf {Wandplank} coat-rack {Kapstok} shoe-cabinet {Schoenenkast} wall-cabinet {Hangkast} garden-table {Tuintafel} sun-lounger {Ligbed} barbecue {Barbecue} car {Auto} box {Blok} cylinder {Cilinder} solid {Eigen vorm} kk-couch {Bank} kk-armchair {Fauteuil} kk-coffee-table {Salontafel} kk-side-table {Bijzettafel} kk-cabinet {Kast} kk-cabinet-small {Kastje} kk-bookcase {Wandboekenkast} kk-shelf {Diepe wandplank} kk-shelf-small {Kleine wandboekenkast} kk-wall-shelf {Zwevende plank} kk-wall-shelf-small {Kleine zwevende plank} kk-picture {Schilderij} kk-rug-oval {Ovaal vloerkleed} kk-rug-stripes {Gestreept vloerkleed} kk-cactus {Cactus} kk-lamp-floor {Staande lamp} kk-lamp-table {Tafellamp} kk-table {Vierkante tafel} kk-table-long {Eettafel} kk-chair {Stoel} kk-chair-wood {Houten stoel} kk-stool {Kruk} kk-bed-double {Tweepersoonsbed} kk-bed-single {Eenpersoonsbed} q-sofa {Bank} q-sofa-long {Hoekbank} q-armchair {Fauteuil} q-coffee-table {Salontafel} q-bookcase {Boekenkast} q-bookcase-empty {Lege boekenkast} q-bookcase-wide {Brede boekenkast} q-wardrobe {Kledingkast} q-dresser {Ladekast} q-table {Eettafel} q-chair {Stoel} q-chair-cushioned {Gestoffeerde stoel} q-chair-arms {Houten armstoel} q-stool {Kruk} q-bed {Eenpersoonsbed} q-bed-king {Kingsize bed} q-lamp {Staande lamp} q-plant {Plant} q-vase {Vaas} base-drawers {Ladekast} corner-cabinet {Hoekkast} corner-cabinet-round {Ronde hoekkast} tall-cabinet {Hoge kast} fridge-builtin {Inbouwkoelkast} fridge-small {Onderbouwkoelkast} hob-electric {Elektrische kookplaat} wall-cabinet-double {Dubbele bovenkast} wall-cabinet-low {Lage bovenkast} wall-cabinet-corner {Hoekplank} hood {Afzuigkap} hood-large {Grote afzuigkap} microwave {Magnetron} coffee-maker {Koffiezetapparaat} toaster {Broodrooster} blender {Blender} kettle {Waterkoker} tap {Kraan} bin {Afvalbak} washer-dryer {Was-droogcombinatie} washbasin-square {Vierkante wastafel} toilet-square {Vierkant toilet} shower-round {Ronde douche} bathroom-cabinet {Badkamerkast} bathroom-mirror {Spiegel} other {Meubel}}",
+    "source": "8a017f15fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitBy": {
+    "text": "Door {author} · {licence}",
+    "source": "fff4cea63e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitSource": {
+    "text": "Waar ze vandaan komen",
+    "source": "873623346b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.mount": {
+    "text": "{mount, select, wall {Aan de muur} other {Staand}}",
+    "source": "36f2d13830",
     "by": "ai",
     "reviewed": false
   },
@@ -1205,6 +1271,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.nothingPlaced": {
+    "text": "Nog niets geplaatst op deze verdieping. Wat je plaatst, staat hier, om er nog een toe te voegen.",
+    "source": "ad91b9838e",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.onCeiling": {
     "text": "Aan het plafond",
     "source": "e6a7666198",
@@ -1217,15 +1289,117 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.outline": {
+    "text": "{outline, select, rectangle {Rechthoek} rounded {Afgerond} oval {Ovaal} other {Natuurlijk}}",
+    "source": "4f2f735628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKit": {
+    "text": "Getekend door Tiledash",
+    "source": "652727b362",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKitHint": {
+    "text": "Gevormd naar de maat die je ze geeft.",
+    "source": "8f3f4e7452",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureArt": {
+    "text": "Kleur van de afbeelding",
+    "source": "741573cdef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureCustom": {
+    "text": "Eigen formaat",
+    "source": "806a2d8eb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrame": {
+    "text": "{frame, select, thin {Dun} thick {Dik} canvas {Canvas} other {Poster}}",
+    "source": "87e3e0ccea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrameLabel": {
+    "text": "Lijst",
+    "source": "d0b50e064a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSize": {
+    "text": "{size, select, a4 {A4} a3 {A3} a2 {A2} other {{w} × {h} cm}}",
+    "source": "e826ef7d02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSizeLabel": {
+    "text": "Formaat",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWay": {
+    "text": "Richting",
+    "source": "09e5b4e95f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWayOption": {
+    "text": "{way, select, portrait {Staand} other {Liggend}}",
+    "source": "737d4a1b17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTab": {
+    "text": "{tab, select, details {Details} place {Plaats} other {Vorm}}",
+    "source": "44038499df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTabs": {
+    "text": "Te tonen instellingen",
+    "source": "c0917e7d05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.placedCount": {
+    "text": "{count, plural, one {Eén keer op deze verdieping} other {# keer op deze verdieping}}",
+    "source": "cd929239d0",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.remove": {
     "text": "Verwijderen",
     "source": "c3812fc4ac",
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.screenSize": {
+    "text": "Schermgrootte",
+    "source": "d9f527dacd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.screenSizeValue": {
+    "text": "{inches}″ · {width} × {height} cm",
+    "source": "4d1c566c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.search": {
     "text": "Meubels zoeken",
     "source": "22a102a822",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.seats": {
+    "text": "Stoelen",
+    "source": "09e99d8899",
     "by": "ai",
     "reviewed": false
   },
@@ -1238,6 +1412,24 @@
   "floorplans.furniture.size": {
     "text": "{w} × {d} cm",
     "source": "7349014d3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidHint": {
+    "text": "Klik: hoek toevoegen · Klik op de eerste hoek of druk op Enter: klaar · Backspace: hoek terugnemen · Shift: niet uitlijnen · Esc: stoppen",
+    "source": "9f0ffca167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidSize": {
+    "text": "{width} × {depth}",
+    "source": "1f7beb5101",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.tableTop": {
+    "text": "Blad",
+    "source": "d5cdfcf7ff",
     "by": "ai",
     "reviewed": false
   },
