@@ -4554,6 +4554,15 @@
     "maxLength": 160,
     "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
   },
+  "code.previewLink.fineModel": {
+    "en": "{when, select, never {One floor plan model, as it was saved last. This link stops working after a day, or when the app that made it is disconnected.} other {One floor plan model, as it was saved last. This link stops working on {when}, or when the app that made it is disconnected.}}",
+    "context": "Small print at the bottom of the page when it shows a 3D model for the floor plan (F18).",
+    "params": {
+      "when": "When the link stops, such as \"18 Oct, 14:20\", or \"never\" when not known."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
+  },
   "code.previewLink.installed": {
     "en": "Installed",
     "context": "Hint next to a theme installed from the community.",

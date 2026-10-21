@@ -197,6 +197,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.aiAssistants.allow4": {
+    "text": "Créer et modifier vos propres modèles de meubles pour vos plans d’étage, et voir leur historique",
+    "source": "d02f30f3f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.aiAssistants.appLine": {
     "text": "de {host} · connecté le {date} · {used, select, yes {utilisé {lastUsed}} other {pas encore utilisé}}{links, plural, =0 {} one { · # lien d’aperçu} other { · # liens d’aperçu}}",
     "source": "34a43f92dd",
@@ -264,8 +270,8 @@
     "reviewed": false
   },
   "account.aiAssistants.deny3": {
-    "text": "Accéder aux widgets d’autres personnes",
-    "source": "a2404a1adf",
+    "text": "Accéder aux widgets ou modèles d’autres personnes",
+    "source": "970c1530b8",
     "by": "ai",
     "reviewed": false
   },
@@ -288,14 +294,20 @@
     "reviewed": false
   },
   "account.aiAssistants.lead": {
-    "text": "Créez et peaufinez vos widgets avec l’IA que vous utilisez déjà : Claude, ChatGPT, Copilot dans VS Code, Cursor. Connectez-la une fois avec votre compte Homey ; elle reçoit une clé valable uniquement pour vos widgets.",
-    "source": "1e34df424b",
+    "text": "Créez et peaufinez vos widgets et les meubles de votre plan d’étage avec l’IA que vous utilisez déjà : Claude, ChatGPT, Copilot dans VS Code, Cursor. Connectez-la une fois avec votre compte Homey ; elle reçoit une clé valable uniquement pour vos widgets et modèles.",
+    "source": "21bf9b6757",
     "by": "ai",
     "reviewed": false
   },
   "account.aiAssistants.none": {
     "text": "Aucun assistant connecté. Connectez-en un ci-dessous.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewModel": {
+    "text": "<b>{model}</b> · aperçu d’un modèle 3D",
+    "source": "4aa75845a4",
     "by": "ai",
     "reviewed": false
   },

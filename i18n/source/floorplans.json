@@ -1,4 +1,206 @@
 {
+  "floorplans.actions.angleHint": {
+    "en": "Turn: {angle}°",
+    "context": "Live angle while dragging the rotation handle.",
+    "params": {
+      "angle": "Rotation in degrees."
+    },
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.arrange": {
+    "en": "Arrange",
+    "context": "3D editing mode: move and turn furniture.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.camera": {
+    "en": "Camera",
+    "context": "3D navigation mode: orbit without editing.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.copied": {
+    "en": "Defaults copied. Existing tiles have not changed.",
+    "context": "Result of copying one tile’s old gestures into the plan.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.copy": {
+    "en": "Copy existing tile actions",
+    "context": "Copy a selected tile’s gesture defaults into this plan without changing tiles.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.dashboard": {
+    "en": "Open dashboard",
+    "context": "Choose a dashboard to open.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.defaults": {
+    "en": "Action defaults",
+    "context": "Plan-wide device gesture settings.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.device": {
+    "en": "Open device",
+    "context": "Show the linked or chosen device.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.done": {
+    "en": "Finish testing",
+    "context": "Exit action testing.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.double": {
+    "en": "Double tap",
+    "context": "Double tap on a floor plan object.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.flow": {
+    "en": "Start a flow",
+    "context": "Run a Homey automation.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.full": {
+    "en": "Full screen",
+    "context": "Open a dashboard over the full screen.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.heading": {
+    "en": "Actions",
+    "context": "Tab for what touching a floor plan object does.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.hold": {
+    "en": "Hold",
+    "context": "Long press on a floor plan object.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.inherit": {
+    "en": "Use plan default",
+    "context": "No per-object override for this gesture.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.legacy": {
+    "en": "Existing tiles keep their own actions until you switch each tile to Use floor plan actions.",
+    "context": "Compatibility notice in plan action defaults.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.missing": {
+    "en": "Unavailable target",
+    "context": "A previously chosen device, flow or other target is missing.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.mood": {
+    "en": "Set a mood",
+    "context": "Activate a Homey mood.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.noDevice": {
+    "en": "Link a device first",
+    "context": "Reason device-only actions are unavailable.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.nothing": {
+    "en": "Nothing",
+    "context": "Consume the gesture without an action.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.open": {
+    "en": "Open as",
+    "context": "How a device or dashboard opens.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.openingDevice": {
+    "en": "Device used by these actions",
+    "context": "Choose an opening’s lock, sensor or window covering.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.ownDevice": {
+    "en": "Linked device",
+    "context": "Use the selected object’s device.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.page": {
+    "en": "Page",
+    "context": "Open as a separate page.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.pass": {
+    "en": "No action of its own",
+    "context": "Unlinked furniture passes the gesture to the room.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.popup": {
+    "en": "Popup",
+    "context": "Open over the dashboard.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.preview": {
+    "en": "Preview",
+    "context": "Simulate the selected gesture without sending commands.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.quick": {
+    "en": "Quick actions",
+    "context": "Open the device controls card.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.rotate": {
+    "en": "Drag to rotate",
+    "context": "Accessible label of the selected furniture rotation handle.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.safe": {
+    "en": "Preview only. No command is sent to your Homey.",
+    "context": "Persistent notice during action previews.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.shared": {
+    "en": "These actions follow this plan on every dashboard.",
+    "context": "Actions are stored in the plan, not each tile.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.side": {
+    "en": "Side panel",
+    "context": "Open the device in a side panel.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.sizeHint": {
+    "en": "{width} × {depth} cm",
+    "context": "Dimensions of the furniture being placed.",
+    "params": {
+      "depth": "Depth in centimetres.",
+      "width": "Width in centimetres."
+    },
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.switch": {
+    "en": "Switch device",
+    "context": "Toggle a light, cover or media; locks open controls.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.tap": {
+    "en": "Tap",
+    "context": "Single tap on a floor plan object.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.target": {
+    "en": "Target",
+    "context": "Which device, dashboard, flow, mood or variable to use.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.test": {
+    "en": "Test actions",
+    "context": "Switch editor clicks to safe action previews.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.turnHint": {
+    "en": "Drag to turn · Shift flips snapping",
+    "context": "Rotation handle instruction.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
+  "floorplans.actions.variable": {
+    "en": "Change a variable",
+    "context": "Edit a Homey Logic variable through a gesture.",
+    "file": "packages/ui/src/screens/floorplan/actions.messages.ts"
+  },
   "floorplans.colours.cover": {
     "en": "Colour of the covering",
     "context": "Label of the colour field for a window’s blinds, curtains or shutter, in the panel of a window on the floor plan.",
@@ -1372,6 +1574,12 @@
     "maxLength": 110,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.iceDispenser": {
+    "en": "Ice dispenser",
+    "context": "Switch in the floor planner American fridge details. Adds an ice dispenser to its left door.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.inThisPlan": {
     "en": "On this level",
     "context": "Heading of the furniture catalogue’s “In this plan” tab: each kind of piece already placed on the level shown.",
@@ -1379,10 +1587,10 @@
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.item": {
-    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV} tv-lowboard {Lowboard} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} table {Table} picture {Picture} solid {Your own shape} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} kk-couch {Couch} kk-armchair {Armchair} kk-coffee-table {Coffee table} kk-side-table {Side table} kk-cabinet {Cabinet} kk-cabinet-small {Small cabinet} kk-bookcase {Wall bookcase} kk-shelf {Wall shelf, deep} kk-shelf-small {Small wall bookcase} kk-wall-shelf {Floating shelf} kk-wall-shelf-small {Small floating shelf} kk-picture {Picture} kk-rug-oval {Oval rug} kk-rug-stripes {Striped rug} kk-cactus {Cactus} kk-lamp-floor {Floor lamp} kk-lamp-table {Table lamp} kk-table {Square table} kk-table-long {Dining table} kk-chair {Chair} kk-chair-wood {Wooden chair} kk-stool {Stool} kk-bed-double {Double bed} kk-bed-single {Single bed} q-sofa {Sofa} q-sofa-long {Corner sofa} q-armchair {Armchair} q-coffee-table {Coffee table} q-bookcase {Bookcase} q-bookcase-empty {Empty bookcase} q-bookcase-wide {Wide bookcase} q-wardrobe {Wardrobe} q-dresser {Dresser} q-table {Dining table} q-chair {Chair} q-chair-cushioned {Cushioned chair} q-chair-arms {Armchair, wooden} q-stool {Stool} q-bed {Single bed} q-bed-king {King-size bed} q-lamp {Floor lamp} q-plant {Plant} q-vase {Vase} base-drawers {Drawer cabinet} corner-cabinet {Corner cabinet} corner-cabinet-round {Rounded corner cabinet} tall-cabinet {Tall cabinet} fridge-builtin {Built-in fridge} fridge-small {Under-counter fridge} hob-electric {Electric hob} wall-cabinet-double {Double wall cabinet} wall-cabinet-low {Low wall cabinet} wall-cabinet-corner {Corner wall shelf} hood {Cooker hood} hood-large {Large cooker hood} microwave {Microwave} coffee-maker {Coffee maker} toaster {Toaster} blender {Blender} kettle {Kettle} tap {Tap} bin {Bin} washer-dryer {Washer-dryer} washbasin-square {Square washbasin} toilet-square {Square toilet} shower-round {Round shower} bathroom-cabinet {Bathroom cabinet} bathroom-mirror {Mirror} other {Furniture}}",
+    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV} tv-lowboard {Lowboard} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} table {Table} picture {Picture} solid {Your own shape} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} fridge-american {American fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} kk-couch {Couch} kk-armchair {Armchair} kk-coffee-table {Coffee table} kk-side-table {Side table} kk-cabinet {Cabinet} kk-cabinet-small {Small cabinet} kk-bookcase {Wall bookcase} kk-shelf {Wall shelf, deep} kk-shelf-small {Small wall bookcase} kk-wall-shelf {Floating shelf} kk-wall-shelf-small {Small floating shelf} kk-picture {Picture} kk-rug-oval {Oval rug} kk-rug-stripes {Striped rug} kk-cactus {Cactus} kk-lamp-floor {Floor lamp} kk-lamp-table {Table lamp} kk-table {Square table} kk-table-long {Dining table} kk-chair {Chair} kk-chair-wood {Wooden chair} kk-stool {Stool} kk-bed-double {Double bed} kk-bed-single {Single bed} q-sofa {Sofa} q-sofa-long {Corner sofa} q-armchair {Armchair} q-coffee-table {Coffee table} q-bookcase {Bookcase} q-bookcase-empty {Empty bookcase} q-bookcase-wide {Wide bookcase} q-wardrobe {Wardrobe} q-dresser {Dresser} q-table {Dining table} q-chair {Chair} q-chair-cushioned {Cushioned chair} q-chair-arms {Armchair, wooden} q-stool {Stool} q-bed {Single bed} q-bed-king {King-size bed} q-lamp {Floor lamp} q-plant {Plant} q-vase {Vase} base-drawers {Drawer cabinet} corner-cabinet {Corner cabinet} corner-cabinet-round {Rounded corner cabinet} tall-cabinet {Tall cabinet} fridge-builtin {Built-in fridge} fridge-small {Under-counter fridge} hob-electric {Electric hob} wall-cabinet-double {Double wall cabinet} wall-cabinet-low {Low wall cabinet} wall-cabinet-corner {Corner wall shelf} hood {Cooker hood} hood-large {Large cooker hood} microwave {Microwave} coffee-maker {Coffee maker} toaster {Toaster} blender {Blender} kettle {Kettle} tap {Tap} bin {Bin} washer-dryer {Washer-dryer} washbasin-square {Square washbasin} toilet-square {Square toilet} shower-round {Round shower} bathroom-cabinet {Bathroom cabinet} bathroom-mirror {Mirror} other {Furniture}}",
     "context": "The name of a piece of furniture in the catalogue and on its panel. A hob is the cooking top with its burners; a lowboard is a long, low TV cabinet with flat doors, often hung on the wall; a tap is a kitchen faucet; a bin is a kitchen waste bin; a cot is a baby’s bed with bars.",
     "params": {
-      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, tv-lowboard, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, table, picture, chair, sideboard, counter, sink-unit, hob-unit, fridge, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder, solid, base-drawers, corner-cabinet, corner-cabinet-round, tall-cabinet, fridge-builtin, fridge-small, hob-electric, wall-cabinet-double, wall-cabinet-low, wall-cabinet-corner, hood, hood-large, microwave, coffee-maker, toaster, blender, kettle, tap, bin, washer-dryer, washbasin-square, toilet-square, shower-round, bathroom-cabinet, bathroom-mirror, kk-couch, kk-armchair, kk-coffee-table, kk-side-table, kk-cabinet, kk-cabinet-small, kk-bookcase, kk-shelf, kk-shelf-small, kk-wall-shelf, kk-wall-shelf-small, kk-picture, kk-rug-oval, kk-rug-stripes, kk-cactus, kk-lamp-floor, kk-lamp-table, kk-table, kk-table-long, kk-chair, kk-chair-wood, kk-stool, kk-bed-double, kk-bed-single, q-sofa, q-sofa-long, q-armchair, q-coffee-table, q-bookcase, q-bookcase-empty, q-bookcase-wide, q-wardrobe, q-dresser, q-table, q-chair, q-chair-cushioned, q-chair-arms, q-stool, q-bed, q-bed-king, q-lamp, q-plant, q-vase."
+      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, tv-lowboard, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, table, picture, chair, sideboard, counter, sink-unit, hob-unit, fridge, fridge-american, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder, solid, base-drawers, corner-cabinet, corner-cabinet-round, tall-cabinet, fridge-builtin, fridge-small, hob-electric, wall-cabinet-double, wall-cabinet-low, wall-cabinet-corner, hood, hood-large, microwave, coffee-maker, toaster, blender, kettle, tap, bin, washer-dryer, washbasin-square, toilet-square, shower-round, bathroom-cabinet, bathroom-mirror, kk-couch, kk-armchair, kk-coffee-table, kk-side-table, kk-cabinet, kk-cabinet-small, kk-bookcase, kk-shelf, kk-shelf-small, kk-wall-shelf, kk-wall-shelf-small, kk-picture, kk-rug-oval, kk-rug-stripes, kk-cactus, kk-lamp-floor, kk-lamp-table, kk-table, kk-table-long, kk-chair, kk-chair-wood, kk-stool, kk-bed-double, kk-bed-single, q-sofa, q-sofa-long, q-armchair, q-coffee-table, q-bookcase, q-bookcase-empty, q-bookcase-wide, q-wardrobe, q-dresser, q-table, q-chair, q-chair-cushioned, q-chair-arms, q-stool, q-bed, q-bed-king, q-lamp, q-plant, q-vase."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
@@ -1754,6 +1962,206 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/lineUp.messages.ts"
   },
+  "floorplans.modelPreview.asBuilt": {
+    "en": "Built {w} × {d} × {h} cm, stretched to fit",
+    "context": "After the size, when the model was given another size than it was built at: its own size.",
+    "params": {
+      "d": "Depth.",
+      "h": "Height.",
+      "w": "Width."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.colours": {
+    "en": "Colours",
+    "context": "Label: how the model is coloured.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.coloursValue": {
+    "en": "{look, select, textures {Its own} other {The theme’s}}",
+    "context": "How the model is coloured: its own colours, or the colours of the chosen theme.",
+    "params": {
+      "look": "textures or theme."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.detail": {
+    "en": "Detail",
+    "context": "Label: how many triangles and how big the file is.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.detailValue": {
+    "en": "{triangles, plural, one {# triangle} other {# triangles}} · {kb} KB",
+    "context": "How detailed the model is (its triangles) and its file’s size in kilobytes.",
+    "params": {
+      "kb": "The file’s size in KB.",
+      "triangles": "How many triangles."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.facts": {
+    "en": "About this model",
+    "context": "Heading of the model’s facts.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.fromAbove": {
+    "en": "From above",
+    "context": "Caption of the model drawn from above, as the 2D floor plan draws it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.fromFront": {
+    "en": "From the front",
+    "context": "Caption of the model drawn flat from its front.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.fromSide": {
+    "en": "From the left",
+    "context": "Caption of the model drawn flat from its left side, its front on the right.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.front": {
+    "en": "Front",
+    "context": "Button: look at the model from the front and side again, as at first.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.listed": {
+    "en": "Listed under",
+    "context": "Label: the furniture group the model is listed under, such as \"Living room\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.made": {
+    "en": "Made",
+    "context": "Label: how the model was made.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.madeValue": {
+    "en": "{made, select, parts {From parts, by an AI assistant} other {From a file}}",
+    "context": "How the model was made: described as parts (boxes, cylinders…) or uploaded as a file.",
+    "params": {
+      "made": "parts or file."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.mount": {
+    "en": "{mount, select, wall {On a wall} ceiling {On the ceiling} other {On the floor}}",
+    "context": "Where the model goes in a room.",
+    "params": {
+      "mount": "floor, wall or ceiling."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partName": {
+    "en": "Name",
+    "context": "Column: the part’s name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partShape": {
+    "en": "Shape",
+    "context": "Column: the part’s shape (box, cylinder, sphere…).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partShapeValue": {
+    "en": "{shape, select, box {Box} cylinder {Cylinder} sphere {Sphere} extrusion {Outline} lathe {Turned profile} other {Shape}}",
+    "context": "A part’s shape. Outline: a flat outline pushed out. Turned profile: a profile turned around an axis, like a vase on a lathe.",
+    "params": {
+      "shape": "box, cylinder, sphere, extrusion or lathe."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partSize": {
+    "en": "Size (cm)",
+    "context": "Column: the part’s size in centimetres.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partTone": {
+    "en": "Made of",
+    "context": "Column: what the part is made of.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partToneValue": {
+    "en": "{tone, select, soft {Fabric} metal {Metal} glass {Glass} plant {Plant} lamp {Lamp} other {Wood}}",
+    "context": "What a part is made of; it decides its colour in a theme.",
+    "params": {
+      "tone": "wood, soft, metal, glass, plant or lamp."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.partWhere": {
+    "en": "Where (cm)",
+    "context": "Column: where the part is, in centimetres from the model’s back left corner on the floor.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.parts": {
+    "en": "{count, plural, one {# part} other {# parts}}",
+    "context": "Heading of the list of the parts the model is made of.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.sits": {
+    "en": "Sits",
+    "context": "Label: where the model goes in a room.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.size": {
+    "en": "Size",
+    "context": "Label: the model’s width, depth and height.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.sizeValue": {
+    "en": "{w} × {d} × {h} cm",
+    "context": "The model’s width × depth × height in centimetres.",
+    "params": {
+      "d": "Depth.",
+      "h": "Height.",
+      "w": "Width."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.turnLeft": {
+    "en": "Look from the left",
+    "context": "Button: walk a quarter around the model to the left, to see another side of it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.turnRight": {
+    "en": "Look from the right",
+    "context": "Button: walk a quarter around the model to the right, to see another side of it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
+  "floorplans.modelPreview.view3d": {
+    "en": "The model in 3D. Drag to look around it.",
+    "context": "Read out for the 3D view of the model.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
+  },
   "floorplans.models.add": {
     "en": "Add a model",
     "context": "Button in the furniture catalogue of the floor plan editor: add your own 3D model.",
@@ -2092,6 +2500,16 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.savedBy": {
+    "en": "Saved by {by} · save {version}",
+    "context": "Under a model in the list of your models, when an AI assistant designed or changed it (F18): which app saved it last, and the number of that save.",
+    "params": {
+      "by": "The assistant app’s name, such as \"Claude Desktop\". Not translated.",
+      "version": "The save’s number."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.saving": {
     "en": "Adding {name} to your models…",
     "context": "Above the list of what saving a fitted 3D model is doing.",
@@ -2220,5 +2638,214 @@
     "context": "Button in the message \"… installed from the Community\": opens the model’s page on the Community. A command.",
     "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.quickTips.actions": {
+    "en": "Action defaults",
+    "context": "Floor planner first-use quick tips: actions.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.actionsHelp": {
+    "en": "Choose what tapping, holding and double-tapping a linked device does.",
+    "context": "Floor planner first-use quick tips: actionsHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.arrange": {
+    "en": "Arrange",
+    "context": "Floor planner first-use quick tips: arrange.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.arrangeHelp": {
+    "en": "Select, place and move furniture. Drag its round handle to turn it.",
+    "context": "Floor planner first-use quick tips: arrangeHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.back": {
+    "en": "Back",
+    "context": "Floor planner first-use quick tips: back.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.buttonsIntro": {
+    "en": "The remaining top-right buttons control actions and drawing details.",
+    "context": "Floor planner first-use quick tips: buttonsIntro.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.buttonsTitle": {
+    "en": "Choose what you see and do",
+    "context": "Floor planner first-use quick tips: buttonsTitle.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.camera": {
+    "en": "Camera",
+    "context": "Floor planner first-use quick tips: camera.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.cameraHelp": {
+    "en": "Explore the plan without changing it.",
+    "context": "Floor planner first-use quick tips: cameraHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.close": {
+    "en": "Close tips",
+    "context": "Floor planner first-use quick tips: close.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.count": {
+    "en": "{step} of {total}",
+    "context": "Progress through the floor planner quick tips.",
+    "params": {
+      "step": "Current tip number.",
+      "total": "Total number of tips."
+    },
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.done": {
+    "en": "Got it",
+    "context": "Floor planner first-use quick tips: done.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.editIntro": {
+    "en": "The top-right tools help you line things up and try changes.",
+    "context": "Floor planner first-use quick tips: editIntro.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.editTitle": {
+    "en": "Edit with confidence",
+    "context": "Floor planner first-use quick tips: editTitle.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.guides": {
+    "en": "Grid & lengths",
+    "context": "Floor planner first-use quick tips: guides.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.guidesHelp": {
+    "en": "The grid and ruler toggle drawing guides.",
+    "context": "Floor planner first-use quick tips: guidesHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.help": {
+    "en": "Floor planner tips",
+    "context": "Floor planner first-use quick tips: help.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.keys": {
+    "en": "Useful keys",
+    "context": "Floor planner first-use quick tips: keys.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.keysHelp": {
+    "en": "R turns a piece 15°. Delete removes the selection. Esc cancels.",
+    "context": "Floor planner first-use quick tips: keysHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.layers": {
+    "en": "Furniture & reference image",
+    "context": "Floor planner first-use quick tips: layers.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.layersHelp": {
+    "en": "The armchair and image toggle these layers.",
+    "context": "Floor planner first-use quick tips: layersHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.moveIntro": {
+    "en": "Keep arranging while you explore. These shortcuts work directly over the plan.",
+    "context": "Floor planner first-use quick tips: moveIntro.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.moveTitle": {
+    "en": "Move around",
+    "context": "Floor planner first-use quick tips: moveTitle.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.next": {
+    "en": "Next",
+    "context": "Floor planner first-use quick tips: next.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.orbit": {
+    "en": "Right-drag in 3D",
+    "context": "Floor planner first-use quick tips: orbit.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.orbitHelp": {
+    "en": "Turn and tilt the view in Arrange mode.",
+    "context": "Floor planner first-use quick tips: orbitHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.pan": {
+    "en": "Space + drag",
+    "context": "Floor planner first-use quick tips: pan.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.panHelp": {
+    "en": "Pan in 2D or 3D. Release Space to carry on editing.",
+    "context": "Floor planner first-use quick tips: panHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.quick": {
+    "en": "Quick start",
+    "context": "Floor planner first-use quick tips: quick.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.reopen": {
+    "en": "You can reopen these from the ? button.",
+    "context": "Floor planner first-use quick tips: reopen.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.skip": {
+    "en": "Skip tips",
+    "context": "Floor planner first-use quick tips: skip.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.snap": {
+    "en": "Snap",
+    "context": "Floor planner first-use quick tips: snap.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.snapHelp": {
+    "en": "Line up with walls and furniture. Hold Shift to flip snapping.",
+    "context": "Floor planner first-use quick tips: snapHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.test": {
+    "en": "Test actions",
+    "context": "Floor planner first-use quick tips: test.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.testHelp": {
+    "en": "Preview an action safely, without sending commands.",
+    "context": "Floor planner first-use quick tips: testHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.undo": {
+    "en": "Undo / Redo",
+    "context": "Floor planner first-use quick tips: undo.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.undoHelp": {
+    "en": "Step back or forward through your edits.",
+    "context": "Floor planner first-use quick tips: undoHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.viewIntro": {
+    "en": "Use the cube at the top right to switch between your drawing and a 3D view.",
+    "context": "Floor planner first-use quick tips: viewIntro.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.viewTitle": {
+    "en": "See your plan in 3D",
+    "context": "Floor planner first-use quick tips: viewTitle.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.zoom": {
+    "en": "Scroll or pinch",
+    "context": "Floor planner first-use quick tips: zoom.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.quickTips.zoomHelp": {
+    "en": "Zoom in and out. Use the reset arrow to return home.",
+    "context": "Floor planner first-use quick tips: zoomHelp.",
+    "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
   }
 }

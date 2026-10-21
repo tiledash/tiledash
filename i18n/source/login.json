@@ -51,12 +51,12 @@
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
   "login.connectApp.introWidgets": {
-    "en": "<strong>{client}</strong> wants to help you build your widgets.",
-    "context": "First sentence of the paragraph on the consent page when an AI app asks to help build widgets. The tag marks the name of the app in bold. A widget is one tile of a dashboard.",
+    "en": "<strong>{client}</strong> wants to help you build your widgets and furniture.",
+    "context": "First sentence of the paragraph on the consent page when an AI app asks to help build widgets and floor plan furniture. The tag marks the name of the app in bold. A widget is one tile of a dashboard; furniture is the 3D pieces on a floor plan.",
     "params": {
       "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
     },
-    "maxLength": 70,
+    "maxLength": 90,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
   "login.connectApp.leaving": {
@@ -158,6 +158,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
+  "login.consent.widgetsAllow4": {
+    "en": "Make and change your own furniture models for floor plans, and see their history",
+    "context": "Item in the list of what an AI app may do. A floor plan is a drawing of the home on a dashboard; a furniture model is a 3D piece of furniture drawn on it; \"their history\" is the earlier saved versions.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
   "login.consent.widgetsDeny0": {
     "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
     "context": "Item in the list of what an AI app can never do. A flow is an automation in Homey. The part in brackets says that only the person themselves can let taps in a widget preview really switch devices, and only for an hour.",
@@ -177,8 +183,8 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsDeny3": {
-    "en": "Reach anyone else’s widgets",
-    "context": "Item in the list of what an AI app can never do. A widget is one tile of a dashboard; this is about widgets of other Tiledash users.",
+    "en": "Reach anyone else’s widgets or models",
+    "context": "Item in the list of what an AI app can never do. A widget is one tile of a dashboard, a model a piece of furniture on a floor plan; this is about those of other Tiledash users.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },

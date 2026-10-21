@@ -197,6 +197,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.aiAssistants.allow4": {
+    "text": "Ihre eigenen Möbelmodelle für Grundrisse erstellen und ändern und deren Verlauf sehen",
+    "source": "d02f30f3f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.aiAssistants.appLine": {
     "text": "von {host} · verbunden am {date} · {used, select, yes {zuletzt genutzt {lastUsed}} other {noch nicht genutzt}}{links, plural, =0 {} one { · # Vorschaulink} other { · # Vorschaulinks}}",
     "source": "34a43f92dd",
@@ -264,8 +270,8 @@
     "reviewed": false
   },
   "account.aiAssistants.deny3": {
-    "text": "Auf Widgets anderer Personen zugreifen",
-    "source": "a2404a1adf",
+    "text": "Auf Widgets oder Modelle anderer zugreifen",
+    "source": "970c1530b8",
     "by": "ai",
     "reviewed": false
   },
@@ -288,14 +294,20 @@
     "reviewed": false
   },
   "account.aiAssistants.lead": {
-    "text": "Erstellen und verfeinern Sie Widgets mit der KI, die Sie schon nutzen: Claude, ChatGPT, Copilot in VS Code, Cursor. Einmal verbinden und mit Ihrem Homey-Konto anmelden: Die KI erhält einen Schlüssel, der nur für Ihre Widgets gilt.",
-    "source": "1e34df424b",
+    "text": "Erstellen und verfeinern Sie Widgets und Möbel für Ihren Grundriss mit der KI, die Sie schon nutzen: Claude, ChatGPT, Copilot in VS Code, Cursor. Einmal verbinden und mit Ihrem Homey-Konto anmelden: Die KI erhält einen Schlüssel nur für Ihre Widgets und Modelle.",
+    "source": "21bf9b6757",
     "by": "ai",
     "reviewed": false
   },
   "account.aiAssistants.none": {
     "text": "Noch kein Assistent verbunden. Verbinden Sie unten einen.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewModel": {
+    "text": "<b>{model}</b> · Vorschau eines 3D-Modells",
+    "source": "4aa75845a4",
     "by": "ai",
     "reviewed": false
   },

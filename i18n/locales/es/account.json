@@ -197,6 +197,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.aiAssistants.allow4": {
+    "text": "Crear y cambiar tus propios modelos de muebles para planos, y ver su historial",
+    "source": "d02f30f3f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.aiAssistants.appLine": {
     "text": "de {host} · conectado el {date} · {used, select, yes {usado {lastUsed}} other {aún sin usar}}{links, plural, =0 {} one { · # enlace de vista previa} other { · # enlaces de vista previa}}",
     "source": "34a43f92dd",
@@ -264,8 +270,8 @@
     "reviewed": false
   },
   "account.aiAssistants.deny3": {
-    "text": "Acceder a los widgets de otras personas",
-    "source": "a2404a1adf",
+    "text": "Acceder a los widgets o modelos de otras personas",
+    "source": "970c1530b8",
     "by": "ai",
     "reviewed": false
   },
@@ -288,14 +294,20 @@
     "reviewed": false
   },
   "account.aiAssistants.lead": {
-    "text": "Crea y pule tus widgets con la IA que ya usas: Claude, ChatGPT, Copilot en VS Code, Cursor. Conéctala una vez; inicias sesión con tu cuenta de Homey y recibe una clave que solo sirve para tus widgets.",
-    "source": "1e34df424b",
+    "text": "Crea y pule tus widgets y los muebles de tu plano con la IA que ya usas: Claude, ChatGPT, Copilot en VS Code, Cursor. Conéctala una vez; inicias sesión con tu cuenta de Homey y recibe una clave que solo sirve para tus widgets y modelos.",
+    "source": "21bf9b6757",
     "by": "ai",
     "reviewed": false
   },
   "account.aiAssistants.none": {
     "text": "Aún no hay ningún asistente conectado. Conecta uno abajo.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewModel": {
+    "text": "<b>{model}</b> · vista previa del modelo 3D",
+    "source": "4aa75845a4",
     "by": "ai",
     "reviewed": false
   },

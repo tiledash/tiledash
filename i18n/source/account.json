@@ -210,6 +210,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
+  "account.aiAssistants.allow4": {
+    "en": "Make and change your own furniture models for floor plans, and see their history",
+    "context": "What a connected assistant can do (F18). Use the same words as login.consent.widgetsAllow4.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
   "account.aiAssistants.appLine": {
     "en": "from {host} · connected {date} · {used, select, yes {used {lastUsed}} other {not used yet}}{links, plural, =0 {} one { · # preview link} other { · # preview links}}",
     "context": "Line under a connected app’s name: the web address it came from, when it was connected, when it was last used, and how many preview links it has.",
@@ -292,7 +298,7 @@
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.deny3": {
-    "en": "Reach anyone else’s widgets",
+    "en": "Reach anyone else’s widgets or models",
     "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny3.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
@@ -316,15 +322,24 @@
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.lead": {
-    "en": "Build and polish your widgets with the AI you already use: Claude, ChatGPT, Copilot in VS Code, Cursor. Connect it once; you sign in with your Homey account, and it gets a key that only works for your widgets.",
-    "context": "Text at the top of the AI assistants tab. Keep the product names.",
-    "maxLength": 230,
+    "en": "Build and polish your widgets and floor plan furniture with the AI you already use: Claude, ChatGPT, Copilot in VS Code, Cursor. Connect it once; you sign in with your Homey account, and it gets a key that only works for your widgets and models.",
+    "context": "Text at the top of the AI assistants tab. Keep the product names. Floor plan furniture: 3D pieces the assistant can design for the person’s floor plans.",
+    "maxLength": 270,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.none": {
     "en": "No assistant connected yet. Connect one below.",
     "context": "Shown when no AI assistant is connected.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.previewModel": {
+    "en": "<b>{model}</b> · 3D model preview",
+    "context": "A preview link of an app that shows a piece of furniture it designs for the floor plan (bold: its name). There are no taps on it.",
+    "params": {
+      "model": "The model’s name, such as \"Reading chair\". Not translated."
+    },
+    "maxLength": 90,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.previewOn": {

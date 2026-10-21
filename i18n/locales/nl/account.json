@@ -197,6 +197,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.aiAssistants.allow4": {
+    "text": "Je eigen meubelmodellen voor plattegronden maken en wijzigen, en hun geschiedenis zien",
+    "source": "d02f30f3f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.aiAssistants.appLine": {
     "text": "van {host} · gekoppeld op {date} · {used, select, yes {gebruikt {lastUsed}} other {nog niet gebruikt}}{links, plural, =0 {} one { · # voorbeeldlink} other { · # voorbeeldlinks}}",
     "source": "34a43f92dd",
@@ -264,8 +270,8 @@
     "reviewed": false
   },
   "account.aiAssistants.deny3": {
-    "text": "Bij de widgets van anderen komen",
-    "source": "a2404a1adf",
+    "text": "Bij de widgets of modellen van anderen komen",
+    "source": "970c1530b8",
     "by": "ai",
     "reviewed": false
   },
@@ -288,14 +294,20 @@
     "reviewed": false
   },
   "account.aiAssistants.lead": {
-    "text": "Bouw en verfijn je widgets met de AI die je al gebruikt: Claude, ChatGPT, Copilot in VS Code, Cursor. Koppel hem één keer; je logt in met je Homey-account en hij krijgt een sleutel die alleen voor jouw widgets werkt.",
-    "source": "1e34df424b",
+    "text": "Bouw en verfijn je widgets en meubels voor je plattegrond met de AI die je al gebruikt: Claude, ChatGPT, Copilot in VS Code, Cursor. Koppel hem één keer; je logt in met je Homey-account en hij krijgt een sleutel die alleen voor jouw widgets en modellen werkt.",
+    "source": "21bf9b6757",
     "by": "ai",
     "reviewed": false
   },
   "account.aiAssistants.none": {
     "text": "Nog geen assistent gekoppeld. Koppel er hieronder een.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.previewModel": {
+    "text": "<b>{model}</b> · voorbeeld van een 3D-model",
+    "source": "4aa75845a4",
     "by": "ai",
     "reviewed": false
   },

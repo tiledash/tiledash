@@ -1,4 +1,238 @@
 {
+  "floorplans.actions.angleHint": {
+    "text": "Drehen: {angle}°",
+    "source": "0fce12cf6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.arrange": {
+    "text": "Einrichten",
+    "source": "d557a972ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.copied": {
+    "text": "Standardaktionen kopiert. Bestehende Kacheln wurden nicht geändert.",
+    "source": "66315f944e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.copy": {
+    "text": "Aktionen einer bestehenden Kachel kopieren",
+    "source": "150f2e3230",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.dashboard": {
+    "text": "Dashboard öffnen",
+    "source": "803f2313cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.defaults": {
+    "text": "Standardaktionen",
+    "source": "eda49170f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.device": {
+    "text": "Gerät öffnen",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.done": {
+    "text": "Test beenden",
+    "source": "2a4bf43a9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.double": {
+    "text": "Doppeltippen",
+    "source": "b7f18903d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.flow": {
+    "text": "Flow starten",
+    "source": "54ef6dbaec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.full": {
+    "text": "Vollbild",
+    "source": "674fe2acd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.heading": {
+    "text": "Aktionen",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.hold": {
+    "text": "Gedrückt halten",
+    "source": "8e685d5409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.inherit": {
+    "text": "Grundriss-Standard verwenden",
+    "source": "36a78a9754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.legacy": {
+    "text": "Bestehende Kacheln behalten ihre Aktionen, bis du jede Kachel auf die Grundriss-Aktionen umstellst.",
+    "source": "2a1b9c4600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.missing": {
+    "text": "Ziel nicht verfügbar",
+    "source": "0defd7c2d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.mood": {
+    "text": "Stimmung aktivieren",
+    "source": "f11565423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.noDevice": {
+    "text": "Zuerst ein Gerät verknüpfen",
+    "source": "48e51905a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.nothing": {
+    "text": "Nichts",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.open": {
+    "text": "Öffnen als",
+    "source": "34a5075c64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.openingDevice": {
+    "text": "Gerät für diese Aktionen",
+    "source": "6dde4666c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.ownDevice": {
+    "text": "Verknüpftes Gerät",
+    "source": "a7ba6a1269",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.page": {
+    "text": "Seite",
+    "source": "0a30a815d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.pass": {
+    "text": "Keine eigene Aktion",
+    "source": "4c93d4d4a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.popup": {
+    "text": "Popup",
+    "source": "4c142892b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.preview": {
+    "text": "Vorschau",
+    "source": "324b134f57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.quick": {
+    "text": "Schnellaktionen",
+    "source": "1810407f5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.rotate": {
+    "text": "Zum Drehen ziehen",
+    "source": "f8178c9343",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.safe": {
+    "text": "Nur eine Vorschau. Es wird kein Befehl an deinen Homey gesendet.",
+    "source": "c08a84e0c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.shared": {
+    "text": "Diese Aktionen gelten für den Grundriss auf jedem Dashboard.",
+    "source": "06fea35ebe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.side": {
+    "text": "Seitenleiste",
+    "source": "c28cdd9864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.sizeHint": {
+    "text": "{width} × {depth} cm",
+    "source": "13b8b3fba4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.switch": {
+    "text": "Gerät schalten",
+    "source": "f77815ef31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.tap": {
+    "text": "Tippen",
+    "source": "464d23b54f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.target": {
+    "text": "Ziel",
+    "source": "978354db0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.test": {
+    "text": "Aktionen testen",
+    "source": "bbfc27cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.turnHint": {
+    "text": "Zum Drehen ziehen · Umschalt kehrt das Einrasten um",
+    "source": "f5540a088e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.variable": {
+    "text": "Variable ändern",
+    "source": "5834e67f7a",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.colours.cover": {
     "text": "Farbe des Behangs",
     "source": "48016bac11",
@@ -1223,6 +1457,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.furniture.iceDispenser": {
+    "text": "Eisspender",
+    "source": "d362ec43ed",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.furniture.inThisPlan": {
     "text": "Auf dieser Etage",
     "source": "d8b7a3a252",
@@ -1230,8 +1470,8 @@
     "reviewed": false
   },
   "floorplans.furniture.item": {
-    "text": "{item, select, sofa-2 {Sofa, 2-Sitzer} sofa-3 {Sofa, 3-Sitzer} corner-sofa {Ecksofa} armchair {Sessel} coffee-table {Couchtisch} picture {Bild} side-table {Beistelltisch} tv-cabinet {TV-Schrank} tv {Fernseher} tv-lowboard {Lowboard} bookcase {Bücherregal} floor-lamp {Stehlampe} rug {Teppich} plant {Pflanze} dining-table-4 {Esstisch für 4} dining-table-6 {Esstisch für 6} round-table {Runder Tisch} table {Tisch} chair {Stuhl} sideboard {Sideboard} counter {Arbeitsplatte} sink-unit {Spüle} hob-unit {Kochfeld} fridge {Kühlschrank} dishwasher {Geschirrspüler} oven {Backofen} island {Kücheninsel} bar-stool {Barhocker} double-bed {Doppelbett} single-bed {Einzelbett} bedside-table {Nachttisch} wardrobe {Kleiderschrank} dresser {Kommode} cot {Babybett} bath {Badewanne} shower {Dusche} toilet {Toilette} washbasin {Waschbecken} washing-machine {Waschmaschine} dryer {Trockner} radiator {Heizkörper} desk {Schreibtisch} office-chair {Bürostuhl} shelf {Wandregal} coat-rack {Garderobe} shoe-cabinet {Schuhschrank} wall-cabinet {Hängeschrank} garden-table {Gartentisch} sun-lounger {Sonnenliege} barbecue {Grill} car {Auto} box {Quader} cylinder {Zylinder} solid {Eigene Form} kk-couch {Sofa} kk-armchair {Sessel} kk-coffee-table {Couchtisch} kk-side-table {Beistelltisch} kk-cabinet {Schrank} kk-cabinet-small {Kleiner Schrank} kk-bookcase {Wandregal mit Büchern} kk-shelf {Tiefes Wandregal} kk-shelf-small {Kleines Wandregal} kk-wall-shelf {Schwebendes Regal} kk-wall-shelf-small {Kleines schwebendes Regal} kk-picture {Bild} kk-rug-oval {Ovaler Teppich} kk-rug-stripes {Gestreifter Teppich} kk-cactus {Kaktus} kk-lamp-floor {Stehlampe} kk-lamp-table {Tischlampe} kk-table {Quadratischer Tisch} kk-table-long {Esstisch} kk-chair {Stuhl} kk-chair-wood {Holzstuhl} kk-stool {Hocker} kk-bed-double {Doppelbett} kk-bed-single {Einzelbett} q-sofa {Sofa} q-sofa-long {Ecksofa} q-armchair {Sessel} q-coffee-table {Couchtisch} q-bookcase {Bücherregal} q-bookcase-empty {Leeres Bücherregal} q-bookcase-wide {Breites Bücherregal} q-wardrobe {Kleiderschrank} q-dresser {Kommode} q-table {Esstisch} q-chair {Stuhl} q-chair-cushioned {Gepolsterter Stuhl} q-chair-arms {Holzarmlehnstuhl} q-stool {Hocker} q-bed {Einzelbett} q-bed-king {Kingsize-Bett} q-lamp {Stehlampe} q-plant {Pflanze} q-vase {Vase} base-drawers {Schubladenschrank} corner-cabinet {Eckschrank} corner-cabinet-round {Runder Eckschrank} tall-cabinet {Hochschrank} fridge-builtin {Einbaukühlschrank} fridge-small {Unterbaukühlschrank} hob-electric {Elektrokochfeld} wall-cabinet-double {Doppelter Hängeschrank} wall-cabinet-low {Niedriger Hängeschrank} wall-cabinet-corner {Eckregal} hood {Dunstabzugshaube} hood-large {Große Dunstabzugshaube} microwave {Mikrowelle} coffee-maker {Kaffeemaschine} toaster {Toaster} blender {Mixer} kettle {Wasserkocher} tap {Wasserhahn} bin {Mülleimer} washer-dryer {Waschtrockner} washbasin-square {Eckiges Waschbecken} toilet-square {Eckige Toilette} shower-round {Runde Dusche} bathroom-cabinet {Badezimmerschrank} bathroom-mirror {Spiegel} other {Möbelstück}}",
-    "source": "8a017f15fa",
+    "text": "{item, select, sofa-2 {Sofa, 2-Sitzer} sofa-3 {Sofa, 3-Sitzer} corner-sofa {Ecksofa} armchair {Sessel} coffee-table {Couchtisch} picture {Bild} side-table {Beistelltisch} tv-cabinet {TV-Schrank} tv {Fernseher} tv-lowboard {Lowboard} bookcase {Bücherregal} floor-lamp {Stehlampe} rug {Teppich} plant {Pflanze} dining-table-4 {Esstisch für 4} dining-table-6 {Esstisch für 6} round-table {Runder Tisch} table {Tisch} chair {Stuhl} sideboard {Sideboard} counter {Arbeitsplatte} sink-unit {Spüle} hob-unit {Kochfeld} fridge {Kühlschrank} fridge-american {Side-by-Side-Kühlschrank} dishwasher {Geschirrspüler} oven {Backofen} island {Kücheninsel} bar-stool {Barhocker} double-bed {Doppelbett} single-bed {Einzelbett} bedside-table {Nachttisch} wardrobe {Kleiderschrank} dresser {Kommode} cot {Babybett} bath {Badewanne} shower {Dusche} toilet {Toilette} washbasin {Waschbecken} washing-machine {Waschmaschine} dryer {Trockner} radiator {Heizkörper} desk {Schreibtisch} office-chair {Bürostuhl} shelf {Wandregal} coat-rack {Garderobe} shoe-cabinet {Schuhschrank} wall-cabinet {Hängeschrank} garden-table {Gartentisch} sun-lounger {Sonnenliege} barbecue {Grill} car {Auto} box {Quader} cylinder {Zylinder} solid {Eigene Form} kk-couch {Sofa} kk-armchair {Sessel} kk-coffee-table {Couchtisch} kk-side-table {Beistelltisch} kk-cabinet {Schrank} kk-cabinet-small {Kleiner Schrank} kk-bookcase {Wandregal mit Büchern} kk-shelf {Tiefes Wandregal} kk-shelf-small {Kleines Wandregal} kk-wall-shelf {Schwebendes Regal} kk-wall-shelf-small {Kleines schwebendes Regal} kk-picture {Bild} kk-rug-oval {Ovaler Teppich} kk-rug-stripes {Gestreifter Teppich} kk-cactus {Kaktus} kk-lamp-floor {Stehlampe} kk-lamp-table {Tischlampe} kk-table {Quadratischer Tisch} kk-table-long {Esstisch} kk-chair {Stuhl} kk-chair-wood {Holzstuhl} kk-stool {Hocker} kk-bed-double {Doppelbett} kk-bed-single {Einzelbett} q-sofa {Sofa} q-sofa-long {Ecksofa} q-armchair {Sessel} q-coffee-table {Couchtisch} q-bookcase {Bücherregal} q-bookcase-empty {Leeres Bücherregal} q-bookcase-wide {Breites Bücherregal} q-wardrobe {Kleiderschrank} q-dresser {Kommode} q-table {Esstisch} q-chair {Stuhl} q-chair-cushioned {Gepolsterter Stuhl} q-chair-arms {Holzarmlehnstuhl} q-stool {Hocker} q-bed {Einzelbett} q-bed-king {Kingsize-Bett} q-lamp {Stehlampe} q-plant {Pflanze} q-vase {Vase} base-drawers {Schubladenschrank} corner-cabinet {Eckschrank} corner-cabinet-round {Runder Eckschrank} tall-cabinet {Hochschrank} fridge-builtin {Einbaukühlschrank} fridge-small {Unterbaukühlschrank} hob-electric {Elektrokochfeld} wall-cabinet-double {Doppelter Hängeschrank} wall-cabinet-low {Niedriger Hängeschrank} wall-cabinet-corner {Eckregal} hood {Dunstabzugshaube} hood-large {Große Dunstabzugshaube} microwave {Mikrowelle} coffee-maker {Kaffeemaschine} toaster {Toaster} blender {Mixer} kettle {Wasserkocher} tap {Wasserhahn} bin {Mülleimer} washer-dryer {Waschtrockner} washbasin-square {Eckiges Waschbecken} toilet-square {Eckige Toilette} shower-round {Runde Dusche} bathroom-cabinet {Badezimmerschrank} bathroom-mirror {Spiegel} other {Möbelstück}}",
+    "source": "87fbe2cdb6",
     "by": "ai",
     "reviewed": false
   },
@@ -1547,6 +1787,174 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.modelPreview.asBuilt": {
+    "text": "Gebaut mit {w} × {d} × {h} cm, gestreckt",
+    "source": "362b68eabb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.colours": {
+    "text": "Farben",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.coloursValue": {
+    "text": "{look, select, textures {Eigene} other {Vom Design}}",
+    "source": "5b1fc9b223",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.detail": {
+    "text": "Detail",
+    "source": "fb5f27d545",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.detailValue": {
+    "text": "{triangles, plural, one {# Dreieck} other {# Dreiecke}} · {kb} KB",
+    "source": "90bc1b60fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.facts": {
+    "text": "Über dieses Modell",
+    "source": "f4b90b69cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromAbove": {
+    "text": "Von oben",
+    "source": "ac665ca7d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromFront": {
+    "text": "Von vorn",
+    "source": "c9d4b8d82c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromSide": {
+    "text": "Von links",
+    "source": "b248f7aefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.front": {
+    "text": "Vorderseite",
+    "source": "a617590202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.listed": {
+    "text": "Einsortiert unter",
+    "source": "3b0f660690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.made": {
+    "text": "Erstellt",
+    "source": "45a5300c04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.madeValue": {
+    "text": "{made, select, parts {Aus Teilen, von einem KI-Assistenten} other {Aus einer Datei}}",
+    "source": "7922933b44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.mount": {
+    "text": "{mount, select, wall {An der Wand} ceiling {An der Decke} other {Auf dem Boden}}",
+    "source": "a36bb52c92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partName": {
+    "text": "Name",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partShape": {
+    "text": "Form",
+    "source": "e0e492707f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partShapeValue": {
+    "text": "{shape, select, box {Quader} cylinder {Zylinder} sphere {Kugel} extrusion {Umriss} lathe {Drehprofil} other {Form}}",
+    "source": "3d2c16c608",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partSize": {
+    "text": "Größe (cm)",
+    "source": "f5fc3e7fe8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partTone": {
+    "text": "Material",
+    "source": "6f435d423d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partToneValue": {
+    "text": "{tone, select, soft {Stoff} metal {Metall} glass {Glas} plant {Pflanze} lamp {Lampe} other {Holz}}",
+    "source": "334aa70480",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partWhere": {
+    "text": "Position (cm)",
+    "source": "4cdd55e80b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.parts": {
+    "text": "{count, plural, one {# Teil} other {# Teile}}",
+    "source": "85e36d4698",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.sits": {
+    "text": "Platz",
+    "source": "c4124d6386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.size": {
+    "text": "Größe",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.sizeValue": {
+    "text": "{w} × {d} × {h} cm",
+    "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.turnLeft": {
+    "text": "Von links ansehen",
+    "source": "a849d0d01c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.turnRight": {
+    "text": "Von rechts ansehen",
+    "source": "ea04688cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.view3d": {
+    "text": "Das Modell in 3D. Zum Umsehen ziehen.",
+    "source": "a0711908c9",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.add": {
     "text": "Modell hinzufügen",
     "source": "3690c70b27",
@@ -1829,6 +2237,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.savedBy": {
+    "text": "Gespeichert von {by} · Version {version}",
+    "source": "1e2765518c",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.saving": {
     "text": "{name} wird zu Ihren Modellen hinzugefügt…",
     "source": "91b86f06aa",
@@ -1940,6 +2354,252 @@
   "floorplans.models.viewInCommunity": {
     "text": "Ansehen",
     "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.actions": {
+    "text": "Standardaktionen",
+    "source": "eda49170f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.actionsHelp": {
+    "text": "Wähle, was Tippen, Halten und Doppeltippen auf ein verknüpftes Gerät bewirkt.",
+    "source": "71a9210d00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.arrange": {
+    "text": "Einrichten",
+    "source": "d557a972ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.arrangeHelp": {
+    "text": "Wähle, platziere und verschiebe Möbel. Ziehe am runden Griff, um sie zu drehen.",
+    "source": "76f6a48b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.back": {
+    "text": "Zurück",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.buttonsIntro": {
+    "text": "Die übrigen Schaltflächen oben rechts steuern Aktionen und Zeichnungsdetails.",
+    "source": "72dcaacb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.buttonsTitle": {
+    "text": "Wähle, was du siehst und tust",
+    "source": "966a20a55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.cameraHelp": {
+    "text": "Erkunde den Grundriss, ohne ihn zu ändern.",
+    "source": "9ed3e4c72d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.close": {
+    "text": "Tipps schließen",
+    "source": "38013bd721",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.count": {
+    "text": "{step} von {total}",
+    "source": "a45327cd0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.done": {
+    "text": "Verstanden",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.editIntro": {
+    "text": "Die Werkzeuge oben rechts helfen beim Ausrichten und Ausprobieren.",
+    "source": "7228db9f39",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.editTitle": {
+    "text": "Bearbeite mit Sicherheit",
+    "source": "edd759273e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.guides": {
+    "text": "Raster und Längen",
+    "source": "c083faba05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.guidesHelp": {
+    "text": "Raster und Lineal blenden Zeichenhilfen ein oder aus.",
+    "source": "67c7e96df4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.help": {
+    "text": "Grundriss-Tipps",
+    "source": "bed7c06441",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.keys": {
+    "text": "Nützliche Tasten",
+    "source": "3f63057d11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.keysHelp": {
+    "text": "R dreht ein Möbelstück um 15°. Entf entfernt die Auswahl. Esc bricht ab.",
+    "source": "a5f5636ab8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.layers": {
+    "text": "Möbel und Vorlagenbild",
+    "source": "4db0085866",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.layersHelp": {
+    "text": "Sessel und Bild blenden diese Ebenen ein oder aus.",
+    "source": "bec1aa8d91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.moveIntro": {
+    "text": "Erkunde den Grundriss beim Einrichten. Diese Tastenkürzel funktionieren direkt über dem Plan.",
+    "source": "170472cd99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.moveTitle": {
+    "text": "Bewege dich im Grundriss",
+    "source": "3398b4c2de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.next": {
+    "text": "Weiter",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.orbit": {
+    "text": "Rechts ziehen in 3D",
+    "source": "beb1489c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.orbitHelp": {
+    "text": "Drehe und neige die Ansicht im Modus Einrichten.",
+    "source": "b3e0214cb3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.pan": {
+    "text": "Leertaste + Ziehen",
+    "source": "c3a3fa2942",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.panHelp": {
+    "text": "Verschiebe die Ansicht in 2D oder 3D. Lass die Leertaste los, um weiterzubearbeiten.",
+    "source": "5b1fba3783",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.quick": {
+    "text": "Schnellstart",
+    "source": "0eb95fb624",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.reopen": {
+    "text": "Du kannst die Tipps über die Schaltfläche ? erneut öffnen.",
+    "source": "b794735794",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.skip": {
+    "text": "Tipps überspringen",
+    "source": "edc0a41b1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.snap": {
+    "text": "Einrasten",
+    "source": "98df9a59f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.snapHelp": {
+    "text": "Richte an Wänden und Möbeln aus. Halte die Umschalttaste, um das Einrasten umzukehren.",
+    "source": "cc9783a14e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.test": {
+    "text": "Aktionen testen",
+    "source": "bbfc27cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.testHelp": {
+    "text": "Sieh dir eine Aktion sicher an, ohne Befehle zu senden.",
+    "source": "a3ac5fa0d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.undo": {
+    "text": "Rückgängig / Wiederholen",
+    "source": "49c1588ef5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.undoHelp": {
+    "text": "Gehe in deinen Änderungen einen Schritt zurück oder vor.",
+    "source": "4f5e9409a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.viewIntro": {
+    "text": "Wechsle mit dem Würfel oben rechts zwischen Zeichnung und 3D-Ansicht.",
+    "source": "ae6dd7208b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.viewTitle": {
+    "text": "Sieh deinen Grundriss in 3D",
+    "source": "4133493370",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.zoom": {
+    "text": "Scrollen oder zusammenziehen",
+    "source": "f179e1137d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.zoomHelp": {
+    "text": "Zoome hinein und heraus. Der Zurücksetzen-Pfeil bringt dich zum Ausgangspunkt.",
+    "source": "5c49f67766",
     "by": "ai",
     "reviewed": false
   }
