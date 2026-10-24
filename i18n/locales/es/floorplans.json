@@ -990,8 +990,8 @@
     "reviewed": false
   },
   "floorplans.editor.pictureFailed": {
-    "text": "No se pudo añadir esa imagen. Usa un PNG, JPEG o WebP de 2 MB como máximo.",
-    "source": "6fc9fbe28d",
+    "text": "No se pudo añadir esa imagen. Usa un PNG, JPEG o WebP de 10 MB como máximo.",
+    "source": "f3bd0fbc81",
     "by": "ai",
     "reviewed": false
   },
@@ -2015,6 +2015,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.models.deleteTiles": {
+    "text": "{count, plural, one {# mosaico lo muestra y dirá que el modelo ya no está.} other {# mosaicos lo muestran y dirán que el modelo ya no está.}}",
+    "source": "080d5bb3b2",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.deleteTitle": {
     "text": "¿Eliminar {name}?",
     "source": "a4b982a9e0",
@@ -2156,6 +2162,12 @@
   "floorplans.models.notInstalled": {
     "text": "No instalado: al colocarlo, se instala",
     "source": "b785ed6b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.onTiles": {
+    "text": "{count, plural, one {en # mosaico} other {en # mosaicos}}",
+    "source": "7ff8a4d2a9",
     "by": "ai",
     "reviewed": false
   },

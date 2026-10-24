@@ -1,4 +1,49 @@
 {
+  "login.connectApp.adminOnlyBody": {
+    "en": "{client} asked for admin access to Tiledash. Your account isn’t an admin, so nothing was shared. If you didn’t expect this, you can close this tab.",
+    "context": "Explanation under the heading \"Only Tiledash’s admins can allow this.\": the app asked for access only Tiledash’s administrators can give, so the request was refused and nothing was shared.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.adminOnlyTitle": {
+    "en": "Only Tiledash’s admins can allow this.",
+    "context": "Heading shown when an AI app asks for admin access to Tiledash (reading every user’s diagnostics) but the person logged in is not one of Tiledash’s own administrators. Nothing is shared.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.adminTitle": {
+    "en": "Give {client} admin access?",
+    "context": "Heading of the consent page when an AI app asks one of Tiledash’s own administrators for admin access: reading diagnostics about every user from the live service. Phrased as a question the admin answers with the buttons below.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.adminWarning": {
+    "en": "It sees what the admin pages show about <strong>every user</strong>: their Homeys, accounts and errors. Every question it asks goes into the audit log under your name and this app’s. Access ends after <strong>7 days</strong>, or at once when you stop being an admin.",
+    "context": "Warning box on the admin consent page. \"It\" is the AI app. The admin pages are Tiledash’s own administration screens; the audit log is the record of what administrators looked at and did. The tagged parts are shown in bold.",
+    "maxLength": 300,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.allowAdmin": {
+    "en": "Allow admin access",
+    "context": "Main button on the admin consent page: gives the AI app read access to Tiledash’s administration data.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.backTo": {
+    "en": "Back to {client}",
+    "context": "Button that sends the browser back to the AI app that asked for access, telling it the access was not given.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
   "login.connectApp.connectedTitle": {
     "en": "{client} is connected.",
     "context": "Heading shown after the person allowed an AI app to connect, just before the browser goes back to the app.",
@@ -9,8 +54,8 @@
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
   "login.connectApp.disconnect": {
-    "en": "Disconnect it any time under <link>Account → AI assistants</link>.",
-    "context": "Small print on the consent page. \"It\" is the app. The part in the tag is a link to the settings page where connected AI apps are listed and removed; \"Account → AI assistants\" names two places in the app, the account page and its AI assistants section, so write them as the app names them.",
+    "en": "Disconnect it any time under <link>Settings → AI assistants</link>.",
+    "context": "Small print on the consent page. \"It\" is the app. The part in the tag is a link to the settings page where connected AI apps are listed and removed; \"Settings → AI assistants\" names two places in the app, the Settings page and its AI assistants group, so write them as the app names them.",
     "maxLength": 90,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
@@ -30,6 +75,30 @@
     "en": "Building widgets needs Pro. You can connect now; the tools start working once you’re on Pro.",
     "context": "Note on the consent page for people on the Free plan: the app can be connected, but its tools only work with the Pro plan. \"Pro\" is a plan name and stays as it is.",
     "maxLength": 120,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.freshLoginBody": {
+    "en": "<strong>{client}</strong> asks for admin access. That needs a login with Homey from the last 15 minutes; you come straight back here to decide.",
+    "context": "Explanation under \"Confirm it’s you\": giving an AI app admin access needs a recent login with the Homey account; after logging in, the person returns to this page to allow or cancel. The tagged part is shown in bold.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.freshLoginTitle": {
+    "en": "Confirm it’s you",
+    "context": "Heading shown before the admin consent page when the administrator last logged in more than 15 minutes ago: they have to log in again first.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.connectApp.introAdmin": {
+    "en": "<strong>{client}</strong> wants to read Tiledash’s production diagnostics as you.",
+    "context": "Sentence under the heading of the admin consent page. \"Production diagnostics\" means information about how the live Tiledash service and its users’ Homeys are doing. \"As you\" means with the administrator’s rights. The tagged part is shown in bold.",
+    "params": {
+      "client": "The name the app calls itself (Claude, ChatGPT…). Not translated."
+    },
+    "maxLength": 110,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
   "login.connectApp.introNote": {
@@ -68,6 +137,12 @@
     "maxLength": 90,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
+  "login.connectApp.logInAgain": {
+    "en": "Log in with Homey",
+    "context": "Button under \"Confirm it’s you\" that starts the login with the Homey account again. Homey is a product name and stays as it is.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
   "login.connectApp.notConnectedTitle": {
     "en": "Not connected.",
     "context": "Heading shown after the person cancelled the connection of an AI app, just before the browser goes back to the app.",
@@ -88,6 +163,48 @@
     },
     "maxLength": 70,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
+  "login.consent.adminAllow0": {
+    "en": "See how the connector and every Homey are doing: their states, when they were last seen, and their errors",
+    "context": "Item in the list of what an administrator’s AI app may do after the administrator allows it. The connector is the part of Tiledash that keeps in touch with every user’s Homey; \"their errors\" are what went wrong with them.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAllow1": {
+    "en": "Look up users by name, email or Athom id, and read what their admin page shows",
+    "context": "Item in the list of what an administrator’s AI app may do. Athom is the company behind Homey; an Athom id is a user’s account number there. The admin page is the page about one user in Tiledash’s administration screens.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAllow2": {
+    "en": "Read the admin overview’s list of what needs attention",
+    "context": "Item in the list of what an administrator’s AI app may do. The admin overview is the start page of Tiledash’s administration screens; its list shows users and Homeys that need a look.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminDeny0": {
+    "en": "Change anything: plans, accounts, Homeys or settings",
+    "context": "Item in the list of what an administrator’s AI app can never do: it can only read. Plans are the paid or free subscriptions of users.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminDeny1": {
+    "en": "Read device names or readings, dashboards, history or payment details",
+    "context": "Item in the list of what an administrator’s AI app can never do. Readings are devices’ current values; history means recorded values over time.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminDeny2": {
+    "en": "See passwords, tokens or Homey credentials",
+    "context": "Item in the list of what an administrator’s AI app can never do. A token is a secret key that gives access; credentials are the login details.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminDeny3": {
+    "en": "Keep working once you’re no longer an admin",
+    "context": "Item in the list of what an administrator’s AI app can never do: when the person loses their administrator role, the app’s access stops at once.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.publishAllow0": {
     "en": "Publish new items and new versions under your community name",
@@ -361,8 +478,8 @@
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
   },
   "login.deviceSignIn.signOut": {
-    "en": "Sign it out any time under <link>Account → AI assistants</link>, or with <cmd>tiledash auth logout</cmd>.",
-    "context": "Small print on the sign-in confirmation page. \"It\" is the command line. The part in the first tag is a link to the settings page where connected tools are listed (\"Account → AI assistants\" names two places in the app, the account page and its AI assistants section, so write them as the app names them); the second tag is a command typed in a terminal and must stay exactly as it is.",
+    "en": "Sign it out any time under <link>Settings → AI assistants</link>, or with <cmd>tiledash auth logout</cmd>.",
+    "context": "Small print on the sign-in confirmation page. \"It\" is the command line. The part in the first tag is a link to the settings page where connected tools are listed (\"Settings → AI assistants\" names two places in the app, the Settings page and its AI assistants group, so write them as the app names them); the second tag is a command typed in a terminal and must stay exactly as it is.",
     "maxLength": 130,
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
   },
@@ -653,8 +770,8 @@
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.keptFooter": {
-    "en": "Under Account › Account you can download all of it, or delete your account: Tiledash removes it seven days later.",
-    "context": "Paragraph below the list of kept data, in the second tab of the permissions page. \"Account › Account\" is the path to a tab in the account page (the second word is the tab); \"all of it\" is all the data listed above.",
+    "en": "Under Settings › Profile you can download all of it, or delete your account: Tiledash removes it seven days later.",
+    "context": "Paragraph below the list of kept data, in the second tab of the permissions page. \"Settings › Profile\" is the path to a group of the Settings page (the second word is the group); \"all of it\" is all the data listed above.",
     "maxLength": 150,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },

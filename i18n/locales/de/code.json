@@ -1517,6 +1517,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.kindPicker.model": {
+    "text": "ein Möbelstück oder eines Ihrer 3D-Modelle",
+    "source": "172b0f18dd",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.kindPicker.mood": {
     "text": "eine Stimmung zum Aktivieren oder mehrere",
     "source": "0858797f29",
@@ -4956,8 +4962,8 @@
     "reviewed": false
   },
   "code.settingViews.kind": {
-    "text": "{type, select, device {Ein Gerät} capability {Eine Funktion} flow {Ein Flow} mood {Eine Stimmung} dashboard {Ein Dashboard} zone {Eine Zone} person {Eine Person} calendars {Kalender} pins {PINs} floorplan {Ein Grundriss} number {Eine Zahl} percentage {Ein Prozentwert} boolean {Ja/Nein} text {Text} choice {Eine Auswahl} color {Eine Farbe} icon {Ein Symbol} size {Eine Größe} spot {Eine Position} other {Kacheln}}",
-    "source": "69d42b574b",
+    "text": "{type, select, device {Ein Gerät} capability {Eine Funktion} flow {Ein Flow} mood {Eine Stimmung} dashboard {Ein Dashboard} zone {Eine Zone} person {Eine Person} calendars {Kalender} pins {PINs} floorplan {Ein Grundriss} house {Ein Haus} model {Ein Modell} modelCamera {Eine 3D-Ansicht} number {Eine Zahl} percentage {Ein Prozentwert} boolean {Ja/Nein} text {Text} choice {Eine Auswahl} color {Eine Farbe} icon {Ein Symbol} size {Eine Größe} spot {Eine Position} other {Kacheln}}",
+    "source": "35b9cae31c",
     "by": "ai",
     "reviewed": false
   },
@@ -4986,8 +4992,8 @@
     "reviewed": false
   },
   "code.settingViews.newLabel": {
-    "text": "{type, select, device {Gerät} capability {Funktion} flow {Flow} mood {Stimmung} dashboard {Dashboard} zone {Zone} person {Person} calendars {Kalender} pins {PINs} floorplan {Grundriss} number {Zahl} percentage {Prozent} boolean {Ja/Nein} text {Text} choice {Auswahl} color {Farbe} icon {Symbol} size {Größe} spot {Position} other {Kacheln}}",
-    "source": "8d7b57f1be",
+    "text": "{type, select, device {Gerät} capability {Funktion} flow {Flow} mood {Stimmung} dashboard {Dashboard} zone {Zone} person {Person} calendars {Kalender} pins {PINs} floorplan {Grundriss} house {Haus} model {Modell} modelCamera {3D-Ansicht} number {Zahl} percentage {Prozent} boolean {Ja/Nein} text {Text} choice {Auswahl} color {Farbe} icon {Symbol} size {Größe} spot {Position} other {Kacheln}}",
+    "source": "b56ead900f",
     "by": "ai",
     "reviewed": false
   },
@@ -5066,6 +5072,12 @@
   "code.settingViews.readsIcon": {
     "text": "ein Symbolname",
     "source": "fac01ea1cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.settingViews.readsModelCamera": {
+    "text": "ein Modell, beliebig in 3D gedreht",
+    "source": "1ba5e07e0a",
     "by": "ai",
     "reviewed": false
   },

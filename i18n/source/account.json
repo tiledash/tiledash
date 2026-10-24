@@ -1052,7 +1052,7 @@
     "file": "packages/ui/src/calendars/calendars.messages.ts"
   },
   "account.calendars.pickNone": {
-    "en": "No calendars yet. Add one under Account › Calendars.",
+    "en": "No calendars yet. Add one under Settings › Calendars.",
     "context": "Shown in a widget’s calendar setting while the account has no calendars.",
     "maxLength": 90,
     "file": "packages/ui/src/calendars/calendars.messages.ts"
@@ -1271,11 +1271,11 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.group": {
-    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} floorPlans {{count, plural, one {# floor plan} other {# floor plans}}} other {{count, plural, one {# recording} other {# recordings}}}}",
-    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; floor plans are drawings of the house, level by level; recordings keep a reading’s history.",
+    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} floorPlans {{count, plural, one {# floor plan} other {# floor plans}}} houses {{count, plural, one {# house} other {# houses}}} other {{count, plural, one {# recording} other {# recordings}}}}",
+    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; floor plans are drawings of the house, level by level; houses are pictures of the home with places marked on them, for the Energy house tile; recordings keep a reading’s history.",
     "params": {
       "count": "How many.",
-      "key": "Which part: themes, presets, widgets, pictures, testDevices, floorPlans or recordings."
+      "key": "Which part: themes, presets, widgets, pictures, testDevices, floorPlans, houses or recordings."
     },
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
@@ -1302,12 +1302,12 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.limit": {
-    "en": "{key, select, dashboards {Your plan has room for {room} dashboards; you have {have} and chose {adding}.} recordings {Your plan has room for {room} recordings; you have {have} and chose {adding}.} themes {Your plan has room for {room} themes of your own; you have {have} and chose {adding}.} widgets {Your plan has room for {room} widgets of your own; you have {have} and chose {adding}.} floorPlans {Your plan has room for {room} floor plans; you have {have} and chose {adding}.} other {Your plan has room for {room} pictures; you have {have} and chose {adding}.}}",
+    "en": "{key, select, dashboards {Your plan has room for {room} dashboards; you have {have} and chose {adding}.} recordings {Your plan has room for {room} recordings; you have {have} and chose {adding}.} themes {Your plan has room for {room} themes of your own; you have {have} and chose {adding}.} widgets {Your plan has room for {room} widgets of your own; you have {have} and chose {adding}.} floorPlans {Your plan has room for {room} floor plans; you have {have} and chose {adding}.} houses {Your plan has room for {room} houses; you have {have} and chose {adding}.} other {Your plan has room for {room} pictures; you have {have} and chose {adding}.}}",
     "context": "Why the chosen parts don’t fit the plan: how many it allows, how many there are, and how many were chosen to come along.",
     "params": {
       "adding": "How many were chosen from the backup.",
       "have": "How many there are already.",
-      "key": "Which limit: dashboards, recordings, themes, widgets, floorPlans or pictures.",
+      "key": "Which limit: dashboards, recordings, themes, widgets, floorPlans, houses or pictures.",
       "room": "How many the plan allows."
     },
     "maxLength": 110,
@@ -1349,8 +1349,8 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.notConfigDetail": {
-    "en": "Choose a file made with Download a backup (Account → Back up your setup). Download your data gives a different zip, which can’t be restored.",
-    "context": "Line under \"This isn’t a Tiledash backup\". \"Download a backup\", \"Account → Back up your setup\" and \"Download your data\" name buttons and cards of the Account tab: use the same words as they do.",
+    "en": "Choose a file made with Download a backup (Settings › Profile). Download your data gives a different zip, which can’t be restored.",
+    "context": "Line under \"This isn’t a Tiledash backup\". \"Download a backup\", \"Settings › Profile\" and \"Download your data\" name buttons and places of the Settings page: use the same words as they do.",
     "maxLength": 170,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
@@ -1450,6 +1450,84 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
+  "account.creditActions.added": {
+    "en": "{count, plural, one {# credit added} other {# credits added}}",
+    "context": "Title of a green message after buying a pack of house credits: this many were added.",
+    "params": {
+      "count": "How many credits the pack held."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.addedBody": {
+    "en": "You now have {balance, plural, one {# credit} other {# credits}}.",
+    "context": "Text under the green message about added credits: the new balance.",
+    "params": {
+      "balance": "How many credits the person has now."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.captureFailed": {
+    "en": "We couldn’t add your credits yet",
+    "context": "Title of a red message when a credit purchase was approved at PayPal but Tiledash could not confirm it just now.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.captureFailedBody": {
+    "en": "If PayPal took the payment, the credits show up here as soon as it confirms it.",
+    "context": "Text under the red message that credits couldn’t be added yet.",
+    "maxLength": 100,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.checkConnection": {
+    "en": "Check your connection and try again.",
+    "context": "Text under a failed credit purchase message when the browser got no answer at all.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.declined": {
+    "en": "The card was declined",
+    "context": "Title of a message when PayPal declined the card or account a credit pack was paid with; PayPal then lets the person try another.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.declinedBody": {
+    "en": "Nothing was charged. Pick another card or pay with PayPal.",
+    "context": "Text under the message that the card was declined.",
+    "maxLength": 80,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.notPaid": {
+    "en": "PayPal didn’t complete the payment",
+    "context": "Title of a red message when the person approved a credit purchase at PayPal but the payment did not go through.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.notPaidBody": {
+    "en": "No credits were added, and you weren’t charged for them. Try again, or pay another way at PayPal.",
+    "context": "Text under the red message that PayPal didn’t complete a credit payment.",
+    "maxLength": 110,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.startFailed": {
+    "en": "Couldn’t start your purchase",
+    "context": "Title of a red message when buying a credit pack couldn’t begin; nothing was charged.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.tryLater": {
+    "en": "Please try again in a moment.",
+    "context": "Text under a failed credit purchase message for any other reason.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
+  "account.creditActions.unavailable": {
+    "en": "Buying credits isn’t available here.",
+    "context": "Text under a red message when this Tiledash install can’t take payments for credits at all.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/creditActions.messages.ts"
+  },
   "account.credits.copyright": {
     "en": "OpenStreetMap copyright",
     "context": "A link to OpenStreetMap’s copyright page.",
@@ -1463,8 +1541,8 @@
     "file": "packages/ui/src/screens/account/credits.messages.ts"
   },
   "account.credits.mapsText": {
-    "en": "Map data © OpenStreetMap contributors. Map tiles come from OpenFreeMap with OpenMapTiles unless you picked another provider above.",
-    "context": "The credit for the maps. Map tiles are the pictures the map is drawn from; \"above\" is the Maps card.",
+    "en": "Map data © OpenStreetMap contributors. Map tiles come from OpenFreeMap with OpenMapTiles unless you picked another one under Settings › General.",
+    "context": "The credit for the maps. Map tiles are the pictures the map is drawn from; \"Settings › General\" names the Settings page and its group where the maps' tiles are chosen, so write them as the app names them.",
     "maxLength": 170,
     "file": "packages/ui/src/screens/account/credits.messages.ts"
   },
@@ -1726,6 +1804,189 @@
     "maxLength": 60,
     "file": "packages/ui/src/pin/extraPins.messages.ts"
   },
+  "account.houseCredits.balance": {
+    "en": "{count, plural, one {# credit} other {# credits}}",
+    "context": "Spoken label of the big number that shows how many house credits the person has left, such as \"8 credits\".",
+    "params": {
+      "count": "How many credits the person has."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.buy": {
+    "en": "Buy credits",
+    "context": "Button that opens the choice of a credit pack to buy, on the house credits card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.buyBody": {
+    "en": "One credit makes one picture of one side, with its spots placed. A try that fails gives its credit back. Credits don’t expire.",
+    "context": "Explains what a house credit buys, in the area where the person picks a pack. A side is one side of a house (front, back, garden). Spots are the places on the picture where things like lamps and doors are marked.",
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.buyTitle": {
+    "en": "Buy credits",
+    "context": "Heading of the area where the person picks a credit pack and pays for it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.givenBack": {
+    "en": "Given back by Tiledash",
+    "context": "Line in the credit history when Tiledash’s team gave a credit back for a bad picture, without a reason.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.givenBackWhy": {
+    "en": "Given back by Tiledash: {reason}",
+    "context": "Line in the credit history when Tiledash’s team gave a credit back for a bad picture, with the reason they wrote.",
+    "params": {
+      "reason": "The reason, written by Tiledash’s team in English, such as \"two front doors\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.granted": {
+    "en": "Given by Tiledash",
+    "context": "Line in the credit history when Tiledash’s team gave credits as a gift or for support, without a reason.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.grantedWhy": {
+    "en": "Given by Tiledash: {reason}",
+    "context": "Line in the credit history when Tiledash’s team gave credits as a gift or for support, with the reason they wrote.",
+    "params": {
+      "reason": "The reason, written by Tiledash’s team in English, such as \"for the bug\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.historyLabel": {
+    "en": "Credit history",
+    "context": "Spoken label of the list of changes to the person’s house credits.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.intro": {
+    "en": "For making pictures of your houses.",
+    "context": "Line under the title of the house credits card.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.noHistory": {
+    "en": "No credits bought yet. They appear here when you do.",
+    "context": "Shown in place of the history on the house credits card when nothing has changed the balance yet.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.notNow": {
+    "en": "Not now",
+    "context": "Button that closes the choice of a credit pack to buy without buying.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.outTitle": {
+    "en": "You’re out of credits",
+    "context": "Heading of the area where the person buys a credit pack, shown when they have no credits left.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.pack10": {
+    "en": "A house, front and back, with a few tries",
+    "context": "Hint under the small credit pack (10 credits) saying what it is good for. A try is one generated picture.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.pack25": {
+    "en": "A few houses, or every style",
+    "context": "Hint under the larger credit pack (25 credits) saying what it is good for. A style is a look the generated picture can have.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.packCredits": {
+    "en": "{count, plural, one {# credit} other {# credits}}",
+    "context": "How many credits a pack holds, on the pack’s button, such as \"10 credits\".",
+    "params": {
+      "count": "How many credits the pack holds."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.packsLabel": {
+    "en": "Pack",
+    "context": "Spoken label of the choice between credit packs (a radio group); a pack is a set of credits sold together.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.purchase": {
+    "en": "Bought {count, plural, one {# credit} other {# credits}} · PayPal",
+    "context": "Line in the credit history for a purchase of a pack, paid with PayPal, such as \"Bought 10 credits · PayPal\".",
+    "params": {
+      "count": "How many credits were bought."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.refund": {
+    "en": "Taken back with a refund",
+    "context": "Line in the credit history when a payment was refunded and the unspent credits of that pack were taken back.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.returned": {
+    "en": "Couldn’t make it: given back",
+    "context": "Line in the credit history when making a picture failed, so the credit was returned automatically.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.spend": {
+    "en": "Made a house picture",
+    "context": "Line in the credit history for a credit spent on making a picture of a house.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.title": {
+    "en": "House credits",
+    "context": "Title of the card on the account’s Plan page that shows how many credits the person has for making pictures of their houses.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.today": {
+    "en": "Today, {time}",
+    "context": "When a credit change happened, on the day itself, such as \"Today, 14:20\".",
+    "params": {
+      "time": "A time of day, such as \"14:20\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.unavailable": {
+    "en": "Buying credits isn’t available here.",
+    "context": "Shown on the house credits card instead of the buy button when this Tiledash install can’t take payments.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.vat": {
+    "en": "Prices include VAT. You get a receipt by email.",
+    "context": "Small print under the credit packs. The receipt comes from the payment provider.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.withPro": {
+    "en": "With your Pro",
+    "context": "Line in the credit history: the credits that come with Pro, given once, the first time the person paid for Pro.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.yesterday": {
+    "en": "Yesterday, {time}",
+    "context": "When a credit change happened, the day before, such as \"Yesterday, 14:20\".",
+    "params": {
+      "time": "A time of day, such as \"14:20\"."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
   "account.importDialog.adds": {
     "en": "Adds to what you have; nothing here changes.",
     "context": "Short line next to the buttons: restoring only adds.",
@@ -1966,8 +2227,8 @@
     "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
   },
   "account.importDialog.step1": {
-    "en": "A backup comes from <b>Account</b> → <b>Back up your setup</b> → <b>Download a backup</b>.",
-    "context": "First step: where a backup is made. The bold parts name a page, a card and a button: use the same words as the Account tab does (shell.names.account, account.profile.backupTitle, account.profile.downloadBackup).",
+    "en": "A backup comes from <b>Account</b> › <b>Profile</b> → <b>Download a backup</b>.",
+    "context": "First step: where a backup is made. The bold parts name a page, its tab and a button: use the same words as the app does (shell.names.account, shell.names.profile, account.profile.downloadBackup).",
     "maxLength": 110,
     "file": "packages/ui/src/screens/account/ImportConfigDialog.messages.ts"
   },
@@ -3476,6 +3737,15 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
   },
+  "account.plans.creditsToStart": {
+    "en": "{count} to start",
+    "context": "Cell of the plans table, Pro’s column of \"House picture credits\": this many credits come with Pro, once, the first time you pay for it.",
+    "params": {
+      "count": "How many credits, such as 5."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.days": {
     "en": "{count, plural, one {# day} other {# days}}",
     "context": "A length of time in days: in the plans table (\"30 days\"), in \"History is kept …\", and how much history a recording has.",
@@ -3566,6 +3836,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowCredits": {
+    "en": "House picture credits",
+    "context": "Row of the plans table: credits to have Tiledash make pictures of your house, one credit a picture. Pro comes with some, once.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowDaily": {
     "en": "Daily history",
     "context": "Row of the plans table: how long one value per day is kept.",
@@ -3605,6 +3881,12 @@
   "account.plans.rowHourly": {
     "en": "Hourly history",
     "context": "Row of the plans table: how long one value per hour is kept.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowHouses": {
+    "en": "Your own houses",
+    "context": "Row of the plans table: how many of their own houses (pictures of their home with its places marked, for the Energy house tile) the plan allows.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
@@ -3718,12 +4000,6 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
-  "account.profile.alerts": {
-    "en": "Alerts",
-    "context": "Heading of the card with the alert rules: which devices wake the wall panels with an alert.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
-  },
   "account.profile.backupBody": {
     "en": "Your dashboards, wall panels, themes and widgets in one file, to bring back if something goes wrong. Recorded history isn’t in it.",
     "context": "Text of the backup card.",
@@ -3742,15 +4018,9 @@
     "maxLength": 170,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
-  "account.profile.dataSources": {
-    "en": "Data sources",
-    "context": "Heading of the card that credits the data Tiledash shows from others (weather, places, maps).",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
-  },
   "account.profile.dataTitle": {
     "en": "Your data",
-    "context": "Heading of the card for downloading everything Tiledash keeps for the person.",
+    "context": "Heading of the card on Settings › Profile with backing up the setup, downloading everything Tiledash keeps for the person and deleting the account.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
@@ -3772,6 +4042,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
+  "account.profile.download": {
+    "en": "Download",
+    "context": "Button in the \"Download your data\" row that downloads everything Tiledash keeps for the person.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
   "account.profile.downloadBackup": {
     "en": "Download a backup",
     "context": "Button that downloads a backup file of the setup.",
@@ -3780,7 +4056,7 @@
   },
   "account.profile.downloadData": {
     "en": "Download your data",
-    "context": "Button that downloads everything Tiledash keeps for the person.",
+    "context": "Small heading of the row in the \"Your data\" card for downloading everything Tiledash keeps for the person.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
@@ -3790,21 +4066,9 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
-  "account.profile.maps": {
-    "en": "Maps",
-    "context": "Heading of the card that sets where the maps’ tiles (the map pictures) come from.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
-  },
   "account.profile.paused": {
     "en": "Paused",
     "context": "Badge on a Homey that is paused on the Free plan: not connected until it is picked to stay.",
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
-  },
-  "account.profile.pin": {
-    "en": "PIN",
-    "context": "Heading of the card with the account’s PIN, which keypads ask for. Use the usual abbreviation.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
@@ -4030,50 +4294,318 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
   },
-  "account.screen.assistantsTab": {
+  "account.settings.alerts": {
+    "en": "Alerts",
+    "context": "Name of the settings group that says which devices wake the wall panels with an alert (smoke, water, the doorbell). A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Alerts\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.alertsAbout": {
+    "en": "Which devices wake your wall panels with an alert, and when.",
+    "context": "Line under the heading of the Alerts settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.assistants": {
     "en": "AI assistants",
-    "context": "Tab of the account page where AI assistants (such as Claude) are connected to build widgets.",
+    "context": "Name of the settings group where AI assistants (such as Claude) are connected to build widgets, and disconnected. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › AI assistants\".",
     "maxLength": 30,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
-  "account.screen.freePlan": {
-    "en": "Free plan",
-    "context": "Small line above the account page’s title when the person is on Free.",
+  "account.settings.back": {
+    "en": "Settings",
+    "context": "Link at the top of a settings group on a phone, with an arrow pointing left: it goes back to the list of groups of the Settings page.",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
-  "account.screen.linksTab": {
-    "en": "Links and screens",
-    "context": "Tab of the account page with every share link and paired screen. Other texts point to it as \"Account › Links and screens\"; use the same words as they do (nl \"Links en schermen\", de \"Links und Bildschirme\", es \"Enlaces y pantallas\", fr \"Liens et écrans\").",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
-  },
-  "account.screen.proPlan": {
-    "en": "Pro plan",
-    "context": "Small line above the account page’s title when the person is on Pro (the paid plan).",
+  "account.settings.calendars": {
+    "en": "Calendars",
+    "context": "Name of the settings group with the calendars (iCal links) the widgets can show. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Calendars\".",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
-  "account.screen.signedInAs": {
-    "en": "Signed in as {name}.",
-    "context": "Line under the account page’s title: who is logged in.",
-    "params": {
-      "name": "The person’s name, as their Homey account says it. Not translated."
-    },
+  "account.settings.calendarsAbout": {
+    "en": "Calendars your widgets can show.",
+    "context": "Line under the heading of the Calendars settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.description": {
+    "en": "You, your plan, and how Tiledash works for your home.",
+    "context": "Line under the Settings page’s title.",
     "maxLength": 80,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
-  "account.screen.tabsLabel": {
+  "account.settings.energy": {
+    "en": "Energy",
+    "context": "Name of the settings group with the energy prices, tariffs and the energy meters. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Energy\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.energyAbout": {
+    "en": "Where the prices come from, and the meters the energy widgets count, for {homey}.",
+    "context": "Line under the heading of the Energy settings group. The settings are per Homey (smart-home hub).",
+    "params": {
+      "homey": "The name of the Homey shown now. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.floorPlans": {
+    "en": "Floor plans",
+    "context": "Name of the settings group with the person’s floor plans: their home drawn room by room, for the floor plan tile. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Floor plans\"; use the same words as the floor plans’ own texts.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.floorPlansAbout": {
+    "en": "Your home drawn room by room, for the floor plan tile, and your own models.",
+    "context": "Line under the heading of the Floor plans settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.general": {
+    "en": "General",
+    "context": "Name of the settings group with the language and region (date and number style) and where the maps come from. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › General\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.generalAbout": {
+    "en": "How dates and numbers are written, and where the maps come from.",
+    "context": "Line under the heading of the General settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.houses": {
+    "en": "Houses",
+    "context": "Name of the settings group with the person’s own houses: pictures of their home with its places marked, for the Energy house tile. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Houses\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.housesAbout": {
+    "en": "Pictures of your home with its places marked, for the Energy house tile.",
+    "context": "Line under the heading of the Houses settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.keypads": {
+    "en": "Keypads",
+    "context": "Name of the settings group with the PINs that keypads on dashboards and wall panels ask for. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Keypads\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.links": {
+    "en": "Links and screens",
+    "context": "Name of the settings group with every share link and paired screen. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Links and screens\"; use the same words as they do (nl \"Links en schermen\", de \"Links und Bildschirme\", es \"Enlaces y pantallas\", fr \"Liens et écrans\").",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.linksAbout": {
+    "en": "Your share links and the screens paired to your account.",
+    "context": "Line under the heading of the Links and screens settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.maps": {
+    "en": "Maps",
+    "context": "Heading of the card that sets where the maps’ tiles (the map pictures) come from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.menuLabel": {
+    "en": "Settings",
+    "context": "Name of the list of settings groups on the Settings page, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.partAccount": {
     "en": "Account",
-    "context": "Name of the row of tabs on the account page, read out by screen readers.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "context": "Small heading in the Settings menu above the groups about the person: Profile, Plan and General (language, maps).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
-  "account.screen.whatsNewTab": {
+  "account.settings.partHome": {
+    "en": "Your home",
+    "context": "Small heading in the Settings menu above the groups about the home: energy, houses, floor plans, alerts, calendars, keypads, recordings.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.partSharing": {
+    "en": "Sharing",
+    "context": "Small heading in the Settings menu above the groups about what is shared: links and paired screens, and connected AI assistants.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.plan": {
+    "en": "Plan",
+    "context": "Name of the settings group with the person’s plan (Free or Pro), what they use of it, paying, and house picture credits. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Plan\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.profile": {
+    "en": "Profile",
+    "context": "Name of the settings group about the person: their name and e-mail, signing out, their Homeys and their data (backup, download, deleting the account). A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Profile\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.recordings": {
+    "en": "Recordings",
+    "context": "Name of the settings group that lists which device values Tiledash records the history of. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Recordings\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.recordingsAbout": {
+    "en": "The readings Tiledash keeps a history of.",
+    "context": "Line under the heading of the Recordings settings group.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.whatsNew": {
     "en": "What’s new",
-    "context": "Tab of the account page with the changelog: what changed in Tiledash lately.",
+    "context": "Name of the settings group with the version of Tiledash and what changed in each release, and the data sources. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › What’s new\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settingsPage.calendarCount": {
+    "en": "{count, plural, =0 {None yet} one {# calendar} other {# calendars}}",
+    "context": "Small line under \"Calendars\" in the Settings menu: how many calendars were added.",
+    "params": {
+      "count": "How many calendars the account has."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.energyLine": {
+    "en": "{source, select, homey {Prices from your Homey} dayAhead {Day-ahead prices} other {Fixed tariff}} · {meters, plural, =0 {no meters} one {# meter} other {# meters}}",
+    "context": "Small line under \"Energy\" in the Settings menu: where the electricity price comes from (the Homey, the day-ahead market, or a fixed tariff) and how many energy meters the widgets count.",
+    "params": {
+      "meters": "How many meters are counted.",
+      "source": "\"homey\", \"dayAhead\" or \"fixed\": where the price comes from."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.floorPlanCount": {
+    "en": "{plans, plural, =0 {No plans yet} one {# plan} other {# plans}}{models, plural, =0 {} one { · # own model} other { · # own models}}",
+    "context": "Small line under \"Floor plans\" in the Settings menu: how many floor plans there are, and how many of the person’s own 3D models (furniture).",
+    "params": {
+      "models": "How many own models.",
+      "plans": "How many floor plans."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.houseCount": {
+    "en": "{count, plural, =0 {No houses yet} one {# house} other {# houses}}",
+    "context": "Small line under \"Houses\" in the Settings menu: how many own houses (pictures of the person’s home) there are for the Energy house tile.",
+    "params": {
+      "count": "How many houses the person has."
+    },
     "maxLength": 30,
-    "file": "packages/ui/src/screens/account/AccountScreen.messages.ts"
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.mapsFrom": {
+    "en": "Maps from {provider}",
+    "context": "Small line under \"General\" in the Settings menu: where the maps’ tiles (the map pictures) come from.",
+    "params": {
+      "provider": "The name of the map service, such as \"OpenFreeMap\" or \"MapTiler\" (not translated), or the words for the person’s own server."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.noAssistants": {
+    "en": "None connected",
+    "context": "Small line under \"AI assistants\" in the Settings menu while no AI assistant (such as Claude) is connected. Otherwise the line lists the connected apps’ names.",
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.noPin": {
+    "en": "No PIN yet",
+    "context": "Small line under \"Keypads\" in the Settings menu while the account has no PIN.",
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.ownServer": {
+    "en": "your own server",
+    "context": "Fills \"Maps from …\" in the Settings menu when the maps come from a map server the person set up themselves.",
+    "maxLength": 24,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.pinSet": {
+    "en": "PIN set",
+    "context": "Small line under \"Keypads\" in the Settings menu when the account has a PIN.",
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.planEnds": {
+    "en": "Pro until {date}",
+    "context": "Small line under \"Plan\" in the Settings menu on Pro that was cancelled, or whose payment failed: when it stops.",
+    "params": {
+      "date": "When Pro stops, such as \"12 Nov\". Already in the page’s language."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.planFree": {
+    "en": "Free · {used} of {max, plural, one {# dashboard} other {# dashboards}}",
+    "context": "Small line under \"Plan\" in the Settings menu on the free plan: how many of the dashboards Free allows are used.",
+    "params": {
+      "max": "How many Free allows.",
+      "used": "How many dashboards there are."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.planPro": {
+    "en": "Pro",
+    "context": "Small line under \"Plan\" in the Settings menu on Pro without a renewal (given by Tiledash). The plan’s name; keep it in English like elsewhere.",
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.planRenews": {
+    "en": "Pro · renews {date}",
+    "context": "Small line under \"Plan\" in the Settings menu on Pro that renews by itself.",
+    "params": {
+      "date": "When it renews, such as \"12 Nov\". Already in the page’s language."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.readingCount": {
+    "en": "{count, plural, =0 {Nothing recorded} one {# reading} other {# readings}}",
+    "context": "Small line under \"Recordings\" in the Settings menu: how many device readings Tiledash records the history of.",
+    "params": {
+      "count": "How many readings are recorded on the Homey shown."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.screensWake": {
+    "en": "{count, plural, =0 {No screens wake} one {# screen wakes} other {# screens wake}}",
+    "context": "Small line under \"Alerts\" in the Settings menu: how many wall panels (screens) wake up for an alert.",
+    "params": {
+      "count": "How many wall panels wake for alerts."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.sharingCount": {
+    "en": "{links, plural, =0 {No links} one {# link} other {# links}} · {screens, plural, =0 {no screens} one {# screen} other {# screens}}",
+    "context": "Small line under \"Links and screens\" in the Settings menu: how many share links and how many paired screens there are.",
+    "params": {
+      "links": "How many share links.",
+      "screens": "How many paired screens."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.whatsNewNew": {
+    "en": "New: {version}",
+    "context": "Small line under \"What’s new\" in the Settings menu while there is a release the person has not seen: its version.",
+    "params": {
+      "version": "The version, such as \"v26.5.0\". Not translated."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
   },
   "account.shareDialog.all": {
     "en": "All links and screens",
@@ -4733,6 +5265,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
   },
+  "account.whatsNew.dataSources": {
+    "en": "Data sources",
+    "context": "Heading of the card at the foot of the What’s new page that credits the data Tiledash shows from others (weather, places, maps).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
   "account.whatsNew.emptyBody": {
     "en": "From the next version on, every change shows up here, newest first.",
     "context": "Line under \"The first release notes are on their way\".",
@@ -4765,13 +5303,13 @@
   },
   "account.whatsNew.onNewest": {
     "en": "You’re on the newest Tiledash",
-    "context": "Title of the What’s new tab when the version number isn’t known.",
+    "context": "Title of the first card of the What’s new page when the version number isn’t known.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
   },
   "account.whatsNew.onVersion": {
     "en": "You’re on Tiledash <version>{version}</version>",
-    "context": "Title of the What’s new tab: the version of Tiledash the person uses, such as \"You’re on Tiledash v26.4.0\". The version is shown in its own style.",
+    "context": "Title of the first card of the What’s new page: the version of Tiledash the person uses, such as \"You’re on Tiledash v26.4.0\". The version is shown in its own style.",
     "params": {
       "version": "The version, such as \"v26.4.0\". Not translated."
     },
@@ -4785,6 +5323,12 @@
       "date": "A date, such as \"12 October 2026\"."
     },
     "maxLength": 40,
+    "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.whatsNew.title": {
+    "en": "What’s new",
+    "context": "Title of the page with the changelog: what changed in Tiledash lately.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
   }
 }

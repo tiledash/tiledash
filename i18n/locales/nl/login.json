@@ -1,4 +1,40 @@
 {
+  "login.connectApp.adminOnlyBody": {
+    "text": "{client} vroeg om beheerderstoegang tot Tiledash. Je account is geen beheerder, dus er is niets gedeeld. Verwachtte je dit niet, dan kun je dit tabblad sluiten.",
+    "source": "6df862a10a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminOnlyTitle": {
+    "text": "Alleen beheerders van Tiledash kunnen dit toestaan.",
+    "source": "d6b2be7197",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminTitle": {
+    "text": "{client} beheerderstoegang geven?",
+    "source": "6e093ee6b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminWarning": {
+    "text": "Het ziet wat de beheerpagina’s tonen over <strong>elke gebruiker</strong>: hun Homeys, accounts en fouten. Elke vraag die het stelt komt in het auditlog, onder jouw naam en die van deze app. De toegang stopt na <strong>7 dagen</strong>, of meteen als je geen beheerder meer bent.",
+    "source": "11ada2e365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.allowAdmin": {
+    "text": "Beheerderstoegang toestaan",
+    "source": "76889b6481",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.backTo": {
+    "text": "Terug naar {client}",
+    "source": "399ad90018",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.connectedTitle": {
     "text": "{client} is gekoppeld.",
     "source": "b3c17ed0c5",
@@ -6,8 +42,8 @@
     "reviewed": false
   },
   "login.connectApp.disconnect": {
-    "text": "Ontkoppel het wanneer je wilt via <link>Account → AI-assistenten</link>.",
-    "source": "a39f1cc7c3",
+    "text": "Ontkoppel het wanneer je wilt via <link>Instellingen → AI-assistenten</link>.",
+    "source": "5c73c59679",
     "by": "ai",
     "reviewed": false
   },
@@ -26,6 +62,24 @@
   "login.connectApp.freeNote": {
     "text": "Widgets bouwen kan met Pro. Je kunt nu al koppelen; de tools werken zodra je Pro hebt.",
     "source": "cd85c08753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginBody": {
+    "text": "<strong>{client}</strong> vraagt om beheerderstoegang. Daarvoor moet je in de laatste 15 minuten met Homey zijn ingelogd; daarna kom je meteen hier terug om te beslissen.",
+    "source": "3866ee374a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginTitle": {
+    "text": "Bevestig dat jij het bent",
+    "source": "da81bd0f19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introAdmin": {
+    "text": "<strong>{client}</strong> wil met jouw rechten de productiediagnostiek van Tiledash lezen.",
+    "source": "7362f45fb1",
     "by": "ai",
     "reviewed": false
   },
@@ -53,6 +107,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.connectApp.logInAgain": {
+    "text": "Inloggen met Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.notConnectedTitle": {
     "text": "Niet gekoppeld.",
     "source": "3b3d279616",
@@ -68,6 +128,48 @@
   "login.connectApp.title": {
     "text": "{client} koppelen aan Tiledash?",
     "source": "088001eecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow0": {
+    "text": "Zien hoe de connector en elke Homey ervoor staan: hun status, wanneer ze het laatst gezien zijn en hun fouten",
+    "source": "27f3b8aa5f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow1": {
+    "text": "Gebruikers opzoeken op naam, e-mail of Athom-id, en lezen wat hun beheerpagina toont",
+    "source": "5a1ba0de05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow2": {
+    "text": "Lezen wat volgens het beheeroverzicht aandacht nodig heeft",
+    "source": "499c3bdc70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny0": {
+    "text": "Iets wijzigen: plannen, accounts, Homeys of instellingen",
+    "source": "486a86b19f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny1": {
+    "text": "Apparaatnamen of meetwaarden, dashboards, geschiedenis of betaalgegevens lezen",
+    "source": "79c79bbd54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny2": {
+    "text": "Wachtwoorden, tokens of Homey-inloggegevens zien",
+    "source": "5b0fa39112",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny3": {
+    "text": "Blijven werken als je geen beheerder meer bent",
+    "source": "132eec5a7f",
     "by": "ai",
     "reviewed": false
   },
@@ -318,13 +420,13 @@
     "reviewed": false
   },
   "login.deviceSignIn.signOut": {
-    "text": "Meld het af wanneer je wilt via <link>Account → AI-assistenten</link>, of met <cmd>tiledash auth logout</cmd>.",
-    "source": "e2fc8912d7",
+    "text": "Meld het af wanneer je wilt via <link>Instellingen → AI-assistenten</link>, of met <cmd>tiledash auth logout</cmd>.",
+    "source": "7b9f3357b9",
     "by": "ai",
     "reviewed": false
   },
   "login.kept.connectWhat": {
-    "text": "De naam en het model, en een kopie van de kamers, apparaten, flows en sferen: hun namen, wat elk apparaat kan en de waarden op dat moment. De kopie wordt bijgewerkt als je apparaten toevoegt, wijzigt of verwijdert; een verwijderd apparaat wordt 30 dagen later gewist, tenzij een tegel of opname het nog gebruikt.",
+    "text": "De naam en het model, en een kopie van de kamers, apparaten, flows en sferen: hun namen, wat elk apparaat kan en de waarden op dat moment. De kopie wordt bijgewerkt als je apparaten toevoegt, wijzigt of verwijdert; een verwijderd apparaat wordt 30 dagen later gewist, tenzij een tegel of vastgelegde meetwaarde het nog gebruikt.",
     "source": "ca8f5e30a2",
     "by": "ai",
     "reviewed": false
@@ -588,8 +690,8 @@
     "reviewed": false
   },
   "login.permissions.keptFooter": {
-    "text": "Onder Account › Account kun je alles downloaden of je account verwijderen: Tiledash wist het zeven dagen later.",
-    "source": "6cfea386ff",
+    "text": "Onder Instellingen › Profiel kun je alles downloaden of je account verwijderen: Tiledash wist het zeven dagen later.",
+    "source": "a5c8e5545b",
     "by": "ai",
     "reviewed": false
   },

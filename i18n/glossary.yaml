@@ -59,6 +59,12 @@ terms:
     de: { preferred: Kachel, avoid: Fliese }
     es: { preferred: mosaico, avoid: azulejo }
     fr: { preferred: tuile }
+  - term: credit
+    meaning: What generating a house picture in Tiledash costs (35.9), one each, bought in packs.
+    nl: { preferred: credit }
+    de: { preferred: Credit }
+    es: { preferred: crédito }
+    fr: { preferred: crédit }
   - term: widget
     meaning: A custom or built-in piece of content (a clock, a graph, a button) shown in a tile.
     nl: { preferred: widget }
@@ -210,6 +216,10 @@ terms:
         account.aiAssistants.lead,
         login.consent.widgetsAllow4,
         code.previewLink.fineModel,
+        # Settings › Floor plans (40): its name, its line and what its menu item says.
+        account.settings.floorPlans,
+        account.settings.floorPlansAbout,
+        account.settingsPage.floorPlanCount,
       ]
     nl: { preferred: plan, notes: '"abonnement" only where the English says subscription.' }
     de: { preferred: Tarif }
@@ -228,7 +238,7 @@ terms:
     es: { preferred: cuenta }
     fr: { preferred: compte }
   - term: AI assistant
-    meaning: An AI app (Claude, ChatGPT…) connected to Tiledash to build widgets; also the page Account → AI assistants.
+    meaning: An AI app (Claude, ChatGPT…) connected to Tiledash to build widgets; also the group Settings → AI assistants.
     nl: { preferred: AI-assistent }
     de: { preferred: KI-Assistent }
     es: { preferred: asistente de IA }
@@ -282,3 +292,38 @@ terms:
     de: { preferred: Seitenleiste }
     es: { preferred: barra lateral }
     fr: { preferred: barre latérale }
+  # Added 2026-10-23 with the Settings page (phase 36; approved by the user).
+  - term: Settings
+    meaning: The Settings page, opened from the account menu, and the paths to its groups ("Settings › Alerts"). Not a tile's or panel's settings.
+    # Other apps' Settings menus, and a tile's or widget's settings.
+    except:
+      [
+        account.calendars.whereGoogle,
+        account.calendars.whereOutlook,
+        community.*,
+        shell.aiSetup.*,
+        viewer.deviceTracking.loadFailed,
+      ]
+    nl: { preferred: Instellingen }
+    de: { preferred: Einstellungen }
+    es: { preferred: Ajustes }
+    fr: { preferred: Réglages }
+  - term: keypad
+    meaning: A number pad on a dashboard, wall panel or share link that asks for a PIN before it unlocks, disarms or opens something.
+    nl: { preferred: toetsenpaneel }
+    de: { preferred: Tastenfeld }
+    es: { preferred: teclado }
+    fr: { preferred: clavier }
+  - term: recordings
+    meaning: The place (Settings › Recordings, and the button that opens it) that lists every recorded reading.
+    # Running text about recorded readings, not the place.
+    except:
+      [
+        account.importDialog.ready,
+        account.recordings.fullBody,
+        devices.meterChange.stopOldHint,
+        devices.meterEffects.stopsDetail,
+      ]
+    nl:
+      preferred: Vastgelegd
+      notes: The place's name; in running text "vastgelegde meetwaarden". Never "opnames" (the user, 2026-10-23).

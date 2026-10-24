@@ -1,4 +1,40 @@
 {
+  "login.connectApp.adminOnlyBody": {
+    "text": "{client} hat Admin-Zugriff auf Tiledash angefragt. Ihr Konto ist kein Admin-Konto, daher wurde nichts geteilt. Falls Sie das nicht erwartet haben, können Sie diesen Tab schließen.",
+    "source": "6df862a10a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminOnlyTitle": {
+    "text": "Nur die Admins von Tiledash können das erlauben.",
+    "source": "d6b2be7197",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminTitle": {
+    "text": "{client} Admin-Zugriff geben?",
+    "source": "6e093ee6b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminWarning": {
+    "text": "Es sieht, was die Admin-Seiten über <strong>alle Nutzer</strong> zeigen: ihre Homeys, Konten und Fehler. Jede Abfrage wird unter Ihrem Namen und dem dieser App im Audit-Log festgehalten. Der Zugriff endet nach <strong>7 Tagen</strong> oder sofort, wenn Sie kein Admin mehr sind.",
+    "source": "11ada2e365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.allowAdmin": {
+    "text": "Admin-Zugriff erlauben",
+    "source": "76889b6481",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.backTo": {
+    "text": "Zurück zu {client}",
+    "source": "399ad90018",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.connectedTitle": {
     "text": "{client} ist verbunden.",
     "source": "b3c17ed0c5",
@@ -6,8 +42,8 @@
     "reviewed": false
   },
   "login.connectApp.disconnect": {
-    "text": "Trennen Sie die Verbindung jederzeit unter <link>Konto → KI-Assistenten</link>.",
-    "source": "a39f1cc7c3",
+    "text": "Trennen Sie die Verbindung jederzeit unter <link>Einstellungen → KI-Assistenten</link>.",
+    "source": "5c73c59679",
     "by": "ai",
     "reviewed": false
   },
@@ -26,6 +62,24 @@
   "login.connectApp.freeNote": {
     "text": "Widgets erstellen erfordert Pro. Sie können jetzt verbinden; die Tools funktionieren, sobald Sie Pro haben.",
     "source": "cd85c08753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginBody": {
+    "text": "<strong>{client}</strong> fragt nach Admin-Zugriff. Dafür ist eine Anmeldung mit Homey in den letzten 15 Minuten nötig; danach kommen Sie direkt hierher zurück.",
+    "source": "3866ee374a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginTitle": {
+    "text": "Bestätigen Sie, dass Sie es sind",
+    "source": "da81bd0f19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introAdmin": {
+    "text": "<strong>{client}</strong> möchte mit Ihren Rechten die Diagnosedaten des Live-Betriebs von Tiledash lesen.",
+    "source": "7362f45fb1",
     "by": "ai",
     "reviewed": false
   },
@@ -53,6 +107,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.connectApp.logInAgain": {
+    "text": "Mit Homey anmelden",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.notConnectedTitle": {
     "text": "Nicht verbunden.",
     "source": "3b3d279616",
@@ -68,6 +128,48 @@
   "login.connectApp.title": {
     "text": "{client} mit Tiledash verbinden?",
     "source": "088001eecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow0": {
+    "text": "Sehen, wie es dem Konnektor und jedem Homey geht: Status, zuletzt gesehen und Fehler",
+    "source": "27f3b8aa5f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow1": {
+    "text": "Nutzer nach Name, E-Mail oder Athom-ID suchen und lesen, was ihre Admin-Seite zeigt",
+    "source": "5a1ba0de05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow2": {
+    "text": "In der Admin-Übersicht lesen, was Aufmerksamkeit braucht",
+    "source": "499c3bdc70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny0": {
+    "text": "Etwas ändern: Tarife, Konten, Homeys oder Einstellungen",
+    "source": "486a86b19f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny1": {
+    "text": "Gerätenamen oder Messwerte, Dashboards, Verlauf oder Zahlungsdaten lesen",
+    "source": "79c79bbd54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny2": {
+    "text": "Passwörter, Tokens oder Homey-Zugangsdaten sehen",
+    "source": "5b0fa39112",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny3": {
+    "text": "Weiterarbeiten, sobald Sie kein Admin mehr sind",
+    "source": "132eec5a7f",
     "by": "ai",
     "reviewed": false
   },
@@ -318,8 +420,8 @@
     "reviewed": false
   },
   "login.deviceSignIn.signOut": {
-    "text": "Melden Sie sie jederzeit unter <link>Konto → KI-Assistenten</link> ab oder mit <cmd>tiledash auth logout</cmd>.",
-    "source": "e2fc8912d7",
+    "text": "Melden Sie sie jederzeit unter <link>Einstellungen → KI-Assistenten</link> ab oder mit <cmd>tiledash auth logout</cmd>.",
+    "source": "7b9f3357b9",
     "by": "ai",
     "reviewed": false
   },
@@ -588,8 +690,8 @@
     "reviewed": false
   },
   "login.permissions.keptFooter": {
-    "text": "Unter Konto › Konto können Sie alles herunterladen oder Ihr Konto löschen: Tiledash entfernt es sieben Tage später.",
-    "source": "6cfea386ff",
+    "text": "Unter Einstellungen › Profil können Sie alles herunterladen oder Ihr Konto löschen: Tiledash entfernt es sieben Tage später.",
+    "source": "a5c8e5545b",
     "by": "ai",
     "reviewed": false
   },

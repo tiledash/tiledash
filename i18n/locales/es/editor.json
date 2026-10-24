@@ -2225,6 +2225,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.energySettings.followPart": {
+    "text": "Seguir mis contadores",
+    "source": "ac2b79be85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.energySettings.fromMeters": {
     "text": "De tus contadores",
     "source": "5b518f3ec7",
@@ -3167,6 +3173,1248 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.houseGeneration.acceptAll": {
+    "text": "Aceptar todos",
+    "source": "f55ee86234",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.another": {
+    "text": "Crear otra · 1 crédito",
+    "source": "413e2b4887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.ask": {
+    "text": "¿Qué te parece?",
+    "source": "003930b9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.credits": {
+    "text": "{count, plural, one {# crédito} other {# créditos}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.deleteTry": {
+    "text": "Eliminar este intento",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.dialogTitle": {
+    "text": "Crea la imagen de este lado",
+    "source": "3486a7b082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.error": {
+    "text": "{error, select, busy {Ya se está creando una imagen.} limit {Ya hay bastantes imágenes por hoy; vuelve a intentarlo mañana.} off {Aquí no se pueden crear imágenes.} photo {No se pudo leer esa foto. Prueba con otra (PNG, JPEG o WebP).} other {No se pudo iniciar la imagen.}}",
+    "source": "b8810ebc81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failed": {
+    "text": "No funcionó",
+    "source": "ddf710fe81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failedText": {
+    "text": "{status, select, refused {El modelo de imagen no quiso crearla con esta foto o este prompt. Recuperas tu crédito.} other {Algo falló al crearla. Recuperas tu crédito.}}",
+    "source": "2949a0112d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failedTitle": {
+    "text": "Esa imagen no funcionó",
+    "source": "2923c39e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.givenBack": {
+    "text": "Tiledash te devolvió el crédito: {reason}",
+    "source": "13905f70c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.glad": {
+    "text": "Nos alegra que te guste",
+    "source": "646ae9c74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.good": {
+    "text": "Me gusta",
+    "source": "c939327ca1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.inUse": {
+    "text": "En uso",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.making": {
+    "text": "Creando tu imagen…",
+    "source": "8e8d970325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.makingHint": {
+    "text": "Unos treinta segundos. Puedes salir de esta página: sigue en marcha.",
+    "source": "48bd4fb401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.notGood": {
+    "text": "No me gusta",
+    "source": "f27bb0d1b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.note": {
+    "text": "¿Algo más? (opcional)",
+    "source": "45ff50f562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.pending": {
+    "text": "Creando…",
+    "source": "398c8381c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.proposedText": {
+    "text": "Revisa cada uno: arrástralo a su sitio o quítalo.",
+    "source": "65c18aca13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.proposedTitle": {
+    "text": "Tus lugares ya están colocados",
+    "source": "688f2af90b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.reason": {
+    "text": "{reason, select, not-my-house {No parece mi casa} parts {Faltan partes o están mal} strange {Detalles raros} style {No es el estilo elegido} other {Cortada o mal encuadrada}}",
+    "source": "ff63216016",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.send": {
+    "text": "Enviar",
+    "source": "f6f4688ff2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.thanks": {
+    "text": "Gracias. Revisamos cada «no me gusta»; si la imagen falló por nuestra culpa, te devolvemos el crédito.",
+    "source": "4d9b730af0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.triesHint": {
+    "text": "Cada intento se queda aquí. Usar otro conserva tus lugares; revisa que sigan encajando.",
+    "source": "637857f418",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.triesTitle": {
+    "text": "Intentos de este lado",
+    "source": "dcb30f4c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.useTry": {
+    "text": "Usar este intento",
+    "source": "8aeca13532",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.way": {
+    "text": "Créala en Tiledash",
+    "source": "b1af7331ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.wayCost": {
+    "text": "1 crédito · tienes {count}",
+    "source": "5c0514d1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.wayHint": {
+    "text": "A partir de una foto de tu casa o de unas respuestas sobre ella, en el estilo que elijas. Sus lugares vienen colocados.",
+    "source": "aec94b27df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.whatWrong": {
+    "text": "¿Qué salió mal?",
+    "source": "3f5cd5dde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.writePrompt": {
+    "text": "Escribe un prompt para tu propio ChatGPT o Gemini",
+    "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.back": {
+    "text": "Atrás",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.balance": {
+    "text": "{count, plural, one {Tienes # crédito} other {Tienes # créditos}}",
+    "source": "3051c63f2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.buy": {
+    "text": "Comprar créditos",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.car": {
+    "text": "¿Qué coche?",
+    "source": "c114a5bce9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.carHint": {
+    "text": "Marca, modelo y color, en inglés: a white Skoda Enyaq…",
+    "source": "28e82b4233",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.consent": {
+    "text": "Tu foto se envía al proveedor de nuestro modelo de imagen para crear la imagen. Tiledash guarda tu foto 30 días, para poder revisar el resultado, y luego la elimina.",
+    "source": "7f2b5e1096",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.copied": {
+    "text": "Copiado",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.copy": {
+    "text": "Copiar prompt",
+    "source": "ffc64b8bb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.english": {
+    "text": "En inglés: los modelos de imagen rinden mejor",
+    "source": "5d8867970a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.facade": {
+    "text": "Las fachadas",
+    "source": "e74591c19c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.facadeHint": {
+    "text": "Su material y color, en inglés: red brick, white render…",
+    "source": "03f554a287",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.floors": {
+    "text": "Plantas",
+    "source": "f20080f987",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.generate": {
+    "text": "Generar · 1 crédito",
+    "source": "fb5d0a2016",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.generating": {
+    "text": "Creando tu imagen…",
+    "source": "8e8d970325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.known": {
+    "text": "Está en tu Homey",
+    "source": "61015efd36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.later": {
+    "text": "Adjunta también la imagen de otro lado, para que coincidan",
+    "source": "1c4fa34e9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makeHere": {
+    "text": "Deja que Tiledash la cree",
+    "source": "ee3815c8f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makeHereHint": {
+    "text": "{photo, select, yes {Con este prompt y tu foto. Sus lugares vienen colocados y, si un intento falla, recuperas tu crédito.} other {Con este prompt. Sus lugares vienen colocados y, si un intento falla, recuperas tu crédito.}}",
+    "source": "a1975b2676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.next": {
+    "text": "Siguiente",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.open": {
+    "text": "Escribe un prompt para tu propio ChatGPT o Gemini",
+    "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.other": {
+    "text": "Algo más",
+    "source": "28e4bfad14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.otherHint": {
+    "text": "Opcional. Una piscina, un cobertizo, un aerogenerador…",
+    "source": "fcb81577cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.ownChat": {
+    "text": "Créala en tu propio chat",
+    "source": "d3e436c22a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.ownChatHint": {
+    "text": "{photo, select, yes {Copia el prompt en ChatGPT o Gemini, adjunta tu foto y luego sube lo que cree.} other {Copia el prompt en ChatGPT o Gemini y luego sube lo que cree.}}",
+    "source": "4e01ab9d0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoChange": {
+    "text": "Cambiar",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoChoice": {
+    "text": "{photo, select, yes {Sí, adjuntaré una} other {No, la describiré}}",
+    "source": "9522e7624b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoHint": {
+    "text": "Con una foto, la imagen se parece a tu casa; sin ella, a una casa de su tipo.",
+    "source": "d3284d4105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoNeeded": {
+    "text": "Primero elige tu foto, o responde «No».",
+    "source": "a8cb16167e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoPick": {
+    "text": "Elegir tu foto",
+    "source": "6e4c776c3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoTitle": {
+    "text": "¿Vas a adjuntar una foto de tu casa?",
+    "source": "fced991c21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.prompt": {
+    "text": "El prompt",
+    "source": "b62c640b29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.readyTitle": {
+    "text": "Tu prompt está listo",
+    "source": "31587515e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roof": {
+    "text": "¿Qué lado del tejado tiene los paneles?",
+    "source": "3ddfe49b98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofChoice": {
+    "text": "{roof, select, pitched {A dos aguas} flat {Plano} hipped {A cuatro aguas} mansard {Mansarda} other {De granero}}",
+    "source": "05f7c71055",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofShape": {
+    "text": "Tejado",
+    "source": "c2f6a4d9ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofSide": {
+    "text": "{side, select, front {Delantero} back {Trasero} other {Ambos}}",
+    "source": "b237c40357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideChoice": {
+    "text": "{side, select, front {Frente} back {Trasera} other {Lado del jardín}}",
+    "source": "535c43a4b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideHint": {
+    "text": "Cada lado de tu casa es una imagen propia: el frente, el lado del jardín…",
+    "source": "25e8590f3b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideTitle": {
+    "text": "¿Qué lado es este?",
+    "source": "8979236069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.step": {
+    "text": "{step, select, things {En tu hogar} house {Tu casa} side {Qué lado} style {Estilo} other {Tu prompt}}",
+    "source": "1b291ede6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.style": {
+    "text": "{style, select, soft-3d {3D suave de Tiledash} modern-dark {Moderno oscuro} clay {Miniatura de arcilla} flat {Ilustración plana} other {Dibujo de líneas}}",
+    "source": "66c83aca46",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleHint": {
+    "text": "{style, select, soft-3d {Luz suave y sombras delicadas, como la casa de Tiledash.} modern-dark {Render nocturno elegante sobre oscuro, con ventanas de luz cálida.} clay {Un diorama de arcilla hecho a mano sobre un pequeño pedestal.} flat {Formas planas y pocos colores: serena en un panel de pared.} other {Líneas negras sobre blanco: pensado para e-ink.}}",
+    "source": "2d7a30ae9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleTitle": {
+    "text": "Elige un estilo",
+    "source": "d98c7cf9a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thing": {
+    "text": "{thing, select, solar {Paneles solares} battery {Batería de casa} car {Coche eléctrico y cargador} heat-pump {Bomba de calor} garage {Garaje o cochera} garden {Jardín} other {Balcón}}",
+    "source": "288f883a6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thingsHint": {
+    "text": "Los marcados salen en la imagen, bien visibles, para que los valores puedan señalarlos.",
+    "source": "c00cb8ee07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thingsTitle": {
+    "text": "¿Qué hay en tu hogar?",
+    "source": "e4e4594a7a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.tips": {
+    "text": "Toda la casa en el encuadre, tejado incluido. Luz de día, sin sombras fuertes. Desde la calle, en una esquina, para que se vean dos lados. Nada delante: coches, contenedores, un árbol.",
+    "source": "13d689a4fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.tipsTitle": {
+    "text": "Para un buen resultado",
+    "source": "d40ec6ec8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.title": {
+    "text": "Escribe un prompt para tu propio chat",
+    "source": "aab71f7814",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.type": {
+    "text": "Tipo de casa",
+    "source": "4f5f896170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.typeChoice": {
+    "text": "{type, select, terraced {Adosada} semi-detached {Pareada} detached {Independiente} bungalow {Bungalow} other {Apartamento}}",
+    "source": "cc7827b399",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.upload": {
+    "text": "Subir el resultado",
+    "source": "858a009974",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.change": {
+    "text": "Cambiar lo que muestra {name}",
+    "source": "7240dfffb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.elsewhere": {
+    "text": "{count, plural, one {# más está en un lado que este mosaico omite.} other {# más están en lados que este mosaico omite.}}",
+    "source": "5793a4116d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.energyGroup": {
+    "text": "Energía",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.gone": {
+    "text": "La casa de este mosaico ya no existe. Elige otra.",
+    "source": "36c1541e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.makeOne": {
+    "text": "Crea tu casa en Ajustes › Casas",
+    "source": "7173cc153b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.manage": {
+    "text": "Gestiona tus casas en Ajustes › Casas",
+    "source": "0ba685a94f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigation": {
+    "text": "Cambiar de lado",
+    "source": "261135de2d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigationChoice": {
+    "text": "{choice, select, swipe {Deslizar} dots {Puntos} other {Pestañas}}",
+    "source": "f03811e287",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigationHint": {
+    "text": "{choice, select, swipe {Nada en el mosaico; desliza de lado para cambiar.} dots {Puntos bajo la casa. Toca uno o desliza.} other {Los nombres de los lados sobre la casa. Toca uno o desliza.}}",
+    "source": "6924d4cb40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.none": {
+    "text": "Aún no hay casas para este Homey: crea una a partir de una foto de tu hogar o empieza con una casa de Tiledash.",
+    "source": "9f98550036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.onHouse": {
+    "text": "En la casa",
+    "source": "bb9a8f40ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.onHouseHint": {
+    "text": "Lo que muestra esta casa, definido en la casa. Desactiva lo que este mosaico omite; lo que añadas después a la casa aparece solo.",
+    "source": "6ea2afcd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.part": {
+    "text": "{part, select, solar {Solar} grid {Red} home {Casa} battery {Batería} car {Coche} other {Totales de hoy}}",
+    "source": "01d411ec0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.partWhere": {
+    "text": "{part, select, solar {Paneles solares} grid {Conexión a la red} home {La casa} battery {Batería de casa} car {Coche} other {Bajo la casa}}",
+    "source": "07b2d356a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.paused": {
+    "text": "En pausa",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotate": {
+    "text": "Cambiar solo",
+    "source": "f5af5bc956",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotateChoice": {
+    "text": "{seconds, plural, =0 {Nunca} =60 {Cada minuto} other {Cada # segundos}}",
+    "source": "806e9f9429",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotateHint": {
+    "text": "Para un panel de pared que nadie toca. Espera 30 segundos tras un toque. En e-ink solo se ve el primer lado.",
+    "source": "c2441c2f6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sides": {
+    "text": "{count, plural, one {# lado} other {# lados}}",
+    "source": "eb5f0207c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sidesHint": {
+    "text": "Al principio, todos los lados de la casa, en este orden. Quita los que este mosaico omite; con uno, solo se ve ese lado.",
+    "source": "f9cbaf82c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sidesLabel": {
+    "text": "Lados",
+    "source": "1c3607d5f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.valuesGroup": {
+    "text": "Valores",
+    "source": "53b09e104f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addInstead": {
+    "text": "Sumarla, no restarla",
+    "source": "4d7dd9bbbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addReading": {
+    "text": "Añadirle una lectura",
+    "source": "5c6ba93adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addValue": {
+    "text": "Añadir un valor",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.decimals": {
+    "text": "Decimales",
+    "source": "7467291204",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.decimalsAuto": {
+    "text": "Auto",
+    "source": "0286249762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.hint": {
+    "text": "Abre un lugar para ver lo que muestra y colocarlo en la imagen. Todos los mosaicos con esta casa muestran lo mismo.",
+    "source": "13c91e3dc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.homeHint": {
+    "text": "Se calcula con tu red, solar, batería y coche, así que no necesita una lectura propia.",
+    "source": "55537ab940",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.homeTitle": {
+    "text": "Lo que consume la casa",
+    "source": "423d9dc5dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.label": {
+    "text": "Etiqueta",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.labelPlaceholder": {
+    "text": "Se muestra bajo el valor",
+    "source": "f1461ac248",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.moveDown": {
+    "text": "Bajar",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.moveUp": {
+    "text": "Subir",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.newValue": {
+    "text": "Valor nuevo",
+    "source": "7ca9b97db8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.noHomeyText": {
+    "text": "Sus lugares muestran lecturas de los dispositivos de ese Homey. Elígelo en la barra de arriba para darles valores.",
+    "source": "fd37d40c5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.noHomeyTitle": {
+    "text": "Elige el Homey de esta casa",
+    "source": "01d9043229",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.notPlaced": {
+    "text": "{elsewhere, select, yes {Se muestra en otro lado. ¿Colocarlo aquí también?} other {Aún no está en ningún lado: lo que muestra aparece cuando lo coloques.}}",
+    "source": "d6b5e056ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.otherHomeyText": {
+    "text": "Pasa a ese Homey para cambiar lo que muestran sus lugares.",
+    "source": "9d13eb1614",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.otherHomeyTitle": {
+    "text": "Esta casa es de otro Homey",
+    "source": "714a34af7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.partState": {
+    "text": "{state, select, off {No se muestra} meters {De tus contadores} other {Lecturas elegidas}}",
+    "source": "715a5560f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.placeIt": {
+    "text": "Colocar",
+    "source": "c4b48412d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.placedHere": {
+    "text": "En este lado: arrastra su marcador para moverlo.",
+    "source": "b110cbb7a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.preset": {
+    "text": "{preset, select, terraced {Casa adosada} semi-detached {Casa pareada} bungalow {Bungalow} flat {Apartamento con balcón} other {Casa independiente}}",
+    "source": "18116c8abe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.presetWay": {
+    "text": "Una casa de Tiledash",
+    "source": "cdf97e14be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.presetWayHint": {
+    "text": "Empieza con una de las nuestras; puedes hacer la tuya más tarde.",
+    "source": "5d785ce46b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.readings": {
+    "text": "{count, plural, one {Lectura} other {Lecturas, sumadas}}",
+    "source": "37430be2b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.removeReading": {
+    "text": "Quitar esta lectura",
+    "source": "547d6d542f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.removeValue": {
+    "text": "Quitar",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.summary": {
+    "text": "{count, plural, =0 {Aún nada} one {# valor} other {# valores}}",
+    "source": "3e3a780569",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.takeOffInstead": {
+    "text": "Restarla, no sumarla",
+    "source": "ece552dc0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.todayTitle": {
+    "text": "Totales de hoy",
+    "source": "1aaafdfab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.todayWhere": {
+    "text": "Bajo la casa",
+    "source": "b6aaac36a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.valueCount": {
+    "text": "{count} de {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.valuesHere": {
+    "text": "{part, select, yes {También aquí} other {Valores aquí}}",
+    "source": "311d1558df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.add": {
+    "text": "Añadir",
+    "source": "9fd728c66c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.addSide": {
+    "text": "Añadir un lado",
+    "source": "645525d684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.conflictText": {
+    "text": "Esta casa se guardó en otra ventana mientras la editabas.",
+    "source": "b39507f489",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.conflictTitle": {
+    "text": "Cambiada en otro sitio",
+    "source": "719c3d46cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.createFailed": {
+    "text": "No se pudo crear la casa.",
+    "source": "b0738e7ab5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.cropHint": {
+    "text": "Arrastra las esquinas alrededor de la casa y su parcela. Los valores van junto a este recuadro: deja fuera cielo y césped vacíos.",
+    "source": "774a64e1f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.cropTitle": {
+    "text": "Recortar a la casa",
+    "source": "2784a3226d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.dark": {
+    "text": "Imagen oscura",
+    "source": "deb1f1da86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.defaultName": {
+    "text": "Casa",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.delete": {
+    "text": "Eliminar",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteSide": {
+    "text": "Eliminar este lado",
+    "source": "3195c7ded9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteText": {
+    "text": "Sus imágenes siguen en tus imágenes. Los mosaicos que la muestran dirán que ya no existe hasta que elijas otra casa.",
+    "source": "976f3bf8ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteTitle": {
+    "text": "¿Eliminar «{name}»?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.description": {
+    "text": "Imágenes de tu casa con sus lugares marcados, para el mosaico Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.empty": {
+    "text": "Aún no hay casas. Crea una para poner tu propia casa en Energy house.",
+    "source": "5e7270234c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.full": {
+    "text": "Tu plan incluye {max, plural, one {# casa} other {# casas}}.",
+    "source": "3df8bcac3b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.getPicture": {
+    "text": "Elige una imagen para este lado",
+    "source": "c2312cb95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.homey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.houseName": {
+    "text": "Nombre de la casa",
+    "source": "4b11f8bc03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.keepMine": {
+    "text": "Conservar la mía",
+    "source": "0335c83325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.limit": {
+    "text": "{count} de {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.loadFailed": {
+    "text": "No se pudieron leer tus casas.",
+    "source": "af18b4b286",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.missing": {
+    "text": "Esta casa ya no existe.",
+    "source": "9d0d2722d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.modes": {
+    "text": "{mode, select, crop {Recortar} spots {Lugares} other {Vista previa}}",
+    "source": "888f669298",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.modesLabel": {
+    "text": "Qué quieres hacer",
+    "source": "0c48e2ed28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.moveEarlier": {
+    "text": "Mover a la izquierda",
+    "source": "6c94221edd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.moveLater": {
+    "text": "Mover a la derecha",
+    "source": "8d60decd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.newHouse": {
+    "text": "Nueva casa",
+    "source": "2fa4dfcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.noHomey": {
+    "text": "Ningún Homey",
+    "source": "a51b1462ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.open": {
+    "text": "Abrir",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.ownCount": {
+    "text": "Propios: {count} de {max}",
+    "source": "3ce32135ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.ownPlaceholder": {
+    "text": "Tu propio lugar: Ático, Piscina…",
+    "source": "5dae8452de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.paused": {
+    "text": "En pausa",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.pausedText": {
+    "text": "Tu plan incluye menos casas. No se muestra en ningún sitio y no se puede cambiar.",
+    "source": "c32231057f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.pausedTitle": {
+    "text": "Esta casa está en pausa",
+    "source": "95803506fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewHint": {
+    "text": "Tu casa con valores de ejemplo, como la muestra un mosaico ancho. Un valor sale en los lados donde está su lugar.",
+    "source": "2f85d6234e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewTheme": {
+    "text": "{theme, select, dark {Oscuro} light {Claro} other {E-ink}}",
+    "source": "5d67b6ed04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewTitle": {
+    "text": "Vista previa",
+    "source": "324b134f57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.removeOwn": {
+    "text": "Eliminar este lugar",
+    "source": "62b4e80319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.rename": {
+    "text": "Cambiar nombre",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.replace": {
+    "text": "Cambiar imagen",
+    "source": "00d4a157b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.reset": {
+    "text": "Restablecer",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sideMenu": {
+    "text": "Menú del lado",
+    "source": "47e9402b4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sideName": {
+    "text": "{n, select, 1 {Frente} 2 {Trasera} 3 {Lado del jardín} other {Lado {n}}}",
+    "source": "3c42a514b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sides": {
+    "text": "{count, plural, one {# lado} other {# lados}}",
+    "source": "eb5f0207c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sidesLabel": {
+    "text": "Lados",
+    "source": "1c3607d5f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotName": {
+    "text": "{spot, select, solar {Paneles solares} grid {Conexión a la red} home {La casa} battery {Batería de casa} car {Coche} charger {Cargador} meter {Cuadro de contadores} upstairs {Planta de arriba} heat-pump {Bomba de calor} garage {Garaje} other {Jardín}}",
+    "source": "f8e868c331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotState": {
+    "text": "{state, select, placed {Colocado} elsewhere {En {sides}} other {Sin colocar}}",
+    "source": "bb2568d580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotsHint": {
+    "text": "Toca un lugar y luego la imagen. Arrastra un marcador para moverlo.",
+    "source": "88c07cb633",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotsTitle": {
+    "text": "Lugares",
+    "source": "2bbe9b3560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.status": {
+    "text": "{status, select, saved {Guardado} saving {Guardando…} offline {Sin conexión: se guarda al volver} other {Aún sin guardar}}",
+    "source": "7b321fa7a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.takeOff": {
+    "text": "Quitarlo de este lado",
+    "source": "ebb1f8c2d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.takeTheirs": {
+    "text": "Ver los otros cambios",
+    "source": "c90a1e7ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.tapWhere": {
+    "text": "Toca donde está {spot}",
+    "source": "78aba3efe6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.title": {
+    "text": "Tus casas",
+    "source": "4897b9f023",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.tryAgain": {
+    "text": "Reintentar",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.upload": {
+    "text": "Subir una imagen",
+    "source": "80be5675bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadAnother": {
+    "text": "Elegir otra imagen",
+    "source": "dc67e28504",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadClose": {
+    "text": "Cerrar",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadFailed": {
+    "text": "No se pudo subir la imagen",
+    "source": "a71ec98011",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadHint": {
+    "text": "Una que hiciste tú. Tú colocas sus lugares.",
+    "source": "0ec86062c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadProblem": {
+    "text": "{problem, select, type {Tiledash admite imágenes PNG, JPEG y WebP, y este navegador no pudo convertir este archivo. Guárdalo como PNG o JPEG y vuelve a intentarlo.} unreadable {Este archivo no se pudo abrir como imagen. Puede estar dañado o en un formato que este navegador no lee, como HEIC. Guárdalo como PNG o JPEG y vuelve a intentarlo.} too-big {Una imagen puede ocupar {limit} MB como máximo, y esta los supera incluso reducida. Prueba con una imagen más pequeña.} too-large {Una imagen puede tener {limit} millones de píxeles como máximo. Prueba con una imagen más pequeña.} limit {Tu cuenta guarda {limit} imágenes como máximo y ya tiene esa cantidad. Elimina una que ya no uses y vuelve a intentarlo.} space {Tus imágenes ocupan todo el espacio de tu cuenta ({limit} MB en total). Elimina una que ya no uses y vuelve a intentarlo.} offline {No se pudo conectar con Tiledash. Comprueba tu conexión y vuelve a intentarlo.} other {Algo falló por nuestra parte al guardarla. Inténtalo de nuevo en un momento.}}",
+    "source": "16e4c46eec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSent": {
+    "text": "{done} de {total} MB",
+    "source": "1f66d6f6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSize": {
+    "text": "{size} MB",
+    "source": "55aa0a3318",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSmaller": {
+    "text": "{before} MB, ahora {after} MB",
+    "source": "5786ffbd17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadStep": {
+    "text": "{step, select, prepare {Prepararla} send {Subirla} other {Guardarla con tu casa}}",
+    "source": "d86bb98bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadTitle": {
+    "text": "Subiendo tu imagen",
+    "source": "5bdedf94b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploading": {
+    "text": "Subiendo…",
+    "source": "5ce44dd77d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.iconPicker.allIcons": {
     "text": "Todos los iconos",
     "source": "6e63358637",
@@ -3468,8 +4716,8 @@
     "reviewed": false
   },
   "editor.layoutBlocks.tooBig": {
-    "text": "Las imágenes pueden ocupar 2 MB como máximo.",
-    "source": "edfadf73e9",
+    "text": "Las imágenes pueden ocupar 10 MB como máximo.",
+    "source": "fe8d3a360b",
     "by": "ai",
     "reviewed": false
   },
@@ -3948,8 +5196,8 @@
     "reviewed": false
   },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG o WebP, hasta 2 MB. Se guardan en tu cuenta y solo se ven en tus propios dashboards.",
-    "source": "d7b9dc8b98",
+    "text": "PNG, JPEG o WebP, hasta 10 MB. Se guardan en tu cuenta y solo se ven en tus propios dashboards.",
+    "source": "71afba9cbb",
     "by": "ai",
     "reviewed": false
   },
@@ -4016,6 +5264,114 @@
   "editor.mapPinPicker.hint": {
     "text": "Toca el mapa para poner el marcador.",
     "source": "2618a9da4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.add": {
+    "text": "Añadir un modelo",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.change": {
+    "text": "Cambiar",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.community": {
+    "text": "De la comunidad",
+    "source": "fb4606a9b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.communityEmpty": {
+    "text": "Aquí aparecen los modelos que instales de la comunidad.",
+    "source": "ed1dd1d620",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.count": {
+    "text": "{count} de {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.done": {
+    "text": "Listo",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.front": {
+    "text": "Frente",
+    "source": "a617590202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.gone": {
+    "text": "No disponible",
+    "source": "67a926f700",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.how": {
+    "text": "Arrastra para girarlo como quieras, incluso boca abajo. Arrastra con Mayús o gira con dos dedos para inclinarlo; desplaza o pellizca para hacer zoom. Las flechas también lo giran.",
+    "source": "8c7ceb9333",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.isometric": {
+    "text": "Isométrica",
+    "source": "d7cde03d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.kit": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.mine": {
+    "text": "Mis modelos",
+    "source": "3720357307",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.noModel": {
+    "text": "Elige primero un modelo.",
+    "source": "51f54acffc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.nothing": {
+    "text": "Nada coincide con «{query}».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.pick": {
+    "text": "Elige un modelo",
+    "source": "f159730788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.reset": {
+    "text": "Restablecer",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.search": {
+    "text": "Buscar modelos",
+    "source": "1042193523",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.top": {
+    "text": "Arriba",
+    "source": "d5cdfcf7ff",
     "by": "ai",
     "reviewed": false
   },
@@ -6167,6 +7523,78 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.picture": {
+    "text": "Imagen",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureAddress": {
+    "text": "Dirección",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFill": {
+    "text": "Rellenar",
+    "source": "033955d469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFit": {
+    "text": "Ajuste",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFitLabel": {
+    "text": "Cómo se ajusta la imagen",
+    "source": "7827013d0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureHint": {
+    "text": "Pega la dirección web de una imagen para mostrarla detrás del contenido.",
+    "source": "4501797528",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureLoad": {
+    "text": "Cargar",
+    "source": "8a6bdb6b18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureMixed": {
+    "text": "Los mosaicos seleccionados tienen imágenes distintas. Una dirección nueva les da a todos la misma.",
+    "source": "53de087850",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureProblem": {
+    "text": "Eso no es una dirección web. Usa una que empiece por https://",
+    "source": "51b6c41ccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureStrengthLabel": {
+    "text": "Intensidad de la imagen",
+    "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWhole": {
+    "text": "Entera",
+    "source": "fd55056093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.removePicture": {
+    "text": "Quitar imagen",
+    "source": "1bc6f23b53",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.roundOuter": {
     "text": "Redondear solo las esquinas exteriores",
     "source": "17bbcd69cf",
@@ -6395,6 +7823,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.partPicture": {
+    "text": "Imagen",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresetViews.partShadow": {
     "text": "{shadow, select, soft {Sombra suave} lifted {Sombra elevada} other {Sombra de resplandor}}",
     "source": "f6f54291dd",
@@ -6452,6 +7886,12 @@
   "editor.stylePresetViews.wordPadding": {
     "text": "margen interior",
     "source": "b08c9e29be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePresetViews.wordPicture": {
+    "text": "imagen",
+    "source": "2cea274d0b",
     "by": "ai",
     "reviewed": false
   },
@@ -7158,8 +8598,8 @@
     "reviewed": false
   },
   "editor.tileMeters.followsBody": {
-    "text": "Las partes son los contadores de tus ajustes de energía, leídos como potencia. Si cambias una aquí, pasa a ser de este mosaico.",
-    "source": "55ff87eede",
+    "text": "Las partes son los contadores de Ajustes › Energía, leídos como potencia. Si cambias una aquí, pasa a ser de este mosaico.",
+    "source": "1b55d54411",
     "by": "ai",
     "reviewed": false
   },

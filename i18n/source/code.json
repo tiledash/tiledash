@@ -1825,6 +1825,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingKindPicker.messages.ts"
   },
+  "code.kindPicker.model": {
+    "en": "a piece of furniture or one of your 3D models",
+    "context": "What a model setting picks: a piece of the app’s furniture, or one of the person’s own (or installed) 3D models, shown on its own.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/widgets/settingKindPicker.messages.ts"
+  },
   "code.kindPicker.mood": {
     "en": "a mood to set, or several",
     "context": "What a mood setting picks (a Homey preset of device states).",
@@ -5770,8 +5776,8 @@
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },
   "code.settingViews.kind": {
-    "en": "{type, select, device {A device} capability {A capability} flow {A flow} mood {A mood} dashboard {A dashboard} zone {A zone} person {A person} calendars {Calendars} pins {PINs} floorplan {A floor plan} number {A number} percentage {A percentage} boolean {Yes/no} text {Text} choice {A choice} color {A colour} icon {An icon} size {A size} spot {A spot} other {Tiles}}",
-    "context": "A kind of setting, in the Add a setting menu and at the start of a setting’s summary line. A capability is a reading or control of a device; a flow a Homey automation; a mood a Homey preset of device states; a floor plan a drawing of the house seen from above; a spot one of nine places on a tile; Tiles are widgets placed inside this one.",
+    "en": "{type, select, device {A device} capability {A capability} flow {A flow} mood {A mood} dashboard {A dashboard} zone {A zone} person {A person} calendars {Calendars} pins {PINs} floorplan {A floor plan} house {A house} model {A model} modelCamera {A 3D view} number {A number} percentage {A percentage} boolean {Yes/no} text {Text} choice {A choice} color {A colour} icon {An icon} size {A size} spot {A spot} other {Tiles}}",
+    "context": "A kind of setting, in the Add a setting menu and at the start of a setting’s summary line. A capability is a reading or control of a device; a flow a Homey automation; a mood a Homey preset of device states; a floor plan a drawing of the house seen from above; a house a picture of the home, with places marked on it, for the Energy house; a model a piece of furniture or another object in 3D from the model library; a 3D view how that model is turned and zoomed; a spot one of nine places on a tile; Tiles are widgets placed inside this one.",
     "params": {
       "type": "The kind."
     },
@@ -5809,7 +5815,7 @@
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },
   "code.settingViews.newLabel": {
-    "en": "{type, select, device {Device} capability {Capability} flow {Flow} mood {Mood} dashboard {Dashboard} zone {Zone} person {Person} calendars {Calendars} pins {PINs} floorplan {Floor plan} number {Number} percentage {Percentage} boolean {Yes/no} text {Text} choice {Choice} color {Colour} icon {Icon} size {Size} spot {Spot} other {Tiles}}",
+    "en": "{type, select, device {Device} capability {Capability} flow {Flow} mood {Mood} dashboard {Dashboard} zone {Zone} person {Person} calendars {Calendars} pins {PINs} floorplan {Floor plan} house {House} model {Model} modelCamera {3D view} number {Number} percentage {Percentage} boolean {Yes/no} text {Text} choice {Choice} color {Colour} icon {Icon} size {Size} spot {Spot} other {Tiles}}",
     "context": "The label a new setting of a kind gets. The person can change it.",
     "params": {
       "type": "The kind."
@@ -5906,6 +5912,12 @@
   "code.settingViews.readsIcon": {
     "en": "an icon name",
     "context": "In the add menu: an icon setting. Lower case.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
+  },
+  "code.settingViews.readsModelCamera": {
+    "en": "a model turned any way in 3D",
+    "context": "In the add menu: a 3D view setting, how a model (a piece of furniture or a 3D object) is turned and zoomed, set by dragging it. Lower case.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },

@@ -912,8 +912,8 @@
     "reviewed": false
   },
   "account.calendars.pickNone": {
-    "text": "Aucun calendrier pour l’instant. Ajoutez-en un dans Compte › Calendriers.",
-    "source": "dbb064807c",
+    "text": "Aucun calendrier pour l’instant. Ajoutez-en un dans Réglages › Calendriers.",
+    "source": "d463ea7321",
     "by": "ai",
     "reviewed": false
   },
@@ -1122,8 +1122,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} floorPlans {{count, plural, one {# plan d’étage} other {# plans d’étage}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
-    "source": "fb051db92d",
+    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} floorPlans {{count, plural, one {# plan d’étage} other {# plans d’étage}}} houses {{count, plural, one {# maison} other {# maisons}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
+    "source": "f84821998a",
     "by": "ai",
     "reviewed": false
   },
@@ -1146,8 +1146,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Votre forfait permet {room} tableaux de bord ; vous en avez {have} et en avez choisi {adding}.} recordings {Votre forfait permet {room} enregistrements ; vous en avez {have} et en avez choisi {adding}.} themes {Votre forfait permet {room} thèmes personnels ; vous en avez {have} et en avez choisi {adding}.} widgets {Votre forfait permet {room} widgets personnels ; vous en avez {have} et en avez choisi {adding}.} floorPlans {Votre forfait permet {room} plans d’étage ; vous en avez {have} et en avez choisi {adding}.} other {Votre forfait permet {room} images ; vous en avez {have} et en avez choisi {adding}.}}",
-    "source": "934ae6bc1f",
+    "text": "{key, select, dashboards {Votre forfait permet {room} tableaux de bord ; vous en avez {have} et en avez choisi {adding}.} recordings {Votre forfait permet {room} enregistrements ; vous en avez {have} et en avez choisi {adding}.} themes {Votre forfait permet {room} thèmes personnels ; vous en avez {have} et en avez choisi {adding}.} widgets {Votre forfait permet {room} widgets personnels ; vous en avez {have} et en avez choisi {adding}.} floorPlans {Votre forfait permet {room} plans d’étage ; vous en avez {have} et en avez choisi {adding}.} houses {Votre forfait permet {room} maisons ; vous en avez {have} et en avez choisi {adding}.} other {Votre forfait permet {room} images ; vous en avez {have} et en avez choisi {adding}.}}",
+    "source": "b5e6229b4d",
     "by": "ai",
     "reviewed": false
   },
@@ -1182,8 +1182,8 @@
     "reviewed": false
   },
   "account.configImport.notConfigDetail": {
-    "text": "Choisissez un fichier issu de Télécharger une sauvegarde (Compte → Sauvegarder votre configuration). Télécharger vos données donne un autre zip, non restaurable.",
-    "source": "b8473c9fbc",
+    "text": "Choisissez un fichier issu de Télécharger une sauvegarde (Réglages › Profil). Télécharger vos données donne un autre zip, non restaurable.",
+    "source": "636fdf09f6",
     "by": "ai",
     "reviewed": false
   },
@@ -1271,6 +1271,78 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.creditActions.added": {
+    "text": "{count, plural, one {# crédit ajouté} many {# crédits ajoutés} other {# crédits ajoutés}}",
+    "source": "da0ab87927",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.addedBody": {
+    "text": "Vous avez maintenant {balance, plural, one {# crédit} many {# crédits} other {# crédits}}.",
+    "source": "80d748cd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailed": {
+    "text": "Vos crédits n’ont pas encore pu être ajoutés",
+    "source": "d54425dbcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailedBody": {
+    "text": "Si PayPal a pris le paiement, les crédits apparaîtront ici dès qu’il le confirmera.",
+    "source": "9a24a328fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.checkConnection": {
+    "text": "Vérifiez votre connexion et réessayez.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declined": {
+    "text": "La carte a été refusée",
+    "source": "0a61ee2907",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declinedBody": {
+    "text": "Rien n’a été débité. Choisissez une autre carte ou payez avec PayPal.",
+    "source": "a9506c3b9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaid": {
+    "text": "PayPal n’a pas finalisé le paiement",
+    "source": "d06ad5d792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaidBody": {
+    "text": "Aucun crédit n’a été ajouté, et rien ne vous a été facturé. Réessayez, ou payez autrement dans PayPal.",
+    "source": "7a2c91de3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.startFailed": {
+    "text": "Impossible de démarrer votre achat",
+    "source": "c69deddbef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.tryLater": {
+    "text": "Réessayez dans un instant.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.unavailable": {
+    "text": "L’achat de crédits n’est pas disponible ici.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.credits.copyright": {
     "text": "Droits d’auteur OpenStreetMap",
     "source": "e5ee1cf66a",
@@ -1284,8 +1356,8 @@
     "reviewed": false
   },
   "account.credits.mapsText": {
-    "text": "Données de carte © les contributeurs d’OpenStreetMap. Les tuiles viennent d’OpenFreeMap avec OpenMapTiles, sauf si vous avez choisi un autre fournisseur plus haut.",
-    "source": "a567b7d4df",
+    "text": "Données de carte © les contributeurs d’OpenStreetMap. Les tuiles viennent d’OpenFreeMap avec OpenMapTiles, sauf si vous en avez choisi d’autres dans Réglages › Général.",
+    "source": "6d5ce59af6",
     "by": "ai",
     "reviewed": false
   },
@@ -1511,6 +1583,168 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.houseCredits.balance": {
+    "text": "{count, plural, one {# crédit} many {# crédits} other {# crédits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buy": {
+    "text": "Acheter des crédits",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyBody": {
+    "text": "Un crédit crée une image d’un côté, avec ses repères placés. Un essai raté vous rend son crédit. Les crédits n’expirent pas.",
+    "source": "fef9723d66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyTitle": {
+    "text": "Acheter des crédits",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBack": {
+    "text": "Rendu par Tiledash",
+    "source": "1ae55b590e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBackWhy": {
+    "text": "Rendu par Tiledash : {reason}",
+    "source": "fe79e8a8d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.granted": {
+    "text": "Offert par Tiledash",
+    "source": "c605f72207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.grantedWhy": {
+    "text": "Offert par Tiledash : {reason}",
+    "source": "da22bb09af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.historyLabel": {
+    "text": "Historique des crédits",
+    "source": "a38ff6ae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.intro": {
+    "text": "Pour créer des images de vos maisons.",
+    "source": "297fe51c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.noHistory": {
+    "text": "Aucun crédit acheté pour l’instant. Ils apparaîtront ici.",
+    "source": "31d92d6bff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.notNow": {
+    "text": "Pas maintenant",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.outTitle": {
+    "text": "Vous n’avez plus de crédits",
+    "source": "e4abf11f7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack10": {
+    "text": "Une maison, avant et arrière, avec quelques essais",
+    "source": "d11453eb55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack25": {
+    "text": "Quelques maisons, ou tous les styles",
+    "source": "5117f189da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packCredits": {
+    "text": "{count, plural, one {# crédit} many {# crédits} other {# crédits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packsLabel": {
+    "text": "Pack",
+    "source": "80dc21673e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.purchase": {
+    "text": "Achat de {count, plural, one {# crédit} many {# crédits} other {# crédits}} · PayPal",
+    "source": "08da9e8989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.refund": {
+    "text": "Repris après remboursement",
+    "source": "9f328e652e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.returned": {
+    "text": "Création impossible : crédit rendu",
+    "source": "a00edc6076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spend": {
+    "text": "Image de maison créée",
+    "source": "4e712df338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.title": {
+    "text": "Crédits maison",
+    "source": "3fb54d7b5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.today": {
+    "text": "Aujourd’hui, {time}",
+    "source": "461f4e0a08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.unavailable": {
+    "text": "L’achat de crédits n’est pas disponible ici.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.vat": {
+    "text": "TVA comprise. Vous recevez un reçu par e-mail.",
+    "source": "7cc3d193ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.withPro": {
+    "text": "Avec votre Pro",
+    "source": "8a90b7696b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.yesterday": {
+    "text": "Hier, {time}",
+    "source": "59dfd2db8c",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.importDialog.adds": {
     "text": "S’ajoute à ce que vous avez ; rien ici ne change.",
     "source": "4452f514f3",
@@ -1722,8 +1956,8 @@
     "reviewed": false
   },
   "account.importDialog.step1": {
-    "text": "Une sauvegarde se crée dans <b>Compte</b> → <b>Sauvegarder votre configuration</b> → <b>Télécharger une sauvegarde</b>.",
-    "source": "1617c3b844",
+    "text": "Une sauvegarde se crée dans <b>Compte</b> › <b>Profil</b> → <b>Télécharger une sauvegarde</b>.",
+    "source": "4ebc91cbdb",
     "by": "ai",
     "reviewed": false
   },
@@ -3059,6 +3293,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.creditsToStart": {
+    "text": "{count} au départ",
+    "source": "d19656560f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.days": {
     "text": "{count, plural, one {# jour} other {# jours}}",
     "source": "52e7b5cd5c",
@@ -3131,6 +3371,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowCredits": {
+    "text": "Crédits maison",
+    "source": "f48e27942d",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDaily": {
     "text": "Historique par jour",
     "source": "7a69bbb6c1",
@@ -3170,6 +3416,12 @@
   "account.plans.rowHourly": {
     "text": "Historique par heure",
     "source": "69fd2572cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowHouses": {
+    "text": "Vos propres maisons",
+    "source": "5d436e5d5d",
     "by": "ai",
     "reviewed": false
   },
@@ -3263,12 +3515,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.alerts": {
-    "text": "Alertes",
-    "source": "f62e9267d1",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.backupBody": {
     "text": "Vos tableaux de bord, écrans muraux, thèmes et widgets dans un seul fichier, à restaurer en cas de problème. L’historique enregistré n’y est pas.",
     "source": "26eaa8ad22",
@@ -3284,12 +3530,6 @@
   "account.profile.dataBody": {
     "text": "Tout ce que Tiledash garde pour vous dans un zip : vos réglages, tableaux de bord, écrans muraux et thèmes en JSON, et votre historique enregistré en CSV.",
     "source": "515c4673bb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.dataSources": {
-    "text": "Sources des données",
-    "source": "a22bd608ff",
     "by": "ai",
     "reviewed": false
   },
@@ -3317,6 +3557,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.download": {
+    "text": "Télécharger",
+    "source": "d6eafe8235",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.downloadBackup": {
     "text": "Télécharger une sauvegarde",
     "source": "e3c2424962",
@@ -3335,21 +3581,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.maps": {
-    "text": "Cartes",
-    "source": "119e66d117",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.paused": {
     "text": "En pause",
     "source": "e159b06187",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.pin": {
-    "text": "Code PIN",
-    "source": "709e58acb6",
     "by": "ai",
     "reviewed": false
   },
@@ -3539,45 +3773,273 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.assistantsTab": {
+  "account.settings.alerts": {
+    "text": "Alertes",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.alertsAbout": {
+    "text": "Les appareils qui réveillent vos écrans muraux avec une alerte, et quand.",
+    "source": "06f3e63fec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.assistants": {
     "text": "Assistants IA",
     "source": "5475efeafe",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.freePlan": {
-    "text": "Forfait Free",
-    "source": "899e2f1f2a",
+  "account.settings.back": {
+    "text": "Réglages",
+    "source": "74a883a037",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.linksTab": {
+  "account.settings.calendars": {
+    "text": "Calendriers",
+    "source": "e0b2b00cf3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.calendarsAbout": {
+    "text": "Les calendriers que vos widgets peuvent afficher.",
+    "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.description": {
+    "text": "Vous, votre forfait, et comment Tiledash fonctionne chez vous.",
+    "source": "cf3bfd3ddb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energy": {
+    "text": "Énergie",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energyAbout": {
+    "text": "D’où viennent les prix, et les compteurs pris en compte par les widgets d’énergie, pour {homey}.",
+    "source": "96443c6d8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlans": {
+    "text": "Plans d’étage",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlansAbout": {
+    "text": "Votre maison dessinée pièce par pièce, pour la tuile plan d’étage, et vos propres modèles.",
+    "source": "d27cf80b69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.general": {
+    "text": "Général",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.generalAbout": {
+    "text": "Comment s’écrivent les dates et les nombres, et d’où viennent les cartes.",
+    "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.houses": {
+    "text": "Maisons",
+    "source": "d9e258d9f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.housesAbout": {
+    "text": "Des images de votre maison avec ses repères, pour la tuile Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.keypads": {
+    "text": "Claviers",
+    "source": "e0e44fc967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.links": {
     "text": "Liens et écrans",
     "source": "e5b768d15f",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.proPlan": {
-    "text": "Forfait Pro",
-    "source": "a6c4f5bc1f",
+  "account.settings.linksAbout": {
+    "text": "Vos liens de partage et les écrans associés à votre compte.",
+    "source": "3ef518ca12",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.signedInAs": {
-    "text": "Connecté en tant que {name}.",
-    "source": "058b1f3cc4",
+  "account.settings.maps": {
+    "text": "Cartes",
+    "source": "119e66d117",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.tabsLabel": {
+  "account.settings.menuLabel": {
+    "text": "Réglages",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partAccount": {
     "text": "Compte",
     "source": "7e1b0d5641",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.whatsNewTab": {
+  "account.settings.partHome": {
+    "text": "Votre maison",
+    "source": "b9e4df82e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partSharing": {
+    "text": "Partage",
+    "source": "bbedc70e98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.plan": {
+    "text": "Forfait",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.profile": {
+    "text": "Profil",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordings": {
+    "text": "Enregistrements",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordingsAbout": {
+    "text": "Les mesures dont Tiledash garde l’historique.",
+    "source": "97630117fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.whatsNew": {
     "text": "Nouveautés",
     "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.calendarCount": {
+    "text": "{count, plural, =0 {Aucun pour l’instant} one {# calendrier} other {# calendriers}}",
+    "source": "36f6e12bc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.energyLine": {
+    "text": "{source, select, homey {Prix de votre Homey} dayAhead {Prix du marché du lendemain} other {Tarif fixe}} · {meters, plural, =0 {aucun compteur} one {# compteur} other {# compteurs}}",
+    "source": "8e49e6079b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.floorPlanCount": {
+    "text": "{plans, plural, =0 {Pas encore de plan} one {# plan} other {# plans}}{models, plural, =0 {} one { · # modèle personnel} other { · # modèles personnels}}",
+    "source": "fb963acbcd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.houseCount": {
+    "text": "{count, plural, =0 {Aucune maison pour l’instant} one {# maison} many {# maisons} other {# maisons}}",
+    "source": "7d96111157",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.mapsFrom": {
+    "text": "Cartes de {provider}",
+    "source": "8c35ed0df7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noAssistants": {
+    "text": "Aucun connecté",
+    "source": "2d9b9a3046",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noPin": {
+    "text": "Pas encore de code PIN",
+    "source": "128e3fed95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.ownServer": {
+    "text": "votre propre serveur",
+    "source": "da9002735c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.pinSet": {
+    "text": "Code PIN défini",
+    "source": "48bdd26949",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planEnds": {
+    "text": "Pro jusqu’au {date}",
+    "source": "df8140dc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planFree": {
+    "text": "Free · {used} sur {max, plural, one {# tableau de bord} other {# tableaux de bord}}",
+    "source": "564211ba1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planPro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planRenews": {
+    "text": "Pro · renouvelé le {date}",
+    "source": "552a4272c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.readingCount": {
+    "text": "{count, plural, =0 {Rien n’est enregistré} one {# mesure} other {# mesures}}",
+    "source": "af43178881",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.screensWake": {
+    "text": "{count, plural, =0 {Aucun écran ne se réveille} one {# écran se réveille} other {# écrans se réveillent}}",
+    "source": "07f02f81ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.sharingCount": {
+    "text": "{links, plural, =0 {Aucun lien} one {# lien} other {# liens}} · {screens, plural, =0 {aucun écran} one {# écran} other {# écrans}}",
+    "source": "16821c0306",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.whatsNewNew": {
+    "text": "Nouveau : {version}",
+    "source": "3cff1c7687",
     "by": "ai",
     "reviewed": false
   },
@@ -4163,6 +4625,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.whatsNew.dataSources": {
+    "text": "Sources des données",
+    "source": "a22bd608ff",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.whatsNew.emptyBody": {
     "text": "Dès la prochaine version, chaque changement s’affiche ici, le plus récent en premier.",
     "source": "d4ca1feed1",
@@ -4208,6 +4676,12 @@
   "account.whatsNew.released": {
     "text": "Publiée le {date}.",
     "source": "6e3dd404e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.whatsNew.title": {
+    "text": "Nouveautés",
+    "source": "37e6112e84",
     "by": "ai",
     "reviewed": false
   }

@@ -1517,6 +1517,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.kindPicker.model": {
+    "text": "un mueble o uno de tus modelos 3D",
+    "source": "172b0f18dd",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.kindPicker.mood": {
     "text": "un ambiente que activar, o varios",
     "source": "0858797f29",
@@ -4956,8 +4962,8 @@
     "reviewed": false
   },
   "code.settingViews.kind": {
-    "text": "{type, select, device {Un dispositivo} capability {Una función} flow {Un Flow} mood {Un ambiente} dashboard {Un dashboard} zone {Una zona} person {Una persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Un plano} number {Un número} percentage {Un porcentaje} boolean {Sí/no} text {Texto} choice {Una opción} color {Un color} icon {Un icono} size {Un tamaño} spot {Una posición} other {Mosaicos}}",
-    "source": "69d42b574b",
+    "text": "{type, select, device {Un dispositivo} capability {Una función} flow {Un Flow} mood {Un ambiente} dashboard {Un dashboard} zone {Una zona} person {Una persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Un plano} house {Una casa} model {Un modelo} modelCamera {Una vista 3D} number {Un número} percentage {Un porcentaje} boolean {Sí/no} text {Texto} choice {Una opción} color {Un color} icon {Un icono} size {Un tamaño} spot {Una posición} other {Mosaicos}}",
+    "source": "35b9cae31c",
     "by": "ai",
     "reviewed": false
   },
@@ -4986,8 +4992,8 @@
     "reviewed": false
   },
   "code.settingViews.newLabel": {
-    "text": "{type, select, device {Dispositivo} capability {Función} flow {Flow} mood {Ambiente} dashboard {Dashboard} zone {Zona} person {Persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Plano} number {Número} percentage {Porcentaje} boolean {Sí/no} text {Texto} choice {Opción} color {Color} icon {Icono} size {Tamaño} spot {Posición} other {Mosaicos}}",
-    "source": "8d7b57f1be",
+    "text": "{type, select, device {Dispositivo} capability {Función} flow {Flow} mood {Ambiente} dashboard {Dashboard} zone {Zona} person {Persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Plano} house {Casa} model {Modelo} modelCamera {Vista 3D} number {Número} percentage {Porcentaje} boolean {Sí/no} text {Texto} choice {Opción} color {Color} icon {Icono} size {Tamaño} spot {Posición} other {Mosaicos}}",
+    "source": "b56ead900f",
     "by": "ai",
     "reviewed": false
   },
@@ -5066,6 +5072,12 @@
   "code.settingViews.readsIcon": {
     "text": "un nombre de icono",
     "source": "fac01ea1cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.settingViews.readsModelCamera": {
+    "text": "un modelo girado en cualquier sentido en 3D",
+    "source": "1ba5e07e0a",
     "by": "ai",
     "reviewed": false
   },

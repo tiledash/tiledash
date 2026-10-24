@@ -187,7 +187,7 @@
   },
   "shell.layout.keywordsAccount": {
     "en": "profile, data, download, delete",
-    "context": "Not shown. Extra search words, separated by commas, that make the \"Account\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Account\" entry of the \"Jump to\" search appear when the person types them (it opens the account’s profile: the person, their Homeys, their data). Give the words people would type in the language.",
     "maxLength": 70,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
@@ -255,6 +255,12 @@
     "en": "history, tracking, power",
     "context": "Not shown. Extra search words, separated by commas, that make the \"Recordings\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language.",
     "maxLength": 60,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.keywordsSettings": {
+    "en": "preferences, language, maps, alerts, calendars, PIN, links, AI",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Settings\" entry of the \"Jump to\" search appear when the person types them. Give the words people would type in the language. PIN and AI stay as they are where the language uses them too.",
+    "maxLength": 90,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.layout.keywordsThemes": {
@@ -335,21 +341,15 @@
     "maxLength": 14,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
-  "shell.layout.whatsNew": {
-    "en": "What's new",
-    "context": "Menu item of the account menu at the foot of the sidebar. It opens the page that lists the changes of the latest releases of Tiledash. Other texts refer to this page by this name.",
-    "maxLength": 24,
-    "file": "apps/web/src/layout/layout.messages.ts"
-  },
   "shell.layout.whatsNewBadge": {
     "en": "New",
-    "context": "Small badge next to \"What’s new\" in the account menu while there is a release the person has not seen yet.",
+    "context": "Small badge next to \"Settings\" in the account menu of the phone’s top bar while there is a release the person has not seen yet (it is in Settings › What’s new).",
     "maxLength": 10,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.names.account": {
     "en": "Account",
-    "context": "Name of the account page: first entry of the account menu at the foot of the sidebar, a result in the \"Jump to\" search, and the name shown for a user whose own name is unknown. Other texts refer to this page by this name, so use the same word.",
+    "context": "The person’s account (their profile and plan, in Settings): a result in the \"Jump to\" search that opens Settings › Profile, and the name shown for a user whose own name is unknown.",
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
@@ -385,7 +385,7 @@
   },
   "shell.names.energySettings": {
     "en": "Energy settings",
-    "context": "Name of the page where the person sets energy prices, tariffs and meters: a link in the sidebar and a result in the \"Jump to\" search.",
+    "context": "Name of the place where the person sets energy prices, tariffs and meters (the Energy group of the Settings page): a result in the \"Jump to\" search.",
     "maxLength": 28,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
@@ -419,9 +419,21 @@
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
+  "shell.names.profile": {
+    "en": "Profile",
+    "context": "Name of the account page's tab with the person, their Homeys (smart-home hubs) and their data (backups, downloading it, deleting the account). A result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
   "shell.names.recordings": {
     "en": "Recordings",
-    "context": "Name of the account page's tab that lists which device values Tiledash records the history of. A result in the \"Jump to\" search. Other texts refer to this tab by this name.",
+    "context": "Name of the Settings page's group that lists which device values Tiledash records the history of: a result in the \"Jump to\" search.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
+  },
+  "shell.names.settings": {
+    "en": "Settings",
+    "context": "Name of the Settings page (the person’s profile and plan, what’s new, and how Tiledash works for the home: language, energy, houses, floor plans, alerts, calendars, keypads, recordings, links and screens, AI assistants): the gear button at the foot of the sidebar, an entry of the account menu on a phone, its title and a result in the \"Jump to\" search. Other texts refer to this page by this name (\"Settings › Alerts\"), so use the same word.",
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
@@ -1028,6 +1040,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
   },
+  "shell.sidebar.settingsNews": {
+    "en": "Settings, something new",
+    "context": "Name of the gear button at the foot of the sidebar when there is a release the person has not seen in What’s new (which is in Settings), read out by screen readers. Not visible as text.",
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
   "shell.sidebar.showItem": {
     "en": "Show {label}",
     "context": "Name of the eye button beside a hidden row while editing the sidebar. It shows the dashboard, group or tool in the sidebar again. Appears as a tooltip and is read out by screen readers.",
@@ -1282,6 +1300,278 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
   },
+  "shell.tour.allDoneBody": {
+    "en": "That’s the gist. The tutorials on tiledash.app go further.",
+    "context": "Text of the checklist once every task is done. tiledash.app is the website, not translated.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.back": {
+    "en": "Back",
+    "context": "Button of a tour step: goes to the step before.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.basicsBody": {
+    "en": "A short list of things to try is waiting in the corner. Do them whenever you like; it keeps your place.",
+    "context": "Text of the card at the end of the guided tour. The list is the getting-started checklist in the bottom corner, which remembers what was done.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.basicsTitle": {
+    "en": "That’s the basics",
+    "context": "Title of the card at the end of the guided tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.closeList": {
+    "en": "Close the list",
+    "context": "Second button of the finished checklist: puts it away for good.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.endTour": {
+    "en": "End the tour",
+    "context": "Label (for screen readers and on hover) of the × button that closes the tour.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.exploreMyself": {
+    "en": "I’ll explore myself",
+    "context": "Second button of the welcome card: skips the guided tour. The getting-started list still shows.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.finish": {
+    "en": "Finish",
+    "context": "Button of the last tour step, in place of Next.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.foldList": {
+    "en": "Fold the list",
+    "context": "Label (for screen readers and on hover) of the button that folds the checklist into a small pill.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.hideList": {
+    "en": "Hide this list",
+    "context": "Link at the bottom of the checklist: puts it away. It can come back with \"Take the tour again\" in the account menu.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.homeBody": {
+    "en": "Made from your Homey’s rooms. The chips sum it up: power, lights on, what’s open.",
+    "context": "Text of the first tour step. The chips are the small summaries next to the dashboard’s name (total power, how many lights are on, which doors or windows are open).",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.homeTitle": {
+    "en": "This is your Home",
+    "context": "Title of the first tour step, pointing at the dashboard the person just made, which is called Home. \"Home\" is the dashboard’s name, as the wizard names it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.listCount": {
+    "en": "{done} of {count} done",
+    "context": "Under the checklist’s title and progress bar: how many of its tasks are done.",
+    "params": {
+      "count": "How many tasks there are.",
+      "done": "How many tasks are done."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.listDoneTitle": {
+    "en": "You know your way around",
+    "context": "Title of the getting-started checklist once everything on it is done.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.listTitle": {
+    "en": "Get to know Tiledash",
+    "context": "Title of the getting-started checklist in the bottom corner, and of the pill it folds into.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.next": {
+    "en": "Next",
+    "context": "Button of a tour step: goes to the next step.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.optionsBody": {
+    "en": "Edit it, add widgets, pick a theme. Everything starts here.",
+    "context": "Text of the tour step pointing at the dashboard’s options button.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.optionsTitle": {
+    "en": "Make it yours",
+    "context": "Title of the tour step pointing at the dashboard’s options button (the ⋯ button), where editing starts.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.showMe": {
+    "en": "Show me",
+    "context": "Button under a checklist task: rings the place on screen where the task starts.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.showMeAround": {
+    "en": "Show me around",
+    "context": "Main button of the welcome card: starts the guided tour.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.showMyList": {
+    "en": "Show my list",
+    "context": "Button of the card at the end of the tour: closes it and shows the checklist.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.stepCount": {
+    "en": "{step} of {count}",
+    "context": "Above a tour step’s title: which step this is of how many.",
+    "params": {
+      "count": "How many steps there are.",
+      "step": "The number of this step, from 1."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.takeTourAgain": {
+    "en": "Take the tour again",
+    "context": "Item of the account menu: starts the guided tour and the getting-started list from the beginning.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskFirst": {
+    "en": "Make your first dashboard",
+    "context": "First task of the getting-started checklist.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskFirstBody": {
+    "en": "The + beside Dashboards suggests one from your Homey’s rooms.",
+    "context": "Explanation under the task \"Make your first dashboard\": the + button next to the Dashboards heading in the sidebar opens a wizard that suggests dashboards.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskPanel": {
+    "en": "Put it on a tablet",
+    "context": "Checklist task: set up a wall panel, a tablet on the wall that shows dashboards full screen.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskPanelBody": {
+    "en": "A wall panel shows your dashboards full screen and dims at night.",
+    "context": "Explanation under the checklist task \"Put it on a tablet\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskRoom": {
+    "en": "Make a dashboard for a room",
+    "context": "Checklist task: make a second dashboard, for one room of the house.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskRoomBody": {
+    "en": "The + beside Dashboards suggests one from your Homey’s rooms.",
+    "context": "Explanation under the task \"Make a dashboard for a room\": the + button next to the Dashboards heading in the sidebar.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskSwitch": {
+    "en": "Switch something",
+    "context": "Checklist task: turn a light or a plug on or off from a dashboard.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskSwitchBody": {
+    "en": "Tap a light or a plug on your dashboard.",
+    "context": "Explanation under the checklist task \"Switch something\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskTheme": {
+    "en": "Try a theme",
+    "context": "Checklist task: look at the themes (the colours and fonts of dashboards).",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskThemeBody": {
+    "en": "Dark, light, e-ink or one of your own.",
+    "context": "Explanation under the checklist task \"Try a theme\": kinds of themes there are.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskWidget": {
+    "en": "Add a widget",
+    "context": "Checklist task: add a tile (a widget) to a dashboard.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.taskWidgetBody": {
+    "en": "Open the dashboard’s options, choose Edit, then Add a widget.",
+    "context": "Explanation under the checklist task \"Add a widget\". Edit and Add a widget are the names of the menu item and button the person will find.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tileBody": {
+    "en": "Tap a tile to switch it. It changes in your house straight away.",
+    "context": "Text of the tour step that points at a tile of a light or a plug.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tileTitle": {
+    "en": "Your devices, live",
+    "context": "Title of the tour step that points at a tile of a light or a plug on the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tileTried": {
+    "en": "There it goes.",
+    "context": "Replaces \"Try it: tap the tile\" once the person tapped it and the device switched. Warm and short.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tileTry": {
+    "en": "Try it: tap the tile",
+    "context": "Hint in a dashed box on the tile step, asking the person to tap the tile it points at.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourAgain": {
+    "en": "You can take the tour again from the account menu.",
+    "context": "Small print at the bottom of the card at the end of the tour.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tutorials": {
+    "en": "See the tutorials",
+    "context": "Button of the finished checklist: opens the tutorials on the website in a new tab.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.welcomeLead": {
+    "en": "Your Homey is connected and your first dashboard is ready. Want a quick look at how it works?",
+    "context": "Text under \"Welcome to Tiledash\" on the welcome card. Homey is the smart-home hub the app is connected to; the dashboard was just made.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.welcomeLength": {
+    "en": "3 quick steps, then a short list to try at your own pace",
+    "context": "Small print under the welcome card’s buttons: how long the tour is. The list is a getting-started checklist that stays in the corner.",
+    "maxLength": 80,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.welcomeTitle": {
+    "en": "Welcome to Tiledash",
+    "context": "Title of the card shown once on a new account’s first dashboard, right after the person made it in the welcome wizard. It offers a short guided tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.wallPanels.copyFailed": {
     "en": "Couldn’t copy the link",
     "context": "Message (toast) when the browser did not allow copying the link of a wall panel. Below it the link is shown so the person can copy it by hand.",
@@ -1353,5 +1643,111 @@
     "context": "Menu item of a wall panel (a tablet or screen on a wall that always shows a dashboard) in the sidebar. It opens the wall panel on the screen the person is using now.",
     "maxLength": 30,
     "file": "apps/web/src/panel/WallPanelsNav.messages.ts"
+  },
+  "shell.whatsNew.alsoOne": {
+    "en": "Also {first}",
+    "context": "Line at the foot of the What’s new dialog: what else the update brought, on the What’s new page. {first} is a count such as \"3 fixes\".",
+    "params": {
+      "first": "A count of changes, already translated, such as \"3 fixes\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.alsoThree": {
+    "en": "Also {first}, {second} and {third}",
+    "context": "Line at the foot of the What’s new dialog. {first}, {second} and {third} are counts such as \"2 more new things\", \"1 improvement\" and \"3 fixes\".",
+    "params": {
+      "first": "A count of changes, already translated, such as \"3 fixes\".",
+      "second": "A count of changes, already translated, such as \"3 fixes\".",
+      "third": "A count of changes, already translated, such as \"3 fixes\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.alsoTwo": {
+    "en": "Also {first} and {second}",
+    "context": "Line at the foot of the What’s new dialog. {first} and {second} are counts such as \"2 more new things\" and \"3 fixes\".",
+    "params": {
+      "first": "A count of changes, already translated, such as \"3 fixes\".",
+      "second": "A count of changes, already translated, such as \"3 fixes\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.close": {
+    "en": "Close",
+    "context": "Label of the cross in the corner of the What’s new dialog (read out, not shown).",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.eyebrowMissed": {
+    "en": "Since your last visit · {from} – {to}",
+    "context": "Small line above the title of the What’s new dialog when the person missed more than one update. {from} and {to} are version numbers such as v26.12.0.",
+    "params": {
+      "from": "A version number such as v26.13.0. Not translated.",
+      "to": "A version number such as v26.13.0. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.eyebrowOne": {
+    "en": "New in Tiledash · {version}",
+    "context": "Small line above the title of the What’s new dialog. {version} is a version number such as v26.13.0.",
+    "params": {
+      "version": "A version number such as v26.13.0. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.fixes": {
+    "en": "{count, plural, one {# fix} other {# fixes}}",
+    "context": "Part of the line at the foot of the What’s new dialog, counting bug fixes not listed. Used inside \"Also …\".",
+    "params": {
+      "count": "How many fixes were not listed."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.gotIt": {
+    "en": "Got it",
+    "context": "Main button at the foot of the What’s new dialog: closes it for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.improvements": {
+    "en": "{count, plural, one {# improvement} other {# improvements}}",
+    "context": "Part of the line at the foot of the What’s new dialog, counting smaller improvements not listed. Used inside \"Also …\".",
+    "params": {
+      "count": "How many improvements were not listed."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.moreNew": {
+    "en": "{count, plural, one {# more new thing} other {# more new things}}",
+    "context": "Part of the line at the foot of the What’s new dialog, counting new features left out to keep it short. Used inside \"Also …\".",
+    "params": {
+      "count": "How many new features were left out."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.seeEverything": {
+    "en": "See everything new",
+    "context": "Button at the foot of the What’s new dialog: opens the What’s new page with every change, fixes included.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.showMe": {
+    "en": "Show me",
+    "context": "Button under a new feature in the What’s new dialog: closes the dialog and points at the place in the app the feature is about.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.title": {
+    "en": "What’s new",
+    "context": "Title of the dialog shown once after Tiledash was updated with new features, unless the release has a headline of its own.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
   }
 }

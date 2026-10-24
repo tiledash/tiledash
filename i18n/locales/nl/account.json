@@ -912,8 +912,8 @@
     "reviewed": false
   },
   "account.calendars.pickNone": {
-    "text": "Nog geen agenda’s. Voeg er een toe onder Account › Agenda’s.",
-    "source": "dbb064807c",
+    "text": "Nog geen agenda’s. Voeg er een toe onder Instellingen › Agenda’s.",
+    "source": "d463ea7321",
     "by": "ai",
     "reviewed": false
   },
@@ -1122,8 +1122,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} floorPlans {{count, plural, one {# plattegrond} other {# plattegronden}}} other {{count, plural, one {# opname} other {# opnames}}}}",
-    "source": "fb051db92d",
+    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} floorPlans {{count, plural, one {# plattegrond} other {# plattegronden}}} houses {{count, plural, one {# huis} other {# huizen}}} other {{count, plural, one {# vastgelegde meetwaarde} other {# vastgelegde meetwaarden}}}}",
+    "source": "f84821998a",
     "by": "ai",
     "reviewed": false
   },
@@ -1146,8 +1146,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Je plan heeft ruimte voor {room} dashboards; je hebt er {have} en koos er {adding}.} recordings {Je plan heeft ruimte voor {room} opnames; je hebt er {have} en koos er {adding}.} themes {Je plan heeft ruimte voor {room} eigen thema’s; je hebt er {have} en koos er {adding}.} widgets {Je plan heeft ruimte voor {room} eigen widgets; je hebt er {have} en koos er {adding}.} floorPlans {Je plan heeft ruimte voor {room} plattegronden; je hebt er {have} en koos er {adding}.} other {Je plan heeft ruimte voor {room} afbeeldingen; je hebt er {have} en koos er {adding}.}}",
-    "source": "934ae6bc1f",
+    "text": "{key, select, dashboards {Je plan heeft ruimte voor {room} dashboards; je hebt er {have} en koos er {adding}.} recordings {Je plan heeft ruimte voor {room} vastgelegde meetwaarden; je hebt er {have} en koos er {adding}.} themes {Je plan heeft ruimte voor {room} eigen thema’s; je hebt er {have} en koos er {adding}.} widgets {Je plan heeft ruimte voor {room} eigen widgets; je hebt er {have} en koos er {adding}.} floorPlans {Je plan heeft ruimte voor {room} plattegronden; je hebt er {have} en koos er {adding}.} houses {Je plan heeft ruimte voor {room} huizen; je hebt er {have} en koos er {adding}.} other {Je plan heeft ruimte voor {room} afbeeldingen; je hebt er {have} en koos er {adding}.}}",
+    "source": "b5e6229b4d",
     "by": "ai",
     "reviewed": false
   },
@@ -1182,8 +1182,8 @@
     "reviewed": false
   },
   "account.configImport.notConfigDetail": {
-    "text": "Kies een bestand gemaakt met Back-up downloaden (Account → Back-up van je inrichting). Je gegevens downloaden geeft een andere zip, die je niet kunt terugzetten.",
-    "source": "b8473c9fbc",
+    "text": "Kies een bestand gemaakt met Back-up downloaden (Instellingen › Profiel). Je gegevens downloaden geeft een andere zip, die je niet kunt terugzetten.",
+    "source": "636fdf09f6",
     "by": "ai",
     "reviewed": false
   },
@@ -1271,6 +1271,78 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.creditActions.added": {
+    "text": "{count, plural, one {# credit toegevoegd} other {# credits toegevoegd}}",
+    "source": "da0ab87927",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.addedBody": {
+    "text": "Je hebt nu {balance, plural, one {# credit} other {# credits}}.",
+    "source": "80d748cd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailed": {
+    "text": "We konden je credits nog niet toevoegen",
+    "source": "d54425dbcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailedBody": {
+    "text": "Heeft PayPal de betaling afgeschreven, dan staan de credits hier zodra PayPal die bevestigt.",
+    "source": "9a24a328fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.checkConnection": {
+    "text": "Controleer je verbinding en probeer het opnieuw.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declined": {
+    "text": "De kaart is geweigerd",
+    "source": "0a61ee2907",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declinedBody": {
+    "text": "Er is niets afgeschreven. Kies een andere kaart of betaal met PayPal.",
+    "source": "a9506c3b9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaid": {
+    "text": "PayPal heeft de betaling niet afgerond",
+    "source": "d06ad5d792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaidBody": {
+    "text": "Er zijn geen credits toegevoegd en je hebt niets betaald. Probeer het opnieuw of betaal anders bij PayPal.",
+    "source": "7a2c91de3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.startFailed": {
+    "text": "Je aankoop kon niet starten",
+    "source": "c69deddbef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.tryLater": {
+    "text": "Probeer het zo nog eens.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.unavailable": {
+    "text": "Credits kopen kan hier niet.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.credits.copyright": {
     "text": "Auteursrecht van OpenStreetMap",
     "source": "e5ee1cf66a",
@@ -1284,8 +1356,8 @@
     "reviewed": false
   },
   "account.credits.mapsText": {
-    "text": "Kaartdata © bijdragers van OpenStreetMap. Kaarttegels komen van OpenFreeMap met OpenMapTiles, tenzij je hierboven een andere aanbieder hebt gekozen.",
-    "source": "a567b7d4df",
+    "text": "Kaartdata © bijdragers van OpenStreetMap. Kaarttegels komen van OpenFreeMap met OpenMapTiles, tenzij je onder Instellingen › Algemeen een andere hebt gekozen.",
+    "source": "6d5ce59af6",
     "by": "ai",
     "reviewed": false
   },
@@ -1511,6 +1583,168 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.houseCredits.balance": {
+    "text": "{count, plural, one {# credit} other {# credits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buy": {
+    "text": "Credits kopen",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyBody": {
+    "text": "Eén credit maakt één afbeelding van één kant, met de plekken geplaatst. Mislukt een poging, dan krijg je de credit terug. Credits verlopen niet.",
+    "source": "fef9723d66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyTitle": {
+    "text": "Credits kopen",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBack": {
+    "text": "Teruggegeven door Tiledash",
+    "source": "1ae55b590e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBackWhy": {
+    "text": "Teruggegeven door Tiledash: {reason}",
+    "source": "fe79e8a8d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.granted": {
+    "text": "Gegeven door Tiledash",
+    "source": "c605f72207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.grantedWhy": {
+    "text": "Gegeven door Tiledash: {reason}",
+    "source": "da22bb09af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.historyLabel": {
+    "text": "Creditgeschiedenis",
+    "source": "a38ff6ae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.intro": {
+    "text": "Om afbeeldingen van je huizen te maken.",
+    "source": "297fe51c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.noHistory": {
+    "text": "Nog geen credits gekocht. Ze verschijnen hier zodra je dat doet.",
+    "source": "31d92d6bff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.notNow": {
+    "text": "Niet nu",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.outTitle": {
+    "text": "Je credits zijn op",
+    "source": "e4abf11f7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack10": {
+    "text": "Eén huis, voor- en achterkant, met wat pogingen",
+    "source": "d11453eb55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack25": {
+    "text": "Een paar huizen, of elke stijl",
+    "source": "5117f189da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packCredits": {
+    "text": "{count, plural, one {# credit} other {# credits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packsLabel": {
+    "text": "Pakket",
+    "source": "80dc21673e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.purchase": {
+    "text": "{count, plural, one {# credit} other {# credits}} gekocht · PayPal",
+    "source": "08da9e8989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.refund": {
+    "text": "Teruggenomen bij terugbetaling",
+    "source": "9f328e652e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.returned": {
+    "text": "Kon niet worden gemaakt: teruggegeven",
+    "source": "a00edc6076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spend": {
+    "text": "Huisafbeelding gemaakt",
+    "source": "4e712df338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.title": {
+    "text": "Huiscredits",
+    "source": "3fb54d7b5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.today": {
+    "text": "Vandaag, {time}",
+    "source": "461f4e0a08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.unavailable": {
+    "text": "Credits kopen kan hier niet.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.vat": {
+    "text": "Prijzen inclusief btw. Je krijgt een betaalbewijs per e-mail.",
+    "source": "7cc3d193ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.withPro": {
+    "text": "Bij je Pro",
+    "source": "8a90b7696b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.yesterday": {
+    "text": "Gisteren, {time}",
+    "source": "59dfd2db8c",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.importDialog.adds": {
     "text": "Komt bij wat je hebt; hier verandert niets.",
     "source": "4452f514f3",
@@ -1662,7 +1896,7 @@
     "reviewed": false
   },
   "account.importDialog.noHistory": {
-    "text": "Een back-up bevat geen vastgelegde geschiedenis: opnames beginnen opnieuw vanaf het moment dat je terugzet.",
+    "text": "Een back-up bevat geen vastgelegde geschiedenis: het vastleggen begint opnieuw zodra je terugzet.",
     "source": "5fc26b6883",
     "by": "ai",
     "reviewed": false
@@ -1704,7 +1938,7 @@
     "reviewed": false
   },
   "account.importDialog.ready": {
-    "text": "{count, plural, one {# dashboard is klaar. Opnames beginnen nu opnieuw.} other {# dashboards zijn klaar. Opnames beginnen nu opnieuw.}}",
+    "text": "{count, plural, one {# dashboard is klaar. Het vastleggen begint nu opnieuw.} other {# dashboards zijn klaar. Het vastleggen begint nu opnieuw.}}",
     "source": "b06793f322",
     "by": "ai",
     "reviewed": false
@@ -1722,8 +1956,8 @@
     "reviewed": false
   },
   "account.importDialog.step1": {
-    "text": "Een back-up maak je via <b>Account</b> → <b>Back-up van je inrichting</b> → <b>Back-up downloaden</b>.",
-    "source": "1617c3b844",
+    "text": "Een back-up maak je via <b>Account</b> › <b>Profiel</b> → <b>Back-up downloaden</b>.",
+    "source": "4ebc91cbdb",
     "by": "ai",
     "reviewed": false
   },
@@ -3059,6 +3293,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.creditsToStart": {
+    "text": "{count} als begin",
+    "source": "d19656560f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.days": {
     "text": "{count, plural, one {# dag} other {# dagen}}",
     "source": "52e7b5cd5c",
@@ -3131,6 +3371,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowCredits": {
+    "text": "Huiscredits",
+    "source": "f48e27942d",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDaily": {
     "text": "Geschiedenis per dag",
     "source": "7a69bbb6c1",
@@ -3170,6 +3416,12 @@
   "account.plans.rowHourly": {
     "text": "Geschiedenis per uur",
     "source": "69fd2572cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowHouses": {
+    "text": "Eigen huizen",
+    "source": "5d436e5d5d",
     "by": "ai",
     "reviewed": false
   },
@@ -3263,12 +3515,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.alerts": {
-    "text": "Meldingen",
-    "source": "f62e9267d1",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.backupBody": {
     "text": "Je dashboards, wandpanelen, thema’s en widgets in één bestand, om terug te zetten als er iets misgaat. Vastgelegde geschiedenis zit er niet in.",
     "source": "26eaa8ad22",
@@ -3284,12 +3530,6 @@
   "account.profile.dataBody": {
     "text": "Alles wat Tiledash voor je bewaart in één zip: je instellingen, dashboards, wandpanelen en thema’s als JSON, en je vastgelegde geschiedenis als CSV.",
     "source": "515c4673bb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.dataSources": {
-    "text": "Gegevensbronnen",
-    "source": "a22bd608ff",
     "by": "ai",
     "reviewed": false
   },
@@ -3317,6 +3557,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.download": {
+    "text": "Downloaden",
+    "source": "d6eafe8235",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.downloadBackup": {
     "text": "Back-up downloaden",
     "source": "e3c2424962",
@@ -3335,21 +3581,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.maps": {
-    "text": "Kaarten",
-    "source": "119e66d117",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.paused": {
     "text": "Gepauzeerd",
     "source": "e159b06187",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.pin": {
-    "text": "Pincode",
-    "source": "709e58acb6",
     "by": "ai",
     "reviewed": false
   },
@@ -3539,45 +3773,273 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.assistantsTab": {
+  "account.settings.alerts": {
+    "text": "Meldingen",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.alertsAbout": {
+    "text": "Welke apparaten je wandpanelen wekken met een melding, en wanneer.",
+    "source": "06f3e63fec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.assistants": {
     "text": "AI-assistenten",
     "source": "5475efeafe",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.freePlan": {
-    "text": "Free-plan",
-    "source": "899e2f1f2a",
+  "account.settings.back": {
+    "text": "Instellingen",
+    "source": "74a883a037",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.linksTab": {
+  "account.settings.calendars": {
+    "text": "Agenda’s",
+    "source": "e0b2b00cf3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.calendarsAbout": {
+    "text": "Agenda’s die je widgets kunnen tonen.",
+    "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.description": {
+    "text": "Jij, je plan en hoe Tiledash werkt voor jouw huis.",
+    "source": "cf3bfd3ddb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energy": {
+    "text": "Energie",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energyAbout": {
+    "text": "Waar de prijzen vandaan komen, en de meters waarmee de energiewidgets rekenen, voor {homey}.",
+    "source": "96443c6d8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlans": {
+    "text": "Plattegronden",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlansAbout": {
+    "text": "Je huis kamer voor kamer getekend, voor de plattegrondtegel, en je eigen modellen.",
+    "source": "d27cf80b69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.general": {
+    "text": "Algemeen",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.generalAbout": {
+    "text": "Hoe datums en getallen worden geschreven, en waar de kaarten vandaan komen.",
+    "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.houses": {
+    "text": "Huizen",
+    "source": "d9e258d9f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.housesAbout": {
+    "text": "Afbeeldingen van je huis met de plekken gemarkeerd, voor de tegel Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.keypads": {
+    "text": "Toetsenpanelen",
+    "source": "e0e44fc967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.links": {
     "text": "Links en schermen",
     "source": "e5b768d15f",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.proPlan": {
-    "text": "Pro-plan",
-    "source": "a6c4f5bc1f",
+  "account.settings.linksAbout": {
+    "text": "Je deellinks en de schermen die aan je account zijn gekoppeld.",
+    "source": "3ef518ca12",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.signedInAs": {
-    "text": "Ingelogd als {name}.",
-    "source": "058b1f3cc4",
+  "account.settings.maps": {
+    "text": "Kaarten",
+    "source": "119e66d117",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.tabsLabel": {
+  "account.settings.menuLabel": {
+    "text": "Instellingen",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partAccount": {
     "text": "Account",
     "source": "7e1b0d5641",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.whatsNewTab": {
+  "account.settings.partHome": {
+    "text": "Je huis",
+    "source": "b9e4df82e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partSharing": {
+    "text": "Delen",
+    "source": "bbedc70e98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.plan": {
+    "text": "Plan",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.profile": {
+    "text": "Profiel",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordings": {
+    "text": "Vastgelegd",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordingsAbout": {
+    "text": "De meetwaarden waarvan Tiledash de geschiedenis vastlegt.",
+    "source": "97630117fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.whatsNew": {
     "text": "Wat is er nieuw",
     "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.calendarCount": {
+    "text": "{count, plural, =0 {Nog geen} one {# agenda} other {# agenda’s}}",
+    "source": "36f6e12bc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.energyLine": {
+    "text": "{source, select, homey {Prijzen van je Homey} dayAhead {Day-aheadprijzen} other {Vast tarief}} · {meters, plural, =0 {geen meters} one {# meter} other {# meters}}",
+    "source": "8e49e6079b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.floorPlanCount": {
+    "text": "{plans, plural, =0 {Nog geen plattegronden} one {# plattegrond} other {# plattegronden}}{models, plural, =0 {} one { · # eigen model} other { · # eigen modellen}}",
+    "source": "fb963acbcd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.houseCount": {
+    "text": "{count, plural, =0 {Nog geen huizen} one {# huis} other {# huizen}}",
+    "source": "7d96111157",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.mapsFrom": {
+    "text": "Kaarten van {provider}",
+    "source": "8c35ed0df7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noAssistants": {
+    "text": "Geen gekoppeld",
+    "source": "2d9b9a3046",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noPin": {
+    "text": "Nog geen pincode",
+    "source": "128e3fed95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.ownServer": {
+    "text": "je eigen server",
+    "source": "da9002735c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.pinSet": {
+    "text": "Pincode ingesteld",
+    "source": "48bdd26949",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planEnds": {
+    "text": "Pro tot {date}",
+    "source": "df8140dc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planFree": {
+    "text": "Free · {used} van {max, plural, one {# dashboard} other {# dashboards}}",
+    "source": "564211ba1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planPro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planRenews": {
+    "text": "Pro · wordt verlengd op {date}",
+    "source": "552a4272c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.readingCount": {
+    "text": "{count, plural, =0 {Niets vastgelegd} one {# meetwaarde} other {# meetwaarden}}",
+    "source": "af43178881",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.screensWake": {
+    "text": "{count, plural, =0 {Geen scherm wordt wakker} one {# scherm wordt wakker} other {# schermen worden wakker}}",
+    "source": "07f02f81ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.sharingCount": {
+    "text": "{links, plural, =0 {Geen links} one {# link} other {# links}} · {screens, plural, =0 {geen schermen} one {# scherm} other {# schermen}}",
+    "source": "16821c0306",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.whatsNewNew": {
+    "text": "Nieuw: {version}",
+    "source": "3cff1c7687",
     "by": "ai",
     "reviewed": false
   },
@@ -4163,6 +4625,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.whatsNew.dataSources": {
+    "text": "Gegevensbronnen",
+    "source": "a22bd608ff",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.whatsNew.emptyBody": {
     "text": "Vanaf de volgende versie zie je hier elke wijziging, de nieuwste eerst.",
     "source": "d4ca1feed1",
@@ -4208,6 +4676,12 @@
   "account.whatsNew.released": {
     "text": "Uitgebracht op {date}.",
     "source": "6e3dd404e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.whatsNew.title": {
+    "text": "Wat is er nieuw",
+    "source": "37e6112e84",
     "by": "ai",
     "reviewed": false
   }

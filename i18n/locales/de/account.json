@@ -912,8 +912,8 @@
     "reviewed": false
   },
   "account.calendars.pickNone": {
-    "text": "Noch keine Kalender. Fügen Sie einen unter Konto › Kalender hinzu.",
-    "source": "dbb064807c",
+    "text": "Noch keine Kalender. Fügen Sie einen unter Einstellungen › Kalender hinzu.",
+    "source": "d463ea7321",
     "by": "ai",
     "reviewed": false
   },
@@ -1122,8 +1122,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# Design} other {# Designs}}} presets {{count, plural, one {# Stilvorlage} other {# Stilvorlagen}}} widgets {{count, plural, one {# Widget oder Partial} other {# Widgets und Partials}}} pictures {{count, plural, one {# Bild} other {# Bilder}}} testDevices {{count, plural, one {# Testgerät} other {# Testgeräte}}} floorPlans {{count, plural, one {# Grundriss} other {# Grundrisse}}} other {{count, plural, one {# Aufzeichnung} other {# Aufzeichnungen}}}}",
-    "source": "fb051db92d",
+    "text": "{key, select, themes {{count, plural, one {# Design} other {# Designs}}} presets {{count, plural, one {# Stilvorlage} other {# Stilvorlagen}}} widgets {{count, plural, one {# Widget oder Partial} other {# Widgets und Partials}}} pictures {{count, plural, one {# Bild} other {# Bilder}}} testDevices {{count, plural, one {# Testgerät} other {# Testgeräte}}} floorPlans {{count, plural, one {# Grundriss} other {# Grundrisse}}} houses {{count, plural, one {# Haus} other {# Häuser}}} other {{count, plural, one {# Aufzeichnung} other {# Aufzeichnungen}}}}",
+    "source": "f84821998a",
     "by": "ai",
     "reviewed": false
   },
@@ -1146,8 +1146,8 @@
     "reviewed": false
   },
   "account.configImport.limit": {
-    "text": "{key, select, dashboards {Ihr Tarif hat Platz für {room} Dashboards; Sie haben {have} und {adding} gewählt.} recordings {Ihr Tarif hat Platz für {room} Aufzeichnungen; Sie haben {have} und {adding} gewählt.} themes {Ihr Tarif hat Platz für {room} eigene Designs; Sie haben {have} und {adding} gewählt.} widgets {Ihr Tarif hat Platz für {room} eigene Widgets; Sie haben {have} und {adding} gewählt.} floorPlans {Ihr Tarif hat Platz für {room} Grundrisse; Sie haben {have} und {adding} gewählt.} other {Ihr Tarif hat Platz für {room} Bilder; Sie haben {have} und {adding} gewählt.}}",
-    "source": "934ae6bc1f",
+    "text": "{key, select, dashboards {Ihr Tarif hat Platz für {room} Dashboards; Sie haben {have} und {adding} gewählt.} recordings {Ihr Tarif hat Platz für {room} Aufzeichnungen; Sie haben {have} und {adding} gewählt.} themes {Ihr Tarif hat Platz für {room} eigene Designs; Sie haben {have} und {adding} gewählt.} widgets {Ihr Tarif hat Platz für {room} eigene Widgets; Sie haben {have} und {adding} gewählt.} floorPlans {Ihr Tarif hat Platz für {room} Grundrisse; Sie haben {have} und {adding} gewählt.} houses {Ihr Tarif hat Platz für {room} Häuser; Sie haben {have} und {adding} gewählt.} other {Ihr Tarif hat Platz für {room} Bilder; Sie haben {have} und {adding} gewählt.}}",
+    "source": "b5e6229b4d",
     "by": "ai",
     "reviewed": false
   },
@@ -1182,8 +1182,8 @@
     "reviewed": false
   },
   "account.configImport.notConfigDetail": {
-    "text": "Wählen Sie eine Datei aus „Sicherung herunterladen“ (Konto → Ihre Einrichtung sichern). „Ihre Daten herunterladen“ liefert ein anderes, nicht wiederherstellbares ZIP.",
-    "source": "b8473c9fbc",
+    "text": "Wählen Sie eine Datei aus „Sicherung herunterladen“ (Einstellungen › Profil). „Ihre Daten herunterladen“ liefert ein anderes ZIP, das sich nicht wiederherstellen lässt.",
+    "source": "636fdf09f6",
     "by": "ai",
     "reviewed": false
   },
@@ -1271,6 +1271,78 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.creditActions.added": {
+    "text": "{count, plural, one {# Credit gutgeschrieben} other {# Credits gutgeschrieben}}",
+    "source": "da0ab87927",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.addedBody": {
+    "text": "Sie haben jetzt {balance, plural, one {# Credit} other {# Credits}}.",
+    "source": "80d748cd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailed": {
+    "text": "Ihre Credits sind noch nicht gutgeschrieben",
+    "source": "d54425dbcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.captureFailedBody": {
+    "text": "Hat PayPal die Zahlung eingezogen, erscheinen die Credits hier, sobald PayPal sie bestätigt.",
+    "source": "9a24a328fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.checkConnection": {
+    "text": "Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declined": {
+    "text": "Die Karte wurde abgelehnt",
+    "source": "0a61ee2907",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.declinedBody": {
+    "text": "Nichts berechnet. Wählen Sie eine andere Karte oder zahlen Sie mit PayPal.",
+    "source": "a9506c3b9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaid": {
+    "text": "PayPal hat die Zahlung nicht abgeschlossen",
+    "source": "d06ad5d792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.notPaidBody": {
+    "text": "Keine Credits gutgeschrieben, nichts berechnet. Versuchen Sie es erneut oder zahlen Sie in PayPal anders.",
+    "source": "7a2c91de3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.startFailed": {
+    "text": "Der Kauf konnte nicht gestartet werden",
+    "source": "c69deddbef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.tryLater": {
+    "text": "Bitte versuchen Sie es gleich noch einmal.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.creditActions.unavailable": {
+    "text": "Credits können hier nicht gekauft werden.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.credits.copyright": {
     "text": "OpenStreetMap-Copyright",
     "source": "e5ee1cf66a",
@@ -1284,8 +1356,8 @@
     "reviewed": false
   },
   "account.credits.mapsText": {
-    "text": "Kartendaten © OpenStreetMap-Mitwirkende. Die Kartenkacheln kommen von OpenFreeMap mit OpenMapTiles, sofern Sie oben keinen anderen Anbieter gewählt haben.",
-    "source": "a567b7d4df",
+    "text": "Kartendaten © OpenStreetMap-Mitwirkende. Die Kartenkacheln kommen von OpenFreeMap mit OpenMapTiles, falls Sie unter Einstellungen › Allgemein nichts anderes wählen.",
+    "source": "6d5ce59af6",
     "by": "ai",
     "reviewed": false
   },
@@ -1511,6 +1583,168 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.houseCredits.balance": {
+    "text": "{count, plural, one {# Credit} other {# Credits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buy": {
+    "text": "Credits kaufen",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyBody": {
+    "text": "Ein Credit ergibt ein Bild einer Seite, mit platzierten Stellen. Schlägt ein Versuch fehl, wird sein Credit zurückgebucht. Credits verfallen nicht.",
+    "source": "fef9723d66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.buyTitle": {
+    "text": "Credits kaufen",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBack": {
+    "text": "Von Tiledash zurückgebucht",
+    "source": "1ae55b590e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.givenBackWhy": {
+    "text": "Von Tiledash zurückgebucht: {reason}",
+    "source": "fe79e8a8d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.granted": {
+    "text": "Von Tiledash gutgeschrieben",
+    "source": "c605f72207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.grantedWhy": {
+    "text": "Von Tiledash gutgeschrieben: {reason}",
+    "source": "da22bb09af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.historyLabel": {
+    "text": "Credit-Verlauf",
+    "source": "a38ff6ae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.intro": {
+    "text": "Zum Erstellen von Bildern Ihrer Häuser.",
+    "source": "297fe51c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.noHistory": {
+    "text": "Noch keine Credits gekauft. Ihre Käufe erscheinen dann hier.",
+    "source": "31d92d6bff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.notNow": {
+    "text": "Nicht jetzt",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.outTitle": {
+    "text": "Keine Credits mehr",
+    "source": "e4abf11f7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack10": {
+    "text": "Ein Haus, vorn und hinten, mit ein paar Versuchen",
+    "source": "d11453eb55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.pack25": {
+    "text": "Mehrere Häuser oder alle Stile",
+    "source": "5117f189da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packCredits": {
+    "text": "{count, plural, one {# Credit} other {# Credits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.packsLabel": {
+    "text": "Paket",
+    "source": "80dc21673e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.purchase": {
+    "text": "{count, plural, one {# Credit gekauft} other {# Credits gekauft}} · PayPal",
+    "source": "08da9e8989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.refund": {
+    "text": "Mit der Erstattung zurückgenommen",
+    "source": "9f328e652e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.returned": {
+    "text": "Nicht erstellt: zurückgebucht",
+    "source": "a00edc6076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spend": {
+    "text": "Bild eines Hauses erstellt",
+    "source": "4e712df338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.title": {
+    "text": "Credits für Hausbilder",
+    "source": "3fb54d7b5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.today": {
+    "text": "Heute, {time}",
+    "source": "461f4e0a08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.unavailable": {
+    "text": "Credits können hier nicht gekauft werden.",
+    "source": "9fc687d123",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.vat": {
+    "text": "Preise inkl. MwSt. Den Beleg erhalten Sie per E-Mail.",
+    "source": "7cc3d193ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.withPro": {
+    "text": "Mit Ihrem Pro",
+    "source": "8a90b7696b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.yesterday": {
+    "text": "Gestern, {time}",
+    "source": "59dfd2db8c",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.importDialog.adds": {
     "text": "Ergänzt Ihren Bestand; hier ändert sich nichts.",
     "source": "4452f514f3",
@@ -1722,8 +1956,8 @@
     "reviewed": false
   },
   "account.importDialog.step1": {
-    "text": "Eine Sicherung erstellen Sie unter <b>Konto</b> → <b>Ihre Einrichtung sichern</b> → <b>Sicherung herunterladen</b>.",
-    "source": "1617c3b844",
+    "text": "Eine Sicherung erstellen Sie unter <b>Konto</b> › <b>Profil</b> → <b>Sicherung herunterladen</b>.",
+    "source": "4ebc91cbdb",
     "by": "ai",
     "reviewed": false
   },
@@ -3059,6 +3293,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.creditsToStart": {
+    "text": "{count} zum Start",
+    "source": "d19656560f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.days": {
     "text": "{count, plural, one {# Tag} other {# Tage}}",
     "source": "52e7b5cd5c",
@@ -3131,6 +3371,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowCredits": {
+    "text": "Credits für Hausbilder",
+    "source": "f48e27942d",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDaily": {
     "text": "Täglicher Verlauf",
     "source": "7a69bbb6c1",
@@ -3170,6 +3416,12 @@
   "account.plans.rowHourly": {
     "text": "Stündlicher Verlauf",
     "source": "69fd2572cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plans.rowHouses": {
+    "text": "Eigene Häuser",
+    "source": "5d436e5d5d",
     "by": "ai",
     "reviewed": false
   },
@@ -3263,12 +3515,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.alerts": {
-    "text": "Alarme",
-    "source": "f62e9267d1",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.backupBody": {
     "text": "Ihre Dashboards, Wandpanels, Designs und Widgets in einer Datei, zum Wiederherstellen, falls etwas schiefgeht. Der aufgezeichnete Verlauf fehlt darin.",
     "source": "26eaa8ad22",
@@ -3284,12 +3530,6 @@
   "account.profile.dataBody": {
     "text": "Alles, was Tiledash für Sie speichert, in einer ZIP-Datei: Ihre Einstellungen, Dashboards, Wandpanels und Designs als JSON und Ihr aufgezeichneter Verlauf als CSV.",
     "source": "515c4673bb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.dataSources": {
-    "text": "Datenquellen",
-    "source": "a22bd608ff",
     "by": "ai",
     "reviewed": false
   },
@@ -3317,6 +3557,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.download": {
+    "text": "Herunterladen",
+    "source": "d6eafe8235",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.downloadBackup": {
     "text": "Sicherung herunterladen",
     "source": "e3c2424962",
@@ -3335,21 +3581,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.profile.maps": {
-    "text": "Karten",
-    "source": "119e66d117",
-    "by": "ai",
-    "reviewed": false
-  },
   "account.profile.paused": {
     "text": "Pausiert",
     "source": "e159b06187",
-    "by": "ai",
-    "reviewed": false
-  },
-  "account.profile.pin": {
-    "text": "PIN",
-    "source": "709e58acb6",
     "by": "ai",
     "reviewed": false
   },
@@ -3539,45 +3773,273 @@
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.assistantsTab": {
+  "account.settings.alerts": {
+    "text": "Alarme",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.alertsAbout": {
+    "text": "Welche Geräte Ihre Wandpanels mit einem Alarm wecken, und wann.",
+    "source": "06f3e63fec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.assistants": {
     "text": "KI-Assistenten",
     "source": "5475efeafe",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.freePlan": {
-    "text": "Free-Tarif",
-    "source": "899e2f1f2a",
+  "account.settings.back": {
+    "text": "Einstellungen",
+    "source": "74a883a037",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.linksTab": {
+  "account.settings.calendars": {
+    "text": "Kalender",
+    "source": "e0b2b00cf3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.calendarsAbout": {
+    "text": "Kalender, die Ihre Widgets zeigen können.",
+    "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.description": {
+    "text": "Ihr Profil, Ihr Tarif und wie Tiledash für Ihr Zuhause arbeitet.",
+    "source": "cf3bfd3ddb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energy": {
+    "text": "Energie",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.energyAbout": {
+    "text": "Woher die Preise kommen und welche Zähler die Energie-Widgets zählen, für {homey}.",
+    "source": "96443c6d8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlans": {
+    "text": "Grundrisse",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.floorPlansAbout": {
+    "text": "Ihr Zuhause Raum für Raum gezeichnet, für die Grundriss-Kachel, und Ihre eigenen Modelle.",
+    "source": "d27cf80b69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.general": {
+    "text": "Allgemein",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.generalAbout": {
+    "text": "Wie Datum und Zahlen geschrieben werden und woher die Karten kommen.",
+    "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.houses": {
+    "text": "Häuser",
+    "source": "d9e258d9f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.housesAbout": {
+    "text": "Bilder Ihres Zuhauses mit markierten Stellen, für die Kachel Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.keypads": {
+    "text": "Tastenfelder",
+    "source": "e0e44fc967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.links": {
     "text": "Links und Bildschirme",
     "source": "e5b768d15f",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.proPlan": {
-    "text": "Pro-Tarif",
-    "source": "a6c4f5bc1f",
+  "account.settings.linksAbout": {
+    "text": "Ihre Freigabelinks und die mit Ihrem Konto gekoppelten Bildschirme.",
+    "source": "3ef518ca12",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.signedInAs": {
-    "text": "Angemeldet als {name}.",
-    "source": "058b1f3cc4",
+  "account.settings.maps": {
+    "text": "Karten",
+    "source": "119e66d117",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.tabsLabel": {
+  "account.settings.menuLabel": {
+    "text": "Einstellungen",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partAccount": {
     "text": "Konto",
     "source": "7e1b0d5641",
     "by": "ai",
     "reviewed": false
   },
-  "account.screen.whatsNewTab": {
+  "account.settings.partHome": {
+    "text": "Ihr Zuhause",
+    "source": "b9e4df82e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.partSharing": {
+    "text": "Teilen",
+    "source": "bbedc70e98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.plan": {
+    "text": "Tarif",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.profile": {
+    "text": "Profil",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordings": {
+    "text": "Aufzeichnungen",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.recordingsAbout": {
+    "text": "Die Messwerte, deren Verlauf Tiledash speichert.",
+    "source": "97630117fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.whatsNew": {
     "text": "Neuigkeiten",
     "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.calendarCount": {
+    "text": "{count, plural, =0 {Noch keine} one {# Kalender} other {# Kalender}}",
+    "source": "36f6e12bc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.energyLine": {
+    "text": "{source, select, homey {Preise von Ihrem Homey} dayAhead {Day-Ahead-Preise} other {Fester Tarif}} · {meters, plural, =0 {keine Zähler} one {# Zähler} other {# Zähler}}",
+    "source": "8e49e6079b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.floorPlanCount": {
+    "text": "{plans, plural, =0 {Noch keine Grundrisse} one {# Grundriss} other {# Grundrisse}}{models, plural, =0 {} one { · # eigenes Modell} other { · # eigene Modelle}}",
+    "source": "fb963acbcd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.houseCount": {
+    "text": "{count, plural, =0 {Noch keine Häuser} one {# Haus} other {# Häuser}}",
+    "source": "7d96111157",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.mapsFrom": {
+    "text": "Karten von {provider}",
+    "source": "8c35ed0df7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noAssistants": {
+    "text": "Keine verbunden",
+    "source": "2d9b9a3046",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.noPin": {
+    "text": "Noch keine PIN",
+    "source": "128e3fed95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.ownServer": {
+    "text": "Ihrem eigenen Server",
+    "source": "da9002735c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.pinSet": {
+    "text": "PIN festgelegt",
+    "source": "48bdd26949",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planEnds": {
+    "text": "Pro bis {date}",
+    "source": "df8140dc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planFree": {
+    "text": "Free · {used} von {max, plural, one {# Dashboard} other {# Dashboards}}",
+    "source": "564211ba1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planPro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.planRenews": {
+    "text": "Pro · verlängert sich am {date}",
+    "source": "552a4272c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.readingCount": {
+    "text": "{count, plural, =0 {Nichts aufgezeichnet} one {# Messwert} other {# Messwerte}}",
+    "source": "af43178881",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.screensWake": {
+    "text": "{count, plural, =0 {Kein Bildschirm wacht auf} one {# Bildschirm wacht auf} other {# Bildschirme wachen auf}}",
+    "source": "07f02f81ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.sharingCount": {
+    "text": "{links, plural, =0 {Keine Links} one {# Link} other {# Links}} · {screens, plural, =0 {keine Bildschirme} one {# Bildschirm} other {# Bildschirme}}",
+    "source": "16821c0306",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settingsPage.whatsNewNew": {
+    "text": "Neu: {version}",
+    "source": "3cff1c7687",
     "by": "ai",
     "reviewed": false
   },
@@ -4163,6 +4625,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.whatsNew.dataSources": {
+    "text": "Datenquellen",
+    "source": "a22bd608ff",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.whatsNew.emptyBody": {
     "text": "Ab der nächsten Version erscheint hier jede Änderung, die neueste zuerst.",
     "source": "d4ca1feed1",
@@ -4208,6 +4676,12 @@
   "account.whatsNew.released": {
     "text": "Veröffentlicht am {date}.",
     "source": "6e3dd404e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.whatsNew.title": {
+    "text": "Neuigkeiten",
+    "source": "37e6112e84",
     "by": "ai",
     "reviewed": false
   }

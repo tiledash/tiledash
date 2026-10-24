@@ -179,18 +179,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "devices.energySettings.description": {
-    "text": "Je prijzen en de meters die de energiewidgets tellen.",
-    "source": "24bae7a626",
-    "by": "ai",
-    "reviewed": false
-  },
-  "devices.energySettings.title": {
-    "text": "Energie-instellingen",
-    "source": "a624d28319",
-    "by": "ai",
-    "reviewed": false
-  },
   "devices.fixedTariff.day": {
     "text": "Dag",
     "source": "8f2364e11b",
@@ -492,7 +480,7 @@
     "reviewed": false
   },
   "devices.meterEffects.fullDetail": {
-    "text": "{count, plural, one {{names} wordt} other {{names} worden}} niet vastgelegd: de widgets tonen live waarden, maar geen totalen of vergelijkingen. Stop er een onder Opnames{pro, select, yes {, of neem Pro voor {proLimit}} other {}}.",
+    "text": "{count, plural, one {{names} wordt} other {{names} worden}} niet vastgelegd: de widgets tonen live waarden, maar geen totalen of vergelijkingen. Stop er een onder Vastgelegd{pro, select, yes {, of neem Pro voor {proLimit}} other {}}.",
     "source": "aa3f00f3da",
     "by": "ai",
     "reviewed": false
@@ -504,7 +492,7 @@
     "reviewed": false
   },
   "devices.meterEffects.keepsDetail": {
-    "text": "Vastgelegd sinds {date}; dit blijft onder Opnames en in de grafieken, en wordt vastgelegd tot je het daar stopt.",
+    "text": "Vastgelegd sinds {date}; dit blijft onder Vastgelegd en in de grafieken tot je het daar stopt.",
     "source": "c57ac64009",
     "by": "ai",
     "reviewed": false
@@ -852,7 +840,7 @@
     "reviewed": false
   },
   "devices.meterRows.recordingsFull": {
-    "text": "{free, select, yes {De {limit} vastgelegde meetwaarden van Free zijn allemaal in gebruik: stop er een onder Opnames, of neem Pro.} other {Je {limit} vastgelegde meetwaarden zijn allemaal in gebruik: stop er een onder Opnames.}}",
+    "text": "{free, select, yes {De {limit} vastgelegde meetwaarden van Free zijn allemaal in gebruik: stop er een onder Vastgelegd, of neem Pro.} other {Je {limit} vastgelegde meetwaarden zijn allemaal in gebruik: stop er een onder Vastgelegd.}}",
     "source": "f1d3f3d626",
     "by": "ai",
     "reviewed": false
@@ -876,7 +864,7 @@
     "reviewed": false
   },
   "devices.metersSection.recordings": {
-    "text": "Opnames",
+    "text": "Vastgelegd",
     "source": "60c56d66a1",
     "by": "ai",
     "reviewed": false

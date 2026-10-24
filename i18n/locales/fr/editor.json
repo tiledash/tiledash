@@ -2225,6 +2225,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.energySettings.followPart": {
+    "text": "Suivre mes compteurs",
+    "source": "ac2b79be85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.energySettings.fromMeters": {
     "text": "De vos compteurs",
     "source": "5b518f3ec7",
@@ -3167,6 +3173,1248 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.houseGeneration.acceptAll": {
+    "text": "Tout accepter",
+    "source": "f55ee86234",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.another": {
+    "text": "En créer une autre · 1 crédit",
+    "source": "413e2b4887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.ask": {
+    "text": "Qu’en pensez-vous ?",
+    "source": "003930b9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.credits": {
+    "text": "{count, plural, one {# crédit} many {# crédits} other {# crédits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.deleteTry": {
+    "text": "Supprimer cet essai",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.dialogTitle": {
+    "text": "Créer l’image de ce côté",
+    "source": "3486a7b082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.error": {
+    "text": "{error, select, busy {Une image est déjà en cours de création.} limit {Assez d’images pour aujourd’hui ; réessayez demain.} off {La création d’images n’est pas disponible ici.} photo {Impossible de lire cette photo. Essayez-en une autre (PNG, JPEG ou WebP).} other {Impossible de lancer la création de l’image.}}",
+    "source": "b8810ebc81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failed": {
+    "text": "Échec",
+    "source": "ddf710fe81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failedText": {
+    "text": "{status, select, refused {Le modèle d’image a refusé de la créer à partir de cette photo ou de ce prompt. Votre crédit vous est rendu.} other {Un problème est survenu pendant sa création. Votre crédit vous est rendu.}}",
+    "source": "2949a0112d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.failedTitle": {
+    "text": "La création de l’image a échoué",
+    "source": "2923c39e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.givenBack": {
+    "text": "Tiledash vous a rendu votre crédit : {reason}",
+    "source": "13905f70c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.glad": {
+    "text": "Ravis qu’elle vous plaise",
+    "source": "646ae9c74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.good": {
+    "text": "J’aime",
+    "source": "c939327ca1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.inUse": {
+    "text": "Image actuelle",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.making": {
+    "text": "Création de votre image…",
+    "source": "8e8d970325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.makingHint": {
+    "text": "Environ une demi-minute. Vous pouvez quitter la page : la création continue.",
+    "source": "48bd4fb401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.notGood": {
+    "text": "Je n’aime pas",
+    "source": "f27bb0d1b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.note": {
+    "text": "Autre chose ? (facultatif)",
+    "source": "45ff50f562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.pending": {
+    "text": "Création…",
+    "source": "398c8381c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.proposedText": {
+    "text": "Vérifiez chacun : glissez-le à sa place, ou retirez-le.",
+    "source": "65c18aca13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.proposedTitle": {
+    "text": "Nous avons placé vos repères",
+    "source": "688f2af90b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.reason": {
+    "text": "{reason, select, not-my-house {Ne ressemble pas à ma maison} parts {Éléments manquants ou faux} strange {Détails étranges} style {Pas le style choisi} other {Coupée ou mal cadrée}}",
+    "source": "ff63216016",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.send": {
+    "text": "Envoyer",
+    "source": "f6f4688ff2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.thanks": {
+    "text": "Merci. Nous examinons chaque avis négatif ; si l’image est de notre faute, votre crédit vous est rendu.",
+    "source": "4d9b730af0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.triesHint": {
+    "text": "Chaque essai reste ici. Un autre garde les repères placés : vérifiez qu’ils tombent juste.",
+    "source": "637857f418",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.triesTitle": {
+    "text": "Essais pour ce côté",
+    "source": "dcb30f4c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.useTry": {
+    "text": "Utiliser cet essai",
+    "source": "8aeca13532",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.way": {
+    "text": "Créez-la dans Tiledash",
+    "source": "b1af7331ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.wayCost": {
+    "text": "1 crédit · vous avez {count}",
+    "source": "5c0514d1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.wayHint": {
+    "text": "À partir d’une photo de votre maison, ou de quelques réponses, dans le style choisi. Ses repères sont placés pour vous.",
+    "source": "aec94b27df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.whatWrong": {
+    "text": "Qu’est-ce qui n’allait pas ?",
+    "source": "3f5cd5dde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.writePrompt": {
+    "text": "Écrire un prompt pour votre propre ChatGPT ou Gemini",
+    "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.back": {
+    "text": "Retour",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.balance": {
+    "text": "{count, plural, one {Vous avez # crédit} many {Vous avez # crédits} other {Vous avez # crédits}}",
+    "source": "3051c63f2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.buy": {
+    "text": "Acheter des crédits",
+    "source": "fd70f8c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.car": {
+    "text": "Quelle voiture ?",
+    "source": "c114a5bce9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.carHint": {
+    "text": "Marque, modèle et couleur, en anglais : a white Skoda Enyaq…",
+    "source": "28e82b4233",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.consent": {
+    "text": "Votre photo est envoyée au fournisseur de notre modèle d’image pour créer l’image. Tiledash la conserve 30 jours pour vérifier le résultat, puis la supprime.",
+    "source": "7f2b5e1096",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.copied": {
+    "text": "Copié",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.copy": {
+    "text": "Copier le prompt",
+    "source": "ffc64b8bb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.english": {
+    "text": "En anglais : les modèles d’image le préfèrent",
+    "source": "5d8867970a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.facade": {
+    "text": "Les murs",
+    "source": "e74591c19c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.facadeHint": {
+    "text": "Matériau et couleur, en anglais : red brick, white render…",
+    "source": "03f554a287",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.floors": {
+    "text": "Niveaux",
+    "source": "f20080f987",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.generate": {
+    "text": "Générer · 1 crédit",
+    "source": "fb5d0a2016",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.generating": {
+    "text": "Création de votre image…",
+    "source": "8e8d970325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.known": {
+    "text": "Présent sur votre Homey",
+    "source": "61015efd36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.later": {
+    "text": "Joindre aussi l’image d’un autre côté, pour qu’elles s’accordent",
+    "source": "1c4fa34e9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makeHere": {
+    "text": "Laisser Tiledash la créer",
+    "source": "ee3815c8f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makeHereHint": {
+    "text": "{photo, select, yes {Avec ce prompt et votre photo. Ses repères sont placés pour vous, et un essai raté vous rend votre crédit.} other {Avec ce prompt. Ses repères sont placés pour vous, et un essai raté vous rend votre crédit.}}",
+    "source": "a1975b2676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.next": {
+    "text": "Suivant",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.open": {
+    "text": "Écrire un prompt pour votre propre ChatGPT ou Gemini",
+    "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.other": {
+    "text": "Autre chose",
+    "source": "28e4bfad14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.otherHint": {
+    "text": "Facultatif. Une piscine, un abri de jardin, une éolienne…",
+    "source": "fcb81577cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.ownChat": {
+    "text": "Créez-la avec votre propre IA",
+    "source": "d3e436c22a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.ownChatHint": {
+    "text": "{photo, select, yes {Copiez le prompt dans ChatGPT ou Gemini, joignez votre photo, puis importez le résultat.} other {Copiez le prompt dans ChatGPT ou Gemini, puis importez le résultat.}}",
+    "source": "4e01ab9d0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoChange": {
+    "text": "Changer",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoChoice": {
+    "text": "{photo, select, yes {Oui, j’en joindrai une} other {Non, je la décrirai}}",
+    "source": "9522e7624b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoHint": {
+    "text": "Avec une photo, l’image ressemble à votre maison ; sans, à une maison du même type.",
+    "source": "d3284d4105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoNeeded": {
+    "text": "Choisissez d’abord votre photo, ou répondez « Non ».",
+    "source": "a8cb16167e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoPick": {
+    "text": "Choisir votre photo",
+    "source": "6e4c776c3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoTitle": {
+    "text": "Allez-vous joindre une photo de votre maison ?",
+    "source": "fced991c21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.prompt": {
+    "text": "Le prompt",
+    "source": "b62c640b29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.readyTitle": {
+    "text": "Votre prompt est prêt",
+    "source": "31587515e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roof": {
+    "text": "Quel pan du toit porte les panneaux ?",
+    "source": "3ddfe49b98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofChoice": {
+    "text": "{roof, select, pitched {À deux pans} flat {Plat} hipped {À quatre pans} mansard {Mansardé} other {À pans brisés}}",
+    "source": "05f7c71055",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofShape": {
+    "text": "Toit",
+    "source": "c2f6a4d9ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.roofSide": {
+    "text": "{side, select, front {Avant} back {Arrière} other {Les deux}}",
+    "source": "b237c40357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideChoice": {
+    "text": "{side, select, front {Avant} back {Arrière} other {Côté jardin}}",
+    "source": "535c43a4b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideHint": {
+    "text": "Chaque côté de votre maison a sa propre image : l’avant, le côté jardin…",
+    "source": "25e8590f3b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.sideTitle": {
+    "text": "Quel côté est-ce ?",
+    "source": "8979236069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.step": {
+    "text": "{step, select, things {Chez vous} house {Votre maison} side {Quel côté} style {Style} other {Votre prompt}}",
+    "source": "1b291ede6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.style": {
+    "text": "{style, select, soft-3d {3D douce Tiledash} modern-dark {Moderne sombre} clay {Miniature en argile} flat {Illustration plate} other {Dessin au trait}}",
+    "source": "66c83aca46",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleHint": {
+    "text": "{style, select, soft-3d {Lumière douce et ombres légères, comme la maison de Tiledash.} modern-dark {Un rendu du soir épuré sur fond sombre, fenêtres éclairées.} clay {Un diorama en argile fait main, sur un petit socle.} flat {Formes plates, peu de couleurs, calme sur un écran mural.} other {Traits noirs sur fond blanc : conçu pour l’e-ink.}}",
+    "source": "2d7a30ae9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleTitle": {
+    "text": "Choisissez un style",
+    "source": "d98c7cf9a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thing": {
+    "text": "{thing, select, solar {Panneaux solaires} battery {Batterie domestique} car {Voiture électrique et borne} heat-pump {Pompe à chaleur} garage {Garage ou abri voiture} garden {Jardin} other {Balcon}}",
+    "source": "288f883a6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thingsHint": {
+    "text": "Ce qui est coché sera bien visible sur l’image, pour que les valeurs s’y rattachent.",
+    "source": "c00cb8ee07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.thingsTitle": {
+    "text": "Qu’y a-t-il chez vous ?",
+    "source": "e4e4594a7a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.tips": {
+    "text": "Toute la maison dans le cadre, toit compris. De jour, sans ombres marquées. Depuis la rue, de biais, pour voir deux côtés. Rien devant : voitures, poubelles, arbre.",
+    "source": "13d689a4fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.tipsTitle": {
+    "text": "Pour un bon résultat",
+    "source": "d40ec6ec8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.title": {
+    "text": "Écrire un prompt pour votre propre IA",
+    "source": "aab71f7814",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.type": {
+    "text": "Type de maison",
+    "source": "4f5f896170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.typeChoice": {
+    "text": "{type, select, terraced {Mitoyenne} semi-detached {Jumelée} detached {Individuelle} bungalow {Plain-pied} other {Appartement}}",
+    "source": "cc7827b399",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.upload": {
+    "text": "Importer le résultat",
+    "source": "858a009974",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.change": {
+    "text": "Modifier ce qu’affiche {name}",
+    "source": "7240dfffb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.elsewhere": {
+    "text": "{count, plural, one {# autre est sur un côté que cette tuile omet.} many {# autres sont sur des côtés que cette tuile omet.} other {# autres sont sur des côtés que cette tuile omet.}}",
+    "source": "5793a4116d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.energyGroup": {
+    "text": "Énergie",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.gone": {
+    "text": "La maison de cette tuile n’existe plus. Choisissez-en une autre.",
+    "source": "36c1541e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.makeOne": {
+    "text": "Créez votre maison dans Réglages › Maisons",
+    "source": "7173cc153b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.manage": {
+    "text": "Gérez vos maisons dans Réglages › Maisons",
+    "source": "0ba685a94f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigation": {
+    "text": "Passer d’un côté à l’autre",
+    "source": "261135de2d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigationChoice": {
+    "text": "{choice, select, swipe {Balayer} dots {Points} other {Onglets}}",
+    "source": "f03811e287",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.navigationHint": {
+    "text": "{choice, select, swipe {Rien sur la tuile ; balayez sur le côté pour changer.} dots {Des points sous la maison. Touchez-en un, ou balayez.} other {Les noms des côtés au-dessus de la maison. Touchez-en un, ou balayez.}}",
+    "source": "6924d4cb40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.none": {
+    "text": "Aucune maison pour ce Homey : créez-en une d’après une photo de chez vous, ou partez d’une maison Tiledash.",
+    "source": "9f98550036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.onHouse": {
+    "text": "Sur la maison",
+    "source": "bb9a8f40ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.onHouseHint": {
+    "text": "Ce que cette maison affiche, réglé dans la maison. Désactivez ce que cette tuile omet ; ce que vous ajouterez à la maison apparaîtra tout seul.",
+    "source": "6ea2afcd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.part": {
+    "text": "{part, select, solar {Solaire} grid {Réseau} home {Maison} battery {Batterie} car {Voiture} other {Totaux du jour}}",
+    "source": "01d411ec0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.partWhere": {
+    "text": "{part, select, solar {Panneaux solaires} grid {Raccordement au réseau} home {La maison} battery {Batterie domestique} car {Voiture} other {Sous la maison}}",
+    "source": "07b2d356a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.paused": {
+    "text": "En pause",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotate": {
+    "text": "Changer tout seul",
+    "source": "f5af5bc956",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotateChoice": {
+    "text": "{seconds, plural, =0 {Jamais} =60 {Chaque minute} other {Toutes les # secondes}}",
+    "source": "806e9f9429",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.rotateHint": {
+    "text": "Pour un écran mural jamais touché. Attend 30 secondes après un contact. En e-ink, seul le premier côté.",
+    "source": "c2441c2f6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sides": {
+    "text": "{count, plural, one {# côté} other {# côtés}}",
+    "source": "eb5f0207c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sidesHint": {
+    "text": "D’abord tous les côtés de la maison, dans cet ordre. Retirez ceux que cette tuile omet ; avec un seul, elle n’affiche que lui.",
+    "source": "f9cbaf82c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.sidesLabel": {
+    "text": "Côtés",
+    "source": "1c3607d5f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSetting.valuesGroup": {
+    "text": "Valeurs",
+    "source": "53b09e104f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addInstead": {
+    "text": "L’additionner plutôt",
+    "source": "4d7dd9bbbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addReading": {
+    "text": "Ajouter une mesure",
+    "source": "5c6ba93adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.addValue": {
+    "text": "Ajouter une valeur",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.decimals": {
+    "text": "Décimales",
+    "source": "7467291204",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.decimalsAuto": {
+    "text": "Auto",
+    "source": "0286249762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.hint": {
+    "text": "Ouvrez un repère pour voir ce qu’il affiche et le placer sur l’image. Toutes les tuiles de cette maison affichent la même chose.",
+    "source": "13c91e3dc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.homeHint": {
+    "text": "Calculé d’après le réseau, le solaire, la batterie et la voiture : pas besoin d’une mesure propre.",
+    "source": "55537ab940",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.homeTitle": {
+    "text": "Ce que consomme la maison",
+    "source": "423d9dc5dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.label": {
+    "text": "Libellé",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.labelPlaceholder": {
+    "text": "Affiché sous la valeur",
+    "source": "f1461ac248",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.moveDown": {
+    "text": "Descendre",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.moveUp": {
+    "text": "Monter",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.newValue": {
+    "text": "Nouvelle valeur",
+    "source": "7ca9b97db8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.noHomeyText": {
+    "text": "Ses repères affichent des mesures des appareils de ce Homey. Choisissez-le dans la barre ci-dessus pour leur donner des valeurs.",
+    "source": "fd37d40c5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.noHomeyTitle": {
+    "text": "Choisissez le Homey de cette maison",
+    "source": "01d9043229",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.notPlaced": {
+    "text": "{elsewhere, select, yes {Affiché sur un autre côté. Le placer ici aussi ?} other {Sur aucun côté pour l’instant : son contenu apparaîtra une fois placé.}}",
+    "source": "d6b5e056ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.otherHomeyText": {
+    "text": "Passez à ce Homey pour modifier ce qu’affichent ses repères.",
+    "source": "9d13eb1614",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.otherHomeyTitle": {
+    "text": "Cette maison appartient à un autre Homey",
+    "source": "714a34af7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.partState": {
+    "text": "{state, select, off {Non affiché} meters {De vos compteurs} other {Mesures choisies}}",
+    "source": "715a5560f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.placeIt": {
+    "text": "Placer",
+    "source": "c4b48412d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.placedHere": {
+    "text": "Sur ce côté : glissez son épingle pour le déplacer.",
+    "source": "b110cbb7a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.preset": {
+    "text": "{preset, select, terraced {Maison mitoyenne} semi-detached {Maison jumelée} bungalow {Maison de plain-pied} flat {Appartement avec balcon} other {Maison individuelle}}",
+    "source": "18116c8abe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.presetWay": {
+    "text": "Une maison Tiledash",
+    "source": "cdf97e14be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.presetWayHint": {
+    "text": "Partez de l’une des nôtres ; vous pourrez créer la vôtre plus tard.",
+    "source": "5d785ce46b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.readings": {
+    "text": "{count, plural, one {Mesure} many {Mesures, additionnées} other {Mesures, additionnées}}",
+    "source": "37430be2b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.removeReading": {
+    "text": "Retirer cette mesure",
+    "source": "547d6d542f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.removeValue": {
+    "text": "Retirer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.summary": {
+    "text": "{count, plural, =0 {Rien pour l’instant} one {# valeur} many {# valeurs} other {# valeurs}}",
+    "source": "3e3a780569",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.takeOffInstead": {
+    "text": "La soustraire plutôt",
+    "source": "ece552dc0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.todayTitle": {
+    "text": "Totaux du jour",
+    "source": "1aaafdfab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.todayWhere": {
+    "text": "Sous la maison",
+    "source": "b6aaac36a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.valueCount": {
+    "text": "{count}/{max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseSpots.valuesHere": {
+    "text": "{part, select, yes {Aussi ici} other {Valeurs ici}}",
+    "source": "311d1558df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.add": {
+    "text": "Ajouter",
+    "source": "9fd728c66c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.addSide": {
+    "text": "Ajouter un côté",
+    "source": "645525d684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.conflictText": {
+    "text": "Cette maison a été enregistrée dans une autre fenêtre pendant que vous la modifiiez.",
+    "source": "b39507f489",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.conflictTitle": {
+    "text": "Modifiée ailleurs",
+    "source": "719c3d46cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.createFailed": {
+    "text": "Impossible de créer la maison.",
+    "source": "b0738e7ab5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.cropHint": {
+    "text": "Placez les coins autour de la maison et du terrain. Les valeurs s’affichent à côté du cadre : évitez le ciel et la pelouse vides.",
+    "source": "774a64e1f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.cropTitle": {
+    "text": "Recadrer sur la maison",
+    "source": "2784a3226d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.dark": {
+    "text": "Image sombre",
+    "source": "deb1f1da86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.defaultName": {
+    "text": "Ma maison",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.delete": {
+    "text": "Supprimer",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteSide": {
+    "text": "Supprimer ce côté",
+    "source": "3195c7ded9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteText": {
+    "text": "Ses images restent dans vos images. Les tuiles qui l’affichent indiquent qu’elle n’existe plus, jusqu’au choix d’une autre maison.",
+    "source": "976f3bf8ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.deleteTitle": {
+    "text": "Supprimer « {name} » ?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.description": {
+    "text": "Des images de votre maison avec ses repères, pour la tuile Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.empty": {
+    "text": "Aucune maison pour l’instant. Créez-en une pour voir la vôtre sur la tuile Energy house.",
+    "source": "5e7270234c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.full": {
+    "text": "Votre forfait permet {max, plural, one {# maison} other {# maisons}}.",
+    "source": "3df8bcac3b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.getPicture": {
+    "text": "Obtenir une image pour ce côté",
+    "source": "c2312cb95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.homey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.houseName": {
+    "text": "Nom de la maison",
+    "source": "4b11f8bc03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.keepMine": {
+    "text": "Garder ma version",
+    "source": "0335c83325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.limit": {
+    "text": "{count} sur {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.loadFailed": {
+    "text": "Impossible de charger vos maisons.",
+    "source": "af18b4b286",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.missing": {
+    "text": "Cette maison n’existe plus.",
+    "source": "9d0d2722d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.modes": {
+    "text": "{mode, select, crop {Recadrer} spots {Repères} other {Aperçu}}",
+    "source": "888f669298",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.modesLabel": {
+    "text": "Mode d’édition",
+    "source": "0c48e2ed28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.moveEarlier": {
+    "text": "Déplacer à gauche",
+    "source": "6c94221edd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.moveLater": {
+    "text": "Déplacer à droite",
+    "source": "8d60decd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.newHouse": {
+    "text": "Nouvelle maison",
+    "source": "2fa4dfcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.noHomey": {
+    "text": "Aucun Homey",
+    "source": "a51b1462ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.open": {
+    "text": "Ouvrir",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.ownCount": {
+    "text": "Vos repères : {count}/{max}",
+    "source": "3ce32135ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.ownPlaceholder": {
+    "text": "Votre repère : Grenier, Piscine…",
+    "source": "5dae8452de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.paused": {
+    "text": "En pause",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.pausedText": {
+    "text": "Votre forfait permet moins de maisons. Elle n’apparaît nulle part et reste non modifiable.",
+    "source": "c32231057f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.pausedTitle": {
+    "text": "Cette maison est en pause",
+    "source": "95803506fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewHint": {
+    "text": "Votre maison avec des valeurs de démo, comme sur une tuile large. Une valeur s’affiche sur les côtés où son repère est placé.",
+    "source": "2f85d6234e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewTheme": {
+    "text": "{theme, select, dark {Sombre} light {Clair} other {E-ink}}",
+    "source": "5d67b6ed04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.previewTitle": {
+    "text": "Aperçu",
+    "source": "324b134f57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.removeOwn": {
+    "text": "Supprimer ce repère",
+    "source": "62b4e80319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.rename": {
+    "text": "Renommer",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.replace": {
+    "text": "Remplacer l’image",
+    "source": "00d4a157b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.reset": {
+    "text": "Réinitialiser",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sideMenu": {
+    "text": "Menu du côté",
+    "source": "47e9402b4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sideName": {
+    "text": "{n, select, 1 {Avant} 2 {Arrière} 3 {Côté jardin} other {Côté {n}}}",
+    "source": "3c42a514b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sides": {
+    "text": "{count, plural, one {# côté} other {# côtés}}",
+    "source": "eb5f0207c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.sidesLabel": {
+    "text": "Côtés",
+    "source": "1c3607d5f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotName": {
+    "text": "{spot, select, solar {Panneaux solaires} grid {Raccordement réseau} home {La maison} battery {Batterie domestique} car {Voiture} charger {Borne de recharge} meter {Tableau électrique} upstairs {Étage} heat-pump {Pompe à chaleur} garage {Garage} other {Jardin}}",
+    "source": "f8e868c331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotState": {
+    "text": "{state, select, placed {Placé} elsewhere {Sur {sides}} other {Non placé}}",
+    "source": "bb2568d580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotsHint": {
+    "text": "Touchez un repère, puis l’image. Glissez une épingle pour la déplacer.",
+    "source": "88c07cb633",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.spotsTitle": {
+    "text": "Repères",
+    "source": "2bbe9b3560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.status": {
+    "text": "{status, select, saved {Enregistré} saving {Enregistrement…} offline {Hors ligne : enregistré au retour} other {Pas encore enregistré}}",
+    "source": "7b321fa7a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.takeOff": {
+    "text": "Retirer de ce côté",
+    "source": "ebb1f8c2d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.takeTheirs": {
+    "text": "Voir l’autre version",
+    "source": "c90a1e7ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.tapWhere": {
+    "text": "Touchez l’emplacement de « {spot} »",
+    "source": "78aba3efe6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.title": {
+    "text": "Vos maisons",
+    "source": "4897b9f023",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.tryAgain": {
+    "text": "Réessayer",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.upload": {
+    "text": "Importer une image",
+    "source": "80be5675bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadAnother": {
+    "text": "Choisir une autre image",
+    "source": "dc67e28504",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadClose": {
+    "text": "Fermer",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadFailed": {
+    "text": "Impossible d’importer l’image",
+    "source": "a71ec98011",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadHint": {
+    "text": "Une image faite par vous. Vous placez ses repères.",
+    "source": "0ec86062c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadProblem": {
+    "text": "{problem, select, type {Tiledash accepte les images PNG, JPEG et WebP, et ce navigateur n’a pas pu convertir ce fichier. Enregistrez-le en PNG ou JPEG et réessayez.} unreadable {Ce fichier ne s’ouvre pas comme image. Il est peut-être endommagé, ou dans un format que ce navigateur ne lit pas, comme HEIC. Enregistrez-le en PNG ou JPEG et réessayez.} too-big {Une image peut faire au plus {limit} Mo, et celle-ci reste trop lourde même réduite. Essayez une image plus petite.} too-large {Une image peut compter au plus {limit} millions de pixels. Essayez une image plus petite.} limit {Votre compte conserve {limit} images au maximum, et ce nombre est atteint. Supprimez-en une dont vous ne vous servez plus, puis réessayez.} space {Vos images occupent tout l’espace de votre compte ({limit} Mo au total). Supprimez-en une dont vous ne vous servez plus, puis réessayez.} offline {Impossible de joindre Tiledash. Vérifiez votre connexion et réessayez.} other {Un problème est survenu de notre côté pendant l’enregistrement. Réessayez dans un instant.}}",
+    "source": "16e4c46eec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSent": {
+    "text": "{done} sur {total} Mo",
+    "source": "1f66d6f6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSize": {
+    "text": "{size} Mo",
+    "source": "55aa0a3318",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadSmaller": {
+    "text": "{before} Mo → {after} Mo",
+    "source": "5786ffbd17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadStep": {
+    "text": "{step, select, prepare {Préparation de l’image} send {Importation de l’image} other {Ajout à votre maison}}",
+    "source": "d86bb98bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploadTitle": {
+    "text": "Importation de votre image",
+    "source": "5bdedf94b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.uploading": {
+    "text": "Importation…",
+    "source": "5ce44dd77d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.iconPicker.allIcons": {
     "text": "Toutes les icônes",
     "source": "6e63358637",
@@ -3468,8 +4716,8 @@
     "reviewed": false
   },
   "editor.layoutBlocks.tooBig": {
-    "text": "Les images ne peuvent pas dépasser 2 Mo.",
-    "source": "edfadf73e9",
+    "text": "Les images ne peuvent pas dépasser 10 Mo.",
+    "source": "fe8d3a360b",
     "by": "ai",
     "reviewed": false
   },
@@ -3948,8 +5196,8 @@
     "reviewed": false
   },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG ou WebP, jusqu’à 2 Mo. Elles restent dans votre compte et ne s’affichent que sur vos tableaux de bord.",
-    "source": "d7b9dc8b98",
+    "text": "PNG, JPEG ou WebP, jusqu’à 10 Mo. Elles restent dans votre compte et ne s’affichent que sur vos tableaux de bord.",
+    "source": "71afba9cbb",
     "by": "ai",
     "reviewed": false
   },
@@ -4016,6 +5264,114 @@
   "editor.mapPinPicker.hint": {
     "text": "Touchez la carte pour placer le repère.",
     "source": "2618a9da4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.add": {
+    "text": "Ajouter un modèle",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.change": {
+    "text": "Changer",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.community": {
+    "text": "De la communauté",
+    "source": "fb4606a9b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.communityEmpty": {
+    "text": "Les modèles que vous installez depuis la communauté apparaissent ici.",
+    "source": "ed1dd1d620",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.count": {
+    "text": "{count} sur {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.done": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.front": {
+    "text": "Face",
+    "source": "a617590202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.gone": {
+    "text": "Indisponible",
+    "source": "67a926f700",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.how": {
+    "text": "Faites glisser pour le tourner dans tous les sens, même à l’envers. Maj-glisser ou tourner à deux doigts l’incline ; faites défiler ou pincez pour zoomer. Les flèches le tournent aussi.",
+    "source": "8c7ceb9333",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.isometric": {
+    "text": "Isométrique",
+    "source": "d7cde03d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.kit": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.mine": {
+    "text": "Mes modèles",
+    "source": "3720357307",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.noModel": {
+    "text": "Choisissez d’abord un modèle.",
+    "source": "51f54acffc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.nothing": {
+    "text": "Rien ne correspond à « {query} ».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.pick": {
+    "text": "Choisir un modèle",
+    "source": "f159730788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.reset": {
+    "text": "Réinitialiser",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.search": {
+    "text": "Rechercher des modèles",
+    "source": "1042193523",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.modelSetting.top": {
+    "text": "Dessus",
+    "source": "d5cdfcf7ff",
     "by": "ai",
     "reviewed": false
   },
@@ -6167,6 +7523,78 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.picture": {
+    "text": "Image",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureAddress": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFill": {
+    "text": "Remplir",
+    "source": "033955d469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFit": {
+    "text": "Ajustement",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureFitLabel": {
+    "text": "Comment l’image s’ajuste",
+    "source": "7827013d0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureHint": {
+    "text": "Collez l’adresse web d’une image pour l’afficher derrière le contenu.",
+    "source": "4501797528",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureLoad": {
+    "text": "Charger",
+    "source": "8a6bdb6b18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureMixed": {
+    "text": "Les tuiles sélectionnées ont des images différentes. Une nouvelle adresse leur donne la même à toutes.",
+    "source": "53de087850",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureProblem": {
+    "text": "Ce n’est pas une adresse web. Utilisez-en une qui commence par https://",
+    "source": "51b6c41ccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureStrengthLabel": {
+    "text": "Intensité de l’image",
+    "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWhole": {
+    "text": "Entière",
+    "source": "fd55056093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.removePicture": {
+    "text": "Retirer l’image",
+    "source": "1bc6f23b53",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.roundOuter": {
     "text": "Arrondir les coins extérieurs seulement",
     "source": "17bbcd69cf",
@@ -6395,6 +7823,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.partPicture": {
+    "text": "Image",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresetViews.partShadow": {
     "text": "{shadow, select, soft {Ombre douce} lifted {Ombre surélevée} other {Lueur}}",
     "source": "f6f54291dd",
@@ -6452,6 +7886,12 @@
   "editor.stylePresetViews.wordPadding": {
     "text": "marge intérieure",
     "source": "b08c9e29be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePresetViews.wordPicture": {
+    "text": "image",
+    "source": "2cea274d0b",
     "by": "ai",
     "reviewed": false
   },
@@ -7158,8 +8598,8 @@
     "reviewed": false
   },
   "editor.tileMeters.followsBody": {
-    "text": "Les éléments sont les compteurs de vos réglages d’énergie, lus en puissance. Modifiez-en un ici et il devient propre à cette tuile.",
-    "source": "55ff87eede",
+    "text": "Les éléments sont les compteurs définis dans Réglages › Énergie, lus en puissance. Modifiez-en un ici et il devient propre à cette tuile.",
+    "source": "1b55d54411",
     "by": "ai",
     "reviewed": false
   },

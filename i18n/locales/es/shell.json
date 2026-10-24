@@ -251,6 +251,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.keywordsSettings": {
+    "text": "preferencias, configuración, idioma, mapas, alertas, calendarios, PIN, enlaces, IA",
+    "source": "8e3ee0281b",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.keywordsThemes": {
     "text": "tema, colores, fuentes, tipografía, aspecto, estilo",
     "source": "0019d49437",
@@ -314,12 +320,6 @@
   "shell.layout.undo": {
     "text": "Deshacer",
     "source": "a8283ade31",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.layout.whatsNew": {
-    "text": "Novedades",
-    "source": "135e912e89",
     "by": "ai",
     "reviewed": false
   },
@@ -401,9 +401,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.names.profile": {
+    "text": "Perfil",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.names.recordings": {
     "text": "Registros",
     "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.settings": {
+    "text": "Ajustes",
+    "source": "74a883a037",
     "by": "ai",
     "reviewed": false
   },
@@ -923,6 +935,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.settingsNews": {
+    "text": "Ajustes, hay algo nuevo",
+    "source": "ee3f7aba26",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.showItem": {
     "text": "Mostrar {label}",
     "source": "333cda2ed2",
@@ -1151,6 +1169,270 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.allDoneBody": {
+    "text": "Eso es lo esencial. Los tutoriales de tiledash.app van más allá.",
+    "source": "f9a7b327a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.back": {
+    "text": "Atrás",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsBody": {
+    "text": "En la esquina te espera una lista corta de cosas para probar. Hazlas cuando quieras: recuerda por dónde vas.",
+    "source": "7b867a59c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsTitle": {
+    "text": "Eso es lo básico",
+    "source": "e961e52553",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.closeList": {
+    "text": "Cerrar la lista",
+    "source": "5d54f77539",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.endTour": {
+    "text": "Terminar el recorrido",
+    "source": "1674fd183e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.exploreMyself": {
+    "text": "Exploraré por mi cuenta",
+    "source": "3a6ad5ed90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.finish": {
+    "text": "Terminar",
+    "source": "a6c7a84baa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.foldList": {
+    "text": "Plegar la lista",
+    "source": "8bcc3500ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.hideList": {
+    "text": "Ocultar esta lista",
+    "source": "6a45cf67d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeBody": {
+    "text": "Creado con las habitaciones de tu Homey. Los indicadores lo resumen: potencia, luces encendidas y qué está abierto.",
+    "source": "54d6d2890e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeTitle": {
+    "text": "Esta es tu casa",
+    "source": "f33c8e2171",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listCount": {
+    "text": "{done} de {count} hechas",
+    "source": "afaa6fbd47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listDoneTitle": {
+    "text": "Ya sabes moverte por aquí",
+    "source": "156e695402",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listTitle": {
+    "text": "Conoce Tiledash",
+    "source": "ac51cdeaef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.next": {
+    "text": "Siguiente",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsBody": {
+    "text": "Edítalo, añade widgets, elige un tema. Todo empieza aquí.",
+    "source": "12a83eb15e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsTitle": {
+    "text": "Hazlo tuyo",
+    "source": "34ca8a4540",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMe": {
+    "text": "Muéstramelo",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMeAround": {
+    "text": "Muéstrame cómo funciona",
+    "source": "80afe5d95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMyList": {
+    "text": "Mostrar mi lista",
+    "source": "2bae9d2686",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.stepCount": {
+    "text": "{step} de {count}",
+    "source": "91bfb1f611",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.takeTourAgain": {
+    "text": "Repetir el recorrido",
+    "source": "73add5b9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirst": {
+    "text": "Crea tu primer dashboard",
+    "source": "bc78656f71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirstBody": {
+    "text": "El + junto a Dashboards te sugiere uno con las habitaciones de tu Homey.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanel": {
+    "text": "Ponlo en una tableta",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanelBody": {
+    "text": "Un panel de pared muestra tus dashboards a pantalla completa y se atenúa de noche.",
+    "source": "c401018004",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoom": {
+    "text": "Crea un dashboard para una habitación",
+    "source": "02c26184c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoomBody": {
+    "text": "El + junto a Dashboards te sugiere uno con las habitaciones de tu Homey.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitch": {
+    "text": "Enciende o apaga algo",
+    "source": "e3061b1a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitchBody": {
+    "text": "Toca una luz o un enchufe en tu dashboard.",
+    "source": "c359159b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskTheme": {
+    "text": "Prueba un tema",
+    "source": "f73a815232",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskThemeBody": {
+    "text": "Oscuro, claro, e-ink o uno tuyo.",
+    "source": "8569602ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidget": {
+    "text": "Añade un widget",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidgetBody": {
+    "text": "Abre las opciones del dashboard, elige Editar dashboard y luego Añadir un widget.",
+    "source": "8d444afa9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileBody": {
+    "text": "Toca un mosaico para encenderlo o apagarlo. Cambia en tu casa al instante.",
+    "source": "8513c1b809",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTitle": {
+    "text": "Tus dispositivos, en vivo",
+    "source": "38d7f346f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTried": {
+    "text": "¡Ahí va!",
+    "source": "a02b80d95e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTry": {
+    "text": "Pruébalo: toca el mosaico",
+    "source": "5a4c2fe8bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourAgain": {
+    "text": "Puedes repetir el recorrido desde el menú de la cuenta.",
+    "source": "7e86d0748d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tutorials": {
+    "text": "Ver los tutoriales",
+    "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLead": {
+    "text": "Tu Homey está conectado y tu primer dashboard está listo. ¿Quieres ver rápidamente cómo funciona?",
+    "source": "cb5f1aacf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLength": {
+    "text": "3 pasos rápidos y luego una lista corta para probar a tu ritmo",
+    "source": "9cac38bee1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeTitle": {
+    "text": "Te damos la bienvenida a Tiledash",
+    "source": "6ba24886c1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.wallPanels.copyFailed": {
     "text": "No se pudo copiar el enlace",
     "source": "da5f22732b",
@@ -1214,6 +1496,84 @@
   "shell.wallPanels.menuStart": {
     "text": "Iniciar en esta pantalla",
     "source": "3283f24228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoOne": {
+    "text": "Además, {first}",
+    "source": "2c692e9330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoThree": {
+    "text": "Además, {first}, {second} y {third}",
+    "source": "cd47a3ad57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoTwo": {
+    "text": "Además, {first} y {second}",
+    "source": "f11f66df41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.close": {
+    "text": "Cerrar",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowMissed": {
+    "text": "Desde tu última visita · {from} – {to}",
+    "source": "65a095fa5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowOne": {
+    "text": "Nuevo en Tiledash · {version}",
+    "source": "110e5d14af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.fixes": {
+    "text": "{count, plural, one {# corrección} many {# correcciones} other {# correcciones}}",
+    "source": "1d511e2b26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.gotIt": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.improvements": {
+    "text": "{count, plural, one {# mejora} many {# mejoras} other {# mejoras}}",
+    "source": "48198dbb8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.moreNew": {
+    "text": "{count, plural, one {# novedad más} many {# novedades más} other {# novedades más}}",
+    "source": "ff7a931610",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.seeEverything": {
+    "text": "Ver todas las novedades",
+    "source": "fc7c1abd84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.showMe": {
+    "text": "Muéstramelo",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.title": {
+    "text": "Novedades",
+    "source": "37e6112e84",
     "by": "ai",
     "reviewed": false
   }

@@ -251,6 +251,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.keywordsSettings": {
+    "text": "voorkeuren, taal, kaarten, meldingen, agenda’s, PIN, pincode, links, AI",
+    "source": "8e3ee0281b",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.keywordsThemes": {
     "text": "thema, kleuren, lettertypen, lettertypes, uiterlijk, stijl",
     "source": "0019d49437",
@@ -314,12 +320,6 @@
   "shell.layout.undo": {
     "text": "Ongedaan maken",
     "source": "a8283ade31",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.layout.whatsNew": {
-    "text": "Wat is er nieuw",
-    "source": "135e912e89",
     "by": "ai",
     "reviewed": false
   },
@@ -401,9 +401,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.names.profile": {
+    "text": "Profiel",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.names.recordings": {
-    "text": "Opnames",
+    "text": "Vastgelegd",
     "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.settings": {
+    "text": "Instellingen",
+    "source": "74a883a037",
     "by": "ai",
     "reviewed": false
   },
@@ -923,6 +935,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.settingsNews": {
+    "text": "Instellingen, er is iets nieuws",
+    "source": "ee3f7aba26",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.showItem": {
     "text": "{label} tonen",
     "source": "333cda2ed2",
@@ -1151,6 +1169,270 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.allDoneBody": {
+    "text": "Dat was het belangrijkste. De tutorials op tiledash.app gaan verder.",
+    "source": "f9a7b327a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.back": {
+    "text": "Terug",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsBody": {
+    "text": "In de hoek staat een kort lijstje met dingen om te proberen. Doe ze wanneer je wilt; het onthoudt waar je was.",
+    "source": "7b867a59c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsTitle": {
+    "text": "Dat is de basis",
+    "source": "e961e52553",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.closeList": {
+    "text": "Lijst sluiten",
+    "source": "5d54f77539",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.endTour": {
+    "text": "Rondleiding beëindigen",
+    "source": "1674fd183e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.exploreMyself": {
+    "text": "Ik kijk zelf rond",
+    "source": "3a6ad5ed90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.finish": {
+    "text": "Klaar",
+    "source": "a6c7a84baa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.foldList": {
+    "text": "Lijst inklappen",
+    "source": "8bcc3500ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.hideList": {
+    "text": "Deze lijst verbergen",
+    "source": "6a45cf67d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeBody": {
+    "text": "Gemaakt van de kamers in je Homey. Ernaast zie je alles in het kort: vermogen, lampen aan, wat er openstaat.",
+    "source": "54d6d2890e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeTitle": {
+    "text": "Dit is je eerste dashboard",
+    "source": "f33c8e2171",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listCount": {
+    "text": "{done} van {count} klaar",
+    "source": "afaa6fbd47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listDoneTitle": {
+    "text": "Je weet de weg",
+    "source": "156e695402",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listTitle": {
+    "text": "Leer Tiledash kennen",
+    "source": "ac51cdeaef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.next": {
+    "text": "Volgende",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsBody": {
+    "text": "Bewerk het, voeg widgets toe, kies een thema. Alles begint hier.",
+    "source": "12a83eb15e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsTitle": {
+    "text": "Maak het van jou",
+    "source": "34ca8a4540",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMe": {
+    "text": "Laat zien",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMeAround": {
+    "text": "Geef me een rondleiding",
+    "source": "80afe5d95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMyList": {
+    "text": "Toon mijn lijst",
+    "source": "2bae9d2686",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.stepCount": {
+    "text": "{step} van {count}",
+    "source": "91bfb1f611",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.takeTourAgain": {
+    "text": "Rondleiding opnieuw starten",
+    "source": "73add5b9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirst": {
+    "text": "Maak je eerste dashboard",
+    "source": "bc78656f71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirstBody": {
+    "text": "De + naast Dashboards stelt er een voor op basis van de kamers in je Homey.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanel": {
+    "text": "Zet het op een tablet",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanelBody": {
+    "text": "Een wandpaneel toont je dashboards schermvullend en dimt ’s nachts.",
+    "source": "c401018004",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoom": {
+    "text": "Maak een dashboard voor een kamer",
+    "source": "02c26184c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoomBody": {
+    "text": "De + naast Dashboards stelt er een voor op basis van de kamers in je Homey.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitch": {
+    "text": "Zet iets aan of uit",
+    "source": "e3061b1a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitchBody": {
+    "text": "Tik op een lamp of stopcontact op je dashboard.",
+    "source": "c359159b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskTheme": {
+    "text": "Probeer een thema",
+    "source": "f73a815232",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskThemeBody": {
+    "text": "Donker, licht, e-ink of een eigen thema.",
+    "source": "8569602ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidget": {
+    "text": "Voeg een widget toe",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidgetBody": {
+    "text": "Open de opties van het dashboard, kies Dashboard bewerken en dan Widget toevoegen.",
+    "source": "8d444afa9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileBody": {
+    "text": "Tik op een tegel om hem aan of uit te zetten. Je huis reageert meteen.",
+    "source": "8513c1b809",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTitle": {
+    "text": "Je apparaten, live",
+    "source": "38d7f346f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTried": {
+    "text": "Kijk, daar gaat hij.",
+    "source": "a02b80d95e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTry": {
+    "text": "Probeer het: tik op de tegel",
+    "source": "5a4c2fe8bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourAgain": {
+    "text": "Je kunt de rondleiding opnieuw starten via het accountmenu.",
+    "source": "7e86d0748d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tutorials": {
+    "text": "Bekijk de tutorials",
+    "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLead": {
+    "text": "Je Homey is verbonden en je eerste dashboard staat klaar. Wil je snel zien hoe het werkt?",
+    "source": "cb5f1aacf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLength": {
+    "text": "3 korte stappen, daarna een lijstje om in je eigen tempo te proberen",
+    "source": "9cac38bee1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeTitle": {
+    "text": "Welkom bij Tiledash",
+    "source": "6ba24886c1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.wallPanels.copyFailed": {
     "text": "De link kon niet worden gekopieerd",
     "source": "da5f22732b",
@@ -1214,6 +1496,84 @@
   "shell.wallPanels.menuStart": {
     "text": "Op dit scherm starten",
     "source": "3283f24228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoOne": {
+    "text": "Verder {first}",
+    "source": "2c692e9330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoThree": {
+    "text": "Verder {first}, {second} en {third}",
+    "source": "cd47a3ad57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoTwo": {
+    "text": "Verder {first} en {second}",
+    "source": "f11f66df41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.close": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowMissed": {
+    "text": "Sinds je laatste bezoek · {from} – {to}",
+    "source": "65a095fa5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowOne": {
+    "text": "Nieuw in Tiledash · {version}",
+    "source": "110e5d14af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.fixes": {
+    "text": "{count, plural, one {# bugfix} other {# bugfixes}}",
+    "source": "1d511e2b26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.gotIt": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.improvements": {
+    "text": "{count, plural, one {# verbetering} other {# verbeteringen}}",
+    "source": "48198dbb8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.moreNew": {
+    "text": "{count, plural, one {# ander nieuw ding} other {# andere nieuwe dingen}}",
+    "source": "ff7a931610",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.seeEverything": {
+    "text": "Alles wat nieuw is",
+    "source": "fc7c1abd84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.showMe": {
+    "text": "Laat zien",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.title": {
+    "text": "Wat is er nieuw",
+    "source": "37e6112e84",
     "by": "ai",
     "reviewed": false
   }

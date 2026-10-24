@@ -1040,7 +1040,7 @@
     "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
   },
   "floorplans.editor.pictureFailed": {
-    "en": "Couldn’t add that picture. Use a PNG, JPEG or WebP of 2 MB at most.",
+    "en": "Couldn’t add that picture. Use a PNG, JPEG or WebP of 10 MB at most.",
     "context": "Toast when uploading a picture to trace failed. PNG, JPEG and WebP are file types.",
     "maxLength": 110,
     "file": "packages/ui/src/screens/floorplan/floorPlan.messages.ts"
@@ -2231,6 +2231,15 @@
     "maxLength": 140,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
+  "floorplans.models.deleteTiles": {
+    "en": "{count, plural, one {# tile shows it and will say the model is gone.} other {# tiles show it and will say the model is gone.}}",
+    "context": "After the text of the dialog that asks before deleting one of your own 3D models: how many dashboard tiles (Model widgets) show it, and that they will then say it is gone. Only shown when there are some.",
+    "params": {
+      "count": "How many tiles, 1 or more."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
   "floorplans.models.deleteTitle": {
     "en": "Delete {name}?",
     "context": "Title of the dialog that asks before deleting one of your own 3D models.",
@@ -2398,6 +2407,15 @@
     "en": "Not installed: placing it installs it",
     "context": "Screen reader label of the small download mark on a Community model in the furniture catalogue that is not installed yet. Not visible as text.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.onTiles": {
+    "en": "{count, plural, one {on # tile} other {on # tiles}}",
+    "context": "Under a model in the list of your models, after where it is on floor plans: how many dashboard tiles (Model widgets) show it. Lower case; only shown when there are some.",
+    "params": {
+      "count": "How many tiles, 1 or more."
+    },
+    "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.placingInstalls": {
