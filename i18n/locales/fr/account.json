@@ -95,6 +95,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.homeyRemoved": {
+    "text": "{homey} a été supprimé",
+    "source": "3b9b7ebad1",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "Impossible d’enregistrer le code PIN.",
     "source": "c207f0554d",
@@ -122,6 +128,12 @@
   "account.actions.pinTaken": {
     "text": "Ce code PIN est déjà utilisé. Choisissez d’autres chiffres.",
     "source": "96844ac9c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.removeHomeyFailed": {
+    "text": "Impossible de supprimer le Homey",
+    "source": "251427f24f",
     "by": "ai",
     "reviewed": false
   },
@@ -3581,6 +3593,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.logInAgain": {
+    "text": "Se reconnecter",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.noAccess": {
+    "text": "Accès refusé",
+    "source": "9b1f082345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.notOnAccount": {
+    "text": "Absent de votre compte Homey",
+    "source": "3d6718836a",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.paused": {
     "text": "En pause",
     "source": "e159b06187",
@@ -3590,6 +3620,12 @@
   "account.profile.proRoomFor": {
     "text": "Pro en permet {count}.",
     "source": "844482ccc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.removeHomey": {
+    "text": "Supprimer…",
+    "source": "708d25234a",
     "by": "ai",
     "reviewed": false
   },
@@ -3773,6 +3809,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.removeHomey.body": {
+    "text": "Ses tableaux de bord, plans d’étage, écrans muraux et historique enregistré sont <b>définitivement supprimés</b>. Rien ne change sur le Homey lui-même, et vous pourrez le reconnecter plus tard.",
+    "source": "441ed85c3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.removeHomey.keep": {
+    "text": "Le garder",
+    "source": "fdce5da2ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.removeHomey.remove": {
+    "text": "Supprimer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.removeHomey.title": {
+    "text": "Supprimer {homey} ?",
+    "source": "c4216c2234",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.settings.alerts": {
     "text": "Alertes",
     "source": "f62e9267d1",
@@ -3932,6 +3992,18 @@
   "account.settings.recordingsAbout": {
     "text": "Les mesures dont Tiledash garde l’historique.",
     "source": "97630117fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.themes": {
+    "text": "Thèmes",
+    "source": "43ae3265b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.themesAbout": {
+    "text": "L’apparence de Tiledash : choisissez un thème pour cet appareil ou vos tableaux de bord, ou créez le vôtre.",
+    "source": "c15c29d251",
     "by": "ai",
     "reviewed": false
   },

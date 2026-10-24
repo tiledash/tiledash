@@ -104,6 +104,15 @@
     "maxLength": 50,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
+  "account.actions.homeyRemoved": {
+    "en": "{homey} is removed",
+    "context": "Message (toast) after a Homey was removed from Tiledash on Settings › Profile, with its dashboards and history.",
+    "params": {
+      "homey": "The name of the Homey, as the person named it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
   "account.actions.pinFailed": {
     "en": "Couldn’t save the PIN.",
     "context": "Red text on the PIN card when saving or removing the PIN failed, used when no more specific reason is known.",
@@ -132,6 +141,12 @@
     "en": "That PIN is already in use. Pick other digits.",
     "context": "Red text on the PIN card when the digits typed are already the account’s own PIN or one of its other PINs (each PIN must be different).",
     "maxLength": 80,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.removeHomeyFailed": {
+    "en": "The Homey couldn’t be removed",
+    "context": "Shown in the confirmation dialog when removing a Homey from Tiledash failed.",
+    "maxLength": 60,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
   "account.actions.removedDevice": {
@@ -4066,6 +4081,24 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
+  "account.profile.logInAgain": {
+    "en": "Log in again",
+    "context": "Button on a Homey Tiledash may no longer reach: log in with Homey again to allow it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.noAccess": {
+    "en": "No access",
+    "context": "Badge on a Homey that Homey’s service no longer lets Tiledash reach.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.notOnAccount": {
+    "en": "Not on your Homey account",
+    "context": "Badge on a Homey that was removed from, or moved to another, Homey account, so Tiledash can no longer reach it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
   "account.profile.paused": {
     "en": "Paused",
     "context": "Badge on a Homey that is paused on the Free plan: not connected until it is picked to stay.",
@@ -4079,6 +4112,12 @@
       "count": "How many Homeys Pro allows."
     },
     "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.removeHomey": {
+    "en": "Remove…",
+    "context": "Button on a Homey that is no longer on the person’s Homey account: removes it from Tiledash after a confirmation (the dots).",
+    "maxLength": 20,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
   "account.profile.restore": {
@@ -4294,6 +4333,33 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/account/RecordingsSection.messages.ts"
   },
+  "account.removeHomey.body": {
+    "en": "Its dashboards, floor plans, wall panels and recorded history are <b>deleted for good</b>. Nothing changes on the Homey itself, and you can connect it again later.",
+    "context": "Text of the dialog that confirms removing a Homey from Tiledash: what goes with it. A floor plan is a drawing of the home; a wall panel is a tablet showing a dashboard; recorded history is the values kept over time. The tagged part is bold.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/account/RemoveHomeyDialog.messages.ts"
+  },
+  "account.removeHomey.keep": {
+    "en": "Keep it",
+    "context": "Button that closes the dialog without removing the Homey.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/RemoveHomeyDialog.messages.ts"
+  },
+  "account.removeHomey.remove": {
+    "en": "Remove",
+    "context": "Button that removes the Homey from Tiledash for good.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/RemoveHomeyDialog.messages.ts"
+  },
+  "account.removeHomey.title": {
+    "en": "Remove {homey}?",
+    "context": "Title of the dialog that confirms removing one of the person’s Homeys from Tiledash.",
+    "params": {
+      "homey": "The name of the Homey, as the person named it. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/RemoveHomeyDialog.messages.ts"
+  },
   "account.settings.alerts": {
     "en": "Alerts",
     "context": "Name of the settings group that says which devices wake the wall panels with an alert (smoke, water, the doorbell). A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Alerts\".",
@@ -4457,6 +4523,18 @@
     "en": "The readings Tiledash keeps a history of.",
     "context": "Line under the heading of the Recordings settings group.",
     "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.themes": {
+    "en": "Themes",
+    "context": "Name of the settings group with the themes: choosing how Tiledash looks, and your own themes with their editor. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Themes\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.themesAbout": {
+    "en": "How Tiledash looks: pick a theme for this device or your dashboards, or make your own.",
+    "context": "Line under the heading of the Themes settings group. A theme is the set of colours, fonts and shapes the app and dashboards are drawn in.",
+    "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.whatsNew": {

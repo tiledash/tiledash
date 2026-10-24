@@ -560,6 +560,24 @@
     "maxLength": 40,
     "file": "packages/ui/src/components/messages.ts"
   },
+  "common.ui.tabMore": {
+    "en": "More",
+    "context": "Last item of a row of tabs above settings, shown when not every tab fits on the row: it opens a short menu with the tabs that didn’t fit. Short; a noun-like label, not a command.",
+    "maxLength": 12,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.tabMoreLabel": {
+    "en": "More tabs",
+    "context": "Screen reader name of the More item at the end of a row of tabs, which opens a menu with the tabs that didn’t fit on the row. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/messages.ts"
+  },
+  "common.ui.tabNeedsChoice": {
+    "en": "Something to choose",
+    "context": "Small grey text beside a tab’s name in the More menu of a row of tabs, when something in that tab still needs a choice from the person before saving.",
+    "maxLength": 30,
+    "file": "packages/ui/src/components/messages.ts"
+  },
   "common.ui.tabNew": {
     "en": ", something new",
     "context": "Read out by screen readers straight after a tab's name when the tab has a small dot meaning something new happened in it, so \"Alerts, something new\". Starts with a comma on purpose: it is joined to the tab name as a pause. Not visible as text.",

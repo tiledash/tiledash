@@ -1937,6 +1937,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.leadLayout": {
+    "text": "Wie die Kacheln den Bildschirm füllen, wo sie liegen können, und der Titel.",
+    "source": "8bac93e326",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadLook": {
+    "text": "Das Design des Dashboards.",
+    "source": "d1496e10f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadPopups": {
+    "text": "Was sich von selbst über dem Dashboard öffnet, wenn etwas passiert.",
+    "source": "7195ca2376",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadSpacing": {
+    "text": "Der Abstand zwischen den Kacheln und um sie herum.",
+    "source": "59d1dd31b0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.marginLarge": {
     "text": "Groß",
     "source": "ab80540d98",
@@ -2852,6 +2876,12 @@
   "editor.headingSettings.pickedCount": {
     "text": "{picked, number} von {total, number} gewählt",
     "source": "fec394b594",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.headingSettings.preview": {
+    "text": "So wird es aussehen",
+    "source": "c0065e0e60",
     "by": "ai",
     "reviewed": false
   },
@@ -9803,6 +9833,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.aboveTilesHeading": {
+    "text": "Über den Kacheln",
+    "source": "45021a758c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.afterMinutes": {
     "text": "{minutes, plural, one {Nach # Minute} other {Nach # Minuten}}",
     "source": "18a94587f6",
@@ -9812,6 +9848,18 @@
   "editor.wallPanel.afterSeconds": {
     "text": "{seconds, plural, one {Nach # Sekunde} other {Nach # Sekunden}}",
     "source": "f7c9b3506b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.alertsHeading": {
+    "text": "Alarme",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.behaviourHeading": {
+    "text": "Verhalten",
+    "source": "12b98040fa",
     "by": "ai",
     "reviewed": false
   },
@@ -9845,9 +9893,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.wallPanel.dashboardsHeading": {
-    "text": "Dashboards auf diesem Wandpanel",
-    "source": "ee9f394df1",
+  "editor.wallPanel.dashboardsLead": {
+    "text": "Die Dashboards, zwischen denen Sie wischen, in dieser Reihenfolge. Es startet immer mit seinem Haupt-Dashboard.",
+    "source": "0dd4e7929d",
     "by": "ai",
     "reviewed": false
   },
@@ -9935,6 +9983,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.generalLead": {
+    "text": "Wie es heißt, womit es startet und der Link, den ein Tablet öffnet.",
+    "source": "43b1eaa803",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Bildschirm aktiv halten",
     "source": "24c4f08d7d",
@@ -9953,6 +10007,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.languageLead": {
+    "text": "Sprache und Formate auf diesem Wandpanel. Es folgt Ihrem Konto, außer Sie wählen andere.",
+    "source": "b82acc09da",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.linkHint": {
     "text": "Dieser Link startet das Wandpanel sofort. Ein Tablet, das ihn beim Start öffnet, wird so von selbst zum Wandpanel.",
     "source": "9ce247084c",
@@ -9968,6 +10028,12 @@
   "editor.wallPanel.linkNone": {
     "text": "Der Link erscheint, sobald das Wandpanel gespeichert ist.",
     "source": "b0096a7356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.mainFixedHint": {
+    "text": "Immer zuerst. Ein anderes wählen Sie unter „Allgemein“.",
+    "source": "48b21e2021",
     "by": "ai",
     "reviewed": false
   },
@@ -10004,6 +10070,48 @@
   "editor.wallPanel.saved": {
     "text": "„{name}“ gespeichert",
     "source": "b1fc17cdc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.screenLead": {
+    "text": "Wie es den Bildschirm füllt und was darauf erscheint.",
+    "source": "34ff3b2093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionDashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionGeneral": {
+    "text": "Allgemein",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionLanguage": {
+    "text": "Sprache und Region",
+    "source": "003e875495",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionScreen": {
+    "text": "Bildschirm",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionSleep": {
+    "text": "Schlafmodus und Alarme",
+    "source": "88ef093dbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sections": {
+    "text": "Wandpanel-Einstellungen",
+    "source": "9851c0258e",
     "by": "ai",
     "reviewed": false
   },
@@ -10061,6 +10169,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.sleepLead": {
+    "text": "Was es tut, wenn niemand es berührt, und wenn etwas Ihre Aufmerksamkeit braucht.",
+    "source": "1bc487141a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.sleepScreenTag": {
     "text": "Schlafbildschirm",
     "source": "d7a9903ab7",
@@ -10091,21 +10205,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.startsOnHint": {
+    "text": "Hiermit startet es, und hierhin kehrt es zurück, wenn es aufwacht.",
+    "source": "f22d8fac01",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.swipeHint": {
-    "text": "Wischen Sie zwischen diesen {count}, in der Reihenfolge der Seitenleiste; Punkte unten zeigen, wo Sie sind.",
-    "source": "1bdbd11b0e",
+    "text": "Wischen Sie zwischen diesen {count} in dieser Reihenfolge; Punkte unten zeigen, wo Sie sind.",
+    "source": "84da8c7702",
     "by": "ai",
     "reviewed": false
   },
   "editor.wallPanel.swipeOnlyHint": {
-    "text": "Nur {name}: Wählen Sie weitere aus, um zwischen ihnen zu wischen.",
-    "source": "5693a138fb",
+    "text": "Nur {name}: Fügen Sie weitere hinzu, um zwischen ihnen zu wischen.",
+    "source": "ba3d3fea7f",
     "by": "ai",
     "reviewed": false
   },
   "editor.wallPanel.theDashboard": {
     "text": "das Dashboard",
     "source": "5f142b7c15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.thenSwipesTo": {
+    "text": "Danach per Wischen",
+    "source": "754393d45e",
     "by": "ai",
     "reviewed": false
   },
@@ -10508,6 +10634,48 @@
   "editor.widgetSettings.headingWhatItShows": {
     "text": "Was sie zeigt",
     "source": "8e7ddf931c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadChart": {
+    "text": "Das kleine Verlaufsdiagramm auf der Kachel.",
+    "source": "aadb6bd4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadContent": {
+    "text": "Was die Kachel zeigt: ihre Geräte, Werte oder Text.",
+    "source": "3cdaf97c8a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadLayout": {
+    "text": "Wie die Teile der Kachel angeordnet sind.",
+    "source": "2df3f5360d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadLook": {
+    "text": "Wie die Kachel aussieht: das Widget, das sie zeigt, Farben und Nachkommastellen.",
+    "source": "87c0584072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadMap": {
+    "text": "Eine Karte hinter der Kachel, rund um den Ort des Geräts.",
+    "source": "c2148de4b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadShow": {
+    "text": "Ob die Kachel immer auf dem Dashboard ist oder nur, wenn etwas zutrifft.",
+    "source": "5960707e25",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadTap": {
+    "text": "Was passiert, wenn Sie auf die Kachel tippen.",
+    "source": "8c18f211fd",
     "by": "ai",
     "reviewed": false
   },

@@ -2125,6 +2125,30 @@
     "maxLength": 12,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
+  "editor.dashboardSettings.leadLayout": {
+    "en": "How the tiles fill the screen, where they can go, and the title.",
+    "context": "Short line at the top of the Layout tab of the dashboard settings dialog (tabs above the settings): fitting the dashboard to the screen, placing tiles freely, and its title.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.leadLook": {
+    "en": "The dashboard’s theme.",
+    "context": "Short line at the top of the Look tab of the dashboard settings dialog (tabs above the settings): the colour theme of this dashboard.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.leadPopups": {
+    "en": "What opens over the dashboard by itself when something happens.",
+    "context": "Short line at the top of the Popups tab of the dashboard settings dialog (tabs above the settings): popups that open on their own on an event, such as the doorbell’s camera when it rings.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.leadSpacing": {
+    "en": "The room between the tiles, and around them.",
+    "context": "Short line at the top of the Spacing tab of the dashboard settings dialog (tabs above the settings), saying what is in it.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
   "editor.dashboardSettings.marginLarge": {
     "en": "Large",
     "context": "Choice in the row for the room around the dashboard: a large margin. A short word on a segmented button, the largest choice.",
@@ -2886,7 +2910,7 @@
     "en": "Add",
     "context": "Button with a plus icon that opens a menu to add a summary (such as \"Lights on\" or a reading) to the list.",
     "maxLength": 14,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.addGesture": {
     "en": "{gesture, select, hold {Add hold} double {Add double tap} other {Add tap}}",
@@ -2895,175 +2919,175 @@
       "gesture": "Which gesture: \"hold\" or \"double\" (a double tap). Not shown."
     },
     "maxLength": 90,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.addReading": {
     "en": "A reading…",
     "context": "Last item of the Add menu, after the ready-made summaries: it adds a summary that shows one reading, such as a device’s temperature, an energy value or a variable. The dots mean the person picks which one next.",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.alignCentre": {
     "en": "Centre",
     "context": "Choice of the segmented control \"Alignment\": the heading’s title is placed in the middle of the row.",
     "maxLength": 14,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.alignLeft": {
     "en": "Left",
     "context": "Choice of the segmented control \"Alignment\": the heading’s title is placed at the left (the start) of the row.",
     "maxLength": 14,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.alignment": {
     "en": "Alignment",
     "context": "Label of the choice between Left and Centre: where the heading’s title sits. Also its screen reader label.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.caption": {
     "en": "Caption",
     "context": "Label of the text field for a heading’s caption: small text shown after the title.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.captionHint": {
     "en": "Small text after the title. Optional.",
     "context": "Help text under the field \"Caption\". Optional means the person may leave it empty.",
     "maxLength": 50,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.captionPlaceholder": {
     "en": "ground floor",
     "context": "Example shown faintly in the empty caption field: a floor of a house, in lower case, to show what a caption can be.",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.changeIcon": {
     "en": "Change the icon",
     "context": "Screen reader label (tooltip) of the round button that shows the summary’s icon and opens the icon picker.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.dashboardSummaries": {
     "en": "Dashboard summaries",
-    "context": "Title of the drawer that sets up the summaries shown under the dashboard’s name, about everything on the dashboard. A summary is a small pill with a live fact, such as \"3 lights on\".",
+    "context": "Title of the dialog that sets up the summaries shown under the dashboard’s name, about everything on the dashboard. A summary is a small pill with a live fact, such as \"3 lights on\".",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.decimals": {
     "en": "Decimals",
     "context": "Label above the picker for how many digits after the decimal point a number shows. Also its screen reader label.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.descriptionHeading": {
     "en": "A title for the tiles below it, with live facts about them.",
-    "context": "Description under the title of the drawer for a heading: a title over the tiles below it, with live facts (summaries) about those tiles.",
+    "context": "Description under the title of the dialog for a heading: a title over the tiles below it, with live facts (summaries) about those tiles.",
     "maxLength": 90,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.descriptionTitle": {
     "en": "Live facts under the dashboard’s name, about everything on it.",
-    "context": "Description under the title of the drawer for the dashboard’s own summaries: what summaries are and where they appear. \"Live facts\" are small pills that count or show things, such as \"3 lights on\".",
+    "context": "Description under the title of the dialog for the dashboard’s own summaries: what summaries are and where they appear. \"Live facts\" are small pills that count or show things, such as \"3 lights on\".",
     "maxLength": 90,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.empty": {
     "en": "Show totals, counts or alarms next to the title, like power use, lights on or whether a smoke detector went off.",
     "context": "Help text shown while the list of summaries is empty: examples of what summaries can show. A summary is a small pill with a live fact.",
     "maxLength": 150,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.fieldReadingPick": {
     "en": "Pick a reading to show.",
     "context": "Orange note under the reading picker while no reading is chosen yet: the summary needs one to be saved.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.gestureDouble": {
     "en": "Double tap",
     "context": "Label of the dropdown that chooses what a double tap on a summary pill does. A noun.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.gestureHold": {
     "en": "Hold",
     "context": "Label of the dropdown that chooses what holding a summary pill (a long press) does. A noun.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.gestureTap": {
     "en": "Tap",
     "context": "Label of the dropdown that chooses what a single tap on a summary pill does. A noun.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.heading": {
     "en": "Heading",
-    "context": "Title of the drawer when the heading’s own title is shown, and the name of its first tab, which holds the title, caption and alignment. A heading is a title above a group of tiles.",
+    "context": "Title of the dialog when the heading’s own title is shown, and the name of its first tab, which holds the title, caption and alignment. A heading is a title above a group of tiles.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.headingSettings": {
     "en": "Heading settings",
-    "context": "Screen reader label of the two tabs of the drawer (Heading and Summaries). Not visible as text.",
+    "context": "Screen reader label of the two tabs of the dialog (Heading and Summaries). Not visible as text.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.icon": {
     "en": "Icon",
     "context": "Screen reader label of the icon picker in the popover of a summary’s icon.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.label": {
     "en": "Label",
     "context": "Placeholder and screen reader label of the field for the pill’s text label, used when the summary has no standard label to show faintly.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.looks": {
     "en": "Looks",
     "context": "Label above the icon button and the label field of the Look tab: how the pill looks. Plural, as in \"the looks\".",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.moveDown": {
     "en": "Move down",
     "context": "Screen reader label (tooltip) of a small arrow button that moves a summary one step down in the list.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.moveUp": {
     "en": "Move up",
     "context": "Screen reader label (tooltip) of a small arrow button that moves a summary one step up in the list.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.name": {
     "en": "Name",
     "context": "Label of the text field for the name of a heading that shows no title: a name only the person sees, to tell the row apart while editing.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.nameHint": {
     "en": "Not shown on the dashboard; it names the row while editing.",
     "context": "Help text under the field \"Name\" of a heading that shows no title: the name is for the editing screen only. \"The row\" is the heading’s row of summaries.",
     "maxLength": 80,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.namePlaceholder": {
     "en": "Summaries",
     "context": "Example shown faintly in the empty name field of a heading without a title: a name for a row of summaries.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.noLabel": {
     "en": "No label, just the value",
     "context": "Label of a checkbox on a summary that shows one reading: when ticked the pill shows only the value, without a text label.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.nothingMatches": {
     "en": "Nothing matches “{query}”.",
@@ -3072,31 +3096,31 @@
       "query": "What the person typed in the search box. Not translated."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.onlyYes": {
     "en": "Only while it’s yes",
     "context": "Label of a checkbox on a summary that shows a yes/no variable: when ticked the pill is only shown while the variable is yes, and hidden otherwise.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.pickAtLeastOne": {
     "en": "Pick at least one device.",
     "context": "Orange note under the list of devices while none is ticked: the summary needs at least one to be saved.",
     "maxLength": 50,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.pickDevices": {
     "en": "Pick devices",
     "context": "Orange note on the row of a summary that counts devices but has none chosen yet: it cannot be saved until at least one is picked.",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.pickReading": {
     "en": "Pick a reading",
     "context": "Orange note on the row of a summary that shows one reading but has none chosen yet: it cannot be saved until one is picked.",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.pickedCount": {
     "en": "{picked, number} of {total, number} picked",
@@ -3106,37 +3130,43 @@
       "total": "How many devices can be picked. A number."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
+  },
+  "editor.headingSettings.preview": {
+    "en": "How it will look",
+    "context": "Screen reader name of the preview beside a heading’s settings: the heading drawn as it will show on the dashboard, with its summaries live. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.readingTapDevices": {
     "en": "Open the device",
     "context": "Choice of what tapping a summary pill that shows one device’s reading does: open that device.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.readingTapHistory": {
     "en": "Show its history",
     "context": "Choice of what tapping a summary pill that shows one device’s reading does: open a chart of how that reading changed over time. \"Its\" is the reading’s.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.readingTapSwitch": {
     "en": "Switch it",
     "context": "Choice of what tapping a summary pill that shows one device’s reading does: switch that device on or off. \"It\" is the device.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.remove": {
     "en": "Remove",
     "context": "Screen reader label (tooltip) of the small trash button at the end of a summary’s row: it removes the summary.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.room": {
     "en": "Room",
     "context": "Screen reader label of the dropdown that chooses the room whose devices a summary counts. Not visible as text.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowHostEnergy": {
     "en": "{label} · Energy",
@@ -3145,13 +3175,13 @@
       "label": "The name of the value, such as \"Grid power\". Comes from the Homey’s energy data; not translated here."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowHostMissing": {
     "en": "Energy · not on this Homey",
     "context": "Name of the row of a summary that shows an energy value this Homey does not have (for example the energy settings changed).",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowHostPrices": {
     "en": "{label} · Prices",
@@ -3160,19 +3190,19 @@
       "label": "The name of the value, such as \"Price now\". Comes from the Homey’s energy data; not translated here."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowReading": {
     "en": "Reading",
     "context": "Name of a summary’s row in the list when it shows one reading that has not been chosen yet. A noun.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowReadingGone": {
     "en": "Reading · removed from Homey",
     "context": "Name of the row of a summary that shows a reading of a device that has been removed from the Homey or no longer has that reading.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowReadingOf": {
     "en": "{title} · {device}",
@@ -3182,7 +3212,7 @@
       "title": "What is read, such as \"Temperature\". Comes from the device’s data; not translated here."
     },
     "maxLength": 80,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowVariable": {
     "en": "{name} · Variable",
@@ -3191,187 +3221,187 @@
       "name": "The name of the variable, as set in the Homey. Not translated."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.rowVariableGone": {
     "en": "Variable · removed from Homey",
     "context": "Name of the row of a summary that shows a Logic variable that has been removed from the Homey.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.scopeDashboard": {
     "en": "This dashboard",
-    "context": "Choice of the segmented control \"Which devices\" in the drawer of the dashboard’s own summaries: the summary counts every device on the dashboard.",
+    "context": "Choice of the segmented control \"Which devices\" in the dialog of the dashboard’s own summaries: the summary counts every device on the dashboard.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.scopeDevices": {
     "en": "Devices",
     "context": "Choice of the segmented control \"Which devices\": the summary counts only devices the person ticks one by one.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.scopeRoom": {
     "en": "A room",
     "context": "Choice of the segmented control \"Which devices\": the summary counts only the devices of one room of the house. A dropdown for the room follows.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.scopeSection": {
     "en": "This section",
-    "context": "Choice of the segmented control \"Which devices\" in the drawer of a heading: the summary counts the devices of the tiles under this heading (until the next heading).",
+    "context": "Choice of the segmented control \"Which devices\" in the dialog of a heading: the summary counts the devices of the tiles under this heading (until the next heading).",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.searchLabel": {
     "en": "Search devices",
     "context": "Screen reader label of the search box above the list of devices. Not visible as text.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.searchPlaceholder": {
     "en": "Search devices or rooms",
     "context": "Placeholder of the search box above the list of devices a summary can count. Typing narrows the list by device or room name.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.settingsOfSummary": {
     "en": "Settings of this summary",
     "context": "Screen reader label of the group of three small tabs (Reading or Devices, Look, Tap) of an opened summary. Not visible as text.",
     "maxLength": 40,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.showTitle": {
     "en": "Show the title",
     "context": "Label of a switch: whether the heading shows its title text. Also the switch’s screen reader label.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.showTitleHint": {
     "en": "Off: just the summaries, as a row of live facts.",
     "context": "Small help text under the switch \"Show the title\". \"Off\" is the state of that switch. Without the title the heading is only the row of summaries (small pills with live facts).",
     "maxLength": 70,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.summaries": {
     "en": "Summaries",
-    "context": "Title of the drawer when the heading shows no title, the name of the tab that holds the list of summaries, and the heading of that list for screen readers. A summary is a small pill with a live fact, such as \"3 lights on\".",
+    "context": "Title of the dialog when the heading shows no title, the name of the tab that holds the list of summaries, and the heading of that list for screen readers. A summary is a small pill with a live fact, such as \"3 lights on\".",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tabDevices": {
     "en": "Devices",
     "context": "Name of the first small tab of an opened summary that counts devices, where it is chosen which devices. Also the label above its content.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tabLook": {
     "en": "Look",
     "context": "Name of the second small tab of an opened summary: how the pill looks (icon, label, number of decimals). A noun.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tabReading": {
     "en": "Reading",
     "context": "Name of the first small tab of an opened summary that shows one reading (a device’s value, an energy value or a variable), where the reading is picked. Also the label above its content. A noun.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tabTap": {
     "en": "Tap",
     "context": "Name of the third small tab of an opened summary: what happens when the pill is tapped, held or double tapped. A noun.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapChart": {
     "en": "Show the chart",
     "context": "Choice of what tapping a summary pill that shows an energy or price value does: open that value’s chart.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapDashboard": {
     "en": "Open a dashboard",
     "context": "Choice of what tapping a summary pill does: open another dashboard.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapDefault": {
     "en": "Default",
     "context": "Small grey hint beside the choice of a tap action that is what the pill does when nothing is changed.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapDetails": {
     "en": "Show the list",
     "context": "Choice of what tapping a summary pill does: open a list with the details of what it shows.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapDevices": {
     "en": "Show the devices",
     "context": "Choice of what tapping a summary pill does: open a list of the devices it counts. The summary counts several devices.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapFlow": {
     "en": "Start a flow",
     "context": "Choice of what tapping a summary pill does: start a Flow of the Homey. Flow is the Homey feature for automations and stays as it is.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapHistory": {
     "en": "Show the history",
     "context": "Choice of what tapping a summary pill does: open a chart of how its value changed over time.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapNone": {
     "en": "Nothing",
     "context": "Choice of what tapping (or holding, or double tapping) a summary pill does: nothing at all.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapSwitch": {
     "en": "Switch them all",
     "context": "Choice of what tapping a summary pill does: switch all the devices it counts on or off together. \"Them\" are the devices of the summary.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.title": {
     "en": "Title",
     "context": "Label of the text field for the heading’s title, which is shown above the tiles.",
     "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.useDefaultIcon": {
     "en": "Use the default icon",
     "context": "Small button in the icon picker popover that goes back to the icon the summary has by itself, shown while a different icon is chosen.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.whenYes": {
     "en": "When it is yes",
     "context": "Label above a field on a summary that shows a yes/no variable: what the pill says while the variable is yes (true).",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.whenYesAria": {
     "en": "When it is yes, show",
     "context": "Screen reader label of the field \"When it is yes\": the word the pill shows while the variable is yes. Read as a short sentence start. Not visible as text.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.whichDevices": {
     "en": "Which devices",
     "context": "Screen reader label of the choice between \"This section\" (or \"This dashboard\"), \"A room\" and \"Devices\": which devices the summary counts. Not visible as text.",
     "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.yesPlaceholder": {
     "en": "Yes",
     "context": "Example shown faintly in the empty field \"When it is yes\": the standard word shown while a yes/no variable is yes.",
     "maxLength": 14,
-    "file": "packages/ui/src/dashboard/HeadingSettingsDrawer.messages.ts"
+    "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.hiddenTiles.heading": {
     "en": "Heading",
@@ -10886,6 +10916,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/dashboard/variablesNotice.messages.ts"
   },
+  "editor.wallPanel.aboveTilesHeading": {
+    "en": "Above the tiles",
+    "context": "Small heading in the Screen section of the wall panel dialog, above the switches for showing the dashboard’s name and summaries, and the time, over the tiles.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.afterMinutes": {
     "en": "{minutes, plural, one {After # minute} other {After # minutes}}",
     "context": "Choice in a dropdown that sets a time: the panel falls asleep after this many minutes without a touch, such as \"After 5 minutes\".",
@@ -10902,6 +10938,18 @@
       "seconds": "The number of seconds, 1 or more."
     },
     "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.alertsHeading": {
+    "en": "Alerts",
+    "context": "Small heading in the Sleep & alerts section of the wall panel dialog, above the Wake for alerts switch. A noun.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.behaviourHeading": {
+    "en": "Behaviour",
+    "context": "Small heading in the Screen section of the wall panel dialog, above the settings for full screen, keeping the screen on and closing popups. A noun.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.closePopups": {
@@ -10934,10 +10982,10 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
-  "editor.wallPanel.dashboardsHeading": {
-    "en": "Dashboards on this panel",
-    "context": "Heading above the list of dashboards with ticks, and the name of that list for screen readers. The ticked dashboards can be swiped between on the panel.",
-    "maxLength": 40,
+  "editor.wallPanel.dashboardsLead": {
+    "en": "The dashboards a swipe moves between, in this order. It always starts on its main dashboard.",
+    "context": "Short line at the top of the Dashboards section of the wall panel dialog. The panel swipes between the listed dashboards in the order shown; its main dashboard always comes first.",
+    "maxLength": 130,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.defaultName": {
@@ -11033,6 +11081,12 @@
     "maxLength": 70,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.generalLead": {
+    "en": "What it’s called, where it starts, and the link a tablet opens.",
+    "context": "Short line at the top of the General section of the wall panel dialog, saying what is in it: the panel’s name, the dashboard it starts on and the link to open on a tablet.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.keepOn": {
     "en": "Keep the screen on",
     "context": "Label of a switch in the wall panel dialog, also its name for screen readers. While the panel shows, the screen does not dim or lock.",
@@ -11051,6 +11105,12 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.languageLead": {
+    "en": "Words and formats on this panel. It follows your account unless you pick others.",
+    "context": "Short line at the top of the Language & region section of the wall panel dialog. The panel uses the account’s language and formats unless others are picked here.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.linkHint": {
     "en": "Opening this link starts the panel straight away, so a tablet that opens it on start runs the panel on its own.",
     "context": "Help text under the panel’s link. Opening the link runs the panel at once, so a tablet set to open it at start-up becomes a wall panel by itself.",
@@ -11067,6 +11127,12 @@
     "en": "The link appears once the panel is saved.",
     "context": "Shown in place of the panel’s link while the panel is new and not saved yet.",
     "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.mainFixedHint": {
+    "en": "Always first. Pick another under General.",
+    "context": "Small text on the first, fixed row of the panel’s dashboard list (its main dashboard), which can’t be moved or removed. Another main dashboard is picked in the General section, under Starts on.",
+    "maxLength": 70,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.nameLabel": {
@@ -11106,6 +11172,48 @@
       "name": "The name of the wall panel. Not translated."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.screenLead": {
+    "en": "How it fills the screen, and what shows on it.",
+    "context": "Short line at the top of the Screen section of the wall panel dialog.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sectionDashboards": {
+    "en": "Dashboards",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the dashboards the panel swipes between, in their order.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sectionGeneral": {
+    "en": "General",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the panel’s name, the dashboard it starts on and its link.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sectionLanguage": {
+    "en": "Language & region",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the panel’s own language and its way of writing dates, times and numbers.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sectionScreen": {
+    "en": "Screen",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the layout, what shows above the tiles, full screen, keeping the screen on, popups and the e-ink mode. A noun.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sectionSleep": {
+    "en": "Sleep & alerts",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): what the panel does when nobody touches it (falls asleep to another dashboard) and whether alerts wake it. Nouns.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.sections": {
+    "en": "Wall panel settings",
+    "context": "Name of the row of tabs of the wall panel dialog (General, Dashboards, Screen…), read out by screen readers. Not visible as text.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.shift": {
@@ -11162,9 +11270,15 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.sleepLead": {
+    "en": "What it does when nobody touches it, and when something needs your attention.",
+    "context": "Short line at the top of the Sleep & alerts section of the wall panel dialog: falling asleep when untouched, and waking for alerts (smoke, a leak, the doorbell…).",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.sleepScreenTag": {
     "en": "Sleep screen",
-    "context": "Small tag beside the dashboard in the list that the panel shows while it sleeps, such as a big clock.",
+    "context": "Small text beside a dashboard in the list of dashboards to add to the panel: the panel shows this one while it sleeps, such as a big clock.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
@@ -11182,7 +11296,7 @@
   },
   "editor.wallPanel.startsHere": {
     "en": "Starts here",
-    "context": "Small tag beside the dashboard in the list that the panel starts on (it is the main dashboard and always on the panel).",
+    "context": "Small tag on the first row of the panel’s dashboard list: the dashboard the panel starts on (its main dashboard, always first on the panel).",
     "maxLength": 20,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
@@ -11192,9 +11306,15 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.startsOnHint": {
+    "en": "Where it starts, and where it goes back to when it wakes up.",
+    "context": "Help text under the Starts on dropdown of the wall panel dialog: the panel starts on this dashboard and returns to it when it wakes from sleep.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.swipeHint": {
-    "en": "Swipe between these {count}, in sidebar order; dots at the bottom show where you are.",
-    "context": "Help text under the list of dashboards on the panel when there are two or more. The panel swipes between them in the order of the sidebar, and a row of dots at the bottom shows which one is on screen.",
+    "en": "Swipe between these {count} in this order; dots at the bottom show where you are.",
+    "context": "Help text under the list of dashboards on the panel when there are two or more. The panel swipes between them in the order of the list, and a row of dots at the bottom shows which one is on screen.",
     "params": {
       "count": "How many dashboards are on the panel, at least 2."
     },
@@ -11202,8 +11322,8 @@
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.swipeOnlyHint": {
-    "en": "Only {name}: tick more to swipe between them.",
-    "context": "Help text under the list of dashboards on the panel when only its main dashboard is on it. Ticking more dashboards lets the panel swipe between them.",
+    "en": "Only {name}: add more to swipe between them.",
+    "context": "Help text under the list of dashboards on the panel when only its main dashboard is on it. Adding more dashboards to the list lets the panel swipe between them.",
     "params": {
       "name": "The name of the panel’s main dashboard. Not translated."
     },
@@ -11213,6 +11333,12 @@
   "editor.wallPanel.theDashboard": {
     "en": "the dashboard",
     "context": "Stand-in used inside a sentence of the Layout setting, in place of the name of the panel’s main dashboard, when that name is not known yet. Reads as \"…on the dashboard\". Lower case, no capital.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.thenSwipesTo": {
+    "en": "Then swipes to",
+    "context": "Label above the list of the other dashboards on a wall panel, in the order a swipe reaches them after the main dashboard. Rows can be moved up and down, removed and added.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
@@ -11666,6 +11792,48 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },
+  "editor.widgetSettings.leadChart": {
+    "en": "The small history chart on the tile.",
+    "context": "Short line at the top of the Chart tab of a tile’s settings (tabs above the settings): a small chart of recent values drawn on the tile.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadContent": {
+    "en": "What the tile shows: its devices, values or text.",
+    "context": "Short line at the top of the Content tab of a tile’s settings (tabs above the settings), saying what is in it.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadLayout": {
+    "en": "How the parts of the tile are arranged.",
+    "context": "Short line at the top of the Layout tab of a tile’s settings (tabs above the settings), saying what is in it.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadLook": {
+    "en": "How the tile looks: the widget that shows it, its colours and decimals.",
+    "context": "Short line at the top of the Look tab of a tile’s settings (tabs above the settings). The widget is one of the looks offered for the tile, such as a dial or a bar; the same word as the list of looks there.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadMap": {
+    "en": "A map behind the tile, around where the device is.",
+    "context": "Short line at the top of the Map tab of a tile’s settings (tabs above the settings): a map drawn behind the tile, around the device’s location.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadShow": {
+    "en": "Whether the tile is always on the dashboard, or only when something applies.",
+    "context": "Short line at the top of the When to show tab of a tile’s settings (tabs above the settings): the tile can always show, or only under conditions.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadTap": {
+    "en": "What happens when you tap the tile.",
+    "context": "Short line at the top of the Tap tab of a tile’s settings (tabs above the settings). Tap as in touching or clicking the tile.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
   "editor.widgetSettings.looksLabel": {
     "en": "Widget",
     "context": "Screen reader label of the list of looks (other widgets that can show the same device) in the settings of a tile. Not visible as text. A widget is a tile design.",
@@ -11698,7 +11866,7 @@
   },
   "editor.widgetSettings.tabsLabel": {
     "en": "Settings",
-    "context": "Screen reader label of the row of tabs at the top of the settings of a tile (Content, Look, Tap…). Not visible as text.",
+    "context": "Screen reader label of the row of tabs of a tile’s settings (Content, Look, Tap…). Not visible as text.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },

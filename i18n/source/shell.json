@@ -161,6 +161,42 @@
     "maxLength": 50,
     "file": "apps/web/src/account/useConnectedApps.messages.ts"
   },
+  "shell.homeyProblem.dismiss": {
+    "en": "Hide for now",
+    "context": "Label of the close button of the banner; it comes back on the next visit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
+  "shell.homeyProblem.logIn": {
+    "en": "Log in with Homey",
+    "context": "Button in the banner that starts the login with the Homey account again, after which Tiledash tries the Homey again.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
+  "shell.homeyProblem.noAccess": {
+    "en": "<b>Tiledash isn’t allowed to reach {homey} any more.</b> Log in with Homey again and allow access to it.",
+    "context": "Banner when Homey’s service refuses Tiledash access to one of the person’s Homeys (a permission was taken away). Logging in again lets them allow it. The tagged part is bold.",
+    "params": {
+      "homey": "The name of the Homey, as the person named it (\"Holiday home\"). Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
+  "shell.homeyProblem.notOnAccount": {
+    "en": "<b>{homey} is no longer on your Homey account,</b> so Tiledash can’t reach it. Its dashboards and history are kept until you remove it.",
+    "context": "Banner when the person’s Homey (their smart home hub) was removed from, or moved to another, Homey account, so Tiledash can no longer connect to it. The tagged part is bold.",
+    "params": {
+      "homey": "The name of the Homey, as the person named it (\"Holiday home\"). Not translated."
+    },
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
+  "shell.homeyProblem.settings": {
+    "en": "Remove it…",
+    "context": "Button in the banner that opens the settings page where the Homey can be removed from Tiledash. The dots mean a confirmation follows.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
   "shell.layout.adminCaption": {
     "en": "All of Tiledash",
     "context": "Small line under the name \"Admin\" at the top of the admin sidebar. It says the admin area is about the whole of Tiledash (all users, not only this account).",

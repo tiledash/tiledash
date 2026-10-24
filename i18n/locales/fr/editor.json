@@ -1937,6 +1937,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.leadLayout": {
+    "text": "Comment les tuiles remplissent l’écran, où elles peuvent se placer, et le titre.",
+    "source": "8bac93e326",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadLook": {
+    "text": "Le thème du tableau de bord.",
+    "source": "d1496e10f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadPopups": {
+    "text": "Ce qui s’ouvre de soi-même sur le tableau de bord quand quelque chose se produit.",
+    "source": "7195ca2376",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.leadSpacing": {
+    "text": "L’espace entre les tuiles, et autour.",
+    "source": "59d1dd31b0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.marginLarge": {
     "text": "Grand",
     "source": "ab80540d98",
@@ -2852,6 +2876,12 @@
   "editor.headingSettings.pickedCount": {
     "text": "{picked, number} sur {total, number} choisis",
     "source": "fec394b594",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.headingSettings.preview": {
+    "text": "Aperçu du rendu",
+    "source": "c0065e0e60",
     "by": "ai",
     "reviewed": false
   },
@@ -9803,6 +9833,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.aboveTilesHeading": {
+    "text": "Au-dessus des tuiles",
+    "source": "45021a758c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.afterMinutes": {
     "text": "{minutes, plural, one {Après # minute} other {Après # minutes}}",
     "source": "18a94587f6",
@@ -9812,6 +9848,18 @@
   "editor.wallPanel.afterSeconds": {
     "text": "{seconds, plural, one {Après # seconde} other {Après # secondes}}",
     "source": "f7c9b3506b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.alertsHeading": {
+    "text": "Alertes",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.behaviourHeading": {
+    "text": "Comportement",
+    "source": "12b98040fa",
     "by": "ai",
     "reviewed": false
   },
@@ -9845,9 +9893,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.wallPanel.dashboardsHeading": {
-    "text": "Tableaux de bord de cet écran",
-    "source": "ee9f394df1",
+  "editor.wallPanel.dashboardsLead": {
+    "text": "Les tableaux de bord parcourus en balayant, dans cet ordre. L’écran démarre toujours sur son tableau de bord principal.",
+    "source": "0dd4e7929d",
     "by": "ai",
     "reviewed": false
   },
@@ -9935,6 +9983,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.generalLead": {
+    "text": "Son nom, son tableau de bord de départ et le lien qu’ouvre une tablette.",
+    "source": "43b1eaa803",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Garder l’écran allumé",
     "source": "24c4f08d7d",
@@ -9953,6 +10007,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.languageLead": {
+    "text": "Les textes et formats de cet écran. Il suit votre compte, sauf si vous en choisissez d’autres.",
+    "source": "b82acc09da",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.linkHint": {
     "text": "Ouvrir ce lien lance aussitôt l’écran mural : une tablette qui l’ouvre au démarrage devient donc un écran mural toute seule.",
     "source": "9ce247084c",
@@ -9968,6 +10028,12 @@
   "editor.wallPanel.linkNone": {
     "text": "Le lien apparaît une fois l’écran mural enregistré.",
     "source": "b0096a7356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.mainFixedHint": {
+    "text": "Toujours en premier. Choisissez-en un autre dans Général.",
+    "source": "48b21e2021",
     "by": "ai",
     "reviewed": false
   },
@@ -10004,6 +10070,48 @@
   "editor.wallPanel.saved": {
     "text": "« {name} » enregistré",
     "source": "b1fc17cdc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.screenLead": {
+    "text": "Sa façon d’occuper l’écran, et ce qui s’y affiche.",
+    "source": "34ff3b2093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionDashboards": {
+    "text": "Tableaux de bord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionGeneral": {
+    "text": "Général",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionLanguage": {
+    "text": "Langue et région",
+    "source": "003e875495",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionScreen": {
+    "text": "Écran",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sectionSleep": {
+    "text": "Veille et alertes",
+    "source": "88ef093dbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.sections": {
+    "text": "Réglages de l’écran mural",
+    "source": "9851c0258e",
     "by": "ai",
     "reviewed": false
   },
@@ -10061,6 +10169,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.sleepLead": {
+    "text": "Ce qu’il fait quand personne n’y touche, et quand quelque chose demande votre attention.",
+    "source": "1bc487141a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.sleepScreenTag": {
     "text": "Écran de veille",
     "source": "d7a9903ab7",
@@ -10091,21 +10205,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.startsOnHint": {
+    "text": "Où il démarre, et où il revient à son réveil.",
+    "source": "f22d8fac01",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.swipeHint": {
-    "text": "Balayez entre ces {count}, dans l’ordre de la barre latérale ; des points en bas indiquent où vous êtes.",
-    "source": "1bdbd11b0e",
+    "text": "Balayez entre ces {count} tableaux de bord, dans cet ordre ; des points en bas indiquent où vous êtes.",
+    "source": "84da8c7702",
     "by": "ai",
     "reviewed": false
   },
   "editor.wallPanel.swipeOnlyHint": {
-    "text": "Seulement {name} : cochez-en d’autres pour passer de l’un à l’autre.",
-    "source": "5693a138fb",
+    "text": "Seulement {name} : ajoutez-en d’autres pour passer de l’un à l’autre.",
+    "source": "ba3d3fea7f",
     "by": "ai",
     "reviewed": false
   },
   "editor.wallPanel.theDashboard": {
     "text": "le tableau de bord",
     "source": "5f142b7c15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.thenSwipesTo": {
+    "text": "Ensuite, en balayant",
+    "source": "754393d45e",
     "by": "ai",
     "reviewed": false
   },
@@ -10508,6 +10634,48 @@
   "editor.widgetSettings.headingWhatItShows": {
     "text": "Ce qu’elle affiche",
     "source": "8e7ddf931c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadChart": {
+    "text": "Le petit graphique d’historique affiché sur la tuile.",
+    "source": "aadb6bd4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadContent": {
+    "text": "Ce que la tuile affiche : ses appareils, valeurs ou texte.",
+    "source": "3cdaf97c8a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadLayout": {
+    "text": "Comment les parties de la tuile sont disposées.",
+    "source": "2df3f5360d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadLook": {
+    "text": "L’apparence de la tuile : le widget qui l’affiche, ses couleurs et ses décimales.",
+    "source": "87c0584072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadMap": {
+    "text": "Une carte derrière la tuile, autour de l’emplacement de l’appareil.",
+    "source": "c2148de4b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadShow": {
+    "text": "Si la tuile est toujours sur le tableau de bord, ou seulement sous condition.",
+    "source": "5960707e25",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.leadTap": {
+    "text": "Ce qui se passe quand vous touchez la tuile.",
+    "source": "8c18f211fd",
     "by": "ai",
     "reviewed": false
   },
