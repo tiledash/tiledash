@@ -3487,8 +3487,8 @@
     "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
   },
   "editor.houseGeneration.another": {
-    "en": "Make another · 1 credit",
-    "context": "Button that generates another picture for the side, for a credit.",
+    "en": "Refine or remake · 1 credit",
+    "context": "Button that opens the questions again to refine the side’s picture (say what should change) or make a new one, for a credit.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
   },
@@ -3496,6 +3496,12 @@
     "en": "How did it turn out?",
     "context": "Beside the thumbs up and down on a generated picture.",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "editor.houseGeneration.beforeRefining": {
+    "en": "Before refining",
+    "context": "Name of the side’s picture a refinement started from (one the owner uploaded), listed with the tries to go back to.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
   },
   "editor.houseGeneration.credits": {
@@ -3627,6 +3633,18 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
   },
+  "editor.houseGeneration.refine": {
+    "en": "Refine",
+    "context": "Button beside “Replace picture” over a side’s picture: opens the questions to say what should change in it (the image model then changes only that, for a credit).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "editor.houseGeneration.refined": {
+    "en": "Refined",
+    "context": "Name of a try that refined the side’s picture (instead of its style); what was asked shows on hover.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
   "editor.houseGeneration.send": {
     "en": "Send",
     "context": "Sends the thumbs down with its reasons.",
@@ -3724,8 +3742,8 @@
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.consent": {
-    "en": "Your photo is sent to our image model’s provider to make the picture. Tiledash keeps your photo for 30 days, so we can check the result, then deletes it.",
-    "context": "Shown under the generate button when a photo goes with it: generating means agreeing to this.",
+    "en": "Your photos and pictures are sent to our image model’s provider to make the picture. Tiledash keeps your photos for 30 days, so we can check the result, then deletes them.",
+    "context": "Shown under the generate button when photos go with it: generating means agreeing to this.",
     "maxLength": 200,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
@@ -3741,22 +3759,43 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
+  "editor.housePrompt.description": {
+    "en": "What it looks like",
+    "context": "Label of a free text field describing the house: its walls, windows, colours…",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.descriptionHint": {
+    "en": "In English, as much as you like: the walls, the windows, the colours, a porch…",
+    "context": "Line under that field: the text goes into the English prompt as typed.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
   "editor.housePrompt.english": {
     "en": "In English: image models do best with it",
     "context": "Note beside that heading.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.facade": {
-    "en": "The walls",
-    "context": "Label of a free text field for the walls’ material and colour.",
-    "maxLength": 24,
+  "editor.housePrompt.enlarge": {
+    "en": "See {name} larger",
+    "context": "Label of the small button on a style’s example picture that shows it larger.",
+    "params": {
+      "name": "The style’s name."
+    },
+    "maxLength": 60,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.facadeHint": {
-    "en": "Their material and colour, in English: red brick, white render…",
-    "context": "Line under that field: the text goes into the English prompt as typed.",
-    "maxLength": 80,
+  "editor.housePrompt.extrasOwn": {
+    "en": "You attach these in your own chat too, after the photo of this side.",
+    "context": "Line under that heading when the prompt is for the person’s own chat.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.extrasTitle": {
+    "en": "Photos from other sides or angles",
+    "context": "Heading over extra photos of the house, each saying what it shows.",
+    "maxLength": 50,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.floors": {
@@ -3777,16 +3816,40 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
+  "editor.housePrompt.helpHint": {
+    "en": "These aren’t made into pictures. They only show the AI more of your house, so this side comes out right.",
+    "context": "Line under “Extra help for the AI”: those photos and pictures are only looked at, never drawn.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.helpTitle": {
+    "en": "Extra help for the AI",
+    "context": "Heading of an optional part: more photos and the other sides’ pictures, only for the image model to look at.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.houseTitle": {
+    "en": "Your house",
+    "context": "Heading of the second step.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
   "editor.housePrompt.known": {
     "en": "Your Homey has one",
     "context": "Badge beside a tick box that was ticked because the person’s Homey has such a device.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.later": {
-    "en": "Attach the picture of another side too, so both match",
-    "context": "Tick box for a side made after another one: its picture goes into the chat as well.",
-    "maxLength": 70,
+  "editor.housePrompt.mainPhoto": {
+    "en": "Your photo of this side",
+    "context": "Heading over the photo of the side being made: the one the picture is made from.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.mainPhotoOwn": {
+    "en": "You attach it first in your own chat.",
+    "context": "Line under that heading when the prompt is for the person’s own chat.",
+    "maxLength": 60,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.makeHere": {
@@ -3796,12 +3859,54 @@
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.makeHereHint": {
-    "en": "{photo, select, yes {With this prompt and your photo. Its spots come placed for you, and a failed try gives your credit back.} other {With this prompt. Its spots come placed for you, and a failed try gives your credit back.}}",
+    "en": "{photo, select, yes {With this prompt and your photos. Its spots come placed for you, and a failed try gives your credit back.} other {With this prompt. Its spots come placed for you, and a failed try gives your credit back.}}",
     "context": "Line under that heading.",
     "params": {
-      "photo": "yes when a photo goes with it, else no."
+      "photo": "yes when photos go with it, else no."
     },
     "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.making": {
+    "en": "Making: {side}",
+    "context": "Card at the top of the second step naming the one side of the house this run makes a picture of (a label, not something happening now).",
+    "params": {
+      "side": "The side’s name, as the person named it (“Garden side”)."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.makingHint": {
+    "en": "One picture per run: this side. For another side, open it and run this again.",
+    "context": "Line on the “Making: {side}” card: one run makes one side’s picture.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.matchHint": {
+    "en": "Ticked ones go along, so this side gets the same style, colours and light.",
+    "context": "Line under “Your other sides’ pictures”: the ticked ones go along to match their look.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.matchTitle": {
+    "en": "Your other sides’ pictures",
+    "context": "Heading over the house’s sides that already have a picture: ticked ones go along so the new picture matches them.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.modeChoice": {
+    "en": "{mode, select, refine {Refine this picture} other {Make a new one}}",
+    "context": "The two answers to that choice.",
+    "params": {
+      "mode": "refine or new."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.modeTitle": {
+    "en": "What would you like?",
+    "context": "Label of the choice on a side that has a picture already: refine that picture, or make a new one.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.next": {
@@ -3814,6 +3919,12 @@
     "en": "Write a prompt for your own ChatGPT or Gemini",
     "context": "Link under \"Upload a picture\" in the house editor that opens the prompt generator.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.optional": {
+    "en": "Optional",
+    "context": "Badge beside “Extra help for the AI”: none of it is needed.",
+    "maxLength": 16,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.other": {
@@ -3835,12 +3946,18 @@
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.ownChatHint": {
-    "en": "{photo, select, yes {Copy the prompt into ChatGPT or Gemini, attach your photo, then upload what it makes.} other {Copy the prompt into ChatGPT or Gemini, then upload what it makes.}}",
+    "en": "{photo, select, yes {Copy the prompt into ChatGPT or Gemini, attach the pictures it names, then upload what it makes.} other {Copy the prompt into ChatGPT or Gemini, then upload what it makes.}}",
     "context": "Line under that heading.",
     "params": {
-      "photo": "yes when a photo goes with it, else no."
+      "photo": "yes when photos go with it, else no."
     },
-    "maxLength": 120,
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoAdd": {
+    "en": "Add a photo",
+    "context": "Button under the extra photos: adds one more.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.photoChange": {
@@ -3864,22 +3981,70 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.photoNeeded": {
-    "en": "Choose your photo first, or answer No.",
-    "context": "Shown on the last step when Tiledash would make the picture from a photo not chosen yet.",
-    "maxLength": 60,
+  "editor.housePrompt.photoLimits": {
+    "en": "A PNG, JPEG or WebP. A big photo is made smaller first.",
+    "context": "Line beside that button: the files it takes.",
+    "maxLength": 70,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.photoPick": {
-    "en": "Choose your photo",
-    "context": "Button that picks the photo of the house from the device, for Tiledash to work from.",
+  "editor.housePrompt.photoNeeded": {
+    "en": "Choose a file for each photo first, or answer No.",
+    "context": "Shown on the last step when Tiledash would make the picture from photos not all chosen yet.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoNumber": {
+    "en": "Photo {n}",
+    "context": "Name of an extra photo when it is attached in the person’s own chat.",
+    "params": {
+      "n": "Its number: 2, 3 or 4."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoPreparing": {
+    "en": "Making it smaller…",
+    "context": "A photo row while the browser makes the photo smaller before sending it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoRemove": {
+    "en": "Remove this photo",
+    "context": "Button that takes a photo off the list.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoRetry": {
+    "en": "Try again",
+    "context": "Link under a failed photo upload: sends the same file again.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoSending": {
+    "en": "Uploading… {percent}%",
+    "context": "A photo row while the photo is being sent.",
+    "params": {
+      "percent": "How much is sent, 0 to 100."
+    },
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.photoTitle": {
-    "en": "Will you attach a photo of your house?",
-    "context": "Heading of the second step.",
+    "en": "Do you have a photo of this side?",
+    "context": "Label of the choice on the second step: a photo of the side being made, or describing the house.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.photoUpload": {
+    "en": "Upload a photo",
+    "context": "Button in an empty photo row: picks a photo of the house and uploads it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.pickStyle": {
+    "en": "Use this style",
+    "context": "Button under a style’s larger picture: picks that style.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.prompt": {
@@ -3892,6 +4057,24 @@
     "en": "Your prompt is ready",
     "context": "Heading of the last step.",
     "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.refine": {
+    "en": "What should change?",
+    "context": "Label of a free text field: what the image model should change in the picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.refineHint": {
+    "en": "In English: move the car onto the drive, a darker roof… The rest stays as it is.",
+    "context": "Line under that field: the text goes into the English prompt as typed.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.refineNeeded": {
+    "en": "Say what should change first.",
+    "context": "Shown on the last step while the refinement is still empty.",
+    "maxLength": 60,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.roof": {
@@ -3924,38 +4107,17 @@
     "maxLength": 12,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
-  "editor.housePrompt.sideChoice": {
-    "en": "{side, select, front {Front} back {Back} other {Garden side}}",
-    "context": "Which side of the house the picture shows.",
-    "params": {
-      "side": "front, back or garden."
-    },
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
-  },
-  "editor.housePrompt.sideHint": {
-    "en": "Each side of your house is its own picture: the front, the garden side…",
-    "context": "Line under that heading.",
-    "maxLength": 90,
-    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
-  },
-  "editor.housePrompt.sideTitle": {
-    "en": "Which side is this?",
-    "context": "Heading of the third step.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
-  },
   "editor.housePrompt.step": {
-    "en": "{step, select, things {At your home} house {Your house} side {Which side} style {Style} other {Your prompt}}",
+    "en": "{step, select, things {At your home} house {Your house} style {Style} other {Your prompt}}",
     "context": "The steps of the prompt generator, shown as a row at the top.",
     "params": {
-      "step": "things, house, side, style or prompt."
+      "step": "things, house, style or prompt."
     },
     "maxLength": 20,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.housePrompt.style": {
-    "en": "{style, select, soft-3d {Tiledash soft 3D} modern-dark {Modern dark} clay {Clay miniature} flat {Flat illustration} other {Line drawing}}",
+    "en": "{style, select, soft-3d {Tiledash soft 3D} modern-dark {Modern dark} clay {Clay miniature} flat {Flat illustration} photoreal {True to life} blueprint {Blueprint} neon-twin {Digital twin} cyberpunk {Cyberpunk night} watercolour {Painted} low-poly {Low-poly} voxel {Voxel blocks} pixel-art {Pixel art} other {Line drawing}}",
     "context": "The styles a picture can be made in.",
     "params": {
       "style": "Which style."
@@ -3963,8 +4125,26 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
+  "editor.housePrompt.styleGroup": {
+    "en": "{group, select, light {For light dashboards} dark {For dark dashboards} other {Playful}}",
+    "context": "Heading over a group of styles, by the dashboards they suit.",
+    "params": {
+      "group": "light, dark or playful."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.styleGroupHint": {
+    "en": "{group, select, light {Daylight and true colours, on light themes and e-ink.} dark {Night, glow and bright lines, on dark themes.} other {Like a game, on any dashboard.}}",
+    "context": "A short line beside each group’s heading.",
+    "params": {
+      "group": "light, dark or playful."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
   "editor.housePrompt.styleHint": {
-    "en": "{style, select, soft-3d {Soft light and gentle shadows, like Tiledash’s house.} modern-dark {A sleek evening render on dark, windows lit warm.} clay {A handmade clay diorama on a little plinth.} flat {Flat shapes, few colours, calm on a wall panel.} other {Black lines on white: made for e-ink.}}",
+    "en": "{style, select, soft-3d {Soft light and gentle shadows, like Tiledash’s house.} modern-dark {A sleek evening render on dark, windows lit warm.} clay {A handmade clay diorama on a little plinth.} flat {Flat shapes, few colours, calm on a wall panel.} photoreal {Like a photo of your own house, cut out.} blueprint {Bright technical lines, made for dark dashboards.} neon-twin {A glowing wireframe, the parts lit orange.} cyberpunk {Neon-lit and rain-slick, for dark screens.} watercolour {Ink and soft watercolour, like an architect’s sketch.} low-poly {Faceted shapes, like a stylised game.} voxel {Built from little cubes.} pixel-art {A retro game, pixel by pixel.} other {Black lines on white: made for e-ink.}}",
     "context": "A line under each style.",
     "params": {
       "style": "Which style."
@@ -4036,6 +4216,24 @@
     "en": "Upload the result",
     "context": "Button that uploads the picture the chat made as this side’s picture.",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.viewChoice": {
+    "en": "{view, select, front {Front} back {Back} left {Left side} right {Right side} other {At an angle}}",
+    "context": "What an extra photo shows: the front, the back, the left or right side, or the house at an angle.",
+    "params": {
+      "view": "front, back, left, right or angle."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
+  },
+  "editor.housePrompt.viewLabel": {
+    "en": "What photo {n} shows",
+    "context": "Accessible name of the choice of what an extra photo shows.",
+    "params": {
+      "n": "Its number: 2, 3 or 4."
+    },
+    "maxLength": 40,
     "file": "packages/ui/src/screens/houses/housePrompt.messages.ts"
   },
   "editor.houseSetting.change": {
@@ -4592,6 +4790,15 @@
   "editor.houses.newHouse": {
     "en": "New house",
     "context": "Button that makes a new house and opens it in the editor.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "editor.houses.newSide": {
+    "en": "{side, select, front {Front} back {Back} left {Left side} right {Right side} other {Other…}}",
+    "context": "Menu under “Add a side”: which side of the house to add. The first four become its name; Other adds one to name yourself (a basement, a pool side).",
+    "params": {
+      "side": "front, back, left, right or other."
+    },
     "maxLength": 24,
     "file": "packages/ui/src/screens/houses/houses.messages.ts"
   },

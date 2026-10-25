@@ -3210,14 +3210,20 @@
     "reviewed": false
   },
   "editor.houseGeneration.another": {
-    "text": "Nog een maken · 1 credit",
-    "source": "413e2b4887",
+    "text": "Aanpassen of nieuw · 1 credit",
+    "source": "042333f719",
     "by": "ai",
     "reviewed": false
   },
   "editor.houseGeneration.ask": {
     "text": "Hoe is het geworden?",
     "source": "003930b9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.beforeRefining": {
+    "text": "Vóór het aanpassen",
+    "source": "a358372b14",
     "by": "ai",
     "reviewed": false
   },
@@ -3335,6 +3341,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.houseGeneration.refine": {
+    "text": "Aanpassen",
+    "source": "1e7f34ee8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.refined": {
+    "text": "Aangepast",
+    "source": "d81ab3063e",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.houseGeneration.send": {
     "text": "Versturen",
     "source": "f6f4688ff2",
@@ -3426,8 +3444,8 @@
     "reviewed": false
   },
   "editor.housePrompt.consent": {
-    "text": "Je foto gaat naar de aanbieder van ons beeldmodel om de afbeelding te maken. Tiledash bewaart je foto 30 dagen, zodat we het resultaat kunnen controleren, en verwijdert hem dan.",
-    "source": "7f2b5e1096",
+    "text": "Je foto’s en afbeeldingen gaan naar de aanbieder van ons beeldmodel om de afbeelding te maken. Tiledash bewaart je foto’s 30 dagen, zodat we het resultaat kunnen controleren, en verwijdert ze dan.",
+    "source": "16aa2a0c67",
     "by": "ai",
     "reviewed": false
   },
@@ -3443,21 +3461,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.housePrompt.description": {
+    "text": "Hoe het eruitziet",
+    "source": "9a5d81b4a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.descriptionHint": {
+    "text": "In het Engels, zo uitgebreid als je wilt: de muren, de ramen, de kleuren, een veranda…",
+    "source": "650e2c428b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.housePrompt.english": {
     "text": "In het Engels: dat werkt best voor beeldmodellen",
     "source": "5d8867970a",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.facade": {
-    "text": "De gevels",
-    "source": "e74591c19c",
+  "editor.housePrompt.enlarge": {
+    "text": "{name} groter bekijken",
+    "source": "b648796cc1",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.facadeHint": {
-    "text": "Materiaal en kleur, in het Engels: red brick, white render…",
-    "source": "03f554a287",
+  "editor.housePrompt.extrasOwn": {
+    "text": "Die voeg je ook bij in je eigen chat, na de foto van deze kant.",
+    "source": "de9c613fc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.extrasTitle": {
+    "text": "Foto’s van andere kanten of hoeken",
+    "source": "1f6df7ac18",
     "by": "ai",
     "reviewed": false
   },
@@ -3479,15 +3515,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.housePrompt.helpHint": {
+    "text": "Hiervan worden geen afbeeldingen gemaakt. Ze laten de AI alleen meer van je huis zien, zodat deze kant goed uitpakt.",
+    "source": "cac951f38e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.helpTitle": {
+    "text": "Extra hulp voor de AI",
+    "source": "cc2a96d0bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.houseTitle": {
+    "text": "Je huis",
+    "source": "99edbb60ba",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.housePrompt.known": {
     "text": "Je Homey heeft er een",
     "source": "61015efd36",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.later": {
-    "text": "Voeg ook de afbeelding van een andere kant bij, zodat ze passen",
-    "source": "1c4fa34e9c",
+  "editor.housePrompt.mainPhoto": {
+    "text": "Je foto van deze kant",
+    "source": "e2accfe13b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.mainPhotoOwn": {
+    "text": "Die voeg je in je eigen chat als eerste bij.",
+    "source": "5c356fa741",
     "by": "ai",
     "reviewed": false
   },
@@ -3498,8 +3558,44 @@
     "reviewed": false
   },
   "editor.housePrompt.makeHereHint": {
-    "text": "{photo, select, yes {Met deze prompt en je foto. De plekken worden voor je geplaatst, en mislukt het, dan krijg je je credit terug.} other {Met deze prompt. De plekken worden voor je geplaatst, en mislukt het, dan krijg je je credit terug.}}",
-    "source": "a1975b2676",
+    "text": "{photo, select, yes {Met deze prompt en je foto’s. De plekken worden voor je geplaatst, en mislukt het, dan krijg je je credit terug.} other {Met deze prompt. De plekken worden voor je geplaatst, en mislukt het, dan krijg je je credit terug.}}",
+    "source": "33b6e49b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.making": {
+    "text": "Je maakt: {side}",
+    "source": "e90f90f921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makingHint": {
+    "text": "Eén afbeelding per keer: deze kant. Voor een andere kant open je die en doe je dit opnieuw.",
+    "source": "7130079b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.matchHint": {
+    "text": "Wat je aanvinkt, gaat mee, zodat deze kant dezelfde stijl, kleuren en licht krijgt.",
+    "source": "c43daf10f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.matchTitle": {
+    "text": "De afbeeldingen van je andere kanten",
+    "source": "df2b7fd777",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.modeChoice": {
+    "text": "{mode, select, refine {Deze afbeelding aanpassen} other {Een nieuwe maken}}",
+    "source": "6e7ab7c3c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.modeTitle": {
+    "text": "Wat wil je doen?",
+    "source": "c2c8f141d8",
     "by": "ai",
     "reviewed": false
   },
@@ -3512,6 +3608,12 @@
   "editor.housePrompt.open": {
     "text": "Schrijf een prompt voor je eigen ChatGPT of Gemini",
     "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.optional": {
+    "text": "Optioneel",
+    "source": "59be71333c",
     "by": "ai",
     "reviewed": false
   },
@@ -3534,8 +3636,14 @@
     "reviewed": false
   },
   "editor.housePrompt.ownChatHint": {
-    "text": "{photo, select, yes {Kopieer de prompt naar ChatGPT of Gemini, voeg je foto bij en upload dan wat eruit komt.} other {Kopieer de prompt naar ChatGPT of Gemini en upload dan wat eruit komt.}}",
-    "source": "4e01ab9d0c",
+    "text": "{photo, select, yes {Kopieer de prompt naar ChatGPT of Gemini, voeg de afbeeldingen bij die erin genoemd worden en upload dan wat eruit komt.} other {Kopieer de prompt naar ChatGPT of Gemini en upload dan wat eruit komt.}}",
+    "source": "9283ebe3d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoAdd": {
+    "text": "Foto toevoegen",
+    "source": "c3342da7c9",
     "by": "ai",
     "reviewed": false
   },
@@ -3557,21 +3665,63 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.photoNeeded": {
-    "text": "Kies eerst je foto, of antwoord “Nee”.",
-    "source": "a8cb16167e",
+  "editor.housePrompt.photoLimits": {
+    "text": "Een PNG, JPEG of WebP. Een grote foto wordt eerst verkleind.",
+    "source": "a087fa2dd0",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.photoPick": {
-    "text": "Kies je foto",
-    "source": "6e4c776c3a",
+  "editor.housePrompt.photoNeeded": {
+    "text": "Kies eerst een bestand voor elke foto, of antwoord “Nee”.",
+    "source": "b277fba0ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoNumber": {
+    "text": "Foto {n}",
+    "source": "4d7f689997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoPreparing": {
+    "text": "Verkleinen…",
+    "source": "cdb0b246ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoRemove": {
+    "text": "Deze foto weghalen",
+    "source": "c80f0adc64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoRetry": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoSending": {
+    "text": "Uploaden… {percent}%",
+    "source": "cefe8ca2c3",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.photoTitle": {
-    "text": "Voeg je een foto van je huis bij?",
-    "source": "fced991c21",
+    "text": "Heb je een foto van deze kant?",
+    "source": "c4464941d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoUpload": {
+    "text": "Foto uploaden",
+    "source": "892ab03561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.pickStyle": {
+    "text": "Deze stijl gebruiken",
+    "source": "368d93750d",
     "by": "ai",
     "reviewed": false
   },
@@ -3584,6 +3734,24 @@
   "editor.housePrompt.readyTitle": {
     "text": "Je prompt is klaar",
     "source": "31587515e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refine": {
+    "text": "Wat moet er anders?",
+    "source": "e6cbf7faa1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refineHint": {
+    "text": "In het Engels: move the car onto the drive, a darker roof… De rest blijft zoals het is.",
+    "source": "58f69bcb02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refineNeeded": {
+    "text": "Zeg eerst wat er anders moet.",
+    "source": "eec4df6dda",
     "by": "ai",
     "reviewed": false
   },
@@ -3611,39 +3779,33 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.sideChoice": {
-    "text": "{side, select, front {Voorkant} back {Achterkant} other {Tuinkant}}",
-    "source": "535c43a4b0",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.housePrompt.sideHint": {
-    "text": "Elke kant van je huis is een eigen afbeelding: de voorkant, de tuinkant…",
-    "source": "25e8590f3b",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.housePrompt.sideTitle": {
-    "text": "Welke kant is dit?",
-    "source": "8979236069",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.housePrompt.step": {
-    "text": "{step, select, things {Bij je huis} house {Je huis} side {Welke kant} style {Stijl} other {Je prompt}}",
-    "source": "1b291ede6a",
+    "text": "{step, select, things {Bij je huis} house {Je huis} style {Stijl} other {Je prompt}}",
+    "source": "eaf3b1ba01",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.style": {
-    "text": "{style, select, soft-3d {Tiledash zacht 3D} modern-dark {Modern donker} clay {Miniatuur van klei} flat {Vlakke illustratie} other {Lijntekening}}",
-    "source": "66c83aca46",
+    "text": "{style, select, soft-3d {Tiledash zacht 3D} modern-dark {Modern donker} clay {Miniatuur van klei} flat {Vlakke illustratie} photoreal {Levensecht} blueprint {Bouwtekening} neon-twin {Digitale tweeling} cyberpunk {Cyberpunknacht} watercolour {Geschilderd} low-poly {Low-poly} voxel {Voxelblokjes} pixel-art {Pixelart} other {Lijntekening}}",
+    "source": "73e4ff9685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleGroup": {
+    "text": "{group, select, light {Voor lichte dashboards} dark {Voor donkere dashboards} other {Speels}}",
+    "source": "a40b4f3501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleGroupHint": {
+    "text": "{group, select, light {Daglicht en echte kleuren, voor lichte thema’s en e-ink.} dark {Nacht, gloed en heldere lijnen, voor donkere thema’s.} other {Als een game, op elk dashboard.}}",
+    "source": "6ab6275756",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.styleHint": {
-    "text": "{style, select, soft-3d {Zacht licht en milde schaduwen, zoals het huis van Tiledash.} modern-dark {Een strakke avondrender op donker, met warm verlichte ramen.} clay {Een handgemaakt diorama van klei op een kleine sokkel.} flat {Vlakke vormen, weinig kleuren, rustig op een wandpaneel.} other {Zwarte lijnen op wit: gemaakt voor e-ink.}}",
-    "source": "2d7a30ae9e",
+    "text": "{style, select, soft-3d {Zacht licht en milde schaduwen, zoals het huis van Tiledash.} modern-dark {Een strakke avondrender op donker, met warm verlichte ramen.} clay {Een handgemaakt diorama van klei op een kleine sokkel.} flat {Vlakke vormen, weinig kleuren, rustig op een wandpaneel.} photoreal {Als een foto van je eigen huis, uitgeknipt.} blueprint {Heldere technische lijnen, gemaakt voor donkere dashboards.} neon-twin {Een gloeiend draadmodel, de onderdelen oranje verlicht.} cyberpunk {Neonlicht en natte straten, voor donkere schermen.} watercolour {Inkt en zachte waterverf, als een schets van een architect.} low-poly {Hoekige vlakken, als in een gestileerde game.} voxel {Gebouwd uit kleine blokjes.} pixel-art {Een retrogame, pixel voor pixel.} other {Zwarte lijnen op wit: gemaakt voor e-ink.}}",
+    "source": "2749b1acd9",
     "by": "ai",
     "reviewed": false
   },
@@ -3704,6 +3866,18 @@
   "editor.housePrompt.upload": {
     "text": "Upload het resultaat",
     "source": "858a009974",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.viewChoice": {
+    "text": "{view, select, front {Voorkant} back {Achterkant} left {Linkerkant} right {Rechterkant} other {Schuin op een hoek}}",
+    "source": "263c23bbf6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.viewLabel": {
+    "text": "Wat foto {n} laat zien",
+    "source": "c498db84b8",
     "by": "ai",
     "reviewed": false
   },
@@ -4202,6 +4376,12 @@
   "editor.houses.newHouse": {
     "text": "Nieuw huis",
     "source": "2fa4dfcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.newSide": {
+    "text": "{side, select, front {Voorkant} back {Achterkant} left {Linkerkant} right {Rechterkant} other {Anders…}}",
+    "source": "2af1876a73",
     "by": "ai",
     "reviewed": false
   },

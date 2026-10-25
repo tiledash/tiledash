@@ -1,4 +1,46 @@
 {
+  "login.blocked.accountBody": {
+    "en": "It can’t be used anymore, and its dashboards and wall panels don’t open. If you think this is a mistake, contact us through tiledash.app.",
+    "context": "Paragraph under the blocked-account heading. \"It\" is their Tiledash account. A wall panel is a screen on the wall showing a dashboard. tiledash.app is the website; not translated.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
+  "login.blocked.accountTitle": {
+    "en": "This account is blocked.",
+    "context": "Heading of the page shown to someone who signs in to an account that a Tiledash admin blocked. Plain and calm, not accusing.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
+  "login.blocked.accountTitleNamed": {
+    "en": "{name}, this account is blocked.",
+    "context": "Heading of the blocked-account page when the person's first name is known: the same message as \"This account is blocked.\" addressed to them by name.",
+    "params": {
+      "name": "The first name of the person, as they wrote it in their account. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
+  "login.blocked.addressBody": {
+    "en": "Tiledash can’t be used from the network you’re on right now. If you think this is a mistake, contact us through tiledash.app.",
+    "context": "Paragraph under \"This address is blocked.\". \"Network\" is the internet connection they use now (home wifi, phone network). tiledash.app is the website; not translated.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
+  "login.blocked.addressTitle": {
+    "en": "This address is blocked.",
+    "context": "Heading of the page shown to anyone whose internet address (IP address) was blocked by Tiledash, signed in or not. Plain and calm, not accusing.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
+  "login.blocked.yourAddress": {
+    "en": "Your address: {address}",
+    "context": "A small line on the blocked-address page with the internet address, so they can quote it when they contact us.",
+    "params": {
+      "address": "An IP address like 84.26.112.9. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
+  },
   "login.connectApp.adminOnlyBody": {
     "en": "{client} asked for admin access to Tiledash. Your account isn’t an admin, so nothing was shared. If you didn’t expect this, you can close this tab.",
     "context": "Explanation under the heading \"Only Tiledash’s admins can allow this.\": the app asked for access only Tiledash’s administrators can give, so the request was refused and nothing was shared.",

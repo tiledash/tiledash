@@ -1726,6 +1726,48 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
   },
+  "account.discord.bugs": {
+    "en": "Bug reports",
+    "context": "Title of a link to the channel on Tiledash’s Discord server where people report bugs.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.bugsAbout": {
+    "en": "Something not working? Tell us what you did and what went wrong.",
+    "context": "Line under \"Bug reports\" in the Discord settings group.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.chat": {
+    "en": "General chat",
+    "context": "Title of a link to the general chat channel on Tiledash’s Discord server, where people talk about Tiledash and their dashboards.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.chatAbout": {
+    "en": "Talk with other Tiledash users, share your dashboards and ask how they did theirs.",
+    "context": "Line under \"General chat\" in the Discord settings group.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.ideas": {
+    "en": "Feature requests",
+    "context": "Title of a link to the channel on Tiledash’s Discord server where people ask for new features.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.ideasAbout": {
+    "en": "Missing something? Tell us what you’d like Tiledash to do next.",
+    "context": "Line under \"Feature requests\" in the Discord settings group.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
+  "account.discord.opens": {
+    "en": "Opens Discord in a new tab",
+    "context": "Read out by screen readers after each link of the Discord settings group: the link opens Discord in a new browser tab.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/account/DiscordSection.messages.ts"
+  },
   "account.extraPins.add": {
     "en": "Add a PIN",
     "context": "Button that opens the form to add another PIN with a name.",
@@ -4402,6 +4444,18 @@
     "maxLength": 80,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
+  "account.settings.discord": {
+    "en": "Discord",
+    "context": "Name of the settings group with links to Tiledash’s Discord server: the general chat, feature requests and bug reports. A menu item of the Settings page and its heading. \"Discord\" is the name of the chat service and is not translated.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.discordAbout": {
+    "en": "Chat with other Tiledash users, ask for what you miss and tell us what goes wrong.",
+    "context": "Line under the heading of the Discord settings group, above the links to the general chat, feature requests and bug reports channels.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
   "account.settings.energy": {
     "en": "Energy",
     "context": "Name of the settings group with the energy prices, tariffs and the energy meters. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Energy\".",
@@ -5362,9 +5416,9 @@
     "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
   },
   "account.whatsNew.ideas": {
-    "en": "Missing something, or found a bug? <link>Tell us on GitHub</link>",
-    "context": "Line at the bottom of the What’s new tab. The part in the tag is a link to Tiledash’s public issues on GitHub.",
-    "maxLength": 80,
+    "en": "Missing something or found a bug? Post it in <ideas>feature requests</ideas> or <bugs>bug reports</bugs> on our Discord, or <chat>come and say hi</chat>.",
+    "context": "Line at the bottom of the What’s new tab. Each tagged part is a link to a channel on Tiledash’s Discord server: the feature requests channel, the bug reports channel and the general chat.",
+    "maxLength": 160,
     "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
   },
   "account.whatsNew.inDevelopment": {

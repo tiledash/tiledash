@@ -3210,14 +3210,20 @@
     "reviewed": false
   },
   "editor.houseGeneration.another": {
-    "text": "Weiteres Bild · 1 Credit",
-    "source": "413e2b4887",
+    "text": "Verfeinern oder neu · 1 Credit",
+    "source": "042333f719",
     "by": "ai",
     "reviewed": false
   },
   "editor.houseGeneration.ask": {
     "text": "Wie ist es geworden?",
     "source": "003930b9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.beforeRefining": {
+    "text": "Vor dem Verfeinern",
+    "source": "a358372b14",
     "by": "ai",
     "reviewed": false
   },
@@ -3335,6 +3341,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.houseGeneration.refine": {
+    "text": "Verfeinern",
+    "source": "1e7f34ee8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houseGeneration.refined": {
+    "text": "Verfeinert",
+    "source": "d81ab3063e",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.houseGeneration.send": {
     "text": "Senden",
     "source": "f6f4688ff2",
@@ -3426,8 +3444,8 @@
     "reviewed": false
   },
   "editor.housePrompt.consent": {
-    "text": "Ihr Foto wird an den Anbieter unseres Bildmodells gesendet, um das Bild zu erstellen. Tiledash bewahrt Ihr Foto 30 Tage auf, damit wir das Ergebnis prüfen können, und löscht es dann.",
-    "source": "7f2b5e1096",
+    "text": "Ihre Fotos und Bilder werden an den Anbieter unseres Bildmodells gesendet, um das Bild zu erstellen. Tiledash bewahrt Ihre Fotos 30 Tage auf, um das Ergebnis zu prüfen, und löscht sie dann.",
+    "source": "16aa2a0c67",
     "by": "ai",
     "reviewed": false
   },
@@ -3443,21 +3461,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.housePrompt.description": {
+    "text": "Wie Ihr Haus aussieht",
+    "source": "9a5d81b4a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.descriptionHint": {
+    "text": "Auf Englisch, so ausführlich Sie mögen: Wände, Fenster, Farben, eine Veranda…",
+    "source": "650e2c428b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.housePrompt.english": {
     "text": "Auf Englisch: Bildmodelle können das am besten",
     "source": "5d8867970a",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.facade": {
-    "text": "Die Außenwände",
-    "source": "e74591c19c",
+  "editor.housePrompt.enlarge": {
+    "text": "{name} größer ansehen",
+    "source": "b648796cc1",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.facadeHint": {
-    "text": "Material und Farbe, auf Englisch: red brick, white render…",
-    "source": "03f554a287",
+  "editor.housePrompt.extrasOwn": {
+    "text": "Diese hängen Sie auch in Ihrem eigenen Chat an, nach dem Foto dieser Seite.",
+    "source": "de9c613fc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.extrasTitle": {
+    "text": "Fotos von anderen Seiten oder Blickwinkeln",
+    "source": "1f6df7ac18",
     "by": "ai",
     "reviewed": false
   },
@@ -3479,15 +3515,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.housePrompt.helpHint": {
+    "text": "Daraus werden keine Bilder erstellt. Sie zeigen der KI nur mehr von Ihrem Haus, damit diese Seite richtig wird.",
+    "source": "cac951f38e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.helpTitle": {
+    "text": "Zusätzliche Hilfe für die KI",
+    "source": "cc2a96d0bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.houseTitle": {
+    "text": "Ihr Haus",
+    "source": "99edbb60ba",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.housePrompt.known": {
     "text": "In Ihrem Homey vorhanden",
     "source": "61015efd36",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.later": {
-    "text": "Bild einer anderen Seite mit anhängen, damit beide zusammenpassen",
-    "source": "1c4fa34e9c",
+  "editor.housePrompt.mainPhoto": {
+    "text": "Ihr Foto dieser Seite",
+    "source": "e2accfe13b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.mainPhotoOwn": {
+    "text": "Dieses hängen Sie in Ihrem eigenen Chat zuerst an.",
+    "source": "5c356fa741",
     "by": "ai",
     "reviewed": false
   },
@@ -3498,8 +3558,44 @@
     "reviewed": false
   },
   "editor.housePrompt.makeHereHint": {
-    "text": "{photo, select, yes {Mit diesem Prompt und Ihrem Foto. Die Stellen werden für Sie platziert; geht es schief, erhalten Sie den Credit zurück.} other {Mit diesem Prompt. Die Stellen werden für Sie platziert; geht es schief, erhalten Sie den Credit zurück.}}",
-    "source": "a1975b2676",
+    "text": "{photo, select, yes {Mit diesem Prompt und Ihren Fotos. Die Stellen werden für Sie platziert; geht es schief, erhalten Sie den Credit zurück.} other {Mit diesem Prompt. Die Stellen werden für Sie platziert; geht es schief, erhalten Sie den Credit zurück.}}",
+    "source": "33b6e49b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.making": {
+    "text": "Wird erstellt: {side}",
+    "source": "e90f90f921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.makingHint": {
+    "text": "Ein Bild pro Durchgang: diese Seite. Für eine andere Seite öffnen Sie sie und starten erneut.",
+    "source": "7130079b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.matchHint": {
+    "text": "Angehakte Bilder gehen mit, damit diese Seite in Stil, Farben und Licht dazu passt.",
+    "source": "c43daf10f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.matchTitle": {
+    "text": "Bilder Ihrer anderen Seiten",
+    "source": "df2b7fd777",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.modeChoice": {
+    "text": "{mode, select, refine {Dieses Bild verfeinern} other {Ein neues erstellen}}",
+    "source": "6e7ab7c3c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.modeTitle": {
+    "text": "Was möchten Sie?",
+    "source": "c2c8f141d8",
     "by": "ai",
     "reviewed": false
   },
@@ -3512,6 +3608,12 @@
   "editor.housePrompt.open": {
     "text": "Prompt für Ihr eigenes ChatGPT oder Gemini schreiben",
     "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.optional": {
+    "text": "Optional",
+    "source": "59be71333c",
     "by": "ai",
     "reviewed": false
   },
@@ -3534,8 +3636,14 @@
     "reviewed": false
   },
   "editor.housePrompt.ownChatHint": {
-    "text": "{photo, select, yes {Kopieren Sie den Prompt in ChatGPT oder Gemini, hängen Sie Ihr Foto an und laden Sie dann das Ergebnis hoch.} other {Kopieren Sie den Prompt in ChatGPT oder Gemini und laden Sie dann das Ergebnis hoch.}}",
-    "source": "4e01ab9d0c",
+    "text": "{photo, select, yes {Kopieren Sie den Prompt in ChatGPT oder Gemini, hängen Sie die genannten Bilder an und laden Sie dann das Ergebnis hoch.} other {Kopieren Sie den Prompt in ChatGPT oder Gemini und laden Sie dann das Ergebnis hoch.}}",
+    "source": "9283ebe3d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoAdd": {
+    "text": "Foto hinzufügen",
+    "source": "c3342da7c9",
     "by": "ai",
     "reviewed": false
   },
@@ -3557,21 +3665,63 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.photoNeeded": {
-    "text": "Wählen Sie zuerst Ihr Foto oder antworten Sie „Nein“.",
-    "source": "a8cb16167e",
+  "editor.housePrompt.photoLimits": {
+    "text": "PNG, JPEG oder WebP. Große Fotos werden vorher verkleinert.",
+    "source": "a087fa2dd0",
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.photoPick": {
-    "text": "Ihr Foto wählen",
-    "source": "6e4c776c3a",
+  "editor.housePrompt.photoNeeded": {
+    "text": "Wählen Sie erst für jedes Foto eine Datei oder antworten Sie „Nein“.",
+    "source": "b277fba0ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoNumber": {
+    "text": "Foto {n}",
+    "source": "4d7f689997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoPreparing": {
+    "text": "Wird verkleinert…",
+    "source": "cdb0b246ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoRemove": {
+    "text": "Dieses Foto entfernen",
+    "source": "c80f0adc64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoRetry": {
+    "text": "Erneut versuchen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoSending": {
+    "text": "Wird hochgeladen… {percent}%",
+    "source": "cefe8ca2c3",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.photoTitle": {
-    "text": "Hängen Sie ein Foto Ihres Hauses an?",
-    "source": "fced991c21",
+    "text": "Haben Sie ein Foto dieser Seite?",
+    "source": "c4464941d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.photoUpload": {
+    "text": "Foto hochladen",
+    "source": "892ab03561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.pickStyle": {
+    "text": "Diesen Stil verwenden",
+    "source": "368d93750d",
     "by": "ai",
     "reviewed": false
   },
@@ -3584,6 +3734,24 @@
   "editor.housePrompt.readyTitle": {
     "text": "Ihr Prompt ist fertig",
     "source": "31587515e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refine": {
+    "text": "Was soll sich ändern?",
+    "source": "e6cbf7faa1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refineHint": {
+    "text": "Auf Englisch: move the car onto the drive, a darker roof… Der Rest bleibt, wie er ist.",
+    "source": "58f69bcb02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.refineNeeded": {
+    "text": "Sagen Sie zuerst, was sich ändern soll.",
+    "source": "eec4df6dda",
     "by": "ai",
     "reviewed": false
   },
@@ -3611,39 +3779,33 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.housePrompt.sideChoice": {
-    "text": "{side, select, front {Vorderseite} back {Rückseite} other {Gartenseite}}",
-    "source": "535c43a4b0",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.housePrompt.sideHint": {
-    "text": "Jede Seite Ihres Hauses ist ein eigenes Bild: die Vorderseite, die Gartenseite…",
-    "source": "25e8590f3b",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.housePrompt.sideTitle": {
-    "text": "Welche Seite ist das?",
-    "source": "8979236069",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.housePrompt.step": {
-    "text": "{step, select, things {Bei Ihnen zu Hause} house {Ihr Haus} side {Welche Seite} style {Stil} other {Ihr Prompt}}",
-    "source": "1b291ede6a",
+    "text": "{step, select, things {Bei Ihnen zu Hause} house {Ihr Haus} style {Stil} other {Ihr Prompt}}",
+    "source": "eaf3b1ba01",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.style": {
-    "text": "{style, select, soft-3d {Sanftes 3D von Tiledash} modern-dark {Modern und dunkel} clay {Miniatur aus Ton} flat {Flache Illustration} other {Strichzeichnung}}",
-    "source": "66c83aca46",
+    "text": "{style, select, soft-3d {Sanftes 3D von Tiledash} modern-dark {Modern und dunkel} clay {Miniatur aus Ton} flat {Flache Illustration} photoreal {Naturgetreu} blueprint {Blaupause} neon-twin {Digitaler Zwilling} cyberpunk {Cyberpunk-Nacht} watercolour {Gemalt} low-poly {Low-Poly} voxel {Voxel-Würfel} pixel-art {Pixel-Art} other {Strichzeichnung}}",
+    "source": "73e4ff9685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleGroup": {
+    "text": "{group, select, light {Für helle Dashboards} dark {Für dunkle Dashboards} other {Verspielt}}",
+    "source": "a40b4f3501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.styleGroupHint": {
+    "text": "{group, select, light {Tageslicht und echte Farben, für helle Designs und E-Ink.} dark {Nacht, Leuchten und helle Linien, für dunkle Designs.} other {Wie ein Spiel, auf jedem Dashboard.}}",
+    "source": "6ab6275756",
     "by": "ai",
     "reviewed": false
   },
   "editor.housePrompt.styleHint": {
-    "text": "{style, select, soft-3d {Sanftes Licht und weiche Schatten, wie das Haus von Tiledash.} modern-dark {Elegantes Abendbild auf dunklem Grund, Fenster warm erleuchtet.} clay {Ein handgemachtes Diorama aus Ton auf einem kleinen Sockel.} flat {Flache Formen, wenige Farben, ruhig auf einem Wandpanel.} other {Schwarze Linien auf Weiß: gemacht für E-Ink.}}",
-    "source": "2d7a30ae9e",
+    "text": "{style, select, soft-3d {Sanftes Licht und weiche Schatten, wie das Haus von Tiledash.} modern-dark {Elegantes Abendbild auf dunklem Grund, Fenster warm erleuchtet.} clay {Ein handgemachtes Diorama aus Ton auf einem kleinen Sockel.} flat {Flache Formen, wenige Farben, ruhig auf einem Wandpanel.} photoreal {Wie ein Foto Ihres eigenen Hauses, ausgeschnitten.} blueprint {Helle technische Linien, gemacht für dunkle Dashboards.} neon-twin {Ein leuchtendes Drahtmodell, die Teile orange beleuchtet.} cyberpunk {Neonlicht und nasse Straßen, für dunkle Bildschirme.} watercolour {Tusche und weiches Aquarell, wie eine Architektenskizze.} low-poly {Kantige Flächen, wie in einem stilisierten Spiel.} voxel {Aus kleinen Würfeln gebaut.} pixel-art {Ein Retrospiel, Pixel für Pixel.} other {Schwarze Linien auf Weiß: gemacht für E-Ink.}}",
+    "source": "2749b1acd9",
     "by": "ai",
     "reviewed": false
   },
@@ -3704,6 +3866,18 @@
   "editor.housePrompt.upload": {
     "text": "Ergebnis hochladen",
     "source": "858a009974",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.viewChoice": {
+    "text": "{view, select, front {Vorderseite} back {Rückseite} left {Linke Seite} right {Rechte Seite} other {Schrägansicht}}",
+    "source": "263c23bbf6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.housePrompt.viewLabel": {
+    "text": "Was Foto {n} zeigt",
+    "source": "c498db84b8",
     "by": "ai",
     "reviewed": false
   },
@@ -4202,6 +4376,12 @@
   "editor.houses.newHouse": {
     "text": "Neues Haus",
     "source": "2fa4dfcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.houses.newSide": {
+    "text": "{side, select, front {Vorderseite} back {Rückseite} left {Linke Seite} right {Rechte Seite} other {Andere…}}",
+    "source": "2af1876a73",
     "by": "ai",
     "reviewed": false
   },
