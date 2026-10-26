@@ -455,18 +455,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.devices.thermostat": {
-    "text": "Termostato",
-    "source": "dd1eeb3ccf",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.devices.thermostatHint": {
-    "text": "En un dashboard, la habitación muestra su temperatura y la deseada; un toque cambia la deseada.",
-    "source": "1525bdcff9",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.devices.title": {
     "text": "Dispositivos",
     "source": "4ba5121d4d",
@@ -1955,6 +1943,336 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.modelProducts.anyRoom": {
+    "text": "Cualquier habitación",
+    "source": "9bd14ebde7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrange": {
+    "text": "Mostrar por",
+    "source": "175b990a47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrangeChoice": {
+    "text": "{by, select, type {Tipo} other {Habitación}}",
+    "source": "b681533fd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brand": {
+    "text": "Marca",
+    "source": "090ed4316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandCount": {
+    "text": "{brand} · {count}",
+    "source": "63dcc6c52c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandPlaceholder": {
+    "text": "Sonos",
+    "source": "db1119076d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandSuggestions": {
+    "text": "Marcas en la comunidad",
+    "source": "9df7be4467",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looks": {
+    "text": "Aspecto",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksCount": {
+    "text": "{count} de {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksNote": {
+    "text": "Materiales, colores y formas, tal como se ve desde arriba y de lado. Sin logotipos ni texto.",
+    "source": "fe6e21e349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksPlaceholder": {
+    "text": "Tela negra mate por todo el contorno, parte superior negra brillante con una franja táctil poco honda, extremos redondeados.",
+    "source": "11eac5667b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pending": {
+    "text": "{name} (pendiente de revisión)",
+    "source": "fbf77328e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooks": {
+    "text": "Aspecto",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksModel": {
+    "text": "Se suma al aspecto que describe el modelo.",
+    "source": "d01e9faa35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksNote": {
+    "text": "Las imágenes de este plano lo dibujan así.",
+    "source": "4ad4f9ab2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksPlaceholder": {
+    "text": "Terciopelo verde, respaldo capitoné, patas de madera oscura",
+    "source": "d4e753977d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.product": {
+    "text": "Producto real",
+    "source": "650c9f7d86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productLine": {
+    "text": "{brand} {product}",
+    "source": "3278526ea8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productName": {
+    "text": "Producto",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productNote": {
+    "text": "Si es un producto real, di cuál. Otros lo encuentran por su marca, y las imágenes de tu plano lo dibujan tal como es.",
+    "source": "b8bd8cd431",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productPlaceholder": {
+    "text": "Arc Ultra",
+    "source": "9926889c18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.propose": {
+    "text": "Proponer algo nuevo…",
+    "source": "1662a7ad4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeIt": {
+    "text": "Proponer",
+    "source": "1cbd9e713d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeNote": {
+    "text": "Un administrador revisa antes cada propuesta. Hasta entonces tú la ves, y los demás ven este modelo en {kind, select, type {Otros} other {Cualquier habitación}}.",
+    "source": "13d56ca98f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposePlaceholder": {
+    "text": "{kind, select, type {Robots cortacésped} other {Cuarto de lavado}}",
+    "source": "733c5d7d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeRoom": {
+    "text": "Una habitación nueva",
+    "source": "dcdd5e7c2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeType": {
+    "text": "Un tipo nuevo",
+    "source": "491d8b0309",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposedLimit": {
+    "text": "Tienes {count} propuestas pendientes de revisión. Podrás proponer más cuando un administrador las haya visto.",
+    "source": "305a9c1dd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.roomLabel": {
+    "text": "Habitación sugerida",
+    "source": "7604bdda07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.type": {
+    "text": "{type, select, seating {Sofás y sillones} tables {Mesas} chairs {Sillas y taburetes} beds {Camas} storage {Armarios y estanterías} kitchen-units {Muebles de cocina} appliances {Electrodomésticos} climate {Calefacción y refrigeración} baths-showers {Bañeras y duchas} toilets-basins {Inodoros y lavabos} audio-video {Audio y video} lighting {Iluminación} decor {Plantas y decoración} vehicles {Vehículos} other {Otros}}",
+    "source": "65332a660a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.typeLabel": {
+    "text": "Tipo",
+    "source": "baaddf70fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.what": {
+    "text": "Qué es",
+    "source": "1f36becc3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.whatPlaceholder": {
+    "text": "barra de sonido",
+    "source": "1e26222c13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsDevice": {
+    "text": "tu {device}",
+    "source": "17865d2c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsHeading": {
+    "text": "Encaja con estos productos",
+    "source": "6f00ff06be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNone": {
+    "text": "Ninguno aún: muestra uno de tus dispositivos como este modelo en un plano.",
+    "source": "6d0e7589de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNote": {
+    "text": "Se aprende al mostrar uno de tus dispositivos como este modelo. Cuando esté en la comunidad, se ofrecerá a quien tenga el mismo producto.",
+    "source": "b4e5716541",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsRemove": {
+    "text": "Quitar {product}",
+    "source": "d04b6aecbe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.forMyDevices": {
+    "text": "Para mis dispositivos",
+    "source": "c5496c3411",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.from": {
+    "text": "{from, select, own {Tuyo} installed {Instalado} other {Comunidad}}",
+    "source": "b1e8597acd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.heading": {
+    "text": "Modelos para {device}",
+    "source": "4735dc5f3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.inUse": {
+    "text": "En uso",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installUse": {
+    "text": "Instalar y usar",
+    "source": "c5566d0d1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installs": {
+    "text": "{count, plural, one {# instalación} other {# instalaciones}}",
+    "source": "3f9a993926",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.make": {
+    "text": "Crea uno con tu asistente de IA",
+    "source": "ce2afd81a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.match": {
+    "text": "{match, select, exact {Para tu dispositivo} product {Este producto} other {Misma marca}}",
+    "source": "07f0cd11ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.none": {
+    "text": "Aún no hay modelos de {product}.",
+    "source": "27abc3433f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.noneAny": {
+    "text": "Aún no hay modelos de este producto.",
+    "source": "0d2cee68ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.notNow": {
+    "text": "Ahora no",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeAll": {
+    "text": "{count, plural, one {Ver el modelo} other {Ver los # modelos}}",
+    "source": "7025932343",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitle": {
+    "text": "¿Mostrarlo como el {product} real?",
+    "source": "ba6e9c0b91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitleAny": {
+    "text": "¿Mostrarlo como el producto real?",
+    "source": "fc10253f1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.otherOfBrand": {
+    "text": "Otros modelos de {brand}",
+    "source": "685795d93b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.pageFits": {
+    "text": "{count, plural, =0 {Encaja con tu {device}} other {Encaja con tu {device} y # más}}",
+    "source": "815601e7a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.use": {
+    "text": "Usar",
+    "source": "c36d819e7b",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.add": {
     "text": "Añadir un modelo",
     "source": "3690c70b27",
@@ -1976,12 +2294,6 @@
   "floorplans.models.back": {
     "text": "Atrás",
     "source": "76900f1bfd",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.changedSince": {
-    "text": "Cambiado desde la {version}",
-    "source": "d1ebbdb3ae",
     "by": "ai",
     "reviewed": false
   },
@@ -2039,12 +2351,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.edit": {
-    "text": "Editar",
-    "source": "464c4ffd01",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.fitHint": {
     "text": "Ponlo de pie con el frente hacia ti: la flecha del suelo sale de su parte delantera.",
     "source": "d0cdf85741",
@@ -2060,12 +2366,6 @@
   "floorplans.models.formats": {
     "text": "GLB o glTF, OBJ o USDZ de un escaneo con iPhone, hasta {mb} MB.",
     "source": "d8cb171d7f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.group": {
-    "text": "Grupo del catálogo",
-    "source": "4b95d88400",
     "by": "ai",
     "reviewed": false
   },
@@ -2105,15 +2405,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.limit": {
-    "text": "{count} de {max} modelos",
-    "source": "434e77ec78",
+  "floorplans.models.leadLook": {
+    "text": "Los colores con los que se dibuja y su aspecto desde arriba en el plano 2D.",
+    "source": "8f21c14415",
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.loadFailed": {
-    "text": "No se pudieron cargar tus modelos",
-    "source": "87f166ae17",
+  "floorplans.models.leadModel": {
+    "text": "Cómo se llama y qué es, para que lo encuentres en el catálogo.",
+    "source": "8d2af6b91b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.leadSize": {
+    "text": "Su tamaño real, para que encaje en tu plano, y si va en el suelo, en la pared o colgado del techo.",
+    "source": "c68a57fde6",
     "by": "ai",
     "reviewed": false
   },
@@ -2165,12 +2471,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.onTiles": {
-    "text": "{count, plural, one {en # mosaico} other {en # mosaicos}}",
-    "source": "7ff8a4d2a9",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.placingInstalls": {
     "text": "Aún no instalados: al colocar uno en el plano, se instala solo.",
     "source": "7bf9df0f73",
@@ -2219,24 +2519,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.publish": {
-    "text": "Compartir en la comunidad",
-    "source": "d046e17eef",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.publishChanges": {
-    "text": "Publicar los cambios",
-    "source": "e4e9220962",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.published": {
-    "text": "En la comunidad",
-    "source": "0bb7b47711",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.remove": {
     "text": "Eliminar",
     "source": "e2d0a54968",
@@ -2246,12 +2528,6 @@
   "floorplans.models.retry": {
     "text": "Reintentar",
     "source": "d8b8392e2c",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.savedBy": {
-    "text": "Guardado por {by} · versión {version}",
-    "source": "1e2765518c",
     "by": "ai",
     "reviewed": false
   },
@@ -2282,6 +2558,30 @@
   "floorplans.models.size3": {
     "text": "{w} × {d} × {h} cm",
     "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabLook": {
+    "text": "Aspecto",
+    "source": "a0de5719f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabModel": {
+    "text": "Modelo",
+    "source": "5e2c614c23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabProduct": {
+    "text": "Producto",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabSize": {
+    "text": "Tamaño",
+    "source": "1af8519073",
     "by": "ai",
     "reviewed": false
   },
@@ -2357,15 +2657,387 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.usedIn": {
-    "text": "{count, plural, =0 {En ningún plano} one {En # plano} other {En # planos}}",
-    "source": "cbe64624a4",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.viewInCommunity": {
     "text": "Ver",
     "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angle": {
+    "text": "Ángulo",
+    "source": "1968034b13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angleName": {
+    "text": "{angle, select, game {De videojuego} steep {Pronunciado} other {Isométrico}}",
+    "source": "ebfbf452e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.another": {
+    "text": "Probar otro estilo",
+    "source": "6ee30bd74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.bothHint": {
+    "text": "La de noche y la misma imagen de día, con las lámparas apagadas. Los mosaicos siguen tu tema o el sol.",
+    "source": "a90d00c9f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.chosen": {
+    "text": "En tus mosaicos",
+    "source": "e95f37774c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.close": {
+    "text": "Cerrar",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.day": {
+    "text": "Día",
+    "source": "8f2364e11b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayAndNight": {
+    "text": "Día y noche · 2 créditos",
+    "source": "3e9618f494",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayHint": {
+    "text": "Luz de día entrando por las ventanas, con las lámparas y la tele apagadas.",
+    "source": "a83f684069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayOnly": {
+    "text": "Día · 1 crédito",
+    "source": "a19b2077fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.deleteFailed": {
+    "text": "No se pudo eliminar esa imagen.",
+    "source": "7dc1809e73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.doneTitle": {
+    "text": "Tu imagen",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.example": {
+    "text": "Un ejemplo, en el estilo que elegiste",
+    "source": "f34051af59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.failed": {
+    "text": "{why, select, refused {El modelo de imagen la rechazó. Recuperas tus créditos.} other {Esta no salió bien. Recuperas tus créditos.}}",
+    "source": "ee3284cf6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.generate": {
+    "text": "{count, plural, one {Crear · # crédito} other {Crear · # créditos}}",
+    "source": "f129ef57ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.gets": {
+    "text": "Qué recibe el modelo de imagen",
+    "source": "c4361541da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsDrawing": {
+    "text": "El dibujo de la planta hecho por Tiledash, visto {view, select, 2d {desde arriba} other {en ángulo}}",
+    "source": "2f309cfc6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsList": {
+    "text": "Qué hay y dónde: {rooms} habitaciones, {pieces} muebles, {lights} luces y {openings} puertas y ventanas, con nombre, color y posición",
+    "source": "c1f543d2c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsStyle": {
+    "text": "El estilo: {style}",
+    "source": "7baaa93d00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hint": {
+    "text": "Una imagen de esta planta hecha con tu plano, para mosaicos de plano: de noche con todas las luces encendidas, de día o ambas. El mosaico puede cambiar al plano en vivo.",
+    "source": "dd28808153",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintDismiss": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintShow": {
+    "text": "Muéstramelo",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintText": {
+    "text": "Tiledash convierte esta planta en una imagen realista para tus mosaicos de plano, con los estilos de Ajustes › Casas. Tus dispositivos siguen funcionando.",
+    "source": "9ceb945995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintTitle": {
+    "text": "¿Sabías que…?",
+    "source": "3e9b3541c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.level": {
+    "text": "Planta",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeOpen": {
+    "text": "Crear una imagen",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeTitle": {
+    "text": "Crear una imagen",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.making": {
+    "text": "Creando tu imagen… Tarda alrededor de un minuto.",
+    "source": "bdcf86f80e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingHint": {
+    "text": "{both, select, yes {Un minuto para la de noche y otro para la de día} other {Alrededor de un minuto}}. Puedes cerrar esto: aparecerá en el panel Imagen cuando esté lista.",
+    "source": "4993e625d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingTitle": {
+    "text": "Creando tu imagen",
+    "source": "6dda93a0f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.night": {
+    "text": "Noche",
+    "source": "4e9f8db824",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.nightHint": {
+    "text": "Todas las luces y la tele encendidas, oscuro tras las ventanas.",
+    "source": "c8c0042068",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.notStarted": {
+    "text": "{error, select, busy {Ya se está creando una imagen.} limit {Ya hay bastantes imágenes por hoy; vuelve a intentarlo mañana.} off {Aquí no se pueden crear imágenes.} render {Tiledash no pudo dibujar esta planta. Vuelve a intentarlo.} other {No se pudo iniciar la imagen.}}",
+    "source": "aac8df74a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.oneRoom": {
+    "text": "Una habitación",
+    "source": "c2452f216c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.open": {
+    "text": "Una imagen de esta planta",
+    "source": "d16aa8920d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.outOfDate": {
+    "text": "Cambiaste esta planta después de crear esta imagen. Los mosaicos la siguen mostrando hasta que crees una nueva.",
+    "source": "02125faeec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.readyTitle": {
+    "text": "Todo listo para crearla",
+    "source": "68f84def72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.remove": {
+    "text": "Eliminar este intento",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.renderCaption": {
+    "text": "Esto recibe el modelo de imagen: el dibujo de esta planta hecho por Tiledash, que redibuja en otro estilo. Paredes, puertas y muebles no se mueven.",
+    "source": "9826a2bce2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.room": {
+    "text": "Habitación",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.roomHint": {
+    "text": "La imagen se crea de esta habitación de cerca. Los mosaicos de plano que muestran esta habitación la muestran primero.",
+    "source": "afe3ddfe35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.sendsPlan": {
+    "text": "La distribución de tu planta, sus muebles y un dibujo hecho por Tiledash se envían a OpenAI para crearla.",
+    "source": "1c707f7ffe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.show": {
+    "text": "Mostrar",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.showSummary": {
+    "text": "{room, select, none {Toda la planta} other {{room}{fade, select, yes {, el resto atenuado al {level}%} other {}}}}",
+    "source": "aac39ea513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.single": {
+    "text": "Noche · 1 crédito",
+    "source": "9476cb3dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.step": {
+    "text": "{step, select, view {Planta y vista} style {Estilo} versions {Versiones} other {Crear}}",
+    "source": "d3b4b8e2bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.style": {
+    "text": "Estilo",
+    "source": "7e744141b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.styleTitle": {
+    "text": "Elige un estilo",
+    "source": "d98c7cf9a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.title": {
+    "text": "Imagen",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tries": {
+    "text": "Intentos anteriores",
+    "source": "126c666df0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tryLabel": {
+    "text": "{style} · {view, select, 2d {2D} other {2.5D}} · {when}",
+    "source": "71c2a6f9cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.turn": {
+    "text": "Giro",
+    "source": "397a3113ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.use": {
+    "text": "Usar en mosaicos",
+    "source": "9a1624c546",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versions": {
+    "text": "Versiones",
+    "source": "f89ea27036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsHint": {
+    "text": "Con ambas, un mosaico muestra la de noche en temas oscuros o tras la puesta de sol, como elijas.",
+    "source": "5426618980",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsTitle": {
+    "text": "¿De noche, de día o ambas?",
+    "source": "399f4db578",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view": {
+    "text": "Vista",
+    "source": "6e6674eab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view25d": {
+    "text": "En ángulo (2.5D)",
+    "source": "99ba158e0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view2d": {
+    "text": "Desde arriba (2D)",
+    "source": "a9fb8997b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewHint": {
+    "text": "Gíralo como conoces tu casa; para 2.5D, elige también el ángulo que usan tus mosaicos.",
+    "source": "b4d4c1484d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewTitle": {
+    "text": "¿Qué planta y con qué vista?",
+    "source": "68e751ab7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wholeLevel": {
+    "text": "Toda la planta",
+    "source": "98f14a9dde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wizardTitle": {
+    "text": "Una imagen de tu plano",
+    "source": "51918ed1fb",
     "by": "ai",
     "reviewed": false
   },
@@ -2612,6 +3284,162 @@
   "floorplans.quickTips.zoomHelp": {
     "text": "Acerca o aleja la vista. Usa la flecha de reinicio para volver al inicio.",
     "source": "5c49f67766",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climate": {
+    "text": "Clima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climateHint": {
+    "text": "Su temperatura y objetivo se muestran junto al nombre de la habitación.",
+    "source": "091029f87b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.covers": {
+    "text": "Persianas y cortinas",
+    "source": "3f8d88db58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.coversCount": {
+    "text": "{count, number} de {total, number} se abren y cierran juntas",
+    "source": "2eb0e6f9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.flow": {
+    "text": "Flow",
+    "source": "f1273dc72c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.intro": {
+    "text": "Dispositivos para toda la habitación, no para un punto de ella. Al tocar la habitación se abre su tarjeta.",
+    "source": "eeb2645728",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lights": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lightsCount": {
+    "text": "{count, number} de {total, number} se encienden juntas",
+    "source": "8b36720bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.media": {
+    "text": "Reproductor multimedia",
+    "source": "2664a5c844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.mood": {
+    "text": "Ambiente",
+    "source": "780fe43f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.none": {
+    "text": "Ninguno",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.nothing": {
+    "text": "Ninguno en la zona de esta habitación ni en el plano.",
+    "source": "2894fc9d99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.offPlan": {
+    "text": "Fuera del plano",
+    "source": "029f1bc134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.onPlan": {
+    "text": "En el plano",
+    "source": "1829030c95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesHint": {
+    "text": "Botones en la tarjeta de la habitación, en este orden.",
+    "source": "5ebc8802dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesTitle": {
+    "text": "Ambientes y flows",
+    "source": "e061840de6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tab": {
+    "text": "Dispositivos",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tickOnPlan": {
+    "text": "Marca las {count, number} del plano en esta habitación",
+    "source": "f1b24b3120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.title": {
+    "text": "Dispositivos de la habitación",
+    "source": "289898f8f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesBody": {
+    "text": "Elige aquí el reproductor, el termostato, las luces y las persianas de la habitación. En un mosaico Floor plan, al tocar la habitación se abre su tarjeta.",
+    "source": "1244d9f69c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesTitle": {
+    "text": "Los dispositivos de una habitación",
+    "source": "c7f83558d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndAction": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndBody": {
+    "text": "En tus propios dashboards, el ⋯ de la tarjeta también los cambia, sin abrir el plano.",
+    "source": "5f13347584",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndTitle": {
+    "text": "Cada habitación, sus dispositivos",
+    "source": "95850809a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesBody": {
+    "text": "Añade los ambientes y flows que ofrece la tarjeta de la habitación, en el orden que quieras.",
+    "source": "1f56c2475c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesTitle": {
+    "text": "Ambientes y flows",
+    "source": "e061840de6",
     "by": "ai",
     "reviewed": false
   }

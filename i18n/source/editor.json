@@ -1265,6 +1265,12 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/configSections.messages.ts"
   },
+  "editor.configSections.live": {
+    "en": "Live plan",
+    "context": "Name of the tab of a Floor plan tile’s settings with what the live plan shows (drawn from the plan, following the devices): furniture, the rooms’ readings, light glow, the heat map. Also a small tag on a setting in the widget code editor and a choice in the list of tabs a setting can sit in.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/configSections.messages.ts"
+  },
   "editor.configSections.look": {
     "en": "Look",
     "context": "Name of the tab of a widget’s settings where the person chooses how the tile looks: its design (the look), colours and decimals. Also a heading, a small tag on a setting in the widget code editor and a choice in the list of tabs a setting can sit in.",
@@ -1274,6 +1280,12 @@
   "editor.configSections.map": {
     "en": "Map",
     "context": "Name of the tab of a widget’s settings with the settings of a map behind the tile. Also a heading, a small tag on a setting in the widget code editor and a choice in the list of tabs a setting can sit in.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/configSections.messages.ts"
+  },
+  "editor.configSections.picture": {
+    "en": "Picture",
+    "context": "Name of the tab of a Floor plan tile’s settings for when it shows a picture of the level made in the floor planner: day or night, and the rings that show where to tap. Also a small tag on a setting in the widget code editor and a choice in the list of tabs a setting can sit in.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/configSections.messages.ts"
   },
@@ -2808,6 +2820,71 @@
     "context": "Button on the message \"Favourite colour removed\": puts the colour back among the favourites, in its place.",
     "maxLength": 16,
     "file": "apps/web/src/dashboards/FavouriteColours.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.about": {
+    "en": "{style} · {view, select, 2d {2D} other {2.5D}} · {turn}°",
+    "context": "Line under a picture in the list: its style (already in the person’s language), the view (2D seen from above, 2.5D at an angle) and how far it is turned.",
+    "params": {
+      "style": "The style’s name.",
+      "turn": "0, 90, 180 or 270.",
+      "view": "2d or 25d."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.auto": {
+    "en": "The one you use on tiles",
+    "context": "First choice in the list of pictures: leave it to the picture chosen in the floor planner with \"Use on tiles\".",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.autoHint": {
+    "en": "Follows the floor planner",
+    "context": "Line under the first choice: it changes when another picture is chosen there.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.chooseFirst": {
+    "en": "Pick a floor plan and its level first.",
+    "context": "Shown instead of the list while the tile has no floor plan.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.make": {
+    "en": "Make one in the floor planner",
+    "context": "Link to the floor planner, where pictures are made.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.none": {
+    "en": "No picture of this level yet. Make one in the floor planner.",
+    "context": "Shown instead of the list when the level has no pictures.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.outOfDate": {
+    "en": "Out of date",
+    "context": "Small tag on a picture: the level changed since it was made.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.room": {
+    "en": "Only {room}",
+    "context": "Line under a picture made of one room up close.",
+    "params": {
+      "room": "The room’s name."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
+  },
+  "editor.floorPlanPictureSetting.versions": {
+    "en": "{versions, select, dayNight {Day and night} day {Day} other {Night}}",
+    "context": "Small tag on a picture: which versions it has.",
+    "params": {
+      "versions": "dayNight, day or night."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdFloorPlanPicturePicker.messages.ts"
   },
   "editor.floorPlanSetting.gone": {
     "en": "The plan this tile showed is gone. Choose another.",
@@ -6009,16 +6086,6 @@
     "en": "Models you install from the Community show here.",
     "context": "Under From the Community while the person installed none.",
     "maxLength": 80,
-    "file": "packages/ui/src/dashboard/model/modelSetting.messages.ts"
-  },
-  "editor.modelSetting.count": {
-    "en": "{count} of {max}",
-    "context": "Beside the My models heading: how many own models the person has, of the most their plan keeps.",
-    "params": {
-      "count": "How many they have.",
-      "max": "The most their plan keeps, such as 3."
-    },
-    "maxLength": 20,
     "file": "packages/ui/src/dashboard/model/modelSetting.messages.ts"
   },
   "editor.modelSetting.done": {
@@ -12017,6 +12084,12 @@
     "maxLength": 90,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },
+  "editor.widgetSettings.leadLive": {
+    "en": "What the live plan shows, following your devices.",
+    "context": "Short line at the top of the Live plan tab of a Floor plan tile’s settings (tabs above the settings): the plan drawn live, its furniture, readings and lights.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
   "editor.widgetSettings.leadLook": {
     "en": "How the tile looks: the widget that shows it, its colours and decimals.",
     "context": "Short line at the top of the Look tab of a tile’s settings (tabs above the settings). The widget is one of the looks offered for the tile, such as a dial or a bar; the same word as the list of looks there.",
@@ -12026,6 +12099,12 @@
   "editor.widgetSettings.leadMap": {
     "en": "A map behind the tile, around where the device is.",
     "context": "Short line at the top of the Map tab of a tile’s settings (tabs above the settings): a map drawn behind the tile, around the device’s location.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.leadPicture": {
+    "en": "How the picture of this level shows, made in the floor planner.",
+    "context": "Short line at the top of the Picture tab of a Floor plan tile’s settings (tabs above the settings): a picture of the level, made in the floor planner, shown instead of the live plan.",
     "maxLength": 90,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },

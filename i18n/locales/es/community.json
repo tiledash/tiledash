@@ -1577,6 +1577,162 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.models.aboutProduct": {
+    "text": "El producto real",
+    "source": "7861d38958",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.allBrands": {
+    "text": "Todas las marcas",
+    "source": "28c0e12158",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.anyBrand": {
+    "text": "Cualquier marca",
+    "source": "2732c1befe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.anyType": {
+    "text": "Cualquier tipo",
+    "source": "b05fc1fe69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.backToModels": {
+    "text": "Todos los modelos",
+    "source": "0f589c19cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.brand": {
+    "text": "Marca",
+    "source": "090ed4316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.brandLine": {
+    "text": "{models, plural, one {# modelo} other {# modelos}} de {products, plural, one {# producto} other {# productos}}",
+    "source": "a56593bff5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.brandsNote": {
+    "text": "Modelos de productos reales, según quién los fabrica. Elige una marca para ver sus modelos, producto a producto.",
+    "source": "1d3095c429",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.brandsSearch": {
+    "text": "Buscar una marca",
+    "source": "5485ad858f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.brandsTitle": {
+    "text": "Marcas",
+    "source": "ec26be2ce7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.filledIn": {
+    "text": "Completado a partir del producto real de tu modelo. Cambia lo que quieras.",
+    "source": "c5af3429c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.modelSummary": {
+    "text": "{what, select, none {Un modelo de {product}} other {Un modelo de {product} ({what})}}.",
+    "source": "48c77517e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.moreOfBrand": {
+    "text": "Más de {brand}",
+    "source": "f3098d3dd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.noBrands": {
+    "text": "Ninguna marca se llama así.",
+    "source": "57d6692274",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.otherProducts": {
+    "text": "Otros modelos de {brand}",
+    "source": "685795d93b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productBrand": {
+    "text": "Marca",
+    "source": "090ed4316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productLooks": {
+    "text": "Aspecto",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productName": {
+    "text": "Producto",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productRoom": {
+    "text": "Habitación sugerida",
+    "source": "7604bdda07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productType": {
+    "text": "Tipo",
+    "source": "baaddf70fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.productWhat": {
+    "text": "Qué es",
+    "source": "1f36becc3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.sameProduct": {
+    "text": "{count, plural, one {Alguien ya compartió un modelo de {product}} other {Ya hay # modelos de {product} en la comunidad}}",
+    "source": "27af74415d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.sameProductBy": {
+    "text": "{title} de {publisher} · {count, plural, one {# instalación} other {# instalaciones}}",
+    "source": "dee786ed6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.sameProductNote": {
+    "text": "Aun así puedes compartir el tuyo. Échales un vistazo antes: quizá alguno ya te sirva.",
+    "source": "f1789cfb93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.sectionCount": {
+    "text": "{count, plural, one {# modelo} other {# modelos}}",
+    "source": "f93d80316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.models.type": {
+    "text": "Tipo",
+    "source": "baaddf70fb",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.pages.compareFailed": {
     "text": "No se pudieron comparar estas versiones.",
     "source": "be2bcfa7fd",
@@ -2030,6 +2186,60 @@
   "community.publish.whyOutsideHint": {
     "text": "Se muestra a todos antes de instalarlo.",
     "source": "ab4db62c28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.edit": {
+    "text": "Editar",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.editRow": {
+    "text": "Editar {row}",
+    "source": "961a6f8974",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.lead": {
+    "text": "{step, select, about {Cómo se llama y una línea sobre lo que hace: la comunidad muestra ambas cosas en su tarjeta.} description {Cuenta qué hace y cómo se usa. Las etiquetas ayudan a encontrarlo.} pictures {Un icono y algunas capturas, para que la gente lo vea antes de instalarlo.} sharing {La licencia con la que otros pueden usarlo, dónde está su código o sitio web, y quién lo encuentra.} version {Qué versión es: lo que ha cambiado desde la última la sugiere. La ficha se queda como está, salvo que la cambies.} notes {Qué trae de nuevo, en pocas líneas; se muestra con la actualización.} other {Revísalo y publícalo. La ficha se puede cambiar después; una versión se queda como está.}}",
+    "source": "5a5fb49f4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.none": {
+    "text": "Ninguno",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.nothingWritten": {
+    "text": "Nada escrito",
+    "source": "2971d5fe9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.pictures": {
+    "text": "{icon, select, yes {Un icono} other {Sin icono}} {count, plural, =0 {y sin capturas} one {y # captura} other {y # capturas}}",
+    "source": "66e31e7b0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.row": {
+    "text": "{row, select, title {Título} address {Dirección} description {Descripción} tags {Etiquetas} pictures {Imágenes} licence {Licencia} links {Enlaces} who {Visibilidad} version {Versión} notes {Novedades} outside {Carga desde} other {Otro}}",
+    "source": "77bfef2a76",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.step": {
+    "text": "{step, select, about {General} description {Descripción} pictures {Imágenes} sharing {Compartir} version {Versión} notes {Novedades} other {Revisar}}",
+    "source": "32acfd5006",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.stepOf": {
+    "text": "Paso {n} de {count}",
+    "source": "99913e946c",
     "by": "ai",
     "reviewed": false
   },

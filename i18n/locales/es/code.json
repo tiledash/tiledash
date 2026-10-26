@@ -1463,9 +1463,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.editorPages.yourWidgets": {
-    "text": "Tus widgets",
-    "source": "91b425b9b0",
+  "code.editorPages.workshop": {
+    "text": "Taller",
+    "source": "c0086f23dc",
     "by": "ai",
     "reviewed": false
   },
@@ -2148,8 +2148,8 @@
     "reviewed": false
   },
   "code.ownEditor.backToList": {
-    "text": "Tus widgets",
-    "source": "91b425b9b0",
+    "text": "Taller",
+    "source": "c0086f23dc",
     "by": "ai",
     "reviewed": false
   },
@@ -2556,8 +2556,8 @@
     "reviewed": false
   },
   "code.ownWidgetsWeb.loadFailed": {
-    "text": "No se pudieron cargar tus widgets",
-    "source": "058f323c18",
+    "text": "No se pudo cargar el Taller",
+    "source": "594e9bbff4",
     "by": "ai",
     "reviewed": false
   },
@@ -4962,8 +4962,8 @@
     "reviewed": false
   },
   "code.settingViews.kind": {
-    "text": "{type, select, device {Un dispositivo} capability {Una función} flow {Un Flow} mood {Un ambiente} dashboard {Un dashboard} zone {Una zona} person {Una persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Un plano} house {Una casa} model {Un modelo} modelCamera {Una vista 3D} number {Un número} percentage {Un porcentaje} boolean {Sí/no} text {Texto} choice {Una opción} color {Un color} icon {Un icono} size {Un tamaño} spot {Una posición} other {Mosaicos}}",
-    "source": "35b9cae31c",
+    "text": "{type, select, device {Un dispositivo} capability {Una función} flow {Un Flow} mood {Un ambiente} dashboard {Un dashboard} zone {Una zona} person {Una persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Un plano} house {Una casa} model {Un modelo} modelCamera {Una vista 3D} floorplanPicture {Una imagen de plano} number {Un número} percentage {Un porcentaje} boolean {Sí/no} text {Texto} choice {Una opción} color {Un color} icon {Un icono} size {Un tamaño} spot {Una posición} other {Mosaicos}}",
+    "source": "5e8cf1d366",
     "by": "ai",
     "reviewed": false
   },
@@ -4992,8 +4992,8 @@
     "reviewed": false
   },
   "code.settingViews.newLabel": {
-    "text": "{type, select, device {Dispositivo} capability {Función} flow {Flow} mood {Ambiente} dashboard {Dashboard} zone {Zona} person {Persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Plano} house {Casa} model {Modelo} modelCamera {Vista 3D} number {Número} percentage {Porcentaje} boolean {Sí/no} text {Texto} choice {Opción} color {Color} icon {Icono} size {Tamaño} spot {Posición} other {Mosaicos}}",
-    "source": "b56ead900f",
+    "text": "{type, select, device {Dispositivo} capability {Función} flow {Flow} mood {Ambiente} dashboard {Dashboard} zone {Zona} person {Persona} calendars {Calendarios} pins {Códigos PIN} floorplan {Plano} house {Casa} model {Modelo} modelCamera {Vista 3D} floorplanPicture {Imagen de plano} number {Número} percentage {Porcentaje} boolean {Sí/no} text {Texto} choice {Opción} color {Color} icon {Icono} size {Tamaño} spot {Posición} other {Mosaicos}}",
+    "source": "2337026e4c",
     "by": "ai",
     "reviewed": false
   },
@@ -5066,6 +5066,12 @@
   "code.settingViews.readsColor": {
     "text": "un color del tema o #rrggbb",
     "source": "ddf918daba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.settingViews.readsFloorPlanPicture": {
+    "text": "una imagen de una planta del plano",
+    "source": "5502d68cd4",
     "by": "ai",
     "reviewed": false
   },
@@ -6473,9 +6479,219 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.yourWidgets.all": {
+  "code.workshop.all": {
     "text": "Todos",
     "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.changedSince": {
+    "text": "Cambiado desde la {version}",
+    "source": "d1ebbdb3ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.copy": {
+    "text": "Hacer una copia",
+    "source": "e61974e66c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.delete": {
+    "text": "Eliminar…",
+    "source": "9ce78fe395",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.description": {
+    "text": "Todo lo que creas: widgets, los fragmentos que comparten, temas y modelos para tus planos. Comparte lo que quieras en la comunidad.",
+    "source": "09066d2020",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.edit": {
+    "text": "Editar",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.editName": {
+    "text": "Editar {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.hidden": {
+    "text": "Oculto por Tiledash",
+    "source": "6c539a3dc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.kind": {
+    "text": "{kind, select, widget {Widgets} partial {Fragmentos} theme {Temas} model {Modelos} other {Otros}}",
+    "source": "03c572f574",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.lockedFree": {
+    "text": "Pro para editar",
+    "source": "5d41212bc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.modelTiles": {
+    "text": "{count, plural, one {# mosaico} other {# mosaicos}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.modelUse": {
+    "text": "{count, plural, =0 {En ningún plano} one {En # plano} other {En # planos}}",
+    "source": "cbe64624a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.new": {
+    "text": "Nuevo",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newModel": {
+    "text": "Modelo",
+    "source": "5e2c614c23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newModelText": {
+    "text": "Sube un modelo 3D, o deja que tu asistente de IA cree uno, para tus planos.",
+    "source": "9aaf98ee7e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newModelTitle": {
+    "text": "Nuevo modelo",
+    "source": "b042edbb8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newPartial": {
+    "text": "Fragmento",
+    "source": "a4d50fb854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newTheme": {
+    "text": "Tema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newThemeText": {
+    "text": "Parte de cualquier tema y elige sus colores y fuentes.",
+    "source": "2787a1a2fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newThemeTitle": {
+    "text": "Nuevo tema",
+    "source": "56ce19dd51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.newWidget": {
+    "text": "Widget",
+    "source": "7dd7a28c2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.noThemes": {
+    "text": "Aquí aparecen los temas que creaste con Pro.",
+    "source": "4fc107073e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.onCommunity": {
+    "text": "En la comunidad · {version}",
+    "source": "ceb532f85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.onlyYou": {
+    "text": "Solo tú",
+    "source": "c080649df6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.options": {
+    "text": "Más opciones de {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.pointer": {
+    "text": "{kind, select, theme {Crea tus propios temas y compártelos desde el <link>Taller</link>.} model {Crea tus propios modelos y compártelos desde el <link>Taller</link>.} other {Crea los tuyos en el <link>Taller</link>.}}",
+    "source": "9a99900f9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.publish": {
+    "text": "Publicar",
+    "source": "859390eb49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.publishUpdate": {
+    "text": "Publicar actualización",
+    "source": "a74a0a4b0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.removed": {
+    "text": "Eliminado por Tiledash",
+    "source": "69c9f19cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.saved": {
+    "text": "Guardado",
+    "source": "b5c120b316",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.savedBy": {
+    "text": "Modelado por {by}",
+    "source": "d388d87170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.show": {
+    "text": "Mostrar",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.size": {
+    "text": "Tamaño",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.size3": {
+    "text": "{w} × {d} × {h} cm",
+    "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.title": {
+    "text": "Taller",
+    "source": "c0086f23dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.used": {
+    "text": "Uso",
+    "source": "ae7d8dfac9",
     "by": "ai",
     "reviewed": false
   },
@@ -6497,18 +6713,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.yourWidgets.description": {
-    "text": "Widgets propios, creados desde cualquier widget o desde cero. Lo que guardas aparece en todos los dashboards a la vez.",
-    "source": "96da3c18e1",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.descriptionPartials": {
-    "text": "Widgets propios, creados desde cualquier widget, y fragmentos: trozos de plantilla que comparten tus widgets. Lo que guardas aparece en todos los dashboards a la vez.",
-    "source": "1acd19b301",
-    "by": "ai",
-    "reviewed": false
-  },
   "code.yourWidgets.edit": {
     "text": "Editar",
     "source": "464c4ffd01",
@@ -6518,66 +6722,6 @@
   "code.yourWidgets.editName": {
     "text": "Editar {name}",
     "source": "2313fe21ea",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyLead": {
-    "text": "Cualquier widget puede ser el inicio de uno tuyo: los mismos dispositivos, con tu plantilla y tu estilo. Tus widgets están junto a los integrados en el selector de widgets.",
-    "source": "bbe4344571",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep1": {
-    "text": "Parte de cualquier widget",
-    "source": "33573f759f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep1Text": {
-    "text": "Uno integrado o uno tuyo. Conserva lo que muestra y sus ajustes.",
-    "source": "fb77e194a8",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep2": {
-    "text": "Dale tu propio aspecto",
-    "source": "f8f193e990",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep2Text": {
-    "text": "Cambia su plantilla y su estilo, con una vista previa en vivo con dispositivos de demostración.",
-    "source": "55e7c59d32",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep3": {
-    "text": "Guárdalo y úsalo",
-    "source": "4b7d226758",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyStep3Text": {
-    "text": "Elígelo en el selector de widgets o úsalo en lugar del integrado en todas partes.",
-    "source": "3cc3d70b0f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.emptyTitle": {
-    "text": "Haz tuyo un widget",
-    "source": "ad596a87b2",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.freeBody": {
-    "text": "Si vuelves a Free, los widgets y fragmentos que creaste siguen mostrando tus mosaicos, pero no se pueden cambiar ni crear otros. Pasa a Pro para editarlos de nuevo; no se pierde nada.",
-    "source": "2d96d3ae0a",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.freeTitle": {
-    "text": "Tus widgets siguen funcionando",
-    "source": "a2f5383f0c",
     "by": "ai",
     "reviewed": false
   },
@@ -6641,12 +6785,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.yourWidgets.noPartials": {
-    "text": "No tienes fragmentos propios.",
-    "source": "7e95d1f70f",
-    "by": "ai",
-    "reviewed": false
-  },
   "code.yourWidgets.openInCommunity": {
     "text": "Abrir en la comunidad",
     "source": "49b02e17df",
@@ -6665,27 +6803,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.yourWidgets.partials": {
-    "text": "Fragmentos",
-    "source": "b530ef9cde",
-    "by": "ai",
-    "reviewed": false
-  },
   "code.yourWidgets.saved": {
     "text": "Guardado",
     "source": "b5c120b316",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.seePro": {
-    "text": "Ver Pro",
-    "source": "5fb2bb5f23",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.show": {
-    "text": "Mostrar",
-    "source": "0df6f1cad3",
     "by": "ai",
     "reviewed": false
   },
@@ -6698,12 +6818,6 @@
   "code.yourWidgets.tiles": {
     "text": "Mosaicos",
     "source": "4da22a362d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.title": {
-    "text": "Tus widgets",
-    "source": "91b425b9b0",
     "by": "ai",
     "reviewed": false
   },
@@ -6722,12 +6836,6 @@
   "code.yourWidgets.version": {
     "text": "Versión",
     "source": "dd167905de",
-    "by": "ai",
-    "reviewed": false
-  },
-  "code.yourWidgets.widgets": {
-    "text": "Widgets",
-    "source": "1fda79ffb6",
     "by": "ai",
     "reviewed": false
   }

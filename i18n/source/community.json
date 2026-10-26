@@ -1847,6 +1847,188 @@
     "maxLength": 40,
     "file": "apps/web/src/store/storeMine.messages.ts"
   },
+  "community.models.aboutProduct": {
+    "en": "The real product",
+    "context": "Heading on a model’s community page over the brand, product, what it is and how it looks.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.allBrands": {
+    "en": "All brands",
+    "context": "Link on the community’s models page to the page that lists every brand.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.anyBrand": {
+    "en": "Any brand",
+    "context": "Choice of the Brand filter: models of every brand, and those of none.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.anyType": {
+    "en": "Any type",
+    "context": "Choice of the Type filter: models of every type.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.backToModels": {
+    "en": "All models",
+    "context": "Link back from the brands page to the community’s models page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.brand": {
+    "en": "Brand",
+    "context": "Label of the filter on the community’s models page: the maker of the real product.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.brandLine": {
+    "en": "{models, plural, one {# model} other {# models}} of {products, plural, one {# product} other {# products}}",
+    "context": "Under a brand on the brands page: how many models it has, of how many products.",
+    "params": {
+      "models": "How many models.",
+      "products": "How many different products."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.brandsNote": {
+    "en": "Models of real products, by who makes them. Pick a brand to see its models, product by product.",
+    "context": "Line under the title of the brands page.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.brandsSearch": {
+    "en": "Find a brand",
+    "context": "Placeholder and label of the search field on the brands page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.brandsTitle": {
+    "en": "Brands",
+    "context": "Title of the page that lists every brand on the community’s models.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.filledIn": {
+    "en": "Filled in from your model’s real product. Change anything you like.",
+    "context": "Note over the listing fields when publishing a model: its title, summary and tags were filled in from the brand and product the person gave it.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.modelSummary": {
+    "en": "{what, select, none {A model of the {product}} other {A model of the {product}, a {what}}}.",
+    "context": "Summary filled in when publishing a model of a real product; the person can change it. what is a plain word such as soundbar.",
+    "params": {
+      "product": "Brand and product, such as Sonos Arc Ultra.",
+      "what": "What it is (soundbar), or none."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.moreOfBrand": {
+    "en": "More from {brand}",
+    "context": "Link on a model’s community page to the other models of the same brand.",
+    "params": {
+      "brand": "The brand."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.noBrands": {
+    "en": "No brand called that.",
+    "context": "Shown on the brands page when the search finds nothing.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.otherProducts": {
+    "en": "Other {brand} models",
+    "context": "Heading over a brand’s models that don’t name their product, after the sections per product.",
+    "params": {
+      "brand": "The brand."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productBrand": {
+    "en": "Brand",
+    "context": "Label on a model’s community page: the maker of the real product.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productLooks": {
+    "en": "How it looks",
+    "context": "Label on a model’s community page over the description of how it looks, used to draw pictures of plans.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productName": {
+    "en": "Product",
+    "context": "Label on a model’s community page: the product’s own name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productRoom": {
+    "en": "Suggested room",
+    "context": "Label on a model’s community page: the room it is meant for, or Any room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productType": {
+    "en": "Type",
+    "context": "Label on a model’s community page: what kind of thing it is (Audio and video).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.productWhat": {
+    "en": "What it is",
+    "context": "Label on a model’s community page: a plain word for the thing (a soundbar).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.sameProduct": {
+    "en": "{count, plural, one {Someone already shared a model of the {product}} other {# models of the {product} are on the Community already}}",
+    "context": "Note when publishing a model of a real product others shared too. They can still publish theirs.",
+    "params": {
+      "count": "How many models of it.",
+      "product": "Brand and product, such as Sonos Arc Ultra."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.sameProductBy": {
+    "en": "{title} by {publisher} · {count, plural, one {# install} other {# installs}}",
+    "context": "One model of the same product, in the note when publishing.",
+    "params": {
+      "count": "How many installed it.",
+      "publisher": "Who shared it (@handle).",
+      "title": "Its title."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.sameProductNote": {
+    "en": "You can still share yours. Have a look first: one of these might already do.",
+    "context": "Line under the note that others already shared a model of the same product.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.sectionCount": {
+    "en": "{count, plural, one {# model} other {# models}}",
+    "context": "How many models a section of the community’s models page holds (a type, room or product).",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
+  "community.models.type": {
+    "en": "Type",
+    "context": "Label of the filter on the community’s models page: what a model is.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/communityModels.messages.ts"
+  },
   "community.pages.compareFailed": {
     "en": "Couldn’t compare these versions.",
     "context": "Red message when two versions couldn’t be compared.",
@@ -2352,6 +2534,80 @@
     "context": "Hint under \"Why does it load these?\".",
     "maxLength": 60,
     "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publishWizard.edit": {
+    "en": "Edit",
+    "context": "Button beside a line of the summary: goes back to the step that sets it.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.editRow": {
+    "en": "Edit {row}",
+    "context": "Read out for that button.",
+    "params": {
+      "row": "The line’s label."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.lead": {
+    "en": "{step, select, about {What it is called, and one line on what it does: the community shows both on its card.} description {Tell people what it does and how to use it. Tags help them find it.} pictures {An icon and a few screenshots, so people see it before they install it.} sharing {The licence others may use it under, where its code or home page is, and who finds it.} version {Which version this is: what changed since the last one suggests it. The listing stays as it is unless you change it.} notes {What is new in it, in a few lines; people see this with the update.} other {Check it over, then publish. The listing can be changed later; a version stays as it is.}}",
+    "context": "Line at the top of each step of publishing, saying what the step is for.",
+    "params": {
+      "step": "about, description, pictures, sharing, version, notes or check."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.none": {
+    "en": "None",
+    "context": "In the summary, for no tags or no links.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.nothingWritten": {
+    "en": "Nothing written",
+    "context": "In the summary, for a description or what’s new left empty.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.pictures": {
+    "en": "{icon, select, yes {An icon} other {No icon}} and {count, plural, =0 {no screenshots} one {# screenshot} other {# screenshots}}",
+    "context": "In the summary: whether there is an icon, and how many screenshots.",
+    "params": {
+      "count": "How many screenshots.",
+      "icon": "yes or no."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.row": {
+    "en": "{row, select, title {Title} address {Address} description {Description} tags {Tags} pictures {Pictures} licence {Licence} links {Links} who {Who finds it} version {Version} notes {What’s new} outside {Loads from} other {Other}}",
+    "context": "Label of a line in the summary at the last step of publishing.",
+    "params": {
+      "row": "Which line."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.step": {
+    "en": "{step, select, about {About} description {Description} pictures {Pictures} sharing {Sharing} version {Version} notes {What’s new} other {Check}}",
+    "context": "Name of a step of publishing an item to the community, in the row of steps at the top: about it (title, address, summary), its description, its pictures, how it is shared (licence, links, who finds it), the version and what changed, what is new in it (notes), and a last check before publishing.",
+    "params": {
+      "step": "about, description, pictures, sharing, version, notes or check."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.stepOf": {
+    "en": "Step {n} of {count}",
+    "context": "Read out by screen readers for the row of steps.",
+    "params": {
+      "count": "How many steps.",
+      "n": "The step on screen."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.published.blocked": {
     "en": "Blocked",

@@ -1352,7 +1352,7 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.needsProDetail": {
-    "en": "Your own themes, widgets, partials and test devices need Pro here.",
+    "en": "Your own themes need Pro here.",
     "context": "Line under \"Pro only\".",
     "maxLength": 90,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
@@ -1999,6 +1999,12 @@
   "account.houseCredits.spend": {
     "en": "Made a house picture",
     "context": "Line in the credit history for a credit spent on making a picture of a house.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.spendFloorPlan": {
+    "en": "Made a floor plan picture",
+    "context": "Line in the credit history for a credit spent on making a picture of a floor plan level.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
   },
@@ -3836,6 +3842,30 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.groupFloorPlans": {
+    "en": "Floor plans",
+    "context": "Heading of a group of rows in the plans table: floor plans, 3D, your own 3D models and houses.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.groupHistory": {
+    "en": "History",
+    "context": "Heading of a group of rows in the plans table: how many readings are recorded and how long their history is kept.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.groupHome": {
+    "en": "Your home",
+    "context": "Heading of a group of rows in the plans table: Homeys, dashboards, share links and screens, calendars.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.groupMake": {
+    "en": "Make and share",
+    "context": "Heading of a group of rows in the plans table: making your own widgets and themes, publishing them to the Community, and building widgets with your AI.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.keptDaily": {
     "en": "daily for {time}",
     "context": "Part of \"History is kept detailed for 2 days, hourly for 30 days, daily for 1 year\": how long one value per day is kept.",
@@ -3956,6 +3986,12 @@
   "account.plans.rowOwnModels": {
     "en": "Your own 3D models",
     "context": "Row of the plans table: how many 3D models of their own (scanned or downloaded furniture) a user can add to floor plans.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
+  "account.plans.rowPublish": {
+    "en": "Publish to the Community",
+    "context": "Row of the plans table: whether the plan lets you publish your own widgets, themes, partials and models to the Community (the place where Tiledash users share them).",
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
@@ -4478,7 +4514,7 @@
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.floorPlansAbout": {
-    "en": "Your home drawn room by room, for the floor plan tile, and your own models.",
+    "en": "Your home drawn room by room, for the floor plan tile.",
     "context": "Line under the heading of the Floor plans settings group.",
     "maxLength": 100,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
@@ -4586,7 +4622,7 @@
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.themesAbout": {
-    "en": "How Tiledash looks: pick a theme for this device or your dashboards, or make your own.",
+    "en": "How Tiledash looks: pick a theme for this device or your dashboards.",
     "context": "Line under the heading of the Themes settings group. A theme is the set of colours, fonts and shapes the app and dashboards are drawn in.",
     "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
@@ -4617,10 +4653,9 @@
     "file": "apps/web/src/settings/SettingsPage.messages.ts"
   },
   "account.settingsPage.floorPlanCount": {
-    "en": "{plans, plural, =0 {No plans yet} one {# plan} other {# plans}}{models, plural, =0 {} one { · # own model} other { · # own models}}",
-    "context": "Small line under \"Floor plans\" in the Settings menu: how many floor plans there are, and how many of the person’s own 3D models (furniture).",
+    "en": "{plans, plural, =0 {No plans yet} one {# plan} other {# plans}}",
+    "context": "Small line under \"Floor plans\" in the Settings menu: how many floor plans there are.",
     "params": {
-      "models": "How many own models.",
       "plans": "How many floor plans."
     },
     "maxLength": 50,

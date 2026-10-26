@@ -1771,9 +1771,9 @@
     "maxLength": 40,
     "file": "apps/web/src/widgets/ownEditorPages.messages.ts"
   },
-  "code.editorPages.yourWidgets": {
-    "en": "Your widgets",
-    "context": "Button back to the Your widgets page. Use the same words as that page’s title.",
+  "code.editorPages.workshop": {
+    "en": "Workshop",
+    "context": "Button back to the Workshop page (everything the person made). Use the same words as that page’s title.",
     "maxLength": 30,
     "file": "apps/web/src/widgets/ownEditorPages.messages.ts"
   },
@@ -2553,8 +2553,8 @@
     "file": "packages/ui/src/screens/widgets/ownEditor.messages.ts"
   },
   "code.ownEditor.backToList": {
-    "en": "Your widgets",
-    "context": "Link at the top left of the editor, back to the Your widgets page. Use the same words as that page’s title.",
+    "en": "Workshop",
+    "context": "Link at the top left of the editor, back to the Workshop page (everything the person made). Use the same words as that page’s title.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/ownEditor.messages.ts"
   },
@@ -3040,8 +3040,8 @@
     "file": "apps/web/src/widgets/ownWidgetViews.messages.ts"
   },
   "code.ownWidgetsWeb.loadFailed": {
-    "en": "Couldn’t load your widgets",
-    "context": "Title on the Your widgets page when it couldn’t load.",
+    "en": "Couldn’t load the Workshop",
+    "context": "Title on the Workshop page (everything the person made) when it couldn’t load.",
     "maxLength": 40,
     "file": "apps/web/src/widgets/ownWidgetViews.messages.ts"
   },
@@ -5776,7 +5776,7 @@
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },
   "code.settingViews.kind": {
-    "en": "{type, select, device {A device} capability {A capability} flow {A flow} mood {A mood} dashboard {A dashboard} zone {A zone} person {A person} calendars {Calendars} pins {PINs} floorplan {A floor plan} house {A house} model {A model} modelCamera {A 3D view} number {A number} percentage {A percentage} boolean {Yes/no} text {Text} choice {A choice} color {A colour} icon {An icon} size {A size} spot {A spot} other {Tiles}}",
+    "en": "{type, select, device {A device} capability {A capability} flow {A flow} mood {A mood} dashboard {A dashboard} zone {A zone} person {A person} calendars {Calendars} pins {PINs} floorplan {A floor plan} house {A house} model {A model} modelCamera {A 3D view} floorplanPicture {A floor plan picture} number {A number} percentage {A percentage} boolean {Yes/no} text {Text} choice {A choice} color {A colour} icon {An icon} size {A size} spot {A spot} other {Tiles}}",
     "context": "A kind of setting, in the Add a setting menu and at the start of a setting’s summary line. A capability is a reading or control of a device; a flow a Homey automation; a mood a Homey preset of device states; a floor plan a drawing of the house seen from above; a house a picture of the home, with places marked on it, for the Energy house; a model a piece of furniture or another object in 3D from the model library; a 3D view how that model is turned and zoomed; a spot one of nine places on a tile; Tiles are widgets placed inside this one.",
     "params": {
       "type": "The kind."
@@ -5815,7 +5815,7 @@
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },
   "code.settingViews.newLabel": {
-    "en": "{type, select, device {Device} capability {Capability} flow {Flow} mood {Mood} dashboard {Dashboard} zone {Zone} person {Person} calendars {Calendars} pins {PINs} floorplan {Floor plan} house {House} model {Model} modelCamera {3D view} number {Number} percentage {Percentage} boolean {Yes/no} text {Text} choice {Choice} color {Colour} icon {Icon} size {Size} spot {Spot} other {Tiles}}",
+    "en": "{type, select, device {Device} capability {Capability} flow {Flow} mood {Mood} dashboard {Dashboard} zone {Zone} person {Person} calendars {Calendars} pins {PINs} floorplan {Floor plan} house {House} model {Model} modelCamera {3D view} floorplanPicture {Floor plan picture} number {Number} percentage {Percentage} boolean {Yes/no} text {Text} choice {Choice} color {Colour} icon {Icon} size {Size} spot {Spot} other {Tiles}}",
     "context": "The label a new setting of a kind gets. The person can change it.",
     "params": {
       "type": "The kind."
@@ -5906,6 +5906,12 @@
   "code.settingViews.readsColor": {
     "en": "a theme colour or #rrggbb",
     "context": "In the add menu: a colour setting. #rrggbb is a colour code; keep it. Lower case.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
+  },
+  "code.settingViews.readsFloorPlanPicture": {
+    "en": "one picture of a floor plan level",
+    "context": "In the add menu: a setting that picks one of the pictures made of a floor plan level (realistic pictures made in the floor planner). Lower case.",
     "maxLength": 50,
     "file": "packages/ui/src/screens/widgets/settingViews.messages.ts"
   },
@@ -7445,11 +7451,253 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/OwnWidgetEditor.messages.ts"
   },
-  "code.yourWidgets.all": {
+  "code.workshop.all": {
     "en": "All",
-    "context": "Filter above the cards: show widgets and partials.",
+    "context": "Filter above the cards: show every kind.",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.changedSince": {
+    "en": "Changed since {version}",
+    "context": "On a shared card: saved since that version, which is the latest one others have.",
+    "params": {
+      "version": "Such as 1.2.0."
+    },
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.copy": {
+    "en": "Make a copy",
+    "context": "Menu item on a card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.delete": {
+    "en": "Delete…",
+    "context": "Menu item on a card.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.description": {
+    "en": "Everything you make: widgets, the partials they share, themes and models for your floor plans. Share any of it on the Community.",
+    "context": "Line under the page title. The Community is where people share what they made.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.edit": {
+    "en": "Edit",
+    "context": "Button on a card that opens it in its editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.editName": {
+    "en": "Edit {name}",
+    "context": "Read out for the card’s picture, which opens it.",
+    "params": {
+      "name": "Its name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.hidden": {
+    "en": "Hidden by Tiledash",
+    "context": "On a shared card: Tiledash hid it from the Community; the publisher can fix it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.kind": {
+    "en": "{kind, select, widget {Widgets} partial {Partials} theme {Themes} model {Models} other {Other}}",
+    "context": "Filter above the cards, and the heading of each kind.",
+    "params": {
+      "kind": "widget, partial, theme or model."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.lockedFree": {
+    "en": "Pro to edit",
+    "context": "On a card on Free: it can’t be changed without Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.modelTiles": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "After the plans on a model’s card: how many dashboard tiles show it.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.modelUse": {
+    "en": "{count, plural, =0 {Not on a plan} one {On # plan} other {On # plans}}",
+    "context": "On a model’s card: on how many floor plans it is placed.",
+    "params": {
+      "count": "How many plans."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.new": {
+    "en": "New",
+    "context": "Button at the top of the page that opens a menu: new widget, partial, theme, model.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newModel": {
+    "en": "Model",
+    "context": "Item of the New menu: a 3D model.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newModelText": {
+    "en": "Upload a 3D model, or let your AI assistant build one, for your floor plans.",
+    "context": "Text on the \"New model\" card.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newModelTitle": {
+    "en": "New model",
+    "context": "The empty card after your models.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newPartial": {
+    "en": "Partial",
+    "context": "Item of the New menu.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newTheme": {
+    "en": "Theme",
+    "context": "Item of the New menu.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newThemeText": {
+    "en": "Start from any theme and choose its colours and fonts.",
+    "context": "Text on the \"New theme\" card.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newThemeTitle": {
+    "en": "New theme",
+    "context": "The empty card after your themes.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.newWidget": {
+    "en": "Widget",
+    "context": "Item of the New menu.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.noThemes": {
+    "en": "Themes you made on Pro show here.",
+    "context": "Under the Themes heading on Free, when the person made none.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.onCommunity": {
+    "en": "On the Community · {version}",
+    "context": "On a shared card, opens its Community page. The version others can install.",
+    "params": {
+      "version": "Such as 1.2.0."
+    },
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.onlyYou": {
+    "en": "Only you",
+    "context": "On a card: not shared on the Community, only the person has it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.options": {
+    "en": "More for {name}",
+    "context": "Read out for the ⋯ button on a card.",
+    "params": {
+      "name": "Its name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.pointer": {
+    "en": "{kind, select, theme {Make your own themes and share them in the <link>Workshop</link>.} model {Make your own models and share them in the <link>Workshop</link>.} other {Make your own in the <link>Workshop</link>.}}",
+    "context": "Line in Settings › Themes (kind theme) and Settings › Floor plans (kind model); <link> links to the Workshop page.",
+    "params": {
+      "kind": "theme or model."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.publish": {
+    "en": "Publish",
+    "context": "Button on a card: share it on the Community.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.publishUpdate": {
+    "en": "Publish update",
+    "context": "Button on a card shared on the Community and changed since: share the new version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.removed": {
+    "en": "Removed by Tiledash",
+    "context": "On a shared card: Tiledash took it off the Community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.saved": {
+    "en": "Saved",
+    "context": "Label on a card: when it was saved.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.savedBy": {
+    "en": "Shaped by {by}",
+    "context": "On a model’s card: the AI assistant that built its shape, such as Claude.",
+    "params": {
+      "by": "The assistant’s name."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.show": {
+    "en": "Show",
+    "context": "Read out by screen readers for the kind filter.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.size": {
+    "en": "Size",
+    "context": "Label on a model’s card: its size.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.size3": {
+    "en": "{w} × {d} × {h} cm",
+    "context": "A model’s width, depth and height.",
+    "params": {
+      "d": "Depth.",
+      "h": "Height.",
+      "w": "Width."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.title": {
+    "en": "Workshop",
+    "context": "Title of the page with everything the person made: widgets, partials, themes and 3D models. Also its name in the sidebar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.used": {
+    "en": "Used",
+    "context": "Label on a card: where it is used.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
   "code.yourWidgets.basedOn": {
     "en": "Based on {what}",
@@ -7472,18 +7720,6 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
-  "code.yourWidgets.description": {
-    "en": "Widgets of your own, started from any widget or from nothing. A save shows on every dashboard at once.",
-    "context": "Line under the page title, where partials aren’t offered.",
-    "maxLength": 130,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.descriptionPartials": {
-    "en": "Widgets of your own, started from any widget, and partials: pieces of template your widgets share. A save shows on every dashboard at once.",
-    "context": "Line under the page title.",
-    "maxLength": 170,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
   "code.yourWidgets.edit": {
     "en": "Edit",
     "context": "Button on a card that opens it in the editor.",
@@ -7497,66 +7733,6 @@
       "name": "The widget’s or partial’s name. Not translated."
     },
     "maxLength": 60,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyLead": {
-    "en": "Any widget can be the start of one of yours: the same devices, your template and style. Your own widgets sit next to the built-ins in the widget picker.",
-    "context": "Line under that title.",
-    "maxLength": 180,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep1": {
-    "en": "Start from any widget",
-    "context": "First of three steps on the page before you made anything.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep1Text": {
-    "en": "A built-in, or one of yours. It keeps what it shows and its settings.",
-    "context": "Text of the first step.",
-    "maxLength": 100,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep2": {
-    "en": "Make it look your way",
-    "context": "Second of three steps on the page before you made anything.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep2Text": {
-    "en": "Change its template and style, with a live preview of demo devices.",
-    "context": "Text of the second step. A template is the widget’s HTML; its style is its CSS.",
-    "maxLength": 100,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep3": {
-    "en": "Save, and use it",
-    "context": "Third of three steps on the page before you made anything.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyStep3Text": {
-    "en": "Pick it in the widget picker, or use it instead of the built-in everywhere.",
-    "context": "Text of the third step.",
-    "maxLength": 100,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.emptyTitle": {
-    "en": "Make a widget your own",
-    "context": "Title on the page before you made anything.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.freeBody": {
-    "en": "Back on Free, the widgets and partials you made still draw your tiles, but they can’t be changed and new ones can’t be made. Go Pro to edit them again; nothing is lost.",
-    "context": "Text of that note. Free and Pro are the names of the plans.",
-    "maxLength": 200,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.freeTitle": {
-    "en": "Your widgets keep working",
-    "context": "Title of the note on the Free plan, where widgets of your own can’t be changed.",
-    "maxLength": 40,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
   "code.yourWidgets.fromCommunity": {
@@ -7628,12 +7804,6 @@
     "maxLength": 120,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
-  "code.yourWidgets.noPartials": {
-    "en": "No partials of your own.",
-    "context": "Shown on the Free plan when you made no partials.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
   "code.yourWidgets.openInCommunity": {
     "en": "Open in the community",
     "context": "Button on an installed partial’s card that opens its page in the community.",
@@ -7658,27 +7828,9 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
-  "code.yourWidgets.partials": {
-    "en": "Partials",
-    "context": "Filter above the cards, and the heading of your partials (reusable pieces of template).",
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
   "code.yourWidgets.saved": {
     "en": "Saved",
     "context": "Label on a card: when it was last saved, such as \"Today, 10:42\".",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.seePro": {
-    "en": "See Pro",
-    "context": "Button that shows the Pro plan.",
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.show": {
-    "en": "Show",
-    "context": "Read out by screen readers for the All / Widgets / Partials filter.",
     "maxLength": 16,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
@@ -7692,12 +7844,6 @@
     "en": "Tiles",
     "context": "Label on a widget’s card: which tiles use it.",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.title": {
-    "en": "Your widgets",
-    "context": "Title of the page with the widgets and partials you made.",
-    "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   },
   "code.yourWidgets.usageInstead": {
@@ -7721,12 +7867,6 @@
     "en": "Version",
     "context": "Label on an installed partial’s card: its version, such as \"1.2.0\".",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
-  },
-  "code.yourWidgets.widgets": {
-    "en": "Widgets",
-    "context": "Filter above the cards, and the heading of the widgets you made.",
-    "maxLength": 20,
     "file": "packages/ui/src/screens/widgets/yourWidgets.messages.ts"
   }
 }

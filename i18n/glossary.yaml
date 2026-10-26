@@ -160,6 +160,90 @@ terms:
     de: { preferred: Community }
     es: { preferred: comunidad }
     fr: { preferred: communauté }
+  # The page with everything a person makes (45; the translators' choices, 2026-10-26), named as
+  # a place in the app, so with a capital.
+  - term: Workshop
+    meaning: The page in the sidebar with the widgets, partials, themes and 3D models a person made.
+    nl: { preferred: Werkplaats }
+    de: { preferred: Werkstatt }
+    es: { preferred: Taller }
+    fr: { preferred: Atelier }
+  # Models of real products on floor plans and in the community (F23; the translators' choices,
+  # 2026-10-26).
+  - term: model
+    meaning: A 3D model of a piece of furniture or a device, for floor plans; a user's own or one from the community.
+    nl: { preferred: model }
+    de: { preferred: Modell }
+    es: { preferred: modelo }
+    fr: { preferred: modèle }
+  - term: item type
+    meaning: What a model or catalogue piece is (Sofas and armchairs, Audio and video), whichever room it stands in; shown as "Type".
+    nl: { preferred: type }
+    de: { preferred: Typ }
+    es: { preferred: tipo }
+    fr: { preferred: type }
+  - term: suggested room
+    meaning: The room a model is meant for, or none (any room); a user's choice, not a proposal.
+    nl:
+      preferred: aanbevolen kamer
+      notes: Not "voorgestelde kamer", as voorstellen is "propose".
+    de:
+      preferred: empfohlener Raum
+      notes: Not "vorgeschlagen", as vorschlagen is "propose".
+    es: { preferred: habitación sugerida }
+    fr: { preferred: pièce suggérée }
+  - term: propose
+    meaning: To suggest a new item type or room for an admin to review.
+    # Dutch splits the verb there ("stel meer voor").
+    except: [floorplans.modelProducts.proposedLimit]
+    nl: { preferred: voorstellen }
+    de: { preferred: vorschlagen }
+    es:
+      preferred: proponer
+      notes: A type is masculine and a room feminine; one text covers both, so use "propuesta" or wording that needs no gender.
+    fr:
+      preferred: proposer
+      notes: A type is masculine and a room feminine; one text covers both, so use "ajout" or wording that needs no gender.
+  - term: brand
+    meaning: The maker of the real product a model stands for (Sonos, IKEA); brand names themselves stay as they are.
+    nl: { preferred: merk }
+    de: { preferred: Marke }
+    es: { preferred: marca }
+    fr: { preferred: marque }
+  - term: real product
+    meaning: The product a model stands for, by brand and product name (Sonos Arc Ultra).
+    nl: { preferred: echt product }
+    de: { preferred: echtes Produkt }
+    es: { preferred: producto real }
+    fr: { preferred: produit réel }
+  - term: how it looks
+    meaning: A model's or piece's description of its materials, colours and shapes, used to draw pictures of floor plans.
+    # How a widget looks, not a model's description.
+    except: [editor.widgetPicker.ownNone, community.listing.descriptionExample]
+    nl: { preferred: hoe het eruitziet }
+    de: { preferred: Aussehen }
+    es: { preferred: aspecto }
+    fr: { preferred: apparence }
+  - term: appliance
+    meaning: A household machine (fridge, washing machine); the item type, not a Homey device.
+    # The appliance widget's settings.
+    except: [code.richFields.*]
+    nl:
+      preferred: huishoudapparaat
+      notes: Keep it apart from device, which is apparaat.
+    de:
+      preferred: Haushaltsgerät
+      notes: Keep it apart from device, which is Gerät.
+    es: { preferred: electrodoméstico }
+    fr: { preferred: électroménager }
+  - term: admin
+    meaning: Someone who runs Tiledash and reviews what users share; not the owner of a Homey.
+    # A Homey's own admin rights, and the Admin area's name.
+    except: [login.*, shell.*]
+    nl: { preferred: beheerder }
+    de: { preferred: Admin }
+    es: { preferred: administrador }
+    fr: { preferred: administrateur }
   - term: energy meter
     meaning: A device that measures electricity use or solar production of the house.
     nl: { preferred: energiemeter }
@@ -194,8 +278,17 @@ terms:
         shell.names.floorPlans,
         account.plans.rowFloorPlans,
         account.plans.rowFloorPlans3d,
+        account.plans.groupFloorPlans,
         # What goes when a Homey is removed (its floor plans among it).
         account.removeHomey.body,
+        # A credit spent on a picture of a floor plan (F20).
+        account.houseCredits.spendFloorPlan,
+        # A Floor plan tile's live plan, beside its picture (F20).
+        editor.configSections.live,
+        editor.widgetSettings.leadLive,
+        # A Floor plan tile's picture setting and its kind in the code editor (F20).
+        editor.floorPlanPictureSetting.*,
+        code.settingViews.readsFloorPlanPicture,
         # Where a 3D model goes in the Community (F10.4): on your floor plans.
         community.dialogs.installLicence,
         # What models are for, on the Community's overview and its pages (33.6): your floor plans.
@@ -204,6 +297,11 @@ terms:
         community.dialogs.whereModel,
         community.installed.notOnPlan,
         community.item.licenceHint,
+        # The Workshop's models are for floor plans (45).
+        code.workshop.description,
+        code.workshop.descriptionFree,
+        code.workshop.modelUse,
+        code.workshop.newModelText,
         community.manage.modelUnused,
         community.pages.installedModel,
         account.configImport.group,

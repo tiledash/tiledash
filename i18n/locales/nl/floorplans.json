@@ -455,18 +455,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.devices.thermostat": {
-    "text": "Thermostaat",
-    "source": "dd1eeb3ccf",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.devices.thermostatHint": {
-    "text": "Op een dashboard toont de kamer zijn temperatuur en doel, en met een tik stel je het doel in.",
-    "source": "1525bdcff9",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.devices.title": {
     "text": "Apparaten",
     "source": "4ba5121d4d",
@@ -1955,6 +1943,336 @@
     "by": "ai",
     "reviewed": false
   },
+  "floorplans.modelProducts.anyRoom": {
+    "text": "Elke kamer",
+    "source": "9bd14ebde7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrange": {
+    "text": "Toon per",
+    "source": "175b990a47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrangeChoice": {
+    "text": "{by, select, type {Type} other {Kamer}}",
+    "source": "b681533fd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brand": {
+    "text": "Merk",
+    "source": "090ed4316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandCount": {
+    "text": "{brand} · {count}",
+    "source": "63dcc6c52c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandPlaceholder": {
+    "text": "Sonos",
+    "source": "db1119076d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandSuggestions": {
+    "text": "Merken in de community",
+    "source": "9df7be4467",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looks": {
+    "text": "Hoe het eruitziet",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksCount": {
+    "text": "{count} van {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksNote": {
+    "text": "Materialen, kleuren en vormen, zoals je het van boven en van opzij ziet. Geen logo’s of tekst.",
+    "source": "fe6e21e349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksPlaceholder": {
+    "text": "Rondom bekleed met mat zwarte stof, een glanzend zwarte bovenkant met een ondiepe aanraakstrip, afgeronde uiteinden.",
+    "source": "11eac5667b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pending": {
+    "text": "{name} (wacht op controle)",
+    "source": "fbf77328e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooks": {
+    "text": "Hoe het eruitziet",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksModel": {
+    "text": "Aanvulling op hoe het model zelf zegt dat het eruitziet.",
+    "source": "d01e9faa35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksNote": {
+    "text": "Afbeeldingen van deze plattegrond tekenen het zo.",
+    "source": "4ad4f9ab2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksPlaceholder": {
+    "text": "Groen fluweel, geknoopte rugleuning, donkere houten poten",
+    "source": "d4e753977d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.product": {
+    "text": "Echt product",
+    "source": "650c9f7d86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productLine": {
+    "text": "{brand} {product}",
+    "source": "3278526ea8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productName": {
+    "text": "Product",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productNote": {
+    "text": "Is het een echt product, zeg dan welk. Anderen vinden het op merk, en afbeeldingen van je plattegrond tekenen het zoals het echt is.",
+    "source": "b8bd8cd431",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productPlaceholder": {
+    "text": "Arc Ultra",
+    "source": "9926889c18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.propose": {
+    "text": "Nieuwe voorstellen…",
+    "source": "1662a7ad4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeIt": {
+    "text": "Voorstellen",
+    "source": "1cbd9e713d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeNote": {
+    "text": "Een beheerder controleert nieuwe eerst. Tot dan zie jij het, en zien anderen dit model onder {kind, select, type {Overig} other {Elke kamer}}.",
+    "source": "13d56ca98f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposePlaceholder": {
+    "text": "{kind, select, type {Robotmaaiers} other {Wasruimte}}",
+    "source": "733c5d7d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeRoom": {
+    "text": "Een nieuwe kamer",
+    "source": "dcdd5e7c2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeType": {
+    "text": "Een nieuw type",
+    "source": "491d8b0309",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposedLimit": {
+    "text": "Er wachten er {count} van jou op controle. Stel meer voor zodra een beheerder ze heeft bekeken.",
+    "source": "305a9c1dd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.roomLabel": {
+    "text": "Aanbevolen kamer",
+    "source": "7604bdda07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.type": {
+    "text": "{type, select, seating {Banken en fauteuils} tables {Tafels} chairs {Stoelen en krukken} beds {Bedden} storage {Kasten en planken} kitchen-units {Keukenkasten} appliances {Huishoudapparaten} climate {Verwarming en koeling} baths-showers {Baden en douches} toilets-basins {Toiletten en wastafels} audio-video {Audio en video} lighting {Verlichting} decor {Planten en decoratie} vehicles {Voertuigen} other {Overig}}",
+    "source": "65332a660a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.typeLabel": {
+    "text": "Type",
+    "source": "baaddf70fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.what": {
+    "text": "Wat het is",
+    "source": "1f36becc3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.whatPlaceholder": {
+    "text": "soundbar",
+    "source": "1e26222c13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsDevice": {
+    "text": "je {device}",
+    "source": "17865d2c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsHeading": {
+    "text": "Past bij deze producten",
+    "source": "6f00ff06be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNone": {
+    "text": "Nog geen: toon een van je apparaten als dit model op een plattegrond.",
+    "source": "6d0e7589de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNote": {
+    "text": "Geleerd zodra je een van je apparaten als dit model toont. Staat het in de community, dan krijgen anderen met hetzelfde product het aangeboden.",
+    "source": "b4e5716541",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsRemove": {
+    "text": "{product} verwijderen",
+    "source": "d04b6aecbe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.forMyDevices": {
+    "text": "Voor mijn apparaten",
+    "source": "c5496c3411",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.from": {
+    "text": "{from, select, own {Van jou} installed {Geïnstalleerd} other {Community}}",
+    "source": "b1e8597acd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.heading": {
+    "text": "Modellen voor {device}",
+    "source": "4735dc5f3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.inUse": {
+    "text": "In gebruik",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installUse": {
+    "text": "Installeren en gebruiken",
+    "source": "c5566d0d1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installs": {
+    "text": "{count, plural, one {# installatie} other {# installaties}}",
+    "source": "3f9a993926",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.make": {
+    "text": "Maak er een met je AI-assistent",
+    "source": "ce2afd81a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.match": {
+    "text": "{match, select, exact {Voor dit apparaat} product {Dit product} other {Zelfde merk}}",
+    "source": "07f0cd11ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.none": {
+    "text": "Nog geen modellen van {product}.",
+    "source": "27abc3433f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.noneAny": {
+    "text": "Nog geen modellen van dit product.",
+    "source": "0d2cee68ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.notNow": {
+    "text": "Niet nu",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeAll": {
+    "text": "{count, plural, one {Bekijk het model} other {Bekijk alle # modellen}}",
+    "source": "7025932343",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitle": {
+    "text": "Tonen als de echte {product}?",
+    "source": "ba6e9c0b91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitleAny": {
+    "text": "Tonen als het echte product?",
+    "source": "fc10253f1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.otherOfBrand": {
+    "text": "Andere modellen van {brand}",
+    "source": "685795d93b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.pageFits": {
+    "text": "{count, plural, =0 {Past bij je {device}} one {Past bij je {device} en nog #} other {Past bij je {device} en nog #}}",
+    "source": "815601e7a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.use": {
+    "text": "Gebruiken",
+    "source": "c36d819e7b",
+    "by": "ai",
+    "reviewed": false
+  },
   "floorplans.models.add": {
     "text": "Model toevoegen",
     "source": "3690c70b27",
@@ -1976,12 +2294,6 @@
   "floorplans.models.back": {
     "text": "Terug",
     "source": "76900f1bfd",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.changedSince": {
-    "text": "Gewijzigd sinds {version}",
-    "source": "d1ebbdb3ae",
     "by": "ai",
     "reviewed": false
   },
@@ -2039,12 +2351,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.edit": {
-    "text": "Bewerken",
-    "source": "464c4ffd01",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.fitHint": {
     "text": "Zet het rechtop met de voorkant naar je toe: de pijl op de vloer wijst uit de voorkant.",
     "source": "d0cdf85741",
@@ -2060,12 +2366,6 @@
   "floorplans.models.formats": {
     "text": "GLB of glTF, OBJ, of USDZ van een iPhone-scan, tot {mb} MB.",
     "source": "d8cb171d7f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.group": {
-    "text": "In de catalogus onder",
-    "source": "4b95d88400",
     "by": "ai",
     "reviewed": false
   },
@@ -2105,15 +2405,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.limit": {
-    "text": "{count} van {max} modellen",
-    "source": "434e77ec78",
+  "floorplans.models.leadLook": {
+    "text": "De kleuren waarin het getekend wordt, en hoe het eruitziet van bovenaf op de 2D-plattegrond.",
+    "source": "8f21c14415",
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.loadFailed": {
-    "text": "Je modellen konden niet worden geladen",
-    "source": "87f166ae17",
+  "floorplans.models.leadModel": {
+    "text": "Hoe het heet en wat het is, zodat je het in de catalogus vindt.",
+    "source": "8d2af6b91b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.leadSize": {
+    "text": "De echte afmetingen, zodat het op je plattegrond past, en of het staat, aan de muur hangt of aan het plafond.",
+    "source": "c68a57fde6",
     "by": "ai",
     "reviewed": false
   },
@@ -2165,12 +2471,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.onTiles": {
-    "text": "{count, plural, one {op # tegel} other {op # tegels}}",
-    "source": "7ff8a4d2a9",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.placingInstalls": {
     "text": "Nog niet geïnstalleerd: plaats je er een op de plattegrond, dan wordt die geïnstalleerd.",
     "source": "7bf9df0f73",
@@ -2219,24 +2519,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.publish": {
-    "text": "Op de community delen",
-    "source": "d046e17eef",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.publishChanges": {
-    "text": "Wijzigingen publiceren",
-    "source": "e4e9220962",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.published": {
-    "text": "Op de community",
-    "source": "0bb7b47711",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.remove": {
     "text": "Verwijderen",
     "source": "e2d0a54968",
@@ -2246,12 +2528,6 @@
   "floorplans.models.retry": {
     "text": "Opnieuw proberen",
     "source": "d8b8392e2c",
-    "by": "ai",
-    "reviewed": false
-  },
-  "floorplans.models.savedBy": {
-    "text": "Opgeslagen door {by} · versie {version}",
-    "source": "1e2765518c",
     "by": "ai",
     "reviewed": false
   },
@@ -2282,6 +2558,30 @@
   "floorplans.models.size3": {
     "text": "{w} × {d} × {h} cm",
     "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabLook": {
+    "text": "Uiterlijk",
+    "source": "a0de5719f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabModel": {
+    "text": "Model",
+    "source": "5e2c614c23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabProduct": {
+    "text": "Product",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabSize": {
+    "text": "Afmetingen",
+    "source": "1af8519073",
     "by": "ai",
     "reviewed": false
   },
@@ -2357,15 +2657,387 @@
     "by": "ai",
     "reviewed": false
   },
-  "floorplans.models.usedIn": {
-    "text": "{count, plural, =0 {Op geen plattegrond} one {Op # plattegrond} other {Op # plattegronden}}",
-    "source": "cbe64624a4",
-    "by": "ai",
-    "reviewed": false
-  },
   "floorplans.models.viewInCommunity": {
     "text": "Bekijken",
     "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angle": {
+    "text": "Kijkhoek",
+    "source": "1968034b13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angleName": {
+    "text": "{angle, select, game {Gamestijl} steep {Steil} other {Isometrisch}}",
+    "source": "ebfbf452e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.another": {
+    "text": "Andere stijl proberen",
+    "source": "6ee30bd74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.bothHint": {
+    "text": "De nachtversie, en dezelfde afbeelding overdag met de lampen uit. Tegels volgen je thema of de zon.",
+    "source": "a90d00c9f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.chosen": {
+    "text": "Op je tegels",
+    "source": "e95f37774c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.close": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.day": {
+    "text": "Dag",
+    "source": "8f2364e11b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayAndNight": {
+    "text": "Dag en nacht · 2 credits",
+    "source": "3e9618f494",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayHint": {
+    "text": "Daglicht door de ramen, de lampen en de tv uit.",
+    "source": "a83f684069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayOnly": {
+    "text": "Dag · 1 credit",
+    "source": "a19b2077fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.deleteFailed": {
+    "text": "Die afbeelding kon niet worden verwijderd.",
+    "source": "7dc1809e73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.doneTitle": {
+    "text": "Je afbeelding",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.example": {
+    "text": "Een voorbeeld, in de stijl die je koos",
+    "source": "f34051af59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.failed": {
+    "text": "{why, select, refused {Het beeldmodel wilde deze niet maken. Je credits zijn terug.} other {Deze is niet gelukt. Je credits zijn terug.}}",
+    "source": "ee3284cf6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.generate": {
+    "text": "{count, plural, one {Maken · # credit} other {Maken · # credits}}",
+    "source": "f129ef57ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.gets": {
+    "text": "Wat het beeldmodel krijgt",
+    "source": "c4361541da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsDrawing": {
+    "text": "De tekening die Tiledash van de verdieping maakt, {view, select, 2d {van bovenaf gezien} other {schuin gezien}}",
+    "source": "2f309cfc6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsList": {
+    "text": "Wat waar staat: {rooms} kamers, {pieces} meubels, {lights} lampen en {openings} deuren en ramen, met naam, kleur en plek",
+    "source": "c1f543d2c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsStyle": {
+    "text": "De stijl: {style}",
+    "source": "7baaa93d00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hint": {
+    "text": "Een afbeelding van deze verdieping uit je plattegrond, voor plattegrondtegels: ’s nachts met alle lampen aan, overdag, of allebei. De tegel kan naar de live plattegrond.",
+    "source": "dd28808153",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintDismiss": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintShow": {
+    "text": "Laat zien",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintText": {
+    "text": "Tiledash maakt van deze verdieping een realistische afbeelding voor je plattegrondtegels, in de stijlen van Instellingen › Huizen. Je apparaten blijven erop werken.",
+    "source": "9ceb945995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintTitle": {
+    "text": "Wist je dat?",
+    "source": "3e9b3541c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.level": {
+    "text": "Verdieping",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeOpen": {
+    "text": "Afbeelding maken",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeTitle": {
+    "text": "Afbeelding maken",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.making": {
+    "text": "Je afbeelding wordt gemaakt… Dit duurt ongeveer een minuut.",
+    "source": "bdcf86f80e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingHint": {
+    "text": "{both, select, yes {Ongeveer een minuut voor de nachtversie, en nog een voor de dagversie} other {Ongeveer een minuut}}. Je kunt dit sluiten: hij verschijnt in het paneel Afbeelding zodra hij klaar is.",
+    "source": "4993e625d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingTitle": {
+    "text": "Je afbeelding wordt gemaakt",
+    "source": "6dda93a0f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.night": {
+    "text": "Nacht",
+    "source": "4e9f8db824",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.nightHint": {
+    "text": "Alle lampen aan, de tv aan, donker achter de ramen.",
+    "source": "c8c0042068",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.notStarted": {
+    "text": "{error, select, busy {Er wordt al een afbeelding gemaakt.} limit {Genoeg afbeeldingen voor vandaag; probeer het morgen opnieuw.} off {Afbeeldingen maken kan hier niet.} render {Tiledash kon deze verdieping niet tekenen. Probeer het opnieuw.} other {Het maken van de afbeelding kon niet starten.}}",
+    "source": "aac8df74a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.oneRoom": {
+    "text": "Eén kamer",
+    "source": "c2452f216c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.open": {
+    "text": "Een afbeelding van deze verdieping",
+    "source": "d16aa8920d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.outOfDate": {
+    "text": "Je hebt deze verdieping gewijzigd sinds deze afbeelding is gemaakt. Tegels blijven hem tonen tot je een nieuwe maakt.",
+    "source": "02125faeec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.readyTitle": {
+    "text": "Klaar om te maken",
+    "source": "68f84def72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.remove": {
+    "text": "Deze poging verwijderen",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.renderCaption": {
+    "text": "Dit krijgt het beeldmodel: de tekening die Tiledash van deze verdieping maakt. Het geeft die een nieuwe stijl; muren, deuren en meubels blijven op hun plek.",
+    "source": "9826a2bce2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.room": {
+    "text": "Kamer",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.roomHint": {
+    "text": "De afbeelding wordt van deze kamer van dichtbij gemaakt. Plattegrondtegels die deze kamer tonen, laten haar als eerste zien.",
+    "source": "afe3ddfe35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.sendsPlan": {
+    "text": "De indeling en meubels van je verdieping, en een tekening ervan door Tiledash, gaan naar OpenAI om hem te maken.",
+    "source": "1c707f7ffe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.show": {
+    "text": "Tonen",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.showSummary": {
+    "text": "{room, select, none {De hele verdieping} other {{room}{fade, select, yes {, de rest {level}% vervaagd} other {}}}}",
+    "source": "aac39ea513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.single": {
+    "text": "Nacht · 1 credit",
+    "source": "9476cb3dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.step": {
+    "text": "{step, select, view {Verdieping, weergave} style {Stijl} versions {Versies} other {Maken}}",
+    "source": "d3b4b8e2bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.style": {
+    "text": "Stijl",
+    "source": "7e744141b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.styleTitle": {
+    "text": "Kies een stijl",
+    "source": "d98c7cf9a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.title": {
+    "text": "Afbeelding",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tries": {
+    "text": "Eerdere pogingen",
+    "source": "126c666df0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tryLabel": {
+    "text": "{style} · {view, select, 2d {2D} other {2.5D}} · {when}",
+    "source": "71c2a6f9cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.turn": {
+    "text": "Gedraaid",
+    "source": "397a3113ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.use": {
+    "text": "Op tegels gebruiken",
+    "source": "9a1624c546",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versions": {
+    "text": "Versies",
+    "source": "f89ea27036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsHint": {
+    "text": "Met allebei toont een tegel de nachtversie bij donkere thema’s of na zonsondergang, zoals je kiest.",
+    "source": "5426618980",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsTitle": {
+    "text": "’s Nachts, overdag of allebei?",
+    "source": "399f4db578",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view": {
+    "text": "Weergave",
+    "source": "6e6674eab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view25d": {
+    "text": "Schuin van boven (2.5D)",
+    "source": "99ba158e0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view2d": {
+    "text": "Van bovenaf (2D)",
+    "source": "a9fb8997b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewHint": {
+    "text": "Draai hem zoals je je huis kent; kies voor 2.5D ook de kijkhoek die je tegels gebruiken.",
+    "source": "b4d4c1484d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewTitle": {
+    "text": "Welke verdieping, en hoe bekeken?",
+    "source": "68e751ab7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wholeLevel": {
+    "text": "De hele verdieping",
+    "source": "98f14a9dde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wizardTitle": {
+    "text": "Een afbeelding van je plattegrond",
+    "source": "51918ed1fb",
     "by": "ai",
     "reviewed": false
   },
@@ -2612,6 +3284,162 @@
   "floorplans.quickTips.zoomHelp": {
     "text": "Zoom in en uit. Gebruik de resetpijl om terug te gaan.",
     "source": "5c49f67766",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climate": {
+    "text": "Klimaat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climateHint": {
+    "text": "De temperatuur en doeltemperatuur staan bij de naam van de kamer.",
+    "source": "091029f87b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.covers": {
+    "text": "Raambekleding",
+    "source": "3f8d88db58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.coversCount": {
+    "text": "{count, number} van {total, number} samen open en dicht",
+    "source": "2eb0e6f9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.flow": {
+    "text": "Flow",
+    "source": "f1273dc72c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.intro": {
+    "text": "Apparaten voor de hele kamer, niet voor één plek erin. Tik je op de kamer, dan opent de kaart ervan.",
+    "source": "eeb2645728",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lights": {
+    "text": "Lampen",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lightsCount": {
+    "text": "{count, number} van {total, number} samen geschakeld",
+    "source": "8b36720bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.media": {
+    "text": "Mediaspeler",
+    "source": "2664a5c844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.mood": {
+    "text": "Sfeer",
+    "source": "780fe43f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.none": {
+    "text": "Geen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.nothing": {
+    "text": "Geen in de zone van deze kamer of erin op de plattegrond.",
+    "source": "2894fc9d99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.offPlan": {
+    "text": "Niet op de plattegrond",
+    "source": "029f1bc134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.onPlan": {
+    "text": "Op de plattegrond",
+    "source": "1829030c95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesHint": {
+    "text": "Knoppen op de kaart van de kamer, in deze volgorde.",
+    "source": "5ebc8802dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesTitle": {
+    "text": "Sferen en flows",
+    "source": "e061840de6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tab": {
+    "text": "Apparaten",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tickOnPlan": {
+    "text": "Vink de {count, number} op de plattegrond in deze kamer aan",
+    "source": "f1b24b3120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.title": {
+    "text": "Apparaten van de kamer",
+    "source": "289898f8f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesBody": {
+    "text": "Kies hier de speler, thermostaat, lampen en raambekleding van de kamer. Tik je op een plattegrondtegel op de kamer, dan opent de kaart ervan.",
+    "source": "1244d9f69c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesTitle": {
+    "text": "De eigen apparaten van een kamer",
+    "source": "c7f83558d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndAction": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndBody": {
+    "text": "Op je eigen dashboards past de ⋯ op de kaart ze ook aan, zonder de plattegrond te openen.",
+    "source": "5f13347584",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndTitle": {
+    "text": "Elke kamer zijn eigen apparaten",
+    "source": "95850809a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesBody": {
+    "text": "Voeg de sferen en flows toe die de kaart van de kamer aanbiedt, in de volgorde die je wilt.",
+    "source": "1f56c2475c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesTitle": {
+    "text": "Sferen en flows",
+    "source": "e061840de6",
     "by": "ai",
     "reviewed": false
   }

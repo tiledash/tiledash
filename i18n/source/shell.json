@@ -312,9 +312,9 @@
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.layout.keywordsWidgets": {
-    "en": "customize, partials, widget editor",
-    "context": "Not shown. Extra search words, separated by commas, that make the \"Your widgets\" entry of the \"Jump to\" search appear when the person types them. A partial is a reusable piece shared by several widgets. Give the words people would type in the language.",
-    "maxLength": 70,
+    "en": "customize, your widgets, partials, widget editor, themes, models, publish",
+    "context": "Not shown. Extra search words, separated by commas, that make the \"Workshop\" entry of the \"Jump to\" search appear when the person types them. The Workshop holds the widgets, partials, themes and 3D models the person made. A partial is a reusable piece shared by several widgets. Give the words people would type in the language.",
+    "maxLength": 90,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.layout.newTheme": {
@@ -497,9 +497,9 @@
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
-  "shell.names.yourWidgets": {
-    "en": "Your widgets",
-    "context": "Name of the page with the widgets the person made themselves (a widget is a tile type with its own template): a link in the sidebar and a result in the \"Jump to\" search.",
+  "shell.names.workshop": {
+    "en": "Workshop",
+    "context": "Name of the page with everything the person made themselves: widgets (tile types with their own template), partials, themes and 3D models. A link in the sidebar and a result in the \"Jump to\" search.",
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/names.messages.ts"
   },
@@ -1716,6 +1716,21 @@
     "maxLength": 24,
     "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
   },
+  "shell.whatsNew.closePicture": {
+    "en": "Close the picture",
+    "context": "Label of the cross on a large picture in What’s new (read out, not shown).",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.enlargePicture": {
+    "en": "See “{caption}” larger",
+    "context": "Label of a small picture under a change in the What’s new list and dialog (read out, not shown): opens the picture larger.",
+    "params": {
+      "caption": "The picture’s caption, in English, such as \"Blueprint\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
   "shell.whatsNew.eyebrowMissed": {
     "en": "Since your last visit · {from} – {to}",
     "context": "Small line above the title of the What’s new dialog when the person missed more than one update. {from} and {to} are version numbers such as v26.12.0.",
@@ -1768,6 +1783,56 @@
     "maxLength": 40,
     "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
   },
+  "shell.whatsNew.newerReleases": {
+    "en": "Newer releases",
+    "context": "Link or button under the list of releases in What’s new and on the changelog: the page before, with newer releases.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.nextPicture": {
+    "en": "Next picture",
+    "context": "Button beside a large picture of a change in What’s new: shows the next one.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.olderReleases": {
+    "en": "Older releases",
+    "context": "Link or button under the list of releases in What’s new and on the changelog: the next page, with older releases.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.pictureCount": {
+    "en": "{at} of {count}",
+    "context": "Under a large picture of a change in What’s new: which picture this is, such as \"3 of 13\".",
+    "params": {
+      "at": "The picture’s number.",
+      "count": "How many pictures the change has."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.previousPicture": {
+    "en": "Previous picture",
+    "context": "Button beside a large picture of a change in What’s new: shows the one before it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.releasePages": {
+    "en": "Pages of releases",
+    "context": "Name of the row of page links under the list of releases (read out, not shown).",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.whatsNew.releasesPage": {
+    "en": "Page {page} of {count}",
+    "context": "Between the Newer and Older releases buttons under the list of releases.",
+    "params": {
+      "count": "How many pages there are.",
+      "page": "This page’s number."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
   "shell.whatsNew.seeEverything": {
     "en": "See everything new",
     "context": "Button at the foot of the What’s new dialog: opens the What’s new page with every change, fixes included.",
@@ -1785,5 +1850,29 @@
     "context": "Title of the dialog shown once after Tiledash was updated with new features, unless the release has a headline of its own.",
     "maxLength": 40,
     "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
+  },
+  "shell.workshopHint.hintDismiss": {
+    "en": "Got it",
+    "context": "Button in that note: closes it for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
+  "shell.workshopHint.hintShow": {
+    "en": "Open the Workshop",
+    "context": "Button in that note: opens the Workshop page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
+  "shell.workshopHint.hintText": {
+    "en": "Your widgets, partials, themes and models now live together in the Workshop. Make new ones there too, and share them on the Community.",
+    "context": "Text of the one-time note at the Workshop link in the sidebar, for people who made something before: what they made moved there (from Your widgets, Settings › Themes and Settings › Floor plans), and they can make new ones there.",
+    "maxLength": 170,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
+  "shell.workshopHint.hintTitle": {
+    "en": "Did you know?",
+    "context": "Title of a one-time note at the Workshop link in the sidebar.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
   }
 }

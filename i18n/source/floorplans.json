@@ -463,18 +463,6 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
   },
-  "floorplans.devices.thermostat": {
-    "en": "Thermostat",
-    "context": "Label in a room’s panel: the thermostat whose temperature and target the room’s card shows.",
-    "maxLength": 24,
-    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
-  },
-  "floorplans.devices.thermostatHint": {
-    "en": "On a dashboard the room shows its temperature and target, and a tap sets the target.",
-    "context": "Hint under the Thermostat field of a room’s panel.",
-    "maxLength": 110,
-    "file": "packages/ui/src/screens/floorplan/devices.messages.ts"
-  },
   "floorplans.devices.title": {
     "en": "Devices",
     "context": "Title of the editor’s side panel listing devices to place, and the Devices tool.",
@@ -2162,6 +2150,400 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/models/modelPreview.messages.ts"
   },
+  "floorplans.modelProducts.anyRoom": {
+    "en": "Any room",
+    "context": "Choice of the Suggested room field: the model is not meant for one room in particular.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.arrange": {
+    "en": "Show by",
+    "context": "Label of the switch in the furniture catalogue and the community’s models page: list pieces by type or by room.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.arrangeChoice": {
+    "en": "{by, select, type {Type} other {Room}}",
+    "context": "Choices of the Show by switch.",
+    "params": {
+      "by": "type or room."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.brand": {
+    "en": "Brand",
+    "context": "Label of the field for the maker of a model’s real product (Sonos, IKEA).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.brandCount": {
+    "en": "{brand} · {count}",
+    "context": "A brand to pick under the Brand field, with how many community models have it.",
+    "params": {
+      "brand": "The brand, as written.",
+      "count": "How many models."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.brandPlaceholder": {
+    "en": "Sonos",
+    "context": "Example in the empty Brand field: a well-known brand that needs no translation.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.brandSuggestions": {
+    "en": "Brands on the Community",
+    "context": "Label of the row of brands others already used, under the Brand field, to pick one with the same spelling.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.looks": {
+    "en": "How it looks",
+    "context": "Label of the field describing how a model or piece looks: materials, colours, shapes. Used to draw pictures of the plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.looksCount": {
+    "en": "{count} of {max}",
+    "context": "Characters used in the How it looks field, out of the most allowed.",
+    "params": {
+      "count": "Characters typed.",
+      "max": "The most allowed."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.looksNote": {
+    "en": "Materials, colours and shapes, as you see it from above and from the side. No logos or text.",
+    "context": "Line under the How it looks field.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.looksPlaceholder": {
+    "en": "Matte black fabric wrapped all round, a gloss black top with a shallow touch strip, rounded ends.",
+    "context": "Example in the empty How it looks field of a model: a soundbar described.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.pending": {
+    "en": "{name} (waiting for review)",
+    "context": "A type or room the person proposed that an admin hasn’t reviewed yet, as a choice in the list.",
+    "params": {
+      "name": "The proposed name, as typed."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.pieceLooks": {
+    "en": "How it looks",
+    "context": "Label of the field in a placed piece’s panel to describe how that piece really looks (a green velvet sofa), for pictures of the plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.pieceLooksModel": {
+    "en": "Adds to how the model says it looks.",
+    "context": "Line under the How it looks field of a placed model, which has a description of its own.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.pieceLooksNote": {
+    "en": "Pictures of this plan draw it this way.",
+    "context": "Line under the How it looks field of a placed piece.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.pieceLooksPlaceholder": {
+    "en": "Green velvet, buttoned back, dark wooden feet",
+    "context": "Example in the empty How it looks field of a placed sofa.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.product": {
+    "en": "Real product",
+    "context": "Heading of the part of the model dialog for the real thing a model stands for: its brand, product name and how it looks.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.productLine": {
+    "en": "{brand} {product}",
+    "context": "A model’s real product as one line under its name: the brand then the product (Sonos Arc Ultra).",
+    "params": {
+      "brand": "The brand.",
+      "product": "The product’s name."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.productName": {
+    "en": "Product",
+    "context": "Label of the field for the product’s own name (Arc Ultra, Söderhamn).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.productNote": {
+    "en": "If it is a real product, say which. Others find it by brand, and pictures of your plan draw it as it really looks.",
+    "context": "Line under the Real product heading.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.productPlaceholder": {
+    "en": "Arc Ultra",
+    "context": "Example in the empty Product field: a product name that needs no translation.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.propose": {
+    "en": "Propose a new one…",
+    "context": "Last choice in the Type and Suggested room lists: opens a field to suggest a type or room that isn’t listed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposeIt": {
+    "en": "Propose",
+    "context": "Button that sends the proposed type or room for review.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposeNote": {
+    "en": "An admin checks new ones first. Until then you see it, and others see this model under {kind, select, type {Anything else} other {Any room}}.",
+    "context": "Note under the field to propose a new type or room.",
+    "params": {
+      "kind": "type or room."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposePlaceholder": {
+    "en": "{kind, select, type {Robot mowers} other {Laundry room}}",
+    "context": "Example shown in the empty field to propose a new type or room.",
+    "params": {
+      "kind": "type or room."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposeRoom": {
+    "en": "A new room",
+    "context": "Label of the field to propose a new room (for example \"Laundry room\").",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposeType": {
+    "en": "A new type",
+    "context": "Label of the field to propose a new item type (for example \"Robot mowers\").",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.proposedLimit": {
+    "en": "You have {count} waiting for review. Propose more once an admin has looked at them.",
+    "context": "Shown instead of the propose field when the person has the most proposals waiting.",
+    "params": {
+      "count": "How many are waiting (3)."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.roomLabel": {
+    "en": "Suggested room",
+    "context": "Label of the optional field for the room a model is meant for. A soundbar has none; a bath has Bathroom.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.type": {
+    "en": "{type, select, seating {Sofas and armchairs} tables {Tables} chairs {Chairs and stools} beds {Beds} storage {Cabinets and shelves} kitchen-units {Kitchen units} appliances {Appliances} climate {Heating and cooling} baths-showers {Baths and showers} toilets-basins {Toilets and basins} audio-video {Audio and video} lighting {Lighting} decor {Plants and decor} vehicles {Vehicles} other {Anything else}}",
+    "context": "Name of an item type: what a piece of furniture or a model is, whichever room it stands in. Used as a heading in the furniture catalogue and as a filter on the community’s models page. \"Anything else\" holds pieces that fit no type.",
+    "params": {
+      "type": "seating, tables, chairs, beds, storage, kitchen-units, appliances, climate, baths-showers, toilets-basins, audio-video, lighting, decor, vehicles or other."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.typeLabel": {
+    "en": "Type",
+    "context": "Label of the field for what a model is (Sofas and armchairs, Audio and video…).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.what": {
+    "en": "What it is",
+    "context": "Label of the field for a plain word for the thing (a soundbar, a three-seat sofa).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelProducts.whatPlaceholder": {
+    "en": "soundbar",
+    "context": "Example in the empty What it is field: a plain, lower-case noun.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
+  },
+  "floorplans.modelSuggestions.fitsDevice": {
+    "en": "your {device}",
+    "context": "After a product in that list: which of your devices is one, such as \"Sonos Arc Ultra · your Living room Arc\".",
+    "params": {
+      "device": "The device’s name."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.fitsHeading": {
+    "en": "Fits these products",
+    "context": "Heading in the dialog of one of your own 3D models: the products of the devices it was placed on, so others with the same product are offered it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.fitsNone": {
+    "en": "None yet: show one of your devices as this model on a floor plan.",
+    "context": "Shown when the model fits no product yet.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.fitsNote": {
+    "en": "Learned when you show one of your devices as this model. Others with the same product are offered it once it is on the community.",
+    "context": "Note under that heading.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.fitsRemove": {
+    "en": "Remove {product}",
+    "context": "Label of the button that takes a product off the list, for a wrong one. Read by screen readers.",
+    "params": {
+      "product": "The product."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.forMyDevices": {
+    "en": "For my devices",
+    "context": "Filter on the community’s models page: only models of the products and brands of your own Homey devices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.from": {
+    "en": "{from, select, own {Yours} installed {Installed} other {Community}}",
+    "context": "Where a model in the list comes from: one of your own, one you installed from the community, or one on the community you haven’t installed.",
+    "params": {
+      "from": "own, installed or community."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.heading": {
+    "en": "Models for {device}",
+    "context": "Heading above the list of 3D models that fit a placed device, in its Shape tab. {device} is the device’s name in Homey, such as \"Living room Arc\".",
+    "params": {
+      "device": "The device’s name, such as \"Living room Arc\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.inUse": {
+    "en": "In use",
+    "context": "Shown instead of the Use button on the model the piece already is.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.installUse": {
+    "en": "Install and use",
+    "context": "Button on a community model you haven’t installed: installs it and shows the placed device as it.",
+    "maxLength": 26,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.installs": {
+    "en": "{count, plural, one {# install} other {# installs}}",
+    "context": "How many people installed a community model, after its publisher’s handle.",
+    "params": {
+      "count": "How many installs."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.make": {
+    "en": "Make one with your AI assistant",
+    "context": "Link after \"No models … yet\": opens the guide to building a 3D model with an AI assistant such as Claude, through Tiledash’s MCP server.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.match": {
+    "en": "{match, select, exact {Fits this device} product {This product} other {Same brand}}",
+    "context": "Small label on a model in the list: \"Fits this device\", someone used this model on a device of the very same product; \"This product\", the model is of the same product by name; \"Same brand\", only the brand is the same.",
+    "params": {
+      "match": "exact, product or brand."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.none": {
+    "en": "No models of the {product} yet.",
+    "context": "Shown in the Shape tab when the device names its product but no model of it exists. {product} is the brand and product, such as \"HomeWizard P1 Meter\".",
+    "params": {
+      "product": "The product, such as \"HomeWizard P1 Meter\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.noneAny": {
+    "en": "No models of this product yet.",
+    "context": "The same, for a device that names no product by name.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.notNow": {
+    "en": "Not now",
+    "context": "Button that hides the card for this piece. Nothing on the plan changes.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.nudgeAll": {
+    "en": "{count, plural, one {See the model} other {See all # models}}",
+    "context": "Button on that card: opens the Shape tab with every model that fits the device. {count} is how many.",
+    "params": {
+      "count": "How many models fit the device."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.nudgeTitle": {
+    "en": "Show it as the real {product}?",
+    "context": "Title of a small card under a placed device on the floor plan, when a 3D model of the very product it is exists. {product} is the product, such as \"Sonos Arc Ultra\".",
+    "params": {
+      "product": "The product’s brand and name, such as \"Sonos Arc Ultra\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.nudgeTitleAny": {
+    "en": "Show it as the real thing?",
+    "context": "Title of the same card when the device names no product, only which product it is by an id.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.otherOfBrand": {
+    "en": "Other {brand} models",
+    "context": "Subheading for models of the same brand as the device but not the same product, such as \"Other Sonos models\".",
+    "params": {
+      "brand": "The brand, such as \"Sonos\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.pageFits": {
+    "en": "{count, plural, =0 {Fits your {device}} other {Fits your {device} and # more}}",
+    "context": "On a community model’s page: which of your Homey devices are the product this model is. {device} is the first one’s name.",
+    "params": {
+      "count": "How many of your devices it fits, less the one named.",
+      "device": "The first device’s name, such as \"Living room Arc\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
+  "floorplans.modelSuggestions.use": {
+    "en": "Use",
+    "context": "Button: shows the placed device as this model on the plan.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/models/modelSuggestions.messages.ts"
+  },
   "floorplans.models.add": {
     "en": "Add a model",
     "context": "Button in the furniture catalogue of the floor plan editor: add your own 3D model.",
@@ -2184,15 +2566,6 @@
     "en": "Back",
     "context": "Button: the previous step of the dialog.",
     "maxLength": 16,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.changedSince": {
-    "en": "Changed since {version}",
-    "context": "Under a model you shared on the Community: you changed it since that version, which is the latest one others have.",
-    "params": {
-      "version": "The latest version on the Community, such as 1.0.0."
-    },
-    "maxLength": 40,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.checking": {
@@ -2264,12 +2637,6 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
-  "floorplans.models.edit": {
-    "en": "Edit",
-    "context": "Button: fit the model again (turn, size, name).",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
   "floorplans.models.fitHint": {
     "en": "Stand it upright with its front toward you: the arrow on the floor points out of its front.",
     "context": "Line above the turning buttons in the Add a model dialog.",
@@ -2289,12 +2656,6 @@
       "mb": "The largest file in megabytes, such as 25."
     },
     "maxLength": 90,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.group": {
-    "en": "In the catalogue under",
-    "context": "Label of the furniture catalogue group (room) the model is listed in.",
-    "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.inGroup": {
@@ -2345,20 +2706,22 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
-  "floorplans.models.limit": {
-    "en": "{count} of {max} models",
-    "context": "How many own models the person has, and the most their plan keeps.",
-    "params": {
-      "count": "How many models they have.",
-      "max": "The most their plan keeps: 3 or 50."
-    },
-    "maxLength": 30,
+  "floorplans.models.leadLook": {
+    "en": "The colours it’s drawn in, and how it looks from above on the 2D plan.",
+    "context": "Line at the top of the Look tab.",
+    "maxLength": 110,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
-  "floorplans.models.loadFailed": {
-    "en": "Couldn’t load your models",
-    "context": "Shown in place of the list of your own 3D models when it could not be loaded.",
-    "maxLength": 60,
+  "floorplans.models.leadModel": {
+    "en": "What it’s called and what it is, so you find it in the catalogue.",
+    "context": "Line at the top of the Model tab.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.leadSize": {
+    "en": "Its real size, so it fits your plan, and whether it stands, hangs on a wall or from the ceiling.",
+    "context": "Line at the top of the Size tab.",
+    "maxLength": 120,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.look": {
@@ -2407,15 +2770,6 @@
     "en": "Not installed: placing it installs it",
     "context": "Screen reader label of the small download mark on a Community model in the furniture catalogue that is not installed yet. Not visible as text.",
     "maxLength": 60,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.onTiles": {
-    "en": "{count, plural, one {on # tile} other {on # tiles}}",
-    "context": "Under a model in the list of your models, after where it is on floor plans: how many dashboard tiles (Model widgets) show it. Lower case; only shown when there are some.",
-    "params": {
-      "count": "How many tiles, 1 or more."
-    },
-    "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.placingInstalls": {
@@ -2488,24 +2842,6 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
-  "floorplans.models.publish": {
-    "en": "Share on the Community",
-    "context": "Button: publish the model on the Community so others can install it.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.publishChanges": {
-    "en": "Publish the changes",
-    "context": "Button on a model you shared on the Community and changed since (its size, name…): publish a new version with those changes.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.published": {
-    "en": "On the Community",
-    "context": "Badge on a model the person shared on the Community.",
-    "maxLength": 24,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
   "floorplans.models.remove": {
     "en": "Delete",
     "context": "Button: delete the model.",
@@ -2516,16 +2852,6 @@
     "en": "Try again",
     "context": "Button after \"Couldn’t reach the Community\" in the furniture catalogue: loads it again. A command.",
     "maxLength": 20,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
-  "floorplans.models.savedBy": {
-    "en": "Saved by {by} · save {version}",
-    "context": "Under a model in the list of your models, when an AI assistant designed or changed it (F18): which app saved it last, and the number of that save.",
-    "params": {
-      "by": "The assistant app’s name, such as \"Claude Desktop\". Not translated.",
-      "version": "The save’s number."
-    },
-    "maxLength": 60,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.saving": {
@@ -2564,6 +2890,30 @@
       "w": "Width."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tabLook": {
+    "en": "Look",
+    "context": "Tab of the Add a model dialog: its colours and how it is drawn on the 2D plan.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tabModel": {
+    "en": "Model",
+    "context": "Tab of the Add a model dialog: its name, what kind of thing it is and the room it suits.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tabProduct": {
+    "en": "Product",
+    "context": "Tab of the Add a model dialog: the real product it is (brand, product) and the devices it fits.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.models.tabSize": {
+    "en": "Size",
+    "context": "Tab of the Add a model dialog: its real size and where it sits (floor, wall, ceiling).",
+    "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.tip": {
@@ -2642,20 +2992,429 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
-  "floorplans.models.usedIn": {
-    "en": "{count, plural, =0 {Not on a plan} one {On # plan} other {On # plans}}",
-    "context": "Under a model in the list of your models: on how many floor plans it is placed.",
-    "params": {
-      "count": "How many plans."
-    },
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
-  },
   "floorplans.models.viewInCommunity": {
     "en": "View",
     "context": "Button in the message \"… installed from the Community\": opens the model’s page on the Community. A command.",
     "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
+  },
+  "floorplans.picture.angle": {
+    "en": "Angle",
+    "context": "Label over the choice of angle a 2.5D picture is seen from, as the Floor plan widget’s Angle setting.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.angleName": {
+    "en": "{angle, select, game {Game-style} steep {Steep} other {Isometric}}",
+    "context": "One angle a 2.5D picture is seen from: isometric (35°), game-style (30°, flatter) or steep (50°, more from above). As the Floor plan widget names them.",
+    "params": {
+      "angle": "isometric, game or steep."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.another": {
+    "en": "Try another style",
+    "context": "Button after a picture is made: goes back to the style step for another try.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.bothHint": {
+    "en": "The night one, and the same picture by day with the lamps off. Tiles follow your theme or the sun.",
+    "context": "Under the day and night choice: what the two pictures show and when tiles use which.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.chosen": {
+    "en": "On your tiles",
+    "context": "Heading over the picture of this level that Floor plan tiles show now.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.close": {
+    "en": "Close",
+    "context": "Button that closes the dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.day": {
+    "en": "Day",
+    "context": "Switch over a picture: shows its daytime version.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.dayAndNight": {
+    "en": "Day and night · 2 credits",
+    "context": "Option: a night picture and a daytime one of the same view, costing two credits.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.dayHint": {
+    "en": "Daylight through the windows, the lamps and the TV off.",
+    "context": "Under the day only choice: what the picture shows.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.dayOnly": {
+    "en": "Day · 1 credit",
+    "context": "Option: one picture, by day with the lamps off, costing one credit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.deleteFailed": {
+    "en": "That picture couldn’t be deleted.",
+    "context": "Notice when deleting a picture of a level failed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.doneTitle": {
+    "en": "Your picture",
+    "context": "Heading when the picture is made.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.example": {
+    "en": "An example, in the style you picked",
+    "context": "Caption over example pictures in the versions step.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.failed": {
+    "en": "{why, select, refused {The image model refused this one. Your credits are back.} other {This one didn’t work out. Your credits are back.}}",
+    "context": "Shown on a try that failed; the credits it cost were given back.",
+    "params": {
+      "why": "refused (the image model’s safety check) or failed."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.generate": {
+    "en": "{count, plural, one {Make it · # credit} other {Make it · # credits}}",
+    "context": "Button that starts making the picture, with what it costs.",
+    "params": {
+      "count": "How many credits it costs."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.gets": {
+    "en": "What the image model gets",
+    "context": "Heading of the list of what is sent to make the picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.getsDrawing": {
+    "en": "Tiledash’s drawing of the level, seen {view, select, 2d {from above} other {at an angle}}",
+    "context": "An item of the list of what is sent: the drawing it restyles.",
+    "params": {
+      "view": "2d or 25d."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.getsList": {
+    "en": "What is where: {rooms} rooms, {pieces} pieces of furniture, {lights} lights and {openings} doors and windows, by name, colour and place",
+    "context": "An item of the list of what is sent: the level described in words.",
+    "params": {
+      "lights": "How many lights.",
+      "openings": "How many doors and windows.",
+      "pieces": "How many pieces of furniture.",
+      "rooms": "How many rooms."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.getsStyle": {
+    "en": "The style: {style}",
+    "context": "An item of the list of what is sent: the style.",
+    "params": {
+      "style": "The style’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.hint": {
+    "en": "A picture of this level made from your plan, for Floor plan tiles: by night with every light on, by day, or both. The tile can switch to the live plan.",
+    "context": "Line at the top of the Picture panel.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.hintDismiss": {
+    "en": "Got it",
+    "context": "Button in the one-time note: closes it for good.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.hintShow": {
+    "en": "Show me",
+    "context": "Button in the one-time note: opens the Picture panel.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.hintText": {
+    "en": "Tiledash can turn this level into a realistic picture for your Floor plan tiles, in the same styles as your pictures in Settings › Houses. Your devices still work on it.",
+    "context": "Text of the one-time note at the floor planner’s picture button: what the button does. Houses is the settings section where pictures of your house are made in several styles; point to it as \"Settings › Houses\", as other texts do.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.hintTitle": {
+    "en": "Did you know?",
+    "context": "Title of a small note at the floor planner’s picture button, shown once, the first time the floor planner opens after pictures came.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.level": {
+    "en": "Level",
+    "context": "Label of the choice of the floor of the house to picture.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.makeOpen": {
+    "en": "Make a picture",
+    "context": "Button in the Picture panel that opens the steps to make a new picture of the level.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.makeTitle": {
+    "en": "Make a picture",
+    "context": "Heading over the choices for a new picture of the level.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.making": {
+    "en": "Making your picture… This takes about a minute.",
+    "context": "Shown while the picture is being made.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.makingHint": {
+    "en": "{both, select, yes {About a minute for the night one, another for the day one} other {About a minute}}. You can close this: it shows up in the Picture panel when it’s ready.",
+    "context": "Under the heading while the picture is being made.",
+    "params": {
+      "both": "yes when a night and a day picture are made."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.makingTitle": {
+    "en": "Making your picture",
+    "context": "Heading while the picture is being made.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.night": {
+    "en": "Night",
+    "context": "Switch over a picture: shows its night version (every light on).",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.nightHint": {
+    "en": "Every light on, the TV on, dark outside the windows.",
+    "context": "Under the night only choice: what the picture shows.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.notStarted": {
+    "en": "{error, select, busy {A picture is being made already.} limit {That’s enough pictures for today; try again tomorrow.} off {Making pictures isn’t available here.} render {Tiledash couldn’t draw this level. Try again.} other {The picture couldn’t be started.}}",
+    "context": "Why making a picture of a level couldn’t start, shown as a short notice.",
+    "params": {
+      "error": "busy, limit, off, render or failed."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.oneRoom": {
+    "en": "One room",
+    "context": "Option: the picture shows one room up close, the rest faded.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.open": {
+    "en": "A picture of this level",
+    "context": "Tooltip of the floor planner’s top-bar button that opens the Picture panel (not the traced backdrop picture, which has its own button).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.outOfDate": {
+    "en": "You changed this level since this picture was made. Tiles keep showing it until you make a new one.",
+    "context": "Note over a picture when the level’s walls, doors, windows or furniture changed after the picture was made.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.readyTitle": {
+    "en": "Ready to make it",
+    "context": "Heading of the last step, before making the picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.remove": {
+    "en": "Delete this try",
+    "context": "Button (icon) on an earlier try: deletes it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.renderCaption": {
+    "en": "This is what the image model gets: Tiledash’s own drawing of this level, which it restyles. Walls, doors and furniture stay where they are.",
+    "context": "Caption under a picture of the level as Tiledash draws it, in the first step.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.room": {
+    "en": "Room",
+    "context": "Label of the choice of the room to show.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.roomHint": {
+    "en": "The picture is made of this room up close. Floor plan tiles showing this room show it first.",
+    "context": "Under the room choice.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.sendsPlan": {
+    "en": "Your level’s layout, furniture and a picture of it drawn by Tiledash go to OpenAI to make it.",
+    "context": "Fine print under the Make button: what is sent to the image service.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.show": {
+    "en": "Show",
+    "context": "Label of the choice between a picture of the whole level or of one room.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.showSummary": {
+    "en": "{room, select, none {The whole level} other {{room}{fade, select, yes {, the rest faded {level}%} other {}}}}",
+    "context": "In the summary of the last step: what the picture shows.",
+    "params": {
+      "fade": "yes when the rest fades.",
+      "level": "How far, in percent.",
+      "room": "The room’s name, or none for the whole level."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.single": {
+    "en": "Night · 1 credit",
+    "context": "Option: one picture, at night with every light on, costing one credit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.step": {
+    "en": "{step, select, view {Level and view} style {Style} versions {Versions} other {Make it}}",
+    "context": "The steps at the top of the dialog, each a button that goes to it.",
+    "params": {
+      "step": "view, style, versions or ready."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.style": {
+    "en": "Style",
+    "context": "Label over the style cards.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.styleTitle": {
+    "en": "Pick a style",
+    "context": "Heading of the style step.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.title": {
+    "en": "Picture",
+    "context": "Title of the editor’s side panel where a picture of the level is made, and the button that opens it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.tries": {
+    "en": "Earlier tries",
+    "context": "Heading over the pictures made of this level before.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.tryLabel": {
+    "en": "{style} · {view, select, 2d {2D} other {2.5D}} · {when}",
+    "context": "Under an earlier try: its style, its view and when it was made.",
+    "params": {
+      "style": "The style’s name.",
+      "view": "2d or 25d.",
+      "when": "A date and time."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.turn": {
+    "en": "Turned",
+    "context": "Label over how far the house is turned in a 2.5D picture: 0°, 90°, 180° or 270°.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.use": {
+    "en": "Use on tiles",
+    "context": "Button on an earlier try: makes it the picture Floor plan tiles show.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.versions": {
+    "en": "Versions",
+    "context": "Label of the choice between one picture or a day and a night one.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.versionsHint": {
+    "en": "With both, a tile shows the night one on dark themes or after sunset, as you choose.",
+    "context": "Line under the versions choice.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.versionsTitle": {
+    "en": "By night, by day, or both?",
+    "context": "Heading of the versions step.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.view": {
+    "en": "Seen as",
+    "context": "Label of the choice between a picture seen from straight above (2D) or at an angle.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.view25d": {
+    "en": "At an angle (2.5D)",
+    "context": "Option: the picture seen from above at an angle, like a doll’s house.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.view2d": {
+    "en": "From above (2D)",
+    "context": "Option: the picture seen from straight above, like a plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.viewHint": {
+    "en": "Turn it the way you know your house; for 2.5D, pick the angle your tiles use too.",
+    "context": "Line under the view choice.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.viewTitle": {
+    "en": "Which level, seen how?",
+    "context": "Heading of the first step.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.wholeLevel": {
+    "en": "The whole level",
+    "context": "Option: the picture shows every room of the level.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
+  },
+  "floorplans.picture.wizardTitle": {
+    "en": "A picture of your floor plan",
+    "context": "Title of the dialog with the steps that make a picture of a level.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/picture.messages.ts"
   },
   "floorplans.quickTips.actions": {
     "en": "Action defaults",
@@ -2865,5 +3624,172 @@
     "en": "Zoom in and out. Use the reset arrow to return home.",
     "context": "Floor planner first-use quick tips: zoomHelp.",
     "file": "packages/ui/src/screens/floorplan/quickTips.messages.ts"
+  },
+  "floorplans.roomDevices.climate": {
+    "en": "Climate",
+    "context": "Label above a list of the room’s thermostats and heating devices where one is chosen for the room.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.climateHint": {
+    "en": "Its temperature and target show on the room’s label.",
+    "context": "Help text under the Climate list: the chosen device’s temperature and target temperature are shown with the room’s name on the plan.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.covers": {
+    "en": "Covers",
+    "context": "Label above a list of the room’s blinds, curtains and shutters, each with a checkbox: the ticked ones open and close together.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.coversCount": {
+    "en": "{count, number} of {total, number} opened and closed together",
+    "context": "Small text beside the Covers label: how many of the room’s blinds and curtains are ticked to open and close together.",
+    "params": {
+      "count": "How many are ticked.",
+      "total": "How many covers the list offers."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.flow": {
+    "en": "Flow",
+    "context": "Small hint under a flow’s name in the Moods and flows list. A Homey term.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.intro": {
+    "en": "Devices for the whole room, not a spot in it. A tap on the room opens its card with them.",
+    "context": "Help text under the Room devices heading. “Its card” is a small panel with the room’s controls that opens on a Floor plan tile.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.lights": {
+    "en": "Lights",
+    "context": "Label above a list of the room’s lights, each with a checkbox: the ticked ones are switched together from the room’s card.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.lightsCount": {
+    "en": "{count, number} of {total, number} switched together",
+    "context": "Small text beside the Lights label: how many of the room’s lights are ticked to be switched together.",
+    "params": {
+      "count": "How many are ticked.",
+      "total": "How many lights the list offers."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.media": {
+    "en": "Media player",
+    "context": "Label above a list of the room’s media players (speakers, a TV) where one is chosen as the room’s player.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.mood": {
+    "en": "Mood",
+    "context": "Small hint under a mood’s name in the Moods and flows list. A Homey term.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.none": {
+    "en": "None",
+    "context": "Choice in the Media player or Climate list meaning the room has no player or no climate device.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.nothing": {
+    "en": "None in this room’s zone or on the plan in it.",
+    "context": "Shown in place of a Media player, Climate, Lights or Covers list when the room has no such device.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.offPlan": {
+    "en": "Not on the plan",
+    "context": "Small hint beside a device in the lists: it is in the room’s zone on the Homey but not placed on the plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.onPlan": {
+    "en": "On the plan",
+    "context": "Small hint beside a device in the lists: it is placed in this room on the plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.scenesHint": {
+    "en": "Buttons on the room’s card, in this order.",
+    "context": "Help text under the Moods and flows heading.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.scenesTitle": {
+    "en": "Moods and flows",
+    "context": "Heading of a section in the room panel: the Homey moods and flows shown as buttons on the room’s card. Mood and flow are Homey terms.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tab": {
+    "en": "Devices",
+    "context": "Tab in the floor plan editor’s room panel, beside Room and Actions: the room’s devices, moods and flows.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tickOnPlan": {
+    "en": "Tick the {count, number} on the plan in this room",
+    "context": "Link-style button above an empty Lights or Covers list: ticks all of that kind placed in this room on the plan.",
+    "params": {
+      "count": "How many it ticks."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.title": {
+    "en": "Room devices",
+    "context": "Heading of a section in the floor plan editor’s room panel: the devices that belong to the whole room rather than a spot in it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourDevicesBody": {
+    "en": "Pick the room’s player, thermostat, lights and covers here. On a Floor plan tile, a tap on the room opens its card with them.",
+    "context": "Text of that guided tour step. “Its card” is a small panel with the room’s controls; “Floor plan” is the name of a dashboard widget.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourDevicesTitle": {
+    "en": "A room’s own devices",
+    "context": "Title of a short guided tour step pointing at the Devices tab of the room panel, shown once the first time someone selects a room.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourEndAction": {
+    "en": "Got it",
+    "context": "Button that ends the short guided tour about room devices.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourEndBody": {
+    "en": "On your own dashboards the card’s ⋯ changes them too, without opening the floor planner.",
+    "context": "Text of the card ending the guided tour. ⋯ is a small button with three dots on the room’s card; keep it as the symbol.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourEndTitle": {
+    "en": "Every room can have its own",
+    "context": "Title of the card that ends the short guided tour about room devices: each room can have its own devices, moods and flows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourScenesBody": {
+    "en": "Add the moods and flows the room’s card offers, in the order you want them.",
+    "context": "Text of the second guided tour step.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
+  },
+  "floorplans.roomDevices.tourScenesTitle": {
+    "en": "Moods and flows",
+    "context": "Title of the second guided tour step, pointing at the Moods and flows list in the room’s Devices tab. Mood and flow are Homey terms.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/roomDevices.messages.ts"
   }
 }
