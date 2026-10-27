@@ -999,6 +999,122 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/widgets/copyUpdate/copyUpdate.messages.ts"
   },
+  "code.dashboardPreview.approval": {
+    "en": "To use this dashboard, tell your assistant: “Apply draft version {version}”.",
+    "context": "Dashboard application happens after approval in chat.",
+    "params": {
+      "version": "The numeric draft version, such as 2."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.changes": {
+    "en": "What will change",
+    "context": "Heading of the dashboard draft change summary.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.conflict": {
+    "en": "Your live dashboard changed",
+    "context": "A draft preview warns about a live version conflict.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.conflictHelp": {
+    "en": "Ask your assistant to read it again and prepare a fresh draft. Nothing has been applied.",
+    "context": "Instructions after a dashboard changes during draft editing.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.desktop": {
+    "en": "Desktop",
+    "context": "Dashboard preview screen size.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.expires": {
+    "en": "Link expires: {date}",
+    "context": "Dashboard preview link expiry.",
+    "params": {
+      "date": "The preview expiration date and time."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.hint": {
+    "en": "Try each size before applying. Phone and tablet can have their own arrangements.",
+    "context": "Permanent inline guidance for preview screen controls.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.installed": {
+    "en": "Community installations remain if you discard this draft.",
+    "context": "Installing widgets is separate from publishing a dashboard.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.loading": {
+    "en": "Loading dashboard preview",
+    "context": "Accessible loading status.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.phone": {
+    "en": "Phone",
+    "context": "Dashboard preview screen size.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.removed": {
+    "en": "Removes {count} tiles or pages on every screen size",
+    "context": "Explicit warning about removed dashboard content.",
+    "params": {
+      "count": "Number of removed tiles and pages."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.review": {
+    "en": "Review each screen size, then tell your assistant to apply this version. Taps here are simulated.",
+    "context": "Dashboard draft review instructions.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.sizes": {
+    "en": "Preview screen size",
+    "context": "Accessible label for phone, tablet and desktop controls.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.tablet": {
+    "en": "Tablet",
+    "context": "Dashboard preview screen size.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.tiles": {
+    "en": "{tiles} tiles and {nested} nested tiles",
+    "context": "Dashboard draft tile counts.",
+    "params": {
+      "nested": "Number of nested tiles.",
+      "tiles": "Number of top-level tiles."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.title": {
+    "en": "Dashboard preview",
+    "context": "Heading of an AI dashboard draft preview.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.unavailable": {
+    "en": "This preview is no longer available",
+    "context": "An expired, discarded, applied or revoked dashboard preview.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.unavailableHelp": {
+    "en": "The link may have expired, the draft was applied or discarded, or the AI connection ended. Ask your assistant for a new preview.",
+    "context": "Why a dashboard preview cannot open.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.untouched": {
+    "en": "Your screens still show the current dashboard",
+    "context": "Draft preview status.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.version": {
+    "en": "Draft · version {version}",
+    "context": "The exact draft version the user reviews.",
+    "params": {
+      "version": "The numeric draft version, such as 2."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
   "code.details.columns": {
     "en": "{count, plural, one {column} other {columns}}",
     "context": "Unit after a number of grid columns, such as \"2 columns\".",
@@ -7466,6 +7582,12 @@
     "maxLength": 36,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
+  "code.workshop.clearSearch": {
+    "en": "Clear search",
+    "context": "Clears the Workshop search field.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
   "code.workshop.copy": {
     "en": "Make a copy",
     "context": "Menu item on a card.",
@@ -7592,6 +7714,18 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
+  "code.workshop.next": {
+    "en": "Next",
+    "context": "Go to the next Workshop page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.noMatches": {
+    "en": "Nothing matches your search",
+    "context": "Empty state title when no Workshop item matches the search.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
   "code.workshop.noThemes": {
     "en": "Themes you made on Pro show here.",
     "context": "Under the Themes heading on Free, when the person made none.",
@@ -7622,6 +7756,22 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
+  "code.workshop.page": {
+    "en": "Page {page} of {pages}",
+    "context": "Current Workshop page and total pages.",
+    "params": {
+      "page": "Current page.",
+      "pages": "Number of pages."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.pages": {
+    "en": "Workshop pages",
+    "context": "Screen reader label of the pager.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
   "code.workshop.pointer": {
     "en": "{kind, select, theme {Make your own themes and share them in the <link>Workshop</link>.} model {Make your own models and share them in the <link>Workshop</link>.} other {Make your own in the <link>Workshop</link>.}}",
     "context": "Line in Settings › Themes (kind theme) and Settings › Floor plans (kind model); <link> links to the Workshop page.",
@@ -7629,6 +7779,12 @@
       "kind": "theme or model."
     },
     "maxLength": 90,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.previous": {
+    "en": "Previous",
+    "context": "Go to the previous Workshop page.",
+    "maxLength": 20,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
   "code.workshop.publish": {
@@ -7649,6 +7805,17 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
+  "code.workshop.results": {
+    "en": "{from}–{to} of {total}",
+    "context": "Range of matching Workshop items shown on this page.",
+    "params": {
+      "from": "First item on this page.",
+      "to": "Last item.",
+      "total": "Total matches."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
   "code.workshop.saved": {
     "en": "Saved",
     "context": "Label on a card: when it was saved.",
@@ -7662,6 +7829,12 @@
       "by": "The assistant’s name."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.search": {
+    "en": "Search your Workshop",
+    "context": "Label and placeholder of the search field above all Workshop cards.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
   "code.workshop.show": {
@@ -7691,6 +7864,12 @@
     "en": "Workshop",
     "context": "Title of the page with everything the person made: widgets, partials, themes and 3D models. Also its name in the sidebar.",
     "maxLength": 24,
+    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
+  },
+  "code.workshop.trySearch": {
+    "en": "Try another name or description, or clear your search.",
+    "context": "Empty state description when a Workshop search finds nothing.",
+    "maxLength": 90,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
   "code.workshop.used": {

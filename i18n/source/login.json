@@ -224,6 +224,18 @@
     "maxLength": 70,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
+  "login.consent.adminAllow3": {
+    "en": "Read stored device readings and recording health across all users to investigate ingestion",
+    "context": "Expanded MCP permissions shown during renewed consent.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAllow4": {
+    "en": "Read live capabilities and run short watches on your own Homeys only",
+    "context": "Expanded MCP permissions shown during renewed consent.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
   "login.consent.adminDeny0": {
     "en": "Change anything: plans, accounts, Homeys or settings",
     "context": "Item in the list of what an administrator’s AI app can never do: it can only read. Plans are the paid or free subscriptions of users.",
@@ -231,9 +243,9 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.adminDeny1": {
-    "en": "Read device names or readings, dashboards, history or payment details",
+    "en": "Read live data from another user’s Homey, dashboards or payment details",
     "context": "Item in the list of what an administrator’s AI app can never do. Readings are devices’ current values; history means recorded values over time.",
-    "maxLength": 90,
+    "maxLength": 240,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.adminDeny2": {
@@ -323,6 +335,18 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
+  "login.consent.widgetsAllow5": {
+    "en": "Read and build your dashboards in drafts, and apply a reviewed draft after you approve in chat",
+    "context": "Expanded MCP permissions shown during renewed consent.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow6": {
+    "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
+    "context": "Expanded MCP permissions shown during renewed consent.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
   "login.consent.widgetsDeny0": {
     "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
     "context": "Item in the list of what an AI app can never do. A flow is an automation in Homey. The part in brackets says that only the person themselves can let taps in a widget preview really switch devices, and only for an hour.",
@@ -330,9 +354,9 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsDeny1": {
-    "en": "Read your history, dashboards, billing or account",
+    "en": "Read history outside dashboard previews, billing or account details",
     "context": "Item in the list of what an AI app can never do. History means recorded values over time; billing is the payment data.",
-    "maxLength": 70,
+    "maxLength": 240,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsDeny2": {

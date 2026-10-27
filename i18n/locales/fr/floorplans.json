@@ -2478,8 +2478,8 @@
     "reviewed": false
   },
   "floorplans.models.problem": {
-    "text": "{problem, select, unreadable {Ce fichier n’a pas pu être lu comme modèle 3D.} toolarge {Même compressé, il fait {value} : {limit} au plus. Exportez-le avec moins de détails ou des textures plus petites.} triangles {Il est trop détaillé : {value} triangles, {limit} au plus. La plupart des applis de scan exportent une version plus légère.} other {Ce modèle ne peut pas être utilisé.}}",
-    "source": "2b352cff55",
+    "text": "{problem, select, unreadable {Ce fichier n’a pas pu être lu comme modèle 3D.} toolarge {Même compressé, il fait {value} : {limit} au plus. Exportez-le avec moins de détails ou des textures plus petites.} triangles {Il est trop détaillé : {value} triangles, {limit} au plus. La plupart des applis de scan exportent une version plus légère.} complex {Il est trop lourd à lire : il demande plus de mémoire ou de temps qu’un modèle n’en a. Exportez-le avec moins de pièces ou des textures plus petites.} busy {Vos modèles sont encore en cours de traitement. Réessayez dans {value} secondes.} other {Ce modèle ne peut pas être utilisé.}}",
+    "source": "77ccb46f03",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,14 +2496,14 @@
     "reviewed": false
   },
   "floorplans.models.progressSlow": {
-    "text": "Un scan détaillé peut prendre une minute.",
-    "source": "318f2c1e37",
+    "text": "Un scan détaillé peut prendre une minute. Vous pouvez fermer ceci : il sera ajouté à vos modèles une fois prêt.",
+    "source": "83665ba130",
     "by": "ai",
     "reviewed": false
   },
   "floorplans.models.progressStep": {
-    "text": "{step, select, convert {En faire un GLB} upload {L’envoyer} read {Lire le modèle} topView {Le dessiner vu de haut} textures {Réduire ses textures} compress {Le compresser} turn {Le poser comme ajusté} keep {Le garder} other {Le vérifier}}",
-    "source": "807ad6ed44",
+    "text": "{step, select, convert {En faire un GLB} upload {L’envoyer} queued {Attendre son tour} read {Lire le modèle} topView {Le dessiner vu de haut} textures {Réduire ses textures} compress {Le compresser} turn {Le poser comme ajusté} keep {Le garder} other {Le vérifier}}",
+    "source": "5dcd65f10f",
     "by": "ai",
     "reviewed": false
   },

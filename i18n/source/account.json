@@ -231,6 +231,18 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
+  "account.aiAssistants.allow5": {
+    "en": "Read and build your dashboards in drafts, and apply a reviewed draft after you approve in chat",
+    "context": "Dashboard permissions after renewing the AI connection.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow6": {
+    "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
+    "context": "Dashboard permissions after renewing the AI connection.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
   "account.aiAssistants.appLine": {
     "en": "from {host} · connected {date} · {used, select, yes {used {lastUsed}} other {not used yet}}{links, plural, =0 {} one { · # preview link} other { · # preview links}}",
     "context": "Line under a connected app’s name: the web address it came from, when it was connected, when it was last used, and how many preview links it has.",
@@ -301,9 +313,9 @@
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.deny1": {
-    "en": "Read your history, dashboards, billing or account",
+    "en": "Read history outside dashboard previews, billing or account details",
     "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny1.",
-    "maxLength": 70,
+    "maxLength": 240,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.deny2": {

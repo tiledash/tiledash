@@ -803,6 +803,126 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.approval": {
+    "text": "Vraag je assistent om dit dashboard te gebruiken: “Pas conceptversie {version} toe”.",
+    "source": "954455487f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.changes": {
+    "text": "Wat verandert er",
+    "source": "6eb4bc42d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.conflict": {
+    "text": "Je huidige dashboard is veranderd",
+    "source": "22adb688d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.conflictHelp": {
+    "text": "Vraag je assistent het opnieuw te lezen en een nieuw concept te maken. Er is niets toegepast.",
+    "source": "5780482fe4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.desktop": {
+    "text": "Desktop",
+    "source": "9bd88f2485",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.expires": {
+    "text": "Link verloopt: {date}",
+    "source": "9f16d759f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.hint": {
+    "text": "Probeer elk formaat voordat je het toepast. Telefoon en tablet kunnen een eigen indeling hebben.",
+    "source": "df79d5c435",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.installed": {
+    "text": "Community-installaties blijven staan als je dit concept weggooit.",
+    "source": "3ccda271f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.loading": {
+    "text": "Dashboardvoorbeeld laden",
+    "source": "47c4faa4cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.phone": {
+    "text": "Telefoon",
+    "source": "63dceb8800",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.removed": {
+    "text": "Verwijdert {count} tegels of pagina’s op elk schermformaat",
+    "source": "b67f58a585",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.review": {
+    "text": "Bekijk elk schermformaat en vraag je assistent daarna deze versie toe te passen. Tikken worden hier gesimuleerd.",
+    "source": "84c953ede4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.sizes": {
+    "text": "Schermformaat voor voorbeeld",
+    "source": "9b2ce80cbd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.tablet": {
+    "text": "Tablet",
+    "source": "e34a879c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.tiles": {
+    "text": "{tiles} tegels en {nested} geneste tegels",
+    "source": "6e8a46c30c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.title": {
+    "text": "Dashboardvoorbeeld",
+    "source": "b3efab055c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.unavailable": {
+    "text": "Dit voorbeeld is niet meer beschikbaar",
+    "source": "a8628183bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.unavailableHelp": {
+    "text": "De link is mogelijk verlopen, het concept is toegepast of weggegooid, of de AI-koppeling is verbroken. Vraag je assistent om een nieuw voorbeeld.",
+    "source": "8dda464769",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.untouched": {
+    "text": "Je schermen tonen nog het huidige dashboard",
+    "source": "fc57acf57a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.version": {
+    "text": "Concept · versie {version}",
+    "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.details.columns": {
     "text": "{count, plural, one {kolom} other {kolommen}}",
     "source": "f1bc4e8072",
@@ -6491,6 +6611,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.workshop.clearSearch": {
+    "text": "Zoekopdracht wissen",
+    "source": "3b7ea51793",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.workshop.copy": {
     "text": "Kopie maken",
     "source": "e61974e66c",
@@ -6605,6 +6731,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.workshop.next": {
+    "text": "Volgende",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.noMatches": {
+    "text": "Niets gevonden voor je zoekopdracht",
+    "source": "61ddfc9809",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.workshop.noThemes": {
     "text": "Thema’s die je met Pro maakte, staan hier.",
     "source": "4fc107073e",
@@ -6629,9 +6767,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.workshop.page": {
+    "text": "Pagina {page} van {pages}",
+    "source": "240ab6d8dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.pages": {
+    "text": "Pagina’s van de Werkplaats",
+    "source": "bb7c48bef8",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.workshop.pointer": {
     "text": "{kind, select, theme {Maak je eigen thema’s en deel ze in de <link>Werkplaats</link>.} model {Maak je eigen modellen en deel ze in de <link>Werkplaats</link>.} other {Maak je eigen items in de <link>Werkplaats</link>.}}",
     "source": "9a99900f9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.previous": {
+    "text": "Vorige",
+    "source": "a57b08a480",
     "by": "ai",
     "reviewed": false
   },
@@ -6653,6 +6809,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.workshop.results": {
+    "text": "{from}–{to} van {total}",
+    "source": "bf846ee37e",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.workshop.saved": {
     "text": "Opgeslagen",
     "source": "b5c120b316",
@@ -6662,6 +6824,12 @@
   "code.workshop.savedBy": {
     "text": "Gevormd door {by}",
     "source": "d388d87170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.search": {
+    "text": "Zoek in je Werkplaats",
+    "source": "d2d3573ef4",
     "by": "ai",
     "reviewed": false
   },
@@ -6686,6 +6854,12 @@
   "code.workshop.title": {
     "text": "Werkplaats",
     "source": "c0086f23dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.trySearch": {
+    "text": "Probeer een andere naam of beschrijving, of wis je zoekopdracht.",
+    "source": "20b0a5138e",
     "by": "ai",
     "reviewed": false
   },

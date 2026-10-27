@@ -2478,8 +2478,8 @@
     "reviewed": false
   },
   "floorplans.models.problem": {
-    "text": "{problem, select, unreadable {Diese Datei konnte nicht als 3D-Modell gelesen werden.} toolarge {Auch komprimiert ist es {value} groß, erlaubt sind höchstens {limit}. Exportieren Sie es mit weniger Details oder kleineren Texturen.} triangles {Es ist zu detailliert: {value} Dreiecke, erlaubt sind höchstens {limit}. Die meisten Scan-Apps können eine leichtere Version exportieren.} other {Dieses Modell kann nicht verwendet werden.}}",
-    "source": "2b352cff55",
+    "text": "{problem, select, unreadable {Diese Datei konnte nicht als 3D-Modell gelesen werden.} toolarge {Auch komprimiert ist es {value} groß, erlaubt sind höchstens {limit}. Exportieren Sie es mit weniger Details oder kleineren Texturen.} triangles {Es ist zu detailliert: {value} Dreiecke, erlaubt sind höchstens {limit}. Die meisten Scan-Apps können eine leichtere Version exportieren.} complex {Es ist zu viel zum Lesen: Es braucht mehr Speicher oder Zeit, als ein Modell darf. Exportieren Sie es mit weniger Teilen oder kleineren Texturen.} busy {Ihre Modelle werden noch bearbeitet. Versuchen Sie es in {value} Sekunden erneut.} other {Dieses Modell kann nicht verwendet werden.}}",
+    "source": "77ccb46f03",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,14 +2496,14 @@
     "reviewed": false
   },
   "floorplans.models.progressSlow": {
-    "text": "Ein detaillierter Scan kann eine Minute dauern.",
-    "source": "318f2c1e37",
+    "text": "Ein detaillierter Scan kann eine Minute dauern. Sie können dies schließen: Das Modell erscheint, sobald es fertig ist.",
+    "source": "83665ba130",
     "by": "ai",
     "reviewed": false
   },
   "floorplans.models.progressStep": {
-    "text": "{step, select, convert {In GLB umwandeln} upload {Hochladen} read {Modell lesen} topView {Von oben zeichnen} textures {Texturen verkleinern} compress {Komprimieren} turn {Wie eingepasst aufstellen} keep {Speichern} other {Prüfen}}",
-    "source": "807ad6ed44",
+    "text": "{step, select, convert {In GLB umwandeln} upload {Hochladen} queued {Warten, bis es dran ist} read {Modell lesen} topView {Von oben zeichnen} textures {Texturen verkleinern} compress {Komprimieren} turn {Wie eingepasst aufstellen} keep {Speichern} other {Prüfen}}",
+    "source": "5dcd65f10f",
     "by": "ai",
     "reviewed": false
   },

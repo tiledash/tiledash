@@ -2478,8 +2478,8 @@
     "reviewed": false
   },
   "floorplans.models.problem": {
-    "text": "{problem, select, unreadable {Dit bestand kan niet als 3D-model worden gelezen.} toolarge {Ook gecomprimeerd is het {value}: hooguit {limit}. Exporteer het met minder details of kleinere texturen.} triangles {Het is te gedetailleerd: {value} driehoeken, hooguit {limit}. De meeste scanapps kunnen een lichtere versie exporteren.} other {Dit model kan niet worden gebruikt.}}",
-    "source": "2b352cff55",
+    "text": "{problem, select, unreadable {Dit bestand kan niet als 3D-model worden gelezen.} toolarge {Ook gecomprimeerd is het {value}: hooguit {limit}. Exporteer het met minder details of kleinere texturen.} triangles {Het is te gedetailleerd: {value} driehoeken, hooguit {limit}. De meeste scanapps kunnen een lichtere versie exporteren.} complex {Het is te veel om te lezen: het vraagt meer geheugen of tijd dan een model mag. Exporteer het met minder delen of kleinere texturen.} busy {Er wordt nog aan je modellen gewerkt. Probeer het over {value} seconden opnieuw.} other {Dit model kan niet worden gebruikt.}}",
+    "source": "77ccb46f03",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,14 +2496,14 @@
     "reviewed": false
   },
   "floorplans.models.progressSlow": {
-    "text": "Een gedetailleerde scan kan een minuut duren.",
-    "source": "318f2c1e37",
+    "text": "Een gedetailleerde scan kan een minuut duren. Je kunt dit sluiten: het komt bij je modellen zodra het klaar is.",
+    "source": "83665ba130",
     "by": "ai",
     "reviewed": false
   },
   "floorplans.models.progressStep": {
-    "text": "{step, select, convert {Er een GLB van maken} upload {Uploaden} read {Het model lezen} topView {Van boven tekenen} textures {Texturen verkleinen} compress {Comprimeren} turn {Neerzetten zoals ingesteld} keep {Bewaren} other {Controleren}}",
-    "source": "807ad6ed44",
+    "text": "{step, select, convert {Er een GLB van maken} upload {Uploaden} queued {Op de beurt wachten} read {Het model lezen} topView {Van boven tekenen} textures {Texturen verkleinen} compress {Comprimeren} turn {Neerzetten zoals ingesteld} keep {Bewaren} other {Controleren}}",
+    "source": "5dcd65f10f",
     "by": "ai",
     "reviewed": false
   },

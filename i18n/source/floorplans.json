@@ -2779,12 +2779,12 @@
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.problem": {
-    "en": "{problem, select, unreadable {This file couldn’t be read as a 3D model.} toolarge {Even compressed, it’s {value}: at most {limit}. Export it with fewer details, or smaller textures.} triangles {It’s too detailed: {value} triangles, at most {limit}. Most scanning apps can export a lighter version.} other {This model can’t be used.}}",
-    "context": "Why an uploaded model can’t be used, and what to do about it.",
+    "en": "{problem, select, unreadable {This file couldn’t be read as a 3D model.} toolarge {Even compressed, it’s {value}: at most {limit}. Export it with fewer details, or smaller textures.} triangles {It’s too detailed: {value} triangles, at most {limit}. Most scanning apps can export a lighter version.} complex {It’s too much to read: it needs more memory or time than a model may use. Export it with fewer parts, or smaller textures.} busy {Your models are still being worked on. Try again in {value} seconds.} other {This model can’t be used.}}",
+    "context": "Why an uploaded model can’t be used, and what to do about it. \"busy\": other models of yours (or everyone’s) are being worked on right now, so this one wasn’t taken; nothing is wrong with the file.",
     "params": {
       "limit": "The most allowed, formatted.",
-      "problem": "unreadable, toolarge or triangles.",
-      "value": "What the model has, formatted."
+      "problem": "unreadable, toolarge, triangles, complex (too much to read) or busy (try again later).",
+      "value": "What the model has, formatted; for busy, the seconds to wait."
     },
     "maxLength": 160,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
@@ -2810,16 +2810,16 @@
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.progressSlow": {
-    "en": "A detailed scan can take a minute.",
-    "context": "Under the list of what adding a 3D model is doing, while the server works on it.",
-    "maxLength": 60,
+    "en": "A detailed scan can take a minute. You can close this: it’s added to your models when it’s ready.",
+    "context": "Under the list of what adding a 3D model is doing, while the server works on it. The work goes on without the window; the model then shows under \"Mine\" in the furniture panel.",
+    "maxLength": 120,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
   },
   "floorplans.models.progressStep": {
-    "en": "{step, select, convert {Make it a GLB} upload {Upload it} read {Read the model} topView {Draw it from above} textures {Shrink its textures} compress {Compress it} turn {Stand it as you fitted it} keep {Keep it} other {Check it}}",
-    "context": "A step in the list of what adding a 3D model is doing; a mark beside it says waiting, working, done or failed. \"Draw it from above\" makes the picture the 2D floor plan shows. Short imperative phrases, the same form for every step.",
+    "en": "{step, select, convert {Make it a GLB} upload {Upload it} queued {Wait its turn} read {Read the model} topView {Draw it from above} textures {Shrink its textures} compress {Compress it} turn {Stand it as you fitted it} keep {Keep it} other {Check it}}",
+    "context": "A step in the list of what adding a 3D model is doing; a mark beside it says waiting, working, done or failed. \"Wait its turn\": models are worked on one after another on the server, and this one waits for the ones before it. \"Draw it from above\" makes the picture the 2D floor plan shows. Short imperative phrases, the same form for every step.",
     "params": {
-      "step": "convert, upload, read, topView, textures, compress, turn (turned and tipped as fitted) or keep."
+      "step": "convert, upload, queued (waits for other models before it), read, topView, textures, compress, turn (turned and tipped as fitted) or keep."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/models.messages.ts"
