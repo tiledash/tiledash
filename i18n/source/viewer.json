@@ -1465,6 +1465,15 @@
     "maxLength": 40,
     "file": "apps/web/src/sharing/relay.messages.ts"
   },
+  "viewer.share.relay.notSharedWithYou": {
+    "en": "{name} didn’t share this dashboard",
+    "context": "Small message (toast) inside the app, on a dashboard the Homey’s owner shares with this person, when they tap a tile that opens another of the owner’s dashboards that isn’t shared with them.",
+    "params": {
+      "name": "The owner’s first name. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/relay.messages.ts"
+  },
   "viewer.share.relay.ok": {
     "en": "OK",
     "context": "Button of a confirmation question on a shared page or a paired screen (for example before switching many lamps off). It confirms and carries on.",

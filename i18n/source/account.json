@@ -113,6 +113,24 @@
     "maxLength": 60,
     "file": "apps/web/src/account/accountActions.messages.ts"
   },
+  "account.actions.leaveFailed": {
+    "en": "Couldn’t leave {homey}. Please try again.",
+    "context": "Red toast when stopping to use someone else’s Homey (smart-home hub) failed. {homey} is its name.",
+    "params": {
+      "homey": "The Homey’s name, like \"Home\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
+  "account.actions.leftHomey": {
+    "en": "You left {homey}",
+    "context": "Green toast after the person stopped using someone else’s Homey (smart-home hub) in Settings › Profile. {homey} is its name.",
+    "params": {
+      "homey": "The Homey’s name, like \"Home\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/accountActions.messages.ts"
+  },
   "account.actions.pinFailed": {
     "en": "Couldn’t save the PIN.",
     "context": "Red text on the PIN card when saving or removing the PIN failed, used when no more specific reason is known.",
@@ -240,6 +258,12 @@
   "account.aiAssistants.allow6": {
     "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
     "context": "Dashboard permissions after renewing the AI connection.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow7": {
+    "en": "Read your floor plans and change a placed model’s colours and finishes after you approve its preview in chat",
+    "context": "Expanded consent version 3: read floor plans and change only a reviewed model placement appearance.",
     "maxLength": 240,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
@@ -1350,6 +1374,16 @@
     "en": "Tiles whose device isn’t on this Homey",
     "context": "Heading of tiles that stay behind: the device they show isn’t on this Homey.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.modelMissingDetail": {
+    "en": "Model files and their colours and finishes are not included. These pieces become plain boxes.",
+    "context": "Configuration import warning explaining that model appearance overrides are lost with missing model files.",
+    "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
+  },
+  "account.configImport.modelMissingTitle": {
+    "en": "Models cannot come along",
+    "context": "Configuration import warning title when a floor plan references model files that are not exported.",
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.namesMore": {
@@ -2787,6 +2821,290 @@
     "maxLength": 80,
     "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
   },
+  "account.memberAccess.approve": {
+    "en": "Let {name} in",
+    "context": "Main button when approving a request: lets the person in with this access.",
+    "params": {
+      "name": "The first name of the person who asked. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.asRoom": {
+    "en": "As the room ({level})",
+    "context": "Choice for a device: it follows its room. {level} is the room’s level now, like \"View\".",
+    "params": {
+      "level": "The level the device gets from its room: Hidden, View or Control."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.description": {
+    "en": "Only what you choose here reaches {name}, also through the app’s other ways in.",
+    "context": "Line under the access editor’s title: the choice is enforced everywhere (dashboards, assistants, links), not only on screen.",
+    "params": {
+      "name": "The first name of the member. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.devices": {
+    "en": "{count, plural, one {# device} other {# devices}}",
+    "context": "Count after a room’s name in the tree.",
+    "params": {
+      "count": "How many devices are in the room."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.everythingElse": {
+    "en": "Everything else",
+    "context": "First row of the tree: the level for every room and device that has no choice of its own, also ones added to the Homey later.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.everythingElseHint": {
+    "en": "Also rooms and devices added later",
+    "context": "Small line under \"Everything else\".",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraCameras": {
+    "en": "Cameras",
+    "context": "Switch: the member may watch the video of the cameras they can see.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraCamerasHint": {
+    "en": "Video of the cameras above",
+    "context": "Line under the Cameras switch.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraEnergy": {
+    "en": "Energy",
+    "context": "Switch: the member sees energy prices and the home’s energy use.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraEnergyHint": {
+    "en": "Prices and what the home uses",
+    "context": "Line under the Energy switch.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraHistory": {
+    "en": "History",
+    "context": "Switch: the member sees recorded values of the devices they can see.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraHistoryHint": {
+    "en": "Recorded values of the devices above",
+    "context": "Line under the History switch.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraShare": {
+    "en": "Share links and screens",
+    "context": "Switch: the member may make their own share links and pair wall screens, never showing more than they may see themselves.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extraShareHint": {
+    "en": "Never more than {name} may see",
+    "context": "Line under that switch.",
+    "params": {
+      "name": "The first name of the member. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.extras": {
+    "en": "Extras",
+    "context": "Heading of the switches for things beyond devices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.flows": {
+    "en": "Flows {name} may start",
+    "context": "Heading of the list of the Homey’s flows (automations) the member may start.",
+    "params": {
+      "name": "The first name of the member. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.flowsNone": {
+    "en": "None until you tick them.",
+    "context": "Line under the flows heading.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.guest": {
+    "en": "{name} is a guest on this Homey at Athom, so {name} can look but never switch anything.",
+    "context": "Note at the top of the access editor when the member only has guest rights on the Homey at Athom (the company behind Homey). Tiledash never gives more than Athom does.",
+    "params": {
+      "name": "The first name of the member. Not translated."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.levelControl": {
+    "en": "Control",
+    "context": "Access level: they see it and may switch it. One of three short choices.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.levelLabel": {
+    "en": "What {name} may do in {room}",
+    "context": "Screen reader name of a room’s three choices (Hidden, View, Control).",
+    "params": {
+      "name": "The first name of the member. Not translated.",
+      "room": "The room’s name in Homey. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.levelNone": {
+    "en": "Hidden",
+    "context": "Access level: they don’t see it at all. One of three short choices.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.levelView": {
+    "en": "View",
+    "context": "Access level: they see it and its values, but can’t switch it. One of three choices.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.mixed": {
+    "en": "Mixed",
+    "context": "Small badge on a room when rooms or devices inside it have their own, different choice.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.opensHouse": {
+    "en": "Opens the house: switching needs its own Control",
+    "context": "Small line under a lock, alarm or garage door: a room’s Control doesn’t cover it, the owner has to choose Control for the device itself.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetCustom": {
+    "en": "Custom",
+    "context": "Starting point that keeps the rules as they are now; chosen by itself after any change.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetCustomHint": {
+    "en": "Your own mix",
+    "context": "Small line under \"Custom\".",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetFull": {
+    "en": "Full control",
+    "context": "Starting point: everything, and they may switch everything (with energy and history).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetFullHint": {
+    "en": "Every room, every device",
+    "context": "Small line under \"Full control\".",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetRooms": {
+    "en": "Only these rooms",
+    "context": "Starting point: nothing, until the owner ticks the rooms they may use.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetRoomsHint": {
+    "en": "Pick rooms below",
+    "context": "Small line under \"Only these rooms\".",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetView": {
+    "en": "View everything",
+    "context": "Starting point: they see every device but can’t switch anything.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.presetViewHint": {
+    "en": "Look, don’t touch",
+    "context": "Small line under \"View everything\": they can only look.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.preview": {
+    "en": "{visible, plural, =0 {Nothing visible yet} one {# device visible} other {# devices visible}} · {controllable, plural, =0 {none to switch} one {# to switch} other {# to switch}}",
+    "context": "Live count at the foot of the editor: how many devices the member will see, and how many of them they may switch.",
+    "params": {
+      "controllable": "How many of those they may switch.",
+      "visible": "How many devices the member will see."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.rooms": {
+    "en": "Rooms and devices",
+    "context": "Heading of the tree of the Homey’s rooms (zones) and their devices.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.showDevices": {
+    "en": "Devices in {room}",
+    "context": "Screen reader name of the button that opens a room to show its devices.",
+    "params": {
+      "room": "The room’s name in Homey. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.stale": {
+    "en": "This changed in another window. Close and open it again to see the latest.",
+    "context": "Warning when saving failed because the access was changed somewhere else in the meantime.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.startFrom": {
+    "en": "Start from",
+    "context": "Heading of the four starting points of the access editor.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.titleApprove": {
+    "en": "Let {name} in",
+    "context": "Title of the access editor when the owner approves a request: they choose what the person may see before letting them in.",
+    "params": {
+      "name": "The first name of the person who asked. Not translated."
+    },
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.titleEdit": {
+    "en": "What {name} may use",
+    "context": "Title of the access editor for someone who already uses the Homey.",
+    "params": {
+      "name": "The first name of the member. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.variables": {
+    "en": "Logic variables",
+    "context": "Heading of the list of Homey’s Logic variables (named values the home keeps) the member may see.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
+  "account.memberAccess.variablesNone": {
+    "en": "Hidden until you tick them.",
+    "context": "Line under the Logic variables heading.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/MemberAccessEditor.messages.ts"
+  },
   "account.page.alertsFailed": {
     "en": "Couldn’t save the alert rules",
     "context": "Title of a red message when the alert rules (which devices raise an alert on the screens) couldn’t be saved.",
@@ -3193,6 +3511,716 @@
     "maxLength": 20,
     "file": "apps/web/src/account/PayPalSubscribeButtons.messages.ts"
   },
+  "account.people.activity": {
+    "en": "Activity",
+    "context": "Heading of the list of what happened: requests, choices, changes and refusals.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.approve": {
+    "en": "Let in…",
+    "context": "Main button on a request: opens the choice of what the person may use, then lets them in. The dots say a dialog comes first.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.approveAction": {
+    "en": "Let {name} use {homey}",
+    "context": "Names the action in the \"Confirm it’s you\" dialog that asks the owner to log in with Homey again before letting someone in. {name} is that person’s first name, {homey} the Homey’s name.",
+    "params": {
+      "homey": "The Homey’s name, like \"Home\". Not translated.",
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.approved": {
+    "en": "{name} can use {homey} now",
+    "context": "Green toast after the owner let someone use their Homey (smart-home hub). {name} is that person’s first name, {homey} the Homey’s name.",
+    "params": {
+      "homey": "The Homey’s name, like \"Home\". Not translated.",
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.approvedWaitlisted": {
+    "en": "Let in: {name} gets in when Tiledash has a place",
+    "context": "Green toast after the owner let someone in who is still on Tiledash’s waitlist (Tiledash is full). {name} is their first name.",
+    "params": {
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.asked": {
+    "en": "Asked {when}",
+    "context": "When someone asked to join, under their name.",
+    "params": {
+      "when": "Like \"12 minutes ago\" or \"yesterday\", already in the page’s language."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.back": {
+    "en": "Back",
+    "context": "Button at the foot of the dialog about one person: back to the tab before, or from the summary back to changing it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.counts": {
+    "en": "{visible} devices · {controllable} to switch",
+    "context": "After that summary: how many devices the member sees and how many they may switch.",
+    "params": {
+      "controllable": "Of those, how many they may switch.",
+      "visible": "Devices the member sees."
+    },
+    "maxLength": 52,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.dashboards": {
+    "en": "Dashboards",
+    "context": "Heading of the owner’s dashboards in that dialog.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.denied": {
+    "en": "{name} wasn’t let in",
+    "context": "Toast after the owner said no to someone asking to use their Homey. {name} is that person’s first name.",
+    "params": {
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.deny": {
+    "en": "Deny",
+    "context": "Button on a request: doesn’t let the person in. They may ask again after a week.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.editMember": {
+    "en": "Edit {name}",
+    "context": "Screen reader name (and tooltip) of the pencil button on a member’s row: opens the dialog for what they may use and what is shared with them.",
+    "params": {
+      "name": "The member’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.emptyBody": {
+    "en": "Others in your home can log in to Tiledash with their own Homey account and ask to join. You’ll see them here, and you choose what each of them may use.",
+    "context": "Explanation under that heading: family members ask from their own login, the owner lets them in here.",
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.emptyTitle": {
+    "en": "Only you, for now",
+    "context": "Heading when nobody else uses the Homey and nobody asked.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.event": {
+    "en": "{kind, select, requested {<b>{name}</b> asked to join} approved {You let <b>{name}</b> in} denied {You didn’t let <b>{name}</b> in} cancelled {<b>{name}</b> withdrew their request} expired {<b>{name}</b>’s request ran out} policyChanged {You changed what <b>{name}</b> may use} removed {You removed <b>{name}</b>} left {<b>{name}</b> left} suspended {<b>{name}</b> lost access at Athom} restored {<b>{name}</b> has access at Athom again} other {<b>{name}</b> tried to switch {device}, which isn’t theirs to switch}}",
+    "context": "One line of the activity list. <b>…</b> marks a name in bold; keep the tags. The last branch: a command for a device the member may not switch was refused.",
+    "params": {
+      "device": "The device’s name in Homey, for a refused command. Not translated.",
+      "kind": "What happened (a code, not shown).",
+      "name": "The person’s name. Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.failed": {
+    "en": "That didn’t work. Please try again.",
+    "context": "Red toast in Settings › People when approving, saving, sharing or removing failed for a reason the app doesn’t know.",
+    "maxLength": 50,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.floorPlans": {
+    "en": "Floor plans",
+    "context": "Heading of the owner’s floor plans in that dialog.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.guest": {
+    "en": "Guest at Athom",
+    "context": "Badge on a member who only has guest rights on the Homey at Athom (the company behind Homey): they can only look.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.hintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes the bubble for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.hintText": {
+    "en": "{name} uses your Homey too and asked to join. Let them in, and pick exactly which rooms and devices they may see and switch.",
+    "context": "Text of that bubble.",
+    "params": {
+      "name": "The first name of the person who asked. Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.hintTitle": {
+    "en": "Someone asked to join",
+    "context": "Title of the one-time \"Did you know?\" bubble that points at the first request on People.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.homeyLabel": {
+    "en": "Homey",
+    "context": "Label of the picker of which of the owner’s Homeys the People group is about.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.homeyWaiting": {
+    "en": "{name} · {count, plural, one {# waiting} other {# waiting}}",
+    "context": "A Homey in that picker that has requests waiting.",
+    "params": {
+      "count": "How many people wait for an answer.",
+      "name": "The Homey’s name. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.lastActive": {
+    "en": "Last here {when}",
+    "context": "When the member last used Tiledash.",
+    "params": {
+      "when": "Like \"2 hours ago\", already in the page’s language."
+    },
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.leadExtras": {
+    "en": "More of your Homey than its devices: each one is off until you turn it on.",
+    "context": "Line at the top of the \"Extras\" tab.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.leadFlows": {
+    "en": "The flows {name} may start. Others don’t show for {name}.",
+    "context": "Line at the top of the \"Flows\" tab.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.leadRooms": {
+    "en": "Start from a choice, then set rooms and devices to Hidden, View or Control.",
+    "context": "Line at the top of the \"Rooms and devices\" tab.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.leadShares": {
+    "en": "Your dashboards and floor plans {name} may open. They show only what {name} may use.",
+    "context": "Line at the top of the \"Dashboards and floor plans\" tab.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.leadVariables": {
+    "en": "The Logic variables {name} may see, and set with Control.",
+    "context": "Line at the top of the \"Logic\" tab.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.limitBody": {
+    "en": "With Pro, everyone in your home can use it, each with their own dashboards.",
+    "context": "Line in that upgrade box.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.limitTitle": {
+    "en": "Free lets one other person use your Homey",
+    "context": "Title of the upgrade box on People when the owner is on Free and already has one member: another needs Pro.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.loadFailed": {
+    "en": "Couldn’t load the people on this Homey.",
+    "context": "Red banner in Settings › People when the list of people using the Homey (smart-home hub) could not be loaded. A \"Try again\" button sits under it.",
+    "maxLength": 70,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.members": {
+    "en": "Using {homey}",
+    "context": "Heading of the list of everyone who uses the Homey: the owner first, then members.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.neverActive": {
+    "en": "Not here yet",
+    "context": "Instead of \"Last here …\" for a member who hasn’t opened Tiledash since being let in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.next": {
+    "en": "Next",
+    "context": "Button at the foot of the dialog about one person: on to the next tab, until the last, which has \"Review\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.noActivity": {
+    "en": "Nothing yet.",
+    "context": "Instead of the activity list when nothing happened yet.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.paused": {
+    "en": "Paused",
+    "context": "Badge on a member paused because the owner went back to Free, which allows fewer people. Kept as they are.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.presetCustom": {
+    "en": "Custom",
+    "context": "Summary of what a member may use: the owner’s own mix of rooms and devices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.presetFull": {
+    "en": "Full control",
+    "context": "Summary of what a member may use: everything, also switching.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.presetRooms": {
+    "en": "Some rooms",
+    "context": "Summary of what a member may use: only rooms the owner picked.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.presetView": {
+    "en": "Views everything",
+    "context": "Summary of what a member may use: sees everything, switches nothing.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.removeBody": {
+    "en": "{name} can’t use {homey} in Tiledash any more, at once, also where it’s open now. Their own dashboards on it go too. They can ask again later.",
+    "context": "Explanation in that question.",
+    "params": {
+      "homey": "The Homey’s name. Not translated.",
+      "name": "The member’s first name. Not translated."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.removeConfirm": {
+    "en": "Remove",
+    "context": "Button that takes the member’s access away.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.removeMember": {
+    "en": "Remove {name}",
+    "context": "Screen reader name (and tooltip) of the bin button on a member’s row: takes their access away, asked first.",
+    "params": {
+      "name": "The member’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.removeTitle": {
+    "en": "Remove {name}?",
+    "context": "Title of the question before taking a member’s access away.",
+    "params": {
+      "name": "The member’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.removed": {
+    "en": "Removed {name}",
+    "context": "Green toast after the owner removed a person from their Homey (smart-home hub). {name} is their first name.",
+    "params": {
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 40,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.requests": {
+    "en": "Asking to join",
+    "context": "Heading of the list of people waiting for the owner to let them in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.review": {
+    "en": "Review",
+    "context": "Main button at the foot of that dialog: shows a summary of what changes before anything is saved.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.reviewBody": {
+    "en": "Nothing is saved yet. Check it, then save, or go back to change it.",
+    "context": "Line under that title.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.reviewTitle": {
+    "en": "What {name} gets",
+    "context": "Title of the summary step of that dialog, before saving.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.saveFor": {
+    "en": "Save for {name}",
+    "context": "Main button in the summary step: saves what the person may use and what is shared with them.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.saved": {
+    "en": "Saved what {name} may use",
+    "context": "Green toast after the owner saved which rooms and devices a person may see and switch. {name} is their first name.",
+    "params": {
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.shareAccessAll": {
+    "en": "All of them",
+    "context": "Row above the list of devices in that window: sets every device at once.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareAccessAllLabel": {
+    "en": "What {name} may do with all of them",
+    "context": "Read out by screen readers for the Hidden, View and Control choice on that row.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareAccessDeviceLabel": {
+    "en": "What {name} may do with {device}",
+    "context": "Read out by screen readers for the Hidden, View and Control choice on one device’s row of that window.",
+    "params": {
+      "device": "The device’s name, as the owner gave it. Not translated.",
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareAccessOpens": {
+    "en": "Opens the house: View at most here",
+    "context": "Small line under a lock, alarm or garage door in that window: it can only be given View here; Control for it is set in the person’s access settings.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareCamerasHint": {
+    "en": "{count, plural, one {# camera tile shows nothing without it} other {# camera tiles show nothing without it}}",
+    "context": "Small line under that tick box.",
+    "params": {
+      "count": "How many camera tiles are on what is being shared."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareCamerasLabel": {
+    "en": "{name} may see camera pictures",
+    "context": "Tick box in that window, not ticked at first: lets the person see the pictures of the Homey’s cameras (on what is shared and their own dashboards).",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareEnergyHint": {
+    "en": "{count, plural, one {# energy tile shows no use without it} other {# energy tiles show no use without it}}",
+    "context": "Small line under that tick box. Energy prices show either way.",
+    "params": {
+      "count": "How many energy tiles are on what is being shared."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareEnergyLabel": {
+    "en": "{name} may see energy use",
+    "context": "Tick box in that box, not ticked at first: lets the person see the Homey’s energy use (meters, usage, totals) on what is shared and their own dashboards.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareExtrasTitle": {
+    "en": "Camera pictures and energy",
+    "context": "Small heading in that box above the choices whether the person may see camera pictures and energy use.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareFlowsMay": {
+    "en": "{name} may start it",
+    "context": "Small line under such a flow’s name: what ticking it means.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareFlowsTitle": {
+    "en": "Flows it starts",
+    "context": "Small heading in that window above the flows that tiles of what is being shared start. Each has a tick box: ticked, the person may start that flow.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareHiddenTitle": {
+    "en": "Devices {name} can’t see",
+    "context": "Small heading in that window above the list of devices, when there are dashboards above it too.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareLinkedFrom": {
+    "en": "Opens from {what}",
+    "context": "Small line under such a dashboard: which of the shared dashboards have a tile that opens it.",
+    "params": {
+      "what": "The names of those dashboards, joined with commas. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shareLinkedTitle": {
+    "en": "Dashboards it opens",
+    "context": "Small heading in that window above the dashboards that tiles of what is being shared open when tapped. Each has a tick box: ticked, it is shared too.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.shares": {
+    "en": "{count, plural, one {# shared with them} other {# shared with them}}",
+    "context": "How many of the owner’s dashboards and floor plans are shared with the member.",
+    "params": {
+      "count": "How many dashboards and floor plans."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.sharesEverything": {
+    "en": "Share everything",
+    "context": "Tick box above the lists in that dialog: ticks every dashboard and floor plan at once (or clears them all).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.sharesMayEdit": {
+    "en": "May edit",
+    "context": "Short label beside a switch on a ticked dashboard or floor plan in that dialog: on, the member may change the owner’s original.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.sharesMayEditLabel": {
+    "en": "{name} may edit {what}",
+    "context": "Accessible name of that switch.",
+    "params": {
+      "name": "The member’s first name. Not translated.",
+      "what": "The name of the dashboard or floor plan. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.sharesSaved": {
+    "en": "Saved what {name} sees of yours",
+    "context": "Green toast after the owner chose which of their dashboards and floor plans a person sees. {name} is their first name.",
+    "params": {
+      "name": "That person’s first name, like \"Lies\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.stepOf": {
+    "en": "Step {step} of {total}",
+    "context": "Small text at the foot of that dialog: which tab of how many is open.",
+    "params": {
+      "step": "The number of the open tab.",
+      "total": "How many tabs there are."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryExtras": {
+    "en": "Extras: {list}",
+    "context": "Line in the summary: the extras that are on, like \"Extras: Energy, Cameras\".",
+    "params": {
+      "list": "The names of the extras that are on, joined with commas, already translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryFlows": {
+    "en": "{count, plural, =0 {No flows to start} one {# flow to start} other {# flows to start}}",
+    "context": "Line in the summary: how many flows the person may start.",
+    "params": {
+      "count": "How many flows."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryLeftOut": {
+    "en": "Not shared yet",
+    "context": "Heading of a box in the summary: what the shared dashboards use that the person can’t reach yet (dashboards they open, flows, camera pictures, energy use, devices), each with whether it goes along.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryLeftOutHint": {
+    "en": "What you leave out stays unavailable for {name}.",
+    "context": "Line under that heading.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryNew": {
+    "en": "New",
+    "context": "Small tag in the summary on a dashboard or floor plan that this change starts sharing.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryNoExtras": {
+    "en": "No extras",
+    "context": "Line in the summary when no extra (energy, history, cameras, sharing) is on.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryNothingShared": {
+    "en": "Nothing shared",
+    "context": "In the summary when no dashboard or floor plan is shared with the person.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryShared": {
+    "en": "Shared with {name}",
+    "context": "Small heading in the summary above the dashboards and floor plans shared with the person.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryStops": {
+    "en": "No longer shared",
+    "context": "Small tag in the summary on a dashboard or floor plan that this change stops sharing.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryUse": {
+    "en": "What {name} may use",
+    "context": "Small heading in the summary above how many devices the person sees and switches, their flows and extras.",
+    "params": {
+      "name": "That person’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.summaryWas": {
+    "en": "was {before}",
+    "context": "Small text after the new count, with the count before the change, like \"was 12 devices visible · 4 to switch\".",
+    "params": {
+      "before": "The count before the change, already worded."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.suspended": {
+    "en": "No access at Athom",
+    "context": "Badge on a member whose Athom account no longer has this Homey: they can’t use it until Athom gives it back.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tabExtras": {
+    "en": "Extras",
+    "context": "Tab in that dialog: energy, history, cameras and sharing, each on or off. The tab shows how many are on.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tabFlows": {
+    "en": "Flows",
+    "context": "Tab in that dialog: the flows the person may start. The tab shows how many.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tabRooms": {
+    "en": "Rooms and devices",
+    "context": "Tab in the dialog about one person on the owner’s Homey: which rooms and devices they may see or switch.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tabShares": {
+    "en": "Dashboards and floor plans",
+    "context": "Other tab in that dialog: which of the owner’s dashboards and floor plans are shared with the person. The tab shows how many.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tabVariables": {
+    "en": "Logic",
+    "context": "Tab in that dialog: the Logic variables the person may see (and set with Control). The tab shows how many.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.tryAgain": {
+    "en": "Try again",
+    "context": "Button under the red banner in Settings › People that loads the list again.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/PeopleGroupHost.messages.ts"
+  },
+  "account.people.upgrade": {
+    "en": "Upgrade to Pro",
+    "context": "Button in the upgrade box.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.usage": {
+    "en": "{used} of {limit} people, you included",
+    "context": "How many people use the Homey of the most the owner’s plan allows (Free allows 2: the owner and one other).",
+    "params": {
+      "limit": "The most the plan allows.",
+      "used": "People using it now, the owner included."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.usageUnlimited": {
+    "en": "{used, plural, one {Only you} other {# people, you included}}",
+    "context": "How many people use the Homey, on Pro (no limit).",
+    "params": {
+      "used": "People using it now, the owner included."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.waitlisted": {
+    "en": "On Tiledash’s waitlist: your yes lets them in once there’s a place.",
+    "context": "Note on a request from someone on Tiledash’s own waitlist for new accounts: approving keeps their place and they start as soon as Tiledash has room.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
+  "account.people.you": {
+    "en": "You · owner",
+    "context": "Line under the owner’s own name in that list: they own the Homey and may do everything.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
+  },
   "account.pin.again": {
     "en": "Again",
     "context": "Label of the field where the PIN is typed a second time, to check it.",
@@ -3426,6 +4454,30 @@
     "en": "Pay monthly or yearly",
     "context": "Name of the choice between paying monthly and yearly, read out by screen readers.",
     "maxLength": 40,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.joinedFree": {
+    "en": "{name}’s plan counts here: Free.",
+    "context": "Line under a Homey’s name in that card when its owner is on the Free plan: what the person makes on that Homey follows the owner’s Free plan.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Alex\". Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.joinedPro": {
+    "en": "{name}’s Pro counts here: what you make on it has Pro’s room and features.",
+    "context": "Line under a Homey’s name in that card when its owner is on Pro: dashboards, floor plans and themes the person makes on that Homey follow the owner’s Pro plan. \"Pro\" is the plan’s name and stays.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Alex\". Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
+  },
+  "account.plan.joinedTitle": {
+    "en": "On Homeys you were let in to",
+    "context": "Heading of a card in Settings › Plan listing the Homeys (smart-home hubs) someone else owns that this person may use. There, their owner’s plan counts, not the person’s own.",
+    "maxLength": 50,
     "file": "packages/ui/src/screens/account/PlanSection.messages.ts"
   },
   "account.plan.keepPro": {
@@ -3741,6 +4793,24 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
   },
+  "account.planDialogs.keepMembersBody": {
+    "en": "Free has room for you and {limit, plural, one {one other person} other {# others}}. The others are paused: their dashboards and access wait until you go Pro again.",
+    "context": "Line under the title of the dialog that picks who keeps using the Homey.",
+    "params": {
+      "limit": "How many people besides the owner Free allows."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
+  "account.planDialogs.keepMembersTitle": {
+    "en": "Who keeps using {homey}?",
+    "context": "Title of the dialog in which the owner picks which other person keeps using their Homey on Free (47); the others pause.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
+  },
   "account.planDialogs.keepPro": {
     "en": "Keep Pro",
     "context": "Button of the cancel dialog that closes it without cancelling.",
@@ -3748,11 +4818,11 @@
     "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
   },
   "account.planDialogs.keepThese": {
-    "en": "{what, select, homeys {{count, plural, one {Keep this Homey} other {Keep these Homeys}}} other {{count, plural, one {Keep this dashboard} other {Keep these dashboards}}}}",
-    "context": "Button that saves which dashboards or Homeys stay active on Free.",
+    "en": "{what, select, homeys {{count, plural, one {Keep this Homey} other {Keep these Homeys}}} members {{count, plural, one {Keep this person} other {Keep these people}}} other {{count, plural, one {Keep this dashboard} other {Keep these dashboards}}}}",
+    "context": "Button that saves which dashboards, Homeys, or people using the person’s Homey stay active on Free.",
     "params": {
       "count": "How many may stay (1 makes it \"this\").",
-      "what": "\"dashboards\" or \"homeys\"."
+      "what": "\"dashboards\", \"homeys\" or \"members\" (other people using the Homey)."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/planDialogs.messages.ts"
@@ -4001,6 +5071,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowPeople": {
+    "en": "People per Homey",
+    "context": "Row of the plans table: how many accounts may use one Homey (smart-home hub), the owner included.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowPublish": {
     "en": "Publish to the Community",
     "context": "Row of the plans table: whether the plan lets you publish your own widgets, themes, partials and models to the Community (the place where Tiledash users share them).",
@@ -4171,6 +5247,36 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
+  "account.profile.leave": {
+    "en": "Leave…",
+    "context": "Button on someone else’s Homey: stops using it in Tiledash, after a confirmation (the dots).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.leaveBody": {
+    "en": "Your dashboards on it go, and you can’t use it any more until you ask {name} again.",
+    "context": "Explanation in that question.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.leaveConfirm": {
+    "en": "Leave",
+    "context": "Button that leaves the Homey.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.leaveTitle": {
+    "en": "Leave {homey}?",
+    "context": "Title of the question before leaving someone else’s Homey.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
   "account.profile.logInAgain": {
     "en": "Log in again",
     "context": "Button on a Homey Tiledash may no longer reach: log in with Homey again to allow it.",
@@ -4193,6 +5299,15 @@
     "en": "Paused",
     "context": "Badge on a Homey that is paused on the Free plan: not connected until it is picked to stay.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.pausedByOwner": {
+    "en": "Paused by {name}",
+    "context": "Badge on someone else’s Homey that its owner’s plan paused for this person (back to Free, which allows fewer people).",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
   "account.profile.proRoomFor": {
@@ -4225,6 +5340,15 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
+  "account.profile.sharedBy": {
+    "en": "shared by {name}",
+    "context": "After the model of a Homey that belongs to someone else, who let this person use it (47). Lower case: it follows a middle dot.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
   "account.profile.showThis": {
     "en": "Show this one",
     "context": "Button on another Homey that switches the app to it.",
@@ -4247,6 +5371,15 @@
     "en": "Signed in with your Homey account; your name and email come from there.",
     "context": "Small text under the person’s name and email on the Account tab.",
     "maxLength": 100,
+    "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
+  },
+  "account.profile.waitingForOwner": {
+    "en": "Waiting for {name}",
+    "context": "Badge on someone else’s Homey that Tiledash can’t reach until its owner logs in again.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 30,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
   "account.profile.youLabel": {
@@ -4601,6 +5734,21 @@
     "en": "Sharing",
     "context": "Small heading in the Settings menu above the groups about what is shared: links and paired screens, and connected AI assistants.",
     "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.people": {
+    "en": "People",
+    "context": "Name of the settings group where the owner of a Homey (the smart-home hub) sees who else asked to use it in Tiledash, lets them in and decides what each may see and switch. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › People\"; use the same word.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.peopleAbout": {
+    "en": "Who else uses {homey}, and what each of them may see and switch.",
+    "context": "Line under the heading of the People settings group. {homey} is the name of the Homey shown now.",
+    "params": {
+      "homey": "The name the owner gave their Homey, like \"Pastorie\". Not translated."
+    },
+    "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.plan": {

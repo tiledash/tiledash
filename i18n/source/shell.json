@@ -191,6 +191,16 @@
     "maxLength": 180,
     "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
   },
+  "shell.homeyProblem.ownerReconnect": {
+    "en": "<b>Waiting for {name} to reconnect {homey}.</b> Its devices come back here as soon as {name} logs in with Homey again.",
+    "context": "Banner for someone who uses another person’s Homey (47) when Tiledash lost its connection to it: only the owner can log in again to fix it. The tagged part is bold.",
+    "params": {
+      "homey": "The name of the Homey. Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/HomeyProblemBanner.messages.ts"
+  },
   "shell.homeyProblem.settings": {
     "en": "Remove it…",
     "context": "Button in the banner that opens the settings page where the Homey can be removed from Tiledash. The dots mean a confirmation follows.",
@@ -797,6 +807,60 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/widgets/savedLabel.messages.ts"
   },
+  "shell.shared.failedTitle": {
+    "en": "Couldn’t open it",
+    "context": "Title of the page when a dashboard or floor plan the owner shares could not be loaded for a reason the app doesn’t know. A \"Try again\" button sits under it.",
+    "maxLength": 40,
+    "file": "apps/web/src/sharing/SharedViewPage.messages.ts"
+  },
+  "shell.shared.goneBody": {
+    "en": "{name} stopped sharing it, or it is gone.",
+    "context": "Text under \"Not shared with you anymore\". {name} is the Homey owner’s first name.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Wim\". Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/sharing/SharedViewPage.messages.ts"
+  },
+  "shell.shared.goneTitle": {
+    "en": "Not shared with you anymore",
+    "context": "Title of the page when the person opens a dashboard or floor plan that the owner of the Homey (smart-home hub) shared with them, but no longer does.",
+    "maxLength": 50,
+    "file": "apps/web/src/sharing/SharedViewPage.messages.ts"
+  },
+  "shell.shared.tryAgain": {
+    "en": "Try again",
+    "context": "Button that loads the shared dashboard or floor plan again.",
+    "maxLength": 20,
+    "file": "apps/web/src/sharing/SharedViewPage.messages.ts"
+  },
+  "shell.sharedByOwner.copy": {
+    "en": "Make a copy",
+    "context": "Button at the top right of a dashboard another person (the Homey’s owner) shares with this one, where the edit button usually is: makes the person’s own dashboard from it, which they can change (only with the devices they may use).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/members/sharedByOwner.messages.ts"
+  },
+  "shell.sharedByOwner.copyFailed": {
+    "en": "Couldn’t make a copy",
+    "context": "Notice when making that copy failed for another reason than the plan.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/sharedByOwner.messages.ts"
+  },
+  "shell.sharedByOwner.unavailable": {
+    "en": "Not for you",
+    "context": "On a tile of a shared dashboard whose device the person may not see: it stays empty for them.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/sharedByOwner.messages.ts"
+  },
+  "shell.sharedByOwner.unavailableHint": {
+    "en": "{name} didn’t share this device",
+    "context": "Small line under \"Not for you\".",
+    "params": {
+      "name": "The owner’s first name. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/sharedByOwner.messages.ts"
+  },
   "shell.sidebar.accountMenu": {
     "en": "{name}, account menu{news, select, yes {, something new} other {}}",
     "context": "Name of the account button when only the avatar shows (narrow sidebar, phone top bar), read out by screen readers: the person's name and that it opens the account menu. With \"yes\" it adds that there is something new in it (a release the person has not seen). Not visible as text.",
@@ -1055,6 +1119,15 @@
     "maxLength": 60,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
   },
+  "shell.sidebar.proFrom": {
+    "en": "Pro from {name}",
+    "context": "Small line under the person's name at the foot of the sidebar while they use a Homey someone else owns on the Pro plan: the owner's Pro counts for them there. \"Pro\" is the name of the plan and stays.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Alex\". Not translated."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
   "shell.sidebar.reset": {
     "en": "Reset",
     "context": "Button in the bar at the top of the sidebar while it is being edited. It brings the tools back to how a new account has them (the dashboards and groups stay).",
@@ -1081,6 +1154,30 @@
     "context": "Name of the gear button at the foot of the sidebar when there is a release the person has not seen in What’s new (which is in Settings), read out by screen readers. Not visible as text.",
     "maxLength": 50,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.shared.floorPlan": {
+    "en": "Floor plan",
+    "context": "Read out by screen readers after the name of a shared item in the sidebar that is a floor plan (a drawing of the house), not a dashboard. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/sidebar/sharedByOwner.messages.ts"
+  },
+  "shell.sidebar.shared.listLabel": {
+    "en": "Dashboards and floor plans shared by {name}",
+    "context": "Name of the list under \"Shared by {name}\" in the sidebar, read out by screen readers. {name} is the Homey owner’s first name. Not visible as text.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Wim\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/patterns/sidebar/sharedByOwner.messages.ts"
+  },
+  "shell.sidebar.shared.title": {
+    "en": "Shared by {name}",
+    "context": "Heading of a sidebar section listing the dashboards and floor plans the owner of the Homey (smart-home hub) shares with this person, who uses that Homey as a member. {name} is the owner’s first name, like \"Wim\". Short: it sits above a list in a narrow sidebar.",
+    "params": {
+      "name": "The Homey owner’s first name, like \"Wim\". Not translated."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/sidebar/sharedByOwner.messages.ts"
   },
   "shell.sidebar.showItem": {
     "en": "Show {label}",

@@ -101,6 +101,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.leaveFailed": {
+    "text": "Kon {homey} niet verlaten. Probeer het opnieuw.",
+    "source": "d130381a5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.leftHomey": {
+    "text": "Je hebt {homey} verlaten",
+    "source": "8e73016bc8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "De pincode is niet opgeslagen.",
     "source": "c207f0554d",
@@ -224,6 +236,12 @@
   "account.aiAssistants.allow6": {
     "text": "Community-widgets bekijken en een specifieke versie installeren na je toestemming in de chat; installaties blijven staan als je een concept weggooit",
     "source": "fece72f5d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow7": {
+    "text": "Je plattegronden lezen en de kleuren en afwerkingen van een geplaatst model wijzigen nadat je het voorbeeld in de chat hebt goedgekeurd",
+    "source": "d32d0c4028",
     "by": "ai",
     "reviewed": false
   },
@@ -1184,6 +1202,18 @@
   "account.configImport.missingDeviceTitle": {
     "text": "Tegels waarvan het apparaat niet op deze Homey staat",
     "source": "96c2add6c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.modelMissingDetail": {
+    "text": "Modelbestanden en hun kleuren en afwerkingen zijn niet inbegrepen. Deze meubels worden eenvoudige blokken.",
+    "source": "a6a4829a38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.modelMissingTitle": {
+    "text": "Modellen kunnen niet mee",
+    "source": "09af578360",
     "by": "ai",
     "reviewed": false
   },
@@ -2465,6 +2495,252 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.memberAccess.approve": {
+    "text": "{name} toelaten",
+    "source": "2bb60be6a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.asRoom": {
+    "text": "Zoals de kamer ({level})",
+    "source": "34b53f6a8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.description": {
+    "text": "Alleen wat je hier kiest komt bij {name}, ook via de andere wegen in de app.",
+    "source": "5060f546c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.devices": {
+    "text": "{count, plural, one {# apparaat} other {# apparaten}}",
+    "source": "7032893996",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.everythingElse": {
+    "text": "Al het andere",
+    "source": "cd6c5f59d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.everythingElseHint": {
+    "text": "Ook kamers en apparaten die later komen",
+    "source": "65d3ac0a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraCameras": {
+    "text": "Camera’s",
+    "source": "a9b675db7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraCamerasHint": {
+    "text": "Beeld van de camera’s hierboven",
+    "source": "1ad2a8454a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraEnergy": {
+    "text": "Energie",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraEnergyHint": {
+    "text": "Prijzen en wat het huis verbruikt",
+    "source": "3327f7a90e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraHistory": {
+    "text": "Geschiedenis",
+    "source": "0e76960093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraHistoryHint": {
+    "text": "Vastgelegde waarden van de apparaten hierboven",
+    "source": "4552ff0668",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraShare": {
+    "text": "Deellinks en schermen",
+    "source": "f48a490c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraShareHint": {
+    "text": "Nooit meer dan {name} zelf mag zien",
+    "source": "ca8b5db9e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extras": {
+    "text": "Extra’s",
+    "source": "3038523738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.flows": {
+    "text": "Flows die {name} mag starten",
+    "source": "d0f00e72df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.flowsNone": {
+    "text": "Geen, tot je ze aanvinkt.",
+    "source": "5ac049d7ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.guest": {
+    "text": "{name} is gast op deze Homey bij Athom, dus {name} kan kijken maar nooit iets bedienen.",
+    "source": "e90ea70840",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelControl": {
+    "text": "Bedienen",
+    "source": "32d7e82082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelLabel": {
+    "text": "Wat {name} mag in {room}",
+    "source": "d007559ad0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelNone": {
+    "text": "Verborgen",
+    "source": "7e6fefff0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelView": {
+    "text": "Bekijken",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.mixed": {
+    "text": "Gemengd",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.opensHouse": {
+    "text": "Opent het huis: kies Bedienen voor dit apparaat zelf",
+    "source": "3bf78fe7b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetCustom": {
+    "text": "Aangepast",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetCustomHint": {
+    "text": "Je eigen mix",
+    "source": "4a1f9a0826",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetFull": {
+    "text": "Volledige bediening",
+    "source": "ba819ccda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetFullHint": {
+    "text": "Elke kamer, elk apparaat",
+    "source": "b0e683e097",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetRooms": {
+    "text": "Alleen deze kamers",
+    "source": "836d58fa36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetRoomsHint": {
+    "text": "Kies hieronder de kamers",
+    "source": "330516e069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetView": {
+    "text": "Alles bekijken",
+    "source": "905a97d813",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetViewHint": {
+    "text": "Kijken, niet aanraken",
+    "source": "7480aec009",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.preview": {
+    "text": "{visible, plural, =0 {Nog niets zichtbaar} one {# apparaat zichtbaar} other {# apparaten zichtbaar}} · {controllable, plural, =0 {geen te bedienen} one {# te bedienen} other {# te bedienen}}",
+    "source": "25ebb9423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.rooms": {
+    "text": "Kamers en apparaten",
+    "source": "abc5677364",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.showDevices": {
+    "text": "Apparaten in {room}",
+    "source": "127273e69d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.stale": {
+    "text": "Dit is in een ander venster gewijzigd. Sluit en open het opnieuw voor de nieuwste versie.",
+    "source": "be97c3fe19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.startFrom": {
+    "text": "Begin met",
+    "source": "eb3f51dc87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.titleApprove": {
+    "text": "{name} toelaten",
+    "source": "2bb60be6a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.titleEdit": {
+    "text": "Wat {name} mag gebruiken",
+    "source": "89a0d29b61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.variables": {
+    "text": "Logic-variabelen",
+    "source": "c34fd333f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.variablesNone": {
+    "text": "Verborgen tot je ze aanvinkt.",
+    "source": "f00e906ff7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.page.alertsFailed": {
     "text": "De meldingsregels zijn niet opgeslagen",
     "source": "5a6d5aed36",
@@ -2831,6 +3107,576 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.people.activity": {
+    "text": "Activiteit",
+    "source": "38da1505ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approve": {
+    "text": "Toelaten…",
+    "source": "4f9344396c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approveAction": {
+    "text": "{name} {homey} laten gebruiken",
+    "source": "c5e7790295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approved": {
+    "text": "{name} kan {homey} nu gebruiken",
+    "source": "59183caa51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approvedWaitlisted": {
+    "text": "Toegelaten: {name} komt erin zodra Tiledash plek heeft",
+    "source": "b7937f0994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.asked": {
+    "text": "Gevraagd {when}",
+    "source": "0cbed5e782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.back": {
+    "text": "Terug",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.counts": {
+    "text": "{visible} apparaten · {controllable} te bedienen",
+    "source": "c0529df2d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.dashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.denied": {
+    "text": "{name} is niet toegelaten",
+    "source": "3cd7f825d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.deny": {
+    "text": "Weigeren",
+    "source": "05a2d7332e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.editMember": {
+    "text": "{name} bewerken",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.emptyBody": {
+    "text": "Anderen in je huis kunnen met hun eigen Homey-account inloggen bij Tiledash en vragen om mee te doen. Je ziet ze dan hier, en jij kiest wat ieder van hen mag gebruiken.",
+    "source": "7654108369",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.emptyTitle": {
+    "text": "Voorlopig alleen jij",
+    "source": "3f0d2137c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.event": {
+    "text": "{kind, select, requested {<b>{name}</b> vroeg om mee te doen} approved {Je hebt <b>{name}</b> toegelaten} denied {Je hebt <b>{name}</b> niet toegelaten} cancelled {<b>{name}</b> trok het verzoek in} expired {Het verzoek van <b>{name}</b> is verlopen} policyChanged {Je wijzigde wat <b>{name}</b> mag gebruiken} removed {Je hebt <b>{name}</b> verwijderd} left {<b>{name}</b> is vertrokken} suspended {<b>{name}</b> verloor de toegang bij Athom} restored {<b>{name}</b> heeft weer toegang bij Athom} other {<b>{name}</b> probeerde {device} te bedienen, maar dat mag niet}}",
+    "source": "1f730c0476",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.failed": {
+    "text": "Dat lukte niet. Probeer het opnieuw.",
+    "source": "e0381366aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.floorPlans": {
+    "text": "Plattegronden",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.guest": {
+    "text": "Gast bij Athom",
+    "source": "b104561ede",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintDismiss": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintText": {
+    "text": "{name} gebruikt je Homey ook en vraagt om mee te doen. Laat {name} toe en kies precies welke kamers en apparaten {name} mag zien en bedienen.",
+    "source": "ccd62c420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintTitle": {
+    "text": "Iemand vraagt om mee te doen",
+    "source": "fc5829e5da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.homeyLabel": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.homeyWaiting": {
+    "text": "{name} · {count, plural, one {# wacht} other {# wachten}}",
+    "source": "d350fdc5e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.lastActive": {
+    "text": "Laatst hier {when}",
+    "source": "06eb63b212",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadExtras": {
+    "text": "Meer van je Homey dan alleen de apparaten: elk staat uit tot je het aanzet.",
+    "source": "67f962f700",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadFlows": {
+    "text": "De flows die {name} mag starten. Andere ziet {name} niet.",
+    "source": "d856852d46",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadRooms": {
+    "text": "Begin met een keuze en zet dan kamers en apparaten op Verborgen, Bekijken of Bedienen.",
+    "source": "c314055a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadShares": {
+    "text": "Je dashboards en plattegronden die {name} mag openen. Ze tonen alleen wat {name} mag gebruiken.",
+    "source": "a9089e8334",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadVariables": {
+    "text": "De Logic-variabelen die {name} mag zien, en met Bedienen ook mag instellen.",
+    "source": "2050650064",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.limitBody": {
+    "text": "Met Pro kan iedereen in je huis hem gebruiken, ieder met eigen dashboards.",
+    "source": "b26c2b17a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.limitTitle": {
+    "text": "Met Free kan één ander je Homey gebruiken",
+    "source": "bbe1a6b147",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.loadFailed": {
+    "text": "Kon de personen op deze Homey niet laden.",
+    "source": "b1ad89cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.members": {
+    "text": "Gebruikers van {homey}",
+    "source": "c74ab390ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.neverActive": {
+    "text": "Nog niet geweest",
+    "source": "7df6a3676e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.next": {
+    "text": "Volgende",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.noActivity": {
+    "text": "Nog niets.",
+    "source": "e056734eff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.paused": {
+    "text": "Gepauzeerd",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetCustom": {
+    "text": "Aangepast",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetFull": {
+    "text": "Volledige bediening",
+    "source": "ba819ccda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetRooms": {
+    "text": "Enkele kamers",
+    "source": "5c0334c62a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetView": {
+    "text": "Ziet alles",
+    "source": "d0df19a16e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeBody": {
+    "text": "{name} kan {homey} meteen niet meer gebruiken in Tiledash, ook niet waar het nu open is. Eigen dashboards erop verdwijnen ook. {name} kan later opnieuw vragen.",
+    "source": "fd1b16ba21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeConfirm": {
+    "text": "Verwijderen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeMember": {
+    "text": "{name} verwijderen",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeTitle": {
+    "text": "{name} verwijderen?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removed": {
+    "text": "{name} verwijderd",
+    "source": "ad6173859d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.requests": {
+    "text": "Vragen om mee te doen",
+    "source": "eb7dadf3b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.review": {
+    "text": "Controleren",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.reviewBody": {
+    "text": "Nog niets opgeslagen. Controleer het en sla op, of ga terug om het te wijzigen.",
+    "source": "4485098db9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.reviewTitle": {
+    "text": "Wat {name} krijgt",
+    "source": "7792aeed5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.saveFor": {
+    "text": "Opslaan voor {name}",
+    "source": "834a02032e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.saved": {
+    "text": "Opgeslagen wat {name} mag gebruiken",
+    "source": "fc6b02ef2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessAll": {
+    "text": "Allemaal",
+    "source": "29c88933c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessAllLabel": {
+    "text": "Wat {name} met alle apparaten mag doen",
+    "source": "1df56ee656",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessDeviceLabel": {
+    "text": "Wat {name} met {device} mag doen",
+    "source": "790fc454c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessOpens": {
+    "text": "Opent het huis: hier hooguit Bekijken",
+    "source": "a1d12b1caa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareCamerasHint": {
+    "text": "{count, plural, one {# camerategel toont zonder dit niets} other {# camerategels tonen zonder dit niets}}",
+    "source": "0ecf86be31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareCamerasLabel": {
+    "text": "{name} mag camerabeelden zien",
+    "source": "2913dcd7c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareEnergyHint": {
+    "text": "{count, plural, one {# energietegel toont zonder dit geen verbruik} other {# energietegels tonen zonder dit geen verbruik}}",
+    "source": "cd4dcf1d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareEnergyLabel": {
+    "text": "{name} mag energieverbruik zien",
+    "source": "49acbcc0ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareExtrasTitle": {
+    "text": "Camerabeelden en energie",
+    "source": "74479d1c55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareFlowsMay": {
+    "text": "{name} mag deze starten",
+    "source": "e3129b492e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareFlowsTitle": {
+    "text": "Flows die het start",
+    "source": "375af36698",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareHiddenTitle": {
+    "text": "Apparaten die {name} niet kan zien",
+    "source": "85ad24c6bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareLinkedFrom": {
+    "text": "Te openen vanuit {what}",
+    "source": "13b245e086",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareLinkedTitle": {
+    "text": "Dashboards die het opent",
+    "source": "7f8e2cb703",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shares": {
+    "text": "{count, plural, one {# met ze gedeeld} other {# met ze gedeeld}}",
+    "source": "3db3233ac7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesEverything": {
+    "text": "Alles delen",
+    "source": "32b4751867",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesMayEdit": {
+    "text": "Mag bewerken",
+    "source": "3d0416f424",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesMayEditLabel": {
+    "text": "{name} mag {what} bewerken",
+    "source": "3442383fdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesSaved": {
+    "text": "Opgeslagen wat {name} van jou ziet",
+    "source": "a05fb41418",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.stepOf": {
+    "text": "Stap {step} van {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryExtras": {
+    "text": "Extra’s: {list}",
+    "source": "3e0d4a8a59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryFlows": {
+    "text": "{count, plural, =0 {Geen flows om te starten} one {# flow om te starten} other {# flows om te starten}}",
+    "source": "9b5b0ffb4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryLeftOut": {
+    "text": "Nog niet gedeeld",
+    "source": "bd0b098b93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryLeftOutHint": {
+    "text": "Wat je weglaat, blijft voor {name} onbereikbaar.",
+    "source": "147607592f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNew": {
+    "text": "Nieuw",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNoExtras": {
+    "text": "Geen extra’s",
+    "source": "228e808b8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNothingShared": {
+    "text": "Niets gedeeld",
+    "source": "74bb1759d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryShared": {
+    "text": "Gedeeld met {name}",
+    "source": "b327fc4035",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryStops": {
+    "text": "Niet meer gedeeld",
+    "source": "794a77b32c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryUse": {
+    "text": "Wat {name} mag gebruiken",
+    "source": "89a0d29b61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryWas": {
+    "text": "voorheen {before}",
+    "source": "400a6ae211",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.suspended": {
+    "text": "Geen toegang bij Athom",
+    "source": "59d13a5591",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabExtras": {
+    "text": "Extra’s",
+    "source": "3038523738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabRooms": {
+    "text": "Kamers en apparaten",
+    "source": "abc5677364",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabShares": {
+    "text": "Dashboards en plattegronden",
+    "source": "f51a17510c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabVariables": {
+    "text": "Logic",
+    "source": "7c400199ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tryAgain": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.upgrade": {
+    "text": "Upgraden naar Pro",
+    "source": "acb320d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.usage": {
+    "text": "{used} van {limit} personen, jij meegeteld",
+    "source": "b8f1580a3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.usageUnlimited": {
+    "text": "{used, plural, one {Alleen jij} other {# personen, jij meegeteld}}",
+    "source": "8c7af10597",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.waitlisted": {
+    "text": "Op de wachtlijst van Tiledash: zeg je ja, dan komt diegene erin zodra er plek is.",
+    "source": "42cde8dcc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.you": {
+    "text": "Jij · eigenaar",
+    "source": "71edcf1876",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.pin.again": {
     "text": "Nog een keer",
     "source": "f72894d8fb",
@@ -3038,6 +3884,24 @@
   "account.plan.intervalLabel": {
     "text": "Maandelijks of jaarlijks betalen",
     "source": "fb85276484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedFree": {
+    "text": "Hier telt het plan van {name}: Free.",
+    "source": "b5c1c78aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedPro": {
+    "text": "Hier telt de Pro van {name}: wat je erop maakt, krijgt de ruimte en functies van Pro.",
+    "source": "dfd7c97628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedTitle": {
+    "text": "Op Homeys waar je bent toegelaten",
+    "source": "a737309b8c",
     "by": "ai",
     "reviewed": false
   },
@@ -3311,6 +4175,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.planDialogs.keepMembersBody": {
+    "text": "Free heeft ruimte voor jou en {limit, plural, one {één andere persoon} other {# anderen}}. De anderen worden gepauzeerd: hun dashboards en toegang wachten tot je weer Pro neemt.",
+    "source": "0c351e949a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.planDialogs.keepMembersTitle": {
+    "text": "Wie blijft {homey} gebruiken?",
+    "source": "ecdf3e7d27",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.planDialogs.keepPro": {
     "text": "Pro houden",
     "source": "91328b86b8",
@@ -3318,8 +4194,8 @@
     "reviewed": false
   },
   "account.planDialogs.keepThese": {
-    "text": "{what, select, homeys {{count, plural, one {Deze Homey houden} other {Deze Homeys houden}}} other {{count, plural, one {Dit dashboard houden} other {Deze dashboards houden}}}}",
-    "source": "122187e3be",
+    "text": "{what, select, homeys {{count, plural, one {Deze Homey houden} other {Deze Homeys houden}}} members {{count, plural, one {Deze persoon houden} other {Deze personen houden}}} other {{count, plural, one {Dit dashboard houden} other {Deze dashboards houden}}}}",
+    "source": "f1ffdf4c9a",
     "by": "ai",
     "reviewed": false
   },
@@ -3533,6 +4409,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowPeople": {
+    "text": "Personen per Homey",
+    "source": "8a4e8f77f8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowPublish": {
     "text": "Publiceren in de community",
     "source": "73089f222f",
@@ -3683,6 +4565,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.leave": {
+    "text": "Verlaten…",
+    "source": "3baeb3b148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveBody": {
+    "text": "Je dashboards erop verdwijnen, en je kunt hem niet meer gebruiken tot je het {name} opnieuw vraagt.",
+    "source": "028f81591d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveConfirm": {
+    "text": "Verlaten",
+    "source": "fc6e4a408d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveTitle": {
+    "text": "{homey} verlaten?",
+    "source": "e5727e9343",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.logInAgain": {
     "text": "Opnieuw inloggen",
     "source": "f8fea550fe",
@@ -3704,6 +4610,12 @@
   "account.profile.paused": {
     "text": "Gepauzeerd",
     "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.pausedByOwner": {
+    "text": "Gepauzeerd door {name}",
+    "source": "459ee3b11e",
     "by": "ai",
     "reviewed": false
   },
@@ -3731,6 +4643,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.sharedBy": {
+    "text": "gedeeld door {name}",
+    "source": "85bd8808e2",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.showThis": {
     "text": "Deze tonen",
     "source": "8895e74046",
@@ -3752,6 +4670,12 @@
   "account.profile.signedInWith": {
     "text": "Ingelogd met je Homey-account; je naam en e-mail komen daarvandaan.",
     "source": "d52a78d1b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.waitingForOwner": {
+    "text": "Wacht op {name}",
+    "source": "c5f0b2149c",
     "by": "ai",
     "reviewed": false
   },
@@ -4070,6 +4994,18 @@
   "account.settings.partSharing": {
     "text": "Delen",
     "source": "bbedc70e98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.people": {
+    "text": "Personen",
+    "source": "7db2089705",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.peopleAbout": {
+    "text": "Wie {homey} nog meer gebruikt, en wat ieder van hen mag zien en bedienen.",
+    "source": "fcca30d0ba",
     "by": "ai",
     "reviewed": false
   },

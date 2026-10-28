@@ -1,4 +1,94 @@
 {
+  "login.accessRequest.approvedBody": {
+    "text": "{name} vous permet d’utiliser <b>{homey}</b>. Vous voyez les pièces et appareils que {name} a choisis pour vous.",
+    "source": "59c1e55b9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.approvedTitle": {
+    "text": "Accès accordé !",
+    "source": "9ab8731dfb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.askAgain": {
+    "text": "Redemander",
+    "source": "0d9ad5efe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.cancel": {
+    "text": "Retirer la demande",
+    "source": "8bd07d7685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedBody": {
+    "text": "{name} ne vous a pas permis d’utiliser <b>{homey}</b>. Vous pourrez redemander à partir du {when}.",
+    "source": "db56288453",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedTitle": {
+    "text": "Pas cette fois",
+    "source": "6f3efa36d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredBody": {
+    "text": "{name} n’a pas répondu sous 14 jours. Redemandez, ou dites à {name} de regarder dans Réglages › Personnes.",
+    "source": "cd9ab61794",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredTitle": {
+    "text": "Votre demande a expiré",
+    "source": "656ad98607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.open": {
+    "text": "Commencer",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.otherAccount": {
+    "text": "Utiliser un autre compte",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingBody": {
+    "text": "Vous avez demandé l’accès à <b>{homey}</b> à {name} {when}. Nous vous préviendrons par e-mail quand {name} aura décidé, et cette page se mettra à jour toute seule.",
+    "source": "94850c76a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingNote": {
+    "text": "Les demandes expirent au bout de 14 jours.",
+    "source": "3c5e3b5842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingTitle": {
+    "text": "En attente de {name}",
+    "source": "c5f0b2149c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistBody": {
+    "text": "Tiledash est complet pour l’instant : vous êtes sur la liste d’attente. L’accord de {name} reste valable : vous pourrez utiliser <b>{homey}</b> dès qu’une place se libère, et nous vous écrirons.",
+    "source": "ceb73e1b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistTitle": {
+    "text": "{name} a dit oui",
+    "source": "9ef5d2b01e",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.blocked.accountBody": {
     "text": "Il ne peut plus être utilisé, et ses tableaux de bord et écrans muraux ne s’ouvrent pas. Si vous pensez qu’il s’agit d’une erreur, contactez-nous via tiledash.app.",
     "source": "f6c31abe67",
@@ -302,6 +392,12 @@
   "login.consent.widgetsAllow6": {
     "text": "Parcourir les widgets de la Communauté et installer une version précise après votre accord dans le chat ; les installations restent si vous abandonnez un brouillon",
     "source": "fece72f5d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow7": {
+    "text": "Lire vos plans d’étage et modifier les couleurs et finitions d’un modèle placé après votre approbation de son aperçu dans le chat",
+    "source": "d32d0c4028",
     "by": "ai",
     "reviewed": false
   },
@@ -647,6 +743,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.pages.askAgainLater": {
+    "text": "Vous pourrez redemander à partir du {date}.",
+    "source": "43c93055ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.askFailedTitle": {
+    "text": "Impossible d’envoyer votre demande",
+    "source": "11d2657167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.cancelFailed": {
+    "text": "Impossible de retirer votre demande. Réessayez.",
+    "source": "6322d9e29c",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.pages.connectFailedBody": {
     "text": "Réessayez dans un instant.",
     "source": "7ba353b04a",
@@ -881,6 +995,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.picker.ask": {
+    "text": "Demander à {name}",
+    "source": "5ae2d6ade8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askBody": {
+    "text": "Demandez à {name} de vous donner accès. {name} choisit les pièces et appareils que vous pouvez voir et commander ; vous pourrez commencer dès que {name} aura dit oui.",
+    "source": "1d46820360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNoteLabel": {
+    "text": "Un mot pour {name} (facultatif)",
+    "source": "c6caa63c6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNotePlaceholder": {
+    "text": "Bonjour, c’est moi, avec mon propre compte.",
+    "source": "94e3837039",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askTitle": {
+    "text": "<b>{name}</b> utilise déjà ce Homey sur Tiledash.",
+    "source": "877faed365",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.picker.connect": {
     "text": "Connecter",
     "source": "1a2303ede0",
@@ -938,6 +1082,12 @@
   "login.picker.stepLogIn": {
     "text": "Connexion",
     "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.usedBy": {
+    "text": "· utilisé par {name}",
+    "source": "cb9a7bc96a",
     "by": "ai",
     "reviewed": false
   },
@@ -1046,6 +1196,18 @@
   "login.screen.whatItAsks": {
     "text": "Que demande Tiledash ?",
     "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askBody": {
+    "text": "Demandez à {name} de vous donner accès. Vous pourrez commencer dès que {name} aura dit oui et que Tiledash aura une place pour vous.",
+    "source": "9bcb5eb115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askTitle": {
+    "text": "<b>{name}</b> utilise déjà {homey} sur Tiledash.",
+    "source": "70ec64860f",
     "by": "ai",
     "reviewed": false
   },

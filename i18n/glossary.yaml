@@ -297,6 +297,12 @@ terms:
         community.dialogs.whereModel,
         community.installed.notOnPlan,
         community.item.licenceHint,
+        # Floor plans an owner shares with the people on their Homey (47).
+        account.people.floorPlans,
+        account.people.tabShares,
+        account.people.leadShares,
+        shell.sidebar.shared.floorPlan,
+        shell.sidebar.shared.listLabel,
         # The Workshop's models are for floor plans (45).
         code.workshop.description,
         code.workshop.descriptionFree,
@@ -313,6 +319,8 @@ terms:
         code.settingViews.newLabel,
         # Furniture an AI assistant designs for your floor plans (F18).
         account.aiAssistants.allow4,
+        account.aiAssistants.allow7,
+        login.consent.widgetsAllow7,
         account.aiAssistants.lead,
         login.consent.widgetsAllow4,
         code.previewLink.fineModel,

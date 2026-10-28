@@ -1,4 +1,94 @@
 {
+  "login.accessRequest.approvedBody": {
+    "text": "{name} laat je <b>{homey}</b> gebruiken. Je ziet de kamers en apparaten die {name} voor je koos.",
+    "source": "59c1e55b9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.approvedTitle": {
+    "text": "Je bent binnen",
+    "source": "9ab8731dfb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.askAgain": {
+    "text": "Opnieuw vragen",
+    "source": "0d9ad5efe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.cancel": {
+    "text": "Verzoek intrekken",
+    "source": "8bd07d7685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedBody": {
+    "text": "{name} laat je <b>{homey}</b> niet gebruiken. Je kunt het vanaf {when} opnieuw vragen.",
+    "source": "db56288453",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedTitle": {
+    "text": "Deze keer niet",
+    "source": "6f3efa36d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredBody": {
+    "text": "{name} heeft niet binnen 14 dagen geantwoord. Vraag het opnieuw, of zeg {name} te kijken in Instellingen › Personen.",
+    "source": "cd9ab61794",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredTitle": {
+    "text": "Je verzoek is verlopen",
+    "source": "656ad98607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.open": {
+    "text": "Beginnen",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.otherAccount": {
+    "text": "Ander account gebruiken",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingBody": {
+    "text": "Je vroeg {name} {when} of je <b>{homey}</b> mag gebruiken. We mailen je zodra {name} beslist, en deze pagina gaat dan vanzelf verder.",
+    "source": "94850c76a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingNote": {
+    "text": "Verzoeken verlopen na 14 dagen.",
+    "source": "3c5e3b5842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingTitle": {
+    "text": "Wachten op {name}",
+    "source": "c5f0b2149c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistBody": {
+    "text": "Tiledash is nu vol, dus je staat op de wachtlijst. Het ja van {name} blijft staan: je kunt met <b>{homey}</b> beginnen zodra er plek is, en dan mailen we je.",
+    "source": "ceb73e1b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistTitle": {
+    "text": "{name} zei ja",
+    "source": "9ef5d2b01e",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.blocked.accountBody": {
     "text": "Het kan niet meer worden gebruikt en de dashboards en wandpanelen ervan openen niet. Denk je dat dit een vergissing is, neem dan contact met ons op via tiledash.app.",
     "source": "f6c31abe67",
@@ -302,6 +392,12 @@
   "login.consent.widgetsAllow6": {
     "text": "Community-widgets bekijken en een specifieke versie installeren na je toestemming in de chat; installaties blijven staan als je een concept weggooit",
     "source": "fece72f5d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow7": {
+    "text": "Je plattegronden lezen en de kleuren en afwerkingen van een geplaatst model wijzigen nadat je het voorbeeld in de chat hebt goedgekeurd",
+    "source": "d32d0c4028",
     "by": "ai",
     "reviewed": false
   },
@@ -647,6 +743,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.pages.askAgainLater": {
+    "text": "Je kunt het vanaf {date} opnieuw vragen.",
+    "source": "43c93055ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.askFailedTitle": {
+    "text": "Je verzoek kon niet worden verstuurd",
+    "source": "11d2657167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.cancelFailed": {
+    "text": "Kon je verzoek niet intrekken. Probeer het opnieuw.",
+    "source": "6322d9e29c",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.pages.connectFailedBody": {
     "text": "Probeer het zo opnieuw.",
     "source": "7ba353b04a",
@@ -881,6 +995,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.picker.ask": {
+    "text": "{name} vragen",
+    "source": "5ae2d6ade8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askBody": {
+    "text": "Vraag {name} om je toe te laten. {name} bepaalt welke kamers en apparaten je kunt zien en bedienen; je kunt beginnen zodra {name} ja zegt.",
+    "source": "1d46820360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNoteLabel": {
+    "text": "Een bericht voor {name} (optioneel)",
+    "source": "c6caa63c6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNotePlaceholder": {
+    "text": "Hoi, ik ben het, met mijn eigen account.",
+    "source": "94e3837039",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askTitle": {
+    "text": "<b>{name}</b> gebruikt deze Homey al in Tiledash.",
+    "source": "877faed365",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.picker.connect": {
     "text": "Koppelen",
     "source": "1a2303ede0",
@@ -938,6 +1082,12 @@
   "login.picker.stepLogIn": {
     "text": "Inloggen",
     "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.usedBy": {
+    "text": "· gebruikt door {name}",
+    "source": "cb9a7bc96a",
     "by": "ai",
     "reviewed": false
   },
@@ -1046,6 +1196,18 @@
   "login.screen.whatItAsks": {
     "text": "Waar vraagt Tiledash om?",
     "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askBody": {
+    "text": "Vraag {name} om je toe te laten. Je kunt beginnen zodra {name} ja zegt en Tiledash plek voor je heeft.",
+    "source": "9bcb5eb115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askTitle": {
+    "text": "<b>{name}</b> gebruikt {homey} al in Tiledash.",
+    "source": "70ec64860f",
     "by": "ai",
     "reviewed": false
   },

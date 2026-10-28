@@ -27,7 +27,8 @@ var I18N_BUNDLES = [
   "devices",
   "account",
   "community",
-  "floorplans"
+  "floorplans",
+  "models"
 ];
 
 // packages/shared/src/i18n/messageSyntax.ts

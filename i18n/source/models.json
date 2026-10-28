@@ -1,0 +1,207 @@
+{
+  "models.appearance.addGroup": {
+    "en": "Add group",
+    "context": "Button adding a named group of customisable model parts.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.authorDefault": {
+    "en": "Default for new copies",
+    "context": "Origin label for model appearance properties edited by its author.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.changed": {
+    "en": "Changed on this copy",
+    "context": "Origin label: the user overrode this property for one placement or widget.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.colour": {
+    "en": "Colour",
+    "context": "Label for the colour choice of one appearance group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.depth": {
+    "en": "Along its depth",
+    "context": "Pattern axis option: the part-local z axis.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.direction": {
+    "en": "Direction",
+    "context": "Label for pattern rotation in degrees.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.empty": {
+    "en": "Choose at least one part for each group before saving.",
+    "context": "Validation when an author creates an empty appearance group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.fabric": {
+    "en": "Woven fabric",
+    "context": "Surface preset: visible fabric weave tinted by the chosen colour.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.finish": {
+    "en": "Finish",
+    "context": "Label for the surface material or finish of a furniture group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.glass": {
+    "en": "Clear glass",
+    "context": "Surface preset: transparent glass with an optional colour tint.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.gloss": {
+    "en": "Painted gloss",
+    "context": "Surface preset: shiny paint.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.gotIt": {
+    "en": "Got it",
+    "context": "Button dismissing the appearance group discovery hint.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.grainAxis": {
+    "en": "Grain direction",
+    "context": "Label for the base grain direction on one model part, in its local axes.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.groupName": {
+    "en": "Group name",
+    "context": "Input label for an author-defined appearance group display name.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.height": {
+    "en": "Up its height",
+    "context": "Pattern axis option: the part-local y axis.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.hintText": {
+    "en": "You can change the doors, fabric and other parts separately.",
+    "context": "One-time hint pointing to furniture model appearance controls.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.hintTitle": {
+    "en": "Did you know?",
+    "context": "Title of the one-time appearance group discovery hint.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.inherited": {
+    "en": "Model default",
+    "context": "Origin label: this appearance property inherits from the author.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.matte": {
+    "en": "Painted matte",
+    "context": "Surface preset: paint with little reflection.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.metal": {
+    "en": "Brushed metal",
+    "context": "Surface preset: metallic reflections and directional brushing.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.newGroup": {
+    "en": "New group",
+    "context": "Initial editable label for a new appearance group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.parts": {
+    "en": "Parts that change together",
+    "context": "Heading for the author checklist assigning model parts to an appearance group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.pattern": {
+    "en": "Pattern direction and scale",
+    "context": "Disclosure heading for advanced wood grain, fabric weave and metal brushing controls.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.patternNote": {
+    "en": "The pattern keeps its real size when the furniture is resized.",
+    "context": "Help text explaining physical-scale furniture surface patterns.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.previewNote": {
+    "en": "Preview only. Trying a look here does not change the saved model or any placed copies.",
+    "context": "Notice above temporary colour and finish controls on the AI model preview page.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.removeGroup": {
+    "en": "Remove group",
+    "context": "Author action removing an appearance group and ungrouping its parts.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.removeSaved": {
+    "en": "Remove saved choices",
+    "context": "Button removing inactive appearance overrides for deleted groups.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.removed": {
+    "en": "Some saved groups are no longer available. Their choices are kept in case the groups return.",
+    "context": "Notice when a model version no longer declares a group with saved per-copy overrides.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.repeat": {
+    "en": "Pattern repeat (cm)",
+    "context": "Label for the physical length of one pattern tile in centimetres.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.reset": {
+    "en": "Use model default",
+    "context": "Button removing a single property override, leaving the other properties unchanged.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.resetAll": {
+    "en": "Reset all",
+    "context": "Button removing all appearance overrides on this model copy.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.resetGroup": {
+    "en": "Reset group",
+    "context": "Button removing all appearance overrides for one named group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.resetPreview": {
+    "en": "Reset preview",
+    "context": "Button restoring author defaults in the read-only model preview without saving.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.reviewOnly": {
+    "en": "Review only. Ask your assistant to apply this exact preview after you approve it.",
+    "context": "Help text on a short-lived placement appearance review, which cannot itself save changes.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.reviewTitle": {
+    "en": "Review the appearance change",
+    "context": "Heading on a read-only preview of one placed furniture model in its floor-plan context.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.reviewUnavailable": {
+    "en": "This preview is no longer available. Ask your assistant to prepare a new one.",
+    "context": "Error when a placement appearance preview expired, was applied, revoked or became stale.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.satin": {
+    "en": "Painted satin",
+    "context": "Surface preset: paint with a soft sheen.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.title": {
+    "en": "Appearance",
+    "context": "Heading for per-group colours and finishes of a furniture model.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.trying": {
+    "en": "Trying in preview",
+    "context": "Origin label: this property is a temporary local choice on a read-only model preview.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.width": {
+    "en": "Along its width",
+    "context": "Pattern axis option: the part-local x axis.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.wood": {
+    "en": "Wood grain",
+    "context": "Surface preset: visible wood grain tinted by the chosen colour.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  }
+}

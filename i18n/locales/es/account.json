@@ -101,6 +101,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.actions.leaveFailed": {
+    "text": "No se pudo salir de {homey}. Inténtalo de nuevo.",
+    "source": "d130381a5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.actions.leftHomey": {
+    "text": "Has salido de {homey}",
+    "source": "8e73016bc8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.actions.pinFailed": {
     "text": "No se pudo guardar el PIN.",
     "source": "c207f0554d",
@@ -224,6 +236,12 @@
   "account.aiAssistants.allow6": {
     "text": "Buscar widgets de la Comunidad e instalar una versión específica tras tu aprobación en el chat; las instalaciones se conservan si descartas un borrador",
     "source": "fece72f5d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.allow7": {
+    "text": "Leer tus planos y cambiar los colores y acabados de un modelo colocado después de que apruebes su vista previa en el chat",
+    "source": "d32d0c4028",
     "by": "ai",
     "reviewed": false
   },
@@ -1184,6 +1202,18 @@
   "account.configImport.missingDeviceTitle": {
     "text": "Mosaicos cuyo dispositivo no está en este Homey",
     "source": "96c2add6c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.modelMissingDetail": {
+    "text": "No se incluyen los archivos de los modelos ni sus colores y acabados. Estos muebles se convierten en cajas sencillas.",
+    "source": "a6a4829a38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.configImport.modelMissingTitle": {
+    "text": "Los modelos no se pueden incluir",
+    "source": "09af578360",
     "by": "ai",
     "reviewed": false
   },
@@ -2465,6 +2495,252 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.memberAccess.approve": {
+    "text": "Dejar entrar a {name}",
+    "source": "2bb60be6a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.asRoom": {
+    "text": "Como la habitación ({level})",
+    "source": "34b53f6a8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.description": {
+    "text": "Solo lo que elijas aquí llega a {name}, también por las demás vías de acceso de la app.",
+    "source": "5060f546c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.devices": {
+    "text": "{count, plural, one {# dispositivo} other {# dispositivos}}",
+    "source": "7032893996",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.everythingElse": {
+    "text": "Todo lo demás",
+    "source": "cd6c5f59d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.everythingElseHint": {
+    "text": "Incluye habitaciones y dispositivos nuevos",
+    "source": "65d3ac0a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraCameras": {
+    "text": "Cámaras",
+    "source": "a9b675db7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraCamerasHint": {
+    "text": "Video de las cámaras de arriba",
+    "source": "1ad2a8454a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraEnergy": {
+    "text": "Energía",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraEnergyHint": {
+    "text": "Precios y lo que consume la casa",
+    "source": "3327f7a90e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraHistory": {
+    "text": "Historial",
+    "source": "0e76960093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraHistoryHint": {
+    "text": "Valores registrados de los dispositivos de arriba",
+    "source": "4552ff0668",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraShare": {
+    "text": "Enlaces para compartir y pantallas",
+    "source": "f48a490c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extraShareHint": {
+    "text": "Nunca más de lo que {name} puede ver",
+    "source": "ca8b5db9e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.extras": {
+    "text": "Extras",
+    "source": "3038523738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.flows": {
+    "text": "Flows que {name} puede iniciar",
+    "source": "d0f00e72df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.flowsNone": {
+    "text": "Ninguno hasta que los marques.",
+    "source": "5ac049d7ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.guest": {
+    "text": "{name} solo tiene acceso de invitado a este Homey en Athom, así que {name} puede mirar, pero nunca controlar nada.",
+    "source": "e90ea70840",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelControl": {
+    "text": "Controlar",
+    "source": "32d7e82082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelLabel": {
+    "text": "Qué puede hacer {name} en {room}",
+    "source": "d007559ad0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelNone": {
+    "text": "Oculto",
+    "source": "7e6fefff0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.levelView": {
+    "text": "Ver",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.mixed": {
+    "text": "Mixto",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.opensHouse": {
+    "text": "Abre la casa: necesita su propio nivel Controlar",
+    "source": "3bf78fe7b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetCustom": {
+    "text": "Personalizado",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetCustomHint": {
+    "text": "Tu propia combinación",
+    "source": "4a1f9a0826",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetFull": {
+    "text": "Control total",
+    "source": "ba819ccda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetFullHint": {
+    "text": "Cada habitación, cada dispositivo",
+    "source": "b0e683e097",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetRooms": {
+    "text": "Solo estas habitaciones",
+    "source": "836d58fa36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetRoomsHint": {
+    "text": "Elige las habitaciones abajo",
+    "source": "330516e069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetView": {
+    "text": "Ver todo",
+    "source": "905a97d813",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.presetViewHint": {
+    "text": "Mirar sin tocar",
+    "source": "7480aec009",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.preview": {
+    "text": "{visible, plural, =0 {Nada visible aún} one {# dispositivo visible} other {# dispositivos visibles}} · {controllable, plural, =0 {ninguno controlable} one {# controlable} other {# controlables}}",
+    "source": "25ebb9423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.rooms": {
+    "text": "Habitaciones y dispositivos",
+    "source": "abc5677364",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.showDevices": {
+    "text": "Dispositivos en {room}",
+    "source": "127273e69d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.stale": {
+    "text": "Esto cambió en otra ventana. Ciérralo y vuelve a abrirlo para ver lo último.",
+    "source": "be97c3fe19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.startFrom": {
+    "text": "Punto de partida",
+    "source": "eb3f51dc87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.titleApprove": {
+    "text": "Dejar entrar a {name}",
+    "source": "2bb60be6a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.titleEdit": {
+    "text": "Qué puede usar {name}",
+    "source": "89a0d29b61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.variables": {
+    "text": "Variables de Logic",
+    "source": "c34fd333f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.memberAccess.variablesNone": {
+    "text": "Ocultas hasta que las marques.",
+    "source": "f00e906ff7",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.page.alertsFailed": {
     "text": "No se pudieron guardar las reglas de alerta",
     "source": "5a6d5aed36",
@@ -2831,6 +3107,576 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.people.activity": {
+    "text": "Actividad",
+    "source": "38da1505ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approve": {
+    "text": "Dejar entrar…",
+    "source": "4f9344396c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approveAction": {
+    "text": "Permitir que {name} use {homey}",
+    "source": "c5e7790295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approved": {
+    "text": "{name} ya puede usar {homey}",
+    "source": "59183caa51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.approvedWaitlisted": {
+    "text": "Aceptaste a {name}: entrará cuando Tiledash tenga sitio",
+    "source": "b7937f0994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.asked": {
+    "text": "Lo pidió {when}",
+    "source": "0cbed5e782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.back": {
+    "text": "Atrás",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.counts": {
+    "text": "{visible} dispositivos · {controllable} controlables",
+    "source": "c0529df2d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.dashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.denied": {
+    "text": "No dejaste entrar a {name}",
+    "source": "3cd7f825d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.deny": {
+    "text": "Rechazar",
+    "source": "05a2d7332e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.editMember": {
+    "text": "Editar a {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.emptyBody": {
+    "text": "Otras personas de tu casa pueden iniciar sesión en Tiledash con su propia cuenta de Homey y pedir unirse. Las verás aquí, y tú eliges qué puede usar cada una.",
+    "source": "7654108369",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.emptyTitle": {
+    "text": "Solo tú, por ahora",
+    "source": "3f0d2137c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.event": {
+    "text": "{kind, select, requested {<b>{name}</b> pidió unirse} approved {Dejaste entrar a <b>{name}</b>} denied {No dejaste entrar a <b>{name}</b>} cancelled {<b>{name}</b> retiró su solicitud} expired {La solicitud de <b>{name}</b> caducó} policyChanged {Cambiaste lo que <b>{name}</b> puede usar} removed {Quitaste a <b>{name}</b>} left {<b>{name}</b> se fue} suspended {<b>{name}</b> perdió el acceso en Athom} restored {<b>{name}</b> vuelve a tener acceso en Athom} other {<b>{name}</b> intentó controlar {device}, que no puede controlar}}",
+    "source": "1f730c0476",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.failed": {
+    "text": "No funcionó. Inténtalo de nuevo.",
+    "source": "e0381366aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.floorPlans": {
+    "text": "Planos",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.guest": {
+    "text": "Invitado en Athom",
+    "source": "b104561ede",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintDismiss": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintText": {
+    "text": "{name} también usa tu Homey y pidió unirse. Acepta su solicitud y elige exactamente qué habitaciones y dispositivos puede ver y controlar.",
+    "source": "ccd62c420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.hintTitle": {
+    "text": "Alguien pidió unirse",
+    "source": "fc5829e5da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.homeyLabel": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.homeyWaiting": {
+    "text": "{name} · {count, plural, one {# en espera} other {# en espera}}",
+    "source": "d350fdc5e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.lastActive": {
+    "text": "Última visita {when}",
+    "source": "06eb63b212",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadExtras": {
+    "text": "Más de tu Homey que solo sus dispositivos: cada extra está desactivado hasta que lo actives.",
+    "source": "67f962f700",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadFlows": {
+    "text": "Los Flows que {name} puede iniciar. {name} no ve los demás.",
+    "source": "d856852d46",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadRooms": {
+    "text": "Elige un punto de partida y luego pon habitaciones y dispositivos en Oculto, Ver o Controlar.",
+    "source": "c314055a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadShares": {
+    "text": "Tus dashboards y planos que {name} puede abrir. Solo muestran lo que {name} puede usar.",
+    "source": "a9089e8334",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.leadVariables": {
+    "text": "Las variables de Logic que {name} puede ver, y cambiar con Controlar.",
+    "source": "2050650064",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.limitBody": {
+    "text": "Con Pro, todos en tu casa pueden usarlo, cada uno con sus propios dashboards.",
+    "source": "b26c2b17a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.limitTitle": {
+    "text": "Free permite que otra persona use tu Homey",
+    "source": "bbe1a6b147",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.loadFailed": {
+    "text": "No se pudieron cargar las personas de este Homey.",
+    "source": "b1ad89cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.members": {
+    "text": "Quién usa {homey}",
+    "source": "c74ab390ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.neverActive": {
+    "text": "Aún no ha entrado",
+    "source": "7df6a3676e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.next": {
+    "text": "Siguiente",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.noActivity": {
+    "text": "Nada todavía.",
+    "source": "e056734eff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.paused": {
+    "text": "En pausa",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetCustom": {
+    "text": "Personalizado",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetFull": {
+    "text": "Control total",
+    "source": "ba819ccda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetRooms": {
+    "text": "Algunas habitaciones",
+    "source": "5c0334c62a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.presetView": {
+    "text": "Puede ver todo",
+    "source": "d0df19a16e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeBody": {
+    "text": "{name} ya no podrá usar {homey} en Tiledash, al instante y también donde lo tenga abierto. Sus propios dashboards en él se van también. Puede volver a pedirlo más tarde.",
+    "source": "fd1b16ba21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeConfirm": {
+    "text": "Quitar",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeMember": {
+    "text": "Quitar a {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removeTitle": {
+    "text": "¿Quitar a {name}?",
+    "source": "01c1f02508",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.removed": {
+    "text": "Se quitó a {name}",
+    "source": "ad6173859d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.requests": {
+    "text": "Piden unirse",
+    "source": "eb7dadf3b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.review": {
+    "text": "Revisar",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.reviewBody": {
+    "text": "Aún no se ha guardado nada. Revísalo y guarda, o vuelve atrás para cambiarlo.",
+    "source": "4485098db9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.reviewTitle": {
+    "text": "Lo que tendrá {name}",
+    "source": "7792aeed5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.saveFor": {
+    "text": "Guardar para {name}",
+    "source": "834a02032e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.saved": {
+    "text": "Se guardó lo que puede usar {name}",
+    "source": "fc6b02ef2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessAll": {
+    "text": "Todos",
+    "source": "29c88933c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessAllLabel": {
+    "text": "Qué puede hacer {name} con todos",
+    "source": "1df56ee656",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessDeviceLabel": {
+    "text": "Qué puede hacer {name} con {device}",
+    "source": "790fc454c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareAccessOpens": {
+    "text": "Abre la casa: aquí como máximo Ver",
+    "source": "a1d12b1caa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareCamerasHint": {
+    "text": "{count, plural, one {# mosaico de cámara no muestra nada sin esto} other {# mosaicos de cámara no muestran nada sin esto}}",
+    "source": "0ecf86be31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareCamerasLabel": {
+    "text": "{name} puede ver las imágenes de las cámaras",
+    "source": "2913dcd7c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareEnergyHint": {
+    "text": "{count, plural, one {# mosaico de energía no muestra el consumo sin esto} other {# mosaicos de energía no muestran el consumo sin esto}}",
+    "source": "cd4dcf1d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareEnergyLabel": {
+    "text": "{name} puede ver el consumo de energía",
+    "source": "49acbcc0ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareExtrasTitle": {
+    "text": "Imágenes de cámaras y energía",
+    "source": "74479d1c55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareFlowsMay": {
+    "text": "{name} puede iniciarlo",
+    "source": "e3129b492e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareFlowsTitle": {
+    "text": "Flows que inicia",
+    "source": "375af36698",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareHiddenTitle": {
+    "text": "Dispositivos que {name} no puede ver",
+    "source": "85ad24c6bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareLinkedFrom": {
+    "text": "Se abre desde {what}",
+    "source": "13b245e086",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shareLinkedTitle": {
+    "text": "Dashboards que abre",
+    "source": "7f8e2cb703",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.shares": {
+    "text": "{count, plural, one {# compartido} other {# compartidos}}",
+    "source": "3db3233ac7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesEverything": {
+    "text": "Compartir todo",
+    "source": "32b4751867",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesMayEdit": {
+    "text": "Puede editar",
+    "source": "3d0416f424",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesMayEditLabel": {
+    "text": "{name} puede editar {what}",
+    "source": "3442383fdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.sharesSaved": {
+    "text": "Se guardó lo que {name} ve de lo tuyo",
+    "source": "a05fb41418",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.stepOf": {
+    "text": "Paso {step} de {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryExtras": {
+    "text": "Extras: {list}",
+    "source": "3e0d4a8a59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryFlows": {
+    "text": "{count, plural, =0 {Ningún Flow para iniciar} one {# Flow para iniciar} other {# Flows para iniciar}}",
+    "source": "9b5b0ffb4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryLeftOut": {
+    "text": "Aún sin compartir",
+    "source": "bd0b098b93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryLeftOutHint": {
+    "text": "Lo que dejes fuera seguirá sin estar disponible para {name}.",
+    "source": "147607592f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNew": {
+    "text": "Nuevo",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNoExtras": {
+    "text": "Sin extras",
+    "source": "228e808b8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryNothingShared": {
+    "text": "Nada compartido",
+    "source": "74bb1759d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryShared": {
+    "text": "Compartido con {name}",
+    "source": "b327fc4035",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryStops": {
+    "text": "Ya no se comparte",
+    "source": "794a77b32c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryUse": {
+    "text": "Qué puede usar {name}",
+    "source": "89a0d29b61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.summaryWas": {
+    "text": "antes: {before}",
+    "source": "400a6ae211",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.suspended": {
+    "text": "Sin acceso en Athom",
+    "source": "59d13a5591",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabExtras": {
+    "text": "Extras",
+    "source": "3038523738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabRooms": {
+    "text": "Habitaciones y dispositivos",
+    "source": "abc5677364",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabShares": {
+    "text": "Dashboards y planos",
+    "source": "f51a17510c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tabVariables": {
+    "text": "Logic",
+    "source": "7c400199ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.tryAgain": {
+    "text": "Reintentar",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.upgrade": {
+    "text": "Pasar a Pro",
+    "source": "acb320d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.usage": {
+    "text": "{used} de {limit} personas, contándote a ti",
+    "source": "b8f1580a3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.usageUnlimited": {
+    "text": "{used, plural, one {Solo tú} other {# personas, contándote a ti}}",
+    "source": "8c7af10597",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.waitlisted": {
+    "text": "En la lista de espera de Tiledash: tu sí le deja entrar en cuanto haya sitio.",
+    "source": "42cde8dcc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.people.you": {
+    "text": "Tú · propietario",
+    "source": "71edcf1876",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.pin.again": {
     "text": "Repite el PIN",
     "source": "f72894d8fb",
@@ -3038,6 +3884,24 @@
   "account.plan.intervalLabel": {
     "text": "Pago mensual o anual",
     "source": "fb85276484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedFree": {
+    "text": "Aquí cuenta el plan de {name}: Free.",
+    "source": "b5c1c78aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedPro": {
+    "text": "Aquí cuenta el Pro de {name}: lo que hagas en él tiene el espacio y las funciones de Pro.",
+    "source": "dfd7c97628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.plan.joinedTitle": {
+    "text": "En Homeys a los que te dejaron entrar",
+    "source": "a737309b8c",
     "by": "ai",
     "reviewed": false
   },
@@ -3311,6 +4175,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.planDialogs.keepMembersBody": {
+    "text": "Free tiene espacio para ti y {limit, plural, one {otra persona} other {# personas más}}. Las demás quedan en pausa: sus dashboards y su acceso esperan hasta que vuelvas a Pro.",
+    "source": "0c351e949a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.planDialogs.keepMembersTitle": {
+    "text": "¿Quién sigue usando {homey}?",
+    "source": "ecdf3e7d27",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.planDialogs.keepPro": {
     "text": "Mantener Pro",
     "source": "91328b86b8",
@@ -3318,8 +4194,8 @@
     "reviewed": false
   },
   "account.planDialogs.keepThese": {
-    "text": "{what, select, homeys {{count, plural, one {Mantener este Homey} other {Mantener estos Homeys}}} other {{count, plural, one {Mantener este dashboard} other {Mantener estos dashboards}}}}",
-    "source": "122187e3be",
+    "text": "{what, select, homeys {{count, plural, one {Mantener este Homey} other {Mantener estos Homeys}}} members {{count, plural, one {Mantener a esta persona} other {Mantener a estas personas}}} other {{count, plural, one {Mantener este dashboard} other {Mantener estos dashboards}}}}",
+    "source": "f1ffdf4c9a",
     "by": "ai",
     "reviewed": false
   },
@@ -3533,6 +4409,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowPeople": {
+    "text": "Personas por Homey",
+    "source": "8a4e8f77f8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowPublish": {
     "text": "Publicar en la comunidad",
     "source": "73089f222f",
@@ -3683,6 +4565,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.leave": {
+    "text": "Salir…",
+    "source": "3baeb3b148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveBody": {
+    "text": "Tus dashboards en él se eliminan y ya no podrás usarlo hasta que se lo vuelvas a pedir a {name}.",
+    "source": "028f81591d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveConfirm": {
+    "text": "Salir",
+    "source": "fc6e4a408d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.leaveTitle": {
+    "text": "¿Salir de {homey}?",
+    "source": "e5727e9343",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.logInAgain": {
     "text": "Iniciar sesión",
     "source": "f8fea550fe",
@@ -3704,6 +4610,12 @@
   "account.profile.paused": {
     "text": "En pausa",
     "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.pausedByOwner": {
+    "text": "En pausa por {name}",
+    "source": "459ee3b11e",
     "by": "ai",
     "reviewed": false
   },
@@ -3731,6 +4643,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.profile.sharedBy": {
+    "text": "compartido por {name}",
+    "source": "85bd8808e2",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.profile.showThis": {
     "text": "Mostrar este",
     "source": "8895e74046",
@@ -3752,6 +4670,12 @@
   "account.profile.signedInWith": {
     "text": "Sesión iniciada con tu cuenta de Homey; tu nombre y correo vienen de ahí.",
     "source": "d52a78d1b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.profile.waitingForOwner": {
+    "text": "Esperando a {name}",
+    "source": "c5f0b2149c",
     "by": "ai",
     "reviewed": false
   },
@@ -4070,6 +4994,18 @@
   "account.settings.partSharing": {
     "text": "Compartir",
     "source": "bbedc70e98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.people": {
+    "text": "Personas",
+    "source": "7db2089705",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.peopleAbout": {
+    "text": "Quién más usa {homey} y qué puede ver y controlar cada uno.",
+    "source": "fcca30d0ba",
     "by": "ai",
     "reviewed": false
   },

@@ -1,4 +1,94 @@
 {
+  "login.accessRequest.approvedBody": {
+    "text": "{name} lässt Sie <b>{homey}</b> nutzen. Sie sehen die Räume und Geräte, die {name} für Sie gewählt hat.",
+    "source": "59c1e55b9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.approvedTitle": {
+    "text": "Sie sind dabei",
+    "source": "9ab8731dfb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.askAgain": {
+    "text": "Erneut fragen",
+    "source": "0d9ad5efe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.cancel": {
+    "text": "Anfrage zurückziehen",
+    "source": "8bd07d7685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedBody": {
+    "text": "{name} hat Sie <b>{homey}</b> nicht nutzen lassen. Sie können ab dem {when} erneut fragen.",
+    "source": "db56288453",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedTitle": {
+    "text": "Diesmal nicht",
+    "source": "6f3efa36d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredBody": {
+    "text": "{name} hat 14 Tage nicht geantwortet. Fragen Sie erneut, oder bitten Sie {name}, unter Einstellungen › Personen nachzusehen.",
+    "source": "cd9ab61794",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredTitle": {
+    "text": "Ihre Anfrage ist abgelaufen",
+    "source": "656ad98607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.open": {
+    "text": "Loslegen",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.otherAccount": {
+    "text": "Anderes Konto verwenden",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingBody": {
+    "text": "Sie haben {name} {when} gebeten, Sie <b>{homey}</b> nutzen zu lassen. Wir schreiben Ihnen eine E-Mail, sobald {name} entscheidet, und diese Seite geht von selbst weiter.",
+    "source": "94850c76a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingNote": {
+    "text": "Anfragen laufen nach 14 Tagen ab.",
+    "source": "3c5e3b5842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingTitle": {
+    "text": "Warten auf {name}",
+    "source": "c5f0b2149c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistBody": {
+    "text": "Tiledash ist gerade voll, daher stehen Sie auf der Warteliste. Das Ja von {name} bleibt bestehen: Sie können mit <b>{homey}</b> loslegen, sobald Platz ist, und wir schreiben Ihnen dann.",
+    "source": "ceb73e1b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistTitle": {
+    "text": "{name} hat Ja gesagt",
+    "source": "9ef5d2b01e",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.blocked.accountBody": {
     "text": "Es kann nicht mehr genutzt werden, und seine Dashboards und Wandpanels öffnen sich nicht. Wenn Sie meinen, dass dies ein Irrtum ist, kontaktieren Sie uns über tiledash.app.",
     "source": "f6c31abe67",
@@ -302,6 +392,12 @@
   "login.consent.widgetsAllow6": {
     "text": "Community-Widgets durchsuchen und nach Ihrer Zustimmung im Chat eine bestimmte Version installieren; Installationen bleiben beim Verwerfen eines Entwurfs erhalten",
     "source": "fece72f5d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow7": {
+    "text": "Deine Grundrisse lesen und Farben und Oberflächen eines platzierten Modells ändern, nachdem du der Vorschau im Chat zugestimmt hast",
+    "source": "d32d0c4028",
     "by": "ai",
     "reviewed": false
   },
@@ -647,6 +743,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.pages.askAgainLater": {
+    "text": "Sie können ab dem {date} erneut fragen.",
+    "source": "43c93055ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.askFailedTitle": {
+    "text": "Ihre Anfrage konnte nicht gesendet werden",
+    "source": "11d2657167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.cancelFailed": {
+    "text": "Anfrage konnte nicht zurückgezogen werden. Bitte erneut versuchen.",
+    "source": "6322d9e29c",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.pages.connectFailedBody": {
     "text": "Bitte versuchen Sie es gleich erneut.",
     "source": "7ba353b04a",
@@ -881,6 +995,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.picker.ask": {
+    "text": "{name} fragen",
+    "source": "5ae2d6ade8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askBody": {
+    "text": "Bitten Sie {name}, Sie hereinzulassen. {name} entscheidet, welche Räume und Geräte Sie sehen und schalten können; Sie können loslegen, sobald {name} zustimmt.",
+    "source": "1d46820360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNoteLabel": {
+    "text": "Eine Nachricht an {name} (optional)",
+    "source": "c6caa63c6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNotePlaceholder": {
+    "text": "Hallo, ich bin’s, mit meinem eigenen Konto.",
+    "source": "94e3837039",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askTitle": {
+    "text": "<b>{name}</b> nutzt diesen Homey bereits mit Tiledash.",
+    "source": "877faed365",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.picker.connect": {
     "text": "Verbinden",
     "source": "1a2303ede0",
@@ -938,6 +1082,12 @@
   "login.picker.stepLogIn": {
     "text": "Anmelden",
     "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.usedBy": {
+    "text": "· genutzt von {name}",
+    "source": "cb9a7bc96a",
     "by": "ai",
     "reviewed": false
   },
@@ -1046,6 +1196,18 @@
   "login.screen.whatItAsks": {
     "text": "Welche Rechte braucht Tiledash?",
     "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askBody": {
+    "text": "Bitten Sie {name}, Sie hereinzulassen. Sie können loslegen, sobald {name} zustimmt und Tiledash Platz für Sie hat.",
+    "source": "9bcb5eb115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askTitle": {
+    "text": "<b>{name}</b> nutzt {homey} bereits mit Tiledash.",
+    "source": "70ec64860f",
     "by": "ai",
     "reviewed": false
   },

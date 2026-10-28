@@ -1,4 +1,121 @@
 {
+  "login.accessRequest.approvedBody": {
+    "en": "{name} let you use <b>{homey}</b>. You see the rooms and devices {name} chose for you.",
+    "context": "Line under the \"You’re in\" heading. <b>…</b> marks the Homey’s name in bold; keep the tags.",
+    "params": {
+      "homey": "The name of the Homey. Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.approvedTitle": {
+    "en": "You’re in",
+    "context": "Big heading when the owner of the Homey let the person in. Short and glad, like \"You’re in!\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.askAgain": {
+    "en": "Ask again",
+    "context": "Main button when the request ran out: sends a new request to the owner.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.cancel": {
+    "en": "Withdraw request",
+    "context": "Quiet button on the waiting page: takes the request for access back, so the owner no longer sees it.",
+    "maxLength": 26,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.deniedBody": {
+    "en": "{name} didn’t let you use <b>{homey}</b>. You can ask again from {when}.",
+    "context": "Line under that heading. <b>…</b> marks the Homey’s name in bold; keep the tags. A new request is possible a week later.",
+    "params": {
+      "homey": "The name of the Homey. Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated.",
+      "when": "The day a new request is possible, like \"3 Nov\", already in the page’s language."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.deniedTitle": {
+    "en": "Not this time",
+    "context": "Big heading when the owner of the Homey said no to the request for access. Calm and kind.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.expiredBody": {
+    "en": "{name} didn’t answer within 14 days. Ask again, or tell {name} to look in Settings › People.",
+    "context": "Line under that heading. \"Settings › People\" is where the owner lets people in; use the same words as the app’s Settings menu and its People group.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.expiredTitle": {
+    "en": "Your request ran out",
+    "context": "Big heading when the owner didn’t decide within 14 days, so the request for access ended by itself.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.open": {
+    "en": "Start",
+    "context": "Main button when the person was let in: opens Tiledash with the Homey, to make a first dashboard. A verb.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.otherAccount": {
+    "en": "Use another account",
+    "context": "Quiet button: logs out so the person can log in with a different Athom account.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.waitingBody": {
+    "en": "You asked {name} {when} to let you use <b>{homey}</b>. We’ll email you when {name} decides, and this page moves on by itself.",
+    "context": "Line under the waiting heading. <b>…</b> marks the Homey’s name in bold; keep the tags.",
+    "params": {
+      "homey": "The name of the Homey. Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated.",
+      "when": "When the request was sent, like \"12 minutes ago\" or \"yesterday\", already in the page’s language."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.waitingNote": {
+    "en": "Requests run out after 14 days.",
+    "context": "Small grey note under the waiting text.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.waitingTitle": {
+    "en": "Waiting for {name}",
+    "context": "Big heading of the page someone sees after asking the owner of a Homey for access, while the owner hasn’t decided yet.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.waitlistBody": {
+    "en": "Tiledash is full right now, so you’re on the waitlist. {name}’s yes is kept: you can start with <b>{homey}</b> as soon as there’s a place, and we’ll email you then.",
+    "context": "Line under that heading. <b>…</b> marks the Homey’s name in bold; keep the tags. The waitlist is Tiledash’s own, for new accounts.",
+    "params": {
+      "homey": "The name of the Homey. Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
+  "login.accessRequest.waitlistTitle": {
+    "en": "{name} said yes",
+    "context": "Big heading when the owner let the person in, but Tiledash itself is full right now and the person is on its waitlist.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/members/AccessRequestScreen.messages.ts"
+  },
   "login.blocked.accountBody": {
     "en": "It can’t be used anymore, and its dashboards and wall panels don’t open. If you think this is a mistake, contact us through tiledash.app.",
     "context": "Paragraph under the blocked-account heading. \"It\" is their Tiledash account. A wall panel is a screen on the wall showing a dashboard. tiledash.app is the website; not translated.",
@@ -344,6 +461,12 @@
   "login.consent.widgetsAllow6": {
     "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
     "context": "Expanded MCP permissions shown during renewed consent.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow7": {
+    "en": "Read your floor plans and change a placed model’s colours and finishes after you approve its preview in chat",
+    "context": "Expanded consent version 3: read floor plans and change only a reviewed model placement appearance.",
     "maxLength": 240,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
@@ -733,6 +856,27 @@
     "maxLength": 60,
     "file": "apps/web/src/oauth/oauth.messages.ts"
   },
+  "login.pages.askAgainLater": {
+    "en": "You can ask again from {date}.",
+    "context": "Text of the toast after \"Couldn’t send your request\" when the owner said no less than a week ago. {date} is a short date, like \"3 Nov\".",
+    "params": {
+      "date": "A short date, like \"3 Nov\", already in the reader’s language."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.askFailedTitle": {
+    "en": "Couldn’t send your request",
+    "context": "Title of a red toast on the Homey-choosing page when asking the owner of someone else’s Homey (smart-home hub) for access failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
+  "login.pages.cancelFailed": {
+    "en": "Couldn’t withdraw your request. Please try again.",
+    "context": "Red toast on the page waiting for a Homey owner’s answer when withdrawing the request failed.",
+    "maxLength": 70,
+    "file": "apps/web/src/pages/loginPages.messages.ts"
+  },
   "login.pages.connectFailedBody": {
     "en": "Please try again in a moment.",
     "context": "Text of the red toast after \"Couldn’t connect your Homey\" when no more specific reason is known.",
@@ -967,6 +1111,48 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
   },
+  "login.picker.ask": {
+    "en": "Ask {name}",
+    "context": "Main button when the chosen Homey is used by someone else: sends them the request for access. A verb.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.askBody": {
+    "en": "Ask {name} to let you in. {name} decides which rooms and devices you can see and switch; you can start once {name} says yes.",
+    "context": "Explanation under that heading: asking the owner for access, who then picks what the person may see and control. The person gets an email when the owner decides.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.askNoteLabel": {
+    "en": "A note for {name} (optional)",
+    "context": "Label of the optional text field where the person writes a short note to the owner.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.askNotePlaceholder": {
+    "en": "Hi, it’s me, on my own account.",
+    "context": "Example text, in grey, inside the empty note field: a short friendly line telling the owner who is asking.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.askTitle": {
+    "en": "<b>{name}</b> already uses this Homey on Tiledash.",
+    "context": "Heading of the box that shows when the person picks a Homey that someone else already uses on Tiledash. <b>…</b> marks the name in bold; keep the tags around it.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
   "login.picker.connect": {
     "en": "Connect",
     "context": "Main button on the Homey-choosing page: connects the chosen Homey to Tiledash. A verb.",
@@ -1025,6 +1211,15 @@
     "en": "Log in",
     "context": "First of three step names in the progress bar at the top of the onboarding: the login, which is already done. Short.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
+  },
+  "login.picker.usedBy": {
+    "en": "· used by {name}",
+    "context": "Small grey note after the model name of a Homey that someone else already uses on Tiledash: the person can ask them for access but not connect it. Starts with a middle dot that separates it from the model; keep the dot.",
+    "params": {
+      "name": "The first name of the Homey’s owner on Tiledash. Not translated."
+    },
+    "maxLength": 30,
     "file": "packages/ui/src/screens/HomeyPickerScreen.messages.ts"
   },
   "login.picker.welcome": {
@@ -1140,6 +1335,25 @@
     "context": "Text link under the login button. It opens a page explaining which permissions Tiledash asks for at Athom and what it keeps.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/LoginScreen.messages.ts"
+  },
+  "login.waitlist.askBody": {
+    "en": "Ask {name} to let you in. You can start once {name} says yes and Tiledash has a place for you.",
+    "context": "Explanation under that heading on the waiting-list page: the person may ask the owner for access, and gets in when the owner agrees and the waiting list lets them in. The person gets an email when the owner decides.",
+    "params": {
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/WaitlistScreen.messages.ts"
+  },
+  "login.waitlist.askTitle": {
+    "en": "<b>{name}</b> already uses {homey} on Tiledash.",
+    "context": "Heading of a box on the waiting-list page when a Homey (smart-home hub) on the person’s own Homey account is already used on Tiledash by someone else. <b>…</b> marks the name in bold; keep the tags around it.",
+    "params": {
+      "homey": "The Homey’s name, like \"Pastorie\". Not translated.",
+      "name": "The first name of the Homey’s owner. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WaitlistScreen.messages.ts"
   },
   "login.waitlist.body": {
     "en": "Tiledash is opening up in small batches while we make sure every dashboard feels great. We’ll let you in as soon as there’s room, and email you when it happens.",
