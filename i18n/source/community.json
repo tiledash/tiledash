@@ -2551,17 +2551,17 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.lead": {
-    "en": "{step, select, about {What it is called, and one line on what it does: the community shows both on its card.} description {Tell people what it does and how to use it. Tags help them find it.} pictures {An icon and a few screenshots, so people see it before they install it.} sharing {The licence others may use it under, where its code or home page is, and who finds it.} version {Which version this is: what changed since the last one suggests it. The listing stays as it is unless you change it.} notes {What is new in it, in a few lines; people see this with the update.} other {Check it over, then publish. The listing can be changed later; a version stays as it is.}}",
+    "en": "{step, select, product {If it is a real product, say which. People find models on the Community by brand and product.} about {What it is called, and one line on what it does: the community shows both on its card.} description {Tell people what it does and how to use it. Tags help them find it.} pictures {An icon and a few screenshots, so people see it before they install it.} sharing {The licence others may use it under, where its code or home page is, and who finds it.} version {Which version this is: what changed since the last one suggests it. The listing stays as it is unless you change it.} notes {What is new in it, in a few lines; people see this with the update.} other {Check it over, then publish. The listing can be changed later; a version stays as it is.}}",
     "context": "Line at the top of each step of publishing, saying what the step is for.",
     "params": {
-      "step": "about, description, pictures, sharing, version, notes or check."
+      "step": "product, about, description, pictures, sharing, version, notes or check."
     },
     "maxLength": 130,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.none": {
     "en": "None",
-    "context": "In the summary, for no tags or no links.",
+    "context": "In the summary, for no tags, no links or a model that names no product.",
     "maxLength": 12,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
@@ -2582,8 +2582,8 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.row": {
-    "en": "{row, select, title {Title} address {Address} description {Description} tags {Tags} pictures {Pictures} licence {Licence} links {Links} who {Who finds it} version {Version} notes {What’s new} outside {Loads from} other {Other}}",
-    "context": "Label of a line in the summary at the last step of publishing.",
+    "en": "{row, select, product {Product} title {Title} address {Address} description {Description} tags {Tags} pictures {Pictures} licence {Licence} links {Links} who {Who finds it} version {Version} notes {What’s new} outside {Loads from} other {Other}}",
+    "context": "Label of a line in the summary at the last step of publishing. Product is the brand and product a model stands for (Sonos Arc Ultra).",
     "params": {
       "row": "Which line."
     },
@@ -2591,10 +2591,10 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.step": {
-    "en": "{step, select, about {About} description {Description} pictures {Pictures} sharing {Sharing} version {Version} notes {What’s new} other {Check}}",
-    "context": "Name of a step of publishing an item to the community, in the row of steps at the top: about it (title, address, summary), its description, its pictures, how it is shared (licence, links, who finds it), the version and what changed, what is new in it (notes), and a last check before publishing.",
+    "en": "{step, select, product {Product} about {About} description {Description} pictures {Pictures} sharing {Sharing} version {Version} notes {What’s new} other {Check}}",
+    "context": "Name of a step of publishing an item to the community, in the row of steps at the top: the real product a 3D model stands for (its brand and product), about it (title, address, summary), its description, its pictures, how it is shared (licence, links, who finds it), the version and what changed, what is new in it (notes), and a last check before publishing.",
     "params": {
-      "step": "about, description, pictures, sharing, version, notes or check."
+      "step": "product, about, description, pictures, sharing, version, notes or check."
     },
     "maxLength": 16,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
