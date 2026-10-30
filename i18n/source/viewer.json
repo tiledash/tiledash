@@ -1209,6 +1209,220 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/PausedDashboard.messages.ts"
   },
+  "viewer.pictures.change": {
+    "en": "Change…",
+    "context": "The same button once a picture is chosen: it opens the picture library to pick another.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.choose": {
+    "en": "Choose…",
+    "context": "Button next to a picture setting (a dashboard’s wallpaper, a tile’s picture). It opens the picture library to pick one.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.collectionAll": {
+    "en": "Everything",
+    "context": "First choice above Tiledash’s pictures: every collection (Landscapes, Water and so on).",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.collectionsLabel": {
+    "en": "Collection",
+    "context": "Read out by screen readers for the row of Tiledash’s picture collections.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.credit": {
+    "en": "By {name}",
+    "context": "Small credit under one of Tiledash’s pictures (a photo, a gradient or an abstract picture): who made it.",
+    "params": {
+      "name": "Who made it, often “Tiledash”. A name, not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.emptyYours": {
+    "en": "No pictures yet",
+    "context": "Title in the picture library when the user has no pictures of their own.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.emptyYoursText": {
+    "en": "Upload a photo of your own, or pick one from Tiledash. Your pictures stay with your account.",
+    "context": "Text under “No pictures yet” in the picture library.",
+    "maxLength": 140,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.facts": {
+    "en": "{width} × {height} · {source}",
+    "context": "Small line under a chosen picture: its size in pixels and whose it is. {source} is “Yours” or “From Tiledash”.",
+    "params": {
+      "height": "Height in pixels, a plain number.",
+      "source": "Whose picture it is, already translated: Yours or From Tiledash.",
+      "width": "Width in pixels, a plain number."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.limits": {
+    "en": "{count} of {max} pictures · {used} of {space}",
+    "context": "Small line in the picture library: how many pictures the user has and how much room they take, against the limits. {used} and {space} are sizes such as “8.4 MB”.",
+    "params": {
+      "count": "How many pictures the user has.",
+      "max": "The most pictures they may have.",
+      "space": "The most room they may take, with its unit, such as 40 MB.",
+      "used": "The room their pictures take, with its unit, such as 8.4 MB."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.manage": {
+    "en": "Manage your pictures",
+    "context": "Link in the picture library to Settings › Pictures, where the user renames and deletes their pictures.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.none": {
+    "en": "No picture",
+    "context": "Shown in a picture setting that has no picture chosen.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.notUsed": {
+    "en": "Not used",
+    "context": "Small line on a picture card: no setting uses the picture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.nothingFound": {
+    "en": "No pictures match",
+    "context": "Shown in the picture library when the search or the shape filter leaves no picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.originFloorPlan": {
+    "en": "Your floor plans",
+    "context": "Heading over the pictures made of the user’s floor plans, in the picture library.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.originHouse": {
+    "en": "Your houses",
+    "context": "Heading over the pictures of the user’s houses (photos and pictures made of their house for the Energy house tile), in the picture library.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.originUpload": {
+    "en": "Uploaded",
+    "context": "Heading over the pictures the user uploaded, in the picture library.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.pickNone": {
+    "en": "Pick a picture",
+    "context": "Line at the foot of the picture library before a picture is picked.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.picked": {
+    "en": "{name} · {width} × {height}",
+    "context": "Line at the foot of the picture library naming the picture picked, with its size in pixels.",
+    "params": {
+      "height": "Height in pixels, a plain number.",
+      "name": "The picture’s name, as the user gave it.",
+      "width": "Width in pixels, a plain number."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.remove": {
+    "en": "Remove",
+    "context": "Small button next to a chosen picture: the setting has no picture any more. The picture itself stays in the library.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.search": {
+    "en": "Search pictures",
+    "context": "Placeholder of the search field of the picture library; it searches the pictures’ names.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.shapeAll": {
+    "en": "All",
+    "context": "Filter of the picture library: pictures of every shape.",
+    "maxLength": 12,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.shapeLabel": {
+    "en": "Shape",
+    "context": "Read out by screen readers for the choice All, Wide, Upright that filters pictures by shape.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.shapeUpright": {
+    "en": "Upright",
+    "context": "Filter of the picture library: upright pictures (portrait), for a phone. Also a small tag on such a picture.",
+    "maxLength": 12,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.shapeWide": {
+    "en": "Wide",
+    "context": "Filter of the picture library: wide pictures (landscape), for a computer or tablet.",
+    "maxLength": 12,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.tabsLabel": {
+    "en": "Whose pictures",
+    "context": "Read out by screen readers for the row of tabs Yours and From Tiledash.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.tiledash": {
+    "en": "From Tiledash",
+    "context": "Tab of the picture library with pictures Tiledash itself offers, which anyone can choose. Also says whose a picture is.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.upload": {
+    "en": "Upload…",
+    "context": "Button of the picture library: picks a picture file from the device to add to the user’s pictures.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.uploadFailed": {
+    "en": "The picture could not be uploaded.",
+    "context": "Error in the picture library when uploading a picture failed.",
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.uploading": {
+    "en": "Uploading…",
+    "context": "Shown on the upload button while a picture file is being uploaded.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.use": {
+    "en": "Use this picture",
+    "context": "Main button of the picture library: puts the picture picked into the setting it was opened from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.usedBy": {
+    "en": "{count, plural, one {Used once} other {Used # times}}",
+    "context": "Small line on a picture card: how many settings use the picture (a wallpaper, a tile).",
+    "params": {
+      "count": "How many settings use the picture, 1 or more."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
+  "viewer.pictures.yours": {
+    "en": "Yours",
+    "context": "Tab of the picture library with the user’s own pictures (uploaded, or made for their house or floor plan). Also says whose a picture is.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/pictures.messages.ts"
+  },
   "viewer.pin.add": {
     "en": "Add an action…",
     "context": "Placeholder of a dropdown in a device’s details, under the actions that ask for the PIN: picking one of the device’s actions (Unlock, Turn off…) makes it ask for the PIN too.",

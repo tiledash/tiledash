@@ -1956,8 +1956,8 @@
     "reviewed": false
   },
   "editor.dashboardSettings.leadLook": {
-    "text": "El tema del dashboard.",
-    "source": "d1496e10f2",
+    "text": "El tema del dashboard y una imagen detrás de sus mosaicos.",
+    "source": "3f6f6e4dc5",
     "by": "ai",
     "reviewed": false
   },
@@ -5297,30 +5297,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.delete": {
-    "text": "Eliminar",
-    "source": "e2d0a54968",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteConfirm": {
-    "text": "¿Eliminar {name} de tus imágenes? Los mosaicos que la muestran pasarán a mostrar un icono.",
-    "source": "ef09aa0e48",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteFailed": {
-    "text": "No se pudo eliminar la imagen.",
-    "source": "8ea9ebc531",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deletePicture": {
-    "text": "Eliminar esta imagen…",
-    "source": "fe43ece34c",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.describeIt": {
     "text": "Descríbela",
     "source": "780bd246be",
@@ -5372,12 +5348,6 @@
   "editor.layoutPicture.iconAndColour": {
     "text": "Icono y color",
     "source": "706741725d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.keep": {
-    "text": "Conservar",
-    "source": "183f00f483",
     "by": "ai",
     "reviewed": false
   },
@@ -5459,33 +5429,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.upload": {
-    "text": "Subir",
-    "source": "865e89de78",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadFailed": {
-    "text": "No se pudo subir la imagen.",
-    "source": "c518eaa15f",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG o WebP, hasta 10 MB. Se guardan en tu cuenta y solo se ven en tus propios dashboards.",
-    "source": "71afba9cbb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadedPictures": {
-    "text": "Imágenes subidas",
-    "source": "8b7dc45078",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploading": {
-    "text": "Subiendo…",
-    "source": "5ce44dd77d",
+    "text": "Una imagen tuya, guardada en tu cuenta. Se ve allí donde esté este mosaico, también en enlaces para compartir y pantallas.",
+    "source": "28fafd935b",
     "by": "ai",
     "reviewed": false
   },
@@ -7907,6 +7853,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureFrom": {
+    "text": "Origen de la imagen",
+    "source": "5eb0d5ef58",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureHint": {
     "text": "Pega la dirección web de una imagen para mostrarla detrás del contenido.",
     "source": "4501797528",
@@ -7925,6 +7877,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureOwn": {
+    "text": "Tu imagen",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureOwnTitle": {
+    "text": "Imagen detrás del mosaico",
+    "source": "219342436f",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureProblem": {
     "text": "Eso no es una dirección web. Usa una que empiece por https://",
     "source": "51b6c41ccb",
@@ -7934,6 +7898,12 @@
   "editor.stylePanel.pictureStrengthLabel": {
     "text": "Intensidad de la imagen",
     "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWeb": {
+    "text": "Dirección web",
+    "source": "45099c5588",
     "by": "ai",
     "reviewed": false
   },
@@ -10592,6 +10562,96 @@
   "editor.wallPanel.wakeTouchHint": {
     "text": "Un toque lo despierta y vuelve a {name}; ese primer toque no pulsa nada.",
     "source": "e8693fa9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.blur": {
+    "text": "Desenfoque",
+    "source": "cd83e6731d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.dim": {
+    "text": "Atenuación",
+    "source": "ea53b1cb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fit": {
+    "text": "Encuadre",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitFill": {
+    "text": "Llenar la pantalla",
+    "source": "181d30c60e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitWhole": {
+    "text": "Imagen completa",
+    "source": "778818dfe7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeKept": {
+    "text": "El fondo de pantalla de este dashboard se conserva y vuelve a verse con Pro.",
+    "source": "e1827b6dd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeText": {
+    "text": "Pon una imagen propia detrás de los mosaicos. Los fondos de pantalla vienen con Pro.",
+    "source": "cf5b20caec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.getPro": {
+    "text": "Pasar a Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.heading": {
+    "text": "Fondo de pantalla",
+    "source": "a7f173cdaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.ownSizeHint": {
+    "text": "Una imagen propia para {size}, p. ej. una tomada en vertical para un teléfono.",
+    "source": "61fb7d193a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pickerTitle": {
+    "text": "Fondo de pantalla para {size}",
+    "source": "1c9deb0a80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.removeKept": {
+    "text": "Quitarlo",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.sameAsDesktop": {
+    "text": "Como {desktop}",
+    "source": "4c795acb7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.tilesHint": {
+    "text": "Los mosaicos mantienen su propio fondo. Para que el fondo de pantalla se vea a través de un mosaico, cambia el fondo en su estilo.",
+    "source": "b5046f9099",
     "by": "ai",
     "reviewed": false
   },

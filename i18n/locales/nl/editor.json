@@ -1956,8 +1956,8 @@
     "reviewed": false
   },
   "editor.dashboardSettings.leadLook": {
-    "text": "Het thema van het dashboard.",
-    "source": "d1496e10f2",
+    "text": "Het thema van het dashboard, en een afbeelding achter de tegels.",
+    "source": "3f6f6e4dc5",
     "by": "ai",
     "reviewed": false
   },
@@ -5297,30 +5297,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.delete": {
-    "text": "Verwijderen",
-    "source": "e2d0a54968",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteConfirm": {
-    "text": "{name} uit je afbeeldingen verwijderen? Tegels met deze afbeelding tonen dan een icoon.",
-    "source": "ef09aa0e48",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteFailed": {
-    "text": "De afbeelding kon niet worden verwijderd.",
-    "source": "8ea9ebc531",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deletePicture": {
-    "text": "Deze afbeelding verwijderen…",
-    "source": "fe43ece34c",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.describeIt": {
     "text": "Beschrijving",
     "source": "780bd246be",
@@ -5372,12 +5348,6 @@
   "editor.layoutPicture.iconAndColour": {
     "text": "Icoon en kleur",
     "source": "706741725d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.keep": {
-    "text": "Behouden",
-    "source": "183f00f483",
     "by": "ai",
     "reviewed": false
   },
@@ -5459,33 +5429,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.upload": {
-    "text": "Uploaden",
-    "source": "865e89de78",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadFailed": {
-    "text": "De afbeelding kon niet worden geüpload.",
-    "source": "c518eaa15f",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG of WebP, tot 10 MB. Bewaard bij je account en alleen te zien op je eigen dashboards.",
-    "source": "71afba9cbb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadedPictures": {
-    "text": "Geüploade afbeeldingen",
-    "source": "8b7dc45078",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploading": {
-    "text": "Uploaden…",
-    "source": "5ce44dd77d",
+    "text": "Een eigen afbeelding, bewaard bij je account. Je ziet hem overal waar deze tegel staat, ook op deellinks en schermen.",
+    "source": "28fafd935b",
     "by": "ai",
     "reviewed": false
   },
@@ -7907,6 +7853,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureFrom": {
+    "text": "Bron van de afbeelding",
+    "source": "5eb0d5ef58",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureHint": {
     "text": "Plak het webadres van een afbeelding om die achter de inhoud te tonen.",
     "source": "4501797528",
@@ -7925,6 +7877,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureOwn": {
+    "text": "Je afbeelding",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureOwnTitle": {
+    "text": "Afbeelding achter de tegel",
+    "source": "219342436f",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureProblem": {
     "text": "Dat is geen webadres. Gebruik er een dat begint met https://",
     "source": "51b6c41ccb",
@@ -7934,6 +7898,12 @@
   "editor.stylePanel.pictureStrengthLabel": {
     "text": "Sterkte van de afbeelding",
     "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWeb": {
+    "text": "Webadres",
+    "source": "45099c5588",
     "by": "ai",
     "reviewed": false
   },
@@ -10592,6 +10562,96 @@
   "editor.wallPanel.wakeTouchHint": {
     "text": "Een aanraking maakt het weer wakker, terug naar {name}; die eerste aanraking drukt nergens op.",
     "source": "e8693fa9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.blur": {
+    "text": "Vervagen",
+    "source": "cd83e6731d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.dim": {
+    "text": "Dimmen",
+    "source": "ea53b1cb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fit": {
+    "text": "Weergave",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitFill": {
+    "text": "Scherm vullen",
+    "source": "181d30c60e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitWhole": {
+    "text": "Hele afbeelding",
+    "source": "778818dfe7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeKept": {
+    "text": "De achtergrondafbeelding van dit dashboard blijft bewaard en verschijnt weer met Pro.",
+    "source": "e1827b6dd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeText": {
+    "text": "Zet een eigen afbeelding achter de tegels. Achtergrondafbeeldingen horen bij Pro.",
+    "source": "cf5b20caec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.getPro": {
+    "text": "Neem Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.heading": {
+    "text": "Achtergrondafbeelding",
+    "source": "a7f173cdaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.ownSizeHint": {
+    "text": "Een eigen afbeelding voor {size}, bijv. een staande foto voor een telefoon.",
+    "source": "61fb7d193a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pickerTitle": {
+    "text": "Achtergrondafbeelding voor {size}",
+    "source": "1c9deb0a80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.removeKept": {
+    "text": "Verwijderen",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.sameAsDesktop": {
+    "text": "Zoals {desktop}",
+    "source": "4c795acb7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.tilesHint": {
+    "text": "Tegels houden hun eigen achtergrond. Wil je de afbeelding door een tegel heen zien, pas dan de achtergrond in de stijl van die tegel aan.",
+    "source": "b5046f9099",
     "by": "ai",
     "reviewed": false
   },

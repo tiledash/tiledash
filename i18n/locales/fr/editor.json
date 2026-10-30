@@ -1956,8 +1956,8 @@
     "reviewed": false
   },
   "editor.dashboardSettings.leadLook": {
-    "text": "Le thème du tableau de bord.",
-    "source": "d1496e10f2",
+    "text": "Le thème du tableau de bord, et une image derrière ses tuiles.",
+    "source": "3f6f6e4dc5",
     "by": "ai",
     "reviewed": false
   },
@@ -5297,30 +5297,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.delete": {
-    "text": "Supprimer",
-    "source": "e2d0a54968",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteConfirm": {
-    "text": "Supprimer {name} de vos images ? Les tuiles qui l’affichent montreront une icône à la place.",
-    "source": "ef09aa0e48",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteFailed": {
-    "text": "Impossible de supprimer l’image.",
-    "source": "8ea9ebc531",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deletePicture": {
-    "text": "Supprimer cette image…",
-    "source": "fe43ece34c",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.describeIt": {
     "text": "Décrire l’image",
     "source": "780bd246be",
@@ -5372,12 +5348,6 @@
   "editor.layoutPicture.iconAndColour": {
     "text": "Icône et couleur",
     "source": "706741725d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.keep": {
-    "text": "Conserver",
-    "source": "183f00f483",
     "by": "ai",
     "reviewed": false
   },
@@ -5459,33 +5429,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.upload": {
-    "text": "Importer",
-    "source": "865e89de78",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadFailed": {
-    "text": "Impossible d’importer l’image.",
-    "source": "c518eaa15f",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG ou WebP, jusqu’à 10 Mo. Elles restent dans votre compte et ne s’affichent que sur vos tableaux de bord.",
-    "source": "71afba9cbb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadedPictures": {
-    "text": "Images importées",
-    "source": "8b7dc45078",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploading": {
-    "text": "Importation…",
-    "source": "5ce44dd77d",
+    "text": "Une image à vous, gardée dans votre compte. Elle s’affiche partout avec cette tuile, liens de partage et écrans compris.",
+    "source": "28fafd935b",
     "by": "ai",
     "reviewed": false
   },
@@ -7907,6 +7853,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureFrom": {
+    "text": "Source de l’image",
+    "source": "5eb0d5ef58",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureHint": {
     "text": "Collez l’adresse web d’une image pour l’afficher derrière le contenu.",
     "source": "4501797528",
@@ -7925,6 +7877,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureOwn": {
+    "text": "Votre image",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureOwnTitle": {
+    "text": "Image derrière la tuile",
+    "source": "219342436f",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureProblem": {
     "text": "Ce n’est pas une adresse web. Utilisez-en une qui commence par https://",
     "source": "51b6c41ccb",
@@ -7934,6 +7898,12 @@
   "editor.stylePanel.pictureStrengthLabel": {
     "text": "Intensité de l’image",
     "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWeb": {
+    "text": "Adresse web",
+    "source": "45099c5588",
     "by": "ai",
     "reviewed": false
   },
@@ -10592,6 +10562,96 @@
   "editor.wallPanel.wakeTouchHint": {
     "text": "Un toucher le réveille et ramène {name} ; ce premier toucher n’appuie sur rien.",
     "source": "e8693fa9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.blur": {
+    "text": "Flou",
+    "source": "cd83e6731d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.dim": {
+    "text": "Atténuation",
+    "source": "ea53b1cb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fit": {
+    "text": "Ajustement",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitFill": {
+    "text": "Remplir l’écran",
+    "source": "181d30c60e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitWhole": {
+    "text": "Image entière",
+    "source": "778818dfe7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeKept": {
+    "text": "Le fond d’écran de ce tableau de bord est conservé et réapparaîtra avec Pro.",
+    "source": "e1827b6dd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeText": {
+    "text": "Placez votre propre image derrière les tuiles. Les fonds d’écran sont inclus dans Pro.",
+    "source": "cf5b20caec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.getPro": {
+    "text": "Passer à Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.heading": {
+    "text": "Fond d’écran",
+    "source": "a7f173cdaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.ownSizeHint": {
+    "text": "Une image à part pour {size}, par ex. une photo prise en hauteur pour un téléphone.",
+    "source": "61fb7d193a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pickerTitle": {
+    "text": "Fond d’écran pour {size}",
+    "source": "1c9deb0a80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.removeKept": {
+    "text": "Le retirer",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.sameAsDesktop": {
+    "text": "Comme {desktop}",
+    "source": "4c795acb7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.tilesHint": {
+    "text": "Les tuiles gardent leur propre fond. Pour laisser voir le fond d’écran à travers une tuile, changez le fond dans son style.",
+    "source": "b5046f9099",
     "by": "ai",
     "reviewed": false
   },

@@ -2144,8 +2144,8 @@
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.leadLook": {
-    "en": "The dashboard’s theme.",
-    "context": "Short line at the top of the Look tab of the dashboard settings dialog (tabs above the settings): the colour theme of this dashboard.",
+    "en": "The dashboard’s theme, and a picture behind its tiles.",
+    "context": "Short line at the top of the Look tab of the dashboard settings dialog (tabs above the settings): the colour theme of this dashboard, and its wallpaper (a picture of the user’s own shown behind the tiles).",
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
@@ -5812,33 +5812,6 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
   },
-  "editor.layoutPicture.delete": {
-    "en": "Delete",
-    "context": "Red button that really deletes the uploaded picture from the account. Answers the question \"Delete … from your pictures?\".",
-    "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.deleteConfirm": {
-    "en": "Delete {name} from your pictures? Tiles showing it show an icon instead.",
-    "context": "Question shown after the person starts deleting an uploaded picture from their account, before it happens. Answered with the buttons Delete and Keep. Tiles that use the picture show an icon after it is deleted.",
-    "params": {
-      "name": "The name of the uploaded picture, as the person named it. Not translated."
-    },
-    "maxLength": 110,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.deleteFailed": {
-    "en": "The picture could not be deleted.",
-    "context": "Red line shown when deleting an uploaded picture from the account failed and the server gave no reason of its own.",
-    "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.deletePicture": {
-    "en": "Delete this picture…",
-    "context": "Small button that starts deleting the chosen uploaded picture from the account. The dots mean the person is asked to confirm first.",
-    "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
   "editor.layoutPicture.describeIt": {
     "en": "Describe it",
     "context": "Label of a text field where the person describes a picture in words, for people who use a screen reader.",
@@ -5891,12 +5864,6 @@
     "en": "Icon and colour",
     "context": "Label above the icon button and the colour swatches of a placed icon.",
     "maxLength": 24,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.keep": {
-    "en": "Keep",
-    "context": "Button that keeps the uploaded picture after all, answering the question \"Delete … from your pictures?\".",
-    "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
   },
   "editor.layoutPicture.layer": {
@@ -5980,34 +5947,10 @@
     "maxLength": 14,
     "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
   },
-  "editor.layoutPicture.upload": {
-    "en": "Upload",
-    "context": "Label of the small tile with an upload icon at the end of the uploaded pictures: it opens the file chooser to add a picture. A verb here.",
-    "maxLength": 16,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.uploadFailed": {
-    "en": "The picture could not be uploaded.",
-    "context": "Red line shown when uploading a picture failed and the server gave no reason of its own.",
-    "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
   "editor.layoutPicture.uploadHint": {
-    "en": "PNG, JPEG or WebP, up to 10 MB. Kept with your account and only shown on your own dashboards.",
-    "context": "Small help text under the uploaded pictures: which file types can be uploaded, the size limit, and that the pictures are private to the person’s account. PNG, JPEG and WebP are file types and are not translated; MB is megabytes.",
+    "en": "A picture of your own, kept with your account. It shows wherever this tile does, also on share links and screens.",
+    "context": "Small help text under the picture field of a custom tile: the picture is one the person uploaded, kept with their account, and it shows wherever the tile shows, also on links they share and on screens they paired.",
     "maxLength": 130,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.uploadedPictures": {
-    "en": "Uploaded pictures",
-    "context": "Screen reader label of the group of the pictures the person uploaded, from which one is chosen. Not visible as text.",
-    "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
-  },
-  "editor.layoutPicture.uploading": {
-    "en": "Uploading…",
-    "context": "Label of the small upload tile while a picture is being sent to the account. The dots mean it is in progress.",
-    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdLayoutPictureEditor.messages.ts"
   },
   "editor.layoutPictureSources.albumArt": {
@@ -8835,6 +8778,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
   },
+  "editor.stylePanel.pictureFrom": {
+    "en": "Picture from",
+    "context": "Read out by screen readers for the choice on the Picture tab between one of the person’s own pictures and a picture from the web.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
   "editor.stylePanel.pictureHint": {
     "en": "Paste the web address of a picture to show it behind the content.",
     "context": "Note under the picture’s address field: a link to an image on the web (no upload) is shown behind the tile’s content.",
@@ -8853,6 +8802,18 @@
     "maxLength": 110,
     "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
   },
+  "editor.stylePanel.pictureOwn": {
+    "en": "Your picture",
+    "context": "Choice on a tile’s Picture tab: one of the person’s own uploaded pictures (from their picture library) behind the tile’s content. Also the name of that picture field.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
+  "editor.stylePanel.pictureOwnTitle": {
+    "en": "Picture behind the tile",
+    "context": "Title of the picture library opened from a tile’s Picture tab: the picture shown behind the tile’s content.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
   "editor.stylePanel.pictureProblem": {
     "en": "That isn’t a web address. Use one that starts with https://",
     "context": "Note under the picture’s address field when what was typed is not a web address. Keep https:// as it is.",
@@ -8863,6 +8824,12 @@
     "en": "Picture strength",
     "context": "Screen reader label of the slider for how strongly the picture shows over the tile’s background, from faint to full. Not shown.",
     "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
+  "editor.stylePanel.pictureWeb": {
+    "en": "Web address",
+    "context": "Choice on a tile’s Picture tab: a picture from the web, by pasting its address (URL).",
+    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
   },
   "editor.stylePanel.pictureWhole": {
@@ -11738,6 +11705,105 @@
     },
     "maxLength": 140,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallpaper.blur": {
+    "en": "Blur",
+    "context": "Slider that blurs the wallpaper picture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.dim": {
+    "en": "Dim",
+    "context": "Slider that fades the wallpaper towards the theme’s background (darker on a dark theme, lighter on a light one), so the tiles stay readable.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.fit": {
+    "en": "Fit",
+    "context": "Name of the choice how the wallpaper picture fits the screen.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.fitFill": {
+    "en": "Fill the screen",
+    "context": "Choice for the wallpaper: crop the picture so it covers the whole screen.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.fitWhole": {
+    "en": "Whole picture",
+    "context": "Choice for the wallpaper: show all of the picture, with the theme’s background around it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.freeKept": {
+    "en": "This dashboard’s wallpaper is kept, and shows again with Pro.",
+    "context": "Text of the Wallpaper setting for someone back on the free plan who had set a wallpaper: it is not shown now but kept.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.freeText": {
+    "en": "Put a picture of your own behind the tiles. Wallpapers come with Pro.",
+    "context": "Text of the Wallpaper setting for someone on the free plan, who cannot use it.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.getPro": {
+    "en": "Get Pro",
+    "context": "Button by the Wallpaper setting on the free plan, opening the page to upgrade.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.heading": {
+    "en": "Wallpaper",
+    "context": "Name of the setting that puts a picture of the user’s own behind a dashboard’s tiles.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.ownSizeHint": {
+    "en": "A picture of its own for {size}, e.g. one taken upright for a phone.",
+    "context": "Hint under the wallpaper pictures for Tablet or Phone. {size} is the screen size, “Tablet” or “Phone”.",
+    "params": {
+      "size": "The name of the screen size, Tablet or Phone. A name, already translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pickerTitle": {
+    "en": "Wallpaper for {size}",
+    "context": "Title of the picture library opened from the Wallpaper setting, and the name of that setting’s picture field for one screen size. {size} is “Desktop”, “Tablet” or “Phone”.",
+    "params": {
+      "size": "The name of the screen size, Desktop, Tablet or Phone. A name, already translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pro": {
+    "en": "Pro",
+    "context": "Badge next to the Wallpaper setting: it comes with the paid plan, called Pro.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.removeKept": {
+    "en": "Remove it",
+    "context": "Button that takes away a wallpaper kept from the time the user was on Pro.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sameAsDesktop": {
+    "en": "As {desktop}",
+    "context": "First choice in the row of wallpaper pictures for Tablet or Phone: the same picture as on Desktop, the main screen size. {desktop} is the name of that size, “Desktop”.",
+    "params": {
+      "desktop": "The name of the Desktop size. A name, already translated."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.tilesHint": {
+    "en": "Tiles keep their own background. To let the wallpaper through a tile, change its background in its style.",
+    "context": "Hint at the end of the Wallpaper setting: the tiles are not made see-through; the user can change a tile’s background in that tile’s style panel.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.weatherPlace.credit": {
     "en": "Search by OpenStreetMap Nominatim",

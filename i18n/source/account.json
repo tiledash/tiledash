@@ -4197,6 +4197,215 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
   },
+  "account.pictures.count": {
+    "en": "{count} of {max} pictures",
+    "context": "How many pictures the user has, against the most they may have.",
+    "params": {
+      "count": "How many pictures they have.",
+      "max": "The most they may have."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.delete": {
+    "en": "Delete…",
+    "context": "Button that deletes a picture, after asking.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.deleteConfirm": {
+    "en": "Delete picture",
+    "context": "The red button of the delete dialog that deletes the picture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.deleteMadeFor": {
+    "en": "This picture belongs to a house or floor plan: remove it there.",
+    "context": "Shown instead of the Delete button for a picture made for the user’s house or floor plan, which is deleted from that house or plan instead.",
+    "maxLength": 100,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.deleteTitle": {
+    "en": "Delete “{name}”?",
+    "context": "Title of the dialog that asks before deleting a picture.",
+    "params": {
+      "name": "The picture’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.deleteUnused": {
+    "en": "Nothing uses it. It can’t be brought back.",
+    "context": "Text of the delete dialog when nothing uses the picture.",
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.deleteUsed": {
+    "en": "{count, plural, one {One setting uses it and shows nothing there after this:} other {# settings use it and show nothing there after this:}}",
+    "context": "Text of the delete dialog when settings use the picture; the list of them follows. They don’t break: they just show no picture.",
+    "params": {
+      "count": "How many settings use it, 1 or more."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.done": {
+    "en": "Done",
+    "context": "Button that closes a picture opened in Settings › Pictures.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.emptyText": {
+    "en": "Pictures you upload for a wallpaper or a tile, and those of your houses and floor plans, gather here.",
+    "context": "Text under “No pictures yet” in Settings › Pictures.",
+    "maxLength": 140,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.emptyTitle": {
+    "en": "No pictures yet",
+    "context": "Title in Settings › Pictures when the user has none.",
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.facts": {
+    "en": "{width} × {height} · {size} · added {date}",
+    "context": "Line about a picture: its size in pixels, the room it takes and when it was added.",
+    "params": {
+      "date": "When it was added, a short date such as 30 Oct.",
+      "height": "Height in pixels, a plain number.",
+      "size": "The room it takes, with its unit, such as 240 KB.",
+      "width": "Width in pixels, a plain number."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.failed": {
+    "en": "That didn’t work. Try again.",
+    "context": "Error after renaming or deleting a picture failed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.filterAll": {
+    "en": "All",
+    "context": "Filter of the user’s pictures: every one.",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.filterLabel": {
+    "en": "Show",
+    "context": "Read out by screen readers for the choice All, In use, Not used above the pictures.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.filterUnused": {
+    "en": "Not used",
+    "context": "Filter of the user’s pictures: those nothing uses, which could be deleted.",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.filterUsed": {
+    "en": "In use",
+    "context": "Filter of the user’s pictures: those a setting uses (a wallpaper, a tile, a house).",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.name": {
+    "en": "Name",
+    "context": "Label of the field that renames a picture.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.rename": {
+    "en": "Save name",
+    "context": "Button that saves a picture’s new name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.sizeDesktop": {
+    "en": "Desktop",
+    "context": "After a wallpaper in “Used by”: the screen size showing it. The largest of the three screen sizes a dashboard can be arranged for. Use the same word as elsewhere for it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.sizePhone": {
+    "en": "Phone",
+    "context": "After a wallpaper in “Used by”: the smallest screen size showing it. Use the same word as elsewhere for it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.sizeTablet": {
+    "en": "Tablet",
+    "context": "After a wallpaper in “Used by”: the middle screen size showing it. Use the same word as elsewhere for it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.space": {
+    "en": "{used} of {space}",
+    "context": "How much room the pictures take, against the most. Sizes such as “8.4 MB”.",
+    "params": {
+      "space": "The most room, with its unit, such as 40 MB.",
+      "used": "The room they take, with its unit, such as 8.4 MB."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.unused": {
+    "en": "Nothing uses this picture.",
+    "context": "Shown instead of the list when nothing uses a picture.",
+    "maxLength": 60,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.useFloorPlan": {
+    "en": "Floor plan {name}",
+    "context": "One line of “Used by”: the picture was made of this floor plan and shows on its tiles.",
+    "params": {
+      "name": "The floor plan’s name, as the user gave it."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.useHouse": {
+    "en": "House {name}",
+    "context": "One line of “Used by”: a side of this house (for the Energy house tile) shows the picture.",
+    "params": {
+      "name": "The house’s name, as the user gave it."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.useModel": {
+    "en": "Furniture {name}",
+    "context": "One line of “Used by”: a piece of furniture the user made for their floor plans shows the picture on the 2D plan. {name} is its name.",
+    "params": {
+      "name": "The furniture model’s name, as the user gave it."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.useTile": {
+    "en": "A tile on {name}",
+    "context": "One line of “Used by”: a tile of this dashboard shows the picture (a custom tile’s picture). {name} is the dashboard’s name.",
+    "params": {
+      "name": "The dashboard’s name, as the user gave it."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.useWallpaper": {
+    "en": "Wallpaper of {name}",
+    "context": "One line of “Used by”: the picture is the wallpaper of this dashboard.",
+    "params": {
+      "name": "The dashboard’s name, as the user gave it."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
+  "account.pictures.usedBy": {
+    "en": "Used by",
+    "context": "Heading over the list of what uses a picture (wallpapers, tiles, houses).",
+    "maxLength": 30,
+    "file": "packages/ui/src/pictures/HdPicturesSection.messages.ts"
+  },
   "account.pin.again": {
     "en": "Again",
     "context": "Label of the field where the PIN is typed a second time, to check it.",
@@ -5077,6 +5286,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowWallpapers": {
+    "en": "Dashboard wallpapers",
+    "context": "Row of the plans table: whether the plan lets you put a picture of your own behind a dashboard’s tiles (yes or a dash).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowWidgets": {
     "en": "Your own widgets",
     "context": "Row of the plans table: whether the plan lets you make your own widgets.",
@@ -5727,6 +5942,18 @@
     "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
+  "account.settings.pictures": {
+    "en": "Pictures",
+    "context": "Name of the settings group with the user’s own pictures: uploaded for wallpapers and tiles, and those of their houses and floor plans. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Pictures\".",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.picturesAbout": {
+    "en": "Your photos for wallpapers and tiles, and those of your houses and floor plans.",
+    "context": "Line under the heading of the Pictures settings group.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
   "account.settings.plan": {
     "en": "Plan",
     "context": "Name of the settings group with the person’s plan (Free or Pro), what they use of it, paying, and house picture credits. A menu item of the Settings page and its heading. Other texts point to it as \"Settings › Plan\".",
@@ -5831,6 +6058,15 @@
     "en": "your own server",
     "context": "Fills \"Maps from …\" in the Settings menu when the maps come from a map server the person set up themselves.",
     "maxLength": 24,
+    "file": "apps/web/src/settings/SettingsPage.messages.ts"
+  },
+  "account.settingsPage.pictureCount": {
+    "en": "{count, plural, =0 {No pictures yet} one {# picture} other {# pictures}}",
+    "context": "Small line under \"Pictures\" in the Settings menu: how many pictures of their own the user has.",
+    "params": {
+      "count": "How many pictures."
+    },
+    "maxLength": 50,
     "file": "apps/web/src/settings/SettingsPage.messages.ts"
   },
   "account.settingsPage.pinSet": {

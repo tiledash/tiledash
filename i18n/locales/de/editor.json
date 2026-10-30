@@ -1956,8 +1956,8 @@
     "reviewed": false
   },
   "editor.dashboardSettings.leadLook": {
-    "text": "Das Design des Dashboards.",
-    "source": "d1496e10f2",
+    "text": "Das Design des Dashboards und ein Bild hinter seinen Kacheln.",
+    "source": "3f6f6e4dc5",
     "by": "ai",
     "reviewed": false
   },
@@ -5297,30 +5297,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.delete": {
-    "text": "Löschen",
-    "source": "e2d0a54968",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteConfirm": {
-    "text": "{name} aus Ihren Bildern löschen? Kacheln, die es zeigen, zeigen stattdessen ein Symbol.",
-    "source": "ef09aa0e48",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deleteFailed": {
-    "text": "Das Bild konnte nicht gelöscht werden.",
-    "source": "8ea9ebc531",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.deletePicture": {
-    "text": "Dieses Bild löschen…",
-    "source": "fe43ece34c",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.describeIt": {
     "text": "Beschreibung",
     "source": "780bd246be",
@@ -5372,12 +5348,6 @@
   "editor.layoutPicture.iconAndColour": {
     "text": "Symbol und Farbe",
     "source": "706741725d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.keep": {
-    "text": "Behalten",
-    "source": "183f00f483",
     "by": "ai",
     "reviewed": false
   },
@@ -5459,33 +5429,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.layoutPicture.upload": {
-    "text": "Hochladen",
-    "source": "865e89de78",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadFailed": {
-    "text": "Das Bild konnte nicht hochgeladen werden.",
-    "source": "c518eaa15f",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.layoutPicture.uploadHint": {
-    "text": "PNG, JPEG oder WebP, bis 10 MB. Wird in Ihrem Konto gespeichert und nur auf Ihren eigenen Dashboards gezeigt.",
-    "source": "71afba9cbb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploadedPictures": {
-    "text": "Hochgeladene Bilder",
-    "source": "8b7dc45078",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.layoutPicture.uploading": {
-    "text": "Wird hochgeladen…",
-    "source": "5ce44dd77d",
+    "text": "Ein eigenes Bild aus Ihrem Konto. Es erscheint überall mit dieser Kachel, auch über Freigabelinks und auf Bildschirmen.",
+    "source": "28fafd935b",
     "by": "ai",
     "reviewed": false
   },
@@ -7907,6 +7853,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureFrom": {
+    "text": "Bildquelle",
+    "source": "5eb0d5ef58",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureHint": {
     "text": "Fügen Sie die Webadresse eines Bildes ein, um es hinter dem Inhalt zu zeigen.",
     "source": "4501797528",
@@ -7925,6 +7877,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.pictureOwn": {
+    "text": "Ihr Bild",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureOwnTitle": {
+    "text": "Bild hinter der Kachel",
+    "source": "219342436f",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.pictureProblem": {
     "text": "Das ist keine Webadresse. Verwenden Sie eine, die mit https:// beginnt",
     "source": "51b6c41ccb",
@@ -7934,6 +7898,12 @@
   "editor.stylePanel.pictureStrengthLabel": {
     "text": "Stärke des Bildes",
     "source": "658534f50c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.pictureWeb": {
+    "text": "Webadresse",
+    "source": "45099c5588",
     "by": "ai",
     "reviewed": false
   },
@@ -10592,6 +10562,96 @@
   "editor.wallPanel.wakeTouchHint": {
     "text": "Eine Berührung weckt es wieder auf, dann zeigt es {name}; diese erste Berührung löst nichts aus.",
     "source": "e8693fa9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.blur": {
+    "text": "Unschärfe",
+    "source": "cd83e6731d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.dim": {
+    "text": "Abschwächen",
+    "source": "ea53b1cb30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fit": {
+    "text": "Anpassung",
+    "source": "9f872ed43d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitFill": {
+    "text": "Bildschirm füllen",
+    "source": "181d30c60e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.fitWhole": {
+    "text": "Ganzes Bild",
+    "source": "778818dfe7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeKept": {
+    "text": "Das Hintergrundbild dieses Dashboards bleibt erhalten und wird mit Pro wieder angezeigt.",
+    "source": "e1827b6dd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.freeText": {
+    "text": "Legen Sie ein eigenes Bild hinter die Kacheln. Hintergrundbilder gibt es mit Pro.",
+    "source": "cf5b20caec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.getPro": {
+    "text": "Pro holen",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.heading": {
+    "text": "Hintergrundbild",
+    "source": "a7f173cdaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.ownSizeHint": {
+    "text": "Ein eigenes Bild für {size}, z. B. ein Foto im Hochformat für ein Smartphone.",
+    "source": "61fb7d193a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pickerTitle": {
+    "text": "Hintergrundbild für {size}",
+    "source": "1c9deb0a80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.pro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.removeKept": {
+    "text": "Entfernen",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.sameAsDesktop": {
+    "text": "Wie {desktop}",
+    "source": "4c795acb7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallpaper.tilesHint": {
+    "text": "Kacheln behalten ihren eigenen Hintergrund. Damit das Hintergrundbild durch eine Kachel scheint, ändern Sie den Hintergrund im Stil der Kachel.",
+    "source": "b5046f9099",
     "by": "ai",
     "reviewed": false
   },
