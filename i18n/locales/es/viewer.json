@@ -131,6 +131,42 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.requestBlocked": {
+    "text": "El navegador bloqueó «{name}»",
+    "source": "91e619fbc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestBlockedWhy": {
+    "text": "Es una dirección http:// y Tiledash funciona con https. En Chrome, permite los dispositivos de tu red para este sitio, o usa https:// si el dispositivo lo admite.",
+    "source": "e6267eec48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestMissing": {
+    "text": "Esa solicitud web no está en este dashboard",
+    "source": "759cd868b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestSent": {
+    "text": "Se envió «{name}»",
+    "source": "c47531519a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachable": {
+    "text": "No se pudo conectar con {host}",
+    "source": "d901fbdde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachableWhy": {
+    "text": "El dispositivo no respondió o este navegador no lo encontró en su red.",
+    "source": "62732aca8d",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.actions.stepNotNumber": {
     "text": "El paso debe ser un número",
     "source": "cbb50d59b0",

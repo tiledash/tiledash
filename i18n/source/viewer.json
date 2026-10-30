@@ -169,6 +169,51 @@
     "maxLength": 60,
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
   },
+  "viewer.actions.requestBlocked": {
+    "en": "The browser blocked “{name}”",
+    "context": "Title of a red message (toast) when a web request to a plain http address could not go out because Tiledash runs on https and browsers block that.",
+    "params": {
+      "name": "The name the person gave the request, or the host name of its address. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.requestBlockedWhy": {
+    "en": "It’s an http:// address and Tiledash runs on https. In Chrome, allow devices on your network for this site; or use https:// if the device offers it.",
+    "context": "Description under \"The browser blocked …\": why a plain http address fails on a secure page, and what can be done. \"Chrome\" is the browser’s name.",
+    "maxLength": 200,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.requestMissing": {
+    "en": "That web request isn’t on this dashboard",
+    "context": "Red message (toast) when a widget asked to send a web request (a call to an address the person set on a tap) that is not stored on anything this page shows.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.requestSent": {
+    "en": "Sent “{name}”",
+    "context": "Green message (toast) after a tap sent a web request (a call to an address, often a device on the home network). Its answer is not read, so it only says it went out. The quotes are around its name, or the address’s host name.",
+    "params": {
+      "name": "The name the person gave the request, or the host name of its address. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.requestUnreachable": {
+    "en": "Couldn’t reach {host}",
+    "context": "Title of a red message (toast) when a web request a tap sent got no answer at all: the address could not be found or did not answer.",
+    "params": {
+      "host": "The host name of the address, like 192.168.1.20 or shelly.local. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.requestUnreachableWhy": {
+    "en": "The device didn’t answer, or this browser couldn’t find it on its network.",
+    "context": "Description under \"Couldn’t reach …\": the request goes out from this browser, so the address must be reachable from the device showing the dashboard.",
+    "maxLength": 120,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
   "viewer.actions.stepNotNumber": {
     "en": "The step must be a number",
     "context": "Red message (toast) when a widget asked to raise or lower a value by a step that is not a number.",

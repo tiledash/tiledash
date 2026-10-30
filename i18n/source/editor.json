@@ -7623,6 +7623,90 @@
     "maxLength": 28,
     "file": "packages/ui/src/dashboard/HdReadingsEditor.messages.ts"
   },
+  "editor.requestTap.asForm": {
+    "en": "Form",
+    "context": "Option: send the body of a web request as form data (key=value pairs).",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.asText": {
+    "en": "Text",
+    "context": "Option: send the body of a web request as plain text.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.body": {
+    "en": "Body",
+    "context": "Label of the text box with what a POST web request sends along. Optional.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.bodyPlaceholderForm": {
+    "en": "door=garage&action=open",
+    "context": "Placeholder of the body of a web request sent as form data: an example in key=value pairs. The words may be translated; keep the = and & signs.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.confirm": {
+    "en": "Ask before sending it",
+    "context": "Checkbox: a tap asks \"Are you sure?\" before it sends the web request.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.fromBrowser": {
+    "en": "Sent by the browser showing the dashboard, so the address must be reachable from there. Tiledash doesn’t read the reply.",
+    "context": "Small grey note under the web request fields: the request goes out from the device showing the dashboard (a phone, a wall panel), not from Tiledash’s server, and its answer is not shown.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.httpBlocked": {
+    "en": "This address starts with http://, and browsers block those on a secure (https) page. Chrome asks to allow devices on your network; Safari, iPhones and some wall panels can’t. Use https:// if the device offers it.",
+    "context": "Warning under the address of a web request when it is plain http while Tiledash itself runs on https: most browsers will refuse to send it.",
+    "maxLength": 260,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.method": {
+    "en": "Method",
+    "context": "Label of the switch between GET (just call the address) and POST (send some text along) for a web request.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.name": {
+    "en": "Name",
+    "context": "Label of the field naming a web request a tap sends, e.g. \"Garage door\". Optional; shown in the message after sending and as a button’s label.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.namePlaceholder": {
+    "en": "e.g. Garage door",
+    "context": "Placeholder of the name field of a web request a tap sends.",
+    "maxLength": 32,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.sendAs": {
+    "en": "Send the body as",
+    "context": "Label of the switch between sending the body of a web request as plain text or as form data.",
+    "maxLength": 28,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.sendNow": {
+    "en": "Send now",
+    "context": "Button beside the web request fields that sends it once, to try it out.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.url": {
+    "en": "Address (URL)",
+    "context": "Label of the field holding the web address a tap sends its request to.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
+  "editor.requestTap.urlInvalid": {
+    "en": "Enter a full address starting with http:// or https://",
+    "context": "Error under the address field of a web request when it is not a web address.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdRequestTapFields.messages.ts"
+  },
   "editor.saveStatus.notSaved": {
     "en": "Not saved",
     "context": "Small amber status text at the top right while a dashboard is edited, with a warning icon. The last change could not be saved to the server.",
@@ -9362,6 +9446,12 @@
     "en": "7 days",
     "context": "A history time range.",
     "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
+  "editor.tapActions.request": {
+    "en": "Send a web request",
+    "context": "Tap action: call a web address (often a device on the home network) with a GET or POST request, from the browser.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
   },
   "editor.tapActions.toggle": {

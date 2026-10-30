@@ -34,6 +34,11 @@
     "context": "Validation when an author creates an empty appearance group.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
+  "models.appearance.emptyMaterials": {
+    "en": "Assign a material to each group before saving.",
+    "context": "Validation for empty imported appearance groups.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
   "models.appearance.fabric": {
     "en": "Woven fabric",
     "context": "Surface preset: visible fabric weave tinted by the chosen colour.",
@@ -84,9 +89,19 @@
     "context": "Title of the one-time appearance group discovery hint.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
+  "models.appearance.importedHint": {
+    "en": "Group materials that should change together. Select a group to highlight its surfaces on the model.",
+    "context": "One-time hint at imported appearance authoring controls.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
   "models.appearance.inherited": {
     "en": "Model default",
     "context": "Origin label: this appearance property inherits from the author.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.materials": {
+    "en": "Materials in the file",
+    "context": "Heading for imported material assignment.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
   "models.appearance.matte": {
@@ -102,6 +117,16 @@
   "models.appearance.newGroup": {
     "en": "New group",
     "context": "Initial editable label for a new appearance group.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.original": {
+    "en": "Original",
+    "context": "Keep the imported material unchanged.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.originalNote": {
+    "en": "Using the material from the imported file.",
+    "context": "Help for the Original imported surface treatment.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
   "models.appearance.parts": {
@@ -144,6 +169,16 @@
     "context": "Label for the physical length of one pattern tile in centimetres.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
+  "models.appearance.replace": {
+    "en": "Replace",
+    "context": "Replace the imported material with a surface preset.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.replaceNote": {
+    "en": "The imported colour and surface texture are replaced.",
+    "context": "Help for replacing an imported surface.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
   "models.appearance.reset": {
     "en": "Use model default",
     "context": "Button removing a single property override, leaving the other properties unchanged.",
@@ -184,14 +219,44 @@
     "context": "Surface preset: paint with a soft sheen.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
+  "models.appearance.solid": {
+    "en": "Solid colour",
+    "context": "Material without a base colour texture.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.textured": {
+    "en": "Imported texture",
+    "context": "Material has an imported base colour texture.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.tint": {
+    "en": "Tint",
+    "context": "Colour the imported texture while preserving detail.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.tintNote": {
+    "en": "The texture’s original colour affects the result. For a lighter colour, try Replace.",
+    "context": "Limit of colouring an imported texture.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
   "models.appearance.title": {
     "en": "Appearance",
     "context": "Heading for per-group colours and finishes of a furniture model.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
+  "models.appearance.treatment": {
+    "en": "Treatment",
+    "context": "How an imported material is displayed.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
   "models.appearance.trying": {
     "en": "Trying in preview",
     "context": "Origin label: this property is a temporary local choice on a read-only model preview.",
+    "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
+  },
+  "models.appearance.unassigned": {
+    "en": "Keep original · No group",
+    "context": "Imported material excluded from editable groups.",
     "file": "packages/ui/src/screens/floorplan/models/modelAppearance.messages.ts"
   },
   "models.appearance.width": {
