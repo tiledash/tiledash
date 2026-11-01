@@ -35,6 +35,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.clockRange.from": {
+    "text": "{what}, vanaf",
+    "source": "821f0fe024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.clockRange.until": {
+    "text": "{what}, tot",
+    "source": "fd06072651",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.dayAhead.euroNote": {
     "text": "Prijzen in euro, omgerekend met de dagkoersen van de ECB als je in een andere valuta betaalt.",
     "source": "f08cd510b0",
@@ -209,6 +221,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.fixedTariff.offPeak": {
+    "text": "Daluren",
+    "source": "9015aef842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.peak": {
+    "text": "Piekuren",
+    "source": "a57feec7a9",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.fixedTariff.price": {
     "text": "Prijs",
     "source": "93c91c851e",
@@ -224,6 +248,12 @@
   "devices.fixedTariff.single": {
     "text": "Eén prijs",
     "source": "aa855fd22b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.timeOfUse": {
+    "text": "Per tijdvak",
+    "source": "84a3b20cc3",
     "by": "ai",
     "reviewed": false
   },
@@ -767,6 +797,108 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.meterPrice.MJ": {
+    "text": "MJ",
+    "source": "ca20bc284d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.ccf": {
+    "text": "CCF (100 kubieke voet)",
+    "source": "4f5e6ed886",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.factorInvalid": {
+    "text": "Tussen {min} en {max}",
+    "source": "07809a0f6f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kL": {
+    "text": "kL",
+    "source": "2e92a4cccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kWh": {
+    "text": "kWh",
+    "source": "58520857f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kgal": {
+    "text": "1.000 gallon",
+    "source": "605d9f3f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.litre": {
+    "text": "liter",
+    "source": "3b2e48ec50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.m3": {
+    "text": "m³",
+    "source": "c7db57c856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perCubicMetre": {
+    "text": "Je meter telt m³: dat is {price} per m³.",
+    "source": "fba708b65f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWh": {
+    "text": "kWh per m³",
+    "source": "92d946c2ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWhHint": {
+    "text": "Op je rekening als calorische waarde; meestal 10 tot 11,5",
+    "source": "c2a4ca67e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJ": {
+    "text": "MJ per m³",
+    "source": "3945239708",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJHint": {
+    "text": "Op je rekening als verbrandingswaarde; meestal 37 tot 39",
+    "source": "f1fb090490",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.therm": {
+    "text": "therm",
+    "source": "4683c5bc31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactor": {
+    "text": "Thermfactor",
+    "source": "e648586eb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactorHint": {
+    "text": "Therms per CCF op je rekening; meestal zo’n 1,03",
+    "source": "d159fe215d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.unit": {
+    "text": "Prijs per",
+    "source": "d525d3b55e",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.meterRow.change": {
     "text": "Wijzigen",
     "source": "c0bf75bd78",
@@ -995,6 +1127,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.fallbackNoPrice": {
+    "text": "Tot je Homey een prijs heeft",
+    "source": "645eb36f2a",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.fallbackSummary": {
     "text": "Je vaste tarief: {tariff}",
     "source": "f7e2ce6dd0",
@@ -1031,15 +1169,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "devices.prices.fixedBody": {
-    "text": "Eén prijs, of een dag- en nachttarief.",
-    "source": "34fc3d0699",
+  "devices.prices.fixedBodyTimeOfUse": {
+    "text": "Eén prijs, een dag- en nachttarief of prijzen per tijd van de dag.",
+    "source": "490e3104eb",
     "by": "ai",
     "reviewed": false
   },
   "devices.prices.fixedDayNight": {
     "text": "{day} overdag, {night} van {from} tot {to}",
     "source": "89da68c15a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedTimeOfUse": {
+    "text": "{periods} per tijd van de dag",
+    "source": "ffaa0ab5db",
     "by": "ai",
     "reviewed": false
   },
@@ -1073,15 +1217,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.homeyFixedBody": {
+    "text": "De prijs uit de Energie-instellingen van je Homey: {price} per kWh.",
+    "source": "1feef68ff6",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.homeyNeeds": {
     "text": "Hiervoor is een Homey Pro (2023), Homey Pro mini of Homey Cloud met Homey v12.6 of nieuwer nodig. Deze: {homey}.",
     "source": "24bbf7c602",
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.homeyNoneBody": {
+    "text": "Je Homey heeft nog geen prijs. Stel er een in bij de Energie-instellingen van je Homey, of kies hier een vast tarief.",
+    "source": "36f0826351",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.homeyTitle": {
     "text": "Van je Homey",
     "source": "669acda4cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedBody": {
+    "text": "Tot nu toe gebruikte deze Homey Nederlandse marktprijzen, waarmee elke nieuwe Homey begon. Nu gebruikt hij de prijs die in je Homey staat. Kies hieronder een andere bron als je wilt.",
+    "source": "1206436e0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedDone": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedTitle": {
+    "text": "Je prijzen komen nu van je Homey",
+    "source": "b70c85920c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.noPriceYet": {
+    "text": "Nog geen prijs",
+    "source": "9522fee5ea",
     "by": "ai",
     "reviewed": false
   },
@@ -1097,7 +1277,55 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.tabElectricity": {
+    "text": "Stroom",
+    "source": "a8b41baa4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabGasWater": {
+    "text": "Gas en water",
+    "source": "2bfbf82500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMeters": {
+    "text": "Meters",
+    "source": "efd2ff9344",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMetersProblem": {
+    "text": "een meter vraagt aandacht",
+    "source": "287704a49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabToday": {
+    "text": "Vandaag",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabTodayDown": {
+    "text": "de bron reageert niet",
+    "source": "2feb86b9a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabsLabel": {
+    "text": "Energie-instellingen",
+    "source": "a624d28319",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.todayTitle": {
+    "text": "Prijzen van vandaag",
+    "source": "9e5e43719a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.todaysPrices": {
     "text": "Prijzen van vandaag",
     "source": "9e5e43719a",
     "by": "ai",
@@ -1109,15 +1337,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "devices.prices.waterHint": {
-    "text": "1 m³ is 1.000 liter",
-    "source": "dd0020bd0e",
-    "by": "ai",
-    "reviewed": false
-  },
   "devices.screen.description": {
     "text": "{count, plural, one {# apparaat, live van je Homey.} other {# apparaten, live van je Homey.}}",
     "source": "fabedfb408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.descriptionWaiting": {
+    "text": "{count, plural, one {# apparaat · verbinden met je Homey…} other {# apparaten · verbinden met je Homey…}}",
+    "source": "5bae06adf1",
     "by": "ai",
     "reviewed": false
   },
@@ -1232,6 +1460,114 @@
   "devices.screen.title": {
     "text": "Apparaten",
     "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.add": {
+    "text": "Tijdvak toevoegen",
+    "source": "8240a931d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.name": {
+    "text": "Naam van het tijdvak",
+    "source": "e883ac23d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.newPeriod": {
+    "text": "Tussenuren",
+    "source": "79a38096fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekdays": {
+    "text": "Niet op werkdagen",
+    "source": "40b174a445",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekends": {
+    "text": "Niet in het weekend",
+    "source": "1378041089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.price": {
+    "text": "Prijs",
+    "source": "93c91c851e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.remove": {
+    "text": "{name} verwijderen",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.restHours": {
+    "text": "Alle andere uren",
+    "source": "7fe7ccda32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.seasons": {
+    "text": "Andere prijzen in de zomer",
+    "source": "94231e8580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summer": {
+    "text": "Zomer",
+    "source": "c0de243c40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerFrom": {
+    "text": "Zomer vanaf",
+    "source": "4029e63330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerTo": {
+    "text": "Tot en met",
+    "source": "680a017bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekdays": {
+    "text": "Werkdagen",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekends": {
+    "text": "Weekend",
+    "source": "93dcf1d1d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.winter": {
+    "text": "Rest van het jaar",
+    "source": "a2a1e0eea6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.dayLabel": {
+    "text": "{day}: de tijdvakken door de dag heen",
+    "source": "4abb636106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekdays": {
+    "text": "Werkdagen",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekends": {
+    "text": "Weekend",
+    "source": "93dcf1d1d2",
     "by": "ai",
     "reviewed": false
   }

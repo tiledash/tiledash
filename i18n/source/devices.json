@@ -48,6 +48,24 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/DeviceCard.messages.ts"
   },
+  "devices.clockRange.from": {
+    "en": "{what}, from",
+    "context": "Screen reader name of the field with the time a period starts, such as \"Weekdays, from\". {what} is \"Weekdays\" or \"Weekends\".",
+    "params": {
+      "what": "Which days: \"Weekdays\" or \"Weekends\", already translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/ClockRange.messages.ts"
+  },
+  "devices.clockRange.until": {
+    "en": "{what}, until",
+    "context": "Screen reader name of the field with the time a period ends, such as \"Weekdays, until\". {what} is \"Weekdays\" or \"Weekends\".",
+    "params": {
+      "what": "Which days: \"Weekdays\" or \"Weekends\", already translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/ClockRange.messages.ts"
+  },
   "devices.dayAhead.euroNote": {
     "en": "Prices in euro, converted with the ECB’s daily rates when you pay in another currency.",
     "context": "Second sentence of that line for zones whose prices come from ENTSO-E: they are in euros, converted with the European Central Bank’s daily exchange rates.",
@@ -239,6 +257,18 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
   },
+  "devices.fixedTariff.offPeak": {
+    "en": "Off-peak",
+    "context": "Name a time-of-use tariff’s cheaper, all-other-hours price starts with.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.peak": {
+    "en": "Peak",
+    "context": "Name a time-of-use tariff’s dearest period (an evening) starts with.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
   "devices.fixedTariff.price": {
     "en": "Price",
     "context": "Label of the field with the one price per kWh.",
@@ -254,6 +284,12 @@
   "devices.fixedTariff.single": {
     "en": "One price",
     "context": "Choice of a fixed tariff: the same price all day.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
+  },
+  "devices.fixedTariff.timeOfUse": {
+    "en": "Time of use",
+    "context": "Choice of a fixed tariff: prices by period of the day, such as peak and off-peak, as US utilities bill.",
     "maxLength": 20,
     "file": "packages/ui/src/screens/energy/FixedTariffFields.messages.ts"
   },
@@ -939,6 +975,115 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/energy/EnergyMeterPicker.messages.ts"
   },
+  "devices.meterPrice.MJ": {
+    "en": "MJ",
+    "context": "Unit choice for gas: megajoule, as Australian bills price gas.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.ccf": {
+    "en": "CCF (100 cubic feet)",
+    "context": "Unit choice: CCF, 100 cubic feet, as some US gas and water bills price it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.factorInvalid": {
+    "en": "Between {min} and {max}",
+    "context": "Error under the kWh per m³, MJ per m³ or therm factor field when the number is off.",
+    "params": {
+      "max": "The highest, such as \"15\".",
+      "min": "The lowest number that makes sense, such as \"5\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.kL": {
+    "en": "kL",
+    "context": "Unit choice for water: kilolitre (1,000 litres), as Australian bills price water.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.kWh": {
+    "en": "kWh",
+    "context": "Unit choice for gas: kilowatt-hour, as bills in Germany and the UK price gas.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.kgal": {
+    "en": "1,000 gallons",
+    "context": "Unit choice for water: a thousand US gallons, as US water bills price it. Write the number as the language does.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.litre": {
+    "en": "litre",
+    "context": "Unit choice for water: one litre.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.m3": {
+    "en": "m³",
+    "context": "Unit choice: cubic metre. Keep the symbol unless the language writes it otherwise.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.perCubicMetre": {
+    "en": "Your meter counts m³: that’s {price} per m³.",
+    "context": "Line under a gas or water price typed per another unit: what one cubic metre costs, which is what the energy widgets use, since Homey’s meters count m³.",
+    "params": {
+      "price": "The price of one m³, with its currency, such as \"$0.53\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.perKWh": {
+    "en": "kWh per m³",
+    "context": "Label of the field with how many kWh one m³ of gas holds, as the gas bill says (calorific value).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.perKWhHint": {
+    "en": "On your bill as the calorific value; usually 10 to 11.5",
+    "context": "Hint under \"kWh per m³\": where to find it on the gas bill and what it usually is.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.perMJ": {
+    "en": "MJ per m³",
+    "context": "Label of the field with how many megajoules one m³ of gas holds (heating value).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.perMJHint": {
+    "en": "On your bill as the heating value; usually 37 to 39",
+    "context": "Hint under \"MJ per m³\": where to find it on the gas bill and what it usually is.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.therm": {
+    "en": "therm",
+    "context": "Unit choice for gas: the therm, as most US gas bills price it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.thermFactor": {
+    "en": "Therm factor",
+    "context": "Label of the field with how many therms one CCF of gas holds, as US gas bills print it (\"therm factor\" or \"BTU factor\").",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.thermFactorHint": {
+    "en": "Therms per CCF on your bill; usually about 1.03",
+    "context": "Hint under \"Therm factor\": where to find it on the bill and what it usually is.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
+  "devices.meterPrice.unit": {
+    "en": "Priced per",
+    "context": "Label of the choice of unit the gas or water price is in, as on the bill: m³, kWh, therm…",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/MeterPriceField.messages.ts"
+  },
   "devices.meterRow.change": {
     "en": "Change",
     "context": "Button on a meter’s row that opens the dialog to change what it counts.",
@@ -1231,6 +1376,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
+  "devices.prices.fallbackNoPrice": {
+    "en": "Until your Homey has a price",
+    "context": "Label of the fixed tariff used while \"From your Homey\" is chosen but nothing is set in Homey’s Energy settings.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
   "devices.prices.fallbackSummary": {
     "en": "Your fixed tariff: {tariff}",
     "context": "Line next to \"If it can’t be reached\": the fixed tariff it uses then.",
@@ -1273,10 +1424,10 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
-  "devices.prices.fixedBody": {
-    "en": "One price, or a day and a night rate.",
-    "context": "Line under \"Fixed tariff\".",
-    "maxLength": 60,
+  "devices.prices.fixedBodyTimeOfUse": {
+    "en": "One price, a day and a night rate, or prices by time of day.",
+    "context": "Line under \"Fixed tariff\" where time-of-use tariffs (peak, off-peak…) are offered too.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
   "devices.prices.fixedDayNight": {
@@ -1287,6 +1438,15 @@
       "from": "When the night rate starts, such as \"23:00\".",
       "night": "The night price per kWh, with its currency.",
       "to": "When it ends, such as \"07:00\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.fixedTimeOfUse": {
+    "en": "{periods} by time of day",
+    "context": "A time-of-use tariff in short, such as \"Peak, Off-peak by time of day\". {periods} is the list of its period names.",
+    "params": {
+      "periods": "The names the person gave the periods, as a list, such as \"Peak and Off-peak\"."
     },
     "maxLength": 80,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
@@ -1321,6 +1481,15 @@
     "maxLength": 110,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
+  "devices.prices.homeyFixedBody": {
+    "en": "The price set in your Homey’s Energy settings: {price} per kWh.",
+    "context": "Line under \"From your Homey\" when the person typed one fixed price into Homey’s Energy settings (in the Homey app).",
+    "params": {
+      "price": "The price, with its currency, such as \"$0.17\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
   "devices.prices.homeyNeeds": {
     "en": "Needs a Homey Pro (2023), Homey Pro mini or Homey Cloud with Homey v12.6 or later. This one: {homey}.",
     "context": "Small text under the \"From your Homey\" price choice when it can’t be chosen: which Homey models and version give their prices, and what this Homey is. Keep the model names as they are.",
@@ -1330,10 +1499,40 @@
     "maxLength": 160,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
+  "devices.prices.homeyNoneBody": {
+    "en": "Your Homey has no price yet. Set one in Homey’s Energy settings, or choose a fixed tariff here.",
+    "context": "Line under \"From your Homey\" when nothing is set in Homey’s Energy settings (in the Homey app): no dynamic prices and no fixed price.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
   "devices.prices.homeyTitle": {
     "en": "From your Homey",
     "context": "First choice of where the electricity price comes from: the dynamic prices the person set up in Homey Energy (in the Homey app).",
     "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.movedBody": {
+    "en": "Until now this Homey used Dutch market prices, which every new Homey started on. It now uses the price set in your Homey. Choose another source below if you like.",
+    "context": "Text of the notice: why the price source changed by itself, and that it can be changed.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.movedDone": {
+    "en": "Got it",
+    "context": "Button closing the notice about the changed price source for good.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.movedTitle": {
+    "en": "Your prices now come from your Homey",
+    "context": "Notice on top of the energy settings of a Homey Tiledash moved off Dutch market prices, which it had wrongly given every new Homey.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.noPriceYet": {
+    "en": "No price yet",
+    "context": "Badge on the \"From your Homey\" price choice when the Homey has no price set; the fixed tariff below is used meanwhile.",
+    "maxLength": 20,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
   "devices.prices.notOnThisHomey": {
@@ -1348,10 +1547,58 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
+  "devices.prices.tabElectricity": {
+    "en": "Electricity",
+    "context": "Tab of the energy settings with where the electricity price comes from, what power sent back earns and the currency.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabGasWater": {
+    "en": "Gas and water",
+    "context": "Tab of the energy settings with the price of gas and of water.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabMeters": {
+    "en": "Meters",
+    "context": "Tab of the energy settings with the meters the energy widgets count (electricity, gas, water, solar…).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabMetersProblem": {
+    "en": "a meter needs a look",
+    "context": "Read out after the \"Meters\" tab’s name (after a comma) when a device a meter counts is gone or unavailable.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabToday": {
+    "en": "Today",
+    "context": "Tab of the energy settings with today’s electricity prices hour by hour.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabTodayDown": {
+    "en": "its source isn’t answering",
+    "context": "Read out after the \"Today\" tab’s name (after a comma) when the source of the electricity prices stopped answering.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.tabsLabel": {
+    "en": "Energy settings",
+    "context": "Name of the row of tabs in the energy settings, read out by screen readers.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
   "devices.prices.todayTitle": {
     "en": "Today’s prices",
     "context": "Title of the card in the energy settings that shows today’s electricity prices hour by hour.",
     "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.todaysPrices": {
+    "en": "Today’s prices",
+    "context": "Small button beside the price now, under the chosen source on the Electricity tab: opens the Today tab with all of today’s prices.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
   "devices.prices.water": {
@@ -1360,15 +1607,18 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
-  "devices.prices.waterHint": {
-    "en": "1 m³ is 1,000 litres",
-    "context": "Hint under the water price, to help convert a price per litre. Write the number as the language does.",
-    "maxLength": 40,
-    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
-  },
   "devices.screen.description": {
     "en": "{count, plural, one {# device, live from your Homey.} other {# devices, live from your Homey.}}",
     "context": "Line under the title of the devices page: how many devices the Homey has, and that their values update live. Homey is the smart-home hub.",
+    "params": {
+      "count": "The number of devices on the Homey."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.screen.descriptionWaiting": {
+    "en": "{count, plural, one {# device · connecting to your Homey…} other {# devices · connecting to your Homey…}}",
+    "context": "Line under the title of the devices page while Tiledash is still connecting to the Homey: the devices shown are the ones Tiledash saw last, with their last values, until the live connection is up (usually a few seconds). Homey is the smart-home hub.",
     "params": {
       "count": "The number of devices on the Homey."
     },
@@ -1488,5 +1738,119 @@
     "context": "Big title of the devices page, which lists every device of the person’s Homey (lights, sensors, plugs…) with its live values.",
     "maxLength": 24,
     "file": "packages/ui/src/screens/DevicesScreen.messages.ts"
+  },
+  "devices.timeOfUse.add": {
+    "en": "Add a period",
+    "context": "Button adding a price period (at most three, next to \"All other hours\").",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.name": {
+    "en": "Name of the period",
+    "context": "Screen reader name of the field with a price period’s name, such as \"Peak\".",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.newPeriod": {
+    "en": "Mid-peak",
+    "context": "Name a newly added price period starts with; people can rename it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.notWeekdays": {
+    "en": "Not on weekdays",
+    "context": "Shown instead of hours when a price period doesn’t apply on weekdays.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.notWeekends": {
+    "en": "Not on weekends",
+    "context": "Shown instead of hours when a price period doesn’t apply on weekends.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.price": {
+    "en": "Price",
+    "context": "Label of a price period’s price per kWh, all in.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.remove": {
+    "en": "Remove {name}",
+    "context": "Screen reader name of the button that removes a price period. {name} is its name.",
+    "params": {
+      "name": "The period’s name as the person typed it, such as \"Peak\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.restHours": {
+    "en": "All other hours",
+    "context": "Under the last price period: it covers every hour no other period does.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.seasons": {
+    "en": "Different prices in summer",
+    "context": "Switch: the tariff has summer prices next to its winter prices.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.summer": {
+    "en": "Summer",
+    "context": "Label of a price period’s summer price per kWh.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.summerFrom": {
+    "en": "Summer from",
+    "context": "Label of the month summer prices start in.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.summerTo": {
+    "en": "Until the end of",
+    "context": "Label of the last month summer prices apply in (that whole month included).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.weekdays": {
+    "en": "Weekdays",
+    "context": "Switch and label: the period applies on Monday to Friday, at the hours next to it.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.weekends": {
+    "en": "Weekends",
+    "context": "Switch and label: the period applies on Saturday and Sunday, at the hours next to it.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUse.winter": {
+    "en": "Rest of the year",
+    "context": "Label of a price period’s price outside summer, per kWh.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/energy/TimeOfUseFields.messages.ts"
+  },
+  "devices.timeOfUseStrip.dayLabel": {
+    "en": "{day}: the price periods through the day",
+    "context": "Screen reader name of a bar of 24 hours coloured by price period. {day} is \"Weekdays\" or \"Weekends\".",
+    "params": {
+      "day": "\"Weekdays\" or \"Weekends\", already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/energy/TimeOfUseStrip.messages.ts"
+  },
+  "devices.timeOfUseStrip.weekdays": {
+    "en": "Weekdays",
+    "context": "Label before the bar showing a weekday’s 24 hours, coloured by price period.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/energy/TimeOfUseStrip.messages.ts"
+  },
+  "devices.timeOfUseStrip.weekends": {
+    "en": "Weekends",
+    "context": "Label before the bar showing a weekend day’s 24 hours, coloured by price period.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/energy/TimeOfUseStrip.messages.ts"
   }
 }

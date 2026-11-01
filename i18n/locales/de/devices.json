@@ -35,6 +35,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.clockRange.from": {
+    "text": "{what}, von",
+    "source": "821f0fe024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.clockRange.until": {
+    "text": "{what}, bis",
+    "source": "fd06072651",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.dayAhead.euroNote": {
     "text": "Preise in Euro, bei einer anderen Währung mit den Tageskursen der EZB umgerechnet.",
     "source": "f08cd510b0",
@@ -209,6 +221,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.fixedTariff.offPeak": {
+    "text": "Nebenzeit",
+    "source": "9015aef842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.peak": {
+    "text": "Spitzenzeit",
+    "source": "a57feec7a9",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.fixedTariff.price": {
     "text": "Preis",
     "source": "93c91c851e",
@@ -224,6 +248,12 @@
   "devices.fixedTariff.single": {
     "text": "Ein Preis",
     "source": "aa855fd22b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.timeOfUse": {
+    "text": "Nach Tageszeit",
+    "source": "84a3b20cc3",
     "by": "ai",
     "reviewed": false
   },
@@ -767,6 +797,108 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.meterPrice.MJ": {
+    "text": "MJ",
+    "source": "ca20bc284d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.ccf": {
+    "text": "CCF (100 Kubikfuß)",
+    "source": "4f5e6ed886",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.factorInvalid": {
+    "text": "Zwischen {min} und {max}",
+    "source": "07809a0f6f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kL": {
+    "text": "kL",
+    "source": "2e92a4cccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kWh": {
+    "text": "kWh",
+    "source": "58520857f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kgal": {
+    "text": "1.000 Gallonen",
+    "source": "605d9f3f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.litre": {
+    "text": "Liter",
+    "source": "3b2e48ec50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.m3": {
+    "text": "m³",
+    "source": "c7db57c856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perCubicMetre": {
+    "text": "Ihr Zähler misst m³: Das sind {price} pro m³.",
+    "source": "fba708b65f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWh": {
+    "text": "kWh pro m³",
+    "source": "92d946c2ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWhHint": {
+    "text": "Auf Ihrer Rechnung als Brennwert; meist 10 bis 11,5",
+    "source": "c2a4ca67e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJ": {
+    "text": "MJ pro m³",
+    "source": "3945239708",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJHint": {
+    "text": "Auf Ihrer Rechnung als Brennwert; meist 37 bis 39",
+    "source": "f1fb090490",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.therm": {
+    "text": "Therm",
+    "source": "4683c5bc31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactor": {
+    "text": "Therm-Faktor",
+    "source": "e648586eb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactorHint": {
+    "text": "Therms pro CCF auf Ihrer Rechnung; meist etwa 1,03",
+    "source": "d159fe215d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.unit": {
+    "text": "Abgerechnet pro",
+    "source": "d525d3b55e",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.meterRow.change": {
     "text": "Ändern",
     "source": "c0bf75bd78",
@@ -995,6 +1127,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.fallbackNoPrice": {
+    "text": "Bis Ihr Homey einen Preis hat",
+    "source": "645eb36f2a",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.fallbackSummary": {
     "text": "Ihr fester Tarif: {tariff}",
     "source": "f7e2ce6dd0",
@@ -1031,15 +1169,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "devices.prices.fixedBody": {
-    "text": "Ein Preis oder ein Tag- und ein Nachttarif.",
-    "source": "34fc3d0699",
+  "devices.prices.fixedBodyTimeOfUse": {
+    "text": "Ein Preis, ein Tag- und Nachttarif oder Preise nach Tageszeit.",
+    "source": "490e3104eb",
     "by": "ai",
     "reviewed": false
   },
   "devices.prices.fixedDayNight": {
     "text": "{day} tagsüber, {night} von {from} bis {to}",
     "source": "89da68c15a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedTimeOfUse": {
+    "text": "{periods} nach Tageszeit",
+    "source": "ffaa0ab5db",
     "by": "ai",
     "reviewed": false
   },
@@ -1073,15 +1217,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.homeyFixedBody": {
+    "text": "Der Preis aus den Energie-Einstellungen Ihres Homey: {price} pro kWh.",
+    "source": "1feef68ff6",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.homeyNeeds": {
     "text": "Erfordert einen Homey Pro (2023), Homey Pro mini oder Homey Cloud mit Homey v12.6 oder neuer. Dieser Homey: {homey}.",
     "source": "24bbf7c602",
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.homeyNoneBody": {
+    "text": "Ihr Homey hat noch keinen Preis. Legen Sie ihn in Homeys Energie-Einstellungen fest oder wählen Sie hier einen festen Tarif.",
+    "source": "36f0826351",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.homeyTitle": {
     "text": "Von Ihrem Homey",
     "source": "669acda4cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedBody": {
+    "text": "Bisher nutzte dieser Homey niederländische Marktpreise, mit denen jeder neue Homey startete. Jetzt nutzt er den Preis aus Ihrem Homey. Wählen Sie unten bei Bedarf eine andere Quelle.",
+    "source": "1206436e0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedDone": {
+    "text": "Verstanden",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedTitle": {
+    "text": "Ihre Preise kommen jetzt von Ihrem Homey",
+    "source": "b70c85920c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.noPriceYet": {
+    "text": "Noch kein Preis",
+    "source": "9522fee5ea",
     "by": "ai",
     "reviewed": false
   },
@@ -1097,7 +1277,55 @@
     "by": "ai",
     "reviewed": false
   },
+  "devices.prices.tabElectricity": {
+    "text": "Strom",
+    "source": "a8b41baa4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabGasWater": {
+    "text": "Gas und Wasser",
+    "source": "2bfbf82500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMeters": {
+    "text": "Zähler",
+    "source": "efd2ff9344",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMetersProblem": {
+    "text": "ein Zähler muss geprüft werden",
+    "source": "287704a49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabToday": {
+    "text": "Heute",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabTodayDown": {
+    "text": "die Quelle antwortet nicht",
+    "source": "2feb86b9a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabsLabel": {
+    "text": "Energie-Einstellungen",
+    "source": "a624d28319",
+    "by": "ai",
+    "reviewed": false
+  },
   "devices.prices.todayTitle": {
+    "text": "Preise heute",
+    "source": "9e5e43719a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.todaysPrices": {
     "text": "Preise heute",
     "source": "9e5e43719a",
     "by": "ai",
@@ -1109,15 +1337,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "devices.prices.waterHint": {
-    "text": "1 m³ sind 1.000 Liter",
-    "source": "dd0020bd0e",
-    "by": "ai",
-    "reviewed": false
-  },
   "devices.screen.description": {
     "text": "{count, plural, one {# Gerät} other {# Geräte}}, live von Ihrem Homey.",
     "source": "fabedfb408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.descriptionWaiting": {
+    "text": "{count, plural, one {# Gerät} other {# Geräte}} · Verbindung zu Ihrem Homey wird hergestellt…",
+    "source": "5bae06adf1",
     "by": "ai",
     "reviewed": false
   },
@@ -1232,6 +1460,114 @@
   "devices.screen.title": {
     "text": "Geräte",
     "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.add": {
+    "text": "Zeitraum hinzufügen",
+    "source": "8240a931d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.name": {
+    "text": "Name des Zeitraums",
+    "source": "e883ac23d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.newPeriod": {
+    "text": "Normalzeit",
+    "source": "79a38096fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekdays": {
+    "text": "Nicht an Werktagen",
+    "source": "40b174a445",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekends": {
+    "text": "Nicht am Wochenende",
+    "source": "1378041089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.price": {
+    "text": "Preis",
+    "source": "93c91c851e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.remove": {
+    "text": "{name} entfernen",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.restHours": {
+    "text": "Alle übrigen Stunden",
+    "source": "7fe7ccda32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.seasons": {
+    "text": "Andere Preise im Sommer",
+    "source": "94231e8580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summer": {
+    "text": "Sommer",
+    "source": "c0de243c40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerFrom": {
+    "text": "Sommer ab",
+    "source": "4029e63330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerTo": {
+    "text": "Bis Ende",
+    "source": "680a017bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekdays": {
+    "text": "Werktage",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekends": {
+    "text": "Wochenende",
+    "source": "93dcf1d1d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.winter": {
+    "text": "Übriges Jahr",
+    "source": "a2a1e0eea6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.dayLabel": {
+    "text": "{day}: die Preiszeiträume über den Tag",
+    "source": "4abb636106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekdays": {
+    "text": "Werktage",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekends": {
+    "text": "Wochenende",
+    "source": "93dcf1d1d2",
     "by": "ai",
     "reviewed": false
   }
