@@ -1655,6 +1655,174 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.homeyApp.away": {
+    "text": "Keine Verbindung seit {time}",
+    "source": "66edde0963",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayNever": {
+    "text": "Keine Verbindung",
+    "source": "1dab88c5ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayText": {
+    "text": "Drücken erreicht Homey erst, wenn die App zurück ist. Prüfen Sie, ob sie läuft; sie verbindet sich selbst.",
+    "source": "f2241b2fd7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.cancel": {
+    "text": "Abbrechen",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connected": {
+    "text": "Verbunden mit {homey}",
+    "source": "c18d741fc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connectedBy": {
+    "text": "App {version} · verbunden von {name} am {date}",
+    "source": "c36a226e49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.disconnect": {
+    "text": "Trennen",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.enterCode": {
+    "text": "Code eingeben",
+    "source": "b0ed70c457",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.freeText": {
+    "text": "Die Tiledash-App für Homey gehört zu Pro. Ihre Homey-Kacheln und das Aussehen Ihrer Kacheln bleiben erhalten.",
+    "source": "0f27df7da9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.getPro": {
+    "text": "Pro holen",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.hidden": {
+    "text": "Von einem Flow ausgeblendet",
+    "source": "205fe16925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.nameTaken": {
+    "text": "Es gibt bereits eine Homey-Kachel mit diesem Namen.",
+    "source": "382af74ace",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.noTiles": {
+    "text": "Noch keine Homey-Kacheln. Wählen Sie beim Tippen „An Homey melden“ und benennen Sie sie dort.",
+    "source": "cf6d99b25f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.remove": {
+    "text": "Entfernen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.rename": {
+    "text": "Umbenennen",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.renameNote": {
+    "text": "Umbenennen ändert den Namen auch in Homey; Flows funktionieren weiter.",
+    "source": "3ffe044d14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.save": {
+    "text": "Speichern",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step1": {
+    "text": "Installieren Sie Tiledash aus dem Homey App Store auf {homey}.",
+    "source": "27d0f17285",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step2": {
+    "text": "Öffnen Sie in der Homey-App die Einstellungen der App und tippen Sie auf „Code anfordern“.",
+    "source": "d9100dd85b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step3": {
+    "text": "Tippen Sie dort auf „Tiledash öffnen“ oder geben Sie den Code hier ein.",
+    "source": "cb37fe3555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.tiles": {
+    "text": "Homey-Kacheln",
+    "source": "639c2fbbff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnect": {
+    "text": "Trennen",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectText": {
+    "text": "Kacheln melden nicht mehr an Homey und Flows können sie nicht ändern, bis Sie die App wieder verbinden.",
+    "source": "f134df4fd2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectTitle": {
+    "text": "Tiledash-App auf {homey} trennen?",
+    "source": "31670c9170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.failed": {
+    "text": "Einstellungen der Homey-App konnten nicht gelesen werden",
+    "source": "4dc2ec41f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.remove": {
+    "text": "Entfernen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeText": {
+    "text": "Kacheln, die sie melden, tun beim Drücken nichts mehr, und Flows mit ihr als Auslöser laufen nicht.",
+    "source": "0d0e153da8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeTitle": {
+    "text": "„{name}“ entfernen?",
+    "source": "7ad877bc4f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.houseCredits.balance": {
     "text": "{count, plural, one {# Credit} other {# Credits}}",
     "source": "558299e91d",
@@ -1784,6 +1952,12 @@
   "account.houseCredits.spendFloorPlan": {
     "text": "Bild eines Grundrisses erstellt",
     "source": "2116902e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spendWallpaper": {
+    "text": "Hintergrundbild erstellt",
+    "source": "4058e401d7",
     "by": "ai",
     "reviewed": false
   },
@@ -4529,6 +4703,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowHomeyApp": {
+    "text": "Kacheln in Homey-Flows",
+    "source": "cd052940c8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homeys",
     "source": "ecc1293aa7",
@@ -5090,6 +5270,18 @@
   "account.settings.generalAbout": {
     "text": "Wie Datum und Zahlen geschrieben werden und woher die Karten kommen.",
     "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyApp": {
+    "text": "Homey-App",
+    "source": "7b1d28695f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyAppAbout": {
+    "text": "Flows auf {homey} reagieren lassen, wenn eine Kachel gedrückt wird, und Kacheln ändern.",
+    "source": "6405df91c7",
     "by": "ai",
     "reviewed": false
   },

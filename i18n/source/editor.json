@@ -3557,6 +3557,132 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/historyExample.messages.ts"
   },
+  "editor.homeyTileTap.add": {
+    "en": "Add",
+    "context": "Button that makes the new Homey tile with the name typed.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.addFailed": {
+    "en": "Couldn’t add it: {reason}",
+    "context": "Error under the name field when making the Homey tile failed for another reason.",
+    "params": {
+      "reason": "Why, as the server said it. Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.awayText": {
+    "en": "Presses won’t reach Homey until it is. Check that the app runs on your Homey; it reconnects by itself.",
+    "context": "Text of the warning that the Tiledash app on the Homey is out of touch.",
+    "maxLength": 130,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.awayTitle": {
+    "en": "The Tiledash app on {homey} isn’t in touch",
+    "context": "Title of a warning in the tap settings: the Tiledash app on the Homey has no connection to Tiledash right now.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.connect": {
+    "en": "Connect the Homey app",
+    "context": "Button that opens the settings section where the Tiledash app on Homey is connected.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.connectText": {
+    "en": "Install Tiledash from the Homey App Store, open its settings and enter the code it shows in Tiledash. Once is enough for every tile.",
+    "context": "Text of the note that explains how to connect the Tiledash app on Homey (the Homey App Store is Athom’s app store; keep the name).",
+    "maxLength": 170,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.connectTitle": {
+    "en": "Connect the Tiledash app on {homey} first",
+    "context": "Title of a note in the tap settings when the Tiledash app on the person’s Homey was never connected.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.follows": {
+    "en": "This tile follows it: flows can switch it on and off, give it a text or number, a colour or an icon, or hide it.",
+    "context": "Note under the Homey tile dropdown: what flows in the Homey app can change on this tile.",
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.getPro": {
+    "en": "Get Pro",
+    "context": "Button that opens the plans to upgrade to Pro.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.homeyTile": {
+    "en": "Homey tile",
+    "context": "Label of the dropdown that picks which Homey tile a tap tells. A Homey tile is a name the Tiledash app on the person’s Homey knows and flows can use.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.homeyTileHint": {
+    "en": "Flows pick it by this name.",
+    "context": "Small hint under the Homey tile dropdown: flows in the Homey app choose the tile by its name.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.inAFlow": {
+    "en": "In a flow: When {name} is pressed.",
+    "context": "Note under the dropdown that says how the Homey tile shows up in a flow in the Homey app: as the trigger card \"When <name> is pressed\".",
+    "params": {
+      "name": "The Homey tile’s name. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.nameHint": {
+    "en": "Short and clear, as you’d say it in a flow: “Movie night”.",
+    "context": "Hint under the name field of a new Homey tile. The example is a name for a tile that starts a movie scene.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.nameInHomey": {
+    "en": "Name in Homey",
+    "context": "Label of the text field for a new Homey tile’s name, as flows will show it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.namePlaceholder": {
+    "en": "Movie night",
+    "context": "Placeholder of the name field of a new Homey tile, an example name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.nameTaken": {
+    "en": "There’s a Homey tile with this name already: pick it above.",
+    "context": "Error under the name field when another Homey tile of this Homey has the same name.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.newHomeyTile": {
+    "en": "New Homey tile…",
+    "context": "Last option of the Homey tile dropdown: makes a new Homey tile with a name the person types.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.ownerOnly": {
+    "en": "Only the Homey’s owner can tell Homey, for now.",
+    "context": "Note in the tap settings for someone using another person’s Homey as a member: only the owner can use this choice for now.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
+  "editor.homeyTileTap.pro": {
+    "en": "Let Homey flows react to this tile, and change it: on and off, a text, a colour or an icon, or hide it. Comes with Pro.",
+    "context": "Text in the tap settings on the Free plan, instead of the Homey tile fields; \"Pro\" is the paid plan. A button to get Pro follows.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
+  },
   "editor.houseGeneration.acceptAll": {
     "en": "Accept all",
     "context": "Button that accepts all the placed spots as they are.",
@@ -9367,6 +9493,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
   },
+  "editor.tapActions.homey": {
+    "en": "Tell Homey",
+    "context": "Tap action: tell the person’s Homey that this tile was pressed, through the Tiledash app on Homey, so flows there can start; the tile then follows what those flows set (phase 52).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
+  },
   "editor.tapActions.mood": {
     "en": "Set a mood",
     "context": "Tap action: set a Homey mood (a scene).",
@@ -9472,6 +9604,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
   },
+  "editor.tapChoices.noHomeyHere": {
+    "en": "Only on a dashboard’s tiles",
+    "context": "Grey hint beside the tap choice \"Tell Homey\" where it can’t be used (for example in the widget editor or on a floor plan): it works on a dashboard’s tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
+  },
   "editor.tapChoices.noLongerOffered": {
     "en": "No longer offered",
     "context": "Small grey note beside a stored tap choice that the widget’s designer no longer offers for this part. It stays visible, greyed out, so it can be seen and changed.",
@@ -9524,6 +9662,30 @@
     "en": "Device",
     "context": "Label of a dropdown under the tap choice \"Open device\": which device opens. It offers the tile’s own device first, then the others.",
     "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
+  },
+  "editor.tapSettings.homeyHintDismiss": {
+    "en": "Got it",
+    "context": "Button of the one-time hint at the tap picker: puts it away for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
+  },
+  "editor.tapSettings.homeyHintShow": {
+    "en": "Show me",
+    "context": "Button of the one-time hint at the tap picker: chooses Tell Homey for this tile.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
+  },
+  "editor.tapSettings.homeyHintText": {
+    "en": "Pick Tell Homey, then use the tile in a flow: When it is pressed, and flows can switch it, change its text or hide it.",
+    "context": "Text of the one-time hint at the tap picker. \"Tell Homey\" is the name of the tap choice, keep it as that choice is translated. A flow is an automation in Homey.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
+  },
+  "editor.tapSettings.homeyHintTitle": {
+    "en": "Homey can hear this tile",
+    "context": "Title of a one-time \"Did you know?\" hint at the tap picker of a tile, shown once the Tiledash app on Homey is connected: the tile can tell Homey it was pressed. \"Homey\" is the smart home hub, a name.",
+    "maxLength": 40,
     "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
   },
   "editor.tapSettings.mood": {
@@ -9805,6 +9967,60 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/stylePresets/HdTileCssSelection.messages.ts"
   },
+  "editor.tileIcon.caption": {
+    "en": "Icon",
+    "context": "Small caption above three cards in the settings of a device tile, where the icon the tile shows for its device is chosen.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.forItsKind": {
+    "en": "For its kind",
+    "context": "Label of the second card: the tile shows Tiledash’s own icon for this kind of device (a lamp, a socket, a thermostat), whatever was picked in Homey.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.fromHomey": {
+    "en": "From Homey",
+    "context": "Label of the first card: the tile shows the icon that was picked for this device in the Homey app. Homey is a product name and is not translated.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.fromLibrary": {
+    "en": "From the library",
+    "context": "Small note under \"Other\": the icon is picked from the icon library.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.noneInHomey": {
+    "en": "None picked in Homey",
+    "context": "Small note under \"From Homey\" when no icon was picked for this device in the Homey app, so the tile shows Tiledash’s icon for its kind instead. Homey is a product name and is not translated.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.other": {
+    "en": "Other",
+    "context": "Label of the third card: any other icon, picked from the icon library that opens under the cards.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.pickedInHomey": {
+    "en": "Picked in Homey",
+    "context": "Small note under \"From Homey\" when an icon was picked for this device in the Homey app. Homey is a product name and is not translated.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.pickerName": {
+    "en": "Icon",
+    "context": "Name of the icon picker shown under the cards when \"Other\" is chosen. It is used in screen reader labels such as \"Search icon\" and is lowercased there. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
+  "editor.tileIcon.tiledashIcon": {
+    "en": "Tiledash’s icon",
+    "context": "Small note under \"For its kind\": the icon is Tiledash’s own. Tiledash is a product name and is not translated.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdTileIconChoice.messages.ts"
+  },
   "editor.tileMap.alsoOn": {
     "en": "Also on the map",
     "context": "Label of the group where more places can be marked on the map besides the tile’s own device: home and other devices.",
@@ -9995,6 +10211,12 @@
   "editor.tileShowing.empty": {
     "en": "It has nothing to show",
     "context": "Reason shown on a dimmed tile in edit mode, after \"Hidden now\": the tile’s widget has nothing to show at the moment (for example a list with no entries), and the tile is set to hide itself then. Short.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/tileShowing.messages.ts"
+  },
+  "editor.tileShowing.homeyHid": {
+    "en": "A Homey flow hid it",
+    "context": "Reason shown on a dimmed tile in edit mode, after \"Hidden now\": a flow on the person’s Homey (through the Tiledash app on Homey) said to hide this tile. Short.",
     "maxLength": 50,
     "file": "apps/web/src/dashboards/tileShowing.messages.ts"
   },
@@ -11706,16 +11928,82 @@
     "maxLength": 140,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallpaper.asByDay": {
+    "en": "As by day",
+    "context": "Shown in an empty night picture field: without a night picture, the day picture shows at night too.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.blur": {
     "en": "Blur",
     "context": "Slider that blurs the wallpaper picture.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.colours": {
+    "en": "Colours",
+    "context": "Name of the choice of colours for an abstract scene: the theme’s, or a fixed colourway.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.day": {
+    "en": "Day",
+    "context": "Switch above the wallpaper pictures: choose the pictures shown by day (the other choice is Night).",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.dim": {
     "en": "Dim",
     "context": "Slider that fades the wallpaper towards the theme’s background (darker on a dark theme, lighter on a light one), so the tiles stay readable.",
     "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectClouds": {
+    "en": "Clouds",
+    "context": "Effect: clouds drifting slowly over the wallpaper.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectMist": {
+    "en": "Mist",
+    "context": "Effect: a soft mist rolling over the bottom of the wallpaper.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectRain": {
+    "en": "Rain",
+    "context": "Effect: rain falling over the wallpaper.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectSnow": {
+    "en": "Snow",
+    "context": "Effect: snow falling over the wallpaper.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectStars": {
+    "en": "Stars at night",
+    "context": "Effect: stars twinkling over the wallpaper at night.",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectWeather": {
+    "en": "Live weather",
+    "context": "Effect: shows what the weather does where the user’s Homey is (rain, snow, mist, lightning, clouds; stars on a clear night).",
+    "maxLength": 18,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effects": {
+    "en": "Effects",
+    "context": "Name of the choice of effects floating over the wallpaper: live weather, clouds, rain, snow, mist, stars.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.effectsHint": {
+    "en": "They float over the picture or scene. Live weather shows what the weather does where your Homey is.",
+    "context": "Hint under the effects.",
+    "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.fit": {
@@ -11736,6 +12024,36 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.follow": {
+    "en": "Night starts",
+    "context": "Name of the choice when the wallpaper switches to its night look.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.followSun": {
+    "en": "At sunset",
+    "context": "Choice: the wallpaper shows its night from sunset to sunrise where the user’s Homey is.",
+    "maxLength": 22,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.followSunHint": {
+    "en": "From sunset to sunrise where your Homey is, whatever the theme.",
+    "context": "Hint under the Night starts choice when At sunset is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.followTheme": {
+    "en": "With the theme",
+    "context": "Choice: the wallpaper shows its night when the theme is a dark one.",
+    "maxLength": 22,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.followThemeHint": {
+    "en": "A dark theme shows the night, a light one the day.",
+    "context": "Hint under the Night starts choice when With the theme is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.freeKept": {
     "en": "This dashboard’s wallpaper is kept, and shows again with Pro.",
     "context": "Text of the Wallpaper setting for someone back on the free plan who had set a wallpaper: it is not shown now but kept.",
@@ -11743,9 +12061,9 @@
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.freeText": {
-    "en": "Put a picture of your own behind the tiles. Wallpapers come with Pro.",
+    "en": "Put a picture of your own or a moving scene behind the tiles, by day and by night. Wallpapers come with Pro.",
     "context": "Text of the Wallpaper setting for someone on the free plan, who cannot use it.",
-    "maxLength": 120,
+    "maxLength": 140,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.getPro": {
@@ -11760,6 +12078,57 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.hintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes the one-time bubble about making a wallpaper with AI.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.hintText": {
+    "en": "Describe a view in a few words, and it is painted by day and at night, with the moving sky behind it.",
+    "context": "Text of the one-time bubble pointing at the Make one with AI button.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.hintTitle": {
+    "en": "Make a wallpaper with AI",
+    "context": "Title of a one-time “did you know” bubble pointing at the Make one with AI button of the wallpaper setting.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.make": {
+    "en": "Make one with AI…",
+    "context": "Button by the wallpaper pictures that opens a dialog to have AI paint a wallpaper (a day and a night picture), for credits.",
+    "maxLength": 28,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.motionHint": {
+    "en": "A screen that can’t keep the scene smooth moves less of it. Reduced motion keeps it still.",
+    "context": "Hint at the end of the Wallpaper setting with a scene: slow screens move fewer parts of it, and the reduced motion setting stops it moving.",
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.night": {
+    "en": "Night",
+    "context": "Switch above the wallpaper pictures: choose the pictures shown at night (the other choice is Day).",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.nightPickerTitle": {
+    "en": "Wallpaper for {size} at night",
+    "context": "Title of the picture library opened for a wallpaper’s night picture, and that field’s name. {size} is “Desktop”, “Tablet” or “Phone”.",
+    "params": {
+      "size": "The name of the screen size, Desktop, Tablet or Phone. A name, already translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.onlyScene": {
+    "en": "Only the scene",
+    "context": "Shown in an empty Desktop picture field when a scene is chosen: the scene shows alone.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.ownSizeHint": {
     "en": "A picture of its own for {size}, e.g. one taken upright for a phone.",
     "context": "Hint under the wallpaper pictures for Tablet or Phone. {size} is the screen size, “Tablet” or “Phone”.",
@@ -11769,6 +12138,42 @@
     "maxLength": 100,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.paletteDusk": {
+    "en": "Dusk",
+    "context": "Colour choice for an abstract scene: lilac, rose and peach, like the sky at dusk.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.paletteOcean": {
+    "en": "Ocean",
+    "context": "Colour choice for an abstract scene: deep and light blues, like the sea.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.paletteSand": {
+    "en": "Sand",
+    "context": "Colour choice for an abstract scene: warm sand and terracotta.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.paletteTheme": {
+    "en": "Theme",
+    "context": "Colour choice for an abstract scene: the colours of the dashboard’s theme.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pan": {
+    "en": "Slow pan",
+    "context": "Switch that makes the wallpaper picture drift slowly, as a camera panning would.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.panHint": {
+    "en": "The picture drifts gently, as a camera would.",
+    "context": "Hint next to the Slow pan switch.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.pickerTitle": {
     "en": "Wallpaper for {size}",
     "context": "Title of the picture library opened from the Wallpaper setting, and the name of that setting’s picture field for one screen size. {size} is “Desktop”, “Tablet” or “Phone”.",
@@ -11776,6 +12181,24 @@
       "size": "The name of the screen size, Desktop, Tablet or Phone. A name, already translated."
     },
     "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.picture": {
+    "en": "Picture",
+    "context": "Name of the part of the Wallpaper setting where the pictures are chosen.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pictureHint": {
+    "en": "Without a night picture the day one shows at night too. A picture with an empty sky, like one made with AI, lets the scene show through it.",
+    "context": "Hint under the wallpaper pictures.",
+    "maxLength": 180,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pictureTime": {
+    "en": "Pictures for",
+    "context": "Accessible name of the Day / Night switch above the wallpaper pictures.",
+    "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.pro": {
@@ -11799,11 +12222,312 @@
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.scene": {
+    "en": "Scene",
+    "context": "Name of the choice of a moving scene behind the tiles: none, painted landscapes (sky, dunes) or abstract ones (waves, silk, glow).",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneAbstract": {
+    "en": "Abstract",
+    "context": "Group of scenes that are abstract, not landscapes: flowing wave forms, silk ribbons, soft glowing colour.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneBlocked": {
+    "en": "Scenes show behind a picture with an empty sky. This picture fills the screen, so remove it or pick one with an empty sky, like one made with AI.",
+    "context": "Shown under the greyed-out scenes when the wallpaper’s picture covers the whole screen, so a moving scene behind it could not be seen.",
+    "maxLength": 200,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneDunes": {
+    "en": "Dunes",
+    "context": "Scene choice: the painted sky with soft rolling sand dunes swaying in front.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneGlow": {
+    "en": "Glow",
+    "context": "Abstract scene choice: soft blobs of colour drifting slowly, like a soft gradient.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneHint": {
+    "en": "It moves slowly behind the tiles: a painted sky with clouds by day and stars at night, or soft abstract shapes in your theme’s colours. It shows behind a picture with an empty sky.",
+    "context": "Hint under the scene choice.",
+    "maxLength": 180,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneLandscapes": {
+    "en": "Landscapes",
+    "context": "Group of scenes that are painted landscapes: a sky, and dunes under a sky.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneNone": {
+    "en": "None",
+    "context": "Scene choice: no moving scene, only the picture (or nothing).",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneSilk": {
+    "en": "Silk",
+    "context": "Abstract scene choice: ribbons of silk drifting slowly over soft light.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneSky": {
+    "en": "Sky",
+    "context": "Scene choice: a painted sky with clouds drifting by day, a moon and stars at night.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneTurnedOff": {
+    "en": "The scene is off: this picture fills the screen, so it would hide the scene.",
+    "context": "Shown after picking a picture that covers the whole screen while a scene was chosen: the scene was turned off.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneWaves": {
+    "en": "Waves",
+    "context": "Abstract scene choice: slow flowing wave forms in soft colours, not a landscape.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.tilesHint": {
     "en": "Tiles keep their own background. To let the wallpaper through a tile, change its background in its style.",
     "context": "Hint at the end of the Wallpaper setting: the tiles are not made see-through; the user can change a tile’s background in that tile’s style panel.",
     "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaperMake.about": {
+    "en": "It paints a day picture and the same view at night, and adds both to your pictures. Your words go to OpenAI to paint it.",
+    "context": "Note in the dialog: what is made, where it goes, and that the description is sent to OpenAI, the company whose image model paints it.",
+    "maxLength": 200,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.added": {
+    "en": "Added to your pictures as “{name}”.",
+    "context": "Under the made wallpaper: its pictures are in the library with this name.",
+    "params": {
+      "name": "The picture’s name, from the user’s description."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.again": {
+    "en": "{count, plural, one {Try again · # credit} other {Try again · # credits}}",
+    "context": "Button that paints another wallpaper from the same description, with what it costs.",
+    "params": {
+      "count": "How many credits it costs."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.balance": {
+    "en": "{count, plural, one {You have # credit} other {You have # credits}}",
+    "context": "The user’s balance of credits, next to the button that spends them.",
+    "params": {
+      "count": "How many credits the user has."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.buy": {
+    "en": "Buy credits",
+    "context": "Button that opens the page to buy credits.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.failed": {
+    "en": "{why, select, refused {The image model refused this one. Your credits are back.} busy {A wallpaper is already being made. Try again when it’s done.} other {This one didn’t work out. Your credits are back.}}",
+    "context": "Shown when the wallpaper could not be made: refused by the image model, another one still being made, or another error; in the first and last case the credits were given back.",
+    "params": {
+      "why": "refused, busy or other."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.full": {
+    "en": "Your pictures are full. Delete one or two first.",
+    "context": "Shown when the user’s picture library has no room for the two new pictures.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.ideaBeach": {
+    "en": "A quiet beach with dunes",
+    "context": "An example to start from, filled in when tapped. A landscape idea for a wallpaper.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.ideaForest": {
+    "en": "Pine forest by a lake",
+    "context": "An example to start from, filled in when tapped. A landscape idea for a wallpaper.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.ideaHills": {
+    "en": "Rolling hills in Tuscany",
+    "context": "An example to start from, filled in when tapped. A landscape idea for a wallpaper.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.ideaMountains": {
+    "en": "Snowy mountains",
+    "context": "An example to start from, filled in when tapped. A landscape idea for a wallpaper.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.ideaPolder": {
+    "en": "A Dutch polder with a windmill",
+    "context": "An example to start from, filled in when tapped. A landscape idea for a wallpaper.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.look": {
+    "en": "Look",
+    "context": "Name of the choice how the wallpaper is painted: painted, photo or watercolour.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.lookPainted": {
+    "en": "Painted",
+    "context": "Look of the wallpaper: a calm digital painting.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.lookPhoto": {
+    "en": "Photo",
+    "context": "Look of the wallpaper: like a photograph.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.lookWatercolour": {
+    "en": "Watercolour",
+    "context": "Look of the wallpaper: a watercolour painting.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.makeIt": {
+    "en": "{count, plural, one {Make it · # credit} other {Make it · # credits}}",
+    "context": "Button that starts painting the wallpaper, with what it costs.",
+    "params": {
+      "count": "How many credits it costs."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.making": {
+    "en": "Painting your wallpaper…",
+    "context": "Shown while the wallpaper is being painted.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.makingHint": {
+    "en": "About a minute: first the day, then the same view at night. You can close this; it carries on, and its pictures appear with yours.",
+    "context": "Hint while the wallpaper is being painted.",
+    "maxLength": 180,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.noCredits": {
+    "en": "It takes {cost} credits, and you have {count}.",
+    "context": "Shown when the user has too few credits to make a wallpaper.",
+    "params": {
+      "cost": "How many credits it takes.",
+      "count": "How many credits the user has."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.pictures": {
+    "en": "Your pictures",
+    "context": "Button that opens the user’s picture library to delete pictures.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.shape": {
+    "en": "Shape",
+    "context": "Name of the choice of the wallpaper’s shape: wide (screens, tablets) or upright (phones).",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.shapeUpright": {
+    "en": "Upright",
+    "context": "Shape of the wallpaper: taller than wide, for phones.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.shapeWide": {
+    "en": "Wide",
+    "context": "Shape of the wallpaper: wider than tall, for screens and tablets on their side.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.showDay": {
+    "en": "Day",
+    "context": "Switch under the made wallpaper: show the day picture.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.showNight": {
+    "en": "Night",
+    "context": "Switch under the made wallpaper: show the night picture.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.shown": {
+    "en": "Show",
+    "context": "Accessible name of the Day / Night switch under the made wallpaper.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.sky": {
+    "en": "Sky",
+    "context": "Name of the choice of the wallpaper’s sky.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.skyLiving": {
+    "en": "The living sky",
+    "context": "Choice: the landscape is painted without a sky, so the moving painted sky (clouds by day, stars at night) shows behind it.",
+    "maxLength": 22,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.skyLivingHint": {
+    "en": "The landscape is painted without a sky, so the moving sky shows behind it: clouds by day, stars at night.",
+    "context": "Hint under the sky choice when The living sky is chosen.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.skyOwn": {
+    "en": "Its own sky",
+    "context": "Choice: a whole picture with a sky of its own, which does not move.",
+    "maxLength": 22,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.skyOwnHint": {
+    "en": "A whole picture, sky and all. It doesn’t move, but the night picture still fades in.",
+    "context": "Hint under the sky choice when Its own sky is chosen.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.title": {
+    "en": "Make a wallpaper with AI",
+    "context": "Title of the dialog where AI paints a wallpaper.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.use": {
+    "en": "Use it",
+    "context": "Button that puts the made pictures on this dashboard’s wallpaper.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
+  },
+  "editor.wallpaperMake.what": {
+    "en": "What should it show?",
+    "context": "Label of the text field where the user describes the wallpaper in a few words.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWallpaperMake.messages.ts"
   },
   "editor.weatherPlace.credit": {
     "en": "Search by OpenStreetMap Nominatim",

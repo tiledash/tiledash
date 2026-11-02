@@ -1655,6 +1655,174 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.homeyApp.away": {
+    "text": "Sin contacto desde {time}",
+    "source": "66edde0963",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayNever": {
+    "text": "Sin contacto",
+    "source": "1dab88c5ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayText": {
+    "text": "Las pulsaciones no llegarán a Homey hasta que vuelva. Comprueba que la app funciona; se reconecta sola.",
+    "source": "f2241b2fd7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.cancel": {
+    "text": "Cancelar",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connected": {
+    "text": "Conectada en {homey}",
+    "source": "c18d741fc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connectedBy": {
+    "text": "App {version} · conectada por {name} el {date}",
+    "source": "c36a226e49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.disconnect": {
+    "text": "Desconectar",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.enterCode": {
+    "text": "Introducir el código",
+    "source": "b0ed70c457",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.freeText": {
+    "text": "La app Tiledash para Homey viene con Pro. Tus mosaicos de Homey y el aspecto de los mosaicos se conservan.",
+    "source": "0f27df7da9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.getPro": {
+    "text": "Pasar a Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.hidden": {
+    "text": "Oculto por un Flow",
+    "source": "205fe16925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.nameTaken": {
+    "text": "Ya hay un mosaico de Homey con este nombre.",
+    "source": "382af74ace",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.noTiles": {
+    "text": "Aún no hay mosaicos de Homey. Elige «Avisar a Homey» al tocar un mosaico y ponle un nombre allí.",
+    "source": "cf6d99b25f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.remove": {
+    "text": "Quitar",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.rename": {
+    "text": "Cambiar nombre",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.renameNote": {
+    "text": "Al cambiar el nombre, también cambia en Homey; los Flows siguen funcionando.",
+    "source": "3ffe044d14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.save": {
+    "text": "Guardar",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step1": {
+    "text": "Instala Tiledash desde la Homey App Store en {homey}.",
+    "source": "27d0f17285",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step2": {
+    "text": "Abre los ajustes de la app en la app Homey y toca «Obtener un código».",
+    "source": "d9100dd85b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step3": {
+    "text": "Toca allí «Abrir Tiledash» o introduce el código aquí.",
+    "source": "cb37fe3555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.tiles": {
+    "text": "Mosaicos de Homey",
+    "source": "639c2fbbff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnect": {
+    "text": "Desconectar",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectText": {
+    "text": "Los mosaicos dejan de avisar a Homey y los Flows no pueden cambiarlos hasta que vuelvas a conectarla.",
+    "source": "f134df4fd2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectTitle": {
+    "text": "¿Desconectar la app Tiledash en {homey}?",
+    "source": "31670c9170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.failed": {
+    "text": "No se pudieron leer los ajustes de la app para Homey",
+    "source": "4dc2ec41f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.remove": {
+    "text": "Quitar",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeText": {
+    "text": "Los mosaicos que lo usan no harán nada al pulsarlos, y los Flows que inicia dejarán de ejecutarse.",
+    "source": "0d0e153da8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeTitle": {
+    "text": "¿Quitar «{name}»?",
+    "source": "7ad877bc4f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.houseCredits.balance": {
     "text": "{count, plural, one {# crédito} other {# créditos}}",
     "source": "558299e91d",
@@ -1784,6 +1952,12 @@
   "account.houseCredits.spendFloorPlan": {
     "text": "Imagen de plano creada",
     "source": "2116902e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spendWallpaper": {
+    "text": "Fondo de pantalla creado",
+    "source": "4058e401d7",
     "by": "ai",
     "reviewed": false
   },
@@ -4529,6 +4703,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowHomeyApp": {
+    "text": "Mosaicos en Flows de Homey",
+    "source": "cd052940c8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homeys",
     "source": "ecc1293aa7",
@@ -5090,6 +5270,18 @@
   "account.settings.generalAbout": {
     "text": "Cómo se escriben las fechas y los números, y de dónde vienen los mapas.",
     "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyApp": {
+    "text": "App para Homey",
+    "source": "7b1d28695f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyAppAbout": {
+    "text": "Deja que los Flows de {homey} reaccionen cuando se pulsa un mosaico y que cambien mosaicos.",
+    "source": "6405df91c7",
     "by": "ai",
     "reviewed": false
   },

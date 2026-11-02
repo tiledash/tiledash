@@ -86,6 +86,48 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
   },
+  "viewer.actions.homeyAppAway": {
+    "en": "The Tiledash app on your Homey isn’t in touch. Check that it runs; it reconnects by itself.",
+    "context": "Reason under \"Couldn’t tell Homey\": the Tiledash app installed on the person’s Homey has no connection to Tiledash right now.",
+    "maxLength": 120,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.homeyNeedsPro": {
+    "en": "Telling Homey comes with Pro.",
+    "context": "Reason under \"Couldn’t tell Homey\": the Homey’s owner is on the Free plan, and this feature is part of the paid Pro plan.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.homeyNotTold": {
+    "en": "Couldn’t tell Homey “{name}”",
+    "context": "Title of a red message (toast) when a tile’s press didn’t reach the person’s Homey. The reason follows under it. The quotes are around the Homey tile’s name.",
+    "params": {
+      "name": "The Homey tile’s name, as the person named it. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.homeyOwnerOnly": {
+    "en": "Only the Homey’s owner can tell Homey, for now.",
+    "context": "Reason under \"Couldn’t tell Homey\": the person uses someone else’s Homey as a member, and only the owner can press Homey tiles for now.",
+    "maxLength": 80,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.homeyTileMissing": {
+    "en": "That Homey tile isn’t there any more",
+    "context": "Red message (toast) when a tile tells Homey through a \"Homey tile\" (a name the Tiledash app on Homey knows, phase 52) that was removed meanwhile.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
+  "viewer.actions.homeyTold": {
+    "en": "Told Homey “{name}”",
+    "context": "Title of a green message (toast) after a tile told Homey it was pressed: the Tiledash app on the person’s Homey now runs the flows that start with it. The quotes are around the Homey tile’s name.",
+    "params": {
+      "name": "The Homey tile’s name, as the person named it. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
   "viewer.actions.logInAgain": {
     "en": "Log in again",
     "context": "Button on the red toast about a Logic variable that could not be changed. It logs in to Athom (the maker of Homey) again, which asks for the permissions again. A command.",

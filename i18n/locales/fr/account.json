@@ -1655,6 +1655,174 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.homeyApp.away": {
+    "text": "Pas de contact depuis {time}",
+    "source": "66edde0963",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayNever": {
+    "text": "Pas encore de contact",
+    "source": "1dab88c5ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.awayText": {
+    "text": "Les appuis n’atteignent pas Homey avant son retour. Vérifiez que l’app tourne ; elle se reconnecte seule.",
+    "source": "f2241b2fd7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connected": {
+    "text": "Connectée sur {homey}",
+    "source": "c18d741fc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.connectedBy": {
+    "text": "App {version} · connectée par {name} le {date}",
+    "source": "c36a226e49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.disconnect": {
+    "text": "Déconnecter",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.enterCode": {
+    "text": "Saisir le code",
+    "source": "b0ed70c457",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.freeText": {
+    "text": "L’app Tiledash pour Homey est incluse dans Pro. Vos tuiles Homey et l’apparence de vos tuiles sont conservées.",
+    "source": "0f27df7da9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.getPro": {
+    "text": "Passer à Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.hidden": {
+    "text": "Masquée par un Flow",
+    "source": "205fe16925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.nameTaken": {
+    "text": "Une tuile Homey porte déjà ce nom.",
+    "source": "382af74ace",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.noTiles": {
+    "text": "Aucune tuile Homey. Réglez l’appui d’une tuile sur « Signaler à Homey » et nommez-la là.",
+    "source": "cf6d99b25f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.remove": {
+    "text": "Supprimer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.rename": {
+    "text": "Renommer",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.renameNote": {
+    "text": "Renommer change aussi le nom dans Homey ; les Flows continuent de fonctionner.",
+    "source": "3ffe044d14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.save": {
+    "text": "Enregistrer",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step1": {
+    "text": "Installez Tiledash depuis le Homey App Store sur {homey}.",
+    "source": "27d0f17285",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step2": {
+    "text": "Dans l’app Homey, ouvrez les réglages de l’app et appuyez sur « Obtenir un code ».",
+    "source": "d9100dd85b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.step3": {
+    "text": "Appuyez-y sur « Ouvrir Tiledash », ou saisissez le code ici.",
+    "source": "cb37fe3555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyApp.tiles": {
+    "text": "Tuiles Homey",
+    "source": "639c2fbbff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnect": {
+    "text": "Déconnecter",
+    "source": "acfc5be785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectText": {
+    "text": "Les tuiles cessent de signaler à Homey et les Flows ne peuvent plus les modifier, jusqu’à ce que vous la reconnectiez.",
+    "source": "f134df4fd2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.disconnectTitle": {
+    "text": "Déconnecter l’app Tiledash sur {homey} ?",
+    "source": "31670c9170",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.failed": {
+    "text": "Impossible de lire les réglages de l’app Homey",
+    "source": "4dc2ec41f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.remove": {
+    "text": "Supprimer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeText": {
+    "text": "Les tuiles liées ne feront plus rien à l’appui, et les Flows qu’elle lance ne s’exécuteront plus.",
+    "source": "0d0e153da8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.homeyAppHost.removeTitle": {
+    "text": "Supprimer « {name} » ?",
+    "source": "7ad877bc4f",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.houseCredits.balance": {
     "text": "{count, plural, one {# crédit} many {# crédits} other {# crédits}}",
     "source": "558299e91d",
@@ -1784,6 +1952,12 @@
   "account.houseCredits.spendFloorPlan": {
     "text": "Image de plan d’étage créée",
     "source": "2116902e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.houseCredits.spendWallpaper": {
+    "text": "Fond d’écran créé",
+    "source": "4058e401d7",
     "by": "ai",
     "reviewed": false
   },
@@ -4529,6 +4703,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowHomeyApp": {
+    "text": "Tuiles dans les Flows Homey",
+    "source": "cd052940c8",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowHomeys": {
     "text": "Homey",
     "source": "ecc1293aa7",
@@ -5090,6 +5270,18 @@
   "account.settings.generalAbout": {
     "text": "Comment s’écrivent les dates et les nombres, et d’où viennent les cartes.",
     "source": "10d20bb256",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyApp": {
+    "text": "App Homey",
+    "source": "7b1d28695f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.homeyAppAbout": {
+    "text": "Laissez les Flows de {homey} réagir à l’appui sur une tuile, et modifier les tuiles.",
+    "source": "6405df91c7",
     "by": "ai",
     "reviewed": false
   },

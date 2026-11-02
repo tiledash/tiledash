@@ -377,6 +377,36 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
+  "login.consent.homeyAppAllow0": {
+    "en": "Hear when a tile that tells Homey is pressed, with the dashboard and screen",
+    "context": "Item in the list of what the Tiledash app on the person’s Homey (an app installed on the smart-home hub) may do once allowed. A tile \"tells Homey\" when its tap is set to \"Tell Homey\"; \"screen\" is the wall panel or browser it was pressed on.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.homeyAppAllow1": {
+    "en": "Change those tiles from flows: on and off, a text or number, a colour, an icon, hidden",
+    "context": "Item in the list of what the Tiledash app on the Homey may do. Flows are the Homey’s automations; they can change how those tiles look.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.homeyAppAllow2": {
+    "en": "See the names of this Homey’s Homey tiles",
+    "context": "Item in the list of what the Tiledash app on the Homey may do. A Homey tile is a name that tiles tell when pressed and flows can use.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.homeyAppDeny0": {
+    "en": "See your dashboards, devices, history or account",
+    "context": "Item in the list of what the Tiledash app on the Homey can never do. History means recorded values over time.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.homeyAppDeny1": {
+    "en": "Reach any other Homey",
+    "context": "Item in the list of what the Tiledash app on the Homey can never do: it works for this one Homey only.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
   "login.consent.publishAllow0": {
     "en": "Publish new items and new versions under your community name",
     "context": "Item in the list of what the Tiledash command line may do after the person allows it. The community is Tiledash's public store where people share widgets and themes; an item is a widget or a theme there; the community name is the person's public name in it.",
@@ -643,6 +673,34 @@
     "en": "This code ran out.",
     "context": "Heading shown when the code from the terminal is no longer valid (it was used or took too long).",
     "maxLength": 40,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.homeyAppDoneBody": {
+    "en": "The Tiledash app on your Homey is connected. Give a tile’s tap Tell Homey to use it in flows.",
+    "context": "Line after the Tiledash app on Homey was allowed. \"Tell Homey\" is the name of a tap choice in a tile’s settings; use the same words.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.homeyAppIntro": {
+    "en": "The <strong>Tiledash app on {homey}</strong> asks to connect. Check that its settings show <shown>{code}</shown>.",
+    "context": "Line on the confirm step when the code comes from the Tiledash app installed on the person’s Homey (smart-home hub). The first tag is bold, the second shows the code in large letters.",
+    "params": {
+      "code": "The code, like WDJB-MJHT.",
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.homeyAppNotYours": {
+    "en": "This code is for a Homey you don’t use in Tiledash. Sign in with the account that has it.",
+    "context": "Error on the confirm step when the Tiledash app’s code is for a Homey this Tiledash account doesn’t have.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
+  },
+  "login.deviceSignIn.homeyAppNote": {
+    "en": "Enter only a code that the Tiledash app on your own Homey shows. You can disconnect it in Settings › Homey app.",
+    "context": "Note on the confirm step for the Tiledash app on Homey. \"Settings › Homey app\" is a place in Tiledash; use the same words as there.",
+    "maxLength": 140,
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
   },
   "login.deviceSignIn.noHandle": {

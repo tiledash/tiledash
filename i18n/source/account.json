@@ -1883,6 +1883,194 @@
     "maxLength": 60,
     "file": "packages/ui/src/pin/extraPins.messages.ts"
   },
+  "account.homeyApp.away": {
+    "en": "Not in touch since {time}",
+    "context": "Status line: the Tiledash app on the Homey is connected but has had no contact with Tiledash since the time given.",
+    "params": {
+      "time": "When it was last heard from, like 10:42 or 3 November."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.awayNever": {
+    "en": "Not in touch",
+    "context": "Status line: the Tiledash app on the Homey is connected but has never been in contact yet.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.awayText": {
+    "en": "Presses won’t reach Homey until it’s back. Check that the app runs on your Homey; it reconnects by itself.",
+    "context": "Grey line under \"Not in touch\": while the Tiledash app on Homey is out of touch, pressing a tile does not reach Homey (it is not kept to send later).",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.cancel": {
+    "en": "Cancel",
+    "context": "Button that stops renaming a Homey tile.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.connected": {
+    "en": "Connected on {homey}",
+    "context": "Status line: the Tiledash app on the Homey is connected and in touch.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.connectedBy": {
+    "en": "App {version} · connected by {name} on {date}",
+    "context": "Grey line under the status: the app’s version, who connected it and when.",
+    "params": {
+      "date": "The day, like 3 November.",
+      "name": "The person who connected it. Not translated.",
+      "version": "The app’s version, like 1.0.2."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.disconnect": {
+    "en": "Disconnect",
+    "context": "Button that disconnects the Tiledash app on the Homey from Tiledash.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.enterCode": {
+    "en": "Enter the code",
+    "context": "Button that opens the page where a code from the Tiledash app on Homey is typed and allowed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.freeText": {
+    "en": "The Tiledash app for Homey comes with Pro. Your Homey tiles and how tiles look are kept.",
+    "context": "Text of the Homey app settings on the Free plan; \"Pro\" is the paid plan. A button to get Pro follows.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.getPro": {
+    "en": "Get Pro",
+    "context": "Button that opens the plans to upgrade to Pro.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.hidden": {
+    "en": "Hidden by a flow",
+    "context": "Grey note beside a Homey tile: a flow hid it, so the tiles that tell it are hidden.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.nameTaken": {
+    "en": "There’s a Homey tile with this name already.",
+    "context": "Error under the name field when renaming to a name another Homey tile has.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.noTiles": {
+    "en": "No Homey tiles yet. Set a tile’s tap to Tell Homey and name one there.",
+    "context": "Shown when there are no Homey tiles yet. \"Tell Homey\" is the name of the tap choice in a tile’s settings; use the same words.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.remove": {
+    "en": "Remove",
+    "context": "Button beside a Homey tile that removes it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.rename": {
+    "en": "Rename",
+    "context": "Button beside a Homey tile that lets its name be changed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.renameNote": {
+    "en": "Renaming changes the name in Homey too; flows keep working.",
+    "context": "Small note under the list of Homey tiles.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.save": {
+    "en": "Save",
+    "context": "Button that saves a Homey tile’s new name.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.step1": {
+    "en": "Install Tiledash from the Homey App Store on {homey}.",
+    "context": "First of three steps to connect the Tiledash app on Homey. The Homey App Store is Athom’s app store; keep its name.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.step2": {
+    "en": "Open the app’s settings in the Homey app and tap Get a code.",
+    "context": "Second step: in the Homey mobile app, open the Tiledash app’s settings page, which has a button \"Get a code\".",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.step3": {
+    "en": "Tap Open Tiledash there, or enter the code here.",
+    "context": "Third step: the app’s settings page has a button \"Open Tiledash\" that fills in the code; or the person types it after the button below.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyApp.tiles": {
+    "en": "Homey tiles",
+    "context": "Heading of the list of Homey tiles: names that tiles tell when pressed and flows in the Homey app can use.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
+  },
+  "account.homeyAppHost.disconnect": {
+    "en": "Disconnect",
+    "context": "Button that confirms disconnecting the app.",
+    "maxLength": 20,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.disconnectText": {
+    "en": "Tiles stop telling Homey, and flows can’t change them, until you connect it again.",
+    "context": "Text of the question before disconnecting the Tiledash app on the Homey.",
+    "maxLength": 120,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.disconnectTitle": {
+    "en": "Disconnect the Tiledash app on {homey}?",
+    "context": "Title of the question before disconnecting the Tiledash app on the person’s Homey.",
+    "params": {
+      "homey": "The Homey’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.failed": {
+    "en": "Couldn’t read the Homey app’s settings",
+    "context": "Red message (toast) when the Homey app settings couldn’t be loaded or changed.",
+    "maxLength": 60,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.remove": {
+    "en": "Remove",
+    "context": "Button that confirms removing the Homey tile.",
+    "maxLength": 16,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.removeText": {
+    "en": "Tiles set to tell it do nothing when pressed, and flows that start from it won’t run any more.",
+    "context": "Text of the question before removing a Homey tile: the tiles whose tap tells this Homey tile no longer do anything, and the flows triggered by it stop running.",
+    "maxLength": 100,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
+  "account.homeyAppHost.removeTitle": {
+    "en": "Remove “{name}”?",
+    "context": "Title of the question before removing a Homey tile.",
+    "params": {
+      "name": "The Homey tile’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
+  },
   "account.houseCredits.balance": {
     "en": "{count, plural, one {# credit} other {# credits}}",
     "context": "Spoken label of the big number that shows how many house credits the person has left, such as \"8 credits\".",
@@ -2027,6 +2215,12 @@
   "account.houseCredits.spendFloorPlan": {
     "en": "Made a floor plan picture",
     "context": "Line in the credit history for a credit spent on making a picture of a floor plan level.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
+  },
+  "account.houseCredits.spendWallpaper": {
+    "en": "Made a wallpaper",
+    "context": "Line in the credit history for credits spent on making a wallpaper (a day and a night picture) with AI.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/HouseCreditsSection.messages.ts"
   },
@@ -5226,6 +5420,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowHomeyApp": {
+    "en": "Tiles in Homey flows",
+    "context": "Row of the plans table: whether tiles can tell Homey they were pressed and Homey flows can change them, through the Tiledash app on Homey (yes or a dash). \"Homey\" is the smart home hub, a name; a flow is an automation in it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowHomeys": {
     "en": "Homeys",
     "context": "Row of the plans table: how many Homeys (smart-home hubs) the plan allows.",
@@ -5865,6 +6065,21 @@
     "en": "How dates and numbers are written, and where the maps come from.",
     "context": "Line under the heading of the General settings group.",
     "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.homeyApp": {
+    "en": "Homey app",
+    "context": "Name of the settings group where the Tiledash app on the person’s Homey (an app installed on the smart-home hub) is connected, and its \"Homey tiles\" are listed. A menu item of the Settings page and its heading.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.homeyAppAbout": {
+    "en": "Let flows on {homey} react when a tile is pressed, and change tiles.",
+    "context": "Line under the heading of the Homey app settings group. {homey} is the name of the Homey shown now.",
+    "params": {
+      "homey": "The name the owner gave their Homey, like \"Pastorie\". Not translated."
+    },
+    "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.houses": {
