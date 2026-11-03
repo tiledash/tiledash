@@ -1941,6 +1941,30 @@
     "maxLength": 40,
     "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
   },
+  "themes.editorPage.halfFailed": {
+    "en": "Couldn’t make its other half",
+    "context": "Toast in the theme editor when making the light (or dark) version of a theme failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.halfMadeDark": {
+    "en": "{name} in dark made",
+    "context": "Toast in the theme editor after the dark version of the person’s light theme was made (they are now a pair that follows the device). {name} is the theme’s name.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.halfMadeLight": {
+    "en": "{name} in light made",
+    "context": "Toast in the theme editor after the light version of the person’s dark theme was made (they are now a pair that follows the device). {name} is the theme’s name.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
   "themes.editorPage.loadFailedText": {
     "en": "Check your connection and try again.",
     "context": "Text under \"Couldn’t load the theme\": the person should check their internet connection. A button \"Try again\" sits below it.",
@@ -1969,6 +1993,30 @@
     "en": "Couldn’t open that save.",
     "context": "Toast in the theme editor when an earlier saved version from the history could not be opened to go back to it. \"Save\" is a saved version of the theme.",
     "maxLength": 50,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.pairFailed": {
+    "en": "Couldn’t pair them",
+    "context": "Toast in the theme editor when linking one of the person’s themes as the other version of the open theme failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.paired": {
+    "en": "Paired: light and dark follow the device",
+    "context": "Toast in the theme editor after one of the person’s own themes was linked as the light (or dark) version of the open theme.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.unpairFailed": {
+    "en": "Couldn’t unpair them",
+    "context": "Toast in the theme editor when making the light and dark versions of a theme separate again failed.",
+    "maxLength": 60,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.unpaired": {
+    "en": "Unpaired: two themes of their own",
+    "context": "Toast in the theme editor after the light and dark versions of a theme were made separate themes again.",
+    "maxLength": 60,
     "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
   },
   "themes.editorSave.changedElsewhere": {
@@ -2350,6 +2398,201 @@
     "context": "Small grey text after the name of a font file the person uploaded earlier, in the list of their own fonts in the theme editor. A status, lower case.",
     "maxLength": 20,
     "file": "packages/ui/src/components/HdFontPicker.messages.ts"
+  },
+  "themes.pair.addDark": {
+    "en": "Add dark…",
+    "context": "Small text at the end of the \"Light and dark\" button in the theme editor, for a light theme: it opens a dialog to make a dark version of it. The dots mean a dialog follows. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.addLight": {
+    "en": "Add light…",
+    "context": "Small text at the end of the \"Light and dark\" button in the theme editor, for a dark theme: it opens a dialog to make a light version of it. The dots mean a dialog follows. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.alsoOther": {
+    "en": "Not saved yet, for light and dark",
+    "context": "Small text in the footer of the theme editor next to the Save button, for a theme with a light and a dark version: there are unsaved changes, and saving them changes both versions.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.bothHalves": {
+    "en": "Changes light and dark",
+    "context": "Small note at the top of a tab in the theme editor (such as Shape or Type) for a theme with a light and a dark version: what is set on this tab is shared, so it changes both versions.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.darkOnly": {
+    "en": "Dark only",
+    "context": "Text in the \"Light and dark\" field of the theme editor when the theme exists only in dark: it has no light version yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.halves": {
+    "en": "The half you’re editing",
+    "context": "Accessible name of a two-option switch (Light, Dark) in the theme editor, for a theme that has both: which of the two versions is open in the editor. Choosing the other opens that version.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.label": {
+    "en": "Light and dark",
+    "context": "Label of a field at the top of the theme editor, next to \"Name\" and \"Starts from\": whether this theme has a light and a dark version that follow the device.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.lightOnly": {
+    "en": "Light only",
+    "context": "Text in the \"Light and dark\" field of the theme editor when the theme exists only in light: it has no dark version yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.make": {
+    "en": "Make it",
+    "context": "Main button of the dialog that makes the other (light or dark) version of a theme. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.makeText": {
+    "en": "Its colours turned round for light, from {base}. Dashboards on Automatic then show light by day and dark at night, as the device is set.",
+    "context": "Text under the title of the dialog that makes a light version of a dark theme. {base} is the built-in theme the light version starts from, such as \"Tiledash Light\". \"Automatic\" is the theme choice that follows the device’s light or dark setting.",
+    "params": {
+      "base": "The built-in theme the new version starts from, such as Tiledash Light."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.makeTextDark": {
+    "en": "Its colours turned round for dark, from {base}. Dashboards on Automatic then show light by day and dark at night, as the device is set.",
+    "context": "Text under the title of the dialog that makes a dark version of a light theme. {base} is the built-in theme the dark version starts from, such as \"Tiledash Dark\". \"Automatic\" is the theme choice that follows the device’s light or dark setting.",
+    "params": {
+      "base": "The built-in theme the new version starts from, such as Tiledash Dark."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.makeTitle": {
+    "en": "Make {name} in light",
+    "context": "Title of the dialog that makes a light version of the person’s dark theme. {name} is the theme’s name, such as \"Evening\". A command.",
+    "params": {
+      "name": "The theme’s name, such as Evening."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.makeTitleDark": {
+    "en": "Make {name} in dark",
+    "context": "Title of the dialog that makes a dark version of the person’s light theme. {name} is the theme’s name, such as \"Evening\". A command.",
+    "params": {
+      "name": "The theme’s name, such as Evening."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.more": {
+    "en": "More about light and dark",
+    "context": "Accessible name of a small \"…\" button next to the Light/Dark switch in the theme editor, opening a menu with \"Unpair\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.newHalf": {
+    "en": "{appearance}, new",
+    "context": "Caption under a small picture of the version that will be made, in the dialog that makes the other version of a theme. {appearance} is \"Light\" or \"Dark\".",
+    "params": {
+      "appearance": "Light or Dark, as the theme switcher names them."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.onlyDarkHalf": {
+    "en": "Only for dark",
+    "context": "Small note at the top of a colour or background tab in the theme editor, for a theme with a light and a dark version, while the dark one is open: what is set here is only the dark version’s.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.onlyLightHalf": {
+    "en": "Only for light",
+    "context": "Small note at the top of a colour or background tab in the theme editor, for a theme with a light and a dark version, while the light one is open: what is set here is only the light version’s.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.own": {
+    "en": "Its colours and its background, so night can have stars and day can have none.",
+    "context": "Text in the dialog that makes the other version of a theme: the colours and the background (such as a moving scene) are each version’s own.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.ownTitle": {
+    "en": "Each keeps its own",
+    "context": "Small heading in the dialog that makes the other version of a theme, above what the light and dark versions each have apart.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.pair": {
+    "en": "Pair them",
+    "context": "Main button of the dialog that links the chosen theme as the other version of the open theme. A command.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.pairInstead": {
+    "en": "Pair with one of yours…",
+    "context": "Button in the dialog that makes the other version of a theme: instead of making a new one, link one of the person’s own themes as the other version. The dots mean a choice follows. A command.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.pairList": {
+    "en": "Your themes",
+    "context": "Accessible name of the list of the person’s own themes to pick from, in the dialog that links one as the other version of the open theme.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.pairText": {
+    "en": "The one you choose takes {name}’s name and shares the rest of it, but its colours and background.",
+    "context": "Text in the dialog that links one of the person’s own themes as the other version of the open theme. {name} is the open theme’s name. Everything but the colours and the background becomes the same as the open theme.",
+    "params": {
+      "name": "The theme’s name, such as Evening."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.pairTitle": {
+    "en": "Pair with one of yours",
+    "context": "Title of the dialog where the person picks one of their own themes to become the light (or dark) version of the theme that is open. A command.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.saveFirst": {
+    "en": "Save the theme first",
+    "context": "Tooltip on the \"Light and dark\" button in the theme editor while the theme has changes that aren’t saved yet: the other version is made from the saved theme.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.shared": {
+    "en": "Its name, fonts and type, shape, depth, how a tile looks when on, icons, charts, controls, motion, the sidebar’s shape and your own CSS. A change to one goes to both.",
+    "context": "Text in the dialog that makes the other version of a theme: everything the light and dark versions have in common. \"When on\" is how a tile looks while its light is on.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.sharedTitle": {
+    "en": "Both share",
+    "context": "Small heading in the dialog that makes the other version of a theme, above what the light and dark versions have in common.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.thisHalf": {
+    "en": "{appearance}, this one",
+    "context": "Caption under a small picture of the theme now open, in the dialog that makes its other version. {appearance} is \"Light\" or \"Dark\".",
+    "params": {
+      "appearance": "Light or Dark, as the theme switcher names them."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
+  },
+  "themes.pair.unpair": {
+    "en": "Unpair",
+    "context": "Menu item in the theme editor for a theme with a light and a dark version: the two become separate themes again, each keeping what it has now. A command.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemePairField.messages.ts"
   },
   "themes.previewPane.fonts": {
     "en": "{display} for numbers, {ui} for text",
