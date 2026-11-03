@@ -765,10 +765,22 @@
     "maxLength": 28,
     "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
   },
+  "themes.characterMore.floatGap": {
+    "en": "Distance to edge",
+    "context": "Name of the slider for how far the floating sidebar sits from the window’s edges, in pixels. Shown under \"Floating sidebar\" while it is on.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
   "themes.characterMore.floatHint": {
     "en": "Off the window’s edge, with the theme’s corners and shadow. The top bar on phones floats too.",
     "context": "Small text under \"Floating sidebar\".",
     "maxLength": 120,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.floatRadius": {
+    "en": "Corners",
+    "context": "Name of the slider for how round the floating sidebar’s corners are, in pixels. Shown under \"Floating sidebar\" while it is on.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
   },
   "themes.characterMore.fontDisplay": {
@@ -1920,6 +1932,27 @@
     "maxLength": 24,
     "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
   },
+  "themes.editorPage.deletePairConfirm": {
+    "en": "Delete both",
+    "context": "Red button of the question before a theme with a light and a dark version is deleted: it deletes both versions for good. A command.",
+    "maxLength": 24,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deletePairText": {
+    "en": "Both go. Dashboards in either go back to the app’s theme. This can’t be undone.",
+    "context": "Text of the question before a theme with a light and a dark version is deleted: both versions are deleted, dashboards that wear either one follow the theme of the app again, and the deletion is permanent.",
+    "maxLength": 110,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
+  "themes.editorPage.deletePairTitle": {
+    "en": "Delete {name} in light and dark?",
+    "context": "Title of the question before the person deletes a theme of theirs that has a light and a dark version, from the Workshop: both versions are deleted. A yes or no question.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
+  },
   "themes.editorPage.deleteText": {
     "en": "Dashboards in it go back to the app’s theme. This can’t be undone.",
     "context": "Text of the question before a theme is deleted: dashboards that wear this theme will follow the theme of the app again, and the deletion is permanent. \"It\" is the theme.",
@@ -2628,6 +2661,12 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
   },
+  "themes.sample.collapse": {
+    "en": "Collapse the sidebar",
+    "context": "Label of the button by the logo in the sample sidebar of a theme’s preview, which folds it to icons only, as the app’s sidebar can. Read out, not shown.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
   "themes.sample.dashboards": {
     "en": "Dashboards",
     "context": "Sample section title in the sample sidebar of a theme’s preview, above the sample pages, as in the app’s sidebar.",
@@ -2650,6 +2689,12 @@
     "en": "Energy",
     "context": "Sample heading on the dashboard of a theme’s preview, above the energy prices and a chart.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.expand": {
+    "en": "Expand the sidebar",
+    "context": "Label of the button under the logo in the folded sample sidebar of a theme’s preview, which opens it again. Read out, not shown.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
   },
   "themes.sample.focused": {
