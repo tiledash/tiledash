@@ -12174,6 +12174,36 @@
     "maxLength": 80,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.patternBlueprint": {
+    "en": "Blueprint",
+    "context": "A theme’s background pattern: a fine grid with a bolder line every fifth square.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.patternContours": {
+    "en": "Contours",
+    "context": "A theme’s background pattern: wavy lines, like the height lines on a map.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.patternDots": {
+    "en": "Dots",
+    "context": "A theme’s background pattern, named in \"The theme’s background: Dots\": small dots in rows.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.patternGrid": {
+    "en": "Grid",
+    "context": "A theme’s background pattern: thin lines in squares, like graph paper.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.patternLines": {
+    "en": "Lines",
+    "context": "A theme’s background pattern: thin diagonal lines.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.pickerTitle": {
     "en": "Wallpaper for {size}",
     "context": "Title of the picture library opened from the Wallpaper setting, and the name of that setting’s picture field for one screen size. {size} is “Desktop”, “Tablet” or “Phone”.",
@@ -12292,6 +12322,27 @@
     "en": "Waves",
     "context": "Abstract scene choice: slow flowing wave forms in soft colours, not a landscape.",
     "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.themeBackdrop": {
+    "en": "The theme’s background: {name}",
+    "context": "Switch at the top of the Wallpaper setting, shown when the dashboard’s theme draws something behind the tiles.",
+    "params": {
+      "name": "What the theme draws, such as \"Blueprint\" or \"Silk\". A name, already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.themeBackdropHint": {
+    "en": "Shows behind the tiles while this dashboard has no wallpaper of its own.",
+    "context": "Hint under the switch for the theme’s background on a dashboard without a wallpaper.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.themeBackdropUnder": {
+    "en": "This dashboard’s wallpaper shows instead.",
+    "context": "Hint under the switch for the theme’s background when the dashboard has a wallpaper of its own, which then shows instead of the theme’s background.",
+    "maxLength": 100,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.tilesHint": {

@@ -4546,6 +4546,12 @@
     "maxLength": 40,
     "file": "apps/web/src/widgets/preview/preview.messages.ts"
   },
+  "code.preview.sampleScreen": {
+    "en": "Screen",
+    "context": "Name for screen readers of the switch on a theme’s live preview page (53.4) that shows its sample dashboard on a desktop, a tablet or a phone. Not visible as text.",
+    "maxLength": 24,
+    "file": "apps/web/src/widgets/preview/preview.messages.ts"
+  },
   "code.preview.saveFailed": {
     "en": "Couldn’t save {name}.",
     "context": "Red message when saving a test device failed.",
@@ -4685,6 +4691,15 @@
     "maxLength": 170,
     "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
   },
+  "code.previewLink.fineTheme": {
+    "en": "{when, select, never {One theme on a sample dashboard, as it was saved last; nothing here reaches a Homey. This link stops working after a day, or when the app that made it is disconnected.} other {One theme on a sample dashboard, as it was saved last; nothing here reaches a Homey. This link stops working on {when}, or when the app that made it is disconnected.}}",
+    "context": "Small print at the bottom of the preview page of a theme (53.3), drawn on made-up tiles.",
+    "params": {
+      "when": "When the link stops, such as \"18 Oct, 14:20\", or \"never\" when not known."
+    },
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
+  },
   "code.previewLink.installed": {
     "en": "Installed",
     "context": "Hint next to a theme installed from the community.",
@@ -4709,6 +4724,15 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
   },
+  "code.previewLink.lookAtCount": {
+    "en": "{count, plural, one {# thing to look at} other {# things to look at}}",
+    "context": "Heading on the preview page of a theme (53.3) above the list of colours that read badly and other problems.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
+  },
   "code.previewLink.needsPro": {
     "en": "Previews need Pro.",
     "context": "Title when the widget’s owner is no longer on the Pro plan.",
@@ -4725,6 +4749,12 @@
     "en": "No problems with this save.",
     "context": "When the check found nothing.",
     "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
+  },
+  "code.previewLink.noProblemsTheme": {
+    "en": "Everything reads well, and nothing in the theme is refused.",
+    "context": "On the preview page of a theme (53.3), when its colours all read well against what they are on and the theme has no problems.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/widgets/previewLink/PreviewLinkScreen.messages.ts"
   },
   "code.previewLink.note": {

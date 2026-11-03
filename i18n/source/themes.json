@@ -233,6 +233,868 @@
     "maxLength": 28,
     "file": "packages/ui/src/screens/themes/themeCatalog.messages.ts"
   },
+  "themes.character.backdrop": {
+    "en": "Background",
+    "context": "Name of the choice in the theme editor for what is drawn behind the tiles of every dashboard in this theme: nothing, a pattern or a moving scene.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.backdropHint": {
+    "en": "Behind the tiles of every dashboard in this theme. A dashboard’s own wallpaper goes over it, and e-ink screens leave it out.",
+    "context": "Small text under the background choices in the theme editor. A dashboard can have its own wallpaper (a picture or scene), which then shows instead.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.backdropNone": {
+    "en": "Plain",
+    "context": "Choice under \"Background\": just the background colour of the theme, no pattern or scene.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.backdropPattern": {
+    "en": "Pattern",
+    "context": "Choice under \"Background\": a pattern (dots, a grid, lines…) drawn behind the tiles in a colour of the theme.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.backdropScene": {
+    "en": "Living scene",
+    "context": "Choice under \"Background\": a slowly moving abstract scene (waves, silk ribbons, a soft glow) in the theme’s colours behind the tiles.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.border": {
+    "en": "Border",
+    "context": "Name of the choice for which sides of the tiles have a border line.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.borderAll": {
+    "en": "All",
+    "context": "Border choice: on all four sides of a tile.",
+    "maxLength": 8,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.borderBottom": {
+    "en": "Bottom",
+    "context": "Border choice: only a line under a tile.",
+    "maxLength": 8,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.borderLeft": {
+    "en": "Left",
+    "context": "Border choice: only a line on the left of a tile.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.borderNone": {
+    "en": "None",
+    "context": "Border choice: no border line.",
+    "maxLength": 8,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.borderTop": {
+    "en": "Top",
+    "context": "Border choice: only a line above a tile.",
+    "maxLength": 8,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.chip": {
+    "en": "Behind the icon",
+    "context": "Name of the choice for a shape drawn behind the icon at the top of each tile.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.chipCircle": {
+    "en": "Circle",
+    "context": "Choice under \"Behind the icon\": a circle.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.chipNone": {
+    "en": "Nothing",
+    "context": "Choice under \"Behind the icon\": no shape, just the icon.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.chipSquare": {
+    "en": "Square",
+    "context": "Choice under \"Behind the icon\": a square with small rounded corners.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.chipSquircle": {
+    "en": "Squircle",
+    "context": "Choice under \"Behind the icon\": a rounded square with soft, continuous corners.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.corner": {
+    "en": "Corner shape",
+    "context": "Name of the choice for the shape of the tiles’ corners: round, squircle or cut off.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.cornerBottomLeft": {
+    "en": "Bottom left",
+    "context": "Name of the slider for the roundness of the tiles’ bottom left corner.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.cornerBottomRight": {
+    "en": "Bottom right",
+    "context": "Name of the slider for the roundness of the tiles’ bottom right corner.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.cornerTopLeft": {
+    "en": "Top left",
+    "context": "Name of the slider for the roundness of the tiles’ top left corner.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.cornerTopRight": {
+    "en": "Top right",
+    "context": "Name of the slider for the roundness of the tiles’ top right corner.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.dim": {
+    "en": "Fade",
+    "context": "Name of the slider for how far the moving scene fades towards the plain background colour, in percent, so tiles stand out.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effectClouds": {
+    "en": "Clouds",
+    "context": "Effect: clouds drifting slowly over the background.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effectMist": {
+    "en": "Mist",
+    "context": "Effect: mist drifting over the background.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effectRain": {
+    "en": "Rain",
+    "context": "Effect: rain falling over the background.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effectSnow": {
+    "en": "Snow",
+    "context": "Effect: snow falling over the background.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effectStars": {
+    "en": "Stars at night",
+    "context": "Effect: stars twinkling over the background at night.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.effects": {
+    "en": "Over it",
+    "context": "Label before the effects that can float over the moving scene (clouds, rain, snow, mist, stars at night). \"It\" is the scene.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frame": {
+    "en": "A frame",
+    "context": "Name of the switch for a frame round tiles as on LCARS panels: thick bars on some sides joined by the tile’s rounded corners.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameBottom": {
+    "en": "Bottom",
+    "context": "Name of the slider for how thick the frame is under a tile, in pixels.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameCap": {
+    "en": "Cap colour",
+    "context": "Name of the colour field for the cap: the start of the left bar and the top bar, in another colour, as on LCARS panels.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameCapLength": {
+    "en": "Cap length",
+    "context": "Name of the slider for how far down the left bar the cap reaches, in pixels.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameColour": {
+    "en": "Frame colour",
+    "context": "Name of the colour field for the frame’s bars.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameHint": {
+    "en": "The tiles’ corners curve the frame inside and out. Widgets that fill their tile stay inside it.",
+    "context": "Small text under the frame settings.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameLeft": {
+    "en": "Left",
+    "context": "Name of the slider for how thick the frame is left of a tile, in pixels.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameRight": {
+    "en": "Right",
+    "context": "Name of the slider for how thick the frame is right of a tile, in pixels.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.frameTop": {
+    "en": "Top",
+    "context": "Name of the slider for how thick the frame is above a tile, in pixels.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.glow": {
+    "en": "Glow around it",
+    "context": "Name of the switch for a warm glow around a tile while its device is on.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.iconsHint": {
+    "en": "Tiles still fill an icon in while what it shows is on. The shape takes the accent, and the lights-on colour while on.",
+    "context": "Small text under the icon choices in the theme editor. \"Fill an icon in\": draw it solid instead of as lines.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litColour": {
+    "en": "Lights on",
+    "context": "Name of the colour field for the colour of lights and sockets that are on; the same key colour as in the colours section.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litEdge": {
+    "en": "Edge",
+    "context": "How a tile that is on looks: a bar in the colour of lights that are on down its left side.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litFill": {
+    "en": "Filled",
+    "context": "How a tile that is on looks: the whole tile turns the colour of lights that are on.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litGlow": {
+    "en": "Glow only",
+    "context": "How a tile that is on looks: only a glow around it, nothing on the tile itself.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litRing": {
+    "en": "Ring",
+    "context": "How a tile that is on looks: a ring in the colour of lights that are on.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litStyle": {
+    "en": "A tile that is on",
+    "context": "Name of the choice in the theme editor for how a tile looks while its device is on (a lamp lit, a socket on).",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.litWash": {
+    "en": "Soft light",
+    "context": "How a tile that is on looks: a soft wash of light colour from its corner, the usual look.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.on": {
+    "en": "On",
+    "context": "Word on the small example tile of each style: the device is on.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.onLit": {
+    "en": "Text on it",
+    "context": "Name of the colour field for the text and icons on a filled tile that is on. \"It\" is that tile.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.onLitContrast": {
+    "en": "Text on it reads at {ratio}:1; aim for {needs}:1",
+    "context": "Warning under \"Text on it\": the contrast between the text and the filled tile is too low. The numbers are contrast ratios written with a colon.",
+    "params": {
+      "needs": "The contrast it should have, 4.5.",
+      "ratio": "The contrast it has now, such as 3.2."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.oneByOne": {
+    "en": "A radius per corner",
+    "context": "Name of the switch that lets each corner of the tiles have its own roundness, instead of one for all four.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternBlueprint": {
+    "en": "Blueprint",
+    "context": "A background pattern: a fine grid with a bolder line every fifth square.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternColour": {
+    "en": "Pattern colour",
+    "context": "Name of the colour field for the lines and dots of the background pattern.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternContours": {
+    "en": "Contours",
+    "context": "A background pattern: wavy lines, like the height lines on a map.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternDots": {
+    "en": "Dots",
+    "context": "A background pattern: small dots in rows.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternGrid": {
+    "en": "Grid",
+    "context": "A background pattern: thin lines in squares, like graph paper.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.patternLines": {
+    "en": "Lines",
+    "context": "A background pattern: thin diagonal lines.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sceneGlow": {
+    "en": "Glow",
+    "context": "Abstract moving scene: soft blobs of colour drifting slowly, like a soft gradient.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sceneSilk": {
+    "en": "Silk",
+    "context": "Abstract moving scene: ribbons of silk drifting slowly over soft light.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sceneWaves": {
+    "en": "Waves",
+    "context": "Abstract moving scene: slow flowing wave forms in soft colours, not a landscape.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sectionBackground": {
+    "en": "Background",
+    "context": "Tab of the theme editor for the background behind the tiles.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sectionIcons": {
+    "en": "Icons",
+    "context": "Tab of the theme editor for the icons in tiles.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.sectionLit": {
+    "en": "When on",
+    "context": "Tab of the theme editor for how tiles look while their device is on.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.shapeBevel": {
+    "en": "Cut",
+    "context": "Corner shape: the corner cut off in a straight line.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.shapeRound": {
+    "en": "Round",
+    "context": "Corner shape: a quarter circle, the usual rounded corner.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.shapeSquircle": {
+    "en": "Squircle",
+    "context": "Corner shape: a smoother, continuous curve, as on phone app icons.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.size": {
+    "en": "Spacing",
+    "context": "Name of the slider for how far apart the dots or lines of the background pattern are, in pixels.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.strength": {
+    "en": "Strength",
+    "context": "Name of the slider for how strongly the background pattern shows, in percent.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.tileHint": {
+    "en": "A tile’s own style still wins. Squircle and cut corners show where the browser can draw them, round elsewhere.",
+    "context": "Small text under the tile shape choices. Each tile can have its own style that overrides the theme. Some browsers can only draw round corners.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.tiles": {
+    "en": "Tiles",
+    "context": "Name of the choice between tiles with a background colour and tiles with only a line round them.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.tilesFilled": {
+    "en": "Filled",
+    "context": "Tiles choice: tiles have their own background colour.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.tilesOutlined": {
+    "en": "Outlined",
+    "context": "Tiles choice: tiles have no background, only a line round them.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.weight": {
+    "en": "Icon style",
+    "context": "Name of the choice for how the icons in tiles are drawn: regular lines, bold lines or two-tone.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.weightBold": {
+    "en": "Bold",
+    "context": "Icon weight: thicker lines.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.weightDuotone": {
+    "en": "Two-tone",
+    "context": "Icon weight: lines with a soft filled shape behind them, in two tones.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.character.weightRegular": {
+    "en": "Regular",
+    "context": "Icon weight: normal lines.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterFields.messages.ts"
+  },
+  "themes.characterMore.chartsHint": {
+    "en": "For every chart in the theme: history, sparklines and the energy charts.",
+    "context": "Small text under the chart settings in the theme editor.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.controls": {
+    "en": "Controls",
+    "context": "Name of the choice for the shape of switches, sliders, buttons and badges in tiles.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.controlsHint": {
+    "en": "Switches, sliders, round buttons, pills and badges in tiles.",
+    "context": "Small text under the control settings: what they change.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.curve": {
+    "en": "Lines",
+    "context": "Name of the choice for how chart lines run between points: smooth curves, straight lines or steps.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.curveSmooth": {
+    "en": "Smooth",
+    "context": "Chart line choice: smooth curves.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.curveStep": {
+    "en": "Steps",
+    "context": "Chart line choice: steps, flat between points.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.curveStraight": {
+    "en": "Straight",
+    "context": "Chart line choice: straight lines from point to point.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.dots": {
+    "en": "Dots",
+    "context": "Name of the choice for dots on a chart line’s points.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.dotsAll": {
+    "en": "Every point",
+    "context": "Dots choice: a dot on every point.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.dotsLast": {
+    "en": "Latest",
+    "context": "Dots choice: one dot on the latest point only.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.dotsNone": {
+    "en": "None",
+    "context": "Dots choice: no dots.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.fill": {
+    "en": "Fill under lines",
+    "context": "Name of the slider for how strong the coloured area under a chart line is, in percent of the usual.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.float": {
+    "en": "Floating sidebar",
+    "context": "Name of the switch that sets the app’s sidebar off the window’s edge, with rounded corners and a shadow.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.floatHint": {
+    "en": "Off the window’s edge, with the theme’s corners and shadow. The top bar on phones floats too.",
+    "context": "Small text under \"Floating sidebar\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.fontDisplay": {
+    "en": "Display",
+    "context": "Sidebar font choice: the theme’s font for big numbers and titles.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.fontMono": {
+    "en": "Mono",
+    "context": "Sidebar font choice: the theme’s monospaced font.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.fontUi": {
+    "en": "Everyday",
+    "context": "Sidebar font choice: the theme’s font for everything else (labels, text).",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.footer": {
+    "en": "Sidebar foot",
+    "context": "Name of the fill field for the background of the trays at the foot of the sidebar (tools, dock and account).",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.footerHint": {
+    "en": "The tools, the dock and your account: a colour or a gradient",
+    "context": "Small text under the “Sidebar foot” field.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.grid": {
+    "en": "Grid lines",
+    "context": "Name of the choice for the chart’s horizontal grid lines.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.gridDashed": {
+    "en": "Dashed",
+    "context": "Grid line choice: dashed lines.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.gridNone": {
+    "en": "None",
+    "context": "Grid line choice: no grid lines.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.gridSolid": {
+    "en": "Solid",
+    "context": "Grid line choice: solid lines.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.hover": {
+    "en": "Under the pointer",
+    "context": "Name of the choice for what a tile does while the mouse pointer is over it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.hoverGlow": {
+    "en": "Glow",
+    "context": "Hover choice: a glow in the accent colour around the tile.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.hoverLift": {
+    "en": "Lift",
+    "context": "Hover choice: the tile lifts a little.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.hoverNone": {
+    "en": "Nothing",
+    "context": "Hover choice: nothing changes.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.iconsFollow": {
+    "en": "The sidebar’s icons rest at the theme’s icon weight, set under Icons.",
+    "context": "Small text at the end of the sidebar settings.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.itemSize": {
+    "en": "Item size",
+    "context": "Name of the choice for how big the text of the sidebar’s items is.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.itemWeight": {
+    "en": "Item weight",
+    "context": "Name of the slider for how bold the sidebar’s items are, from 300 to 800.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.labels": {
+    "en": "Section titles",
+    "context": "Name of the colour field for the sidebar’s section titles, such as “Dashboards”, and the counts.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.line": {
+    "en": "Line width",
+    "context": "Name of the slider for how thick chart lines are, in pixels.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.motionHint": {
+    "en": "Lifts and pops show only where everything may move, not with reduced motion.",
+    "context": "Small text under the motion choices.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.numberTracking": {
+    "en": "Number spacing",
+    "context": "Name of the slider for the letter spacing of big numbers, in em: tighter to the left, looser to the right.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.press": {
+    "en": "A press",
+    "context": "Name of the choice for what a button or tile does while it is pressed: shrinks, sinks or nothing.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.pressNone": {
+    "en": "Nothing",
+    "context": "Press choice: it doesn’t move.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.pressShrink": {
+    "en": "Shrink",
+    "context": "Press choice: it shrinks a little.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.pressSink": {
+    "en": "Sink",
+    "context": "Press choice: it moves down a little, as if pushed in.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.scale": {
+    "en": "Content size",
+    "context": "Name of the slider for how big everything in the tiles is (text, icons and controls together), in percent.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.scaleHint": {
+    "en": "Content size scales everything in the tiles together. A tile’s own content size still wins.",
+    "context": "Small text under the content size and number settings in the theme editor.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.sectionCharts": {
+    "en": "Charts",
+    "context": "Tab of the theme editor for how charts are drawn.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.shapePill": {
+    "en": "Pill",
+    "context": "Control shape: fully rounded ends.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.shapeRounded": {
+    "en": "Rounded",
+    "context": "Control shape: slightly rounded corners.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.shapeSquare": {
+    "en": "Square",
+    "context": "Control shape: square corners.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.sidebarFont": {
+    "en": "Sidebar font",
+    "context": "Name of the choice for which of the theme’s fonts the sidebar’s items are in.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.sizeLarge": {
+    "en": "Large",
+    "context": "Item size choice: large.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.sizeMedium": {
+    "en": "Medium",
+    "context": "Item size choice: medium.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.sizeSmall": {
+    "en": "Small",
+    "context": "Item size choice: small, the usual.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.strength": {
+    "en": "Strength",
+    "context": "Name of the slider for how strongly the texture shows, in percent.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.tabular": {
+    "en": "Digits of one width",
+    "context": "Name of the switch that draws every digit the same width, so a changing number doesn’t shift.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.tabularHint": {
+    "en": "Numbers that change no longer shift sideways",
+    "context": "Small text under \"Digits of one width\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.texture": {
+    "en": "Texture",
+    "context": "Name of the choice for a fine texture over the tiles.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureGrain": {
+    "en": "Grain",
+    "context": "Texture choice: a coarser film grain.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureHalftone": {
+    "en": "Halftone",
+    "context": "Texture choice: fine dots, as in print.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureLinen": {
+    "en": "Linen",
+    "context": "Texture choice: a fine woven grid, like linen.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureNoise": {
+    "en": "Noise",
+    "context": "Texture choice: very fine noise.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureNone": {
+    "en": "None",
+    "context": "Texture choice: no texture.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.texturePaper": {
+    "en": "Paper",
+    "context": "Texture choice: soft fibres, like paper.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.textureScanlines": {
+    "en": "Scanlines",
+    "context": "Texture choice: thin horizontal lines, like an old screen.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.thumb": {
+    "en": "Slider handle",
+    "context": "Name of the choice for the shape of the handle you drag on a slider: round or a bar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.thumbBar": {
+    "en": "Bar",
+    "context": "Slider handle choice: a narrow upright bar.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.thumbRound": {
+    "en": "Round",
+    "context": "Slider handle choice: a round knob.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.titleLineHeight": {
+    "en": "Line height of titles",
+    "context": "Name of the slider for the line height of dashboard titles, in percent of their size. A tall font needs more, or the bottoms of letters like g and y are cut off.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.titleWeight": {
+    "en": "Weight of titles",
+    "context": "Name of the slider for how bold dashboard titles are, from 100 (thin) to 900 (black), apart from the big numbers.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.track": {
+    "en": "Slider track",
+    "context": "Name of the slider for how thick a slider’s track is, in pixels.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.turnOn": {
+    "en": "Turning on",
+    "context": "Name of the choice for how a tile changes as its device turns on.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.turnOnFade": {
+    "en": "Fade",
+    "context": "Turning-on choice: its glow fades in.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
+  "themes.characterMore.turnOnPop": {
+    "en": "Pop",
+    "context": "Turning-on choice: the tile swells briefly.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/themes/ThemeCharacterMoreFields.messages.ts"
+  },
   "themes.colorField.auto": {
     "en": "auto",
     "context": "Placeholder in the small field for the colour code (such as #1a2b3c) of a colour field in the theme editor, shown when the colour is not a plain code because it is worked out from other colours. Short, lower case, like \"automatic\".",
@@ -255,6 +1117,15 @@
     "en": "Background",
     "context": "Name of the colour field for the page background of a theme, behind the tiles. Also the first of the five key colours in the quick start. It can be a gradient.",
     "maxLength": 32,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.chartLine": {
+    "en": "Chart line {n}",
+    "context": "Name of one of the six chart line colours in the contrast warning of the theme editor, such as \"Chart line 2 on tiles reads badly\".",
+    "params": {
+      "n": "Which line, 1 to 6."
+    },
+    "maxLength": 24,
     "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
   },
   "themes.colours.cool": {
@@ -353,6 +1224,30 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
   },
+  "themes.colours.onBackground": {
+    "en": "the background",
+    "context": "Inserted into the contrast warning \"<colour> on the background reads badly\" in the theme editor: the dashboard’s background, behind the tiles. Lowercase, as in the middle of a sentence.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.onFilledTile": {
+    "en": "a tile that is on",
+    "context": "Inserted into the contrast warning \"Text on a tile that is on reads badly\" in the theme editor: a tile whose device is on, filled with the colour of lights that are on. Lowercase, as in the middle of a sentence.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.onTheAccent": {
+    "en": "the accent",
+    "context": "Inserted into the contrast warning \"Text on the accent reads badly\" in the theme editor: the accent colour (buttons, sliders), on which their text is drawn. Lowercase, as in the middle of a sentence.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
+  "themes.colours.onTiles": {
+    "en": "tiles",
+    "context": "Inserted into the contrast warning \"<colour> on tiles reads badly\" in the theme editor: the tiles of the dashboard. Lowercase, as in the middle of a sentence.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
+  },
   "themes.colours.overlay": {
     "en": "Menus and dialogs",
     "context": "Name of the colour field for the background of menus, pop-ups and dialogs, which float over the page. Shown in the colour list and in the sidebar and app settings.",
@@ -401,34 +1296,16 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
   },
-  "themes.colours.warnAccentOnTiles": {
-    "en": "<b>Accent on tiles</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
-    "context": "Warning under the five key colours in the quick start: the chosen accent colour is hard to see on the chosen tile colour. The bold part names what is hard to see. The numbers are contrast ratios such as 2.1:1, written with a colon.",
+  "themes.colours.warnPair": {
+    "en": "<b>{colour} on {ground}</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
+    "context": "Warning under the five key colours in the quick start (53.5): a colour of the theme is hard to read or see on what it is drawn on. The bold part names the two, such as \"Muted text on tiles\". The numbers are contrast ratios such as 3.2:1, written with a colon.",
     "params": {
-      "needs": "The contrast it should have at least, such as 3. A number.",
-      "ratio": "The contrast between the two colours as it is now, such as 2.1. A number."
-    },
-    "maxLength": 110,
-    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
-  },
-  "themes.colours.warnTextOnBackground": {
-    "en": "<b>Text on the background</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
-    "context": "Warning under the five key colours in the quick start: the chosen text colour is hard to read on the chosen background colour. The bold part names what is hard to read. The numbers are contrast ratios such as 3.2:1, written with a colon.",
-    "params": {
-      "needs": "The contrast it should have at least, such as 4.5. A number.",
+      "colour": "The name of the colour that reads badly, as in the colour list (Text, Muted text, Accent, Chart line 2…). Already translated.",
+      "ground": "What it is drawn on: \"tiles\", \"the background\" or \"the accent\". Already translated.",
+      "needs": "The contrast it should have at least, such as 4.5 for text or 3 for the rest. A number.",
       "ratio": "The contrast between the two colours as it is now, such as 3.2. A number."
     },
-    "maxLength": 120,
-    "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
-  },
-  "themes.colours.warnTextOnTiles": {
-    "en": "<b>Text on tiles</b> reads badly ({ratio}:1; at least {needs}:1 is easy on the eyes).",
-    "context": "Warning under the five key colours in the quick start: the chosen text colour is hard to read on the chosen tile colour. The bold part names what is hard to read. The numbers are contrast ratios such as 3.2:1, written with a colon.",
-    "params": {
-      "needs": "The contrast it should have at least, such as 4.5. A number.",
-      "ratio": "The contrast between the two colours as it is now, such as 3.2. A number."
-    },
-    "maxLength": 110,
+    "maxLength": 140,
     "file": "packages/ui/src/screens/themes/themeColours.messages.ts"
   },
   "themes.dashboardsDialog.apply": {
@@ -593,46 +1470,10 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
   },
-  "themes.editor.previewAnother": {
-    "en": "Another",
-    "context": "Label of the sample plain button next to \"A button\" in the preview in the theme editor: a second button, to show how an ordinary button looks.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
-  "themes.editor.previewButton": {
-    "en": "A button",
-    "context": "Label of the sample main button in the preview in the theme editor. It only shows how a main button looks, so any button word will do.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
-  "themes.editor.previewEnergy": {
-    "en": "Energy",
-    "context": "Name of the second sample page in the sample sidebar of the preview in the theme editor: the one with the pointer on it. A dashboard about energy use.",
-    "maxLength": 14,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
-  "themes.editor.previewGarden": {
-    "en": "Garden",
-    "context": "Name of the third sample page in the sample sidebar of the preview in the theme editor. A dashboard about the garden.",
-    "maxLength": 14,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
-  "themes.editor.previewHome": {
-    "en": "Home",
-    "context": "Name of the highlighted sample page in the sample sidebar of the preview in the theme editor. It stands for the page that is open now, like a home dashboard.",
-    "maxLength": 14,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
   "themes.editor.previewLabel": {
     "en": "Preview",
     "context": "Name for screen readers of the area on the right of the theme editor that shows a sample dashboard in the theme as it is now. Not visible as text.",
     "maxLength": 24,
-    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
-  },
-  "themes.editor.previewLive": {
-    "en": "Live",
-    "context": "Label of the sample green badge in the preview in the theme editor. A badge with a dot that says something is up to date, like \"Live\".",
-    "maxLength": 12,
     "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
   },
   "themes.editor.proLocked": {
@@ -758,6 +1599,39 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
   },
+  "themes.editor.undoAll": {
+    "en": "Undo all changes",
+    "context": "Button in the theme editor’s footer, and the confirming button of its question: puts the whole theme back as it was when it was opened (or last saved). Shown only when something was changed.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.undoAllNew": {
+    "en": "The theme goes back to {base}, as it started. Its name stays.",
+    "context": "Text under \"Undo all your changes?\" for a theme that was never saved: everything goes back to the built-in theme it started from.",
+    "params": {
+      "base": "The name of the built-in theme it started from, such as \"Halo Light\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.undoAllSaved": {
+    "en": "The theme goes back to how it was last saved. Its name stays.",
+    "context": "Text under \"Undo all your changes?\" for a theme that was saved before.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.undoAllTitle": {
+    "en": "Undo all your changes?",
+    "context": "Title of the question after \"Undo all changes\" in the theme editor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
+  "themes.editor.undoTab": {
+    "en": "Undo changes on this tab",
+    "context": "Small button at the end of a tab of the theme editor (Shape, Type…): puts only that tab’s settings back as they were when the theme was opened or last saved. Shown only when they were changed.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/themes/ThemeEditorScreen.messages.ts"
+  },
   "themes.editorFields.blur": {
     "en": "Frosted glass",
     "context": "Name of the slider in the theme editor that sets how much the background behind tiles is blurred, like frosted glass. Also its name for screen readers.",
@@ -846,18 +1720,6 @@
     "en": "Space between tiles",
     "context": "Name for screen readers of the slider in the theme editor that sets the empty space between neighbouring tiles. Not visible as text.",
     "maxLength": 40,
-    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
-  },
-  "themes.editorFields.glow": {
-    "en": "Glow around lights that are on",
-    "context": "Name of the switch in the theme editor that turns on a soft glow around lamps that are switched on. Also its name for screen readers. \"Lights\" are the lamps of the home.",
-    "maxLength": 48,
-    "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
-  },
-  "themes.editorFields.grain": {
-    "en": "Grain",
-    "context": "Name of the switch in the theme editor that adds a fine noise texture over the background, like paper or film grain. Also its name for screen readers.",
-    "maxLength": 24,
     "file": "packages/ui/src/screens/themes/themeEditorFields.messages.ts"
   },
   "themes.editorFields.labelsCaps": {
@@ -1109,6 +1971,16 @@
     "maxLength": 50,
     "file": "apps/web/src/themes/ThemeEditorPage.messages.ts"
   },
+  "themes.editorSave.changedElsewhere": {
+    "en": "{by, select, none {{name} was saved elsewhere} other {{by} changed {name}}}",
+    "context": "Toast in the theme editor (53.5) when the theme open in it was saved somewhere else meanwhile: by an AI assistant (its app’s name, such as Claude) or in another tab. The person has changes of their own that aren’t saved yet, so the editor keeps them.",
+    "params": {
+      "by": "The name of the AI app that saved it, such as Claude; \"none\" when it was another tab.",
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
   "themes.editorSave.deleteFailed": {
     "en": "Couldn’t delete the theme.",
     "context": "Toast when deleting a theme in the theme editor failed.",
@@ -1122,6 +1994,37 @@
       "name": "The name of the theme. The owner’s own words, not translated."
     },
     "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.deletedElsewhere": {
+    "en": "{name} was deleted elsewhere",
+    "context": "Toast in the theme editor (53.5) when the theme open in it was deleted somewhere else, such as in another tab.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.followed": {
+    "en": "{by, select, none {{name} was saved elsewhere; this is it now} other {{by} changed {name}; this is it now}}",
+    "context": "Toast in the theme editor (53.5) when the theme open in it was saved somewhere else and the editor now shows that save (the person had nothing unsaved).",
+    "params": {
+      "by": "The name of the AI app that saved it, such as Claude; \"none\" when it was another tab.",
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 90,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.keptYours": {
+    "en": "Your changes are still here. Open the saved theme to see the new one; yours go.",
+    "context": "Text of the toast when the theme open in the editor was saved elsewhere while the person has changes of their own (53.5).",
+    "maxLength": 110,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.openSaved": {
+    "en": "Open the saved one",
+    "context": "Button in that toast: puts the theme as it was saved elsewhere in the editor, in place of the person’s unsaved changes.",
+    "maxLength": 24,
     "file": "apps/web/src/themes/useThemeEditor.messages.ts"
   },
   "themes.editorSave.pickIt": {
@@ -1146,6 +2049,15 @@
       "name": "The name of the theme. The owner’s own words, not translated."
     },
     "maxLength": 70,
+    "file": "apps/web/src/themes/useThemeEditor.messages.ts"
+  },
+  "themes.editorSave.staleSave": {
+    "en": "{name} was saved elsewhere since you opened it",
+    "context": "Toast when saving in the theme editor was refused because the theme was saved somewhere else since (an AI assistant, another tab) (53.5). Nothing was saved; the person’s changes stay in the editor.",
+    "params": {
+      "name": "The name of the theme. The owner’s own words, not translated."
+    },
+    "maxLength": 80,
     "file": "apps/web/src/themes/useThemeEditor.messages.ts"
   },
   "themes.editorSave.switchFailed": {
@@ -1460,6 +2372,120 @@
     "context": "Name for screen readers of the two buttons (Light, Dark) under the preview of a theme in the picker, with which the person looks at the light or the dark look. Not visible as text.",
     "maxLength": 24,
     "file": "packages/ui/src/screens/themes/ThemePreviewPane.messages.ts"
+  },
+  "themes.sample.another": {
+    "en": "Another",
+    "context": "Label of the sample plain button next to \"A button\" on a theme’s preview: a second, ordinary button.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.button": {
+    "en": "A button",
+    "context": "Label of the sample main button on a theme’s preview. It only shows how a main button looks.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.dashboards": {
+    "en": "Dashboards",
+    "context": "Sample section title in the sample sidebar of a theme’s preview, above the sample pages, as in the app’s sidebar.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.energy": {
+    "en": "Energy",
+    "context": "Name of the second sample page in the sample sidebar of a theme’s preview, the one with the pointer on it: a dashboard about energy use.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.energyCaption": {
+    "en": "Cheapest at 14:00",
+    "context": "Sample caption beside the \"Energy\" heading on a theme’s preview: when power is cheapest today. The time is part of the sample.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.energyHeading": {
+    "en": "Energy",
+    "context": "Sample heading on the dashboard of a theme’s preview, above the energy prices and a chart.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.focused": {
+    "en": "Keyboard focus",
+    "context": "A sample control on a theme’s preview drawn with the ring a control gets when it is reached with the keyboard (Tab).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.garden": {
+    "en": "Garden",
+    "context": "Name of the third sample page in the sample sidebar of a theme’s preview: a dashboard about the garden.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.hallway": {
+    "en": "Hallway",
+    "context": "Sample heading on the dashboard of a theme’s preview, above a lock, an alarm and a button, and a room in its sample sidebar.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.hallwayCaption": {
+    "en": "All locked",
+    "context": "Sample caption beside the \"Hallway\" heading on a theme’s preview.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.home": {
+    "en": "Home",
+    "context": "Name of the open sample page in the sample sidebar of a theme’s preview: a home dashboard.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.live": {
+    "en": "Live",
+    "context": "Sample green badge with a dot on a theme’s preview, beside the dashboard’s name: something is up to date.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.livingCaption": {
+    "en": "3 lights on",
+    "context": "Sample caption beside the \"Living room\" heading on a theme’s preview.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.livingRoom": {
+    "en": "Living room",
+    "context": "Sample heading on the dashboard of a theme’s preview, above the living room’s tiles, and a room in its sample sidebar.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.menuEdit": {
+    "en": "Edit",
+    "context": "First item of a sample menu on a theme’s preview, shown as the one pointed at.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.menuRemove": {
+    "en": "Remove",
+    "context": "Third item of a sample menu on a theme’s preview, in the danger colour.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.menuShare": {
+    "en": "Share",
+    "context": "Second item of a sample menu on a theme’s preview.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.rooms": {
+    "en": "Rooms",
+    "context": "Second sample section title in the sample sidebar of a theme’s preview, above two rooms, as in the app’s sidebar.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
+  },
+  "themes.sample.workshop": {
+    "en": "Workshop",
+    "context": "Sample item at the foot of the sample sidebar of a theme’s preview, as the app’s Workshop (where your own widgets and themes are).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/themes/ThemeSampleDashboard.messages.ts"
   },
   "themes.screen.description": {
     "en": "The looks your dashboards and devices wear: yours, the ones you installed from the community, and Tiledash's. Click one to preview it, then use it on this device or on your dashboards.",
