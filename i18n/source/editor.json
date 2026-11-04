@@ -12219,16 +12219,46 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.pictureFrom": {
+    "en": "Picture from",
+    "context": "Read out by screen readers for the choice on the wallpaper between the person’s own pictures (their picture library) and pictures from the web.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.pictureHint": {
     "en": "Without a night picture the day one shows at night too. A picture with an empty sky, like one made with AI, lets the scene show through it.",
     "context": "Hint under the wallpaper pictures.",
     "maxLength": 180,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.pictureLoad": {
+    "en": "Load",
+    "context": "Button beside a wallpaper picture’s address field: shows the picture from the address typed in the field. A command.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pictureOwn": {
+    "en": "Your picture",
+    "context": "Choice for the wallpaper: one of the person’s own pictures from their picture library (or one of Tiledash’s). Same as on a tile’s Picture tab.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pictureProblem": {
+    "en": "That isn’t a web address. Use one that starts with https://",
+    "context": "Note under a wallpaper picture’s address field when what was typed is not a web address. Keep https:// as it is.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.pictureTime": {
     "en": "Pictures for",
     "context": "Accessible name of the Day / Night switch above the wallpaper pictures.",
     "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.pictureWeb": {
+    "en": "Web address",
+    "context": "Choice for the wallpaper: a picture from the web, by pasting its address (URL). Same as on a tile’s Picture tab.",
+    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.pro": {
@@ -12267,6 +12297,12 @@
   "editor.wallpaper.sceneBlocked": {
     "en": "Scenes show behind a picture with an empty sky. This picture fills the screen, so remove it or pick one with an empty sky, like one made with AI.",
     "context": "Shown under the greyed-out scenes when the wallpaper’s picture covers the whole screen, so a moving scene behind it could not be seen.",
+    "maxLength": 200,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.sceneBlockedWeb": {
+    "en": "Scenes show behind a picture with an empty sky, which Tiledash can only check on your own pictures. A picture from a web address has no scene behind it.",
+    "context": "Shown under the greyed-out scenes when the wallpaper’s picture comes from a web address: a moving scene can’t be put behind it.",
     "maxLength": 200,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -12318,6 +12354,12 @@
     "maxLength": 120,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.sceneTurnedOffWeb": {
+    "en": "The scene is off: a picture from a web address has no scene behind it.",
+    "context": "Shown after setting a wallpaper picture by web address while a scene was chosen: the scene was turned off.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.sceneWaves": {
     "en": "Waves",
     "context": "Abstract scene choice: slow flowing wave forms in soft colours, not a landscape.",
@@ -12349,6 +12391,18 @@
     "en": "Tiles keep their own background. To let the wallpaper through a tile, change its background in its style.",
     "context": "Hint at the end of the Wallpaper setting: the tiles are not made see-through; the user can change a tile’s background in that tile’s style panel.",
     "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.webHint": {
+    "en": "Paste the web address of a picture for each screen size. It is loaded from that site wherever the dashboard shows, also on share links and screens.",
+    "context": "Hint under the wallpaper’s address fields: nothing is copied to Tiledash, every screen that shows the dashboard loads the picture from the site itself.",
+    "maxLength": 180,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.webSwitch": {
+    "en": "Switching takes the wallpaper’s pictures away until you set new ones.",
+    "context": "Small note beside the Your picture / Web address choice when the wallpaper has pictures of the other kind: switching removes them (Cancel puts them back).",
+    "maxLength": 110,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaperMake.about": {
