@@ -219,6 +219,15 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/store/StoreCard.messages.ts"
   },
+  "community.card.languageCount": {
+    "en": "{count} languages",
+    "context": "On a Community card: how many languages the widget can be shown in. Always 2 or more.",
+    "params": {
+      "count": "How many languages."
+    },
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/store/StoreCard.messages.ts"
+  },
   "community.card.open": {
     "en": "Open {title}",
     "context": "Name of the card’s preview button, read out by screen readers: it opens the item’s page.",
@@ -954,6 +963,12 @@
       "version": "The installed version, such as \"1.2.0\"."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.languages": {
+    "en": "Languages",
+    "context": "Label in an item’s details: the languages the widget can be shown in.",
+    "maxLength": 22,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
   "community.item.licence": {

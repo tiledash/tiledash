@@ -28,7 +28,8 @@ var I18N_BUNDLES = [
   "account",
   "community",
   "floorplans",
-  "models"
+  "models",
+  "widgets"
 ];
 
 // packages/shared/src/i18n/messageSyntax.ts
@@ -287,6 +288,69 @@ function messageShape(message) {
   shape.numbers.sort();
   shape.tags.sort();
   return shape;
+}
+
+// packages/shared/src/i18n/messageDifferences.ts
+var EXACT = /^=\d+$/;
+function list(names2) {
+  return names2.length === 0 ? "none" : names2.join(", ");
+}
+function same(a, b) {
+  return a.join("\0") === b.join("\0");
+}
+function shapeDifferences(source, translation, sourceName = "English") {
+  const found = [];
+  if (!same(source.placeholders, translation.placeholders)) {
+    found.push(
+      `values differ: ${sourceName} uses ${list(source.placeholders)}, translation uses ${list(translation.placeholders)}`
+    );
+  }
+  if (!same(source.numbers, translation.numbers)) {
+    found.push(
+      `number formatting differs: ${sourceName} formats ${list(source.numbers)}, translation formats ${list(translation.numbers)}`
+    );
+  }
+  if (!same(Object.keys(source.plurals).sort(), Object.keys(translation.plurals).sort())) {
+    found.push(
+      `plural values differ: ${sourceName} ${list(Object.keys(source.plurals).sort())}, translation ${list(Object.keys(translation.plurals).sort())}`
+    );
+  }
+  const selectNames = Object.keys({ ...source.selects, ...translation.selects }).sort();
+  for (const name of selectNames) {
+    if (!same(source.selects[name] ?? [], translation.selects[name] ?? [])) {
+      found.push(
+        `select {${name}} has other branches: ${sourceName} ${list(source.selects[name] ?? [])}, translation ${list(translation.selects[name] ?? [])}`
+      );
+    }
+  }
+  if (!same(source.tags, translation.tags)) {
+    found.push(
+      `tags differ: ${sourceName} has ${list(source.tags)}, translation has ${list(translation.tags)}`
+    );
+  }
+  return found;
+}
+function pluralBranchProblems(language, source, translation, sourceName = "English") {
+  const problems2 = [];
+  const categories = PLURAL_CATEGORIES[language];
+  for (const name of Object.keys(translation.plurals).sort()) {
+    const branches = translation.plurals[name] ?? [];
+    const sourceBranches = source.plurals[name] ?? [];
+    const unfit = branches.filter((key) => !EXACT.test(key) && categories.indexOf(key) < 0);
+    if (unfit.length > 0) {
+      problems2.push(
+        `plural {${name}} has ${unfit.join(", ")}, which ${language} doesn't use (it has ${categories.join(", ")} and =N)`
+      );
+    }
+    const dropped = sourceBranches.filter((key) => EXACT.test(key) && branches.indexOf(key) < 0);
+    if (dropped.length > 0) {
+      problems2.push(`plural {${name}} drops the ${sourceName} ${dropped.join(", ")}`);
+    }
+    if (categories.indexOf("one") >= 0 && sourceBranches.indexOf("one") >= 0 && branches.indexOf("one") < 0) {
+      problems2.push(`plural {${name}} has no 'one' branch, which ${language} uses`);
+    }
+  }
+  return problems2;
 }
 
 // packages/i18n-tools/src/files/paths.ts
@@ -708,97 +772,31 @@ function parseRule(data2) {
 }
 
 // packages/i18n-tools/src/check/rules/pluralBranches.ts
-var EXACT = /^=\d+$/;
 function pluralBranchesRule(data2) {
   const problems2 = [];
   for (const { language, file: file2, id, entry, source } of translationsOf(data2)) {
     const english = tryParse(source.en);
     const translation = tryParse(entry.text);
     if (!english.ok || !translation.ok) continue;
-    const englishPlurals = messageShape(english.nodes).plurals;
-    const plurals = messageShape(translation.nodes).plurals;
-    const categories = PLURAL_CATEGORIES[language];
-    for (const name of Object.keys(plurals).sort()) {
-      const branches = plurals[name] ?? [];
-      const englishBranches = englishPlurals[name] ?? [];
-      const unfit = branches.filter((key) => !EXACT.test(key) && categories.indexOf(key) < 0);
-      if (unfit.length > 0) {
-        problems2.push({
-          severity: "error",
-          rule: "plural",
-          file: file2,
-          key: id,
-          message: `plural {${name}} has ${unfit.join(", ")}, which ${language} doesn't use (it has ${categories.join(", ")} and =N)`
-        });
-      }
-      const dropped = englishBranches.filter((key) => EXACT.test(key) && branches.indexOf(key) < 0);
-      if (dropped.length > 0) {
-        problems2.push({
-          severity: "error",
-          rule: "plural",
-          file: file2,
-          key: id,
-          message: `plural {${name}} drops the English ${dropped.join(", ")}`
-        });
-      }
-      if (categories.indexOf("one") >= 0 && englishBranches.indexOf("one") >= 0 && branches.indexOf("one") < 0) {
-        problems2.push({
-          severity: "error",
-          rule: "plural",
-          file: file2,
-          key: id,
-          message: `plural {${name}} has no 'one' branch, which ${language} uses`
-        });
-      }
+    for (const message of pluralBranchProblems(
+      language,
+      messageShape(english.nodes),
+      messageShape(translation.nodes)
+    )) {
+      problems2.push({ severity: "error", rule: "plural", file: file2, key: id, message });
     }
   }
   return problems2;
 }
 
 // packages/i18n-tools/src/check/rules/shape.ts
-function list(names2) {
-  return names2.length === 0 ? "none" : names2.join(", ");
-}
-function differences(english, translation) {
-  const found = [];
-  const same2 = (a, b) => a.join("\0") === b.join("\0");
-  if (!same2(english.placeholders, translation.placeholders)) {
-    found.push(
-      `values differ: English uses ${list(english.placeholders)}, translation uses ${list(translation.placeholders)}`
-    );
-  }
-  if (!same2(english.numbers, translation.numbers)) {
-    found.push(
-      `number formatting differs: English formats ${list(english.numbers)}, translation formats ${list(translation.numbers)}`
-    );
-  }
-  if (!same2(Object.keys(english.plurals).sort(), Object.keys(translation.plurals).sort())) {
-    found.push(
-      `plural values differ: English ${list(Object.keys(english.plurals).sort())}, translation ${list(Object.keys(translation.plurals).sort())}`
-    );
-  }
-  const selectNames = Object.keys({ ...english.selects, ...translation.selects }).sort();
-  for (const name of selectNames) {
-    if (!same2(english.selects[name] ?? [], translation.selects[name] ?? [])) {
-      found.push(
-        `select {${name}} has other branches: English ${list(english.selects[name] ?? [])}, translation ${list(translation.selects[name] ?? [])}`
-      );
-    }
-  }
-  if (!same2(english.tags, translation.tags)) {
-    found.push(
-      `tags differ: English has ${list(english.tags)}, translation has ${list(translation.tags)}`
-    );
-  }
-  return found;
-}
 function shapeRule(data2) {
   const problems2 = [];
   for (const { file: file2, id, entry, source } of translationsOf(data2)) {
     const english = tryParse(source.en);
     const translation = tryParse(entry.text);
     if (!english.ok || !translation.ok) continue;
-    for (const message of differences(
+    for (const message of shapeDifferences(
       messageShape(english.nodes),
       messageShape(translation.nodes)
     )) {
@@ -833,7 +831,7 @@ function sourceFileText(file2) {
 }
 
 // packages/i18n-tools/src/check/rules/sourceUpToDate.ts
-function same(a, b) {
+function same2(a, b) {
   if (!a || !b) return a === b;
   return sourceFileText({ x: a }) === sourceFileText({ x: b });
 }
@@ -864,7 +862,7 @@ function sourceUpToDateRule(data2, collected) {
     } else {
       const added = Object.keys(wanted).filter((id) => !(id in written)).sort();
       const removed = Object.keys(written).filter((id) => !(id in wanted)).sort();
-      const changed = Object.keys(wanted).filter((id) => id in written && !same(wanted[id], written[id])).sort();
+      const changed = Object.keys(wanted).filter((id) => id in written && !same2(wanted[id], written[id])).sort();
       const parts = [
         added.length > 0 ? `added: ${listed(added)}` : "",
         changed.length > 0 ? `changed: ${listed(changed)}` : "",

@@ -231,6 +231,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
+  "account.aiAssistants.allow10": {
+    "en": "Change your floor plans in drafts (levels, walls, rooms, doors, furniture and devices), and apply a reviewed draft after you approve in chat",
+    "context": "What a connected assistant can do (57.6). Use the same words as login.consent.widgetsAllow10.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
   "account.aiAssistants.allow2": {
     "en": "Read your devices: their names, kinds, capabilities and current readings",
     "context": "What a connected assistant can do. Use the same words as login.consent.widgetsAllow2.",
@@ -256,7 +262,7 @@
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.allow6": {
-    "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
+    "en": "Browse the Community and install a specific version of a widget, theme, partial or model after you approve in chat; installations stay if a draft is discarded",
     "context": "Dashboard permissions after renewing the AI connection.",
     "maxLength": 240,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
@@ -265,6 +271,18 @@
     "en": "Read your floor plans and change a placed model’s colours and finishes after you approve its preview in chat",
     "context": "Expanded consent version 3: read floor plans and change only a reviewed model placement appearance.",
     "maxLength": 240,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow8": {
+    "en": "Delete your own widgets, partials, themes, models and test devices, each after you approve it in chat",
+    "context": "What a connected assistant can do (57.2). Use the same words as login.consent.widgetsAllow8.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.allow9": {
+    "en": "See your pictures and Tiledash’s, and add pictures to your library, to choose them for wallpapers and tiles",
+    "context": "What a connected assistant can do (57.5). Use the same words as login.consent.widgetsAllow9.",
+    "maxLength": 140,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.appLine": {

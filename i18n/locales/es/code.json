@@ -467,6 +467,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.completions.translationValue": {
+    "text": "un valor de «{key}»",
+    "source": "e412982e7f",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.completions.variableById": {
     "text": "{meaning} Se usa por su id, así que sigue funcionando si le cambias el nombre en Homey.",
     "source": "fd5c5e195d",
@@ -770,6 +776,12 @@
   "code.copyUpdate.title": {
     "text": "Qué cambió en {builtin}",
     "source": "fe8d3ee5c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.copyUpdate.translations": {
+    "text": "cambios en las traducciones",
+    "source": "8b3984a685",
     "by": "ai",
     "reviewed": false
   },
@@ -1586,6 +1598,150 @@
   "code.editorPages.workshop": {
     "text": "Taller",
     "source": "c0086f23dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.approval": {
+    "text": "Para aplicarlo, dile a tu asistente que apruebas la versión {version}. Cualquier cambio en el borrador necesita tu aprobación de nuevo.",
+    "source": "9b11132a17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.changes": {
+    "text": "Qué hace aplicarlo",
+    "source": "9333177449",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.conflict": {
+    "text": "Tu plano ha cambiado",
+    "source": "06dd19c4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.conflictHelp": {
+    "text": "Pide a tu asistente que lo lea de nuevo y prepare otro borrador. No se ha aplicado nada.",
+    "source": "5780482fe4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.counts": {
+    "text": "{rooms, plural, one {# habitación} other {# habitaciones}} · {items, plural, one {# mueble o dispositivo} other {# muebles y dispositivos}} en {level}",
+    "source": "3435c8fddc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.expires": {
+    "text": "Vista previa hasta {date}",
+    "source": "5fb7cd01b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.hint": {
+    "text": "Arrastra para mirar alrededor en 3D. Aquí no se puede cambiar ni encender nada.",
+    "source": "612a62f423",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.labelPart": {
+    "text": "Texto",
+    "source": "71988c4d8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.levels": {
+    "text": "Planta",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.newPlan": {
+    "text": "Plano nuevo",
+    "source": "0e646825df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.nothingRemoved": {
+    "text": "No quita nada.",
+    "source": "1a56c6dd17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.removed": {
+    "text": "{count, plural, one {Quita # parte:} other {Quita # partes:}}",
+    "source": "7de6ae5cff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.removedLevel": {
+    "text": "Toda la planta {level}",
+    "source": "0d3b0ea1ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.review": {
+    "text": "Revisa cada planta y lo que se quita, y luego pide a tu asistente que aplique esta versión. Un plano no guarda historial, así que no se puede deshacer.",
+    "source": "731b685ec0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.reviewNew": {
+    "text": "Revisa cada planta y luego pide a tu asistente que aplique esta versión para crear el plano.",
+    "source": "7aa42c81a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.title": {
+    "text": "Vista previa del plano",
+    "source": "8aa8e50e70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.unavailable": {
+    "text": "Esta vista previa ya no está disponible",
+    "source": "a8628183bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.unavailableHelp": {
+    "text": "Pide a tu asistente un nuevo enlace de vista previa si aún quieres revisar el borrador.",
+    "source": "5bf2b0b68b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.untouched": {
+    "text": "Tus dashboards siguen mostrando el plano tal como está",
+    "source": "369b64d03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.untouchedNew": {
+    "text": "Este plano aún no está en tus dashboards",
+    "source": "5921e1b7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.version": {
+    "text": "Borrador · versión {version}",
+    "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.view2d": {
+    "text": "2D",
+    "source": "269de770b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.view3d": {
+    "text": "3D",
+    "source": "fcffba9828",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.views": {
+    "text": "Vista",
+    "source": "dcc839a401",
     "by": "ai",
     "reviewed": false
   },
@@ -6182,6 +6338,288 @@
   "code.testDevices.yes": {
     "text": "Sí",
     "source": "85a39ab345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addLanguage": {
+    "text": "Añadir un idioma",
+    "source": "d78f78ba89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addMessage": {
+    "text": "Añadir un texto",
+    "source": "758248115a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addToTranslations": {
+    "text": "Añadir a traducciones",
+    "source": "4539604546",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.deleteRow": {
+    "text": "Eliminar {key}",
+    "source": "c58b762a7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.editAs": {
+    "text": "Editar como",
+    "source": "0ea2636482",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.emptyTip": {
+    "text": "O selecciona un texto en la plantilla y elige Hacer traducible.",
+    "source": "bd46a06edb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.filter": {
+    "text": "Qué textos mostrar",
+    "source": "2f2187761c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupDetails": {
+    "text": "Nombre y descripción",
+    "source": "f90c3167c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupMessages": {
+    "text": "Textos",
+    "source": "48e0ef1e26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupParams": {
+    "text": "Parámetros",
+    "source": "e68b36b17c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupSettings": {
+    "text": "Ajustes",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonEditor": {
+    "text": "Traducciones como JSON",
+    "source": "4e503bff30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonKept": {
+    "text": "El formulario conserva la última versión válida hasta que esto se corrija.",
+    "source": "a2e8f940e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonUnreadable": {
+    "text": "Esto no es un JSON válido.",
+    "source": "696840c532",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonValid": {
+    "text": "Válido",
+    "source": "f516220631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyBad": {
+    "text": "Usa minúsculas, dígitos, _ o . y empieza por una letra",
+    "source": "546095468f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyField": {
+    "text": "Clave",
+    "source": "99a52df3ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyTaken": {
+    "text": "Otro texto ya tiene esta clave",
+    "source": "1f21dc13f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.madeTranslatable": {
+    "text": "Movido a Traducciones como {key}",
+    "source": "1643150d44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.makeTranslatable": {
+    "text": "Hacer traducible",
+    "source": "acd1167beb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.makeTranslatableHint": {
+    "text": "Mueve el texto seleccionado a Traducciones y lo lee desde allí.",
+    "source": "2556c116ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noneToDo": {
+    "text": "Todo está traducido.",
+    "source": "e0f2a0ac48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noteColumnHint": {
+    "text": "Solo lo ven los traductores",
+    "source": "4490f11edf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noteField": {
+    "text": "Nota para traductores",
+    "source": "d2abb8664e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.original": {
+    "text": "Original",
+    "source": "88d759ea02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partDescription": {
+    "text": "Descripción",
+    "source": "526e0087cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partHelp": {
+    "text": "Ayuda",
+    "source": "b79cac926e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partLabel": {
+    "text": "Etiqueta",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partName": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partOption": {
+    "text": "Opción",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partPlaceholder": {
+    "text": "Texto de ejemplo",
+    "source": "f4b24fed02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partSpot": {
+    "text": "Posición",
+    "source": "74f8092562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partUnit": {
+    "text": "Unidad",
+    "source": "4e545960f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.progress": {
+    "text": "{done} de {total}",
+    "source": "e7a467ec56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.removeLanguage": {
+    "text": "Quitar {language}",
+    "source": "63f50b46a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showAll": {
+    "text": "Todos",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showIn": {
+    "text": "Mostrar en",
+    "source": "de13a955c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showToDo": {
+    "text": "Por hacer",
+    "source": "100ec1bc78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.sourceElsewhere": {
+    "text": "Cámbialo donde se define: en Ajustes o Detalles.",
+    "source": "65cb1f81d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.stateStale": {
+    "text": "Texto cambiado",
+    "source": "26c7b57753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.stillRight": {
+    "text": "Aún es correcta",
+    "source": "5e5b80b665",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.tab": {
+    "text": "Traducciones",
+    "source": "266a41b90d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.table": {
+    "text": "Tabla",
+    "source": "16d1c9050a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.tableLabel": {
+    "text": "Textos por idioma",
+    "source": "9237dd3671",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.translationOf": {
+    "text": "{language} para {key}",
+    "source": "1578ab53b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.writtenIn": {
+    "text": "Escrito en",
+    "source": "0690230dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.writtenInHint": {
+    "text": "El idioma en que lo escribiste. Quien use un idioma sin texto verá el inglés si existe, si no este, y si no cualquier idioma que lo tenga.",
+    "source": "2b0714c907",
     "by": "ai",
     "reviewed": false
   },

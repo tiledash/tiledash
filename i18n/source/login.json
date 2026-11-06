@@ -464,6 +464,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
+  "login.consent.widgetsAllow10": {
+    "en": "Change your floor plans in drafts (levels, walls, rooms, doors, furniture and devices), and apply a reviewed draft after you approve in chat",
+    "context": "Item in the list of what an AI app may do (57.6): it may change the person’s floor plans (the drawing of their house from above: levels, walls, rooms, doors and windows, furniture and devices) in a separate draft, and only make the change real after the person approves that exact version in the chat.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
   "login.consent.widgetsAllow2": {
     "en": "Read your devices: their names, kinds, capabilities and current readings",
     "context": "Item in the list of what an AI app may do. A capability is something a device can do or report (on/off, temperature…); readings are the current values.",
@@ -489,7 +495,7 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsAllow6": {
-    "en": "Browse Community widgets and install a specific version after you approve in chat; installations stay if a draft is discarded",
+    "en": "Browse the Community and install a specific version of a widget, theme, partial or model after you approve in chat; installations stay if a draft is discarded",
     "context": "Expanded MCP permissions shown during renewed consent.",
     "maxLength": 240,
     "file": "packages/ui/src/screens/consent.messages.ts"
@@ -498,6 +504,18 @@
     "en": "Read your floor plans and change a placed model’s colours and finishes after you approve its preview in chat",
     "context": "Expanded consent version 3: read floor plans and change only a reviewed model placement appearance.",
     "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow8": {
+    "en": "Delete your own widgets, partials, themes, models and test devices, each after you approve it in chat",
+    "context": "Item in the list of what an AI app may do (57.2): it may delete things the person made in Tiledash, but only one at a time and only after the person says yes in the chat with the assistant. Partials are shared pieces of widgets; test devices are made-up devices for trying widgets out.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.widgetsAllow9": {
+    "en": "See your pictures and Tiledash’s, and add pictures to your library, to choose them for wallpapers and tiles",
+    "context": "Item in the list of what an AI app may do (57.5): it may see the pictures in the person’s Tiledash picture library and Tiledash’s own pictures, and add new pictures to that library, so it can pick a wallpaper (a picture behind a dashboard) or a picture behind a tile.",
+    "maxLength": 140,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsDeny0": {

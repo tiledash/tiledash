@@ -554,6 +554,15 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/completions.messages.ts"
   },
+  "code.completions.translationValue": {
+    "en": "a value of “{key}”",
+    "context": "Note beside a value a text of the widget takes, suggested after its key in a template.",
+    "params": {
+      "key": "The text’s key. Code, not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/completions.messages.ts"
+  },
   "code.completions.variableById": {
     "en": "{meaning} Goes in by its id, so renaming it in Homey keeps it working.",
     "context": "Help under a Homey variable: what it is, then how it is named in the template.",
@@ -959,6 +968,12 @@
       "builtin": "The widget copied, such as \"Light\"."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/copyUpdate/copyUpdate.messages.ts"
+  },
+  "code.copyUpdate.translations": {
+    "en": "changes to the translations",
+    "context": "One change: the widget’s translations into other languages changed. Lower case.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/widgets/copyUpdate/copyUpdate.messages.ts"
   },
   "code.copyUpdate.withCount": {
@@ -1892,6 +1907,146 @@
     "context": "Button back to the Workshop page (everything the person made). Use the same words as that page’s title.",
     "maxLength": 30,
     "file": "apps/web/src/widgets/ownEditorPages.messages.ts"
+  },
+  "code.floorPlanDraftPreview.approval": {
+    "en": "To apply it, tell your assistant you approve version {version}. Any change to the draft needs your approval again.",
+    "context": "Final approval instruction under the floor plan draft preview.",
+    "params": {
+      "version": "The draft version."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.changes": {
+    "en": "What applying it does",
+    "context": "Heading of the change summary.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.conflict": {
+    "en": "Your floor plan changed",
+    "context": "Warning: the live plan was saved since the draft was made.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.conflictHelp": {
+    "en": "Ask your assistant to read it again and prepare a fresh draft. Nothing has been applied.",
+    "context": "Instructions after the live floor plan changed during draft editing.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.counts": {
+    "en": "{rooms, plural, one {# room} other {# rooms}} · {items, plural, one {# piece of furniture or device} other {# pieces of furniture and devices}} on {level}",
+    "context": "What one level of the draft holds.",
+    "params": {
+      "items": "How many furniture pieces and devices it has.",
+      "level": "The level’s name, such as Ground floor.",
+      "rooms": "How many rooms the level has."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.expires": {
+    "en": "Preview until {date}",
+    "context": "When the draft preview link stops working.",
+    "params": {
+      "date": "A date and time, such as 27 October, 19:00."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.hint": {
+    "en": "Drag to look around in 3D. Nothing here can be changed or switched.",
+    "context": "Hint under the level and view switches of a floor plan draft preview.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.labelPart": {
+    "en": "Text",
+    "context": "A text label on the floor plan, in the list of what the draft removes.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.levels": {
+    "en": "Level",
+    "context": "Accessible label for the level switch.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.newPlan": {
+    "en": "New plan",
+    "context": "Badge: the draft makes a new floor plan rather than changing one.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.nothingRemoved": {
+    "en": "It removes nothing.",
+    "context": "Change summary when the draft removes no part of the live plan.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.removed": {
+    "en": "{count, plural, one {It removes # part:} other {It removes # parts:}}",
+    "context": "Heading of the list of parts the draft removes.",
+    "params": {
+      "count": "How many parts are removed."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.removedLevel": {
+    "en": "The whole level {level}",
+    "context": "A removed level in the list of what the draft removes.",
+    "params": {
+      "level": "The level’s name."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.review": {
+    "en": "Look at every level and at what it removes, then tell your assistant to apply this version. A floor plan keeps no history, so this can’t be undone.",
+    "context": "Instructions for reviewing a floor plan draft.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.reviewNew": {
+    "en": "Look at every level, then tell your assistant to apply this version to make the plan.",
+    "context": "Instructions for reviewing a draft of a new floor plan.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.title": {
+    "en": "Floor plan preview",
+    "context": "Heading of the page that shows an AI assistant’s draft of a floor plan.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.unavailable": {
+    "en": "This preview is no longer available",
+    "context": "The draft was applied, discarded, ran out or the AI connection was revoked.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.unavailableHelp": {
+    "en": "Ask your assistant for a fresh preview link if you still want to review the draft.",
+    "context": "Instructions on an unavailable floor plan preview.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.untouched": {
+    "en": "Your dashboards still show the plan as it is",
+    "context": "Status: nothing has changed on the live floor plan yet.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.untouchedNew": {
+    "en": "This plan isn’t on your dashboards yet",
+    "context": "Status for a draft of a new floor plan.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.version": {
+    "en": "Draft · version {version}",
+    "context": "The exact draft version the user reviews.",
+    "params": {
+      "version": "The numeric draft version, such as 2."
+    },
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.view2d": {
+    "en": "2D",
+    "context": "Show the plan from above, flat.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.view3d": {
+    "en": "3D",
+    "context": "Show the plan in 3D.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
+  },
+  "code.floorPlanDraftPreview.views": {
+    "en": "View",
+    "context": "Accessible label for the 2D or 3D switch.",
+    "file": "packages/ui/src/screens/floorPlanPreview/messages.ts"
   },
   "code.kindPicker.bigger": {
     "en": "For bigger jobs",
@@ -7107,6 +7262,305 @@
     "context": "A yes/no value of a test device: yes.",
     "maxLength": 10,
     "file": "packages/ui/src/screens/widgets/testDevices/testDevices.messages.ts"
+  },
+  "code.translations.addLanguage": {
+    "en": "Add a language",
+    "context": "Button that opens the list of languages to translate into.",
+    "maxLength": 26,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.addMessage": {
+    "en": "Add a text",
+    "context": "Button under the table that adds a row for a text of the template (a message): its key is typed in the first cell, its text in any language beside it.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.addToTranslations": {
+    "en": "Add to translations",
+    "context": "Button on a text of the template that has no translations yet (in its hover card and in the list of problems): it adds the text to the Translations tab and opens it there.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.deleteRow": {
+    "en": "Delete {key}",
+    "context": "Button at the end of a row of the table: deletes that text and its translations.",
+    "params": {
+      "key": "The text’s key, as code."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.editAs": {
+    "en": "Edit as",
+    "context": "Accessible name of the choice between the form and JSON.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.emptyTip": {
+    "en": "Or select a text in the template and choose Make translatable.",
+    "context": "Tip next to the \"Add a text\" button of the table while it has no texts yet. \"Make translatable\" is the button in the template editor (makeTranslatable).",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.filter": {
+    "en": "Which texts to show",
+    "context": "Accessible name of the All / To do filter.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.groupDetails": {
+    "en": "Name and description",
+    "context": "Group of the name and the line shown for the widget in the picker.",
+    "maxLength": 34,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.groupMessages": {
+    "en": "Texts",
+    "context": "Group of the words in the widget’s template.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.groupParams": {
+    "en": "Parameters",
+    "context": "Group of the labels of a partial’s parameters.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.groupSettings": {
+    "en": "Settings",
+    "context": "Group of the labels of the widget’s settings.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.jsonEditor": {
+    "en": "Translations as JSON",
+    "context": "Accessible name of the JSON editor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.jsonKept": {
+    "en": "The form keeps the last valid version until this is fixed.",
+    "context": "Under the JSON editor while what is typed doesn’t read as translations.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.jsonUnreadable": {
+    "en": "This isn’t valid JSON.",
+    "context": "Under the JSON editor while what is typed isn’t JSON.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.jsonValid": {
+    "en": "Valid",
+    "context": "Under the JSON editor when what is typed reads as translations.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.keyBad": {
+    "en": "Use lower-case letters, digits, _ or . and start with a letter",
+    "context": "Under the key field when it can’t be a key.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.keyField": {
+    "en": "Key",
+    "context": "Label of the field with the name the template reads a text by, as in {{ 'battery_low' | t }}.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.keyTaken": {
+    "en": "Another text has this key",
+    "context": "Under the key field when it is taken.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.madeTranslatable": {
+    "en": "Moved to Translations as {key}",
+    "context": "Short notice after a text was made translatable.",
+    "params": {
+      "key": "Its key."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.makeTranslatable": {
+    "en": "Make translatable",
+    "context": "Button in the template editor while a text is selected: it turns that text into a message.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.makeTranslatableHint": {
+    "en": "Moves the selected text to Translations and reads it from there.",
+    "context": "Tooltip of the Make translatable button.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.noneToDo": {
+    "en": "Everything is translated.",
+    "context": "When the To do filter leaves no texts.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.noteColumnHint": {
+    "en": "Only translators see it",
+    "context": "Small line under the heading of the table’s last column, \"Note for translators\": what a translator should know about a text. Viewers never see it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.noteField": {
+    "en": "Note for translators",
+    "context": "Label of the field with what a translator should know about a text.",
+    "maxLength": 34,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.original": {
+    "en": "Original",
+    "context": "Small tag on the column of the language the widget is written in: the others are translated from it.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partDescription": {
+    "en": "Description",
+    "context": "The text is the line shown for the widget in the picker.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partHelp": {
+    "en": "Help",
+    "context": "The text is the help under a setting.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partLabel": {
+    "en": "Label",
+    "context": "The text is a setting’s label.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partName": {
+    "en": "Name",
+    "context": "The text is the widget’s name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partOption": {
+    "en": "Choice",
+    "context": "The text is one of a choice setting’s options.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partPlaceholder": {
+    "en": "Placeholder",
+    "context": "The text is what an empty text setting shows.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partSpot": {
+    "en": "Spot",
+    "context": "The text is the name of one of the spots a values setting can point at.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.partUnit": {
+    "en": "Unit",
+    "context": "The text is the unit shown after a number setting.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.progress": {
+    "en": "{done} of {total}",
+    "context": "How many of a language’s texts are translated, next to its name. Kept short.",
+    "params": {
+      "done": "How many are translated.",
+      "total": "How many there are."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.removeLanguage": {
+    "en": "Remove {language}",
+    "context": "Button that takes away a language and its translations.",
+    "params": {
+      "language": "The language, in its own words: \"Nederlands\"."
+    },
+    "maxLength": 34,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.showAll": {
+    "en": "All",
+    "context": "Filter that shows every text of the widget.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.showIn": {
+    "en": "Show in",
+    "context": "Label of the choice of language the editor’s preview draws the widget in.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.showToDo": {
+    "en": "To do",
+    "context": "Filter: only texts that are missing, changed or wrong.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.sourceElsewhere": {
+    "en": "Change it where it is set: in Settings or Details.",
+    "context": "Tooltip on the widget’s name, description or a setting’s label in its own language, which can’t be changed in the table.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.stateStale": {
+    "en": "Text changed",
+    "context": "Badge on a translation whose original text changed after it was translated.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.stillRight": {
+    "en": "Still right",
+    "context": "Button on such a translation: it fits the changed text as it is.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.tab": {
+    "en": "Translations",
+    "context": "The tab in the widget editor, next to Template, Style and Settings.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.table": {
+    "en": "Table",
+    "context": "Choice between seeing the translations as a table or as JSON.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.tableLabel": {
+    "en": "Texts by language",
+    "context": "Accessible name of the table: a row per text, a column per language.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.translationOf": {
+    "en": "{language} for {key}",
+    "context": "Accessible name of a translation field.",
+    "params": {
+      "key": "The text’s key.",
+      "language": "The language, in its own words."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.writtenIn": {
+    "en": "Written in",
+    "context": "Label of the choice of language the widget’s own texts are in.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
+  },
+  "code.translations.writtenInHint": {
+    "en": "The language you wrote it in. People whose language has no text see English if it is there, else this one, else any language that has it.",
+    "context": "Help for the choice of the widget’s own language.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/widgets/translations/translations.messages.ts"
   },
   "code.valueFields.addChoice": {
     "en": "Add a choice",

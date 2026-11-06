@@ -262,6 +262,8 @@ terms:
       - account.configImport.syncingDetail
       - account.importDialog.reading
       - editor.timelineValues.loadingTitle
+      # A meter's register reading: Zählerstand, meterstand, index du compteur.
+      - widgets.builtin.theMeterSReading
     nl: { preferred: meetwaarde }
     de: { preferred: Messwert }
     es: { preferred: lectura }
@@ -334,6 +336,29 @@ terms:
         account.pictures.useFloorPlan,
         account.settings.picturesAbout,
         viewer.pictures.originFloorPlan,
+        # An AI assistant changing your floor plans in drafts, and reviewing those drafts.
+        account.aiAssistants.allow10,
+        login.consent.widgetsAllow10,
+        code.floorPlanDraftPreview.*,
+        # The Floor plan widget, its settings and its room elements.
+        widgets.builtin.aSliderUnderThePlanTo,
+        widgets.builtin.configureActionsInTheFloorPlanner,
+        widgets.builtin.floorPlan,
+        widgets.builtin.livePlan,
+        widgets.builtin.ringsWhereATapReachesA,
+        widgets.builtin.softIsTheFloorPlanS,
+        widgets.builtin.useFloorPlanActions,
+        widgets.builtin.whatTheTileStartsOnThe,
+        widgets.elements.planChoose,
+        widgets.elements.planChooseText,
+        widgets.elements.planGone,
+        widgets.elements.planPaused,
+        widgets.elements.planShowLive,
+        widgets.elements.roomNoChoices,
+        widgets.elements.roomNotOnPlan,
+        widgets.elements.roomOnPlan,
+        widgets.elements.roomSavedNote,
+        widgets.elements.roomTickAll,
       ]
     nl: { preferred: plan, notes: '"abonnement" only where the English says subscription.' }
     de: { preferred: Tarif }

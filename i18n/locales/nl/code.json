@@ -467,6 +467,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.completions.translationValue": {
+    "text": "een waarde van “{key}”",
+    "source": "e412982e7f",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.completions.variableById": {
     "text": "{meaning} Staat erin op id, dus na hernoemen in Homey blijft het werken.",
     "source": "fd5c5e195d",
@@ -770,6 +776,12 @@
   "code.copyUpdate.title": {
     "text": "Wat er in {builtin} is veranderd",
     "source": "fe8d3ee5c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.copyUpdate.translations": {
+    "text": "wijzigingen in de vertalingen",
+    "source": "8b3984a685",
     "by": "ai",
     "reviewed": false
   },
@@ -1586,6 +1598,150 @@
   "code.editorPages.workshop": {
     "text": "Werkplaats",
     "source": "c0086f23dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.approval": {
+    "text": "Laat je assistent weten dat je versie {version} goedkeurt om hem toe te passen. Elke wijziging aan het concept vraagt opnieuw je goedkeuring.",
+    "source": "9b11132a17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.changes": {
+    "text": "Wat toepassen doet",
+    "source": "9333177449",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.conflict": {
+    "text": "Je plattegrond is veranderd",
+    "source": "06dd19c4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.conflictHelp": {
+    "text": "Vraag je assistent hem opnieuw te lezen en een nieuw concept te maken. Er is niets toegepast.",
+    "source": "5780482fe4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.counts": {
+    "text": "{rooms, plural, one {# kamer} other {# kamers}} · {items, plural, one {# meubel of apparaat} other {# meubels en apparaten}} op {level}",
+    "source": "3435c8fddc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.expires": {
+    "text": "Voorbeeld tot {date}",
+    "source": "5fb7cd01b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.hint": {
+    "text": "Sleep om rond te kijken in 3D. Hier kan niets worden gewijzigd of geschakeld.",
+    "source": "612a62f423",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.labelPart": {
+    "text": "Tekst",
+    "source": "71988c4d8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.levels": {
+    "text": "Verdieping",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.newPlan": {
+    "text": "Nieuwe plattegrond",
+    "source": "0e646825df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.nothingRemoved": {
+    "text": "Er verdwijnt niets.",
+    "source": "1a56c6dd17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.removed": {
+    "text": "{count, plural, one {Er verdwijnt # onderdeel:} other {Er verdwijnen # onderdelen:}}",
+    "source": "7de6ae5cff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.removedLevel": {
+    "text": "De hele verdieping {level}",
+    "source": "0d3b0ea1ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.review": {
+    "text": "Bekijk elke verdieping en wat er verdwijnt, en vraag je assistent dan deze versie toe te passen. Een plattegrond heeft geen geschiedenis, dus dit kan niet ongedaan worden gemaakt.",
+    "source": "731b685ec0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.reviewNew": {
+    "text": "Bekijk elke verdieping en vraag je assistent dan deze versie toe te passen om de plattegrond te maken.",
+    "source": "7aa42c81a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.title": {
+    "text": "Voorbeeld van de plattegrond",
+    "source": "8aa8e50e70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.unavailable": {
+    "text": "Dit voorbeeld is niet meer beschikbaar",
+    "source": "a8628183bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.unavailableHelp": {
+    "text": "Vraag je assistent om een nieuwe voorbeeldlink als je het concept nog wilt bekijken.",
+    "source": "5bf2b0b68b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.untouched": {
+    "text": "Je dashboards tonen de plattegrond nog zoals hij is",
+    "source": "369b64d03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.untouchedNew": {
+    "text": "Deze plattegrond staat nog niet op je dashboards",
+    "source": "5921e1b7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.version": {
+    "text": "Concept · versie {version}",
+    "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.view2d": {
+    "text": "2D",
+    "source": "269de770b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.view3d": {
+    "text": "3D",
+    "source": "fcffba9828",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.floorPlanDraftPreview.views": {
+    "text": "Weergave",
+    "source": "dcc839a401",
     "by": "ai",
     "reviewed": false
   },
@@ -6182,6 +6338,288 @@
   "code.testDevices.yes": {
     "text": "Ja",
     "source": "85a39ab345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addLanguage": {
+    "text": "Taal toevoegen",
+    "source": "d78f78ba89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addMessage": {
+    "text": "Tekst toevoegen",
+    "source": "758248115a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.addToTranslations": {
+    "text": "Toevoegen aan vertalingen",
+    "source": "4539604546",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.deleteRow": {
+    "text": "{key} verwijderen",
+    "source": "c58b762a7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.editAs": {
+    "text": "Bewerken als",
+    "source": "0ea2636482",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.emptyTip": {
+    "text": "Of selecteer een tekst in de template en kies Vertaalbaar maken.",
+    "source": "bd46a06edb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.filter": {
+    "text": "Welke teksten tonen",
+    "source": "2f2187761c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupDetails": {
+    "text": "Naam en beschrijving",
+    "source": "f90c3167c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupMessages": {
+    "text": "Teksten",
+    "source": "48e0ef1e26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupParams": {
+    "text": "Parameters",
+    "source": "e68b36b17c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.groupSettings": {
+    "text": "Instellingen",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonEditor": {
+    "text": "Vertalingen als JSON",
+    "source": "4e503bff30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonKept": {
+    "text": "Het formulier houdt de laatste geldige versie tot dit is opgelost.",
+    "source": "a2e8f940e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonUnreadable": {
+    "text": "Dit is geen geldige JSON.",
+    "source": "696840c532",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.jsonValid": {
+    "text": "Geldig",
+    "source": "f516220631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyBad": {
+    "text": "Gebruik kleine letters, cijfers, _ of . en begin met een letter",
+    "source": "546095468f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyField": {
+    "text": "Sleutel",
+    "source": "99a52df3ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.keyTaken": {
+    "text": "Een andere tekst heeft deze sleutel",
+    "source": "1f21dc13f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.madeTranslatable": {
+    "text": "Verplaatst naar Vertalingen als {key}",
+    "source": "1643150d44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.makeTranslatable": {
+    "text": "Vertaalbaar maken",
+    "source": "acd1167beb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.makeTranslatableHint": {
+    "text": "Verplaatst de geselecteerde tekst naar Vertalingen en leest hem daaruit.",
+    "source": "2556c116ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noneToDo": {
+    "text": "Alles is vertaald.",
+    "source": "e0f2a0ac48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noteColumnHint": {
+    "text": "Alleen vertalers zien dit",
+    "source": "4490f11edf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.noteField": {
+    "text": "Opmerking voor vertalers",
+    "source": "d2abb8664e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.original": {
+    "text": "Origineel",
+    "source": "88d759ea02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partDescription": {
+    "text": "Beschrijving",
+    "source": "526e0087cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partHelp": {
+    "text": "Hulptekst",
+    "source": "b79cac926e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partLabel": {
+    "text": "Label",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partName": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partOption": {
+    "text": "Keuze",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partPlaceholder": {
+    "text": "Voorbeeldtekst",
+    "source": "f4b24fed02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partSpot": {
+    "text": "Plek",
+    "source": "74f8092562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.partUnit": {
+    "text": "Eenheid",
+    "source": "4e545960f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.progress": {
+    "text": "{done} van {total}",
+    "source": "e7a467ec56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.removeLanguage": {
+    "text": "{language} verwijderen",
+    "source": "63f50b46a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showAll": {
+    "text": "Alle",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showIn": {
+    "text": "Tonen in",
+    "source": "de13a955c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.showToDo": {
+    "text": "Te doen",
+    "source": "100ec1bc78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.sourceElsewhere": {
+    "text": "Wijzig dit waar het staat: bij Instellingen of Details.",
+    "source": "65cb1f81d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.stateStale": {
+    "text": "Tekst gewijzigd",
+    "source": "26c7b57753",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.stillRight": {
+    "text": "Klopt nog",
+    "source": "5e5b80b665",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.tab": {
+    "text": "Vertalingen",
+    "source": "266a41b90d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.table": {
+    "text": "Tabel",
+    "source": "16d1c9050a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.tableLabel": {
+    "text": "Teksten per taal",
+    "source": "9237dd3671",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.translationOf": {
+    "text": "{language} voor {key}",
+    "source": "1578ab53b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.writtenIn": {
+    "text": "Geschreven in",
+    "source": "0690230dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.translations.writtenInHint": {
+    "text": "De taal waarin je het hebt geschreven. Wie een taal zonder tekst gebruikt, ziet Engels als dat er is, anders deze taal, anders een taal die het heeft.",
+    "source": "2b0714c907",
     "by": "ai",
     "reviewed": false
   },
