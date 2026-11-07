@@ -1,0 +1,700 @@
+{
+  "showcase.site.aboutModels": {
+    "en": "3D furniture and lights for your floor plans, by room and by brand.",
+    "context": "Under the title of the 3D furniture page.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.aboutPartials": {
+    "en": "Pieces that widget makers share for their own widgets, such as an alarm that pulses when it goes off.",
+    "context": "Under the title of the Partials page.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.aboutThemes": {
+    "en": "Colours, type and the feel of every tile at once. Each is shown on real tiles.",
+    "context": "Under the title of the Themes page.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.aboutWidgets": {
+    "en": "Tiles for your dashboards. Each one is drawn here on a demo home, as it would look on yours.",
+    "context": "Under the title of the Widgets page.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.allModels": {
+    "en": "All furniture",
+    "context": "Link at the end of a front page row.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.allResults": {
+    "en": "{count, plural, one {See the result for “{query}”} other {All # results for “{query}”}}",
+    "context": "Last line of the results under the search box: opens a page with all of them.",
+    "params": {
+      "count": "How many (a number).",
+      "query": "What was typed in the search box."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.allThemes": {
+    "en": "All themes",
+    "context": "Link at the end of a front page row.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.allWidgets": {
+    "en": "All widgets",
+    "context": "Link at the end of a front page row.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.brand": {
+    "en": "Brand",
+    "context": "Fact on a 3D furniture item’s page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.brandPieces": {
+    "en": "{count, plural, one {# piece} other {# pieces}}",
+    "context": "Beside a brand on the brands page: how many pieces of 3D furniture it has.",
+    "params": {
+      "count": "How many (a number)."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.brands": {
+    "en": "Brands",
+    "context": "Navigation: 3D furniture by brand (IKEA, Philips Hue…).",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.brandsLink": {
+    "en": "Furniture by brand",
+    "context": "Link on the 3D furniture page to the brands page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.breadcrumb": {
+    "en": "Where you are",
+    "context": "Screen reader label of the link back to the kind’s page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.by": {
+    "en": "by {maker}",
+    "context": "Under a featured item: who made it. {maker} is their name.",
+    "params": {
+      "maker": "The maker’s display name, such as “Night Owl”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.byLinked": {
+    "en": "by <maker>{name}</maker>",
+    "context": "Under an item’s name on its page: who made it, the name a link to their page.",
+    "params": {
+      "name": "The maker’s display name, such as “Night Owl”."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.byTiledash": {
+    "en": "By Tiledash",
+    "context": "Front page row title: items made by Tiledash itself.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.byTiledashLead": {
+    "en": "Made and kept up to date by the people who build Tiledash.",
+    "context": "Under the By Tiledash title.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.colInstalls": {
+    "en": "Installs",
+    "context": "Table column header.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.colMaker": {
+    "en": "Maker",
+    "context": "Table column header: who published it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.colName": {
+    "en": "Name",
+    "context": "Table column header.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.colPicture": {
+    "en": "Picture",
+    "context": "Table column (hidden, for screen readers).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.colUpdated": {
+    "en": "Updated",
+    "context": "Table column header: when its last version came out.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.copyLink": {
+    "en": "Copy link",
+    "context": "Copies the item page’s address.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.count": {
+    "en": "{count, plural, one {# item} other {# items}}",
+    "context": "How many items a list page shows.",
+    "params": {
+      "count": "How many (a number)."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.demoNote": {
+    "en": "On a demo home, with made-up readings",
+    "context": "Beside the size switch under a widget’s preview.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.everythingByTiledash": {
+    "en": "Everything by Tiledash",
+    "context": "Link at the end of the By Tiledash row: Tiledash’s maker page.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.everythingTheyMade": {
+    "en": "Everything they made",
+    "context": "Link to the maker’s page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.featured": {
+    "en": "Featured",
+    "context": "Screen reader label of the featured items at the top.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.filterFor": {
+    "en": "For",
+    "context": "Heading above the tags to filter a list page by (energy, lights, climate…).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.filterLabel": {
+    "en": "Filter",
+    "context": "Screen reader label of the filters.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.footerName": {
+    "en": "Tiledash Community",
+    "context": "The site’s name in the footer of every page.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.headline": {
+    "en": "Widgets, themes and furniture for your Tiledash dashboard",
+    "context": "The front page’s title, beside the featured items drawn as a dashboard.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.homeLabel": {
+    "en": "Tiledash Community, front page",
+    "context": "Screen reader label of the logo link in the top bar, which opens the front page.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.install": {
+    "en": "Install in Tiledash",
+    "context": "Main button on an item’s page: opens the item in the Tiledash app to install it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.installNote": {
+    "en": "Opens it in Tiledash, where you log in with your Homey account. Free is enough.",
+    "context": "Under the Install in Tiledash button.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.kindsLabel": {
+    "en": "Kinds",
+    "context": "Screen reader label of the navigation with Widgets, Themes, 3D furniture, Partials.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.languages": {
+    "en": "Languages",
+    "context": "Fact on an item’s page: the languages it shows in.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.licence": {
+    "en": "Licence",
+    "context": "Fact on an item’s page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.linkCopied": {
+    "en": "Link copied",
+    "context": "Shown after Copy link.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.loadingMore": {
+    "en": "Loading more…",
+    "context": "Under a list page while the next page of items loads as you scroll.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.makerInstalls": {
+    "en": "{installs} of {count, plural, one {the one thing} other {# things}} they made",
+    "context": "Under a maker: how many installs their items have. {installs} is like “2,310 installs”.",
+    "params": {
+      "count": "How many (a number).",
+      "installs": "How many installs, already written out, such as “2,310 installs”."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.makerSince": {
+    "en": "@{handle}, sharing since {month}",
+    "context": "Under a maker’s name on their page. {month} is like “March 2026”.",
+    "params": {
+      "handle": "The maker’s handle without @, such as “nightowl”.",
+      "month": "A month and year, such as “March 2026”."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.menu": {
+    "en": "Menu",
+    "context": "Phone: opens the menu with the kinds.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.menuNote": {
+    "en": "Free to try with your Homey. Installing happens in Tiledash.",
+    "context": "Under the phone menu’s Open Tiledash button.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.modelNote": {
+    "en": "Drag to turn it round. In Tiledash you can see it in your own rooms.",
+    "context": "Under a 3D furniture item’s preview.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.models": {
+    "en": "3D furniture",
+    "context": "Navigation: the page of all 3D furniture and lights for floor plans.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.moreBy": {
+    "en": "More by {maker}",
+    "context": "Heading above more items by the same maker.",
+    "params": {
+      "maker": "The maker’s display name, such as “Night Owl”."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.mostUsedModels": {
+    "en": "Most used 3D furniture",
+    "context": "Front page row title.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.mostUsedThemes": {
+    "en": "Most used themes",
+    "context": "Front page row title.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.mostUsedWidgets": {
+    "en": "Most used widgets",
+    "context": "Front page row title.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.newest": {
+    "en": "New",
+    "context": "Front page list title: items published lately.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.noResults": {
+    "en": "Nothing matches “{query}” yet.",
+    "context": "Search results page when nothing matches.",
+    "params": {
+      "query": "What was typed in the search box."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.noResultsHint": {
+    "en": "Search for a device or a room, like “thermostat” or “bedroom”, or look through:",
+    "context": "Under “Nothing matches”, before links to Widgets, Themes, 3D furniture and Partials.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.notFoundText": {
+    "en": "It may have been taken down by its maker. Have a look at what’s there instead.",
+    "context": "Under the not-found title.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.notFoundTitle": {
+    "en": "This isn’t in the community (any more)",
+    "context": "Title when an item or maker doesn’t exist.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.nothingFor": {
+    "en": "Nothing is for {tags} yet.",
+    "context": "When the filters match nothing. {tags} is the chosen tags, like “energy and solar”.",
+    "params": {
+      "tags": "The chosen tags, such as “energy”."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.nothingFound": {
+    "en": "Nothing called “{query}” yet. Try a device, like “thermostat”.",
+    "context": "Under the search box when nothing matches.",
+    "params": {
+      "query": "What was typed in the search box."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.official": {
+    "en": "Official",
+    "context": "Screen reader label of the mark beside Tiledash’s own name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.oneModel": {
+    "en": "3D furniture",
+    "context": "The kind of one item, on a card where kinds mix.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.onePartial": {
+    "en": "Partial",
+    "context": "The kind of one item, on a card where kinds mix.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.oneTheme": {
+    "en": "Theme",
+    "context": "The kind of one item, on a card where kinds mix.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.oneWidget": {
+    "en": "Widget",
+    "context": "The kind of one item, on a card where kinds mix.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.open": {
+    "en": "Open {title}",
+    "context": "Screen reader label of an item’s picture, which opens its page.",
+    "params": {
+      "title": "The item’s name, such as “Big clock”."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.openTiledash": {
+    "en": "Open Tiledash",
+    "context": "Button in the top bar: opens the Tiledash app (logging in there if need be).",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.partials": {
+    "en": "Partials",
+    "context": "Navigation: the page of all partials, pieces that makers use in their own widgets.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.publishLink": {
+    "en": "How publishing works",
+    "context": "Link to the guide’s page on publishing.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.publishText": {
+    "en": "Share it from Tiledash’s Workshop. Anyone with Tiledash can install it.",
+    "context": "Under the closing title.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.publishTitle": {
+    "en": "Made something for your own dashboard?",
+    "context": "Closing section of the front page.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.publishYourOwn": {
+    "en": "Publish your own",
+    "context": "Footer link to the guide on publishing.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.publishedAgo": {
+    "en": "{maker}, published {when}",
+    "context": "Under an item in the New list. {when} is a relative time like “3 days ago”.",
+    "params": {
+      "maker": "The maker’s display name, such as “Night Owl”.",
+      "when": "A relative time, such as “3 days ago” or “today”."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.resultsCount": {
+    "en": "{count, plural, one {# result} other {# results}}",
+    "context": "Under the title of the search results page.",
+    "params": {
+      "count": "How many (a number)."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.resultsFor": {
+    "en": "Results for “{query}”",
+    "context": "Title of the search results page.",
+    "params": {
+      "query": "What was typed in the search box."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.resultsLabel": {
+    "en": "Results",
+    "context": "Screen reader label of the list of results under the search box.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.searchClose": {
+    "en": "Close search",
+    "context": "Phone: closes the search box.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.searchLabel": {
+    "en": "Search the community",
+    "context": "Screen reader label of the search box.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.searchOpen": {
+    "en": "Search",
+    "context": "Phone: the button that opens the search box.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.searchPlaceholder": {
+    "en": "Search widgets, themes, furniture and makers",
+    "context": "Placeholder of the search box in the top bar.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.showEverything": {
+    "en": "Show everything",
+    "context": "Clears the filters of a list page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.showOf": {
+    "en": "Show {index} of {count}",
+    "context": "Screen reader label of a dot under a row you swipe through on a phone.",
+    "params": {
+      "count": "How many (a number).",
+      "index": "The dot’s place in the row, from 1."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.siteName": {
+    "en": "Community",
+    "context": "Next to the Tiledash logo in the top bar of the community site: which part of Tiledash this is.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sizeLabel": {
+    "en": "Size",
+    "context": "Screen reader label of the size switch of a widget’s preview.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sizeLarge": {
+    "en": "Large",
+    "context": "Preview size of a widget.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sizeMedium": {
+    "en": "Medium",
+    "context": "Preview size of a widget.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sizeSmall": {
+    "en": "Small",
+    "context": "Preview size of a widget.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sortBy": {
+    "en": "Sort by",
+    "context": "Label before the sort order on a list page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sortInstalls": {
+    "en": "Most used",
+    "context": "Sort order: the most installed first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sortNew": {
+    "en": "Newest",
+    "context": "Sort order: the newest first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.sortUpdated": {
+    "en": "Recently updated",
+    "context": "Sort order: the latest updated first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.terms": {
+    "en": "Terms",
+    "context": "Footer link to the terms.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.themes": {
+    "en": "Themes",
+    "context": "Navigation: the page of all themes.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.toFront": {
+    "en": "Go to the front page",
+    "context": "Button under the not-found text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.topMakers": {
+    "en": "Makers people install most",
+    "context": "Front page section title: the makers whose items are installed most.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.tryAgain": {
+    "en": "Try again",
+    "context": "Button that loads the page again.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.unreachable": {
+    "en": "The community can’t be reached right now. Try again in a minute.",
+    "context": "When the community’s server doesn’t answer.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.updated": {
+    "en": "Recently updated",
+    "context": "Front page list title: items that got a new version lately.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.updatedAgo": {
+    "en": "{maker}, version {version} {when}",
+    "context": "Under an item in the Recently updated list. {when} is a relative time like “3 days ago”.",
+    "params": {
+      "maker": "The maker’s display name, such as “Night Owl”.",
+      "version": "A version number, such as “2.1.0”.",
+      "when": "A relative time, such as “3 days ago” or “today”."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.usedBy": {
+    "en": "Used by",
+    "context": "Fact on an item’s page: how many installed it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.version": {
+    "en": "Version",
+    "context": "Fact on an item’s page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.versionWhen": {
+    "en": "{version}, {when}",
+    "context": "The latest version and when it came out, like “2.1.0, 3 days ago”.",
+    "params": {
+      "version": "A version number, such as “2.1.0”.",
+      "when": "A relative time, such as “3 days ago” or “today”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.view": {
+    "en": "View",
+    "context": "Screen reader label of the view switch on a list page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.viewLarge": {
+    "en": "Large",
+    "context": "View switch: large tiles.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.viewList": {
+    "en": "List",
+    "context": "View switch: a table with a small picture per row.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.viewSmall": {
+    "en": "Small",
+    "context": "View switch: small tiles, more per row.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.whatChanged": {
+    "en": "What changed",
+    "context": "Heading above an item’s versions.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.whatsTiledash": {
+    "en": "What’s Tiledash?",
+    "context": "Footer link to tiledash.app.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  },
+  "showcase.site.widgets": {
+    "en": "Widgets",
+    "context": "Navigation: the page of all widgets.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/community-site/communitySite.messages.ts"
+  }
+}

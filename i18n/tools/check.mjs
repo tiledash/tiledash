@@ -27,6 +27,7 @@ var I18N_BUNDLES = [
   "devices",
   "account",
   "community",
+  "showcase",
   "floorplans",
   "models",
   "widgets"

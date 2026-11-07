@@ -37,6 +37,8 @@ terms:
       - account.mapTiles.aboutMapTiler
       - account.mapTiles.aboutOpenFreeMap
       - account.mapTiles.aboutStadia
+      # The community site's phone menu: costs nothing to try (63.4).
+      - showcase.site.menuNote
   - term: Logic
     meaning: Homey's variables (Homey Logic), as named in the Homey app; kept as it is (the user, 2026-10-17).
     keep: true
@@ -287,6 +289,8 @@ terms:
         account.plans.rowFloorPlans,
         account.plans.rowFloorPlans3d,
         account.plans.groupFloorPlans,
+        # The community site's 3D furniture page: for floor plans (63.4).
+        showcase.site.aboutModels,
         # What goes when a Homey is removed (its floor plans among it).
         account.removeHomey.body,
         # A credit spent on a picture of a floor plan (F20).
