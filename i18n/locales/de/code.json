@@ -1783,7 +1783,7 @@
   },
   "code.kindPicker.flow": {
     "text": "ein Flow zum Starten oder mehrere",
-    "source": "ec45942b63",
+    "source": "db976e6899",
     "by": "ai",
     "reviewed": false
   },
@@ -1801,7 +1801,7 @@
   },
   "code.kindPicker.mood": {
     "text": "eine Stimmung zum Aktivieren oder mehrere",
-    "source": "0858797f29",
+    "source": "fc78d4259d",
     "by": "ai",
     "reviewed": false
   },
@@ -2965,7 +2965,7 @@
   },
   "code.panels.checkTarget": {
     "text": "Gerät, Flow oder Stimmung müssen auf diesem Homey sein; die eines anderen Homey werden abgelehnt.",
-    "source": "d064a8c8a6",
+    "source": "0b0bfed284",
     "by": "ai",
     "reviewed": false
   },
@@ -3246,8 +3246,8 @@
     "reviewed": false
   },
   "code.panels.searchActions": {
-    "text": "Suchen, z. B. flow oder confirm",
-    "source": "2e60e02e6f",
+    "text": "Suchen, z. B. Flow oder bestätigen",
+    "source": "a625537794",
     "by": "ai",
     "reviewed": false
   },
@@ -4081,13 +4081,13 @@
   },
   "code.preview.setMood": {
     "text": "Würde die Stimmung „{name}“ aktivieren.",
-    "source": "408a40257e",
+    "source": "e28ab811ca",
     "by": "ai",
     "reviewed": false
   },
   "code.preview.setMoodUnnamed": {
-    "text": "Würde eine Stimmung setzen.",
-    "source": "bd3b1a085f",
+    "text": "Würde eine Stimmung aktivieren.",
+    "source": "41619797d5",
     "by": "ai",
     "reviewed": false
   },
@@ -4117,7 +4117,7 @@
   },
   "code.preview.startFlowUnnamed": {
     "text": "Würde einen Flow starten.",
-    "source": "ec0e070598",
+    "source": "7f1d3b8e74",
     "by": "ai",
     "reviewed": false
   },
@@ -4344,8 +4344,8 @@
     "reviewed": false
   },
   "code.richFields.buttonsNote": {
-    "text": "Eine Gerätetaste tut, was der Nutzer der Kachel wählt (schalten, setzen, öffnen); Flows starten, Stimmungen werden gesetzt, Dashboards öffnen. Gelesen als <code>{code}</code>, je mit <code>.name</code>, <code>.icon</code>, <code>.on</code>.",
-    "source": "6de7031571",
+    "text": "Eine Gerätetaste tut, was der Nutzer der Kachel wählt (schalten, setzen, öffnen); Flows starten, Stimmungen werden aktiviert, Dashboards öffnen. Gelesen als <code>{code}</code>, je mit <code>.name</code>, <code>.icon</code>, <code>.on</code>.",
+    "source": "63b64ab6fb",
     "by": "ai",
     "reviewed": false
   },
@@ -4699,7 +4699,7 @@
   },
   "code.richKinds.buttonKind": {
     "text": "{kind, select, device {Geräte} flow {Flows} mood {Stimmungen} other {Dashboards}}",
-    "source": "5f10b1077d",
+    "source": "3474bbf49b",
     "by": "ai",
     "reviewed": false
   },
@@ -4711,7 +4711,7 @@
   },
   "code.richKinds.buttonsReads": {
     "text": "Geräte, Flows, Stimmungen",
-    "source": "59d16ec063",
+    "source": "11c609acb5",
     "by": "ai",
     "reviewed": false
   },
@@ -5029,7 +5029,7 @@
   },
   "code.settingFields.canAddHint": {
     "text": "Widgets für Geräte, Flows, Stimmungen oder ganz ohne",
-    "source": "0d65714aed",
+    "source": "dfdd77788d",
     "by": "ai",
     "reviewed": false
   },
@@ -5263,13 +5263,13 @@
   },
   "code.settingViews.kind": {
     "text": "{type, select, device {Ein Gerät} capability {Eine Funktion} flow {Ein Flow} mood {Eine Stimmung} dashboard {Ein Dashboard} zone {Eine Zone} person {Eine Person} calendars {Kalender} pins {PINs} floorplan {Ein Grundriss} house {Ein Haus} model {Ein Modell} modelCamera {Eine 3D-Ansicht} floorplanPicture {Ein Grundrissbild} number {Eine Zahl} percentage {Ein Prozentwert} boolean {Ja/Nein} text {Text} choice {Eine Auswahl} color {Eine Farbe} icon {Ein Symbol} size {Eine Größe} spot {Eine Position} other {Kacheln}}",
-    "source": "5e8cf1d366",
+    "source": "0f00db18af",
     "by": "ai",
     "reviewed": false
   },
   "code.settingViews.listOf": {
     "text": "{type, select, device {Eine Liste von Geräten} flow {Eine Liste von Flows} mood {Eine Liste von Stimmungen} other {Eine Liste von Dashboards}}",
-    "source": "a2ded1f910",
+    "source": "b5a05f3aed",
     "by": "ai",
     "reviewed": false
   },
@@ -6709,7 +6709,7 @@
   },
   "code.valueFields.flowNote": {
     "text": "Jede Kachel wählt einen Flow ihres Homey, der sich von Hand starten lässt; das Template liest <code>.id</code> und <code>.name</code>.",
-    "source": "8921b76065",
+    "source": "2b12175334",
     "by": "ai",
     "reviewed": false
   },
@@ -6733,7 +6733,7 @@
   },
   "code.valueFields.moodNote": {
     "text": "Jede Kachel wählt eine Stimmung ihres Homey; das Template liest <code>.id</code> und <code>.name</code>.",
-    "source": "73ab26a8e5",
+    "source": "5ffe779e5e",
     "by": "ai",
     "reviewed": false
   },
@@ -7092,8 +7092,8 @@
     "reviewed": false
   },
   "code.workshop.description": {
-    "text": "Alles, was Sie erstellen: Widgets, ihre gemeinsamen Partials, Designs und Modelle für Ihre Grundrisse. Teilen Sie davon, was Sie möchten, in der Community.",
-    "source": "09066d2020",
+    "text": "Eigene Widgets, Designs und Möbel erstellen. Für Bastler: Für tolle Dashboards brauchen Sie nichts davon. Teilen Sie Ihre Werke in der Community.",
+    "source": "c2c0493647",
     "by": "ai",
     "reviewed": false
   },
@@ -7106,6 +7106,24 @@
   "code.workshop.editName": {
     "text": "{name} bearbeiten",
     "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyAction": {
+    "text": "Ein Widget kopieren",
+    "source": "091246bbaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyBody": {
+    "text": "Der einfachste Einstieg: Kopieren Sie ein Widget, das Sie schon nutzen, und ändern Sie sein Aussehen. Ihr KI-Assistent hilft auch. Die Karten unten erstellen jede Art.",
+    "source": "a6e019038e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyTitle": {
+    "text": "Hier ist noch nichts erstellt",
+    "source": "da408d72eb",
     "by": "ai",
     "reviewed": false
   },

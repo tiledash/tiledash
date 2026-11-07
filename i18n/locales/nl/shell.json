@@ -335,6 +335,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.startFailed": {
+    "text": "De startpagina kon niet worden gewijzigd.",
+    "source": "538f3216a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOff": {
+    "text": "De app opent weer op “{page}”",
+    "source": "1f16ab4b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOn": {
+    "text": "{name} opent als je de app start",
+    "source": "fc70c6088c",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.startPanel": {
     "text": "{name} starten",
     "source": "11a49542c0",
@@ -1061,6 +1079,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.startItem": {
+    "text": "De app openen op {label}",
+    "source": "69a81f74ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItemOn": {
+    "text": "De app opent op {label}; tik om te stoppen",
+    "source": "eb511e770a",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.switcherDescription": {
     "text": "Typ om een dashboard of pagina te vinden. Pijltjes omhoog en omlaag bewegen, Enter opent, Shift Enter zet een dashboard vast of los, Escape sluit.",
     "source": "f5960c7853",
@@ -1296,8 +1326,8 @@
     "reviewed": false
   },
   "shell.tour.basicsBody": {
-    "text": "In de hoek staat een kort lijstje met dingen om te proberen. Doe ze wanneer je wilt; het onthoudt waar je was.",
-    "source": "7b867a59c4",
+    "text": "In de hoek staat een kort lijstje met dingen om te proberen. Neem je tijd; het onthoudt waar je was.",
+    "source": "07cca663b5",
     "by": "ai",
     "reviewed": false
   },
@@ -1337,6 +1367,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.gotIt": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.hideList": {
     "text": "Deze lijst verbergen",
     "source": "6a45cf67d5",
@@ -1344,14 +1380,14 @@
     "reviewed": false
   },
   "shell.tour.homeBody": {
-    "text": "Gemaakt van de kamers in je Homey. Ernaast zie je alles in het kort: vermogen, lampen aan, wat er openstaat.",
-    "source": "54d6d2890e",
+    "text": "Lampen aan, de temperatuur, wat er openstaat. Tik erop om te zien welke apparaten meetellen.",
+    "source": "5f9a50e70f",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.homeTitle": {
-    "text": "Dit is je eerste dashboard",
-    "source": "f33c8e2171",
+    "text": "Je huis in één oogopslag",
+    "source": "bab70bd375",
     "by": "ai",
     "reviewed": false
   },
@@ -1373,21 +1409,207 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.makeFirst": {
+    "text": "Maak mijn eerste dashboard",
+    "source": "bda59b8008",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.next": {
     "text": "Volgende",
     "source": "1ff57a29d7",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.noThanks": {
+    "text": "Nee, bedankt",
+    "source": "49780701dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerEyebrow": {
+    "text": "Nieuw in Tiledash",
+    "source": "e719c394bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLead": {
+    "text": "Twee korte rondleidingen: wat je dashboard kan, en hoe je het op een tablet aan de muur zet.",
+    "source": "12d6f1881d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLength": {
+    "text": "Elk ongeveer een minuut. Start ze opnieuw via het accountmenu.",
+    "source": "7fa8170107",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerTitle": {
+    "text": "Wil je hulp met de basis?",
+    "source": "df2e79f959",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.optionsBody": {
-    "text": "Bewerk het, voeg widgets toe, kies een thema. Alles begint hier.",
-    "source": "12a83eb15e",
+    "text": "Altijd hier, rechtsboven: het dashboard wijzigen, de instellingen, op een tablet zetten of delen.",
+    "source": "a542c2fe1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsHintText": {
+    "text": "Het dashboard wijzigen, de instellingen, op een tablet zetten of delen. Altijd hier, rechtsboven.",
+    "source": "94d6a1c50b",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.optionsTitle": {
-    "text": "Maak het van jou",
-    "source": "34ca8a4540",
+    "text": "Al het andere zit achter ⋯",
+    "source": "6f189eb2bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dBody": {
+    "text": "De kubus wisselt tussen je tekening en een 3D-weergave. Sleep in 3D met de rechtermuisknop om te draaien.",
+    "source": "68db23809b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dTitle": {
+    "text": "Bekijk het in 3D",
+    "source": "b8060d34ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndBody": {
+    "text": "Met de (?) hierboven start je deze rondleiding opnieuw. Druk op ? voor alle knoppen en sneltoetsen.",
+    "source": "e921690ab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndTitle": {
+    "text": "Dat is de plattegrondeditor",
+    "source": "025901ef6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planOfferText": {
+    "text": "Een korte rondleiding door de plattegrondeditor: waar je tekent, de 3D-weergave en rondkijken. Drie stappen.",
+    "source": "f132fd6b87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeBody": {
+    "text": "Ongedaan maken draait elke wijziging terug, en de plattegrond slaat zichzelf op. Spatie en slepen verschuift; scrollen zoomt.",
+    "source": "940ba24f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeTitle": {
+    "text": "Probeer gerust van alles",
+    "source": "1451e8f517",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsBody": {
+    "text": "Kies hier een gereedschap: eerst kamers en muren, dan deuren en ramen, meubels en je apparaten.",
+    "source": "181f916900",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsTitle": {
+    "text": "Teken je kamers",
+    "source": "8c0fd8aac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planTourNoPlan": {
+    "text": "Teken eerst een plattegrond: zodra er een is, leidt de rondleiding je rond.",
+    "source": "347c20463a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionEyebrow": {
+    "text": "Je Homey is gekoppeld",
+    "source": "8c3431f7a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionLead": {
+    "text": "Zo kunnen we de juiste eerste stappen voorstellen. Je kunt het hoe dan ook overal gebruiken.",
+    "source": "db123ab356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionTitle": {
+    "text": "Waar ga je Tiledash gebruiken?",
+    "source": "3ea28674b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenOfferTitle": {
+    "text": "Zin in een korte rondleiding?",
+    "source": "4dead7b5c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenTourLabel": {
+    "text": "Rondleiding door dit scherm",
+    "source": "1d151fd637",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndBody": {
+    "text": "Met de (?) hierboven start je deze rondleiding altijd opnieuw.",
+    "source": "fd3cbf06ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndTitle": {
+    "text": "Dat zijn de dashboardinstellingen",
+    "source": "e381998339",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookBody": {
+    "text": "Een thema alleen voor dit dashboard en, met Pro, een afbeelding achter de tegels. Dimmen en vervagen houden de tegels goed leesbaar.",
+    "source": "1a02122a21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookTitle": {
+    "text": "Een eigen uiterlijk",
+    "source": "2433fcc288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsOfferText": {
+    "text": "Vier korte stappen: ruimte, indeling, uiterlijk en pop-ups. Hij blijft hier onder (?).",
+    "source": "c82f54f1b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsBody": {
+    "text": "Kies wat er een opent, zoals de deurbel, en wat er verschijnt: een camera, een apparaat of een ander dashboard. Na een tijdje sluit hij weer.",
+    "source": "028db543b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "text": "Pop-ups die vanzelf openen",
+    "source": "9dae8fa9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingBody": {
+    "text": "Krap, Comfortabel of Ruim, met pixels onder Verfijnen. Aan scherm aanpassen zet alles op één scherm, handig voor een wandtablet.",
+    "source": "732f78d05f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "text": "Ruimte tussen tegels",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1409,15 +1631,81 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.showTipsAgain": {
+    "text": "Tips weer tonen",
+    "source": "7d5a764682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgainHint": {
+    "text": "De eenmalige meldingen en rondleidingen die je wegklikte, komen nog één keer.",
+    "source": "e73d26c391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.skip": {
+    "text": "Overslaan",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.stepCount": {
     "text": "{step} van {count}",
     "source": "91bfb1f611",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tabletChooseBody": {
+    "text": "Welke dashboards hij toont, en wat voor scherm het is. Elk heeft al een antwoord, dus steeds Volgende werkt ook.",
+    "source": "d0a90795f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseTitle": {
+    "text": "Dan twee vragen",
+    "source": "cc25ad25c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeBody": {
+    "text": "Open op de tablet het adres dat hier staat, of scan de QR-code. Typ de code die hij toont en kies Koppelen.",
+    "source": "b176f2e0a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeTitle": {
+    "text": "Eerst de code",
+    "source": "2402d82c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndBody": {
+    "text": "Wijzig het later onder Wandpanelen in de zijbalk. Het venster blijft open zodat je het kunt afmaken.",
+    "source": "34127f3a64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndTitle": {
+    "text": "Meer is het niet",
+    "source": "f490b64f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroBody": {
+    "text": "Hij toont je dashboards schermvullend: veeg ertussen. Hij dimt als niemand hem gebruikt, en wordt wakker bij meldingen zoals de deurbel.",
+    "source": "cb30b775be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroTitle": {
+    "text": "Een tablet aan de muur",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.takeTourAgain": {
-    "text": "Rondleiding opnieuw starten",
-    "source": "73add5b9e6",
+    "text": "Rondleidingen",
+    "source": "5bb385763e",
     "by": "ai",
     "reviewed": false
   },
@@ -1494,26 +1782,68 @@
     "reviewed": false
   },
   "shell.tour.tileBody": {
-    "text": "Tik op een tegel om hem aan of uit te zetten. Je huis reageert meteen.",
-    "source": "8513c1b809",
+    "text": "Tegels doen wat ze tonen. Een knoppentegel heeft een knop voor elke lamp, sfeer of Flow.",
+    "source": "922c5c6b45",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTitle": {
-    "text": "Je apparaten, live",
-    "source": "38d7f346f1",
+    "text": "Tik om te schakelen",
+    "source": "e4789d77f9",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTried": {
-    "text": "Kijk, daar gaat hij.",
-    "source": "a02b80d95e",
+    "text": "Geschakeld. Meer is het niet.",
+    "source": "d83cfbfe2a",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTry": {
-    "text": "Probeer het: tik op de tegel",
-    "source": "5a4c2fe8bc",
+    "text": "Probeer het: tik op een lamp",
+    "source": "1901076076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOff": {
+    "text": "Geen tips tonen",
+    "source": "bcdf0f28e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffText": {
+    "text": "Zet ze weer aan in Instellingen › Algemeen. Rondleidingen blijven onder (?) op elk scherm.",
+    "source": "814206361b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffTitle": {
+    "text": "Tips staan uit",
+    "source": "7ef256b764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffUndo": {
+    "text": "Ongedaan",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsShownAgain": {
+    "text": "Tips worden weer getoond",
+    "source": "870b0f7dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitch": {
+    "text": "Tips tonen",
+    "source": "754e196536",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitchHint": {
+    "text": "Welkomstkaarten, aanbiedingen van rondleidingen, “Wist je dat?”-meldingen en het lijstje om te beginnen. Uit: niets opent vanzelf; de (?) op elk scherm start nog steeds de rondleiding.",
+    "source": "208023b238",
     "by": "ai",
     "reviewed": false
   },
@@ -1523,9 +1853,135 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tourDashboardSettings": {
+    "text": "Dashboardinstellingen",
+    "source": "95d4e44b97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDone": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFirstDashboard": {
+    "text": "Je eerste dashboard",
+    "source": "edf6877596",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFloorPlan": {
+    "text": "De plattegrondeditor",
+    "source": "cc5de527cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourNotStarted": {
+    "text": "Niet gestart",
+    "source": "ba35f0c47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourSkipped": {
+    "text": "Overgeslagen",
+    "source": "12698ce1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStart": {
+    "text": "Starten",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStartAgain": {
+    "text": "Opnieuw starten",
+    "source": "962e64b761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourWallPanel": {
+    "text": "Een dashboard aan de muur",
+    "source": "5051a0277f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursList": {
+    "text": "Rondleidingen",
+    "source": "b49f1e41f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursTitle": {
+    "text": "Rondleidingen en tips",
+    "source": "ecd86c12a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.tutorials": {
     "text": "Bekijk de tutorials",
     "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBoth": {
+    "text": "Allebei",
+    "source": "b6c1d862f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBothBody": {
+    "text": "Een wandtablet en telefoons.",
+    "source": "085f5b7ecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhone": {
+    "text": "Mijn telefoon",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhoneBody": {
+    "text": "Dingen schakelen vanaf de bank of onderweg.",
+    "source": "a510940075",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWall": {
+    "text": "Een tablet aan de muur",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWallBody": {
+    "text": "Eén scherm dat iedereen in huis gebruikt.",
+    "source": "4434cfa690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndAction": {
+    "text": "Zet het op een tablet",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndBody": {
+    "text": "Het duurt een minuut: open één adres op de tablet en typ de code hier.",
+    "source": "09b09f1497",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndNote": {
+    "text": "Of later, via ⋯ of het lijstje in de hoek.",
+    "source": "8d23a1d762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndTitle": {
+    "text": "Volgende: zet het aan de muur",
+    "source": "cda43b04b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1745,27 +2201,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.workshopHint.aiShow": {
+    "text": "Een assistent koppelen",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiText": {
+    "text": "Beschrijf de widget die je wilt, en Claude, ChatGPT of een andere assistent maakt hem hier voor je. Of begin vanaf nul met Nieuw.",
+    "source": "3fbde161f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiTitle": {
+    "text": "Bouw er een met je AI-assistent",
+    "source": "33f5413efb",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.workshopHint.hintDismiss": {
     "text": "Begrepen",
     "source": "5ad3dbd124",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintShow": {
-    "text": "Werkplaats openen",
-    "source": "c983932959",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintText": {
-    "text": "Je widgets, partials, thema’s en modellen staan nu samen in de Werkplaats. Maak daar ook nieuwe, en deel ze in de community.",
-    "source": "43e0e7e416",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintTitle": {
-    "text": "Wist je dat?",
-    "source": "3e9b3541c2",
     "by": "ai",
     "reviewed": false
   }

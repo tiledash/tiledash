@@ -673,7 +673,7 @@
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
   },
   "community.installed.emptyBody": {
-    "en": "What you install from the community shows up here, with its updates. Widgets join the widget picker, themes the theme list, and partials are yours to render in your widgets.",
+    "en": "Widgets, themes and furniture other people made. Browse, try them on your own devices, add what you like: it shows up here, with its updates.",
     "context": "Line under \"Nothing installed yet\".",
     "maxLength": 200,
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
@@ -950,6 +950,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
+  "community.item.goneNote": {
+    "en": "Its maker left Tiledash. It keeps working as it is, but nobody updates it any more.",
+    "context": "Note on the page of a community item whose publisher deleted their account. People can still install and use it.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
   "community.item.install": {
     "en": "Install",
     "context": "Big button that installs the item.",
@@ -984,6 +990,12 @@
       "kind": "\"widget\", \"theme\", \"model\" or \"partial\"."
     },
     "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.logInToInstall": {
+    "en": "Log in to install",
+    "context": "Big button on a community item’s page for someone who is not logged in: it logs them in with their Homey account, then installs the item.",
+    "maxLength": 26,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
   "community.item.manage": {
@@ -1114,6 +1126,12 @@
     "en": "Versions",
     "context": "Heading of the item’s versions, followed by how many.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
+  },
+  "community.item.visitorNote": {
+    "en": "Costs nothing with your Homey account. You come straight back here.",
+    "context": "Small line under the \"Log in to install\" button: installing community items costs nothing, logging in uses their Homey account, and they return to this page afterwards.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/store/StoreItemScreen.messages.ts"
   },
   "community.item.website": {
@@ -3007,6 +3025,18 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
   },
+  "community.publisher.gone": {
+    "en": "No longer maintained",
+    "context": "Mark next to the publisher of a community item whose publisher deleted their account: it still works, but nobody updates it.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
+  },
+  "community.publisher.goneTip": {
+    "en": "Its maker left Tiledash. It keeps working as it is, but nobody updates it.",
+    "context": "Tooltip of the \"No longer maintained\" mark on a community item.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePublisherName.messages.ts"
+  },
   "community.publisher.official": {
     "en": "Official",
     "context": "Mark on a publisher that is Tiledash itself.",
@@ -3318,8 +3348,8 @@
     "file": "packages/ui/src/screens/store/community.messages.ts"
   },
   "community.sections.description": {
-    "en": "Widgets, themes, partials and models other people made. A widget you add from the widget picker, or a model you place on a floor plan, installs itself.",
-    "context": "Text under the title of the community’s overview. The widget picker is the add-widgets window of a dashboard; a model is 3D furniture for a floor plan; partials are pieces of widget code other widgets reuse.",
+    "en": "Widgets, themes and furniture other people made, ready to add: browse, try them on your own devices, install what you like. No need to make anything yourself.",
+    "context": "Text under the title of the community’s overview. It says who it is for: everyone, also people who never make anything. Furniture is 3D models for floor plans.",
     "maxLength": 170,
     "file": "packages/ui/src/screens/store/community.messages.ts"
   },
@@ -3457,6 +3487,12 @@
       "kind": "widget, theme, partial or model."
     },
     "maxLength": 40,
+    "file": "packages/ui/src/screens/store/community.messages.ts"
+  },
+  "community.sections.visitorDescription": {
+    "en": "Widgets, themes and furniture that Tiledash users made for their Homey dashboards. Look around as you like; log in with Homey to install.",
+    "context": "Text under the title of the community for someone who is not logged in (no Tiledash account yet, or logged out). Installing needs logging in with their Homey account.",
+    "maxLength": 170,
     "file": "packages/ui/src/screens/store/community.messages.ts"
   },
   "community.token.body": {
@@ -3681,6 +3717,66 @@
     "context": "Sort order of the community: the latest updated first.",
     "maxLength": 24,
     "file": "packages/ui/src/screens/store/storeViews.messages.ts"
+  },
+  "community.visitor.about": {
+    "en": "What’s Tiledash?",
+    "context": "Link in the bar above the community for someone not logged in: opens Tiledash’s own site, which says what Tiledash is.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.barLabel": {
+    "en": "Tiledash",
+    "context": "Screen reader label of the bar above the community for someone not logged in.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.dialogTitle": {
+    "en": "Log in to install {title}",
+    "context": "Title of the dialog shown when someone not logged in chooses \"Log in to install\" on a community item.",
+    "params": {
+      "title": "The item’s name, such as \"Big clock\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.logIn": {
+    "en": "Log in",
+    "context": "The same button on a phone, where there is little room.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.logInWithHomey": {
+    "en": "Log in with Homey",
+    "context": "Button in the bar above the community for someone not logged in. Tiledash logs in with the Homey (Athom) account.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.notNow": {
+    "en": "Not now",
+    "context": "Button that closes the \"Log in to install\" dialog.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.stepAccount": {
+    "en": "New to Tiledash? That makes your account. Free is enough to install.",
+    "context": "Second line in the \"Log in to install\" dialog: logging in for the first time creates a Tiledash account, and the free plan can install community items.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.stepBack": {
+    "en": "You come back here to finish installing {title}.",
+    "context": "Third line in the \"Log in to install\" dialog.",
+    "params": {
+      "title": "The item’s name, such as \"Big clock\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
+  },
+  "community.visitor.stepHomey": {
+    "en": "Log in with your Homey account, on Homey’s own page.",
+    "context": "First of three short lines in the \"Log in to install\" dialog.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/CommunityVisitor.messages.ts"
   },
   "community.zip.cancel": {
     "en": "Cancel",

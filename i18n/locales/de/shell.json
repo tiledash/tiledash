@@ -335,6 +335,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.startFailed": {
+    "text": "Die Startseite konnte nicht geändert werden.",
+    "source": "538f3216a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOff": {
+    "text": "Die App startet wieder mit „{page}“",
+    "source": "1f16ab4b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOn": {
+    "text": "{name} öffnet sich beim Start der App",
+    "source": "fc70c6088c",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.startPanel": {
     "text": "{name} starten",
     "source": "11a49542c0",
@@ -1061,6 +1079,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.startItem": {
+    "text": "App mit {label} öffnen",
+    "source": "69a81f74ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItemOn": {
+    "text": "Die App öffnet mit {label}; zum Beenden tippen",
+    "source": "eb511e770a",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.switcherDescription": {
     "text": "Tippen Sie, um ein Dashboard oder eine Seite zu finden. Pfeiltasten wählen aus, Enter öffnet, Umschalt+Enter heftet ein Dashboard an oder löst es, Esc schließt.",
     "source": "f5960c7853",
@@ -1296,8 +1326,8 @@
     "reviewed": false
   },
   "shell.tour.basicsBody": {
-    "text": "In der Ecke wartet eine kurze Liste mit Dingen zum Ausprobieren. Erledigen Sie sie, wann Sie möchten; die Liste merkt sich Ihren Stand.",
-    "source": "7b867a59c4",
+    "text": "In der Ecke wartet eine kurze Liste mit Dingen zum Ausprobieren. Lassen Sie sich Zeit; die Liste merkt sich Ihren Stand.",
+    "source": "07cca663b5",
     "by": "ai",
     "reviewed": false
   },
@@ -1337,6 +1367,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.gotIt": {
+    "text": "Verstanden",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.hideList": {
     "text": "Diese Liste ausblenden",
     "source": "6a45cf67d5",
@@ -1344,14 +1380,14 @@
     "reviewed": false
   },
   "shell.tour.homeBody": {
-    "text": "Aus den Räumen Ihres Homey erstellt. Die kleinen Werte fassen es zusammen: Leistung, Lichter an, was offen ist.",
-    "source": "54d6d2890e",
+    "text": "Lampen an, die Temperatur, was offen ist. Tippen Sie auf einen Wert, um zu sehen, welche Geräte er zählt.",
+    "source": "5f9a50e70f",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.homeTitle": {
-    "text": "Das ist Ihr Zuhause",
-    "source": "f33c8e2171",
+    "text": "Ihr Zuhause auf einen Blick",
+    "source": "bab70bd375",
     "by": "ai",
     "reviewed": false
   },
@@ -1373,21 +1409,207 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.makeFirst": {
+    "text": "Erstes Dashboard erstellen",
+    "source": "bda59b8008",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.next": {
     "text": "Weiter",
     "source": "1ff57a29d7",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.noThanks": {
+    "text": "Nein, danke",
+    "source": "49780701dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerEyebrow": {
+    "text": "Neu in Tiledash",
+    "source": "e719c394bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLead": {
+    "text": "Zwei kurze Rundgänge: was Ihr Dashboard kann und wie Sie es auf ein Tablet an der Wand bringen.",
+    "source": "12d6f1881d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLength": {
+    "text": "Je etwa eine Minute. Über das Kontomenü können Sie sie wiederholen.",
+    "source": "7fa8170107",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerTitle": {
+    "text": "Möchten Sie Hilfe bei den Grundlagen?",
+    "source": "df2e79f959",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.optionsBody": {
-    "text": "Bearbeiten, Widgets hinzufügen, ein Design wählen: Hier beginnt alles.",
-    "source": "12a83eb15e",
+    "text": "Immer hier oben rechts: Dashboard ändern, seine Einstellungen, auf ein Tablet bringen oder teilen.",
+    "source": "a542c2fe1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsHintText": {
+    "text": "Dashboard ändern, seine Einstellungen, auf ein Tablet bringen oder teilen. Immer hier oben rechts.",
+    "source": "94d6a1c50b",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.optionsTitle": {
-    "text": "Ganz nach Ihrem Geschmack",
-    "source": "34ca8a4540",
+    "text": "Alles Weitere steckt hinter ⋯",
+    "source": "6f189eb2bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dBody": {
+    "text": "Der Würfel wechselt zwischen Ihrer Zeichnung und einer 3D-Ansicht. In 3D drehen Sie sie mit der rechten Maustaste.",
+    "source": "68db23809b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dTitle": {
+    "text": "In 3D ansehen",
+    "source": "b8060d34ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndBody": {
+    "text": "Das (?) hier oben startet den Rundgang erneut. Drücken Sie ? für alle Steuerungen und Tastenkürzel.",
+    "source": "e921690ab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndTitle": {
+    "text": "Das ist der Grundriss-Editor",
+    "source": "025901ef6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planOfferText": {
+    "text": "Ein kurzer Rundgang durch den Grundriss-Editor: wo Sie zeichnen, die 3D-Ansicht und die Navigation. Drei Schritte.",
+    "source": "f132fd6b87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeBody": {
+    "text": "Rückgängig nimmt jede Änderung zurück, und der Grundriss speichert sich selbst. Leertaste und Ziehen verschiebt; Scrollen zoomt.",
+    "source": "940ba24f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeTitle": {
+    "text": "Probieren Sie ruhig aus",
+    "source": "1451e8f517",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsBody": {
+    "text": "Wählen Sie hier ein Werkzeug: zuerst Räume und Wände, dann Türen und Fenster, Möbel und Ihre Geräte.",
+    "source": "181f916900",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsTitle": {
+    "text": "Zeichnen Sie Ihre Räume",
+    "source": "8c0fd8aac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planTourNoPlan": {
+    "text": "Zeichnen Sie zuerst einen Grundriss: Sobald es einen gibt, führt der Rundgang Sie herum.",
+    "source": "347c20463a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionEyebrow": {
+    "text": "Ihr Homey ist verbunden",
+    "source": "8c3431f7a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionLead": {
+    "text": "Damit wir die passenden ersten Schritte vorschlagen. Nutzen können Sie es so oder so überall.",
+    "source": "db123ab356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionTitle": {
+    "text": "Wo werden Sie Tiledash nutzen?",
+    "source": "3ea28674b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenOfferTitle": {
+    "text": "Kurzer Rundgang gefällig?",
+    "source": "4dead7b5c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenTourLabel": {
+    "text": "Rundgang durch diese Seite",
+    "source": "1d151fd637",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndBody": {
+    "text": "Das (?) hier oben startet den Rundgang jederzeit erneut.",
+    "source": "fd3cbf06ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndTitle": {
+    "text": "Das sind die Dashboard-Einstellungen",
+    "source": "e381998339",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookBody": {
+    "text": "Ein Design nur für dieses Dashboard und, mit Pro, ein Bild hinter den Kacheln. Abdunkeln und Weichzeichnen halten die Kacheln gut lesbar.",
+    "source": "1a02122a21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookTitle": {
+    "text": "Ein eigenes Aussehen",
+    "source": "2433fcc288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsOfferText": {
+    "text": "Vier kurze Schritte: Abstand, Layout, Aussehen und Popups. Er bleibt hier unter (?).",
+    "source": "c82f54f1b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsBody": {
+    "text": "Wählen Sie, was eines auslöst, etwa die Türklingel, und was erscheint: eine Kamera, ein Gerät oder ein anderes Dashboard. Es schließt sich später wieder.",
+    "source": "028db543b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "text": "Popups, die sich selbst öffnen",
+    "source": "9dae8fa9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingBody": {
+    "text": "Eng, Bequem oder Luftig, mit Pixeln unter Feinabstimmung. An Bildschirm anpassen bringt alles auf einen Bildschirm, gut für ein Wandtablet.",
+    "source": "732f78d05f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "text": "Abstand zwischen Kacheln",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1409,15 +1631,81 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.showTipsAgain": {
+    "text": "Tipps wieder zeigen",
+    "source": "7d5a764682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgainHint": {
+    "text": "Die einmaligen Hinweise und Rundgangangebote, die Sie weggelegt haben, erscheinen erneut.",
+    "source": "e73d26c391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.skip": {
+    "text": "Überspringen",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.stepCount": {
     "text": "{step} von {count}",
     "source": "91bfb1f611",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tabletChooseBody": {
+    "text": "Welche Dashboards es zeigt und was für ein Bildschirm es ist. Für alles ist eine Antwort vorbereitet, Sie können also immer Weiter wählen.",
+    "source": "d0a90795f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseTitle": {
+    "text": "Dann zwei Fragen",
+    "source": "cc25ad25c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeBody": {
+    "text": "Öffnen Sie auf dem Tablet die hier gezeigte Adresse oder scannen Sie den QR-Code. Geben Sie den dort gezeigten Code ein, dann Verbinden.",
+    "source": "b176f2e0a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeTitle": {
+    "text": "Zuerst der Code",
+    "source": "2402d82c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndBody": {
+    "text": "Ändern können Sie es später unter Wandpanels in der Seitenleiste. Der Dialog bleibt offen, damit Sie ihn abschließen können.",
+    "source": "34127f3a64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndTitle": {
+    "text": "Mehr braucht es nicht",
+    "source": "f490b64f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroBody": {
+    "text": "Es zeigt Ihre Dashboards im Vollbild: Wischen Sie zwischen ihnen. Es dimmt, wenn niemand es nutzt, und wacht bei Alarmen wie der Türklingel auf.",
+    "source": "cb30b775be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroTitle": {
+    "text": "Ein Tablet an der Wand",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.takeTourAgain": {
-    "text": "Rundgang wiederholen",
-    "source": "73add5b9e6",
+    "text": "Rundgänge",
+    "source": "5bb385763e",
     "by": "ai",
     "reviewed": false
   },
@@ -1494,26 +1782,68 @@
     "reviewed": false
   },
   "shell.tour.tileBody": {
-    "text": "Tippen Sie auf eine Kachel, um zu schalten. Das Gerät in Ihrem Zuhause reagiert sofort.",
-    "source": "8513c1b809",
+    "text": "Kacheln tun, was sie zeigen. Eine Tastenkachel hat eine Taste für jede Lampe, Stimmung oder jeden Flow.",
+    "source": "922c5c6b45",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTitle": {
-    "text": "Ihre Geräte, live",
-    "source": "38d7f346f1",
+    "text": "Zum Schalten tippen",
+    "source": "e4789d77f9",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTried": {
-    "text": "Und schon passiert’s.",
-    "source": "a02b80d95e",
+    "text": "Geschaltet. Mehr braucht es nicht.",
+    "source": "d83cfbfe2a",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTry": {
-    "text": "Ausprobieren: auf die Kachel tippen",
-    "source": "5a4c2fe8bc",
+    "text": "Ausprobieren: auf eine Lampe tippen",
+    "source": "1901076076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOff": {
+    "text": "Keine Tipps zeigen",
+    "source": "bcdf0f28e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffText": {
+    "text": "Unter Einstellungen › Allgemein schalten Sie sie wieder ein. Rundgänge bleiben unter (?) auf jeder Seite.",
+    "source": "814206361b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffTitle": {
+    "text": "Tipps sind aus",
+    "source": "7ef256b764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffUndo": {
+    "text": "Rückgängig",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsShownAgain": {
+    "text": "Tipps erscheinen wieder",
+    "source": "870b0f7dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitch": {
+    "text": "Tipps zeigen",
+    "source": "754e196536",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitchHint": {
+    "text": "Willkommenskarten, Rundgangangebote, „Schon gewusst?“-Hinweise und die Einstiegsliste. Aus: Nichts öffnet sich selbst; das (?) auf jeder Seite startet weiter ihren Rundgang.",
+    "source": "208023b238",
     "by": "ai",
     "reviewed": false
   },
@@ -1523,9 +1853,135 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tourDashboardSettings": {
+    "text": "Dashboard-Einstellungen",
+    "source": "95d4e44b97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDone": {
+    "text": "Erledigt",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFirstDashboard": {
+    "text": "Ihr erstes Dashboard",
+    "source": "edf6877596",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFloorPlan": {
+    "text": "Der Grundriss-Editor",
+    "source": "cc5de527cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourNotStarted": {
+    "text": "Nicht gestartet",
+    "source": "ba35f0c47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourSkipped": {
+    "text": "Übersprungen",
+    "source": "12698ce1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStart": {
+    "text": "Starten",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStartAgain": {
+    "text": "Neu starten",
+    "source": "962e64b761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourWallPanel": {
+    "text": "Ein Dashboard an die Wand bringen",
+    "source": "5051a0277f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursList": {
+    "text": "Rundgänge",
+    "source": "b49f1e41f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursTitle": {
+    "text": "Rundgänge und Tipps",
+    "source": "ecd86c12a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.tutorials": {
     "text": "Tutorials ansehen",
     "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBoth": {
+    "text": "Beides",
+    "source": "b6c1d862f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBothBody": {
+    "text": "Ein Wandtablet und Handys.",
+    "source": "085f5b7ecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhone": {
+    "text": "Mein Handy",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhoneBody": {
+    "text": "Vom Sofa aus oder unterwegs schalten.",
+    "source": "a510940075",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWall": {
+    "text": "Ein Tablet an der Wand",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWallBody": {
+    "text": "Ein Bildschirm, den alle im Haus nutzen.",
+    "source": "4434cfa690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndAction": {
+    "text": "Auf ein Tablet bringen",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndBody": {
+    "text": "Das dauert eine Minute: eine Adresse auf dem Tablet öffnen und dessen Code hier eingeben.",
+    "source": "09b09f1497",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndNote": {
+    "text": "Oder später über ⋯ oder die Liste in der Ecke.",
+    "source": "8d23a1d762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndTitle": {
+    "text": "Als Nächstes: an die Wand damit",
+    "source": "cda43b04b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1745,27 +2201,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.workshopHint.aiShow": {
+    "text": "Assistenten verbinden",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiText": {
+    "text": "Beschreiben Sie das gewünschte Widget, und Claude, ChatGPT oder ein anderer Assistent erstellt es hier für Sie. Oder fangen Sie mit „Neu“ von vorn an.",
+    "source": "3fbde161f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiTitle": {
+    "text": "Mit Ihrem KI-Assistenten bauen",
+    "source": "33f5413efb",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.workshopHint.hintDismiss": {
     "text": "Verstanden",
     "source": "5ad3dbd124",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintShow": {
-    "text": "Werkstatt öffnen",
-    "source": "c983932959",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintText": {
-    "text": "Ihre Widgets, Partials, Designs und Modelle finden Sie jetzt gemeinsam in der Werkstatt. Dort erstellen Sie auch neue und teilen sie in der Community.",
-    "source": "43e0e7e416",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintTitle": {
-    "text": "Schon gewusst?",
-    "source": "3e9b3541c2",
     "by": "ai",
     "reviewed": false
   }

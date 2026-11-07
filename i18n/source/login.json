@@ -384,7 +384,7 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.homeyAppAllow1": {
-    "en": "Change those tiles from flows: on and off, a text or number, a colour, an icon, hidden",
+    "en": "Change those tiles from Flows: on and off, a text or number, a colour, an icon, hidden",
     "context": "Item in the list of what the Tiledash app on the Homey may do. Flows are the Homey’s automations; they can change how those tiles look.",
     "maxLength": 100,
     "file": "packages/ui/src/screens/consent.messages.ts"
@@ -519,7 +519,7 @@
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.widgetsDeny0": {
-    "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
+    "en": "Switch your devices or start Flows (only you can let a preview’s taps through, for an hour)",
     "context": "Item in the list of what an AI app can never do. A flow is an automation in Homey. The part in brackets says that only the person themselves can let taps in a widget preview really switch devices, and only for an hour.",
     "maxLength": 110,
     "file": "packages/ui/src/screens/consent.messages.ts"
@@ -694,7 +694,7 @@
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
   },
   "login.deviceSignIn.homeyAppDoneBody": {
-    "en": "The Tiledash app on your Homey is connected. Give a tile’s tap Tell Homey to use it in flows.",
+    "en": "The Tiledash app on your Homey is connected. Give a tile’s tap Tell Homey to use it in Flows.",
     "context": "Line after the Tiledash app on Homey was allowed. \"Tell Homey\" is the name of a tap choice in a tile’s settings; use the same words.",
     "maxLength": 120,
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
@@ -749,7 +749,7 @@
     "file": "packages/ui/src/screens/DeviceSignInScreen.messages.ts"
   },
   "login.kept.connectWhat": {
-    "en": "Its name and model, and a copy of its rooms, devices, flows and moods: their names, what each device can do and its values at that moment. The copy is brought up to date when you add, change or remove devices; a removed one is deleted 30 days later, unless a tile or a recording still uses it.",
+    "en": "Its name and model, and a copy of its rooms, devices, Flows and Moods: their names, what each device can do and its values at that moment. The copy is brought up to date when you add, change or remove devices; a removed one is deleted 30 days later, unless a tile or a recording still uses it.",
     "context": "What is kept after connecting a Homey, as one paragraph under \"When you connect a Homey\". \"Its\" is the Homey's. A flow is an automation and a mood a room preset in Homey; a tile is one block on a dashboard; a recording is saved history of a value.",
     "maxLength": 360,
     "file": "packages/ui/src/screens/login/keptData.messages.ts"
@@ -1020,19 +1020,19 @@
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.favouritesWhy": {
-    "en": "To start your first dashboard with the devices and flows you starred in the Homey app.",
+    "en": "To start your first dashboard with the devices and Flows you starred in the Homey app.",
     "context": "Reason under the permission \"Read your favourites\".",
     "maxLength": 110,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.flowsTitle": {
-    "en": "See and start your flows",
+    "en": "See and start your Flows",
     "context": "Bold title of one permission in the list. A flow is an automation in Homey (\"Flow\" is Homey's own name for it).",
     "maxLength": 40,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.flowsWhy": {
-    "en": "For tiles that start a flow with a tap. Tiledash can’t change your flows.",
+    "en": "For tiles that start a Flow with a tap. Tiledash can’t change your Flows.",
     "context": "Reason under the permission \"See and start your flows\". A tile is one block on a dashboard.",
     "maxLength": 100,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
@@ -1086,19 +1086,19 @@
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.moodsTitle": {
-    "en": "See and set your moods",
+    "en": "See and set your Moods",
     "context": "Bold title of one permission in the list. A mood is a preset of a room in Homey (Homey's own word) that sets lights and devices together.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.moodsWhy": {
-    "en": "For tiles that set a mood in a room.",
+    "en": "For tiles that set a Mood in a room.",
     "context": "Reason under the permission \"See and set your moods\". A tile is one block on a dashboard.",
     "maxLength": 80,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"
   },
   "login.permissions.never": {
-    "en": "Tiledash never sees your password. It can’t add or remove devices, edit your flows or change your Homey’s settings, and you can take its access away any time in your Athom account.",
+    "en": "Tiledash never sees your password. It can’t add or remove devices, edit your Flows or change your Homey’s settings, and you can take its access away any time in your Athom account.",
     "context": "Reassurance in a box below the permission list: what Tiledash can never do, and that access can be withdrawn. A flow is an automation in Homey. Athom is the company behind Homey.",
     "maxLength": 220,
     "file": "packages/ui/src/screens/login/permissions.messages.ts"

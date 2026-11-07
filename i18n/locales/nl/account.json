@@ -7,7 +7,7 @@
   },
   "account.accessRules.linkNoFlows": {
     "text": "Flows starten, sloten openen, het alarm aanzetten of garagedeuren openen",
-    "source": "c57c37be65",
+    "source": "9f8f152352",
     "by": "ai",
     "reviewed": false
   },
@@ -36,8 +36,8 @@
     "reviewed": false
   },
   "account.accessRules.screenControl": {
-    "text": "Alles wat de tegels van het paneel doen, ook flows en sloten",
-    "source": "c290bb52ce",
+    "text": "Alles wat de tegels van het paneel doen, ook Flows en sloten",
+    "source": "250cbd8bc1",
     "by": "ai",
     "reviewed": false
   },
@@ -312,8 +312,8 @@
     "reviewed": false
   },
   "account.aiAssistants.deny0": {
-    "text": "Je apparaten schakelen of flows starten (alleen jij kunt tikken in een voorbeeld een uur doorlaten)",
-    "source": "2a48357995",
+    "text": "Je apparaten schakelen of Flows starten (alleen jij kunt tikken in een voorbeeld een uur doorlaten)",
+    "source": "fe35625779",
     "by": "ai",
     "reviewed": false
   },
@@ -362,6 +362,24 @@
   "account.aiAssistants.none": {
     "text": "Nog geen assistent gekoppeld. Koppel er hieronder een.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherAddress": {
+    "text": "Elke app die met MCP werkt, koppelt met dit adres.",
+    "source": "2b6bd16bf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFold": {
+    "text": "Andere apps en technische details",
+    "source": "a5f78f4432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFoldInside": {
+    "text": "VS Code, Cursor, Claude Code en het MCP-adres",
+    "source": "9c89b59abb",
     "by": "ai",
     "reviewed": false
   },
@@ -589,7 +607,7 @@
   },
   "account.alertRules.offerFlow": {
     "text": "Een Flow aanbieden",
-    "source": "c4ba540f92",
+    "source": "3b71e7cd86",
     "by": "ai",
     "reviewed": false
   },
@@ -1309,7 +1327,7 @@
   },
   "account.configImport.syncingDetail": {
     "text": "Tiledash leest de apparaten, Flows en sferen van {homey}, om de tegels eraan te koppelen. Dit duurt een minuut.",
-    "source": "b5cdc30d17",
+    "source": "ddf4296f3f",
     "by": "ai",
     "reviewed": false
   },
@@ -1507,7 +1525,7 @@
   },
   "account.delete.lead": {
     "text": "Dit verwijdert alles wat je in Tiledash hebt gemaakt. Je Homey zelf blijft onaangeroerd: de apparaten, Flows en Insights blijven zoals ze zijn.",
-    "source": "900cb1bb89",
+    "source": "0735f665f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1734,8 +1752,8 @@
     "reviewed": false
   },
   "account.homeyApp.hidden": {
-    "text": "Verborgen door een flow",
-    "source": "205fe16925",
+    "text": "Verborgen door een Flow",
+    "source": "65e6c7b8b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1764,8 +1782,8 @@
     "reviewed": false
   },
   "account.homeyApp.renameNote": {
-    "text": "Een nieuwe naam geldt ook in Homey; flows blijven werken.",
-    "source": "3ffe044d14",
+    "text": "Een nieuwe naam geldt ook in Homey; Flows blijven werken.",
+    "source": "028dcc3b4c",
     "by": "ai",
     "reviewed": false
   },
@@ -1806,8 +1824,8 @@
     "reviewed": false
   },
   "account.homeyAppHost.disconnectText": {
-    "text": "Tegels laten Homey niets meer weten en flows kunnen ze niet veranderen, tot je de app weer koppelt.",
-    "source": "f134df4fd2",
+    "text": "Tegels laten Homey niets meer weten en Flows kunnen ze niet veranderen, tot je de app weer koppelt.",
+    "source": "9ef2d1d406",
     "by": "ai",
     "reviewed": false
   },
@@ -1830,8 +1848,8 @@
     "reviewed": false
   },
   "account.homeyAppHost.removeText": {
-    "text": "Tegels die hem laten weten doen niets meer bij indrukken, en flows die ermee starten stoppen.",
-    "source": "0d0e153da8",
+    "text": "Tegels die hem laten weten doen niets meer bij indrukken, en Flows die ermee starten stoppen.",
+    "source": "d2bef37afb",
     "by": "ai",
     "reviewed": false
   },
@@ -2621,6 +2639,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.mapTiles.lead": {
+    "text": "Kaarten op je dashboards gebruiken OpenFreeMap: gratis, zonder sleutel, niets in te stellen.",
+    "source": "e2b1ec61fe",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.mapTiles.optional": {
     "text": "Optioneel.",
     "source": "a9aaf97cc9",
@@ -2630,6 +2654,18 @@
   "account.mapTiles.originsHint": {
     "text": "Deze server staat {origins} toe.",
     "source": "d812a71e54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFold": {
+    "text": "Een andere kaartdienst gebruiken",
+    "source": "f0e5c8ed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFoldInside": {
+    "text": "MapTiler of Stadia Maps met je eigen sleutel, of je eigen server",
+    "source": "440c627fee",
     "by": "ai",
     "reviewed": false
   },
@@ -3714,8 +3750,8 @@
     "reviewed": false
   },
   "account.people.summaryFlows": {
-    "text": "{count, plural, =0 {Geen flows om te starten} one {# flow om te starten} other {# flows om te starten}}",
-    "source": "9b5b0ffb4d",
+    "text": "{count, plural, =0 {Geen Flows om te starten} one {# Flow om te starten} other {# Flows om te starten}}",
+    "source": "4fe26e5bbc",
     "by": "ai",
     "reviewed": false
   },
@@ -4722,8 +4758,8 @@
     "reviewed": false
   },
   "account.plans.rowHomeyApp": {
-    "text": "Tegels in Homey-flows",
-    "source": "cd052940c8",
+    "text": "Tegels in Homey-Flows",
+    "source": "42a24b6a6b",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5075,204 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.putOnTablet.connect": {
+    "text": "Koppelen",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.description": {
+    "text": "Ongeveer een minuut. Houd de tablet bij de hand.",
+    "source": "64e512de81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.done": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneText": {
+    "text": "Veeg erover om tussen de dashboards te wisselen. Wijzig later alles in Instellingen › Links en schermen, of in de instellingen van het wandpaneel.",
+    "source": "3b971d70f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneTitle": {
+    "text": "De tablet toont {dashboard}",
+    "source": "cef588e3d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.getPro": {
+    "text": "Neem Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleDim": {
+    "text": "Dimmen na 10 minuten",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleOn": {
+    "text": "Aan laten",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleSleep": {
+    "text": "Slapen, wakker bij meldingen",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.itCan": {
+    "text": "Hij kan",
+    "source": "f79b3f0da0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.namePlaceholder": {
+    "text": "Tablet {dashboard}",
+    "source": "e5d57a921b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoom": {
+    "text": "Je plan heeft ruimte voor één scherm, en dat is in gebruik",
+    "source": "ea1ca9a20e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoomText": {
+    "text": "Ontkoppel het andere in Instellingen › Links en schermen, of neem Pro voor meer schermen.",
+    "source": "fdd416a294",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.onTablet": {
+    "text": "Op de tablet",
+    "source": "1f14ab0788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.openAddress": {
+    "text": "Open op de tablet {address} in de browser, of scan dit:",
+    "source": "6c3e4f6c81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.putOn": {
+    "text": "Zet het op de tablet",
+    "source": "24f85f2d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEink": {
+    "text": "Een e-inkscherm",
+    "source": "59e276656c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEinkHint": {
+    "text": "Rustig zwart-wit, af en toe ververst.",
+    "source": "f81bab4b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOled": {
+    "text": "Altijd-aan-OLED",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOledHint": {
+    "text": "Dimt en schuift wat op als het stil is, zodat niets inbrandt.",
+    "source": "0c8eb3cbaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTablet": {
+    "text": "Een tablet",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTabletHint": {
+    "text": "De meeste wandtablets: Android, iPad, Fire.",
+    "source": "40414220c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDone": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepScreen": {
+    "text": "Scherm",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepTablet": {
+    "text": "De tablet",
+    "source": "199ee075e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.tabletHint": {
+    "text": "Typ deze code op je telefoon of computer",
+    "source": "0f360984fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.title": {
+    "text": "Op een tablet zetten",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.typeCode": {
+    "text": "Typ de code die hij toont:",
+    "source": "c15c09222f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whatScreen": {
+    "text": "Wat voor scherm is het?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whenIdle": {
+    "text": "Als niemand hem gebruikt",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whichDashboards": {
+    "text": "Welke dashboards moet hij tonen? Veeg op de tablet om ertussen te wisselen.",
+    "source": "ca0e57ae2a",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.recordings.elsewhere": {
     "text": "{here, select, yes {{count, plural, one {En # vastgelegde meetwaarde op je andere Homeys.} other {En # vastgelegde meetwaarden op je andere Homeys.}}} other {{count, plural, one {# vastgelegde meetwaarde op je andere Homeys.} other {# vastgelegde meetwaarden op je andere Homeys.}}}}",
     "source": "2bfd38a6f6",
@@ -5298,8 +5532,8 @@
     "reviewed": false
   },
   "account.settings.homeyAppAbout": {
-    "text": "Laat flows op {homey} reageren als een tegel wordt ingedrukt, en tegels veranderen.",
-    "source": "6405df91c7",
+    "text": "Laat Flows op {homey} reageren als een tegel wordt ingedrukt, en tegels veranderen.",
+    "source": "d667263ea8",
     "by": "ai",
     "reviewed": false
   },
@@ -5910,8 +6144,8 @@
     "reviewed": false
   },
   "account.sharingParts.controlLink": {
-    "text": "Lampen, stopcontacten en de thermostaat. Geen flows of sloten.",
-    "source": "d010574880",
+    "text": "Lampen, stopcontacten en de thermostaat. Geen Flows of sloten.",
+    "source": "c592ea936a",
     "by": "ai",
     "reviewed": false
   },

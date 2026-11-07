@@ -1783,7 +1783,7 @@
   },
   "code.kindPicker.flow": {
     "text": "un Flow à lancer, ou plusieurs",
-    "source": "ec45942b63",
+    "source": "db976e6899",
     "by": "ai",
     "reviewed": false
   },
@@ -1801,7 +1801,7 @@
   },
   "code.kindPicker.mood": {
     "text": "une ambiance à activer, ou plusieurs",
-    "source": "0858797f29",
+    "source": "fc78d4259d",
     "by": "ai",
     "reviewed": false
   },
@@ -2965,7 +2965,7 @@
   },
   "code.panels.checkTarget": {
     "text": "L’appareil, le Flow ou l’ambiance doit être sur ce Homey ; ceux d’un autre Homey sont refusés.",
-    "source": "d064a8c8a6",
+    "source": "0b0bfed284",
     "by": "ai",
     "reviewed": false
   },
@@ -3246,8 +3246,8 @@
     "reviewed": false
   },
   "code.panels.searchActions": {
-    "text": "Rechercher, p. ex. flow ou confirm",
-    "source": "2e60e02e6f",
+    "text": "Rechercher, p. ex. Flow ou confirmer",
+    "source": "a625537794",
     "by": "ai",
     "reviewed": false
   },
@@ -4081,13 +4081,13 @@
   },
   "code.preview.setMood": {
     "text": "Activerait l’ambiance « {name} ».",
-    "source": "408a40257e",
+    "source": "e28ab811ca",
     "by": "ai",
     "reviewed": false
   },
   "code.preview.setMoodUnnamed": {
     "text": "Activerait une ambiance.",
-    "source": "bd3b1a085f",
+    "source": "41619797d5",
     "by": "ai",
     "reviewed": false
   },
@@ -4117,7 +4117,7 @@
   },
   "code.preview.startFlowUnnamed": {
     "text": "Lancerait un Flow.",
-    "source": "ec0e070598",
+    "source": "7f1d3b8e74",
     "by": "ai",
     "reviewed": false
   },
@@ -4344,8 +4344,8 @@
     "reviewed": false
   },
   "code.richFields.buttonsNote": {
-    "text": "Un appareil fait ce que la tuile choisit (basculer, régler, ouvrir) ; un Flow se lance, une ambiance s’active, un tableau de bord s’ouvre. Lus en <code>{code}</code>, chacun avec <code>.name</code>, <code>.icon</code>, <code>.on</code>.",
-    "source": "6de7031571",
+    "text": "Un bouton d’appareil fait ce que choisit l’utilisateur de la tuile (basculer, régler, ouvrir) ; Flow lancé, ambiance activée, tableau de bord ouvert. Lus en <code>{code}</code>, avec <code>.name</code>, <code>.icon</code>, <code>.on</code>.",
+    "source": "63b64ab6fb",
     "by": "ai",
     "reviewed": false
   },
@@ -4699,7 +4699,7 @@
   },
   "code.richKinds.buttonKind": {
     "text": "{kind, select, device {appareils} flow {Flows} mood {ambiances} other {tableaux de bord}}",
-    "source": "5f10b1077d",
+    "source": "3474bbf49b",
     "by": "ai",
     "reviewed": false
   },
@@ -4711,7 +4711,7 @@
   },
   "code.richKinds.buttonsReads": {
     "text": "appareils, Flows, ambiances",
-    "source": "59d16ec063",
+    "source": "11c609acb5",
     "by": "ai",
     "reviewed": false
   },
@@ -5029,7 +5029,7 @@
   },
   "code.settingFields.canAddHint": {
     "text": "Widgets d’appareil, de Flow, d’ambiance, ou qui n’en utilisent aucun",
-    "source": "0d65714aed",
+    "source": "dfdd77788d",
     "by": "ai",
     "reviewed": false
   },
@@ -5263,13 +5263,13 @@
   },
   "code.settingViews.kind": {
     "text": "{type, select, device {Un appareil} capability {Une fonction} flow {Un Flow} mood {Une ambiance} dashboard {Un tableau de bord} zone {Une zone} person {Une personne} calendars {Calendriers} pins {Codes PIN} floorplan {Un plan d’étage} house {Une maison} model {Un modèle} modelCamera {Une vue 3D} floorplanPicture {Une image de plan} number {Un nombre} percentage {Un pourcentage} boolean {Oui/non} text {Texte} choice {Un choix} color {Une couleur} icon {Une icône} size {Une taille} spot {Une position} other {Tuiles}}",
-    "source": "5e8cf1d366",
+    "source": "0f00db18af",
     "by": "ai",
     "reviewed": false
   },
   "code.settingViews.listOf": {
     "text": "{type, select, device {Une liste d’appareils} flow {Une liste de Flows} mood {Une liste d’ambiances} other {Une liste de tableaux de bord}}",
-    "source": "a2ded1f910",
+    "source": "b5a05f3aed",
     "by": "ai",
     "reviewed": false
   },
@@ -6709,7 +6709,7 @@
   },
   "code.valueFields.flowNote": {
     "text": "Chaque tuile choisit un Flow de son Homey qui peut être lancé à la main ; le modèle lit <code>.id</code> et <code>.name</code>.",
-    "source": "8921b76065",
+    "source": "2b12175334",
     "by": "ai",
     "reviewed": false
   },
@@ -6733,7 +6733,7 @@
   },
   "code.valueFields.moodNote": {
     "text": "Chaque tuile choisit une ambiance de son Homey ; le modèle lit <code>.id</code> et <code>.name</code>.",
-    "source": "73ab26a8e5",
+    "source": "5ffe779e5e",
     "by": "ai",
     "reviewed": false
   },
@@ -7092,8 +7092,8 @@
     "reviewed": false
   },
   "code.workshop.description": {
-    "text": "Tout ce que vous créez : widgets, les fragments qu’ils partagent, thèmes et modèles pour vos plans d’étage. Partagez ce que vous voulez dans la communauté.",
-    "source": "09066d2020",
+    "text": "Créez vos propres widgets, thèmes et meubles. Pour les bricoleurs : inutile pour faire de beaux tableaux de bord. Partagez vos créations dans la communauté.",
+    "source": "c2c0493647",
     "by": "ai",
     "reviewed": false
   },
@@ -7106,6 +7106,24 @@
   "code.workshop.editName": {
     "text": "Modifier {name}",
     "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyAction": {
+    "text": "Faire une copie d’un widget",
+    "source": "091246bbaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyBody": {
+    "text": "Le plus simple : copiez un widget que vous utilisez déjà et changez son apparence. Votre assistant IA peut aussi vous aider. Chaque carte ci-dessous crée un type.",
+    "source": "a6e019038e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyTitle": {
+    "text": "Rien de créé ici pour l’instant",
+    "source": "da408d72eb",
     "by": "ai",
     "reviewed": false
   },

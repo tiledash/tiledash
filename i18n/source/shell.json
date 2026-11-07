@@ -354,6 +354,30 @@
     "maxLength": 110,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
+  "shell.layout.startFailed": {
+    "en": "Couldn’t change the start page.",
+    "context": "Red message (toast) when choosing which dashboard the app opens with failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.startOff": {
+    "en": "The app opens on “{page}” again",
+    "context": "Message (toast) after the person, in the sidebar’s edit mode, stopped a dashboard from being the one the app opens with, so the app opens on the devices page again.",
+    "params": {
+      "page": "The name of the devices page, \"Devices\". Already translated."
+    },
+    "maxLength": 64,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.startOn": {
+    "en": "{name} opens when you start the app",
+    "context": "Message (toast) after the person marked a dashboard, in the sidebar’s edit mode, as the one the app opens with when it starts. It begins with the name of the dashboard.",
+    "params": {
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
   "shell.layout.startPanel": {
     "en": "Start {name}",
     "context": "Entry in the \"Jump to\" search that starts a wall panel (a tablet or screen on a wall that always shows a dashboard) on this screen.",
@@ -1194,6 +1218,24 @@
     "maxLength": 50,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
   },
+  "shell.sidebar.startItem": {
+    "en": "Open the app on {label}",
+    "context": "Name of the house button beside a dashboard while editing the sidebar. It makes the app open on this dashboard when it starts (instead of the Devices page). Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "label": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
+  "shell.sidebar.startItemOn": {
+    "en": "The app opens on {label}; tap to stop",
+    "context": "Name of the house button, shown pressed, beside the dashboard the app opens on, while editing the sidebar. Pressing it makes the app open on the Devices page again. Appears as a tooltip and is read out by screen readers.",
+    "params": {
+      "label": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
   "shell.sidebar.switcherDescription": {
     "en": "Type to find a dashboard or page. Up and down arrows move, Enter opens, Shift Enter pins or unpins a dashboard, Escape closes.",
     "context": "Instructions read out by screen readers when the \"Jump to\" search opens. Not visible as text. Names the keys: arrows, Enter, Shift Enter (pin or unpin a dashboard in the sidebar) and Escape. Use the usual names of those keys.",
@@ -1452,7 +1494,7 @@
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.basicsBody": {
-    "en": "A short list of things to try is waiting in the corner. Do them whenever you like; it keeps your place.",
+    "en": "A short list of things to try is in the corner. Take your time; it keeps your place.",
     "context": "Text of the card at the end of the guided tour. The list is the getting-started checklist in the bottom corner, which remembers what was done.",
     "maxLength": 160,
     "file": "packages/ui/src/patterns/tour/messages.ts"
@@ -1493,6 +1535,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.gotIt": {
+    "en": "Got it",
+    "context": "Button that closes a tour’s last card or a tip.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.hideList": {
     "en": "Hide this list",
     "context": "Link at the bottom of the checklist: puts it away. It can come back with \"Take the tour again\" in the account menu.",
@@ -1500,14 +1548,14 @@
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.homeBody": {
-    "en": "Made from your Homey’s rooms. The chips sum it up: power, lights on, what’s open.",
+    "en": "Lights on, the temperature, what’s open. Tap one to see which devices it counts.",
     "context": "Text of the first tour step. The chips are the small summaries next to the dashboard’s name (total power, how many lights are on, which doors or windows are open).",
     "maxLength": 140,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.homeTitle": {
-    "en": "This is your Home",
-    "context": "Title of the first tour step, pointing at the dashboard the person just made, which is called Home. \"Home\" is the dashboard’s name, as the wizard names it.",
+    "en": "Your home at a glance",
+    "context": "Title of the first step of the first-dashboard tour, pointing at the summaries beside the dashboard’s name (small chips such as \"3 lights on\" or \"21 °C\").",
     "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
@@ -1533,21 +1581,207 @@
     "maxLength": 32,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.makeFirst": {
+    "en": "Make my first dashboard",
+    "context": "Button after answering \"Where will you use Tiledash?\": opens the new-dashboard wizard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.next": {
     "en": "Next",
     "context": "Button of a tour step: goes to the next step.",
     "maxLength": 14,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.noThanks": {
+    "en": "No thanks",
+    "context": "Button that turns down the offer of a short tour.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.offerEyebrow": {
+    "en": "New in Tiledash",
+    "context": "Small line above the title of the card that offers the guided tours to someone who used Tiledash before they existed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.offerLead": {
+    "en": "Two short tours: what your dashboard can do, and how to put it on a tablet on the wall.",
+    "context": "Text of the card that offers the guided tours to someone who used Tiledash before.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.offerLength": {
+    "en": "About a minute each. Take them again from the account menu.",
+    "context": "Small print under the buttons of that card.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.offerTitle": {
+    "en": "Want a hand with the basics?",
+    "context": "Title of the card that offers the guided tours to someone who used Tiledash before.",
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.optionsBody": {
-    "en": "Edit it, add widgets, pick a theme. Everything starts here.",
+    "en": "Always here, top right: change the dashboard, its settings, put it on a tablet or share it.",
     "context": "Text of the tour step pointing at the dashboard’s options button.",
     "maxLength": 140,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.optionsHintText": {
+    "en": "Change the dashboard, its settings, put it on a tablet or share it. Always here, top right.",
+    "context": "Text of a one-time \"Did you know?\" note pointing at the dashboard’s ⋯ button (its options). Its title is \"Everything else is behind ⋯\".",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.optionsTitle": {
-    "en": "Make it yours",
-    "context": "Title of the tour step pointing at the dashboard’s options button (the ⋯ button), where editing starts.",
+    "en": "Everything else is behind ⋯",
+    "context": "Title of the tour step pointing at the dashboard’s options button, a round button with three dots (⋯) in the top right corner. Keep the ⋯ character.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.plan3dBody": {
+    "en": "The cube switches between your drawing and a 3D view. In 3D, drag with the right mouse button to turn it.",
+    "context": "Text of the floor planner tour’s step at the cube button: how to see and turn the 3D view.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.plan3dTitle": {
+    "en": "See it in 3D",
+    "context": "Title of the floor planner tour’s step at the cube button in the top bar.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planEndBody": {
+    "en": "The (?) up here starts this tour again. Press ? for every control and shortcut.",
+    "context": "Text of that card. (?) is the round button with a question mark in the top bar; \"?\" is the key on the keyboard.",
+    "maxLength": 110,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planEndTitle": {
+    "en": "That’s the floor planner",
+    "context": "Title of the card at the end of the floor planner tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planOfferText": {
+    "en": "A short tour of the floor planner: where to draw, the 3D view and moving around. Three steps.",
+    "context": "Text of the note that offers the floor planner tour the first time the planner opens, at its (?) button.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planSafeBody": {
+    "en": "Undo takes back any change, and the plan saves by itself. Space and drag moves around; scroll zooms.",
+    "context": "Text of that step: nothing can go wrong, and how to move around the plan.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planSafeTitle": {
+    "en": "Try things freely",
+    "context": "Title of the floor planner tour’s step at the undo button in the top bar.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planToolsBody": {
+    "en": "Pick a tool here: rooms and walls first, then doors and windows, furniture and your devices.",
+    "context": "Text of that step: the tools in the column, in the order people usually use them.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planToolsTitle": {
+    "en": "Draw your rooms",
+    "context": "Title of the floor planner tour’s first step, at the column of drawing tools on the left.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.planTourNoPlan": {
+    "en": "Draw a floor plan first: the tour shows you around once there is one.",
+    "context": "Short message when someone starts the floor planner tour from Settings while they have no floor plan yet; the Floor plans page opens.",
+    "maxLength": 100,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.questionEyebrow": {
+    "en": "Your Homey is connected",
+    "context": "Small line above the first question a new account sees.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.questionLead": {
+    "en": "So we can suggest the right first steps. You can use it everywhere either way.",
+    "context": "Text under that question.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.questionTitle": {
+    "en": "Where will you use Tiledash?",
+    "context": "The first question a new account sees, before making its first dashboard. The answer only changes the order of the first steps.",
+    "maxLength": 50,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.screenOfferTitle": {
+    "en": "Want a quick tour?",
+    "context": "Title of a small note pointing at the (?) button the first time a screen opens, offering a short tour of it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.screenTourLabel": {
+    "en": "Tour this screen",
+    "context": "Name of the (?) button in a screen’s header that starts a short tour of that screen. Appears as a tooltip and is read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsEndBody": {
+    "en": "The (?) up here starts this tour again, any time.",
+    "context": "Text of that card. (?) is the round button with a question mark in the window’s header.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsEndTitle": {
+    "en": "That’s dashboard settings",
+    "context": "Title of the card at the end of the dashboard settings tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsLookBody": {
+    "en": "A theme just for this dashboard and, with Pro, a picture behind the tiles. Dim and blur keep the tiles easy to read.",
+    "context": "Text of that step. Pro is the paid plan; dim and blur are settings of the background picture.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsLookTitle": {
+    "en": "A look of its own",
+    "context": "Title of the dashboard settings tour’s step on the Look tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsOfferText": {
+    "en": "Four short steps: spacing, layout, the look and popups. It stays here under (?).",
+    "context": "Text of the note offering a tour of the dashboard settings window. (?) is the round button with a question mark that starts the tour.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsPopupsBody": {
+    "en": "Pick what sets one off, like the doorbell, and what shows: a camera, a device or another dashboard. It closes again after a while.",
+    "context": "Text of that step: how a popup on an event is set up.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "en": "Popups that open by themselves",
+    "context": "Title of the dashboard settings tour’s step on the Popups tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsSpacingBody": {
+    "en": "Snug, Comfortable or Roomy, with pixels under Fine-tune. Fit to screen puts everything on one screen, good for a wall tablet.",
+    "context": "Text of the dashboard settings tour’s step on the Layout tab. Snug, Comfortable and Roomy are the names of spacing choices; Fine-tune is a folded part; Fit to screen is a switch.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "en": "Room between tiles",
+    "context": "Title of the dashboard settings tour’s step on the Layout tab, about the room between tiles.",
     "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
@@ -1569,6 +1803,24 @@
     "maxLength": 28,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.showTipsAgain": {
+    "en": "Show tips again",
+    "context": "Button in that card: the one-time notes and tour offers that were put away show once more.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.showTipsAgainHint": {
+    "en": "The one-time notes and tour offers you put away show once more.",
+    "context": "Grey line beside the \"Show tips again\" button.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.skip": {
+    "en": "Skip",
+    "context": "Button that skips the question \"Where will you use Tiledash?\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.stepCount": {
     "en": "{step} of {count}",
     "context": "Above a tour step’s title: which step this is of how many.",
@@ -1579,9 +1831,57 @@
     "maxLength": 24,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.tabletChooseBody": {
+    "en": "Which dashboards it shows, and what kind of screen it is. Each has an answer ready, so Next all the way works.",
+    "context": "Text of that step: what the dialog asks after the code.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletChooseTitle": {
+    "en": "Then two questions",
+    "context": "Title of the tour step pointing at the row of steps in the dialog.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletCodeBody": {
+    "en": "On the tablet, open the address shown here, or scan the QR code. Type the code it shows and choose Connect.",
+    "context": "Text of that step. Connect is the button that checks the code.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletCodeTitle": {
+    "en": "First, the code",
+    "context": "Title of the tour step pointing at the part of the dialog where the person types the code the tablet shows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletEndBody": {
+    "en": "Change it later under Wall panels in the sidebar. The dialog stays open for you to finish.",
+    "context": "Text of that card. Wall panels is a fold in the sidebar listing the tablets on the wall.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletEndTitle": {
+    "en": "That’s all it takes",
+    "context": "Title of the card at the end of the tour \"Put a dashboard on the wall\".",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletIntroBody": {
+    "en": "It shows your dashboards full screen: swipe between them. It dims when nobody uses it, and wakes for alerts like the doorbell.",
+    "context": "Text of that step: what a tablet on the wall (a wall panel) does.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tabletIntroTitle": {
+    "en": "A tablet on the wall",
+    "context": "Title of the first step of the tour \"Put a dashboard on the wall\": what a wall panel is.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.takeTourAgain": {
-    "en": "Take the tour again",
-    "context": "Item of the account menu: starts the guided tour and the getting-started list from the beginning.",
+    "en": "Guided tours",
+    "context": "Item of the account menu: opens Settings › General at the card with the guided tours and the switch for tips.",
     "maxLength": 30,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
@@ -1658,27 +1958,69 @@
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.tileBody": {
-    "en": "Tap a tile to switch it. It changes in your house straight away.",
-    "context": "Text of the tour step that points at a tile of a light or a plug.",
+    "en": "Tiles do what they show. A buttons tile has a button for each light, Mood or Flow.",
+    "context": "Text of the tour step that points at a tile of a light or a plug. A buttons tile is one tile with several buttons; Moods and Flows are Homey’s words, keep them as Homey translates them.",
     "maxLength": 140,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.tileTitle": {
-    "en": "Your devices, live",
+    "en": "Tap to switch",
     "context": "Title of the tour step that points at a tile of a light or a plug on the dashboard.",
     "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.tileTried": {
-    "en": "There it goes.",
-    "context": "Replaces \"Try it: tap the tile\" once the person tapped it and the device switched. Warm and short.",
+    "en": "Switched. That’s all it takes.",
+    "context": "Replaces \"Try it: tap a light\" once the person tapped it and the device switched. Warm and short.",
     "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.tileTry": {
-    "en": "Try it: tap the tile",
+    "en": "Try it: tap a light",
     "context": "Hint in a dashed box on the tile step, asking the person to tap the tile it points at.",
     "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsOff": {
+    "en": "Don’t show tips",
+    "context": "Quiet link under every tip, tour card and offer: turns off everything that opens by itself (tips, offers, the getting-started list). Tours can still be started by hand.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsOffText": {
+    "en": "Turn them back on in Settings › General. Tours stay under (?) on each screen.",
+    "context": "Second line of that message: where tips are turned on again, and that the (?) button on a screen still starts its tour.",
+    "maxLength": 110,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsOffTitle": {
+    "en": "Tips are off",
+    "context": "Message (toast) after the person chose \"Don’t show tips\". It has an Undo button.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsOffUndo": {
+    "en": "Undo",
+    "context": "Button in the \"Tips are off\" message (toast): turns tips back on.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsShownAgain": {
+    "en": "Tips will show again",
+    "context": "Message (toast) after \"Show tips again\".",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsSwitch": {
+    "en": "Show tips",
+    "context": "Label of the switch in that card that turns tips on or off for the account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tipsSwitchHint": {
+    "en": "Welcome cards, tour offers, “Did you know?” notes and the getting-started list. Off: nothing opens by itself; the (?) on each screen still starts its tour.",
+    "context": "Grey line under the \"Show tips\" switch: what it turns on or off.",
+    "maxLength": 190,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.tourAgain": {
@@ -1687,10 +2029,136 @@
     "maxLength": 90,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
+  "shell.tour.tourDashboardSettings": {
+    "en": "Dashboard settings",
+    "context": "Name of the short tour of the dashboard settings window.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourDone": {
+    "en": "Done",
+    "context": "State of a guided tour in the list: taken to its end.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourFirstDashboard": {
+    "en": "Your first dashboard",
+    "context": "Name of the guided tour of a dashboard: summaries, tapping tiles and the ⋯ button.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourFloorPlan": {
+    "en": "The floor planner",
+    "context": "Name of the floor planner tour in the list of guided tours in Settings › General. It is walked in the first floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourNotStarted": {
+    "en": "Not started",
+    "context": "State of a guided tour in the list: never taken.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourSkipped": {
+    "en": "Skipped",
+    "context": "State of a guided tour in the list: closed before its end, or turned down.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourStart": {
+    "en": "Start",
+    "context": "Button beside a guided tour in the list: starts it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourStartAgain": {
+    "en": "Start again",
+    "context": "Button beside a guided tour that was taken before: starts it again.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.tourWallPanel": {
+    "en": "Put a dashboard on the wall",
+    "context": "Name of the guided tour that puts a dashboard on a tablet on the wall.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.toursList": {
+    "en": "Tours",
+    "context": "Small heading above the list of guided tours in that card.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.toursTitle": {
+    "en": "Guided tours and tips",
+    "context": "Title of a card in Settings › General with the tips switch and the list of tours.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
   "shell.tour.tutorials": {
     "en": "See the tutorials",
     "context": "Button of the finished checklist: opens the tutorials on the website in a new tab.",
     "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.useBoth": {
+    "en": "Both",
+    "context": "Answer to \"Where will you use Tiledash?\": a tablet on the wall and phones.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.useBothBody": {
+    "en": "A wall tablet and phones.",
+    "context": "Grey line under the answer \"Both\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.usePhone": {
+    "en": "My phone",
+    "context": "Answer to \"Where will you use Tiledash?\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.usePhoneBody": {
+    "en": "Switch things from the sofa or on the go.",
+    "context": "Grey line under the answer \"My phone\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.useWall": {
+    "en": "A tablet on the wall",
+    "context": "Answer to \"Where will you use Tiledash?\": a tablet fixed on a wall.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.useWallBody": {
+    "en": "One screen everyone in the house uses.",
+    "context": "Grey line under the answer \"A tablet on the wall\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.wallEndAction": {
+    "en": "Put it on a tablet",
+    "context": "Button of that card: starts a short tour that puts the dashboard on a tablet.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.wallEndBody": {
+    "en": "It takes a minute: open one address on the tablet and type its code here.",
+    "context": "Text of the card at the end of the first-dashboard tour, for someone with a tablet on the wall: how putting a dashboard on it works.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.wallEndNote": {
+    "en": "Or later, from ⋯ or the list in the corner.",
+    "context": "Small print under that button: the same can be done later from the dashboard’s ⋯ button or the getting-started list.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.wallEndTitle": {
+    "en": "Next: put it on the wall",
+    "context": "Title of the card at the end of the first-dashboard tour, for someone who said they’ll use a tablet on the wall.",
+    "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.welcomeLead": {
@@ -1954,28 +2422,28 @@
     "maxLength": 40,
     "file": "packages/ui/src/patterns/whatsNewAnnouncement.messages.ts"
   },
+  "shell.workshopHint.aiShow": {
+    "en": "Connect an assistant",
+    "context": "Button in that note: opens Settings › AI assistants, where an AI assistant is connected to Tiledash. A command.",
+    "maxLength": 26,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
+  "shell.workshopHint.aiText": {
+    "en": "Describe the widget you want, and Claude, ChatGPT or another assistant makes it here for you. Or start from scratch with New.",
+    "context": "Text of the one-time note at the New button of the Workshop page. Claude and ChatGPT are product names: keep them. \"New\" is the button the note points at.",
+    "maxLength": 150,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
+  "shell.workshopHint.aiTitle": {
+    "en": "Build one with your AI assistant",
+    "context": "Title of a one-time note at the New button of the Workshop page (where people make their own widgets, themes and furniture), shown once they have something there.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
+  },
   "shell.workshopHint.hintDismiss": {
     "en": "Got it",
     "context": "Button in that note: closes it for good.",
     "maxLength": 16,
-    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
-  },
-  "shell.workshopHint.hintShow": {
-    "en": "Open the Workshop",
-    "context": "Button in that note: opens the Workshop page.",
-    "maxLength": 24,
-    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
-  },
-  "shell.workshopHint.hintText": {
-    "en": "Your widgets, partials, themes and models now live together in the Workshop. Make new ones there too, and share them on the Community.",
-    "context": "Text of the one-time note at the Workshop link in the sidebar, for people who made something before: what they made moved there (from Your widgets, Settings › Themes and Settings › Floor plans), and they can make new ones there.",
-    "maxLength": 170,
-    "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
-  },
-  "shell.workshopHint.hintTitle": {
-    "en": "Did you know?",
-    "context": "Title of a one-time note at the Workshop link in the sidebar.",
-    "maxLength": 30,
     "file": "packages/ui/src/patterns/sidebar/workshopHint.messages.ts"
   }
 }

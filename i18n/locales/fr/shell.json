@@ -335,6 +335,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.startFailed": {
+    "text": "Impossible de changer la page de démarrage.",
+    "source": "538f3216a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOff": {
+    "text": "L’app s’ouvre de nouveau sur « {page} »",
+    "source": "1f16ab4b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOn": {
+    "text": "{name} s’ouvre au démarrage de l’app",
+    "source": "fc70c6088c",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.startPanel": {
     "text": "Lancer {name}",
     "source": "11a49542c0",
@@ -1061,6 +1079,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.startItem": {
+    "text": "Ouvrir l’app sur {label}",
+    "source": "69a81f74ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItemOn": {
+    "text": "L’app s’ouvre sur {label} ; touchez pour arrêter",
+    "source": "eb511e770a",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.switcherDescription": {
     "text": "Tapez pour trouver un tableau de bord ou une page. Les flèches haut et bas naviguent, Entrée ouvre, Maj Entrée épingle ou retire un tableau de bord, Échap ferme.",
     "source": "f5960c7853",
@@ -1296,8 +1326,8 @@
     "reviewed": false
   },
   "shell.tour.basicsBody": {
-    "text": "Une courte liste de choses à essayer vous attend dans le coin. Faites-les quand vous voulez ; elle garde votre progression.",
-    "source": "7b867a59c4",
+    "text": "Une courte liste de choses à essayer vous attend dans le coin. Prenez votre temps ; elle garde votre progression.",
+    "source": "07cca663b5",
     "by": "ai",
     "reviewed": false
   },
@@ -1337,6 +1367,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.gotIt": {
+    "text": "Compris",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.hideList": {
     "text": "Masquer cette liste",
     "source": "6a45cf67d5",
@@ -1344,14 +1380,14 @@
     "reviewed": false
   },
   "shell.tour.homeBody": {
-    "text": "Créé à partir des pièces de votre Homey. Les pastilles le résument : puissance, lumières allumées, ce qui est ouvert.",
-    "source": "54d6d2890e",
+    "text": "Lumières allumées, température, ce qui est ouvert. Touchez-en une pour voir quels appareils elle compte.",
+    "source": "5f9a50e70f",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.homeTitle": {
-    "text": "Voici votre tableau de bord",
-    "source": "f33c8e2171",
+    "text": "Votre maison en un coup d’œil",
+    "source": "bab70bd375",
     "by": "ai",
     "reviewed": false
   },
@@ -1373,21 +1409,207 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.makeFirst": {
+    "text": "Créer mon tableau de bord",
+    "source": "bda59b8008",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.next": {
     "text": "Suivant",
     "source": "1ff57a29d7",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.noThanks": {
+    "text": "Non merci",
+    "source": "49780701dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerEyebrow": {
+    "text": "Nouveau dans Tiledash",
+    "source": "e719c394bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLead": {
+    "text": "Deux courtes visites : ce que votre tableau de bord sait faire, et comment l’afficher sur une tablette murale.",
+    "source": "12d6f1881d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLength": {
+    "text": "Environ une minute chacune. Refaites-les depuis le menu du compte.",
+    "source": "7fa8170107",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerTitle": {
+    "text": "Un coup de main pour l’essentiel ?",
+    "source": "df2e79f959",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.optionsBody": {
-    "text": "Modifiez-le, ajoutez des widgets, choisissez un thème. Tout commence ici.",
-    "source": "12a83eb15e",
+    "text": "Toujours ici, en haut à droite : modifier le tableau de bord, ses réglages, l’afficher sur une tablette ou le partager.",
+    "source": "a542c2fe1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsHintText": {
+    "text": "Modifiez le tableau de bord et ses réglages, affichez-le sur une tablette ou partagez-le. Toujours ici, en haut à droite.",
+    "source": "94d6a1c50b",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.optionsTitle": {
-    "text": "Personnalisez-le",
-    "source": "34ca8a4540",
+    "text": "Tout le reste est derrière ⋯",
+    "source": "6f189eb2bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dBody": {
+    "text": "Le cube passe de votre dessin à une vue 3D. En 3D, faites glisser avec le bouton droit pour la tourner.",
+    "source": "68db23809b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dTitle": {
+    "text": "Voir en 3D",
+    "source": "b8060d34ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndBody": {
+    "text": "Le (?) ici relance cette visite. Appuyez sur ? pour voir toutes les commandes et tous les raccourcis.",
+    "source": "e921690ab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndTitle": {
+    "text": "Voilà l’éditeur de plan d’étage",
+    "source": "025901ef6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planOfferText": {
+    "text": "Une courte visite de l’éditeur de plan d’étage : où dessiner, la vue 3D et comment se déplacer. Trois étapes.",
+    "source": "f132fd6b87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeBody": {
+    "text": "Annuler défait tout changement, et le plan s’enregistre tout seul. Espace + glisser pour se déplacer ; la molette zoome.",
+    "source": "940ba24f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeTitle": {
+    "text": "Essayez librement",
+    "source": "1451e8f517",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsBody": {
+    "text": "Choisissez un outil ici : d’abord les pièces et les murs, puis portes et fenêtres, meubles et vos appareils.",
+    "source": "181f916900",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsTitle": {
+    "text": "Dessinez vos pièces",
+    "source": "8c0fd8aac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planTourNoPlan": {
+    "text": "Dessinez d’abord un plan d’étage : la visite vous guidera dès qu’il y en aura un.",
+    "source": "347c20463a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionEyebrow": {
+    "text": "Votre Homey est connecté",
+    "source": "8c3431f7a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionLead": {
+    "text": "Pour vous proposer les bonnes premières étapes. Vous pourrez l’utiliser partout dans tous les cas.",
+    "source": "db123ab356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionTitle": {
+    "text": "Où utiliserez-vous Tiledash ?",
+    "source": "3ea28674b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenOfferTitle": {
+    "text": "Une petite visite ?",
+    "source": "4dead7b5c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenTourLabel": {
+    "text": "Visiter cet écran",
+    "source": "1d151fd637",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndBody": {
+    "text": "Le (?) ici relance cette visite, à tout moment.",
+    "source": "fd3cbf06ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndTitle": {
+    "text": "Voilà les réglages du tableau de bord",
+    "source": "e381998339",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookBody": {
+    "text": "Un thème rien que pour ce tableau de bord et, avec Pro, une image derrière les tuiles. L’atténuation et le flou gardent les tuiles lisibles.",
+    "source": "1a02122a21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookTitle": {
+    "text": "Un style bien à lui",
+    "source": "2433fcc288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsOfferText": {
+    "text": "Quatre courtes étapes : espacement, disposition, apparence et pop-ups. Toujours disponible sous (?).",
+    "source": "c82f54f1b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsBody": {
+    "text": "Choisissez ce qui en ouvre un, comme la sonnette, et ce qui s’affiche : une caméra, un appareil ou un autre tableau de bord. Il se referme après un moment.",
+    "source": "028db543b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "text": "Des pop-ups qui s’ouvrent seuls",
+    "source": "9dae8fa9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingBody": {
+    "text": "Serré, Confortable ou Aéré, en pixels sous Affiner. Adapter à l’écran met tout sur un seul écran, idéal pour une tablette murale.",
+    "source": "732f78d05f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "text": "Espace entre les tuiles",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1409,15 +1631,81 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.showTipsAgain": {
+    "text": "Réafficher les conseils",
+    "source": "7d5a764682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgainHint": {
+    "text": "Les notes et offres de visite que vous avez fermées réapparaissent.",
+    "source": "e73d26c391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.skip": {
+    "text": "Passer",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.stepCount": {
     "text": "{step} sur {count}",
     "source": "91bfb1f611",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tabletChooseBody": {
+    "text": "Quels tableaux de bord afficher, et le type d’écran. Chaque réponse est déjà prête : Suivant jusqu’au bout suffit.",
+    "source": "d0a90795f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseTitle": {
+    "text": "Puis deux questions",
+    "source": "cc25ad25c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeBody": {
+    "text": "Sur la tablette, ouvrez l’adresse indiquée ici ou scannez le QR code. Saisissez le code affiché et choisissez Connecter.",
+    "source": "b176f2e0a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeTitle": {
+    "text": "D’abord, le code",
+    "source": "2402d82c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndBody": {
+    "text": "Modifiez-la plus tard sous Écrans muraux dans la barre latérale. La fenêtre reste ouverte pour que vous terminiez.",
+    "source": "34127f3a64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndTitle": {
+    "text": "Il n’en faut pas plus",
+    "source": "f490b64f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroBody": {
+    "text": "Vos tableaux de bord en plein écran : balayez pour passer de l’un à l’autre. Elle s’atténue au repos et se réveille pour les alertes, comme la sonnette.",
+    "source": "cb30b775be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroTitle": {
+    "text": "Une tablette au mur",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.takeTourAgain": {
-    "text": "Refaire la visite",
-    "source": "73add5b9e6",
+    "text": "Visites guidées",
+    "source": "5bb385763e",
     "by": "ai",
     "reviewed": false
   },
@@ -1494,26 +1782,68 @@
     "reviewed": false
   },
   "shell.tour.tileBody": {
-    "text": "Touchez une tuile pour l’allumer ou l’éteindre. Le changement se fait aussitôt chez vous.",
-    "source": "8513c1b809",
+    "text": "Les tuiles font ce qu’elles montrent. Une tuile de boutons a un bouton par lumière, ambiance ou Flow.",
+    "source": "922c5c6b45",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTitle": {
-    "text": "Vos appareils, en direct",
-    "source": "38d7f346f1",
+    "text": "Touchez pour allumer ou éteindre",
+    "source": "e4789d77f9",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTried": {
-    "text": "Et voilà !",
-    "source": "a02b80d95e",
+    "text": "C’est fait. Rien de plus simple.",
+    "source": "d83cfbfe2a",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTry": {
-    "text": "Essayez : touchez la tuile",
-    "source": "5a4c2fe8bc",
+    "text": "Essayez : touchez une lumière",
+    "source": "1901076076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOff": {
+    "text": "Ne plus afficher les conseils",
+    "source": "bcdf0f28e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffText": {
+    "text": "Réactivez-les dans Réglages › Général. Les visites restent sous (?) sur chaque écran.",
+    "source": "814206361b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffTitle": {
+    "text": "Conseils désactivés",
+    "source": "7ef256b764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffUndo": {
+    "text": "Annuler",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsShownAgain": {
+    "text": "Les conseils s’afficheront à nouveau",
+    "source": "870b0f7dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitch": {
+    "text": "Afficher les conseils",
+    "source": "754e196536",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitchHint": {
+    "text": "Cartes de bienvenue, offres de visite, notes « Le saviez-vous ? » et liste de démarrage. Désactivé : rien ne s’ouvre seul ; le (?) de chaque écran lance toujours sa visite.",
+    "source": "208023b238",
     "by": "ai",
     "reviewed": false
   },
@@ -1523,9 +1853,135 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tourDashboardSettings": {
+    "text": "Réglages du tableau de bord",
+    "source": "95d4e44b97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDone": {
+    "text": "Terminée",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFirstDashboard": {
+    "text": "Votre premier tableau de bord",
+    "source": "edf6877596",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFloorPlan": {
+    "text": "L’éditeur de plan d’étage",
+    "source": "cc5de527cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourNotStarted": {
+    "text": "Pas commencée",
+    "source": "ba35f0c47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourSkipped": {
+    "text": "Passée",
+    "source": "12698ce1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStart": {
+    "text": "Commencer",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStartAgain": {
+    "text": "Recommencer",
+    "source": "962e64b761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourWallPanel": {
+    "text": "Afficher un tableau de bord au mur",
+    "source": "5051a0277f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursList": {
+    "text": "Visites",
+    "source": "b49f1e41f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursTitle": {
+    "text": "Visites guidées et conseils",
+    "source": "ecd86c12a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.tutorials": {
     "text": "Voir les tutoriels",
     "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBoth": {
+    "text": "Les deux",
+    "source": "b6c1d862f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBothBody": {
+    "text": "Une tablette murale et des téléphones.",
+    "source": "085f5b7ecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhone": {
+    "text": "Mon téléphone",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhoneBody": {
+    "text": "Commander depuis le canapé ou en déplacement.",
+    "source": "a510940075",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWall": {
+    "text": "Une tablette au mur",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWallBody": {
+    "text": "Un écran que toute la maison utilise.",
+    "source": "4434cfa690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndAction": {
+    "text": "L’afficher sur une tablette",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndBody": {
+    "text": "Une minute suffit : ouvrez une adresse sur la tablette et saisissez son code ici.",
+    "source": "09b09f1497",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndNote": {
+    "text": "Ou plus tard, depuis ⋯ ou la liste dans le coin.",
+    "source": "8d23a1d762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndTitle": {
+    "text": "Ensuite : l’afficher au mur",
+    "source": "cda43b04b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1745,27 +2201,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.workshopHint.aiShow": {
+    "text": "Connecter un assistant",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiText": {
+    "text": "Décrivez le widget voulu : Claude, ChatGPT ou un autre assistant le crée ici pour vous. Ou partez de zéro avec Créer.",
+    "source": "3fbde161f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiTitle": {
+    "text": "Créez-en un avec votre assistant IA",
+    "source": "33f5413efb",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.workshopHint.hintDismiss": {
     "text": "Compris",
     "source": "5ad3dbd124",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintShow": {
-    "text": "Ouvrir l’Atelier",
-    "source": "c983932959",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintText": {
-    "text": "Vos widgets, fragments, thèmes et modèles sont désormais réunis dans l’Atelier. Créez-en aussi de nouveaux et partagez-les dans la communauté.",
-    "source": "43e0e7e416",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintTitle": {
-    "text": "Le saviez-vous ?",
-    "source": "3e9b3541c2",
     "by": "ai",
     "reviewed": false
   }

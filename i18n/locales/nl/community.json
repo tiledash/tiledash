@@ -576,8 +576,8 @@
     "reviewed": false
   },
   "community.installed.emptyBody": {
-    "text": "Wat je uit de community installeert, verschijnt hier, met de updates. Widgets komen in de widgetkiezer, thema’s in de themalijst, en partials kun je renderen in je widgets.",
-    "source": "2ca6b3d1c9",
+    "text": "Widgets, thema’s en meubels die anderen hebben gemaakt. Kijk rond, probeer ze op je eigen apparaten, voeg toe wat je mooi vindt: het verschijnt hier, met de updates.",
+    "source": "cda662accf",
     "by": "ai",
     "reviewed": false
   },
@@ -815,6 +815,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.item.goneNote": {
+    "text": "De maker is gestopt met Tiledash. Het blijft werken zoals het is, maar niemand werkt het nog bij.",
+    "source": "c0d0551a28",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.item.install": {
     "text": "Installeren",
     "source": "569ca49f4a",
@@ -842,6 +848,12 @@
   "community.item.licenceHint": {
     "text": "{kind, select, widget {Kopieer hem naar je eigen widgets en wijzig hem.} theme {Kopieer het naar je eigen thema’s en wijzig het.} model {Plaats het op je plattegronden.} other {Kopieer hem naar je eigen partials en wijzig hem.}}",
     "source": "b95ef4907c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.item.logInToInstall": {
+    "text": "Inloggen om te installeren",
+    "source": "9b5f64cbf0",
     "by": "ai",
     "reviewed": false
   },
@@ -962,6 +974,12 @@
   "community.item.versions": {
     "text": "Versies",
     "source": "f89ea27036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.item.visitorNote": {
+    "text": "Kost niets met je Homey-account. Daarna kom je meteen hier terug.",
+    "source": "e9edc5547b",
     "by": "ai",
     "reviewed": false
   },
@@ -2591,6 +2609,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.publisher.gone": {
+    "text": "Niet meer onderhouden",
+    "source": "26ef1ef96a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publisher.goneTip": {
+    "text": "De maker is gestopt met Tiledash. Het blijft werken, maar niemand werkt het nog bij.",
+    "source": "5588677703",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publisher.official": {
     "text": "Officieel",
     "source": "c409c66f71",
@@ -2886,8 +2916,8 @@
     "reviewed": false
   },
   "community.sections.description": {
-    "text": "Widgets, thema’s, partials en modellen van anderen. Een widget die je in de widgetkiezer toevoegt of een model dat je op een plattegrond zet, installeert zich vanzelf.",
-    "source": "426288e600",
+    "text": "Widgets, thema’s en meubels van anderen, klaar om toe te voegen: kijk rond, probeer ze op je eigen apparaten, installeer wat je mooi vindt. Zelf iets maken hoeft niet.",
+    "source": "230e76e496",
     "by": "ai",
     "reviewed": false
   },
@@ -2996,6 +3026,12 @@
   "community.sections.seeAll": {
     "text": "{kind, select, widget {{count, plural, one {De widget bekijken} other {Alle # widgets bekijken}}} theme {{count, plural, one {Het thema bekijken} other {Alle # thema’s bekijken}}} model {{count, plural, one {Het model bekijken} other {Alle # modellen bekijken}}} other {{count, plural, one {De partial bekijken} other {Alle # partials bekijken}}}}",
     "source": "bffd657856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.visitorDescription": {
+    "text": "Widgets, thema’s en meubels die Tiledash-gebruikers maakten voor hun Homey-dashboards. Kijk rustig rond; log in met Homey om te installeren.",
+    "source": "bbeb653444",
     "by": "ai",
     "reviewed": false
   },
@@ -3206,6 +3242,60 @@
   "community.views.recentlyUpdated": {
     "text": "Onlangs bijgewerkt",
     "source": "474b2a869a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.about": {
+    "text": "Wat is Tiledash?",
+    "source": "a1daecb417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.barLabel": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.dialogTitle": {
+    "text": "Inloggen om {title} te installeren",
+    "source": "bc079e0946",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.logIn": {
+    "text": "Inloggen",
+    "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.logInWithHomey": {
+    "text": "Inloggen met Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.notNow": {
+    "text": "Nu niet",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepAccount": {
+    "text": "Nieuw bij Tiledash? Dan maak je zo je account. Met Free kun je al installeren.",
+    "source": "b65cf58f26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepBack": {
+    "text": "Daarna kom je hier terug om {title} te installeren.",
+    "source": "ebafc25b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepHomey": {
+    "text": "Log in met je Homey-account, op de eigen pagina van Homey.",
+    "source": "061c99b9ff",
     "by": "ai",
     "reviewed": false
   },

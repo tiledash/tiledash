@@ -30,8 +30,8 @@
     "reviewed": false
   },
   "widgets.builtin.aGroupOfButtonsSwitchDevices": {
-    "text": "Un grupo de botones: controla dispositivos, inicia Flows y ambientes, abre dashboards.",
-    "source": "945856eca6",
+    "text": "Un grupo de botones: controla dispositivos, inicia Flows, activa ambientes y abre dashboards.",
+    "source": "7f34d2187c",
     "by": "ai",
     "reviewed": false
   },
@@ -853,7 +853,7 @@
   },
   "widgets.builtin.doesWhatATapCanOpens": {
     "text": "Hace lo que puede un toque: abre un dashboard o dispositivo, inicia un Flow, activa un ambiente, cambia una variable, envía una solicitud web o avisa a Homey.",
-    "source": "dadd3edb42",
+    "source": "5ebe9bf440",
     "by": "ai",
     "reviewed": false
   },
@@ -2761,7 +2761,7 @@
   },
   "widgets.builtin.setTheMood": {
     "text": "Activar el ambiente",
-    "source": "cd7e82a4e3",
+    "source": "3846c2f0fd",
     "by": "ai",
     "reviewed": false
   },
@@ -2773,7 +2773,7 @@
   },
   "widgets.builtin.setsAMoodAndShowsWhether": {
     "text": "Activa un ambiente y muestra si se activó.",
-    "source": "4034a931cd",
+    "source": "a0195ebe62",
     "by": "ai",
     "reviewed": false
   },
@@ -2797,7 +2797,7 @@
   },
   "widgets.builtin.setsTheMood": {
     "text": "Activa el ambiente",
-    "source": "e404f054d8",
+    "source": "67d18f77ca",
     "by": "ai",
     "reviewed": false
   },
@@ -2971,7 +2971,7 @@
   },
   "widgets.builtin.startTheFlow": {
     "text": "Iniciar el Flow",
-    "source": "4568bc809c",
+    "source": "e6f74a2972",
     "by": "ai",
     "reviewed": false
   },
@@ -2989,13 +2989,13 @@
   },
   "widgets.builtin.startsAFlowAndShowsWhether": {
     "text": "Inicia un Flow y muestra si se inició.",
-    "source": "0f7d95faa8",
+    "source": "5542b85b4e",
     "by": "ai",
     "reviewed": false
   },
   "widgets.builtin.startsTheFlow": {
     "text": "Inicia el Flow",
-    "source": "340088370a",
+    "source": "5933b2c48a",
     "by": "ai",
     "reviewed": false
   },
@@ -6902,6 +6902,264 @@
   "widgets.values.yes": {
     "text": "Sí",
     "source": "85a39ab345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.clear": {
+    "text": "Despejado",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.cloudy": {
+    "text": "Nublado",
+    "source": "c63401aba2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.east": {
+    "text": "E",
+    "source": "a9f51566bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.failed": {
+    "text": "El tiempo no está disponible ahora mismo. Se volverá a intentar.",
+    "source": "5bc9e1b3b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.fog": {
+    "text": "Niebla",
+    "source": "14394e978d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavyRain": {
+    "text": "Lluvia intensa",
+    "source": "c723ea3e00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleet": {
+    "text": "Aguanieve intensa",
+    "source": "aff503d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleetShowers": {
+    "text": "Chubascos de aguanieve",
+    "source": "cc52531db9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnow": {
+    "text": "Nevada intensa",
+    "source": "58cd7f387c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnowShowers": {
+    "text": "Chubascos de nieve",
+    "source": "7420426178",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.home": {
+    "text": "Casa",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRain": {
+    "text": "Lluvia ligera",
+    "source": "692c251747",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRainShowers": {
+    "text": "Chubascos ligeros",
+    "source": "a9f626f9ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleet": {
+    "text": "Aguanieve ligera",
+    "source": "066f8217d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleetShowers": {
+    "text": "Chubascos de aguanieve",
+    "source": "2da3c7cc54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnow": {
+    "text": "Nieve ligera",
+    "source": "87150d9e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnowShowers": {
+    "text": "Chubascos de nieve",
+    "source": "0ef869f460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.loading": {
+    "text": "Cargando el tiempo…",
+    "source": "8863eba376",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.mostlyClear": {
+    "text": "Mayormente despejado",
+    "source": "456963a203",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.noPlace": {
+    "text": "Elige un lugar en los ajustes del widget",
+    "source": "069c11d65e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.north": {
+    "text": "N",
+    "source": "8ce86a6ae6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northEast": {
+    "text": "NE",
+    "source": "d539cd97ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northWest": {
+    "text": "NO",
+    "source": "c1fcf83e87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.now": {
+    "text": "Ahora",
+    "source": "fe18013d93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.overcast": {
+    "text": "Cubierto",
+    "source": "721c455d6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.partlyCloudy": {
+    "text": "Parcialmente nublado",
+    "source": "f7be32278d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rain": {
+    "text": "Lluvia",
+    "source": "a6d20aa6a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rainShowers": {
+    "text": "Chubascos",
+    "source": "0156925b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.severeThunderstorms": {
+    "text": "Tormentas fuertes",
+    "source": "cd75e04356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleet": {
+    "text": "Aguanieve",
+    "source": "3e192828ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleetShowers": {
+    "text": "Chubascos de aguanieve",
+    "source": "64b914dcd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snow": {
+    "text": "Nieve",
+    "source": "4f946da92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snowShowers": {
+    "text": "Chubascos de nieve",
+    "source": "26ecb35382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.south": {
+    "text": "S",
+    "source": "8de0b3c47f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southEast": {
+    "text": "SE",
+    "source": "f031b70a26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southWest": {
+    "text": "SO",
+    "source": "072f005fc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thickFog": {
+    "text": "Niebla densa",
+    "source": "b9f70c4aaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunder": {
+    "text": "Truenos",
+    "source": "519bce7bc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunderstorms": {
+    "text": "Tormentas",
+    "source": "b8a0a4f4ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.today": {
+    "text": "Hoy",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedHours": {
+    "text": "Actualizado hace {hours} h",
+    "source": "f59b90c6af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedMinutes": {
+    "text": "Actualizado hace {minutes} min",
+    "source": "bbc4d1a386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.west": {
+    "text": "O",
+    "source": "fcb5f40df9",
     "by": "ai",
     "reviewed": false
   }

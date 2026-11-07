@@ -63,7 +63,7 @@
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
   },
   "viewer.actions.flowMissing": {
-    "en": "That flow is not on this Homey",
+    "en": "That Flow is not on this Homey",
     "context": "Red message (toast) when a tile tried to start a flow (an automation of the Homey) that no longer exists on this Homey.",
     "maxLength": 50,
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
@@ -144,7 +144,7 @@
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
   },
   "viewer.actions.moodMissing": {
-    "en": "That mood is not on this Homey",
+    "en": "That Mood is not on this Homey",
     "context": "Red message (toast) when a tile tried to set a mood (a scene of the Homey) that no longer exists on this Homey.",
     "maxLength": 50,
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
@@ -531,7 +531,7 @@
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
   "viewer.dashboard.emptyBody": {
-    "en": "Add widgets for your devices, flows and moods, then arrange them however you like.",
+    "en": "Add widgets for your devices, Flows and Moods, then arrange them however you like.",
     "context": "Text under the title of the empty dashboard message. It invites the person to add widgets (tile types) for their devices, flows (automations) and moods (Homey scenes) and to move them around.",
     "maxLength": 110,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
@@ -543,8 +543,8 @@
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
   "viewer.dashboard.menuDelete": {
-    "en": "Delete dashboard…",
-    "context": "Red last item of the dashboard menu. It asks for confirmation and then deletes the dashboard and its tiles. The dots mean a confirmation follows.",
+    "en": "Delete dashboard",
+    "context": "Red last item of the dashboard menu. It deletes the dashboard and its tiles at once; a message with Undo then lets the person bring it back for a few seconds.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
@@ -579,26 +579,8 @@
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
   "viewer.dashboard.menuPanel": {
-    "en": "Use as wall panel…",
-    "context": "Item of the dashboard menu. It opens a dialog to set up a wall panel (a tablet or screen on a wall that always shows a dashboard) that shows this dashboard. The dots mean a dialog follows.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuPinHide": {
-    "en": "Hide from sidebar",
-    "context": "Item of the dashboard menu, shown while the dashboard is listed in the sidebar (the navigation column at the left). It removes it from the sidebar list; the dashboard itself stays.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuPinShow": {
-    "en": "Show in sidebar",
-    "context": "Item of the dashboard menu, shown while the dashboard is not listed in the sidebar (the navigation column at the left). It adds it to the sidebar list.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuRename": {
-    "en": "Name and icon…",
-    "context": "Item of the dashboard menu. It opens a dialog to change the name and the icon of the dashboard. The dots mean a dialog follows.",
+    "en": "Put it on a tablet…",
+    "context": "Item of the dashboard menu. It opens a short flow that puts this dashboard on a tablet on the wall (a wall panel): type the code the tablet shows, pick dashboards, done. The dots mean a dialog follows.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
@@ -611,24 +593,6 @@
   "viewer.dashboard.menuShare": {
     "en": "Share…",
     "context": "Item of the dashboard menu. It opens a dialog to share the dashboard with a link anyone can open. The dots mean a dialog follows.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuStartOff": {
-    "en": "Don’t open on start",
-    "context": "Item of the dashboard menu, shown while this dashboard is the one the app opens with. It undoes that, so the app opens on the devices page again. A command.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuStartOn": {
-    "en": "Open on start",
-    "context": "Item of the dashboard menu. It makes this dashboard the one the app opens with when it starts. A command, not a status.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
-  },
-  "viewer.dashboard.menuSummaries": {
-    "en": "Summaries…",
-    "context": "Item of the dashboard menu. It opens a dialog to choose the summaries (small live figures, like \"3 lights on\") shown next to the dashboard name. The dots mean a dialog follows.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
@@ -1956,7 +1920,7 @@
     "file": "apps/web/src/dashboards/tile.messages.ts"
   },
   "viewer.tile.flowGone": {
-    "en": "Its flow is no longer on your Homey.",
+    "en": "Its Flow is no longer on your Homey.",
     "context": "Explanation inside a tile that starts a flow (an automation of the Homey), when that flow no longer exists on the Homey (the smart-home hub).",
     "maxLength": 60,
     "file": "apps/web/src/dashboards/tile.messages.ts"
@@ -1968,7 +1932,7 @@
     "file": "apps/web/src/dashboards/tile.messages.ts"
   },
   "viewer.tile.moodGone": {
-    "en": "Its mood is no longer on your Homey.",
+    "en": "Its Mood is no longer on your Homey.",
     "context": "Explanation inside a tile that sets a mood (a scene of the Homey), when that mood no longer exists on the Homey (the smart-home hub).",
     "maxLength": 60,
     "file": "apps/web/src/dashboards/tile.messages.ts"

@@ -337,7 +337,7 @@
   },
   "editor.busyEditor.hintVariable": {
     "text": "Het volgt een variabele, dus het kan een dashboard openen of een Flow starten.",
-    "source": "2d9ec1adb0",
+    "source": "ba000466a9",
     "by": "ai",
     "reviewed": false
   },
@@ -643,7 +643,7 @@
   },
   "editor.buttonsEditor.search": {
     "text": "Zoek apparaten, Flows, sferen en dashboards",
-    "source": "0225403aa8",
+    "source": "c2ba1456d4",
     "by": "ai",
     "reviewed": false
   },
@@ -1278,8 +1278,440 @@
     "reviewed": false
   },
   "editor.cssHooks.listLabel": {
-    "text": "Hooks om op te maken",
-    "source": "64084c77c0",
+    "text": "Opmaakbare delen",
+    "source": "1e8353c3b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKind": {
+    "text": "Per soort",
+    "source": "a6686d8c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKindHint": {
+    "text": "Lampen bij elkaar, verwarming bij elkaar… fijn voor een energie- of beveiligingsdashboard.",
+    "source": "a90f3d5297",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoom": {
+    "text": "Per kamer",
+    "source": "ff12e899b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoomHint": {
+    "text": "Een kop per kamer, zoals het tabblad Apparaten in de Homey-app.",
+    "source": "372b773c5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.clear": {
+    "text": "Wissen",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.createMany": {
+    "text": "{count} dashboards maken",
+    "source": "824bd61718",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.dashboardCount": {
+    "text": "{count} dashboards",
+    "source": "897483ea28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.defaultName": {
+    "text": "Thuis",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionLook": {
+    "text": "Kies hoe het wordt ingedeeld. Het voorbeeld toont elke wijziging.",
+    "source": "1786f87469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionWhat": {
+    "text": "Kies de kamers en wat erop komt. We hebben al gekozen wat de meeste mensen schakelen of instellen.",
+    "source": "3beb209921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.groupingQuestion": {
+    "text": "Hoe moet het worden gegroepeerd?",
+    "source": "fe51922bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintAppliance": {
+    "text": "Zie wanneer de was klaar is",
+    "source": "51bb8dd77e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintClimate": {
+    "text": "Thermostaten en kachels",
+    "source": "f10f7d5649",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintCover": {
+    "text": "Openen en sluiten",
+    "source": "aedfc22cd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintFlow": {
+    "text": "De Flows die je een ster gaf in Homey",
+    "source": "0659423bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLight": {
+    "text": "Schakelen en dimmen",
+    "source": "d611fe22d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLock": {
+    "text": "Op slot en van het slot",
+    "source": "65fc0962c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintMood": {
+    "text": "Zet de sfeer in een kamer",
+    "source": "40941e3a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintPlug": {
+    "text": "Maar een paar zijn het schakelen waard",
+    "source": "0ded74be89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintSensor": {
+    "text": "Al meegeteld in de samenvattingen",
+    "source": "f10478a997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindAppliance": {
+    "text": "Huishoudapparaten",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindClimate": {
+    "text": "Verwarming",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindCover": {
+    "text": "Zonwering en gordijnen",
+    "source": "fa0f52e672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlow": {
+    "text": "Favoriete Flows",
+    "source": "9580ae16bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlows": {
+    "text": "{count, plural, one {# Flow} other {# Flows}}",
+    "source": "eb7d2c30c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindInRooms": {
+    "text": "{count} in {rooms, plural, one {# kamer} other {# kamers}}",
+    "source": "15599dcf68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLeftOut": {
+    "text": "{count} weggelaten",
+    "source": "9e6680820e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLight": {
+    "text": "Lampen",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLock": {
+    "text": "Sloten",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindMood": {
+    "text": "Sferen",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindPlug": {
+    "text": "Stekkers",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindSensor": {
+    "text": "Sensoren en meters",
+    "source": "7abc3244ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsLater": {
+    "text": "Wil je één lamp of sfeer weglaten? Tik in de volgende stap op × op de tegel in het voorbeeld.",
+    "source": "5d37f1b64e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsQuestion": {
+    "text": "Wat moet erop?",
+    "source": "793e353550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsWaiting": {
+    "text": "Kies hierboven kamers",
+    "source": "2e5d12badb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.leftOut": {
+    "text": "{name} weggelaten.",
+    "source": "73786a55bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEach": {
+    "text": "Een tegel per lamp",
+    "source": "8975f113db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEachHint": {
+    "text": "Elke lamp een eigen tegel, met de helderheid.",
+    "source": "c102f63d3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroup": {
+    "text": "Eén tegel per kamer",
+    "source": "0c21489409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroupHint": {
+    "text": "De lampen van een kamer als knoppen in één tegel. Een kamer met één lamp houdt een eigen tegel.",
+    "source": "ce989c1317",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsQuestion": {
+    "text": "Lampen",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.moreStarts": {
+    "text": "Meer kant-en-klare bases",
+    "source": "49cca15115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadings": {
+    "text": "Geen koppen",
+    "source": "07e2ccb090",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadingsHint": {
+    "text": "Eén rustig blok tegels, voor een klein dashboard.",
+    "source": "e1ed9a1dd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.otherPlaces": {
+    "text": "Buiten en overig",
+    "source": "36f446fef0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.pickARoom": {
+    "text": "Kies minstens één kamer",
+    "source": "c5596e6c41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeHint": {
+    "text": "Tik op × op een tegel om hem weg te laten.",
+    "source": "83639f41f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeTile": {
+    "text": "{name} weglaten",
+    "source": "ac7244ce5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomLights": {
+    "text": "Lampen {room}",
+    "source": "577eab5103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomMoods": {
+    "text": "Sferen {room}",
+    "source": "6ba03fb1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomTabs": {
+    "text": "De dashboards die het maakt",
+    "source": "f3d2cdf295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsCount": {
+    "text": "{picked} van {total}",
+    "source": "3bf0ea9cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsQuestion": {
+    "text": "Welke kamers?",
+    "source": "51ee07ef86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEach": {
+    "text": "Een tegel voor elk",
+    "source": "7a704d626d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEachHint": {
+    "text": "Grote knoppen met een eigen icoon. Het beste als het er maar een paar zijn.",
+    "source": "e262924191",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroup": {
+    "text": "Eén knoppentegel per kamer",
+    "source": "48d1ae5968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroupHint": {
+    "text": "Zoals de widgets Sferen en Flows in de Homey-app: één tegel, een knop voor elk.",
+    "source": "8c05e6d063",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesQuestion": {
+    "text": "Sferen en Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.selectAll": {
+    "text": "Alles selecteren",
+    "source": "1fc9a38765",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitHint": {
+    "text": "{count} dashboards, één per kamer. Tik boven het voorbeeld op een kamer om hem te zien.",
+    "source": "7c4e9bc291",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitLabel": {
+    "text": "Eén dashboard per kamer, met knoppen om ertussen te wisselen",
+    "source": "2359e3ad5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startDescription": {
+    "text": "Kies de kamers en wat eruit. Wij stellen een nette indeling voor; jij kiest.",
+    "source": "bd1e4140f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startName": {
+    "text": "Eigen dashboard",
+    "source": "b9730bdae3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepLook": {
+    "text": "Hoe het eruitziet",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepWhat": {
+    "text": "Wat erop komt",
+    "source": "d7c256a3fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesKinds": {
+    "text": "Op elke kop",
+    "source": "9cf2011a09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesQuestion": {
+    "text": "Samenvattingen",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesRooms": {
+    "text": "Per kamer, op de kop",
+    "source": "7e554ff4b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesTop": {
+    "text": "Bovenaan: lampen aan, temperatuur, wat open is",
+    "source": "977e86b909",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooMany": {
+    "text": "Dat is veel voor één scherm",
+    "source": "6b17a34754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooManyText": {
+    "text": "{count} tegels; er passen er zo’n {comfortable} prettig op. Kies minder kamers, of zet een paar soorten uit.",
+    "source": "32bc7bf048",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.undo": {
+    "text": "Ongedaan maken",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -1679,27 +2111,27 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteBody": {
-    "text": "De tegels worden mee verwijderd. Je apparaten en Flows blijven zoals ze zijn.",
-    "source": "494c9e1587",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.deleteConfirm": {
-    "text": "Dashboard verwijderen",
-    "source": "b310f98bcb",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardPage.deleteFailed": {
     "text": "Het dashboard kon niet worden verwijderd.",
     "source": "65fc71d2d3",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteTitle": {
-    "text": "“{name}” verwijderen?",
-    "source": "8e13216a05",
+  "editor.dashboardPage.deleteTooLate": {
+    "text": "Het was al verwijderd.",
+    "source": "c314a99764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deleted": {
+    "text": "“{name}” verwijderd",
+    "source": "33ba563e37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deletedHint": {
+    "text": "De tegels zijn mee verwijderd. Je apparaten en Flows blijven onaangeroerd.",
+    "source": "0d032ec900",
     "by": "ai",
     "reviewed": false
   },
@@ -1736,24 +2168,6 @@
   "editor.dashboardPage.removed": {
     "text": "{inside, plural, =0 {{count, plural, one {Tegel verwijderd} other {{count, number} tegels verwijderd}}} one {{count, plural, one {Tegel en de tegel erin verwijderd} other {{count, number} tegels en de tegel erin verwijderd}}} other {{count, plural, one {Tegel en de {inside, number} tegels erin verwijderd} other {{count, number} tegels en de {inside, number} tegels erin verwijderd}}}}",
     "source": "f1df89ad02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startFailed": {
-    "text": "De startpagina kon niet worden gewijzigd.",
-    "source": "538f3216a9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOff": {
-    "text": "De app opent weer op “{page}”",
-    "source": "1f16ab4b12",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOn": {
-    "text": "{name} opent als je de app start",
-    "source": "fc70c6088c",
     "by": "ai",
     "reviewed": false
   },
@@ -1859,15 +2273,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTiles": {
-    "text": "Tussen tegels",
-    "source": "c778f00ef3",
+  "editor.dashboardSettings.backToTheme": {
+    "text": "Terug naar die van het thema",
+    "source": "bd4cae52f6",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTilesChoice": {
+  "editor.dashboardSettings.betweenTiles": {
     "text": "Ruimte tussen tegels",
-    "source": "555cff61ac",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1889,9 +2303,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.change": {
+    "text": "Wijzigen…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.description": {
     "text": "Hoe dit dashboard is ingedeeld. Het voorbeeld en het dashboard erachter volgen elke wijziging.",
     "source": "dd04b7e6e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTune": {
+    "text": "Verfijnen",
+    "source": "f86315eb2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTuneInside": {
+    "text": "pixels, de rand rond het dashboard, tegels samen als één vorm",
+    "source": "7d5bbf9c60",
     "by": "ai",
     "reviewed": false
   },
@@ -1907,51 +2339,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.followsTheme": {
+    "text": "Volgt je thema: {gap} px.",
+    "source": "12d26b7ff8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.freePlacement": {
-    "text": "Vrije plaatsing",
-    "source": "95d0f56005",
+    "text": "Tegels blijven waar je ze zet",
+    "source": "76e8ac3f45",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.freePlacementHint": {
-    "text": "Tegels blijven waar je ze neerzet, in plaats van naar boven te schuiven.",
-    "source": "167f2c8db6",
+    "text": "Gaten mogen. Anders schuiven tegels omhoog om ze te vullen.",
+    "source": "87cc00fd32",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNone": {
-    "text": "Geen",
-    "source": "dc937b5989",
+  "editor.dashboardSettings.iconChange": {
+    "text": "Icoon wijzigen",
+    "source": "0c92e8e129",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNormal": {
-    "text": "Normaal",
-    "source": "a7248eeb45",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapRoomy": {
-    "text": "Ruim",
-    "source": "beb8418353",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTheme": {
-    "text": "Thema · {gap}",
-    "source": "68a5d01520",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTight": {
-    "text": "Smal",
-    "source": "ce0cc8415d",
+  "editor.dashboardSettings.leadGeneral": {
+    "text": "De naam en het icoon van het dashboard, en de samenvattingen naast de naam.",
+    "source": "e1bdcfdfa9",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.leadLayout": {
-    "text": "Hoe de tegels het scherm vullen, waar ze mogen staan, en de titel.",
-    "source": "8bac93e326",
+    "text": "Hoe de tegels staan: de ruimte ertussen, en hoe ze het scherm vullen.",
+    "source": "66865442a4",
     "by": "ai",
     "reviewed": false
   },
@@ -1964,12 +2384,6 @@
   "editor.dashboardSettings.leadPopups": {
     "text": "Wat vanzelf over het dashboard opent als er iets gebeurt.",
     "source": "7195ca2376",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.leadSpacing": {
-    "text": "De ruimte tussen de tegels en eromheen.",
-    "source": "59d1dd31b0",
     "by": "ai",
     "reviewed": false
   },
@@ -1997,6 +2411,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.nameAndIcon": {
+    "text": "Naam en icoon",
+    "source": "0af13e2f0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameLabel": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameMissing": {
+    "text": "Geef het een naam.",
+    "source": "9d63f7c904",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.oneShape": {
     "text": "Aangrenzende tegels worden één vorm",
     "source": "ea3d87c71b",
@@ -2012,6 +2444,12 @@
   "editor.dashboardSettings.oneShapeSpaced": {
     "text": "Tegels naast elkaar krijgen rechte hoeken waar ze elkaar raken; de buitenhoeken van de groep blijven rond.",
     "source": "d5c5e9f216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.ownSpacing": {
+    "text": "Eigen ruimte voor dit dashboard.",
+    "source": "ef13d8ca48",
     "by": "ai",
     "reviewed": false
   },
@@ -2045,6 +2483,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.spacing": {
+    "text": "{choice, select, none {Aaneen} tight {Krap} normal {Comfortabel} other {Ruim}}",
+    "source": "8388e3b38b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.spacingLine": {
+    "text": "{choice, select, none {Eén blok} tight {Meer op het scherm} normal {Goed te onderscheiden} other {Rustig en luchtig}}",
+    "source": "3ecdd09ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summaries": {
+    "text": "Samenvattingen",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summariesCount": {
+    "text": "{count, plural, =0 {Nog geen: zet “3 lampen aan” of de temperatuur naast de naam.} one {# naast de naam: kleine live cijfers} other {# naast de naam: kleine live cijfers}}",
+    "source": "0514d71a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.tabGeneral": {
+    "text": "Algemeen",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.tabLayout": {
     "text": "Indeling",
     "source": "a511909161",
@@ -2063,12 +2531,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.tabSpacing": {
-    "text": "Ruimte",
-    "source": "62a822a583",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardSettings.themeChange": {
     "text": "Wijzigen…",
     "source": "a6b4705c68",
@@ -2078,6 +2540,12 @@
   "editor.dashboardSettings.themeHint": {
     "text": "Kleuren, lettertype en hoeken.",
     "source": "7b5ff1e5df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.themeMark": {
+    "text": "Thema",
+    "source": "efb52e7172",
     "by": "ai",
     "reviewed": false
   },
@@ -3145,7 +3613,7 @@
   },
   "editor.headingSettings.tapFlow": {
     "text": "Een Flow starten",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -3312,8 +3780,8 @@
     "reviewed": false
   },
   "editor.homeyTileTap.follows": {
-    "text": "Deze tegel volgt hem: flows kunnen hem aan- en uitzetten, een tekst of getal, een kleur of een icoon geven, of verbergen.",
-    "source": "a21d89c64c",
+    "text": "Deze tegel volgt hem: Flows kunnen hem aan- en uitzetten, een tekst of getal, een kleur of een icoon geven, of verbergen.",
+    "source": "36af3951ec",
     "by": "ai",
     "reviewed": false
   },
@@ -3336,14 +3804,14 @@
     "reviewed": false
   },
   "editor.homeyTileTap.inAFlow": {
-    "text": "In een flow: {name} wordt ingedrukt.",
-    "source": "92695dcecf",
+    "text": "In een Flow: Als {name} wordt ingedrukt.",
+    "source": "e2d8ded327",
     "by": "ai",
     "reviewed": false
   },
   "editor.homeyTileTap.nameHint": {
-    "text": "Kort en duidelijk, zoals je het in een flow zou zeggen: “Filmavond”.",
-    "source": "a99f461756",
+    "text": "Kort en duidelijk, zoals je het in een Flow zou zeggen: “Filmavond”.",
+    "source": "9a5ddc8fd6",
     "by": "ai",
     "reviewed": false
   },
@@ -3378,8 +3846,8 @@
     "reviewed": false
   },
   "editor.homeyTileTap.pro": {
-    "text": "Laat Homey-flows op deze tegel reageren en hem veranderen: aan en uit, een tekst, een kleur of een icoon, of verbergen. Hoort bij Pro.",
-    "source": "fbc77b76aa",
+    "text": "Laat Homey-Flows op deze tegel reageren en hem veranderen: aan en uit, een tekst, een kleur of een icoon, of verbergen. Hoort bij Pro.",
+    "source": "f9f3b9e971",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5507,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.itemStyling.backToTheme": {
+    "text": "{count, plural, one {Terug naar het thema} other {# tegels terug naar het thema}}",
+    "source": "7ff634e8d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.itemStyling.copied": {
     "text": "Stijl gekopieerd",
     "source": "8e2ace5735",
@@ -5054,6 +5528,12 @@
   "editor.itemStyling.pasted": {
     "text": "{count, plural, one {Stijl geplakt} other {Stijl geplakt op # tegels}}",
     "source": "29cbc7e331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.itemStyling.undo": {
+    "text": "Ongedaan maken",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -5737,13 +6217,13 @@
   },
   "editor.orderedPick.add": {
     "text": "{noun, select, device {Apparaat toevoegen} flow {Flow toevoegen} mood {Sfeer toevoegen} dashboard {Dashboard toevoegen} other {Toevoegen}}",
-    "source": "b1ca239861",
+    "source": "4fc0d9473f",
     "by": "ai",
     "reviewed": false
   },
   "editor.orderedPick.allPicked": {
     "text": "{noun, select, device {Alle passende apparaten zijn gekozen.} flow {Alle passende Flows zijn gekozen.} mood {Alle passende sferen zijn gekozen.} dashboard {Alle passende dashboards zijn gekozen.} other {Alles wat past is gekozen.}}",
-    "source": "f66bbbdfb3",
+    "source": "93c7638a0a",
     "by": "ai",
     "reviewed": false
   },
@@ -5767,7 +6247,7 @@
   },
   "editor.orderedPick.count": {
     "text": "{noun, select, device {{count, plural, one {# apparaat} other {# apparaten}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# sfeer} other {# sferen}}} dashboard {{count, plural, one {# dashboard} other {# dashboards}}} other {{count, plural, one {# item} other {# items}}}}",
-    "source": "5e3829408d",
+    "source": "b86db97edd",
     "by": "ai",
     "reviewed": false
   },
@@ -5797,7 +6277,7 @@
   },
   "editor.orderedPick.noneYet": {
     "text": "{noun, select, device {Nog geen apparaten gekozen.} flow {Nog geen Flows gekozen.} mood {Nog geen sferen gekozen.} dashboard {Nog geen dashboards gekozen.} other {Nog niets gekozen.}}",
-    "source": "f698d66a7f",
+    "source": "bad2185abb",
     "by": "ai",
     "reviewed": false
   },
@@ -5821,7 +6301,7 @@
   },
   "editor.orderedPick.searchPlaceholder": {
     "text": "{noun, select, device {Apparaten zoeken} flow {Flows zoeken} mood {Sferen zoeken} dashboard {Dashboards zoeken} other {Zoeken}}",
-    "source": "db7d6f142e",
+    "source": "d0e6e1798e",
     "by": "ai",
     "reviewed": false
   },
@@ -6331,7 +6811,7 @@
   },
   "editor.placeLocation.bothHint": {
     "text": "Een tekst met beide, zoals locatie-apps en Flows die schrijven: 52.37, 4.89",
-    "source": "88f671e292",
+    "source": "207b9a85f8",
     "by": "ai",
     "reviewed": false
   },
@@ -7853,6 +8333,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.cssFold": {
+    "text": "Eigen CSS (gevorderd)",
+    "source": "5d9b0fae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.cssFoldInside": {
+    "text": "je eigen CSS voor deze tegel, en de opmaakbare delen",
+    "source": "7de868d3db",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.frostedGlass": {
     "text": "Matglas",
     "source": "5c3d37b67a",
@@ -7904,6 +8396,18 @@
   "editor.stylePanel.none": {
     "text": "Geen",
     "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownTheme": {
+    "text": "Maak je eigen thema",
+    "source": "8901eb8e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownThemeLine": {
+    "text": "Wil je dat elke tegel eruitziet zoals jij wilt? Maak een eigen thema.",
+    "source": "1e983ce9af",
     "by": "ai",
     "reviewed": false
   },
@@ -8485,7 +8989,7 @@
   },
   "editor.tapActions.flow": {
     "text": "Een Flow starten",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -8585,6 +9089,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tapChoices.moreActions": {
+    "text": "Meer acties…",
+    "source": "443b19056a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapChoices.moreActionsHint": {
+    "text": "een camera, de geschiedenis, een Logic-variabele, Homey laten weten, een webverzoek",
+    "source": "dc138af286",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapChoices.noCamera": {
     "text": "Geen camera hier",
     "source": "1ade20a077",
@@ -8599,7 +9115,7 @@
   },
   "editor.tapChoices.noFlows": {
     "text": "Geen Flows om te starten",
-    "source": "1861ba90b1",
+    "source": "163236b57c",
     "by": "ai",
     "reviewed": false
   },
@@ -8617,7 +9133,7 @@
   },
   "editor.tapChoices.noMoods": {
     "text": "Geen sferen op deze Homey",
-    "source": "ca5c287885",
+    "source": "668389c8ff",
     "by": "ai",
     "reviewed": false
   },
@@ -8676,8 +9192,8 @@
     "reviewed": false
   },
   "editor.tapSettings.homeyHintText": {
-    "text": "Kies “Homey laten weten” en gebruik de tegel in een flow: als hij wordt ingedrukt, en flows kunnen hem schakelen, de tekst wijzigen of verbergen.",
-    "source": "d3ffa441b0",
+    "text": "Kies “Homey laten weten” en gebruik de tegel in een Flow: Als hij wordt ingedrukt. Flows kunnen hem schakelen, de tekst wijzigen of verbergen.",
+    "source": "fc698f1caa",
     "by": "ai",
     "reviewed": false
   },
@@ -8886,14 +9402,14 @@
     "reviewed": false
   },
   "editor.tileCssEditor.hooksTitle": {
-    "text": "Hooks",
-    "source": "d412a06262",
+    "text": "Opmaakbare delen",
+    "source": "1e8353c3b6",
     "by": "ai",
     "reviewed": false
   },
   "editor.tileCssEditor.intro": {
-    "text": "Raakt alleen de widget van {label}, na de CSS van het thema. Gebruik de variabelen van het thema (<code>--hd-*</code>) en de hooks hieronder.",
-    "source": "2030864a04",
+    "text": "Raakt alleen de widget van {label}, na de CSS van het thema. Gebruik de variabelen van het thema (<code>--hd-*</code>) en de opmaakbare delen hieronder.",
+    "source": "a37ed1c1b3",
     "by": "ai",
     "reviewed": false
   },
@@ -9186,8 +9702,8 @@
     "reviewed": false
   },
   "editor.tileShowing.homeyHid": {
-    "text": "Een Homey-flow heeft hem verborgen",
-    "source": "982fc67cf3",
+    "text": "Een Homey-Flow heeft hem verborgen",
+    "source": "91995afb32",
     "by": "ai",
     "reviewed": false
   },
@@ -10397,6 +10913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.customFold": {
+    "text": "Aangepast",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.customFoldInside": {
+    "text": "wanneer het in slaapstand gaat, wat het dan toont, dimmen",
+    "source": "25d5894fd2",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.dashboard": {
     "text": "Dashboard",
     "source": "67b6964686",
@@ -10499,6 +11027,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.idleDim": {
+    "text": "Dimmen na 10 minuten",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleOn": {
+    "text": "Aan laten",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleQuestion": {
+    "text": "Als niemand het gebruikt",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleSleep": {
+    "text": "Slapen, wakker bij meldingen",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Scherm aan laten",
     "source": "24c4f08d7d",
@@ -10517,6 +11069,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.kindEink": {
+    "text": "E-ink",
+    "source": "ec5b6e5d48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindOled": {
+    "text": "Altijd-aan-OLED",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindQuestion": {
+    "text": "Wat voor scherm is het?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindTablet": {
+    "text": "Een tablet",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.languageLead": {
     "text": "Woorden en formaten op dit wandpaneel. Het volgt je account, tenzij je andere kiest.",
     "source": "b82acc09da",
@@ -10530,8 +11106,8 @@
     "reviewed": false
   },
   "editor.wallPanel.linkLabel": {
-    "text": "Link voor een kioskbrowser",
-    "source": "43ab0a7f53",
+    "text": "Adres om op de tablet te openen",
+    "source": "6ace2ffa01",
     "by": "ai",
     "reviewed": false
   },
@@ -11593,7 +12169,7 @@
   },
   "editor.widgetPicker.fits": {
     "text": "{kind, select, device {{count, plural, one {# apparaat} other {# apparaten}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# sfeer} other {# sferen}}} other {{count, plural, one {# item} other {# items}}}}",
-    "source": "c284de0103",
+    "source": "88eb0060f2",
     "by": "ai",
     "reviewed": false
   },
@@ -11663,6 +12239,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.notFinding": {
+    "text": "Niet gevonden? Mensen delen widgets in de Community.",
+    "source": "aaf5d3d8b3",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.notWhatYouWant": {
     "text": "Niet wat je zoekt?",
     "source": "59325083ce",
@@ -11713,7 +12295,13 @@
   },
   "editor.widgetPicker.searchPlaceholder": {
     "text": "Zoek apparaten, Flows, sferen en widgets",
-    "source": "d28c4018be",
+    "source": "f9062c6d96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.seeCommunity": {
+    "text": "Bekijk wat zij maakten",
+    "source": "ee98c0d06c",
     "by": "ai",
     "reviewed": false
   },
@@ -11792,6 +12380,18 @@
   "editor.widgetSettings.blockingOnTab": {
     "text": "Kies {kind, select, one {een {noun}} many {{noun}} other {minstens {min, number} {noun}}}{more, plural, =0 {} other { en nog #}} op <tab>{tabName}</tab> om op te slaan.",
     "source": "71b77264e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyAction": {
+    "text": "Maak een kopie om te wijzigen",
+    "source": "ee00d4d24a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyLine": {
+    "text": "Deze widget komt uit de Community. Wil je veranderen hoe het eruitziet of werkt?",
+    "source": "cf289f980a",
     "by": "ai",
     "reviewed": false
   },

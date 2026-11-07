@@ -6,7 +6,7 @@
     "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
   },
   "account.accessRules.linkNoFlows": {
-    "en": "Start flows, open locks, set the alarm or open garage doors",
+    "en": "Start Flows, open locks, set the alarm or open garage doors",
     "context": "What a share link that can control still can’t do, since anyone with the link could. Flows are Homey’s automations.",
     "maxLength": 80,
     "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
@@ -39,7 +39,7 @@
     "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
   },
   "account.accessRules.screenControl": {
-    "en": "Everything the panel’s tiles do, flows and locks included",
+    "en": "Everything the panel’s tiles do, Flows and locks included",
     "context": "What a paired screen that can control can do.",
     "maxLength": 70,
     "file": "packages/ui/src/screens/sharing/accessRules.messages.ts"
@@ -349,7 +349,7 @@
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.deny0": {
-    "en": "Switch your devices or start flows (only you can let a preview’s taps through, for an hour)",
+    "en": "Switch your devices or start Flows (only you can let a preview’s taps through, for an hour)",
     "context": "What a connected assistant can’t do. Use the same words as login.consent.widgetsDeny0.",
     "maxLength": 110,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
@@ -400,6 +400,24 @@
     "en": "No assistant connected yet. Connect one below.",
     "context": "Shown when no AI assistant is connected.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.otherAddress": {
+    "en": "Any app that works with MCP connects with this address.",
+    "context": "Line inside the fold \"Other apps and technical details\", above the web address of Tiledash's MCP server. MCP is the name of the protocol AI apps use: keep it.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.otherFold": {
+    "en": "Other apps and technical details",
+    "context": "Title of a folded part of the \"Connect an assistant\" card in Settings › AI assistants. Opening it shows how to connect other apps (VS Code, Cursor, Claude Code) and the technical address they use.",
+    "maxLength": 45,
+    "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
+  },
+  "account.aiAssistants.otherFoldInside": {
+    "en": "VS Code, Cursor, Claude Code and the MCP address",
+    "context": "Small grey text next to the fold title \"Other apps and technical details\": what is inside it. Keep the product names and MCP (the name of the protocol).",
+    "maxLength": 70,
     "file": "packages/ui/src/screens/account/AiAssistantsSection.messages.ts"
   },
   "account.aiAssistants.previewModel": {
@@ -641,7 +659,7 @@
     "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
   },
   "account.alertRules.offerFlow": {
-    "en": "Offer a flow",
+    "en": "Offer a Flow",
     "context": "Label of the choice of a flow (a Homey automation) to offer as a button on danger alerts.",
     "maxLength": 30,
     "file": "packages/ui/src/alerts/HdAlertRules.messages.ts"
@@ -1488,7 +1506,7 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.syncingDetail": {
-    "en": "Tiledash is reading {homey}’s devices, flows and moods, so it can match the tiles to them. This takes a minute.",
+    "en": "Tiledash is reading {homey}’s devices, Flows and Moods, so it can match the tiles to them. This takes a minute.",
     "context": "Line under \"Still reading …\". Flows and moods are Homey’s automations and scenes.",
     "params": {
       "homey": "The Homey’s name. Not translated."
@@ -1704,7 +1722,7 @@
     "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
   },
   "account.delete.lead": {
-    "en": "This removes everything you made in Tiledash. Your Homey itself isn’t touched: its devices, flows and Insights stay as they are.",
+    "en": "This removes everything you made in Tiledash. Your Homey itself isn’t touched: its devices, Flows and Insights stay as they are.",
     "context": "Text at the top of the delete dialog. Insights is Homey’s own history; keep the name.",
     "maxLength": 160,
     "file": "packages/ui/src/screens/account/DeleteAccountDialog.messages.ts"
@@ -1973,7 +1991,7 @@
     "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
   },
   "account.homeyApp.hidden": {
-    "en": "Hidden by a flow",
+    "en": "Hidden by a Flow",
     "context": "Grey note beside a Homey tile: a flow hid it, so the tiles that tell it are hidden.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
@@ -2003,7 +2021,7 @@
     "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
   },
   "account.homeyApp.renameNote": {
-    "en": "Renaming changes the name in Homey too; flows keep working.",
+    "en": "Renaming changes the name in Homey too; Flows keep working.",
     "context": "Small note under the list of Homey tiles.",
     "maxLength": 90,
     "file": "packages/ui/src/screens/homeyApp/HomeyAppSection.messages.ts"
@@ -2048,7 +2066,7 @@
     "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
   },
   "account.homeyAppHost.disconnectText": {
-    "en": "Tiles stop telling Homey, and flows can’t change them, until you connect it again.",
+    "en": "Tiles stop telling Homey, and Flows can’t change them, until you connect it again.",
     "context": "Text of the question before disconnecting the Tiledash app on the Homey.",
     "maxLength": 120,
     "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
@@ -2075,7 +2093,7 @@
     "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
   },
   "account.homeyAppHost.removeText": {
-    "en": "Tiles set to tell it do nothing when pressed, and flows that start from it won’t run any more.",
+    "en": "Tiles set to tell it do nothing when pressed, and Flows that start from it won’t run any more.",
     "context": "Text of the question before removing a Homey tile: the tiles whose tap tells this Homey tile no longer do anything, and the flows triggered by it stop running.",
     "maxLength": 100,
     "file": "apps/web/src/account/HomeyAppGroupHost.messages.ts"
@@ -2964,6 +2982,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
   },
+  "account.mapTiles.lead": {
+    "en": "Maps on your dashboards use OpenFreeMap: free, without a key, nothing to set up.",
+    "context": "Line at the top of the Maps settings card. OpenFreeMap is the free map service used unless the person picks another; keep the name.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
   "account.mapTiles.optional": {
     "en": "Optional.",
     "context": "Small grey text under the Dark style URL field: it can be left empty.",
@@ -2977,6 +3001,18 @@
       "origins": "The allowed web addresses as a list in the page’s language, such as \"https://a.example, https://b.example\". The addresses are not translated."
     },
     "maxLength": 140,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.otherFold": {
+    "en": "Use another map provider",
+    "context": "Title of a folded part of the Maps settings card. Opening it shows the choice of map provider (MapTiler, Stadia Maps or an own server) and their keys or addresses.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
+  },
+  "account.mapTiles.otherFoldInside": {
+    "en": "MapTiler or Stadia Maps with your own key, or your own server",
+    "context": "Small grey text next to the fold title \"Use another map provider\": what is inside it. Keep the names MapTiler and Stadia Maps.",
+    "maxLength": 80,
     "file": "packages/ui/src/dashboard/HdMapTilesSettings.messages.ts"
   },
   "account.mapTiles.privacyText": {
@@ -4256,7 +4292,7 @@
     "file": "packages/ui/src/screens/members/PeopleSection.messages.ts"
   },
   "account.people.summaryFlows": {
-    "en": "{count, plural, =0 {No flows to start} one {# flow to start} other {# flows to start}}",
+    "en": "{count, plural, =0 {No Flows to start} one {# Flow to start} other {# Flows to start}}",
     "context": "Line in the summary: how many flows the person may start.",
     "params": {
       "count": "How many flows."
@@ -5439,7 +5475,7 @@
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
   "account.plans.rowHomeyApp": {
-    "en": "Tiles in Homey flows",
+    "en": "Tiles in Homey Flows",
     "context": "Row of the plans table: whether tiles can tell Homey they were pressed and Homey flows can change them, through the Tiledash app on Homey (yes or a dash). \"Homey\" is the smart home hub, a name; a flow is an automation in it.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
@@ -5797,6 +5833,213 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/account/ProfileSection.messages.ts"
   },
+  "account.putOnTablet.connect": {
+    "en": "Connect",
+    "context": "Button after typing the code: checks the code with the tablet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.description": {
+    "en": "About a minute. Have the tablet at hand.",
+    "context": "Text under the title of the dialog that puts dashboards on a tablet.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog on the last step.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.doneText": {
+    "en": "Swipe on it to move between the dashboards. Change anything later in Settings › Links and screens, or in the wall panel’s settings.",
+    "context": "Text of the last step: how to use the tablet, and where to change it later. Links and screens is a group of Settings.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.doneTitle": {
+    "en": "The tablet shows {dashboard}",
+    "context": "Title of the last step, once the tablet is paired and shows the first dashboard.",
+    "params": {
+      "dashboard": "The name of the first dashboard, such as \"Living room\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.getPro": {
+    "en": "Get Pro",
+    "context": "Button in the note about no room for another screen: opens the plans.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.idleDim": {
+    "en": "Dim after 10 minutes",
+    "context": "Choice: after ten minutes without a touch the screen dims.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.idleOn": {
+    "en": "Stay on",
+    "context": "Choice: the screen stays on.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.idleSleep": {
+    "en": "Sleep, wake for alerts",
+    "context": "Choice: after ten minutes without a touch the screen goes to sleep, and wakes when an alert comes (smoke, a door).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.itCan": {
+    "en": "It can",
+    "context": "Label above the choice of what the tablet may do: only show, or also switch devices.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.name": {
+    "en": "Name",
+    "context": "Label of the field for the tablet’s name, such as \"Living room tablet\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.namePlaceholder": {
+    "en": "{dashboard} tablet",
+    "context": "The name suggested for the tablet, from its first dashboard, such as \"Living room tablet\".",
+    "params": {
+      "dashboard": "The name of the first dashboard picked, such as \"Living room\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.noRoom": {
+    "en": "Your plan has room for one screen, and it’s in use",
+    "context": "Title of a note on the first step when the plan (Free) already has its one paired screen. Pro has room for more.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.noRoomText": {
+    "en": "Unpair the other one in Settings › Links and screens, or get Pro for more screens.",
+    "context": "Text of the note about no room for another screen.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.onTablet": {
+    "en": "On the tablet",
+    "context": "Caption under a small picture of a tablet showing an address and a code.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.openAddress": {
+    "en": "On the tablet, open {address} in the browser, or scan this:",
+    "context": "First instruction: the person opens the address on the tablet (or scans the QR code next to it); the tablet then shows a code.",
+    "params": {
+      "address": "The short address to open on the tablet, such as \"tiledash.app/pair\"."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.putOn": {
+    "en": "Put it on the tablet",
+    "context": "Button on the last question: pairs the tablet and makes its wall panel.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenEink": {
+    "en": "An e-ink screen",
+    "context": "Choice: an e-ink (electronic paper) screen.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenEinkHint": {
+    "en": "Calm black and white, refreshed now and then.",
+    "context": "Grey line under the \"An e-ink screen\" choice.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenOled": {
+    "en": "Always-on OLED",
+    "context": "Choice: an OLED screen that stays on, which can burn in.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenOledHint": {
+    "en": "Dims and moves a little when idle, so nothing burns in.",
+    "context": "Grey line under the \"Always-on OLED\" choice.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenTablet": {
+    "en": "A tablet",
+    "context": "Choice: an ordinary tablet (Android, iPad, Fire).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.screenTabletHint": {
+    "en": "Most wall tablets: Android, iPad, Fire.",
+    "context": "Grey line under the \"A tablet\" choice.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.stepDashboards": {
+    "en": "Dashboards",
+    "context": "Second step in the row of steps: which dashboards the tablet shows.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.stepDone": {
+    "en": "Done",
+    "context": "Last step in the row of steps: the tablet shows the dashboards.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.stepScreen": {
+    "en": "Screen",
+    "context": "Third step in the row of steps: what kind of screen the tablet is.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.stepTablet": {
+    "en": "The tablet",
+    "context": "First step in the row of steps: getting the code from the tablet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.tabletHint": {
+    "en": "Type this code on your phone or computer",
+    "context": "Small text under the code in the picture of what the tablet shows.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.title": {
+    "en": "Put it on a tablet",
+    "context": "Title of the dialog that puts dashboards on a tablet on the wall, in a few steps.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.typeCode": {
+    "en": "Type the code it shows:",
+    "context": "Second instruction, above the field for the code the tablet shows.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.whatScreen": {
+    "en": "What kind of screen is it?",
+    "context": "Question above three choices for the kind of screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.whenIdle": {
+    "en": "When nobody uses it",
+    "context": "Question above three choices for what the tablet does when nobody touches it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
+  "account.putOnTablet.whichDashboards": {
+    "en": "Which dashboards should it show? Swipe on the tablet to move between them.",
+    "context": "Question above the list of dashboards to tick for the tablet.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/pairing/PutOnTabletDialog.messages.ts"
+  },
   "account.recordings.elsewhere": {
     "en": "{here, select, yes {{count, plural, one {And # recording on your other Homeys.} other {And # recordings on your other Homeys.}}} other {{count, plural, one {# recording on your other Homeys.} other {# recordings on your other Homeys.}}}}",
     "context": "Line at the bottom of the Recordings tab: recordings on the person’s other Homeys, which count towards the same limit. Starts with \"And\" when this Homey has recordings too.",
@@ -6092,7 +6335,7 @@
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.homeyAppAbout": {
-    "en": "Let flows on {homey} react when a tile is pressed, and change tiles.",
+    "en": "Let Flows on {homey} react when a tile is pressed, and change tiles.",
     "context": "Line under the heading of the Homey app settings group. {homey} is the name of the Homey shown now.",
     "params": {
       "homey": "The name the owner gave their Homey, like \"Pastorie\". Not translated."
@@ -6810,7 +7053,7 @@
     "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
   },
   "account.sharingParts.controlLink": {
-    "en": "Lights, sockets and the thermostat. No flows or locks.",
+    "en": "Lights, sockets and the thermostat. No Flows or locks.",
     "context": "Line under \"Can control\" for a share link. Flows are Homey’s automations.",
     "maxLength": 70,
     "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"

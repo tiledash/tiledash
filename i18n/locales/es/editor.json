@@ -337,7 +337,7 @@
   },
   "editor.busyEditor.hintVariable": {
     "text": "Sigue una variable, así que puede abrir un dashboard o iniciar un Flow.",
-    "source": "2d9ec1adb0",
+    "source": "ba000466a9",
     "by": "ai",
     "reviewed": false
   },
@@ -643,7 +643,7 @@
   },
   "editor.buttonsEditor.search": {
     "text": "Buscar dispositivos, Flows, ambientes y dashboards",
-    "source": "0225403aa8",
+    "source": "c2ba1456d4",
     "by": "ai",
     "reviewed": false
   },
@@ -1278,8 +1278,440 @@
     "reviewed": false
   },
   "editor.cssHooks.listLabel": {
-    "text": "Hooks a los que dar estilo",
-    "source": "64084c77c0",
+    "text": "Partes a las que dar estilo",
+    "source": "1e8353c3b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKind": {
+    "text": "Por tipo",
+    "source": "a6686d8c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKindHint": {
+    "text": "Luces juntas, calefacción junta… ideal para un dashboard de energía o seguridad.",
+    "source": "a90f3d5297",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoom": {
+    "text": "Por habitación",
+    "source": "ff12e899b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoomHint": {
+    "text": "Un encabezado por habitación, como la pestaña Dispositivos de la app Homey.",
+    "source": "372b773c5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.clear": {
+    "text": "Quitar todo",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.createMany": {
+    "text": "Crear {count} dashboards",
+    "source": "824bd61718",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.dashboardCount": {
+    "text": "{count} dashboards",
+    "source": "897483ea28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.defaultName": {
+    "text": "Casa",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionLook": {
+    "text": "Elige cómo se organiza. La vista previa muestra cada cambio.",
+    "source": "1786f87469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionWhat": {
+    "text": "Elige las habitaciones y qué incluir. Ya marcamos lo que la mayoría enciende o ajusta.",
+    "source": "3beb209921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.groupingQuestion": {
+    "text": "¿Cómo lo agrupamos?",
+    "source": "fe51922bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintAppliance": {
+    "text": "Ve cuándo ha terminado la colada",
+    "source": "51bb8dd77e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintClimate": {
+    "text": "Termostatos y radiadores",
+    "source": "f10f7d5649",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintCover": {
+    "text": "Abrir y cerrar",
+    "source": "aedfc22cd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintFlow": {
+    "text": "Los Flows que marcaste con estrella en Homey",
+    "source": "0659423bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLight": {
+    "text": "Encender, apagar y regular",
+    "source": "d611fe22d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLock": {
+    "text": "Bloquear y desbloquear",
+    "source": "65fc0962c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintMood": {
+    "text": "Crea el ambiente de una habitación",
+    "source": "40941e3a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintPlug": {
+    "text": "Solo vale la pena accionar algunos",
+    "source": "0ded74be89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintSensor": {
+    "text": "Ya se cuentan en los resúmenes",
+    "source": "f10478a997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindAppliance": {
+    "text": "Electrodomésticos",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindClimate": {
+    "text": "Calefacción",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindCover": {
+    "text": "Persianas y cortinas",
+    "source": "fa0f52e672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlow": {
+    "text": "Flows favoritos",
+    "source": "9580ae16bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlows": {
+    "text": "{count, plural, one {# Flow} other {# Flows}}",
+    "source": "eb7d2c30c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindInRooms": {
+    "text": "{count} en {rooms, plural, one {# habitación} other {# habitaciones}}",
+    "source": "15599dcf68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLeftOut": {
+    "text": "{count} quitados",
+    "source": "9e6680820e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLight": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLock": {
+    "text": "Cerraduras",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindMood": {
+    "text": "Ambientes",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindPlug": {
+    "text": "Enchufes",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindSensor": {
+    "text": "Sensores y contadores",
+    "source": "7abc3244ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsLater": {
+    "text": "¿Quieres quitar una sola lámpara o un ambiente? Toca la × de su mosaico en la vista previa, en el siguiente paso.",
+    "source": "5d37f1b64e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsQuestion": {
+    "text": "¿Qué debe incluir?",
+    "source": "793e353550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsWaiting": {
+    "text": "Elige habitaciones arriba",
+    "source": "2e5d12badb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.leftOut": {
+    "text": "Se quitó {name}.",
+    "source": "73786a55bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEach": {
+    "text": "Un mosaico por luz",
+    "source": "8975f113db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEachHint": {
+    "text": "Cada luz en su propio mosaico, con su intensidad.",
+    "source": "c102f63d3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroup": {
+    "text": "Un mosaico por habitación",
+    "source": "0c21489409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroupHint": {
+    "text": "Las luces de una habitación como botones en un mosaico. Con una sola luz, va en su propio mosaico.",
+    "source": "ce989c1317",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsQuestion": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.moreStarts": {
+    "text": "Más dashboards listos para usar",
+    "source": "49cca15115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadings": {
+    "text": "Sin encabezados",
+    "source": "07e2ccb090",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadingsHint": {
+    "text": "Un bloque tranquilo de mosaicos, para un dashboard pequeño.",
+    "source": "e1ed9a1dd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.otherPlaces": {
+    "text": "Exterior y otros",
+    "source": "36f446fef0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.pickARoom": {
+    "text": "Elige al menos una habitación",
+    "source": "c5596e6c41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeHint": {
+    "text": "Toca la × de un mosaico para quitarlo.",
+    "source": "83639f41f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeTile": {
+    "text": "Quitar {name}",
+    "source": "ac7244ce5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomLights": {
+    "text": "Luces de {room}",
+    "source": "577eab5103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomMoods": {
+    "text": "Ambientes de {room}",
+    "source": "6ba03fb1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomTabs": {
+    "text": "Los dashboards que se crean",
+    "source": "f3d2cdf295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsCount": {
+    "text": "{picked} de {total}",
+    "source": "3bf0ea9cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsQuestion": {
+    "text": "¿Qué habitaciones?",
+    "source": "51ee07ef86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEach": {
+    "text": "Un mosaico para cada uno",
+    "source": "7a704d626d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEachHint": {
+    "text": "Botones grandes con su propio icono. Mejor cuando hay pocos.",
+    "source": "e262924191",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroup": {
+    "text": "Un mosaico por habitación",
+    "source": "48d1ae5968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroupHint": {
+    "text": "Como los widgets de ambientes y Flows de la app Homey: un mosaico, un botón para cada uno.",
+    "source": "8c05e6d063",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesQuestion": {
+    "text": "Ambientes y Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.selectAll": {
+    "text": "Marcar todo",
+    "source": "1fc9a38765",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitHint": {
+    "text": "{count} dashboards, uno por habitación. Toca una habitación sobre la vista previa para verla.",
+    "source": "7c4e9bc291",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitLabel": {
+    "text": "Un dashboard por habitación, con botones para pasar de uno a otro",
+    "source": "2359e3ad5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startDescription": {
+    "text": "Elige las habitaciones y qué incluir de ellas. Te sugerimos una disposición ordenada; tú decides.",
+    "source": "bd1e4140f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startName": {
+    "text": "Dashboard a medida",
+    "source": "b9730bdae3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepLook": {
+    "text": "Aspecto",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepWhat": {
+    "text": "Qué incluye",
+    "source": "d7c256a3fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesKinds": {
+    "text": "En cada encabezado",
+    "source": "9cf2011a09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesQuestion": {
+    "text": "Resúmenes",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesRooms": {
+    "text": "Por habitación, en su encabezado",
+    "source": "7e554ff4b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesTop": {
+    "text": "Arriba: luces encendidas, temperatura, qué está abierto",
+    "source": "977e86b909",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooMany": {
+    "text": "Es mucho para una sola pantalla",
+    "source": "6b17a34754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooManyText": {
+    "text": "{count} mosaicos; caben cómodamente unos {comfortable}. Elige menos habitaciones o desactiva algunos tipos.",
+    "source": "32bc7bf048",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.undo": {
+    "text": "Deshacer",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -1679,27 +2111,27 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteBody": {
-    "text": "Sus mosaicos se eliminan con él. Tus dispositivos y Flows no se tocan.",
-    "source": "494c9e1587",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.deleteConfirm": {
-    "text": "Eliminar dashboard",
-    "source": "b310f98bcb",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardPage.deleteFailed": {
     "text": "No se pudo eliminar el dashboard.",
     "source": "65fc71d2d3",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteTitle": {
-    "text": "¿Eliminar «{name}»?",
-    "source": "8e13216a05",
+  "editor.dashboardPage.deleteTooLate": {
+    "text": "Ya se había eliminado.",
+    "source": "c314a99764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deleted": {
+    "text": "«{name}» eliminado",
+    "source": "33ba563e37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deletedHint": {
+    "text": "Sus mosaicos se fueron con él. Tus dispositivos y Flows no se tocan.",
+    "source": "0d032ec900",
     "by": "ai",
     "reviewed": false
   },
@@ -1736,24 +2168,6 @@
   "editor.dashboardPage.removed": {
     "text": "{inside, plural, =0 {{count, plural, one {Se quitó el mosaico} other {Se quitaron {count, number} mosaicos}}} one {{count, plural, one {Se quitó el mosaico y el mosaico que contenía} other {Se quitaron {count, number} mosaicos y el mosaico que contenían}}} other {{count, plural, one {Se quitó el mosaico y los {inside, number} mosaicos que contenía} other {Se quitaron {count, number} mosaicos y los {inside, number} mosaicos que contenían}}}}",
     "source": "f1df89ad02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startFailed": {
-    "text": "No se pudo cambiar la página de inicio.",
-    "source": "538f3216a9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOff": {
-    "text": "La app vuelve a abrirse en «{page}»",
-    "source": "1f16ab4b12",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOn": {
-    "text": "{name} se abre al iniciar la app",
-    "source": "fc70c6088c",
     "by": "ai",
     "reviewed": false
   },
@@ -1859,15 +2273,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTiles": {
-    "text": "Entre mosaicos",
-    "source": "c778f00ef3",
+  "editor.dashboardSettings.backToTheme": {
+    "text": "Volver al del tema",
+    "source": "bd4cae52f6",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTilesChoice": {
+  "editor.dashboardSettings.betweenTiles": {
     "text": "Espacio entre mosaicos",
-    "source": "555cff61ac",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1889,9 +2303,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.change": {
+    "text": "Cambiar…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.description": {
     "text": "Cómo se organiza este dashboard. La vista previa y el dashboard de detrás reflejan cada cambio.",
     "source": "dd04b7e6e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTune": {
+    "text": "Ajuste fino",
+    "source": "f86315eb2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTuneInside": {
+    "text": "píxeles, el borde alrededor del dashboard, mosaicos unidos en una sola forma",
+    "source": "7d5bbf9c60",
     "by": "ai",
     "reviewed": false
   },
@@ -1907,51 +2339,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.followsTheme": {
+    "text": "Sigue tu tema: {gap} px.",
+    "source": "12d26b7ff8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.freePlacement": {
-    "text": "Colocación libre",
-    "source": "95d0f56005",
+    "text": "Mantener mosaicos en su sitio",
+    "source": "76e8ac3f45",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.freePlacementHint": {
-    "text": "Los mosaicos se quedan donde los pones, en vez de subir arriba del todo.",
-    "source": "167f2c8db6",
+    "text": "Se permiten huecos. Si no, los mosaicos suben para llenarlos.",
+    "source": "87cc00fd32",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNone": {
-    "text": "Ninguno",
-    "source": "dc937b5989",
+  "editor.dashboardSettings.iconChange": {
+    "text": "Cambiar el icono",
+    "source": "0c92e8e129",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNormal": {
-    "text": "Normal",
-    "source": "a7248eeb45",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapRoomy": {
-    "text": "Amplio",
-    "source": "beb8418353",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTheme": {
-    "text": "Tema · {gap}",
-    "source": "68a5d01520",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTight": {
-    "text": "Estrecho",
-    "source": "ce0cc8415d",
+  "editor.dashboardSettings.leadGeneral": {
+    "text": "El nombre y el icono del dashboard, y los resúmenes junto a su nombre.",
+    "source": "e1bdcfdfa9",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.leadLayout": {
-    "text": "Cómo llenan los mosaicos la pantalla, dónde pueden ir y el título.",
-    "source": "8bac93e326",
+    "text": "Cómo se colocan los mosaicos: el espacio entre ellos y cómo llenan la pantalla.",
+    "source": "66865442a4",
     "by": "ai",
     "reviewed": false
   },
@@ -1964,12 +2384,6 @@
   "editor.dashboardSettings.leadPopups": {
     "text": "Lo que se abre solo sobre el dashboard cuando pasa algo.",
     "source": "7195ca2376",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.leadSpacing": {
-    "text": "El espacio entre los mosaicos y a su alrededor.",
-    "source": "59d1dd31b0",
     "by": "ai",
     "reviewed": false
   },
@@ -1997,6 +2411,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.nameAndIcon": {
+    "text": "Nombre e icono",
+    "source": "0af13e2f0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameLabel": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameMissing": {
+    "text": "Ponle un nombre.",
+    "source": "9d63f7c904",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.oneShape": {
     "text": "Los mosaicos que se tocan forman una sola forma",
     "source": "ea3d87c71b",
@@ -2012,6 +2444,12 @@
   "editor.dashboardSettings.oneShapeSpaced": {
     "text": "Los mosaicos contiguos tienen esquinas rectas donde se juntan; las esquinas exteriores del grupo siguen redondeadas.",
     "source": "d5c5e9f216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.ownSpacing": {
+    "text": "Uno propio para este dashboard.",
+    "source": "ef13d8ca48",
     "by": "ai",
     "reviewed": false
   },
@@ -2045,6 +2483,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.spacing": {
+    "text": "{choice, select, none {Juntos} tight {Ajustado} normal {Cómodo} other {Amplio}}",
+    "source": "8388e3b38b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.spacingLine": {
+    "text": "{choice, select, none {Un solo bloque} tight {Más en pantalla} normal {Fáciles de distinguir} other {Tranquilo y aireado}}",
+    "source": "3ecdd09ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summaries": {
+    "text": "Resúmenes",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summariesCount": {
+    "text": "{count, plural, =0 {Aún ninguno: añade «3 luces encendidas» o la temperatura junto al nombre.} one {# junto al nombre: pequeñas cifras en vivo} other {# junto al nombre: pequeñas cifras en vivo}}",
+    "source": "0514d71a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.tabGeneral": {
+    "text": "General",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.tabLayout": {
     "text": "Diseño",
     "source": "a511909161",
@@ -2063,12 +2531,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.tabSpacing": {
-    "text": "Espaciado",
-    "source": "62a822a583",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardSettings.themeChange": {
     "text": "Cambiar…",
     "source": "a6b4705c68",
@@ -2078,6 +2540,12 @@
   "editor.dashboardSettings.themeHint": {
     "text": "Colores, tipografía y esquinas.",
     "source": "7b5ff1e5df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.themeMark": {
+    "text": "Tema",
+    "source": "efb52e7172",
     "by": "ai",
     "reviewed": false
   },
@@ -3145,7 +3613,7 @@
   },
   "editor.headingSettings.tapFlow": {
     "text": "Iniciar un Flow",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -3313,7 +3781,7 @@
   },
   "editor.homeyTileTap.follows": {
     "text": "Este mosaico lo sigue: los Flows pueden encenderlo y apagarlo, darle un texto o número, un color o un icono, u ocultarlo.",
-    "source": "a21d89c64c",
+    "source": "36af3951ec",
     "by": "ai",
     "reviewed": false
   },
@@ -3337,13 +3805,13 @@
   },
   "editor.homeyTileTap.inAFlow": {
     "text": "En un Flow: Cuando se pulsa {name}.",
-    "source": "92695dcecf",
+    "source": "e2d8ded327",
     "by": "ai",
     "reviewed": false
   },
   "editor.homeyTileTap.nameHint": {
     "text": "Corto y claro, como lo dirías en un Flow: «Noche de cine».",
-    "source": "a99f461756",
+    "source": "9a5ddc8fd6",
     "by": "ai",
     "reviewed": false
   },
@@ -3379,7 +3847,7 @@
   },
   "editor.homeyTileTap.pro": {
     "text": "Deja que los Flows de Homey reaccionen a este mosaico y lo cambien: encenderlo y apagarlo, darle un texto, un color o un icono, u ocultarlo. Viene con Pro.",
-    "source": "fbc77b76aa",
+    "source": "f9f3b9e971",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5507,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.itemStyling.backToTheme": {
+    "text": "{count, plural, one {Vuelve al tema} other {# mosaicos vuelven al tema}}",
+    "source": "7ff634e8d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.itemStyling.copied": {
     "text": "Estilo copiado",
     "source": "8e2ace5735",
@@ -5054,6 +5528,12 @@
   "editor.itemStyling.pasted": {
     "text": "{count, plural, one {Estilo pegado} other {Estilo pegado en # mosaicos}}",
     "source": "29cbc7e331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.itemStyling.undo": {
+    "text": "Deshacer",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -5737,13 +6217,13 @@
   },
   "editor.orderedPick.add": {
     "text": "Añadir {noun, select, device {un dispositivo} flow {un Flow} mood {un ambiente} dashboard {un dashboard} other {uno}}",
-    "source": "b1ca239861",
+    "source": "4fc0d9473f",
     "by": "ai",
     "reviewed": false
   },
   "editor.orderedPick.allPicked": {
     "text": "Ya están elegidos todos los {noun, select, device {dispositivos} flow {Flows} mood {ambientes} dashboard {dashboards} other {elementos}} compatibles.",
-    "source": "f66bbbdfb3",
+    "source": "93c7638a0a",
     "by": "ai",
     "reviewed": false
   },
@@ -5767,7 +6247,7 @@
   },
   "editor.orderedPick.count": {
     "text": "{noun, select, device {{count, plural, one {# dispositivo} other {# dispositivos}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# ambiente} other {# ambientes}}} dashboard {{count, plural, one {# dashboard} other {# dashboards}}} other {{count, plural, one {# elemento} other {# elementos}}}}",
-    "source": "5e3829408d",
+    "source": "b86db97edd",
     "by": "ai",
     "reviewed": false
   },
@@ -5797,7 +6277,7 @@
   },
   "editor.orderedPick.noneYet": {
     "text": "{noun, select, device {Aún no hay dispositivos elegidos.} flow {Aún no hay Flows elegidos.} mood {Aún no hay ambientes elegidos.} dashboard {Aún no hay dashboards elegidos.} other {Aún no hay nada elegido.}}",
-    "source": "f698d66a7f",
+    "source": "bad2185abb",
     "by": "ai",
     "reviewed": false
   },
@@ -5821,7 +6301,7 @@
   },
   "editor.orderedPick.searchPlaceholder": {
     "text": "Buscar {noun, select, device {dispositivos} flow {Flows} mood {ambientes} dashboard {dashboards} other {elementos}}",
-    "source": "db7d6f142e",
+    "source": "d0e6e1798e",
     "by": "ai",
     "reviewed": false
   },
@@ -6331,7 +6811,7 @@
   },
   "editor.placeLocation.bothHint": {
     "text": "Un texto con las dos, como lo escriben las apps de ubicación y los Flows: 52.37, 4.89",
-    "source": "88f671e292",
+    "source": "207b9a85f8",
     "by": "ai",
     "reviewed": false
   },
@@ -7853,6 +8333,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.cssFold": {
+    "text": "CSS propio (avanzado)",
+    "source": "5d9b0fae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.cssFoldInside": {
+    "text": "tu propio CSS para este mosaico y las partes a las que dar estilo",
+    "source": "7de868d3db",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.frostedGlass": {
     "text": "Vidrio esmerilado",
     "source": "5c3d37b67a",
@@ -7904,6 +8396,18 @@
   "editor.stylePanel.none": {
     "text": "Ninguno",
     "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownTheme": {
+    "text": "Crear tu propio tema",
+    "source": "8901eb8e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownThemeLine": {
+    "text": "¿Quieres que todos los mosaicos se vean a tu gusto? Crea un tema propio.",
+    "source": "1e983ce9af",
     "by": "ai",
     "reviewed": false
   },
@@ -8485,7 +8989,7 @@
   },
   "editor.tapActions.flow": {
     "text": "Iniciar un Flow",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -8585,6 +9089,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tapChoices.moreActions": {
+    "text": "Más acciones…",
+    "source": "443b19056a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapChoices.moreActionsHint": {
+    "text": "una cámara, su historial, una variable de Logic, Avisar a Homey, una solicitud web",
+    "source": "dc138af286",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapChoices.noCamera": {
     "text": "No hay cámara aquí",
     "source": "1ade20a077",
@@ -8599,7 +9115,7 @@
   },
   "editor.tapChoices.noFlows": {
     "text": "No hay Flows que iniciar",
-    "source": "1861ba90b1",
+    "source": "163236b57c",
     "by": "ai",
     "reviewed": false
   },
@@ -8617,7 +9133,7 @@
   },
   "editor.tapChoices.noMoods": {
     "text": "No hay ambientes en este Homey",
-    "source": "ca5c287885",
+    "source": "668389c8ff",
     "by": "ai",
     "reviewed": false
   },
@@ -8677,7 +9193,7 @@
   },
   "editor.tapSettings.homeyHintText": {
     "text": "Elige «Avisar a Homey» y usa el mosaico en un Flow: «Cuando se pulsa». Los Flows también pueden accionarlo, cambiar su texto u ocultarlo.",
-    "source": "d3ffa441b0",
+    "source": "fc698f1caa",
     "by": "ai",
     "reviewed": false
   },
@@ -8886,14 +9402,14 @@
     "reviewed": false
   },
   "editor.tileCssEditor.hooksTitle": {
-    "text": "Hooks",
-    "source": "d412a06262",
+    "text": "Partes estilizables",
+    "source": "1e8353c3b6",
     "by": "ai",
     "reviewed": false
   },
   "editor.tileCssEditor.intro": {
-    "text": "Solo afecta al widget de {label}, después del CSS del tema. Usa las variables del tema (<code>--hd-*</code>) y los hooks de abajo.",
-    "source": "2030864a04",
+    "text": "Solo afecta al widget de {label}, después del CSS del tema. Usa las variables del tema (<code>--hd-*</code>) y las partes de abajo.",
+    "source": "a37ed1c1b3",
     "by": "ai",
     "reviewed": false
   },
@@ -9187,7 +9703,7 @@
   },
   "editor.tileShowing.homeyHid": {
     "text": "Un Flow de Homey lo ocultó",
-    "source": "982fc67cf3",
+    "source": "91995afb32",
     "by": "ai",
     "reviewed": false
   },
@@ -10397,6 +10913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.customFold": {
+    "text": "Personalizado",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.customFoldInside": {
+    "text": "cuándo entra en reposo, qué muestra entonces, atenuación",
+    "source": "25d5894fd2",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.dashboard": {
     "text": "Dashboard",
     "source": "67b6964686",
@@ -10499,6 +11027,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.idleDim": {
+    "text": "Atenuar tras 10 minutos",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleOn": {
+    "text": "Seguir encendido",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleQuestion": {
+    "text": "Cuando nadie lo usa",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleSleep": {
+    "text": "Reposo, activar con alertas",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Mantener la pantalla encendida",
     "source": "24c4f08d7d",
@@ -10517,6 +11069,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.kindEink": {
+    "text": "E-ink",
+    "source": "ec5b6e5d48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindOled": {
+    "text": "OLED siempre encendida",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindQuestion": {
+    "text": "¿Qué tipo de pantalla es?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindTablet": {
+    "text": "Una tableta",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.languageLead": {
     "text": "Textos y formatos de este panel. Sigue los de tu cuenta, salvo que elijas otros.",
     "source": "b82acc09da",
@@ -10530,8 +11106,8 @@
     "reviewed": false
   },
   "editor.wallPanel.linkLabel": {
-    "text": "Enlace para navegador en modo quiosco",
-    "source": "43ab0a7f53",
+    "text": "Dirección para abrir en la tableta",
+    "source": "6ace2ffa01",
     "by": "ai",
     "reviewed": false
   },
@@ -11593,7 +12169,7 @@
   },
   "editor.widgetPicker.fits": {
     "text": "{kind, select, device {{count, plural, one {# dispositivo} other {# dispositivos}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# ambiente} other {# ambientes}}} other {{count, plural, one {# elemento} other {# elementos}}}}",
-    "source": "c284de0103",
+    "source": "88eb0060f2",
     "by": "ai",
     "reviewed": false
   },
@@ -11663,6 +12239,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.notFinding": {
+    "text": "¿No lo encuentras? La gente comparte widgets en la Comunidad.",
+    "source": "aaf5d3d8b3",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.notWhatYouWant": {
     "text": "¿No es lo que buscas?",
     "source": "59325083ce",
@@ -11713,7 +12295,13 @@
   },
   "editor.widgetPicker.searchPlaceholder": {
     "text": "Buscar dispositivos, Flows, ambientes y widgets",
-    "source": "d28c4018be",
+    "source": "f9062c6d96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.seeCommunity": {
+    "text": "Ver lo que han creado",
+    "source": "ee98c0d06c",
     "by": "ai",
     "reviewed": false
   },
@@ -11792,6 +12380,18 @@
   "editor.widgetSettings.blockingOnTab": {
     "text": "Para guardar, elige {kind, select, one {{noun}} many {{noun}} other {al menos {min, number} {noun}}}{more, plural, =0 {} other { y # más}} en <tab>{tabName}</tab>.",
     "source": "71b77264e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyAction": {
+    "text": "Hacer una copia para cambiarla",
+    "source": "ee00d4d24a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyLine": {
+    "text": "Este widget es de la Comunidad. ¿Quieres cambiar su aspecto o cómo funciona?",
+    "source": "cf289f980a",
     "by": "ai",
     "reviewed": false
   },

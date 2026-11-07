@@ -31,7 +31,7 @@
   },
   "widgets.builtin.aGroupOfButtonsSwitchDevices": {
     "text": "Een groep knoppen: schakel apparaten, start Flows en sferen, open dashboards.",
-    "source": "945856eca6",
+    "source": "7f34d2187c",
     "by": "ai",
     "reviewed": false
   },
@@ -852,8 +852,8 @@
     "reviewed": false
   },
   "widgets.builtin.doesWhatATapCanOpens": {
-    "text": "Doet wat een tik kan: opent een dashboard of apparaat, start een Flow, zet een sfeer aan, wijzigt een variabele, stuurt een webverzoek of vertelt het Homey.",
-    "source": "dadd3edb42",
+    "text": "Doet wat een tik kan: opent een dashboard of apparaat, start een Flow, zet een sfeer aan, wijzigt een variabele, stuurt een webverzoek of laat het Homey weten.",
+    "source": "5ebe9bf440",
     "by": "ai",
     "reviewed": false
   },
@@ -2761,7 +2761,7 @@
   },
   "widgets.builtin.setTheMood": {
     "text": "Zet de sfeer aan",
-    "source": "cd7e82a4e3",
+    "source": "3846c2f0fd",
     "by": "ai",
     "reviewed": false
   },
@@ -2773,7 +2773,7 @@
   },
   "widgets.builtin.setsAMoodAndShowsWhether": {
     "text": "Zet een sfeer aan en toont of dat gelukt is.",
-    "source": "4034a931cd",
+    "source": "a0195ebe62",
     "by": "ai",
     "reviewed": false
   },
@@ -2797,7 +2797,7 @@
   },
   "widgets.builtin.setsTheMood": {
     "text": "Zet de sfeer aan",
-    "source": "e404f054d8",
+    "source": "67d18f77ca",
     "by": "ai",
     "reviewed": false
   },
@@ -2971,7 +2971,7 @@
   },
   "widgets.builtin.startTheFlow": {
     "text": "Start de Flow",
-    "source": "4568bc809c",
+    "source": "e6f74a2972",
     "by": "ai",
     "reviewed": false
   },
@@ -2989,13 +2989,13 @@
   },
   "widgets.builtin.startsAFlowAndShowsWhether": {
     "text": "Start een Flow en toont of dat gelukt is.",
-    "source": "0f7d95faa8",
+    "source": "5542b85b4e",
     "by": "ai",
     "reviewed": false
   },
   "widgets.builtin.startsTheFlow": {
     "text": "Start de Flow",
-    "source": "340088370a",
+    "source": "5933b2c48a",
     "by": "ai",
     "reviewed": false
   },
@@ -6902,6 +6902,264 @@
   "widgets.values.yes": {
     "text": "Ja",
     "source": "85a39ab345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.clear": {
+    "text": "Helder",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.cloudy": {
+    "text": "Bewolkt",
+    "source": "c63401aba2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.east": {
+    "text": "O",
+    "source": "a9f51566bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.failed": {
+    "text": "Het weer is nu niet beschikbaar. We proberen het zo opnieuw.",
+    "source": "5bc9e1b3b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.fog": {
+    "text": "Mist",
+    "source": "14394e978d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavyRain": {
+    "text": "Zware regen",
+    "source": "c723ea3e00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleet": {
+    "text": "Zware natte sneeuw",
+    "source": "aff503d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleetShowers": {
+    "text": "Zware natte sneeuwbuien",
+    "source": "cc52531db9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnow": {
+    "text": "Zware sneeuw",
+    "source": "58cd7f387c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnowShowers": {
+    "text": "Zware sneeuwbuien",
+    "source": "7420426178",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.home": {
+    "text": "Thuis",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRain": {
+    "text": "Lichte regen",
+    "source": "692c251747",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRainShowers": {
+    "text": "Lichte regenbuien",
+    "source": "a9f626f9ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleet": {
+    "text": "Lichte natte sneeuw",
+    "source": "066f8217d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleetShowers": {
+    "text": "Lichte natte sneeuwbuien",
+    "source": "2da3c7cc54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnow": {
+    "text": "Lichte sneeuw",
+    "source": "87150d9e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnowShowers": {
+    "text": "Lichte sneeuwbuien",
+    "source": "0ef869f460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.loading": {
+    "text": "Het weer wordt geladen…",
+    "source": "8863eba376",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.mostlyClear": {
+    "text": "Overwegend helder",
+    "source": "456963a203",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.noPlace": {
+    "text": "Kies een plaats in de instellingen van de widget",
+    "source": "069c11d65e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.north": {
+    "text": "N",
+    "source": "8ce86a6ae6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northEast": {
+    "text": "NO",
+    "source": "d539cd97ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northWest": {
+    "text": "NW",
+    "source": "c1fcf83e87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.now": {
+    "text": "Nu",
+    "source": "fe18013d93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.overcast": {
+    "text": "Zwaar bewolkt",
+    "source": "721c455d6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.partlyCloudy": {
+    "text": "Half bewolkt",
+    "source": "f7be32278d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rain": {
+    "text": "Regen",
+    "source": "a6d20aa6a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rainShowers": {
+    "text": "Regenbuien",
+    "source": "0156925b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.severeThunderstorms": {
+    "text": "Zware onweersbuien",
+    "source": "cd75e04356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleet": {
+    "text": "Natte sneeuw",
+    "source": "3e192828ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleetShowers": {
+    "text": "Natte sneeuwbuien",
+    "source": "64b914dcd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snow": {
+    "text": "Sneeuw",
+    "source": "4f946da92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snowShowers": {
+    "text": "Sneeuwbuien",
+    "source": "26ecb35382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.south": {
+    "text": "Z",
+    "source": "8de0b3c47f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southEast": {
+    "text": "ZO",
+    "source": "f031b70a26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southWest": {
+    "text": "ZW",
+    "source": "072f005fc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thickFog": {
+    "text": "Dichte mist",
+    "source": "b9f70c4aaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunder": {
+    "text": "Onweer",
+    "source": "519bce7bc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunderstorms": {
+    "text": "Onweersbuien",
+    "source": "b8a0a4f4ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.today": {
+    "text": "Vandaag",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedHours": {
+    "text": "Bijgewerkt {hours} u geleden",
+    "source": "f59b90c6af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedMinutes": {
+    "text": "Bijgewerkt {minutes} min geleden",
+    "source": "bbc4d1a386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.west": {
+    "text": "W",
+    "source": "fcb5f40df9",
     "by": "ai",
     "reviewed": false
   }

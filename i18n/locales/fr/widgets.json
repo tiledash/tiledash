@@ -31,7 +31,7 @@
   },
   "widgets.builtin.aGroupOfButtonsSwitchDevices": {
     "text": "Un groupe de boutons : commander des appareils, lancer des Flows et des ambiances, ouvrir des tableaux de bord.",
-    "source": "945856eca6",
+    "source": "7f34d2187c",
     "by": "ai",
     "reviewed": false
   },
@@ -852,8 +852,8 @@
     "reviewed": false
   },
   "widgets.builtin.doesWhatATapCanOpens": {
-    "text": "Fait ce qu’une touche peut faire : ouvre un tableau de bord ou un appareil, lance un Flow, active une ambiance, change une variable, envoie une requête web ou prévient Homey.",
-    "source": "dadd3edb42",
+    "text": "Fait ce qu’un appui peut faire : ouvre un tableau de bord ou un appareil, lance un Flow, active une ambiance, change une variable, envoie une requête web ou signale à Homey.",
+    "source": "5ebe9bf440",
     "by": "ai",
     "reviewed": false
   },
@@ -2761,7 +2761,7 @@
   },
   "widgets.builtin.setTheMood": {
     "text": "Activer l’ambiance",
-    "source": "cd7e82a4e3",
+    "source": "3846c2f0fd",
     "by": "ai",
     "reviewed": false
   },
@@ -2773,7 +2773,7 @@
   },
   "widgets.builtin.setsAMoodAndShowsWhether": {
     "text": "Active une ambiance et indique si cela a fonctionné.",
-    "source": "4034a931cd",
+    "source": "a0195ebe62",
     "by": "ai",
     "reviewed": false
   },
@@ -2797,7 +2797,7 @@
   },
   "widgets.builtin.setsTheMood": {
     "text": "Active l’ambiance",
-    "source": "e404f054d8",
+    "source": "67d18f77ca",
     "by": "ai",
     "reviewed": false
   },
@@ -2971,7 +2971,7 @@
   },
   "widgets.builtin.startTheFlow": {
     "text": "Lancer le Flow",
-    "source": "4568bc809c",
+    "source": "e6f74a2972",
     "by": "ai",
     "reviewed": false
   },
@@ -2989,13 +2989,13 @@
   },
   "widgets.builtin.startsAFlowAndShowsWhether": {
     "text": "Lance un Flow et indique si cela a fonctionné.",
-    "source": "0f7d95faa8",
+    "source": "5542b85b4e",
     "by": "ai",
     "reviewed": false
   },
   "widgets.builtin.startsTheFlow": {
     "text": "Lance le Flow",
-    "source": "340088370a",
+    "source": "5933b2c48a",
     "by": "ai",
     "reviewed": false
   },
@@ -6902,6 +6902,264 @@
   "widgets.values.yes": {
     "text": "Oui",
     "source": "85a39ab345",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.clear": {
+    "text": "Dégagé",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.cloudy": {
+    "text": "Nuageux",
+    "source": "c63401aba2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.east": {
+    "text": "E",
+    "source": "a9f51566bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.failed": {
+    "text": "La météo n’est pas disponible pour le moment. Nouvel essai bientôt.",
+    "source": "5bc9e1b3b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.fog": {
+    "text": "Brouillard",
+    "source": "14394e978d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavyRain": {
+    "text": "Forte pluie",
+    "source": "c723ea3e00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleet": {
+    "text": "Forte neige fondue",
+    "source": "aff503d7f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySleetShowers": {
+    "text": "Forte neige fondue",
+    "source": "cc52531db9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnow": {
+    "text": "Fortes chutes de neige",
+    "source": "58cd7f387c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.heavySnowShowers": {
+    "text": "Fortes averses de neige",
+    "source": "7420426178",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.home": {
+    "text": "Maison",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRain": {
+    "text": "Pluie faible",
+    "source": "692c251747",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightRainShowers": {
+    "text": "Faibles averses",
+    "source": "a9f626f9ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleet": {
+    "text": "Neige fondue faible",
+    "source": "066f8217d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSleetShowers": {
+    "text": "Faible neige fondue",
+    "source": "2da3c7cc54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnow": {
+    "text": "Neige faible",
+    "source": "87150d9e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.lightSnowShowers": {
+    "text": "Faibles averses de neige",
+    "source": "0ef869f460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.loading": {
+    "text": "Chargement de la météo…",
+    "source": "8863eba376",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.mostlyClear": {
+    "text": "Plutôt dégagé",
+    "source": "456963a203",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.noPlace": {
+    "text": "Choisissez un lieu dans les réglages du widget",
+    "source": "069c11d65e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.north": {
+    "text": "N",
+    "source": "8ce86a6ae6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northEast": {
+    "text": "NE",
+    "source": "d539cd97ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.northWest": {
+    "text": "NO",
+    "source": "c1fcf83e87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.now": {
+    "text": "Maint.",
+    "source": "fe18013d93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.overcast": {
+    "text": "Couvert",
+    "source": "721c455d6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.partlyCloudy": {
+    "text": "Partiellement nuageux",
+    "source": "f7be32278d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rain": {
+    "text": "Pluie",
+    "source": "a6d20aa6a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.rainShowers": {
+    "text": "Averses",
+    "source": "0156925b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.severeThunderstorms": {
+    "text": "Orages violents",
+    "source": "cd75e04356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleet": {
+    "text": "Neige fondue",
+    "source": "3e192828ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.sleetShowers": {
+    "text": "Averses neige fondue",
+    "source": "64b914dcd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snow": {
+    "text": "Neige",
+    "source": "4f946da92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.snowShowers": {
+    "text": "Averses de neige",
+    "source": "26ecb35382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.south": {
+    "text": "S",
+    "source": "8de0b3c47f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southEast": {
+    "text": "SE",
+    "source": "f031b70a26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.southWest": {
+    "text": "SO",
+    "source": "072f005fc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thickFog": {
+    "text": "Brouillard épais",
+    "source": "b9f70c4aaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunder": {
+    "text": "Tonnerre",
+    "source": "519bce7bc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.thunderstorms": {
+    "text": "Orages",
+    "source": "b8a0a4f4ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.today": {
+    "text": "Auj.",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedHours": {
+    "text": "Mis à jour il y a {hours} h",
+    "source": "f59b90c6af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.updatedMinutes": {
+    "text": "Mis à jour il y a {minutes} min",
+    "source": "bbc4d1a386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.weather.west": {
+    "text": "O",
+    "source": "fcb5f40df9",
     "by": "ai",
     "reviewed": false
   }

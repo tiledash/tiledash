@@ -1783,7 +1783,7 @@
   },
   "code.kindPicker.flow": {
     "text": "een Flow om te starten, of meerdere",
-    "source": "ec45942b63",
+    "source": "db976e6899",
     "by": "ai",
     "reviewed": false
   },
@@ -1801,7 +1801,7 @@
   },
   "code.kindPicker.mood": {
     "text": "een sfeer om in te stellen, of meerdere",
-    "source": "0858797f29",
+    "source": "fc78d4259d",
     "by": "ai",
     "reviewed": false
   },
@@ -2964,8 +2964,8 @@
     "reviewed": false
   },
   "code.panels.checkTarget": {
-    "text": "Apparaat, Flow of sfeer moet op deze Homey staan; een van een andere Homey wordt geweigerd.",
-    "source": "d064a8c8a6",
+    "text": "Het apparaat, de Flow of sfeer moet op deze Homey staan; een van een andere Homey wordt geweigerd.",
+    "source": "0b0bfed284",
     "by": "ai",
     "reviewed": false
   },
@@ -3246,8 +3246,8 @@
     "reviewed": false
   },
   "code.panels.searchActions": {
-    "text": "Zoek, bijv. flow of confirm",
-    "source": "2e60e02e6f",
+    "text": "Zoek, bijv. Flow of bevestigen",
+    "source": "a625537794",
     "by": "ai",
     "reviewed": false
   },
@@ -4081,13 +4081,13 @@
   },
   "code.preview.setMood": {
     "text": "Zou de sfeer “{name}” instellen.",
-    "source": "408a40257e",
+    "source": "e28ab811ca",
     "by": "ai",
     "reviewed": false
   },
   "code.preview.setMoodUnnamed": {
     "text": "Zou een sfeer instellen.",
-    "source": "bd3b1a085f",
+    "source": "41619797d5",
     "by": "ai",
     "reviewed": false
   },
@@ -4116,8 +4116,8 @@
     "reviewed": false
   },
   "code.preview.startFlowUnnamed": {
-    "text": "Zou een flow starten.",
-    "source": "ec0e070598",
+    "text": "Zou een Flow starten.",
+    "source": "7f1d3b8e74",
     "by": "ai",
     "reviewed": false
   },
@@ -4345,7 +4345,7 @@
   },
   "code.richFields.buttonsNote": {
     "text": "Een apparaatknop doet wat de gebruiker van de tegel kiest (schakelen, instellen, openen); Flows starten, sferen worden ingesteld, dashboards gaan open. Gelezen als <code>{code}</code>, elk met <code>.name</code>, <code>.icon</code>, <code>.on</code>.",
-    "source": "6de7031571",
+    "source": "63b64ab6fb",
     "by": "ai",
     "reviewed": false
   },
@@ -4699,7 +4699,7 @@
   },
   "code.richKinds.buttonKind": {
     "text": "{kind, select, device {apparaten} flow {Flows} mood {sferen} other {dashboards}}",
-    "source": "5f10b1077d",
+    "source": "3474bbf49b",
     "by": "ai",
     "reviewed": false
   },
@@ -4711,7 +4711,7 @@
   },
   "code.richKinds.buttonsReads": {
     "text": "apparaten, Flows, sferen",
-    "source": "59d16ec063",
+    "source": "11c609acb5",
     "by": "ai",
     "reviewed": false
   },
@@ -5029,7 +5029,7 @@
   },
   "code.settingFields.canAddHint": {
     "text": "Widgets met een apparaat, Flow of sfeer, en widgets zonder",
-    "source": "0d65714aed",
+    "source": "dfdd77788d",
     "by": "ai",
     "reviewed": false
   },
@@ -5263,13 +5263,13 @@
   },
   "code.settingViews.kind": {
     "text": "{type, select, device {Een apparaat} capability {Een eigenschap} flow {Een Flow} mood {Een sfeer} dashboard {Een dashboard} zone {Een zone} person {Een persoon} calendars {Agenda’s} pins {Pincodes} floorplan {Een plattegrond} house {Een huis} model {Een model} modelCamera {Een 3D-weergave} floorplanPicture {Plattegrondafbeelding} number {Een getal} percentage {Een percentage} boolean {Ja/nee} text {Tekst} choice {Een keuze} color {Een kleur} icon {Een icoon} size {Een grootte} spot {Een plek} other {Tegels}}",
-    "source": "5e8cf1d366",
+    "source": "0f00db18af",
     "by": "ai",
     "reviewed": false
   },
   "code.settingViews.listOf": {
     "text": "{type, select, device {Een lijst met apparaten} flow {Een lijst met Flows} mood {Een lijst met sferen} other {Een lijst met dashboards}}",
-    "source": "a2ded1f910",
+    "source": "b5a05f3aed",
     "by": "ai",
     "reviewed": false
   },
@@ -6709,7 +6709,7 @@
   },
   "code.valueFields.flowNote": {
     "text": "Elke tegel kiest een Flow van zijn Homey die je met de hand kunt starten; de template leest <code>.id</code> en <code>.name</code>.",
-    "source": "8921b76065",
+    "source": "2b12175334",
     "by": "ai",
     "reviewed": false
   },
@@ -6733,7 +6733,7 @@
   },
   "code.valueFields.moodNote": {
     "text": "Elke tegel kiest een sfeer van zijn Homey; de template leest <code>.id</code> en <code>.name</code>.",
-    "source": "73ab26a8e5",
+    "source": "5ffe779e5e",
     "by": "ai",
     "reviewed": false
   },
@@ -7092,8 +7092,8 @@
     "reviewed": false
   },
   "code.workshop.description": {
-    "text": "Alles wat je maakt: widgets, de partials die ze delen, thema’s en modellen voor je plattegronden. Deel wat je wilt in de community.",
-    "source": "09066d2020",
+    "text": "Maak je eigen widgets, thema’s en meubels. Voor knutselaars: je hebt er niets van nodig om mooie dashboards te bouwen. Deel wat je maakt in de Community.",
+    "source": "c2c0493647",
     "by": "ai",
     "reviewed": false
   },
@@ -7106,6 +7106,24 @@
   "code.workshop.editName": {
     "text": "{name} bewerken",
     "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyAction": {
+    "text": "Een widget kopiëren",
+    "source": "091246bbaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyBody": {
+    "text": "De makkelijkste start: kopieer een widget die je al gebruikt en verander hoe het eruitziet. Je AI-assistent kan ook helpen. Met de kaarten hieronder maak je elk soort.",
+    "source": "a6e019038e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.workshop.emptyTitle": {
+    "text": "Hier is nog niets gemaakt",
+    "source": "da408d72eb",
     "by": "ai",
     "reviewed": false
   },

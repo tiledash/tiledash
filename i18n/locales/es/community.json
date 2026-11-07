@@ -576,8 +576,8 @@
     "reviewed": false
   },
   "community.installed.emptyBody": {
-    "text": "Lo que instalas de la comunidad aparece aquí, con sus actualizaciones. Los widgets van al selector de widgets, los temas al de temas, y los fragmentos los renderizas en tus widgets.",
-    "source": "2ca6b3d1c9",
+    "text": "Widgets, temas y muebles creados por otras personas. Explora, pruébalos con tus propios dispositivos y añade lo que te guste: aparecerá aquí, con sus actualizaciones.",
+    "source": "cda662accf",
     "by": "ai",
     "reviewed": false
   },
@@ -815,6 +815,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.item.goneNote": {
+    "text": "Quien lo creó dejó Tiledash. Sigue funcionando tal cual, pero ya nadie lo actualiza.",
+    "source": "c0d0551a28",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.item.install": {
     "text": "Instalar",
     "source": "569ca49f4a",
@@ -842,6 +848,12 @@
   "community.item.licenceHint": {
     "text": "{kind, select, widget {Cópialo en tus propios widgets y cámbialo.} theme {Cópialo en tus propios temas y cámbialo.} model {Colócalo en tus planos.} other {Cópialo en tus propios fragmentos y cámbialo.}}",
     "source": "b95ef4907c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.item.logInToInstall": {
+    "text": "Inicia sesión e instala",
+    "source": "9b5f64cbf0",
     "by": "ai",
     "reviewed": false
   },
@@ -962,6 +974,12 @@
   "community.item.versions": {
     "text": "Versiones",
     "source": "f89ea27036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.item.visitorNote": {
+    "text": "No cuesta nada con tu cuenta de Homey. Después vuelves directamente aquí.",
+    "source": "e9edc5547b",
     "by": "ai",
     "reviewed": false
   },
@@ -2591,6 +2609,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.publisher.gone": {
+    "text": "Sin mantenimiento",
+    "source": "26ef1ef96a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publisher.goneTip": {
+    "text": "Quien lo creó dejó Tiledash. Sigue funcionando, pero ya nadie lo actualiza.",
+    "source": "5588677703",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publisher.official": {
     "text": "Oficial",
     "source": "c409c66f71",
@@ -2886,8 +2916,8 @@
     "reviewed": false
   },
   "community.sections.description": {
-    "text": "Widgets, temas, fragmentos y modelos de otras personas. Un widget que añades desde el selector de widgets, o un modelo que colocas en un plano, se instala solo.",
-    "source": "426288e600",
+    "text": "Widgets, temas y muebles creados por otras personas, listos para añadir: explora, pruébalos con tus dispositivos e instala lo que te guste. No hace falta crear nada.",
+    "source": "230e76e496",
     "by": "ai",
     "reviewed": false
   },
@@ -2996,6 +3026,12 @@
   "community.sections.seeAll": {
     "text": "{kind, select, widget {{count, plural, one {Ver el widget} other {Ver todos los # widgets}}} theme {{count, plural, one {Ver el tema} other {Ver todos los # temas}}} model {{count, plural, one {Ver el modelo} other {Ver todos los # modelos}}} other {{count, plural, one {Ver el fragmento} other {Ver todos los # fragmentos}}}}",
     "source": "bffd657856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.sections.visitorDescription": {
+    "text": "Widgets, temas y muebles que los usuarios de Tiledash crearon para sus dashboards de Homey. Mira todo lo que quieras; inicia sesión con Homey para instalar.",
+    "source": "bbeb653444",
     "by": "ai",
     "reviewed": false
   },
@@ -3206,6 +3242,60 @@
   "community.views.recentlyUpdated": {
     "text": "Actualizados hace poco",
     "source": "474b2a869a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.about": {
+    "text": "¿Qué es Tiledash?",
+    "source": "a1daecb417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.barLabel": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.dialogTitle": {
+    "text": "Inicia sesión para instalar {title}",
+    "source": "bc079e0946",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.logIn": {
+    "text": "Entrar",
+    "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.logInWithHomey": {
+    "text": "Iniciar sesión con Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.notNow": {
+    "text": "Ahora no",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepAccount": {
+    "text": "¿Nuevo en Tiledash? Así se crea tu cuenta. Con Free basta para instalar.",
+    "source": "b65cf58f26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepBack": {
+    "text": "Después vuelves aquí para terminar de instalar {title}.",
+    "source": "ebafc25b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.visitor.stepHomey": {
+    "text": "Inicia sesión con tu cuenta de Homey, en la propia página de Homey.",
+    "source": "061c99b9ff",
     "by": "ai",
     "reviewed": false
   },

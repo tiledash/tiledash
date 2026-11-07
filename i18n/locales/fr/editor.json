@@ -337,7 +337,7 @@
   },
   "editor.busyEditor.hintVariable": {
     "text": "Il suit une variable : il peut donc ouvrir un tableau de bord ou lancer un Flow.",
-    "source": "2d9ec1adb0",
+    "source": "ba000466a9",
     "by": "ai",
     "reviewed": false
   },
@@ -643,7 +643,7 @@
   },
   "editor.buttonsEditor.search": {
     "text": "Rechercher appareils, Flows, ambiances et tableaux de bord",
-    "source": "0225403aa8",
+    "source": "c2ba1456d4",
     "by": "ai",
     "reviewed": false
   },
@@ -1278,8 +1278,440 @@
     "reviewed": false
   },
   "editor.cssHooks.listLabel": {
-    "text": "Points d’accroche à styliser",
-    "source": "64084c77c0",
+    "text": "Parties à styliser",
+    "source": "1e8353c3b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKind": {
+    "text": "Par type",
+    "source": "a6686d8c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKindHint": {
+    "text": "Lumières ensemble, chauffage ensemble… idéal pour un tableau de bord Énergie ou Sécurité.",
+    "source": "a90f3d5297",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoom": {
+    "text": "Par pièce",
+    "source": "ff12e899b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoomHint": {
+    "text": "Un titre par pièce, comme l’onglet Appareils de l’app Homey.",
+    "source": "372b773c5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.clear": {
+    "text": "Tout désélectionner",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.createMany": {
+    "text": "Créer {count} tableaux de bord",
+    "source": "824bd61718",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.dashboardCount": {
+    "text": "{count} tableaux de bord",
+    "source": "897483ea28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.defaultName": {
+    "text": "Maison",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionLook": {
+    "text": "Choisissez la disposition. L’aperçu suit chaque changement.",
+    "source": "1786f87469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionWhat": {
+    "text": "Choisissez les pièces et ce qu’on y met. Nous avons coché ce que la plupart des gens allument ou règlent.",
+    "source": "3beb209921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.groupingQuestion": {
+    "text": "Comment le regrouper ?",
+    "source": "fe51922bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintAppliance": {
+    "text": "Voir quand la lessive est finie",
+    "source": "51bb8dd77e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintClimate": {
+    "text": "Thermostats et radiateurs",
+    "source": "f10f7d5649",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintCover": {
+    "text": "Ouvrir et fermer",
+    "source": "aedfc22cd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintFlow": {
+    "text": "Les Flows mis en favori dans Homey",
+    "source": "0659423bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLight": {
+    "text": "Allumer et varier",
+    "source": "d611fe22d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLock": {
+    "text": "Verrouiller et déverrouiller",
+    "source": "65fc0962c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintMood": {
+    "text": "Régler l’atmosphère d’une pièce",
+    "source": "40941e3a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintPlug": {
+    "text": "Seules certaines méritent d’être commandées",
+    "source": "0ded74be89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintSensor": {
+    "text": "Déjà comptés dans les résumés",
+    "source": "f10478a997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindAppliance": {
+    "text": "Électroménager",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindClimate": {
+    "text": "Chauffage",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindCover": {
+    "text": "Stores et rideaux",
+    "source": "fa0f52e672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlow": {
+    "text": "Flows favoris",
+    "source": "9580ae16bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlows": {
+    "text": "{count, plural, one {# Flow} other {# Flows}}",
+    "source": "eb7d2c30c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindInRooms": {
+    "text": "{count} dans {rooms, plural, one {# pièce} other {# pièces}}",
+    "source": "15599dcf68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLeftOut": {
+    "text": "{count} mis de côté",
+    "source": "9e6680820e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLight": {
+    "text": "Lumières",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLock": {
+    "text": "Serrures",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindMood": {
+    "text": "Ambiances",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindPlug": {
+    "text": "Prises",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindSensor": {
+    "text": "Capteurs et compteurs",
+    "source": "7abc3244ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsLater": {
+    "text": "Vous voulez écarter une seule lampe ou ambiance ? Touchez × sur sa tuile dans l’aperçu, à l’étape suivante.",
+    "source": "5d37f1b64e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsQuestion": {
+    "text": "Que doit-il contenir ?",
+    "source": "793e353550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsWaiting": {
+    "text": "Choisissez d’abord des pièces",
+    "source": "2e5d12badb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.leftOut": {
+    "text": "Tuile écartée : {name}.",
+    "source": "73786a55bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEach": {
+    "text": "Une tuile par lumière",
+    "source": "8975f113db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEachHint": {
+    "text": "Chaque lumière a sa propre tuile, avec sa luminosité.",
+    "source": "c102f63d3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroup": {
+    "text": "Une tuile par pièce",
+    "source": "0c21489409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroupHint": {
+    "text": "Les lumières d’une pièce en boutons dans une tuile. Une pièce avec une seule lumière garde sa tuile.",
+    "source": "ce989c1317",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsQuestion": {
+    "text": "Lumières",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.moreStarts": {
+    "text": "D’autres points de départ",
+    "source": "49cca15115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadings": {
+    "text": "Sans titres",
+    "source": "07e2ccb090",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadingsHint": {
+    "text": "Un seul bloc de tuiles, sobre, pour un petit tableau de bord.",
+    "source": "e1ed9a1dd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.otherPlaces": {
+    "text": "Extérieur et autres",
+    "source": "36f446fef0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.pickARoom": {
+    "text": "Choisissez au moins une pièce",
+    "source": "c5596e6c41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeHint": {
+    "text": "Touchez × sur une tuile pour l’écarter.",
+    "source": "83639f41f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeTile": {
+    "text": "Écarter {name}",
+    "source": "ac7244ce5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomLights": {
+    "text": "Lumières {room}",
+    "source": "577eab5103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomMoods": {
+    "text": "Ambiances {room}",
+    "source": "6ba03fb1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomTabs": {
+    "text": "Les tableaux de bord créés",
+    "source": "f3d2cdf295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsCount": {
+    "text": "{picked} sur {total}",
+    "source": "3bf0ea9cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsQuestion": {
+    "text": "Quelles pièces ?",
+    "source": "51ee07ef86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEach": {
+    "text": "Une tuile par élément",
+    "source": "7a704d626d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEachHint": {
+    "text": "De grands boutons avec leur propre icône. Idéal quand il y en a peu.",
+    "source": "e262924191",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroup": {
+    "text": "Une tuile de boutons par pièce",
+    "source": "48d1ae5968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroupHint": {
+    "text": "Comme les widgets Ambiances et Flows de l’app Homey : une tuile, un bouton pour chacun.",
+    "source": "8c05e6d063",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesQuestion": {
+    "text": "Ambiances et Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.selectAll": {
+    "text": "Tout sélectionner",
+    "source": "1fc9a38765",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitHint": {
+    "text": "{count} tableaux de bord, un par pièce. Touchez une pièce au-dessus de l’aperçu pour la voir.",
+    "source": "7c4e9bc291",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitLabel": {
+    "text": "Un tableau de bord par pièce, avec des boutons pour passer de l’un à l’autre",
+    "source": "2359e3ad5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startDescription": {
+    "text": "Choisissez les pièces et ce que vous en voulez. Nous proposons une disposition soignée ; vous décidez.",
+    "source": "bd1e4140f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startName": {
+    "text": "Tableau de bord sur mesure",
+    "source": "b9730bdae3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepLook": {
+    "text": "Apparence",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepWhat": {
+    "text": "Contenu",
+    "source": "d7c256a3fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesKinds": {
+    "text": "Sur chaque titre",
+    "source": "9cf2011a09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesQuestion": {
+    "text": "Résumés",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesRooms": {
+    "text": "Par pièce, sur son titre",
+    "source": "7e554ff4b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesTop": {
+    "text": "En haut : lumières allumées, température, ce qui est ouvert",
+    "source": "977e86b909",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooMany": {
+    "text": "C’est beaucoup pour un seul écran",
+    "source": "6b17a34754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooManyText": {
+    "text": "{count} tuiles ; environ {comfortable} tiennent confortablement. Choisissez moins de pièces ou désactivez certains types.",
+    "source": "32bc7bf048",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.undo": {
+    "text": "Annuler",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -1679,27 +2111,27 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteBody": {
-    "text": "Ses tuiles sont supprimées avec lui. Vos appareils et Flows ne sont pas touchés.",
-    "source": "494c9e1587",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.deleteConfirm": {
-    "text": "Supprimer le tableau de bord",
-    "source": "b310f98bcb",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardPage.deleteFailed": {
     "text": "Impossible de supprimer le tableau de bord.",
     "source": "65fc71d2d3",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteTitle": {
-    "text": "Supprimer « {name} » ?",
-    "source": "8e13216a05",
+  "editor.dashboardPage.deleteTooLate": {
+    "text": "Il était déjà supprimé.",
+    "source": "c314a99764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deleted": {
+    "text": "« {name} » supprimé",
+    "source": "33ba563e37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deletedHint": {
+    "text": "Ses tuiles sont parties avec lui. Vos appareils et Flows ne sont pas touchés.",
+    "source": "0d032ec900",
     "by": "ai",
     "reviewed": false
   },
@@ -1736,24 +2168,6 @@
   "editor.dashboardPage.removed": {
     "text": "{inside, plural, =0 {{count, plural, one {Tuile retirée} other {{count, number} tuiles retirées}}} one {{count, plural, one {Tuile retirée, avec la tuile qu’elle contenait} other {{count, number} tuiles retirées, avec la tuile qu’elles contenaient}}} other {{count, plural, one {Tuile retirée, avec les {inside, number} tuiles qu’elle contenait} other {{count, number} tuiles retirées, avec les {inside, number} tuiles qu’elles contenaient}}}}",
     "source": "f1df89ad02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startFailed": {
-    "text": "Impossible de changer la page de démarrage.",
-    "source": "538f3216a9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOff": {
-    "text": "L’app s’ouvre de nouveau sur « {page} »",
-    "source": "1f16ab4b12",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOn": {
-    "text": "{name} s’ouvre au démarrage de l’app",
-    "source": "fc70c6088c",
     "by": "ai",
     "reviewed": false
   },
@@ -1859,15 +2273,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTiles": {
-    "text": "Entre les tuiles",
-    "source": "c778f00ef3",
+  "editor.dashboardSettings.backToTheme": {
+    "text": "Revenir à celui du thème",
+    "source": "bd4cae52f6",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTilesChoice": {
+  "editor.dashboardSettings.betweenTiles": {
     "text": "Espace entre les tuiles",
-    "source": "555cff61ac",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1889,9 +2303,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.change": {
+    "text": "Changer…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.description": {
     "text": "La disposition de ce tableau de bord. L’aperçu et le tableau de bord derrière suivent chaque changement.",
     "source": "dd04b7e6e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTune": {
+    "text": "Affiner",
+    "source": "f86315eb2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTuneInside": {
+    "text": "pixels, la marge autour du tableau de bord, tuiles réunies en un bloc",
+    "source": "7d5bbf9c60",
     "by": "ai",
     "reviewed": false
   },
@@ -1907,51 +2339,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.followsTheme": {
+    "text": "Suit votre thème : {gap} px.",
+    "source": "12d26b7ff8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.freePlacement": {
-    "text": "Placement libre",
-    "source": "95d0f56005",
+    "text": "Garder les tuiles en place",
+    "source": "76e8ac3f45",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.freePlacementHint": {
-    "text": "Les tuiles restent où vous les placez, au lieu de remonter en haut.",
-    "source": "167f2c8db6",
+    "text": "Les espaces vides sont permis. Sinon, les tuiles remontent pour les combler.",
+    "source": "87cc00fd32",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNone": {
-    "text": "Aucun",
-    "source": "dc937b5989",
+  "editor.dashboardSettings.iconChange": {
+    "text": "Changer l’icône",
+    "source": "0c92e8e129",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNormal": {
-    "text": "Normal",
-    "source": "a7248eeb45",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapRoomy": {
-    "text": "Aéré",
-    "source": "beb8418353",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTheme": {
-    "text": "Thème · {gap}",
-    "source": "68a5d01520",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTight": {
-    "text": "Serré",
-    "source": "ce0cc8415d",
+  "editor.dashboardSettings.leadGeneral": {
+    "text": "Le nom et l’icône du tableau de bord, et les résumés à côté de son nom.",
+    "source": "e1bdcfdfa9",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.leadLayout": {
-    "text": "Comment les tuiles remplissent l’écran, où elles peuvent se placer, et le titre.",
-    "source": "8bac93e326",
+    "text": "Comment les tuiles se placent : l’espace entre elles et le remplissage de l’écran.",
+    "source": "66865442a4",
     "by": "ai",
     "reviewed": false
   },
@@ -1964,12 +2384,6 @@
   "editor.dashboardSettings.leadPopups": {
     "text": "Ce qui s’ouvre de soi-même sur le tableau de bord quand quelque chose se produit.",
     "source": "7195ca2376",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.leadSpacing": {
-    "text": "L’espace entre les tuiles, et autour.",
-    "source": "59d1dd31b0",
     "by": "ai",
     "reviewed": false
   },
@@ -1997,6 +2411,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.nameAndIcon": {
+    "text": "Nom et icône",
+    "source": "0af13e2f0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameLabel": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameMissing": {
+    "text": "Donnez-lui un nom.",
+    "source": "9d63f7c904",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.oneShape": {
     "text": "Les tuiles qui se touchent forment un bloc",
     "source": "ea3d87c71b",
@@ -2012,6 +2444,12 @@
   "editor.dashboardSettings.oneShapeSpaced": {
     "text": "Les tuiles côte à côte ont des coins droits là où elles se rejoignent ; les coins extérieurs du groupe restent arrondis.",
     "source": "d5c5e9f216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.ownSpacing": {
+    "text": "Propre à ce tableau de bord.",
+    "source": "ef13d8ca48",
     "by": "ai",
     "reviewed": false
   },
@@ -2045,6 +2483,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.spacing": {
+    "text": "{choice, select, none {Jointif} tight {Serré} normal {Confortable} other {Aéré}}",
+    "source": "8388e3b38b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.spacingLine": {
+    "text": "{choice, select, none {Un seul bloc} tight {Plus à l’écran} normal {Bien distinctes} other {Calme et aéré}}",
+    "source": "3ecdd09ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summaries": {
+    "text": "Résumés",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summariesCount": {
+    "text": "{count, plural, =0 {Aucun pour l’instant : ajoutez « 3 lumières allumées » ou la température près du nom.} one {# à côté du nom : petits chiffres en direct} other {# à côté du nom : petits chiffres en direct}}",
+    "source": "0514d71a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.tabGeneral": {
+    "text": "Général",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.tabLayout": {
     "text": "Disposition",
     "source": "a511909161",
@@ -2063,12 +2531,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.tabSpacing": {
-    "text": "Espacement",
-    "source": "62a822a583",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardSettings.themeChange": {
     "text": "Changer…",
     "source": "a6b4705c68",
@@ -2078,6 +2540,12 @@
   "editor.dashboardSettings.themeHint": {
     "text": "Couleurs, polices et coins.",
     "source": "7b5ff1e5df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.themeMark": {
+    "text": "Thème",
+    "source": "efb52e7172",
     "by": "ai",
     "reviewed": false
   },
@@ -3145,7 +3613,7 @@
   },
   "editor.headingSettings.tapFlow": {
     "text": "Lancer un Flow",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -3313,7 +3781,7 @@
   },
   "editor.homeyTileTap.follows": {
     "text": "Cette tuile la suit : les Flows peuvent l’allumer et l’éteindre, lui donner un texte ou un nombre, une couleur ou une icône, ou la masquer.",
-    "source": "a21d89c64c",
+    "source": "36af3951ec",
     "by": "ai",
     "reviewed": false
   },
@@ -3337,13 +3805,13 @@
   },
   "editor.homeyTileTap.inAFlow": {
     "text": "Dans un Flow : « Quand on appuie sur {name} ».",
-    "source": "92695dcecf",
+    "source": "e2d8ded327",
     "by": "ai",
     "reviewed": false
   },
   "editor.homeyTileTap.nameHint": {
     "text": "Court et clair, comme vous le diriez dans un Flow : « Soirée film ».",
-    "source": "a99f461756",
+    "source": "9a5ddc8fd6",
     "by": "ai",
     "reviewed": false
   },
@@ -3379,7 +3847,7 @@
   },
   "editor.homeyTileTap.pro": {
     "text": "Laissez les Flows Homey réagir à cette tuile et la modifier : allumée ou éteinte, un texte, une couleur ou une icône, ou masquée. Inclus dans Pro.",
-    "source": "fbc77b76aa",
+    "source": "f9f3b9e971",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5507,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.itemStyling.backToTheme": {
+    "text": "{count, plural, one {Tuile revenue au thème} other {# tuiles revenues au thème}}",
+    "source": "7ff634e8d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.itemStyling.copied": {
     "text": "Style copié",
     "source": "8e2ace5735",
@@ -5054,6 +5528,12 @@
   "editor.itemStyling.pasted": {
     "text": "{count, plural, one {Style collé} other {Style collé sur # tuiles}}",
     "source": "29cbc7e331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.itemStyling.undo": {
+    "text": "Annuler",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -5737,13 +6217,13 @@
   },
   "editor.orderedPick.add": {
     "text": "Ajouter {noun, select, device {un appareil} flow {un Flow} mood {une ambiance} dashboard {un tableau de bord} other {un élément}}",
-    "source": "b1ca239861",
+    "source": "4fc0d9473f",
     "by": "ai",
     "reviewed": false
   },
   "editor.orderedPick.allPicked": {
     "text": "{noun, select, device {Tous les appareils adaptés} flow {Tous les Flows adaptés} mood {Toutes les ambiances adaptées} dashboard {Tous les tableaux de bord adaptés} other {Tous les éléments adaptés}} sont déjà dans la liste.",
-    "source": "f66bbbdfb3",
+    "source": "93c7638a0a",
     "by": "ai",
     "reviewed": false
   },
@@ -5767,7 +6247,7 @@
   },
   "editor.orderedPick.count": {
     "text": "{noun, select, device {{count, plural, one {# appareil} other {# appareils}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# ambiance} other {# ambiances}}} dashboard {{count, plural, one {# tableau de bord} other {# tableaux de bord}}} other {{count, plural, one {# élément} other {# éléments}}}}",
-    "source": "5e3829408d",
+    "source": "b86db97edd",
     "by": "ai",
     "reviewed": false
   },
@@ -5797,7 +6277,7 @@
   },
   "editor.orderedPick.noneYet": {
     "text": "{noun, select, device {Aucun appareil choisi pour l’instant.} flow {Aucun Flow choisi pour l’instant.} mood {Aucune ambiance choisie pour l’instant.} dashboard {Aucun tableau de bord choisi pour l’instant.} other {Rien de choisi pour l’instant.}}",
-    "source": "f698d66a7f",
+    "source": "bad2185abb",
     "by": "ai",
     "reviewed": false
   },
@@ -5821,7 +6301,7 @@
   },
   "editor.orderedPick.searchPlaceholder": {
     "text": "Rechercher {noun, select, device {des appareils} flow {des Flows} mood {des ambiances} dashboard {des tableaux de bord} other {des éléments}}",
-    "source": "db7d6f142e",
+    "source": "d0e6e1798e",
     "by": "ai",
     "reviewed": false
   },
@@ -6331,7 +6811,7 @@
   },
   "editor.placeLocation.bothHint": {
     "text": "Un texte avec les deux, comme l’écrivent les applis de localisation et les Flows : 52.37, 4.89",
-    "source": "88f671e292",
+    "source": "207b9a85f8",
     "by": "ai",
     "reviewed": false
   },
@@ -7853,6 +8333,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.cssFold": {
+    "text": "CSS personnalisé (avancé)",
+    "source": "5d9b0fae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.cssFoldInside": {
+    "text": "votre propre CSS pour cette tuile, et les parties à styliser",
+    "source": "7de868d3db",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.frostedGlass": {
     "text": "Verre dépoli",
     "source": "5c3d37b67a",
@@ -7904,6 +8396,18 @@
   "editor.stylePanel.none": {
     "text": "Sans",
     "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownTheme": {
+    "text": "Créer votre propre thème",
+    "source": "8901eb8e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownThemeLine": {
+    "text": "Envie que toutes les tuiles soient à votre goût ? Créez votre propre thème.",
+    "source": "1e983ce9af",
     "by": "ai",
     "reviewed": false
   },
@@ -8485,7 +8989,7 @@
   },
   "editor.tapActions.flow": {
     "text": "Lancer un Flow",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -8585,6 +9089,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tapChoices.moreActions": {
+    "text": "Plus d’actions…",
+    "source": "443b19056a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapChoices.moreActionsHint": {
+    "text": "une caméra, son historique, une variable Logic, Signaler à Homey, une requête web",
+    "source": "dc138af286",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapChoices.noCamera": {
     "text": "Pas de caméra ici",
     "source": "1ade20a077",
@@ -8599,7 +9115,7 @@
   },
   "editor.tapChoices.noFlows": {
     "text": "Aucun Flow à lancer",
-    "source": "1861ba90b1",
+    "source": "163236b57c",
     "by": "ai",
     "reviewed": false
   },
@@ -8617,7 +9133,7 @@
   },
   "editor.tapChoices.noMoods": {
     "text": "Aucune ambiance sur ce Homey",
-    "source": "ca5c287885",
+    "source": "668389c8ff",
     "by": "ai",
     "reviewed": false
   },
@@ -8677,7 +9193,7 @@
   },
   "editor.tapSettings.homeyHintText": {
     "text": "Choisissez « Signaler à Homey », puis utilisez la tuile dans un Flow : quand on appuie dessus. Les Flows peuvent l’allumer, changer son texte ou la masquer.",
-    "source": "d3ffa441b0",
+    "source": "fc698f1caa",
     "by": "ai",
     "reviewed": false
   },
@@ -8886,14 +9402,14 @@
     "reviewed": false
   },
   "editor.tileCssEditor.hooksTitle": {
-    "text": "Points d’accroche",
-    "source": "d412a06262",
+    "text": "Parties à styliser",
+    "source": "1e8353c3b6",
     "by": "ai",
     "reviewed": false
   },
   "editor.tileCssEditor.intro": {
-    "text": "Ne touche que le widget de {label}, après le CSS du thème. Utilisez les variables du thème (<code>--hd-*</code>) et les points d’accroche ci-dessous.",
-    "source": "2030864a04",
+    "text": "Ne touche que le widget de {label}, après le CSS du thème. Utilisez les variables du thème (<code>--hd-*</code>) et les parties ci-dessous.",
+    "source": "a37ed1c1b3",
     "by": "ai",
     "reviewed": false
   },
@@ -9187,7 +9703,7 @@
   },
   "editor.tileShowing.homeyHid": {
     "text": "Un Flow Homey l’a masquée",
-    "source": "982fc67cf3",
+    "source": "91995afb32",
     "by": "ai",
     "reviewed": false
   },
@@ -10397,6 +10913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.customFold": {
+    "text": "Personnalisé",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.customFoldInside": {
+    "text": "quand il se met en veille, ce qu’il affiche alors, l’atténuation",
+    "source": "25d5894fd2",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.dashboard": {
     "text": "Tableau de bord",
     "source": "67b6964686",
@@ -10499,6 +11027,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.idleDim": {
+    "text": "Atténuer après 10 minutes",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleOn": {
+    "text": "Rester allumé",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleQuestion": {
+    "text": "Quand personne ne l’utilise",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleSleep": {
+    "text": "Veille, réveil sur alerte",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Garder l’écran allumé",
     "source": "24c4f08d7d",
@@ -10517,6 +11069,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.kindEink": {
+    "text": "E-ink",
+    "source": "ec5b6e5d48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindOled": {
+    "text": "OLED toujours allumé",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindQuestion": {
+    "text": "Quel type d’écran est-ce ?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindTablet": {
+    "text": "Une tablette",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.languageLead": {
     "text": "Les textes et formats de cet écran. Il suit votre compte, sauf si vous en choisissez d’autres.",
     "source": "b82acc09da",
@@ -10530,8 +11106,8 @@
     "reviewed": false
   },
   "editor.wallPanel.linkLabel": {
-    "text": "Lien pour un navigateur kiosque",
-    "source": "43ab0a7f53",
+    "text": "Adresse à ouvrir sur la tablette",
+    "source": "6ace2ffa01",
     "by": "ai",
     "reviewed": false
   },
@@ -11593,7 +12169,7 @@
   },
   "editor.widgetPicker.fits": {
     "text": "{kind, select, device {{count, plural, one {# appareil} other {# appareils}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# ambiance} other {# ambiances}}} other {{count, plural, one {# élément} other {# éléments}}}}",
-    "source": "c284de0103",
+    "source": "88eb0060f2",
     "by": "ai",
     "reviewed": false
   },
@@ -11663,6 +12239,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.notFinding": {
+    "text": "Vous ne trouvez pas ? D’autres partagent des widgets dans la communauté.",
+    "source": "aaf5d3d8b3",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.notWhatYouWant": {
     "text": "Ce n’est pas ce que vous cherchez ?",
     "source": "59325083ce",
@@ -11713,7 +12295,13 @@
   },
   "editor.widgetPicker.searchPlaceholder": {
     "text": "Rechercher appareils, Flows, ambiances et widgets",
-    "source": "d28c4018be",
+    "source": "f9062c6d96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.seeCommunity": {
+    "text": "Voir leurs créations",
+    "source": "ee98c0d06c",
     "by": "ai",
     "reviewed": false
   },
@@ -11792,6 +12380,18 @@
   "editor.widgetSettings.blockingOnTab": {
     "text": "Requis pour enregistrer, onglet <tab>{tabName}</tab> : {kind, select, one {} many {} other {au moins {min, number} }}{noun}{more, plural, =0 {} other { et # de plus}}.",
     "source": "71b77264e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyAction": {
+    "text": "En faire une copie à modifier",
+    "source": "ee00d4d24a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyLine": {
+    "text": "Ce widget vient de la communauté. Envie de changer son apparence ou son fonctionnement ?",
+    "source": "cf289f980a",
     "by": "ai",
     "reviewed": false
   },

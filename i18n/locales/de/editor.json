@@ -337,7 +337,7 @@
   },
   "editor.busyEditor.hintVariable": {
     "text": "Es folgt einer Variablen und kann daher ein Dashboard öffnen oder einen Flow starten.",
-    "source": "2d9ec1adb0",
+    "source": "ba000466a9",
     "by": "ai",
     "reviewed": false
   },
@@ -643,7 +643,7 @@
   },
   "editor.buttonsEditor.search": {
     "text": "Geräte, Flows, Stimmungen und Dashboards suchen",
-    "source": "0225403aa8",
+    "source": "c2ba1456d4",
     "by": "ai",
     "reviewed": false
   },
@@ -1278,8 +1278,440 @@
     "reviewed": false
   },
   "editor.cssHooks.listLabel": {
-    "text": "Hooks zum Gestalten",
-    "source": "64084c77c0",
+    "text": "Gestaltbare Teile",
+    "source": "1e8353c3b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKind": {
+    "text": "Nach Art",
+    "source": "a6686d8c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byKindHint": {
+    "text": "Lampen zusammen, Heizung zusammen… gut für ein Energie- oder Sicherheits-Dashboard.",
+    "source": "a90f3d5297",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoom": {
+    "text": "Nach Raum",
+    "source": "ff12e899b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.byRoomHint": {
+    "text": "Eine Überschrift pro Raum, wie der Tab Geräte in der Homey-App.",
+    "source": "372b773c5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.clear": {
+    "text": "Leeren",
+    "source": "83b12c2216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.createMany": {
+    "text": "{count} Dashboards erstellen",
+    "source": "824bd61718",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.dashboardCount": {
+    "text": "{count} Dashboards",
+    "source": "897483ea28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.defaultName": {
+    "text": "Zuhause",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionLook": {
+    "text": "Wählen Sie die Anordnung. Die Vorschau zeigt jede Änderung.",
+    "source": "1786f87469",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.descriptionWhat": {
+    "text": "Wählen Sie die Räume und was darauf soll. Vorausgewählt ist, was die meisten schalten oder einstellen.",
+    "source": "3beb209921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.groupingQuestion": {
+    "text": "Wie soll es gruppiert sein?",
+    "source": "fe51922bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintAppliance": {
+    "text": "Sehen, wann die Wäsche fertig ist",
+    "source": "51bb8dd77e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintClimate": {
+    "text": "Thermostate und Heizkörper",
+    "source": "f10f7d5649",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintCover": {
+    "text": "Öffnen und schließen",
+    "source": "aedfc22cd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintFlow": {
+    "text": "Die Flows, die Sie in Homey markiert haben",
+    "source": "0659423bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLight": {
+    "text": "Schalten und dimmen",
+    "source": "d611fe22d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintLock": {
+    "text": "Ab- und aufschließen",
+    "source": "65fc0962c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintMood": {
+    "text": "Die Atmosphäre im Raum einstellen",
+    "source": "40941e3a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintPlug": {
+    "text": "Nur einige lohnen das Schalten",
+    "source": "0ded74be89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.hintSensor": {
+    "text": "Schon in den Übersichten enthalten",
+    "source": "f10478a997",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindAppliance": {
+    "text": "Haushaltsgeräte",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindClimate": {
+    "text": "Heizung",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindCover": {
+    "text": "Jalousien und Vorhänge",
+    "source": "fa0f52e672",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlow": {
+    "text": "Favoriten-Flows",
+    "source": "9580ae16bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindFlows": {
+    "text": "{count, plural, one {# Flow} other {# Flows}}",
+    "source": "eb7d2c30c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindInRooms": {
+    "text": "{count} in {rooms, plural, one {# Raum} other {# Räumen}}",
+    "source": "15599dcf68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLeftOut": {
+    "text": "{count} weggelassen",
+    "source": "9e6680820e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLight": {
+    "text": "Lampen",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindLock": {
+    "text": "Schlösser",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindMood": {
+    "text": "Stimmungen",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindPlug": {
+    "text": "Steckdosen",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindSensor": {
+    "text": "Sensoren und Zähler",
+    "source": "7abc3244ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsLater": {
+    "text": "Eine einzelne Lampe oder Stimmung weglassen? Tippen Sie im nächsten Schritt in der Vorschau auf das × ihrer Kachel.",
+    "source": "5d37f1b64e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsQuestion": {
+    "text": "Was soll darauf?",
+    "source": "793e353550",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.kindsWaiting": {
+    "text": "Oben Räume wählen",
+    "source": "2e5d12badb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.leftOut": {
+    "text": "{name} weggelassen.",
+    "source": "73786a55bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEach": {
+    "text": "Eine Kachel pro Lampe",
+    "source": "8975f113db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsEachHint": {
+    "text": "Jede Lampe als eigene Kachel, mit ihrer Helligkeit.",
+    "source": "c102f63d3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroup": {
+    "text": "Eine Kachel pro Raum",
+    "source": "0c21489409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsGroupHint": {
+    "text": "Die Lampen eines Raums als Tasten in einer Kachel. Ein Raum mit nur einer Lampe behält seine Kachel.",
+    "source": "ce989c1317",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.lightsQuestion": {
+    "text": "Lampen",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.moreStarts": {
+    "text": "Weitere fertige Vorlagen",
+    "source": "49cca15115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadings": {
+    "text": "Ohne Überschriften",
+    "source": "07e2ccb090",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.noHeadingsHint": {
+    "text": "Ein ruhiger Block Kacheln, für ein kleines Dashboard.",
+    "source": "e1ed9a1dd8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.otherPlaces": {
+    "text": "Draußen und Sonstiges",
+    "source": "36f446fef0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.pickARoom": {
+    "text": "Wählen Sie mindestens einen Raum",
+    "source": "c5596e6c41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeHint": {
+    "text": "Tippen Sie auf das × einer Kachel, um sie wegzulassen.",
+    "source": "83639f41f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.removeTile": {
+    "text": "{name} weglassen",
+    "source": "ac7244ce5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomLights": {
+    "text": "{room}: Lampen",
+    "source": "577eab5103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomMoods": {
+    "text": "{room}: Stimmungen",
+    "source": "6ba03fb1f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomTabs": {
+    "text": "Die erstellten Dashboards",
+    "source": "f3d2cdf295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsCount": {
+    "text": "{picked} von {total}",
+    "source": "3bf0ea9cf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.roomsQuestion": {
+    "text": "Welche Räume?",
+    "source": "51ee07ef86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEach": {
+    "text": "Je eine Kachel",
+    "source": "7a704d626d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesEachHint": {
+    "text": "Große Tasten mit eigenem Symbol. Am besten, wenn es nur wenige sind.",
+    "source": "e262924191",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroup": {
+    "text": "Eine Tastenkachel pro Raum",
+    "source": "48d1ae5968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesGroupHint": {
+    "text": "Wie die Widgets für Stimmungen und Flows in der Homey-App: eine Kachel, eine Taste für jede.",
+    "source": "8c05e6d063",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.scenesQuestion": {
+    "text": "Stimmungen und Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.selectAll": {
+    "text": "Alle auswählen",
+    "source": "1fc9a38765",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitHint": {
+    "text": "{count} Dashboards, eines pro Raum. Tippen Sie über der Vorschau auf einen Raum, um ihn zu sehen.",
+    "source": "7c4e9bc291",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.splitLabel": {
+    "text": "Ein Dashboard pro Raum, mit Tasten zum Wechseln",
+    "source": "2359e3ad5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startDescription": {
+    "text": "Wählen Sie die Räume und was daraus. Wir schlagen eine aufgeräumte Anordnung vor; Sie entscheiden.",
+    "source": "bd1e4140f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.startName": {
+    "text": "Eigenes Dashboard",
+    "source": "b9730bdae3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepLook": {
+    "text": "Aussehen",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.stepWhat": {
+    "text": "Inhalt",
+    "source": "d7c256a3fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesKinds": {
+    "text": "An jeder Überschrift",
+    "source": "9cf2011a09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesQuestion": {
+    "text": "Übersichten",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesRooms": {
+    "text": "Pro Raum, an seiner Überschrift",
+    "source": "7e554ff4b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.summariesTop": {
+    "text": "Oben: Lampen an, Temperatur, was offen ist",
+    "source": "977e86b909",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooMany": {
+    "text": "Das ist viel für einen Bildschirm",
+    "source": "6b17a34754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.tooManyText": {
+    "text": "{count} Kacheln; etwa {comfortable} passen bequem. Wählen Sie weniger Räume oder schalten Sie einige Arten aus.",
+    "source": "32bc7bf048",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.custom.undo": {
+    "text": "Rückgängig",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -1679,27 +2111,27 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteBody": {
-    "text": "Seine Kacheln werden mit gelöscht. Ihre Geräte und Flows bleiben unverändert.",
-    "source": "494c9e1587",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.deleteConfirm": {
-    "text": "Dashboard löschen",
-    "source": "b310f98bcb",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardPage.deleteFailed": {
     "text": "Das Dashboard konnte nicht gelöscht werden.",
     "source": "65fc71d2d3",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardPage.deleteTitle": {
-    "text": "„{name}“ löschen?",
-    "source": "8e13216a05",
+  "editor.dashboardPage.deleteTooLate": {
+    "text": "Es war schon gelöscht.",
+    "source": "c314a99764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deleted": {
+    "text": "„{name}“ gelöscht",
+    "source": "33ba563e37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardPage.deletedHint": {
+    "text": "Seine Kacheln wurden mitgelöscht. Ihre Geräte und Flows bleiben unberührt.",
+    "source": "0d032ec900",
     "by": "ai",
     "reviewed": false
   },
@@ -1736,24 +2168,6 @@
   "editor.dashboardPage.removed": {
     "text": "{inside, plural, =0 {{count, plural, one {Kachel entfernt} other {{count, number} Kacheln entfernt}}} one {{count, plural, one {Kachel und die Kachel darin entfernt} other {{count, number} Kacheln und die Kachel darin entfernt}}} other {{count, plural, one {Kachel und die {inside, number} Kacheln darin entfernt} other {{count, number} Kacheln und die {inside, number} Kacheln darin entfernt}}}}",
     "source": "f1df89ad02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startFailed": {
-    "text": "Die Startseite konnte nicht geändert werden.",
-    "source": "538f3216a9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOff": {
-    "text": "Die App startet wieder mit „{page}“",
-    "source": "1f16ab4b12",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardPage.startOn": {
-    "text": "{name} öffnet sich beim Start der App",
-    "source": "fc70c6088c",
     "by": "ai",
     "reviewed": false
   },
@@ -1859,15 +2273,15 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTiles": {
-    "text": "Zwischen Kacheln",
-    "source": "c778f00ef3",
+  "editor.dashboardSettings.backToTheme": {
+    "text": "Zurück zum Design",
+    "source": "bd4cae52f6",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.betweenTilesChoice": {
+  "editor.dashboardSettings.betweenTiles": {
     "text": "Abstand zwischen Kacheln",
-    "source": "555cff61ac",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1889,9 +2303,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.change": {
+    "text": "Ändern…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.description": {
     "text": "Wie dieses Dashboard angeordnet ist. Die Vorschau und das Dashboard dahinter zeigen jede Änderung sofort.",
     "source": "dd04b7e6e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTune": {
+    "text": "Feinabstimmung",
+    "source": "f86315eb2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.fineTuneInside": {
+    "text": "Pixel, Rand um das Dashboard, Kacheln als eine Form",
+    "source": "7d5bbf9c60",
     "by": "ai",
     "reviewed": false
   },
@@ -1907,51 +2339,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.followsTheme": {
+    "text": "Folgt Ihrem Design: {gap} px.",
+    "source": "12d26b7ff8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.freePlacement": {
-    "text": "Freie Platzierung",
-    "source": "95d0f56005",
+    "text": "Kacheln bleiben, wo sie sind",
+    "source": "76e8ac3f45",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.freePlacementHint": {
-    "text": "Kacheln bleiben, wo Sie sie ablegen, statt nach oben zu rutschen.",
-    "source": "167f2c8db6",
+    "text": "Lücken sind erlaubt. Sonst rutschen Kacheln nach oben, um sie zu füllen.",
+    "source": "87cc00fd32",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNone": {
-    "text": "Keiner",
-    "source": "dc937b5989",
+  "editor.dashboardSettings.iconChange": {
+    "text": "Symbol ändern",
+    "source": "0c92e8e129",
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.gapNormal": {
-    "text": "Normal",
-    "source": "a7248eeb45",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapRoomy": {
-    "text": "Großzügig",
-    "source": "beb8418353",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTheme": {
-    "text": "Design · {gap}",
-    "source": "68a5d01520",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.gapTight": {
-    "text": "Eng",
-    "source": "ce0cc8415d",
+  "editor.dashboardSettings.leadGeneral": {
+    "text": "Name und Symbol des Dashboards und die Übersichten neben seinem Namen.",
+    "source": "e1bdcfdfa9",
     "by": "ai",
     "reviewed": false
   },
   "editor.dashboardSettings.leadLayout": {
-    "text": "Wie die Kacheln den Bildschirm füllen, wo sie liegen können, und der Titel.",
-    "source": "8bac93e326",
+    "text": "Wie die Kacheln liegen: der Abstand dazwischen und wie sie den Bildschirm füllen.",
+    "source": "66865442a4",
     "by": "ai",
     "reviewed": false
   },
@@ -1964,12 +2384,6 @@
   "editor.dashboardSettings.leadPopups": {
     "text": "Was sich von selbst über dem Dashboard öffnet, wenn etwas passiert.",
     "source": "7195ca2376",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.dashboardSettings.leadSpacing": {
-    "text": "Der Abstand zwischen den Kacheln und um sie herum.",
-    "source": "59d1dd31b0",
     "by": "ai",
     "reviewed": false
   },
@@ -1997,6 +2411,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.nameAndIcon": {
+    "text": "Name und Symbol",
+    "source": "0af13e2f0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameLabel": {
+    "text": "Name",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.nameMissing": {
+    "text": "Geben Sie ihm einen Namen.",
+    "source": "9d63f7c904",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.oneShape": {
     "text": "Angrenzende Kacheln bilden eine Form",
     "source": "ea3d87c71b",
@@ -2012,6 +2444,12 @@
   "editor.dashboardSettings.oneShapeSpaced": {
     "text": "Nebeneinanderliegende Kacheln werden an gemeinsamen Ecken eckig; die äußeren Ecken der Gruppe bleiben rund.",
     "source": "d5c5e9f216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.ownSpacing": {
+    "text": "Eigener Abstand für dieses Dashboard.",
+    "source": "ef13d8ca48",
     "by": "ai",
     "reviewed": false
   },
@@ -2045,6 +2483,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardSettings.spacing": {
+    "text": "{choice, select, none {Ohne Abstand} tight {Eng} normal {Bequem} other {Luftig}}",
+    "source": "8388e3b38b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.spacingLine": {
+    "text": "{choice, select, none {Ein Block} tight {Mehr auf dem Schirm} normal {Gut unterscheidbar} other {Ruhig und luftig}}",
+    "source": "3ecdd09ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summaries": {
+    "text": "Übersichten",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.summariesCount": {
+    "text": "{count, plural, =0 {Noch keine: „3 Lampen an“ oder die Temperatur neben dem Namen.} one {# neben dem Namen: kleine Live-Werte} other {# neben dem Namen: kleine Live-Werte}}",
+    "source": "0514d71a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.tabGeneral": {
+    "text": "Allgemein",
+    "source": "c910d474dc",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardSettings.tabLayout": {
     "text": "Layout",
     "source": "a511909161",
@@ -2063,12 +2531,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.dashboardSettings.tabSpacing": {
-    "text": "Abstände",
-    "source": "62a822a583",
-    "by": "ai",
-    "reviewed": false
-  },
   "editor.dashboardSettings.themeChange": {
     "text": "Ändern…",
     "source": "a6b4705c68",
@@ -2078,6 +2540,12 @@
   "editor.dashboardSettings.themeHint": {
     "text": "Farben, Schrift und Ecken.",
     "source": "7b5ff1e5df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardSettings.themeMark": {
+    "text": "Design",
+    "source": "efb52e7172",
     "by": "ai",
     "reviewed": false
   },
@@ -3145,7 +3613,7 @@
   },
   "editor.headingSettings.tapFlow": {
     "text": "Flow starten",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -3313,7 +3781,7 @@
   },
   "editor.homeyTileTap.follows": {
     "text": "Diese Kachel folgt ihr: Flows können sie schalten, ihr einen Text, eine Zahl, eine Farbe oder ein Symbol geben oder sie ausblenden.",
-    "source": "a21d89c64c",
+    "source": "36af3951ec",
     "by": "ai",
     "reviewed": false
   },
@@ -3337,13 +3805,13 @@
   },
   "editor.homeyTileTap.inAFlow": {
     "text": "In einem Flow: Wenn {name} gedrückt wird.",
-    "source": "92695dcecf",
+    "source": "e2d8ded327",
     "by": "ai",
     "reviewed": false
   },
   "editor.homeyTileTap.nameHint": {
     "text": "Kurz und klar, wie Sie es in einem Flow sagen würden: „Filmabend“.",
-    "source": "a99f461756",
+    "source": "9a5ddc8fd6",
     "by": "ai",
     "reviewed": false
   },
@@ -3379,7 +3847,7 @@
   },
   "editor.homeyTileTap.pro": {
     "text": "Lassen Sie Homey-Flows auf diese Kachel reagieren und sie ändern: ein und aus, ein Text, eine Farbe, ein Symbol oder ausblenden. Gehört zu Pro.",
-    "source": "fbc77b76aa",
+    "source": "f9f3b9e971",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5507,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.itemStyling.backToTheme": {
+    "text": "{count, plural, one {Zurück zum Design} other {# Kacheln zurück zum Design}}",
+    "source": "7ff634e8d5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.itemStyling.copied": {
     "text": "Stil kopiert",
     "source": "8e2ace5735",
@@ -5054,6 +5528,12 @@
   "editor.itemStyling.pasted": {
     "text": "{count, plural, one {Stil eingefügt} other {Stil auf # Kacheln eingefügt}}",
     "source": "29cbc7e331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.itemStyling.undo": {
+    "text": "Rückgängig",
+    "source": "a8283ade31",
     "by": "ai",
     "reviewed": false
   },
@@ -5737,13 +6217,13 @@
   },
   "editor.orderedPick.add": {
     "text": "{noun, select, device {Gerät hinzufügen} flow {Flow hinzufügen} mood {Stimmung hinzufügen} dashboard {Dashboard hinzufügen} other {Hinzufügen}}",
-    "source": "b1ca239861",
+    "source": "4fc0d9473f",
     "by": "ai",
     "reviewed": false
   },
   "editor.orderedPick.allPicked": {
     "text": "{noun, select, device {Jedes passende Gerät ist ausgewählt.} flow {Jeder passende Flow ist ausgewählt.} mood {Jede passende Stimmung ist ausgewählt.} dashboard {Jedes passende Dashboard ist ausgewählt.} other {Alles Passende ist ausgewählt.}}",
-    "source": "f66bbbdfb3",
+    "source": "93c7638a0a",
     "by": "ai",
     "reviewed": false
   },
@@ -5767,7 +6247,7 @@
   },
   "editor.orderedPick.count": {
     "text": "{noun, select, device {{count, plural, one {# Gerät} other {# Geräte}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# Stimmung} other {# Stimmungen}}} dashboard {{count, plural, one {# Dashboard} other {# Dashboards}}} other {{count, plural, one {# Element} other {# Elemente}}}}",
-    "source": "5e3829408d",
+    "source": "b86db97edd",
     "by": "ai",
     "reviewed": false
   },
@@ -5797,7 +6277,7 @@
   },
   "editor.orderedPick.noneYet": {
     "text": "{noun, select, device {Noch keine Geräte ausgewählt.} flow {Noch keine Flows ausgewählt.} mood {Noch keine Stimmungen ausgewählt.} dashboard {Noch keine Dashboards ausgewählt.} other {Noch nichts ausgewählt.}}",
-    "source": "f698d66a7f",
+    "source": "bad2185abb",
     "by": "ai",
     "reviewed": false
   },
@@ -5821,7 +6301,7 @@
   },
   "editor.orderedPick.searchPlaceholder": {
     "text": "{noun, select, device {Geräte} flow {Flows} mood {Stimmungen} dashboard {Dashboards} other {Elemente}} durchsuchen",
-    "source": "db7d6f142e",
+    "source": "d0e6e1798e",
     "by": "ai",
     "reviewed": false
   },
@@ -6331,7 +6811,7 @@
   },
   "editor.placeLocation.bothHint": {
     "text": "Ein Text mit beidem, wie Standort-Apps und Flows ihn schreiben: 52.37, 4.89",
-    "source": "88f671e292",
+    "source": "207b9a85f8",
     "by": "ai",
     "reviewed": false
   },
@@ -7853,6 +8333,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePanel.cssFold": {
+    "text": "Eigenes CSS (für Fortgeschrittene)",
+    "source": "5d9b0fae4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.cssFoldInside": {
+    "text": "Ihr eigenes CSS für diese Kachel und die gestaltbaren Teile",
+    "source": "7de868d3db",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePanel.frostedGlass": {
     "text": "Milchglas",
     "source": "5c3d37b67a",
@@ -7904,6 +8396,18 @@
   "editor.stylePanel.none": {
     "text": "Ohne",
     "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownTheme": {
+    "text": "Eigenes Design erstellen",
+    "source": "8901eb8e31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.stylePanel.ownThemeLine": {
+    "text": "Sollen alle Kacheln nach Ihrem Geschmack aussehen? Erstellen Sie ein eigenes Design.",
+    "source": "1e983ce9af",
     "by": "ai",
     "reviewed": false
   },
@@ -8485,7 +8989,7 @@
   },
   "editor.tapActions.flow": {
     "text": "Flow starten",
-    "source": "54ef6dbaec",
+    "source": "3a54287bc9",
     "by": "ai",
     "reviewed": false
   },
@@ -8585,6 +9089,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tapChoices.moreActions": {
+    "text": "Weitere Aktionen…",
+    "source": "443b19056a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tapChoices.moreActionsHint": {
+    "text": "eine Kamera, ihr Verlauf, eine Logic-Variable, An Homey melden, eine Webanfrage",
+    "source": "dc138af286",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapChoices.noCamera": {
     "text": "Keine Kamera hier",
     "source": "1ade20a077",
@@ -8599,7 +9115,7 @@
   },
   "editor.tapChoices.noFlows": {
     "text": "Keine Flows zum Starten",
-    "source": "1861ba90b1",
+    "source": "163236b57c",
     "by": "ai",
     "reviewed": false
   },
@@ -8617,7 +9133,7 @@
   },
   "editor.tapChoices.noMoods": {
     "text": "Keine Stimmungen auf dem Homey",
-    "source": "ca5c287885",
+    "source": "668389c8ff",
     "by": "ai",
     "reviewed": false
   },
@@ -8677,7 +9193,7 @@
   },
   "editor.tapSettings.homeyHintText": {
     "text": "Wählen Sie „An Homey melden“ und nutzen Sie die Kachel in Flows: wenn sie gedrückt wird. Flows können sie auch schalten, ihren Text ändern oder ausblenden.",
-    "source": "d3ffa441b0",
+    "source": "fc698f1caa",
     "by": "ai",
     "reviewed": false
   },
@@ -8886,14 +9402,14 @@
     "reviewed": false
   },
   "editor.tileCssEditor.hooksTitle": {
-    "text": "Hooks",
-    "source": "d412a06262",
+    "text": "Gestaltbare Teile",
+    "source": "1e8353c3b6",
     "by": "ai",
     "reviewed": false
   },
   "editor.tileCssEditor.intro": {
-    "text": "Wirkt nur auf das Widget von {label}, nach dem CSS des Designs. Nutzen Sie die Variablen des Designs (<code>--hd-*</code>) und die Hooks unten.",
-    "source": "2030864a04",
+    "text": "Wirkt nur auf das Widget von {label}, nach dem CSS des Designs. Nutzen Sie die Variablen des Designs (<code>--hd-*</code>) und die Teile unten.",
+    "source": "a37ed1c1b3",
     "by": "ai",
     "reviewed": false
   },
@@ -9187,7 +9703,7 @@
   },
   "editor.tileShowing.homeyHid": {
     "text": "Ein Homey-Flow hat sie ausgeblendet",
-    "source": "982fc67cf3",
+    "source": "91995afb32",
     "by": "ai",
     "reviewed": false
   },
@@ -10397,6 +10913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.customFold": {
+    "text": "Eigene",
+    "source": "494ca78f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.customFoldInside": {
+    "text": "wann es einschläft, was es dann zeigt, Abdunkeln",
+    "source": "25d5894fd2",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.dashboard": {
     "text": "Dashboard",
     "source": "67b6964686",
@@ -10499,6 +11027,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.idleDim": {
+    "text": "Nach 10 Minuten dimmen",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleOn": {
+    "text": "Anlassen",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleQuestion": {
+    "text": "Wenn niemand es nutzt",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.idleSleep": {
+    "text": "Schlafen, bei Alarm aufwachen",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.keepOn": {
     "text": "Bildschirm aktiv halten",
     "source": "24c4f08d7d",
@@ -10517,6 +11069,30 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.wallPanel.kindEink": {
+    "text": "E-Ink",
+    "source": "ec5b6e5d48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindOled": {
+    "text": "Dauerhaft an (OLED)",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindQuestion": {
+    "text": "Was für ein Bildschirm ist es?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.wallPanel.kindTablet": {
+    "text": "Ein Tablet",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.wallPanel.languageLead": {
     "text": "Sprache und Formate auf diesem Wandpanel. Es folgt Ihrem Konto, außer Sie wählen andere.",
     "source": "b82acc09da",
@@ -10530,8 +11106,8 @@
     "reviewed": false
   },
   "editor.wallPanel.linkLabel": {
-    "text": "Link für einen Kiosk-Browser",
-    "source": "43ab0a7f53",
+    "text": "Adresse zum Öffnen auf dem Tablet",
+    "source": "6ace2ffa01",
     "by": "ai",
     "reviewed": false
   },
@@ -11593,7 +12169,7 @@
   },
   "editor.widgetPicker.fits": {
     "text": "{kind, select, device {{count, plural, one {# Gerät} other {# Geräte}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# Stimmung} other {# Stimmungen}}} other {{count, plural, one {# Element} other {# Elemente}}}}",
-    "source": "c284de0103",
+    "source": "88eb0060f2",
     "by": "ai",
     "reviewed": false
   },
@@ -11663,6 +12239,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.notFinding": {
+    "text": "Nicht gefunden? In der Community teilen Nutzer ihre Widgets.",
+    "source": "aaf5d3d8b3",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.notWhatYouWant": {
     "text": "Nicht das Richtige dabei?",
     "source": "59325083ce",
@@ -11713,7 +12295,13 @@
   },
   "editor.widgetPicker.searchPlaceholder": {
     "text": "Geräte, Flows, Stimmungen und Widgets suchen",
-    "source": "d28c4018be",
+    "source": "f9062c6d96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.seeCommunity": {
+    "text": "Ansehen, was es gibt",
+    "source": "ee98c0d06c",
     "by": "ai",
     "reviewed": false
   },
@@ -11792,6 +12380,18 @@
   "editor.widgetSettings.blockingOnTab": {
     "text": "Zum Speichern auf <tab>{tabName}</tab> {kind, select, one {} many {} other {mindestens {min, number} }}{noun}{more, plural, =0 {} other { und # weitere}} wählen.",
     "source": "71b77264e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyAction": {
+    "text": "Kopie zum Ändern erstellen",
+    "source": "ee00d4d24a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.copyLine": {
+    "text": "Dieses Widget stammt aus der Community. Möchten Sie Aussehen oder Funktion ändern?",
+    "source": "cf289f980a",
     "by": "ai",
     "reviewed": false
   },

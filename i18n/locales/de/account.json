@@ -7,7 +7,7 @@
   },
   "account.accessRules.linkNoFlows": {
     "text": "Flows starten, Schlösser öffnen, Alarm schalten oder Garagentore öffnen",
-    "source": "c57c37be65",
+    "source": "9f8f152352",
     "by": "ai",
     "reviewed": false
   },
@@ -37,7 +37,7 @@
   },
   "account.accessRules.screenControl": {
     "text": "Alles, was die Kacheln des Wandpanels tun, auch Flows und Schlösser",
-    "source": "c290bb52ce",
+    "source": "250cbd8bc1",
     "by": "ai",
     "reviewed": false
   },
@@ -313,7 +313,7 @@
   },
   "account.aiAssistants.deny0": {
     "text": "Ihre Geräte schalten oder Flows starten (nur Sie können Tippen in einer Vorschau eine Stunde lang zulassen)",
-    "source": "2a48357995",
+    "source": "fe35625779",
     "by": "ai",
     "reviewed": false
   },
@@ -362,6 +362,24 @@
   "account.aiAssistants.none": {
     "text": "Noch kein Assistent verbunden. Verbinden Sie unten einen.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherAddress": {
+    "text": "Jede App, die MCP unterstützt, verbindet sich mit dieser Adresse.",
+    "source": "2b6bd16bf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFold": {
+    "text": "Andere Apps und technische Details",
+    "source": "a5f78f4432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFoldInside": {
+    "text": "VS Code, Cursor, Claude Code und die MCP-Adresse",
+    "source": "9c89b59abb",
     "by": "ai",
     "reviewed": false
   },
@@ -589,7 +607,7 @@
   },
   "account.alertRules.offerFlow": {
     "text": "Flow anbieten",
-    "source": "c4ba540f92",
+    "source": "3b71e7cd86",
     "by": "ai",
     "reviewed": false
   },
@@ -1309,7 +1327,7 @@
   },
   "account.configImport.syncingDetail": {
     "text": "Tiledash liest gerade Geräte, Flows und Stimmungen aus {homey} aus, um die Kacheln zuzuordnen. Das dauert eine Minute.",
-    "source": "b5cdc30d17",
+    "source": "ddf4296f3f",
     "by": "ai",
     "reviewed": false
   },
@@ -1507,7 +1525,7 @@
   },
   "account.delete.lead": {
     "text": "Damit wird alles entfernt, was Sie in Tiledash erstellt haben. Ihr Homey selbst bleibt unberührt: Seine Geräte, Flows und Insights bleiben, wie sie sind.",
-    "source": "900cb1bb89",
+    "source": "0735f665f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1735,7 +1753,7 @@
   },
   "account.homeyApp.hidden": {
     "text": "Von einem Flow ausgeblendet",
-    "source": "205fe16925",
+    "source": "65e6c7b8b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1765,7 +1783,7 @@
   },
   "account.homeyApp.renameNote": {
     "text": "Umbenennen ändert den Namen auch in Homey; Flows funktionieren weiter.",
-    "source": "3ffe044d14",
+    "source": "028dcc3b4c",
     "by": "ai",
     "reviewed": false
   },
@@ -1807,7 +1825,7 @@
   },
   "account.homeyAppHost.disconnectText": {
     "text": "Kacheln melden nicht mehr an Homey und Flows können sie nicht ändern, bis Sie die App wieder verbinden.",
-    "source": "f134df4fd2",
+    "source": "9ef2d1d406",
     "by": "ai",
     "reviewed": false
   },
@@ -1831,7 +1849,7 @@
   },
   "account.homeyAppHost.removeText": {
     "text": "Kacheln, die sie melden, tun beim Drücken nichts mehr, und Flows mit ihr als Auslöser laufen nicht.",
-    "source": "0d0e153da8",
+    "source": "d2bef37afb",
     "by": "ai",
     "reviewed": false
   },
@@ -2621,6 +2639,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.mapTiles.lead": {
+    "text": "Karten auf Ihren Dashboards nutzen OpenFreeMap: kostenlos, ohne Schlüssel, nichts einzurichten.",
+    "source": "e2b1ec61fe",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.mapTiles.optional": {
     "text": "Optional.",
     "source": "a9aaf97cc9",
@@ -2630,6 +2654,18 @@
   "account.mapTiles.originsHint": {
     "text": "Dieser Server erlaubt {origins}.",
     "source": "d812a71e54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFold": {
+    "text": "Anderen Kartenanbieter nutzen",
+    "source": "f0e5c8ed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFoldInside": {
+    "text": "MapTiler oder Stadia Maps mit eigenem Schlüssel oder ein eigener Server",
+    "source": "440c627fee",
     "by": "ai",
     "reviewed": false
   },
@@ -3715,7 +3751,7 @@
   },
   "account.people.summaryFlows": {
     "text": "{count, plural, =0 {Keine Flows zum Starten} one {# Flow zum Starten} other {# Flows zum Starten}}",
-    "source": "9b5b0ffb4d",
+    "source": "4fe26e5bbc",
     "by": "ai",
     "reviewed": false
   },
@@ -4723,7 +4759,7 @@
   },
   "account.plans.rowHomeyApp": {
     "text": "Kacheln in Homey-Flows",
-    "source": "cd052940c8",
+    "source": "42a24b6a6b",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5075,204 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.putOnTablet.connect": {
+    "text": "Verbinden",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.description": {
+    "text": "Etwa eine Minute. Halten Sie das Tablet bereit.",
+    "source": "64e512de81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.done": {
+    "text": "Fertig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneText": {
+    "text": "Wischen Sie, um zwischen den Dashboards zu wechseln. Ändern können Sie alles später unter Einstellungen › Links und Bildschirme oder in den Einstellungen des Wandpanels.",
+    "source": "3b971d70f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneTitle": {
+    "text": "Das Tablet zeigt {dashboard}",
+    "source": "cef588e3d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.getPro": {
+    "text": "Pro holen",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleDim": {
+    "text": "Nach 10 Minuten dimmen",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleOn": {
+    "text": "Anlassen",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleSleep": {
+    "text": "Schlafen, bei Alarm aufwachen",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.itCan": {
+    "text": "Es darf",
+    "source": "f79b3f0da0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.name": {
+    "text": "Name",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.namePlaceholder": {
+    "text": "Tablet {dashboard}",
+    "source": "e5d57a921b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoom": {
+    "text": "Ihr Tarif erlaubt einen Bildschirm, und der ist belegt",
+    "source": "ea1ca9a20e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoomText": {
+    "text": "Entkoppeln Sie den anderen unter Einstellungen › Links und Bildschirme, oder holen Sie Pro für mehr Bildschirme.",
+    "source": "fdd416a294",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.onTablet": {
+    "text": "Auf dem Tablet",
+    "source": "1f14ab0788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.openAddress": {
+    "text": "Öffnen Sie auf dem Tablet {address} im Browser, oder scannen Sie dies:",
+    "source": "6c3e4f6c81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.putOn": {
+    "text": "Aufs Tablet bringen",
+    "source": "24f85f2d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEink": {
+    "text": "Ein E-Ink-Bildschirm",
+    "source": "59e276656c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEinkHint": {
+    "text": "Ruhiges Schwarz-Weiß, ab und zu aktualisiert.",
+    "source": "f81bab4b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOled": {
+    "text": "Dauerhaft an (OLED)",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOledHint": {
+    "text": "Dimmt und verschiebt sich im Leerlauf leicht, damit nichts einbrennt.",
+    "source": "0c8eb3cbaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTablet": {
+    "text": "Ein Tablet",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTabletHint": {
+    "text": "Die meisten Wandtablets: Android, iPad, Fire.",
+    "source": "40414220c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDone": {
+    "text": "Fertig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepScreen": {
+    "text": "Bildschirm",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepTablet": {
+    "text": "Das Tablet",
+    "source": "199ee075e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.tabletHint": {
+    "text": "Geben Sie diesen Code am Handy oder Computer ein",
+    "source": "0f360984fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.title": {
+    "text": "Auf ein Tablet bringen",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.typeCode": {
+    "text": "Geben Sie den angezeigten Code ein:",
+    "source": "c15c09222f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whatScreen": {
+    "text": "Was für ein Bildschirm ist es?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whenIdle": {
+    "text": "Wenn niemand es nutzt",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whichDashboards": {
+    "text": "Welche Dashboards soll es zeigen? Wischen Sie auf dem Tablet, um zwischen ihnen zu wechseln.",
+    "source": "ca0e57ae2a",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.recordings.elsewhere": {
     "text": "{here, select, yes {{count, plural, one {Und # Aufzeichnung auf Ihren anderen Homeys.} other {Und # Aufzeichnungen auf Ihren anderen Homeys.}}} other {{count, plural, one {# Aufzeichnung auf Ihren anderen Homeys.} other {# Aufzeichnungen auf Ihren anderen Homeys.}}}}",
     "source": "2bfd38a6f6",
@@ -5299,7 +5533,7 @@
   },
   "account.settings.homeyAppAbout": {
     "text": "Flows auf {homey} reagieren lassen, wenn eine Kachel gedrückt wird, und Kacheln ändern.",
-    "source": "6405df91c7",
+    "source": "d667263ea8",
     "by": "ai",
     "reviewed": false
   },
@@ -5911,7 +6145,7 @@
   },
   "account.sharingParts.controlLink": {
     "text": "Lampen, Steckdosen und Thermostat. Keine Flows oder Schlösser.",
-    "source": "d010574880",
+    "source": "c592ea936a",
     "by": "ai",
     "reviewed": false
   },

@@ -278,6 +278,12 @@ terms:
         shell.aiSetup.chatgpt1,
         floorplans.*,
         shell.names.floorPlans,
+        # The floor planner's tour (59.7): the plan being drawn.
+        shell.tour.planSafeBody,
+        shell.tour.planTourNoPlan,
+        shell.tour.planOfferText,
+        shell.tour.planEndTitle,
+        shell.tour.tourFloorPlan,
         account.plans.rowFloorPlans,
         account.plans.rowFloorPlans3d,
         account.plans.groupFloorPlans,

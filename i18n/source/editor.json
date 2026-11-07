@@ -356,7 +356,7 @@
     "file": "packages/ui/src/dashboard/HdBusyEditor.messages.ts"
   },
   "editor.busyEditor.hintVariable": {
-    "en": "It follows a variable, so it can open a dashboard or start a flow.",
+    "en": "It follows a variable, so it can open a dashboard or start a Flow.",
     "context": "Help text in the Tap tab of a thing that follows a Logic variable instead of a device: it has no device to open, so a tap can open a dashboard or start a flow.",
     "maxLength": 100,
     "file": "packages/ui/src/dashboard/HdBusyEditor.messages.ts"
@@ -685,7 +685,7 @@
     "file": "packages/ui/src/dashboard/HdButtonsEditor.messages.ts"
   },
   "editor.buttonsEditor.search": {
-    "en": "Search devices, flows, moods and dashboards",
+    "en": "Search devices, Flows, Moods and dashboards",
     "context": "Placeholder of the search box in the add-a-button area. It searches every tab at once.",
     "maxLength": 60,
     "file": "packages/ui/src/dashboard/HdButtonsEditor.messages.ts"
@@ -1390,10 +1390,481 @@
     "file": "packages/ui/src/dashboard/stylePresets/HdCssHooks.messages.ts"
   },
   "editor.cssHooks.listLabel": {
-    "en": "Hooks to style",
+    "en": "Parts you can style",
     "context": "Screen reader label of the list of chips with CSS class names a tile’s CSS can style. Not shown.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/stylePresets/HdCssHooks.messages.ts"
+  },
+  "editor.custom.byKind": {
+    "en": "By kind",
+    "context": "Choice: lights together, heating together and so on, under a heading each.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.byKindHint": {
+    "en": "Lights together, heating together… good for an Energy or Security dashboard.",
+    "context": "Grey line under the grouping choices when \"By kind\" is chosen.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.byRoom": {
+    "en": "By room",
+    "context": "Choice: a heading for each room, with its tiles under it.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.byRoomHint": {
+    "en": "A heading per room, like the Devices tab in the Homey app.",
+    "context": "Grey line under the grouping choices when \"By room\" is chosen.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.clear": {
+    "en": "Clear",
+    "context": "Small link that unticks every room, beside the room count or beside a floor’s name (then every room on that floor). Shown instead of \"Select all\" once all are ticked.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.createMany": {
+    "en": "Create {count} dashboards",
+    "context": "Blue button in the footer of the new-dashboard dialog when one dashboard per room is chosen: it makes them all.",
+    "params": {
+      "count": "How many dashboards, 2 to 8."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.dashboardCount": {
+    "en": "{count} dashboards",
+    "context": "Small count in the footer of the new-dashboard dialog when one dashboard per room is chosen, instead of the count of tiles.",
+    "params": {
+      "count": "How many dashboards, 2 to 8."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.defaultName": {
+    "en": "Home",
+    "context": "Name the new-dashboard dialog suggests for a custom dashboard of several rooms, before the person types one. A dashboard of one room gets that room’s name instead.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.descriptionLook": {
+    "en": "Choose how it’s laid out. The preview shows every change.",
+    "context": "Text under the title of the new-dashboard dialog on the last step, where the layout is chosen beside a live preview.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.descriptionWhat": {
+    "en": "Pick the rooms and what goes on it. We picked what most people switch or set.",
+    "context": "Text under the title of the new-dashboard dialog on the step that picks the rooms and kinds of things. Some kinds start switched on.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.groupingQuestion": {
+    "en": "How should it be grouped?",
+    "context": "Question over three choices for the layout of the new dashboard, on its last step.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintAppliance": {
+    "en": "See when the wash is done",
+    "context": "Small grey line on the Appliances switch: what their tiles show.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintClimate": {
+    "en": "Thermostats and heaters",
+    "context": "Small grey line on the Heating switch: what it covers.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintCover": {
+    "en": "Open and close",
+    "context": "Small grey line on the Blinds and curtains switch: what their tiles do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintFlow": {
+    "en": "The Flows you starred in Homey",
+    "context": "Small grey line on the Favorite Flows switch: which Flows these are (starred, \"Favorites\", in the Homey app).",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintLight": {
+    "en": "Switch and dim",
+    "context": "Small grey line on the Lights switch: what their tiles do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintLock": {
+    "en": "Lock and unlock",
+    "context": "Small grey line on the Locks switch: what their tiles do.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintMood": {
+    "en": "Set the ambiance in a room",
+    "context": "Small grey line on the Moods switch: what a Mood does.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintPlug": {
+    "en": "Only some are worth switching",
+    "context": "Small grey line on the Plugs switch: why it starts off.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.hintSensor": {
+    "en": "Already counted in the summaries",
+    "context": "Small grey line on the Sensors and meters switch: why it starts off. The summaries in the headings already show open windows, motion and temperature.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindAppliance": {
+    "en": "Appliances",
+    "context": "Name of the switch that puts the washing machine, dryer and dishwasher on the dashboard. Off at first.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindClimate": {
+    "en": "Heating",
+    "context": "Name of the switch that puts thermostats and heaters of the ticked rooms on the dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindCover": {
+    "en": "Blinds and curtains",
+    "context": "Name of the switch that puts blinds, curtains and shutters on the dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindFlow": {
+    "en": "Favorite Flows",
+    "context": "Name of the switch that puts the Flows starred in the Homey app on the dashboard. A Flow is an automation in Homey; only Flows that can be started by hand are offered.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindFlows": {
+    "en": "{count, plural, one {# Flow} other {# Flows}}",
+    "context": "Small line on the \"Favorite Flows\" switch: how many starred Flows can be started. A Flow is an automation in Homey.",
+    "params": {
+      "count": "How many starred Flows, at least 1."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindInRooms": {
+    "en": "{count} in {rooms, plural, one {# room} other {# rooms}}",
+    "context": "Small line on a kind’s switch: how many there are and in how many of the ticked rooms, such as \"23 in 11 rooms\".",
+    "params": {
+      "count": "How many of this kind, at least 1.",
+      "rooms": "In how many rooms, at least 1."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindLeftOut": {
+    "en": "{count} left out",
+    "context": "Added after a kind’s count when some of that kind were left out one by one (with × in the preview), such as \"23 in 11 rooms · 2 left out\".",
+    "params": {
+      "count": "How many were left out, at least 1."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindLight": {
+    "en": "Lights",
+    "context": "Name of the switch that puts the lights of the ticked rooms on the dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindLock": {
+    "en": "Locks",
+    "context": "Name of the switch that puts door locks on the dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindMood": {
+    "en": "Moods",
+    "context": "Name of the switch that puts the rooms’ Moods on the dashboard. A Mood is a Homey preset that sets the lights and devices of a room at once.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindPlug": {
+    "en": "Plugs",
+    "context": "Name of the switch that puts smart plugs and other switchable sockets on the dashboard. Off at first.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindSensor": {
+    "en": "Sensors and meters",
+    "context": "Name of the switch that puts sensors (motion, doors, smoke, temperature) and energy meters on the dashboard. Off at first.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindsLater": {
+    "en": "Want to leave out a single lamp or Mood? Tap × on its tile in the preview, on the next step.",
+    "context": "Hint under the switches for kinds of things. On the next step every tile in the preview has a × that leaves it out.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindsQuestion": {
+    "en": "What should go on it?",
+    "context": "Question above the switches for kinds of things (lights, heating, Moods…) on the new-dashboard dialog.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.kindsWaiting": {
+    "en": "Pick rooms above",
+    "context": "Small grey line on each kind’s switch while no room is ticked yet; the counts show once rooms are picked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.leftOut": {
+    "en": "Left out {name}.",
+    "context": "Line under the preview after a tile was left out with ×; an Undo button follows.",
+    "params": {
+      "name": "The tile’s name, such as \"Kitchen lights\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.lightsEach": {
+    "en": "A tile per light",
+    "context": "Choice: every light its own tile.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.lightsEachHint": {
+    "en": "Each light its own tile, with its brightness.",
+    "context": "Grey line under the Lights choices when a tile per light is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.lightsGroup": {
+    "en": "One tile per room",
+    "context": "Choice: a room’s lights as buttons in one tile.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.lightsGroupHint": {
+    "en": "A room’s lights as buttons in one tile. A room with one light keeps its own tile.",
+    "context": "Grey line under the Lights choices when one tile per room is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.lightsQuestion": {
+    "en": "Lights",
+    "context": "Heading over two choices for how a room’s lights show.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.moreStarts": {
+    "en": "More ready-made starts",
+    "context": "Button under the start cards of the new-dashboard dialog that unfolds more ready-made dashboards (Favourites, Energy, Climate, Security, Moods and Flows, a sleep screen).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.noHeadings": {
+    "en": "No headings",
+    "context": "Choice: all tiles in one block without headings.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.noHeadingsHint": {
+    "en": "One calm block of tiles, for a small dashboard.",
+    "context": "Grey line under the grouping choices when \"No headings\" is chosen.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.otherPlaces": {
+    "en": "Outside and other",
+    "context": "Heading over the rooms that are not on a floor in the Homey (a garden, a garage), in the grid of rooms.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.pickARoom": {
+    "en": "Pick at least one room",
+    "context": "Small grey note in the footer of the new-dashboard dialog while no room is ticked; the Next button waits until one is.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.removeHint": {
+    "en": "Tap × on a tile to leave it out.",
+    "context": "Grey line under the preview of the new dashboard.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.removeTile": {
+    "en": "Leave out {name}",
+    "context": "Read out by screen readers for the × on a tile in the preview of the new dashboard; it leaves that tile out.",
+    "params": {
+      "name": "The tile’s name, such as \"Kitchen lights\" or \"Thermostat\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.roomLights": {
+    "en": "{room} lights",
+    "context": "Name of a tile that holds a room’s lights as buttons, read out for its × in the preview, such as \"Kitchen lights\".",
+    "params": {
+      "room": "The room’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.roomMoods": {
+    "en": "{room} Moods",
+    "context": "Name of a tile that holds a room’s Moods as buttons, read out for its × in the preview.",
+    "params": {
+      "room": "The room’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.roomTabs": {
+    "en": "The dashboards it makes",
+    "context": "Read out by screen readers for the row of room names above the preview when one dashboard per room is chosen.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.roomsCount": {
+    "en": "{picked} of {total}",
+    "context": "Small count beside \"Which rooms?\": how many rooms are ticked of all the rooms, such as \"3 of 11\".",
+    "params": {
+      "picked": "Rooms ticked, at least 0.",
+      "total": "All the rooms, at least 1."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.roomsQuestion": {
+    "en": "Which rooms?",
+    "context": "Question above the grid of rooms (Homey zones) on the new-dashboard dialog. Ticking a room brings what is in it onto the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.scenesEach": {
+    "en": "A tile for each",
+    "context": "Choice: every Mood and Flow its own tile.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.scenesEachHint": {
+    "en": "Big buttons with their own icon. Best when there are only a few.",
+    "context": "Grey line under the Moods and Flows choices when a tile for each is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.scenesGroup": {
+    "en": "One buttons tile per room",
+    "context": "Choice: a room’s Moods (and the Flows) as buttons in one tile.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.scenesGroupHint": {
+    "en": "Like the Moods and Flows widgets in the Homey app: one tile, a button for each.",
+    "context": "Grey line under the Moods and Flows choices when one tile per room is chosen.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.scenesQuestion": {
+    "en": "Moods and Flows",
+    "context": "Heading over two choices for how Moods and Flows show: together in one tile per room, or a tile each.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.selectAll": {
+    "en": "Select all",
+    "context": "Small link that ticks every room, beside the room count or beside a floor’s name (then every room on that floor).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.splitHint": {
+    "en": "{count} dashboards, one per room. Tap a room above the preview to see it.",
+    "context": "Grey line under the switch for one dashboard per room, when it is on. The preview shows one room at a time; the room names above it switch between them.",
+    "params": {
+      "count": "How many dashboards will be made, 2 to 8."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.splitLabel": {
+    "en": "One dashboard per room, with buttons to move between them",
+    "context": "Switch on the last step of the new-dashboard dialog, shown when the picked rooms make more tiles than fit a screen: it makes a dashboard for each room instead, each with a bar of buttons at the bottom to go to the others.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.startDescription": {
+    "en": "Pick the rooms and what from them. We suggest a tidy layout; you choose.",
+    "context": "Text on the \"Custom dashboard\" start card of the new-dashboard dialog, under its name.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.startName": {
+    "en": "Custom dashboard",
+    "context": "Name of the first, recommended start card in the new-dashboard dialog: the person picks the rooms and kinds of things, and Tiledash lays the dashboard out.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.stepLook": {
+    "en": "How it looks",
+    "context": "Last step of the new-dashboard dialog, in the row of steps at the top: how the dashboard is laid out, beside a live preview.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.stepWhat": {
+    "en": "What’s on it",
+    "context": "Second step of the new-dashboard dialog, in the row of steps at the top: picking the rooms and the kinds of things that go on the dashboard.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.summariesKinds": {
+    "en": "On each heading",
+    "context": "Switch, when grouped by kind: each heading (Lights, Heating…) has its summaries.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.summariesQuestion": {
+    "en": "Summaries",
+    "context": "Heading over two switches for summaries: small live figures in a heading, such as \"3 lights on\", the temperature or what is open.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.summariesRooms": {
+    "en": "Per room, on its heading",
+    "context": "Switch: each room’s heading has that room’s summaries.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.summariesTop": {
+    "en": "On top: lights on, temperature, what’s open",
+    "context": "Switch: a row of summaries for the whole home at the top of the dashboard.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.tooMany": {
+    "en": "That’s a lot for one screen",
+    "context": "Title of a note on the new-dashboard dialog when the picked rooms and kinds make more tiles than fit a screen comfortably.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.tooManyText": {
+    "en": "{count} tiles; about {comfortable} fit comfortably. Pick fewer rooms, or switch some kinds off.",
+    "context": "Text of the note about too many tiles: how many there are, how many fit a screen comfortably, and what to do.",
+    "params": {
+      "comfortable": "About how many fit a screen comfortably: 20, or 30 for a wall tablet.",
+      "count": "Tiles the dashboard would have, more than comfortable."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
+  },
+  "editor.custom.undo": {
+    "en": "Undo",
+    "context": "Button after \"Left out …\" under the preview: puts the tile back.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/customWizard.messages.ts"
   },
   "editor.dashboard.addHeading": {
     "en": "Heading",
@@ -1832,31 +2303,31 @@
     "maxLength": 70,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
-  "editor.dashboardPage.deleteBody": {
-    "en": "Its tiles are removed with it. Your devices and flows are not touched.",
-    "context": "Text of the confirmation dialog before a dashboard is deleted. It says the tiles of the dashboard go with it, and reassures that the devices and flows (automations) of the Homey are not changed.",
-    "maxLength": 90,
-    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
-  },
-  "editor.dashboardPage.deleteConfirm": {
-    "en": "Delete dashboard",
-    "context": "Red button of the confirmation dialog before a dashboard is deleted. It confirms and deletes the dashboard. A command.",
-    "maxLength": 32,
-    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
-  },
   "editor.dashboardPage.deleteFailed": {
     "en": "Couldn’t delete the dashboard.",
     "context": "Red message (toast) when deleting the dashboard failed.",
     "maxLength": 50,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
-  "editor.dashboardPage.deleteTitle": {
-    "en": "Delete “{name}”?",
-    "context": "Question that is the title of the confirmation dialog before a dashboard is deleted. The quotes are around the name of the dashboard.",
+  "editor.dashboardPage.deleteTooLate": {
+    "en": "It was deleted already.",
+    "context": "Message (toast) when Undo is pressed on a deleted dashboard too late, after it was really deleted.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
+  },
+  "editor.dashboardPage.deleted": {
+    "en": "“{name}” deleted",
+    "context": "Message (toast) right after a dashboard was deleted, with an Undo button: for a few seconds the dashboard can still be brought back as it was. The quotes are around the dashboard’s name.",
     "params": {
       "name": "The name of the dashboard. Not translated."
     },
     "maxLength": 60,
+    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
+  },
+  "editor.dashboardPage.deletedHint": {
+    "en": "Its tiles went with it. Your devices and Flows are not touched.",
+    "context": "Second line of that message: the tiles of the dashboard were deleted with it, and the devices and Flows (automations) of the Homey were not changed.",
+    "maxLength": 90,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
   "editor.dashboardPage.headingSaveFailed": {
@@ -1900,30 +2371,6 @@
       "inside": "How many tiles inside the removed tiles went with them, 0 when none."
     },
     "maxLength": 560,
-    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
-  },
-  "editor.dashboardPage.startFailed": {
-    "en": "Couldn’t change the start page.",
-    "context": "Red message (toast) when choosing which dashboard the app opens with failed.",
-    "maxLength": 50,
-    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
-  },
-  "editor.dashboardPage.startOff": {
-    "en": "The app opens on “{page}” again",
-    "context": "Message (toast) after the person stopped this dashboard from being the one the app opens with, so the app opens on the devices page again.",
-    "params": {
-      "page": "The name of the devices page, \"Devices\". Already translated."
-    },
-    "maxLength": 64,
-    "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
-  },
-  "editor.dashboardPage.startOn": {
-    "en": "{name} opens when you start the app",
-    "context": "Message (toast) after the person made this dashboard the one the app opens with when it starts. It begins with the name of the dashboard.",
-    "params": {
-      "name": "The name of the dashboard. Not translated."
-    },
-    "maxLength": 70,
     "file": "apps/web/src/dashboards/DashboardPageEditing.messages.ts"
   },
   "editor.dashboardPage.styleBody": {
@@ -2040,16 +2487,16 @@
     "maxLength": 50,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
-  "editor.dashboardSettings.betweenTiles": {
-    "en": "Between tiles",
-    "context": "Label of the setting for the room (the gap) between the tiles of the dashboard, on the Spacing tab. Shown above a row of choices and a slider.",
+  "editor.dashboardSettings.backToTheme": {
+    "en": "Back to the theme’s",
+    "context": "Link after \"Your own for this dashboard.\": the dashboard follows the theme’s spacing again.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
-  "editor.dashboardSettings.betweenTilesChoice": {
-    "en": "Space between tiles",
-    "context": "Name of the row of choices (Theme, None, Tight, Normal, Roomy) for the room between tiles, read out by screen readers. Not visible as text.",
-    "maxLength": 40,
+  "editor.dashboardSettings.betweenTiles": {
+    "en": "Room between tiles",
+    "context": "Label of the setting for the room (the gap) between the tiles of the dashboard, on the Spacing tab. Shown above a row of choices and a slider.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.betweenTilesPixels": {
@@ -2074,10 +2521,28 @@
     "maxLength": 70,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
+  "editor.dashboardSettings.change": {
+    "en": "Change…",
+    "context": "Button beside the name and icon, or beside the summaries, in the dashboard settings. It opens a dialog of its own to change them; the dots mean a dialog follows.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
   "editor.dashboardSettings.description": {
     "en": "How this dashboard is laid out. The preview, and the dashboard behind, follow every change.",
     "context": "Text under the title of the dashboard settings dialog. Every change shows at once in the preview inside the dialog and on the dashboard behind it, and is undone unless saved.",
     "maxLength": 140,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.fineTune": {
+    "en": "Fine-tune",
+    "context": "Title of a folded part of the Layout tab with the spacing in pixels, the room around the dashboard and joining touching tiles.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.fineTuneInside": {
+    "en": "pixels, the edge around the dashboard, tiles joined as one shape",
+    "context": "Small grey text next to the fold title \"Fine-tune\": what is inside it. Lower case.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.fitToScreen": {
@@ -2092,53 +2557,41 @@
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
+  "editor.dashboardSettings.followsTheme": {
+    "en": "Follows your theme: {gap} px.",
+    "context": "Line under the spacing cards while the dashboard uses its theme’s spacing. px is pixels.",
+    "params": {
+      "gap": "The theme’s spacing in pixels, a number."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
   "editor.dashboardSettings.freePlacement": {
-    "en": "Free placement",
-    "context": "Label of a switch on the Layout tab, also its name for screen readers. When on, tiles stay exactly where the person puts them, with gaps allowed.",
+    "en": "Keep tiles where you put them",
+    "context": "Label of a switch on the Layout tab, also its name for screen readers. When on, tiles stay exactly where the person puts them, with gaps allowed (it used to be called Free placement).",
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.freePlacementHint": {
-    "en": "Tiles stay where you put them, instead of rising to the top.",
-    "context": "Help text under the Free placement switch. Without it, tiles move up to close any gaps; with it they stay where they were dropped.",
+    "en": "Gaps are allowed. Otherwise tiles move up to fill them.",
+    "context": "Help text under the switch \"Keep tiles where you put them\". Without it, tiles move up to close any gaps; with it they stay where they were dropped.",
     "maxLength": 100,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
-  "editor.dashboardSettings.gapNone": {
-    "en": "None",
-    "context": "Choice in the row for the room between tiles: no room at all, tiles touch. A short word on a segmented button.",
-    "maxLength": 12,
+  "editor.dashboardSettings.iconChange": {
+    "en": "Change the icon",
+    "context": "Screen reader label of the button showing the dashboard’s icon on the General tab: it opens the icons to choose from.",
+    "maxLength": 40,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
-  "editor.dashboardSettings.gapNormal": {
-    "en": "Normal",
-    "context": "Choice in the row for the room between tiles: the usual room. A short word on a segmented button, between Tight and Roomy.",
-    "maxLength": 12,
-    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
-  },
-  "editor.dashboardSettings.gapRoomy": {
-    "en": "Roomy",
-    "context": "Choice in the row for the room between tiles: a generous room. A short word on a segmented button, the largest choice.",
-    "maxLength": 12,
-    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
-  },
-  "editor.dashboardSettings.gapTheme": {
-    "en": "Theme · {gap}",
-    "context": "First choice in the row for the room between tiles: use the room the theme asks for, followed by that room in pixels, such as \"Theme · 12\". The theme is the set of colours, type and corners the dashboard uses.",
-    "params": {
-      "gap": "The theme’s own room between tiles in pixels, a number such as 12."
-    },
-    "maxLength": 20,
-    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
-  },
-  "editor.dashboardSettings.gapTight": {
-    "en": "Tight",
-    "context": "Choice in the row for the room between tiles: a small room. A short word on a segmented button, between None and Normal.",
-    "maxLength": 12,
+  "editor.dashboardSettings.leadGeneral": {
+    "en": "The dashboard’s name and icon, and the summaries beside its name.",
+    "context": "Short line at the top of the General tab of the dashboard settings dialog (tabs above the settings), saying what is in it. Summaries are small chips beside the dashboard name, such as \"3 lights on\" or \"21 °C\".",
+    "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.leadLayout": {
-    "en": "How the tiles fill the screen, where they can go, and the title.",
+    "en": "How the tiles sit: the room between them, and how they fill the screen.",
     "context": "Short line at the top of the Layout tab of the dashboard settings dialog (tabs above the settings): fitting the dashboard to the screen, placing tiles freely, and its title.",
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
@@ -2152,12 +2605,6 @@
   "editor.dashboardSettings.leadPopups": {
     "en": "What opens over the dashboard by itself when something happens.",
     "context": "Short line at the top of the Popups tab of the dashboard settings dialog (tabs above the settings): popups that open on their own on an event, such as the doorbell’s camera when it rings.",
-    "maxLength": 90,
-    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
-  },
-  "editor.dashboardSettings.leadSpacing": {
-    "en": "The room between the tiles, and around them.",
-    "context": "Short line at the top of the Spacing tab of the dashboard settings dialog (tabs above the settings), saying what is in it.",
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
@@ -2185,6 +2632,24 @@
     "maxLength": 12,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
+  "editor.dashboardSettings.nameAndIcon": {
+    "en": "Name and icon",
+    "context": "Label in the General tab of the dashboard settings, above the dashboard’s name and icon.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.nameLabel": {
+    "en": "Name",
+    "context": "Screen reader label of the name field on the General tab of the dashboard settings, next to the icon button.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.nameMissing": {
+    "en": "Give it a name.",
+    "context": "Shown under the empty name field on the General tab: a dashboard needs a name to be saved.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
   "editor.dashboardSettings.oneShape": {
     "en": "Touching tiles become one shape",
     "context": "Label of a switch on the Spacing tab, also its name for screen readers. When on, tiles that touch square off the corners they share, so a group of tiles looks like one shape.",
@@ -2201,6 +2666,12 @@
     "en": "Tiles side by side square off the corners they share; the outer corners of the group stay round.",
     "context": "Help text under the switch for touching tiles, shown while there is some room between tiles. Tiles that sit next to each other get square corners where they meet; the outer corners of the group stay round.",
     "maxLength": 150,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.ownSpacing": {
+    "en": "Your own for this dashboard.",
+    "context": "Line under the spacing cards when the dashboard has its own spacing; a link \"Back to the theme’s\" follows it.",
+    "maxLength": 50,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.seamLine": {
@@ -2233,6 +2704,45 @@
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
+  "editor.dashboardSettings.spacing": {
+    "en": "{choice, select, none {Touching} tight {Snug} normal {Comfortable} other {Roomy}}",
+    "context": "Name on one of four picture cards for the room between tiles on the Layout tab: Touching (no room, the tiles form one block), Snug, Comfortable or Roomy.",
+    "params": {
+      "choice": "\"none\", \"tight\", \"normal\" or \"roomy\"."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.spacingLine": {
+    "en": "{choice, select, none {One block} tight {More on screen} normal {Easy to tell apart} other {Calm and airy}}",
+    "context": "Small line under the name on each of those cards: what that spacing is good for.",
+    "params": {
+      "choice": "\"none\", \"tight\", \"normal\" or \"roomy\"."
+    },
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.summaries": {
+    "en": "Summaries",
+    "context": "Label in the General tab of the dashboard settings. Summaries are small chips beside the dashboard name that sum up devices, such as \"3 lights on\" or \"21 °C\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.summariesCount": {
+    "en": "{count, plural, =0 {None yet: add “3 lights on” or the temperature beside the name.} one {# beside the name: small live figures} other {# beside the name: small live figures}}",
+    "context": "Line under Summaries in the General tab: how many summaries (chips such as \"3 lights on\") the dashboard shows beside its name, or, with none, what they are.",
+    "params": {
+      "count": "The number of summaries, 0 or more."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.tabGeneral": {
+    "en": "General",
+    "context": "Name of the first tab of the dashboard settings dialog. It holds the dashboard’s name and icon and the summaries beside its name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
   "editor.dashboardSettings.tabLayout": {
     "en": "Layout",
     "context": "Name of the second tab of the dashboard settings dialog. It holds fit to screen, free placement and showing the title.",
@@ -2251,12 +2761,6 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
-  "editor.dashboardSettings.tabSpacing": {
-    "en": "Spacing",
-    "context": "Name of the first tab of the dashboard settings dialog. It holds the room between tiles and around the dashboard.",
-    "maxLength": 16,
-    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
-  },
   "editor.dashboardSettings.themeChange": {
     "en": "Change…",
     "context": "Small button beside the name of the dashboard’s theme on the Look tab. It opens the dialog to pick another theme.",
@@ -2267,6 +2771,12 @@
     "en": "Colours, type and corners.",
     "context": "Help text under the name of the dashboard’s theme on the Look tab. It says what a theme is made of: colours, the type (fonts) and the shape of the corners.",
     "maxLength": 50,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.themeMark": {
+    "en": "Theme",
+    "context": "Small badge on the spacing card that matches the dashboard theme’s own spacing.",
+    "maxLength": 12,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.title": {
@@ -3421,7 +3931,7 @@
     "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
   },
   "editor.headingSettings.tapFlow": {
-    "en": "Start a flow",
+    "en": "Start a Flow",
     "context": "Choice of what tapping a summary pill does: start a Flow of the Homey. Flow is the Homey feature for automations and stays as it is.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HeadingSettingsDialog.messages.ts"
@@ -3609,7 +4119,7 @@
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
   },
   "editor.homeyTileTap.follows": {
-    "en": "This tile follows it: flows can switch it on and off, give it a text or number, a colour or an icon, or hide it.",
+    "en": "This tile follows it: Flows can switch it on and off, give it a text or number, a colour or an icon, or hide it.",
     "context": "Note under the Homey tile dropdown: what flows in the Homey app can change on this tile.",
     "maxLength": 140,
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
@@ -3633,7 +4143,7 @@
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
   },
   "editor.homeyTileTap.inAFlow": {
-    "en": "In a flow: When {name} is pressed.",
+    "en": "In a Flow: When {name} is pressed.",
     "context": "Note under the dropdown that says how the Homey tile shows up in a flow in the Homey app: as the trigger card \"When <name> is pressed\".",
     "params": {
       "name": "The Homey tile’s name. Not translated."
@@ -3642,7 +4152,7 @@
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
   },
   "editor.homeyTileTap.nameHint": {
-    "en": "Short and clear, as you’d say it in a flow: “Movie night”.",
+    "en": "Short and clear, as you’d say it in a Flow: “Movie night”.",
     "context": "Hint under the name field of a new Homey tile. The example is a name for a tile that starts a movie scene.",
     "maxLength": 80,
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
@@ -3678,7 +4188,7 @@
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
   },
   "editor.homeyTileTap.pro": {
-    "en": "Let Homey flows react to this tile, and change it: on and off, a text, a colour or an icon, or hide it. Comes with Pro.",
+    "en": "Let Homey Flows react to this tile, and change it: on and off, a text, a colour or an icon, or hide it. Comes with Pro.",
     "context": "Text in the tap settings on the Free plan, instead of the Homey tile fields; \"Pro\" is the paid plan. A button to get Pro follows.",
     "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdHomeyTileTapFields.messages.ts"
@@ -5532,6 +6042,15 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/iconPicker.messages.ts"
   },
+  "editor.itemStyling.backToTheme": {
+    "en": "{count, plural, one {Back to the theme} other {# tiles back to the theme}}",
+    "context": "Message (toast) after \"Back to theme\" in the style panel took away the own style of one or more tiles, so they look as the dashboard’s theme draws them. An Undo button follows it.",
+    "params": {
+      "count": "How many tiles, at least 1."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/useItemStyling.messages.ts"
+  },
   "editor.itemStyling.copied": {
     "en": "Style copied",
     "context": "Title of the message (toast) after the style of a tile was copied, from the tile’s menu or the style panel.",
@@ -5551,6 +6070,12 @@
       "count": "How many tiles the style was pasted on, at least 1."
     },
     "maxLength": 100,
+    "file": "apps/web/src/dashboards/useItemStyling.messages.ts"
+  },
+  "editor.itemStyling.undo": {
+    "en": "Undo",
+    "context": "Button in that message: gives the tiles their own style back. A command.",
+    "maxLength": 16,
     "file": "apps/web/src/dashboards/useItemStyling.messages.ts"
   },
   "editor.layoutBlocks.deviceGoneLine": {
@@ -6269,7 +6794,7 @@
     "file": "packages/ui/src/dashboard/openModes.messages.ts"
   },
   "editor.orderedPick.add": {
-    "en": "Add {noun, select, device {a device} flow {a flow} mood {a mood} dashboard {a dashboard} other {one}}",
+    "en": "Add {noun, select, device {a device} flow {a Flow} mood {a Mood} dashboard {a dashboard} other {one}}",
     "context": "Label of the button that opens the search over what can be added to the list. It names what the list holds: device, Flow (an automation of the Homey), mood (a scene) or dashboard. A command.",
     "params": {
       "noun": "What the list holds: device, flow, mood or dashboard. A code, not translated; the message has a branch for each."
@@ -6278,7 +6803,7 @@
     "file": "packages/ui/src/components/orderedPick.messages.ts"
   },
   "editor.orderedPick.allPicked": {
-    "en": "Every {noun, select, device {device} flow {flow} mood {mood} dashboard {dashboard} other {item}} that fits is picked.",
+    "en": "Every {noun, select, device {device} flow {Flow} mood {Mood} dashboard {dashboard} other {item}} that fits is picked.",
     "context": "Line in the list of what can still be added, when everything that fits is already picked. It names what the list holds: device, Flow (an automation of the Homey), mood (a scene) or dashboard.",
     "params": {
       "noun": "What the list holds: device, flow, mood or dashboard. A code, not translated; the message has a branch for each."
@@ -6314,7 +6839,7 @@
     "file": "packages/ui/src/components/orderedPick.messages.ts"
   },
   "editor.orderedPick.count": {
-    "en": "{noun, select, device {{count, plural, one {# device} other {# devices}}} flow {{count, plural, one {# flow} other {# flows}}} mood {{count, plural, one {# mood} other {# moods}}} dashboard {{count, plural, one {# dashboard} other {# dashboards}}} other {{count, plural, one {# item} other {# items}}}}",
+    "en": "{noun, select, device {{count, plural, one {# device} other {# devices}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# Mood} other {# Moods}}} dashboard {{count, plural, one {# dashboard} other {# dashboards}}} other {{count, plural, one {# item} other {# items}}}}",
     "context": "First part of the small count line next to the Add button: how many are picked, such as \"3 devices\". More parts follow after a middle dot, such as \"at least 2\" and \"at most 8\". It names what the list holds: device, Flow (an automation of the Homey), mood (a scene) or dashboard.",
     "params": {
       "count": "How many are picked. A number.",
@@ -6354,7 +6879,7 @@
     "file": "packages/ui/src/components/orderedPick.messages.ts"
   },
   "editor.orderedPick.noneYet": {
-    "en": "{noun, select, device {No devices picked yet.} flow {No flows picked yet.} mood {No moods picked yet.} dashboard {No dashboards picked yet.} other {Nothing picked yet.}}",
+    "en": "{noun, select, device {No devices picked yet.} flow {No Flows picked yet.} mood {No Moods picked yet.} dashboard {No dashboards picked yet.} other {Nothing picked yet.}}",
     "context": "Text shown instead of the picked list while nothing is picked. It names what the list holds: devices, Flows (automations of the Homey), moods (scenes) or dashboards.",
     "params": {
       "noun": "What the list holds: device, flow, mood or dashboard. A code, not translated; the message has a branch for each."
@@ -6384,7 +6909,7 @@
     "file": "packages/ui/src/components/orderedPick.messages.ts"
   },
   "editor.orderedPick.searchPlaceholder": {
-    "en": "Search {noun, select, device {devices} flow {flows} mood {moods} dashboard {dashboards} other {items}}",
+    "en": "Search {noun, select, device {devices} flow {Flows} mood {Moods} dashboard {dashboards} other {items}}",
     "context": "Placeholder of the search box that opens after \"Add\", over the devices, flows, moods or dashboards that are not picked yet.",
     "params": {
       "noun": "What the list holds: device, flow, mood or dashboard. A code, not translated; the message has a branch for each."
@@ -7045,7 +7570,7 @@
     "file": "packages/ui/src/dashboard/HdPlaceLocation.messages.ts"
   },
   "editor.placeLocation.bothHint": {
-    "en": "A text holding both, as location apps and flows write it: 52.37, 4.89",
+    "en": "A text holding both, as location apps and Flows write it: 52.37, 4.89",
     "context": "Help text under the One text field: the value is one text with latitude and longitude, written like the example by location apps and by Homey flows. Keep the example numbers and its comma as they are.",
     "maxLength": 100,
     "file": "packages/ui/src/dashboard/HdPlaceLocation.messages.ts"
@@ -8790,6 +9315,18 @@
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
   },
+  "editor.stylePanel.cssFold": {
+    "en": "Custom CSS (advanced)",
+    "context": "Title of a fold at the foot of the style panel holding the tile’s own CSS (code for web pages). Closed, its contents are named beside it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
+  "editor.stylePanel.cssFoldInside": {
+    "en": "your own CSS for this tile, and the parts you can style",
+    "context": "Grey words beside the closed \"Custom CSS (advanced)\" fold: what it holds. The parts you can style are the names (CSS classes) the tile offers for CSS.",
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
   "editor.stylePanel.frostedGlass": {
     "en": "Frosted glass",
     "context": "Label of a switch: the tile’s background blurs what is behind it, like frosted glass. Also its screen reader label.",
@@ -8842,6 +9379,18 @@
     "en": "None",
     "context": "Choice button of the Background and Shadow controls: no background, or no shadow at all.",
     "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
+  "editor.stylePanel.ownTheme": {
+    "en": "Make your own theme",
+    "context": "Link after the line \"Want every tile to look your way? Make a theme of your own.\" at the bottom of the style panel. It opens the theme editor for a new theme. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
+  },
+  "editor.stylePanel.ownThemeLine": {
+    "en": "Want every tile to look your way? Make a theme of your own.",
+    "context": "Quiet line at the very bottom of the style panel, under the buttons, for people who style tiles one by one. A link \"Make your own theme\" follows it and opens the theme editor, where colours, corners and fonts for a whole dashboard are made.",
+    "maxLength": 90,
     "file": "packages/ui/src/dashboard/HdStylePanel.messages.ts"
   },
   "editor.stylePanel.padding": {
@@ -9482,7 +10031,7 @@
     "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
   },
   "editor.tapActions.flow": {
-    "en": "Start a flow",
+    "en": "Start a Flow",
     "context": "Tap action: start a Homey flow (an automation).",
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/tapActions.messages.ts"
@@ -9586,6 +10135,18 @@
     "maxLength": 140,
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
   },
+  "editor.tapChoices.moreActions": {
+    "en": "More actions…",
+    "context": "Last choice of the \"When tapped\" picker while the rarer actions are folded away: choosing it shows them in the picker. The dots mean more follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
+  },
+  "editor.tapChoices.moreActionsHint": {
+    "en": "a camera, its history, a Logic variable, Tell Homey, a web request",
+    "context": "Grey note beside \"More actions…\": what it shows. Logic variables and Tell Homey are Homey’s words; keep them as Homey translates them.",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
+  },
   "editor.tapChoices.noCamera": {
     "en": "No camera here",
     "context": "Small grey note beside the greyed-out tap choice \"Open the camera\": the device has no camera, picture or video.",
@@ -9599,7 +10160,7 @@
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
   },
   "editor.tapChoices.noFlows": {
-    "en": "No flows to start",
+    "en": "No Flows to start",
     "context": "Small grey note beside the greyed-out tap choice \"Start a flow\": the Homey has no flow that can be started by hand. A flow is a Homey automation.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
@@ -9617,7 +10178,7 @@
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
   },
   "editor.tapChoices.noMoods": {
-    "en": "No moods on this Homey",
+    "en": "No Moods on this Homey",
     "context": "Small grey note beside the greyed-out tap choice \"Set a mood\": the Homey has no moods (scenes).",
     "maxLength": 32,
     "file": "packages/ui/src/dashboard/tapChoices.messages.ts"
@@ -9677,7 +10238,7 @@
     "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
   },
   "editor.tapSettings.homeyHintText": {
-    "en": "Pick Tell Homey, then use the tile in a flow: When it is pressed, and flows can switch it, change its text or hide it.",
+    "en": "Pick Tell Homey, then use the tile in a Flow: When it is pressed, and Flows can switch it, change its text or hide it.",
     "context": "Text of the one-time hint at the tap picker. \"Tell Homey\" is the name of the tap choice, keep it as that choice is translated. A flow is an automation in Homey.",
     "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
@@ -9902,13 +10463,13 @@
     "file": "packages/ui/src/dashboard/stylePresets/HdTileCssEditor.messages.ts"
   },
   "editor.tileCssEditor.hooksTitle": {
-    "en": "Hooks",
+    "en": "Parts you can style",
     "context": "Heading above the chips with CSS class names (hooks) that every widget keeps. Short.",
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/stylePresets/HdTileCssEditor.messages.ts"
   },
   "editor.tileCssEditor.intro": {
-    "en": "Reaches only {label}’s widget, after the theme’s CSS. Use the theme’s variables (<code>--hd-*</code>) and the hooks below.",
+    "en": "Reaches only {label}’s widget, after the theme’s CSS. Use the theme’s variables (<code>--hd-*</code>) and the parts below.",
     "context": "Help text under the heading \"CSS for this tile\": the CSS typed here only affects the widget of the selected tile, and is applied after the theme’s CSS. It points to the theme’s CSS variables and to the hooks (class names) listed further down. Keep the text inside <code>…</code> exactly as it is.",
     "params": {
       "label": "The name of the selected tile, such as \"Living room lamp\". Not translated."
@@ -10215,7 +10776,7 @@
     "file": "apps/web/src/dashboards/tileShowing.messages.ts"
   },
   "editor.tileShowing.homeyHid": {
-    "en": "A Homey flow hid it",
+    "en": "A Homey Flow hid it",
     "context": "Reason shown on a dimmed tile in edit mode, after \"Hidden now\": a flow on the person’s Homey (through the Tiledash app on Homey) said to hide this tile. Short.",
     "maxLength": 50,
     "file": "apps/web/src/dashboards/tileShowing.messages.ts"
@@ -11529,6 +12090,18 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.customFold": {
+    "en": "Custom",
+    "context": "Title of a fold under those choices with every sleep setting; opens by itself when the panel’s settings match none of the choices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.customFoldInside": {
+    "en": "when it falls asleep, what it shows then, dimming",
+    "context": "Grey words beside the closed \"Custom\" fold: what it holds.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.dashboard": {
     "en": "Dashboard",
     "context": "Name of the dropdown that picks the main dashboard of the wall panel, read out by screen readers. Not visible as text.",
@@ -11640,6 +12213,30 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.idleDim": {
+    "en": "Dim after 10 minutes",
+    "context": "Choice: after ten minutes without a touch the screen dims.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.idleOn": {
+    "en": "Stay on",
+    "context": "Choice: the screen never falls asleep.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.idleQuestion": {
+    "en": "When nobody uses it",
+    "context": "Question at the top of the Sleep & alerts tab of the wall panel settings, above three ready-made choices.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.idleSleep": {
+    "en": "Sleep, wake for alerts",
+    "context": "Choice: after ten minutes without a touch it falls asleep, and wakes when an alert comes (smoke, the doorbell).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.keepOn": {
     "en": "Keep the screen on",
     "context": "Label of a switch in the wall panel dialog, also its name for screen readers. While the panel shows, the screen does not dim or lock.",
@@ -11658,6 +12255,30 @@
     "maxLength": 100,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
+  "editor.wallPanel.kindEink": {
+    "en": "E-ink",
+    "context": "Choice: an e-ink (electronic paper) screen.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.kindOled": {
+    "en": "Always-on OLED",
+    "context": "Choice: an OLED screen that stays on, which can burn in; it dims and moves the picture a little while asleep.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.kindQuestion": {
+    "en": "What kind of screen is it?",
+    "context": "Question at the top of the Screen tab of the wall panel settings, above three choices. The answer shows only the settings that fit that kind of screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "editor.wallPanel.kindTablet": {
+    "en": "A tablet",
+    "context": "Choice: an ordinary tablet (Android, iPad, Fire).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
   "editor.wallPanel.languageLead": {
     "en": "Words and formats on this panel. It follows your account unless you pick others.",
     "context": "Short line at the top of the Language & region section of the wall panel dialog. The panel uses the account’s language and formats unless others are picked here.",
@@ -11671,8 +12292,8 @@
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
   "editor.wallPanel.linkLabel": {
-    "en": "Link for a kiosk browser",
-    "context": "Label above the link of the saved wall panel. A kiosk browser is a browser set up to open one web page in full screen on a wall-mounted tablet.",
+    "en": "Address to open on the tablet",
+    "context": "Label above the web address of the saved wall panel: opening it on a tablet (in a browser or a kiosk app that shows one page full screen) runs the panel.",
     "maxLength": 40,
     "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
   },
@@ -12788,7 +13409,7 @@
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.fits": {
-    "en": "{kind, select, device {{count, plural, one {# device} other {# devices}}} flow {{count, plural, one {# flow} other {# flows}}} mood {{count, plural, one {# mood} other {# moods}}} other {{count, plural, one {# item} other {# items}}}}",
+    "en": "{kind, select, device {{count, plural, one {# device} other {# devices}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# Mood} other {# Moods}}} other {{count, plural, one {# item} other {# items}}}}",
     "context": "Small text next to the title of an installed or own widget in the add-widgets window: what it can be added for, and how many of those the person’s Homey has, such as \"3 devices\" or \"1 flow\". Flows are automations of the Homey; moods are scenes.",
     "params": {
       "count": "How many of those the Homey has. A number.",
@@ -12869,6 +13490,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.notFinding": {
+    "en": "Not finding it? People share widgets on the Community.",
+    "context": "Quiet line at the end of the Devices, Flows, Moods and Other tabs of the add-widgets window, for people who only know the built-in widgets. A link \"See what they made\" follows it and opens the Community tab, where widgets made by other people are listed.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.notWhatYouWant": {
     "en": "Not what you're after?",
     "context": "Question at the end of the Community tab of the add-widgets window. A button \"Browse the whole community\" follows it.",
@@ -12921,9 +13548,15 @@
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.searchPlaceholder": {
-    "en": "Search devices, flows, moods and widgets",
+    "en": "Search devices, Flows, Moods and widgets",
     "context": "Placeholder of the search box at the top of the add-widgets window. It searches every tab at once.",
     "maxLength": 60,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.seeCommunity": {
+    "en": "See what they made",
+    "context": "Link after the line \"Not finding it? People share widgets on the Community.\" at the end of a tab of the add-widgets window. It opens the window's Community tab. A command.",
+    "maxLength": 30,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.selected": {
@@ -13022,6 +13655,18 @@
       "tabName": "The name of the tab, such as \"Look\" or \"Tap\". Already translated."
     },
     "maxLength": 170,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.copyAction": {
+    "en": "Make a copy to change",
+    "context": "Link after \"This widget is from the Community. Want to change how it looks or works?\" in a tile's settings window. It leads to the widget's Community page, where a copy of your own is made and opened in the widget editor; the original stays as it is. A command.",
+    "maxLength": 32,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.copyLine": {
+    "en": "This widget is from the Community. Want to change how it looks or works?",
+    "context": "Quiet line at the end of the settings window of a tile whose widget was installed from the Community (made by someone else). A link \"Make a copy to change\" follows it.",
+    "maxLength": 90,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },
   "editor.widgetSettings.decimalsFor": {

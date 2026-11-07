@@ -7,7 +7,7 @@
   },
   "account.accessRules.linkNoFlows": {
     "text": "Lancer des Flows, ouvrir les serrures, armer l’alarme ou ouvrir le garage",
-    "source": "c57c37be65",
+    "source": "9f8f152352",
     "by": "ai",
     "reviewed": false
   },
@@ -37,7 +37,7 @@
   },
   "account.accessRules.screenControl": {
     "text": "Tout ce que font les tuiles de l’écran, Flows et serrures compris",
-    "source": "c290bb52ce",
+    "source": "250cbd8bc1",
     "by": "ai",
     "reviewed": false
   },
@@ -313,7 +313,7 @@
   },
   "account.aiAssistants.deny0": {
     "text": "Commander vos appareils ou lancer des Flows (vous seul pouvez activer les appuis d’un aperçu, pour une heure)",
-    "source": "2a48357995",
+    "source": "fe35625779",
     "by": "ai",
     "reviewed": false
   },
@@ -362,6 +362,24 @@
   "account.aiAssistants.none": {
     "text": "Aucun assistant connecté. Connectez-en un ci-dessous.",
     "source": "199f734130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherAddress": {
+    "text": "Toute app compatible MCP se connecte avec cette adresse.",
+    "source": "2b6bd16bf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFold": {
+    "text": "Autres apps et détails techniques",
+    "source": "a5f78f4432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.aiAssistants.otherFoldInside": {
+    "text": "VS Code, Cursor, Claude Code et l’adresse MCP",
+    "source": "9c89b59abb",
     "by": "ai",
     "reviewed": false
   },
@@ -589,7 +607,7 @@
   },
   "account.alertRules.offerFlow": {
     "text": "Proposer un Flow",
-    "source": "c4ba540f92",
+    "source": "3b71e7cd86",
     "by": "ai",
     "reviewed": false
   },
@@ -1309,7 +1327,7 @@
   },
   "account.configImport.syncingDetail": {
     "text": "Tiledash lit les appareils, Flows et ambiances de {homey} pour y associer les tuiles. Cela prend une minute.",
-    "source": "b5cdc30d17",
+    "source": "ddf4296f3f",
     "by": "ai",
     "reviewed": false
   },
@@ -1507,7 +1525,7 @@
   },
   "account.delete.lead": {
     "text": "Tout ce que vous avez créé dans Tiledash est supprimé. Votre Homey n’est pas touché : ses appareils, Flows et Insights restent tels quels.",
-    "source": "900cb1bb89",
+    "source": "0735f665f7",
     "by": "ai",
     "reviewed": false
   },
@@ -1735,7 +1753,7 @@
   },
   "account.homeyApp.hidden": {
     "text": "Masquée par un Flow",
-    "source": "205fe16925",
+    "source": "65e6c7b8b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1765,7 +1783,7 @@
   },
   "account.homeyApp.renameNote": {
     "text": "Renommer change aussi le nom dans Homey ; les Flows continuent de fonctionner.",
-    "source": "3ffe044d14",
+    "source": "028dcc3b4c",
     "by": "ai",
     "reviewed": false
   },
@@ -1807,7 +1825,7 @@
   },
   "account.homeyAppHost.disconnectText": {
     "text": "Les tuiles cessent de signaler à Homey et les Flows ne peuvent plus les modifier, jusqu’à ce que vous la reconnectiez.",
-    "source": "f134df4fd2",
+    "source": "9ef2d1d406",
     "by": "ai",
     "reviewed": false
   },
@@ -1831,7 +1849,7 @@
   },
   "account.homeyAppHost.removeText": {
     "text": "Les tuiles liées ne feront plus rien à l’appui, et les Flows qu’elle lance ne s’exécuteront plus.",
-    "source": "0d0e153da8",
+    "source": "d2bef37afb",
     "by": "ai",
     "reviewed": false
   },
@@ -2621,6 +2639,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.mapTiles.lead": {
+    "text": "Les cartes de vos tableaux de bord utilisent OpenFreeMap : gratuit, sans clé, rien à configurer.",
+    "source": "e2b1ec61fe",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.mapTiles.optional": {
     "text": "Facultatif.",
     "source": "a9aaf97cc9",
@@ -2630,6 +2654,18 @@
   "account.mapTiles.originsHint": {
     "text": "Ce serveur autorise {origins}.",
     "source": "d812a71e54",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFold": {
+    "text": "Utiliser un autre fournisseur de cartes",
+    "source": "f0e5c8ed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.mapTiles.otherFoldInside": {
+    "text": "MapTiler ou Stadia Maps avec votre propre clé, ou votre propre serveur",
+    "source": "440c627fee",
     "by": "ai",
     "reviewed": false
   },
@@ -3715,7 +3751,7 @@
   },
   "account.people.summaryFlows": {
     "text": "{count, plural, =0 {Aucun Flow à lancer} one {# Flow à lancer} other {# Flows à lancer}}",
-    "source": "9b5b0ffb4d",
+    "source": "4fe26e5bbc",
     "by": "ai",
     "reviewed": false
   },
@@ -4723,7 +4759,7 @@
   },
   "account.plans.rowHomeyApp": {
     "text": "Tuiles dans les Flows Homey",
-    "source": "cd052940c8",
+    "source": "42a24b6a6b",
     "by": "ai",
     "reviewed": false
   },
@@ -5039,6 +5075,204 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.putOnTablet.connect": {
+    "text": "Connecter",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.description": {
+    "text": "Environ une minute. Gardez la tablette à portée de main.",
+    "source": "64e512de81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.done": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneText": {
+    "text": "Balayez l’écran pour passer d’un tableau de bord à l’autre. Modifiez tout plus tard dans Réglages › Liens et écrans, ou dans les réglages de l’écran mural.",
+    "source": "3b971d70f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.doneTitle": {
+    "text": "La tablette affiche {dashboard}",
+    "source": "cef588e3d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.getPro": {
+    "text": "Passer à Pro",
+    "source": "12657108fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleDim": {
+    "text": "Atténuer après 10 minutes",
+    "source": "b67a8dc50e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleOn": {
+    "text": "Rester allumé",
+    "source": "815464f782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.idleSleep": {
+    "text": "Veille, réveil sur alerte",
+    "source": "e5c819d709",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.itCan": {
+    "text": "Elle peut",
+    "source": "f79b3f0da0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.namePlaceholder": {
+    "text": "Tablette {dashboard}",
+    "source": "e5d57a921b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoom": {
+    "text": "Votre forfait permet un seul écran, et il est utilisé",
+    "source": "ea1ca9a20e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.noRoomText": {
+    "text": "Dissociez l’autre dans Réglages › Liens et écrans, ou passez à Pro pour plus d’écrans.",
+    "source": "fdd416a294",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.onTablet": {
+    "text": "Sur la tablette",
+    "source": "1f14ab0788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.openAddress": {
+    "text": "Sur la tablette, ouvrez {address} dans le navigateur, ou scannez ceci :",
+    "source": "6c3e4f6c81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.putOn": {
+    "text": "L’afficher sur la tablette",
+    "source": "24f85f2d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEink": {
+    "text": "Un écran e-ink",
+    "source": "59e276656c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenEinkHint": {
+    "text": "Noir et blanc apaisant, actualisé de temps en temps.",
+    "source": "f81bab4b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOled": {
+    "text": "OLED toujours allumé",
+    "source": "d37934c03b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenOledHint": {
+    "text": "S’atténue et bouge un peu au repos, pour éviter tout marquage.",
+    "source": "0c8eb3cbaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTablet": {
+    "text": "Une tablette",
+    "source": "f93fc2684a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.screenTabletHint": {
+    "text": "La plupart des tablettes murales : Android, iPad, Fire.",
+    "source": "40414220c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDashboards": {
+    "text": "Tableaux de bord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepDone": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepScreen": {
+    "text": "Écran",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.stepTablet": {
+    "text": "La tablette",
+    "source": "199ee075e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.tabletHint": {
+    "text": "Saisissez ce code sur votre téléphone ou ordinateur",
+    "source": "0f360984fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.title": {
+    "text": "L’afficher sur une tablette",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.typeCode": {
+    "text": "Saisissez le code qu’elle affiche :",
+    "source": "c15c09222f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whatScreen": {
+    "text": "Quel type d’écran est-ce ?",
+    "source": "c4f7a2a0fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whenIdle": {
+    "text": "Quand personne ne l’utilise",
+    "source": "4d9692c9e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.putOnTablet.whichDashboards": {
+    "text": "Quels tableaux de bord doit-elle afficher ? Balayez la tablette pour passer de l’un à l’autre.",
+    "source": "ca0e57ae2a",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.recordings.elsewhere": {
     "text": "{here, select, yes {{count, plural, one {Et # enregistrement sur vos autres Homey.} other {Et # enregistrements sur vos autres Homey.}}} other {{count, plural, one {# enregistrement sur vos autres Homey.} other {# enregistrements sur vos autres Homey.}}}}",
     "source": "2bfd38a6f6",
@@ -5299,7 +5533,7 @@
   },
   "account.settings.homeyAppAbout": {
     "text": "Laissez les Flows de {homey} réagir à l’appui sur une tuile, et modifier les tuiles.",
-    "source": "6405df91c7",
+    "source": "d667263ea8",
     "by": "ai",
     "reviewed": false
   },
@@ -5911,7 +6145,7 @@
   },
   "account.sharingParts.controlLink": {
     "text": "Lumières, prises et thermostat. Ni Flows ni serrures.",
-    "source": "d010574880",
+    "source": "c592ea936a",
     "by": "ai",
     "reviewed": false
   },

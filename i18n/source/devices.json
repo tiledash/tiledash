@@ -1312,6 +1312,18 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },
+  "devices.prices.currencyFold": {
+    "en": "Another currency",
+    "context": "Title of a folded part at the bottom of the electricity card in the energy settings. Opening it shows the choice of currency for prices and costs, for people whose prices are not in their Homey's currency.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
+  "devices.prices.currencyFoldInside": {
+    "en": "Prices and costs are in your Homey’s currency",
+    "context": "Small grey text next to the fold title \"Another currency\": what is used while it is closed.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
+  },
   "devices.prices.currencyFromHomey": {
     "en": "{code}, from your Homey ({country})",
     "context": "First option of the currency choice: the currency of the country the Homey is in, such as \"EUR, from your Homey (Netherlands)\".",
@@ -1325,12 +1337,6 @@
   "devices.prices.currencyLabel": {
     "en": "Currency",
     "context": "Name of the currency choice, read out by screen readers.",
-    "maxLength": 30,
-    "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
-  },
-  "devices.prices.currencyTitle": {
-    "en": "Currency",
-    "context": "Title of the card in the energy settings that sets the currency of prices and costs.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/energy/EnergyPricesSection.messages.ts"
   },

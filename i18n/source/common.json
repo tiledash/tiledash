@@ -174,6 +174,18 @@
     "maxLength": 160,
     "file": "apps/web/src/pages/describeError.messages.ts"
   },
+  "common.learnMore.label": {
+    "en": "Learn more",
+    "context": "Small link in an empty page or a dialog that opens the matching page of Tiledash’s guide or a step-by-step tutorial on the website, in a new tab.",
+    "maxLength": 24,
+    "file": "packages/ui/src/components/learnMore.messages.ts"
+  },
+  "common.learnMore.newTab": {
+    "en": "(opens in a new tab)",
+    "context": "Read out by screen readers after \"Learn more\": the guide opens in a new browser tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/components/learnMore.messages.ts"
+  },
   "common.plan.limitCalendars": {
     "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# calendar} other {# calendars}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
     "context": "Toast or message when the person tried to add more calendars (iCal links, shown in widgets) than their plan allows. On the Free plan a second sentence suggests upgrading to Pro.",

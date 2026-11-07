@@ -28,7 +28,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.aGroupOfButtonsSwitchDevices": {
-    "en": "A group of buttons: switch devices, start flows and moods, open dashboards.",
+    "en": "A group of buttons: switch devices, start Flows and Moods, open dashboards.",
     "context": "Description of the \"Buttons\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
@@ -783,7 +783,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.doesWhatATapCanOpens": {
-    "en": "Does what a tap can: opens a dashboard or a device, starts a flow, sets a mood, changes a variable, sends a web request or tells Homey.",
+    "en": "Does what a tap can: opens a dashboard or a device, starts a Flow, sets a Mood, changes a variable, sends a web request or tells Homey.",
     "context": "Description of the \"Button\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
@@ -2480,7 +2480,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.setTheMood": {
-    "en": "Set the mood",
+    "en": "Set the Mood",
     "context": "What tapping does, in the settings of the \"Flow\" widget.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -2493,7 +2493,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.setsAMoodAndShowsWhether": {
-    "en": "Sets a mood, and shows whether it was set.",
+    "en": "Sets a Mood, and shows whether it was set.",
     "context": "Description of the \"Flow\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
@@ -2514,7 +2514,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.setsTheMood": {
-    "en": "Sets the mood",
+    "en": "Sets the Mood",
     "context": "Words on the tile of the \"Button\" widget; it may be part of a longer line.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -2663,7 +2663,7 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.startTheFlow": {
-    "en": "Start the flow",
+    "en": "Start the Flow",
     "context": "What tapping does, in the settings of the \"Flow\" widget.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -2678,13 +2678,13 @@
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.startsAFlowAndShowsWhether": {
-    "en": "Starts a flow, and shows whether it did.",
+    "en": "Starts a Flow, and shows whether it did.",
     "context": "Description of the \"Flow\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.startsTheFlow": {
-    "en": "Starts the flow",
+    "en": "Starts the Flow",
     "context": "Words on the tile of the \"Button\" widget; it may be part of a longer line.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -6379,5 +6379,269 @@
     "context": "What a yes or no value reads: yes.",
     "maxLength": 10,
     "file": "packages/widgets/src/energy/values.messages.ts"
+  },
+  "widgets.weather.clear": {
+    "en": "Clear",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. No clouds, by day or night.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.cloudy": {
+    "en": "Cloudy",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.east": {
+    "en": "E",
+    "context": "Compass point the wind comes from, short: east.",
+    "maxLength": 2,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.failed": {
+    "en": "The weather isn’t available right now. It will be tried again.",
+    "context": "On the Weather tile when the forecast could not be fetched.",
+    "maxLength": 90,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.fog": {
+    "en": "Fog",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.heavyRain": {
+    "en": "Heavy rain",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.heavySleet": {
+    "en": "Heavy sleet",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Rain and snow mixed.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.heavySleetShowers": {
+    "en": "Heavy sleet showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short heavy sleet with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.heavySnow": {
+    "en": "Heavy snow",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.heavySnowShowers": {
+    "en": "Heavy snow showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short heavy snow with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.home": {
+    "en": "Home",
+    "context": "The Weather tile’s place name when the forecast’s place has none: the Homey’s home.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightRain": {
+    "en": "Light rain",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightRainShowers": {
+    "en": "Light rain showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short light rain with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightSleet": {
+    "en": "Light sleet",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Rain and snow mixed.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightSleetShowers": {
+    "en": "Light sleet showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short light sleet with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightSnow": {
+    "en": "Light snow",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.lightSnowShowers": {
+    "en": "Light snow showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short light snow with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.loading": {
+    "en": "Loading the weather…",
+    "context": "On the Weather tile while its forecast is on its way.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.mostlyClear": {
+    "en": "Mostly clear",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. A few clouds.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.noPlace": {
+    "en": "Choose a place in the widget’s settings",
+    "context": "On the Weather tile when it doesn’t know where to show the weather for.",
+    "maxLength": 60,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.north": {
+    "en": "N",
+    "context": "Compass point the wind comes from, short: north.",
+    "maxLength": 2,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.northEast": {
+    "en": "NE",
+    "context": "Compass point the wind comes from, short: north-east.",
+    "maxLength": 3,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.northWest": {
+    "en": "NW",
+    "context": "Compass point the wind comes from, short: north-west.",
+    "maxLength": 3,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.now": {
+    "en": "Now",
+    "context": "The first hour in the Weather tile’s row of hours, the one running now.",
+    "maxLength": 6,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.overcast": {
+    "en": "Overcast",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. The whole sky grey.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.partlyCloudy": {
+    "en": "Partly cloudy",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.rain": {
+    "en": "Rain",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.rainShowers": {
+    "en": "Rain showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short rain with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.severeThunderstorms": {
+    "en": "Severe thunderstorms",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.sleet": {
+    "en": "Sleet",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Rain and snow mixed.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.sleetShowers": {
+    "en": "Sleet showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short sleet with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.snow": {
+    "en": "Snow",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.snowShowers": {
+    "en": "Snow showers",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. Short snow with the sun in between.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.south": {
+    "en": "S",
+    "context": "Compass point the wind comes from, short: south.",
+    "maxLength": 2,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.southEast": {
+    "en": "SE",
+    "context": "Compass point the wind comes from, short: south-east.",
+    "maxLength": 3,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.southWest": {
+    "en": "SW",
+    "context": "Compass point the wind comes from, short: south-west.",
+    "maxLength": 3,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.thickFog": {
+    "en": "Thick fog",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.thunder": {
+    "en": "Thunder",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day. A little thunder.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.thunderstorms": {
+    "en": "Thunderstorms",
+    "context": "What the weather is like, under the temperature on the Weather tile and per hour or day.",
+    "maxLength": 24,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.today": {
+    "en": "Today",
+    "context": "The first day in the Weather tile’s list of days.",
+    "maxLength": 8,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.updatedHours": {
+    "en": "Updated {hours} h ago",
+    "context": "Footer of the Weather tile when the forecast could not be renewed: how old it is, in hours.",
+    "params": {
+      "hours": "Hours since the forecast was fetched, 2 or more."
+    },
+    "maxLength": 32,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.updatedMinutes": {
+    "en": "Updated {minutes} min ago",
+    "context": "Footer of the Weather tile when the forecast could not be renewed: how old it is, in minutes.",
+    "params": {
+      "minutes": "Minutes since the forecast was fetched, 1 to 89."
+    },
+    "maxLength": 32,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
+  },
+  "widgets.weather.west": {
+    "en": "W",
+    "context": "Compass point the wind comes from, short: west.",
+    "maxLength": 2,
+    "file": "packages/widgets/src/registry/weather.messages.ts"
   }
 }

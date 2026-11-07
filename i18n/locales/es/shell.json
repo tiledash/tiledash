@@ -335,6 +335,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.layout.startFailed": {
+    "text": "No se pudo cambiar la página de inicio.",
+    "source": "538f3216a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOff": {
+    "text": "La app vuelve a abrirse en «{page}»",
+    "source": "1f16ab4b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOn": {
+    "text": "{name} se abre al iniciar la app",
+    "source": "fc70c6088c",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.layout.startPanel": {
     "text": "Iniciar {name}",
     "source": "11a49542c0",
@@ -1061,6 +1079,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.sidebar.startItem": {
+    "text": "Abrir la app en {label}",
+    "source": "69a81f74ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItemOn": {
+    "text": "La app se abre en {label}; toca para dejar de hacerlo",
+    "source": "eb511e770a",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.sidebar.switcherDescription": {
     "text": "Escribe para buscar un dashboard o una página. Las flechas arriba y abajo te mueven, Intro abre, Mayús Intro fija o quita un dashboard, Escape cierra.",
     "source": "f5960c7853",
@@ -1296,8 +1326,8 @@
     "reviewed": false
   },
   "shell.tour.basicsBody": {
-    "text": "En la esquina te espera una lista corta de cosas para probar. Hazlas cuando quieras: recuerda por dónde vas.",
-    "source": "7b867a59c4",
+    "text": "En la esquina te espera una lista corta de cosas para probar. Tómate tu tiempo: recuerda por dónde vas.",
+    "source": "07cca663b5",
     "by": "ai",
     "reviewed": false
   },
@@ -1337,6 +1367,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.gotIt": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.hideList": {
     "text": "Ocultar esta lista",
     "source": "6a45cf67d5",
@@ -1344,14 +1380,14 @@
     "reviewed": false
   },
   "shell.tour.homeBody": {
-    "text": "Creado con las habitaciones de tu Homey. Los indicadores lo resumen: potencia, luces encendidas y qué está abierto.",
-    "source": "54d6d2890e",
+    "text": "Luces encendidas, la temperatura, qué está abierto. Toca uno para ver qué dispositivos cuenta.",
+    "source": "5f9a50e70f",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.homeTitle": {
-    "text": "Esta es tu casa",
-    "source": "f33c8e2171",
+    "text": "Tu casa de un vistazo",
+    "source": "bab70bd375",
     "by": "ai",
     "reviewed": false
   },
@@ -1373,21 +1409,207 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.makeFirst": {
+    "text": "Crear mi primer dashboard",
+    "source": "bda59b8008",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.next": {
     "text": "Siguiente",
     "source": "1ff57a29d7",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.noThanks": {
+    "text": "No, gracias",
+    "source": "49780701dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerEyebrow": {
+    "text": "Novedad en Tiledash",
+    "source": "e719c394bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLead": {
+    "text": "Dos recorridos cortos: qué puede hacer tu dashboard y cómo ponerlo en una tableta en la pared.",
+    "source": "12d6f1881d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLength": {
+    "text": "Más o menos un minuto cada uno. Repítelos desde el menú de la cuenta.",
+    "source": "7fa8170107",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerTitle": {
+    "text": "¿Te echamos una mano con lo básico?",
+    "source": "df2e79f959",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.optionsBody": {
-    "text": "Edítalo, añade widgets, elige un tema. Todo empieza aquí.",
-    "source": "12a83eb15e",
+    "text": "Siempre aquí, arriba a la derecha: cambia el dashboard o sus ajustes, ponlo en una tableta o compártelo.",
+    "source": "a542c2fe1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsHintText": {
+    "text": "Cambia el dashboard o sus ajustes, ponlo en una tableta o compártelo. Siempre aquí, arriba a la derecha.",
+    "source": "94d6a1c50b",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.optionsTitle": {
-    "text": "Hazlo tuyo",
-    "source": "34ca8a4540",
+    "text": "Todo lo demás está en ⋯",
+    "source": "6f189eb2bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dBody": {
+    "text": "El cubo cambia entre tu dibujo y una vista 3D. En 3D, arrastra con el botón derecho del ratón para girarla.",
+    "source": "68db23809b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dTitle": {
+    "text": "Míralo en 3D",
+    "source": "b8060d34ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndBody": {
+    "text": "El (?) de aquí arriba vuelve a iniciar este recorrido. Pulsa ? para ver todos los controles y atajos.",
+    "source": "e921690ab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndTitle": {
+    "text": "Así es el editor de planos",
+    "source": "025901ef6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planOfferText": {
+    "text": "Un recorrido corto por el editor de planos: dónde dibujar, la vista 3D y cómo moverte. Tres pasos.",
+    "source": "f132fd6b87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeBody": {
+    "text": "Deshacer revierte cualquier cambio y el plano se guarda solo. Espacio y arrastrar te mueve; la rueda hace zoom.",
+    "source": "940ba24f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeTitle": {
+    "text": "Prueba sin miedo",
+    "source": "1451e8f517",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsBody": {
+    "text": "Elige una herramienta aquí: primero habitaciones y paredes, luego puertas y ventanas, muebles y tus dispositivos.",
+    "source": "181f916900",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsTitle": {
+    "text": "Dibuja tus habitaciones",
+    "source": "8c0fd8aac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planTourNoPlan": {
+    "text": "Primero dibuja un plano: el recorrido te lo enseña cuando ya tengas uno.",
+    "source": "347c20463a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionEyebrow": {
+    "text": "Tu Homey está conectado",
+    "source": "8c3431f7a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionLead": {
+    "text": "Así podemos sugerirte los primeros pasos adecuados. Puedes usarlo en todas partes de todos modos.",
+    "source": "db123ab356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionTitle": {
+    "text": "¿Dónde vas a usar Tiledash?",
+    "source": "3ea28674b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenOfferTitle": {
+    "text": "¿Un recorrido rápido?",
+    "source": "4dead7b5c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenTourLabel": {
+    "text": "Recorrido por esta pantalla",
+    "source": "1d151fd637",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndBody": {
+    "text": "El (?) de aquí arriba vuelve a iniciar este recorrido cuando quieras.",
+    "source": "fd3cbf06ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndTitle": {
+    "text": "Así son los ajustes del dashboard",
+    "source": "e381998339",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookBody": {
+    "text": "Un tema solo para este dashboard y, con Pro, una imagen detrás de los mosaicos. Atenuar y desenfocar mantienen los mosaicos legibles.",
+    "source": "1a02122a21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookTitle": {
+    "text": "Un aspecto propio",
+    "source": "2433fcc288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsOfferText": {
+    "text": "Cuatro pasos cortos: espaciado, diseño, aspecto y emergentes. Siempre está aquí, en (?).",
+    "source": "c82f54f1b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsBody": {
+    "text": "Elige qué la hace aparecer, como el timbre, y qué muestra: una cámara, un dispositivo u otro dashboard. Se cierra sola al rato.",
+    "source": "028db543b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "text": "Ventanas que se abren solas",
+    "source": "9dae8fa9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingBody": {
+    "text": "Ajustado, Cómodo o Amplio, con píxeles en Ajuste fino. Ajustar a la pantalla lo pone todo en una pantalla, ideal para una tableta en la pared.",
+    "source": "732f78d05f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "text": "Espacio entre mosaicos",
+    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1409,15 +1631,81 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.showTipsAgain": {
+    "text": "Volver a mostrar consejos",
+    "source": "7d5a764682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgainHint": {
+    "text": "Las notas únicas y ofertas de recorrido que cerraste se muestran una vez más.",
+    "source": "e73d26c391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.skip": {
+    "text": "Omitir",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.stepCount": {
     "text": "{step} de {count}",
     "source": "91bfb1f611",
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tabletChooseBody": {
+    "text": "Qué dashboards muestra y qué tipo de pantalla es. Cada una tiene ya una respuesta, así que puedes pulsar Siguiente hasta el final.",
+    "source": "d0a90795f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseTitle": {
+    "text": "Luego, dos preguntas",
+    "source": "cc25ad25c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeBody": {
+    "text": "En la tableta, abre la dirección que se muestra aquí o escanea el código QR. Escribe el código que aparece y elige Conectar.",
+    "source": "b176f2e0a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeTitle": {
+    "text": "Primero, el código",
+    "source": "2402d82c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndBody": {
+    "text": "Cámbialo más tarde en Paneles de pared, en la barra lateral. El diálogo sigue abierto para que termines.",
+    "source": "34127f3a64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndTitle": {
+    "text": "Eso es todo",
+    "source": "f490b64f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroBody": {
+    "text": "Muestra tus dashboards a pantalla completa: desliza para cambiar. Se atenúa cuando nadie la usa y se activa con alertas como el timbre.",
+    "source": "cb30b775be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroTitle": {
+    "text": "Una tableta en la pared",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.takeTourAgain": {
-    "text": "Repetir el recorrido",
-    "source": "73add5b9e6",
+    "text": "Recorridos guiados",
+    "source": "5bb385763e",
     "by": "ai",
     "reviewed": false
   },
@@ -1494,26 +1782,68 @@
     "reviewed": false
   },
   "shell.tour.tileBody": {
-    "text": "Toca un mosaico para encenderlo o apagarlo. Cambia en tu casa al instante.",
-    "source": "8513c1b809",
+    "text": "Los mosaicos hacen lo que muestran. Un mosaico de botones tiene un botón por cada luz, ambiente o Flow.",
+    "source": "922c5c6b45",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTitle": {
-    "text": "Tus dispositivos, en vivo",
-    "source": "38d7f346f1",
+    "text": "Toca para encender o apagar",
+    "source": "e4789d77f9",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTried": {
-    "text": "¡Ahí va!",
-    "source": "a02b80d95e",
+    "text": "Hecho. Así de fácil.",
+    "source": "d83cfbfe2a",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.tileTry": {
-    "text": "Pruébalo: toca el mosaico",
-    "source": "5a4c2fe8bc",
+    "text": "Pruébalo: toca una luz",
+    "source": "1901076076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOff": {
+    "text": "No mostrar consejos",
+    "source": "bcdf0f28e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffText": {
+    "text": "Vuelve a activarlos en Ajustes › General. Los recorridos siguen en (?) en cada pantalla.",
+    "source": "814206361b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffTitle": {
+    "text": "Consejos desactivados",
+    "source": "7ef256b764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffUndo": {
+    "text": "Deshacer",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsShownAgain": {
+    "text": "Los consejos volverán a aparecer",
+    "source": "870b0f7dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitch": {
+    "text": "Mostrar consejos",
+    "source": "754e196536",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitchHint": {
+    "text": "Tarjetas de bienvenida, ofertas de recorrido, notas «¿Sabías que…?» y la lista para empezar. Desactivado: nada se abre solo; el (?) de cada pantalla sigue iniciando su recorrido.",
+    "source": "208023b238",
     "by": "ai",
     "reviewed": false
   },
@@ -1523,9 +1853,135 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.tour.tourDashboardSettings": {
+    "text": "Ajustes del dashboard",
+    "source": "95d4e44b97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDone": {
+    "text": "Hecho",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFirstDashboard": {
+    "text": "Tu primer dashboard",
+    "source": "edf6877596",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFloorPlan": {
+    "text": "El editor de planos",
+    "source": "cc5de527cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourNotStarted": {
+    "text": "Sin empezar",
+    "source": "ba35f0c47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourSkipped": {
+    "text": "Omitido",
+    "source": "12698ce1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStart": {
+    "text": "Empezar",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStartAgain": {
+    "text": "Repetir",
+    "source": "962e64b761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourWallPanel": {
+    "text": "Pon un dashboard en la pared",
+    "source": "5051a0277f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursList": {
+    "text": "Recorridos",
+    "source": "b49f1e41f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursTitle": {
+    "text": "Recorridos guiados y consejos",
+    "source": "ecd86c12a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.tour.tutorials": {
     "text": "Ver los tutoriales",
     "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBoth": {
+    "text": "Ambos",
+    "source": "b6c1d862f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBothBody": {
+    "text": "Una tableta en la pared y teléfonos.",
+    "source": "085f5b7ecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhone": {
+    "text": "Mi teléfono",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhoneBody": {
+    "text": "Controla tu casa desde el sofá o fuera de casa.",
+    "source": "a510940075",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWall": {
+    "text": "Una tableta en la pared",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWallBody": {
+    "text": "Una pantalla que usa toda la casa.",
+    "source": "4434cfa690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndAction": {
+    "text": "Ponerlo en una tableta",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndBody": {
+    "text": "Se tarda un minuto: abre una dirección en la tableta y escribe aquí su código.",
+    "source": "09b09f1497",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndNote": {
+    "text": "O más tarde, desde ⋯ o la lista de la esquina.",
+    "source": "8d23a1d762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndTitle": {
+    "text": "Ahora: ponlo en la pared",
+    "source": "cda43b04b1",
     "by": "ai",
     "reviewed": false
   },
@@ -1745,27 +2201,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.workshopHint.aiShow": {
+    "text": "Conectar un asistente",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiText": {
+    "text": "Describe el widget que quieres y Claude, ChatGPT u otro asistente lo crea aquí por ti. O empieza de cero con Nuevo.",
+    "source": "3fbde161f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiTitle": {
+    "text": "Créalo con tu asistente de IA",
+    "source": "33f5413efb",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.workshopHint.hintDismiss": {
     "text": "Entendido",
     "source": "5ad3dbd124",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintShow": {
-    "text": "Abrir el Taller",
-    "source": "c983932959",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintText": {
-    "text": "Tus widgets, fragmentos, temas y modelos ahora están juntos en el Taller. Crea allí también otros nuevos y compártelos en la comunidad.",
-    "source": "43e0e7e416",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.workshopHint.hintTitle": {
-    "text": "¿Lo sabías?",
-    "source": "3e9b3541c2",
     "by": "ai",
     "reviewed": false
   }
