@@ -2086,6 +2086,18 @@
     "maxLength": 20,
     "file": "apps/web/src/store/storePages.messages.ts"
   },
+  "community.pages.downBody": {
+    "en": "Your dashboards keep working. Try again in a minute.",
+    "context": "Line under that title: installed widgets and themes still show on dashboards; only browsing and installing wait.",
+    "maxLength": 70,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
+  "community.pages.downTitle": {
+    "en": "The community can’t be reached right now",
+    "context": "Title on a community page when Tiledash’s community service is down (not the person’s own connection).",
+    "maxLength": 50,
+    "file": "apps/web/src/store/storePages.messages.ts"
+  },
   "community.pages.failedBody": {
     "en": "Check your connection and try again.",
     "context": "Line under a title about something that didn’t load.",
