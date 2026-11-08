@@ -52,6 +52,9 @@ terms:
       avoid: panel
       notes: Never "panel" for a dashboard; "panel" is only part of "panel de pared" (wall panel).
     fr: { preferred: tableau de bord }
+    nb: { preferred: dashbord }
+    sv: { preferred: dashboard }
+    da: { preferred: dashboard }
   - term: tile
     meaning: One rectangle on a dashboard that shows one device, value or widget.
     # Map tiles are map images, not dashboard tiles.
@@ -61,18 +64,30 @@ terms:
     de: { preferred: Kachel, avoid: Fliese }
     es: { preferred: mosaico, avoid: azulejo }
     fr: { preferred: tuile }
+    nb:
+      preferred: [flis, fliser]
+    sv:
+      preferred: [ruta, rutor, rutan]
+    da:
+      preferred: [felt, felter]
   - term: credit
     meaning: What generating a house picture in Tiledash costs (35.9), one each, bought in packs.
     nl: { preferred: credit }
     de: { preferred: Credit }
     es: { preferred: crédito }
     fr: { preferred: crédit }
+    nb: { preferred: kreditt }
+    sv: { preferred: kredit }
+    da: { preferred: kredit }
   - term: widget
     meaning: A custom or built-in piece of content (a clock, a graph, a button) shown in a tile.
     nl: { preferred: widget }
     de: { preferred: Widget }
     es: { preferred: widget }
     fr: { preferred: widget }
+    nb: { preferred: widget }
+    sv: { preferred: widget }
+    da: { preferred: widget }
   - term: device
     meaning: A physical or virtual thing paired with Homey (a lamp, a thermostat, a sensor).
     except: [code.partials.hintIcon, code.partials.renderingNote]
@@ -80,12 +95,20 @@ terms:
     de: { preferred: Gerät }
     es: { preferred: dispositivo, avoid: aparato }
     fr: { preferred: appareil, avoid: dispositif }
+    nb: { preferred: enhet }
+    sv: { preferred: enhet }
+    da: { preferred: enhed }
   - term: zone
     meaning: A room or area of the house that groups devices (living room, upstairs, garden).
+    # An electricity market's price area, not a Homey zone.
+    except: [devices.dayAhead.zoneLabel, devices.dayAhead.zoneField]
     nl: { preferred: zone }
     de: { preferred: Zone }
     es: { preferred: zona }
     fr: { preferred: zone }
+    nb: { preferred: sone }
+    sv: { preferred: zon }
+    da: { preferred: zone }
   - term: mood
     meaning: A Homey preset that sets several devices to a remembered state at once (Homey's own word).
     nl:
@@ -100,12 +123,24 @@ terms:
     fr:
       preferred: ambiance
       notes: Unconfirmed, check the word in the Homey app.
+    nb:
+      preferred: stemning
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
+    sv:
+      preferred: stämning
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
+    da:
+      preferred: stemning
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
   - term: scene
     meaning: A saved set of device states that a person starts with one tap.
     nl: { preferred: scène }
     de: { preferred: Szene }
     es: { preferred: escena }
     fr: { preferred: scène }
+    nb: { preferred: scene }
+    sv: { preferred: scen }
+    da: { preferred: scene }
   - term: capability
     meaning: One thing a device can report or be told to do (on or off, dim level, temperature, power).
     nl:
@@ -120,48 +155,84 @@ terms:
     fr:
       preferred: fonction
       notes: Unconfirmed, check the word in the Homey app.
+    nb:
+      preferred: funksjon
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
+    sv:
+      preferred: funktion
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
+    da:
+      preferred: funktion
+      notes: 'Proposed 2026-11-08, unconfirmed: check the word in the Homey app.'
   - term: dim level
     meaning: How bright a dimmable light is, from 0 to 100 percent.
     nl: { preferred: dimniveau }
     de: { preferred: Dimmlevel }
     es: { preferred: intensidad de la luz }
     fr: { preferred: intensité lumineuse }
+    nb: { preferred: dimmenivå }
+    sv: { preferred: dimnivå }
+    da: { preferred: lysniveau }
   - term: on / off
     meaning: The two states of a switch, light or socket; also the labels of its toggle.
     nl: { preferred: aan / uit }
     de: { preferred: ein / aus }
     es: { preferred: encendido / apagado }
     fr: { preferred: allumé / éteint }
+    nb: { preferred: på / av }
+    sv: { preferred: på / av }
+    da: { preferred: til / fra }
   - term: wall panel
     meaning: A screen fixed to a wall (often a tablet) that shows a dashboard all day.
     nl: { preferred: wandpaneel }
     de: { preferred: Wandpanel }
     es: { preferred: panel de pared }
     fr: { preferred: écran mural }
+    nb: { preferred: veggpanel }
+    sv: { preferred: väggpanel }
+    da: { preferred: vægpanel }
   - term: paired screen
     meaning: A screen (a tablet, an e-ink panel) linked to a Tiledash account with a pairing code.
     nl: { preferred: gekoppeld scherm }
     de: { preferred: gekoppelter Bildschirm }
     es: { preferred: pantalla vinculada }
     fr: { preferred: écran associé, avoid: écran apparié }
+    nb: { preferred: tilkoblet skjerm }
+    sv: { preferred: kopplad skärm }
+    da: { preferred: tilknyttet skærm }
   - term: share link
     meaning: A web address that lets someone see a dashboard without an account.
     nl: { preferred: deellink }
     de: { preferred: Freigabelink }
     es: { preferred: enlace para compartir }
     fr: { preferred: lien de partage }
+    nb: { preferred: delingslenke }
+    sv: { preferred: delningslänk }
+    da: { preferred: delingslink }
   - term: theme
     meaning: The colours, fonts and look of a dashboard.
     nl: { preferred: thema }
     de: { preferred: Design, avoid: Thema }
     es: { preferred: tema }
     fr: { preferred: thème }
+    nb: { preferred: tema }
+    sv: { preferred: tema }
+    da: { preferred: tema }
   - term: community
     meaning: The place where users share widgets, themes and dashboards with each other.
     nl: { preferred: community }
     de: { preferred: Community }
     es: { preferred: comunidad }
     fr: { preferred: communauté }
+    nb:
+      preferred: Community
+      notes: The name of a place in the app, so always with a capital (the user, 2026-11-08).
+    sv:
+      preferred: Community
+      notes: The name of a place in the app, so always with a capital (the user, 2026-11-08).
+    da:
+      preferred: Community
+      notes: The name of a place in the app, so always with a capital (the user, 2026-11-08).
   # The page with everything a person makes (45; the translators' choices, 2026-10-26), named as
   # a place in the app, so with a capital.
   - term: Workshop
@@ -170,6 +241,9 @@ terms:
     de: { preferred: Werkstatt }
     es: { preferred: Taller }
     fr: { preferred: Atelier }
+    nb: { preferred: Verksted }
+    sv: { preferred: Verkstad }
+    da: { preferred: Værksted }
   # Models of real products on floor plans and in the community (F23; the translators' choices,
   # 2026-10-26).
   - term: model
@@ -178,12 +252,18 @@ terms:
     de: { preferred: Modell }
     es: { preferred: modelo }
     fr: { preferred: modèle }
+    nb: { preferred: modell }
+    sv: { preferred: modell }
+    da: { preferred: model }
   - term: item type
     meaning: What a model or catalogue piece is (Sofas and armchairs, Audio and video), whichever room it stands in; shown as "Type".
     nl: { preferred: type }
     de: { preferred: Typ }
     es: { preferred: tipo }
     fr: { preferred: type }
+    nb: { preferred: type }
+    sv: { preferred: typ }
+    da: { preferred: type }
   - term: suggested room
     meaning: The room a model is meant for, or none (any room); a user's choice, not a proposal.
     nl:
@@ -194,6 +274,15 @@ terms:
       notes: Not "vorgeschlagen", as vorschlagen is "propose".
     es: { preferred: habitación sugerida }
     fr: { preferred: pièce suggérée }
+    nb:
+      preferred: anbefalt rom
+      notes: 'Not "foreslått rom", as foreslå is "propose".'
+    sv:
+      preferred: rekommenderat rum
+      notes: 'Not "föreslaget rum", as föreslå is "propose".'
+    da:
+      preferred: anbefalet rum
+      notes: 'Not "foreslået rum", as foreslå is "propose".'
   - term: propose
     meaning: To suggest a new item type or room for an admin to review.
     # Dutch splits the verb there ("stel meer voor").
@@ -206,18 +295,27 @@ terms:
     fr:
       preferred: proposer
       notes: A type is masculine and a room feminine; one text covers both, so use "ajout" or wording that needs no gender.
+    nb: { preferred: foreslå }
+    sv: { preferred: föreslå }
+    da: { preferred: foreslå }
   - term: brand
     meaning: The maker of the real product a model stands for (Sonos, IKEA); brand names themselves stay as they are.
     nl: { preferred: merk }
     de: { preferred: Marke }
     es: { preferred: marca }
     fr: { preferred: marque }
+    nb: { preferred: merke }
+    sv: { preferred: märke }
+    da: { preferred: mærke }
   - term: real product
     meaning: The product a model stands for, by brand and product name (Sonos Arc Ultra).
     nl: { preferred: echt product }
     de: { preferred: echtes Produkt }
     es: { preferred: producto real }
     fr: { preferred: produit réel }
+    nb: { preferred: ekte produkt }
+    sv: { preferred: riktig produkt }
+    da: { preferred: rigtigt produkt }
   - term: how it looks
     meaning: A model's or piece's description of its materials, colours and shapes, used to draw pictures of floor plans.
     # How a widget looks, not a model's description.
@@ -226,6 +324,9 @@ terms:
     de: { preferred: Aussehen }
     es: { preferred: aspecto }
     fr: { preferred: apparence }
+    nb: { preferred: utseende }
+    sv: { preferred: utseende }
+    da: { preferred: udseende }
   - term: appliance
     meaning: A household machine (fridge, washing machine); the item type, not a Homey device.
     # The appliance widget's settings.
@@ -238,6 +339,15 @@ terms:
       notes: Keep it apart from device, which is Gerät.
     es: { preferred: electrodoméstico }
     fr: { preferred: électroménager }
+    nb:
+      preferred: husholdningsapparat
+      notes: 'Keep it apart from device, which is enhet.'
+    sv:
+      preferred: hushållsapparat
+      notes: 'Keep it apart from device, which is enhet.'
+    da:
+      preferred: husholdningsapparat
+      notes: 'Keep it apart from device, which is enhed.'
   - term: admin
     meaning: Someone who runs Tiledash and reviews what users share; not the owner of a Homey.
     # A Homey's own admin rights, and the Admin area's name.
@@ -246,12 +356,18 @@ terms:
     de: { preferred: Admin }
     es: { preferred: administrador }
     fr: { preferred: administrateur }
+    nb: { preferred: administrator }
+    sv: { preferred: administratör }
+    da: { preferred: administrator }
   - term: energy meter
     meaning: A device that measures electricity use or solar production of the house.
     nl: { preferred: energiemeter }
     de: { preferred: Energiezähler }
     es: { preferred: contador de energía, avoid: metro de energía }
     fr: { preferred: compteur d'énergie }
+    nb: { preferred: energimåler }
+    sv: { preferred: energimätare }
+    da: { preferred: energimåler }
   - term: reading
     meaning: One measured value of a sensor or meter at a moment (a temperature, a kWh count).
     # The verb ("Reading who lives here…"), not a measured value.
@@ -270,6 +386,9 @@ terms:
     de: { preferred: Messwert }
     es: { preferred: lectura }
     fr: { preferred: mesure, avoid: lecture }
+    nb: { preferred: måleverdi }
+    sv: { preferred: mätvärde }
+    da: { preferred: måleværdi }
   # Added 2026-10-17 from what the translators chose for the login pages (approved by the user).
   - term: plan
     meaning: A Tiledash subscription level (Free or Pro) and what it allows.
@@ -374,36 +493,58 @@ terms:
     de: { preferred: Tarif }
     es: { preferred: plan }
     fr: { preferred: forfait }
+    nb:
+      preferred: [abonnement, plan]
+      notes: 'Not "plan" where it could be read as the floor plan (plantegning).'
+    sv:
+      preferred: [abonnemang, plan]
+    da:
+      preferred: [abonnement, plan]
   - term: floor plan
     meaning: A drawing of the person's house from above, level by level (30.8f).
     nl: { preferred: plattegrond }
     de: { preferred: Grundriss }
     es: { preferred: plano }
     fr: { preferred: plan d’étage }
+    nb: { preferred: plantegning }
+    sv: { preferred: planritning }
+    da: { preferred: plantegning }
   - term: account
     meaning: The person's Tiledash account, and the Account page in the app.
     nl: { preferred: account }
     de: { preferred: Konto }
     es: { preferred: cuenta }
     fr: { preferred: compte }
+    nb: { preferred: konto }
+    sv: { preferred: konto }
+    da: { preferred: konto }
   - term: AI assistant
     meaning: An AI app (Claude, ChatGPT…) connected to Tiledash to build widgets; also the group Settings → AI assistants.
     nl: { preferred: AI-assistent }
     de: { preferred: KI-Assistent }
     es: { preferred: asistente de IA }
     fr: { preferred: assistant IA }
+    nb: { preferred: KI-assistent }
+    sv: { preferred: AI-assistent }
+    da: { preferred: AI-assistent }
   - term: command line
     meaning: The Tiledash command-line tool (`tiledash auth login`…).
     nl: { preferred: opdrachtregel }
     de: { preferred: Kommandozeile }
     es: { preferred: línea de comandos }
     fr: { preferred: ligne de commande }
+    nb: { preferred: kommandolinje }
+    sv: { preferred: kommandorad }
+    da: { preferred: kommandolinje }
   - term: partial
     meaning: A reusable piece of a widget template, shared between widgets.
     nl: { preferred: partial }
     de: { preferred: Partial }
     es: { preferred: fragmento }
     fr: { preferred: fragment }
+    nb: { preferred: partial }
+    sv: { preferred: partial }
+    da: { preferred: partial }
   # Added 2026-10-17 from what the translators used in area 1 (approved by the user).
   - term: record
     meaning: Keeping the history of a reading (a temperature, a meter) so it can be shown over time; "recording" is that history.
@@ -416,18 +557,30 @@ terms:
       notes: A separable verb, so "zeichnet … auf" counts.
     es: { preferred: registrar }
     fr: { preferred: enregistrer }
+    nb:
+      preferred: [registrere, lagre]
+    sv:
+      preferred: [registrera, spara]
+    da:
+      preferred: [registrere, gemme]
   - term: unpair
     meaning: Disconnecting a paired screen (a wall panel tablet) from the account.
     nl: { preferred: ontkoppelen }
     de: { preferred: entkoppeln }
     es: { preferred: desvincular }
     fr: { preferred: dissocier }
+    nb: { preferred: koble fra }
+    sv: { preferred: koppla från }
+    da: { preferred: [fjerne tilknytning, frakoble] }
   - term: stack
     meaning: A tile that holds several tiles as pages, swiped or tabbed through.
     nl: { preferred: stapel }
     de: { preferred: Stapel }
     es: { preferred: pila }
     fr: { preferred: pile }
+    nb: { preferred: stabel }
+    sv: { preferred: stapel }
+    da: { preferred: [stak, stable] }
   - term: summary
     meaning: The small live figures beside a dashboard's or heading's name (lights on, power, average temperature).
     except: [community.listing.*, community.publishing.fieldSummary, community.drafts.*]
@@ -435,12 +588,18 @@ terms:
     de: { preferred: Übersicht }
     es: { preferred: resumen }
     fr: { preferred: résumé }
+    nb: { preferred: sammendrag }
+    sv: { preferred: sammanfattning }
+    da: { preferred: oversigt }
   - term: sidebar
     meaning: The navigation column at the left of the app.
     nl: { preferred: zijbalk }
     de: { preferred: Seitenleiste }
     es: { preferred: barra lateral }
     fr: { preferred: barre latérale }
+    nb: { preferred: sidepanel }
+    sv: { preferred: sidofält }
+    da: { preferred: sidepanel }
   # Added 2026-10-23 with the Settings page (phase 36; approved by the user).
   - term: Settings
     meaning: The Settings page, opened from the account menu, and the paths to its groups ("Settings › Alerts"). Not a tile's or panel's settings.
@@ -457,12 +616,18 @@ terms:
     de: { preferred: Einstellungen }
     es: { preferred: Ajustes }
     fr: { preferred: Réglages }
+    nb: { preferred: Innstillinger }
+    sv: { preferred: Inställningar }
+    da: { preferred: Indstillinger }
   - term: keypad
     meaning: A number pad on a dashboard, wall panel or share link that asks for a PIN before it unlocks, disarms or opens something.
     nl: { preferred: toetsenpaneel }
     de: { preferred: Tastenfeld }
     es: { preferred: teclado }
     fr: { preferred: clavier }
+    nb: { preferred: tastatur }
+    sv: { preferred: knappsats }
+    da: { preferred: tastatur }
   - term: recordings
     meaning: The place (Settings › Recordings, and the button that opens it) that lists every recorded reading.
     # Running text about recorded readings, not the place.
@@ -476,3 +641,12 @@ terms:
     nl:
       preferred: Vastgelegd
       notes: The place's name; in running text "vastgelegde meetwaarden". Never "opnames" (the user, 2026-10-23).
+    nb:
+      preferred: Registreringer
+      notes: The place's name; in running text "registrerte måleverdier".
+    sv:
+      preferred: Registreringar
+      notes: The place's name; in running text "registrerade mätvärden".
+    da:
+      preferred: Registreringer
+      notes: The place's name; in running text "registrerede måleværdier".

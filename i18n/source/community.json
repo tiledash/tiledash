@@ -3185,6 +3185,26 @@
     "maxLength": 40,
     "file": "apps/web/src/store/storePublishing.messages.ts"
   },
+  "community.publishing.publishLimitedDay": {
+    "en": "You’ve published {limit} times in the last 24 hours, the most allowed. You can publish again at {time}.",
+    "context": "Red message in the publish dialog when the community refused a publish because you reached the limit of publishes in 24 hours. Each publish counts for 24 hours after it was made, so room comes back at the given time.",
+    "params": {
+      "limit": "How many publishes 24 hours allow, a number (90).",
+      "time": "When the next publish may go, in the user’s own clock format, with the weekday when it isn’t today (\"14:05\", \"Tue 09:10\"). Not translated."
+    },
+    "maxLength": 160,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
+  "community.publishing.publishLimitedHour": {
+    "en": "You’ve published {limit} times in the last hour, the most allowed. You can publish again at {time}.",
+    "context": "Red message in the publish dialog when the community refused a publish because you reached the limit of publishes in an hour. Each publish counts for an hour after it was made, so room comes back at the given time.",
+    "params": {
+      "limit": "How many publishes an hour allows, a number (30).",
+      "time": "When the next publish may go, in the user’s own clock format, with the weekday when it isn’t today (\"14:05\", \"Tue 09:10\"). Not translated."
+    },
+    "maxLength": 160,
+    "file": "apps/web/src/store/storePublishing.messages.ts"
+  },
   "community.publishing.stoppedBody": {
     "en": "Tiledash stopped your community name from publishing new items and versions. What you published stays in the community and keeps working.",
     "context": "Text of that dialog. Why follows under it, as Tiledash wrote it (not translated).",

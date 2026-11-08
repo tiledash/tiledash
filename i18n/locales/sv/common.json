@@ -1,0 +1,524 @@
+{
+  "common.actions.allow": {
+    "text": "Tillåt",
+    "source": "e213c161d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.back": {
+    "text": "Tillbaka",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.continue": {
+    "text": "Fortsätt",
+    "source": "31fbef1625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.logOut": {
+    "text": "Logga ut",
+    "source": "4961614551",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.next": {
+    "text": "Nästa",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.save": {
+    "text": "Spara",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.seePlans": {
+    "text": "Se abonnemang",
+    "source": "d989893356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.tryAgain": {
+    "text": "Försök igen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.favourites": {
+    "text": "Favoriter",
+    "source": "d97d51d370",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.keep": {
+    "text": "Spara färgen som favorit",
+    "source": "47abc3605f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.menuForget": {
+    "text": "Ta bort från favoriter",
+    "source": "a5bdecedf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.menuKeep": {
+    "text": "Spara som favorit",
+    "source": "4d86d7850b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.recent": {
+    "text": "Senaste",
+    "source": "690dbe9dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.use": {
+    "text": "Använd {colour}",
+    "source": "51a995154f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.colour": {
+    "text": "{colour, select, warm-white {Varmvit} greige {Greige} blush {Puderrosa} sand {Sand} sage {Salviagrön} mist {Disblå} lavender {Lavendel} slate {Skiffer} clay {Lera} oak {Ek} walnut {Valnöt} terracotta {Terrakotta} mustard {Senap} teal {Petrol} denim {Denimblå} navy {Marinblå} red {Röd} orange {Orange} yellow {Gul} green {Grön} cyan {Cyan} blue {Blå} purple {Lila} pink {Rosa} other {Färg}}",
+    "source": "5e80aaf890",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.colours": {
+    "text": "Färger",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.mixed": {
+    "text": "Flera färger",
+    "source": "7b19989ad9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.open": {
+    "text": "{label}: {colour}. Ändra färgen",
+    "source": "6d754c70b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.other": {
+    "text": "Annan färg",
+    "source": "c6b6166954",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.theme": {
+    "text": "Temafärg",
+    "source": "41988af879",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.themeColours": {
+    "text": "Från temat",
+    "source": "b999cd6c62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.confirm.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomBusy": {
+    "text": "Athom ber oss sakta ner; försök igen om en minut.",
+    "source": "e773897c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomLoginExpired": {
+    "text": "Din Athom-inloggning har gått ut. Logga in igen för att fortsätta.",
+    "source": "d65e729bde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.homeyUnreachable": {
+    "text": "Det går inte att nå din Homey just nu.",
+    "source": "c3d1befd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.offline": {
+    "text": "{what} Kontrollera din anslutning och försök igen.",
+    "source": "643a906c0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.learnMore.label": {
+    "text": "Läs mer",
+    "source": "1445799c03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.learnMore.newTab": {
+    "text": "(öppnas i en ny flik)",
+    "source": "1d18335651",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitCalendars": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# kalender} other {# kalendrar}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "2376175d64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitDashboards": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# dashboard} other {# dashboards}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "e34411f789",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitFloorPlans": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# planritning} other {# planritningar}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "d64f2ef750",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitHomeys": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# Homey} other {# Homeys}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "cd6f5401f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitOther": {
+    "text": "Du har nått en gräns i {plan, select, free {ditt Free-abonnemang} pro {ditt Pro-abonnemang} other {ditt nuvarande abonnemang}}.{upgrade, select, yes { Uppgradera till Pro för mer.} other {}}",
+    "source": "b84c0bde79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitScreens": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# kopplad skärm} other {# kopplade skärmar}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "af80eb35e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitSeries": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# registrerad funktion} other {# registrerade funktioner}}.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "23e2d586cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitShareLinks": {
+    "text": "{plan, select, free {Ditt Free-abonnemang} pro {Ditt Pro-abonnemang} other {Ditt nuvarande abonnemang}} omfattar {limit, plural, one {# delningslänk} other {# delningslänkar}} åt gången.{upgrade, select, yes { Uppgradera till Pro för fler.} other {}}",
+    "source": "ca2edadc37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.notIncluded": {
+    "text": "Det här ingår inte i {plan, select, free {ditt Free-abonnemang} pro {ditt Pro-abonnemang} other {ditt nuvarande abonnemang}}.{upgrade, select, yes { Uppgradera till Pro för mer.} other {}}",
+    "source": "71a39a17d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.board": {
+    "text": "Exempelwidgetar",
+    "source": "813e33fc8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyGrid": {
+    "text": "Elnät",
+    "source": "0d7d12ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyMeter": {
+    "text": "P1-mätare",
+    "source": "a114a2bb21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyShare": {
+    "text": "{share} från solel",
+    "source": "8ac6596f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energySolar": {
+    "text": "Solel",
+    "source": "31ce6e7917",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyTitle": {
+    "text": "Hemmets effekt",
+    "source": "c884bfc089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyUsing": {
+    "text": "Används nu",
+    "source": "c5d6413c0a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowDone": {
+    "text": "Klar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowName": {
+    "text": "God natt",
+    "source": "e107f49b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowRunning": {
+    "text": "Körs…",
+    "source": "46c541363b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowSummary": {
+    "text": "Lampor av · dörrar låsta · 17°",
+    "source": "38f0b8cb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowZone": {
+    "text": "Kväll",
+    "source": "458c1fed57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightBrightness": {
+    "text": "Ljusstyrka",
+    "source": "ec811d30a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightName": {
+    "text": "Soffbordslampa",
+    "source": "3025650cd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOff": {
+    "text": "Av",
+    "source": "ca7981b46e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOn": {
+    "text": "På",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightTap": {
+    "text": "Tryck för att tända",
+    "source": "3979ab3057",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightWarm": {
+    "text": "{brightness}% · varmvitt",
+    "source": "2fae0e50e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.livingRoom": {
+    "text": "Vardagsrum",
+    "source": "268d40ee19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorHumidity": {
+    "text": "% RF",
+    "source": "485e73a1eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorRoom": {
+    "text": "Barnrum",
+    "source": "6cf4693953",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorTitle": {
+    "text": "Klimat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedAgo": {
+    "text": "Uppdaterad för {seconds, number} s sedan",
+    "source": "ad0415dfbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedNow": {
+    "text": "Uppdaterad nyss",
+    "source": "c5cb2e5302",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHeating": {
+    "text": "Värmer till {target}°",
+    "source": "eba58d68c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHolding": {
+    "text": "Håller {target}°",
+    "source": "1a1728537c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatLower": {
+    "text": "Sänk måltemperaturen",
+    "source": "38e9cbf808",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatRaise": {
+    "text": "Höj måltemperaturen",
+    "source": "09a104784b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatTitle": {
+    "text": "Termostat",
+    "source": "dd1eeb3ccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoDescription": {
+    "text": "Ljust på dagen och mörkt på natten, som enheten är inställd.",
+    "source": "9e78a53162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoName": {
+    "text": "{name} · Automatiskt",
+    "source": "c202e1809d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.mine": {
+    "text": "Ett av dina egna teman.",
+    "source": "49e6bfb127",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.indoor": {
+    "text": "Inne",
+    "source": "a9cb38b7dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.on": {
+    "text": "På",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.room": {
+    "text": "Vardagsrum",
+    "source": "4876f89796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.choose": {
+    "text": "Välj…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.close": {
+    "text": "Stäng",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.dismiss": {
+    "text": "Stäng",
+    "source": "48845bff33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.nothingMatches": {
+    "text": "Inget matchar",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.pairingCode": {
+    "text": "Kopplingskod",
+    "source": "1c5ea2f7ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabel": {
+    "text": "Sök {label}",
+    "source": "70f005ced0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabelPlain": {
+    "text": "Sök",
+    "source": "49c266baaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchPlaceholder": {
+    "text": "Sök…",
+    "source": "7336265a04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.stepOf": {
+    "text": "Steg {step} av {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabMore": {
+    "text": "Mer",
+    "source": "d47d7cb0e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabMoreLabel": {
+    "text": "Fler flikar",
+    "source": "dfb19cd657",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNeedsChoice": {
+    "text": "Något att välja",
+    "source": "bfab0fde18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNew": {
+    "text": ", något nytt",
+    "source": "6972ca611a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabToChoose": {
+    "text": ", något att välja",
+    "source": "9e5cc728e1",
+    "by": "ai",
+    "reviewed": false
+  }
+}

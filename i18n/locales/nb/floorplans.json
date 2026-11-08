@@ -1,0 +1,3482 @@
+{
+  "floorplans.actions.angleHint": {
+    "text": "Vri: {angle}°",
+    "source": "0fce12cf6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.arrange": {
+    "text": "Plasser",
+    "source": "d557a972ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.copied": {
+    "text": "Standardene er kopiert. Eksisterende fliser er ikke endret.",
+    "source": "66315f944e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.copy": {
+    "text": "Kopier handlinger fra eksisterende fliser",
+    "source": "150f2e3230",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.dashboard": {
+    "text": "Åpne et dashbord",
+    "source": "803f2313cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.defaults": {
+    "text": "Standardhandlinger",
+    "source": "eda49170f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.device": {
+    "text": "Åpne enheten",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.done": {
+    "text": "Avslutt testingen",
+    "source": "2a4bf43a9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.double": {
+    "text": "Dobbelttrykk",
+    "source": "b7f18903d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.flow": {
+    "text": "Start en Flow",
+    "source": "54ef6dbaec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.full": {
+    "text": "Fullskjerm",
+    "source": "674fe2acd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.heading": {
+    "text": "Handlinger",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.hold": {
+    "text": "Langt trykk",
+    "source": "8e685d5409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.inherit": {
+    "text": "Bruk plantegningens standard",
+    "source": "36a78a9754",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.legacy": {
+    "text": "Eksisterende fliser beholder sine egne handlinger til du setter hver flis til «Bruk handlinger fra plantegningen».",
+    "source": "2a1b9c4600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.missing": {
+    "text": "Målet finnes ikke lenger",
+    "source": "0defd7c2d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.mood": {
+    "text": "Aktiver en stemning",
+    "source": "f11565423b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.noDevice": {
+    "text": "Knytt til en enhet først",
+    "source": "48e51905a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.nothing": {
+    "text": "Ingenting",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.open": {
+    "text": "Åpne som",
+    "source": "34a5075c64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.openingDevice": {
+    "text": "Enheten disse handlingene bruker",
+    "source": "6dde4666c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.ownDevice": {
+    "text": "Tilknyttet enhet",
+    "source": "a7ba6a1269",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.page": {
+    "text": "Side",
+    "source": "0a30a815d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.pass": {
+    "text": "Ingen egen handling",
+    "source": "4c93d4d4a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.popup": {
+    "text": "Popup-vindu",
+    "source": "4c142892b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.preview": {
+    "text": "Forhåndsvis",
+    "source": "324b134f57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.quick": {
+    "text": "Hurtighandlinger",
+    "source": "1810407f5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.request": {
+    "text": "Send en nettforespørsel",
+    "source": "d36e9edf01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.rotate": {
+    "text": "Dra for å vri",
+    "source": "f8178c9343",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.safe": {
+    "text": "Bare forhåndsvisning. Ingen kommando sendes til Homey-en din.",
+    "source": "c08a84e0c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.shared": {
+    "text": "Disse handlingene følger plantegningen på alle dashbord.",
+    "source": "06fea35ebe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.side": {
+    "text": "Panel på siden",
+    "source": "c28cdd9864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.sizeHint": {
+    "text": "{width} × {depth} cm",
+    "source": "13b8b3fba4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.switch": {
+    "text": "Slå enheten av eller på",
+    "source": "f77815ef31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.tap": {
+    "text": "Trykk",
+    "source": "464d23b54f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.target": {
+    "text": "Mål",
+    "source": "978354db0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.test": {
+    "text": "Test handlinger",
+    "source": "bbfc27cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.turnHint": {
+    "text": "Dra for å vri · Shift slår festing av/på",
+    "source": "f5540a088e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.actions.variable": {
+    "text": "Sett en variabel",
+    "source": "5834e67f7a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.cover": {
+    "text": "Farge på solskjermingen",
+    "source": "48016bac11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.label": {
+    "text": "Farge",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.outside": {
+    "text": "Utsiden",
+    "source": "dacf15163a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.colours.side": {
+    "text": "Siden mot {room}",
+    "source": "6a96610257",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.allPlaced": {
+    "text": "Alle er plassert",
+    "source": "643b691018",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.climateAverage": {
+    "text": "Snittet for rommet",
+    "source": "2f0c5264a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.climateFrom": {
+    "text": "{reading, select, temperature {Temperatur fra} other {Fuktighet fra}}",
+    "source": "33ebf865b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.contact": {
+    "text": "Kontaktsensor",
+    "source": "019200444b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.covering": {
+    "text": "Persienner eller gardiner",
+    "source": "e546102cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.coveringKind": {
+    "text": "{kind, select, blinds {Persienner} curtains {Gardiner} shutter {Rullesjalusi} other {Ingen}}",
+    "source": "3591764201",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.device": {
+    "text": "Enhet",
+    "source": "6ba0bdeccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.deviceInZone": {
+    "text": "{device} · {zone}",
+    "source": "4650716157",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.dropLink": {
+    "text": "La den vise {device}",
+    "source": "92369b2886",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.dropOn": {
+    "text": "Sett {device} på den",
+    "source": "ff03bcc166",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.elsewhere": {
+    "text": "Andre steder i {level}",
+    "source": "a4944e4f90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.everyShape": {
+    "text": "{open, select, yes {Bare formene som passer} other {Alle former}}",
+    "source": "6c113d2ff3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.findShape": {
+    "text": "Finn en form",
+    "source": "c412448135",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.hint": {
+    "text": "Dra en enhet inn på plantegningen, eller plasser alle enhetene i et rom på én gang og rydd etterpå.",
+    "source": "14ca7ad60a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.inZone": {
+    "text": "I {zone}",
+    "source": "88f0e5e876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.linkHint": {
+    "text": "På et dashbord ligger en dør lukket eller står åpen, og persiennene lukkes over vinduet.",
+    "source": "0d9e125ca0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.linksTitle": {
+    "text": "Viser",
+    "source": "e714ae21d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.lock": {
+    "text": "Lås",
+    "source": "db44b8db4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.look": {
+    "text": "Ser ut som",
+    "source": "9565ab812a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.lookIcon": {
+    "text": "Ikonet sitt",
+    "source": "6ce9dd6a59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.lookShape": {
+    "text": "En form",
+    "source": "79e5c38ae5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.mount": {
+    "text": "{mount, select, ceiling {I taket} wall {På en vegg} floor {På gulvet} other {Romkort}}",
+    "source": "bd4b2527df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.noDevice": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.noZone": {
+    "text": "Knytt rommet til en sone for å plassere enhetene.",
+    "source": "e8efafb27f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.nothingFound": {
+    "text": "Ingen enhet heter det.",
+    "source": "9a95945faa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.placeAll": {
+    "text": "Plasser alle ({count})",
+    "source": "e74ce8fc0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.reach": {
+    "text": "Lyset rekker",
+    "source": "7c6c1a473e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.reachHint": {
+    "text": "Vegger stopper det; det går gjennom åpne dører og døråpninger.",
+    "source": "815c29218d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.reachValue": {
+    "text": "{metres} m",
+    "source": "dc9ef1c2e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.remove": {
+    "text": "Ta av plantegningen",
+    "source": "5ff59bb4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.search": {
+    "text": "Finn en enhet",
+    "source": "d8cd5f4208",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.shape": {
+    "text": "{shape, select, ceiling-light {Taklampe} pendant {Pendel} spot {Spot} wall-light {Vegglampe} led-strip {LED-list} table-lamp {Bordlampe} floor-lamp {Gulvlampe} plug {Plugg} sensor {Sensor} motion-sensor {Bevegelsessensor} smoke-detector {Røykvarsler} thermostat {Termostat} speaker {Høyttaler} camera {Kamera} lock {Lås} button {Knapp} vacuum {Robotstøvsuger} fan {Vifte} tv {TV} radiator {Radiator} other {Enhet}}",
+    "source": "15b14fe48e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.shapeLabel": {
+    "text": "Form",
+    "source": "e0e492707f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.title": {
+    "text": "Enheter",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.devices.where": {
+    "text": "Plassering",
+    "source": "c4124d6386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.addLevel": {
+    "text": "Legg til en etasje",
+    "source": "2ba70e8d04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.addPicture": {
+    "text": "Legg til et bilde",
+    "source": "4058365da2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.area": {
+    "text": "{area} m²",
+    "source": "e80511da08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.back": {
+    "text": "Tilbake til plantegningene",
+    "source": "7a4ba9b0a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.backToPlans": {
+    "text": "Plantegninger",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.blank": {
+    "text": "Tom",
+    "source": "2c3d371cbf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.blankChoiceText": {
+    "text": "Én tom etasje. Tegn den selv, eller over et bilde av planen din.",
+    "source": "36574075c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.blankText": {
+    "text": "Velg en form og dra den til riktig størrelse, tegn vegger hjørne for hjørne, eller tegn over et bilde av planen din.",
+    "source": "1653f0f06d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.blankTitle": {
+    "text": "Start med et rom",
+    "source": "821b055396",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.catalogueHint": {
+    "text": "Velg en, og klikk på en vegg, eller dra den til en vegg. Den glir langs veggen og lager sin egen åpning.",
+    "source": "aa1fbd1d89",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.catalogueItem": {
+    "text": "{item, select, door {Dør} front-door {Inngangsdør} double-door {Dobbeltdør} sliding-door {Skyvedør} doorway {Døråpning} wide-opening {Bred åpning} small-window {Lite vindu} window {Vindu} wide-window {Bredt vindu} other {Vindusvegg}}",
+    "source": "c6f4759b5f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.centimetres": {
+    "text": "Centimeter.",
+    "source": "4fe2fd4459",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.choosePicture": {
+    "text": "Velg et bilde",
+    "source": "2132f60460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.conflict": {
+    "text": "Denne plantegningen ble endret et annet sted. De siste endringene dine er ikke lagret.",
+    "source": "ca7c58fa5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.copyOuter": {
+    "text": "Kopier ytterveggene fra {level}",
+    "source": "94a75c2a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.createFailed": {
+    "text": "Kunne ikke lage plantegningen. Sjekk tilkoblingen og prøv igjen.",
+    "source": "fa5ba71e05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.createPlan": {
+    "text": "Lag plantegning",
+    "source": "4e207a48fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.defaultPlanName": {
+    "text": "Huset vårt",
+    "source": "ff0efc2a15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.delete": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleteConfirm": {
+    "text": "Slett plantegning",
+    "source": "661b567553",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleteLevel": {
+    "text": "Slett etasjen",
+    "source": "2927a78973",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deletePlan": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deletePlanNamed": {
+    "text": "Slett {name}",
+    "source": "3cf8146e52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleteRoom": {
+    "text": "Slett rommet og dets egne vegger",
+    "source": "69b388edf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleteText": {
+    "text": "Etasjene, rommene, dørene og vinduene forsvinner. Bildene du tegnet over, blir værende blant bildene dine.",
+    "source": "57321a8fa3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleteTitle": {
+    "text": "Slette «{name}»?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deleted": {
+    "text": "«{name}» er slettet",
+    "source": "4581c5b319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.deletedElsewhere": {
+    "text": "Denne plantegningen ble slettet et annet sted.",
+    "source": "639606f53b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.emptyText": {
+    "text": "Tegn veggene, rommene, dørene og vinduene, med utgangspunkt i sonene på Homey-en din eller over et bilde av planen. Senere vises lysene, persiennene og sensorene dine på den, direkte.",
+    "source": "6e02890c32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.emptyTitle": {
+    "text": "Huset ditt, tegnet",
+    "source": "feca15d1d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.faintness": {
+    "text": "Styrke",
+    "source": "63ee3a1b96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.finish": {
+    "text": "{finish, select, wood {Tre} tiles {Fliser} carpet {Teppe} stone {Stein} concrete {Betong} other {Enkelt}}",
+    "source": "984db2459b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.fixRatio": {
+    "text": "Rett opp forholdet",
+    "source": "2d111e1e96",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.flipHinge": {
+    "text": "Bytt side på hengslene",
+    "source": "0356f0f5b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.flipSide": {
+    "text": "Åpne mot den andre siden",
+    "source": "16c12bade9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.floor": {
+    "text": "Gulv",
+    "source": "d268c9c449",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.floorArea": {
+    "text": "Gulvareal",
+    "source": "c5689006d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.floorAt": {
+    "text": "Gulvet på",
+    "source": "1768351199",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.freeLimit": {
+    "text": "Free har plass til {limit, plural, one {# plantegning} other {# plantegninger}}. Gå over til Pro for flere, og for å se dem i 3D senere.",
+    "source": "8895ba1500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.fromZones": {
+    "text": "Fra sonene dine",
+    "source": "4915074044",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.fromZonesNone": {
+    "text": "Homey-en din har ingen etasjer blant sonene.",
+    "source": "0afae48c0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.fromZonesText": {
+    "text": "{levels, plural, one {# etasje} other {# etasjer}} ({names}) med {rooms, plural, one {# rom} other {# rom}} å plassere.",
+    "source": "6c36240423",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.gapAfter": {
+    "text": "Til hjørnet etter",
+    "source": "e1b4d252f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.gapBefore": {
+    "text": "Til hjørnet før",
+    "source": "c947933cc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.goPro": {
+    "text": "Gå over til Pro",
+    "source": "28c0f3aab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.groundFloor": {
+    "text": "1. etasje",
+    "source": "18c409c5e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.height": {
+    "text": "Høyde",
+    "source": "bfe2eca401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.hidePicture": {
+    "text": "Skjul",
+    "source": "ac20a57bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.hints": {
+    "text": "{tool, select, select {Klikk: velg; Shift-klikk: legg til · Dra: flytt · Dra over et rom: velg flere · Piltaster: flytt litt · Delete: fjern · Mellomrom og dra: flytt planen} room {Dra: tegn rommet i riktig størrelse · R: vri det · Shift: uten festing · Esc eller høyreklikk: stopp} wall {Klikk: sett et hjørne · Skriv en lengde: veggen følger; Enter plasserer den · Shift: uten festing · Esc eller høyreklikk: stopp} door {Klikk på en vegg: plasser døren · F: åpne mot den andre siden · Esc eller høyreklikk: stopp} window {Klikk på en vegg: plasser vinduet · Esc eller høyreklikk: stopp} measure {Klikk på to punkter for å måle mellom dem · Esc eller høyreklikk: stopp} furniture {Dra en del fra panelet inn på planen · R: vri den 15° · Shift: uten justering · Esc eller høyreklikk: stopp} devices {Dra en enhet fra panelet inn på planen, eller velg den og klikk · Esc eller høyreklikk: stopp} other {Dra: flytt bildet · Mål med to klikk når du blir bedt om det}}",
+    "source": "482e7dd58d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.howToStart": {
+    "text": "Slik starter du",
+    "source": "69f36336a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.inside": {
+    "text": "Innvendig",
+    "source": "123a3ebc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.keepMine": {
+    "text": "Behold min",
+    "source": "0335c83325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.keepRatio": {
+    "text": "La det være",
+    "source": "5c5e8809cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.kind": {
+    "text": "Type",
+    "source": "f5387f9bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.length": {
+    "text": "Lengde",
+    "source": "adc95605a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelDown": {
+    "text": "Flytt ned",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelHeading": {
+    "text": "Denne etasjen",
+    "source": "be9e0811a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelUnits": {
+    "text": "Meter. Gulvet i en etasje måles fra gulvet i 1. etasje.",
+    "source": "8ed59b664a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelUp": {
+    "text": "Flytt opp",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelZone": {
+    "text": "Etasje",
+    "source": "d268c9c449",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levelZoneHint": {
+    "text": "Rommene i den står nedenfor, klare til å plasseres.",
+    "source": "7688327aa8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.levels": {
+    "text": "Etasjer",
+    "source": "b14821319e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.lineUp": {
+    "text": "Juster det",
+    "source": "b57064cf1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.lineUpPicture": {
+    "text": "Juster bildet",
+    "source": "f808b67b2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.lineUpText": {
+    "text": "Dra bildet for å flytte det; vri og ton det ned her.",
+    "source": "2d997cd567",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.loadFailed": {
+    "text": "Kunne ikke laste inn plantegningene dine. Sjekk tilkoblingen og prøv igjen.",
+    "source": "dccd307737",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.measureHint": {
+    "text": "Klikk på to punkter for å måle mellom dem. Målingen etterlater ingenting på planen.",
+    "source": "c6e5d0cb4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.measureLengthField": {
+    "text": "Den virkelige lengden på denne linjen i meter",
+    "source": "5e9c70762d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.metresUnit": {
+    "text": "m",
+    "source": "62c66a7a5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.missing": {
+    "text": "Denne plantegningen finnes ikke lenger.",
+    "source": "22f803af7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.name": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.newLevelName": {
+    "text": "Etasje {number}",
+    "source": "8a89c7f5ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.newPlan": {
+    "text": "Ny plantegning",
+    "source": "0e646825df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.newPlanTitle": {
+    "text": "Ny plantegning",
+    "source": "2edd8147d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.noZone": {
+    "text": "Ingen sone",
+    "source": "a5d34ff8aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.noZoneHint": {
+    "text": "Et eget rom: trapp, en repos",
+    "source": "1900ff93d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.onPlan": {
+    "text": "På planen",
+    "source": "1829030c95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.openPlan": {
+    "text": "Åpne {name}",
+    "source": "f687d18152",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.panelTitle": {
+    "text": "{mode, select, level {Etasje} room {Rom} wall {Vegg} opening {{kind, select, window {Vindu} opening {Åpning} other {Dør}}} doors {Dører} windows {Vinduer} walls {Vegger} picture {Bilde å tegne over} furniture {Møbler} item {Møbel} items {Utvalg} devices {Enheter} device {Enhet} other {Mål}}",
+    "source": "a027f490a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.panelWidth": {
+    "text": "Bredde på sidepanelet",
+    "source": "b1a89c7455",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.paused": {
+    "text": "Denne plantegningen er satt på pause: abonnementet ditt har plass til færre plantegninger. Du kan se, ikke endre.",
+    "source": "d08dde4724",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.pausedBadge": {
+    "text": "På pause",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.phone": {
+    "text": "Plantegninger tegnes på nettbrett eller datamaskin. Her kan du se deg rundt.",
+    "source": "0d699f009d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.pictureAdded": {
+    "text": "Bildet er lagt til",
+    "source": "861857b290",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.pictureFailed": {
+    "text": "Kunne ikke legge til bildet. Bruk en PNG, JPEG eller WebP på maks 10 MB.",
+    "source": "f3bd0fbc81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.pictureHeading": {
+    "text": "Bilde å tegne over",
+    "source": "67dd957cbc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.pictureIntro": {
+    "text": "En skanning, et foto av en tegning eller en plantegning fra megleren, vist svakt under denne etasjen så du kan tegne over.",
+    "source": "78f086e3bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.place": {
+    "text": "Plasser",
+    "source": "e9463dccf0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.placing": {
+    "text": "Plasserer…",
+    "source": "cb719a7633",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.planFacts": {
+    "text": "{levels, plural, one {# etasje} other {# etasjer}} · {rooms, plural, one {# rom} other {# rom}} · endret {edited}",
+    "source": "d81b3309af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.planLabel": {
+    "text": "{level}, {rooms, plural, one {# rom} other {# rom}}",
+    "source": "45953f6e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.planName": {
+    "text": "Navnet på plantegningen",
+    "source": "cd28edab83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.plansIntro": {
+    "text": "Tegn rommene til {homey}, etasje for etasje, for å vise dem på dashbordene dine.",
+    "source": "d0b1ac4b9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.plansTitle": {
+    "text": "Plantegninger",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.preview3d": {
+    "text": "3D-forhåndsvisning",
+    "source": "679e90e88c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.preview3dReset": {
+    "text": "Tilbake til startvisningen",
+    "source": "18fe768b05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.preview3dUnsupported": {
+    "text": "Denne skjermen kan ikke tegne huset i 3D.",
+    "source": "f5d8d793a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.ratioFine": {
+    "text": "Ferdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.redo": {
+    "text": "Gjør om",
+    "source": "74273989b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.removePicture": {
+    "text": "Fjern",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.roomHint": {
+    "text": "Dra et hjørne for å endre rommet, eller skriv inn lengden på en vegg; rommene ved siden av følger med.",
+    "source": "19c12ec553",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.roomShape": {
+    "text": "Romform",
+    "source": "2c7204b905",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.roomTapsHeading": {
+    "text": "På et dashbord",
+    "source": "1cadd5ca38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.roomTapsHint": {
+    "text": "Hva berøring av dette rommet gjør på en flis med plantegning. Alle fliser som viser denne planen, gjør det samme.",
+    "source": "41c2c96d77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.roomsIn": {
+    "text": "Rom i {zone}",
+    "source": "36d9d15b1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.saveState": {
+    "text": "{state, select, saved {Lagret} saving {Lagrer…} offline {Ikke lagret: frakoblet} other {Ikke lagret ennå}}",
+    "source": "1973778a6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.selectWall": {
+    "text": "Velg veggen",
+    "source": "8c7b860364",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.shapeLabel": {
+    "text": "{name} · {width} × {depth}",
+    "source": "b8b40106a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.shapeName": {
+    "text": "{shape, select, rectangle {Rektangel} l {L-form} u {U-form} other {T-form}}",
+    "source": "9a48f0adb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.show": {
+    "text": "Vis på planen",
+    "source": "27fc64744e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.showBelow": {
+    "text": "Vis {level} under",
+    "source": "e484a245d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.showGrid": {
+    "text": "Rutenett",
+    "source": "0d7d12ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.showLengths": {
+    "text": "Lengder",
+    "source": "61af5be925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.showPicture": {
+    "text": "Vis",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.showPictureToggle": {
+    "text": "Bilde",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.sill": {
+    "text": "Karm",
+    "source": "92e8050543",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.size": {
+    "text": "{width} × {depth}",
+    "source": "1f7beb5101",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.skipRatio": {
+    "text": "Hopp over",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.snapping": {
+    "text": "Fest · hold Shift for å bytte",
+    "source": "56d52b2698",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.split": {
+    "text": "Del",
+    "source": "32afaa7843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepAdd": {
+    "text": "Legg til et bilde",
+    "source": "4058365da2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepAddText": {
+    "text": "En skanning eller et foto av en plantegning, PNG, JPEG eller WebP. Det blir i redigeringsverktøyet og vises aldri på et dashbord.",
+    "source": "099b5249e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepRatio": {
+    "text": "Sjekk den andre veien",
+    "source": "ad49eb3cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepRatioText": {
+    "text": "En skanning er ofte litt strukket. Mål en lengde på tvers av den første for å sjekke.",
+    "source": "788798d792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepScale": {
+    "text": "Angi størrelsen",
+    "source": "78c29a39ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stepScaleText": {
+    "text": "Tegn en linje over noe du vet lengden på, en vegg eller målestokken, og skriv inn hvor lang den egentlig er.",
+    "source": "36889ffcf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.stretched": {
+    "text": "Bildet er {percent}% {way, select, wider {bredere} other {smalere}} enn det skal være.",
+    "source": "3661bd666c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.takeTheirs": {
+    "text": "Vis de andre endringene",
+    "source": "c90a1e7ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.thickness": {
+    "text": "Tykkelse",
+    "source": "7b59441442",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.thicknessCustom": {
+    "text": "Tykkelse i centimeter",
+    "source": "101f016ae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.thicknessPreset": {
+    "text": "{preset, select, thin {Tynn} medium {Middels} other {Tykk}}",
+    "source": "cbd4fce65f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.tool": {
+    "text": "{tool, select, select {Velg og flytt} room {Rom fra en form} wall {Tegn vegger} door {Dører} window {Vinduer} measure {Mål} furniture {Møbler} devices {Enheter} other {Bilde å tegne over}}",
+    "source": "137dc8594c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.toolKey": {
+    "text": "{tool, select, select {Velg og flytt} room {Rom fra en form} wall {Tegn vegger} door {Dører} window {Vinduer} measure {Mål} furniture {Møbler} devices {Enheter} other {Bilde å tegne over}} ({key})",
+    "source": "0d9970080d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.tools": {
+    "text": "Verktøy",
+    "source": "ea93d6a262",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.tracePicture": {
+    "text": "Tegn over et bilde",
+    "source": "aebf877c14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.tryAgain": {
+    "text": "Prøv igjen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.turn": {
+    "text": "Vri",
+    "source": "b823d5f9d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.undo": {
+    "text": "Angre",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.unnamedRoom": {
+    "text": "Rom",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.uploading": {
+    "text": "Legger til bildet…",
+    "source": "5f7c5bc131",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallHeight": {
+    "text": "Vegghøyde",
+    "source": "0d5d629cfa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallKind": {
+    "text": "{kind, select, wall {Vegg} low {Lav} railing {Rekkverk} other {Ingen}}",
+    "source": "e610cd0c3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallKindNote": {
+    "text": "{kind, select, low {En knevegg eller halvvegg: tegnet lysere, lavere i 3D.} railing {Rundt en trapp eller en repos.} invisible {Deler to rom uten vegg, som et åpent kjøkken.} other {Full høyde, {height} i denne etasjen.}}",
+    "source": "5a5198fd4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallLengthField": {
+    "text": "Lengden på denne veggen i meter",
+    "source": "ee7df3cae2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallToolHint": {
+    "text": "Nye vegger tegnes så tykke, maks 40 m lange. For å endre én vegg, velg den med markøren.",
+    "source": "513b5072a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.wallUnits": {
+    "text": "Lengde i meter langs midten av veggen, tykkelse i centimeter.",
+    "source": "15c43af4b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.where": {
+    "text": "{level} · {rooms, plural, one {# rom} other {# rom}}",
+    "source": "d4b1a47c7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.width": {
+    "text": "Bredde",
+    "source": "3019947b6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.zone": {
+    "text": "Sone",
+    "source": "a8a06e4a56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.zoneHint": {
+    "text": "Enhetene kan plasseres når enheter kommer til plantegningen.",
+    "source": "4e3c207c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.zoomFit": {
+    "text": "Tilpass etasjen",
+    "source": "953e4190d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.zoomIn": {
+    "text": "Zoom inn",
+    "source": "0e47f09a74",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.editor.zoomOut": {
+    "text": "Zoom ut",
+    "source": "bc7b631a68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.catalogueTab": {
+    "text": "{tab, select, library {Bibliotek} placed {I denne planen} mine {Mine modeller} other {Community}}",
+    "source": "2812a08781",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.catalogueTabs": {
+    "text": "Møbler som vises",
+    "source": "1ae5410b34",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.depth": {
+    "text": "Dybde",
+    "source": "f1dbc33978",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.deviceGroup": {
+    "text": "{group, select, lights {Lys} other {Plugger, sensorer og mer}}",
+    "source": "74ab7b90f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.doors": {
+    "text": "Dører",
+    "source": "7989480e41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.elevation": {
+    "text": "Over gulvet",
+    "source": "f31309ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.goesNowhere": {
+    "text": "Ingen etasje ennå",
+    "source": "552d91ef35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.goesUpTo": {
+    "text": "Går opp til",
+    "source": "7948ee1c8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.group": {
+    "text": "{group, select, living {Stue} dining {Spisestue} kitchen {Kjøkken} bedroom {Soverom} bathroom {Bad og vaskerom} office {Kontor} hallway {Gang} outside {Ute og garasje} other {Alt annet}}",
+    "source": "c938644f67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.height": {
+    "text": "Høyde",
+    "source": "bfe2eca401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.hint": {
+    "text": "Dra en del inn på planen. Den legger seg inntil vegger og andre møbler; vri den med R.",
+    "source": "36dc9d8067",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.iceDispenser": {
+    "text": "Isdispenser",
+    "source": "d362ec43ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.inThisPlan": {
+    "text": "I denne etasjen",
+    "source": "d8b7a3a252",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.item": {
+    "text": "{item, select, sofa-2 {Sofa, 2 seter} sofa-3 {Sofa, 3 seter} corner-sofa {Hjørnesofa} armchair {Lenestol} coffee-table {Salongbord} side-table {Sidebord} tv-cabinet {TV-benk} tv {TV} tv-lowboard {Lav TV-benk} bookcase {Bokhylle} floor-lamp {Gulvlampe} rug {Teppe} plant {Plante} dining-table-4 {Spisebord for 4} dining-table-6 {Spisebord for 6} round-table {Rundt bord} table {Bord} picture {Bilde} solid {Din egen form} chair {Stol} sideboard {Skjenk} counter {Kjøkkenbenk} sink-unit {Vask} hob-unit {Koketopp} fridge {Kjøleskap} fridge-american {Amerikansk kjøleskap} dishwasher {Oppvaskmaskin} oven {Stekeovn} island {Kjøkkenøy} bar-stool {Barkrakk} double-bed {Dobbeltseng} single-bed {Enkeltseng} bedside-table {Nattbord} wardrobe {Garderobeskap} dresser {Kommode} cot {Barneseng} bath {Badekar} shower {Dusj} toilet {Toalett} washbasin {Servant} washing-machine {Vaskemaskin} dryer {Tørketrommel} radiator {Radiator} desk {Skrivebord} office-chair {Kontorstol} shelf {Vegghylle} coat-rack {Knaggrekke} shoe-cabinet {Skoskap} wall-cabinet {Veggskap} garden-table {Hagebord} sun-lounger {Solseng} barbecue {Grill} car {Bil} box {Boks} cylinder {Sylinder} kk-couch {Sofa} kk-armchair {Lenestol} kk-coffee-table {Salongbord} kk-side-table {Sidebord} kk-cabinet {Skap} kk-cabinet-small {Lite skap} kk-bookcase {Bokhylle på vegg} kk-shelf {Dyp vegghylle} kk-shelf-small {Liten bokhylle på vegg} kk-wall-shelf {Svevende hylle} kk-wall-shelf-small {Liten svevende hylle} kk-picture {Bilde} kk-rug-oval {Ovalt teppe} kk-rug-stripes {Stripete teppe} kk-cactus {Kaktus} kk-lamp-floor {Gulvlampe} kk-lamp-table {Bordlampe} kk-table {Kvadratisk bord} kk-table-long {Spisebord} kk-chair {Stol} kk-chair-wood {Trestol} kk-stool {Krakk} kk-bed-double {Dobbeltseng} kk-bed-single {Enkeltseng} q-sofa {Sofa} q-sofa-long {Hjørnesofa} q-armchair {Lenestol} q-coffee-table {Salongbord} q-bookcase {Bokhylle} q-bookcase-empty {Tom bokhylle} q-bookcase-wide {Bred bokhylle} q-wardrobe {Garderobeskap} q-dresser {Kommode} q-table {Spisebord} q-chair {Stol} q-chair-cushioned {Polstret stol} q-chair-arms {Armstol i tre} q-stool {Krakk} q-bed {Enkeltseng} q-bed-king {King size-seng} q-lamp {Gulvlampe} q-plant {Plante} q-vase {Vase} base-drawers {Skuffeskap} corner-cabinet {Hjørneskap} corner-cabinet-round {Avrundet hjørneskap} tall-cabinet {Høyskap} fridge-builtin {Integrert kjøleskap} fridge-small {Kjøleskap under benk} hob-electric {Elektrisk koketopp} wall-cabinet-double {Dobbelt veggskap} wall-cabinet-low {Lavt veggskap} wall-cabinet-corner {Hjørnehylle på vegg} hood {Kjøkkenvifte} hood-large {Stor kjøkkenvifte} microwave {Mikrobølgeovn} coffee-maker {Kaffetrakter} toaster {Brødrister} blender {Blender} kettle {Vannkoker} tap {Kran} bin {Søppelbøtte} washer-dryer {Vaske-tørkemaskin} washbasin-square {Firkantet servant} toilet-square {Firkantet toalett} shower-round {Rund dusj} bathroom-cabinet {Baderomsskap} bathroom-mirror {Speil} stairs-straight {Rett trapp} stairs-l {L-trapp} stairs-u {U-trapp} stairs-spiral {Spiraltrapp} ladder {Loftstige} lift {Heis} other {Møbel}}",
+    "source": "2240cb1757",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitBy": {
+    "text": "Av {author} · {licence}",
+    "source": "fff4cea63e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.kitSource": {
+    "text": "Hvor det kommer fra",
+    "source": "873623346b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.mount": {
+    "text": "{mount, select, wall {På en vegg} other {Stående}}",
+    "source": "36f2d13830",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.name": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.namePlaceholder": {
+    "text": "For eksempel: piano",
+    "source": "a5b4cc0925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.nothingFound": {
+    "text": "Ingen møbler heter det.",
+    "source": "9d48550be6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.nothingPlaced": {
+    "text": "Ingenting er plassert i denne etasjen ennå. Deler du plasserer, vises her, så du kan legge til en til.",
+    "source": "ad91b9838e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.onCeiling": {
+    "text": "I taket",
+    "source": "e6a7666198",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.onWall": {
+    "text": "På en vegg",
+    "source": "c4a8350769",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.outline": {
+    "text": "{outline, select, rectangle {Rektangel} rounded {Avrundet} oval {Oval} other {Naturlig}}",
+    "source": "4f2f735628",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKit": {
+    "text": "Tegnet av Tiledash",
+    "source": "652727b362",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.ownKitHint": {
+    "text": "Formet etter størrelsen du gir dem.",
+    "source": "8f3f4e7452",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureArt": {
+    "text": "Farge på bildet",
+    "source": "741573cdef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureCustom": {
+    "text": "Egen størrelse",
+    "source": "806a2d8eb4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrame": {
+    "text": "{frame, select, thin {Tynn} thick {Tykk} canvas {Lerret} other {Plakat}}",
+    "source": "87e3e0ccea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureFrameLabel": {
+    "text": "Ramme",
+    "source": "d0b50e064a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSize": {
+    "text": "{size, select, a4 {A4} a3 {A3} a2 {A2} other {{w} × {h} cm}}",
+    "source": "e826ef7d02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureSizeLabel": {
+    "text": "Størrelse",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWay": {
+    "text": "Retning",
+    "source": "09e5b4e95f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pictureWayOption": {
+    "text": "{way, select, portrait {Stående} other {Liggende}}",
+    "source": "737d4a1b17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTab": {
+    "text": "{tab, select, details {Detaljer} place {Plassering} other {Form}}",
+    "source": "44038499df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.pieceTabs": {
+    "text": "Innstillinger som vises",
+    "source": "c0917e7d05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.placedCount": {
+    "text": "{count, plural, one {Én gang i etasjen} other {# ganger i etasjen}}",
+    "source": "cd929239d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.remove": {
+    "text": "Fjern",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.screenSize": {
+    "text": "Skjermstørrelse",
+    "source": "d9f527dacd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.screenSizeValue": {
+    "text": "{inches}″ · {width} × {height} cm",
+    "source": "4d1c566c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.search": {
+    "text": "Finn møbler",
+    "source": "22a102a822",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.seats": {
+    "text": "Stoler",
+    "source": "09e99d8899",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.show": {
+    "text": "Møbler",
+    "source": "c50440e0e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.size": {
+    "text": "{w} × {d} cm",
+    "source": "7349014d3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidHint": {
+    "text": "Klikk: legg til et hjørne · Klikk på det første hjørnet eller trykk Enter: ferdig · Backspace: ta bort et hjørne · Shift: uten festing · Esc: stopp",
+    "source": "9f0ffca167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.solidSize": {
+    "text": "{width} × {depth}",
+    "source": "1f7beb5101",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.stairsSteps": {
+    "text": "{steps} trinn på omtrent {rise} cm",
+    "source": "e04b5392ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.stairsTurn": {
+    "text": "{turn, select, left {Venstre} other {Høyre}}",
+    "source": "67db5d169c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.stairsTurnLabel": {
+    "text": "{kind, select, stairs-spiral {Snur} other {Svinger}}",
+    "source": "4036d777c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.tableTop": {
+    "text": "Bordplate",
+    "source": "d5cdfcf7ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.title": {
+    "text": "Møbler",
+    "source": "c50440e0e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.turn": {
+    "text": "Vridd",
+    "source": "397a3113ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.turnLeft": {
+    "text": "Vri 15° mot venstre",
+    "source": "73c880edbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.turnRight": {
+    "text": "Vri 15° mot høyre",
+    "source": "56e99be4c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.wallHint": {
+    "text": "Henger på veggen. Dra den langs veggen for å flytte den.",
+    "source": "ea3761093b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.furniture.width": {
+    "text": "Bredde",
+    "source": "3019947b6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.align": {
+    "text": "Juster",
+    "source": "2887b278e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.alignEdge": {
+    "text": "{edge, select, left {Venstre kanter} centre {Vannrette midter} right {Høyre kanter} top {Øvre kanter} middle {Loddrette midter} other {Nedre kanter}}",
+    "source": "b3a62afb93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.cmUnit": {
+    "text": "cm",
+    "source": "b5039c325d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.distances": {
+    "text": "Avstand til veggene",
+    "source": "08a36c1f81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.distancesHint": {
+    "text": "Skriv inn en avstand for å flytte den dit. Piltastene flytter den 1 cm, 10 cm med Shift.",
+    "source": "a5af71b51e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.noWall": {
+    "text": "Ingen vegg",
+    "source": "f21acdb109",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.remove": {
+    "text": "Slett {count, plural, one {# del} other {# deler}}",
+    "source": "cda267fa1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.several": {
+    "text": "{count, plural, one {# del} other {# deler}}",
+    "source": "1eb9964e95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.severalHint": {
+    "text": "Dra én for å flytte dem sammen. Shift-klikk legger til eller tar bort én.",
+    "source": "8e4ec0c86a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.side": {
+    "text": "{side, select, left {Venstre} right {Høyre} up {Over} other {Under}}",
+    "source": "b407b55ff8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.space": {
+    "text": "Fordel jevnt",
+    "source": "ca791aa2d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.spaceAxis": {
+    "text": "{axis, select, x {Fra venstre til høyre} other {Fra topp til bunn}}",
+    "source": "8c5932ec13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.lineUp.spaceNeedsThree": {
+    "text": "Velg tre eller flere for å fordele dem.",
+    "source": "783ee48eab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.asBuilt": {
+    "text": "Bygget {w} × {d} × {h} cm, strukket for å passe",
+    "source": "362b68eabb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.colours": {
+    "text": "Farger",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.coloursValue": {
+    "text": "{look, select, textures {Egne} other {Temaets}}",
+    "source": "5b1fc9b223",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.detail": {
+    "text": "Detaljer",
+    "source": "fb5f27d545",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.detailValue": {
+    "text": "{triangles, plural, one {# trekant} other {# trekanter}} · {kb} KB",
+    "source": "90bc1b60fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.facts": {
+    "text": "Om denne modellen",
+    "source": "f4b90b69cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromAbove": {
+    "text": "Ovenfra",
+    "source": "ac665ca7d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromFront": {
+    "text": "Forfra",
+    "source": "c9d4b8d82c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.fromSide": {
+    "text": "Fra venstre",
+    "source": "b248f7aefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.front": {
+    "text": "Forfra",
+    "source": "a617590202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.listed": {
+    "text": "Står under",
+    "source": "3b0f660690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.made": {
+    "text": "Laget",
+    "source": "45a5300c04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.madeValue": {
+    "text": "{made, select, parts {Av deler, av en KI-assistent} other {Fra en fil}}",
+    "source": "7922933b44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.mount": {
+    "text": "{mount, select, wall {På en vegg} ceiling {I taket} other {På gulvet}}",
+    "source": "a36bb52c92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partName": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partShape": {
+    "text": "Form",
+    "source": "e0e492707f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partShapeValue": {
+    "text": "{shape, select, box {Boks} cylinder {Sylinder} sphere {Kule} extrusion {Omriss} loft {Loft} lathe {Dreid profil} other {Form}}",
+    "source": "128960529b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partSize": {
+    "text": "Størrelse (cm)",
+    "source": "f5fc3e7fe8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partTone": {
+    "text": "Laget av",
+    "source": "6f435d423d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partToneValue": {
+    "text": "{tone, select, soft {Stoff} metal {Metall} glass {Glass} plant {Plante} lamp {Lampe} other {Tre}}",
+    "source": "334aa70480",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.partWhere": {
+    "text": "Hvor (cm)",
+    "source": "4cdd55e80b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.parts": {
+    "text": "{count, plural, one {# del} other {# deler}}",
+    "source": "85e36d4698",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.sits": {
+    "text": "Plassering",
+    "source": "c4124d6386",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.size": {
+    "text": "Størrelse",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.sizeValue": {
+    "text": "{w} × {d} × {h} cm",
+    "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.turnLeft": {
+    "text": "Se fra venstre",
+    "source": "a849d0d01c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.turnRight": {
+    "text": "Se fra høyre",
+    "source": "ea04688cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelPreview.view3d": {
+    "text": "Modellen i 3D. Dra for å se rundt den.",
+    "source": "a0711908c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.anyRoom": {
+    "text": "Alle rom",
+    "source": "9bd14ebde7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrange": {
+    "text": "Vis etter",
+    "source": "175b990a47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.arrangeChoice": {
+    "text": "{by, select, type {Type} other {Rom}}",
+    "source": "b681533fd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brand": {
+    "text": "Merke",
+    "source": "090ed4316f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandCount": {
+    "text": "{brand} · {count}",
+    "source": "63dcc6c52c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandPlaceholder": {
+    "text": "Sonos",
+    "source": "db1119076d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.brandSuggestions": {
+    "text": "Merker i Community",
+    "source": "9df7be4467",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looks": {
+    "text": "Utseende",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksCount": {
+    "text": "{count} av {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksNote": {
+    "text": "Materialer, farger og former, slik du ser det ovenfra og fra siden. Ingen logoer eller tekst.",
+    "source": "fe6e21e349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.looksPlaceholder": {
+    "text": "Matt svart stoff hele veien rundt, blank svart topp med en grunn berøringslist, avrundede ender.",
+    "source": "11eac5667b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pending": {
+    "text": "{name} (venter på gjennomgang)",
+    "source": "fbf77328e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooks": {
+    "text": "Utseende",
+    "source": "d5e06f4ea3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksModel": {
+    "text": "Legger til det modellen sier om utseendet.",
+    "source": "d01e9faa35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksNote": {
+    "text": "Bilder av denne plantegningen tegner den slik.",
+    "source": "4ad4f9ab2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.pieceLooksPlaceholder": {
+    "text": "Grønn fløyel, knappet rygg, mørke treben",
+    "source": "d4e753977d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.product": {
+    "text": "Ekte produkt",
+    "source": "650c9f7d86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productLine": {
+    "text": "{brand} {product}",
+    "source": "3278526ea8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productName": {
+    "text": "Produkt",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productNote": {
+    "text": "Er det et ekte produkt, si hvilket. Andre finner det etter merke, og bilder av plantegningen din viser det slik det faktisk ser ut.",
+    "source": "b8bd8cd431",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.productPlaceholder": {
+    "text": "Arc Ultra",
+    "source": "9926889c18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.propose": {
+    "text": "Foreslå en ny…",
+    "source": "1662a7ad4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeIt": {
+    "text": "Foreslå",
+    "source": "1cbd9e713d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeNote": {
+    "text": "En administrator sjekker nye først. Til da ser du den, og andre ser denne modellen under {kind, select, type {Alt annet} other {Alle rom}}.",
+    "source": "13d56ca98f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposePlaceholder": {
+    "text": "{kind, select, type {Robotklippere} other {Vaskerom}}",
+    "source": "733c5d7d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeRoom": {
+    "text": "Et nytt rom",
+    "source": "dcdd5e7c2e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposeType": {
+    "text": "En ny type",
+    "source": "491d8b0309",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.proposedLimit": {
+    "text": "Du har {count} som venter på gjennomgang. Kom med flere når en administrator har sett på dem.",
+    "source": "305a9c1dd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.roomLabel": {
+    "text": "Anbefalt rom",
+    "source": "7604bdda07",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.type": {
+    "text": "{type, select, seating {Sofaer og lenestoler} tables {Bord} chairs {Stoler og krakker} beds {Senger} storage {Skap og hyller} kitchen-units {Kjøkkenmoduler} appliances {Husholdningsapparater} climate {Varme og kjøling} baths-showers {Badekar og dusjer} toilets-basins {Toaletter og servanter} audio-video {Lyd og bilde} lighting {Belysning} decor {Planter og pynt} vehicles {Kjøretøy} stairs {Trapper og heiser} other {Alt annet}}",
+    "source": "d40bea6eeb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.typeLabel": {
+    "text": "Type",
+    "source": "baaddf70fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.what": {
+    "text": "Hva det er",
+    "source": "1f36becc3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelProducts.whatPlaceholder": {
+    "text": "lydplanke",
+    "source": "1e26222c13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsDevice": {
+    "text": "din {device}",
+    "source": "17865d2c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsHeading": {
+    "text": "Passer til disse produktene",
+    "source": "6f00ff06be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNone": {
+    "text": "Ingen ennå: vis en av enhetene dine som denne modellen på en plantegning.",
+    "source": "6d0e7589de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsNote": {
+    "text": "Lært når du viser en av enhetene dine som denne modellen. Andre med samme produkt får den tilbudt når den er i Community.",
+    "source": "b4e5716541",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.fitsRemove": {
+    "text": "Fjern {product}",
+    "source": "d04b6aecbe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.forMyDevices": {
+    "text": "For enhetene mine",
+    "source": "c5496c3411",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.from": {
+    "text": "{from, select, own {Din} installed {Installert} other {Community}}",
+    "source": "b1e8597acd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.heading": {
+    "text": "Modeller for {device}",
+    "source": "4735dc5f3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.inUse": {
+    "text": "I bruk",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installUse": {
+    "text": "Installer og bruk",
+    "source": "c5566d0d1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.installs": {
+    "text": "{count, plural, one {# installasjon} other {# installasjoner}}",
+    "source": "3f9a993926",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.make": {
+    "text": "Lag en med KI-assistenten din",
+    "source": "ce2afd81a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.match": {
+    "text": "{match, select, exact {Passer til enheten} product {Dette produktet} other {Samme merke}}",
+    "source": "07f0cd11ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.none": {
+    "text": "Ingen modeller av {product} ennå.",
+    "source": "27abc3433f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.noneAny": {
+    "text": "Ingen modeller av dette produktet ennå.",
+    "source": "0d2cee68ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.notNow": {
+    "text": "Ikke nå",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeAll": {
+    "text": "{count, plural, one {Se modellen} other {Se alle # modeller}}",
+    "source": "7025932343",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitle": {
+    "text": "Vise den som en ekte {product}?",
+    "source": "ba6e9c0b91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.nudgeTitleAny": {
+    "text": "Vise den som den ekte tingen?",
+    "source": "fc10253f1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.otherOfBrand": {
+    "text": "Andre modeller fra {brand}",
+    "source": "685795d93b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.pageFits": {
+    "text": "{count, plural, =0 {Passer til {device}} other {Passer til {device} og # til}}",
+    "source": "815601e7a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.modelSuggestions.use": {
+    "text": "Bruk",
+    "source": "c36d819e7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.add": {
+    "text": "Legg til en modell",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.addIt": {
+    "text": "Legg til i modellene mine",
+    "source": "be942edcd3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.addTitle": {
+    "text": "Legg til en modell",
+    "source": "3690c70b27",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.back": {
+    "text": "Tilbake",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.checking": {
+    "text": "Sjekker og komprimerer {file}…",
+    "source": "358631aebe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.community": {
+    "text": "Fra Community",
+    "source": "fb4606a9b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.communityLoading": {
+    "text": "Laster inn modellene fra Community",
+    "source": "9a2ea676e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.communityOffline": {
+    "text": "Fikk ikke kontakt med Community. Modellene du har installert, er fortsatt her.",
+    "source": "f8c2cc0173",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleteText": {
+    "text": "{count, plural, =0 {Den er ikke på noen plantegning.} one {Den er på # plantegning, som viser en enkel del i stedet.} other {Den er på # plantegninger, som viser en enkel del i stedet.}}",
+    "source": "5c9a8b7357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleteTiles": {
+    "text": "{count, plural, one {# flis viser den og vil si at modellen er borte.} other {# fliser viser den og vil si at modellen er borte.}}",
+    "source": "080d5bb3b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleteTitle": {
+    "text": "Slette {name}?",
+    "source": "a4b982a9e0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.deleted": {
+    "text": "{name} er slettet",
+    "source": "5c4c48b54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.drop": {
+    "text": "Slipp en 3D-modell her, eller velg en fil",
+    "source": "6f074d8254",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.fitHint": {
+    "text": "Sett den opp med forsiden mot deg: pilen på gulvet peker ut fra forsiden.",
+    "source": "d0cdf85741",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.fitTitle": {
+    "text": "Tilpass den",
+    "source": "ac15a76e29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.formats": {
+    "text": "GLB eller glTF, OBJ, eller USDZ fra en iPhone-skanning, opptil {mb} MB.",
+    "source": "d8cb171d7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.inGroup": {
+    "text": "Havner under {group}",
+    "source": "17fbaba3d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.install": {
+    "text": "Legg til i katalogen min",
+    "source": "2a0e41f742",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installFailed": {
+    "text": "Kunne ikke installere {name}. Den vises som en enkel del til den er installert.",
+    "source": "a0e9cc2abc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installed": {
+    "text": "I katalogen din under {group}",
+    "source": "d393146d8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.installedFromCommunity": {
+    "text": "{name} er installert fra Community",
+    "source": "da7e8cb2f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.keepShape": {
+    "text": "Behold proporsjonene",
+    "source": "d20f9345ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.leadLook": {
+    "text": "Fargene den tegnes i, og utseendet ovenfra på 2D-planen.",
+    "source": "8f21c14415",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.leadModel": {
+    "text": "Hva den heter og hva den er, så du finner den i katalogen.",
+    "source": "8d2af6b91b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.leadSize": {
+    "text": "Den virkelige størrelsen, så den passer i planen, og om den står, henger på en vegg eller i taket.",
+    "source": "c68a57fde6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.look": {
+    "text": "Farger",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.lookTextures": {
+    "text": "Egne",
+    "source": "5307bb2df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.lookTheme": {
+    "text": "Temaets",
+    "source": "5d23c1bc57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.mine": {
+    "text": "Mine modeller",
+    "source": "3720357307",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.moreCommunity": {
+    "text": "Mer fra Community",
+    "source": "555b302f37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.name": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.namePlaceholder": {
+    "text": "For eksempel: sofaen vår",
+    "source": "22c0679715",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.notInstalled": {
+    "text": "Ikke installert: plasser den for å installere",
+    "source": "b785ed6b15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.placingInstalls": {
+    "text": "Ikke installert ennå: plasser en på planen, så installeres den for deg.",
+    "source": "7bf9df0f73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.problem": {
+    "text": "{problem, select, unreadable {Filen kunne ikke leses som en 3D-modell.} toolarge {Selv komprimert er den {value}: maks {limit}. Eksporter den med færre detaljer eller mindre teksturer.} triangles {Den er for detaljert: {value} trekanter, maks {limit}. De fleste skanneapper kan eksportere en lettere versjon.} complex {Den er for mye å lese: den trenger mer minne eller tid enn en modell får bruke. Eksporter den med færre deler eller mindre teksturer.} busy {Modellene dine behandles fortsatt. Prøv igjen om {value} sekunder.} other {Denne modellen kan ikke brukes.}}",
+    "source": "77ccb46f03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressMb": {
+    "text": "{done} av {total} MB",
+    "source": "1f66d6f6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressSize": {
+    "text": "{size} av maks {limit}",
+    "source": "4c63a91f2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressSlow": {
+    "text": "En detaljert skanning kan ta et minutt. Du kan lukke dette: den legges til modellene dine når den er klar.",
+    "source": "83665ba130",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressStep": {
+    "text": "{step, select, convert {Gjør den om til GLB} upload {Last den opp} queued {Vent på tur} read {Les modellen} topView {Tegn den ovenfra} textures {Krymp teksturene} compress {Komprimer den} turn {Sett den slik du tilpasset} keep {Behold den} other {Sjekk den}}",
+    "source": "5dcd65f10f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressTextures": {
+    "text": "{count, plural, =0 {Ingen} one {# tekstur} other {# teksturer}}",
+    "source": "7367c8ffc7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.progressTriangles": {
+    "text": "{count} trekanter",
+    "source": "19364a2cf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.remove": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.retry": {
+    "text": "Prøv igjen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.saving": {
+    "text": "Legger til {name} i modellene dine…",
+    "source": "91b86f06aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.scanTip": {
+    "text": "Skann en ekte gjenstand med telefonen (Polycam, Scaniverse, Object Capture på iPhone) eller bruk en gratis modell, og oppgi lisensen når du deler den.",
+    "source": "4b02fbe49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.showMore": {
+    "text": "Vis flere",
+    "source": "f5c9bd1314",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.size": {
+    "text": "Virkelig størrelse",
+    "source": "ce3fc85728",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.size3": {
+    "text": "{w} × {d} × {h} cm",
+    "source": "497983d4c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabLook": {
+    "text": "Utseende",
+    "source": "a0de5719f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabModel": {
+    "text": "Modell",
+    "source": "5e2c614c23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabProduct": {
+    "text": "Produkt",
+    "source": "fb9ef89417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tabSize": {
+    "text": "Størrelse",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tip": {
+    "text": "Vipp",
+    "source": "aad9156b83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tipBack": {
+    "text": "Vipp bakover",
+    "source": "be11e8fe68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tipForward": {
+    "text": "Vipp forover",
+    "source": "634f95a2f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topView": {
+    "text": "På 2D-planen",
+    "source": "db3e2928f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewMade": {
+    "text": "Tegnet fra modellen, sett ovenfra.",
+    "source": "b2847ddf6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewPicture": {
+    "text": "Bruk et eget bilde",
+    "source": "fa908b0dd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.topViewRemove": {
+    "text": "Bruk den lagde igjen",
+    "source": "c8bc807ba3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.tryAnother": {
+    "text": "Velg en annen fil",
+    "source": "26eac8f8c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turn": {
+    "text": "Vri",
+    "source": "b823d5f9d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turnLeft": {
+    "text": "Vri mot venstre",
+    "source": "1aa12f9220",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.turnRight": {
+    "text": "Vri mot høyre",
+    "source": "f00ba3f306",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.usedBy": {
+    "text": "{publisher} · {count, plural, =0 {ny} one {# bruker den} other {# bruker den}}",
+    "source": "e386a6b66a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.models.viewInCommunity": {
+    "text": "Vis",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angle": {
+    "text": "Vinkel",
+    "source": "1968034b13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.angleName": {
+    "text": "{angle, select, game {Spillstil} steep {Bratt} other {Isometrisk}}",
+    "source": "ebfbf452e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.another": {
+    "text": "Prøv en annen stil",
+    "source": "6ee30bd74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.bothHint": {
+    "text": "Nattbildet, og det samme bildet om dagen med lampene av. Flisene følger temaet ditt eller solen.",
+    "source": "a90d00c9f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.chosen": {
+    "text": "På flisene dine",
+    "source": "e95f37774c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.close": {
+    "text": "Lukk",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.day": {
+    "text": "Dag",
+    "source": "8f2364e11b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayAndNight": {
+    "text": "Dag og natt · 2 kreditter",
+    "source": "3e9618f494",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayHint": {
+    "text": "Dagslys gjennom vinduene, lampene og TV-en av.",
+    "source": "a83f684069",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.dayOnly": {
+    "text": "Dag · 1 kreditt",
+    "source": "a19b2077fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.deleteFailed": {
+    "text": "Bildet kunne ikke slettes.",
+    "source": "7dc1809e73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.doneTitle": {
+    "text": "Bildet ditt",
+    "source": "11baa9014b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.example": {
+    "text": "Et eksempel, i stilen du valgte",
+    "source": "f34051af59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.failed": {
+    "text": "{why, select, refused {Bildemodellen avviste dette. Du har fått kredittene tilbake.} other {Dette ble ikke noe. Du har fått kredittene tilbake.}}",
+    "source": "ee3284cf6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.generate": {
+    "text": "{count, plural, one {Lag det · # kreditt} other {Lag det · # kreditter}}",
+    "source": "f129ef57ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.gets": {
+    "text": "Dette får bildemodellen",
+    "source": "c4361541da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsDrawing": {
+    "text": "Tiledash sin tegning av etasjen, sett {view, select, 2d {ovenfra} other {på skrå}}",
+    "source": "2f309cfc6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsList": {
+    "text": "Hva som er hvor: {rooms} rom, {pieces} møbler, {lights} lys og {openings} dører og vinduer, med navn, farge og plassering",
+    "source": "c1f543d2c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.getsStyle": {
+    "text": "Stilen: {style}",
+    "source": "7baaa93d00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hint": {
+    "text": "Et bilde av denne etasjen laget fra plantegningen, for plantegningsfliser: om natten med alle lys på, om dagen, eller begge. Flisen kan bytte til den direkte planen.",
+    "source": "dd28808153",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintDismiss": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintShow": {
+    "text": "Vis meg",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintText": {
+    "text": "Tiledash kan gjøre denne etasjen om til et realistisk bilde for plantegningsflisene dine, i stilene fra bildene i Innstillinger › Hus. Enhetene virker fortsatt på det.",
+    "source": "9ceb945995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.hintTitle": {
+    "text": "Visste du?",
+    "source": "3e9b3541c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.level": {
+    "text": "Etasje",
+    "source": "1709305c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeOpen": {
+    "text": "Lag et bilde",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makeTitle": {
+    "text": "Lag et bilde",
+    "source": "3a73487db4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.making": {
+    "text": "Lager bildet ditt… Dette tar omtrent et minutt.",
+    "source": "bdcf86f80e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingHint": {
+    "text": "{both, select, yes {Omtrent et minutt for nattbildet, og et til for dagbildet} other {Omtrent et minutt}}. Du kan lukke dette: det dukker opp i Bilde-panelet når det er klart.",
+    "source": "4993e625d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.makingTitle": {
+    "text": "Lager bildet ditt",
+    "source": "6dda93a0f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.night": {
+    "text": "Natt",
+    "source": "4e9f8db824",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.nightHint": {
+    "text": "Alle lys på, TV-en på, mørkt utenfor vinduene.",
+    "source": "c8c0042068",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.notStarted": {
+    "text": "{error, select, busy {Et bilde lages allerede.} limit {Det er nok bilder for i dag; prøv igjen i morgen.} off {Å lage bilder er ikke tilgjengelig her.} render {Tiledash kunne ikke tegne denne etasjen. Prøv igjen.} other {Bildet kunne ikke startes.}}",
+    "source": "aac8df74a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.oneRoom": {
+    "text": "Ett rom",
+    "source": "c2452f216c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.open": {
+    "text": "Et bilde av denne etasjen",
+    "source": "d16aa8920d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.outOfDate": {
+    "text": "Du har endret denne etasjen siden bildet ble laget. Flisene viser det fortsatt til du lager et nytt.",
+    "source": "02125faeec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.readyTitle": {
+    "text": "Klar til å lage det",
+    "source": "68f84def72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.remove": {
+    "text": "Slett dette forsøket",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.renderCaption": {
+    "text": "Dette får bildemodellen: Tiledash sin egen tegning av denne etasjen, som den gir ny stil. Vegger, dører og møbler blir der de er.",
+    "source": "9826a2bce2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.room": {
+    "text": "Rom",
+    "source": "911ea89c43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.roomHint": {
+    "text": "Bildet lages av dette rommet på nært hold. Plantegningsfliser som viser dette rommet, viser det først.",
+    "source": "afe3ddfe35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.sendsPlan": {
+    "text": "Etasjens planløsning, møbler og et bilde av den tegnet av Tiledash sendes til OpenAI for å lage det.",
+    "source": "1c707f7ffe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.show": {
+    "text": "Vis",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.showSummary": {
+    "text": "{room, select, none {Hele etasjen} other {{room}{fade, select, yes {, resten tonet ned {level}%} other {}}}}",
+    "source": "aac39ea513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.single": {
+    "text": "Natt · 1 kreditt",
+    "source": "9476cb3dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.step": {
+    "text": "{step, select, view {Etasje og visning} style {Stil} versions {Versjoner} other {Lag det}}",
+    "source": "d3b4b8e2bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.style": {
+    "text": "Stil",
+    "source": "7e744141b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.styleTitle": {
+    "text": "Velg en stil",
+    "source": "d98c7cf9a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.title": {
+    "text": "Bilde",
+    "source": "9a1c54f55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tries": {
+    "text": "Tidligere forsøk",
+    "source": "126c666df0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.tryLabel": {
+    "text": "{style} · {view, select, 2d {2D} other {2.5D}} · {when}",
+    "source": "71c2a6f9cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.turn": {
+    "text": "Vridd",
+    "source": "397a3113ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.use": {
+    "text": "Bruk på fliser",
+    "source": "9a1624c546",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versions": {
+    "text": "Versjoner",
+    "source": "f89ea27036",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsHint": {
+    "text": "Med begge viser en flis nattbildet på mørke temaer eller etter solnedgang, som du velger.",
+    "source": "5426618980",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.versionsTitle": {
+    "text": "Om natten, om dagen, eller begge?",
+    "source": "399f4db578",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view": {
+    "text": "Sett som",
+    "source": "6e6674eab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view25d": {
+    "text": "På skrå (2.5D)",
+    "source": "99ba158e0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.view2d": {
+    "text": "Ovenfra (2D)",
+    "source": "a9fb8997b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewHint": {
+    "text": "Vri det slik du kjenner huset ditt; for 2.5D velger du også vinkelen flisene dine bruker.",
+    "source": "b4d4c1484d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.viewTitle": {
+    "text": "Hvilken etasje, sett hvordan?",
+    "source": "68e751ab7d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wholeLevel": {
+    "text": "Hele etasjen",
+    "source": "98f14a9dde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.picture.wizardTitle": {
+    "text": "Et bilde av plantegningen din",
+    "source": "51918ed1fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.actions": {
+    "text": "Standardhandlinger",
+    "source": "eda49170f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.actionsHelp": {
+    "text": "Velg hva trykk, langt trykk og dobbelttrykk på en tilknyttet enhet gjør.",
+    "source": "71a9210d00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.arrange": {
+    "text": "Plasser",
+    "source": "d557a972ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.arrangeHelp": {
+    "text": "Velg, plasser og flytt møbler. Dra i det runde håndtaket for å vri dem.",
+    "source": "76f6a48b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.back": {
+    "text": "Tilbake",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.buttonsIntro": {
+    "text": "De andre knappene øverst til høyre styrer handlinger og tegnedetaljer.",
+    "source": "72dcaacb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.buttonsTitle": {
+    "text": "Velg hva du ser og gjør",
+    "source": "966a20a55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.cameraHelp": {
+    "text": "Utforsk planen uten å endre den.",
+    "source": "9ed3e4c72d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.close": {
+    "text": "Lukk tipsene",
+    "source": "38013bd721",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.count": {
+    "text": "{step} av {total}",
+    "source": "a45327cd0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.done": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.editIntro": {
+    "text": "Verktøyene øverst til høyre hjelper deg å justere ting og prøve endringer.",
+    "source": "7228db9f39",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.editTitle": {
+    "text": "Rediger trygt",
+    "source": "edd759273e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.guides": {
+    "text": "Rutenett og lengder",
+    "source": "c083faba05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.guidesHelp": {
+    "text": "Rutenettet og linjalen slår hjelpelinjer av og på.",
+    "source": "67c7e96df4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.help": {
+    "text": "Tips for plantegningsverktøyet",
+    "source": "bed7c06441",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.keys": {
+    "text": "Nyttige taster",
+    "source": "3f63057d11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.keysHelp": {
+    "text": "R vrir en del 15°. Delete fjerner det som er valgt. Esc avbryter.",
+    "source": "a5f5636ab8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.layers": {
+    "text": "Møbler og referansebilde",
+    "source": "4db0085866",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.layersHelp": {
+    "text": "Lenestolen og bildet slår disse lagene av og på.",
+    "source": "bec1aa8d91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.moveIntro": {
+    "text": "Fortsett å plassere mens du utforsker. Disse snarveiene virker rett over planen.",
+    "source": "170472cd99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.moveTitle": {
+    "text": "Beveg deg rundt",
+    "source": "3398b4c2de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.next": {
+    "text": "Neste",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.orbit": {
+    "text": "Høyredra i 3D",
+    "source": "beb1489c9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.orbitHelp": {
+    "text": "Vri og vipp visningen i Plasser-modus.",
+    "source": "b3e0214cb3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.pan": {
+    "text": "Mellomrom + dra",
+    "source": "c3a3fa2942",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.panHelp": {
+    "text": "Panorer i 2D eller 3D. Slipp Mellomrom for å fortsette å redigere.",
+    "source": "5b1fba3783",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.quick": {
+    "text": "Kom i gang",
+    "source": "0eb95fb624",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.reopen": {
+    "text": "Trykk ? for å åpne disse igjen.",
+    "source": "a3f9d083a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.skip": {
+    "text": "Hopp over tipsene",
+    "source": "edc0a41b1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.snap": {
+    "text": "Fest",
+    "source": "98df9a59f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.snapHelp": {
+    "text": "Legg deg inntil vegger og møbler. Hold Shift for å bytte festing.",
+    "source": "cc9783a14e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.test": {
+    "text": "Test handlinger",
+    "source": "bbfc27cd12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.testHelp": {
+    "text": "Forhåndsvis en handling trygt, uten å sende kommandoer.",
+    "source": "a3ac5fa0d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.undo": {
+    "text": "Angre / gjør om",
+    "source": "49c1588ef5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.undoHelp": {
+    "text": "Gå tilbake eller fremover gjennom endringene dine.",
+    "source": "4f5e9409a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.viewIntro": {
+    "text": "Bruk kuben øverst til høyre for å bytte mellom tegningen og en 3D-visning.",
+    "source": "ae6dd7208b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.viewTitle": {
+    "text": "Se planen i 3D",
+    "source": "4133493370",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.zoom": {
+    "text": "Rull eller knip",
+    "source": "f179e1137d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.quickTips.zoomHelp": {
+    "text": "Zoom inn og ut. Bruk tilbakestillingspilen for å gå til start.",
+    "source": "5c49f67766",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climate": {
+    "text": "Klima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.climateHint": {
+    "text": "Temperaturen og målet vises på rommets etikett.",
+    "source": "091029f87b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.covers": {
+    "text": "Solskjerming",
+    "source": "3f8d88db58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.coversCount": {
+    "text": "{count, number} av {total, number} åpnes og lukkes sammen",
+    "source": "2eb0e6f9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.flow": {
+    "text": "Flow",
+    "source": "f1273dc72c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.intro": {
+    "text": "Enheter for hele rommet, ikke et punkt i det. Et trykk på rommet åpner kortet med dem.",
+    "source": "eeb2645728",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lights": {
+    "text": "Lys",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.lightsCount": {
+    "text": "{count, number} av {total, number} slås av og på sammen",
+    "source": "8b36720bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.media": {
+    "text": "Mediespiller",
+    "source": "2664a5c844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.mood": {
+    "text": "Stemning",
+    "source": "780fe43f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.none": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.nothing": {
+    "text": "Ingen i rommets sone eller på planen i det.",
+    "source": "2894fc9d99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.offPlan": {
+    "text": "Ikke på planen",
+    "source": "029f1bc134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.onPlan": {
+    "text": "På planen",
+    "source": "1829030c95",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesHint": {
+    "text": "Knapper på rommets kort, i denne rekkefølgen.",
+    "source": "5ebc8802dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.scenesTitle": {
+    "text": "Stemninger og Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tab": {
+    "text": "Enheter",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tickOnPlan": {
+    "text": "Huk av de {count, number} på planen i dette rommet",
+    "source": "f1b24b3120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.title": {
+    "text": "Romenheter",
+    "source": "289898f8f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesBody": {
+    "text": "Velg rommets spiller, termostat, lys og solskjerming her. På en plantegningsflis åpner et trykk på rommet kortet med dem.",
+    "source": "1244d9f69c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourDevicesTitle": {
+    "text": "Rommets egne enheter",
+    "source": "c7f83558d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndAction": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndBody": {
+    "text": "På dine egne dashbord endrer kortets ⋯ dem også, uten å åpne plantegningsverktøyet.",
+    "source": "5f13347584",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourEndTitle": {
+    "text": "Hvert rom kan ha sine egne",
+    "source": "95850809a2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesBody": {
+    "text": "Legg til stemningene og Flows som rommets kort tilbyr, i den rekkefølgen du vil.",
+    "source": "567d9f6373",
+    "by": "ai",
+    "reviewed": false
+  },
+  "floorplans.roomDevices.tourScenesTitle": {
+    "text": "Stemninger og Flows",
+    "source": "a6ae74c94a",
+    "by": "ai",
+    "reviewed": false
+  }
+}

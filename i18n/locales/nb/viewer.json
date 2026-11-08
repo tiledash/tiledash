@@ -1,0 +1,1736 @@
+{
+  "viewer.actions.capabilityNeeded": {
+    "text": "Navnet på en funksjon mangler",
+    "source": "65dd6cbec6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeFailed": {
+    "text": "Kunne ikke endre {device}",
+    "source": "7f6f34c160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeRefused": {
+    "text": "Homey-en din godtok ikke endringen.",
+    "source": "64483e4e34",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.confirmOk": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNoLonger": {
+    "text": "Det dashbordet finnes ikke lenger",
+    "source": "802794aa5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNotHere": {
+    "text": "Det dashbordet er ikke her lenger",
+    "source": "87a119cef1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceMissing": {
+    "text": "Den enheten finnes ikke på denne Homey-en",
+    "source": "4a0a16e476",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceUnavailable": {
+    "text": "{device} er utilgjengelig",
+    "source": "a65a3c7c4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowFailed": {
+    "text": "Kunne ikke starte «{name}»",
+    "source": "809bd3838b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowMissing": {
+    "text": "Den Flowen finnes ikke på denne Homey-en",
+    "source": "a119a6c051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowNotManual": {
+    "text": "«{name}» kan ikke startes manuelt",
+    "source": "6543a14d25",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowStarted": {
+    "text": "Startet «{name}»",
+    "source": "478ddb4b72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyAppAway": {
+    "text": "Tiledash-appen på Homey-en din har ikke kontakt. Sjekk at den kjører; den kobler seg til igjen av seg selv.",
+    "source": "f08cc04f50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyNeedsPro": {
+    "text": "Gi beskjed til Homey følger med Pro.",
+    "source": "6993690481",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyNotTold": {
+    "text": "Kunne ikke gi Homey beskjed om «{name}»",
+    "source": "17f35be0e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyOwnerOnly": {
+    "text": "Foreløpig kan bare eieren av Homey-en gi beskjed til Homey.",
+    "source": "b5fdefee21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyTileMissing": {
+    "text": "Den Homey-flisen finnes ikke lenger",
+    "source": "cc91da72a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyTold": {
+    "text": "Ga Homey beskjed om «{name}»",
+    "source": "22b3582630",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.logInAgain": {
+    "text": "Logg inn igjen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodFailed": {
+    "text": "Kunne ikke aktivere «{name}»",
+    "source": "1c796ba3ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodMissing": {
+    "text": "Den stemningen finnes ikke på denne Homey-en",
+    "source": "37b93d74bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodSet": {
+    "text": "Stemningen «{name}» er aktivert",
+    "source": "264eeaf91c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noCapability": {
+    "text": "{device} har ikke «{capability}»",
+    "source": "b9f191b898",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noDevice": {
+    "text": "Denne widgeten har ingen enhet å styre",
+    "source": "4ea30deedd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noValueYet": {
+    "text": "{title} har ingen verdi ennå",
+    "source": "a0fe379149",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notChangeable": {
+    "text": "{title} på {device} kan ikke endres",
+    "source": "a22650c2a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notNumber": {
+    "text": "{title} er ikke et tall",
+    "source": "dadcc64599",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notSwitch": {
+    "text": "{title} er ikke en bryter",
+    "source": "8fcfd7fe99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestBlocked": {
+    "text": "Nettleseren blokkerte «{name}»",
+    "source": "91e619fbc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestBlockedWhy": {
+    "text": "Det er en http://-adresse, og Tiledash kjører på https. I Chrome tillater du enheter på nettverket ditt for dette nettstedet; eller bruk https:// hvis enheten tilbyr det.",
+    "source": "e6267eec48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestMissing": {
+    "text": "Den nettforespørselen finnes ikke på dette dashbordet",
+    "source": "759cd868b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestSent": {
+    "text": "Sendte «{name}»",
+    "source": "c47531519a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachable": {
+    "text": "Fikk ikke kontakt med {host}",
+    "source": "d901fbdde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachableWhy": {
+    "text": "Enheten svarte ikke, eller denne nettleseren fant den ikke på nettverket sitt.",
+    "source": "62732aca8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.stepNotNumber": {
+    "text": "Trinnet må være et tall",
+    "source": "cbb50d59b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableMissing": {
+    "text": "Den variabelen finnes ikke på denne Homey-en, eller kan ikke leses",
+    "source": "cfc292a1af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotAllowed": {
+    "text": "Tiledash har ikke lov til å endre Logic-variabler ennå. Logg inn igjen og gi tillatelse.",
+    "source": "c5cef397ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotChanged": {
+    "text": "«{name}» ble ikke endret",
+    "source": "c5cd1ce6db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNow": {
+    "text": "{kind, select, on {«{name}» er nå på} off {«{name}» er nå av} number {«{name}» er nå {value}} other {«{name}» er nå «{value}»}}",
+    "source": "7c23dc922f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableRefusesValue": {
+    "text": "«{name}» kan ikke ta den verdien",
+    "source": "bc6e57c4e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variablesReadOnly": {
+    "text": "Variabler kan ikke endres her",
+    "source": "40cd47be98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addFailed": {
+    "text": "Kunne ikke legge til {device} på {dashboard}",
+    "source": "cadf20c493",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.added": {
+    "text": "Lagt til på {dashboard}",
+    "source": "9a4a462421",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addedBody": {
+    "text": "Nederst; flytt den eller endre stilen der.",
+    "source": "e7f326b162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.loadFailed": {
+    "text": "Kunne ikke hente dashbordene dine",
+    "source": "53f9ece07c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.noTile": {
+    "text": "Det finnes ingen flis for {device} ennå",
+    "source": "0cf17b286f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSynced": {
+    "text": "Denne enheten er ikke synkronisert ennå",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSyncedBody": {
+    "text": "Vent et øyeblikk og prøv igjen.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.tryAgain": {
+    "text": "Prøv igjen.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarm": {
+    "text": "Deaktiver alarmen",
+    "source": "4fa160cd1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmBody": {
+    "text": "Husalarmen deaktiveres på alle skjermer.",
+    "source": "cd902a9148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmConfirm": {
+    "text": "Deaktiver",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmTitle": {
+    "text": "Deaktivere «{name}»?",
+    "source": "1128420006",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openCamera": {
+    "text": "Åpne kameraet",
+    "source": "4adab8263a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openDevice": {
+    "text": "Åpne enheten",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.startFlow": {
+    "text": "Start «{name}»",
+    "source": "8adce4aae1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.allClear": {
+    "text": "Alt er i orden",
+    "source": "96ed94a7e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.barView": {
+    "text": "Vis",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.closeToBar": {
+    "text": "Lukk; den blir liggende øverst som en stripe",
+    "source": "7c30804bdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindCo": {
+    "text": "CO-alarm",
+    "source": "8ce4282227",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindContact": {
+    "text": "Dørsensor",
+    "source": "a90e004bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindDoorbell": {
+    "text": "Dørklokke",
+    "source": "3a3c261519",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindMotion": {
+    "text": "Bevegelsessensor",
+    "source": "07359fd27c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSiren": {
+    "text": "Alarm",
+    "source": "f3b6795735",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSmoke": {
+    "text": "Røykvarsler",
+    "source": "0f119d8840",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindWater": {
+    "text": "Vannsensor",
+    "source": "baeb75217e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.silence": {
+    "text": "Demp her",
+    "source": "8cbdf63995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.since": {
+    "text": "Siden {since} · <ago></ago>",
+    "source": "d1c33c8635",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.stoppedAt": {
+    "text": "{headline} fra {since}, stoppet <ago></ago>",
+    "source": "4079e3e1d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tabsLabel": {
+    "text": "Varsler",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tapForSound": {
+    "text": "Trykk for lyd",
+    "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.addWidget": {
+    "text": "Legg til en widget",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictBody": {
+    "text": "Last inn på nytt for å se den nyeste versjonen. Den siste endringen din ble ikke lagret.",
+    "source": "73e8b06bcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictTitle": {
+    "text": "Dette dashbordet ble endret et annet sted",
+    "source": "0e8671b9ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyBody": {
+    "text": "Legg til widgeter for enhetene, Flows og stemningene dine, og ordne dem slik du vil.",
+    "source": "c374366250",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyTitle": {
+    "text": "En tom vegg",
+    "source": "aabccf0d11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDelete": {
+    "text": "Slett dashbordet",
+    "source": "b310f98bcb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDuplicate": {
+    "text": "Dupliser…",
+    "source": "5d202208fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEdit": {
+    "text": "Rediger dashbordet",
+    "source": "84e69aa06e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEditNeedsWider": {
+    "text": "Trenger et bredere vindu",
+    "source": "174c693a2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOff": {
+    "text": "Stopp e-blekk-visningen",
+    "source": "4dc9d4c676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOn": {
+    "text": "Forhåndsvis på e-blekk",
+    "source": "46337fb14b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuPanel": {
+    "text": "Sett det på et nettbrett…",
+    "source": "79c683cd0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuSettings": {
+    "text": "Dashbordinnstillinger…",
+    "source": "1ca8cc7349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuShare": {
+    "text": "Del…",
+    "source": "51fc2d24df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.opensOnStart": {
+    "text": "Åpnes ved start",
+    "source": "df10843e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.optionsLabel": {
+    "text": "Valg for dashbordet",
+    "source": "3e15f369f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.reload": {
+    "text": "Last inn på nytt",
+    "source": "bdc090ec61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.tileCount": {
+    "text": "{count, plural, one {# flis} other {# fliser}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedBody": {
+    "text": "Sjekk tilkoblingen og prøv igjen.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedTitle": {
+    "text": "Kunne ikke laste inn dashbordet",
+    "source": "48caa3b699",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.leavePanel": {
+    "text": "Forlat veggpanelet",
+    "source": "e93ef0c6ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingBody": {
+    "text": "Det kan ha blitt slettet, eller det hører til en annen Homey.",
+    "source": "a2c06090a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingTitle": {
+    "text": "Dette dashbordet er ikke her",
+    "source": "9f6516dab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.toDevices": {
+    "text": "Gå til enheter",
+    "source": "33486f372e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPopup.openFailed": {
+    "text": "Kunne ikke åpne det dashbordet.",
+    "source": "0c29dc1d84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.controls": {
+    "text": "Kontroller",
+    "source": "799c269135",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.higher": {
+    "text": "Høyere",
+    "source": "f20a248eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.lower": {
+    "text": "Lavere",
+    "source": "4e8bbf3a2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.addToDashboard": {
+    "text": "Legg til på dashbord",
+    "source": "81c5e9c7bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.changed": {
+    "text": "Endret <ago></ago>",
+    "source": "17b9f045cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.days": {
+    "text": "{count, plural, one {# dag} other {# dager}}",
+    "source": "52e7b5cd5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.history": {
+    "text": "Historikk",
+    "source": "0e76960093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.historyOf": {
+    "text": "Historikk for {reading}",
+    "source": "4cced4dbed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.online": {
+    "text": "Tilkoblet",
+    "source": "0d21bd5202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.paused": {
+    "text": "På pause: abonnementet ditt har ikke plass til den",
+    "source": "2538962bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.planFull": {
+    "text": "{limit, plural, one {Abonnementet ditt registrerer # måleverdi; stopp en først eller oppgrader.} other {Abonnementet ditt registrerer # måleverdier; stopp en først eller oppgrader.}}",
+    "source": "08d4f7a049",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.readings": {
+    "text": "Måleverdier",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordLabel": {
+    "text": "Registrer {reading}",
+    "source": "465b71698f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordMore": {
+    "text": "Registrer mer med Pro",
+    "source": "afd198e64c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordNote": {
+    "text": "Registrering tar vare på historikken til en måleverdi, så widgeter kan vise diagrammer. Stopper du den, slettes den historikken.",
+    "source": "1b73ab1861",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordingSince": {
+    "text": "Registrerer siden {since}",
+    "source": "27d5999369",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionAll": {
+    "text": "{planName}-abonnementet ditt beholder hver verdi i {raw}, per time i {hourly}, per dag i {daily}.",
+    "source": "2444f8d432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRaw": {
+    "text": "{planName}-abonnementet ditt beholder hver verdi i {raw}.",
+    "source": "a6df985512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawDaily": {
+    "text": "{planName}-abonnementet ditt beholder hver verdi i {raw}, per dag i {daily}.",
+    "source": "317fc46657",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawHourly": {
+    "text": "{planName}-abonnementet ditt beholder hver verdi i {raw}, per time i {hourly}.",
+    "source": "409f6dcf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.unavailable": {
+    "text": "Utilgjengelig",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageCount": {
+    "text": "<count>{used} av {limit}</count> måleverdier registreres på denne Homey-en",
+    "source": "adc94b128b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageLabel": {
+    "text": "Registrerte måleverdier på denne Homey-en",
+    "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.years": {
+    "text": "{count, plural, one {# år} other {# år}}",
+    "source": "6689c10961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.devicePopup.pinSaveFailed": {
+    "text": "Kunne ikke lagre hvilke handlinger som ber om PIN-koden.",
+    "source": "65e81c73a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.loadFailed": {
+    "text": "Kunne ikke laste inn innstillingene for registrering",
+    "source": "7a8f23bf58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSynced": {
+    "text": "Denne enheten er ikke synkronisert ennå",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSyncedBody": {
+    "text": "Vent et øyeblikk og prøv igjen.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.startFailed": {
+    "text": "Kunne ikke starte registreringen",
+    "source": "fb53a09295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.started": {
+    "text": "Registreringen er startet",
+    "source": "be3f4838b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopFailed": {
+    "text": "Kunne ikke stoppe registreringen",
+    "source": "fc4cd9a9fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopped": {
+    "text": "Registreringen er stoppet",
+    "source": "7105c577db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.tryAgain": {
+    "text": "Prøv igjen.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.headingLabel": {
+    "text": "Overskrift {text}",
+    "source": "c4a8518f35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.summariesLabel": {
+    "text": "Sammendrag {text}",
+    "source": "96086a8d87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.unavailableWidget": {
+    "text": "Utilgjengelig widget",
+    "source": "791c75a3af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.average": {
+    "text": "Snitt",
+    "source": "b38ae2c5b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailDaily": {
+    "text": "Per dag",
+    "source": "b36c2611dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailFine": {
+    "text": "Fin",
+    "source": "fa67303aec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailHourly": {
+    "text": "Per time",
+    "source": "eab0cd8fdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailLabel": {
+    "text": "Detaljnivå",
+    "source": "fb5f27d545",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.emptyRange": {
+    "text": "Ingenting registrert i denne perioden ennå.",
+    "source": "8ee1ff504a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.highest": {
+    "text": "Høyeste",
+    "source": "d402ef10d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedText": {
+    "text": "Pro beholder hver verdi i 30 dager, per time i 2 år og per dag i 10 år.",
+    "source": "2a416551b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedTitle": {
+    "text": "{planName}-abonnementet ditt tar vare på historikk fra {date}",
+    "source": "5f0eecb45b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.linesLabel": {
+    "text": "Linjer",
+    "source": "3b26a54274",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.loadFailed": {
+    "text": "Kunne ikke laste inn historikken.",
+    "source": "9f45dad12c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.lowest": {
+    "text": "Laveste",
+    "source": "5c590931c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingText": {
+    "text": "Linjen teller bare {names}.",
+    "source": "747fb6cd9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingTitle": {
+    "text": "{missing, plural, one {# av {total} enheter registrerer ikke «{reading}» ennå} other {# av {total} enheter registrerer ikke «{reading}» ennå}}",
+    "source": "6e9b85229a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.noneRecord": {
+    "text": "Ingen av disse enhetene registrerer «{reading}» ennå.",
+    "source": "65ed464c35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.notRecorded": {
+    "text": "Historikken for «{reading}» registreres ikke ennå.",
+    "source": "0cfb330d90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.oneDoesNotRecord": {
+    "text": "{name} registrerer ikke «{reading}» ennå.",
+    "source": "1ee3fd5520",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range12h": {
+    "text": "12 t",
+    "source": "7b018bf0a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range1y": {
+    "text": "År",
+    "source": "89f6832560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range24h": {
+    "text": "24 t",
+    "source": "a00380040f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range30d": {
+    "text": "30 dager",
+    "source": "ffd7280513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range6h": {
+    "text": "6 t",
+    "source": "56a627fb88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range7d": {
+    "text": "7 dager",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.rangeLabel": {
+    "text": "Periode",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.recordThem": {
+    "text": "Registrer dem også",
+    "source": "308ffee9f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.seePro": {
+    "text": "Se Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.showLabel": {
+    "text": "Vis",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitEach": {
+    "text": "Per enhet",
+    "source": "a7f8c76d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitTotal": {
+    "text": "Totalt",
+    "source": "c9b3c38247",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.startRecording": {
+    "text": "Start registrering",
+    "source": "30756af013",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestDay": {
+    "text": "Travleste dag",
+    "source": "4addb0cd14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestHour": {
+    "text": "Travleste time",
+    "source": "c3fa7ec17e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerDay": {
+    "text": "Per dag i snitt",
+    "source": "9c07f1febd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerHour": {
+    "text": "Per time i snitt",
+    "source": "93cd552d94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statUsed": {
+    "text": "Brukt",
+    "source": "ae7d8dfac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.thisDevice": {
+    "text": "Denne enheten",
+    "source": "d052579c6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewMeter": {
+    "text": "Måler",
+    "source": "2293b30e53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewUsage": {
+    "text": "Forbruk",
+    "source": "8d59829c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pageDots.label": {
+    "text": "Dashbord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.body": {
+    "text": "Du har Free, som har plass til {limit, plural, one {# dashbord} other {# dashbord}}. Dette beholdes som det er: behold det i stedet for et annet, eller få Pro for å ha alle.",
+    "source": "18de3f654d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.goPro": {
+    "text": "Få Pro",
+    "source": "28c0f3aab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.keepInstead": {
+    "text": "Behold det i stedet for et annet",
+    "source": "bb73b116ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.title": {
+    "text": "«{name}» er satt på pause",
+    "source": "7ef5cefa28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.change": {
+    "text": "Bytt…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.choose": {
+    "text": "Velg…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.collectionAll": {
+    "text": "Alt",
+    "source": "75304cf77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.collectionsLabel": {
+    "text": "Samling",
+    "source": "7b790708ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.credit": {
+    "text": "Av {name}",
+    "source": "e4feaaa983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.emptyYours": {
+    "text": "Ingen bilder ennå",
+    "source": "043b266b55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.emptyYoursText": {
+    "text": "Last opp et eget bilde, eller velg et fra Tiledash. Bildene dine blir på kontoen din.",
+    "source": "7e3660f9f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.facts": {
+    "text": "{width} × {height} · {source}",
+    "source": "6e2fcf8982",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.limits": {
+    "text": "{count} av {max} bilder · {used} av {space}",
+    "source": "c6243e7d49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.manage": {
+    "text": "Administrer bildene dine",
+    "source": "c1c7dbb70b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.none": {
+    "text": "Ingen bilde",
+    "source": "6e9a17ba4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.notUsed": {
+    "text": "Ikke i bruk",
+    "source": "dccafe55ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.nothingFound": {
+    "text": "Ingen bilder passer",
+    "source": "8131755fb3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originFloorPlan": {
+    "text": "Plantegningene dine",
+    "source": "011d652efa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originHouse": {
+    "text": "Husene dine",
+    "source": "4897b9f023",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originUpload": {
+    "text": "Lastet opp",
+    "source": "3cc3767e70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.pickNone": {
+    "text": "Velg et bilde",
+    "source": "657375f2cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.picked": {
+    "text": "{name} · {width} × {height}",
+    "source": "08b4806154",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.remove": {
+    "text": "Fjern",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.search": {
+    "text": "Søk i bilder",
+    "source": "0e378275a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeAll": {
+    "text": "Alle",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeLabel": {
+    "text": "Form",
+    "source": "e0e492707f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeUpright": {
+    "text": "Stående",
+    "source": "501808a8c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeWide": {
+    "text": "Brede",
+    "source": "147170e793",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.tabsLabel": {
+    "text": "Hvem sine bilder",
+    "source": "11a78f0b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.tiledash": {
+    "text": "Fra Tiledash",
+    "source": "cdf0ad9659",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.upload": {
+    "text": "Last opp…",
+    "source": "137a939b28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.uploadFailed": {
+    "text": "Bildet kunne ikke lastes opp.",
+    "source": "c518eaa15f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.uploading": {
+    "text": "Laster opp…",
+    "source": "5ce44dd77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.use": {
+    "text": "Bruk dette bildet",
+    "source": "8301dc58bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.usedBy": {
+    "text": "{count, plural, one {Brukt én gang} other {Brukt # ganger}}",
+    "source": "78b7837ae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.yours": {
+    "text": "Dine",
+    "source": "54b26f7d3d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.add": {
+    "text": "Legg til en handling…",
+    "source": "3310bb8492",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.arm": {
+    "text": "Aktiver",
+    "source": "d5cb968264",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.armPartly": {
+    "text": "Aktiver delvis",
+    "source": "5d0d9086f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.change": {
+    "text": "Endre {reading}",
+    "source": "6ac831d600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.close": {
+    "text": "Lukk",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.disarm": {
+    "text": "Deaktiver",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOff": {
+    "text": "{reading}: av",
+    "source": "413b32eb97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOn": {
+    "text": "{reading}: på",
+    "source": "ffdb5e0b1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.heading": {
+    "text": "Be om PIN-kode før",
+    "source": "f7fef065fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.lock": {
+    "text": "Lås",
+    "source": "db44b8db4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.none": {
+    "text": "Ingenting på denne enheten ber om den ennå.",
+    "source": "c37fc8e99d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.note": {
+    "text": "Veggpaneler, tilkoblede skjermer, delingslenker og appen ber om PIN-koden din først, og så ikke igjen på et minutt.",
+    "source": "ba8090300e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.open": {
+    "text": "Åpne",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptText": {
+    "text": "Skriv inn PIN-koden din.",
+    "source": "76e6dc8244",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptTitle": {
+    "text": "{action} {device}",
+    "source": "fe77433684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.removeAction": {
+    "text": "Slutt å be om PIN-kode for {action}",
+    "source": "0b5a2a85d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setPin": {
+    "text": "Angi en PIN-kode",
+    "source": "c7a8116f31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setTo": {
+    "text": "Sett til {choice}",
+    "source": "6a4ff4c3c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOff": {
+    "text": "Slå av",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOn": {
+    "text": "Slå på",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unlock": {
+    "text": "Lås opp",
+    "source": "4ac709aa58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unset": {
+    "text": "Angi en PIN-kode for kontoen din først; til da ber ingenting om den.",
+    "source": "f7cb0e3a68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoAlways": {
+    "text": "alltid",
+    "source": "9cdc6c47aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoMore": {
+    "text": "Andre PIN-koder legges til på PIN-kortet på kontoen din.",
+    "source": "91f279f6d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoTitle": {
+    "text": "Hvilke PIN-koder den godtar",
+    "source": "696a38f887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoYours": {
+    "text": "Din PIN-kode",
+    "source": "b42a6aa196",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.description": {
+    "text": "Et dashbord som popup-vindu.",
+    "source": "7eff77efab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.descriptionAuto": {
+    "text": "Lukkes av seg selv når ingen rører det.",
+    "source": "8da8919ac2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.choose": {
+    "text": "Velg…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.chooseElsewhere": {
+    "text": "Velg det på dette dashbordet i Tiledash.",
+    "source": "559fed6ab1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.canControl": {
+    "text": "Kan styre",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredHint": {
+    "text": "Delte lenker kan gjelde i en dag eller en uke. Be den som delte den, om en ny.",
+    "source": "ed4622588f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredTitle": {
+    "text": "Denne lenken har utløpt",
+    "source": "7cb87dcb8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredWorked": {
+    "text": "Den virket til {when}.",
+    "source": "93fbf0def0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintTile": {
+    "text": "Denne lenken kan slå av og på lys og stikkontakter, ikke dette.",
+    "source": "f06f69f4b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintViewOnly": {
+    "text": "Denne lenken viser dashbordet direkte. Den kan ikke endre noe.",
+    "source": "5c0a6c789f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.notOnLink": {
+    "text": "Ikke på denne lenken",
+    "source": "d8cc86fe72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineText": {
+    "text": "Dette er de siste verdiene. De oppdateres av seg selv når den er tilbake.",
+    "source": "0add2feb53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTextSince": {
+    "text": "Dette er de siste verdiene, fra {time}. De oppdateres av seg selv når den er tilbake.",
+    "source": "76107d9905",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTitle": {
+    "text": "Homey-en i dette hjemmet er frakoblet",
+    "source": "507f3586aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkBody": {
+    "text": "Den som delte den, har satt den på pause. Den åpner igjen av seg selv når de slår den på igjen.",
+    "source": "f7a2b280e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkTitle": {
+    "text": "Denne lenken er satt på pause",
+    "source": "5784dd5ecd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenBody": {
+    "text": "Eieren har satt den på pause. Den kommer tilbake av seg selv når de slår den på igjen.",
+    "source": "4f3d88e579",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenTitle": {
+    "text": "Denne skjermen er satt på pause",
+    "source": "659dde77a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.reasonFlows": {
+    "text": "Flows blir hos eieren",
+    "source": "13256c0f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.notPartOfLink": {
+    "text": "Ikke en del av denne lenken",
+    "source": "24344e03ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.notSharedWithYou": {
+    "text": "{name} har ikke delt dette dashbordet",
+    "source": "60f443d644",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.ok": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedOnScreen": {
+    "text": "Ikke tillatt på denne skjermen",
+    "source": "094263cfe0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedText": {
+    "text": "Serveren vår avviste dette: eieren kan ha endret hva denne lenken kan gjøre.",
+    "source": "0577bf9f24",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedTitle": {
+    "text": "Ikke tillatt på denne lenken",
+    "source": "edc4175535",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.unpairFailed": {
+    "text": "Kunne ikke koble fra denne skjermen. Prøv igjen.",
+    "source": "ea00dee3aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedBody": {
+    "text": "Den som delte den, har slått den av. Trenger du den fortsatt, be dem om en ny.",
+    "source": "29a7f36a67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedTitle": {
+    "text": "Denne lenken virker ikke lenger",
+    "source": "9b5318fcc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.sharedWithYou": {
+    "text": "Delt med deg",
+    "source": "b447129c6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusLive": {
+    "text": "Direkte",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusOffline": {
+    "text": "Homey frakoblet",
+    "source": "57b5ecc357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnecting": {
+    "text": "Kobler til igjen…",
+    "source": "27b80374e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnectingLabel": {
+    "text": "Kobler til igjen",
+    "source": "afb118fcb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.tagline": {
+    "text": "Tiledash · direkte dashbord for Homey",
+    "source": "d8503664e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.viewOnly": {
+    "text": "Bare visning",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.nothingToChart": {
+    "text": "Ingenting å vise i diagram nå.",
+    "source": "15575c94fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOff": {
+    "text": "Slå av alle",
+    "source": "59d74fd7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOn": {
+    "text": "Slå på alle",
+    "source": "08f6d3f555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOff": {
+    "text": "Alt er allerede av",
+    "source": "a2fb318226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOn": {
+    "text": "Alt er allerede på",
+    "source": "a9f7c48c5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOff": {
+    "text": "Slå av",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffDevices": {
+    "text": "{count, plural, one {Slå av # enhet?} other {Slå av # enheter?}}",
+    "source": "be8a6fb910",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffLights": {
+    "text": "{count, plural, one {Slå av # lys?} other {Slå av # lys?}}",
+    "source": "5016fc027f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOn": {
+    "text": "Slå på",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnDevices": {
+    "text": "{count, plural, one {Slå på # enhet?} other {Slå på # enheter?}}",
+    "source": "f81e13391c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnLights": {
+    "text": "{count, plural, one {Slå på # lys?} other {Slå på # lys?}}",
+    "source": "395af7406e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.blocked": {
+    "text": "Tatt ned av Tiledash av sikkerhetshensyn. Avinstaller den, eller sett en annen widget her.",
+    "source": "3e0af134be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.deviceGone": {
+    "text": "Enheten finnes ikke lenger på Homey-en din.",
+    "source": "e09c77c173",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.flowGone": {
+    "text": "Flowen finnes ikke lenger på Homey-en din.",
+    "source": "23edd7219a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.missingFromCommunity": {
+    "text": "Denne Community-widgeten er ikke lenger installert. Installer den igjen, eller sett en annen widget her.",
+    "source": "8e5235c017",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.moodGone": {
+    "text": "Stemningen finnes ikke lenger på Homey-en din.",
+    "source": "fed12c6eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.notInstalled": {
+    "text": "Denne widgeten er ikke installert.",
+    "source": "de3252b000",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.openInCommunity": {
+    "text": "Åpne i Community",
+    "source": "49b02e17df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.ownDeleted": {
+    "text": "Denne widgeten din ble slettet. Fjern flisen, eller sett en annen widget her.",
+    "source": "dd2f18d884",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.unavailable": {
+    "text": "Widgeten er utilgjengelig",
+    "source": "41659b48f2",
+    "by": "ai",
+    "reviewed": false
+  }
+}

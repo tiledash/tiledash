@@ -1,0 +1,1580 @@
+{
+  "devices.card.addLabel": {
+    "text": "Legg til {device} på et dashbord",
+    "source": "d5e1b4bdb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.addTip": {
+    "text": "Legg til på et dashbord",
+    "source": "1a73c1dcd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.open": {
+    "text": "Åpne {device}",
+    "source": "2f9be586ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.switchOther": {
+    "text": "{device}: {capability}",
+    "source": "325686df2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.switchPower": {
+    "text": "{device} av/på",
+    "source": "3b399b25b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.card.unavailable": {
+    "text": "Utilgjengelig",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.clockRange.from": {
+    "text": "{what}, fra",
+    "source": "821f0fe024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.clockRange.until": {
+    "text": "{what}, til",
+    "source": "fd06072651",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.euroNote": {
+    "text": "Priser i euro, omregnet med ECBs daglige kurser når du betaler i en annen valuta.",
+    "source": "f08cd510b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.example": {
+    "text": "{market} i markedet blir {price} per kWh",
+    "source": "61411c698e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.from": {
+    "text": "Time for time fra {provider}, morgendagens rundt {time}.",
+    "source": "1cc9a42569",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.markup": {
+    "text": "Strømleverandørens påslag",
+    "source": "7af5b1ebd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.markupHint": {
+    "text": "Uten mva",
+    "source": "1753eaeb08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.tax": {
+    "text": "Elavgift",
+    "source": "81a47e22a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.taxHint": {
+    "text": "Med mva",
+    "source": "12f166f8d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.vat": {
+    "text": "Mva",
+    "source": "4885a17383",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.vatHint": {
+    "text": "På markedsprisen og påslaget",
+    "source": "68fc517d3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneField": {
+    "text": "Landet ditt eller prisområdet",
+    "source": "c302933fd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneLabel": {
+    "text": "Prisområde",
+    "source": "03033b8a2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.dayAhead.zoneName": {
+    "text": "{zone, select, NL {Nederland} BE {Belgia} DELU {Tyskland og Luxembourg} FR {Frankrike} AT {Østerrike} DK1 {Danmark, vest} DK2 {Danmark, øst} NO1 {Norge, Oslo} SE3 {Sverige, Stockholm} SE4 {Sverige, Malmö} FI {Finland} PL {Polen} ES {Spania} PT {Portugal} ITNORD {Italia, nord} other {{zone}}}",
+    "source": "ce584a85c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.loadFailed": {
+    "text": "Kunne ikke laste inn energiinnstillingene",
+    "source": "caa32aaee3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.loadFailedBody": {
+    "text": "Sjekk tilkoblingen og prøv igjen.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterFailed": {
+    "text": "Kunne ikke endre måleren",
+    "source": "03af8d3d84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterFailedBody": {
+    "text": "Energiwidgetene teller fortsatt det de gjorde. Prøv igjen.",
+    "source": "3df4e7acc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSaved": {
+    "text": "{name} er lagret",
+    "source": "85703a8c76",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedOff": {
+    "text": "Energiwidgetene utelater den.",
+    "source": "29d45b5576",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedOn": {
+    "text": "Energiwidgetene teller den fra nå av.",
+    "source": "8e788f10e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.meterSavedStopped": {
+    "text": "Registreringen av den gamle måleren ble stoppet for å gi plass.",
+    "source": "9f395f9501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.powerNow": {
+    "text": "{power} W nå",
+    "source": "8e711ba749",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.saveFailed": {
+    "text": "Kunne ikke lagre energiinnstillingene",
+    "source": "80f1338dff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.saveFailedBody": {
+    "text": "Dashbordene beholder prisene de hadde. Sjekk dem og prøv igjen.",
+    "source": "9e621b9389",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.energyPanel.tryAgain": {
+    "text": "Prøv igjen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.day": {
+    "text": "Dag",
+    "source": "8f2364e11b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.dayNight": {
+    "text": "Dag og natt",
+    "source": "8b1a00de93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.label": {
+    "text": "Tariff",
+    "source": "cbaa1d8c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.night": {
+    "text": "Natt",
+    "source": "4e9f8db824",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.nightFrom": {
+    "text": "Natt fra",
+    "source": "78982d33da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.offPeak": {
+    "text": "Lavlast",
+    "source": "9015aef842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.peak": {
+    "text": "Topplast",
+    "source": "a57feec7a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.price": {
+    "text": "Pris",
+    "source": "93c91c851e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.priceHint": {
+    "text": "Alt inkludert, per kWh",
+    "source": "1aa0faea8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.single": {
+    "text": "Én pris",
+    "source": "aa855fd22b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.timeOfUse": {
+    "text": "Etter tidspunkt",
+    "source": "84a3b20cc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.until": {
+    "text": "Til",
+    "source": "7caf856e80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.fixedTariff.weekends": {
+    "text": "Helger med nattpris",
+    "source": "47dfaf1024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.stopOld": {
+    "text": "Stopp registreringen av den gamle måleren for å gi plass",
+    "source": "e3d71287e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.stopOldHint": {
+    "text": "Historikken forsvinner også; bare registreringer den startet selv.",
+    "source": "bde7082a30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChange.title": {
+    "text": "Når du lagrer",
+    "source": "04fff5c519",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.carEnergy": {
+    "text": "Energi ladet",
+    "source": "25dfa39d16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.charged": {
+    "text": "Ladet og avgitt",
+    "source": "3df75c2346",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.chargedDetail": {
+    "text": "De to tellerne",
+    "source": "4283c83b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.counterDetail": {
+    "text": "Telleren",
+    "source": "00bba9691a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.daily": {
+    "text": "Dagens tellere",
+    "source": "81354e16aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.dailyDetail": {
+    "text": "Ladet og avgitt i dag, tilbake til 0 ved midnatt",
+    "source": "5c11df48b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.gas": {
+    "text": "Gass",
+    "source": "e23a445d0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.in": {
+    "text": "Bare inn",
+    "source": "eaf8528920",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inDetail": {
+    "text": "Det som kom inn; strøm sendt tilbake telles ikke",
+    "source": "00f37060a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inOut": {
+    "text": "Inn og ut",
+    "source": "87632e2cb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.inOutDetail": {
+    "text": "To tellere: det som kom inn og det som gikk tilbake",
+    "source": "66e197b11a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.m3Detail": {
+    "text": "Telleren, i m³",
+    "source": "632f9d722a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.power": {
+    "text": "Bare effekt",
+    "source": "29fe80b510",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.powerDetail": {
+    "text": "{kind, select, solar {Ingen energiteller: det den produserte, regnes ut fra effekten, litt mindre nøyaktig} battery {Ingen energiteller: det den ladet og avga, regnes ut fra effekten, litt mindre nøyaktig} other {Ingen energiteller: det den ladet, regnes ut fra effekten, litt mindre nøyaktig}}",
+    "source": "bf4fbfb255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.solarEnergy": {
+    "text": "Energi produsert",
+    "source": "00c7e45195",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.total": {
+    "text": "Én total",
+    "source": "16b1317e6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totalDetail": {
+    "text": "Én teller: kostnadene ser ikke hva som gikk tilbake",
+    "source": "596950acb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totals": {
+    "text": "Totaler",
+    "source": "6bd6df68b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.totalsDetail": {
+    "text": "Ladet og avgitt siden den ble installert",
+    "source": "21571a9cb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterChoices.water": {
+    "text": "Vann",
+    "source": "7ca7dea906",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.alsoFor": {
+    "text": "Også {meter}",
+    "source": "ba4366fa84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.estimated": {
+    "text": "Anslått",
+    "source": "b774599a9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.found": {
+    "text": "Funnet",
+    "source": "b0ee315f4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.howLabel": {
+    "text": "Hvordan {device} teller",
+    "source": "cbbda442c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.now": {
+    "text": "Nå",
+    "source": "fe18013d93",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevice.unavailable": {
+    "text": "Utilgjengelig",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.goneBody": {
+    "text": "Fjernet eller koblet til på nytt: den teller ingenting før du velger en annen",
+    "source": "f6a11277ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.goneTitle": {
+    "text": "Borte fra Homey-en din",
+    "source": "a1ee641eec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.noMatch": {
+    "text": "Ingenting passer med «{query}».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.noRoom": {
+    "text": "Uten rom",
+    "source": "369ba41e5a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.othersHidden": {
+    "text": "Vis andre enheter med energiteller ({count, number})",
+    "source": "4bbaa96026",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.othersShown": {
+    "text": "Andre enheter med energiteller",
+    "source": "48eb684034",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.remove": {
+    "text": "Fjern den",
+    "source": "8c189c994b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterDevices.search": {
+    "text": "Søk i enheter eller rom",
+    "source": "1f360850b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.addsUpDetail": {
+    "text": "Det hver av dem teller, legges sammen i alle energiwidgeter.",
+    "source": "5d6b386168",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.addsUpTitle": {
+    "text": "{kind, select, solar {{count, plural, one {# omformer legges sammen} other {# omformere legges sammen}}} battery {{count, plural, one {# batteri legges sammen} other {# batterier legges sammen}}} other {{count, plural, one {# lader legges sammen} other {# ladere legges sammen}}}}",
+    "source": "3dee649a53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.foundTitle": {
+    "text": "Følger Homey-en din",
+    "source": "eee8178242",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.fullDetail": {
+    "text": "{count, plural, one {{names} registreres ikke} other {{names} registreres ikke}}: widgetene viser direkte verdier, men ingen totaler eller sammenligninger. Stopp en registrering under Registreringer{pro, select, yes {, eller få Pro for {proLimit}} other {}}.",
+    "source": "aa3f00f3da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.fullTitle": {
+    "text": "{free, select, yes {Free har plass til {limit} registreringer} other {Abonnementet ditt har plass til {limit} registreringer}}, {left, plural, =0 {alle er i bruk} other {# igjen}}",
+    "source": "987de41a53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.keepsDetail": {
+    "text": "Registrert siden {date}; den blir under Registreringer og i diagrammene, og registreres videre til du stopper den der.",
+    "source": "c57ac64009",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.keepsTitle": {
+    "text": "{device} beholder historikken",
+    "source": "58a446de98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.notRecorded": {
+    "text": "Ikke registrert",
+    "source": "b37c7879f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.offDetail": {
+    "text": "{kind, select, grid {Energiwidgetene viser ingenting for strøm.} gas {Energiwidgetene viser ingenting for gass.} water {Energiwidgetene viser ingenting for vann.} solar {Energiwidgetene viser ingenting for sol.} battery {Energiwidgetene viser ingenting for hjemmebatteriet.} other {Energiwidgetene viser ingenting for billading.}} Energiflyten utelater det også, med mindre en flis har valgt sine egne.",
+    "source": "01a86a85b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.offTitle": {
+    "text": "{name} utelates",
+    "source": "9322682ce2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partFresh": {
+    "text": "{count, plural, one {{names} har ingen historikk ennå: timene før {time} forblir tomme, og tidligere dager vises som ikke registrert til det finnes noe.} other {{names} har ingen historikk ennå: timene før {time} forblir tomme, og tidligere dager vises som ikke registrert til det finnes noe.}}",
+    "source": "5a8d9c7486",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partFrom": {
+    "text": "{device} teller fra {time}, da historikken starter.",
+    "source": "e3aa6fa4ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partWhole": {
+    "text": "{count, plural, one {{names} teller fra midnatt.} other {{names} teller fra midnatt.}}",
+    "source": "ff5710cf43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.partlyRecorded": {
+    "text": "Delvis registrert",
+    "source": "31b3e4de21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.recordedSinceDate": {
+    "text": "Registrert siden {date}",
+    "source": "ed11f33c6c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.recordedSinceTime": {
+    "text": "Registrert siden {time}",
+    "source": "bd9f94b64f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.startsDetail": {
+    "text": "{added, plural, one {# registrering til} other {# registreringer til}}: {used} av {limit} i bruk{free, select, yes { med Free} other {}}.",
+    "source": "d178a1b0da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.startsTitle": {
+    "text": "Registrering starter for {names}",
+    "source": "5e121dde63",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.stopsDetail": {
+    "text": "{count, plural, one {Historikken siden {date} forsvinner også, og gir plass til # registrering.} other {Historikken siden {date} forsvinner også, og gir plass til # registreringer.}}",
+    "source": "75893719e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.stopsTitle": {
+    "text": "Registrering stopper for {device}",
+    "source": "e594f1e13d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromNow": {
+    "text": "I dag telles fra nå av",
+    "source": "d21a4e1dcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromNowFor": {
+    "text": "I dag telles fra nå av for {names}",
+    "source": "9d9bf7ef5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromTime": {
+    "text": "I dag telles fra {time}",
+    "source": "4276936475",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayFromTimeFor": {
+    "text": "I dag telles fra {time} for {device}",
+    "source": "a6bc634876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayWholeDetail": {
+    "text": "Fra midnatt, og dagene før så langt tilbake som historikken går ({date}).",
+    "source": "0af8f6ce92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterEffects.todayWholeTitle": {
+    "text": "Dagens totaler regnes ut på nytt fra {names}",
+    "source": "813c3b13e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.count": {
+    "text": "{kind, select, solar {{count, plural, one {# omformer} other {# omformere}}} battery {{count, plural, one {# batteri} other {# batterier}}} car {{count, plural, one {# lader} other {# ladere}}} other {{count, plural, one {# måler} other {# målere}}}}",
+    "source": "d4248619e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.follows": {
+    "text": "{kind, select, grid {En ny strømmåler på Homey-en din tar plassen av seg selv.} gas {En ny gassmåler på Homey-en din tar plassen av seg selv.} water {En ny vannmåler på Homey-en din tar plassen av seg selv.} solar {En ny omformer på Homey-en din blir med av seg selv.} battery {Et nytt hjemmebatteri på Homey-en din blir med av seg selv.} other {En ny lader på Homey-en din blir med av seg selv.}}",
+    "source": "e68899e373",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.lookingFor": {
+    "text": "{kind, select, grid {Tiledash ser etter en måler som teller det som kommer inn fra strømnettet (og det som går tilbake). Legg til en på Homey-en din, så vises den her.} gas {Tiledash ser etter en enhet som teller gass i m³ (meter_gas), som en P1-måler eller en kjele. Legg til en på Homey-en din, så vises den her.} water {Tiledash ser etter en enhet som teller vann i m³ (meter_water), som en HomeWizard Watermeter. Legg til en på Homey-en din, så vises den her.} solar {Tiledash ser etter en solcelleomformer eller solcellepaneler. Legg til en på Homey-en din, så vises den her.} battery {Tiledash ser etter et hjemmebatteri som teller det det ladet og avga. Legg til et på Homey-en din, så vises det her.} other {Tiledash ser etter en billader som teller energien den ga. Legg til en på Homey-en din, så vises den her.}}",
+    "source": "c1016e6748",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.nothingCounts": {
+    "text": "{kind, select, grid {Ingenting på denne Homey-en teller strøm} gas {Ingenting på denne Homey-en teller gass} water {Ingenting på denne Homey-en teller vann} solar {Ingenting på denne Homey-en teller sol} battery {Ingenting på denne Homey-en teller hjemmebatteriet} other {Ingenting på denne Homey-en teller billading}}",
+    "source": "085ae3bfe5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterKinds.title": {
+    "text": "{kind, select, grid {Strøm} gas {Gass} water {Vann} solar {Sol} battery {Hjemmebatteri} other {Bil}}",
+    "source": "4ceaf53b3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.chosenBody": {
+    "text": "{kind, select, solar {Omformerne du huker av nedenfor, legges sammen og blir til du endrer dem.} battery {Batteriene du huker av nedenfor, legges sammen og blir til du endrer dem.} car {Laderne du huker av nedenfor, legges sammen og blir til du endrer dem.} other {Måleren du velger nedenfor, til du endrer den.}}",
+    "source": "348c5b0507",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.chosenTitle": {
+    "text": "Valgt av deg",
+    "source": "e4b802b7ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.description": {
+    "text": "{kind, select, grid {Hvilken enhet som teller som strøm i alle energiwidgeter på denne Homey-en.} gas {Hvilken enhet som teller som gass i alle energiwidgeter på denne Homey-en.} water {Hvilken enhet som teller som vann i alle energiwidgeter på denne Homey-en.} solar {Hvilke enheter som teller som sol i alle energiwidgeter på denne Homey-en. Flere legges sammen.} battery {Hvilke enheter som teller som hjemmebatteriet i alle energiwidgeter på denne Homey-en. Flere legges sammen.} other {Hvilke enheter som teller som billading i alle energiwidgeter på denne Homey-en. Flere legges sammen.}}",
+    "source": "d0d0c33c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.emptyPick": {
+    "text": "{several, select, yes {Huk av én eller flere som skal telle, eller velg Ingen.} other {Huk av én som skal telle, eller velg Ingen.}}",
+    "source": "b901885b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.emptyUnchanged": {
+    "text": "Ingenting endres ennå. Huk av en enhet, eller velg en annen måte over; hva lagringen gjør, vises her.",
+    "source": "4608fb2ee4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundBody": {
+    "text": "{devices}. Følger Homey-en din.",
+    "source": "28e7650468",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundNone": {
+    "text": "Ingenting funnet ennå; en som dukker opp, teller av seg selv.",
+    "source": "0dc100db94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.foundTitle": {
+    "text": "Funnet automatisk",
+    "source": "f64e12a6d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.modesLabel": {
+    "text": "{kind, select, grid {Hvordan strøm telles} gas {Hvordan gass telles} water {Hvordan vann telles} solar {Hvordan sol telles} battery {Hvordan hjemmebatteriet telles} other {Hvordan billading telles}}",
+    "source": "0d73816408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.offBody": {
+    "text": "{kind, select, grid {Utelat strøm fra energiwidgetene.} gas {Utelat gass fra energiwidgetene.} water {Utelat vann fra energiwidgetene.} solar {Utelat sol fra energiwidgetene.} battery {Utelat hjemmebatteriet fra energiwidgetene.} other {Utelat billading fra energiwidgetene.}}",
+    "source": "edd45e3b91",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.offTitle": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.save": {
+    "text": "Lagre",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryChosen": {
+    "text": "{devices} valgt",
+    "source": "7c0ccf9502",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryFound": {
+    "text": "{devices}, funnet automatisk",
+    "source": "0646e61f40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryNothing": {
+    "text": "Ingenting teller ennå",
+    "source": "ef640db7ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryOff": {
+    "text": "{name} utelatt",
+    "source": "b3570f22a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryOnlyGone": {
+    "text": "Bare en enhet som er borte: velg en annen, eller gå tilbake til Funnet",
+    "source": "f290c89c8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.summaryPick": {
+    "text": "{several, select, yes {Huk av én eller flere, eller velg Ingen} other {Huk av én, eller velg Ingen}}",
+    "source": "4798d9884d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPicker.title": {
+    "text": "{name} · hva som teller",
+    "source": "562e8cfa50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.MJ": {
+    "text": "MJ",
+    "source": "ca20bc284d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.ccf": {
+    "text": "CCF (100 kubikkfot)",
+    "source": "4f5e6ed886",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.factorInvalid": {
+    "text": "Mellom {min} og {max}",
+    "source": "07809a0f6f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kL": {
+    "text": "kL",
+    "source": "2e92a4cccb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kWh": {
+    "text": "kWh",
+    "source": "58520857f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.kgal": {
+    "text": "1000 gallon",
+    "source": "605d9f3f6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.litre": {
+    "text": "liter",
+    "source": "3b2e48ec50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.m3": {
+    "text": "m³",
+    "source": "c7db57c856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perCubicMetre": {
+    "text": "Måleren din teller m³: det blir {price} per m³.",
+    "source": "fba708b65f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWh": {
+    "text": "kWh per m³",
+    "source": "92d946c2ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perKWhHint": {
+    "text": "På regningen som brennverdi; vanligvis 10 til 11,5",
+    "source": "c2a4ca67e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJ": {
+    "text": "MJ per m³",
+    "source": "3945239708",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.perMJHint": {
+    "text": "På regningen som brennverdi; vanligvis 37 til 39",
+    "source": "f1fb090490",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.therm": {
+    "text": "therm",
+    "source": "4683c5bc31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactor": {
+    "text": "Therm-faktor",
+    "source": "e648586eb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.thermFactorHint": {
+    "text": "Therm per CCF på regningen; vanligvis rundt 1,03",
+    "source": "d159fe215d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterPrice.unit": {
+    "text": "Pris per",
+    "source": "d525d3b55e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.change": {
+    "text": "Endre",
+    "source": "c0bf75bd78",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.choose": {
+    "text": "Velg",
+    "source": "c7f937836f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.chooseAnother": {
+    "text": "Velg en annen",
+    "source": "8a2bca07ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.chosenBadge": {
+    "text": "Valgt av deg",
+    "source": "e4b802b7ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.foundBadge": {
+    "text": "Funnet automatisk",
+    "source": "f64e12a6d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.mightFit": {
+    "text": "{count, plural, one {Ingenting funnet automatisk · # enhet kan passe} other {Ingenting funnet automatisk · # enheter kan passe}}",
+    "source": "3b938d406d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.noneHere": {
+    "text": "Ingen på denne Homey-en",
+    "source": "ed52d3ba81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.off": {
+    "text": "Utelatt: energiwidgetene viser ingenting for den",
+    "source": "d9982010ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRow.offBadge": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.addingUp": {
+    "text": "{kind, select, solar {{count, plural, one {# omformer lagt sammen} other {# omformere lagt sammen}}} battery {{count, plural, one {# batteri lagt sammen} other {# batterier lagt sammen}}} other {{count, plural, one {# lader lagt sammen} other {# ladere lagt sammen}}}}",
+    "source": "86545ac3ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.gone": {
+    "text": "{device} er borte fra Homey-en din: den teller ingenting",
+    "source": "1430c78179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.homeyCounts": {
+    "text": "{kind, select, grid {Homey teller {names} som strøm} gas {Homey teller {names} som gass} water {Homey teller {names} som vann} solar {Homey teller {names} som sol} battery {Homey teller {names} som hjemmebatteriet} other {Homey teller {names} som billading}}",
+    "source": "e3837a2cfa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.recordingsFull": {
+    "text": "{free, select, yes {Alle de {limit} registreringene i Free er i bruk: stopp en under Registreringer, eller få Pro.} other {Alle de {limit} registreringene dine er i bruk: stopp en under Registreringer.}}",
+    "source": "f1d3f3d626",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.source": {
+    "text": "{devices} · {how}",
+    "source": "47929feabd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.meterRows.unavailable": {
+    "text": "{device} er utilgjengelig: den teller ingenting før den er tilbake",
+    "source": "2f7eaff332",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.intro": {
+    "text": "Funnet automatisk på Homey-en din; endre hvilken som helst av dem. Måleverdiene registreres, så widgetene kan vise dagens totaler og sammenligne med tidligere dager.",
+    "source": "1e82e88a23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.recordings": {
+    "text": "Registreringer",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.title": {
+    "text": "Hva energiwidgetene teller",
+    "source": "c2b6352ed0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.metersSection.usage": {
+    "text": "{meters, plural, one {Målerne bruker # registrering} other {Målerne bruker # registreringer}}; {free, select, yes {{used} av de {limit} i Free er i bruk.} other {{used} av dine {limit} er i bruk.}}",
+    "source": "90b0926d03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.page.changeFailedUnnamed": {
+    "text": "Kunne ikke endre enheten",
+    "source": "cb5674c2e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.priceField.invalid": {
+    "text": "Ikke en pris vi kan bruke",
+    "source": "82bcf8b60f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.average": {
+    "text": "Snitt <b>{price}</b>",
+    "source": "dec87e47ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.fallback": {
+    "text": "Den faste tariffen din, siden {source} sluttet å svare kl. {time}.",
+    "source": "7cfa67b579",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.fixedNote": {
+    "text": "Den faste tariffen din.",
+    "source": "c149340556",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.high": {
+    "text": "Høyest <b>{price}</b> kl. {time}",
+    "source": "5019d8da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.low": {
+    "text": "Lavest <b>{price}</b> kl. {time}",
+    "source": "8bece7bf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.now": {
+    "text": "<b>{price}</b>/kWh nå · {level}",
+    "source": "9a3afd3a41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.pricePreview.updated": {
+    "text": "Oppdatert {time} fra {source}.",
+    "source": "b85bc94f32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyField": {
+    "text": "Priser og kostnader i",
+    "source": "6e8c583b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyFold": {
+    "text": "En annen valuta",
+    "source": "50e6327e00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyFoldInside": {
+    "text": "Priser og kostnader er i Homey-ens valuta",
+    "source": "d57545209a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyFromHomey": {
+    "text": "{code}, fra Homey-en din ({country})",
+    "source": "664d4d377b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.currencyLabel": {
+    "text": "Valuta",
+    "source": "3ac1a9ec4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.dayAheadBody": {
+    "text": "Timeprisen i markedet i landet ditt, pluss påslaget og avgiften din per kWh.",
+    "source": "d11e4f7555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.dayAheadTitle": {
+    "text": "Spotpriser for neste dag",
+    "source": "a0f878b9d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.downBody": {
+    "text": "Siden {time}. Dashbordene viser den faste tariffen din til den er tilbake; vi prøver igjen med noen minutters mellomrom.",
+    "source": "81a74a4a71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.downTitle": {
+    "text": "{source} svarer ikke",
+    "source": "2dfef6e19b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.electricityIntro": {
+    "text": "Hva en kWh koster, time for time: energiwidgetene farger etter den, regner ut kostnader og finner de billigste timene.",
+    "source": "efa5a8f682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.electricityTitle": {
+    "text": "Strømpris",
+    "source": "1993f13ed1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fallbackNoPrice": {
+    "text": "Til Homey-en din har en pris",
+    "source": "645eb36f2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fallbackSummary": {
+    "text": "Den faste tariffen din: {tariff}",
+    "source": "f7e2ce6dd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fallbackTitle": {
+    "text": "Hvis den ikke kan nås",
+    "source": "85006dc1c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedIn": {
+    "text": "Pris for innmating",
+    "source": "d822e9612d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedInHint": {
+    "text": "Tom: den tjener det en kWh koster den timen",
+    "source": "ff85d350b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.feedInTitle": {
+    "text": "Strøm du sender tilbake",
+    "source": "d849968bb2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedAllDay": {
+    "text": "{price} hele dagen",
+    "source": "b3f5e498c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedBodyTimeOfUse": {
+    "text": "Én pris, en dag- og nattpris, eller priser etter tid på døgnet.",
+    "source": "490e3104eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedDayNight": {
+    "text": "{day} om dagen, {night} fra {from} til {to}",
+    "source": "89da68c15a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedTimeOfUse": {
+    "text": "{periods} etter tid på døgnet",
+    "source": "ffaa0ab5db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.fixedTitle": {
+    "text": "Fast tariff",
+    "source": "d4325ae9c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gas": {
+    "text": "Gass",
+    "source": "e23a445d0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gasHint": {
+    "text": "Alt inkludert; la stå tomt for å ikke vise gasskostnader",
+    "source": "3b974b47aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.gasWaterTitle": {
+    "text": "Gass og vann",
+    "source": "2bfbf82500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyBody": {
+    "text": "De dynamiske prisene i Homey Energy, med leverandørens påslag og avgifter allerede inkludert.",
+    "source": "2231480236",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyFixedBody": {
+    "text": "Prisen som er satt i Energi-innstillingene på Homey-en din: {price} per kWh.",
+    "source": "1feef68ff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyNeeds": {
+    "text": "Krever en Homey Pro (2023), Homey Pro mini eller Homey Cloud med Homey v12.6 eller nyere. Denne: {homey}.",
+    "source": "24bbf7c602",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyNoneBody": {
+    "text": "Homey-en din har ingen pris ennå. Angi en i Energi-innstillingene på Homey, eller velg en fast tariff her.",
+    "source": "36f0826351",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.homeyTitle": {
+    "text": "Fra Homey-en din",
+    "source": "669acda4cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedBody": {
+    "text": "Til nå brukte denne Homey-en nederlandske markedspriser, som alle nye Homey-er startet med. Nå bruker den prisen som er satt på Homey-en din. Velg en annen kilde nedenfor hvis du vil.",
+    "source": "1206436e0b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedDone": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.movedTitle": {
+    "text": "Prisene dine kommer nå fra Homey-en din",
+    "source": "b70c85920c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.noPriceYet": {
+    "text": "Ingen pris ennå",
+    "source": "9522fee5ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.notOnThisHomey": {
+    "text": "Ikke på denne Homey-en",
+    "source": "97fe8e3088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.recommended": {
+    "text": "Anbefalt",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabElectricity": {
+    "text": "Strøm",
+    "source": "a8b41baa4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabGasWater": {
+    "text": "Gass og vann",
+    "source": "2bfbf82500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMeters": {
+    "text": "Målere",
+    "source": "efd2ff9344",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabMetersProblem": {
+    "text": "en måler må sjekkes",
+    "source": "287704a49a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabToday": {
+    "text": "I dag",
+    "source": "2b065c7c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabTodayDown": {
+    "text": "kilden svarer ikke",
+    "source": "2feb86b9a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.tabsLabel": {
+    "text": "Energiinnstillinger",
+    "source": "a624d28319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.todayTitle": {
+    "text": "Dagens priser",
+    "source": "9e5e43719a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.todaysPrices": {
+    "text": "Dagens priser",
+    "source": "9e5e43719a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.prices.water": {
+    "text": "Vann",
+    "source": "7ca7dea906",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.description": {
+    "text": "{count, plural, one {# enhet, direkte fra Homey-en din.} other {# enheter, direkte fra Homey-en din.}}",
+    "source": "fabedfb408",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.descriptionWaiting": {
+    "text": "{count, plural, one {# enhet · kobler til Homey-en din…} other {# enheter · kobler til Homey-en din…}}",
+    "source": "5bae06adf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupAll": {
+    "text": "Alle",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupClimate": {
+    "text": "Klima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupEnergy": {
+    "text": "Energi",
+    "source": "f2fcd3f7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupLighting": {
+    "text": "Belysning",
+    "source": "07607d609f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupMedia": {
+    "text": "Medier",
+    "source": "d357175cfe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupOther": {
+    "text": "Annet",
+    "source": "f97e9da0e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupSecurity": {
+    "text": "Sikkerhet",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.groupsLabel": {
+    "text": "Enhetstype",
+    "source": "8562a30fdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.noneBody": {
+    "text": "Prøv et annet navn eller en annen enhetstype.",
+    "source": "c443243a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.noneTitle": {
+    "text": "Ingen treff",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.offlineBody": {
+    "text": "Sjekk at den har strøm og internett. Vi fortsetter å prøve.",
+    "source": "3f40312a16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.offlineTitle": {
+    "text": "Homey-en din kan ikke nås",
+    "source": "a07c0e8377",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthAction": {
+    "text": "Logg inn igjen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthBody": {
+    "text": "Athom-innloggingen din har utløpt, så vi får ikke kontakt med Homey-en din.",
+    "source": "5e4a9837c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reauthTitle": {
+    "text": "Logg inn med Homey igjen",
+    "source": "44cc5d77ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reconnectingBody": {
+    "text": "Verdiene kan ligge noen sekunder etter.",
+    "source": "a857332d3d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.reconnectingTitle": {
+    "text": "Kobler til Homey-en din igjen…",
+    "source": "d3926bb226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.search": {
+    "text": "Søk i enheter",
+    "source": "3aebaefc3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.screen.title": {
+    "text": "Enheter",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.add": {
+    "text": "Legg til en periode",
+    "source": "8240a931d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.name": {
+    "text": "Navn på perioden",
+    "source": "e883ac23d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.newPeriod": {
+    "text": "Mellomlast",
+    "source": "79a38096fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekdays": {
+    "text": "Ikke på hverdager",
+    "source": "40b174a445",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.notWeekends": {
+    "text": "Ikke i helger",
+    "source": "1378041089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.price": {
+    "text": "Pris",
+    "source": "93c91c851e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.remove": {
+    "text": "Fjern {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.restHours": {
+    "text": "Alle andre timer",
+    "source": "7fe7ccda32",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.seasons": {
+    "text": "Andre priser om sommeren",
+    "source": "94231e8580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summer": {
+    "text": "Sommer",
+    "source": "c0de243c40",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerFrom": {
+    "text": "Sommer fra",
+    "source": "4029e63330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.summerTo": {
+    "text": "Til og med",
+    "source": "680a017bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekdays": {
+    "text": "Hverdager",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.weekends": {
+    "text": "Helger",
+    "source": "93dcf1d1d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUse.winter": {
+    "text": "Resten av året",
+    "source": "a2a1e0eea6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.dayLabel": {
+    "text": "{day}: prisperiodene gjennom døgnet",
+    "source": "4abb636106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekdays": {
+    "text": "Hverdager",
+    "source": "6f4b602bb5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "devices.timeOfUseStrip.weekends": {
+    "text": "Helger",
+    "source": "93dcf1d1d2",
+    "by": "ai",
+    "reviewed": false
+  }
+}

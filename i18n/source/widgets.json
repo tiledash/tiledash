@@ -167,7 +167,7 @@
   },
   "widgets.builtin.allClearOrSmokeDetected": {
     "en": "All clear, or smoke detected.",
-    "context": "Description of the \"Motion\" widget, in the widget picker.",
+    "context": "Description of the \"Smoke detector\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -838,7 +838,7 @@
   },
   "widgets.builtin.dryOrWaterDetected": {
     "en": "Dry, or water detected.",
-    "context": "Description of the \"Motion\" widget, in the widget picker.",
+    "context": "Description of the \"Water leak\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -1084,7 +1084,7 @@
   },
   "widgets.builtin.gasUsedTodayAgainstAUsual": {
     "en": "Gas used today against a usual day, hour by hour, with the heating right now.",
-    "context": "Description of the \"Water\" widget, in the widget picker.",
+    "context": "Description of the \"Gas\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -1480,7 +1480,7 @@
   },
   "widgets.builtin.leave": {
     "en": "Leave",
-    "context": "Label of a setting of the \"Busy now\" widget, or one of its choices.",
+    "context": "A choice of the \"Busy now\" widget's setting \"After it finishes\": the finished item goes from the tile at once (the other choices keep it 15 minutes or 2 hours).",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.left": {
@@ -2044,7 +2044,7 @@
   },
   "widgets.builtin.okOrCarbonMonoxideDetected": {
     "en": "OK, or carbon monoxide detected.",
-    "context": "Description of the \"Motion\" widget, in the widget picker.",
+    "context": "Description of the \"Carbon monoxide\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -2481,7 +2481,7 @@
   },
   "widgets.builtin.setTheMood": {
     "en": "Set the Mood",
-    "context": "What tapping does, in the settings of the \"Flow\" widget.",
+    "context": "What tapping does, in the settings of the \"Mood\" widget.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.setTo": {
@@ -2494,7 +2494,7 @@
   },
   "widgets.builtin.setsAMoodAndShowsWhether": {
     "en": "Sets a Mood, and shows whether it was set.",
-    "context": "Description of the \"Flow\" widget, in the widget picker.",
+    "context": "Description of the \"Mood\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
@@ -2991,7 +2991,7 @@
   },
   "widgets.builtin.theSolarPowerUsedAtHome": {
     "en": "The solar power used at home, at the prices of its",
-    "context": "Words on the tile of the \"Energy so far\" widget; it may be part of a longer line.",
+    "context": "Tooltip on the money saved on the \"Energy so far\" widget. The tile adds \"hours\" (today) or \"days\" (longer periods) after it, so it reads \"…at the prices of its hours\". Translate so that word fits at the end.",
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },
   "widgets.builtin.theTile": {
@@ -3501,7 +3501,7 @@
   },
   "widgets.builtin.whetherADoorOrWindowIs": {
     "en": "Whether a door or window is open, and since when.",
-    "context": "Description of the \"Motion\" widget, in the widget picker.",
+    "context": "Description of the \"Door or window\" widget, in the widget picker.",
     "maxLength": 240,
     "file": "packages/widgets/src/builtin/builtin.messages.ts"
   },

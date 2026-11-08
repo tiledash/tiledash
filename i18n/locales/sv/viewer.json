@@ -1,0 +1,1736 @@
+{
+  "viewer.actions.capabilityNeeded": {
+    "text": "Ett funktionsnamn behövs",
+    "source": "65dd6cbec6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeFailed": {
+    "text": "Det gick inte att ändra {device}",
+    "source": "7f6f34c160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.changeRefused": {
+    "text": "Din Homey godtog inte ändringen.",
+    "source": "64483e4e34",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.confirmOk": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNoLonger": {
+    "text": "Den dashboarden finns inte längre",
+    "source": "802794aa5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.dashboardNotHere": {
+    "text": "Den dashboarden finns inte här längre",
+    "source": "87a119cef1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceMissing": {
+    "text": "Den enheten finns inte på den här Homey",
+    "source": "4a0a16e476",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.deviceUnavailable": {
+    "text": "{device} är inte tillgänglig",
+    "source": "a65a3c7c4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowFailed": {
+    "text": "Det gick inte att starta ”{name}”",
+    "source": "809bd3838b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowMissing": {
+    "text": "Flowet finns inte på den här Homey",
+    "source": "a119a6c051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowNotManual": {
+    "text": "”{name}” kan inte startas manuellt",
+    "source": "6543a14d25",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.flowStarted": {
+    "text": "Startade ”{name}”",
+    "source": "478ddb4b72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyAppAway": {
+    "text": "Tiledash-appen på din Homey har ingen kontakt. Kontrollera att den körs; den ansluter igen av sig själv.",
+    "source": "f08cc04f50",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyNeedsPro": {
+    "text": "Säg till Homey ingår i Pro.",
+    "source": "6993690481",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyNotTold": {
+    "text": "Kunde inte säga till Homey ”{name}”",
+    "source": "17f35be0e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyOwnerOnly": {
+    "text": "Bara Homeyns ägare kan säga till Homey, än så länge.",
+    "source": "b5fdefee21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyTileMissing": {
+    "text": "Den Homey-rutan finns inte längre",
+    "source": "cc91da72a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.homeyTold": {
+    "text": "Sa till Homey ”{name}”",
+    "source": "22b3582630",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.logInAgain": {
+    "text": "Logga in igen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodFailed": {
+    "text": "Det gick inte att ställa in ”{name}”",
+    "source": "1c796ba3ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodMissing": {
+    "text": "Den stämningen finns inte på den här Homey",
+    "source": "37b93d74bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.moodSet": {
+    "text": "Stämningen ”{name}” är inställd",
+    "source": "264eeaf91c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noCapability": {
+    "text": "{device} har ingen funktion ”{capability}”",
+    "source": "b9f191b898",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noDevice": {
+    "text": "Den här widgeten har ingen enhet att styra",
+    "source": "4ea30deedd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.noValueYet": {
+    "text": "{title} har inget värde än",
+    "source": "a0fe379149",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notChangeable": {
+    "text": "{title} för {device} kan inte ändras",
+    "source": "a22650c2a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notNumber": {
+    "text": "{title} är inget tal",
+    "source": "dadcc64599",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.notSwitch": {
+    "text": "{title} är ingen strömbrytare",
+    "source": "8fcfd7fe99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestBlocked": {
+    "text": "Webbläsaren blockerade ”{name}”",
+    "source": "91e619fbc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestBlockedWhy": {
+    "text": "Det är en http://-adress och Tiledash körs på https. I Chrome kan du tillåta enheter i ditt nätverk för den här webbplatsen, eller använda https:// om enheten har det.",
+    "source": "e6267eec48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestMissing": {
+    "text": "Den webbförfrågan finns inte på den här dashboarden",
+    "source": "759cd868b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestSent": {
+    "text": "Skickade ”{name}”",
+    "source": "c47531519a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachable": {
+    "text": "Det gick inte att nå {host}",
+    "source": "d901fbdde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.requestUnreachableWhy": {
+    "text": "Enheten svarade inte, eller så hittade webbläsaren den inte i sitt nätverk.",
+    "source": "62732aca8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.stepNotNumber": {
+    "text": "Steget måste vara ett tal",
+    "source": "cbb50d59b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableMissing": {
+    "text": "Den variabeln finns inte på den här Homey, eller kan inte läsas",
+    "source": "cfc292a1af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotAllowed": {
+    "text": "Tiledash får inte ändra Logic-variabler än. Logga in igen och tillåt det.",
+    "source": "c5cef397ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNotChanged": {
+    "text": "”{name}” ändrades inte",
+    "source": "c5cd1ce6db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableNow": {
+    "text": "{kind, select, on {”{name}” är nu på} off {”{name}” är nu av} number {”{name}” är nu {value}} other {”{name}” är nu ”{value}”}}",
+    "source": "7c23dc922f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variableRefusesValue": {
+    "text": "”{name}” kan inte ta emot det",
+    "source": "bc6e57c4e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.actions.variablesReadOnly": {
+    "text": "Variabler kan inte ändras här",
+    "source": "40cd47be98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addFailed": {
+    "text": "Det gick inte att lägga till {device} på {dashboard}",
+    "source": "cadf20c493",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.added": {
+    "text": "Tillagd på {dashboard}",
+    "source": "9a4a462421",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.addedBody": {
+    "text": "Längst ner; flytta eller ändra utseendet där.",
+    "source": "e7f326b162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.loadFailed": {
+    "text": "Det gick inte att läsa dina dashboards",
+    "source": "53f9ece07c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.noTile": {
+    "text": "Det finns ingen ruta för {device} än",
+    "source": "0cf17b286f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSynced": {
+    "text": "Den här enheten är inte synkad än",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.notSyncedBody": {
+    "text": "Vänta en stund och försök igen.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.addToDashboard.tryAgain": {
+    "text": "Försök igen.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarm": {
+    "text": "Slå av larmet",
+    "source": "4fa160cd1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmBody": {
+    "text": "Hemlarmet slås av på alla skärmar.",
+    "source": "cd902a9148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmConfirm": {
+    "text": "Slå av",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.disarmTitle": {
+    "text": "Slå av ”{name}”?",
+    "source": "1128420006",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openCamera": {
+    "text": "Öppna kameran",
+    "source": "4adab8263a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.openDevice": {
+    "text": "Öppna enhet",
+    "source": "021a82bd48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alertActions.startFlow": {
+    "text": "Starta ”{name}”",
+    "source": "8adce4aae1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.allClear": {
+    "text": "Faran är över",
+    "source": "96ed94a7e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.barView": {
+    "text": "Visa",
+    "source": "dcc839a401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.closeToBar": {
+    "text": "Stäng; den stannar överst som en list",
+    "source": "7c30804bdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindCo": {
+    "text": "CO-larm",
+    "source": "8ce4282227",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindContact": {
+    "text": "Dörrsensor",
+    "source": "a90e004bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindDoorbell": {
+    "text": "Dörrklocka",
+    "source": "3a3c261519",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindMotion": {
+    "text": "Rörelsesensor",
+    "source": "07359fd27c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSiren": {
+    "text": "Larm",
+    "source": "f3b6795735",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindSmoke": {
+    "text": "Brandvarnare",
+    "source": "0f119d8840",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.kindWater": {
+    "text": "Vattensensor",
+    "source": "baeb75217e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.silence": {
+    "text": "Tysta här",
+    "source": "8cbdf63995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.since": {
+    "text": "Sedan {since} · <ago></ago>",
+    "source": "d1c33c8635",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.stoppedAt": {
+    "text": "{headline} från {since}, slutade <ago></ago>",
+    "source": "4079e3e1d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tabsLabel": {
+    "text": "Larm",
+    "source": "f62e9267d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.alerts.tapForSound": {
+    "text": "Tryck för ljud",
+    "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.addWidget": {
+    "text": "Lägg till en widget",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictBody": {
+    "text": "Läs in igen för att se den senaste versionen. Din senaste ändring sparades inte.",
+    "source": "73e8b06bcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.conflictTitle": {
+    "text": "Den här dashboarden ändrades någon annanstans",
+    "source": "0e8671b9ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyBody": {
+    "text": "Lägg till widgetar för dina enheter, Flows och stämningar och ordna dem sedan som du vill.",
+    "source": "c374366250",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.emptyTitle": {
+    "text": "En tom vägg",
+    "source": "aabccf0d11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDelete": {
+    "text": "Radera dashboard",
+    "source": "b310f98bcb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuDuplicate": {
+    "text": "Duplicera…",
+    "source": "5d202208fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEdit": {
+    "text": "Redigera dashboard",
+    "source": "84e69aa06e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEditNeedsWider": {
+    "text": "Kräver ett bredare fönster",
+    "source": "174c693a2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOff": {
+    "text": "Stoppa e-ink-förhandsvisning",
+    "source": "4dc9d4c676",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuEinkOn": {
+    "text": "Förhandsvisa på e-ink",
+    "source": "46337fb14b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuPanel": {
+    "text": "Lägg på en surfplatta…",
+    "source": "79c683cd0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuSettings": {
+    "text": "Dashboardinställningar…",
+    "source": "1ca8cc7349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.menuShare": {
+    "text": "Dela…",
+    "source": "51fc2d24df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.opensOnStart": {
+    "text": "Öppnas vid start",
+    "source": "df10843e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.optionsLabel": {
+    "text": "Dashboardalternativ",
+    "source": "3e15f369f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.reload": {
+    "text": "Läs in igen",
+    "source": "bdc090ec61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboard.tileCount": {
+    "text": "{count, plural, one {# ruta} other {# rutor}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedBody": {
+    "text": "Kontrollera anslutningen och försök igen.",
+    "source": "481859b689",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.failedTitle": {
+    "text": "Det gick inte att läsa in dashboarden",
+    "source": "48caa3b699",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.leavePanel": {
+    "text": "Lämna väggpanelen",
+    "source": "e93ef0c6ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingBody": {
+    "text": "Den kan ha raderats, eller så hör den till en annan Homey.",
+    "source": "a2c06090a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.missingTitle": {
+    "text": "Den här dashboarden finns inte här",
+    "source": "9f6516dab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPage.toDevices": {
+    "text": "Gå till enheter",
+    "source": "33486f372e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.dashboardPopup.openFailed": {
+    "text": "Det gick inte att öppna den dashboarden.",
+    "source": "0c29dc1d84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.controls": {
+    "text": "Reglage",
+    "source": "799c269135",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.higher": {
+    "text": "Högre",
+    "source": "f20a248eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceControls.lower": {
+    "text": "Lägre",
+    "source": "4e8bbf3a2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.addToDashboard": {
+    "text": "Lägg till på dashboard",
+    "source": "81c5e9c7bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.changed": {
+    "text": "Ändrad <ago></ago>",
+    "source": "17b9f045cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.days": {
+    "text": "{count, plural, one {# dag} other {# dagar}}",
+    "source": "52e7b5cd5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.history": {
+    "text": "Historik",
+    "source": "0e76960093",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.historyOf": {
+    "text": "Historik för {reading}",
+    "source": "4cced4dbed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.online": {
+    "text": "Online",
+    "source": "0d21bd5202",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.paused": {
+    "text": "Pausad: ditt abonnemang har inte plats för den",
+    "source": "2538962bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.planFull": {
+    "text": "{limit, plural, one {Ditt abonnemang registrerar # mätvärde; stoppa ett först eller uppgradera.} other {Ditt abonnemang registrerar # mätvärden; stoppa ett först eller uppgradera.}}",
+    "source": "08d4f7a049",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.readings": {
+    "text": "Mätvärden",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordLabel": {
+    "text": "Registrera {reading}",
+    "source": "465b71698f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordMore": {
+    "text": "Registrera mer med Pro",
+    "source": "afd198e64c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordNote": {
+    "text": "Registrering sparar ett mätvärdes historik så att widgetar kan visa diagram. Stoppar du den raderas historiken.",
+    "source": "1b73ab1861",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.recordingSince": {
+    "text": "Registreras sedan {since}",
+    "source": "27d5999369",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionAll": {
+    "text": "Ditt {planName}-abonnemang sparar varje värde i {raw}, per timme i {hourly}, per dag i {daily}.",
+    "source": "2444f8d432",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRaw": {
+    "text": "Ditt {planName}-abonnemang sparar varje värde i {raw}.",
+    "source": "a6df985512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawDaily": {
+    "text": "Ditt {planName}-abonnemang sparar varje värde i {raw}, per dag i {daily}.",
+    "source": "317fc46657",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.retentionRawHourly": {
+    "text": "Ditt {planName}-abonnemang sparar varje värde i {raw}, per timme i {hourly}.",
+    "source": "409f6dcf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.unavailable": {
+    "text": "Inte tillgänglig",
+    "source": "ca18449697",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageCount": {
+    "text": "<count>{used} av {limit}</count> mätvärden registreras på den här Homey",
+    "source": "adc94b128b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.usageLabel": {
+    "text": "Registrerade mätvärden på den här Homey",
+    "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.years": {
+    "text": "{count, plural, one {# år} other {# år}}",
+    "source": "6689c10961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.devicePopup.pinSaveFailed": {
+    "text": "Det gick inte att spara vilka åtgärder som kräver PIN-kod.",
+    "source": "65e81c73a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.loadFailed": {
+    "text": "Det gick inte att läsa in registreringsinställningarna",
+    "source": "7a8f23bf58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSynced": {
+    "text": "Den här enheten är inte synkad än",
+    "source": "e5b1b95646",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.notSyncedBody": {
+    "text": "Vänta en stund och försök igen.",
+    "source": "da4c4e787b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.startFailed": {
+    "text": "Det gick inte att starta registreringen",
+    "source": "fb53a09295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.started": {
+    "text": "Registreringen startad",
+    "source": "be3f4838b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopFailed": {
+    "text": "Det gick inte att stoppa registreringen",
+    "source": "fc4cd9a9fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.stopped": {
+    "text": "Registreringen stoppad",
+    "source": "7105c577db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceTracking.tryAgain": {
+    "text": "Försök igen.",
+    "source": "eea4fb33ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.headingLabel": {
+    "text": "Rubrik {text}",
+    "source": "c4a8518f35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.summariesLabel": {
+    "text": "Sammanfattningar {text}",
+    "source": "96086a8d87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.gridItems.unavailableWidget": {
+    "text": "Otillgänglig widget",
+    "source": "791c75a3af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.average": {
+    "text": "Medel",
+    "source": "b38ae2c5b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailDaily": {
+    "text": "Per dag",
+    "source": "b36c2611dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailFine": {
+    "text": "Detaljerat",
+    "source": "fa67303aec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailHourly": {
+    "text": "Per timme",
+    "source": "eab0cd8fdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.detailLabel": {
+    "text": "Detaljnivå",
+    "source": "fb5f27d545",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.emptyRange": {
+    "text": "Inget registrerat i det här intervallet än.",
+    "source": "8ee1ff504a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.highest": {
+    "text": "Högst",
+    "source": "d402ef10d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedText": {
+    "text": "Pro sparar varje värde i 30 dagar, per timme i 2 år och per dag i 10 år.",
+    "source": "2a416551b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.limitedTitle": {
+    "text": "Ditt {planName}-abonnemang sparar historik från {date}",
+    "source": "5f0eecb45b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.linesLabel": {
+    "text": "Linjer",
+    "source": "3b26a54274",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.loadFailed": {
+    "text": "Det gick inte att läsa in historiken.",
+    "source": "9f45dad12c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.lowest": {
+    "text": "Lägst",
+    "source": "5c590931c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingText": {
+    "text": "Linjen räknar bara med {names}.",
+    "source": "747fb6cd9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.missingTitle": {
+    "text": "{missing, plural, one {# av {total} enheter registrerar inte ”{reading}” än} other {# av {total} enheter registrerar inte ”{reading}” än}}",
+    "source": "6e9b85229a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.noneRecord": {
+    "text": "Ingen av de här enheterna registrerar ”{reading}” än.",
+    "source": "65ed464c35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.notRecorded": {
+    "text": "Historiken för ”{reading}” registreras inte än.",
+    "source": "0cfb330d90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.oneDoesNotRecord": {
+    "text": "{name} registrerar inte ”{reading}” än.",
+    "source": "1ee3fd5520",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range12h": {
+    "text": "12 h",
+    "source": "7b018bf0a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range1y": {
+    "text": "År",
+    "source": "89f6832560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range24h": {
+    "text": "24 h",
+    "source": "a00380040f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range30d": {
+    "text": "30 dagar",
+    "source": "ffd7280513",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range6h": {
+    "text": "6 h",
+    "source": "56a627fb88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.range7d": {
+    "text": "7 dagar",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.rangeLabel": {
+    "text": "Intervall",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.recordThem": {
+    "text": "Registrera dem också",
+    "source": "308ffee9f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.seePro": {
+    "text": "Se Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.showLabel": {
+    "text": "Visa",
+    "source": "0df6f1cad3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitEach": {
+    "text": "Per enhet",
+    "source": "a7f8c76d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.splitTotal": {
+    "text": "Summa",
+    "source": "c9b3c38247",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.startRecording": {
+    "text": "Starta registrering",
+    "source": "30756af013",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestDay": {
+    "text": "Mest på en dag",
+    "source": "4addb0cd14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statBusiestHour": {
+    "text": "Mest på en timme",
+    "source": "c3fa7ec17e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerDay": {
+    "text": "Per dag i snitt",
+    "source": "9c07f1febd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statPerHour": {
+    "text": "Per timme i snitt",
+    "source": "93cd552d94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.statUsed": {
+    "text": "Förbrukat",
+    "source": "ae7d8dfac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.thisDevice": {
+    "text": "Den här enheten",
+    "source": "d052579c6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewMeter": {
+    "text": "Mätare",
+    "source": "2293b30e53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.history.viewUsage": {
+    "text": "Förbrukning",
+    "source": "8d59829c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pageDots.label": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.body": {
+    "text": "Du har Free, som har plats för {limit, plural, one {# dashboard} other {# dashboards}}. Den här behålls som den är: behåll den i stället för en annan, eller skaffa Pro för att få alla.",
+    "source": "18de3f654d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.goPro": {
+    "text": "Skaffa Pro",
+    "source": "28c0f3aab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.keepInstead": {
+    "text": "Behåll den i stället",
+    "source": "bb73b116ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.paused.title": {
+    "text": "”{name}” är pausad",
+    "source": "7ef5cefa28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.change": {
+    "text": "Ändra…",
+    "source": "a6b4705c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.choose": {
+    "text": "Välj…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.collectionAll": {
+    "text": "Allt",
+    "source": "75304cf77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.collectionsLabel": {
+    "text": "Samling",
+    "source": "7b790708ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.credit": {
+    "text": "Av {name}",
+    "source": "e4feaaa983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.emptyYours": {
+    "text": "Inga bilder än",
+    "source": "043b266b55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.emptyYoursText": {
+    "text": "Ladda upp ett eget foto, eller välj ett från Tiledash. Dina bilder stannar på ditt konto.",
+    "source": "7e3660f9f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.facts": {
+    "text": "{width} × {height} · {source}",
+    "source": "6e2fcf8982",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.limits": {
+    "text": "{count} av {max} bilder · {used} av {space}",
+    "source": "c6243e7d49",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.manage": {
+    "text": "Hantera dina bilder",
+    "source": "c1c7dbb70b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.none": {
+    "text": "Ingen bild",
+    "source": "6e9a17ba4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.notUsed": {
+    "text": "Används inte",
+    "source": "dccafe55ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.nothingFound": {
+    "text": "Inga bilder matchar",
+    "source": "8131755fb3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originFloorPlan": {
+    "text": "Dina planritningar",
+    "source": "011d652efa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originHouse": {
+    "text": "Dina hus",
+    "source": "4897b9f023",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.originUpload": {
+    "text": "Uppladdade",
+    "source": "3cc3767e70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.pickNone": {
+    "text": "Välj en bild",
+    "source": "657375f2cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.picked": {
+    "text": "{name} · {width} × {height}",
+    "source": "08b4806154",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.remove": {
+    "text": "Ta bort",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.search": {
+    "text": "Sök bilder",
+    "source": "0e378275a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeAll": {
+    "text": "Alla",
+    "source": "a52ace420f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeLabel": {
+    "text": "Form",
+    "source": "e0e492707f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeUpright": {
+    "text": "Stående",
+    "source": "501808a8c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.shapeWide": {
+    "text": "Liggande",
+    "source": "147170e793",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.tabsLabel": {
+    "text": "Vems bilder",
+    "source": "11a78f0b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.tiledash": {
+    "text": "Från Tiledash",
+    "source": "cdf0ad9659",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.upload": {
+    "text": "Ladda upp…",
+    "source": "137a939b28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.uploadFailed": {
+    "text": "Bilden kunde inte laddas upp.",
+    "source": "c518eaa15f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.uploading": {
+    "text": "Laddar upp…",
+    "source": "5ce44dd77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.use": {
+    "text": "Använd den här bilden",
+    "source": "8301dc58bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.usedBy": {
+    "text": "{count, plural, one {Används en gång} other {Används # gånger}}",
+    "source": "78b7837ae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pictures.yours": {
+    "text": "Dina",
+    "source": "54b26f7d3d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.add": {
+    "text": "Lägg till en åtgärd…",
+    "source": "3310bb8492",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.arm": {
+    "text": "Larma",
+    "source": "d5cb968264",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.armPartly": {
+    "text": "Delvis larma",
+    "source": "5d0d9086f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.change": {
+    "text": "Ändra {reading}",
+    "source": "6ac831d600",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.close": {
+    "text": "Stäng",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.disarm": {
+    "text": "Larma av",
+    "source": "0449aa195a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOff": {
+    "text": "{reading}: av",
+    "source": "413b32eb97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.flagOn": {
+    "text": "{reading}: på",
+    "source": "ffdb5e0b1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.heading": {
+    "text": "Fråga efter PIN-kod före",
+    "source": "f7fef065fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.lock": {
+    "text": "Lås",
+    "source": "db44b8db4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.none": {
+    "text": "Inget på den här enheten frågar efter den än.",
+    "source": "c37fc8e99d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.note": {
+    "text": "Väggpaneler, kopplade skärmar, delningslänkar och appen frågar efter din PIN-kod först, sedan inte igen på en minut.",
+    "source": "ba8090300e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.open": {
+    "text": "Öppna",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptText": {
+    "text": "Ange din PIN-kod.",
+    "source": "76e6dc8244",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.promptTitle": {
+    "text": "{action} {device}",
+    "source": "fe77433684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.removeAction": {
+    "text": "Sluta fråga för {action}",
+    "source": "0b5a2a85d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setPin": {
+    "text": "Ställ in PIN-kod",
+    "source": "c7a8116f31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.setTo": {
+    "text": "Ställ in på {choice}",
+    "source": "6a4ff4c3c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOff": {
+    "text": "Stäng av",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.turnOn": {
+    "text": "Slå på",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unlock": {
+    "text": "Lås upp",
+    "source": "4ac709aa58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.unset": {
+    "text": "Ställ in en PIN-kod för ditt konto först; tills dess frågar inget efter den.",
+    "source": "f7cb0e3a68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoAlways": {
+    "text": "alltid",
+    "source": "9cdc6c47aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoMore": {
+    "text": "Andra PIN-koder läggs till på ditt kontos PIN-kort.",
+    "source": "91f279f6d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoTitle": {
+    "text": "Vilka PIN-koder den tar",
+    "source": "696a38f887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.pin.whoYours": {
+    "text": "Din PIN-kod",
+    "source": "b42a6aa196",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.description": {
+    "text": "En dashboard som popup.",
+    "source": "7eff77efab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.popup.descriptionAuto": {
+    "text": "Stängs av sig själv när ingen rör den.",
+    "source": "8da8919ac2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.choose": {
+    "text": "Välj…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.settingsNeeded.chooseElsewhere": {
+    "text": "Välj det på den här dashboarden i Tiledash.",
+    "source": "559fed6ab1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.canControl": {
+    "text": "Kan styra",
+    "source": "c71f7c1534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredHint": {
+    "text": "Delade länkar kan gälla en dag eller en vecka. Be den som delade den om en ny.",
+    "source": "ed4622588f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredTitle": {
+    "text": "Den här länken har gått ut",
+    "source": "7cb87dcb8d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.expiredWorked": {
+    "text": "Den fungerade till {when}.",
+    "source": "93fbf0def0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintTile": {
+    "text": "Den här länken kan styra lampor och uttag, men inte detta.",
+    "source": "f06f69f4b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.hintViewOnly": {
+    "text": "Den här länken visar dashboarden live. Den kan inte ändra något.",
+    "source": "5c0a6c789f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.notOnLink": {
+    "text": "Inte via den här länken",
+    "source": "d8cc86fe72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineText": {
+    "text": "Det här är de senaste värdena. De uppdateras av sig själva när den är tillbaka.",
+    "source": "0add2feb53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTextSince": {
+    "text": "Det här är de senaste värdena, från {time}. De uppdateras av sig själva när den är tillbaka.",
+    "source": "76107d9905",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.offlineTitle": {
+    "text": "Det här hemmets Homey är offline",
+    "source": "507f3586aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkBody": {
+    "text": "Den som delade den har pausat den för tillfället. Den öppnas igen av sig själv när de slår på den igen.",
+    "source": "f7a2b280e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedLinkTitle": {
+    "text": "Den här länken är pausad",
+    "source": "5784dd5ecd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenBody": {
+    "text": "Ägaren har pausat den för tillfället. Den kommer tillbaka av sig själv när de slår på den igen.",
+    "source": "4f3d88e579",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.pausedScreenTitle": {
+    "text": "Den här skärmen är pausad",
+    "source": "659dde77a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.reasonFlows": {
+    "text": "Flows stannar hos ägaren",
+    "source": "13256c0f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.notPartOfLink": {
+    "text": "Ingår inte i den här länken",
+    "source": "24344e03ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.notSharedWithYou": {
+    "text": "{name} har inte delat den här dashboarden",
+    "source": "60f443d644",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.ok": {
+    "text": "OK",
+    "source": "565339bc4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedOnScreen": {
+    "text": "Inte tillåtet på den här skärmen",
+    "source": "094263cfe0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedText": {
+    "text": "Vår server avvisade detta: ägaren kan ha ändrat vad länken får göra.",
+    "source": "0577bf9f24",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.refusedTitle": {
+    "text": "Inte tillåtet via den här länken",
+    "source": "edc4175535",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.relay.unpairFailed": {
+    "text": "Det gick inte att koppla från den här skärmen. Försök igen.",
+    "source": "ea00dee3aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedBody": {
+    "text": "Den som delade den har stängt av den. Om du fortfarande behöver den, be om en ny.",
+    "source": "29a7f36a67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.revokedTitle": {
+    "text": "Den här länken fungerar inte längre",
+    "source": "9b5318fcc8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.sharedWithYou": {
+    "text": "Delad med dig",
+    "source": "b447129c6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusLive": {
+    "text": "Live",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusOffline": {
+    "text": "Homey offline",
+    "source": "57b5ecc357",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnecting": {
+    "text": "Ansluter igen…",
+    "source": "27b80374e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.statusReconnectingLabel": {
+    "text": "Ansluter igen",
+    "source": "afb118fcb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.tagline": {
+    "text": "Tiledash · live-dashboards för Homey",
+    "source": "d8503664e9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.share.viewOnly": {
+    "text": "Bara visning",
+    "source": "9b4c6c8590",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.nothingToChart": {
+    "text": "Inget att visa i diagram just nu.",
+    "source": "15575c94fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOff": {
+    "text": "Stäng av alla",
+    "source": "59d74fd7dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summary.turnAllOn": {
+    "text": "Slå på alla",
+    "source": "08f6d3f555",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOff": {
+    "text": "Allt är redan av",
+    "source": "a2fb318226",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.alreadyOn": {
+    "text": "Allt är redan på",
+    "source": "a9f7c48c5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOff": {
+    "text": "Stäng av",
+    "source": "06f0e210b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffDevices": {
+    "text": "{count, plural, one {Stänga av # enhet?} other {Stänga av # enheter?}}",
+    "source": "be8a6fb910",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOffLights": {
+    "text": "{count, plural, one {Släcka # lampa?} other {Släcka # lampor?}}",
+    "source": "5016fc027f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOn": {
+    "text": "Slå på",
+    "source": "5a1f096a0d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnDevices": {
+    "text": "{count, plural, one {Slå på # enhet?} other {Slå på # enheter?}}",
+    "source": "f81e13391c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.summaryTaps.turnOnLights": {
+    "text": "{count, plural, one {Tända # lampa?} other {Tända # lampor?}}",
+    "source": "395af7406e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.blocked": {
+    "text": "Borttagen av Tiledash av säkerhetsskäl. Avinstallera den, eller lägg en annan widget här.",
+    "source": "3e0af134be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.camera": {
+    "text": "Kamera",
+    "source": "03494b0d1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.deviceGone": {
+    "text": "Dess enhet finns inte längre på din Homey.",
+    "source": "e09c77c173",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.flowGone": {
+    "text": "Dess Flow finns inte längre på din Homey.",
+    "source": "23edd7219a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.missingFromCommunity": {
+    "text": "Den här Community-widgeten är inte längre installerad. Installera den igen, eller lägg en annan widget här.",
+    "source": "8e5235c017",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.moodGone": {
+    "text": "Dess stämning finns inte längre på din Homey.",
+    "source": "fed12c6eef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.notInstalled": {
+    "text": "Den här widgeten är inte installerad.",
+    "source": "de3252b000",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.openInCommunity": {
+    "text": "Öppna i Communityn",
+    "source": "49b02e17df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.ownDeleted": {
+    "text": "Den här widgeten som du gjort har raderats. Ta bort rutan, eller lägg en annan widget här.",
+    "source": "dd2f18d884",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.tile.unavailable": {
+    "text": "Widget otillgänglig",
+    "source": "41659b48f2",
+    "by": "ai",
+    "reviewed": false
+  }
+}

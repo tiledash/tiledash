@@ -333,10 +333,22 @@
     "maxLength": 28,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
+  "shell.layout.newVersion": {
+    "en": "There’s a new version of Tiledash",
+    "context": "Small message (toast) in a corner of the app, once after Tiledash was updated with something new. It goes away by itself after a few seconds; its button opens Settings › What’s new.",
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
   "shell.layout.paused": {
     "en": "Paused",
     "context": "Small quiet detail at the right of a dashboard in the \"Jump to\" search: the dashboard is paused (switched off because the Free plan has fewer dashboards than the person made).",
     "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.seeWhatsNew": {
+    "en": "What’s new",
+    "context": "Button in the small message (toast) saying there is a new version of Tiledash. It opens Settings › What’s new, the list of changes.",
+    "maxLength": 18,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.layout.sidebarNotSaved": {

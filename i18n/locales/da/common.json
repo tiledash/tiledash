@@ -1,0 +1,524 @@
+{
+  "common.actions.allow": {
+    "text": "Tillad",
+    "source": "e213c161d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.back": {
+    "text": "Tilbage",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.cancel": {
+    "text": "Annuller",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.continue": {
+    "text": "Fortsæt",
+    "source": "31fbef1625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.logOut": {
+    "text": "Log ud",
+    "source": "4961614551",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.next": {
+    "text": "Næste",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.save": {
+    "text": "Gem",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.seePlans": {
+    "text": "Se abonnementer",
+    "source": "d989893356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.actions.tryAgain": {
+    "text": "Prøv igen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.favourites": {
+    "text": "Favoritter",
+    "source": "d97d51d370",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.keep": {
+    "text": "Gem denne farve som favorit",
+    "source": "47abc3605f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.menuForget": {
+    "text": "Fjern fra favoritter",
+    "source": "a5bdecedf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.menuKeep": {
+    "text": "Gem som favorit",
+    "source": "4d86d7850b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.recent": {
+    "text": "Seneste",
+    "source": "690dbe9dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourMemory.use": {
+    "text": "Brug {colour}",
+    "source": "51a995154f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.colour": {
+    "text": "{colour, select, warm-white {Varm hvid} greige {Greige} blush {Rosa} sand {Sand} sage {Salviegrøn} mist {Disblå} lavender {Lavendel} slate {Skifer} clay {Ler} oak {Eg} walnut {Valnød} terracotta {Terrakotta} mustard {Sennep} teal {Petrol} denim {Denimblå} navy {Marineblå} red {Rød} orange {Orange} yellow {Gul} green {Grøn} cyan {Cyan} blue {Blå} purple {Lilla} pink {Pink} other {Farve}}",
+    "source": "5e80aaf890",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.colours": {
+    "text": "Farver",
+    "source": "88f20221ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.mixed": {
+    "text": "Flere farver",
+    "source": "7b19989ad9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.open": {
+    "text": "{label}: {colour}. Skift farven",
+    "source": "6d754c70b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.other": {
+    "text": "Anden farve",
+    "source": "c6b6166954",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.theme": {
+    "text": "Temafarve",
+    "source": "41988af879",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.colourPicker.themeColours": {
+    "text": "Fra temaet",
+    "source": "b999cd6c62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.confirm.cancel": {
+    "text": "Annuller",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomBusy": {
+    "text": "Athom beder os sætte tempoet ned; prøv igen om et minut.",
+    "source": "e773897c58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.athomLoginExpired": {
+    "text": "Dit Athom-login er udløbet. Log ind igen for at fortsætte.",
+    "source": "d65e729bde",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.homeyUnreachable": {
+    "text": "Din Homey kan ikke nås lige nu.",
+    "source": "c3d1befd35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.errors.offline": {
+    "text": "{what} Tjek din forbindelse, og prøv igen.",
+    "source": "643a906c0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.learnMore.label": {
+    "text": "Læs mere",
+    "source": "1445799c03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.learnMore.newTab": {
+    "text": "(åbner i en ny fane)",
+    "source": "1d18335651",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitCalendars": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# kalender} other {# kalendere}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "2376175d64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitDashboards": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# dashboard} other {# dashboards}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "e34411f789",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitFloorPlans": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# plantegning} other {# plantegninger}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "d64f2ef750",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitHomeys": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# Homey} other {# Homeys}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "cd6f5401f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitOther": {
+    "text": "Du har nået en grænse i {plan, select, free {dit Free-abonnement} pro {dit Pro-abonnement} other {dit nuværende abonnement}}.{upgrade, select, yes { Opgrader til Pro for at få mere.} other {}}",
+    "source": "b84c0bde79",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitScreens": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# tilknyttet skærm} other {# tilknyttede skærme}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "af80eb35e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitSeries": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# registreret funktion} other {# registrerede funktioner}}.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "23e2d586cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.limitShareLinks": {
+    "text": "{plan, select, free {Dit Free-abonnement} pro {Dit Pro-abonnement} other {Dit nuværende abonnement}} inkluderer {limit, plural, one {# delingslink} other {# delingslinks}} ad gangen.{upgrade, select, yes { Opgrader til Pro for at få flere.} other {}}",
+    "source": "ca2edadc37",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.plan.notIncluded": {
+    "text": "Dette er ikke inkluderet i {plan, select, free {dit Free-abonnement} pro {dit Pro-abonnement} other {dit nuværende abonnement}}.{upgrade, select, yes { Opgrader til Pro for at få mere.} other {}}",
+    "source": "71a39a17d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.board": {
+    "text": "Eksempler på widgets",
+    "source": "813e33fc8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyGrid": {
+    "text": "Elnet",
+    "source": "0d7d12ac62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyMeter": {
+    "text": "P1-måler",
+    "source": "a114a2bb21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyShare": {
+    "text": "{share} fra solceller",
+    "source": "8ac6596f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energySolar": {
+    "text": "Solceller",
+    "source": "31ce6e7917",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyTitle": {
+    "text": "Husets strøm",
+    "source": "c884bfc089",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.energyUsing": {
+    "text": "Forbrug nu",
+    "source": "c5d6413c0a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowDone": {
+    "text": "Færdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowName": {
+    "text": "Godnat",
+    "source": "e107f49b0e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowRunning": {
+    "text": "Kører…",
+    "source": "46c541363b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowSummary": {
+    "text": "Lys slukket · døre låst · 17°",
+    "source": "38f0b8cb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.flowZone": {
+    "text": "Aften",
+    "source": "458c1fed57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightBrightness": {
+    "text": "Lysstyrke",
+    "source": "ec811d30a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightName": {
+    "text": "Sofalampe",
+    "source": "3025650cd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOff": {
+    "text": "Fra",
+    "source": "ca7981b46e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightOn": {
+    "text": "Til",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightTap": {
+    "text": "Tryk for at tænde",
+    "source": "3979ab3057",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.lightWarm": {
+    "text": "{brightness}% · varm hvid",
+    "source": "2fae0e50e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.livingRoom": {
+    "text": "Stue",
+    "source": "268d40ee19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorHumidity": {
+    "text": "% RF",
+    "source": "485e73a1eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorRoom": {
+    "text": "Børneværelse",
+    "source": "6cf4693953",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorTitle": {
+    "text": "Indeklima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedAgo": {
+    "text": "Opdateret for {seconds, number} s siden",
+    "source": "ad0415dfbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.sensorUpdatedNow": {
+    "text": "Opdateret lige nu",
+    "source": "c5cb2e5302",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHeating": {
+    "text": "Varmer op til {target}°",
+    "source": "eba58d68c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatHolding": {
+    "text": "Holder {target}°",
+    "source": "1a1728537c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatLower": {
+    "text": "Sænk måltemperatur",
+    "source": "38e9cbf808",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatRaise": {
+    "text": "Hæv måltemperatur",
+    "source": "09a104784b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.preview.thermostatTitle": {
+    "text": "Termostat",
+    "source": "dd1eeb3ccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoDescription": {
+    "text": "Lyst om dagen og mørkt om natten, som enheden er indstillet.",
+    "source": "9e78a53162",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.autoName": {
+    "text": "{name} · Automatisk",
+    "source": "c202e1809d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.theme.mine": {
+    "text": "Et af dine egne temaer.",
+    "source": "49e6bfb127",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.indoor": {
+    "text": "Inde",
+    "source": "a9cb38b7dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.on": {
+    "text": "Til",
+    "source": "1300117561",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.themeThumb.room": {
+    "text": "Stue",
+    "source": "4876f89796",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.choose": {
+    "text": "Vælg…",
+    "source": "7ca41615c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.close": {
+    "text": "Luk",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.dismiss": {
+    "text": "Afvis",
+    "source": "48845bff33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.nothingMatches": {
+    "text": "Intet passer",
+    "source": "965b516df3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.pairingCode": {
+    "text": "Tilknytningskode",
+    "source": "1c5ea2f7ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabel": {
+    "text": "Søg efter {label}",
+    "source": "70f005ced0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchLabelPlain": {
+    "text": "Søg",
+    "source": "49c266baaa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.searchPlaceholder": {
+    "text": "Søg…",
+    "source": "7336265a04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.stepOf": {
+    "text": "Trin {step} af {total}",
+    "source": "0560ca6c73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabMore": {
+    "text": "Mere",
+    "source": "d47d7cb0e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabMoreLabel": {
+    "text": "Flere faner",
+    "source": "dfb19cd657",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNeedsChoice": {
+    "text": "Noget at vælge",
+    "source": "bfab0fde18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabNew": {
+    "text": ", noget nyt",
+    "source": "6972ca611a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "common.ui.tabToChoose": {
+    "text": ", noget at vælge",
+    "source": "9e5cc728e1",
+    "by": "ai",
+    "reviewed": false
+  }
+}

@@ -1546,6 +1546,18 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
+  "floorplans.furniture.goesNowhere": {
+    "en": "No level yet",
+    "context": "Choice for stairs that reach no level of the floor plan yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.goesUpTo": {
+    "en": "Goes up to",
+    "context": "Label of the level that stairs, a ladder or a lift reach, in a floor plan.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
   "floorplans.furniture.group": {
     "en": "{group, select, living {Living room} dining {Dining} kitchen {Kitchen} bedroom {Bedroom} bathroom {Bathroom and laundry} office {Office} hallway {Hallway} outside {Outside and garage} other {Anything else}}",
     "context": "Heading of a group of the furniture catalogue: the room the furniture is for. \"Anything else\" holds a plain box and cylinder the person names themselves.",
@@ -1580,10 +1592,10 @@
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.item": {
-    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV} tv-lowboard {Lowboard} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} table {Table} picture {Picture} solid {Your own shape} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} fridge-american {American fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} kk-couch {Couch} kk-armchair {Armchair} kk-coffee-table {Coffee table} kk-side-table {Side table} kk-cabinet {Cabinet} kk-cabinet-small {Small cabinet} kk-bookcase {Wall bookcase} kk-shelf {Wall shelf, deep} kk-shelf-small {Small wall bookcase} kk-wall-shelf {Floating shelf} kk-wall-shelf-small {Small floating shelf} kk-picture {Picture} kk-rug-oval {Oval rug} kk-rug-stripes {Striped rug} kk-cactus {Cactus} kk-lamp-floor {Floor lamp} kk-lamp-table {Table lamp} kk-table {Square table} kk-table-long {Dining table} kk-chair {Chair} kk-chair-wood {Wooden chair} kk-stool {Stool} kk-bed-double {Double bed} kk-bed-single {Single bed} q-sofa {Sofa} q-sofa-long {Corner sofa} q-armchair {Armchair} q-coffee-table {Coffee table} q-bookcase {Bookcase} q-bookcase-empty {Empty bookcase} q-bookcase-wide {Wide bookcase} q-wardrobe {Wardrobe} q-dresser {Dresser} q-table {Dining table} q-chair {Chair} q-chair-cushioned {Cushioned chair} q-chair-arms {Armchair, wooden} q-stool {Stool} q-bed {Single bed} q-bed-king {King-size bed} q-lamp {Floor lamp} q-plant {Plant} q-vase {Vase} base-drawers {Drawer cabinet} corner-cabinet {Corner cabinet} corner-cabinet-round {Rounded corner cabinet} tall-cabinet {Tall cabinet} fridge-builtin {Built-in fridge} fridge-small {Under-counter fridge} hob-electric {Electric hob} wall-cabinet-double {Double wall cabinet} wall-cabinet-low {Low wall cabinet} wall-cabinet-corner {Corner wall shelf} hood {Cooker hood} hood-large {Large cooker hood} microwave {Microwave} coffee-maker {Coffee maker} toaster {Toaster} blender {Blender} kettle {Kettle} tap {Tap} bin {Bin} washer-dryer {Washer-dryer} washbasin-square {Square washbasin} toilet-square {Square toilet} shower-round {Round shower} bathroom-cabinet {Bathroom cabinet} bathroom-mirror {Mirror} other {Furniture}}",
+    "en": "{item, select, sofa-2 {Sofa, 2 seats} sofa-3 {Sofa, 3 seats} corner-sofa {Corner sofa} armchair {Armchair} coffee-table {Coffee table} side-table {Side table} tv-cabinet {TV cabinet} tv {TV} tv-lowboard {Lowboard} bookcase {Bookcase} floor-lamp {Floor lamp} rug {Rug} plant {Plant} dining-table-4 {Dining table for 4} dining-table-6 {Dining table for 6} round-table {Round table} table {Table} picture {Picture} solid {Your own shape} chair {Chair} sideboard {Sideboard} counter {Kitchen counter} sink-unit {Sink} hob-unit {Hob} fridge {Fridge} fridge-american {American fridge} dishwasher {Dishwasher} oven {Oven} island {Kitchen island} bar-stool {Bar stool} double-bed {Double bed} single-bed {Single bed} bedside-table {Bedside table} wardrobe {Wardrobe} dresser {Chest of drawers} cot {Cot} bath {Bath} shower {Shower} toilet {Toilet} washbasin {Washbasin} washing-machine {Washing machine} dryer {Dryer} radiator {Radiator} desk {Desk} office-chair {Office chair} shelf {Wall shelf} coat-rack {Coat rack} shoe-cabinet {Shoe cabinet} wall-cabinet {Wall cabinet} garden-table {Garden table} sun-lounger {Sun lounger} barbecue {Barbecue} car {Car} box {Box} cylinder {Cylinder} kk-couch {Couch} kk-armchair {Armchair} kk-coffee-table {Coffee table} kk-side-table {Side table} kk-cabinet {Cabinet} kk-cabinet-small {Small cabinet} kk-bookcase {Wall bookcase} kk-shelf {Wall shelf, deep} kk-shelf-small {Small wall bookcase} kk-wall-shelf {Floating shelf} kk-wall-shelf-small {Small floating shelf} kk-picture {Picture} kk-rug-oval {Oval rug} kk-rug-stripes {Striped rug} kk-cactus {Cactus} kk-lamp-floor {Floor lamp} kk-lamp-table {Table lamp} kk-table {Square table} kk-table-long {Dining table} kk-chair {Chair} kk-chair-wood {Wooden chair} kk-stool {Stool} kk-bed-double {Double bed} kk-bed-single {Single bed} q-sofa {Sofa} q-sofa-long {Corner sofa} q-armchair {Armchair} q-coffee-table {Coffee table} q-bookcase {Bookcase} q-bookcase-empty {Empty bookcase} q-bookcase-wide {Wide bookcase} q-wardrobe {Wardrobe} q-dresser {Dresser} q-table {Dining table} q-chair {Chair} q-chair-cushioned {Cushioned chair} q-chair-arms {Armchair, wooden} q-stool {Stool} q-bed {Single bed} q-bed-king {King-size bed} q-lamp {Floor lamp} q-plant {Plant} q-vase {Vase} base-drawers {Drawer cabinet} corner-cabinet {Corner cabinet} corner-cabinet-round {Rounded corner cabinet} tall-cabinet {Tall cabinet} fridge-builtin {Built-in fridge} fridge-small {Under-counter fridge} hob-electric {Electric hob} wall-cabinet-double {Double wall cabinet} wall-cabinet-low {Low wall cabinet} wall-cabinet-corner {Corner wall shelf} hood {Cooker hood} hood-large {Large cooker hood} microwave {Microwave} coffee-maker {Coffee maker} toaster {Toaster} blender {Blender} kettle {Kettle} tap {Tap} bin {Bin} washer-dryer {Washer-dryer} washbasin-square {Square washbasin} toilet-square {Square toilet} shower-round {Round shower} bathroom-cabinet {Bathroom cabinet} bathroom-mirror {Mirror} stairs-straight {Straight stairs} stairs-l {L-shaped stairs} stairs-u {U-shaped stairs} stairs-spiral {Spiral staircase} ladder {Loft ladder} lift {Lift} other {Furniture}}",
     "context": "The name of a piece of furniture in the catalogue and on its panel. A hob is the cooking top with its burners; a lowboard is a long, low TV cabinet with flat doors, often hung on the wall; a tap is a kitchen faucet; a bin is a kitchen waste bin; a cot is a baby’s bed with bars.",
     "params": {
-      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, tv-lowboard, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, table, picture, chair, sideboard, counter, sink-unit, hob-unit, fridge, fridge-american, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder, solid, base-drawers, corner-cabinet, corner-cabinet-round, tall-cabinet, fridge-builtin, fridge-small, hob-electric, wall-cabinet-double, wall-cabinet-low, wall-cabinet-corner, hood, hood-large, microwave, coffee-maker, toaster, blender, kettle, tap, bin, washer-dryer, washbasin-square, toilet-square, shower-round, bathroom-cabinet, bathroom-mirror, kk-couch, kk-armchair, kk-coffee-table, kk-side-table, kk-cabinet, kk-cabinet-small, kk-bookcase, kk-shelf, kk-shelf-small, kk-wall-shelf, kk-wall-shelf-small, kk-picture, kk-rug-oval, kk-rug-stripes, kk-cactus, kk-lamp-floor, kk-lamp-table, kk-table, kk-table-long, kk-chair, kk-chair-wood, kk-stool, kk-bed-double, kk-bed-single, q-sofa, q-sofa-long, q-armchair, q-coffee-table, q-bookcase, q-bookcase-empty, q-bookcase-wide, q-wardrobe, q-dresser, q-table, q-chair, q-chair-cushioned, q-chair-arms, q-stool, q-bed, q-bed-king, q-lamp, q-plant, q-vase."
+      "item": "sofa-2, sofa-3, corner-sofa, armchair, coffee-table, side-table, tv-cabinet, tv, tv-lowboard, bookcase, floor-lamp, rug, plant, dining-table-4, dining-table-6, round-table, table, picture, chair, sideboard, counter, sink-unit, hob-unit, fridge, fridge-american, dishwasher, oven, island, bar-stool, double-bed, single-bed, bedside-table, wardrobe, dresser, cot, bath, shower, toilet, washbasin, washing-machine, dryer, radiator, desk, office-chair, shelf, coat-rack, shoe-cabinet, wall-cabinet, garden-table, sun-lounger, barbecue, car, box, cylinder, solid, base-drawers, corner-cabinet, corner-cabinet-round, tall-cabinet, fridge-builtin, fridge-small, hob-electric, wall-cabinet-double, wall-cabinet-low, wall-cabinet-corner, hood, hood-large, microwave, coffee-maker, toaster, blender, kettle, tap, bin, washer-dryer, washbasin-square, toilet-square, shower-round, bathroom-cabinet, bathroom-mirror, stairs-straight, stairs-l, stairs-u, stairs-spiral, ladder, lift, kk-couch, kk-armchair, kk-coffee-table, kk-side-table, kk-cabinet, kk-cabinet-small, kk-bookcase, kk-shelf, kk-shelf-small, kk-wall-shelf, kk-wall-shelf-small, kk-picture, kk-rug-oval, kk-rug-stripes, kk-cactus, kk-lamp-floor, kk-lamp-table, kk-table, kk-table-long, kk-chair, kk-chair-wood, kk-stool, kk-bed-double, kk-bed-single, q-sofa, q-sofa-long, q-armchair, q-coffee-table, q-bookcase, q-bookcase-empty, q-bookcase-wide, q-wardrobe, q-dresser, q-table, q-chair, q-chair-cushioned, q-chair-arms, q-stool, q-bed, q-bed-king, q-lamp, q-plant, q-vase."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
@@ -1818,6 +1830,34 @@
       "width": "Its width, such as “1.20 m”."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.stairsSteps": {
+    "en": "{steps} steps of about {rise} cm",
+    "context": "Under stairs in a floor plan: how many steps they have and how high each is, worked out from the climb.",
+    "params": {
+      "rise": "A number of centimetres.",
+      "steps": "A number."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.stairsTurn": {
+    "en": "{turn, select, left {Left} other {Right}}",
+    "context": "Which way stairs turn or wind walking up: to the left or to the right.",
+    "params": {
+      "turn": "left or right."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
+  },
+  "floorplans.furniture.stairsTurnLabel": {
+    "en": "{kind, select, stairs-spiral {Winds} other {Turns}}",
+    "context": "Label of which way L- or U-shaped stairs turn, or a spiral staircase winds, walking up.",
+    "params": {
+      "kind": "stairs-l, stairs-u or stairs-spiral."
+    },
+    "maxLength": 16,
     "file": "packages/ui/src/screens/floorplan/furniture.messages.ts"
   },
   "floorplans.furniture.tableTop": {
@@ -2357,10 +2397,10 @@
     "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"
   },
   "floorplans.modelProducts.type": {
-    "en": "{type, select, seating {Sofas and armchairs} tables {Tables} chairs {Chairs and stools} beds {Beds} storage {Cabinets and shelves} kitchen-units {Kitchen units} appliances {Appliances} climate {Heating and cooling} baths-showers {Baths and showers} toilets-basins {Toilets and basins} audio-video {Audio and video} lighting {Lighting} decor {Plants and decor} vehicles {Vehicles} other {Anything else}}",
+    "en": "{type, select, seating {Sofas and armchairs} tables {Tables} chairs {Chairs and stools} beds {Beds} storage {Cabinets and shelves} kitchen-units {Kitchen units} appliances {Appliances} climate {Heating and cooling} baths-showers {Baths and showers} toilets-basins {Toilets and basins} audio-video {Audio and video} lighting {Lighting} decor {Plants and decor} vehicles {Vehicles} stairs {Stairs and lifts} other {Anything else}}",
     "context": "Name of an item type: what a piece of furniture or a model is, whichever room it stands in. Used as a heading in the furniture catalogue and as a filter on the community’s models page. \"Anything else\" holds pieces that fit no type.",
     "params": {
-      "type": "seating, tables, chairs, beds, storage, kitchen-units, appliances, climate, baths-showers, toilets-basins, audio-video, lighting, decor, vehicles or other."
+      "type": "seating, tables, chairs, beds, storage, kitchen-units, appliances, climate, baths-showers, toilets-basins, audio-video, lighting, decor, vehicles, stairs or other."
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/floorplan/models/modelProducts.messages.ts"

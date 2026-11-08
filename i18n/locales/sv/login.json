@@ -1,0 +1,1304 @@
+{
+  "login.accessRequest.approvedBody": {
+    "text": "{name} gav dig tillgång till <b>{homey}</b>. Du ser de rum och enheter som {name} valt åt dig.",
+    "source": "59c1e55b9e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.approvedTitle": {
+    "text": "Du är inne!",
+    "source": "9ab8731dfb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.askAgain": {
+    "text": "Fråga igen",
+    "source": "0d9ad5efe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.cancel": {
+    "text": "Dra tillbaka förfrågan",
+    "source": "8bd07d7685",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedBody": {
+    "text": "{name} gav dig inte tillgång till <b>{homey}</b>. Du kan fråga igen från {when}.",
+    "source": "db56288453",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.deniedTitle": {
+    "text": "Inte den här gången",
+    "source": "6f3efa36d8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredBody": {
+    "text": "{name} svarade inte inom 14 dagar. Fråga igen, eller be {name} titta i Inställningar › Personer.",
+    "source": "cd9ab61794",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.expiredTitle": {
+    "text": "Din förfrågan har gått ut",
+    "source": "656ad98607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.open": {
+    "text": "Starta",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.otherAccount": {
+    "text": "Använd ett annat konto",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingBody": {
+    "text": "Du bad {name} {when} om tillgång till <b>{homey}</b>. Vi mejlar dig när {name} bestämmer sig, och sidan går vidare av sig själv.",
+    "source": "94850c76a5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingNote": {
+    "text": "Förfrågningar går ut efter 14 dagar.",
+    "source": "3c5e3b5842",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitingTitle": {
+    "text": "Väntar på {name}",
+    "source": "c5f0b2149c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistBody": {
+    "text": "Tiledash är fullt just nu, så du står på väntelistan. {name}s ja sparas: du kan börja med <b>{homey}</b> så snart det finns en plats, och då mejlar vi dig.",
+    "source": "ceb73e1b58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.accessRequest.waitlistTitle": {
+    "text": "{name} sa ja",
+    "source": "9ef5d2b01e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.accountBody": {
+    "text": "Det kan inte användas längre, och dess dashboards och väggpaneler öppnas inte. Om du tror att det är ett misstag, kontakta oss via tiledash.app.",
+    "source": "f6c31abe67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.accountTitle": {
+    "text": "Det här kontot är blockerat.",
+    "source": "d991d307a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.accountTitleNamed": {
+    "text": "{name}, det här kontot är blockerat.",
+    "source": "0d33e4d758",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.addressBody": {
+    "text": "Tiledash kan inte användas från nätverket du är på just nu. Om du tror att det är ett misstag, kontakta oss via tiledash.app.",
+    "source": "fa935a2157",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.addressTitle": {
+    "text": "Den här adressen är blockerad.",
+    "source": "c48d4f7262",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.blocked.yourAddress": {
+    "text": "Din adress: {address}",
+    "source": "2e76b7d998",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminOnlyBody": {
+    "text": "{client} bad om administratörsåtkomst till Tiledash. Ditt konto är inte administratör, så inget delades. Om du inte väntade dig det här kan du stänga fliken.",
+    "source": "6df862a10a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminOnlyTitle": {
+    "text": "Bara Tiledashs administratörer kan tillåta det här.",
+    "source": "d6b2be7197",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminTitle": {
+    "text": "Ge {client} administratörsåtkomst?",
+    "source": "6e093ee6b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.adminWarning": {
+    "text": "Den ser vad administratörssidorna visar om <strong>alla användare</strong>: deras Homeys, konton och fel. Varje fråga den ställer hamnar i granskningsloggen under ditt och appens namn. Åtkomsten upphör efter <strong>7 dagar</strong>, eller direkt när du slutar vara administratör.",
+    "source": "11ada2e365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.allowAdmin": {
+    "text": "Tillåt administratörsåtkomst",
+    "source": "76889b6481",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.backTo": {
+    "text": "Tillbaka till {client}",
+    "source": "399ad90018",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.connectedTitle": {
+    "text": "{client} är ansluten.",
+    "source": "b3c17ed0c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.disconnect": {
+    "text": "Koppla från när som helst under <link>Inställningar → AI-assistenter</link>.",
+    "source": "5c73c59679",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredBody": {
+    "text": "Anslutningen måste slutföras inom tio minuter. Gå tillbaka till din AI-app och anslut Tiledash igen.",
+    "source": "bc101a3a65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.expiredTitle": {
+    "text": "Förfrågan har gått ut.",
+    "source": "1c419d0b45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freeNote": {
+    "text": "Att bygga med en AI-app kräver Pro. Du kan ansluta nu; verktygen börjar fungera när du har Pro.",
+    "source": "f427929147",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginBody": {
+    "text": "<strong>{client}</strong> ber om administratörsåtkomst. Det kräver en inloggning med Homey inom de senaste 15 minuterna; du kommer direkt tillbaka hit för att bestämma.",
+    "source": "3866ee374a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.freshLoginTitle": {
+    "text": "Bekräfta att det är du",
+    "source": "da81bd0f19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introAdmin": {
+    "text": "<strong>{client}</strong> vill läsa Tiledashs produktionsdiagnostik som du.",
+    "source": "7362f45fb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introNote": {
+    "text": "Den har namngett sig själv; Tiledash kan inte kontrollera det. Om du tillåter skickas du tillbaka till <strong>{host}</strong>.",
+    "source": "dccd3cc6c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introPublish": {
+    "text": "<strong>{client}</strong> vill publicera i Communityn åt dig.",
+    "source": "03caf75c92",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.introWidgets": {
+    "text": "<strong>{client}</strong> vill hjälpa dig bygga dina widgetar och möbler.",
+    "source": "79bba4b12c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.leaving": {
+    "text": "Skickar dig tillbaka till {host}… Du kan stänga fliken om inget händer.",
+    "source": "0e84b9fcd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.logInAgain": {
+    "text": "Logga in med Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.notConnectedTitle": {
+    "text": "Inte ansluten.",
+    "source": "3b3d279616",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.signInIntro": {
+    "text": "För att ansluta en app till Tiledash loggar du först in med ditt Homey-konto.",
+    "source": "4d6d81c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.connectApp.title": {
+    "text": "Ansluta {client} till Tiledash?",
+    "source": "088001eecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow0": {
+    "text": "Se hur kopplingen och varje Homey mår: deras status, när de senast sågs och deras fel",
+    "source": "27f3b8aa5f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow1": {
+    "text": "Slå upp användare efter namn, e-post eller Athom-id och läsa vad deras administratörssida visar",
+    "source": "5a1ba0de05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow2": {
+    "text": "Läsa administratörsöversiktens lista över vad som behöver åtgärdas",
+    "source": "499c3bdc70",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow3": {
+    "text": "Läsa sparade mätvärden från enheter och hur registreringen mår för alla användare, för att undersöka datainsamlingen",
+    "source": "ef82142da9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAllow4": {
+    "text": "Läsa funktioner live och köra korta bevakningar, bara på dina egna Homeys",
+    "source": "38f8e5583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny0": {
+    "text": "Ändra något: abonnemang, konton, Homeys eller inställningar",
+    "source": "486a86b19f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny1": {
+    "text": "Läsa livedata från en annan användares Homey, dashboards eller betalningsuppgifter",
+    "source": "dfa2f37bac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny2": {
+    "text": "Se lösenord, token eller Homey-inloggningar",
+    "source": "5b0fa39112",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminDeny3": {
+    "text": "Fortsätta arbeta när du inte längre är administratör",
+    "source": "132eec5a7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.homeyAppAllow0": {
+    "text": "Få veta när en ruta som säger till Homey trycks, med dashboard och skärm",
+    "source": "81eb9a4906",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.homeyAppAllow1": {
+    "text": "Ändra de rutorna från Flows: på och av, en text eller ett tal, en färg, en ikon, dold",
+    "source": "fe8843c19e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.homeyAppAllow2": {
+    "text": "Se namnen på den här Homeyns Homey-rutor",
+    "source": "c3d872d488",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.homeyAppDeny0": {
+    "text": "Se dina dashboards, enheter, din historik eller ditt konto",
+    "source": "38eccfe4ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.homeyAppDeny1": {
+    "text": "Nå någon annan Homey",
+    "source": "37dcc3f5b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow0": {
+    "text": "Publicera nya objekt och nya versioner under ditt Community-namn",
+    "source": "218a64c120",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishAllow1": {
+    "text": "Se vad du har publicerat och dess versioner",
+    "source": "81e05a3983",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny0": {
+    "text": "Ändra dina widgetar, teman eller dashboards",
+    "source": "d585815121",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny1": {
+    "text": "Läsa dina enheter, din historik, fakturering eller ditt konto",
+    "source": "73de084bd4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny2": {
+    "text": "Radera eller dra tillbaka det du har publicerat",
+    "source": "3ca6465bf5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.publishDeny3": {
+    "text": "Se ditt Homey-lösenord eller dina token",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.signedIn": {
+    "text": "Inloggad som {name} · <switch>Inte du?</switch>",
+    "source": "ec579cec10",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow0": {
+    "text": "Läsa och ändra dina egna widgetar och partials, och se deras historik",
+    "source": "ce5a152aad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow1": {
+    "text": "Skapa och ändra testenheter",
+    "source": "9e70dd2145",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow10": {
+    "text": "Ändra dina planritningar i utkast (våningar, väggar, rum, dörrar, möbler och enheter), och tillämpa ett granskat utkast efter att du godkänt i chatten",
+    "source": "fd0523cdff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow2": {
+    "text": "Läsa dina enheter: deras namn, typer, funktioner och aktuella mätvärden",
+    "source": "2c2d5f6c4f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow3": {
+    "text": "Skapa och ändra dina egna teman, och se deras historik",
+    "source": "640ae7114f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow4": {
+    "text": "Skapa och ändra dina egna möbelmodeller för planritningar, och se deras historik",
+    "source": "d02f30f3f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow5": {
+    "text": "Läsa och bygga dina dashboards i utkast, och tillämpa ett granskat utkast efter att du godkänt i chatten",
+    "source": "7855c8fab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow6": {
+    "text": "Bläddra i Communityn och installera en viss version av en widget, ett tema, en partial eller en modell efter att du godkänt i chatten; installationer finns kvar om ett utkast förkastas",
+    "source": "bc3341d36a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow7": {
+    "text": "Läsa dina planritningar och ändra en placerad modells färger och ytor efter att du godkänt förhandsvisningen i chatten",
+    "source": "d32d0c4028",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow8": {
+    "text": "Radera dina egna widgetar, partials, teman, modeller och testenheter, var och en efter att du godkänt i chatten",
+    "source": "91ac7c118a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsAllow9": {
+    "text": "Se dina bilder och Tiledashs, och lägga till bilder i ditt bibliotek, för att välja dem till bakgrundsbilder och rutor",
+    "source": "a32dbc3266",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny0": {
+    "text": "Styra dina enheter eller starta Flows (bara du kan släppa igenom en förhandsvisnings tryck, i en timme)",
+    "source": "fe35625779",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny1": {
+    "text": "Läsa historik utanför förhandsvisningar av dashboards, eller fakturerings- och kontouppgifter",
+    "source": "78b491ca67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny2": {
+    "text": "Se ditt Homey-lösenord eller dina token",
+    "source": "6722893c26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.widgetsDeny3": {
+    "text": "Komma åt någon annans widgetar eller modeller",
+    "source": "970c1530b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.willBeAble": {
+    "text": "Den kommer att kunna",
+    "source": "5b8d75f668",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.wontBeAble": {
+    "text": "Den kommer inte att kunna",
+    "source": "806c8830c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.body": {
+    "text": "Du bad om att få det raderat, så det är låst: dina dashboards, väggpaneler och din historik finns kvar, men inget körs. Behåll det så kommer allt tillbaka som det var.",
+    "source": "23236bbaf0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.bodyPro": {
+    "text": "Du bad om att få det raderat, så det är låst: dina dashboards, väggpaneler och din historik finns kvar, men inget körs. Behåll det så kommer allt tillbaka som det var, med Free: ditt Pro-abonnemang avslutades när du bad om det.",
+    "source": "5220695bc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.fine": {
+    "text": "Om du loggar ut raderas det ändå den {date}.",
+    "source": "3dfb2449b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.keep": {
+    "text": "Behåll mitt konto",
+    "source": "d62ce03448",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.title": {
+    "text": "Ditt konto raderas den {date}.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deletion.titleNamed": {
+    "text": "{name}, ditt konto raderas den {date}.",
+    "source": "c399ecb125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codeLabel": {
+    "text": "Koden",
+    "source": "73887dbb42",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.codePlaceholder": {
+    "text": "WDJB-MJHT",
+    "source": "4670091e02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntro": {
+    "text": "<strong>{client}</strong> ber om att få publicera åt dig. Kontrollera att terminalen visar <shown>{code}</shown>. Om du inte körde <cmd>tiledash auth login</cmd> nyss, avbryt.",
+    "source": "a428d11106",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmIntroHost": {
+    "text": "<strong>{client}</strong> ber om att få publicera åt dig. Kontrollera att terminalen visar <shown>{code}</shown> på {host}. Om du inte körde <cmd>tiledash auth login</cmd> nyss, avbryt.",
+    "source": "d86163f82d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.confirmTitle": {
+    "text": "Logga in kommandoraden?",
+    "source": "0b685da9e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.defaultClient": {
+    "text": "Tiledashs kommandorad",
+    "source": "eb7889b937",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedBody": {
+    "text": "Inget tilläts. Du kan stänga fliken.",
+    "source": "5a218f8242",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.deniedTitle": {
+    "text": "Inte inloggad.",
+    "source": "a3905eb93e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneBody": {
+    "text": "Gå tillbaka till terminalen: den fortsätter av sig själv. Du kan stänga fliken.",
+    "source": "7850c91548",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.doneTitle": {
+    "text": "Kommandoraden är inloggad.",
+    "source": "51e763b875",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterBody": {
+    "text": "Skriv koden som terminalen visar efter <cmd>tiledash auth login</cmd>.",
+    "source": "33e7aa2d8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.enterTitle": {
+    "text": "Logga in kommandoraden",
+    "source": "f1bbffe9e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredBody": {
+    "text": "En kod fungerar en gång, i tio minuter. Kör <cmd>tiledash auth login</cmd> igen för att få en ny.",
+    "source": "2a8733c652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.expiredTitle": {
+    "text": "Koden har gått ut.",
+    "source": "60d8d61451",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.homeyAppDoneBody": {
+    "text": "Tiledash-appen på din Homey är ansluten. Ställ in en rutas tryck på Säg till Homey för att använda den i Flows.",
+    "source": "01fc92e634",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.homeyAppIntro": {
+    "text": "<strong>Tiledash-appen på {homey}</strong> ber om att få ansluta. Kontrollera att dess inställningar visar <shown>{code}</shown>.",
+    "source": "b37ef264cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.homeyAppNotYours": {
+    "text": "Koden gäller en Homey som du inte använder i Tiledash. Logga in med kontot som har den.",
+    "source": "708de6f583",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.homeyAppNote": {
+    "text": "Ange bara en kod som Tiledash-appen på din egen Homey visar. Du kan koppla från den i Inställningar › Homey-app.",
+    "source": "dc1558102a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.noHandle": {
+    "text": "Du har inget Community-namn än: första gången du publicerar får du välja ett här.",
+    "source": "1128f4328e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.publishesAs": {
+    "text": "Den publicerar som <strong>@{handle}</strong>",
+    "source": "18719a7ff4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signInIntro": {
+    "text": "För att logga in kommandoraden loggar du först in i Tiledash med ditt Homey-konto.",
+    "source": "9b3b6826fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.deviceSignIn.signOut": {
+    "text": "Logga ut den när som helst under <link>Inställningar → AI-assistenter</link>, eller med <cmd>tiledash auth logout</cmd>.",
+    "source": "7b9f3357b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhat": {
+    "text": "Dess namn och modell, och en kopia av dess rum, enheter, Flows och stämningar: deras namn, vad varje enhet kan göra och dess värden i det ögonblicket. Kopian uppdateras när du lägger till, ändrar eller tar bort enheter; en borttagen enhet raderas 30 dagar senare, om inte en ruta eller en registrering fortfarande använder den.",
+    "source": "f77f4c7dcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.connectWhen": {
+    "text": "När du ansluter en Homey",
+    "source": "bbe4d8f88d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.dailyFor": {
+    "text": "dagsvärden i {period}",
+    "source": "bb7e4a02f5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhat": {
+    "text": "Bara de värden du väljer att registrera, och de mätvärden från energimätare som energiwidgetarna behöver, som startar av sig själva första gången en visas. Free sparar {free}; Pro sparar {pro}. Värden du inte registrerar går direkt från din Homey till din webbläsare.",
+    "source": "a90713b9c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.historyWhen": {
+    "text": "När du registrerar historik",
+    "source": "fa4b765c0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.hourlyFor": {
+    "text": "timvärden i {period}",
+    "source": "5e20531e5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhat": {
+    "text": "Ditt namn, din e-postadress och profilbild från ditt Athom-konto, och den krypterade token som låter Tiledash nå din Homey. För varje webbläsare du loggar in i: när, dess IP-adress och vilken webbläsare det är, tills du loggar ut där eller 30 dagar efter att du senast använde den.",
+    "source": "f505387ff3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.loginWhen": {
+    "text": "När du loggar in",
+    "source": "a4d4c5d5c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodDays": {
+    "text": "{days, plural, one {en dag} other {# dagar}}",
+    "source": "72f7274d5b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.periodYears": {
+    "text": "{years, plural, one {ett år} other {# år}}",
+    "source": "ae86386367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhat": {
+    "text": "Dina betalningsuppgifter stannar hos PayPal. Tiledash sparar ditt abonnemang: dess plan, dess status och PayPals referens för det.",
+    "source": "4d131ba155",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.proWhen": {
+    "text": "Om du tar Pro",
+    "source": "22d266ed7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.readingsFor": {
+    "text": "mätvärden i {period}",
+    "source": "1ba2748cc4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhat": {
+    "text": "Dina dashboards, teman, widgetar, väggpaneler och inställningar, och de bilder och typsnitt du laddar upp.",
+    "source": "2fdd76f887",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.kept.useWhen": {
+    "text": "Medan du använder Tiledash",
+    "source": "49c07ef35c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailed": {
+    "text": "Det gick inte att skicka ditt svar.",
+    "source": "789c20a295",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerFailedHint": {
+    "text": "Inget har bestämts. Försök igen.",
+    "source": "132653ff4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.answerTerminalFailed": {
+    "text": "Tiledash kunde inte svara terminalen. Försök igen om en stund.",
+    "source": "fe29cb848c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailed": {
+    "text": "Det gick inte att kontrollera förfrågan.",
+    "source": "7b2a487c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.checkFailedHint": {
+    "text": "Gå tillbaka till din AI-app och anslut igen.",
+    "source": "20753f3a9b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeCheckFailed": {
+    "text": "Tiledash kunde inte kontrollera koden. Försök igen om en stund.",
+    "source": "b44a0601f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeShape": {
+    "text": "En kod är åtta bokstäver, som WDJB-MJHT.",
+    "source": "6ee53ddb71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeTooMany": {
+    "text": "Det var många försök. Vänta några minuter och försök sedan igen.",
+    "source": "f6351315bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.codeUnknown": {
+    "text": "Koden är okänd. Jämför den med terminalen, eller kör tiledash auth login igen.",
+    "source": "1c486b75b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.logoutFailed": {
+    "text": "Det gick inte att logga ut dig.",
+    "source": "ab90ad7f86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitle": {
+    "text": "Anslut en app · Tiledash",
+    "source": "a10ab94925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.oauth.tabTitleClient": {
+    "text": "Anslut {client} · Tiledash",
+    "source": "72b75665e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.askAgainLater": {
+    "text": "Du kan fråga igen från {date}.",
+    "source": "43c93055ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.askFailedTitle": {
+    "text": "Det gick inte att skicka din förfrågan",
+    "source": "11d2657167",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.cancelFailed": {
+    "text": "Det gick inte att dra tillbaka din förfrågan. Försök igen.",
+    "source": "6322d9e29c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedBody": {
+    "text": "Försök igen om en stund.",
+    "source": "7ba353b04a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.connectFailedTitle": {
+    "text": "Det gick inte att ansluta din Homey",
+    "source": "71841add1c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedBody": {
+    "text": "Inget ändrades. Försök igen om en stund.",
+    "source": "7c207e20a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.keepFailedTitle": {
+    "text": "Det gick inte att behålla ditt konto",
+    "source": "ed29d87568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.loadHomeysFailed": {
+    "text": "Vi kunde inte läsa in dina Homeys.",
+    "source": "5c56cc92b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.pages.planNoMoreHomeys": {
+    "text": "Ditt abonnemang tillåter inte fler Homeys",
+    "source": "cc997f9995",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.askAgain": {
+    "text": "Athom frågar igen varje gång du loggar in.",
+    "source": "652ad3d396",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.continue": {
+    "text": "Fortsätt till Homey",
+    "source": "916a7a7ec9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlTitle": {
+    "text": "Styra dina enheter",
+    "source": "38c20d143f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.controlWhy": {
+    "text": "Så att ett tryck på en ruta tänder en lampa, ställer in termostaten eller drar ner persiennerna.",
+    "source": "a091cc3eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesTitle": {
+    "text": "Läsa dina favoriter",
+    "source": "95648de8e8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.favouritesWhy": {
+    "text": "För att starta din första dashboard med de enheter och Flows du stjärnmärkt i Homey-appen.",
+    "source": "4544a2bfe4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsTitle": {
+    "text": "Se och starta dina Flows",
+    "source": "71e0f2b878",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.flowsWhy": {
+    "text": "För rutor som startar ett Flow med ett tryck. Tiledash kan inte ändra dina Flows.",
+    "source": "02e8d60148",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsTitle": {
+    "text": "Läsa Insights och energi",
+    "source": "6d5e913512",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.insightsWhy": {
+    "text": "För diagram över ett värde över tid, och widgetarna för energi och pris.",
+    "source": "8dbaeb6d38",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.intro": {
+    "text": "Sedan frågar Athom om Tiledash får använda din Homey. Här är vad den kommer att be om och varför, och vad Tiledash sparar.",
+    "source": "18f052b389",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.keptFooter": {
+    "text": "Under Inställningar › Profil kan du ladda ner allt, eller radera ditt konto: Tiledash tar bort det sju dagar senare.",
+    "source": "a5c8e5545b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationTitle": {
+    "text": "Veta var din Homey finns",
+    "source": "93740a4360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.locationWhy": {
+    "text": "Så att widgeten Väder kan använda din Homeys plats i stället för en plats du söker efter.",
+    "source": "a68f4c36e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicTitle": {
+    "text": "Läsa Logic-variabler",
+    "source": "027db4ecdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.logicWhy": {
+    "text": "Så att en widget kan följa en variabel du har i Homey Logic.",
+    "source": "0741c27961",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsTitle": {
+    "text": "Se och ställa in dina stämningar",
+    "source": "672bd5be3f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.moodsWhy": {
+    "text": "För rutor som ställer in en stämning i ett rum.",
+    "source": "adf52811bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.never": {
+    "text": "Tiledash ser aldrig ditt lösenord. Den kan inte lägga till eller ta bort enheter, redigera dina Flows eller ändra din Homeys inställningar, och du kan ta bort åtkomsten när som helst i ditt Athom-konto.",
+    "source": "41992bb9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalHint": {
+    "text": "Utan dessa fungerar allt annat ändå.",
+    "source": "1a9fa56255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.optionalTitle": {
+    "text": "Valfritt",
+    "source": "59be71333c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleTitle": {
+    "text": "Se vem som bor i ditt hem",
+    "source": "d68b9c71c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.peopleWhy": {
+    "text": "Så att en widget kan visa vem som är hemma, borta eller sover. Aldrig på en delningslänk.",
+    "source": "1609a0ec4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesTitle": {
+    "text": "Se dina rum och enheter",
+    "source": "dcb616c9a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.roomsDevicesWhy": {
+    "text": "För att placera dina enheter på rutor, grupperade efter rum, med värden som ändras live.",
+    "source": "e083cadf81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicTitle": {
+    "text": "Ändra Logic-variabler",
+    "source": "1ac68c6f1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.setLogicWhy": {
+    "text": "Så att ett tryck kan ställa in en variabel du har i Homey Logic, som Gästläge. Homeys behörighet tillåter även att skapa och radera variabler; Tiledash ändrar bara dem som dina rutor anger.",
+    "source": "a9858a7594",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabAsks": {
+    "text": "Vad den ber om",
+    "source": "0956a54574",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.tabKeeps": {
+    "text": "Vad den sparar",
+    "source": "d959459cef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineTitle": {
+    "text": "Se din Homeys Tidslinje",
+    "source": "98e29307cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.timelineWhy": {
+    "text": "Så att en widget kan visa vad som hänt, som dörrklockan eller en färdig tvätt. Bara läsning, aldrig rensning. Aldrig på en delningslänk.",
+    "source": "900be79c62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.permissions.title": {
+    "text": "Innan du går till Homey",
+    "source": "3416ed1a28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.alreadyConnected": {
+    "text": "· redan ansluten",
+    "source": "9384f5b09f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.ask": {
+    "text": "Fråga {name}",
+    "source": "5ae2d6ade8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askBody": {
+    "text": "Be {name} att släppa in dig. {name} bestämmer vilka rum och enheter du kan se och styra; du kan börja när {name} säger ja.",
+    "source": "1d46820360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNoteLabel": {
+    "text": "Ett meddelande till {name} (valfritt)",
+    "source": "c6caa63c6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askNotePlaceholder": {
+    "text": "Hej, det är jag, på mitt eget konto.",
+    "source": "94e3837039",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.askTitle": {
+    "text": "<b>{name}</b> använder redan den här Homeyn i Tiledash.",
+    "source": "877faed365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.connect": {
+    "text": "Anslut",
+    "source": "1a2303ede0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.homeysLabel": {
+    "text": "Dina Homeys",
+    "source": "be22c21740",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.lead": {
+    "text": "Vilken Homey ska vi ansluta? Du kan lägga till fler senare.",
+    "source": "a14c589b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.loginAgain": {
+    "text": "Logga in igen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneBody": {
+    "text": "Ditt Athom-konto delade ingen Homey med oss. Logga in igen och se till att du tillåter åtkomst till din Homey.",
+    "source": "91b284639c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.noneTitle": {
+    "text": "Ingen Homey hittades",
+    "source": "2d29940664",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.otherAccount": {
+    "text": "Använd ett annat konto",
+    "source": "fdce40f797",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepChoose": {
+    "text": "Välj din Homey",
+    "source": "611aeb12ee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepDashboard": {
+    "text": "Första dashboarden",
+    "source": "ebbf85a9f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.stepLogIn": {
+    "text": "Logga in",
+    "source": "c189840cf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.usedBy": {
+    "text": "· används av {name}",
+    "source": "cb9a7bc96a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcome": {
+    "text": "Välkommen.",
+    "source": "3fc2118d35",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.picker.welcomeNamed": {
+    "text": "Välkommen, {name}.",
+    "source": "c4e4983240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionHint": {
+    "text": "Du är utloggad överallt. Logga in före dess för att behålla det.",
+    "source": "5cc62bd911",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.deletionTitle": {
+    "text": "Ditt konto raderas den {date}.",
+    "source": "2956b8d994",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.demoButton": {
+    "text": "Utforska demohuset",
+    "source": "984b601bdc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAccessDenied": {
+    "text": "Du avbröt Homey-inloggningen. Inget delades.",
+    "source": "cb0489a9ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorAthomBusy": {
+    "text": "Homeys inloggningstjänst är upptagen just nu. Försök igen om en minut.",
+    "source": "fdb80654cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorLoginFailed": {
+    "text": "Det gick inte att logga in med Homey. Försök igen om en stund.",
+    "source": "6203c5631c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.errorOther": {
+    "text": "Något gick fel vid inloggningen. Försök igen.",
+    "source": "2df7ccdf65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrint": {
+    "text": "Du loggar in hos Athom, som varje gång frågar vad Tiledash får göra. Vi ser aldrig ditt lösenord, och du kan återkalla åtkomsten när som helst.",
+    "source": "79ceacc756",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.finePrintDemo": {
+    "text": "Demoläge: inget Homey-konto behövs.",
+    "source": "0972ccd0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.headline": {
+    "text": "Ditt hem, <accent>i en blick.</accent>",
+    "source": "f04a276ec0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.lead": {
+    "text": "Snygga, levande dashboards för din Homey. Varje lampa, sensor och mätare, ordnade som du vill, på vilken skärm som helst i huset.",
+    "source": "af9cfebb11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.loginButton": {
+    "text": "Logga in med Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointEverywhere": {
+    "text": "<strong>Överallt.</strong> Dator, surfplatta på väggen, till och med e-bläck.",
+    "source": "a02df0c6b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointLive": {
+    "text": "<strong>Live.</strong> Värdena strömmar direkt från din Homey.",
+    "source": "ab37a73fe9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.pointYours": {
+    "text": "<strong>Ditt.</strong> Varje widget och tema kan få ny stil.",
+    "source": "64c25805aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.screen.whatItAsks": {
+    "text": "Vad ber Tiledash om?",
+    "source": "46850bc0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askBody": {
+    "text": "Be {name} att släppa in dig. Du kan börja när {name} säger ja och Tiledash har plats för dig.",
+    "source": "9bcb5eb115",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.askTitle": {
+    "text": "<b>{name}</b> använder redan {homey} i Tiledash.",
+    "source": "70ec64860f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.body": {
+    "text": "Tiledash öppnar i små omgångar medan vi ser till att varje dashboard känns toppen. Vi släpper in dig så snart det finns plats, och mejlar dig när det sker.",
+    "source": "ad78514391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.title": {
+    "text": "Du står på listan.",
+    "source": "0e13555c29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.waitlist.titleNamed": {
+    "text": "Du står på listan, {name}.",
+    "source": "0e65da0dfa",
+    "by": "ai",
+    "reviewed": false
+  }
+}

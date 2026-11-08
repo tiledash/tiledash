@@ -13,7 +13,7 @@ import { parseArgs } from "node:util";
 import { resolve } from "node:path";
 
 // packages/shared/src/i18n/languages.ts
-var LANGUAGES = ["en", "nl", "de", "es", "fr"];
+var LANGUAGES = ["en", "nl", "de", "es", "fr", "nb", "sv", "da"];
 var I18N_BUNDLES = [
   "common",
   "shell",
@@ -242,7 +242,10 @@ var PLURAL_CATEGORIES = {
   nl: ["one", "other"],
   de: ["one", "other"],
   es: ["one", "many", "other"],
-  fr: ["one", "many", "other"]
+  fr: ["one", "many", "other"],
+  nb: ["one", "other"],
+  sv: ["one", "other"],
+  da: ["one", "other"]
 };
 
 // packages/shared/src/i18n/messageShape.ts
@@ -19646,7 +19649,10 @@ var glossaryTermSchema = external_exports.strictObject({
   nl: glossaryLanguageSchema.optional(),
   de: glossaryLanguageSchema.optional(),
   es: glossaryLanguageSchema.optional(),
-  fr: glossaryLanguageSchema.optional()
+  fr: glossaryLanguageSchema.optional(),
+  nb: glossaryLanguageSchema.optional(),
+  sv: glossaryLanguageSchema.optional(),
+  da: glossaryLanguageSchema.optional()
 });
 var glossarySchema = external_exports.strictObject({
   /** Set by a person once the glossary may be used to translate; `i18n:translate` refuses until then. */

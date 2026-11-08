@@ -1,0 +1,2240 @@
+{
+  "shell.aiSetup.address": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt1": {
+    "text": "Slå på utviklermodus i ChatGPT (i Innstillinger, under Apper og Avanserte innstillinger; hvilke abonnementer som har det, og hvor, endres av og til).",
+    "source": "3a79efbfc1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt2": {
+    "text": "Velg Opprett, kall den Tiledash, lim inn adressen nedenfor og velg OAuth (la klient-ID og hemmelighet stå tomme).",
+    "source": "10595a399d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.chatgpt3": {
+    "text": "Logg inn med Homey-kontoen din og gi tillatelse.",
+    "source": "40987708e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude1": {
+    "text": "I Claude (claude.ai eller Claude-appen), åpne Innstillinger → Connectors og velg Add custom connector. På et Team- eller Enterprise-abonnement legger en eier den til først, under Admin settings.",
+    "source": "441bd6c450",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude2": {
+    "text": "Kall den Tiledash og lim inn adressen nedenfor.",
+    "source": "13f65c0cac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude3": {
+    "text": "Velg Connect: Tiledash ber deg logge inn med Homey-kontoen din og gi tillatelse.",
+    "source": "dcde30803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claude4": {
+    "text": "Be Claude om hjelp med en widget i en chat. Den kan åpne en direkte forhåndsvisning i nettleseren sin.",
+    "source": "f7e5bb8458",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode1": {
+    "text": "Kjør kommandoen nedenfor i en terminal.",
+    "source": "48eb753e55",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.claudeCode2": {
+    "text": "I Claude Code, kjør /mcp og velg Tiledash for å logge inn.",
+    "source": "e09ea093b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.command": {
+    "text": "Kommando",
+    "source": "713166971d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor1": {
+    "text": "Legg til serveren i ~/.cursor/mcp.json (eller .cursor/mcp.json i et prosjekt).",
+    "source": "0d599291ad",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.cursor2": {
+    "text": "Cursor viser Tiledash under Settings → MCP med en knapp for å logge inn.",
+    "source": "092e3b0c87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode1": {
+    "text": "Legg til serveren i .vscode/mcp.json i prosjektet ditt (eller i brukerinnstillingene).",
+    "source": "16a64516d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode2": {
+    "text": "Start den fra filen, eller med MCP: List Servers. VS Code åpner Tiledash for å logge inn.",
+    "source": "f1a80c1734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.aiSetup.vscode3": {
+    "text": "Bruk den fra Copilot Chat i agentmodus.",
+    "source": "4789093257",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copied": {
+    "text": "Kopiert",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.copyFailed": {
+    "text": "Kunne ikke kopiere: merk det og kopier selv.",
+    "source": "806d0b93da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailed": {
+    "text": "Kunne ikke koble fra {app}.",
+    "source": "65700ea76e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectFailedUnnamed": {
+    "text": "Kunne ikke koble fra appen.",
+    "source": "631c8dd837",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnected": {
+    "text": "{app} er koblet fra: nøkkelen og forhåndsvisningslenkene er stoppet",
+    "source": "3b8edccf9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.disconnectedUnnamed": {
+    "text": "Appen er koblet fra: nøkkelen og forhåndsvisningslenkene er stoppet",
+    "source": "6026df5bce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.loadFailed": {
+    "text": "Kunne ikke laste inn de tilkoblede appene dine.",
+    "source": "981a4dd978",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsFailed": {
+    "text": "Kunne ikke endre om trykk går til Homey-en din.",
+    "source": "83ae24c348",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOff": {
+    "text": "Trykk simuleres bare igjen",
+    "source": "de63f4a9ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.connectedApps.tapsOn": {
+    "text": "Trykk går til Homey-en din i en time",
+    "source": "b0be0e805d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.dismiss": {
+    "text": "Skjul inntil videre",
+    "source": "16789232fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.logIn": {
+    "text": "Logg inn med Homey",
+    "source": "f22a1814bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.noAccess": {
+    "text": "<b>Tiledash har ikke lenger lov til å nå {homey}.</b> Logg inn med Homey igjen og gi tilgang til den.",
+    "source": "7c0bda5ef1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.notOnAccount": {
+    "text": "<b>{homey} er ikke lenger på Homey-kontoen din,</b> så Tiledash kan ikke nå den. Dashbordene og historikken beholdes til du fjerner den.",
+    "source": "bcb259bd1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.ownerReconnect": {
+    "text": "<b>Venter på at {name} kobler til {homey} igjen.</b> Enhetene kommer tilbake her så snart {name} logger inn med Homey igjen.",
+    "source": "a61a4508cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.homeyProblem.settings": {
+    "text": "Fjern den…",
+    "source": "cbe9841a3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.adminCaption": {
+    "text": "Hele Tiledash",
+    "source": "35759a6dee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.ctrl": {
+    "text": "Ctrl",
+    "source": "e2ee2909fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.foldHint": {
+    "text": "Lagt sammen for redigeringen. Åpne det her.",
+    "source": "5123c18f9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.hideSidebar": {
+    "text": "Skjul sidepanelet",
+    "source": "3b002e7ec8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsAccount": {
+    "text": "profil, data, last ned, slett, konto",
+    "source": "40350d8255",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsAdmin": {
+    "text": "admin, administrator",
+    "source": "8c6976e5b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsDevices": {
+    "text": "lys, lamper, sensorer, homey, enheter",
+    "source": "c23fdc8941",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsEditSidebar": {
+    "text": "skjul, ordne, sorter, grupper, mapper, meny",
+    "source": "8ac049f133",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsEnergy": {
+    "text": "priser, tariff, nettleie, målere, sol, solceller, gass, vann",
+    "source": "9ce07cac52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsLogOut": {
+    "text": "logg av, logg ut",
+    "source": "601f295109",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsNewDashboard": {
+    "text": "lag, opprett, legg til, ny",
+    "source": "b27f3913f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsNewPanel": {
+    "text": "veggpanel, nettbrett, kiosk",
+    "source": "f0fe1218f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsNewTheme": {
+    "text": "tema, farger, skrift, skrifter",
+    "source": "9ee38d25d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsPanel": {
+    "text": "veggpanel, nettbrett",
+    "source": "dbc01eb8c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsPlan": {
+    "text": "pro, oppgrader, betaling, abonnement",
+    "source": "4aa3e79b01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsRecordings": {
+    "text": "historikk, logging, strøm, effekt",
+    "source": "a70271e649",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsSettings": {
+    "text": "preferanser, språk, kart, varsler, kalendere, PIN, lenker, KI",
+    "source": "8e3ee0281b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsThemes": {
+    "text": "tema, farger, skrift, skrifter, utseende",
+    "source": "0019d49437",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsThisDevice": {
+    "text": "tema, temaer, bevegelse, mørk, lys, utseende, skjerm",
+    "source": "c7de6bd979",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.keywordsWidgets": {
+    "text": "tilpass, widgeter, partials, widgeteditor, temaer, modeller, publiser",
+    "source": "dcdf231377",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.newTheme": {
+    "text": "Nytt tema",
+    "source": "56ce19dd51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.newVersion": {
+    "text": "Det finnes en ny versjon av Tiledash",
+    "source": "201b3e159f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.paused": {
+    "text": "På pause",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.seeWhatsNew": {
+    "text": "Nyheter",
+    "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.sidebarNotSaved": {
+    "text": "Kunne ikke lagre sidepanelet.",
+    "source": "c77e40b784",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.signupsWaiting": {
+    "text": "{count, plural, one {# registrering venter} other {# registreringer venter}}",
+    "source": "84ea14cea0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startFailed": {
+    "text": "Kunne ikke endre startsiden.",
+    "source": "538f3216a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOff": {
+    "text": "Appen åpner på «{page}» igjen",
+    "source": "1f16ab4b12",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startOn": {
+    "text": "{name} åpnes når du starter appen",
+    "source": "fc70c6088c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.startPanel": {
+    "text": "Start {name}",
+    "source": "11a49542c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.storeNew": {
+    "text": "{count} nye",
+    "source": "93578072b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.tiles": {
+    "text": "{count, plural, one {# flis} other {# fliser}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.undo": {
+    "text": "Angre",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.layout.whatsNewBadge": {
+    "text": "Ny",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.account": {
+    "text": "Konto",
+    "source": "7e1b0d5641",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.admin": {
+    "text": "Admin",
+    "source": "c1c224b03c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.community": {
+    "text": "Community",
+    "source": "bb501d7877",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.dashboards": {
+    "text": "Dashbord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.devices": {
+    "text": "Enheter",
+    "source": "4ba5121d4d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.discord": {
+    "text": "Discord",
+    "source": "053bc65874",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.editSidebar": {
+    "text": "Rediger sidepanelet",
+    "source": "d8db78c2d0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.energySettings": {
+    "text": "Energiinnstillinger",
+    "source": "a624d28319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.floorPlans": {
+    "text": "Plantegninger",
+    "source": "7c5f935688",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.jumpTo": {
+    "text": "Gå til…",
+    "source": "bf48883b6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.newDashboard": {
+    "text": "Nytt dashbord",
+    "source": "c7c4cad421",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.newWallPanel": {
+    "text": "Nytt veggpanel",
+    "source": "9e3d0ac5ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.plan": {
+    "text": "Abonnement",
+    "source": "fa8ed0bdab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.profile": {
+    "text": "Profil",
+    "source": "d696a35bdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.recordings": {
+    "text": "Registreringer",
+    "source": "60c56d66a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.settings": {
+    "text": "Innstillinger",
+    "source": "74a883a037",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.themes": {
+    "text": "Temaer",
+    "source": "43ae3265b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.thisDevice": {
+    "text": "Denne enheten",
+    "source": "d052579c6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.thisDeviceMenu": {
+    "text": "Denne enheten…",
+    "source": "b40e454aa2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.wallPanels": {
+    "text": "Veggpaneler",
+    "source": "bee64c8441",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.names.workshop": {
+    "text": "Verksted",
+    "source": "c0086f23dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.namesList.more": {
+    "text": "{count, plural, one {# til} other {# til}}",
+    "source": "44381042fd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.collapseSidebar": {
+    "text": "Skjul sidepanelet",
+    "source": "044eaf9053",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.editDashboard": {
+    "text": "Rediger dashbord",
+    "source": "84e69aa06e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.editing": {
+    "text": "Redigerer",
+    "source": "fab4539d26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.expandSidebar": {
+    "text": "Utvid sidepanelet",
+    "source": "dc915b213c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.gotIt": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyConnecting": {
+    "text": "Kobler til",
+    "source": "d403c686f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyLive": {
+    "text": "Direkte",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyOffline": {
+    "text": "Frakoblet",
+    "source": "a1794783aa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyReauth": {
+    "text": "Logg inn igjen",
+    "source": "f8fea550fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyReconnecting": {
+    "text": "Kobler til nå",
+    "source": "afb118fcb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.homeyTip": {
+    "text": "{name} · {status}",
+    "source": "1394760721",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.mainNavigation": {
+    "text": "Hovedmeny",
+    "source": "eb814be3ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.menu": {
+    "text": "Meny",
+    "source": "99af6606ff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.moveRow": {
+    "text": "Flytt {label}; bruk pil opp og pil ned",
+    "source": "30d2894f2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.moved": {
+    "text": "{label} er flyttet til plass {place} av {total}",
+    "source": "1e36eea070",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.options": {
+    "text": "Valg for {label}",
+    "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.selected": {
+    "text": "{count, plural, one {# valgt} other {# valgt}}",
+    "source": "5f13640072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.showSidebar": {
+    "text": "Vis sidepanelet",
+    "source": "f778fea500",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.usageFull": {
+    "text": "Fullt",
+    "source": "008dacb6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.patterns.usageOf": {
+    "text": "<used>{used}</used> av {limit}",
+    "source": "c05e73fc44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.paymentFailed.dismiss": {
+    "text": "Lukk",
+    "source": "48845bff33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.paymentFailed.openPaypal": {
+    "text": "Åpne PayPal",
+    "source": "4ab124892e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.paymentFailed.paypal": {
+    "text": "<b>Den siste betalingen din gikk ikke gjennom.</b> Sjekk betalingsmåten i PayPal før {date} for å beholde Pro.",
+    "source": "f6b936e724",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.paymentFailed.stripe": {
+    "text": "<b>Den siste betalingen din gikk ikke gjennom.</b> Oppdater kortet før {date} for å beholde Pro.",
+    "source": "a118880026",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.paymentFailed.updateCard": {
+    "text": "Oppdater kort",
+    "source": "e28b5def97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.compare": {
+    "text": "Sammenlign",
+    "source": "e888155d8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.current": {
+    "text": "Gjeldende",
+    "source": "e0d1b68224",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.goBack": {
+    "text": "Gå tilbake",
+    "source": "6aadac2f2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.goingBack": {
+    "text": "Går du tilbake, havner lagringen i redigeringen; flisene viser den når du lagrer.",
+    "source": "d60b727e8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.inEditor": {
+    "text": "I redigeringen",
+    "source": "cdb2a7b178",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.keepsAll": {
+    "text": "Tiledash beholder alle lagringer mens den er i Community.",
+    "source": "b19b9e4217",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.keepsLast": {
+    "text": "Tiledash beholder de siste {count} lagringene dine.",
+    "source": "703081a7bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.nothing": {
+    "text": "<b>Ingenting lagret ennå.</b> Hver lagring tas vare på her, så du kan gå tilbake til den.",
+    "source": "b0ee8a3d0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.showChanges": {
+    "text": "Vis endringer",
+    "source": "b12a6ef893",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.saveHistory.since": {
+    "text": "{count, plural, one {<b># lagring</b> siden <code>{version}</code> i Community} other {<b># lagringer</b> siden <code>{version}</code> i Community}}",
+    "source": "23d6ef22fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.dayAt": {
+    "text": "{date}, {time}",
+    "source": "1a88956dc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.justNow": {
+    "text": "Akkurat nå",
+    "source": "66f53417d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.notSaved": {
+    "text": "Ikke lagret ennå",
+    "source": "35c5fe4395",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.today": {
+    "text": "I dag, {time}",
+    "source": "461f4e0a08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.savedAt.yesterday": {
+    "text": "I går, {time}",
+    "source": "59dfd2db8c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.shared.failedTitle": {
+    "text": "Kunne ikke åpne den",
+    "source": "3a0999c25b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.shared.goneBody": {
+    "text": "{name} har sluttet å dele den, eller den er borte.",
+    "source": "572374b8c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.shared.goneTitle": {
+    "text": "Ikke delt med deg lenger",
+    "source": "0d35c6f4a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.shared.tryAgain": {
+    "text": "Prøv igjen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sharedByOwner.copy": {
+    "text": "Lag en kopi",
+    "source": "e61974e66c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sharedByOwner.copyFailed": {
+    "text": "Kunne ikke lage en kopi",
+    "source": "13ac328fc7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sharedByOwner.unavailable": {
+    "text": "Ikke for deg",
+    "source": "5b1a2b4b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sharedByOwner.unavailableHint": {
+    "text": "{name} har ikke delt denne enheten",
+    "source": "b206b0f0f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.accountMenu": {
+    "text": "{name}, kontomeny{news, select, yes {, noe nytt} other {}}",
+    "source": "85e5b24e66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.createNamed": {
+    "text": "Nytt dashbord «{query}»",
+    "source": "25505987ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.dashboardTotal": {
+    "text": "{count, plural, one {# dashbord} other {# dashbord}}",
+    "source": "400c1fb0db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.deleteGroup": {
+    "text": "Slett gruppen",
+    "source": "3f7374ac08",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.done": {
+    "text": "Ferdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.editBarLabel": {
+    "text": "Redigerer sidepanelet",
+    "source": "061b976442",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.editHint": {
+    "text": "Dra for å sortere; øyet skjuler.",
+    "source": "1ee990f2fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.empty": {
+    "text": "Ingen dashbord i sidepanelet. ⌘K finner alle.",
+    "source": "f9dba0573b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.escapeCloses": {
+    "text": "Escape lukker",
+    "source": "7aec665f60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.freePlan": {
+    "text": "Free-abonnement",
+    "source": "899e2f1f2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.goPro": {
+    "text": "Få Pro",
+    "source": "28c0f3aab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupDashboards": {
+    "text": "Dashbord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupGoTo": {
+    "text": "Gå til",
+    "source": "a8aa078b7e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupName": {
+    "text": "Gruppenavn",
+    "source": "762ebb70ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupOtherDashboards": {
+    "text": "Andre dashbord",
+    "source": "accb67566e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupPages": {
+    "text": "Sider",
+    "source": "9046da16ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupPinned": {
+    "text": "I sidepanelet",
+    "source": "765ed28beb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.groupRecent": {
+    "text": "Nylige",
+    "source": "690dbe9dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hideFromSidebar": {
+    "text": "Skjul fra sidepanelet",
+    "source": "a96ec22ac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hideGroup": {
+    "text": "Skjul gruppen",
+    "source": "ce30c9e7d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hideItem": {
+    "text": "Skjul {label}",
+    "source": "466a69d37a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hintMove": {
+    "text": "Flytt",
+    "source": "6ecc3df6bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hintOpen": {
+    "text": "Åpne",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.hintToggle": {
+    "text": "Vis eller skjul i sidepanelet",
+    "source": "8433888b98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.isHidden": {
+    "text": "{name} er skjult",
+    "source": "b3357aeaa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.isInGroup": {
+    "text": "{name} er i {group}",
+    "source": "c8f2a850f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.isOutOfGroup": {
+    "text": "{name} er tatt ut av {group}",
+    "source": "176e7c8af8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.listLabel": {
+    "text": "Dashbord i sidepanelet",
+    "source": "21bedded0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.moveToGroup": {
+    "text": "Flytt til gruppe",
+    "source": "f1c038660c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.moved": {
+    "text": "{name} er flyttet",
+    "source": "e03fcae454",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.nameAndIcon": {
+    "text": "Navn og ikon…",
+    "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.newGroup": {
+    "text": "Ny gruppe",
+    "source": "df796c655f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.newGroupMenu": {
+    "text": "Ny gruppe…",
+    "source": "ce58c189f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.nothingCalled": {
+    "text": "Ingenting heter «{query}».",
+    "source": "f60811b086",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.onScreen": {
+    "text": "På skjermen",
+    "source": "385f21d922",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.pinHide": {
+    "text": "Skjul {name} fra sidepanelet",
+    "source": "4c5f22a773",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.pinShow": {
+    "text": "Vis {name} i sidepanelet",
+    "source": "ee9cd4c2dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.proFrom": {
+    "text": "Pro fra {name}",
+    "source": "4324d77cdc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.reset": {
+    "text": "Tilbakestill",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.results": {
+    "text": "Resultater",
+    "source": "219c4a6c86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.rowOptions": {
+    "text": "Valg for {label}",
+    "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.settingsNews": {
+    "text": "Innstillinger, noe nytt",
+    "source": "ee3f7aba26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.shared.floorPlan": {
+    "text": "Plantegning",
+    "source": "10c4ebce0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.shared.listLabel": {
+    "text": "Dashbord og plantegninger delt av {name}",
+    "source": "9f2b16940a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.shared.title": {
+    "text": "Delt av {name}",
+    "source": "1675e69d02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.showItem": {
+    "text": "Vis {label}",
+    "source": "333cda2ed2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItem": {
+    "text": "Åpne appen på {label}",
+    "source": "69a81f74ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.startItemOn": {
+    "text": "Appen åpner på {label}; trykk for å stoppe",
+    "source": "eb511e770a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.switcherDescription": {
+    "text": "Skriv for å finne et dashbord eller en side. Pil opp og ned flytter, Enter åpner, Shift Enter fester eller løsner et dashbord, Escape lukker.",
+    "source": "f5960c7853",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.switcherPlaceholder": {
+    "text": "Finn et dashbord eller en side",
+    "source": "553f65b396",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.switcherTitle": {
+    "text": "Gå til",
+    "source": "da7b17bfa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.sidebar.takeOutOf": {
+    "text": "Ta ut av {group}",
+    "source": "2e082b653c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.builtin": {
+    "text": "{title} (innebygd i Tiledash)",
+    "source": "4cd9ddf0f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.copiedFrom": {
+    "text": "Kopiert fra",
+    "source": "7bd2260afb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.more": {
+    "text": "{count} til",
+    "source": "5f4f590acb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOrigin.removed": {
+    "text": "{title} {version} (fjernet)",
+    "source": "18eb38d360",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.badge": {
+    "text": "Eksterne adresser",
+    "source": "0a530fee6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.dynamic": {
+    "text": "Og fra adresser som innstillingene eller enhetene dine gir den, først kjent når den tegnes.",
+    "source": "fe99c94092",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.dynamicPart": {
+    "text": "adresser fra innstillingene eller enhetsdata",
+    "source": "05a6f3498b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.new": {
+    "text": "ny",
+    "source": "11507a0e2f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.summary": {
+    "text": "Laster bilder fra {places}",
+    "source": "dc359720db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.title": {
+    "text": "Laster fra utenfor Homey-en din",
+    "source": "f5b40c1f06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.what": {
+    "text": "Skjermen din henter disse bildene rett derfra, uten informasjonskapsler: de stedene kan se at en skjerm spurte, og det de sender, kan endres uten en ny versjon.",
+    "source": "35abc99b72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.storeOutside.why": {
+    "text": "Hvorfor, ifølge forfatteren",
+    "source": "d85fbe966e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.description": {
+    "text": "Hvordan appen ser ut og beveger seg, bare på denne enheten. De andre enhetene dine beholder sitt; et dashbord med eget tema beholder det.",
+    "source": "02054d3729",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.descriptionFor": {
+    "text": "Velges det her, bruker skjermen det i stedet for det som er satt på selve skjermen, og viser det med en gang. Et dashbord med eget tema beholder det.",
+    "source": "750f8f4922",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.done": {
+    "text": "Ferdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.keptInBrowser": {
+    "text": "Lagret i denne nettleseren",
+    "source": "72894bb409",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.keptWithPairing": {
+    "text": "Lagret med tilkoblingen",
+    "source": "114c450631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionAuto": {
+    "text": "Som enheten",
+    "source": "046f844e3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionAutoHint": {
+    "text": "Følger enhetens innstilling «Reduser bevegelse».",
+    "source": "bdba0d726a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionCalm": {
+    "text": "Rolig",
+    "source": "38f6b83e2d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionCalmHint": {
+    "text": "Ting går rett på plass; ingenting gjentas.",
+    "source": "70ce8659a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionFull": {
+    "text": "Full",
+    "source": "008dacb6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionFullHint": {
+    "text": "Tall teller, prikker flyter, låser spretter.",
+    "source": "736055ce80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionHeading": {
+    "text": "Bevegelse",
+    "source": "8ca344247c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionLabel": {
+    "text": "Bevegelse på denne enheten",
+    "source": "4e15b8ed1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionNone": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.motionNoneHint": {
+    "text": "Ingenting beveger seg, som på e-blekk. Skånsomt for trege nettbrett.",
+    "source": "1131bea9ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.sourceHere": {
+    "text": "Valgt her",
+    "source": "b909c05f47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.sourceLabel": {
+    "text": "Hvor temaet settes",
+    "source": "66d71cb729",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.sourceScreen": {
+    "text": "Satt på skjermen",
+    "source": "5bd90c53f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.sourceScreenHint": {
+    "text": "{screen} bruker det som er satt under {place} på selve skjermen.",
+    "source": "358509d045",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.themeHeading": {
+    "text": "Tema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.thisScreen.titleFor": {
+    "text": "Tema for {screen}",
+    "source": "b80b0597ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.allDoneBody": {
+    "text": "Det er det viktigste. Veiledningene på tiledash.app går lenger.",
+    "source": "f9a7b327a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.back": {
+    "text": "Tilbake",
+    "source": "76900f1bfd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsBody": {
+    "text": "En kort liste med ting å prøve ligger i hjørnet. Ta den tiden du trenger; den husker hvor du er.",
+    "source": "07cca663b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.basicsTitle": {
+    "text": "Det er det grunnleggende",
+    "source": "e961e52553",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.closeList": {
+    "text": "Lukk listen",
+    "source": "5d54f77539",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.endTour": {
+    "text": "Avslutt omvisningen",
+    "source": "1674fd183e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.exploreMyself": {
+    "text": "Jeg utforsker selv",
+    "source": "3a6ad5ed90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.finish": {
+    "text": "Fullfør",
+    "source": "a6c7a84baa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.foldList": {
+    "text": "Legg sammen listen",
+    "source": "8bcc3500ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.gotIt": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.hideList": {
+    "text": "Skjul denne listen",
+    "source": "6a45cf67d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeBody": {
+    "text": "Lys på, temperaturen, hva som er åpent. Trykk på en for å se hvilke enheter den teller.",
+    "source": "5f9a50e70f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.homeTitle": {
+    "text": "Hjemmet ditt med et blikk",
+    "source": "bab70bd375",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listCount": {
+    "text": "{done} av {count} gjort",
+    "source": "afaa6fbd47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listDoneTitle": {
+    "text": "Du kjenner deg rundt",
+    "source": "156e695402",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.listTitle": {
+    "text": "Bli kjent med Tiledash",
+    "source": "ac51cdeaef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.makeFirst": {
+    "text": "Lag mitt første dashbord",
+    "source": "bda59b8008",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.next": {
+    "text": "Neste",
+    "source": "1ff57a29d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.noThanks": {
+    "text": "Nei takk",
+    "source": "49780701dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerEyebrow": {
+    "text": "Nytt i Tiledash",
+    "source": "e719c394bb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLead": {
+    "text": "To korte omvisninger: hva dashbordet ditt kan gjøre, og hvordan du setter det på et nettbrett på veggen.",
+    "source": "12d6f1881d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerLength": {
+    "text": "Omtrent et minutt hver. Ta dem igjen fra kontomenyen.",
+    "source": "7fa8170107",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.offerTitle": {
+    "text": "Vil du ha hjelp med det grunnleggende?",
+    "source": "df2e79f959",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsBody": {
+    "text": "Alltid her, øverst til høyre: endre dashbordet og innstillingene, sett det på et nettbrett eller del det.",
+    "source": "a542c2fe1d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsHintText": {
+    "text": "Endre dashbordet og innstillingene, sett det på et nettbrett eller del det. Alltid her, øverst til høyre.",
+    "source": "94d6a1c50b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.optionsTitle": {
+    "text": "Alt annet ligger bak ⋯",
+    "source": "6f189eb2bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dBody": {
+    "text": "Kuben bytter mellom tegningen og en 3D-visning. I 3D drar du med høyre museknapp for å vri den.",
+    "source": "68db23809b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.plan3dTitle": {
+    "text": "Se det i 3D",
+    "source": "b8060d34ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndBody": {
+    "text": "(?) her oppe starter denne omvisningen igjen. Trykk ? for alle kontroller og snarveier.",
+    "source": "e921690ab7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planEndTitle": {
+    "text": "Det var plantegningsverktøyet",
+    "source": "025901ef6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planOfferText": {
+    "text": "En kort omvisning i plantegningsverktøyet: hvor du tegner, 3D-visningen og hvordan du beveger deg rundt. Tre trinn.",
+    "source": "f132fd6b87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeBody": {
+    "text": "Angre tar tilbake enhver endring, og planen lagres av seg selv. Mellomrom og dra flytter rundt; rulling zoomer.",
+    "source": "940ba24f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planSafeTitle": {
+    "text": "Prøv deg fram",
+    "source": "1451e8f517",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsBody": {
+    "text": "Velg et verktøy her: rom og vegger først, så dører og vinduer, møbler og enhetene dine.",
+    "source": "181f916900",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planToolsTitle": {
+    "text": "Tegn rommene dine",
+    "source": "8c0fd8aac9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.planTourNoPlan": {
+    "text": "Tegn en plantegning først: omvisningen viser deg rundt når det finnes en.",
+    "source": "347c20463a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionEyebrow": {
+    "text": "Homey-en din er tilkoblet",
+    "source": "8c3431f7a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionLead": {
+    "text": "Så vi kan foreslå de riktige første trinnene. Du kan bruke det overalt uansett.",
+    "source": "db123ab356",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.questionTitle": {
+    "text": "Hvor skal du bruke Tiledash?",
+    "source": "3ea28674b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenOfferTitle": {
+    "text": "Vil du ha en rask omvisning?",
+    "source": "4dead7b5c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.screenTourLabel": {
+    "text": "Omvisning på denne siden",
+    "source": "1d151fd637",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndBody": {
+    "text": "(?) her oppe starter denne omvisningen igjen, når som helst.",
+    "source": "fd3cbf06ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsEndTitle": {
+    "text": "Det var dashbordinnstillingene",
+    "source": "e381998339",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookBody": {
+    "text": "Et tema bare for dette dashbordet og, med Pro, et bilde bak flisene. Demping og uskarphet gjør flisene lette å lese.",
+    "source": "1a02122a21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsLookTitle": {
+    "text": "Et eget utseende",
+    "source": "2433fcc288",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsOfferText": {
+    "text": "Fire korte trinn: avstand, oppsett, utseende og popup-vinduer. Den ligger her under (?).",
+    "source": "c82f54f1b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsBody": {
+    "text": "Velg hva som utløser et, som dørklokken, og hva som vises: et kamera, en enhet eller et annet dashbord. Det lukkes igjen etter en stund.",
+    "source": "028db543b0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsPopupsTitle": {
+    "text": "Popup-vinduer som åpner seg selv",
+    "source": "9dae8fa9b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingBody": {
+    "text": "Tett, Komfortabel eller Romslig, med piksler under Finjuster. Tilpass til skjermen får alt på én skjerm, fint for et nettbrett på veggen.",
+    "source": "732f78d05f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.settingsSpacingTitle": {
+    "text": "Luft mellom flisene",
+    "source": "464f15c08f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMe": {
+    "text": "Vis meg",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMeAround": {
+    "text": "Vis meg rundt",
+    "source": "80afe5d95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showMyList": {
+    "text": "Vis listen min",
+    "source": "2bae9d2686",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgain": {
+    "text": "Vis tips igjen",
+    "source": "7d5a764682",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.showTipsAgainHint": {
+    "text": "Engangsnotatene og omvisningstilbudene du la bort, vises én gang til.",
+    "source": "e73d26c391",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.skip": {
+    "text": "Hopp over",
+    "source": "28d03596d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.stepCount": {
+    "text": "{step} av {count}",
+    "source": "91bfb1f611",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseBody": {
+    "text": "Hvilke dashbord det viser, og hva slags skjerm det er. Alle har et svar klart, så Neste hele veien fungerer.",
+    "source": "d0a90795f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletChooseTitle": {
+    "text": "Så to spørsmål",
+    "source": "cc25ad25c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeBody": {
+    "text": "Åpne adressen som vises her på nettbrettet, eller skann QR-koden. Skriv inn koden det viser, og velg Koble til.",
+    "source": "b176f2e0a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletCodeTitle": {
+    "text": "Først koden",
+    "source": "2402d82c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndBody": {
+    "text": "Endre det senere under Veggpaneler i sidepanelet. Dialogen er fortsatt åpen så du kan gjøre deg ferdig.",
+    "source": "34127f3a64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletEndTitle": {
+    "text": "Mer skal det ikke til",
+    "source": "f490b64f48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroBody": {
+    "text": "Det viser dashbordene dine i fullskjerm: sveip mellom dem. Det dimmes når ingen bruker det, og våkner for varsler som dørklokken.",
+    "source": "cb30b775be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tabletIntroTitle": {
+    "text": "Et nettbrett på veggen",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.takeTourAgain": {
+    "text": "Omvisninger",
+    "source": "5bb385763e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirst": {
+    "text": "Lag ditt første dashbord",
+    "source": "bc78656f71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskFirstBody": {
+    "text": "+ ved siden av Dashbord foreslår et ut fra rommene på Homey-en din.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanel": {
+    "text": "Sett det på et nettbrett",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskPanelBody": {
+    "text": "Et veggpanel viser dashbordene dine i fullskjerm og dimmes om natten.",
+    "source": "c401018004",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoom": {
+    "text": "Lag et dashbord for et rom",
+    "source": "02c26184c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskRoomBody": {
+    "text": "+ ved siden av Dashbord foreslår et ut fra rommene på Homey-en din.",
+    "source": "0e27a3cefb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitch": {
+    "text": "Slå noe av eller på",
+    "source": "e3061b1a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskSwitchBody": {
+    "text": "Trykk på et lys eller en plugg på dashbordet ditt.",
+    "source": "c359159b53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskTheme": {
+    "text": "Prøv et tema",
+    "source": "f73a815232",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskThemeBody": {
+    "text": "Mørkt, lyst, e-blekk eller et du har laget selv.",
+    "source": "8569602ddf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidget": {
+    "text": "Legg til en widget",
+    "source": "43c87df5ae",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.taskWidgetBody": {
+    "text": "Åpne valgene for dashbordet, velg Rediger og så Legg til widget.",
+    "source": "8d444afa9d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileBody": {
+    "text": "Fliser gjør det de viser. En knappeflis har en knapp for hvert lys, hver stemning eller Flow.",
+    "source": "922c5c6b45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTitle": {
+    "text": "Trykk for å slå av/på",
+    "source": "e4789d77f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTried": {
+    "text": "Slått om. Mer skal det ikke til.",
+    "source": "d83cfbfe2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tileTry": {
+    "text": "Prøv: trykk på et lys",
+    "source": "1901076076",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOff": {
+    "text": "Ikke vis tips",
+    "source": "bcdf0f28e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffText": {
+    "text": "Slå dem på igjen i Innstillinger › Generelt. Omvisninger ligger fortsatt under (?) på hver side.",
+    "source": "814206361b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffTitle": {
+    "text": "Tips er slått av",
+    "source": "7ef256b764",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsOffUndo": {
+    "text": "Angre",
+    "source": "a8283ade31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsShownAgain": {
+    "text": "Tips vises igjen",
+    "source": "870b0f7dc0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitch": {
+    "text": "Vis tips",
+    "source": "754e196536",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tipsSwitchHint": {
+    "text": "Velkomstkort, tilbud om omvisning, «Visste du?»-notater og kom i gang-listen. Av: ingenting åpner seg selv; (?) på hver side starter fortsatt omvisningen.",
+    "source": "208023b238",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourAgain": {
+    "text": "Du kan ta omvisningen igjen fra kontomenyen.",
+    "source": "7e86d0748d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDashboardSettings": {
+    "text": "Dashbordinnstillinger",
+    "source": "95d4e44b97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourDone": {
+    "text": "Fullført",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFirstDashboard": {
+    "text": "Ditt første dashbord",
+    "source": "edf6877596",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourFloorPlan": {
+    "text": "Plantegningsverktøyet",
+    "source": "cc5de527cb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourNotStarted": {
+    "text": "Ikke startet",
+    "source": "ba35f0c47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourSkipped": {
+    "text": "Hoppet over",
+    "source": "12698ce1ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStart": {
+    "text": "Start",
+    "source": "e4bb9f1ece",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourStartAgain": {
+    "text": "Start på nytt",
+    "source": "962e64b761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tourWallPanel": {
+    "text": "Sett et dashbord på veggen",
+    "source": "5051a0277f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursList": {
+    "text": "Omvisninger",
+    "source": "b49f1e41f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.toursTitle": {
+    "text": "Omvisninger og tips",
+    "source": "ecd86c12a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.tutorials": {
+    "text": "Se veiledningene",
+    "source": "1fec9493ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBoth": {
+    "text": "Begge",
+    "source": "b6c1d862f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useBothBody": {
+    "text": "Et nettbrett på veggen og telefoner.",
+    "source": "085f5b7ecf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhone": {
+    "text": "Telefonen min",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.usePhoneBody": {
+    "text": "Slå ting av og på fra sofaen eller på farten.",
+    "source": "a510940075",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWall": {
+    "text": "Et nettbrett på veggen",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.useWallBody": {
+    "text": "Én skjerm alle i huset bruker.",
+    "source": "4434cfa690",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndAction": {
+    "text": "Sett det på et nettbrett",
+    "source": "750eee9b02",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndBody": {
+    "text": "Det tar et minutt: åpne én adresse på nettbrettet og skriv inn koden her.",
+    "source": "09b09f1497",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndNote": {
+    "text": "Eller senere, fra ⋯ eller listen i hjørnet.",
+    "source": "8d23a1d762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.wallEndTitle": {
+    "text": "Neste: sett det på veggen",
+    "source": "cda43b04b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLead": {
+    "text": "Homey-en din er tilkoblet, og det første dashbordet ditt er klart. Vil du ta en rask titt på hvordan det virker?",
+    "source": "cb5f1aacf4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeLength": {
+    "text": "3 raske trinn, så en kort liste å prøve i ditt eget tempo",
+    "source": "9cac38bee1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.tour.welcomeTitle": {
+    "text": "Velkommen til Tiledash",
+    "source": "6ba24886c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.copyFailed": {
+    "text": "Kunne ikke kopiere lenken",
+    "source": "da5f22732b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.deleteBody": {
+    "text": "Skjermer som åpner lenken, slutter å vise det. Dashbordene dine blir ikke rørt.",
+    "source": "13a1929fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.deleteConfirm": {
+    "text": "Slett veggpanelet",
+    "source": "2f7472f92a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.deleteFailed": {
+    "text": "Kunne ikke slette veggpanelet.",
+    "source": "431e1b0284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.deleteTitle": {
+    "text": "Slette «{name}»?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.deleted": {
+    "text": "«{name}» er slettet",
+    "source": "0c82d7f9ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.linkCopied": {
+    "text": "Lenken er kopiert",
+    "source": "d12860c21e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.menuCopy": {
+    "text": "Kopier lenke",
+    "source": "dbf362d4f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.menuDelete": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.menuEdit": {
+    "text": "Rediger…",
+    "source": "2b8a1a002b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.wallPanels.menuStart": {
+    "text": "Start på denne skjermen",
+    "source": "3283f24228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoOne": {
+    "text": "Også {first}",
+    "source": "2c692e9330",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoThree": {
+    "text": "Også {first}, {second} og {third}",
+    "source": "cd47a3ad57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.alsoTwo": {
+    "text": "Også {first} og {second}",
+    "source": "f11f66df41",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.close": {
+    "text": "Lukk",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.closePicture": {
+    "text": "Lukk bildet",
+    "source": "b1dd731f1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.enlargePicture": {
+    "text": "Se «{caption}» større",
+    "source": "fbe4d7eb52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowMissed": {
+    "text": "Siden sist · {from} – {to}",
+    "source": "65a095fa5d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.eyebrowOne": {
+    "text": "Nytt i Tiledash · {version}",
+    "source": "110e5d14af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.fixes": {
+    "text": "{count, plural, one {# rettelse} other {# rettelser}}",
+    "source": "1d511e2b26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.gotIt": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.improvements": {
+    "text": "{count, plural, one {# forbedring} other {# forbedringer}}",
+    "source": "48198dbb8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.moreNew": {
+    "text": "{count, plural, one {# nyhet til} other {# nyheter til}}",
+    "source": "ff7a931610",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.newerReleases": {
+    "text": "Nyere versjoner",
+    "source": "bcc427a3fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.nextPicture": {
+    "text": "Neste bilde",
+    "source": "f63910e232",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.olderReleases": {
+    "text": "Eldre versjoner",
+    "source": "db9fc1cb43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.pictureCount": {
+    "text": "{at} av {count}",
+    "source": "ebaf527973",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.previousPicture": {
+    "text": "Forrige bilde",
+    "source": "e97fa98b4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.releasePages": {
+    "text": "Sider med versjoner",
+    "source": "b04d517d58",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.releasesPage": {
+    "text": "Side {page} av {count}",
+    "source": "e80db00f5e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.seeEverything": {
+    "text": "Se alt som er nytt",
+    "source": "fc7c1abd84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.showMe": {
+    "text": "Vis meg",
+    "source": "b76c42cb4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.whatsNew.title": {
+    "text": "Nyheter",
+    "source": "37e6112e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiShow": {
+    "text": "Koble til en assistent",
+    "source": "7eee8631d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiText": {
+    "text": "Beskriv widgeten du vil ha, så lager Claude, ChatGPT eller en annen assistent den her for deg. Eller start fra bunnen med Ny.",
+    "source": "3fbde161f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.aiTitle": {
+    "text": "Lag en med KI-assistenten din",
+    "source": "33f5413efb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.workshopHint.hintDismiss": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  }
+}
