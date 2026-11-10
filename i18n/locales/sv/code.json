@@ -815,6 +815,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.applied": {
+    "text": "Tillämpad",
+    "source": "0c79a9c222",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.appliedHelp": {
+    "text": "Tillämpad via din assistent: dina skärmar visar den nu. Fler ändringar kräver ett nytt utkast.",
+    "source": "13c738f1c2",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.approval": {
     "text": "För att använda den här dashboarden, säg till din assistent: ”Tillämpa utkastversion {version}”.",
     "source": "954455487f",
@@ -845,9 +857,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.dashboardPreview.expires": {
-    "text": "Länken går ut: {date}",
-    "source": "9f16d759f7",
+  "code.dashboardPreview.details": {
+    "text": "Detaljer",
+    "source": "45989de49f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.empty": {
+    "text": "Inga utkast än",
+    "source": "44f33698bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.emptyHelp": {
+    "text": "Den här sidan visar din assistents dashboardutkast så snart den gör ett, och följer varje sparning.",
+    "source": "a60f0ce698",
     "by": "ai",
     "reviewed": false
   },
@@ -863,15 +887,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.lasts": {
+    "text": "Den här länken är densamma för din AI-anslutning och slutar gälla efter en timme utan användning.",
+    "source": "f282a90e44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.live": {
+    "text": "Live · endast läsning",
+    "source": "569d1bcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveHelp": {
+    "text": "En av dina live-dashboards som ett utkast öppnar, som den är nu.",
+    "source": "315eadbc51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveShort": {
+    "text": "Live",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.loading": {
     "text": "Läser in förhandsvisning av dashboarden",
     "source": "47c4faa4cb",
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.notInPreview": {
+    "text": "Den dashboarden ingår inte i den här förhandsvisningen",
+    "source": "7dd5d31249",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.phone": {
     "text": "Mobil",
     "source": "63dceb8800",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.picker": {
+    "text": "Dashboards i den här förhandsvisningen",
+    "source": "19a951b56b",
     "by": "ai",
     "reviewed": false
   },
@@ -918,8 +978,8 @@
     "reviewed": false
   },
   "code.dashboardPreview.unavailableHelp": {
-    "text": "Länken kan ha gått ut, utkastet har tillämpats eller förkastats, eller så har AI-anslutningen avslutats. Be din assistent om en ny förhandsvisning.",
-    "source": "8dda464769",
+    "text": "Länken slutar gälla efter en timme utan användning, eller när AI-anslutningen avslutas. Be din assistent om förhandsvisningslänken igen.",
+    "source": "7f279697e7",
     "by": "ai",
     "reviewed": false
   },
@@ -932,6 +992,12 @@
   "code.dashboardPreview.version": {
     "text": "Utkast · version {version}",
     "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.versionShort": {
+    "text": "Utkast v{version}",
+    "source": "0a11592104",
     "by": "ai",
     "reviewed": false
   },

@@ -815,6 +815,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.applied": {
+    "text": "Aplicado",
+    "source": "0c79a9c222",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.appliedHelp": {
+    "text": "Aplicado con tu asistente: tus pantallas ya lo muestran. Para más cambios hace falta un borrador nuevo.",
+    "source": "13c738f1c2",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.approval": {
     "text": "Para usar este dashboard, dile a tu asistente: «Aplica la versión {version} del borrador».",
     "source": "954455487f",
@@ -845,9 +857,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.dashboardPreview.expires": {
-    "text": "El enlace caduca: {date}",
-    "source": "9f16d759f7",
+  "code.dashboardPreview.details": {
+    "text": "Detalles",
+    "source": "45989de49f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.empty": {
+    "text": "Aún no hay borradores",
+    "source": "44f33698bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.emptyHelp": {
+    "text": "Esta página muestra los borradores de dashboard de tu asistente en cuanto cree uno, y sigue cada guardado.",
+    "source": "a60f0ce698",
     "by": "ai",
     "reviewed": false
   },
@@ -863,15 +887,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.lasts": {
+    "text": "Este enlace es siempre el mismo para tu conexión de IA y caduca tras una hora sin usarse.",
+    "source": "f282a90e44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.live": {
+    "text": "En vivo · solo lectura",
+    "source": "569d1bcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveHelp": {
+    "text": "Uno de tus dashboards en vivo que abre un borrador, tal como está ahora.",
+    "source": "315eadbc51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveShort": {
+    "text": "En vivo",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.loading": {
     "text": "Cargando vista previa del dashboard",
     "source": "47c4faa4cb",
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.notInPreview": {
+    "text": "Ese dashboard no forma parte de esta vista previa",
+    "source": "7dd5d31249",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.phone": {
     "text": "Teléfono",
     "source": "63dceb8800",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.picker": {
+    "text": "Dashboards de esta vista previa",
+    "source": "19a951b56b",
     "by": "ai",
     "reviewed": false
   },
@@ -918,8 +978,8 @@
     "reviewed": false
   },
   "code.dashboardPreview.unavailableHelp": {
-    "text": "El enlace puede haber caducado, el borrador se aplicó o descartó, o la conexión con la IA terminó. Pide a tu asistente una nueva vista previa.",
-    "source": "8dda464769",
+    "text": "El enlace caduca tras una hora sin usarse o cuando termina la conexión de IA. Pide de nuevo a tu asistente el enlace de la vista previa.",
+    "source": "7f279697e7",
     "by": "ai",
     "reviewed": false
   },
@@ -932,6 +992,12 @@
   "code.dashboardPreview.version": {
     "text": "Borrador · versión {version}",
     "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.versionShort": {
+    "text": "Borrador v{version}",
+    "source": "0a11592104",
     "by": "ai",
     "reviewed": false
   },

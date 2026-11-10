@@ -1014,6 +1014,16 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/widgets/copyUpdate/copyUpdate.messages.ts"
   },
+  "code.dashboardPreview.applied": {
+    "en": "Applied",
+    "context": "Badge of a dashboard the assistant applied; it is live now.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.appliedHelp": {
+    "en": "Applied through your assistant: your screens show this now. Further changes need a new draft.",
+    "context": "Explains an applied dashboard in a draft preview.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
   "code.dashboardPreview.approval": {
     "en": "To use this dashboard, tell your assistant: “Apply draft version {version}”.",
     "context": "Dashboard application happens after approval in chat.",
@@ -1042,12 +1052,19 @@
     "context": "Dashboard preview screen size.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
-  "code.dashboardPreview.expires": {
-    "en": "Link expires: {date}",
-    "context": "Dashboard preview link expiry.",
-    "params": {
-      "date": "The preview expiration date and time."
-    },
+  "code.dashboardPreview.details": {
+    "en": "Details",
+    "context": "Button on a phone that opens what a draft changes and how to approve it.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.empty": {
+    "en": "No drafts yet",
+    "context": "A dashboard preview link before the assistant made a draft.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.emptyHelp": {
+    "en": "This page shows your assistant’s dashboard drafts as soon as it makes one, and follows every save.",
+    "context": "What a dashboard preview link shows once there are drafts.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
   "code.dashboardPreview.hint": {
@@ -1060,14 +1077,44 @@
     "context": "Installing widgets is separate from publishing a dashboard.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
+  "code.dashboardPreview.lasts": {
+    "en": "This link stays the same for your AI connection and ends after an hour without use.",
+    "context": "How long a dashboard preview link works: it is renewed by every use.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.live": {
+    "en": "Live · read only",
+    "context": "Badge of a live dashboard a draft opens, shown unchanged in the preview.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.liveHelp": {
+    "en": "One of your live dashboards that a draft opens, shown as it is now.",
+    "context": "Explains a live dashboard reached through a tap in a draft preview.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.liveShort": {
+    "en": "Live",
+    "context": "Short badge on a phone of a live dashboard a draft opens, shown read only.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
   "code.dashboardPreview.loading": {
     "en": "Loading dashboard preview",
     "context": "Accessible loading status.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
+  "code.dashboardPreview.notInPreview": {
+    "en": "That dashboard isn’t part of this preview",
+    "context": "Toast when a tap in a draft preview opens a dashboard the preview does not show.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
   "code.dashboardPreview.phone": {
     "en": "Phone",
     "context": "Dashboard preview screen size.",
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.picker": {
+    "en": "Dashboards in this preview",
+    "context": "Accessible label of the list of drafted and applied dashboards a preview shows.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
   "code.dashboardPreview.removed": {
@@ -1109,11 +1156,11 @@
   },
   "code.dashboardPreview.unavailable": {
     "en": "This preview is no longer available",
-    "context": "An expired, discarded, applied or revoked dashboard preview.",
+    "context": "An expired or revoked dashboard preview link.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
   "code.dashboardPreview.unavailableHelp": {
-    "en": "The link may have expired, the draft was applied or discarded, or the AI connection ended. Ask your assistant for a new preview.",
+    "en": "The link ends after an hour without use, or when the AI connection ends. Ask your assistant for the preview link again.",
     "context": "Why a dashboard preview cannot open.",
     "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
   },
@@ -1125,6 +1172,14 @@
   "code.dashboardPreview.version": {
     "en": "Draft · version {version}",
     "context": "The exact draft version the user reviews.",
+    "params": {
+      "version": "The numeric draft version, such as 2."
+    },
+    "file": "packages/ui/src/screens/dashboardPreview/messages.ts"
+  },
+  "code.dashboardPreview.versionShort": {
+    "en": "Draft v{version}",
+    "context": "Short badge of the draft version on a phone, beside the dashboard picker.",
     "params": {
       "version": "The numeric draft version, such as 2."
     },

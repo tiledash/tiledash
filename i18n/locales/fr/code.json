@@ -815,6 +815,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.applied": {
+    "text": "Appliqué",
+    "source": "0c79a9c222",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.appliedHelp": {
+    "text": "Appliqué par votre assistant : vos écrans l’affichent maintenant. D’autres modifications demandent un nouveau brouillon.",
+    "source": "13c738f1c2",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.approval": {
     "text": "Pour utiliser ce tableau de bord, dites à votre assistant : « Applique la version {version} du brouillon ».",
     "source": "954455487f",
@@ -845,9 +857,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.dashboardPreview.expires": {
-    "text": "Expiration du lien : {date}",
-    "source": "9f16d759f7",
+  "code.dashboardPreview.details": {
+    "text": "Détails",
+    "source": "45989de49f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.empty": {
+    "text": "Pas encore de brouillon",
+    "source": "44f33698bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.emptyHelp": {
+    "text": "Cette page affiche les brouillons de tableau de bord de votre assistant dès qu’il en crée un, et suit chaque enregistrement.",
+    "source": "a60f0ce698",
     "by": "ai",
     "reviewed": false
   },
@@ -863,15 +887,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.lasts": {
+    "text": "Ce lien reste le même pour votre connexion IA et expire après une heure sans utilisation.",
+    "source": "f282a90e44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.live": {
+    "text": "En direct · lecture seule",
+    "source": "569d1bcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveHelp": {
+    "text": "Un de vos tableaux de bord en direct qu’un brouillon ouvre, tel qu’il est maintenant.",
+    "source": "315eadbc51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveShort": {
+    "text": "En direct",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.loading": {
     "text": "Chargement de l’aperçu du tableau de bord",
     "source": "47c4faa4cb",
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.notInPreview": {
+    "text": "Ce tableau de bord ne fait pas partie de cet aperçu",
+    "source": "7dd5d31249",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.phone": {
     "text": "Téléphone",
     "source": "63dceb8800",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.picker": {
+    "text": "Tableaux de bord de cet aperçu",
+    "source": "19a951b56b",
     "by": "ai",
     "reviewed": false
   },
@@ -918,8 +978,8 @@
     "reviewed": false
   },
   "code.dashboardPreview.unavailableHelp": {
-    "text": "Le lien a peut-être expiré, le brouillon a été appliqué ou abandonné, ou la connexion à l’IA a été coupée. Demandez un nouvel aperçu à votre assistant.",
-    "source": "8dda464769",
+    "text": "Le lien expire après une heure sans utilisation, ou quand la connexion IA prend fin. Redemandez le lien d’aperçu à votre assistant.",
+    "source": "7f279697e7",
     "by": "ai",
     "reviewed": false
   },
@@ -932,6 +992,12 @@
   "code.dashboardPreview.version": {
     "text": "Brouillon · version {version}",
     "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.versionShort": {
+    "text": "Brouillon v{version}",
+    "source": "0a11592104",
     "by": "ai",
     "reviewed": false
   },

@@ -815,6 +815,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.applied": {
+    "text": "Angewendet",
+    "source": "0c79a9c222",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.appliedHelp": {
+    "text": "Über Ihren Assistenten angewendet: Ihre Bildschirme zeigen das jetzt. Weitere Änderungen brauchen einen neuen Entwurf.",
+    "source": "13c738f1c2",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.approval": {
     "text": "Bitten Sie Ihren Assistenten, dieses Dashboard zu verwenden: „Entwurfsversion {version} anwenden“.",
     "source": "954455487f",
@@ -845,9 +857,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "code.dashboardPreview.expires": {
-    "text": "Link läuft ab: {date}",
-    "source": "9f16d759f7",
+  "code.dashboardPreview.details": {
+    "text": "Details",
+    "source": "45989de49f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.empty": {
+    "text": "Noch keine Entwürfe",
+    "source": "44f33698bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.emptyHelp": {
+    "text": "Diese Seite zeigt die Dashboard-Entwürfe Ihres Assistenten, sobald er einen erstellt, und folgt jedem Speichern.",
+    "source": "a60f0ce698",
     "by": "ai",
     "reviewed": false
   },
@@ -863,15 +887,51 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.lasts": {
+    "text": "Dieser Link bleibt für Ihre KI-Verbindung gleich und endet nach einer Stunde ohne Nutzung.",
+    "source": "f282a90e44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.live": {
+    "text": "Live · nur lesen",
+    "source": "569d1bcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveHelp": {
+    "text": "Eines Ihrer Live-Dashboards, das ein Entwurf öffnet, so wie es jetzt ist.",
+    "source": "315eadbc51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.liveShort": {
+    "text": "Live",
+    "source": "b64ac05f17",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.loading": {
     "text": "Dashboard-Vorschau wird geladen",
     "source": "47c4faa4cb",
     "by": "ai",
     "reviewed": false
   },
+  "code.dashboardPreview.notInPreview": {
+    "text": "Dieses Dashboard gehört nicht zu dieser Vorschau",
+    "source": "7dd5d31249",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.dashboardPreview.phone": {
     "text": "Telefon",
     "source": "63dceb8800",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.picker": {
+    "text": "Dashboards in dieser Vorschau",
+    "source": "19a951b56b",
     "by": "ai",
     "reviewed": false
   },
@@ -918,8 +978,8 @@
     "reviewed": false
   },
   "code.dashboardPreview.unavailableHelp": {
-    "text": "Der Link ist möglicherweise abgelaufen, der Entwurf wurde angewendet oder verworfen, oder die KI-Verbindung wurde getrennt. Bitten Sie Ihren Assistenten um eine neue Vorschau.",
-    "source": "8dda464769",
+    "text": "Der Link endet nach einer Stunde ohne Nutzung oder wenn die KI-Verbindung endet. Bitten Sie Ihren Assistenten erneut um den Vorschaulink.",
+    "source": "7f279697e7",
     "by": "ai",
     "reviewed": false
   },
@@ -932,6 +992,12 @@
   "code.dashboardPreview.version": {
     "text": "Entwurf · Version {version}",
     "source": "71ce48d051",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.dashboardPreview.versionShort": {
+    "text": "Entwurf v{version}",
+    "source": "0a11592104",
     "by": "ai",
     "reviewed": false
   },
