@@ -875,6 +875,66 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTab.badge": {
+    "text": "Badge",
+    "source": "002474e368",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeAlert": {
+    "text": "Comme alerte, qui pulse",
+    "source": "168780ffcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeNone": {
+    "text": "Aucun",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeOn": {
+    "text": "Tuiles allumées",
+    "source": "bf3601978f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeWhen": {
+    "text": "Tant que…",
+    "source": "3a010c2b84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colour": {
+    "text": "Couleur",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colourLabel": {
+    "text": "Couleur de l’onglet",
+    "source": "8737fa3ba0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.open": {
+    "text": "S’ouvrir seule",
+    "source": "fb523cb3f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openHint": {
+    "text": "Pas dans les 30 secondes après un toucher de l’écran, ni pour ce qui est déjà vrai à l’ouverture du tableau de bord.",
+    "source": "04ab98da87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openWhen": {
+    "text": "Ouvrir cette page quand…",
+    "source": "a4e9c49daa",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.add": {
     "text": "Ajouter une page",
     "source": "ca18fd7475",
@@ -893,9 +953,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.menuLink": {
+    "text": "Copier un lien vers cet onglet",
+    "source": "192eb40c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.menuRename": {
     "text": "Nom et icône…",
     "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.menuTab": {
+    "text": "Son onglet…",
+    "source": "a269616e6e",
     "by": "ai",
     "reviewed": false
   },
@@ -1022,6 +1094,12 @@
   "editor.childTilesDialogs.removeTitle": {
     "text": "{count, plural, =0 {Retirer la page « {page} » ?} one {Retirer la page « {page} » et sa tuile ?} other {Retirer la page « {page} » et ses # tuiles ?}}",
     "source": "a792ccef99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childTilesDialogs.tabTitle": {
+    "text": "L’onglet de {page}",
+    "source": "6c859e5bd0",
     "by": "ai",
     "reviewed": false
   },
@@ -2642,6 +2720,24 @@
   "editor.devicesPicker.wrongKind": {
     "text": "N’est plus le bon type d’appareil",
     "source": "ce6496e268",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.describe": {
+    "text": "{label}{selected, select, yes {, sélectionnée} other {}}. Ancrée {edge, select, top {en haut} bottom {en bas} left {à gauche} other {à droite}}.",
+    "source": "ad5beb28a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.height": {
+    "text": "Hauteur de {label}",
+    "source": "23e720eef6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.width": {
+    "text": "Largeur de {label}",
+    "source": "64907c8203",
     "by": "ai",
     "reviewed": false
   },
@@ -8855,6 +8951,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.wordWidgetStyle": {
+    "text": "style propre du widget",
+    "source": "0600b3a528",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresets.countOfMax": {
     "text": "{count} sur {max}",
     "source": "60ed39d6eb",
@@ -8918,6 +9020,114 @@
   "editor.stylePresets.yourPresets": {
     "text": "Vos préréglages",
     "source": "e83f1426dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.add": {
+    "text": "Ajouter une variable de style",
+    "source": "660b85cd16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.fromBase": {
+    "text": "Elles viennent du widget dont il est tiré ; modifiez-en une pour qu’elles deviennent les siennes.",
+    "source": "273dfdd6ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kind": {
+    "text": "Type",
+    "source": "f5387f9bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindBoolean": {
+    "text": "Oui ou non",
+    "source": "2191a9d9fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindChoice": {
+    "text": "Choix",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindColor": {
+    "text": "Couleur",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindNumber": {
+    "text": "Nombre",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindPadding": {
+    "text": "Marge intérieure",
+    "source": "ee0d7af0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindRadius": {
+    "text": "Coins",
+    "source": "1d3cc47e20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindSize": {
+    "text": "Taille (px)",
+    "source": "2c1cb5c678",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.label": {
+    "text": "Libellé",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.lead": {
+    "text": "Chacune apparaît dans la boîte de style de chaque tuile de ce widget, sous son propre onglet. Votre style la lit comme {example}.",
+    "source": "d85d501e88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.newLabel": {
+    "text": "Fond",
+    "source": "ea2b8a8788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.optionsHint": {
+    "text": "Un choix reçoit ses options dans le manifeste du widget ; ici il commence avec deux.",
+    "source": "f66de1e65d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.remove": {
+    "text": "Retirer {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.section": {
+    "text": "Titre",
+    "source": "b34f17f02e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.title": {
+    "text": "Variables de style",
+    "source": "de29a83af1",
     "by": "ai",
     "reviewed": false
   },
@@ -9242,6 +9452,18 @@
   "editor.tapSettings.whenTapped": {
     "text": "Lors d’un appui",
     "source": "83b4946484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.description": {
+    "text": "Ajouter un widget à {page}",
+    "source": "acb2c04a72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.label": {
+    "text": "Widget",
+    "source": "7dd7a28c2f",
     "by": "ai",
     "reviewed": false
   },
@@ -9941,6 +10163,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.linkCopied": {
+    "text": "Lien vers cet onglet copié",
+    "source": "46c213d844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.linkNotCopied": {
+    "text": "Impossible de copier le lien",
+    "source": "da5f22732b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moveFailed": {
     "text": "Impossible de déplacer la page.",
     "source": "802ca57f88",
@@ -10010,6 +10244,12 @@
   "editor.useChildTilesWindow.setupFailed": {
     "text": "Impossible de préparer les pages.",
     "source": "043f698c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.tabFailed": {
+    "text": "Impossible d’enregistrer l’onglet de la page.",
+    "source": "3d7a4cb5ec",
     "by": "ai",
     "reviewed": false
   },
@@ -12419,6 +12659,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.hintDismiss": {
+    "text": "Compris",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.leadChart": {
     "text": "Le petit graphique d’historique affiché sur la tuile.",
     "source": "aadb6bd4c4",
@@ -12497,6 +12743,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.sizeHint": {
+    "text": "{names} peut différer selon la taille d’écran ; une taille que vous ne touchez pas suit Ordinateur. Les autres réglages sont les mêmes partout.",
+    "source": "d3134f7e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintText": {
+    "text": "{names} peut être différent sur chaque écran. Choisissez ici Tablette ou Téléphone pour le régler pour cet écran seulement ; une taille que vous ne touchez pas suit Ordinateur.",
+    "source": "5dd103e54b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTitle": {
+    "text": "Différent sur chaque écran",
+    "source": "9c88dd8216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTry": {
+    "text": "Essayer {size}",
+    "source": "4e2c7936f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeLabel": {
+    "text": "Réglages pour",
+    "source": "12d07e26f5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.style": {
     "text": "Style…",
     "source": "64e6d4252e",
@@ -12512,6 +12788,72 @@
   "editor.widgetSettings.whenToShow": {
     "text": "Quand afficher",
     "source": "f09baec103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintDismiss": {
+    "text": "Compris",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintText": {
+    "text": "Certains widgets vous laissent styliser ici leurs propres parties, comme les onglets et les pages d’une pile. Les autres onglets stylisent la tuile autour.",
+    "source": "9372290a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintTitle": {
+    "text": "Ce widget a son propre style",
+    "source": "18f97d074b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.lead": {
+    "text": "Un style à lui, tel que {widget} le propose. Ce que vous ne touchez pas suit le thème.",
+    "source": "9d20491e23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.mixed": {
+    "text": "Mixte",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.no": {
+    "text": "Non",
+    "source": "1ea442a134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.reset": {
+    "text": "Réinitialiser",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.resetLabel": {
+    "text": "Réinitialiser {name}",
+    "source": "6d0b81a338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.round": {
+    "text": "Rond",
+    "source": "cd9558acfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.themes": {
+    "text": "Selon le thème",
+    "source": "000dc3e4cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.yes": {
+    "text": "Oui",
+    "source": "85a39ab345",
     "by": "ai",
     "reviewed": false
   },

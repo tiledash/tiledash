@@ -875,6 +875,66 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTab.badge": {
+    "text": "Märke",
+    "source": "002474e368",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeAlert": {
+    "text": "Som varning, pulserande",
+    "source": "168780ffcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeNone": {
+    "text": "Inget",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeOn": {
+    "text": "Rutor som är på",
+    "source": "bf3601978f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeWhen": {
+    "text": "Så länge…",
+    "source": "3a010c2b84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colour": {
+    "text": "Färg",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colourLabel": {
+    "text": "Flikens färg",
+    "source": "8737fa3ba0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.open": {
+    "text": "Öppna av sig själv",
+    "source": "fb523cb3f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openHint": {
+    "text": "Inte inom 30 sekunder efter att någon rört skärmen, och inte för det som redan gäller när dashboarden öppnas.",
+    "source": "04ab98da87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openWhen": {
+    "text": "Öppna den här sidan när…",
+    "source": "a4e9c49daa",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.add": {
     "text": "Lägg till en sida",
     "source": "ca18fd7475",
@@ -893,9 +953,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.menuLink": {
+    "text": "Kopiera en länk till den här fliken",
+    "source": "192eb40c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.menuRename": {
     "text": "Namn och ikon…",
     "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.menuTab": {
+    "text": "Dess flik…",
+    "source": "a269616e6e",
     "by": "ai",
     "reviewed": false
   },
@@ -1022,6 +1094,12 @@
   "editor.childTilesDialogs.removeTitle": {
     "text": "{count, plural, =0 {Ta bort {page}?} one {Ta bort {page} och dess ruta?} other {Ta bort {page} och dess # rutor?}}",
     "source": "a792ccef99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childTilesDialogs.tabTitle": {
+    "text": "Fliken för {page}",
+    "source": "6c859e5bd0",
     "by": "ai",
     "reviewed": false
   },
@@ -2642,6 +2720,24 @@
   "editor.devicesPicker.wrongKind": {
     "text": "Inte längre rätt sorts enhet",
     "source": "ce6496e268",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.describe": {
+    "text": "{selected, select, yes {{label}, markerad.} other {{label}.}} Fäst {edge, select, top {överst} bottom {nederst} left {till vänster} other {till höger}}.",
+    "source": "ad5beb28a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.height": {
+    "text": "Höjd på {label}",
+    "source": "23e720eef6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.width": {
+    "text": "Bredd på {label}",
+    "source": "64907c8203",
     "by": "ai",
     "reviewed": false
   },
@@ -8855,6 +8951,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.wordWidgetStyle": {
+    "text": "widgetens egen stil",
+    "source": "0600b3a528",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresets.countOfMax": {
     "text": "{count} av {max}",
     "source": "60ed39d6eb",
@@ -8918,6 +9020,114 @@
   "editor.stylePresets.yourPresets": {
     "text": "Dina förinställningar",
     "source": "e83f1426dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.add": {
+    "text": "Lägg till en stilvariabel",
+    "source": "660b85cd16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.fromBase": {
+    "text": "De kommer från widgeten den bygger på; ändra en för att göra dem till dess egna.",
+    "source": "273dfdd6ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kind": {
+    "text": "Typ",
+    "source": "f5387f9bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindBoolean": {
+    "text": "Ja eller nej",
+    "source": "2191a9d9fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindChoice": {
+    "text": "Val",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindColor": {
+    "text": "Färg",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindNumber": {
+    "text": "Tal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindPadding": {
+    "text": "Luft inuti",
+    "source": "ee0d7af0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindRadius": {
+    "text": "Hörn",
+    "source": "1d3cc47e20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindSize": {
+    "text": "Storlek (px)",
+    "source": "2c1cb5c678",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.label": {
+    "text": "Etikett",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.lead": {
+    "text": "Var och en visas i stilfönstret för varje ruta med den här widgeten, under en egen flik. Din stil läser den som {example}.",
+    "source": "d85d501e88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.name": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.newLabel": {
+    "text": "Bakgrund",
+    "source": "ea2b8a8788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.optionsHint": {
+    "text": "Ett val får sina alternativ i widgetens manifest; här börjar det med två.",
+    "source": "f66de1e65d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.remove": {
+    "text": "Ta bort {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.section": {
+    "text": "Rubrik",
+    "source": "b34f17f02e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.title": {
+    "text": "Stilvariabler",
+    "source": "de29a83af1",
     "by": "ai",
     "reviewed": false
   },
@@ -9242,6 +9452,18 @@
   "editor.tapSettings.whenTapped": {
     "text": "Vid tryck",
     "source": "83b4946484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.description": {
+    "text": "Lägg till en widget i {page}",
+    "source": "acb2c04a72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.label": {
+    "text": "Widget",
+    "source": "7dd7a28c2f",
     "by": "ai",
     "reviewed": false
   },
@@ -9941,6 +10163,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.linkCopied": {
+    "text": "Länk till den här fliken kopierad",
+    "source": "46c213d844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.linkNotCopied": {
+    "text": "Det gick inte att kopiera länken",
+    "source": "da5f22732b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moveFailed": {
     "text": "Det gick inte att flytta sidan.",
     "source": "802ca57f88",
@@ -10010,6 +10244,12 @@
   "editor.useChildTilesWindow.setupFailed": {
     "text": "Det gick inte att skapa sidorna.",
     "source": "043f698c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.tabFailed": {
+    "text": "Det gick inte att spara sidans flik.",
+    "source": "3d7a4cb5ec",
     "by": "ai",
     "reviewed": false
   },
@@ -12419,6 +12659,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.hintDismiss": {
+    "text": "Uppfattat",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.leadChart": {
     "text": "Det lilla historikdiagrammet på rutan.",
     "source": "aadb6bd4c4",
@@ -12497,6 +12743,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.sizeHint": {
+    "text": "{names} kan skilja sig per skärmstorlek; en storlek du inte ändrar följer Dator. De andra inställningarna är lika på alla storlekar.",
+    "source": "d3134f7e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintText": {
+    "text": "{names} kan vara olika på varje skärm. Välj Surfplatta eller Mobil här för att ställa in det bara för den skärmen; en storlek du inte ändrar följer Dator.",
+    "source": "5dd103e54b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTitle": {
+    "text": "Olika på varje skärm",
+    "source": "9c88dd8216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTry": {
+    "text": "Prova {size}",
+    "source": "4e2c7936f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeLabel": {
+    "text": "Inställningar för",
+    "source": "12d07e26f5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.style": {
     "text": "Stil…",
     "source": "64e6d4252e",
@@ -12512,6 +12788,72 @@
   "editor.widgetSettings.whenToShow": {
     "text": "När den ska visas",
     "source": "f09baec103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintDismiss": {
+    "text": "Uppfattat",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintText": {
+    "text": "Vissa widgetar låter dig styla sina egna delar här, som flikarna och sidorna i en stapel. De andra flikarna stylar rutan runt omkring.",
+    "source": "9372290a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintTitle": {
+    "text": "Den här widgeten har egen stil",
+    "source": "18f97d074b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.lead": {
+    "text": "Egen stil, så som {widget} erbjuder den. Det du inte ändrar följer temat.",
+    "source": "9d20491e23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.mixed": {
+    "text": "Blandat",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.no": {
+    "text": "Nej",
+    "source": "1ea442a134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.reset": {
+    "text": "Återställ",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.resetLabel": {
+    "text": "Återställ {name}",
+    "source": "6d0b81a338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.round": {
+    "text": "Rund",
+    "source": "cd9558acfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.themes": {
+    "text": "Enligt temat",
+    "source": "000dc3e4cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.yes": {
+    "text": "Ja",
+    "source": "85a39ab345",
     "by": "ai",
     "reviewed": false
   },

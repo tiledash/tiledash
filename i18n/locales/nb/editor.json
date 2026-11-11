@@ -875,6 +875,66 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTab.badge": {
+    "text": "Merke",
+    "source": "002474e368",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeAlert": {
+    "text": "Som varsel, pulserende",
+    "source": "168780ffcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeNone": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeOn": {
+    "text": "Fliser som er på",
+    "source": "bf3601978f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeWhen": {
+    "text": "Så lenge…",
+    "source": "3a010c2b84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colour": {
+    "text": "Farge",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colourLabel": {
+    "text": "Fanens farge",
+    "source": "8737fa3ba0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.open": {
+    "text": "Åpne av seg selv",
+    "source": "fb523cb3f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openHint": {
+    "text": "Ikke innen 30 sekunder etter at noen rørte skjermen, og ikke for det som allerede gjelder når dashbordet åpnes.",
+    "source": "04ab98da87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openWhen": {
+    "text": "Åpne denne siden når…",
+    "source": "a4e9c49daa",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.add": {
     "text": "Legg til en side",
     "source": "ca18fd7475",
@@ -893,9 +953,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.menuLink": {
+    "text": "Kopier en lenke til denne fanen",
+    "source": "192eb40c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.menuRename": {
     "text": "Navn og ikon…",
     "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.menuTab": {
+    "text": "Fanen…",
+    "source": "a269616e6e",
     "by": "ai",
     "reviewed": false
   },
@@ -1022,6 +1094,12 @@
   "editor.childTilesDialogs.removeTitle": {
     "text": "{count, plural, =0 {Fjerne {page}?} one {Fjerne {page} og flisen på den?} other {Fjerne {page} og de # flisene på den?}}",
     "source": "a792ccef99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childTilesDialogs.tabTitle": {
+    "text": "Fanen til {page}",
+    "source": "6c859e5bd0",
     "by": "ai",
     "reviewed": false
   },
@@ -2642,6 +2720,24 @@
   "editor.devicesPicker.wrongKind": {
     "text": "Ikke lenger riktig type enhet",
     "source": "ce6496e268",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.describe": {
+    "text": "{selected, select, yes {{label}, valgt.} other {{label}.}} Festet {edge, select, top {øverst} bottom {nederst} left {til venstre} other {til høyre}}.",
+    "source": "ad5beb28a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.height": {
+    "text": "Høyde på {label}",
+    "source": "23e720eef6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.width": {
+    "text": "Bredde på {label}",
+    "source": "64907c8203",
     "by": "ai",
     "reviewed": false
   },
@@ -8855,6 +8951,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.wordWidgetStyle": {
+    "text": "widgetens egen stil",
+    "source": "0600b3a528",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresets.countOfMax": {
     "text": "{count} av {max}",
     "source": "60ed39d6eb",
@@ -8918,6 +9020,114 @@
   "editor.stylePresets.yourPresets": {
     "text": "Malene dine",
     "source": "e83f1426dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.add": {
+    "text": "Legg til en stilvariabel",
+    "source": "660b85cd16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.fromBase": {
+    "text": "Disse kommer fra widgeten den bygger på; endre en for å gjøre dem til dens egne.",
+    "source": "273dfdd6ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kind": {
+    "text": "Type",
+    "source": "f5387f9bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindBoolean": {
+    "text": "Ja eller nei",
+    "source": "2191a9d9fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindChoice": {
+    "text": "Valg",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindColor": {
+    "text": "Farge",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindNumber": {
+    "text": "Tall",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindPadding": {
+    "text": "Innvendig luft",
+    "source": "ee0d7af0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindRadius": {
+    "text": "Hjørner",
+    "source": "1d3cc47e20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindSize": {
+    "text": "Størrelse (px)",
+    "source": "2c1cb5c678",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.label": {
+    "text": "Etikett",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.lead": {
+    "text": "Hver vises i stilvinduet til hver flis med denne widgeten, under en egen fane. Stilen din leser den som {example}.",
+    "source": "d85d501e88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.name": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.newLabel": {
+    "text": "Bakgrunn",
+    "source": "ea2b8a8788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.optionsHint": {
+    "text": "Et valg får alternativene sine i widgetens manifest; her starter det med to.",
+    "source": "f66de1e65d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.remove": {
+    "text": "Fjern {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.section": {
+    "text": "Overskrift",
+    "source": "b34f17f02e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.title": {
+    "text": "Stilvariabler",
+    "source": "de29a83af1",
     "by": "ai",
     "reviewed": false
   },
@@ -9242,6 +9452,18 @@
   "editor.tapSettings.whenTapped": {
     "text": "Ved trykk",
     "source": "83b4946484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.description": {
+    "text": "Legg til en widget i {page}",
+    "source": "acb2c04a72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.label": {
+    "text": "Widget",
+    "source": "7dd7a28c2f",
     "by": "ai",
     "reviewed": false
   },
@@ -9941,6 +10163,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.linkCopied": {
+    "text": "Lenke til denne fanen kopiert",
+    "source": "46c213d844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.linkNotCopied": {
+    "text": "Kunne ikke kopiere lenken",
+    "source": "da5f22732b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moveFailed": {
     "text": "Kunne ikke flytte siden.",
     "source": "802ca57f88",
@@ -10010,6 +10244,12 @@
   "editor.useChildTilesWindow.setupFailed": {
     "text": "Kunne ikke sette opp sidene.",
     "source": "043f698c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.tabFailed": {
+    "text": "Kunne ikke lagre sidens fane.",
+    "source": "3d7a4cb5ec",
     "by": "ai",
     "reviewed": false
   },
@@ -12419,6 +12659,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.hintDismiss": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.leadChart": {
     "text": "Det lille historikkdiagrammet på flisen.",
     "source": "aadb6bd4c4",
@@ -12497,6 +12743,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.sizeHint": {
+    "text": "{names} kan være ulik for hver skjermstørrelse; en størrelse du ikke endrer, følger Datamaskin. De andre innstillingene er like på alle størrelser.",
+    "source": "d3134f7e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintText": {
+    "text": "{names} kan være ulik på hver skjerm. Velg Nettbrett eller Telefon her for å stille det inn bare for den skjermen; en størrelse du ikke endrer, følger Datamaskin.",
+    "source": "5dd103e54b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTitle": {
+    "text": "Ulik på hver skjerm",
+    "source": "9c88dd8216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTry": {
+    "text": "Prøv {size}",
+    "source": "4e2c7936f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeLabel": {
+    "text": "Innstillinger for",
+    "source": "12d07e26f5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.style": {
     "text": "Stil…",
     "source": "64e6d4252e",
@@ -12512,6 +12788,72 @@
   "editor.widgetSettings.whenToShow": {
     "text": "Når den vises",
     "source": "f09baec103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintDismiss": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintText": {
+    "text": "Noen widgeter lar deg style sine egne deler her, som fanene og sidene i en stabel. De andre fanene styler flisen rundt.",
+    "source": "9372290a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintTitle": {
+    "text": "Denne widgeten har egen stil",
+    "source": "18f97d074b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.lead": {
+    "text": "Egen stil, slik {widget} tilbyr den. Det du ikke endrer, følger temaet.",
+    "source": "9d20491e23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.mixed": {
+    "text": "Blandet",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.no": {
+    "text": "Nei",
+    "source": "1ea442a134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.reset": {
+    "text": "Tilbakestill",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.resetLabel": {
+    "text": "Tilbakestill {name}",
+    "source": "6d0b81a338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.round": {
+    "text": "Rund",
+    "source": "cd9558acfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.themes": {
+    "text": "Etter temaet",
+    "source": "000dc3e4cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.yes": {
+    "text": "Ja",
+    "source": "85a39ab345",
     "by": "ai",
     "reviewed": false
   },

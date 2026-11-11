@@ -927,6 +927,66 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdChartSettings.messages.ts"
   },
+  "editor.childPageTab.badge": {
+    "en": "Badge",
+    "context": "Heading: a small count or dot on the page’s tab.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.badgeAlert": {
+    "en": "As an alert, pulsing",
+    "context": "Switch: the dot is in the alert colour and pulses, for something that needs attention.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.badgeNone": {
+    "en": "None",
+    "context": "Badge choice: no badge on the tab.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.badgeOn": {
+    "en": "Tiles that are on",
+    "context": "Badge choice: the tab shows how many of the page’s tiles are on (lights on, music playing).",
+    "maxLength": 28,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.badgeWhen": {
+    "en": "While…",
+    "context": "Badge choice: the tab shows a dot while conditions below hold.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.colour": {
+    "en": "Colour",
+    "context": "Heading: the tab’s own colour.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.colourLabel": {
+    "en": "Colour of its tab",
+    "context": "Screen-reader name of the colour choices for the page’s tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.open": {
+    "en": "Open by itself",
+    "context": "Heading: the page turning up by itself.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.openHint": {
+    "en": "Not within 30 seconds of someone touching the screen, and not for what already holds when the dashboard opens.",
+    "context": "Line under the switch that opens a page by itself.",
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
+  "editor.childPageTab.openWhen": {
+    "en": "Open this page when…",
+    "context": "Switch: the page turns up by itself when the conditions below start to hold, for example the doorbell rings.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdChildPageTabSettings.messages.ts"
+  },
   "editor.childPageTabs.add": {
     "en": "Add a page",
     "context": "Label and tooltip of the plus button after the page tabs of a Stack: adds another page. A command.",
@@ -948,9 +1008,21 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
   },
+  "editor.childPageTabs.menuLink": {
+    "en": "Copy a link to this tab",
+    "context": "Item of the menu of a page tab of a Stack: copies an address that opens the dashboard with the stack on this page.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
   "editor.childPageTabs.menuRename": {
     "en": "Name and icon…",
     "context": "Item of the menu of a page tab of a Stack: opens the dialog to change the page’s name and icon. A command; the dots say a dialog follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
+  "editor.childPageTabs.menuTab": {
+    "en": "Its tab…",
+    "context": "Item of the menu of a page tab of a Stack: opens the dialog for the tab itself: a badge on it, the page opening by itself, its colour. A command; the dots say a dialog follows.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
   },
@@ -1091,6 +1163,15 @@
       "page": "The name of the page. The owner’s own name, not translated."
     },
     "maxLength": 160,
+    "file": "apps/web/src/dashboards/childTiles/ChildTilesWindow.messages.ts"
+  },
+  "editor.childTilesDialogs.tabTitle": {
+    "en": "The tab of {page}",
+    "context": "Title of the dialog where the person sets up the tab of a page of a Stack: a badge on it, the page opening by itself, its colour.",
+    "params": {
+      "page": "The name of the page. The owner’s own name, not translated."
+    },
+    "maxLength": 70,
     "file": "apps/web/src/dashboards/childTiles/ChildTilesWindow.messages.ts"
   },
   "editor.childTilesDialogs.whenTitle": {
@@ -2890,6 +2971,35 @@
     "context": "Reason shown in small warning text under a picked device that no longer fits the tile, when no more specific reason is known: the device changed so it is not the kind of device the tile needs any more.",
     "maxLength": 70,
     "file": "packages/ui/src/dashboard/devicesPicker.messages.ts"
+  },
+  "editor.docks.describe": {
+    "en": "{selected, select, yes {{label}, selected.} other {{label}.}} Docked {edge, select, top {at the top} bottom {at the bottom} left {on the left} other {on the right}}.",
+    "context": "Description of a docked tile in edit mode, read out by screen readers when it is focused: its name, whether it is selected and which edge of the dashboard it is docked on. Not visible as text.",
+    "params": {
+      "edge": "The edge it is docked on: top, bottom, left or right.",
+      "label": "The name of the tile. Not translated.",
+      "selected": "\"yes\" while the tile is selected, \"no\" otherwise."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdDocks.messages.ts"
+  },
+  "editor.docks.height": {
+    "en": "Height of {label}",
+    "context": "Screen-reader name of the grip on the inner edge of a tile docked at the top or bottom, which changes its height in grid rows (drag it, or use the arrow keys).",
+    "params": {
+      "label": "The name of the tile. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDocks.messages.ts"
+  },
+  "editor.docks.width": {
+    "en": "Width of {label}",
+    "context": "Screen-reader name of the grip on the inner edge of a tile docked on a side, which changes its width in grid columns (drag it, or use the arrow keys).",
+    "params": {
+      "label": "The name of the tile. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDocks.messages.ts"
   },
   "editor.energyExample.charge": {
     "en": "Charge",
@@ -9877,6 +9987,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/stylePresets/stylePresetViews.messages.ts"
   },
+  "editor.stylePresetViews.wordWidgetStyle": {
+    "en": "widget styling",
+    "context": "One item in a list of what a tile changed on top of its preset: the widget’s own styling (its own style tab, such as a Stack’s tabs). Lowercase, a noun.",
+    "maxLength": 32,
+    "file": "packages/ui/src/dashboard/stylePresets/stylePresetViews.messages.ts"
+  },
   "editor.stylePresets.countOfMax": {
     "en": "{count} of {max}",
     "context": "Small counter next to the heading \"Your presets\": how many presets the person has out of the most they may have, such as \"3 of 50\".",
@@ -9955,6 +10071,120 @@
     "context": "Heading above the list of the person’s saved presets.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/stylePresets/HdStylePresets.messages.ts"
+  },
+  "editor.styleVariables.add": {
+    "en": "Add a style variable",
+    "context": "Button under the list that adds a new style variable to the widget.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.fromBase": {
+    "en": "These come from the widget it is based on; change one to make them its own.",
+    "context": "Line shown while the list is the base widget’s, not yet this copy’s own.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kind": {
+    "en": "Kind",
+    "context": "Field: which control it gets.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindBoolean": {
+    "en": "Yes or no",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindChoice": {
+    "en": "Choice",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindColor": {
+    "en": "Colour",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindNumber": {
+    "en": "Number",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindPadding": {
+    "en": "Padding",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindRadius": {
+    "en": "Corners",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.kindSize": {
+    "en": "Size (px)",
+    "context": "Kind of style variable.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.label": {
+    "en": "Label",
+    "context": "Field: what the Style dialog calls it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.lead": {
+    "en": "Each shows in the Style dialog of every tile of this widget, under its own tab. Your style reads it as {example}.",
+    "context": "Line under the heading. {example} is a bit of CSS, such as var(--hd-w-bar-bg, …).",
+    "params": {
+      "example": "A bit of CSS showing how to read one, not translated."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.name": {
+    "en": "Name",
+    "context": "Field: the name the style reads it by.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.newLabel": {
+    "en": "Background",
+    "context": "Label a new style variable starts with.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.optionsHint": {
+    "en": "A choice gets its options in the widget’s manifest; here it starts with two.",
+    "context": "Line under a Choice style variable.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.remove": {
+    "en": "Remove {name}",
+    "context": "Screen-reader name of the button that removes one style variable.",
+    "params": {
+      "name": "The variable’s label."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.section": {
+    "en": "Heading",
+    "context": "Field: the heading it sits under in the widget’s tab, e.g. Tab bar.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.styleVariables.title": {
+    "en": "Style variables",
+    "context": "Heading of the list.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
   },
   "editor.summaryTap.allOff": {
     "en": "All off",
@@ -10293,6 +10523,21 @@
     "context": "Label of the dropdown that chooses what happens when a part of a tile is tapped, when the part gives no name of its own for the gesture.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdTapSettings.messages.ts"
+  },
+  "editor.tileAdding.description": {
+    "en": "Add a widget to {page}",
+    "context": "Screen-reader name of the “+ Widget” button on a page of a Stack while the dashboard is edited: opens the widget picker to add a widget to that page.",
+    "params": {
+      "page": "The name of the page of the Stack, e.g. “Living room”. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/tileAdding.messages.ts"
+  },
+  "editor.tileAdding.label": {
+    "en": "Widget",
+    "context": "Short button text after a “+” at the bottom right of a page of a Stack while the dashboard is edited: adds a widget to that page. Keep it one short word.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/tileAdding.messages.ts"
   },
   "editor.tileCss.atRuleNotAllowed": {
     "en": "@{name} is not allowed in a tile’s CSS",
@@ -11054,6 +11299,18 @@
     "maxLength": 80,
     "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
   },
+  "editor.useChildTilesWindow.linkCopied": {
+    "en": "Link to this tab copied",
+    "context": "Notification (toast) after copying an address that opens the dashboard with a Stack on one of its pages.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
+  },
+  "editor.useChildTilesWindow.linkNotCopied": {
+    "en": "Couldn’t copy the link",
+    "context": "Notification (toast) when the browser didn’t let the link be copied.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
+  },
   "editor.useChildTilesWindow.moveFailed": {
     "en": "Couldn’t move the page.",
     "context": "Red notification (toast) when moving a page of a Stack to the left or right, or dragging it to another place among the pages, did not work, for example because the connection to Tiledash was lost.",
@@ -11133,6 +11390,12 @@
   "editor.useChildTilesWindow.setupFailed": {
     "en": "Couldn’t set up the pages.",
     "context": "Red notification (toast) when opening the tiles window of a widget with pages (such as a Stack) failed while making its first page, for example because the connection to Tiledash was lost.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
+  },
+  "editor.useChildTilesWindow.tabFailed": {
+    "en": "Couldn’t save the page’s tab.",
+    "context": "Red notification (toast) when saving the tab of a page of a Stack (its badge, opening by itself, its colour) did not work, for example because the connection to Tiledash was lost.",
     "maxLength": 60,
     "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
   },
@@ -13696,6 +13959,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },
+  "editor.widgetSettings.hintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes a one-time “Did you know?” tip in a tile’s settings: the one at the size switch, or one the widget itself gives about its settings.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
   "editor.widgetSettings.leadChart": {
     "en": "The small history chart on the tile.",
     "context": "Short line at the top of the Chart tab of a tile’s settings (tabs above the settings): a small chart of recent values drawn on the tile.",
@@ -13774,6 +14043,45 @@
     "maxLength": 18,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
   },
+  "editor.widgetSettings.sizeHint": {
+    "en": "{names} can differ per screen size; a size you leave alone follows Desktop. The other settings are the same on every size.",
+    "context": "Line under the size switch of a tile’s settings. {names} is a list of the settings that can differ per size, e.g. “Where, Tabs at”.",
+    "params": {
+      "names": "The labels of the settings that can differ per size, joined with commas."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.sizeHintText": {
+    "en": "{names} can be different on each screen. Pick Tablet or Phone here to set them for that screen only; a size you leave alone follows Desktop.",
+    "context": "Text of the one-time “Did you know?” tip at the size switch above a tile’s settings. For a Stack, {names} is e.g. “Where, Tabs at”: where it sits and where its tabs go can differ on a phone and a tablet.",
+    "params": {
+      "names": "The labels of the settings that can differ per size, joined with commas."
+    },
+    "maxLength": 220,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.sizeHintTitle": {
+    "en": "Different on each screen",
+    "context": "Title of a one-time “Did you know?” tip that points at the size switch above a tile’s settings (Desktop, Tablet, Phone).",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.sizeHintTry": {
+    "en": "Try {size}",
+    "context": "Button in the “Did you know?” tip at the size switch: switches the settings to that screen size so the person can try it.",
+    "params": {
+      "size": "The name of a screen size, “Tablet” or “Phone”, already translated."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetSettings.sizeLabel": {
+    "en": "Settings for",
+    "context": "Name of the switch above a tile’s settings that picks which screen size (Desktop, Tablet, Phone) the settings that can differ per size are for.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
   "editor.widgetSettings.style": {
     "en": "Style…",
     "context": "Button in the footer of the settings dialog of a tile. It opens the style panel where colours, fonts and the look of the tile are set. The dots mean it opens something else.",
@@ -13791,6 +14099,78 @@
     "context": "Name of the last tab of the settings of a tile, where the person sets when the tile is visible on the dashboard (always, or only under conditions). Also the heading of that part when there are no tabs.",
     "maxLength": 22,
     "file": "packages/ui/src/dashboard/HdWidgetSettings.messages.ts"
+  },
+  "editor.widgetStyleTab.hintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes the one-time tip for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.hintText": {
+    "en": "Some widgets let you style their own parts here, such as a Stack’s tabs and pages. The other tabs style the tile around it.",
+    "context": "Text of the one-time tip at the widget’s own style tab.",
+    "maxLength": 200,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.hintTitle": {
+    "en": "This widget has styling of its own",
+    "context": "Title of a one-time tip pointing at the style panel’s tab named after a widget, the first time such a tab shows.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.lead": {
+    "en": "Styling of its own, as {widget} offers it. Left alone, each follows the theme.",
+    "context": "Line at the top of the tab with a widget’s own styling. {widget} is the widget’s name, e.g. “Stack”.",
+    "params": {
+      "widget": "The widget’s name, as its maker wrote it, e.g. Stack."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.mixed": {
+    "en": "Mixed",
+    "context": "Shown beside a control when the selected tiles have different values for it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.no": {
+    "en": "No",
+    "context": "A yes-or-no style choice, off.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.reset": {
+    "en": "Reset",
+    "context": "Small button beside one control: takes the tile’s own value away, so the theme’s or the widget’s own applies again.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.resetLabel": {
+    "en": "Reset {name}",
+    "context": "Screen-reader name of the Reset button of one control. {name} is the control’s label.",
+    "params": {
+      "name": "The control’s label, as the widget’s maker wrote it, e.g. Background."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.round": {
+    "en": "Round",
+    "context": "A corners slider at its largest: fully rounded ends, like a pill.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.themes": {
+    "en": "By the theme",
+    "context": "What a control shows when the tile has no value of its own: the theme (or the widget) decides.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
+  },
+  "editor.widgetStyleTab.yes": {
+    "en": "Yes",
+    "context": "A yes-or-no style choice, on.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dashboard/HdWidgetStyleTab.messages.ts"
   },
   "editor.wizard.allLeftOut": {
     "en": "You left everything out. Tick something on the right, or start empty.",

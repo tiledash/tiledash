@@ -875,6 +875,66 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTab.badge": {
+    "text": "Badge",
+    "source": "002474e368",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeAlert": {
+    "text": "Als waarschuwing, pulserend",
+    "source": "168780ffcc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeNone": {
+    "text": "Geen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeOn": {
+    "text": "Tegels die aan zijn",
+    "source": "bf3601978f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.badgeWhen": {
+    "text": "Zolang…",
+    "source": "3a010c2b84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colour": {
+    "text": "Kleur",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.colourLabel": {
+    "text": "Kleur van de tab",
+    "source": "8737fa3ba0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.open": {
+    "text": "Vanzelf openen",
+    "source": "fb523cb3f8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openHint": {
+    "text": "Niet binnen 30 seconden nadat iemand het scherm aanraakte, en niet voor wat al geldt als het dashboard opent.",
+    "source": "04ab98da87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTab.openWhen": {
+    "text": "Deze pagina openen als…",
+    "source": "a4e9c49daa",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.add": {
     "text": "Pagina toevoegen",
     "source": "ca18fd7475",
@@ -893,9 +953,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.menuLink": {
+    "text": "Link naar deze tab kopiëren",
+    "source": "192eb40c29",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.menuRename": {
     "text": "Naam en icoon…",
     "source": "b13f9f464a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.menuTab": {
+    "text": "De tab…",
+    "source": "a269616e6e",
     "by": "ai",
     "reviewed": false
   },
@@ -1022,6 +1094,12 @@
   "editor.childTilesDialogs.removeTitle": {
     "text": "{count, plural, =0 {“{page}” verwijderen?} one {“{page}” en de tegel erop verwijderen?} other {“{page}” en de # tegels erop verwijderen?}}",
     "source": "a792ccef99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childTilesDialogs.tabTitle": {
+    "text": "De tab van {page}",
+    "source": "6c859e5bd0",
     "by": "ai",
     "reviewed": false
   },
@@ -2642,6 +2720,24 @@
   "editor.devicesPicker.wrongKind": {
     "text": "Niet meer het juiste soort apparaat",
     "source": "ce6496e268",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.describe": {
+    "text": "{selected, select, yes {{label}, geselecteerd.} other {{label}.}} Vastgezet {edge, select, top {bovenaan} bottom {onderaan} left {links} other {rechts}}.",
+    "source": "ad5beb28a8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.height": {
+    "text": "Hoogte van {label}",
+    "source": "23e720eef6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.docks.width": {
+    "text": "Breedte van {label}",
+    "source": "64907c8203",
     "by": "ai",
     "reviewed": false
   },
@@ -8855,6 +8951,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.stylePresetViews.wordWidgetStyle": {
+    "text": "eigen opmaak van de widget",
+    "source": "0600b3a528",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.stylePresets.countOfMax": {
     "text": "{count} van {max}",
     "source": "60ed39d6eb",
@@ -8918,6 +9020,114 @@
   "editor.stylePresets.yourPresets": {
     "text": "Je presets",
     "source": "e83f1426dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.add": {
+    "text": "Stijlvariabele toevoegen",
+    "source": "660b85cd16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.fromBase": {
+    "text": "Deze komen van de widget waarop hij gebaseerd is; pas er een aan om ze eigen te maken.",
+    "source": "273dfdd6ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kind": {
+    "text": "Soort",
+    "source": "f5387f9bb6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindBoolean": {
+    "text": "Ja of nee",
+    "source": "2191a9d9fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindChoice": {
+    "text": "Keuze",
+    "source": "efa0389ac6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindColor": {
+    "text": "Kleur",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindNumber": {
+    "text": "Getal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindPadding": {
+    "text": "Ruimte binnenin",
+    "source": "ee0d7af0bf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindRadius": {
+    "text": "Hoeken",
+    "source": "1d3cc47e20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.kindSize": {
+    "text": "Grootte (px)",
+    "source": "2c1cb5c678",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.label": {
+    "text": "Label",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.lead": {
+    "text": "Elk ervan staat in het stijlvenster van elke tegel van deze widget, onder een eigen tab. Je stijl leest het als {example}.",
+    "source": "d85d501e88",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.newLabel": {
+    "text": "Achtergrond",
+    "source": "ea2b8a8788",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.optionsHint": {
+    "text": "Een keuze krijgt zijn opties in het manifest van de widget; hier begint hij met twee.",
+    "source": "f66de1e65d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.remove": {
+    "text": "{name} verwijderen",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.section": {
+    "text": "Kop",
+    "source": "b34f17f02e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.styleVariables.title": {
+    "text": "Stijlvariabelen",
+    "source": "de29a83af1",
     "by": "ai",
     "reviewed": false
   },
@@ -9242,6 +9452,18 @@
   "editor.tapSettings.whenTapped": {
     "text": "Bij tikken",
     "source": "83b4946484",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.description": {
+    "text": "Een widget aan {page} toevoegen",
+    "source": "acb2c04a72",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.tileAdding.label": {
+    "text": "Widget",
+    "source": "7dd7a28c2f",
     "by": "ai",
     "reviewed": false
   },
@@ -9941,6 +10163,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.linkCopied": {
+    "text": "Link naar deze tab gekopieerd",
+    "source": "46c213d844",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.linkNotCopied": {
+    "text": "Kon de link niet kopiëren",
+    "source": "da5f22732b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moveFailed": {
     "text": "De pagina kon niet worden verplaatst.",
     "source": "802ca57f88",
@@ -10010,6 +10244,12 @@
   "editor.useChildTilesWindow.setupFailed": {
     "text": "De pagina’s konden niet worden aangemaakt.",
     "source": "043f698c1e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.tabFailed": {
+    "text": "Kon de tab van de pagina niet opslaan.",
+    "source": "3d7a4cb5ec",
     "by": "ai",
     "reviewed": false
   },
@@ -12419,6 +12659,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.hintDismiss": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.leadChart": {
     "text": "De kleine grafiek van eerdere waarden op de tegel.",
     "source": "aadb6bd4c4",
@@ -12497,6 +12743,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetSettings.sizeHint": {
+    "text": "{names} kan per schermformaat verschillen; een formaat dat je niet aanpast volgt Desktop. De andere instellingen zijn op elk formaat gelijk.",
+    "source": "d3134f7e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintText": {
+    "text": "{names} kan per scherm anders zijn. Kies hier Tablet of Telefoon om ze alleen voor dat scherm in te stellen; een formaat dat je niet aanpast volgt Desktop.",
+    "source": "5dd103e54b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTitle": {
+    "text": "Anders op elk scherm",
+    "source": "9c88dd8216",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeHintTry": {
+    "text": "Probeer {size}",
+    "source": "4e2c7936f3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetSettings.sizeLabel": {
+    "text": "Instellingen voor",
+    "source": "12d07e26f5",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetSettings.style": {
     "text": "Stijl…",
     "source": "64e6d4252e",
@@ -12512,6 +12788,72 @@
   "editor.widgetSettings.whenToShow": {
     "text": "Wanneer tonen",
     "source": "f09baec103",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintDismiss": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintText": {
+    "text": "Bij sommige widgets kun je hier hun eigen onderdelen opmaken, zoals de tabs en pagina’s van een stapel. De andere tabbladen maken de tegel eromheen op.",
+    "source": "9372290a99",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.hintTitle": {
+    "text": "Deze widget heeft een eigen opmaak",
+    "source": "18f97d074b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.lead": {
+    "text": "Eigen opmaak, zoals {widget} die biedt. Laat je iets met rust, dan volgt het het thema.",
+    "source": "9d20491e23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.mixed": {
+    "text": "Gemengd",
+    "source": "f340b6d6ed",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.no": {
+    "text": "Nee",
+    "source": "1ea442a134",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.reset": {
+    "text": "Herstellen",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.resetLabel": {
+    "text": "{name} herstellen",
+    "source": "6d0b81a338",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.round": {
+    "text": "Rond",
+    "source": "cd9558acfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.themes": {
+    "text": "Volgens het thema",
+    "source": "000dc3e4cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetStyleTab.yes": {
+    "text": "Ja",
+    "source": "85a39ab345",
     "by": "ai",
     "reviewed": false
   },
