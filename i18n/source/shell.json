@@ -345,6 +345,12 @@
     "maxLength": 14,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
+  "shell.layout.reload": {
+    "en": "Reload",
+    "context": "Button in the small message (toast) saying Tiledash was updated: it reloads the page, which starts the new version.",
+    "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
   "shell.layout.seeWhatsNew": {
     "en": "What’s new",
     "context": "Button in the small message (toast) saying there is a new version of Tiledash. It opens Settings › What’s new, the list of changes.",
@@ -421,6 +427,18 @@
     "en": "Undo",
     "context": "Button in the message (toast) that appears after a change to the sidebar, such as hiding a dashboard. It takes the change back.",
     "maxLength": 14,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.updated": {
+    "en": "Tiledash was updated",
+    "context": "Title of a small message (toast) in a corner of the app, shown when a new version of Tiledash was installed on the server while the app was open. It stays until the person reloads or closes it.",
+    "maxLength": 40,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.updatedHint": {
+    "en": "Reload to use the new version.",
+    "context": "Line under “Tiledash was updated” in the small message (toast) in a corner of the app: reloading the page starts the new version.",
+    "maxLength": 60,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
   "shell.layout.whatsNewBadge": {
