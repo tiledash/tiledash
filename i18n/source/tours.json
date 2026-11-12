@@ -1,0 +1,394 @@
+{
+  "tours.list.allDoneBody": {
+    "en": "That’s the gist. The tutorials on tiledash.app go further.",
+    "context": "Text of the checklist once every task is done. tiledash.app is the website, not translated.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.closeList": {
+    "en": "Close the list",
+    "context": "Second button of the finished checklist: puts it away for good.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.foldList": {
+    "en": "Fold the list",
+    "context": "Label (for screen readers and on hover) of the button that folds the checklist into a small pill.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.hideList": {
+    "en": "Hide this list",
+    "context": "Link at the bottom of the checklist: puts it away. It can come back with \"Take the tour again\" in the account menu.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.listCount": {
+    "en": "{done} of {count} done",
+    "context": "Under the checklist’s title and progress bar: how many of its tasks are done.",
+    "params": {
+      "count": "How many tasks there are.",
+      "done": "How many tasks are done."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.listDoneTitle": {
+    "en": "You know your way around",
+    "context": "Title of the getting-started checklist once everything on it is done.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.listTitle": {
+    "en": "Get to know Tiledash",
+    "context": "Title of the getting-started checklist in the bottom corner, and of the pill it folds into.",
+    "maxLength": 32,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskFirst": {
+    "en": "Make your first dashboard",
+    "context": "First task of the getting-started checklist.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskFirstBody": {
+    "en": "The + beside Dashboards suggests one from your Homey’s rooms.",
+    "context": "Explanation under the task \"Make your first dashboard\": the + button next to the Dashboards heading in the sidebar opens a wizard that suggests dashboards.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskPanel": {
+    "en": "Put it on a tablet",
+    "context": "Checklist task: set up a wall panel, a tablet on the wall that shows dashboards full screen.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskPanelBody": {
+    "en": "A wall panel shows your dashboards full screen and dims at night.",
+    "context": "Explanation under the checklist task \"Put it on a tablet\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskRoom": {
+    "en": "Make a dashboard for a room",
+    "context": "Checklist task: make a second dashboard, for one room of the house.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskRoomBody": {
+    "en": "The + beside Dashboards suggests one from your Homey’s rooms.",
+    "context": "Explanation under the task \"Make a dashboard for a room\": the + button next to the Dashboards heading in the sidebar.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskSwitch": {
+    "en": "Switch something",
+    "context": "Checklist task: turn a light or a plug on or off from a dashboard.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskSwitchBody": {
+    "en": "Tap a light or a plug on your dashboard.",
+    "context": "Explanation under the checklist task \"Switch something\".",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskTheme": {
+    "en": "Try a theme",
+    "context": "Checklist task: look at the themes (the colours and fonts of dashboards).",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskThemeBody": {
+    "en": "Dark, light, e-ink or one of your own.",
+    "context": "Explanation under the checklist task \"Try a theme\": kinds of themes there are.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskWidget": {
+    "en": "Add a widget",
+    "context": "Checklist task: add a tile (a widget) to a dashboard.",
+    "maxLength": 44,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.taskWidgetBody": {
+    "en": "Open the dashboard’s options, choose Edit, then Add a widget.",
+    "context": "Explanation under the checklist task \"Add a widget\". Edit and Add a widget are the names of the menu item and button the person will find.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.list.tutorials": {
+    "en": "See the tutorials",
+    "context": "Button of the finished checklist: opens the tutorials on the website in a new tab.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/tourList.messages.ts"
+  },
+  "tours.steps.back": {
+    "en": "Back",
+    "context": "Button of a tour step: goes to the step before.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.basicsBody": {
+    "en": "A short list of things to try is in the corner. Take your time; it keeps your place.",
+    "context": "Text of the card at the end of the guided tour. The list is the getting-started checklist in the bottom corner, which remembers what was done.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.basicsTitle": {
+    "en": "That’s the basics",
+    "context": "Title of the card at the end of the guided tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.endTour": {
+    "en": "End the tour",
+    "context": "Label (for screen readers and on hover) of the × button that closes the tour.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.finish": {
+    "en": "Finish",
+    "context": "Button of the last tour step, in place of Next.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.homeBody": {
+    "en": "Lights on, the temperature, what’s open. Tap one to see which devices it counts.",
+    "context": "Text of the first tour step. The chips are the small summaries next to the dashboard’s name (total power, how many lights are on, which doors or windows are open).",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.homeTitle": {
+    "en": "Your home at a glance",
+    "context": "Title of the first step of the first-dashboard tour, pointing at the summaries beside the dashboard’s name (small chips such as \"3 lights on\" or \"21 °C\").",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.next": {
+    "en": "Next",
+    "context": "Button of a tour step: goes to the next step.",
+    "maxLength": 14,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.optionsBody": {
+    "en": "Always here, top right: change the dashboard, its settings, put it on a tablet or share it.",
+    "context": "Text of the tour step pointing at the dashboard’s options button.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.plan3dBody": {
+    "en": "The cube switches between your drawing and a 3D view. In 3D, drag with the right mouse button to turn it.",
+    "context": "Text of the floor planner tour’s step at the cube button: how to see and turn the 3D view.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.plan3dTitle": {
+    "en": "See it in 3D",
+    "context": "Title of the floor planner tour’s step at the cube button in the top bar.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planEndBody": {
+    "en": "The (?) up here starts this tour again. Press ? for every control and shortcut.",
+    "context": "Text of that card. (?) is the round button with a question mark in the top bar; \"?\" is the key on the keyboard.",
+    "maxLength": 110,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planEndTitle": {
+    "en": "That’s the floor planner",
+    "context": "Title of the card at the end of the floor planner tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planSafeBody": {
+    "en": "Undo takes back any change, and the plan saves by itself. Space and drag moves around; scroll zooms.",
+    "context": "Text of that step: nothing can go wrong, and how to move around the plan.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planSafeTitle": {
+    "en": "Try things freely",
+    "context": "Title of the floor planner tour’s step at the undo button in the top bar.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planToolsBody": {
+    "en": "Pick a tool here: rooms and walls first, then doors and windows, furniture and your devices.",
+    "context": "Text of that step: the tools in the column, in the order people usually use them.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.planToolsTitle": {
+    "en": "Draw your rooms",
+    "context": "Title of the floor planner tour’s first step, at the column of drawing tools on the left.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsEndBody": {
+    "en": "The (?) up here starts this tour again, any time.",
+    "context": "Text of that card. (?) is the round button with a question mark in the window’s header.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsEndTitle": {
+    "en": "That’s dashboard settings",
+    "context": "Title of the card at the end of the dashboard settings tour.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsLookBody": {
+    "en": "A theme just for this dashboard and, with Pro, a picture behind the tiles. Dim and blur keep the tiles easy to read.",
+    "context": "Text of that step. Pro is the paid plan; dim and blur are settings of the background picture.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsLookTitle": {
+    "en": "A look of its own",
+    "context": "Title of the dashboard settings tour’s step on the Look tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsPopupsBody": {
+    "en": "Pick what sets one off, like the doorbell, and what shows: a camera, a device or another dashboard. It closes again after a while.",
+    "context": "Text of that step: how a popup on an event is set up.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsPopupsTitle": {
+    "en": "Popups that open by themselves",
+    "context": "Title of the dashboard settings tour’s step on the Popups tab.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsSpacingBody": {
+    "en": "Snug, Comfortable or Roomy, with pixels under Fine-tune. Fit to screen puts everything on one screen, good for a wall tablet.",
+    "context": "Text of the dashboard settings tour’s step on the Layout tab. Snug, Comfortable and Roomy are the names of spacing choices; Fine-tune is a folded part; Fit to screen is a switch.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.settingsSpacingTitle": {
+    "en": "Room between tiles",
+    "context": "Title of the dashboard settings tour’s step on the Layout tab, about the room between tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.showMyList": {
+    "en": "Show my list",
+    "context": "Button of the card at the end of the tour: closes it and shows the checklist.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.stepCount": {
+    "en": "{step} of {count}",
+    "context": "Above a tour step’s title: which step this is of how many.",
+    "params": {
+      "count": "How many steps there are.",
+      "step": "The number of this step, from 1."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletChooseBody": {
+    "en": "Which dashboards it shows, and what kind of screen it is. Each has an answer ready, so Next all the way works.",
+    "context": "Text of that step: what the dialog asks after the code.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletChooseTitle": {
+    "en": "Then two questions",
+    "context": "Title of the tour step pointing at the row of steps in the dialog.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletCodeBody": {
+    "en": "On the tablet, open the address shown here, or scan the QR code. Type the code it shows and choose Connect.",
+    "context": "Text of that step. Connect is the button that checks the code.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletCodeTitle": {
+    "en": "First, the code",
+    "context": "Title of the tour step pointing at the part of the dialog where the person types the code the tablet shows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletEndBody": {
+    "en": "Change it later under Wall panels in the sidebar. The dialog stays open for you to finish.",
+    "context": "Text of that card. Wall panels is a fold in the sidebar listing the tablets on the wall.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletEndTitle": {
+    "en": "That’s all it takes",
+    "context": "Title of the card at the end of the tour \"Put a dashboard on the wall\".",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletIntroBody": {
+    "en": "It shows your dashboards full screen: swipe between them. It dims when nobody uses it, and wakes for alerts like the doorbell.",
+    "context": "Text of that step: what a tablet on the wall (a wall panel) does.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tabletIntroTitle": {
+    "en": "A tablet on the wall",
+    "context": "Title of the first step of the tour \"Put a dashboard on the wall\": what a wall panel is.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tileBody": {
+    "en": "Tiles do what they show. A buttons tile has a button for each light, Mood or Flow.",
+    "context": "Text of the tour step that points at a tile of a light or a plug. A buttons tile is one tile with several buttons; Moods and Flows are Homey’s words, keep them as Homey translates them.",
+    "maxLength": 140,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tileTitle": {
+    "en": "Tap to switch",
+    "context": "Title of the tour step that points at a tile of a light or a plug on the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tileTried": {
+    "en": "Switched. That’s all it takes.",
+    "context": "Replaces \"Try it: tap a light\" once the person tapped it and the device switched. Warm and short.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tileTry": {
+    "en": "Try it: tap a light",
+    "context": "Hint in a dashed box on the tile step, asking the person to tap the tile it points at.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.tourAgain": {
+    "en": "You can take the tour again from the account menu.",
+    "context": "Small print at the bottom of the card at the end of the tour.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.wallEndAction": {
+    "en": "Put it on a tablet",
+    "context": "Button of that card: starts a short tour that puts the dashboard on a tablet.",
+    "maxLength": 28,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.wallEndBody": {
+    "en": "It takes a minute: open one address on the tablet and type its code here.",
+    "context": "Text of the card at the end of the first-dashboard tour, for someone with a tablet on the wall: how putting a dashboard on it works.",
+    "maxLength": 120,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.wallEndNote": {
+    "en": "Or later, from ⋯ or the list in the corner.",
+    "context": "Small print under that button: the same can be done later from the dashboard’s ⋯ button or the getting-started list.",
+    "maxLength": 90,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.wallEndTitle": {
+    "en": "Next: put it on the wall",
+    "context": "Title of the card at the end of the first-dashboard tour, for someone who said they’ll use a tablet on the wall.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  }
+}

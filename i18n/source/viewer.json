@@ -309,6 +309,15 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/widgetActions.messages.ts"
   },
+  "viewer.actions.viewOnly": {
+    "en": "You can look at {device}, not switch it",
+    "context": "Red message (toast) when someone who uses another person’s Homey taps a device they may only look at (a lock, say): the Homey’s owner chose that. Nothing is sent.",
+    "params": {
+      "device": "The name of the device. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/dashboards/widgetActions.messages.ts"
+  },
   "viewer.addToDashboard.addFailed": {
     "en": "Couldn’t add {device} to {dashboard}",
     "context": "Title of a red message (toast) when putting a tile of a device on a dashboard failed. The reason follows under it.",
@@ -511,6 +520,279 @@
     "context": "Button with a speaker icon at the top of the alert screen. The browser only lets the alarm chime sound after the person touched the screen, so this asks for a tap to allow the sound.",
     "maxLength": 24,
     "file": "packages/ui/src/alerts/alerts.messages.ts"
+  },
+  "viewer.chooseAgain.andMore": {
+    "en": "And {count, number} more to choose.",
+    "context": "Last sentence of the text on a tile that cannot be drawn because settings have not been chosen: how many other settings still need a choice besides the one named in the title.",
+    "params": {
+      "count": "How many other settings need a choice. A number, at least one."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "en": "Choose the {noun} again",
+    "context": "Title shown on a tile that cannot be drawn because the device, flow or mood that was chosen is gone or no longer fits, such as \"Choose the charger again\". The tile also says why below it.",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "en": "Choose another.",
+    "context": "Short sentence added after a warning under a required setting whose chosen device, flow or mood is gone or no longer fits: the person must choose a different one.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "en": "Choose another, or leave it empty.",
+    "context": "Short sentence added after a warning under an optional setting whose chosen device, flow or mood is gone or no longer fits: the person can choose a different one or leave the setting empty.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "en": "Choose more {noun}",
+    "context": "Title shown on a tile that cannot be drawn because fewer are chosen than it needs, such as \"Choose more smoke detectors\". The tile also says why below it.",
+    "params": {
+      "noun": "The name of the setting in lower case, in the plural, such as \"smoke detectors\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "en": "Choose {kind, select, many {{noun}} other {a {noun}}}",
+    "context": "Title shown on a tile that cannot be drawn yet because a required setting has not been chosen, such as \"Choose a charger\" or \"Choose smoke detectors\". The tile also says why below it.",
+    "params": {
+      "kind": "\"many\" for a setting that holds several things (a list), else \"one\".",
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "en": "The {noun} chosen before is no longer on this Homey.",
+    "context": "Warning under a setting (in amber) when the device, flow or mood that was chosen before no longer exists on the Homey. \"Chosen before\" means picked earlier. A short sentence follows: \"Choose another.\"",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "en": "The {noun} it showed is no longer on this Homey.",
+    "context": "Text on a tile that cannot be drawn because the device, flow or mood it showed is no longer on the Homey. \"It\" is the tile.",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "en": "In {zone}.",
+    "context": "Small grey line under a device setting that is kept to a room (zone) setting: the devices listed are those in the chosen room.",
+    "params": {
+      "zone": "The name of the room (zone), such as \"Garage\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "en": "In {zone} and the rooms inside it.",
+    "context": "Small grey line under a device setting that is kept to a zone and the rooms inside it: the devices listed are those in the chosen zone, such as a floor, and in all the rooms in it.",
+    "params": {
+      "zone": "The name of the zone, such as \"Ground floor\". Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.listFew": {
+    "en": "The tile needs at least {min, number} {noun}; {count, plural, one {# is} other {# are}} chosen now.",
+    "context": "Warning under a list setting (a setting that holds several devices, flows or moods) when fewer are chosen than the tile needs. For example \"The tile needs at least 3 smoke detectors; 1 is chosen now.\"",
+    "params": {
+      "count": "How many are chosen now. A number.",
+      "min": "The smallest number the tile needs. A number.",
+      "noun": "The name of the setting in lower case, in the plural, such as \"smoke detectors\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.listGone": {
+    "en": "None of the {noun} chosen before are on this Homey any more. Choose others.",
+    "context": "Warning under a list setting (a setting that holds several devices, flows or moods) when none of the ones chosen earlier exist on the Homey any more. For example \"None of the smoke detectors chosen before are on this Homey any more. Choose others.\"",
+    "params": {
+      "noun": "The name of the setting in lower case, in the plural, such as \"smoke detectors\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "en": "None of the {noun} chosen before fit any more. Choose others.",
+    "context": "Warning under a list setting (a setting that holds several devices) when the ones chosen earlier still exist but none fits what the widget needs any more. For example \"None of the smoke detectors chosen before fit any more. Choose others.\"",
+    "params": {
+      "noun": "The name of the setting in lower case, in the plural, such as \"smoke detectors\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 130,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.listPartly": {
+    "en": "{lost, plural, one {# of the {noun} chosen before is no longer on this Homey or no longer fits; the tile shows the other {kept, number}. Remove it below.} other {# of the {noun} chosen before are no longer on this Homey or no longer fit; the tile shows the other {kept, number}. Remove them below.}}",
+    "context": "Warning under a list setting (a setting that holds several devices, flows or moods) when some of the ones chosen earlier are gone or no longer fit, but others still work. For example \"2 of the smoke detectors chosen before are no longer on this Homey or no longer fit; the tile shows the other 3. Remove them below.\" The list with the faulty ones is below it.",
+    "params": {
+      "kept": "How many chosen ones still work, which the tile shows. A number.",
+      "lost": "How many of the chosen ones are gone or no longer fit. A number, at least one.",
+      "noun": "The name of the setting in lower case, in the plural, such as \"smoke detectors\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 380,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "en": "{name} is no longer a {deviceKind}.",
+    "context": "Warning under a device setting when the chosen device changed to another kind of device than the widget needs, such as \"Garage socket is no longer a light.\". The device was chosen earlier and has changed since.",
+    "params": {
+      "deviceKind": "The kind of device the widget needs, in lower case, such as \"light\". Already translated where possible.",
+      "name": "The name of the device, such as \"Garage socket\". Not translated."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "en": "{name} is no longer the right kind.",
+    "context": "Warning under a device setting when the chosen device no longer fits what the widget needs and nothing more specific is known: it is not the right kind of device any more. The device was chosen earlier and has changed since.",
+    "params": {
+      "name": "The name of the device, such as \"Garage socket\". Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "en": "{name} no longer has {capabilities}.",
+    "context": "Warning under a device setting when the chosen device lost an ability the widget needs, such as \"Garage socket no longer has Charging.\". The device was chosen earlier and has changed since.",
+    "params": {
+      "capabilities": "What the device lost, as a list in the language’s style, such as \"Charging and Power\". Already translated where possible.",
+      "name": "The name of the device, such as \"Garage socket\". Not translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "en": "{name} has none of {capabilities} any more.",
+    "context": "Warning under a device setting when the chosen device has none of the abilities the widget needs one of, such as \"Garage socket has none of On/Off or Dim any more.\". The device was chosen earlier and has changed since.",
+    "params": {
+      "capabilities": "What the widget needs one of, as a list in the language’s style, such as \"On/Off or Dim\". Already translated where possible.",
+      "name": "The name of the device, such as \"Garage socket\". Not translated."
+    },
+    "maxLength": 150,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "en": "Needs {subject, select, class {a {classes}} other {a device}} with {all} and {any}.",
+    "context": "Small grey line under a device setting that says what the widget needs: a kind of device that has certain abilities and at least one of several others, such as \"Needs a device with On/Off and Dim or Temperature.\".",
+    "params": {
+      "all": "The abilities it must have, as a list in the language’s style, such as \"On/Off and Dim\". Already translated where possible.",
+      "any": "The abilities of which at least one must be there, as a list in the language’s style, such as \"Temperature or Humidity\". Already translated where possible.",
+      "classes": "The kinds of device it takes, in lower case, as a list in the language’s style, such as \"light or socket\". Already translated where possible.",
+      "subject": "\"class\" when the widget needs a kind of device (the list in \"classes\"), else \"device\"."
+    },
+    "maxLength": 170,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsAny": {
+    "en": "Needs {subject, select, class {a {classes}} other {a device}} with {any}.",
+    "context": "Small grey line under a device setting that says what the widget needs: a kind of device that has at least one of several abilities, such as \"Needs a device with Temperature or Humidity.\".",
+    "params": {
+      "any": "The abilities, of which at least one must be there, as a list in the language’s style, such as \"Temperature or Humidity\". Already translated where possible.",
+      "classes": "The kinds of device it takes, in lower case, as a list in the language’s style, such as \"light or socket\". Already translated where possible.",
+      "subject": "\"class\" when the widget needs a kind of device (the list in \"classes\"), else \"device\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "en": "Needs {subject, select, class {a {classes}} other {a device}}.",
+    "context": "Small grey line under an empty or filled device setting that says what kind of device the widget needs, such as \"Needs a socket.\" or \"Needs a device.\" (any device).",
+    "params": {
+      "classes": "The kinds of device it takes, in lower case, as a list in the language’s style, such as \"light or socket\". Already translated where possible.",
+      "subject": "\"class\" when the widget needs a kind of device (the list in \"classes\"), else \"device\"."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsOne": {
+    "en": "This widget needs one: pick it in the tile’s settings.",
+    "context": "Second part of the text on a tile that cannot be drawn because a required setting has not been chosen. \"One\" is a single thing, such as a device. It points to the settings of the tile.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsThem": {
+    "en": "This widget needs them: pick them in the tile’s settings.",
+    "context": "Second part of the text on a tile that cannot be drawn because a required setting that holds several things (such as readings) has not been chosen. \"Them\" are those things. It points to the settings of the tile.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.needsWith": {
+    "en": "Needs {subject, select, class {a {classes}} other {a device}} with {all}.",
+    "context": "Small grey line under a device setting that says what the widget needs: a kind of device that has certain abilities, such as \"Needs a device with On/Off and Dim.\". An ability is a capability of the device (a thing it can do or measure).",
+    "params": {
+      "all": "The abilities it must have, as a list in the language’s style, such as \"On/Off and Dim\". Already translated where possible.",
+      "classes": "The kinds of device it takes, in lower case, as a list in the language’s style, such as \"light or socket\". Already translated where possible.",
+      "subject": "\"class\" when the widget needs a kind of device (the list in \"classes\"), else \"device\"."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.noneFit": {
+    "en": "No {noun} on this Homey",
+    "context": "Bold line in the field of a device setting when no device of the Homey fits what the widget needs, such as \"No charger on this Homey\". A sentence about what is needed follows it, and a full stop is added to the line when it is used in another message.",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "en": "No {noun} in {zone}",
+    "context": "Bold line in the field of a device setting that is kept to a room (zone) setting, when no device in that room fits what the widget needs, such as \"No charger in Garage\".",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message.",
+      "zone": "The name of the room (zone), such as \"Garage\". Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "en": "No {noun} in {zone} and the rooms inside it",
+    "context": "Bold line in the field of a device setting that is kept to a room (zone) and the rooms inside it, when no device there fits what the widget needs, such as \"No charger in Ground floor and the rooms inside it\".",
+    "params": {
+      "noun": "The name of the setting in lower case, such as \"charger\". Comes from the widget, not translated by this message.",
+      "zone": "The name of the room or zone, such as \"Ground floor\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "en": "Tiledash may not see who lives in your home yet. Log in again and allow it.",
+    "context": "Warning under a person setting when Tiledash cannot read the people of the home from the Homey. The person has to log in again and give Tiledash the permission to see them.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "en": "Asleep",
+    "context": "Small grey word next to a person in a list of the people of the home: the person is asleep now.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.personAway": {
+    "en": "Away",
+    "context": "Small grey word next to a person in a list of the people of the home: the person is not at home now.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
+  },
+  "viewer.chooseAgain.personHome": {
+    "en": "Home",
+    "context": "Small grey word next to a person in a list of the people of the home: the person is at home now. A status, not a place to go to.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/chooseAgain.messages.ts"
   },
   "viewer.dashboard.addWidget": {
     "en": "Add a widget",
@@ -840,6 +1122,12 @@
     "en": "Recorded readings on this Homey",
     "context": "Name of the box in a device’s detail drawer that shows how many readings are recorded against the plan’s limit, read out by screen readers. Not visible as text.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "en": "You can look at this device, not switch it: the Homey’s owner chose that.",
+    "context": "Line in a device’s detail, where its controls would be, for someone who uses another person’s Homey and may only look at this device (a lock, say). The Homey’s owner decides who may switch what.",
+    "maxLength": 110,
     "file": "packages/ui/src/screens/DeviceDetailDrawer.messages.ts"
   },
   "viewer.deviceDetail.years": {

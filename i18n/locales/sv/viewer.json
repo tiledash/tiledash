@@ -245,6 +245,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.viewOnly": {
+    "text": "Du kan se {device}, men inte styra den",
+    "source": "73048e8f9e",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.addToDashboard.addFailed": {
     "text": "Det gick inte att lägga till {device} på {dashboard}",
     "source": "cadf20c493",
@@ -422,6 +428,192 @@
   "viewer.alerts.tapForSound": {
     "text": "Tryck för ljud",
     "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.andMore": {
+    "text": "Och {count, number} till att välja.",
+    "source": "46a5870dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "text": "Välj {noun} igen",
+    "source": "ad6f083558",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "text": "Välj en annan.",
+    "source": "fac3884df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "text": "Välj en annan eller lämna tomt.",
+    "source": "87cde503dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "text": "Välj fler {noun}",
+    "source": "9f2f9b88b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "text": "Välj {kind, select, many {{noun}} other {{noun}}}",
+    "source": "fd455b0c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "text": "Den {noun} som valdes tidigare finns inte längre på den här Homey.",
+    "source": "8fc8c67856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "text": "Den {noun} som rutan visade finns inte längre på den här Homey.",
+    "source": "34427e13e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "text": "I {zone}.",
+    "source": "b18266703b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "text": "I {zone} och rummen i den.",
+    "source": "2c7448e10b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listFew": {
+    "text": "Rutan behöver minst {min, number} {noun}; {count, plural, one {# är vald} other {# är valda}} nu.",
+    "source": "f4214034d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listGone": {
+    "text": "Inga av de {noun} som valdes tidigare finns kvar på den här Homey. Välj andra.",
+    "source": "805edb9c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "text": "Inga av de {noun} som valdes tidigare passar längre. Välj andra.",
+    "source": "cce1969967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listPartly": {
+    "text": "{lost, plural, one {# av de {noun} som valdes tidigare finns inte längre på den här Homey eller passar inte längre; rutan visar de andra {kept, number}. Ta bort den nedan.} other {# av de {noun} som valdes tidigare finns inte längre på den här Homey eller passar inte längre; rutan visar de andra {kept, number}. Ta bort dem nedan.}}",
+    "source": "dc3016af4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "text": "{name} är inte längre av typen {deviceKind}.",
+    "source": "3e29d9c394",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "text": "{name} är inte längre rätt sort.",
+    "source": "e648323e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "text": "{name} har inte längre {capabilities}.",
+    "source": "2c5dc6a8b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "text": "{name} har inte längre någon av {capabilities}.",
+    "source": "c22ea32f21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "text": "Behöver {subject, select, class {{classes}} other {en enhet}} med {all} och {any}.",
+    "source": "4ba097599b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAny": {
+    "text": "Behöver {subject, select, class {{classes}} other {en enhet}} med {any}.",
+    "source": "f78bcade48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "text": "Behöver {subject, select, class {{classes}} other {en enhet}}.",
+    "source": "79e8d6879c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsOne": {
+    "text": "Den här widgeten behöver en: välj den i rutans inställningar.",
+    "source": "856b73eab9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsThem": {
+    "text": "Den här widgeten behöver dem: välj dem i rutans inställningar.",
+    "source": "f2d90071a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsWith": {
+    "text": "Behöver {subject, select, class {{classes}} other {en enhet}} med {all}.",
+    "source": "107a46a50a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFit": {
+    "text": "Ingen {noun} på den här Homey",
+    "source": "998647aaf2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "text": "Ingen {noun} i {zone}",
+    "source": "729a342770",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "text": "Ingen {noun} i {zone} och rummen i den",
+    "source": "17aeb8ea04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "text": "Tiledash kanske inte får se vem som bor i ditt hem än. Logga in igen och tillåt det.",
+    "source": "a8e9d27367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "text": "Sover",
+    "source": "60135e8f5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAway": {
+    "text": "Borta",
+    "source": "af16c830c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personHome": {
+    "text": "Hemma",
+    "source": "3a78695388",
     "by": "ai",
     "reviewed": false
   },
@@ -710,6 +902,12 @@
   "viewer.deviceDetail.usageLabel": {
     "text": "Registrerade mätvärden på den här Homey",
     "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "text": "Du kan se den här enheten, men inte styra den: Homeyns ägare har valt det.",
+    "source": "c3b57477ba",
     "by": "ai",
     "reviewed": false
   },

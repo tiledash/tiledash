@@ -6771,6 +6771,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/tapLog/tapLog.messages.ts"
   },
+  "code.tapLog.viewOnly": {
+    "en": "Yours to look at only",
+    "context": "Why a tap was refused: the device is on someone else’s Homey, and its owner lets this person look at it, not switch it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/tapLog/tapLog.messages.ts"
+  },
   "code.tapLog.wouldOpen": {
     "en": "Would open",
     "context": "Why a tap was only logged: it would open a page, followed by what.",
@@ -8327,15 +8333,6 @@
     "en": "Workshop pages",
     "context": "Screen reader label of the pager.",
     "maxLength": 30,
-    "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
-  },
-  "code.workshop.pointer": {
-    "en": "{kind, select, theme {Make your own themes and share them in the <link>Workshop</link>.} model {Make your own models and share them in the <link>Workshop</link>.} other {Make your own in the <link>Workshop</link>.}}",
-    "context": "Line in Settings › Themes (kind theme) and Settings › Floor plans (kind model); <link> links to the Workshop page.",
-    "params": {
-      "kind": "theme or model."
-    },
-    "maxLength": 90,
     "file": "packages/ui/src/screens/workshop/workshop.messages.ts"
   },
   "code.workshop.previous": {

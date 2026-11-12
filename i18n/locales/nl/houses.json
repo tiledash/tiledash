@@ -1,0 +1,824 @@
+{
+  "houses.editor.add": {
+    "text": "Toevoegen",
+    "source": "9fd728c66c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.addSide": {
+    "text": "Kant toevoegen",
+    "source": "645525d684",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.conflictText": {
+    "text": "Dit huis is in een ander venster opgeslagen terwijl je eraan werkte.",
+    "source": "b39507f489",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.conflictTitle": {
+    "text": "Elders gewijzigd",
+    "source": "719c3d46cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.createFailed": {
+    "text": "Het huis kon niet worden gemaakt.",
+    "source": "b0738e7ab5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.cropHint": {
+    "text": "Sleep de hoeken om het huis en het erf. Waarden staan naast dit kader, dus laat lege lucht en gazon weg.",
+    "source": "774a64e1f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.cropTitle": {
+    "text": "Bijsnijden tot het huis",
+    "source": "2784a3226d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.dark": {
+    "text": "Een donkere afbeelding",
+    "source": "deb1f1da86",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.defaultName": {
+    "text": "Thuis",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.delete": {
+    "text": "Verwijderen",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.deleteSide": {
+    "text": "Deze kant verwijderen",
+    "source": "3195c7ded9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.deleteText": {
+    "text": "De afbeeldingen blijven in je afbeeldingen. Tegels die het huis tonen, melden dat het weg is tot je een ander huis kiest.",
+    "source": "976f3bf8ca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.deleteTitle": {
+    "text": "“{name}” verwijderen?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.description": {
+    "text": "Afbeeldingen van je huis met de plekken gemarkeerd, voor de tegel Energy house.",
+    "source": "a9c0ae87df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.empty": {
+    "text": "Nog geen huizen. Maak er een om je eigen huis op de tegel Energy house te zetten.",
+    "source": "5e7270234c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.full": {
+    "text": "Je plan heeft ruimte voor {max, plural, one {# huis} other {# huizen}}.",
+    "source": "3df8bcac3b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.getPicture": {
+    "text": "Kies een afbeelding voor deze kant",
+    "source": "c2312cb95b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.homey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.houseName": {
+    "text": "Naam van het huis",
+    "source": "4b11f8bc03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.keepMine": {
+    "text": "Mijn versie houden",
+    "source": "0335c83325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.limit": {
+    "text": "{count} van {max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.loadFailed": {
+    "text": "Je huizen konden niet worden geladen.",
+    "source": "af18b4b286",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.missing": {
+    "text": "Dit huis bestaat niet meer.",
+    "source": "9d0d2722d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.modes": {
+    "text": "{mode, select, crop {Bijsnijden} spots {Plekken} other {Voorbeeld}}",
+    "source": "888f669298",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.modesLabel": {
+    "text": "Wat je doet",
+    "source": "0c48e2ed28",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.moveEarlier": {
+    "text": "Naar links",
+    "source": "6c94221edd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.moveLater": {
+    "text": "Naar rechts",
+    "source": "8d60decd44",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.newHouse": {
+    "text": "Nieuw huis",
+    "source": "2fa4dfcda6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.newSide": {
+    "text": "{side, select, front {Voorkant} back {Achterkant} left {Linkerkant} right {Rechterkant} other {Anders…}}",
+    "source": "2af1876a73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.noHomey": {
+    "text": "Geen Homey",
+    "source": "a51b1462ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.open": {
+    "text": "Openen",
+    "source": "ed077f3d81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.ownCount": {
+    "text": "{count}/{max} eigen plekken",
+    "source": "3ce32135ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.ownPlaceholder": {
+    "text": "Je eigen plek: zolder, zwembad…",
+    "source": "5dae8452de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.paused": {
+    "text": "Gepauzeerd",
+    "source": "e159b06187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.pausedText": {
+    "text": "Je plan heeft ruimte voor minder huizen. Het wordt nergens getoond en is niet te wijzigen.",
+    "source": "c32231057f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.pausedTitle": {
+    "text": "Dit huis is gepauzeerd",
+    "source": "95803506fb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.previewHint": {
+    "text": "Je huis met demowaarden, zoals een brede tegel het toont. Een waarde staat op de kanten waar zijn plek is geplaatst.",
+    "source": "2f85d6234e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.previewTheme": {
+    "text": "{theme, select, dark {Donker} light {Licht} other {E-ink}}",
+    "source": "5d67b6ed04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.previewTitle": {
+    "text": "Voorbeeld",
+    "source": "324b134f57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.removeOwn": {
+    "text": "Deze plek verwijderen",
+    "source": "62b4e80319",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.rename": {
+    "text": "Naam wijzigen",
+    "source": "3064d79a29",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.replace": {
+    "text": "Afbeelding vervangen",
+    "source": "00d4a157b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.reset": {
+    "text": "Herstellen",
+    "source": "daee7606b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.sideMenu": {
+    "text": "Menu van deze kant",
+    "source": "47e9402b4b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.sideName": {
+    "text": "{n, select, 1 {Voorkant} 2 {Achterkant} 3 {Tuinkant} other {Kant {n}}}",
+    "source": "3c42a514b3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.sides": {
+    "text": "{count, plural, one {# kant} other {# kanten}}",
+    "source": "eb5f0207c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.sidesLabel": {
+    "text": "Kanten",
+    "source": "1c3607d5f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.spotName": {
+    "text": "{spot, select, solar {Zonnepanelen} grid {Netaansluiting} home {Het huis} battery {Thuisbatterij} car {Auto} charger {Laadpaal} meter {Meterkast} upstairs {Boven} heat-pump {Warmtepomp} garage {Garage} other {Tuin}}",
+    "source": "f8e868c331",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.spotState": {
+    "text": "{state, select, placed {Geplaatst} elsewhere {Op {sides}} other {Niet geplaatst}}",
+    "source": "bb2568d580",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.spotsHint": {
+    "text": "Tik op een plek, dan op de afbeelding. Pins kun je verslepen.",
+    "source": "88c07cb633",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.spotsTitle": {
+    "text": "Plekken",
+    "source": "2bbe9b3560",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.status": {
+    "text": "{status, select, saved {Opgeslagen} saving {Opslaan…} offline {Offline: opslaan zodra je verbonden bent} other {Nog niet opgeslagen}}",
+    "source": "7b321fa7a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.takeOff": {
+    "text": "Van deze kant halen",
+    "source": "ebb1f8c2d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.takeTheirs": {
+    "text": "Andere wijzigingen tonen",
+    "source": "c90a1e7ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.tapWhere": {
+    "text": "Tik waar {spot} is",
+    "source": "78aba3efe6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.title": {
+    "text": "Jouw huizen",
+    "source": "4897b9f023",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.tryAgain": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.upload": {
+    "text": "Upload een afbeelding",
+    "source": "80be5675bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadAnother": {
+    "text": "Andere afbeelding kiezen",
+    "source": "dc67e28504",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadClose": {
+    "text": "Sluiten",
+    "source": "7d9eb7acb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadFailed": {
+    "text": "De afbeelding kon niet worden geüpload",
+    "source": "a71ec98011",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadHint": {
+    "text": "Een die je zelf hebt gemaakt. Jij plaatst de plekken.",
+    "source": "0ec86062c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadProblem": {
+    "text": "{problem, select, type {Tiledash werkt met PNG-, JPEG- en WebP-afbeeldingen, en deze browser kon dit bestand daar niet in omzetten. Sla het op als PNG of JPEG en probeer het opnieuw.} unreadable {Dit bestand kon niet als afbeelding worden geopend. Misschien is het beschadigd, of in een formaat dat deze browser niet kan lezen, zoals HEIC. Sla het op als PNG of JPEG en probeer het opnieuw.} too-big {Een afbeelding mag maximaal {limit} MB zijn, en deze is zelfs verkleind nog groter. Probeer een kleinere afbeelding.} too-large {Een afbeelding mag maximaal {limit} miljoen pixels hebben. Probeer een kleinere afbeelding.} limit {Je account bewaart maximaal {limit} afbeeldingen, en die zijn er al. Verwijder er een die je niet meer gebruikt en probeer het dan opnieuw.} space {Je afbeeldingen nemen alle ruimte van je account in ({limit} MB samen). Verwijder er een die je niet meer gebruikt en probeer het dan opnieuw.} offline {Tiledash is niet bereikbaar. Controleer je verbinding en probeer het opnieuw.} other {Er ging bij ons iets mis bij het bewaren. Probeer het zo opnieuw.}}",
+    "source": "16e4c46eec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadSent": {
+    "text": "{done} van {total} MB",
+    "source": "1f66d6f6d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadSize": {
+    "text": "{size} MB",
+    "source": "55aa0a3318",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadSmaller": {
+    "text": "{before} MB, nu {after} MB",
+    "source": "5786ffbd17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadStep": {
+    "text": "{step, select, prepare {Klaarmaken} send {Uploaden} other {Bewaren bij je huis}}",
+    "source": "d86bb98bf7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploadTitle": {
+    "text": "Je afbeelding wordt geüpload",
+    "source": "5bdedf94b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.editor.uploading": {
+    "text": "Uploaden…",
+    "source": "5ce44dd77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.acceptAll": {
+    "text": "Alles accepteren",
+    "source": "f55ee86234",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.another": {
+    "text": "Aanpassen of nieuw · 1 credit",
+    "source": "042333f719",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.ask": {
+    "text": "Hoe is het geworden?",
+    "source": "003930b9d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.beforeRefining": {
+    "text": "Vóór het aanpassen",
+    "source": "a358372b14",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.credits": {
+    "text": "{count, plural, one {# credit} other {# credits}}",
+    "source": "558299e91d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.deleteTry": {
+    "text": "Deze poging verwijderen",
+    "source": "3829f3abef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.dialogTitle": {
+    "text": "De afbeelding van deze kant maken",
+    "source": "3486a7b082",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.error": {
+    "text": "{error, select, busy {Er wordt al een afbeelding gemaakt.} limit {Genoeg afbeeldingen voor vandaag; probeer het morgen opnieuw.} off {Afbeeldingen maken kan hier niet.} photo {Die foto kon niet worden gelezen. Probeer een andere (PNG, JPEG of WebP).} other {Het maken van de afbeelding kon niet starten.}}",
+    "source": "b8810ebc81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.failed": {
+    "text": "Mislukt",
+    "source": "ddf710fe81",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.failedText": {
+    "text": "{status, select, refused {Het beeldmodel wilde hem niet maken met deze foto of prompt. Je credit is terug.} other {Er ging iets mis bij het maken. Je credit is terug.}}",
+    "source": "2949a0112d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.failedTitle": {
+    "text": "Die afbeelding is mislukt",
+    "source": "2923c39e84",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.givenBack": {
+    "text": "Tiledash heeft je credit teruggegeven: {reason}",
+    "source": "13905f70c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.glad": {
+    "text": "Fijn dat je het mooi vindt",
+    "source": "646ae9c74b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.good": {
+    "text": "Goed",
+    "source": "c939327ca1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.inUse": {
+    "text": "In gebruik",
+    "source": "750af77aa4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.making": {
+    "text": "Je afbeelding wordt gemaakt…",
+    "source": "8e8d970325",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.makingHint": {
+    "text": "Ongeveer een halve minuut. Je kunt deze pagina verlaten: het gaat gewoon door.",
+    "source": "48bd4fb401",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.notGood": {
+    "text": "Niet goed",
+    "source": "f27bb0d1b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.note": {
+    "text": "Nog iets? (optioneel)",
+    "source": "45ff50f562",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.pending": {
+    "text": "Wordt gemaakt…",
+    "source": "398c8381c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.proposedText": {
+    "text": "Controleer ze stuk voor stuk: sleep ze waar ze horen, of haal ze weg.",
+    "source": "65c18aca13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.proposedTitle": {
+    "text": "We hebben je plekken geplaatst",
+    "source": "688f2af90b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.reason": {
+    "text": "{reason, select, not-my-house {Lijkt niet op mijn huis} parts {Delen missen of kloppen niet} strange {Vreemde stukjes} style {Niet de stijl die ik koos} other {Afgesneden of slecht in beeld}}",
+    "source": "ff63216016",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.refine": {
+    "text": "Aanpassen",
+    "source": "1e7f34ee8f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.refined": {
+    "text": "Aangepast",
+    "source": "d81ab3063e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.send": {
+    "text": "Versturen",
+    "source": "f6f4688ff2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.thanks": {
+    "text": "Bedankt. We bekijken elke duim omlaag; als de afbeelding onze fout is, krijg je de credit terug.",
+    "source": "4d9b730af0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.triesHint": {
+    "text": "Elke poging blijft hier. Met een andere blijven je plekken staan; kijk of ze nog passen.",
+    "source": "637857f418",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.triesTitle": {
+    "text": "Pogingen voor deze kant",
+    "source": "dcb30f4c53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.useTry": {
+    "text": "Deze poging gebruiken",
+    "source": "8aeca13532",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.way": {
+    "text": "Maak het in Tiledash",
+    "source": "b1af7331ef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.wayCost": {
+    "text": "1 credit · je hebt er {count}",
+    "source": "5c0514d1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.wayHint": {
+    "text": "Op basis van een foto van je huis of een paar antwoorden, in de stijl die je kiest. De plekken worden voor je geplaatst.",
+    "source": "aec94b27df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.whatWrong": {
+    "text": "Wat ging er mis?",
+    "source": "3f5cd5dde4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.generation.writePrompt": {
+    "text": "Schrijf een prompt voor je eigen ChatGPT of Gemini",
+    "source": "6606d29ea1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.addInstead": {
+    "text": "Toch optellen",
+    "source": "4d7dd9bbbb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.addReading": {
+    "text": "Meetwaarde toevoegen",
+    "source": "5c6ba93adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.addValue": {
+    "text": "Waarde toevoegen",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.decimals": {
+    "text": "Decimalen",
+    "source": "7467291204",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.decimalsAuto": {
+    "text": "Auto",
+    "source": "0286249762",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.hint": {
+    "text": "Open een plek om te zien wat hij toont en zet hem op de afbeelding. Elke tegel met dit huis toont hetzelfde.",
+    "source": "13c91e3dc3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.homeHint": {
+    "text": "Berekend uit je net, zonnepanelen, thuisbatterij en auto, dus er is geen eigen meetwaarde nodig.",
+    "source": "55537ab940",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.homeTitle": {
+    "text": "Wat het huis verbruikt",
+    "source": "423d9dc5dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.label": {
+    "text": "Label",
+    "source": "0e66373f45",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.labelPlaceholder": {
+    "text": "Staat onder de waarde",
+    "source": "f1461ac248",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.moveDown": {
+    "text": "Omlaag",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.moveUp": {
+    "text": "Omhoog",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.newValue": {
+    "text": "Nieuwe waarde",
+    "source": "7ca9b97db8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.noHomeyText": {
+    "text": "De plekken tonen meetwaarden van apparaten van die Homey. Kies hem in de balk hierboven om ze waarden te geven.",
+    "source": "fd37d40c5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.noHomeyTitle": {
+    "text": "Kies de Homey van dit huis",
+    "source": "01d9043229",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.notPlaced": {
+    "text": "{elsewhere, select, yes {Staat op een andere kant. Hier ook plaatsen?} other {Nog niet op een kant: wat hij toont, verschijnt zodra hij geplaatst is.}}",
+    "source": "d6b5e056ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.otherHomeyText": {
+    "text": "Wissel naar die Homey om te wijzigen wat de plekken tonen.",
+    "source": "9d13eb1614",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.otherHomeyTitle": {
+    "text": "Dit huis hoort bij een andere Homey",
+    "source": "714a34af7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.partState": {
+    "text": "{state, select, off {Niet getoond} meters {Uit je energiemeters} other {Gekozen meetwaarden}}",
+    "source": "715a5560f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.placeIt": {
+    "text": "Plaatsen",
+    "source": "c4b48412d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.placedHere": {
+    "text": "Op deze kant: sleep de pin om hem te verplaatsen.",
+    "source": "b110cbb7a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.preset": {
+    "text": "{preset, select, terraced {Rijtjeshuis} semi-detached {Twee-onder-een-kap} bungalow {Bungalow} flat {Appartement met balkon} other {Vrijstaand huis}}",
+    "source": "18116c8abe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.presetWay": {
+    "text": "Een Tiledash-huis",
+    "source": "cdf97e14be",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.presetWayHint": {
+    "text": "Begin met een van de onze; een eigen huis kan later ook.",
+    "source": "5d785ce46b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.readings": {
+    "text": "{count, plural, one {Meetwaarde} other {Meetwaarden, opgeteld}}",
+    "source": "37430be2b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.removeReading": {
+    "text": "Deze meetwaarde verwijderen",
+    "source": "547d6d542f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.removeValue": {
+    "text": "Verwijderen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.summary": {
+    "text": "{count, plural, =0 {Nog niets} one {# waarde} other {# waarden}}",
+    "source": "3e3a780569",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.takeOffInstead": {
+    "text": "Toch aftrekken",
+    "source": "ece552dc0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.todayTitle": {
+    "text": "Totalen van vandaag",
+    "source": "1aaafdfab4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.todayWhere": {
+    "text": "Onder het huis",
+    "source": "b6aaac36a3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.valueCount": {
+    "text": "{count}/{max}",
+    "source": "60ed39d6eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "houses.spots.valuesHere": {
+    "text": "{part, select, yes {Ook hier} other {Waarden hier}}",
+    "source": "311d1558df",
+    "by": "ai",
+    "reviewed": false
+  }
+}

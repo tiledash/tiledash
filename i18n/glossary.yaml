@@ -400,10 +400,10 @@ terms:
         floorplans.*,
         shell.names.floorPlans,
         # The floor planner's tour (59.7): the plan being drawn.
-        shell.tour.planSafeBody,
+        tours.steps.planSafeBody,
         shell.tour.planTourNoPlan,
         shell.tour.planOfferText,
-        shell.tour.planEndTitle,
+        tours.steps.planEndTitle,
         shell.tour.tourFloorPlan,
         account.plans.rowFloorPlans,
         account.plans.rowFloorPlans3d,
@@ -428,6 +428,9 @@ terms:
         community.dialogs.whereModel,
         community.installed.notOnPlan,
         community.item.licenceHint,
+        # What support access may show (49): dashboards and floor plans.
+        shell.supportAccess.members,
+        shell.supportAccess.partDashboards,
         # Floor plans an owner shares with the people on their Homey (47).
         account.people.floorPlans,
         account.people.tabShares,

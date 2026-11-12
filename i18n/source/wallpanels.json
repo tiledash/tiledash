@@ -1,0 +1,521 @@
+{
+  "wallpanels.setup.aboveTilesHeading": {
+    "en": "Above the tiles",
+    "context": "Small heading in the Screen section of the wall panel dialog, above the switches for showing the dashboard’s name and summaries, and the time, over the tiles.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.afterMinutes": {
+    "en": "{minutes, plural, one {After # minute} other {After # minutes}}",
+    "context": "Choice in a dropdown that sets a time: the panel falls asleep after this many minutes without a touch, such as \"After 5 minutes\".",
+    "params": {
+      "minutes": "The number of minutes, 1 or more."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.afterSeconds": {
+    "en": "{seconds, plural, one {After # second} other {After # seconds}}",
+    "context": "Choice in the dropdown for closing popups: a popup closes after this many seconds without a touch, such as \"After 30 seconds\".",
+    "params": {
+      "seconds": "The number of seconds, 1 or more."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.alertsHeading": {
+    "en": "Alerts",
+    "context": "Small heading in the Sleep & alerts section of the wall panel dialog, above the Wake for alerts switch. A noun.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.behaviourHeading": {
+    "en": "Behaviour",
+    "context": "Small heading in the Screen section of the wall panel dialog, above the settings for full screen, keeping the screen on and closing popups. A noun.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.closePopups": {
+    "en": "Close popups when nobody touches them",
+    "context": "Label of the dropdown that sets how long a popup (a dashboard shown on top of the panel) may stay open untouched before it closes. Choices such as \"After 30 seconds\" or \"Never\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.closePopupsName": {
+    "en": "Close popups",
+    "context": "Name of the dropdown that sets when popups close on their own, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.copied": {
+    "en": "Copied",
+    "context": "Replaces the Copy button’s text for two seconds after the link was copied to the clipboard.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.copy": {
+    "en": "Copy",
+    "context": "Small button beside the panel’s link. It copies the link to the clipboard. A command.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.customFold": {
+    "en": "Custom",
+    "context": "Title of a fold under those choices with every sleep setting; opens by itself when the panel’s settings match none of the choices.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.customFoldInside": {
+    "en": "when it falls asleep, what it shows then, dimming",
+    "context": "Grey words beside the closed \"Custom\" fold: what it holds.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.dashboard": {
+    "en": "Dashboard",
+    "context": "Name of the dropdown that picks the main dashboard of the wall panel, read out by screen readers. Not visible as text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.dashboardsLead": {
+    "en": "The dashboards a swipe moves between, in this order. It always starts on its main dashboard.",
+    "context": "Short line at the top of the Dashboards section of the wall panel dialog. The panel swipes between the listed dashboards in the order shown; its main dashboard always comes first.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.defaultName": {
+    "en": "{name} panel",
+    "context": "The name suggested for a new wall panel, filled into the name field for the person to type over, built from the name of its dashboard, such as \"Home panel\".",
+    "params": {
+      "name": "The name of the dashboard the panel starts on. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.description": {
+    "en": "A screen that shows your dashboards and nothing else, and stays on. Saved on your account: a tablet only needs the link. Hold the top-left corner (or press Esc) to get back.",
+    "context": "Text under the title of the wall panel dialog. It says what a wall panel is, that it is saved on the account so a tablet only needs its link, and how to leave a running panel: hold the top-left corner of the screen or press the Esc key.",
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.dim": {
+    "en": "Dim while asleep",
+    "context": "Label of a switch in the sleep section, also its name for screen readers. When on, the screen is darkened while the panel sleeps.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.dimHint": {
+    "en": "Darker still, for a bedroom or a hallway at night.",
+    "context": "Help text under the Dim while asleep switch: the screen gets even darker while asleep.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.einkClear": {
+    "en": "Clear ghosting",
+    "context": "Label of the dropdown (and its name for screen readers) that sets how often an e-ink panel flashes black and white once to clear the faint traces of earlier images (ghosting). Choices such as \"Every hour\". Shown only with the E-ink switch on.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.einkClearHint": {
+    "en": "Clearing flashes the screen black and white once, to wipe away the faint traces e-ink leaves behind.",
+    "context": "Help text under the e-ink settings. It explains what clearing does: the screen flashes black and white once to wipe away ghosting.",
+    "maxLength": 150,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.einkHint": {
+    "en": "Black on white without motion; values change in steps, alarms and locks right away.",
+    "context": "Help text under the E-ink screen switch. The panel shows black on white, nothing moves, new values show in steps, and alarms and door locks show right away.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.einkRefresh": {
+    "en": "Show new values",
+    "context": "Label of the dropdown (and its name for screen readers) that sets how often an e-ink panel takes in new values, with choices such as \"Every minute\". Shown only with the E-ink switch on.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.einkTitle": {
+    "en": "E-ink screen",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. Turns on the mode for e-ink screens (like an e-reader).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.everyHour": {
+    "en": "Every hour",
+    "context": "Choice in the dropdown for how often an e-ink screen clears ghosting: once an hour.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.everyMinutes": {
+    "en": "{minutes, plural, =1 {Every minute} other {Every # minutes}}",
+    "context": "Choice in the dropdowns for how often an e-ink screen shows new values or clears ghosting: \"Every minute\" for one minute, else such as \"Every 5 minutes\".",
+    "params": {
+      "minutes": "The number of minutes, 1 or more."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.everySeconds": {
+    "en": "{seconds, plural, one {Every # second} other {Every # seconds}}",
+    "context": "Choice in the dropdown for how often an e-ink screen shows new values, such as \"Every 30 seconds\".",
+    "params": {
+      "seconds": "The number of seconds, 1 or more."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.fullScreen": {
+    "en": "Full screen",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. The panel opens in full screen, without the browser around it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.fullScreenUnsupported": {
+    "en": "This browser can’t go full screen by itself.",
+    "context": "Note under the Full screen switch when the browser cannot be put into full screen by a web page. The switch is off and disabled.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.generalLead": {
+    "en": "What it’s called, where it starts, and the link a tablet opens.",
+    "context": "Short line at the top of the General section of the wall panel dialog, saying what is in it: the panel’s name, the dashboard it starts on and the link to open on a tablet.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.idleDim": {
+    "en": "Dim after 10 minutes",
+    "context": "Choice: after ten minutes without a touch the screen dims.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.idleOn": {
+    "en": "Stay on",
+    "context": "Choice: the screen never falls asleep.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.idleQuestion": {
+    "en": "When nobody uses it",
+    "context": "Question at the top of the Sleep & alerts tab of the wall panel settings, above three ready-made choices.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.idleSleep": {
+    "en": "Sleep, wake for alerts",
+    "context": "Choice: after ten minutes without a touch it falls asleep, and wakes when an alert comes (smoke, the doorbell).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.keepOn": {
+    "en": "Keep the screen on",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. While the panel shows, the screen does not dim or lock.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.keepOnHint": {
+    "en": "While the panel shows, the screen won’t dim or lock.",
+    "context": "Help text under the Keep the screen on switch.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.keepOnUnsupported": {
+    "en": "This browser can’t keep the screen on; use the tablet’s own setting.",
+    "context": "Note under the Keep the screen on switch when the browser cannot stop the screen from dimming. The person should use the device’s own screen-timeout setting instead. The switch is disabled.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.kindEink": {
+    "en": "E-ink",
+    "context": "Choice: an e-ink (electronic paper) screen.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.kindOled": {
+    "en": "Always-on OLED",
+    "context": "Choice: an OLED screen that stays on, which can burn in; it dims and moves the picture a little while asleep.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.kindQuestion": {
+    "en": "What kind of screen is it?",
+    "context": "Question at the top of the Screen tab of the wall panel settings, above three choices. The answer shows only the settings that fit that kind of screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.kindTablet": {
+    "en": "A tablet",
+    "context": "Choice: an ordinary tablet (Android, iPad, Fire).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.languageLead": {
+    "en": "Words and formats on this panel. It follows your account unless you pick others.",
+    "context": "Short line at the top of the Language & region section of the wall panel dialog. The panel uses the account’s language and formats unless others are picked here.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.linkHint": {
+    "en": "Opening this link starts the panel straight away, so a tablet that opens it on start runs the panel on its own.",
+    "context": "Help text under the panel’s link. Opening the link runs the panel at once, so a tablet set to open it at start-up becomes a wall panel by itself.",
+    "maxLength": 170,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.linkLabel": {
+    "en": "Address to open on the tablet",
+    "context": "Label above the web address of the saved wall panel: opening it on a tablet (in a browser or a kiosk app that shows one page full screen) runs the panel.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.linkNone": {
+    "en": "The link appears once the panel is saved.",
+    "context": "Shown in place of the panel’s link while the panel is new and not saved yet.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.mainFixedHint": {
+    "en": "Always first. Pick another under General.",
+    "context": "Small text on the first, fixed row of the panel’s dashboard list (its main dashboard), which can’t be moved or removed. Another main dashboard is picked in the General section, under Starts on.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.nameLabel": {
+    "en": "Name",
+    "context": "Label of the text field for the name of the wall panel, which is also how it is called in the sidebar.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.namePlaceholder": {
+    "en": "Hallway, Kitchen, Bedside…",
+    "context": "Grey example text in the empty name field of a wall panel: three example places, separated by commas.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.never": {
+    "en": "Never",
+    "context": "Choice in a dropdown that sets a time (when the panel falls asleep, how often an e-ink screen clears itself, when popups close): it never happens.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.saveAndStart": {
+    "en": "Save and start here",
+    "context": "Blue button in the footer of the wall panel dialog. It saves the panel and runs it on this screen straight away. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.saveFailed": {
+    "en": "Couldn’t save the wall panel.",
+    "context": "Red message (toast) when saving a wall panel failed.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.saved": {
+    "en": "Saved “{name}”",
+    "context": "Green message (toast) after a wall panel was saved without starting it. The quotes are around the name of the panel.",
+    "params": {
+      "name": "The name of the wall panel. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.screenLead": {
+    "en": "How it fills the screen, and what shows on it.",
+    "context": "Short line at the top of the Screen section of the wall panel dialog.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sectionDashboards": {
+    "en": "Dashboards",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the dashboards the panel swipes between, in their order.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sectionGeneral": {
+    "en": "General",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the panel’s name, the dashboard it starts on and its link.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sectionLanguage": {
+    "en": "Language & region",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the panel’s own language and its way of writing dates, times and numbers.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sectionScreen": {
+    "en": "Screen",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): the layout, what shows above the tiles, full screen, keeping the screen on, popups and the e-ink mode. A noun.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sectionSleep": {
+    "en": "Sleep & alerts",
+    "context": "Tab of the wall panel dialog, in the row above its settings (some may sit under More when the row is full): what the panel does when nobody touches it (falls asleep to another dashboard) and whether alerts wake it. Nouns.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sections": {
+    "en": "Wall panel settings",
+    "context": "Name of the row of tabs of the wall panel dialog (General, Dashboards, Screen…), read out by screen readers. Not visible as text.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.shift": {
+    "en": "Shift the screen slowly",
+    "context": "Label of a switch in the sleep section, also its name for screen readers. While asleep everything on screen drifts by about a pixel a minute, so no image stays in one place.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.shiftHint": {
+    "en": "For OLED screens: everything moves a pixel a minute, so nothing burns in. Too slow to notice.",
+    "context": "Help text under the Shift the screen slowly switch. It protects OLED screens from burn-in (a faint permanent image) by moving everything a pixel a minute, too slowly to notice.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.showName": {
+    "en": "Show the name and summaries",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. The dashboard’s name and its summaries (small live figures such as \"3 lights on\") show above the tiles.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.showTime": {
+    "en": "Show the time",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. The time shows above the dashboard.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepAfter": {
+    "en": "Fall asleep when nobody touches it",
+    "context": "Label of the dropdown that sets how long the panel may stay untouched before it falls asleep (shows its sleep dashboard). Choices such as \"After 5 minutes\" or \"Never\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepAfterName": {
+    "en": "Fall asleep",
+    "context": "Name of the dropdown that sets when the panel falls asleep, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepDashboard": {
+    "en": "Show while asleep",
+    "context": "Label of the dropdown that picks the dashboard the panel shows while it sleeps, such as a big clock.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepDashboardName": {
+    "en": "Sleep dashboard",
+    "context": "Name of the dropdown that picks the dashboard shown while the panel sleeps, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepHeading": {
+    "en": "Sleep",
+    "context": "Heading of the section about sleeping in the wall panel dialog. A noun: what the panel does when nobody touches it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepLead": {
+    "en": "What it does when nobody touches it, and when something needs your attention.",
+    "context": "Short line at the top of the Sleep & alerts section of the wall panel dialog: falling asleep when untouched, and waking for alerts (smoke, a leak, the doorbell…).",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepScreenTag": {
+    "en": "Sleep screen",
+    "context": "Small text beside a dashboard in the list of dashboards to add to the panel: the panel shows this one while it sleeps, such as a big clock.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepShowName": {
+    "en": "Show the name and summaries while asleep",
+    "context": "Label of a switch in the sleep section, also its name for screen readers. The sleep dashboard’s name and summaries (small live figures) show above it while the panel sleeps.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.sleepShowTime": {
+    "en": "Show the time while asleep",
+    "context": "Label of a switch in the sleep section, also its name for screen readers. The time shows above the sleep dashboard while the panel sleeps.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.startsHere": {
+    "en": "Starts here",
+    "context": "Small tag on the first row of the panel’s dashboard list: the dashboard the panel starts on (its main dashboard, always first on the panel).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.startsOn": {
+    "en": "Starts on",
+    "context": "Label of the dropdown that picks the main dashboard of the wall panel: the one it starts on and wakes up to.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.startsOnHint": {
+    "en": "Where it starts, and where it goes back to when it wakes up.",
+    "context": "Help text under the Starts on dropdown of the wall panel dialog: the panel starts on this dashboard and returns to it when it wakes from sleep.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.swipeHint": {
+    "en": "Swipe between these {count} in this order; dots at the bottom show where you are.",
+    "context": "Help text under the list of dashboards on the panel when there are two or more. The panel swipes between them in the order of the list, and a row of dots at the bottom shows which one is on screen.",
+    "params": {
+      "count": "How many dashboards are on the panel, at least 2."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.swipeOnlyHint": {
+    "en": "Only {name}: add more to swipe between them.",
+    "context": "Help text under the list of dashboards on the panel when only its main dashboard is on it. Adding more dashboards to the list lets the panel swipe between them.",
+    "params": {
+      "name": "The name of the panel’s main dashboard. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.theDashboard": {
+    "en": "the dashboard",
+    "context": "Stand-in used inside a sentence of the Layout setting, in place of the name of the panel’s main dashboard, when that name is not known yet. Reads as \"…on the dashboard\". Lower case, no capital.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.thenSwipesTo": {
+    "en": "Then swipes to",
+    "context": "Label above the list of the other dashboards on a wall panel, in the order a swipe reaches them after the main dashboard. Rows can be moved up and down, removed and added.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.titleEdit": {
+    "en": "Edit wall panel",
+    "context": "Title of the dialog that changes the settings of an existing wall panel (a screen that shows dashboards and nothing else, and stays on).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.titleNew": {
+    "en": "New wall panel",
+    "context": "Title of the dialog that makes a new wall panel (a screen that shows dashboards and nothing else, and stays on).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.wakeForAlerts": {
+    "en": "Wake for alerts",
+    "context": "Label of a switch in the wall panel dialog, also its name for screen readers. When on, an alert wakes the panel from its sleep.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.wakeForAlertsHint": {
+    "en": "Smoke, a leak, the alarm, motion or the doorbell wake it from sleep and show full screen, and keep it on while they last. Which devices alert is set in your account.",
+    "context": "Help text under the Wake for alerts switch. Alerts (smoke, a water leak, the alarm, motion, the doorbell) wake a sleeping panel, show full screen and keep the screen on while they last. Which devices count as alerts is set on the account page.",
+    "maxLength": 250,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  },
+  "wallpanels.setup.wakeTouchHint": {
+    "en": "A touch wakes it up again, back to {name}; that first touch doesn’t press anything.",
+    "context": "Help text at the end of the sleep section. Touching the sleeping panel wakes it and brings back its main dashboard; that first touch does not press a tile.",
+    "params": {
+      "name": "The name of the panel’s main dashboard. Not translated."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/WallPanelSetupDialog.messages.ts"
+  }
+}

@@ -245,6 +245,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.viewOnly": {
+    "text": "Sie können {device} ansehen, aber nicht schalten",
+    "source": "73048e8f9e",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.addToDashboard.addFailed": {
     "text": "{device} konnte nicht zu {dashboard} hinzugefügt werden",
     "source": "cadf20c493",
@@ -422,6 +428,192 @@
   "viewer.alerts.tapForSound": {
     "text": "Für Ton tippen",
     "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.andMore": {
+    "text": "Weitere offene Einstellungen: {count, number}.",
+    "source": "46a5870dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "text": "Erneut wählen: {noun}",
+    "source": "ad6f083558",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "text": "Bitte wählen Sie etwas anderes.",
+    "source": "fac3884df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "text": "Wählen Sie etwas anderes oder lassen Sie es leer.",
+    "source": "87cde503dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "text": "Weitere wählen: {noun}",
+    "source": "9f2f9b88b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "text": "Bitte wählen: {kind, select, many {{noun}} other {{noun}}}",
+    "source": "fd455b0c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "text": "Die frühere Auswahl ({noun}) ist nicht mehr auf diesem Homey.",
+    "source": "8fc8c67856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "text": "Was die Kachel zeigte ({noun}), ist nicht mehr auf diesem Homey.",
+    "source": "34427e13e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "text": "In {zone}.",
+    "source": "b18266703b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "text": "In {zone} und den Räumen darin.",
+    "source": "2c7448e10b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listFew": {
+    "text": "Die Kachel braucht mindestens {min, number} {noun}; {count, plural, one {# ist} other {# sind}} jetzt ausgewählt.",
+    "source": "f4214034d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listGone": {
+    "text": "Keine der zuvor gewählten {noun} ist mehr auf diesem Homey. Wählen Sie andere.",
+    "source": "805edb9c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "text": "Keine der zuvor gewählten {noun} passt mehr. Wählen Sie andere.",
+    "source": "cce1969967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listPartly": {
+    "text": "{lost, plural, one {# der zuvor gewählten {noun} ist nicht mehr auf diesem Homey oder passt nicht mehr; die Kachel zeigt die übrigen {kept, number}. Entfernen Sie es unten.} other {# der zuvor gewählten {noun} sind nicht mehr auf diesem Homey oder passen nicht mehr; die Kachel zeigt die übrigen {kept, number}. Entfernen Sie sie unten.}}",
+    "source": "dc3016af4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "text": "{name} ist nicht mehr vom Typ {deviceKind}.",
+    "source": "3e29d9c394",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "text": "{name} ist nicht mehr die richtige Geräteart.",
+    "source": "e648323e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "text": "{name} hat {capabilities} nicht mehr.",
+    "source": "2c5dc6a8b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "text": "{name} hat keine dieser Funktionen mehr: {capabilities}.",
+    "source": "c22ea32f21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "text": "Benötigt {subject, select, class {ein Gerät vom Typ {classes}} other {ein Gerät}} mit {all} und {any}.",
+    "source": "4ba097599b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAny": {
+    "text": "Benötigt {subject, select, class {ein Gerät vom Typ {classes}} other {ein Gerät}} mit {any}.",
+    "source": "f78bcade48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "text": "Benötigt {subject, select, class {ein Gerät vom Typ {classes}} other {ein Gerät}}.",
+    "source": "79e8d6879c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsOne": {
+    "text": "Dieses Widget braucht diese Angabe: Wählen Sie sie in den Einstellungen der Kachel.",
+    "source": "856b73eab9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsThem": {
+    "text": "Dieses Widget braucht sie: Wählen Sie sie in den Einstellungen der Kachel.",
+    "source": "f2d90071a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsWith": {
+    "text": "Benötigt {subject, select, class {ein Gerät vom Typ {classes}} other {ein Gerät}} mit {all}.",
+    "source": "107a46a50a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFit": {
+    "text": "Kein passendes Gerät ({noun}) auf diesem Homey",
+    "source": "998647aaf2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "text": "Kein passendes Gerät ({noun}) in {zone}",
+    "source": "729a342770",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "text": "Kein passendes Gerät ({noun}) in {zone} und den Räumen darin",
+    "source": "17aeb8ea04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "text": "Tiledash darf noch nicht sehen, wer bei Ihnen wohnt. Bitte neu anmelden und zulassen.",
+    "source": "a8e9d27367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "text": "Schläft",
+    "source": "60135e8f5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAway": {
+    "text": "Abwesend",
+    "source": "af16c830c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personHome": {
+    "text": "Zu Hause",
+    "source": "3a78695388",
     "by": "ai",
     "reviewed": false
   },
@@ -710,6 +902,12 @@
   "viewer.deviceDetail.usageLabel": {
     "text": "Aufgezeichnete Messwerte auf diesem Homey",
     "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "text": "Sie können dieses Gerät ansehen, aber nicht schalten: So hat es der Besitzer des Homey festgelegt.",
+    "source": "c3b57477ba",
     "by": "ai",
     "reviewed": false
   },

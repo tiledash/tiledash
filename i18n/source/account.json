@@ -7280,6 +7280,173 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/sharing/sharingParts.messages.ts"
   },
+  "account.supportAccess.answer": {
+    "en": "Answer",
+    "context": "Button: opens the question to allow or decline it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.askedAccount": {
+    "en": "{name} asks to look at your own widgets, themes or pictures",
+    "context": "A question from Tiledash support about the person’s account, waiting for an answer.",
+    "params": {
+      "name": "The first name of the person at Tiledash support. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.askedHomey": {
+    "en": "{name} asks to look at <b>{homey}</b>",
+    "context": "A question from Tiledash support waiting for an answer. <b>…</b> marks the Homey’s name; keep the tags.",
+    "params": {
+      "homey": "The Homey’s name. Not translated.",
+      "name": "The first name of the person at Tiledash support. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.askedWhen": {
+    "en": "Asked {when} · runs out {date}",
+    "context": "Small line under a waiting question.",
+    "params": {
+      "date": "A date like \"18 Nov\", already in the page’s language.",
+      "when": "When it was asked, like \"2 hours ago\", already in the page’s language."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.day": {
+    "en": "1 day",
+    "context": "The length chosen, inside a past access line like \"allowed for 1 day\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.earlier": {
+    "en": "Earlier",
+    "context": "Small heading above the last few questions that ended.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.end": {
+    "en": "End now",
+    "context": "Button: support can no longer look, at once.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.endFailed": {
+    "en": "Couldn’t end it. Try again in a moment.",
+    "context": "Short notice when ending support access sooner failed (no connection, say).",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.endedAdmin": {
+    "en": "ended by support",
+    "context": "Part of a past access line: Tiledash support ended it when they were done.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.endedOwner": {
+    "en": "ended when the Homey left",
+    "context": "Part of a past access line: it ended because the Homey was removed or changed owner.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.endedPerson": {
+    "en": "ended by you",
+    "context": "Part of a past access line: the person ended it sooner.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.endedTime": {
+    "en": "ended by itself",
+    "context": "Part of a past access line: its time was up.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.hour": {
+    "en": "1 hour",
+    "context": "The length chosen, inside a past access line like \"allowed for 1 day\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.none": {
+    "en": "Tiledash support can’t see your setup. When they need to look to help you, they ask you here first.",
+    "context": "Shown when nothing is asked or allowed. Calm and reassuring.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.pastAllowed": {
+    "en": "{date} · allowed for {length}, {ended}",
+    "context": "A past access in a short list.",
+    "params": {
+      "date": "A date like \"3 Nov\".",
+      "ended": "How it ended, one of the \"ended…\" texts.",
+      "length": "The length chosen, like \"1 day\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.pastDeclined": {
+    "en": "{date} · declined",
+    "context": "A past question the person said no to.",
+    "params": {
+      "date": "A date like \"3 Nov\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.pastExpired": {
+    "en": "{date} · not answered, ran out",
+    "context": "A past question nobody answered within a week.",
+    "params": {
+      "date": "A date like \"3 Nov\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.runningAccount": {
+    "en": "{name} can look at your account until {until}",
+    "context": "An access to the person’s own account, still running.",
+    "params": {
+      "name": "The first name of the person at Tiledash support. Not translated.",
+      "until": "A day and time like \"Thu 14:30\", already in the page’s language."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.runningHomey": {
+    "en": "{name} can look at <b>{homey}</b> until {until}",
+    "context": "An access the person allowed, still running. <b>…</b> marks the Homey’s name; keep the tags.",
+    "params": {
+      "homey": "The Homey’s name. Not translated.",
+      "name": "The first name of the person at Tiledash support. Not translated.",
+      "until": "A day and time like \"Thu 14:30\", already in the page’s language."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.title": {
+    "en": "Support access",
+    "context": "Heading of the card in Settings › Profile about Tiledash support looking at the setup.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.watching": {
+    "en": "Following {values, plural, one {# value} other {# values}} until {until}; deleted when it ends",
+    "context": "Support records a few of the Homey’s values for a while during the access; those readings go when it ends.",
+    "params": {
+      "until": "A day and time like \"Thu 14:30\", already in the page’s language.",
+      "values": "How many values."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
+  "account.supportAccess.week": {
+    "en": "7 days",
+    "context": "The length chosen, inside a past access line like \"allowed for 1 day\".",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/supportAccess/SupportAccessSection.messages.ts"
+  },
   "account.whatsNew.dataSources": {
     "en": "Data sources",
     "context": "Heading of the card at the foot of the What’s new page that credits the data Tiledash shows from others (weather, places, maps).",
@@ -7345,5 +7512,14 @@
     "context": "Title of the page with the changelog: what changed in Tiledash lately.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/account/WhatsNewSection.messages.ts"
+  },
+  "account.workshopPointer.pointer": {
+    "en": "{kind, select, theme {Make your own themes and share them in the <link>Workshop</link>.} model {Make your own models and share them in the <link>Workshop</link>.} other {Make your own in the <link>Workshop</link>.}}",
+    "context": "Line in Settings › Themes (kind theme) and Settings › Floor plans (kind model); <link> links to the Workshop page.",
+    "params": {
+      "kind": "theme or model."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/workshop/WorkshopPointer.messages.ts"
   }
 }

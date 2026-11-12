@@ -1199,6 +1199,168 @@
     "by": "ai",
     "reviewed": false
   },
+  "shell.supportAccess.allow": {
+    "text": "Tillat",
+    "source": "e213c161d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.answerFailed": {
+    "text": "Svaret ditt kom ikke fram. Prøv igjen om litt.",
+    "source": "c6a2ab001b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.day": {
+    "text": "1 dag",
+    "source": "fa665d95d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.decline": {
+    "text": "Avslå",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.hour": {
+    "text": "1 time",
+    "source": "f8b8883f0c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.intro": {
+    "text": "{name} fra Tiledash-kundestøtten ber om å se deler av oppsettet ditt, for å hjelpe med dette:",
+    "source": "f9ba330dfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.lengthLabel": {
+    "text": "Hvor lenge",
+    "source": "99a013a89b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.members": {
+    "text": "Dette gjelder også dashbordene og plantegningene som {names} har laget på den.",
+    "source": "91fb1d26cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.onHomey": {
+    "text": "På <b>{homey}</b>",
+    "source": "beeb01ed23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partDashboards": {
+    "text": "Dashbord og plantegninger",
+    "source": "f51a17510c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partHomeyData": {
+    "text": "Enhetene, rommene, Flowene og stemningene dine",
+    "source": "b87b85ff42",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partLive": {
+    "text": "Verdier rett fra Homey-en din, og å følge med på noen av dem en stund",
+    "source": "df05180190",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partPictures": {
+    "text": "Bilder du har lastet opp",
+    "source": "aff66808a4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partRecordings": {
+    "text": "Registreringer og historikken deres",
+    "source": "e86086b35e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partWidgets": {
+    "text": "Dine egne widgeter og temaer",
+    "source": "af0974628c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.partsTitle": {
+    "text": "Dette får de se",
+    "source": "0fb7a8ee03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.promise": {
+    "text": "De kan se, ikke endre noe. Hver titt logges, og du kan avslutte tilgangen tidligere.",
+    "source": "22a3f02dc5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.runsOut": {
+    "text": "Hvis du ikke svarer, utløper forespørselen {date}.",
+    "source": "d4abe043c0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.sidebarAccount": {
+    "text": "kontoen din",
+    "source": "17a7e5cfee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.sidebarEnd": {
+    "text": "Avslutt",
+    "source": "f4db1e4847",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.sidebarLabel": {
+    "text": "{name} fra Tiledash-kundestøtten kan se på {what} til {until}",
+    "source": "ac5fc1cbfa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.sidebarTitle": {
+    "text": "Kundestøtten kan se",
+    "source": "97e0100cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.sidebarUntil": {
+    "text": "til {until}",
+    "source": "e34e9ffcc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.title": {
+    "text": "Får Tiledash-kundestøtten se?",
+    "source": "efec2d199c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.watchNote": {
+    "text": "Verdier de følger med på, slettes når tilgangen slutter.",
+    "source": "b6d108fde0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.week": {
+    "text": "7 dager",
+    "source": "7f920bb639",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.supportAccess.yourAccount": {
+    "text": "Din egen konto, ikke en Homey",
+    "source": "b0e444bd45",
+    "by": "ai",
+    "reviewed": false
+  },
   "shell.thisScreen.description": {
     "text": "Hvordan appen ser ut og beveger seg, bare på denne enheten. De andre enhetene dine beholder sitt; et dashbord med eget tema beholder det.",
     "source": "02054d3729",
@@ -1325,57 +1487,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.allDoneBody": {
-    "text": "Det er det viktigste. Veiledningene på tiledash.app går lenger.",
-    "source": "f9a7b327a0",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.back": {
-    "text": "Tilbake",
-    "source": "76900f1bfd",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.basicsBody": {
-    "text": "En kort liste med ting å prøve ligger i hjørnet. Ta den tiden du trenger; den husker hvor du er.",
-    "source": "07cca663b5",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.basicsTitle": {
-    "text": "Det er det grunnleggende",
-    "source": "e961e52553",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.closeList": {
-    "text": "Lukk listen",
-    "source": "5d54f77539",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.endTour": {
-    "text": "Avslutt omvisningen",
-    "source": "1674fd183e",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.exploreMyself": {
     "text": "Jeg utforsker selv",
     "source": "3a6ad5ed90",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.finish": {
-    "text": "Fullfør",
-    "source": "a6c7a84baa",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.foldList": {
-    "text": "Legg sammen listen",
-    "source": "8bcc3500ce",
     "by": "ai",
     "reviewed": false
   },
@@ -1385,51 +1499,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.hideList": {
-    "text": "Skjul denne listen",
-    "source": "6a45cf67d5",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.homeBody": {
-    "text": "Lys på, temperaturen, hva som er åpent. Trykk på en for å se hvilke enheter den teller.",
-    "source": "5f9a50e70f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.homeTitle": {
-    "text": "Hjemmet ditt med et blikk",
-    "source": "bab70bd375",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.listCount": {
-    "text": "{done} av {count} gjort",
-    "source": "afaa6fbd47",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.listDoneTitle": {
-    "text": "Du kjenner deg rundt",
-    "source": "156e695402",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.listTitle": {
-    "text": "Bli kjent med Tiledash",
-    "source": "ac51cdeaef",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.makeFirst": {
     "text": "Lag mitt første dashbord",
     "source": "bda59b8008",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.next": {
-    "text": "Neste",
-    "source": "1ff57a29d7",
     "by": "ai",
     "reviewed": false
   },
@@ -1463,12 +1535,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.optionsBody": {
-    "text": "Alltid her, øverst til høyre: endre dashbordet og innstillingene, sett det på et nettbrett eller del det.",
-    "source": "a542c2fe1d",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.optionsHintText": {
     "text": "Endre dashbordet og innstillingene, sett det på et nettbrett eller del det. Alltid her, øverst til høyre.",
     "source": "94d6a1c50b",
@@ -1481,57 +1547,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.plan3dBody": {
-    "text": "Kuben bytter mellom tegningen og en 3D-visning. I 3D drar du med høyre museknapp for å vri den.",
-    "source": "68db23809b",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.plan3dTitle": {
-    "text": "Se det i 3D",
-    "source": "b8060d34ba",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planEndBody": {
-    "text": "(?) her oppe starter denne omvisningen igjen. Trykk ? for alle kontroller og snarveier.",
-    "source": "e921690ab7",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planEndTitle": {
-    "text": "Det var plantegningsverktøyet",
-    "source": "025901ef6e",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.planOfferText": {
     "text": "En kort omvisning i plantegningsverktøyet: hvor du tegner, 3D-visningen og hvordan du beveger deg rundt. Tre trinn.",
     "source": "f132fd6b87",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planSafeBody": {
-    "text": "Angre tar tilbake enhver endring, og planen lagres av seg selv. Mellomrom og dra flytter rundt; rulling zoomer.",
-    "source": "940ba24f0c",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planSafeTitle": {
-    "text": "Prøv deg fram",
-    "source": "1451e8f517",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planToolsBody": {
-    "text": "Velg et verktøy her: rom og vegger først, så dører og vinduer, møbler og enhetene dine.",
-    "source": "181f916900",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.planToolsTitle": {
-    "text": "Tegn rommene dine",
-    "source": "8c0fd8aac9",
     "by": "ai",
     "reviewed": false
   },
@@ -1571,57 +1589,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.settingsEndBody": {
-    "text": "(?) her oppe starter denne omvisningen igjen, når som helst.",
-    "source": "fd3cbf06ea",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsEndTitle": {
-    "text": "Det var dashbordinnstillingene",
-    "source": "e381998339",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsLookBody": {
-    "text": "Et tema bare for dette dashbordet og, med Pro, et bilde bak flisene. Demping og uskarphet gjør flisene lette å lese.",
-    "source": "1a02122a21",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsLookTitle": {
-    "text": "Et eget utseende",
-    "source": "2433fcc288",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.settingsOfferText": {
     "text": "Fire korte trinn: avstand, oppsett, utseende og popup-vinduer. Den ligger her under (?).",
     "source": "c82f54f1b8",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsPopupsBody": {
-    "text": "Velg hva som utløser et, som dørklokken, og hva som vises: et kamera, en enhet eller et annet dashbord. Det lukkes igjen etter en stund.",
-    "source": "028db543b0",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsPopupsTitle": {
-    "text": "Popup-vinduer som åpner seg selv",
-    "source": "9dae8fa9b9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsSpacingBody": {
-    "text": "Tett, Komfortabel eller Romslig, med piksler under Finjuster. Tilpass til skjermen får alt på én skjerm, fint for et nettbrett på veggen.",
-    "source": "732f78d05f",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.settingsSpacingTitle": {
-    "text": "Luft mellom flisene",
-    "source": "464f15c08f",
     "by": "ai",
     "reviewed": false
   },
@@ -1634,12 +1604,6 @@
   "shell.tour.showMeAround": {
     "text": "Vis meg rundt",
     "source": "80afe5d95b",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.showMyList": {
-    "text": "Vis listen min",
-    "source": "2bae9d2686",
     "by": "ai",
     "reviewed": false
   },
@@ -1661,159 +1625,9 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.stepCount": {
-    "text": "{step} av {count}",
-    "source": "91bfb1f611",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletChooseBody": {
-    "text": "Hvilke dashbord det viser, og hva slags skjerm det er. Alle har et svar klart, så Neste hele veien fungerer.",
-    "source": "d0a90795f8",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletChooseTitle": {
-    "text": "Så to spørsmål",
-    "source": "cc25ad25c8",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletCodeBody": {
-    "text": "Åpne adressen som vises her på nettbrettet, eller skann QR-koden. Skriv inn koden det viser, og velg Koble til.",
-    "source": "b176f2e0a4",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletCodeTitle": {
-    "text": "Først koden",
-    "source": "2402d82c68",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletEndBody": {
-    "text": "Endre det senere under Veggpaneler i sidepanelet. Dialogen er fortsatt åpen så du kan gjøre deg ferdig.",
-    "source": "34127f3a64",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletEndTitle": {
-    "text": "Mer skal det ikke til",
-    "source": "f490b64f48",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletIntroBody": {
-    "text": "Det viser dashbordene dine i fullskjerm: sveip mellom dem. Det dimmes når ingen bruker det, og våkner for varsler som dørklokken.",
-    "source": "cb30b775be",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tabletIntroTitle": {
-    "text": "Et nettbrett på veggen",
-    "source": "0922a824b7",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.takeTourAgain": {
     "text": "Omvisninger",
     "source": "5bb385763e",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskFirst": {
-    "text": "Lag ditt første dashbord",
-    "source": "bc78656f71",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskFirstBody": {
-    "text": "+ ved siden av Dashbord foreslår et ut fra rommene på Homey-en din.",
-    "source": "0e27a3cefb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskPanel": {
-    "text": "Sett det på et nettbrett",
-    "source": "750eee9b02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskPanelBody": {
-    "text": "Et veggpanel viser dashbordene dine i fullskjerm og dimmes om natten.",
-    "source": "c401018004",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskRoom": {
-    "text": "Lag et dashbord for et rom",
-    "source": "02c26184c1",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskRoomBody": {
-    "text": "+ ved siden av Dashbord foreslår et ut fra rommene på Homey-en din.",
-    "source": "0e27a3cefb",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskSwitch": {
-    "text": "Slå noe av eller på",
-    "source": "e3061b1a05",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskSwitchBody": {
-    "text": "Trykk på et lys eller en plugg på dashbordet ditt.",
-    "source": "c359159b53",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskTheme": {
-    "text": "Prøv et tema",
-    "source": "f73a815232",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskThemeBody": {
-    "text": "Mørkt, lyst, e-blekk eller et du har laget selv.",
-    "source": "8569602ddf",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskWidget": {
-    "text": "Legg til en widget",
-    "source": "43c87df5ae",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.taskWidgetBody": {
-    "text": "Åpne valgene for dashbordet, velg Rediger og så Legg til widget.",
-    "source": "8d444afa9d",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tileBody": {
-    "text": "Fliser gjør det de viser. En knappeflis har en knapp for hvert lys, hver stemning eller Flow.",
-    "source": "922c5c6b45",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tileTitle": {
-    "text": "Trykk for å slå av/på",
-    "source": "e4789d77f9",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tileTried": {
-    "text": "Slått om. Mer skal det ikke til.",
-    "source": "d83cfbfe2a",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tileTry": {
-    "text": "Prøv: trykk på et lys",
-    "source": "1901076076",
     "by": "ai",
     "reviewed": false
   },
@@ -1856,12 +1670,6 @@
   "shell.tour.tipsSwitchHint": {
     "text": "Velkomstkort, tilbud om omvisning, «Visste du?»-notater og kom i gang-listen. Av: ingenting åpner seg selv; (?) på hver side starter fortsatt omvisningen.",
     "source": "208023b238",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.tourAgain": {
-    "text": "Du kan ta omvisningen igjen fra kontomenyen.",
-    "source": "7e86d0748d",
     "by": "ai",
     "reviewed": false
   },
@@ -1931,12 +1739,6 @@
     "by": "ai",
     "reviewed": false
   },
-  "shell.tour.tutorials": {
-    "text": "Se veiledningene",
-    "source": "1fec9493ce",
-    "by": "ai",
-    "reviewed": false
-  },
   "shell.tour.useBoth": {
     "text": "Begge",
     "source": "b6c1d862f9",
@@ -1970,30 +1772,6 @@
   "shell.tour.useWallBody": {
     "text": "Én skjerm alle i huset bruker.",
     "source": "4434cfa690",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.wallEndAction": {
-    "text": "Sett det på et nettbrett",
-    "source": "750eee9b02",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.wallEndBody": {
-    "text": "Det tar et minutt: åpne én adresse på nettbrettet og skriv inn koden her.",
-    "source": "09b09f1497",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.wallEndNote": {
-    "text": "Eller senere, fra ⋯ eller listen i hjørnet.",
-    "source": "8d23a1d762",
-    "by": "ai",
-    "reviewed": false
-  },
-  "shell.tour.wallEndTitle": {
-    "text": "Neste: sett det på veggen",
-    "source": "cda43b04b1",
     "by": "ai",
     "reviewed": false
   },

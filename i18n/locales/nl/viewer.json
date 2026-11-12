@@ -245,6 +245,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.viewOnly": {
+    "text": "Je kunt {device} bekijken, niet bedienen",
+    "source": "73048e8f9e",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.addToDashboard.addFailed": {
     "text": "{device} kon niet aan {dashboard} worden toegevoegd",
     "source": "cadf20c493",
@@ -422,6 +428,192 @@
   "viewer.alerts.tapForSound": {
     "text": "Tik voor geluid",
     "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.andMore": {
+    "text": "En nog {count, number} om te kiezen.",
+    "source": "46a5870dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "text": "Kies opnieuw een {noun}",
+    "source": "ad6f083558",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "text": "Kies een andere.",
+    "source": "fac3884df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "text": "Kies een andere, of laat het leeg.",
+    "source": "87cde503dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "text": "Kies meer {noun}",
+    "source": "9f2f9b88b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "text": "Kies {kind, select, many {{noun}} other {een {noun}}}",
+    "source": "fd455b0c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "text": "Wat je eerder als {noun} koos, staat niet meer op deze Homey.",
+    "source": "8fc8c67856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "text": "Wat de tegel als {noun} toonde, staat niet meer op deze Homey.",
+    "source": "34427e13e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "text": "In {zone}.",
+    "source": "b18266703b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "text": "In {zone} en de kamers erin.",
+    "source": "2c7448e10b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listFew": {
+    "text": "De tegel heeft minstens {min, number} {noun} nodig; nu {count, plural, one {is er # gekozen} other {zijn er # gekozen}}.",
+    "source": "f4214034d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listGone": {
+    "text": "Geen van de eerder gekozen {noun} staat nog op deze Homey. Kies andere.",
+    "source": "805edb9c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "text": "Geen van de eerder gekozen {noun} past nog. Kies andere.",
+    "source": "cce1969967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listPartly": {
+    "text": "{lost, plural, one {# van de eerder gekozen {noun} staat niet meer op deze Homey of past niet meer; de tegel toont de andere {kept, number}. Verwijder die hieronder.} other {# van de eerder gekozen {noun} staan niet meer op deze Homey of passen niet meer; de tegel toont de andere {kept, number}. Verwijder ze hieronder.}}",
+    "source": "dc3016af4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "text": "{name} is geen {deviceKind} meer.",
+    "source": "3e29d9c394",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "text": "{name} is niet meer de juiste soort.",
+    "source": "e648323e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "text": "{name} heeft {capabilities} niet meer.",
+    "source": "2c5dc6a8b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "text": "{name} heeft geen {capabilities} meer.",
+    "source": "c22ea32f21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "text": "Heeft {subject, select, class {een {classes}} other {een apparaat}} met {all} en {any} nodig.",
+    "source": "4ba097599b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAny": {
+    "text": "Heeft {subject, select, class {een {classes}} other {een apparaat}} met {any} nodig.",
+    "source": "f78bcade48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "text": "Heeft {subject, select, class {een {classes}} other {een apparaat}} nodig.",
+    "source": "79e8d6879c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsOne": {
+    "text": "Deze widget heeft er een nodig: kies die in de instellingen van de tegel.",
+    "source": "856b73eab9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsThem": {
+    "text": "Deze widget heeft ze nodig: kies ze in de instellingen van de tegel.",
+    "source": "f2d90071a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsWith": {
+    "text": "Heeft {subject, select, class {een {classes}} other {een apparaat}} met {all} nodig.",
+    "source": "107a46a50a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFit": {
+    "text": "Geen {noun} op deze Homey",
+    "source": "998647aaf2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "text": "Geen {noun} in {zone}",
+    "source": "729a342770",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "text": "Geen {noun} in {zone} en de kamers erin",
+    "source": "17aeb8ea04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "text": "Tiledash mag nog niet zien wie er bij je woont. Log opnieuw in en sta het toe.",
+    "source": "a8e9d27367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "text": "Slaapt",
+    "source": "60135e8f5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAway": {
+    "text": "Weg",
+    "source": "af16c830c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personHome": {
+    "text": "Thuis",
+    "source": "3a78695388",
     "by": "ai",
     "reviewed": false
   },
@@ -710,6 +902,12 @@
   "viewer.deviceDetail.usageLabel": {
     "text": "Vastgelegde meetwaarden op deze Homey",
     "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "text": "Je kunt dit apparaat bekijken, niet bedienen: de eigenaar van de Homey heeft dat zo gekozen.",
+    "source": "c3b57477ba",
     "by": "ai",
     "reviewed": false
   },

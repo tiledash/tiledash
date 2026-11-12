@@ -245,6 +245,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.viewOnly": {
+    "text": "Vous pouvez voir {device}, pas le commander",
+    "source": "73048e8f9e",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.addToDashboard.addFailed": {
     "text": "Impossible d’ajouter {device} à {dashboard}",
     "source": "cadf20c493",
@@ -422,6 +428,192 @@
   "viewer.alerts.tapForSound": {
     "text": "Touchez pour le son",
     "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.andMore": {
+    "text": "Encore {count, number} à choisir.",
+    "source": "46a5870dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "text": "À choisir de nouveau : {noun}",
+    "source": "ad6f083558",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "text": "Faites un autre choix.",
+    "source": "fac3884df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "text": "Faites un autre choix, ou laissez-le vide.",
+    "source": "87cde503dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "text": "À compléter : {noun}",
+    "source": "9f2f9b88b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "text": "À choisir : {kind, select, many {{noun}} other {{noun}}}",
+    "source": "fd455b0c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "text": "Le choix précédent ({noun}) n’est plus sur ce Homey.",
+    "source": "8fc8c67856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "text": "Ce qu’elle affichait ({noun}) n’est plus sur ce Homey.",
+    "source": "34427e13e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "text": "Dans {zone}.",
+    "source": "b18266703b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "text": "Dans {zone} et les pièces qu’elle contient.",
+    "source": "2c7448e10b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listFew": {
+    "text": "La tuile a besoin d’au moins {min, number} {noun} ; il y en a {count, plural, one {# pour l’instant} other {# pour l’instant}}.",
+    "source": "f4214034d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listGone": {
+    "text": "Aucun des choix précédents ({noun}) n’est plus sur ce Homey. Faites d’autres choix.",
+    "source": "805edb9c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "text": "Aucun des choix précédents ({noun}) ne convient plus. Faites d’autres choix.",
+    "source": "cce1969967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listPartly": {
+    "text": "{lost, plural, one {# des choix précédents ({noun}) n’est plus sur ce Homey ou ne convient plus ; la tuile affiche les autres ({kept, number}). Retirez-le ci-dessous.} other {# des choix précédents ({noun}) ne sont plus sur ce Homey ou ne conviennent plus ; la tuile affiche les autres ({kept, number}). Retirez-les ci-dessous.}}",
+    "source": "dc3016af4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "text": "{name} n’est plus de type {deviceKind}.",
+    "source": "3e29d9c394",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "text": "{name} n’est plus le bon type d’appareil.",
+    "source": "e648323e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "text": "{name} ne possède plus : {capabilities}.",
+    "source": "2c5dc6a8b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "text": "{name} ne possède plus aucune de ces fonctions : {capabilities}.",
+    "source": "c22ea32f21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "text": "Nécessite {subject, select, class {un appareil de type {classes}} other {un appareil}} avec {all} et {any}.",
+    "source": "4ba097599b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAny": {
+    "text": "Nécessite {subject, select, class {un appareil de type {classes}} other {un appareil}} avec {any}.",
+    "source": "f78bcade48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "text": "Nécessite {subject, select, class {un appareil de type {classes}} other {un appareil}}.",
+    "source": "79e8d6879c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsOne": {
+    "text": "Ce widget en a besoin : choisissez-le dans les réglages de la tuile.",
+    "source": "856b73eab9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsThem": {
+    "text": "Ce widget en a besoin : choisissez-les dans les réglages de la tuile.",
+    "source": "f2d90071a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsWith": {
+    "text": "Nécessite {subject, select, class {un appareil de type {classes}} other {un appareil}} avec {all}.",
+    "source": "107a46a50a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFit": {
+    "text": "Rien sur ce Homey ne convient comme {noun}",
+    "source": "998647aaf2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "text": "Rien dans {zone} ne convient comme {noun}",
+    "source": "729a342770",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "text": "Rien dans {zone} et ses pièces ne convient comme {noun}",
+    "source": "17aeb8ea04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "text": "Tiledash ne peut pas encore voir qui vit chez vous. Reconnectez-vous et autorisez-le.",
+    "source": "a8e9d27367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "text": "Dort",
+    "source": "60135e8f5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAway": {
+    "text": "Hors maison",
+    "source": "af16c830c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personHome": {
+    "text": "À la maison",
+    "source": "3a78695388",
     "by": "ai",
     "reviewed": false
   },
@@ -710,6 +902,12 @@
   "viewer.deviceDetail.usageLabel": {
     "text": "Mesures enregistrées sur ce Homey",
     "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "text": "Vous pouvez voir cet appareil, mais pas le commander : le propriétaire du Homey l’a choisi ainsi.",
+    "source": "c3b57477ba",
     "by": "ai",
     "reviewed": false
   },

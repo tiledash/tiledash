@@ -1,0 +1,924 @@
+{
+  "houses.editor.add": {
+    "en": "Add",
+    "context": "Button that adds the spot typed.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.addSide": {
+    "en": "Add a side",
+    "context": "Button that adds a side (another picture of the house).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.conflictText": {
+    "en": "This house was saved in another window while you worked on it.",
+    "context": "Text of the note that the house was saved in another window meanwhile.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.conflictTitle": {
+    "en": "Changed elsewhere",
+    "context": "Title of the note that the house was saved in another window meanwhile.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.createFailed": {
+    "en": "The house couldn’t be made.",
+    "context": "Shown when making a new house failed (for another reason than the plan’s limit).",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.cropHint": {
+    "en": "Drag the corners round the house and its plot. Values sit beside this box, so leave out empty sky and lawn.",
+    "context": "Help in the crop view.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.cropTitle": {
+    "en": "Crop to the house",
+    "context": "Heading of the crop view.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.dark": {
+    "en": "A dark picture",
+    "context": "Switch for a side whose picture is dark (an evening render): dark themes don’t dim it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.defaultName": {
+    "en": "Home",
+    "context": "The name a new house starts with.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.delete": {
+    "en": "Delete",
+    "context": "Button that deletes a house.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.deleteSide": {
+    "en": "Delete this side",
+    "context": "Menu item that deletes the side.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.deleteText": {
+    "en": "Its pictures stay in your pictures. Tiles that show it say it is gone until you pick another house.",
+    "context": "Text of the question before deleting a house.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.deleteTitle": {
+    "en": "Delete “{name}”?",
+    "context": "Title of the question before deleting a house.",
+    "params": {
+      "name": "The house’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.description": {
+    "en": "Pictures of your home with its places marked, for the Energy house tile.",
+    "context": "Line under the title of the houses page.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.empty": {
+    "en": "No houses yet. Make one to put your own home on the Energy house.",
+    "context": "Shown on the houses page while the person has none.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.full": {
+    "en": "Your plan holds {max, plural, one {# house} other {# houses}}.",
+    "context": "Shown instead of making a new house when the person has as many as their plan holds.",
+    "params": {
+      "max": "How many houses the plan holds."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.getPicture": {
+    "en": "Get a picture for this side",
+    "context": "Heading over the ways to get this side’s picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.homey": {
+    "en": "Homey",
+    "context": "Label of the choice of which Homey the house belongs to.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.houseName": {
+    "en": "House name",
+    "context": "Label of the house’s name field in the editor.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.keepMine": {
+    "en": "Keep mine",
+    "context": "Saves the house as it is here over the other changes.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.limit": {
+    "en": "{count} of {max}",
+    "context": "How many houses the person has of how many their plan holds, beside the page’s title.",
+    "params": {
+      "count": "How many houses there are.",
+      "max": "How many the plan holds."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.loadFailed": {
+    "en": "Your houses couldn’t be read.",
+    "context": "Shown when the houses page or the editor couldn’t read the houses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.missing": {
+    "en": "This house isn’t there any more.",
+    "context": "Shown in the editor when the house it opens was deleted, or isn’t one of the person’s.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.modes": {
+    "en": "{mode, select, crop {Crop} spots {Spots} other {Preview}}",
+    "context": "The editor’s three views of a side: cropping the picture to the house, placing its spots, and a preview of the tile.",
+    "params": {
+      "mode": "crop, spots or preview."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.modesLabel": {
+    "en": "What you do",
+    "context": "Accessible name of the choice between Crop, Spots and Preview.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.moveEarlier": {
+    "en": "Move left",
+    "context": "Menu item that moves the side one place earlier.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.moveLater": {
+    "en": "Move right",
+    "context": "Menu item that moves the side one place later.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.newHouse": {
+    "en": "New house",
+    "context": "Button that makes a new house and opens it in the editor.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.newSide": {
+    "en": "{side, select, front {Front} back {Back} left {Left side} right {Right side} other {Other…}}",
+    "context": "Menu under “Add a side”: which side of the house to add. The first four become its name; Other adds one to name yourself (a basement, a pool side).",
+    "params": {
+      "side": "front, back, left, right or other."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.noHomey": {
+    "en": "No Homey",
+    "context": "Choice for a house tied to none of the person’s Homeys (its tiles can be on any).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.open": {
+    "en": "Open",
+    "context": "Button that opens a house in the editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.ownCount": {
+    "en": "{count} of {max} own spots",
+    "context": "How many own spots the house has of how many it may.",
+    "params": {
+      "count": "How many.",
+      "max": "How many it may have."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.ownPlaceholder": {
+    "en": "Your own spot: Attic, Pool…",
+    "context": "Placeholder of the field that adds a spot of the person’s own.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.paused": {
+    "en": "Paused",
+    "context": "Under a house that is paused: the account has more houses than its plan holds, so it shows nowhere and can’t be changed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.pausedText": {
+    "en": "Your plan holds fewer houses. It shows nowhere and can’t be changed.",
+    "context": "Text of the note in the editor that the house is paused.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.pausedTitle": {
+    "en": "This house is paused",
+    "context": "Title of the note in the editor for a paused house.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.previewHint": {
+    "en": "Your house with demo values, as a wide tile shows it. A value shows on the sides where its spot is placed.",
+    "context": "Help in the preview view.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.previewTheme": {
+    "en": "{theme, select, dark {Dark} light {Light} other {E-ink}}",
+    "context": "The looks the preview can show: a dark theme, a light one, or an e-ink screen.",
+    "params": {
+      "theme": "dark, light or paper."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.previewTitle": {
+    "en": "Preview",
+    "context": "Heading of the preview view.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.removeOwn": {
+    "en": "Delete this spot",
+    "context": "Button that deletes one of the person’s own spots from the house.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.rename": {
+    "en": "Rename",
+    "context": "Menu item that renames the side.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.replace": {
+    "en": "Replace picture",
+    "context": "Button that gives the side another picture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.reset": {
+    "en": "Reset",
+    "context": "Button that makes the crop the whole picture again.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.sideMenu": {
+    "en": "Side menu",
+    "context": "Accessible name of the button that opens a side’s menu.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.sideName": {
+    "en": "{n, select, 1 {Front} 2 {Back} 3 {Garden side} other {Side {n}}}",
+    "context": "The name a new side starts with: the first is the front, then the back, then the garden side.",
+    "params": {
+      "n": "Which side it is: 1, 2, 3…"
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.sides": {
+    "en": "{count, plural, one {# side} other {# sides}}",
+    "context": "How many sides (each its own picture: front, back, garden side) a house has.",
+    "params": {
+      "count": "How many sides."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.sidesLabel": {
+    "en": "Sides",
+    "context": "Label of the row of the house’s sides in the editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.spotName": {
+    "en": "{spot, select, solar {Solar panels} grid {Grid connection} home {The house} battery {Home battery} car {Car} charger {Charger} meter {Meter cupboard} upstairs {Upstairs} heat-pump {Heat pump} garage {Garage} other {Garden}}",
+    "context": "The places of a house values can point at.",
+    "params": {
+      "spot": "Which place."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.spotState": {
+    "en": "{state, select, placed {Placed} elsewhere {On {sides}} other {Not placed}}",
+    "context": "Whether a spot is placed on this side, on others (named), or nowhere.",
+    "params": {
+      "sides": "The other sides’ names, joined.",
+      "state": "placed, elsewhere or none."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.spotsHint": {
+    "en": "Tap a spot, then the picture. Drag a pin to move it.",
+    "context": "Help over the list of spots.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.spotsTitle": {
+    "en": "Spots",
+    "context": "Heading of the list of places values can point at.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.status": {
+    "en": "{status, select, saved {Saved} saving {Saving…} offline {Offline: saves when back} other {Not saved yet}}",
+    "context": "What the editor’s top bar says about saving the house.",
+    "params": {
+      "status": "saved, saving, offline or unsaved."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.takeOff": {
+    "en": "Take it off this side",
+    "context": "Button that takes a spot off this side.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.takeTheirs": {
+    "en": "Show the other changes",
+    "context": "Drops the changes here and shows the house as saved elsewhere.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.tapWhere": {
+    "en": "Tap where {spot} is",
+    "context": "Shown over the picture after picking a spot from the list.",
+    "params": {
+      "spot": "The spot’s name."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.title": {
+    "en": "Your houses",
+    "context": "Title of the page that lists the person’s own houses, and the editor’s way back to it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.tryAgain": {
+    "en": "Try again",
+    "context": "Button that reads the houses again.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.upload": {
+    "en": "Upload a picture",
+    "context": "Way to get the side’s picture: one the person made themselves.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadAnother": {
+    "en": "Choose another picture",
+    "context": "Button in the dialog of a failed upload: picks another file to upload.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadClose": {
+    "en": "Close",
+    "context": "Button that closes the dialog of a failed upload.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadFailed": {
+    "en": "The picture couldn’t be uploaded",
+    "context": "Title of the dialog when uploading a side’s picture failed; the dialog says why under it.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadHint": {
+    "en": "One you made yourself. You place its spots.",
+    "context": "Line under \"Upload a picture\".",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadProblem": {
+    "en": "{problem, select, type {Tiledash takes PNG, JPEG and WebP pictures, and this browser couldn’t turn this file into one. Save it as a PNG or JPEG and try again.} unreadable {This file couldn’t be opened as a picture. It may be damaged, or in a format this browser can’t read, such as HEIC. Save it as a PNG or JPEG and try again.} too-big {A picture can be at most {limit} MB, and this one is bigger even made smaller. Try a smaller picture.} too-large {A picture can have at most {limit} million pixels. Try a smaller picture.} limit {Your account keeps {limit} pictures at most, and it has that many. Delete one you no longer use, then try again.} space {Your pictures take all the room your account has ({limit} MB together). Delete one you no longer use, then try again.} offline {Tiledash couldn’t be reached. Check your connection and try again.} other {Something went wrong on our side while keeping it. Try again in a moment.}}",
+    "context": "Why uploading a side’s picture failed and what to do, in the dialog \"The picture couldn’t be uploaded\". PNG, JPEG, WebP and HEIC are file types and are not translated.",
+    "params": {
+      "limit": "The limit that was hit: megabytes, millions of pixels, or a number of pictures.",
+      "problem": "type, unreadable, too-big, too-large, limit, space, offline or failed."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadSent": {
+    "en": "{done} of {total} MB",
+    "context": "Beside \"Uploading it\": how much of the picture has been sent.",
+    "params": {
+      "done": "Megabytes sent, such as 0.4.",
+      "total": "The picture’s size in megabytes."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadSize": {
+    "en": "{size} MB",
+    "context": "Beside \"Getting it ready\": the picture’s size, sent as it is.",
+    "params": {
+      "size": "Megabytes, such as 1.4."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadSmaller": {
+    "en": "{before} MB, made {after} MB",
+    "context": "Beside \"Getting it ready\": the picture was big, so it was made smaller to send.",
+    "params": {
+      "after": "Megabytes as sent, such as 1.1.",
+      "before": "Megabytes as chosen, such as 8.2."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadStep": {
+    "en": "{step, select, prepare {Getting it ready} send {Uploading it} other {Keeping it with your house}}",
+    "context": "A step of uploading a side’s picture, in a list with a tick or spinner each: made ready in the browser (made smaller when it is big), sent, then kept by Tiledash.",
+    "params": {
+      "step": "prepare, send or keep."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploadTitle": {
+    "en": "Uploading your picture",
+    "context": "Title of the dialog that shows the steps of uploading a side’s picture.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.editor.uploading": {
+    "en": "Uploading…",
+    "context": "Shown while the side’s picture is being uploaded.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houses.messages.ts"
+  },
+  "houses.generation.acceptAll": {
+    "en": "Accept all",
+    "context": "Button that accepts all the placed spots as they are.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.another": {
+    "en": "Refine or remake · 1 credit",
+    "context": "Button that opens the questions again to refine the side’s picture (say what should change) or make a new one, for a credit.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.ask": {
+    "en": "How did it turn out?",
+    "context": "Beside the thumbs up and down on a generated picture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.beforeRefining": {
+    "en": "Before refining",
+    "context": "Name of the side’s picture a refinement started from (one the owner uploaded), listed with the tries to go back to.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.credits": {
+    "en": "{count, plural, one {# credit} other {# credits}}",
+    "context": "How many credits the person has, in the editor’s top bar.",
+    "params": {
+      "count": "How many credits."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.deleteTry": {
+    "en": "Delete this try",
+    "context": "Button that deletes a try’s picture (not the one in use).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.dialogTitle": {
+    "en": "Make this side’s picture",
+    "context": "Title of the dialog that asks a few questions and then generates the side’s picture.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.error": {
+    "en": "{error, select, busy {A picture is being made already.} limit {That’s enough pictures for today; try again tomorrow.} off {Making pictures isn’t available here.} photo {That photo couldn’t be read. Try another (PNG, JPEG or WebP).} other {The picture couldn’t be started.}}",
+    "context": "Why generating a picture couldn’t start.",
+    "params": {
+      "error": "busy, limit, off, photo or failed."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.failed": {
+    "en": "Didn’t work",
+    "context": "Under a try that failed (its credit came back).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.failedText": {
+    "en": "{status, select, refused {The image model wouldn’t make it from this photo or prompt. Your credit is back.} other {Something went wrong making it. Your credit is back.}}",
+    "context": "Text of that note: refused by the model’s safety rules, or another failure.",
+    "params": {
+      "status": "refused or failed."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.failedTitle": {
+    "en": "That picture didn’t work",
+    "context": "Title of the note that a generation failed.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.givenBack": {
+    "en": "Tiledash gave your credit back: {reason}",
+    "context": "Under a try whose credit an admin gave back, with the admin’s reason.",
+    "params": {
+      "reason": "The admin’s reason, as they wrote it."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.glad": {
+    "en": "Glad you like it",
+    "context": "Beside the thumbs after a thumbs up.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.good": {
+    "en": "Good",
+    "context": "Accessible name of the thumbs up.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.inUse": {
+    "en": "In use",
+    "context": "Under the try that is the side’s picture now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.making": {
+    "en": "Making your picture…",
+    "context": "Shown on the side while its picture is being generated.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.makingHint": {
+    "en": "About half a minute. You can leave this page: it carries on.",
+    "context": "Line under \"Making your picture…\".",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.notGood": {
+    "en": "Not good",
+    "context": "Accessible name of the thumbs down.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.note": {
+    "en": "Anything else? (optional)",
+    "context": "Placeholder of the free text after a thumbs down.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.pending": {
+    "en": "Making…",
+    "context": "Under a try that is still being made.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.proposedText": {
+    "en": "Check each one: drag it where it belongs, or drop it.",
+    "context": "Text of the note \"We placed your spots\", after a generation.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.proposedTitle": {
+    "en": "We placed your spots",
+    "context": "Title of the note after a generation: spots were placed on the picture for the person.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.reason": {
+    "en": "{reason, select, not-my-house {Doesn’t look like my house} parts {Parts missing or wrong} strange {Strange bits} style {Not the style I chose} other {Cut off or badly framed}}",
+    "context": "What went wrong with a generated picture, each a chip to pick.",
+    "params": {
+      "reason": "Which reason."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.refine": {
+    "en": "Refine",
+    "context": "Button beside “Replace picture” over a side’s picture: opens the questions to say what should change in it (the image model then changes only that, for a credit).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.refined": {
+    "en": "Refined",
+    "context": "Name of a try that refined the side’s picture (instead of its style); what was asked shows on hover.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.send": {
+    "en": "Send",
+    "context": "Sends the thumbs down with its reasons.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.thanks": {
+    "en": "Thanks. We look at every thumbs down; when the picture is our mess, you get the credit back.",
+    "context": "Shown after sending a thumbs down.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.triesHint": {
+    "en": "Every try stays here. Using another keeps the spots you placed; check they still fit.",
+    "context": "Line under the side’s tries.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.triesTitle": {
+    "en": "Tries for this side",
+    "context": "Heading over the side’s generated pictures, every one kept.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.useTry": {
+    "en": "Use this try",
+    "context": "Accessible name of a try: makes it the side’s picture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.way": {
+    "en": "Make it in Tiledash",
+    "context": "Way to get a side’s picture: generated in Tiledash for a credit (the main way).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.wayCost": {
+    "en": "1 credit · you have {count}",
+    "context": "Badge on \"Make it in Tiledash\": what it costs and how many credits the person has.",
+    "params": {
+      "count": "How many credits the person has."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.wayHint": {
+    "en": "From a photo of your house, or a few answers about it, in the style you choose. Its spots come placed for you.",
+    "context": "Line under \"Make it in Tiledash\".",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.whatWrong": {
+    "en": "What went wrong?",
+    "context": "Heading over the reasons after a thumbs down.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.generation.writePrompt": {
+    "en": "Write a prompt for your own ChatGPT or Gemini",
+    "context": "Link inside \"Upload a picture\" that opens the prompt generator.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houseGeneration.messages.ts"
+  },
+  "houses.spots.addInstead": {
+    "en": "Add it instead",
+    "context": "Button on a reading taken off a value: makes it added again.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.addReading": {
+    "en": "Add a reading to it",
+    "context": "Button that adds a reading to a value, added up with the others.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.addValue": {
+    "en": "Add a value",
+    "context": "Button adding a value to a spot.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.decimals": {
+    "en": "Decimals",
+    "context": "Label of how many decimals a value shows.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.decimalsAuto": {
+    "en": "Auto",
+    "context": "Choice of decimals: as many as read well.",
+    "maxLength": 10,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.hint": {
+    "en": "Open a spot to see what it shows and place it on the picture. Every tile showing this house shows the same.",
+    "context": "Help over the list of spots in the house editor.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.homeHint": {
+    "en": "Worked out from your grid, solar, battery and car, so it needs no reading of its own.",
+    "context": "Under \"What the house uses\".",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.homeTitle": {
+    "en": "What the house uses",
+    "context": "In the open spot \"The house\": the power the house uses.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.label": {
+    "en": "Label",
+    "context": "Label of a value’s label field.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.labelPlaceholder": {
+    "en": "Shown under the value",
+    "context": "Placeholder of a value’s label field.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.moveDown": {
+    "en": "Move down",
+    "context": "Button moving a value one down.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.moveUp": {
+    "en": "Move up",
+    "context": "Button moving a value one up.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.newValue": {
+    "en": "New value",
+    "context": "A value without a label yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.noHomeyText": {
+    "en": "Its spots show readings of that Homey’s devices. Pick it in the bar above to give them values.",
+    "context": "Under \"Choose this house’s Homey\".",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.noHomeyTitle": {
+    "en": "Choose this house’s Homey",
+    "context": "Shown over the spots of a house that belongs to no Homey yet.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.notPlaced": {
+    "en": "{elsewhere, select, yes {Shows on another side. Place it here too?} other {Not on a side yet: what it shows appears once it’s placed.}}",
+    "context": "In an open spot that isn’t placed on the side shown.",
+    "params": {
+      "elsewhere": "yes when it is placed on another side, else no."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.otherHomeyText": {
+    "en": "Switch to that Homey to change what its spots show.",
+    "context": "Under \"This house belongs to another Homey\".",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.otherHomeyTitle": {
+    "en": "This house belongs to another Homey",
+    "context": "Shown over the spots of a house whose Homey isn’t the one open in the app now.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.partState": {
+    "en": "{state, select, off {Not shown} meters {From your meters} other {Chosen readings}}",
+    "context": "Under an energy spot’s name (solar, grid, battery, car): left off the house, following the account’s energy meters, or readings chosen for this house.",
+    "params": {
+      "state": "off, meters or chosen."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.placeIt": {
+    "en": "Place it",
+    "context": "Button in an open spot: then a tap on the picture places it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.placedHere": {
+    "en": "On this side: drag its pin to move it.",
+    "context": "In an open spot that is placed on the side shown.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.preset": {
+    "en": "{preset, select, terraced {Terraced house} semi-detached {Semi-detached house} bungalow {Bungalow} flat {Flat with a balcony} other {Detached house}}",
+    "context": "Names of Tiledash’s ready-made pictures of a house: one in the middle of a row, one half of a pair sharing a wall, a single-storey one, a flat with a balcony in a small block, and one standing alone with a garage.",
+    "params": {
+      "preset": "terraced, semi-detached, bungalow, flat or detached."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.presetWay": {
+    "en": "A Tiledash house",
+    "context": "A way to get a picture for a side: one of Tiledash’s ready pictures of a house.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.presetWayHint": {
+    "en": "Start from one of ours; you can make your own later.",
+    "context": "Under \"A Tiledash house\".",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.readings": {
+    "en": "{count, plural, one {Reading} other {Readings, added up}}",
+    "context": "Over the readings a value is made of; several are added up (or taken off).",
+    "params": {
+      "count": "How many readings."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.removeReading": {
+    "en": "Remove this reading",
+    "context": "Button that takes a reading out of a value.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.removeValue": {
+    "en": "Remove",
+    "context": "Button removing a value.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.summary": {
+    "en": "{count, plural, =0 {Nothing yet} one {# value} other {# values}}",
+    "context": "Under a spot’s name: how many values it shows.",
+    "params": {
+      "count": "How many values."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.takeOffInstead": {
+    "en": "Take it off instead",
+    "context": "Button on a reading added to a value: makes it taken off (washer off the meter).",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.todayTitle": {
+    "en": "Today’s totals",
+    "context": "The row of today’s energy totals, shown under the house.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.todayWhere": {
+    "en": "Under the house",
+    "context": "Where today’s totals show, under their row’s name.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.valueCount": {
+    "en": "{count} of {max}",
+    "context": "How many values a spot shows of how many it may.",
+    "params": {
+      "count": "How many.",
+      "max": "How many it may."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  },
+  "houses.spots.valuesHere": {
+    "en": "{part, select, yes {Also here} other {Values here}}",
+    "context": "Heading over a spot’s own values; \"Also here\" on an energy spot, whose part is shown above them.",
+    "params": {
+      "part": "yes for an energy spot, else no."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/houses/houseSpots.messages.ts"
+  }
+}

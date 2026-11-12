@@ -30,7 +30,10 @@ var I18N_BUNDLES = [
   "showcase",
   "floorplans",
   "models",
-  "widgets"
+  "widgets",
+  "tours",
+  "houses",
+  "wallpanels"
 ];
 
 // packages/shared/src/i18n/messageSyntax.ts

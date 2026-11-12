@@ -245,6 +245,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "viewer.actions.viewOnly": {
+    "text": "Du kan se {device}, men ikke styre den",
+    "source": "73048e8f9e",
+    "by": "ai",
+    "reviewed": false
+  },
   "viewer.addToDashboard.addFailed": {
     "text": "Kunne ikke legge til {device} på {dashboard}",
     "source": "cadf20c493",
@@ -422,6 +428,192 @@
   "viewer.alerts.tapForSound": {
     "text": "Trykk for lyd",
     "source": "cc67901b6a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.andMore": {
+    "text": "Og {count, number} til må velges.",
+    "source": "46a5870dd6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAgain": {
+    "text": "Velg {noun} på nytt",
+    "source": "ad6f083558",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnother": {
+    "text": "Velg en annen.",
+    "source": "fac3884df8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseAnotherOrEmpty": {
+    "text": "Velg en annen, eller la det stå tomt.",
+    "source": "87cde503dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseMore": {
+    "text": "Velg flere {noun}",
+    "source": "9f2f9b88b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.chooseNeeded": {
+    "text": "Velg {kind, select, many {{noun}} other {{noun}}}",
+    "source": "fd455b0c8b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneChosen": {
+    "text": "Tidligere valgt {noun} finnes ikke lenger på denne Homey-en.",
+    "source": "8fc8c67856",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.goneShowed": {
+    "text": "Flisens {noun} finnes ikke lenger på denne Homey-en.",
+    "source": "34427e13e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZone": {
+    "text": "I {zone}.",
+    "source": "b18266703b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.keptInZoneNested": {
+    "text": "I {zone} og rommene i den.",
+    "source": "2c7448e10b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listFew": {
+    "text": "Flisen trenger minst {min, number} {noun}; {count, plural, one {# er} other {# er}} valgt nå.",
+    "source": "f4214034d4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listGone": {
+    "text": "Ingen tidligere valgte {noun} finnes lenger på denne Homey-en. Velg andre.",
+    "source": "805edb9c65",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listMismatch": {
+    "text": "Ingen tidligere valgte {noun} passer lenger. Velg andre.",
+    "source": "cce1969967",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.listPartly": {
+    "text": "{lost, plural, one {# av de tidligere valgte {noun} er ikke lenger på denne Homey-en eller passer ikke lenger; flisen viser de andre {kept, number}. Fjern den nedenfor.} other {# av de tidligere valgte {noun} er ikke lenger på denne Homey-en eller passer ikke lenger; flisen viser de andre {kept, number}. Fjern dem nedenfor.}}",
+    "source": "dc3016af4e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchClass": {
+    "text": "{name} er ikke lenger av typen {deviceKind}.",
+    "source": "3e29d9c394",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchKind": {
+    "text": "{name} er ikke lenger riktig type.",
+    "source": "e648323e6b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchLacks": {
+    "text": "{name} har ikke lenger {capabilities}.",
+    "source": "2c5dc6a8b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.mismatchNone": {
+    "text": "{name} har ikke lenger noen av {capabilities}.",
+    "source": "c22ea32f21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAllAny": {
+    "text": "Trenger {subject, select, class {{classes}} other {en enhet}} med {all} og {any}.",
+    "source": "4ba097599b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsAny": {
+    "text": "Trenger {subject, select, class {{classes}} other {en enhet}} med {any}.",
+    "source": "f78bcade48",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsDevice": {
+    "text": "Trenger {subject, select, class {{classes}} other {en enhet}}.",
+    "source": "79e8d6879c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsOne": {
+    "text": "Denne widgeten trenger én: velg den i innstillingene til flisen.",
+    "source": "856b73eab9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsThem": {
+    "text": "Denne widgeten trenger dem: velg dem i innstillingene til flisen.",
+    "source": "f2d90071a1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.needsWith": {
+    "text": "Trenger {subject, select, class {{classes}} other {en enhet}} med {all}.",
+    "source": "107a46a50a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFit": {
+    "text": "Ingen {noun} på denne Homey-en",
+    "source": "998647aaf2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZone": {
+    "text": "Ingen {noun} i {zone}",
+    "source": "729a342770",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.noneFitInZoneNested": {
+    "text": "Ingen {noun} i {zone} og rommene i den",
+    "source": "17aeb8ea04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.peopleUnknown": {
+    "text": "Tiledash har kanskje ikke lov til å se hvem som bor hjemme hos deg ennå. Logg inn på nytt og gi tillatelse.",
+    "source": "a8e9d27367",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAsleep": {
+    "text": "Sover",
+    "source": "60135e8f5c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personAway": {
+    "text": "Borte",
+    "source": "af16c830c5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.chooseAgain.personHome": {
+    "text": "Hjemme",
+    "source": "3a78695388",
     "by": "ai",
     "reviewed": false
   },
@@ -710,6 +902,12 @@
   "viewer.deviceDetail.usageLabel": {
     "text": "Registrerte måleverdier på denne Homey-en",
     "source": "205d237d80",
+    "by": "ai",
+    "reviewed": false
+  },
+  "viewer.deviceDetail.viewOnly": {
+    "text": "Du kan se denne enheten, men ikke styre den: eieren av Homey-en har valgt det.",
+    "source": "c3b57477ba",
     "by": "ai",
     "reviewed": false
   },
