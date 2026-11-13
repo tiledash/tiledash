@@ -941,6 +941,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.addDashboard": {
+    "text": "Vis et dashbord…",
+    "source": "ce38ee053f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.addEmpty": {
+    "text": "Tom side",
+    "source": "853d946921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintDismiss": {
+    "text": "Skjønner",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintText": {
+    "text": "Velg «Vis et dashbord…» under + for å gjøre en stabel om til faner med dashbordene dine, praktisk på et nettbrett.",
+    "source": "43fa96f25c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintTitle": {
+    "text": "En side kan vise et helt dashbord",
+    "source": "8d4d7a808a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.full": {
     "text": "{max, plural, one {# side er maks} other {# sider er maks}}",
     "source": "4eede332d8",
@@ -1949,6 +1979,48 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardChoice.dashboards": {
+    "text": "Dashbord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.description": {
+    "text": "Den nye siden viser det direkte, med flisene slik de er. Endringer i det vises her også.",
+    "source": "75aae0ce53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.none": {
+    "text": "Denne Homey-en har ingen andre dashbord ennå.",
+    "source": "5f14a85625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.show": {
+    "text": "Legg til siden",
+    "source": "5f31f51337",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.showsThis": {
+    "text": "Viser dette",
+    "source": "bf2d4febdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.thisOne": {
+    "text": "Dette dashbordet",
+    "source": "f136ad7f74",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.title": {
+    "text": "Vis et dashbord",
+    "source": "f05fa6ef08",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.describe": {
     "text": "{selected, select, yes {{label}, valgt.} other {{label}.}} {width} ganger {height}, kolonne {column}, rad {row}. Piltaster flytter, Shift og piltaster endrer størrelse.",
     "source": "fb235ed166",
@@ -1994,6 +2066,12 @@
   "editor.dashboardGrid.menuDuplicate": {
     "text": "Dupliser",
     "source": "02cdaabfca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.menuEditDashboard": {
+    "text": "Rediger «{name}»",
+    "source": "eba68cbd80",
     "by": "ai",
     "reviewed": false
   },
@@ -8219,6 +8297,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tabSearch.noneAnywhere": {
+    "text": "Ingenting passer til «{query}».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapActions.camera": {
     "text": "Åpne kameraet",
     "source": "4adab8263a",
@@ -10895,6 +10979,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.addItFor": {
+    "text": "Legg til for",
+    "source": "5c8ade08a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.browseAll": {
     "text": "Utforsk hele Community",
     "source": "2fc0f9bbe8",
@@ -10967,15 +11057,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.flowDisabled": {
-    "text": "Deaktivert",
-    "source": "75081b593d",
+  "editor.widgetPicker.fitsNothing": {
+    "text": "Passer ingenting her",
+    "source": "913f8a6350",
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.forYourHomey": {
-    "text": "For din Homey",
-    "source": "41adc2dfb9",
+  "editor.widgetPicker.fitsOnly": {
+    "text": "Bare det som passer Homey-en min",
+    "source": "8ec4a23a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.flowDisabled": {
+    "text": "Deaktivert",
+    "source": "75081b593d",
     "by": "ai",
     "reviewed": false
   },
@@ -11039,6 +11135,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.nothingFits": {
+    "text": "Ingenting i Community passer Homey-en din ennå.",
+    "source": "ca57514b0c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.official": {
     "text": "Offisiell",
     "source": "c409c66f71",
@@ -11054,12 +11156,6 @@
   "editor.widgetPicker.pickLeft": {
     "text": "Velg noe til venstre for å se hvordan det kan se ut.",
     "source": "cbd290f8d4",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.widgetPicker.popular": {
-    "text": "Populære",
-    "source": "76327dec9a",
     "by": "ai",
     "reviewed": false
   },
@@ -11087,6 +11183,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.searchingAll": {
+    "text": "Søker i hele Community",
+    "source": "0669d565c0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.seeCommunity": {
     "text": "Se hva de har laget",
     "source": "ee98c0d06c",
@@ -11099,9 +11201,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.showAll": {
+    "text": "Vis alle widgeter",
+    "source": "310fa0f336",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.showMore": {
     "text": "Vis flere",
     "source": "f5c9bd1314",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortAz": {
+    "text": "A–Å",
+    "source": "f9f6c8502e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortLabel": {
+    "text": "Rekkefølge",
+    "source": "6be090825c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortNewest": {
+    "text": "Nyeste",
+    "source": "d15efa178c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortPopular": {
+    "text": "Mest populære",
+    "source": "ad2ea94850",
     "by": "ai",
     "reviewed": false
   },
@@ -11138,6 +11270,12 @@
   "editor.widgetPicker.tabOwn": {
     "text": "Mine egne",
     "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.tabResults": {
+    "text": "Resultater",
+    "source": "219c4a6c86",
     "by": "ai",
     "reviewed": false
   },

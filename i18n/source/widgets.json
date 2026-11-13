@@ -1408,6 +1408,123 @@
     "context": "A colour said in words by a screen reader, in lower case.",
     "file": "packages/ui/src/elements/messages.ts"
   },
+  "widgets.embeddedDashboard.deepText": {
+    "en": "Dashboards show inside each other up to three deep.",
+    "context": "Text under \"Too many dashboards inside each other\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.deepTitle": {
+    "en": "Too many dashboards inside each other",
+    "context": "Heading inside a tile that should show another dashboard, when dashboards are already shown inside each other three deep.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.goneText": {
+    "en": "Choose another one in the tile’s settings.",
+    "context": "Text under \"This dashboard was deleted\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.goneTitle": {
+    "en": "This dashboard was deleted",
+    "context": "Heading inside a tile that should show another dashboard, when that dashboard was deleted.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.loading": {
+    "en": "Loading {name}",
+    "context": "Screen reader text while a dashboard shown inside a tile of another dashboard loads. Grey placeholder tiles show meanwhile. Not visible as text.",
+    "params": {
+      "name": "The name of the dashboard being loaded, such as \"Living room\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.loopText": {
+    "en": "{name} shows this dashboard too, so it isn’t drawn here.",
+    "context": "Text under \"It would show itself again\" inside a tile.",
+    "params": {
+      "name": "The name of the dashboard that shows this one again, such as \"Living room\"."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.loopTitle": {
+    "en": "It would show itself again",
+    "context": "Heading inside a tile that should show another dashboard, when that dashboard shows this one again (directly or further down), which would never end.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.notSharedText": {
+    "en": "Ask whoever shared this to share it too.",
+    "context": "Text under \"… isn’t shared here\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.notSharedTitle": {
+    "en": "{name} isn’t shared here",
+    "context": "Heading inside a tile of a shared dashboard (a share link or a household member’s view) that should show another dashboard, when that one isn’t part of what was shared.",
+    "params": {
+      "name": "The name of the dashboard, such as \"Living room\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.otherHomeyText": {
+    "en": "A tile can show a dashboard of the same Homey. Choose one in the tile’s settings.",
+    "context": "Text under \"… is on another Homey\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.otherHomeyTitle": {
+    "en": "{name} is on another Homey",
+    "context": "Heading inside a tile that should show another dashboard, when that dashboard belongs to another Homey (the smart-home hub) than this dashboard.",
+    "params": {
+      "name": "The name of the chosen dashboard, such as \"Living room\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.pausedText": {
+    "en": "Your plan pauses it, so it isn’t shown here either.",
+    "context": "Text under \"… is paused\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.pausedTitle": {
+    "en": "{name} is paused",
+    "context": "Heading inside a tile that should show another dashboard, when that dashboard is paused because the person’s plan has room for fewer dashboards.",
+    "params": {
+      "name": "The name of the chosen dashboard, such as \"Living room\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.placeholderText": {
+    "en": "Shows one of your dashboards, live",
+    "context": "Line under \"Dashboard\" on the sketch of the Dashboard widget.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.placeholderTitle": {
+    "en": "Dashboard",
+    "context": "Name on the sketch of the Dashboard widget where it can’t draw a real dashboard (the widget gallery, the add-widgets window): a widget that shows one of the person’s dashboards inside a tile.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.selfText": {
+    "en": "A dashboard can’t show itself. Choose another one in the tile’s settings.",
+    "context": "Text under \"This is the same dashboard\" inside a tile.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
+  "widgets.embeddedDashboard.selfTitle": {
+    "en": "This is the same dashboard",
+    "context": "Heading inside a tile that should show another dashboard, when it was set to show the dashboard it is on.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdEmbeddedDashboard.messages.ts"
+  },
   "widgets.energy.againstDayBefore": {
     "en": "the day before",
     "context": "What an energy tile compares an earlier day with, in lower case.",

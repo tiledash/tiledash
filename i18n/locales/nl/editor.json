@@ -941,6 +941,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.addDashboard": {
+    "text": "Dashboard tonen…",
+    "source": "ce38ee053f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.addEmpty": {
+    "text": "Lege pagina",
+    "source": "853d946921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintDismiss": {
+    "text": "Begrepen",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintText": {
+    "text": "Kies Dashboard tonen… onder + om van een stapel tabs met je dashboards te maken, handig op een tablet.",
+    "source": "43fa96f25c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintTitle": {
+    "text": "Een pagina kan een heel dashboard tonen",
+    "source": "8d4d7a808a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.full": {
     "text": "{max, plural, one {Maximaal # pagina} other {Maximaal # pagina’s}}",
     "source": "4eede332d8",
@@ -1949,6 +1979,48 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardChoice.dashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.description": {
+    "text": "De nieuwe pagina toont het live, met de tegels zoals ze zijn. Wijzigingen eraan zie je hier ook.",
+    "source": "75aae0ce53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.none": {
+    "text": "Deze Homey heeft nog geen andere dashboards.",
+    "source": "5f14a85625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.show": {
+    "text": "Pagina toevoegen",
+    "source": "5f31f51337",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.showsThis": {
+    "text": "Toont dit dashboard",
+    "source": "bf2d4febdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.thisOne": {
+    "text": "Dit dashboard",
+    "source": "f136ad7f74",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.title": {
+    "text": "Dashboard tonen",
+    "source": "f05fa6ef08",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.describe": {
     "text": "{selected, select, yes {{label}, geselecteerd.} other {{label}.}} {width} bij {height}, kolom {column}, rij {row}. Pijlen schuiven, met Shift schalen.",
     "source": "fb235ed166",
@@ -1994,6 +2066,12 @@
   "editor.dashboardGrid.menuDuplicate": {
     "text": "Dupliceren",
     "source": "02cdaabfca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.menuEditDashboard": {
+    "text": "“{name}” bewerken",
+    "source": "eba68cbd80",
     "by": "ai",
     "reviewed": false
   },
@@ -8219,6 +8297,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tabSearch.noneAnywhere": {
+    "text": "Niets gevonden voor “{query}”.",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapActions.camera": {
     "text": "De camera openen",
     "source": "4adab8263a",
@@ -10895,6 +10979,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.addItFor": {
+    "text": "Toevoegen voor",
+    "source": "5c8ade08a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.browseAll": {
     "text": "De hele community bekijken",
     "source": "2fc0f9bbe8",
@@ -10967,15 +11057,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.flowDisabled": {
-    "text": "Uitgeschakeld",
-    "source": "75081b593d",
+  "editor.widgetPicker.fitsNothing": {
+    "text": "Past hier nergens bij",
+    "source": "913f8a6350",
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.forYourHomey": {
-    "text": "Voor je Homey",
-    "source": "41adc2dfb9",
+  "editor.widgetPicker.fitsOnly": {
+    "text": "Alleen wat bij mijn Homey past",
+    "source": "8ec4a23a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.flowDisabled": {
+    "text": "Uitgeschakeld",
+    "source": "75081b593d",
     "by": "ai",
     "reviewed": false
   },
@@ -11039,6 +11135,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.nothingFits": {
+    "text": "Nog niets in de community past bij je Homey.",
+    "source": "ca57514b0c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.official": {
     "text": "Officieel",
     "source": "c409c66f71",
@@ -11054,12 +11156,6 @@
   "editor.widgetPicker.pickLeft": {
     "text": "Kies links iets om te zien hoe het eruit kan zien.",
     "source": "cbd290f8d4",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.widgetPicker.popular": {
-    "text": "Populair",
-    "source": "76327dec9a",
     "by": "ai",
     "reviewed": false
   },
@@ -11087,6 +11183,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.searchingAll": {
+    "text": "Zoekt in de hele community",
+    "source": "0669d565c0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.seeCommunity": {
     "text": "Bekijk wat zij maakten",
     "source": "ee98c0d06c",
@@ -11099,9 +11201,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.showAll": {
+    "text": "Alle widgets tonen",
+    "source": "310fa0f336",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.showMore": {
     "text": "Meer tonen",
     "source": "f5c9bd1314",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortAz": {
+    "text": "A–Z",
+    "source": "f9f6c8502e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortLabel": {
+    "text": "Volgorde",
+    "source": "6be090825c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortNewest": {
+    "text": "Nieuwste",
+    "source": "d15efa178c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortPopular": {
+    "text": "Meest populair",
+    "source": "ad2ea94850",
     "by": "ai",
     "reviewed": false
   },
@@ -11138,6 +11270,12 @@
   "editor.widgetPicker.tabOwn": {
     "text": "Eigen",
     "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.tabResults": {
+    "text": "Resultaten",
+    "source": "219c4a6c86",
     "by": "ai",
     "reviewed": false
   },

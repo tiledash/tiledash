@@ -993,6 +993,36 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
   },
+  "editor.childPageTabs.addDashboard": {
+    "en": "Show a dashboard…",
+    "context": "Item in the menu of the plus button after the page tabs of a Stack: adds a page that shows one of the person’s other dashboards, live. Opens a dialog to pick it. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
+  "editor.childPageTabs.addEmpty": {
+    "en": "Empty page",
+    "context": "Item in the menu of the plus button after the page tabs of a Stack: adds an empty page, to put tiles on. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
+  "editor.childPageTabs.dashboardHintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes the one-time tip about pages that show a dashboard.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
+  "editor.childPageTabs.dashboardHintText": {
+    "en": "Choose Show a dashboard… under + to turn a Stack into tabs of your dashboards, handy on a tablet.",
+    "context": "Text of the one-time tip at the plus button after a Stack’s page tabs. \"Show a dashboard…\" is the menu item’s name; + is the plus button.",
+    "maxLength": 130,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
+  "editor.childPageTabs.dashboardHintTitle": {
+    "en": "A page can show a whole dashboard",
+    "context": "Title of a one-time tip at the plus button after the page tabs of a Stack (a tile with pages you swipe between): a page can show another dashboard, live.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdChildPageTabs.messages.ts"
+  },
   "editor.childPageTabs.full": {
     "en": "{max, plural, one {# page is the most} other {# pages is the most}}",
     "context": "Tooltip of the disabled plus button after the page tabs of a Stack, when the stack has as many pages as it can have: no more can be added.",
@@ -2106,6 +2136,48 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
+  "editor.dashboardChoice.dashboards": {
+    "en": "Dashboards",
+    "context": "Screen reader label of the list of dashboards in the \"Show a dashboard\" dialog. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.description": {
+    "en": "The new page shows it live, its tiles as they are. Changes to it show here too.",
+    "context": "Text under \"Show a dashboard\" in the dialog that picks a dashboard for a Stack’s new page.",
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.none": {
+    "en": "This Homey has no other dashboards yet.",
+    "context": "Text in the \"Show a dashboard\" dialog when there is no other dashboard to choose.",
+    "maxLength": 70,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.show": {
+    "en": "Add the page",
+    "context": "Main button of the \"Show a dashboard\" dialog: adds a page to the Stack that shows the chosen dashboard. A command.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.showsThis": {
+    "en": "Shows this one",
+    "context": "Small note on a dashboard in the \"Show a dashboard\" dialog that already shows the dashboard being edited: it can’t be chosen, as they would show each other forever.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.thisOne": {
+    "en": "This dashboard",
+    "context": "Small note on the dashboard the Stack is on, in the \"Show a dashboard\" dialog: it can’t be chosen, as a dashboard can’t show itself.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
+  "editor.dashboardChoice.title": {
+    "en": "Show a dashboard",
+    "context": "Title of the dialog that picks a dashboard to show on a new page of a Stack (a tile with pages you swipe between). The page then shows that whole dashboard, live.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdDashboardChoiceDialog.messages.ts"
+  },
   "editor.dashboardGrid.describe": {
     "en": "{selected, select, yes {{label}, selected.} other {{label}.}} {width} by {height}, column {column}, row {row}. Arrows move, Shift and arrows resize.",
     "context": "Description of a tile in edit mode, read out by screen readers when it is focused. It gives the name of the tile, whether it is selected, its size in grid cells (width by height), its place (column and row) and the keyboard help: the arrow keys move the tile, Shift with the arrow keys resizes it. Not visible as text.",
@@ -2166,6 +2238,15 @@
     "en": "Duplicate",
     "context": "Item of the menu of a tile in edit mode, with a keyboard shortcut at its right. It makes a copy of the tile next to it.",
     "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.menuEditDashboard": {
+    "en": "Edit “{name}”",
+    "context": "Item of the menu of a tile in edit mode, only on a tile that shows another dashboard inside it (the Dashboard widget): opens that dashboard to change it. Inside the tile it can’t be changed. A command.",
+    "params": {
+      "name": "The name of the dashboard shown in the tile, such as \"Living room\"."
+    },
+    "maxLength": 50,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
   "editor.dashboardGrid.menuHideOn": {
@@ -9097,6 +9178,15 @@
     "maxLength": 120,
     "file": "packages/ui/src/dashboard/HdTabSearchNone.messages.ts"
   },
+  "editor.tabSearch.noneAnywhere": {
+    "en": "Nothing matches “{query}”.",
+    "context": "Line in a list with tabs (such as the add-widgets window) on its Results tab, when the person typed a search and no tab has a match.",
+    "params": {
+      "query": "What the person typed in the search box. Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdTabSearchNone.messages.ts"
+  },
   "editor.tapActions.camera": {
     "en": "Open the camera",
     "context": "Tap action: open a camera’s image.",
@@ -11941,6 +12031,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdWeatherPlacePicker.messages.ts"
   },
+  "editor.widgetPicker.addItFor": {
+    "en": "Add it for",
+    "context": "Heading in the right half of the add-widgets window, above a list of the person’s devices (or Flows, or moods) with a checkbox each: the community widget shown above it is added once for each one ticked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.browseAll": {
     "en": "Browse the whole community",
     "context": "Button at the end of the Community tab of the add-widgets window, after the question \"Not what you’re after?\". It goes to the community page. A command.",
@@ -12009,7 +12105,7 @@
   },
   "editor.widgetPicker.fits": {
     "en": "{kind, select, device {{count, plural, one {# device} other {# devices}}} flow {{count, plural, one {# Flow} other {# Flows}}} mood {{count, plural, one {# Mood} other {# Moods}}} other {{count, plural, one {# item} other {# items}}}}",
-    "context": "Small text next to the title of an installed or own widget in the add-widgets window: what it can be added for, and how many of those the person’s Homey has, such as \"3 devices\" or \"1 flow\". Flows are automations of the Homey; moods are scenes.",
+    "context": "Small text next to the title of a community or own widget in the add-widgets window: what it can be added for, and how many of those the person’s Homey has, such as \"3 devices\" or \"1 Flow\". Flows are automations of the Homey; moods are scenes.",
     "params": {
       "count": "How many of those the Homey has. A number.",
       "kind": "What the widget fits: device, flow or mood. A code, not translated; the message has a branch for each."
@@ -12023,16 +12119,22 @@
     "maxLength": 70,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.fitsNothing": {
+    "en": "Fits nothing here",
+    "context": "Small text on a community widget’s row in the add-widgets window when the list shows every widget and this one fits no device, Flow or mood of the person’s Homey, so it can’t be added.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.fitsOnly": {
+    "en": "Only what fits my Homey",
+    "context": "Label of a switch at the top of the Community tab of the add-widgets window. On (the default), the list only shows community widgets that fit a device, Flow or mood of the person’s Homey, or that stand alone; off, it shows every widget of the community.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.flowDisabled": {
     "en": "Disabled",
     "context": "Small text next to the name of a Flow (an automation of the Homey) in the add-widgets window: the Flow is switched off.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
-  },
-  "editor.widgetPicker.forYourHomey": {
-    "en": "For your Homey",
-    "context": "Title of the first group on the Community tab of the add-widgets window: community widgets that fit a device, Flow or mood of the person’s Homey, each with the things it fits under it.",
-    "maxLength": 30,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.inCommunityNote": {
@@ -12101,6 +12203,12 @@
     "maxLength": 50,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.nothingFits": {
+    "en": "Nothing in the community fits your Homey yet.",
+    "context": "Line on the Community tab of the add-widgets window while it only shows widgets that fit the person’s Homey and none does. A button \"Show all widgets\" follows it.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.official": {
     "en": "Official",
     "context": "Small badge on a community widget that is made by Tiledash itself (not by another person).",
@@ -12117,12 +12225,6 @@
     "en": "Pick something on the left to see how it can look.",
     "context": "Text in the right half of the add-widgets window while nothing is selected: it asks to choose a device, Flow, mood or widget in the list on the left.",
     "maxLength": 90,
-    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
-  },
-  "editor.widgetPicker.popular": {
-    "en": "Popular",
-    "context": "Title of the group, on the Community tab of the add-widgets window, of the community widgets that stand alone (not tied to a device), the most used first.",
-    "maxLength": 24,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
   "editor.widgetPicker.publishedNew": {
@@ -12152,6 +12254,12 @@
     "maxLength": 60,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.searchingAll": {
+    "en": "Searching the whole community",
+    "context": "Small text at the top of the Community tab of the add-widgets window while the person searches: a search looks through every widget of the community, also those that do not fit their Homey.",
+    "maxLength": 45,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.seeCommunity": {
     "en": "See what they made",
     "context": "Link after the line \"Not finding it? People share widgets on the Community.\" at the end of a tab of the add-widgets window. It opens the window's Community tab. A command.",
@@ -12167,15 +12275,45 @@
     "maxLength": 70,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.showAll": {
+    "en": "Show all widgets",
+    "context": "Button after the line \"Nothing in the community fits your Homey yet.\" on the Community tab of the add-widgets window: switches the list to every widget of the community. A command.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.showMore": {
     "en": "Show more",
     "context": "Button at the end of the Community tab of the add-widgets window: loads more widgets from the community. A command.",
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
+  "editor.widgetPicker.sortAz": {
+    "en": "A–Z",
+    "context": "Option of the order choice on the Community tab of the add-widgets window: widgets in alphabetical order by name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.sortLabel": {
+    "en": "Order",
+    "context": "Screen reader label of the choice at the top of the Community tab of the add-widgets window that orders the list (Most popular, A–Z, Newest). Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.sortNewest": {
+    "en": "Newest",
+    "context": "Option of the order choice on the Community tab of the add-widgets window: the most recently published widgets first.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.sortPopular": {
+    "en": "Most popular",
+    "context": "Option of the order choice on the Community tab of the add-widgets window: the most installed widgets first, Tiledash’s own at the top.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
   "editor.widgetPicker.tabCommunity": {
     "en": "Community",
-    "context": "Tab of the add-widgets window: every widget from the community (where people share widgets), installed or not, those that fit the person’s Homey first. Adding one that is not installed installs it.",
+    "context": "Tab of the add-widgets window: every widget from the community (where people share widgets), installed or not, as one list. Adding one that is not installed installs it.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },
@@ -12206,6 +12344,12 @@
   "editor.widgetPicker.tabOwn": {
     "en": "My own",
     "context": "Tab of the add-widgets window: the widgets the person made themselves.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
+  },
+  "editor.widgetPicker.tabResults": {
+    "en": "Results",
+    "context": "Tab of the add-widgets window that only shows while the person searches: what the search found in every other tab (devices, Flows, moods, widgets), grouped by tab. It opens by itself when typing starts.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/widgetPicker.messages.ts"
   },

@@ -941,6 +941,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.addDashboard": {
+    "text": "Afficher un tableau de bord…",
+    "source": "ce38ee053f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.addEmpty": {
+    "text": "Page vide",
+    "source": "853d946921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintDismiss": {
+    "text": "Compris",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintText": {
+    "text": "Choisissez « Afficher un tableau de bord… » sous + pour faire d’une pile des onglets de vos tableaux de bord, idéal sur tablette.",
+    "source": "43fa96f25c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintTitle": {
+    "text": "Une page peut afficher tout un tableau de bord",
+    "source": "8d4d7a808a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.full": {
     "text": "{max, plural, one {# page au maximum} other {# pages au maximum}}",
     "source": "4eede332d8",
@@ -1949,6 +1979,48 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardChoice.dashboards": {
+    "text": "Tableaux de bord",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.description": {
+    "text": "La nouvelle page l’affiche en direct, avec ses tuiles telles quelles. Ses modifications s’y voient aussi.",
+    "source": "75aae0ce53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.none": {
+    "text": "Ce Homey n’a pas encore d’autre tableau de bord.",
+    "source": "5f14a85625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.show": {
+    "text": "Ajouter la page",
+    "source": "5f31f51337",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.showsThis": {
+    "text": "Affiche celui-ci",
+    "source": "bf2d4febdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.thisOne": {
+    "text": "Ce tableau de bord",
+    "source": "f136ad7f74",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.title": {
+    "text": "Afficher un tableau de bord",
+    "source": "f05fa6ef08",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.describe": {
     "text": "{label}{selected, select, yes {, sélectionnée} other {}}. {width} sur {height}, colonne {column}, ligne {row}. Flèches : déplacer, avec Maj : taille.",
     "source": "fb235ed166",
@@ -1994,6 +2066,12 @@
   "editor.dashboardGrid.menuDuplicate": {
     "text": "Dupliquer",
     "source": "02cdaabfca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.menuEditDashboard": {
+    "text": "Modifier « {name} »",
+    "source": "eba68cbd80",
     "by": "ai",
     "reviewed": false
   },
@@ -8219,6 +8297,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tabSearch.noneAnywhere": {
+    "text": "Aucun résultat pour « {query} ».",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapActions.camera": {
     "text": "Ouvrir la caméra",
     "source": "4adab8263a",
@@ -10895,6 +10979,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.addItFor": {
+    "text": "L’ajouter pour",
+    "source": "5c8ade08a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.browseAll": {
     "text": "Parcourir toute la communauté",
     "source": "2fc0f9bbe8",
@@ -10967,15 +11057,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.flowDisabled": {
-    "text": "Désactivé",
-    "source": "75081b593d",
+  "editor.widgetPicker.fitsNothing": {
+    "text": "Ne convient à rien ici",
+    "source": "913f8a6350",
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.forYourHomey": {
-    "text": "Pour votre Homey",
-    "source": "41adc2dfb9",
+  "editor.widgetPicker.fitsOnly": {
+    "text": "Seulement ce qui convient à mon Homey",
+    "source": "8ec4a23a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.flowDisabled": {
+    "text": "Désactivé",
+    "source": "75081b593d",
     "by": "ai",
     "reviewed": false
   },
@@ -11039,6 +11135,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.nothingFits": {
+    "text": "Rien dans la communauté ne convient encore à votre Homey.",
+    "source": "ca57514b0c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.official": {
     "text": "Officiel",
     "source": "c409c66f71",
@@ -11054,12 +11156,6 @@
   "editor.widgetPicker.pickLeft": {
     "text": "Choisissez un élément à gauche pour voir ses apparences possibles.",
     "source": "cbd290f8d4",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.widgetPicker.popular": {
-    "text": "Populaires",
-    "source": "76327dec9a",
     "by": "ai",
     "reviewed": false
   },
@@ -11087,6 +11183,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.searchingAll": {
+    "text": "Recherche dans toute la communauté",
+    "source": "0669d565c0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.seeCommunity": {
     "text": "Voir leurs créations",
     "source": "ee98c0d06c",
@@ -11099,9 +11201,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.showAll": {
+    "text": "Afficher tous les widgets",
+    "source": "310fa0f336",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.showMore": {
     "text": "Afficher plus",
     "source": "f5c9bd1314",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortAz": {
+    "text": "A–Z",
+    "source": "f9f6c8502e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortLabel": {
+    "text": "Ordre de tri",
+    "source": "6be090825c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortNewest": {
+    "text": "Plus récents",
+    "source": "d15efa178c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortPopular": {
+    "text": "Plus populaires",
+    "source": "ad2ea94850",
     "by": "ai",
     "reviewed": false
   },
@@ -11138,6 +11270,12 @@
   "editor.widgetPicker.tabOwn": {
     "text": "Les miens",
     "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.tabResults": {
+    "text": "Résultats",
+    "source": "219c4a6c86",
     "by": "ai",
     "reviewed": false
   },

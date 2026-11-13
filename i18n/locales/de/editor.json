@@ -941,6 +941,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.childPageTabs.addDashboard": {
+    "text": "Dashboard anzeigen…",
+    "source": "ce38ee053f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.addEmpty": {
+    "text": "Leere Seite",
+    "source": "853d946921",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintDismiss": {
+    "text": "Verstanden",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintText": {
+    "text": "Wählen Sie unter + „Dashboard anzeigen…“, damit ein Stapel Ihre Dashboards als Tabs zeigt – praktisch auf einem Tablet.",
+    "source": "43fa96f25c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.childPageTabs.dashboardHintTitle": {
+    "text": "Eine Seite kann ein ganzes Dashboard zeigen",
+    "source": "8d4d7a808a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.childPageTabs.full": {
     "text": "{max, plural, one {Höchstens # Seite möglich} other {Höchstens # Seiten möglich}}",
     "source": "4eede332d8",
@@ -1949,6 +1979,48 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardChoice.dashboards": {
+    "text": "Dashboards",
+    "source": "a53bcafb67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.description": {
+    "text": "Die neue Seite zeigt es live, mit seinen Kacheln, wie sie sind. Änderungen daran erscheinen auch hier.",
+    "source": "75aae0ce53",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.none": {
+    "text": "Dieser Homey hat noch keine anderen Dashboards.",
+    "source": "5f14a85625",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.show": {
+    "text": "Seite hinzufügen",
+    "source": "5f31f51337",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.showsThis": {
+    "text": "Zeigt dieses Dashboard",
+    "source": "bf2d4febdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.thisOne": {
+    "text": "Dieses Dashboard",
+    "source": "f136ad7f74",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardChoice.title": {
+    "text": "Dashboard anzeigen",
+    "source": "f05fa6ef08",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.describe": {
     "text": "{selected, select, yes {{label}, ausgewählt.} other {{label}.}} {width} × {height}, Spalte {column}, Zeile {row}. Pfeile bewegen, mit Umschalt Größe.",
     "source": "fb235ed166",
@@ -1994,6 +2066,12 @@
   "editor.dashboardGrid.menuDuplicate": {
     "text": "Duplizieren",
     "source": "02cdaabfca",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.menuEditDashboard": {
+    "text": "„{name}“ bearbeiten",
+    "source": "eba68cbd80",
     "by": "ai",
     "reviewed": false
   },
@@ -8219,6 +8297,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.tabSearch.noneAnywhere": {
+    "text": "Nichts passt zu „{query}“.",
+    "source": "7057d2dc85",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.tapActions.camera": {
     "text": "Kamera öffnen",
     "source": "4adab8263a",
@@ -10895,6 +10979,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.addItFor": {
+    "text": "Hinzufügen für",
+    "source": "5c8ade08a1",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.browseAll": {
     "text": "Gesamte Community durchsuchen",
     "source": "2fc0f9bbe8",
@@ -10967,15 +11057,21 @@
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.flowDisabled": {
-    "text": "Deaktiviert",
-    "source": "75081b593d",
+  "editor.widgetPicker.fitsNothing": {
+    "text": "Passt hier zu nichts",
+    "source": "913f8a6350",
     "by": "ai",
     "reviewed": false
   },
-  "editor.widgetPicker.forYourHomey": {
-    "text": "Für Ihren Homey",
-    "source": "41adc2dfb9",
+  "editor.widgetPicker.fitsOnly": {
+    "text": "Nur Passendes für meinen Homey",
+    "source": "8ec4a23a6d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.flowDisabled": {
+    "text": "Deaktiviert",
+    "source": "75081b593d",
     "by": "ai",
     "reviewed": false
   },
@@ -11039,6 +11135,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.nothingFits": {
+    "text": "Noch passt nichts aus der Community zu Ihrem Homey.",
+    "source": "ca57514b0c",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.official": {
     "text": "Offiziell",
     "source": "c409c66f71",
@@ -11054,12 +11156,6 @@
   "editor.widgetPicker.pickLeft": {
     "text": "Wählen Sie links etwas aus, um zu sehen, wie es aussehen kann.",
     "source": "cbd290f8d4",
-    "by": "ai",
-    "reviewed": false
-  },
-  "editor.widgetPicker.popular": {
-    "text": "Beliebt",
-    "source": "76327dec9a",
     "by": "ai",
     "reviewed": false
   },
@@ -11087,6 +11183,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.searchingAll": {
+    "text": "Suche in der gesamten Community",
+    "source": "0669d565c0",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.seeCommunity": {
     "text": "Ansehen, was es gibt",
     "source": "ee98c0d06c",
@@ -11099,9 +11201,39 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.widgetPicker.showAll": {
+    "text": "Alle Widgets anzeigen",
+    "source": "310fa0f336",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.widgetPicker.showMore": {
     "text": "Mehr anzeigen",
     "source": "f5c9bd1314",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortAz": {
+    "text": "A–Z",
+    "source": "f9f6c8502e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortLabel": {
+    "text": "Reihenfolge",
+    "source": "6be090825c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortNewest": {
+    "text": "Neueste",
+    "source": "d15efa178c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.sortPopular": {
+    "text": "Beliebteste",
+    "source": "ad2ea94850",
     "by": "ai",
     "reviewed": false
   },
@@ -11138,6 +11270,12 @@
   "editor.widgetPicker.tabOwn": {
     "text": "Eigene",
     "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.widgetPicker.tabResults": {
+    "text": "Ergebnisse",
+    "source": "219c4a6c86",
     "by": "ai",
     "reviewed": false
   },
