@@ -231,6 +231,11 @@
     "maxLength": 14,
     "file": "packages/ui/src/elements/messages.ts"
   },
+  "widgets.elements.cameraRtsp": {
+    "en": "This camera’s live video (RTSP) can’t play in a browser · showing snapshots",
+    "context": "Small line over a camera tile’s picture when the camera only offers an RTSP stream, which browsers can’t play; the tile shows still pictures instead. Keep “RTSP” as is.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
   "widgets.elements.cameraSnapshot": {
     "en": "Snapshot",
     "context": "Status pill on a camera tile: the picture is a still, not live video.",
