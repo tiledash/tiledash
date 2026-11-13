@@ -860,6 +860,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
+  "viewer.dashboard.menuHistory": {
+    "en": "History",
+    "context": "Item of the dashboard menu. It opens a side panel with the earlier versions of the dashboard, to look at and restore.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
   "viewer.dashboard.menuPanel": {
     "en": "Put it on a tablet…",
     "context": "Item of the dashboard menu. It opens a short flow that puts this dashboard on a tablet on the wall (a wall panel): type the code the tablet shows, pick dashboards, done. The dots mean a dialog follows.",
@@ -904,6 +910,336 @@
     },
     "maxLength": 80,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboardHistory.assistant": {
+    "en": "Before an assistant’s change",
+    "context": "A version kept before an AI assistant changed the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.backToNow": {
+    "en": "Back to now",
+    "context": "Leaves the earlier version and shows the dashboard as it is now.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.beforeRestore": {
+    "en": "Before restoring",
+    "context": "A version kept before an earlier version was restored, so that can be undone.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.bringBack": {
+    "en": "Bring back",
+    "context": "Restores a deleted dashboard.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.cancel": {
+    "en": "Cancel",
+    "context": "Closes the name field without saving.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedAdded": {
+    "en": "{count, plural, one {# tile added} other {# tiles added}}",
+    "context": "What was done after this version: tiles added. Joined with the others by “ · ”.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedMoved": {
+    "en": "{count} moved",
+    "context": "What was done after this version: tiles moved.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedNothing": {
+    "en": "No changes",
+    "context": "Nothing was changed after this version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedReconfigured": {
+    "en": "{count} with other settings",
+    "context": "What was done after this version: tiles whose settings changed.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedRemoved": {
+    "en": "{count} removed",
+    "context": "What was done after this version: tiles removed.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedResized": {
+    "en": "{count} resized",
+    "context": "What was done after this version: tiles made bigger or smaller.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedRestyled": {
+    "en": "{count} restyled",
+    "context": "What was done after this version: tiles given another look.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.changedSettings": {
+    "en": "dashboard settings",
+    "context": "What was done after this version: the dashboard’s own name, theme or settings. Lower case: it is joined after the other items by “ · ”.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.deleted": {
+    "en": "When it was deleted",
+    "context": "A version kept when the dashboard was deleted.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.deletedAt": {
+    "en": "Deleted {when}",
+    "context": "When a dashboard was deleted, such as “Deleted yesterday 09:12”.",
+    "params": {
+      "when": "When."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.deletedDescription": {
+    "en": "Deleted dashboards can come back for {days} days.",
+    "context": "Under the title of the recently deleted list.",
+    "params": {
+      "days": "How many days."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.deletedNone": {
+    "en": "Nothing deleted lately.",
+    "context": "The recently deleted list is empty.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.deletedTitle": {
+    "en": "Recently deleted",
+    "context": "Title of the list of dashboards deleted lately, that can still come back.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.description": {
+    "en": "Earlier versions of this dashboard. Pick one to see it on the dashboard.",
+    "context": "Under the History panel title.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.dropped": {
+    "en": "{count, plural, one {# tile couldn’t come back: what it showed is gone.} other {# tiles couldn’t come back: what they showed is gone.}}",
+    "context": "Under the restore toast when tiles were left out because their device or widget is gone.",
+    "params": {
+      "count": "How many tiles were left out."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.edit": {
+    "en": "Before your edits",
+    "context": "A version kept automatically before the user started changing the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.keeps": {
+    "en": "Keeps the last {count} versions, and every snapshot you name until you remove it.",
+    "context": "At the foot of the History panel.",
+    "params": {
+      "count": "How many versions the plan keeps."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.keepsPro": {
+    "en": "Pro keeps {count}.",
+    "context": "After the line above, on Free.",
+    "params": {
+      "count": "How many versions Pro keeps."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.markChanged": {
+    "en": "Changed since",
+    "context": "Mark on a tile that is different now from this version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.markGone": {
+    "en": "Gone now",
+    "context": "Mark on a tile this version has that the dashboard no longer has.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.named": {
+    "en": "Snapshot",
+    "context": "Badge on a version the user saved by hand under a name.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.newer": {
+    "en": "Newer version",
+    "context": "Arrow button to the newer version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.nothing": {
+    "en": "No earlier versions yet. One is kept when you start changing the dashboard.",
+    "context": "In the History panel before any version was kept.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.now": {
+    "en": "Now",
+    "context": "The top of the timeline: the dashboard as it is now.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.nowHint": {
+    "en": "What the dashboard shows",
+    "context": "Under _Now_ at the top of the timeline.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.older": {
+    "en": "Older version",
+    "context": "Arrow button to the older version.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.pickTile": {
+    "en": "Pick this tile to restore",
+    "context": "Tick box on a tile while an earlier version is shown.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.remove": {
+    "en": "Remove",
+    "context": "Removes a snapshot from the history.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.rename": {
+    "en": "Rename",
+    "context": "Button on a named snapshot in the History panel that renames it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.restoreAll": {
+    "en": "Restore this version",
+    "context": "Puts the whole dashboard back as it was in this version.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.restorePicked": {
+    "en": "{count, plural, one {Restore # tile} other {Restore # tiles}}",
+    "context": "Puts back only the tiles the user ticked, as they were in this version.",
+    "params": {
+      "count": "How many tiles are ticked."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.restored": {
+    "en": "Restored the version of {when}",
+    "context": "Toast after restoring a whole version.",
+    "params": {
+      "when": "When the version was kept."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.restoredTiles": {
+    "en": "{count, plural, one {Restored # tile} other {Restored # tiles}}",
+    "context": "Toast after restoring the ticked tiles.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.save": {
+    "en": "Save",
+    "context": "Saves the snapshot under the name typed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.saveSnapshot": {
+    "en": "Save snapshot",
+    "context": "Button that keeps the dashboard as it is now, under a name the user types.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.snapshotName": {
+    "en": "Name of the snapshot",
+    "context": "Label of the field for the snapshot’s name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.snapshotPlaceholder": {
+    "en": "Before the redesign",
+    "context": "Example name in the empty snapshot name field.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.system": {
+    "en": "Before a widget took tiles out",
+    "context": "A version kept before saving a widget removed tiles inside it from this dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.tiles": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "How many tiles the dashboard had in that version.",
+    "params": {
+      "count": "How many tiles."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.title": {
+    "en": "History",
+    "context": "Title of the side panel with the dashboard's timeline of earlier versions.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.undo": {
+    "en": "Undo",
+    "context": "Toast button that undoes the restore.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
+  },
+  "viewer.dashboardHistory.viewing": {
+    "en": "Viewing {when}",
+    "context": "Bar at the bottom while an earlier version is shown on the dashboard.",
+    "params": {
+      "when": "When the version was kept, such as “Today 14:05”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/history/dashboardHistory.messages.ts"
   },
   "viewer.dashboardPage.failedBody": {
     "en": "Check your connection and try again.",

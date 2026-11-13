@@ -2890,6 +2890,51 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/DashboardThemeDialog.messages.ts"
   },
+  "editor.dashboardVersions.changeFailed": {
+    "en": "Couldn’t change the snapshot.",
+    "context": "Red message (toast) when renaming or removing a named snapshot failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.changedElsewhere": {
+    "en": "The dashboard changed elsewhere, so nothing was restored. Try again.",
+    "context": "Message (toast) when the dashboard was changed on another screen while an earlier version was shown. The dashboard is reloaded as it is now.",
+    "maxLength": 90,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.loadFailed": {
+    "en": "Couldn’t load the history.",
+    "context": "Red message (toast) when the list of earlier versions of a dashboard failed to load.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.restoreFailed": {
+    "en": "Couldn’t restore that version.",
+    "context": "Red message (toast) when restoring an earlier version of a dashboard failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.showFailed": {
+    "en": "Couldn’t show that version.",
+    "context": "Red message (toast) when showing an earlier version on the dashboard failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.snapshotFailed": {
+    "en": "Couldn’t save the snapshot.",
+    "context": "Red message (toast) when keeping the dashboard under a name failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
+  "editor.dashboardVersions.snapshotSaved": {
+    "en": "Snapshot “{label}” saved",
+    "context": "Message (toast) after the person kept the dashboard as it is under a name. The quotes are around the name.",
+    "params": {
+      "label": "The name the person gave the snapshot. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
+  },
   "editor.decimalsPicker.auto": {
     "en": "Auto",
     "context": "First option of a row of buttons (a segmented control) that sets how many decimals a number on a tile shows. Auto means Tiledash picks what reads well for the size of the number. The other options show the number as it would read, such as \"2.7\".",

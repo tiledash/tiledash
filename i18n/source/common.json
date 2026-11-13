@@ -197,6 +197,17 @@
     "maxLength": 230,
     "file": "apps/web/src/api/planErrors.messages.ts"
   },
+  "common.plan.limitDashboardVersions": {
+    "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} keeps {limit, plural, one {# version} other {# versions}} of a dashboard, and your named snapshots fill them. Remove one first.{upgrade, select, yes { Pro keeps more.} other {}}",
+    "context": "Toast when the person tried to save one more named snapshot of a dashboard (a version kept under a name in its History) than their plan keeps. On the Free plan a last sentence says Pro keeps more.",
+    "params": {
+      "limit": "How many versions of a dashboard the plan keeps.",
+      "plan": "The plan of the person: \"free\", \"pro\" or anything else when it is not known. It chooses the name of the plan in the sentence; Free and Pro stay as they are.",
+      "upgrade": "\"yes\" on the Free plan, where the sentence ends with the note that Pro keeps more; \"no\" on other plans."
+    },
+    "maxLength": 260,
+    "file": "apps/web/src/api/planErrors.messages.ts"
+  },
   "common.plan.limitDashboards": {
     "en": "{plan, select, free {Your Free plan} pro {Your Pro plan} other {Your current plan}} includes {limit, plural, one {# dashboard} other {# dashboards}}.{upgrade, select, yes { Upgrade to Pro for more.} other {}}",
     "context": "Toast or banner when the person tried to make more dashboards than their plan allows. It states how many the plan includes; on the Free plan a second sentence suggests upgrading to Pro.",

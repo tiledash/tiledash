@@ -213,6 +213,21 @@
     "maxLength": 30,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
+  "shell.layout.bringBackFailed": {
+    "en": "Couldn’t bring that dashboard back.",
+    "context": "Red message (toast) when bringing back a deleted dashboard failed.",
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
+  "shell.layout.broughtBack": {
+    "en": "“{name}” is back",
+    "context": "Message (toast) after a deleted dashboard was brought back from the Recently deleted list. The quotes are around its name.",
+    "params": {
+      "name": "The name of the dashboard. Not translated."
+    },
+    "maxLength": 50,
+    "file": "apps/web/src/layout/layout.messages.ts"
+  },
   "shell.layout.ctrl": {
     "en": "Ctrl",
     "context": "The name of the Control key, written on keyboards that are not from Apple. It is shown in the shortcut of the \"Jump to\" search (Ctrl K) at the top of the sidebar. Use what is printed on the key in the language.",
@@ -1188,6 +1203,12 @@
     "maxLength": 24,
     "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
   },
+  "shell.sidebar.recentlyDeleted": {
+    "en": "Recently deleted",
+    "context": "Quiet link at the foot of the dashboards in the sidebar, shown only when dashboards were deleted in the last days. It opens a list where they can be brought back. A count follows it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/patterns/sidebar/sidebar.messages.ts"
+  },
   "shell.sidebar.reset": {
     "en": "Reset",
     "context": "Button in the bar at the top of the sidebar while it is being edited. It brings the tools back to how a new account has them (the dashboards and groups stay).",
@@ -1703,6 +1724,18 @@
     "en": "Got it",
     "context": "Button that closes a tour’s last card or a tip.",
     "maxLength": 20,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.historyHintText": {
+    "en": "Tiledash now keeps earlier versions of your dashboards. Open History under ⋯ to look back and restore all of one, or just a few tiles.",
+    "context": "Text of the one-time note about History. ⋯ is the round button with three dots in the top right corner; keep the ⋯ character. History is the name of the item in its menu.",
+    "maxLength": 160,
+    "file": "packages/ui/src/patterns/tour/messages.ts"
+  },
+  "shell.tour.historyHintTitle": {
+    "en": "New: your dashboard’s history",
+    "context": "Title of a one-time \"Did you know?\" note pointing at the dashboard’s ⋯ button, telling people about the new History: every dashboard now keeps its earlier versions.",
+    "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/messages.ts"
   },
   "shell.tour.makeFirst": {
