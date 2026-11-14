@@ -113,6 +113,21 @@
     "maxLength": 30,
     "file": "packages/ui/src/components/HdColourPicker.messages.ts"
   },
+  "common.colourPicker.opacity": {
+    "en": "Opacity",
+    "context": "Label of the slider in the colour picker that makes the colour more or less see-through: 100% is solid, 0% invisible.",
+    "maxLength": 16,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
+  "common.colourPicker.opacityValue": {
+    "en": "{percent}%",
+    "context": "How opaque the colour is, next to the opacity slider in the colour picker and read out by screen readers. 100% is solid.",
+    "params": {
+      "percent": "A whole number from 0 to 100."
+    },
+    "maxLength": 12,
+    "file": "packages/ui/src/components/HdColourPicker.messages.ts"
+  },
   "common.colourPicker.open": {
     "en": "{label}: {colour}. Change the colour",
     "context": "Name for screen readers of the swatch button that opens the colour picker: what the field is, the colour it has now, and what pressing it does.",

@@ -2759,8 +2759,8 @@
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.leadLook": {
-    "en": "The dashboard’s theme, and a picture behind its tiles.",
-    "context": "Short line at the top of the Look tab of the dashboard settings dialog (tabs above the settings): the colour theme of this dashboard, and its wallpaper (a picture of the user’s own shown behind the tiles).",
+    "en": "The dashboard’s theme, and what shows behind its tiles.",
+    "context": "Short line at the top of the Look tab of the dashboard settings dialog (tabs above the settings): the colour theme of this dashboard, and its background (the theme’s own, plain colour, a moving scene or a picture).",
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
@@ -11244,6 +11244,24 @@
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.atNight": {
+    "en": "At night",
+    "context": "Name of the field for the picture shown at night behind the tiles (empty: the day picture shows at night too).",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.behindSky": {
+    "en": "Behind its sky",
+    "context": "Name of the choice of a moving scene behind a background picture with an empty (see-through) sky.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.behindSkyHint": {
+    "en": "The picture’s sky is empty, so a scene can move behind it.",
+    "context": "Hint under the Behind its sky choice.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.blur": {
     "en": "Blur",
     "context": "Slider that blurs the wallpaper picture.",
@@ -11254,12 +11272,6 @@
     "en": "Colours",
     "context": "Name of the choice of colours for an abstract scene: the theme’s, or a fixed colourway.",
     "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.day": {
-    "en": "Day",
-    "context": "Switch above the wallpaper pictures: choose the pictures shown by day (the other choice is Night).",
-    "maxLength": 12,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.dim": {
@@ -11316,6 +11328,12 @@
     "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.fineTune": {
+    "en": "Fine-tune",
+    "context": "Title of a fold under the background choice with its finer settings. Same as the Fine-tune fold on the Layout tab.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.fit": {
     "en": "Fit",
     "context": "Name of the choice how the wallpaper picture fits the screen.",
@@ -11365,15 +11383,15 @@
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.freeKept": {
-    "en": "This dashboard’s wallpaper is kept, and shows again with Pro.",
-    "context": "Text of the Wallpaper setting for someone back on the free plan who had set a wallpaper: it is not shown now but kept.",
+    "en": "This dashboard’s scene or picture is kept, and shows again with Pro.",
+    "context": "Text for someone back on the free plan who had set a scene or picture behind the dashboard’s tiles: it is not shown now but kept.",
     "maxLength": 120,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.freeText": {
-    "en": "Put a picture of your own or a moving scene behind the tiles, by day and by night. Wallpapers come with Pro.",
-    "context": "Text of the Wallpaper setting for someone on the free plan, who cannot use it.",
-    "maxLength": 140,
+    "en": "Scenes and pictures behind the tiles come with Pro.",
+    "context": "Shown to someone on the free plan who picked Scene or Picture as the dashboard’s background, which they cannot use.",
+    "maxLength": 120,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.getPro": {
@@ -11383,8 +11401,8 @@
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.heading": {
-    "en": "Wallpaper",
-    "context": "Name of the setting that puts a picture of the user’s own behind a dashboard’s tiles.",
+    "en": "Background",
+    "context": "Name of the choice of what shows behind a dashboard’s tiles: the theme’s own background, plain colour, a moving scene or a picture.",
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -11406,6 +11424,48 @@
     "maxLength": 40,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.insidePicture": {
+    "en": "night picture, tablet and phone, effects, fit, dim, blur",
+    "context": "What the closed Fine-tune fold holds when the background is a Picture, shown after its title. Lower case, a short list.",
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.insidePlain": {
+    "en": "effects over the colour",
+    "context": "What the closed Fine-tune fold holds when the background is Plain, shown after its title. Lower case, a short list.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.insideScene": {
+    "en": "effects, when night starts, dim",
+    "context": "What the closed Fine-tune fold holds when the background is a Scene, shown after its title. Lower case, a short list.",
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.leadPicture": {
+    "en": "A picture of your own, or one made with AI, behind the tiles.",
+    "context": "Line under the background choice when Picture is picked.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.leadPlain": {
+    "en": "Only the theme’s background colour behind the tiles.",
+    "context": "Line under the background choice when Plain is picked.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.leadScene": {
+    "en": "A painted sky, dunes or soft shapes, drifting slowly by day and by night.",
+    "context": "Line under the background choice when Scene is picked.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.leadTheme": {
+    "en": "Comes with your theme. Another theme brings its own.",
+    "context": "Line under the background choice when Theme is picked.",
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.make": {
     "en": "Make one with AI…",
     "context": "Button by the wallpaper pictures that opens a dialog to have AI paint a wallpaper (a day and a night picture), for credits.",
@@ -11418,12 +11478,6 @@
     "maxLength": 140,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.night": {
-    "en": "Night",
-    "context": "Switch above the wallpaper pictures: choose the pictures shown at night (the other choice is Day).",
-    "maxLength": 12,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
   "editor.wallpaper.nightPickerTitle": {
     "en": "Wallpaper for {size} at night",
     "context": "Title of the picture library opened for a wallpaper’s night picture, and that field’s name. {size} is “Desktop”, “Tablet” or “Phone”.",
@@ -11433,10 +11487,10 @@
     "maxLength": 50,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.onlyScene": {
-    "en": "Only the scene",
-    "context": "Shown in an empty Desktop picture field when a scene is chosen: the scene shows alone.",
-    "maxLength": 24,
+  "editor.wallpaper.otherSizes": {
+    "en": "On a tablet or phone",
+    "context": "Name of the fields for a picture of their own on Tablet and on Phone (empty: the Desktop picture shows there too).",
+    "maxLength": 40,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.ownSizeHint": {
@@ -11498,7 +11552,7 @@
   },
   "editor.wallpaper.patternDots": {
     "en": "Dots",
-    "context": "A theme’s background pattern, named in \"The theme’s background: Dots\": small dots in rows.",
+    "context": "A theme’s background pattern, named under the Theme card of the dashboard’s background: small dots in rows.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -11525,20 +11579,14 @@
   },
   "editor.wallpaper.picture": {
     "en": "Picture",
-    "context": "Name of the part of the Wallpaper setting where the pictures are chosen.",
-    "maxLength": 30,
+    "context": "Background choice: a picture of the user’s own (or one made with AI) behind the tiles. Name on a small card.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.pictureFrom": {
-    "en": "Picture from",
-    "context": "Read out by screen readers for the choice on the wallpaper between the person’s own pictures (their picture library) and pictures from the web.",
-    "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.pictureHint": {
-    "en": "Without a night picture the day one shows at night too. A picture with an empty sky, like one made with AI, lets the scene show through it.",
-    "context": "Hint under the wallpaper pictures.",
-    "maxLength": 180,
+  "editor.wallpaper.pictureLine": {
+    "en": "Yours or AI",
+    "context": "Small line under the Picture card of the background choice: a picture of your own, or one made with AI.",
+    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.pictureLoad": {
@@ -11547,33 +11595,27 @@
     "maxLength": 12,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.pictureOwn": {
-    "en": "Your picture",
-    "context": "Choice for the wallpaper: one of the person’s own pictures from their picture library (or one of Tiledash’s). Same as on a tile’s Picture tab.",
-    "maxLength": 20,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
   "editor.wallpaper.pictureProblem": {
     "en": "That isn’t a web address. Use one that starts with https://",
     "context": "Note under a wallpaper picture’s address field when what was typed is not a web address. Keep https:// as it is.",
     "maxLength": 90,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.pictureTime": {
-    "en": "Pictures for",
-    "context": "Accessible name of the Day / Night switch above the wallpaper pictures.",
-    "maxLength": 30,
+  "editor.wallpaper.plain": {
+    "en": "Plain",
+    "context": "Background choice: nothing behind the tiles but the theme’s background colour. Name on a small card.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.pictureWeb": {
-    "en": "Web address",
-    "context": "Choice for the wallpaper: a picture from the web, by pasting its address (URL). Same as on a tile’s Picture tab.",
+  "editor.wallpaper.plainLine": {
+    "en": "Just colour",
+    "context": "Small line under the Plain card of the background choice.",
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.pro": {
     "en": "Pro",
-    "context": "Badge next to the Wallpaper setting: it comes with the paid plan, called Pro.",
+    "context": "Badge next to the Scene and Picture choices for the background: they come with the paid plan, called Pro.",
     "maxLength": 12,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -11594,25 +11636,19 @@
   },
   "editor.wallpaper.scene": {
     "en": "Scene",
-    "context": "Name of the choice of a moving scene behind the tiles: none, painted landscapes (sky, dunes) or abstract ones (waves, silk, glow).",
-    "maxLength": 30,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.sceneAbstract": {
-    "en": "Abstract",
-    "context": "Group of scenes that are abstract, not landscapes: flowing wave forms, silk ribbons, soft glowing colour.",
-    "maxLength": 24,
+    "context": "Background choice: a painted scene that moves slowly behind the tiles (sky, dunes, or abstract waves, silk, glow). Name on a small card.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.sceneBlocked": {
-    "en": "Scenes show behind a picture with an empty sky. This picture fills the screen, so remove it or pick one with an empty sky, like one made with AI.",
-    "context": "Shown under the greyed-out scenes when the wallpaper’s picture covers the whole screen, so a moving scene behind it could not be seen.",
+    "en": "This picture fills the screen, so no scene can show behind it. A picture with an empty sky, like one made with AI, can have one.",
+    "context": "Shown under the background picture when it covers the whole screen, so a moving scene behind it could not be seen.",
     "maxLength": 200,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.sceneBlockedWeb": {
-    "en": "Scenes show behind a picture with an empty sky, which Tiledash can only check on your own pictures. A picture from a web address has no scene behind it.",
-    "context": "Shown under the greyed-out scenes when the wallpaper’s picture comes from a web address: a moving scene can’t be put behind it.",
+    "en": "A picture from a web address has no scene behind it: Tiledash can only check the sky of your own pictures.",
+    "context": "Shown under the background picture when it comes from a web address: a moving scene can’t be put behind it.",
     "maxLength": 200,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -11628,21 +11664,15 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.sceneHint": {
-    "en": "It moves slowly behind the tiles: a painted sky with clouds by day and stars at night, or soft abstract shapes in your theme’s colours. It shows behind a picture with an empty sky.",
-    "context": "Hint under the scene choice.",
-    "maxLength": 180,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.sceneLandscapes": {
-    "en": "Landscapes",
-    "context": "Group of scenes that are painted landscapes: a sky, and dunes under a sky.",
-    "maxLength": 24,
+  "editor.wallpaper.sceneLine": {
+    "en": "Moves slowly",
+    "context": "Small line under the Scene card of the background choice.",
+    "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.sceneNone": {
     "en": "None",
-    "context": "Scene choice: no moving scene, only the picture (or nothing).",
+    "context": "Choice for what moves behind a picture’s empty sky: no scene.",
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
@@ -11676,25 +11706,10 @@
     "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
-  "editor.wallpaper.themeBackdrop": {
-    "en": "The theme’s background: {name}",
-    "context": "Switch at the top of the Wallpaper setting, shown when the dashboard’s theme draws something behind the tiles.",
-    "params": {
-      "name": "What the theme draws, such as \"Blueprint\" or \"Silk\". A name, already translated."
-    },
-    "maxLength": 60,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.themeBackdropHint": {
-    "en": "Shows behind the tiles while this dashboard has no wallpaper of its own.",
-    "context": "Hint under the switch for the theme’s background on a dashboard without a wallpaper.",
-    "maxLength": 100,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.themeBackdropUnder": {
-    "en": "This dashboard’s wallpaper shows instead.",
-    "context": "Hint under the switch for the theme’s background when the dashboard has a wallpaper of its own, which then shows instead of the theme’s background.",
-    "maxLength": 100,
+  "editor.wallpaper.theme": {
+    "en": "Theme",
+    "context": "Background choice: what the dashboard’s theme draws behind the tiles (a pattern or scene of its own). Name on a small card.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaper.tilesHint": {
@@ -11703,16 +11718,22 @@
     "maxLength": 160,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
+  "editor.wallpaper.useOwn": {
+    "en": "Use your own picture",
+    "context": "Link under the background picture’s web address: choose one of your own pictures instead.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
+  "editor.wallpaper.useWeb": {
+    "en": "Use a web address",
+    "context": "Link under the background picture: paste the address (URL) of a picture on the web instead of choosing one of your own.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
+  },
   "editor.wallpaper.webHint": {
     "en": "Paste the web address of a picture for each screen size. It is loaded from that site wherever the dashboard shows, also on share links and screens.",
     "context": "Hint under the wallpaper’s address fields: nothing is copied to Tiledash, every screen that shows the dashboard loads the picture from the site itself.",
     "maxLength": 180,
-    "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
-  },
-  "editor.wallpaper.webSwitch": {
-    "en": "Switching takes the wallpaper’s pictures away until you set new ones.",
-    "context": "Small note beside the Your picture / Web address choice when the wallpaper has pictures of the other kind: switching removes them (Cancel puts them back).",
-    "maxLength": 110,
     "file": "packages/ui/src/dashboard/HdWallpaperSettings.messages.ts"
   },
   "editor.wallpaperMake.about": {

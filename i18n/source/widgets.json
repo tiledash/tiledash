@@ -208,6 +208,11 @@
     "maxLength": 18,
     "file": "packages/ui/src/elements/messages.ts"
   },
+  "widgets.elements.cameraDirect": {
+    "en": "This camera’s app lets only the Homey app play its live video · showing the snapshot. To play it here, add it on your Homey as a Camera for Tiledash, with Tiledash’s Homey app (a test version for now).",
+    "context": "Hover text of the small “i” on a camera tile when the camera’s Homey app doesn’t let other apps play its live video (it turned off Homey’s WebRTC proxy), so the tile shows the camera’s still picture instead. “Homey app” is Athom’s own app on the phone. The second sentence is the fix: Tiledash’s own app for Homey (installed on the Homey) has a device called “Camera for Tiledash” that plays such a camera; use that device’s name as the Homey app shows it in this language (nl “Camera voor Tiledash”, de “Kamera für Tiledash”, es “Cámara para Tiledash”, fr “Caméra pour Tiledash”, else “Camera for Tiledash”). That app is only out as a test version until Athom approves it.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
   "widgets.elements.cameraLive": {
     "en": "Live",
     "context": "Status pill on a camera tile: the picture is live video.",
@@ -232,8 +237,8 @@
     "file": "packages/ui/src/elements/messages.ts"
   },
   "widgets.elements.cameraRtsp": {
-    "en": "This camera’s live video (RTSP) can’t play in a browser · showing snapshots",
-    "context": "Small line over a camera tile’s picture when the camera only offers an RTSP stream, which browsers can’t play; the tile shows still pictures instead. Keep “RTSP” as is.",
+    "en": "The Homey didn’t pass on this camera’s live video (RTSP) · showing the snapshot",
+    "context": "Hover text of the small “i” on a camera tile when live video from an RTSP camera failed to start (the Homey refused it, or it showed no picture); the tile shows the camera’s still picture instead. A short reason may follow in brackets. Keep “RTSP” as is.",
     "file": "packages/ui/src/elements/messages.ts"
   },
   "widgets.elements.cameraSnapshot": {

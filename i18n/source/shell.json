@@ -462,6 +462,24 @@
     "maxLength": 10,
     "file": "apps/web/src/layout/layout.messages.ts"
   },
+  "shell.motionCap.keepFull": {
+    "en": "Keep full motion",
+    "context": "Button on the notice: undo the change and keep all animations on this device; the app will not turn motion down by itself again.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/screenMotionCap.messages.ts"
+  },
+  "shell.motionCap.text": {
+    "en": "It couldn’t keep up with all the movement, so it switched to Calm motion without glass blur.",
+    "context": "Text of the notice under its title. \"Calm\" is the name of the motion choice in the This device dialog (keep the same word as that choice). \"Glass blur\" is the frosted-glass effect behind tiles of some themes.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/screenMotionCap.messages.ts"
+  },
+  "shell.motionCap.title": {
+    "en": "This screen is now calmer",
+    "context": "Title of a small notice that appears by itself when the app found that this device (often an old tablet or a wall panel) could not keep up with all the animations, and so turned motion down to \"Calm\" on its own.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/screenMotionCap.messages.ts"
+  },
   "shell.names.account": {
     "en": "Account",
     "context": "The person’s account (their profile and plan, in Settings): a result in the \"Jump to\" search that opens Settings › Profile, and the name shown for a user whose own name is unknown.",
@@ -1630,9 +1648,15 @@
     "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
   },
   "shell.thisScreen.motionCalmHint": {
-    "en": "Things move straight into place; nothing loops.",
-    "context": "Explanation next to the motion choices when \"Calm\" is chosen: things go to their place directly, and nothing repeats.",
+    "en": "Things move straight into place; nothing loops or blurs.",
+    "context": "Explanation next to the motion choices when \"Calm\" is chosen: things go to their place directly, nothing repeats, and glass-like tiles are drawn without the blur behind them (which is heavy for slow tablets).",
     "maxLength": 70,
+    "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
+  },
+  "shell.thisScreen.motionCalmedItself": {
+    "en": "This device couldn’t keep up, so it shows Calm for now.",
+    "context": "Extra line under the motion choices when the app found this device too slow for all the animations and moved it to \"Calm\" by itself, while the saved choice is still \"Like the device\" or \"Full\". \"Calm\" is the name of one of the choices; keep the same word as that choice. A button \"Keep full motion\" follows it.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
   },
   "shell.thisScreen.motionFull": {
@@ -1666,8 +1690,8 @@
     "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
   },
   "shell.thisScreen.motionNoneHint": {
-    "en": "Nothing moves, like on e-ink. Kind to slow tablets.",
-    "context": "Explanation next to the motion choices when \"None\" is chosen: no movement at all, as suits e-ink screens (e-readers) and slow tablets.",
+    "en": "Nothing moves or blurs, like on e-ink. Kind to slow tablets.",
+    "context": "Explanation next to the motion choices when \"None\" is chosen: no movement at all and no blur behind glass-like tiles, as suits e-ink screens (e-readers) and slow tablets.",
     "maxLength": 70,
     "file": "packages/ui/src/screens/ThisScreenDialog.messages.ts"
   },
