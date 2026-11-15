@@ -7407,6 +7407,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/screenLayouts/screenSize.messages.ts"
   },
+  "editor.screenSize.rangeSquare": {
+    "en": "About as tall as wide",
+    "context": "Which screens show the Square size, in the bar over the canvas in edit mode: screens about as tall as they are wide (a square wall panel), whatever their width.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/screenLayouts/screenSize.messages.ts"
+  },
   "editor.screenSize.rangeTablet": {
     "en": "{from}–{to} px",
     "context": "Window widths that show the Tablet size, in the bar over the canvas in edit mode: from one width to another, both in pixels. px is the CSS pixel unit.",
@@ -7415,6 +7421,12 @@
       "to": "The widest width of the size, in pixels. A plain number, such as 1099."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/dashboard/screenLayouts/screenSize.messages.ts"
+  },
+  "editor.screenSize.square": {
+    "en": "Square",
+    "context": "Name of the screen size for square screens, such as a square wall panel: a screen about as tall as it is wide, at least 600 px on its short side. A name, shown on the size switch and the ruler and inserted into many sentences. Use the same word for it everywhere, as for Phone, Tablet and Desktop.",
+    "maxLength": 16,
     "file": "packages/ui/src/dashboard/screenLayouts/screenSize.messages.ts"
   },
   "editor.screenSize.statusArranged": {
