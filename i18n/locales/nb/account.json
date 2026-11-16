@@ -1200,8 +1200,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# tema} other {# temaer}}} presets {{count, plural, one {# stilmal} other {# stilmaler}}} widgets {{count, plural, one {# widget eller partial} other {# widgeter og partials}}} pictures {{count, plural, one {# bilde} other {# bilder}}} testDevices {{count, plural, one {# testenhet} other {# testenheter}}} floorPlans {{count, plural, one {# plantegning} other {# plantegninger}}} houses {{count, plural, one {# hus} other {# hus}}} other {{count, plural, one {# registrering} other {# registreringer}}}}",
-    "source": "f84821998a",
+    "text": "{key, select, themes {{count, plural, one {# tema} other {# temaer}}} presets {{count, plural, one {# stilmal} other {# stilmaler}}} widgets {{count, plural, one {# widget eller partial} other {# widgeter og partials}}} pictures {{count, plural, one {# bilde} other {# bilder}}} testDevices {{count, plural, one {# testenhet} other {# testenheter}}} floorPlans {{count, plural, one {# plantegning} other {# plantegninger}}} houses {{count, plural, one {# hus} other {# hus}}} dataFeeds {{count, plural, one {# datastrøm} other {# datastrømmer}}} other {{count, plural, one {# registrering} other {# registreringer}}}}",
+    "source": "95ed5f84eb",
     "by": "ai",
     "reviewed": false
   },
@@ -1472,6 +1472,468 @@
   "account.credits.weatherText": {
     "text": "Værdata fra Meteorologisk institutt (Locationforecast og Sunrise), lisensiert under Creative Commons Navngivelse 4.0.",
     "source": "b215b271b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.add": {
+    "text": "Ny datastrøm",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.appFirst": {
+    "text": "Den beste måten å hente inn dine egne data på er en Homey-app som lager en enhet for dem: måleverdiene registreres med historikk, kan brukes i Flow og vises på alle fliser. Bruk en datastrøm for data ingen app henter inn.",
+    "source": "bb7d462854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budget": {
+    "text": "Hentet {count} av {budget} ganger i dag. Datastrømmer hentes bare mens noe som viser dem, er åpent.",
+    "source": "d53ae30c7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budgetUsed": {
+    "text": "Dagens {budget} hentinger er brukt opp. Datastrømmer som hentes, hviler til midnatt (UTC); de som sendes, virker som før.",
+    "source": "e4c999f7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copied": {
+    "text": "Kopiert",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copy": {
+    "text": "Kopier",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.create": {
+    "text": "Lag datastrømmen",
+    "source": "b8a7fc1bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogAdd": {
+    "text": "Ny datastrøm",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogEdit": {
+    "text": "Rediger {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.done": {
+    "text": "Ferdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.edit": {
+    "text": "Rediger",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.empty": {
+    "text": "Ingen datastrømmer ennå. Lag en, og velg den i Data-innstillingen på en diagramflis.",
+    "source": "ff142ea275",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.every": {
+    "text": "Hent hver",
+    "source": "5b3dda6ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyDay": {
+    "text": "dag",
+    "source": "944c27e5b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyFree": {
+    "text": "Free henter høyst én gang i timen.",
+    "source": "7415db286d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyHours": {
+    "text": "{hours, plural, one {time} other {# timer}}",
+    "source": "c35a4272de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyMinutes": {
+    "text": "{minutes, plural, one {# min} other {# min}}",
+    "source": "510d98fafd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleCurl": {
+    "text": "curl",
+    "source": "427e4b79b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "text": "HomeyScript",
+    "source": "53ddfbad22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinux": {
+    "text": "CPU fra Linux",
+    "source": "898b647d18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "text": "Sender CPU-bruken til denne datamaskinen hvert 10. sekund. Veiledningen viser hvordan du holder det i gang.",
+    "source": "85175399ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.examples": {
+    "text": "Prøv det",
+    "source": "fe69511137",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.failing": {
+    "text": "Virker ikke siden {time}:",
+    "source": "ca53f59872",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.goPro": {
+    "text": "Se Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.header": {
+    "text": "Header (valgfri)",
+    "source": "2e8f881eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerKept": {
+    "text": "Headeren {name} beholdes og vises aldri. Skriv inn en ny verdi for å endre den.",
+    "source": "ceb3003db3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerName": {
+    "text": "Navn på header",
+    "source": "c1dcc8fb31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerValue": {
+    "text": "Verdi",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.how": {
+    "text": "Hvordan den kommer inn",
+    "source": "1e11562300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPull": {
+    "text": "Hentes av Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPush": {
+    "text": "Sendes til Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keptSince": {
+    "text": "Flisene viser fortsatt dataene som kom {ago}.",
+    "source": "6fa372ce3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyAbout": {
+    "text": "Avsendere legger den i en header: Authorization: Bearer eller X-Api-Key. Slå den bare av for en avsender som ikke kan sette headere.",
+    "source": "25d5fcd40c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyRequired": {
+    "text": "Krev også en API-nøkkel",
+    "source": "757932da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPull": {
+    "text": "Hentes fra {host} hver {every}",
+    "source": "8359fb0b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPush": {
+    "text": "Sendes til Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.lead": {
+    "text": "Tall fra utenfor Homey-en din til diagramfliser (målere, diagrammer og fordelinger): JSON som et skript eller en tjeneste sender til Tiledash, eller som Tiledash henter fra en nettadresse.",
+    "source": "314ef71fff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.limitFull": {
+    "text": "Free har én datastrøm, og den er i bruk. Pro har {max}, hentet så ofte som hvert 5. minutt, 500 ganger om dagen.",
+    "source": "86964ed568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.more": {
+    "text": "Mer for {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.name": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "text": "NAS-CPU",
+    "source": "ca295b5876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.never": {
+    "text": "Ingenting har kommet inn ennå",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newKey": {
+    "text": "Ny API-nøkkel",
+    "source": "e520a08228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newSecret": {
+    "text": "Ny adresse",
+    "source": "b71b5df47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.ok": {
+    "text": "Siste data {ago} · {size}",
+    "source": "e76bd3f3a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.paused": {
+    "text": "Satt på pause: Free har én datastrøm. Flisene viser ingenting før du går over til Pro eller sletter en annen.",
+    "source": "0b3aacaae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotFound": {
+    "text": "adressen svarte «ikke funnet».",
+    "source": "bb7c745bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotJson": {
+    "text": "det som kom inn, er ikke JSON.",
+    "source": "eb1906268f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "text": "den sendte oftere enn hvert 5. sekund.",
+    "source": "0f4e43998f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRefused": {
+    "text": "adressen avviste og ba om en nøkkel.",
+    "source": "1528638f64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTimeout": {
+    "text": "adressen brukte for lang tid på å svare.",
+    "source": "541666b991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTooBig": {
+    "text": "det som kom inn, er over 256 KB.",
+    "source": "96ec439c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "text": "adressen kan ikke nås.",
+    "source": "03bd35768b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pullIdle": {
+    "text": "Den hentes bare mens en side, lenke eller skjerm som viser den, er åpen, og høyst så ofte. Hver henting teller mot dagens {budget}.",
+    "source": "bc758af3fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pushAbout": {
+    "text": "Du får en hemmelig adresse. Et skript, en Homey Flow eller en tjeneste sender JSON dit, opptil én gang hvert 5. sekund og 256 KB om gangen, og flisene viser det med en gang.",
+    "source": "5f6527d263",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.remove": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.resting": {
+    "text": "Hviler til i morgen: dagens hentinger er brukt opp. Flisene beholder de siste dataene.",
+    "source": "157092f3c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.save": {
+    "text": "Lagre",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretKey": {
+    "text": "API-nøkkel",
+    "source": "16f0ee47f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretUrl": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsOnce": {
+    "text": "Kopier dem nå: de vises bare én gang. Mistet dem? Lag en ny adresse eller nøkkel fra menyen til datastrømmen.",
+    "source": "4f7109c85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsTitle": {
+    "text": "Send JSON hit",
+    "source": "1d39767160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.tiles": {
+    "text": "{count, plural, =0 {Ingen fliser} one {# flis} other {# fliser}}",
+    "source": "8388034f87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.url": {
+    "text": "Nettadresse",
+    "source": "45099c5588",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlKept": {
+    "text": "Adressen på {host} beholdes. Skriv inn en ny for å endre den.",
+    "source": "23506d583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlProblem": {
+    "text": "En https-adresse på internett, som https://api.example.org/now.json.",
+    "source": "f472789792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.withKey": {
+    "text": "Krever API-nøkkel",
+    "source": "553b9d1c90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.failed": {
+    "text": "Datastrømmen kunne ikke lagres. Prøv igjen.",
+    "source": "953ed77652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "text": "Datastrømmene kunne ikke lastes inn.",
+    "source": "f3dab931b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "text": "Lage en ny adresse for «{name}»?",
+    "source": "7f7eb319c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "text": "Lage en ny API-nøkkel for «{name}»?",
+    "source": "95e21733a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.remove": {
+    "text": "Slett",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeText": {
+    "text": "Adressen slutter å virke, og fliser som leser den, viser ingenting før du velger en annen kilde.",
+    "source": "57cc89fff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "text": "Slette «{name}»?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renew": {
+    "text": "Lag en ny",
+    "source": "82f142a5bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renewText": {
+    "text": "Den gamle slutter å virke med en gang: det som sender til denne strømmen, trenger den nye.",
+    "source": "02a56b9ab2",
     "by": "ai",
     "reviewed": false
   },
@@ -4745,6 +5207,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowDataFeeds": {
+    "text": "Datastrømmer",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDetailed": {
     "text": "Detaljert historikk",
     "source": "e76b1ee026",
@@ -5474,6 +5942,18 @@
   "account.settings.calendarsAbout": {
     "text": "Kalendere widgetene dine kan vise.",
     "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeeds": {
+    "text": "Datastrømmer",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeedsAbout": {
+    "text": "Tall fra skript og tjenester til diagrammene på {homey}.",
+    "source": "bf07f0e3bf",
     "by": "ai",
     "reviewed": false
   },

@@ -1200,8 +1200,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# tema} other {# teman}}} presets {{count, plural, one {# stilförinställning} other {# stilförinställningar}}} widgets {{count, plural, one {# widget eller partial} other {# widgetar och partials}}} pictures {{count, plural, one {# bild} other {# bilder}}} testDevices {{count, plural, one {# testenhet} other {# testenheter}}} floorPlans {{count, plural, one {# planritning} other {# planritningar}}} houses {{count, plural, one {# hus} other {# hus}}} other {{count, plural, one {# registrering} other {# registreringar}}}}",
-    "source": "f84821998a",
+    "text": "{key, select, themes {{count, plural, one {# tema} other {# teman}}} presets {{count, plural, one {# stilförinställning} other {# stilförinställningar}}} widgets {{count, plural, one {# widget eller partial} other {# widgetar och partials}}} pictures {{count, plural, one {# bild} other {# bilder}}} testDevices {{count, plural, one {# testenhet} other {# testenheter}}} floorPlans {{count, plural, one {# planritning} other {# planritningar}}} houses {{count, plural, one {# hus} other {# hus}}} dataFeeds {{count, plural, one {# dataflöde} other {# dataflöden}}} other {{count, plural, one {# registrering} other {# registreringar}}}}",
+    "source": "95ed5f84eb",
     "by": "ai",
     "reviewed": false
   },
@@ -1472,6 +1472,468 @@
   "account.credits.weatherText": {
     "text": "Väderdata från MET Norway (Locationforecast och Sunrise), licensierad under Creative Commons Attribution 4.0.",
     "source": "b215b271b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.add": {
+    "text": "Nytt dataflöde",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.appFirst": {
+    "text": "Det bästa sättet att få in egna data är en Homey-app som skapar en enhet för dem: dess mätvärden sparas med historik, fungerar i Flows och kan visas på vilken ruta som helst. Använd ett dataflöde för data som ingen app ger dig.",
+    "source": "bb7d462854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budget": {
+    "text": "Hämtat {count} av {budget} gånger i dag. Dataflöden hämtas bara medan något som visar dem är öppet.",
+    "source": "d53ae30c7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budgetUsed": {
+    "text": "Dagens {budget} hämtningar är förbrukade. Hämtade dataflöden vilar till midnatt (UTC); skickade dataflöden fortsätter att fungera.",
+    "source": "e4c999f7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.cancel": {
+    "text": "Avbryt",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copied": {
+    "text": "Kopierat",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copy": {
+    "text": "Kopiera",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.create": {
+    "text": "Skapa dataflödet",
+    "source": "b8a7fc1bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogAdd": {
+    "text": "Nytt dataflöde",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogEdit": {
+    "text": "Redigera {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.done": {
+    "text": "Klar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.edit": {
+    "text": "Redigera",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.empty": {
+    "text": "Inga dataflöden än. Skapa ett och välj det sedan i inställningen Data på en diagramruta.",
+    "source": "ff142ea275",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.every": {
+    "text": "Hämta var",
+    "source": "5b3dda6ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyDay": {
+    "text": "dag",
+    "source": "944c27e5b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyFree": {
+    "text": "Free hämtar högst en gång i timmen.",
+    "source": "7415db286d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyHours": {
+    "text": "{hours, plural, one {timme} other {# timmar}}",
+    "source": "c35a4272de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyMinutes": {
+    "text": "{minutes, plural, one {# min} other {# min}}",
+    "source": "510d98fafd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleCurl": {
+    "text": "curl",
+    "source": "427e4b79b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "text": "HomeyScript",
+    "source": "53ddfbad22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinux": {
+    "text": "CPU från Linux",
+    "source": "898b647d18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "text": "Skickar den här datorns CPU-användning var 10:e sekund. Guiden visar hur du håller det igång.",
+    "source": "85175399ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.examples": {
+    "text": "Prova",
+    "source": "fe69511137",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.failing": {
+    "text": "Fungerar inte sedan {time}:",
+    "source": "ca53f59872",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.goPro": {
+    "text": "Se Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.header": {
+    "text": "Header (valfri)",
+    "source": "2e8f881eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerKept": {
+    "text": "Dess header {name} sparas och visas aldrig. Skriv ett nytt värde för att ändra den.",
+    "source": "ceb3003db3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerName": {
+    "text": "Headerns namn",
+    "source": "c1dcc8fb31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerValue": {
+    "text": "Värde",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.how": {
+    "text": "Hur data kommer in",
+    "source": "1e11562300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPull": {
+    "text": "Hämtas av Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPush": {
+    "text": "Skickas till Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keptSince": {
+    "text": "Rutorna behåller dess data från {ago}.",
+    "source": "6fa372ce3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyAbout": {
+    "text": "Avsändare skickar den i headern Authorization: Bearer eller X-Api-Key. Stäng bara av det för en avsändare som inte kan sätta headers.",
+    "source": "25d5fcd40c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyRequired": {
+    "text": "Kräv även en API-nyckel",
+    "source": "757932da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPull": {
+    "text": "Hämtas från {host} var {every}",
+    "source": "8359fb0b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPush": {
+    "text": "Skickas till Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.lead": {
+    "text": "Siffror från utanför din Homey till diagramrutor (mätare, diagram och fördelningar): JSON som ett skript eller en tjänst skickar till Tiledash, eller som Tiledash hämtar från en webbadress.",
+    "source": "314ef71fff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.limitFull": {
+    "text": "Free har ett dataflöde, och det används redan. Pro har {max}, som hämtas så ofta som var 5:e minut, 500 gånger per dag.",
+    "source": "86964ed568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.more": {
+    "text": "Mer för {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.name": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "text": "NAS-CPU",
+    "source": "ca295b5876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.never": {
+    "text": "Inget har kommit in än",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newKey": {
+    "text": "Ny API-nyckel",
+    "source": "e520a08228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newSecret": {
+    "text": "Ny adress",
+    "source": "b71b5df47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.ok": {
+    "text": "Senaste data {ago} · {size}",
+    "source": "e76bd3f3a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.paused": {
+    "text": "Pausat: Free har ett dataflöde. Dess rutor visar inget förrän du går över till Pro eller tar bort ett annat.",
+    "source": "0b3aacaae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotFound": {
+    "text": "adressen svarade ”hittades inte”.",
+    "source": "bb7c745bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotJson": {
+    "text": "det som kom in är inte JSON.",
+    "source": "eb1906268f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "text": "det skickade oftare än var 5:e sekund.",
+    "source": "0f4e43998f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRefused": {
+    "text": "adressen nekade och bad om en nyckel.",
+    "source": "1528638f64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTimeout": {
+    "text": "adressen tog för lång tid att svara.",
+    "source": "541666b991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTooBig": {
+    "text": "det som kom in är över 256 KB.",
+    "source": "96ec439c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "text": "adressen går inte att nå.",
+    "source": "03bd35768b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pullIdle": {
+    "text": "Det hämtas bara medan en sida, länk eller skärm som visar det är öppen, högst så här ofta. Varje hämtning räknas in i dagens {budget}.",
+    "source": "bc758af3fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pushAbout": {
+    "text": "Du får en hemlig adress. Ett skript, ett Flow i Homey eller en tjänst skickar JSON till den, högst var 5:e sekund och 256 KB åt gången, och rutorna visar det direkt.",
+    "source": "5f6527d263",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.remove": {
+    "text": "Ta bort",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.resting": {
+    "text": "Vilar till i morgon: dagens hämtningar är förbrukade. Dess rutor behåller sina senaste data.",
+    "source": "157092f3c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.save": {
+    "text": "Spara",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretKey": {
+    "text": "API-nyckel",
+    "source": "16f0ee47f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretUrl": {
+    "text": "Adress",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsOnce": {
+    "text": "Kopiera dem nu: de visas bara en gång. Har du tappat bort dem? Skapa en ny adress eller nyckel i dataflödets meny.",
+    "source": "4f7109c85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsTitle": {
+    "text": "Skicka JSON hit",
+    "source": "1d39767160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.tiles": {
+    "text": "{count, plural, =0 {Inga rutor} one {# ruta} other {# rutor}}",
+    "source": "8388034f87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.url": {
+    "text": "Webbadress",
+    "source": "45099c5588",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlKept": {
+    "text": "Adressen på {host} sparas. Skriv en ny för att ändra den.",
+    "source": "23506d583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlProblem": {
+    "text": "En https-adress på internet, till exempel https://api.example.org/now.json.",
+    "source": "f472789792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.withKey": {
+    "text": "Kräver API-nyckel",
+    "source": "553b9d1c90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.failed": {
+    "text": "Dataflödet kunde inte sparas. Försök igen.",
+    "source": "953ed77652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "text": "Dataflödena kunde inte läsas in.",
+    "source": "f3dab931b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "text": "Skapa en ny adress för ”{name}”?",
+    "source": "7f7eb319c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "text": "Skapa en ny API-nyckel för ”{name}”?",
+    "source": "95e21733a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.remove": {
+    "text": "Ta bort",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeText": {
+    "text": "Adressen slutar fungera, och rutor som läser flödet visar ingenting tills du väljer en annan källa.",
+    "source": "57cc89fff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "text": "Ta bort ”{name}”?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renew": {
+    "text": "Skapa en ny",
+    "source": "82f142a5bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renewText": {
+    "text": "Den gamla slutar fungera direkt: det som skickar till det här flödet behöver den nya.",
+    "source": "02a56b9ab2",
     "by": "ai",
     "reviewed": false
   },
@@ -4745,6 +5207,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowDataFeeds": {
+    "text": "Dataflöden",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDetailed": {
     "text": "Detaljerad historik",
     "source": "e76b1ee026",
@@ -5474,6 +5942,18 @@
   "account.settings.calendarsAbout": {
     "text": "Kalendrar som dina widgetar kan visa.",
     "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeeds": {
+    "text": "Dataflöden",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeedsAbout": {
+    "text": "Siffror från skript och tjänster till diagrammen på {homey}.",
+    "source": "bf07f0e3bf",
     "by": "ai",
     "reviewed": false
   },

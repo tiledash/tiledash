@@ -1200,8 +1200,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} floorPlans {{count, plural, one {# plattegrond} other {# plattegronden}}} houses {{count, plural, one {# huis} other {# huizen}}} other {{count, plural, one {# vastgelegde meetwaarde} other {# vastgelegde meetwaarden}}}}",
-    "source": "f84821998a",
+    "text": "{key, select, themes {{count, plural, one {# thema} other {# thema’s}}} presets {{count, plural, one {# stijlpreset} other {# stijlpresets}}} widgets {{count, plural, one {# widget of partial} other {# widgets en partials}}} pictures {{count, plural, one {# afbeelding} other {# afbeeldingen}}} testDevices {{count, plural, one {# testapparaat} other {# testapparaten}}} floorPlans {{count, plural, one {# plattegrond} other {# plattegronden}}} houses {{count, plural, one {# huis} other {# huizen}}} dataFeeds {{count, plural, one {# datafeed} other {# datafeeds}}} other {{count, plural, one {# vastgelegde meetwaarde} other {# vastgelegde meetwaarden}}}}",
+    "source": "95ed5f84eb",
     "by": "ai",
     "reviewed": false
   },
@@ -1472,6 +1472,468 @@
   "account.credits.weatherText": {
     "text": "Weerdata van MET Norway (Locationforecast en Sunrise), onder de licentie Creative Commons Attribution 4.0.",
     "source": "b215b271b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.add": {
+    "text": "Nieuwe datafeed",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.appFirst": {
+    "text": "De beste manier om je eigen gegevens binnen te halen is een Homey-app die er een apparaat voor maakt: de meetwaarden worden met hun geschiedenis vastgelegd, werken in Flows en zijn op elke tegel te zien. Gebruik een datafeed voor gegevens die geen app levert.",
+    "source": "bb7d462854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budget": {
+    "text": "Vandaag {count} van {budget} keer opgehaald. Datafeeds worden alleen opgehaald zolang iets dat ze toont open is.",
+    "source": "d53ae30c7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budgetUsed": {
+    "text": "De {budget} ophaalbeurten van vandaag zijn op. Opgehaalde datafeeds rusten tot middernacht (UTC); gestuurde datafeeds blijven werken.",
+    "source": "e4c999f7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.cancel": {
+    "text": "Annuleren",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copied": {
+    "text": "Gekopieerd",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copy": {
+    "text": "Kopiëren",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.create": {
+    "text": "Datafeed maken",
+    "source": "b8a7fc1bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogAdd": {
+    "text": "Nieuwe datafeed",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogEdit": {
+    "text": "{name} bewerken",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.done": {
+    "text": "Klaar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.edit": {
+    "text": "Bewerken",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.empty": {
+    "text": "Nog geen datafeeds. Maak er een en kies hem bij de instelling Gegevens van een grafiektegel.",
+    "source": "ff142ea275",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.every": {
+    "text": "Ophalen",
+    "source": "5b3dda6ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyDay": {
+    "text": "elke dag",
+    "source": "944c27e5b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyFree": {
+    "text": "Free haalt hoogstens één keer per uur op.",
+    "source": "7415db286d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyHours": {
+    "text": "{hours, plural, one {elk uur} other {elke # uur}}",
+    "source": "c35a4272de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyMinutes": {
+    "text": "{minutes, plural, one {elke # min} other {elke # min}}",
+    "source": "510d98fafd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleCurl": {
+    "text": "curl",
+    "source": "427e4b79b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "text": "HomeyScript",
+    "source": "53ddfbad22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinux": {
+    "text": "CPU van Linux",
+    "source": "898b647d18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "text": "Stuurt elke 10 seconden het CPU-gebruik van deze computer. In de handleiding lees je hoe je het laat blijven draaien.",
+    "source": "85175399ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.examples": {
+    "text": "Probeer het",
+    "source": "fe69511137",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.failing": {
+    "text": "Werkt sinds {time} niet:",
+    "source": "ca53f59872",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.goPro": {
+    "text": "Bekijk Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.header": {
+    "text": "Header (optioneel)",
+    "source": "2e8f881eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerKept": {
+    "text": "De header {name} blijft bewaard en wordt nooit getoond. Typ een nieuwe waarde om hem te wijzigen.",
+    "source": "ceb3003db3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerName": {
+    "text": "Naam van de header",
+    "source": "c1dcc8fb31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerValue": {
+    "text": "Waarde",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.how": {
+    "text": "Hoe het binnenkomt",
+    "source": "1e11562300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPull": {
+    "text": "Opgehaald door Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPush": {
+    "text": "Naar Tiledash gestuurd",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keptSince": {
+    "text": "Tegels tonen nog de gegevens van {ago}.",
+    "source": "6fa372ce3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyAbout": {
+    "text": "Afzenders zetten hem in een header Authorization: Bearer of X-Api-Key. Zet dit alleen uit voor een afzender die geen headers kan instellen.",
+    "source": "25d5fcd40c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyRequired": {
+    "text": "Ook om een API-sleutel vragen",
+    "source": "757932da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPull": {
+    "text": "Opgehaald van {host}, {every}",
+    "source": "8359fb0b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPush": {
+    "text": "Naar Tiledash gestuurd",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.lead": {
+    "text": "Getallen van buiten je Homey voor grafiektegels (meters, grafieken en verdelingen): JSON die een script of dienst naar Tiledash stuurt, of die Tiledash van een webadres ophaalt.",
+    "source": "314ef71fff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.limitFull": {
+    "text": "Free heeft één datafeed, en die is in gebruik. Pro heeft er {max}, tot elke 5 minuten en 500 keer per dag opgehaald.",
+    "source": "86964ed568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.more": {
+    "text": "Meer voor {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.name": {
+    "text": "Naam",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "text": "NAS-CPU",
+    "source": "ca295b5876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.never": {
+    "text": "Er is nog niets binnengekomen",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newKey": {
+    "text": "Nieuwe API-sleutel",
+    "source": "e520a08228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newSecret": {
+    "text": "Nieuw adres",
+    "source": "b71b5df47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.ok": {
+    "text": "Laatste gegevens {ago} · {size}",
+    "source": "e76bd3f3a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.paused": {
+    "text": "Gepauzeerd: Free heeft één datafeed. De tegels tonen niets tot je overstapt op Pro of een andere verwijdert.",
+    "source": "0b3aacaae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotFound": {
+    "text": "het adres antwoordde “niet gevonden”.",
+    "source": "bb7c745bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotJson": {
+    "text": "wat binnenkwam is geen JSON.",
+    "source": "eb1906268f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "text": "er werd vaker dan eens per 5 seconden gestuurd.",
+    "source": "0f4e43998f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRefused": {
+    "text": "het adres weigerde en vroeg om een sleutel.",
+    "source": "1528638f64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTimeout": {
+    "text": "het adres deed er te lang over om te antwoorden.",
+    "source": "541666b991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTooBig": {
+    "text": "wat binnenkwam is groter dan 256 KB.",
+    "source": "96ec439c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "text": "het adres is niet bereikbaar.",
+    "source": "03bd35768b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pullIdle": {
+    "text": "Hij wordt alleen opgehaald zolang een pagina, link of scherm dat hem toont open is, en hoogstens zo vaak. Elke ophaalbeurt telt mee voor de {budget} van vandaag.",
+    "source": "bc758af3fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pushAbout": {
+    "text": "Je krijgt een geheim adres. Een script, een Flow in Homey of een dienst stuurt er JSON naartoe, tot eens per 5 seconden en 256 KB per keer, en tegels tonen het meteen.",
+    "source": "5f6527d263",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.remove": {
+    "text": "Verwijderen",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.resting": {
+    "text": "Rust tot morgen: de ophaalbeurten van vandaag zijn op. De tegels tonen hun laatste gegevens.",
+    "source": "157092f3c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.save": {
+    "text": "Opslaan",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretKey": {
+    "text": "API-sleutel",
+    "source": "16f0ee47f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretUrl": {
+    "text": "Adres",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsOnce": {
+    "text": "Kopieer ze nu: ze worden maar één keer getoond. Kwijt? Maak een nieuw adres of een nieuwe sleutel via het menu van de datafeed.",
+    "source": "4f7109c85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsTitle": {
+    "text": "Stuur JSON hierheen",
+    "source": "1d39767160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.tiles": {
+    "text": "{count, plural, =0 {Geen tegels} one {# tegel} other {# tegels}}",
+    "source": "8388034f87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.url": {
+    "text": "Webadres",
+    "source": "45099c5588",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlKept": {
+    "text": "Het adres op {host} blijft bewaard. Typ een nieuw adres om het te vervangen.",
+    "source": "23506d583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlProblem": {
+    "text": "Een https-adres op internet, zoals https://api.example.org/now.json.",
+    "source": "f472789792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.withKey": {
+    "text": "API-sleutel vereist",
+    "source": "553b9d1c90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.failed": {
+    "text": "De datafeed kon niet worden opgeslagen. Probeer het opnieuw.",
+    "source": "953ed77652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "text": "De datafeeds konden niet worden geladen.",
+    "source": "f3dab931b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "text": "Een nieuw adres maken voor “{name}”?",
+    "source": "7f7eb319c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "text": "Een nieuwe API-sleutel maken voor “{name}”?",
+    "source": "95e21733a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.remove": {
+    "text": "Verwijderen",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeText": {
+    "text": "Het adres werkt dan niet meer, en tegels die de feed lezen tonen niets tot je een andere bron kiest.",
+    "source": "57cc89fff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "text": "“{name}” verwijderen?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renew": {
+    "text": "Nieuwe maken",
+    "source": "82f142a5bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renewText": {
+    "text": "De oude werkt meteen niet meer: wat naar deze feed stuurt, heeft de nieuwe nodig.",
+    "source": "02a56b9ab2",
     "by": "ai",
     "reviewed": false
   },
@@ -4745,6 +5207,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowDataFeeds": {
+    "text": "Datafeeds",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDetailed": {
     "text": "Gedetailleerde geschiedenis",
     "source": "e76b1ee026",
@@ -5474,6 +5942,18 @@
   "account.settings.calendarsAbout": {
     "text": "Agenda’s die je widgets kunnen tonen.",
     "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeeds": {
+    "text": "Datafeeds",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeedsAbout": {
+    "text": "Getallen uit scripts en diensten voor de grafieken op {homey}.",
+    "source": "bf07f0e3bf",
     "by": "ai",
     "reviewed": false
   },

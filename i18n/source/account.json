@@ -1358,11 +1358,11 @@
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
   },
   "account.configImport.group": {
-    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} floorPlans {{count, plural, one {# floor plan} other {# floor plans}}} houses {{count, plural, one {# house} other {# houses}}} other {{count, plural, one {# recording} other {# recordings}}}}",
-    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; floor plans are drawings of the house, level by level; houses are pictures of the home with places marked on them, for the Energy house tile; recordings keep a reading’s history.",
+    "en": "{key, select, themes {{count, plural, one {# theme} other {# themes}}} presets {{count, plural, one {# style preset} other {# style presets}}} widgets {{count, plural, one {# widget or partial} other {# widgets and partials}}} pictures {{count, plural, one {# picture} other {# pictures}}} testDevices {{count, plural, one {# test device} other {# test devices}}} floorPlans {{count, plural, one {# floor plan} other {# floor plans}}} houses {{count, plural, one {# house} other {# houses}}} dataFeeds {{count, plural, one {# data feed} other {# data feeds}}} other {{count, plural, one {# recording} other {# recordings}}}}",
+    "context": "A part of the backup that can come along, with how many, such as \"3 themes\". Style presets are saved looks for tiles; partials are pieces of widget code; test devices are made-up devices for building widgets; floor plans are drawings of the house, level by level; houses are pictures of the home with places marked on them, for the Energy house tile; data feeds are JSON sent to or fetched by Tiledash for chart tiles; recordings keep a reading’s history.",
     "params": {
       "count": "How many.",
-      "key": "Which part: themes, presets, widgets, pictures, testDevices, floorPlans, houses or recordings."
+      "key": "Which part: themes, presets, widgets, pictures, testDevices, floorPlans, houses, dataFeeds or recordings."
     },
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/configImportViews.messages.ts"
@@ -1666,6 +1666,491 @@
     "context": "The credit MET Norway’s licence asks for. Locationforecast and Sunrise are the names of its services; keep them.",
     "maxLength": 150,
     "file": "packages/ui/src/screens/account/credits.messages.ts"
+  },
+  "account.dataFeeds.add": {
+    "en": "New data feed",
+    "context": "Button that adds a data feed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.appFirst": {
+    "en": "The best way to bring your own data in is a Homey app that makes a device for it: its readings are recorded with their history, work in flows and show on any tile. Use a data feed for data no app brings.",
+    "context": "A recommendation shown first in the Data feeds section: prefer a Homey app (which makes a device in Homey) over a data feed.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.budget": {
+    "en": "Fetched {count} of {budget} times today. Feeds are fetched only while something showing them is open.",
+    "context": "Under the Data feeds list: how many fetches of the day’s allowance were used. Shown when there are fetched feeds.",
+    "params": {
+      "budget": "Fetches a day, such as 500.",
+      "count": "Fetches used today."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.budgetUsed": {
+    "en": "Today’s {budget} fetches are used. Fetched feeds rest until midnight (UTC); sent feeds keep working.",
+    "context": "Under the Data feeds list when the day’s fetches are used up.",
+    "params": {
+      "budget": "Fetches a day, such as 500."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.cancel": {
+    "en": "Cancel",
+    "context": "Button that closes the data feed dialog without saving.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.copied": {
+    "en": "Copied",
+    "context": "Shown briefly after copying.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.copy": {
+    "en": "Copy",
+    "context": "Button that copies a value.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.create": {
+    "en": "Make the feed",
+    "context": "Button that makes the data feed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.dialogAdd": {
+    "en": "New data feed",
+    "context": "Title of the dialog that makes a data feed.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.dialogEdit": {
+    "en": "Edit {name}",
+    "context": "Title of the dialog that changes a data feed.",
+    "params": {
+      "name": "Its name."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.done": {
+    "en": "Done",
+    "context": "Button that closes the dialog after the secrets were shown.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.edit": {
+    "en": "Edit",
+    "context": "Menu item: change a data feed’s name or settings.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.empty": {
+    "en": "No data feeds yet. Make one, then pick it in a chart tile’s Data setting.",
+    "context": "Shown in the Data feeds section while there are none.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.every": {
+    "en": "Fetch every",
+    "context": "Label of how often a fetched data feed is read.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.everyDay": {
+    "en": "day",
+    "context": "An interval of one day, short.",
+    "maxLength": 12,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.everyFree": {
+    "en": "Free fetches at most once an hour.",
+    "context": "Under the interval on Free, where shorter ones are greyed out.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.everyHours": {
+    "en": "{hours, plural, one {hour} other {# hours}}",
+    "context": "An interval in hours, short: “hour” for one.",
+    "params": {
+      "hours": "How many."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.everyMinutes": {
+    "en": "{minutes, plural, one {# min} other {# min}}",
+    "context": "An interval in minutes, short.",
+    "params": {
+      "minutes": "How many."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.exampleCurl": {
+    "en": "curl",
+    "context": "Tab: an example with the curl command. Keep “curl”.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "en": "HomeyScript",
+    "context": "Tab: an example in HomeyScript. Keep “HomeyScript”.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.exampleLinux": {
+    "en": "CPU from Linux",
+    "context": "Tab: an example script that sends a Linux computer’s CPU use.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "en": "Sends this computer’s CPU use every 10 seconds. The guide shows how to keep it running.",
+    "context": "Under the Linux example.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.examples": {
+    "en": "Try it",
+    "context": "Heading over examples of sending JSON to the feed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.failing": {
+    "en": "Not working since {time}:",
+    "context": "Start of a failing data feed’s state; the reason follows.",
+    "params": {
+      "time": "When it started failing, such as “09:12” or “yesterday 16:00”."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.goPro": {
+    "en": "See Pro",
+    "context": "Link under the Free limit that opens the plans page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.header": {
+    "en": "Header (optional)",
+    "context": "Label of a header a fetched feed sends, such as an API key.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.headerKept": {
+    "en": "Its header {name} is kept, never shown. Type a new value to change it.",
+    "context": "Under the header fields when editing.",
+    "params": {
+      "name": "The header’s name."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.headerName": {
+    "en": "Header name",
+    "context": "Placeholder: a header’s name, such as Authorization.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.headerValue": {
+    "en": "Value",
+    "context": "Placeholder: a header’s value, such as the service’s API key.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.how": {
+    "en": "How it comes in",
+    "context": "Label of the choice between sent and fetched.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.howPull": {
+    "en": "Fetched by Tiledash",
+    "context": "Choice: Tiledash fetches the JSON from an address.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.howPush": {
+    "en": "Sent to Tiledash",
+    "context": "Choice: a script or service sends the JSON.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.keptSince": {
+    "en": "Tiles keep its data from {ago}.",
+    "context": "Under a failing data feed: its tiles still show the last data it brought.",
+    "params": {
+      "ago": "How long ago, already in words."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.keyAbout": {
+    "en": "Senders put it in an Authorization: Bearer or X-Api-Key header. Turn it off only for a sender that can’t set headers.",
+    "context": "Under that switch. Keep “Authorization: Bearer” and “X-Api-Key” as they are.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.keyRequired": {
+    "en": "Ask for an API key too",
+    "context": "Switch: a sender must also send the feed’s API key in a header. On by default.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.kindPull": {
+    "en": "Fetched from {host} every {every}",
+    "context": "Under a data feed’s name: Tiledash fetches its JSON from a web address.",
+    "params": {
+      "every": "How often, such as “15 min” or “hour”.",
+      "host": "The address’s host, such as api.example.org."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.kindPush": {
+    "en": "Sent to Tiledash",
+    "context": "Under a data feed’s name: a script or service sends its JSON to Tiledash.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.lead": {
+    "en": "Numbers from outside your Homey for chart tiles (gauges, charts and breakdowns): JSON a script or a service sends to Tiledash, or that Tiledash fetches from a web address.",
+    "context": "Introduction at the top of the Data feeds section of Settings. Keep “JSON” as is.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.limitFull": {
+    "en": "Free has one data feed, and it’s in use. Pro has {max}, fetched as often as every 5 minutes, 500 times a day.",
+    "context": "Under the Data feeds list on Free when its one feed is in use.",
+    "params": {
+      "max": "How many Pro has, such as 25."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.more": {
+    "en": "More for {name}",
+    "context": "Screen reader label of a data feed’s menu.",
+    "params": {
+      "name": "Its name."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.name": {
+    "en": "Name",
+    "context": "Label of a data feed’s name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "en": "NAS CPU",
+    "context": "Example name of a data feed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.never": {
+    "en": "Nothing has come in yet",
+    "context": "A data feed’s state: made, but no data yet.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.newKey": {
+    "en": "New API key",
+    "context": "Menu item: give a sent data feed a new API key; the old one stops working.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.newSecret": {
+    "en": "New address",
+    "context": "Menu item: give a sent data feed a new secret address; the old one stops working.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.ok": {
+    "en": "Last data {ago} · {size}",
+    "context": "A data feed’s state: when it last brought data and how much.",
+    "params": {
+      "ago": "How long ago, already in words, such as “2 min ago”.",
+      "size": "Its size, such as “1.2 KB”."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.paused": {
+    "en": "Paused: Free has one data feed. Its tiles show nothing until you go Pro or delete another.",
+    "context": "A data feed paused because the account is over the Free plan’s limit.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemNotFound": {
+    "en": "the address answered “not found”.",
+    "context": "Why a fetched data feed fails (404). Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemNotJson": {
+    "en": "what came in isn’t JSON.",
+    "context": "Why a data feed fails. Lower case, after a colon.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "en": "it sent more often than once every 5 seconds.",
+    "context": "Why a sent data feed was refused for a while. Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemRefused": {
+    "en": "the address refused, asking for a key.",
+    "context": "Why a fetched data feed fails (401 or 403). Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemTimeout": {
+    "en": "the address took too long to answer.",
+    "context": "Why a fetched data feed fails. Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemTooBig": {
+    "en": "what came in is over 256 KB.",
+    "context": "Why a data feed fails. Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "en": "the address can’t be reached.",
+    "context": "Why a fetched data feed fails. Lower case.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.pullIdle": {
+    "en": "It is fetched only while a page, link or screen showing it is open, at most this often. Each fetch counts toward the day’s {budget}.",
+    "context": "Note under a fetched data feed’s settings.",
+    "params": {
+      "budget": "Fetches a day, such as 500."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.pushAbout": {
+    "en": "You get a secret address. A script, a Homey flow or a service sends JSON to it, up to once every 5 seconds and 256 KB at a time, and tiles show it at once.",
+    "context": "Explains a sent data feed in the dialog.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.remove": {
+    "en": "Delete",
+    "context": "Menu item: delete a data feed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.resting": {
+    "en": "Resting until tomorrow: today’s fetches are used. Its tiles keep their last data.",
+    "context": "A fetched data feed while the account has used all its fetches for today.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.save": {
+    "en": "Save",
+    "context": "Button that saves the changes to a data feed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.secretKey": {
+    "en": "API key",
+    "context": "Label of the feed’s API key.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.secretUrl": {
+    "en": "Address",
+    "context": "Label of the secret address to send JSON to.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.secretsOnce": {
+    "en": "Copy them now: they are shown only once. Lost them? Make a new address or key from the feed’s menu.",
+    "context": "Warning under a new feed’s address and key.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.secretsTitle": {
+    "en": "Send JSON here",
+    "context": "Heading over a new feed’s address and key.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.tiles": {
+    "en": "{count, plural, =0 {No tiles} one {# tile} other {# tiles}}",
+    "context": "How many tiles read a data feed.",
+    "params": {
+      "count": "How many."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.url": {
+    "en": "Web address",
+    "context": "Label of the address a fetched data feed reads.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.urlKept": {
+    "en": "The address on {host} is kept. Type a new one to change it.",
+    "context": "Under the address field when editing: the old address isn’t shown.",
+    "params": {
+      "host": "Its host."
+    },
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.urlProblem": {
+    "en": "An https address on the internet, such as https://api.example.org/now.json.",
+    "context": "Shown when the typed address isn’t a public https address.",
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeeds.withKey": {
+    "en": "API key asked",
+    "context": "Under a sent data feed’s name: senders must send its API key.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dataFeeds/dataFeeds.messages.ts"
+  },
+  "account.dataFeedsHost.failed": {
+    "en": "The data feed couldn’t be saved. Try again.",
+    "context": "Toast when making or changing a data feed (JSON sent to Tiledash for chart tiles) failed.",
+    "maxLength": 80,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "en": "The data feeds couldn’t be loaded.",
+    "context": "Toast when the list of data feeds (JSON sent to Tiledash for chart tiles) couldn’t be read.",
+    "maxLength": 80,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "en": "Make a new address for “{name}”?",
+    "context": "Title of the question before replacing a data feed’s secret address (where scripts send JSON) with a new one.",
+    "params": {
+      "name": "The data feed’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "en": "Make a new API key for “{name}”?",
+    "context": "Title of the question before replacing a data feed’s API key with a new one.",
+    "params": {
+      "name": "The data feed’s name. Not translated."
+    },
+    "maxLength": 70,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.remove": {
+    "en": "Delete",
+    "context": "Button that confirms deleting a data feed.",
+    "maxLength": 20,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.removeText": {
+    "en": "Its address stops working, and tiles that read it show nothing until you pick another source.",
+    "context": "Text of the question before deleting a data feed.",
+    "maxLength": 140,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "en": "Delete “{name}”?",
+    "context": "Title of the question before deleting a data feed (JSON sent to Tiledash for chart tiles).",
+    "params": {
+      "name": "The data feed’s name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.renew": {
+    "en": "Make a new one",
+    "context": "Button that confirms replacing a data feed’s address or API key.",
+    "maxLength": 24,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
+  },
+  "account.dataFeedsHost.renewText": {
+    "en": "The old one stops working at once: whatever sends to this feed needs the new one.",
+    "context": "Text of the question before replacing a data feed’s secret address or API key: senders must be updated.",
+    "maxLength": 120,
+    "file": "apps/web/src/dataFeeds/DataFeedDialogHost.messages.ts"
   },
   "account.delete.confirm": {
     "en": "Delete my account",
@@ -5462,6 +5947,12 @@
     "maxLength": 40,
     "file": "packages/ui/src/screens/account/accountViews.messages.ts"
   },
+  "account.plans.rowDataFeeds": {
+    "en": "Data feeds",
+    "context": "Row of the plans table: how many data feeds (JSON sent to or fetched by Tiledash for chart tiles) the plan allows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/account/accountViews.messages.ts"
+  },
   "account.plans.rowDetailed": {
     "en": "Detailed history",
     "context": "Row of the plans table: how long every recorded value is kept, before it is thinned to hourly.",
@@ -6275,6 +6766,21 @@
     "en": "Calendars your widgets can show.",
     "context": "Line under the heading of the Calendars settings group.",
     "maxLength": 100,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.dataFeeds": {
+    "en": "Data feeds",
+    "context": "Name of the settings group where data feeds are listed: JSON that scripts or services send to Tiledash, for chart tiles (gauges, charts, breakdowns). A menu item of the Settings page and its heading.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
+  },
+  "account.settings.dataFeedsAbout": {
+    "en": "Numbers from scripts and services for the charts on {homey}.",
+    "context": "Line under the heading of the Data feeds settings group. {homey} is the name of the Homey shown now.",
+    "params": {
+      "homey": "The name the owner gave their Homey, like \"Pastorie\". Not translated."
+    },
+    "maxLength": 110,
     "file": "packages/ui/src/screens/settings/SettingsScreen.messages.ts"
   },
   "account.settings.description": {

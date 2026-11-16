@@ -197,6 +197,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.arrangeSize.cancel": {
+    "text": "Pas maintenant",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.description": {
+    "text": "{size} suit maintenant {desktop} : il affiche {kind, select, phone {les tuiles de {desktop} dans l’ordre de la page} other {la disposition {desktop}}}, et seul {desktop} les déplace. Pour déplacer des tuiles ici, {size} reçoit sa propre disposition, qui part de l’affichage actuel. {desktop} ne change pas, et Suivre de nouveau {desktop} l’annule.",
+    "source": "ac243cf8b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.title": {
+    "text": "Donner à {size} sa propre disposition ?",
+    "source": "acc08590fb",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.borderSides.allSides": {
     "text": "Tous les côtés",
     "source": "f174b9ece0",
@@ -1895,6 +1913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboard.moveDown": {
+    "text": "Descendre",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboard.moveUp": {
+    "text": "Monter",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboard.newStack": {
     "text": "Nouvelle pile",
     "source": "c300ef7aff",
@@ -2777,6 +2807,264 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dataSource.addValue": {
+    "text": "Ajouter une valeur",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feed": {
+    "text": "Flux de données",
+    "source": "396c3cb18f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedFailing": {
+    "text": "Ne fonctionne pas : {reason}",
+    "source": "02e68154c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedLimit": {
+    "text": "Un compte Free a un seul flux de données, et il est déjà utilisé. Pro en a {max}.",
+    "source": "a6d01626e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedNever": {
+    "text": "Rien n’est encore arrivé",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPull": {
+    "text": "Récupéré par Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPush": {
+    "text": "Envoyé à Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedUpdated": {
+    "text": "Dernières données {ago}",
+    "source": "60e976d782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.find": {
+    "text": "Trouver les nombres",
+    "source": "bb7b0631c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundItems": {
+    "text": "{count, plural, one {# élément trouvé} many {# d’éléments trouvés} other {# éléments trouvés}}",
+    "source": "f25b15bf3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundMore": {
+    "text": "et {count} de plus",
+    "source": "1a2612705d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundValue": {
+    "text": "Valeur trouvée : {value}",
+    "source": "15df7522c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.from": {
+    "text": "Source",
+    "source": "2181976934",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromFeed": {
+    "text": "Flux",
+    "source": "43a97d8e51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromHomey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromJson": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromVariable": {
+    "text": "Variable",
+    "source": "e57e998726",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintDismiss": {
+    "text": "Compris",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintText": {
+    "text": "« Trouver les nombres » parcourt le JSON et indique où sont la liste, les noms, les heures et les nombres. Modifiez un chemin s’il s’est trompé ; l’aperçu montre ce qu’il trouve.",
+    "source": "ac15cb45a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintTitle": {
+    "text": "Il trouve les nombres pour vous",
+    "source": "9aebe74d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.itemName": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.json": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.newFeed": {
+    "text": "Nouveau flux de données…",
+    "source": "c0ab61498c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noData": {
+    "text": "Rien à lire pour l’instant",
+    "source": "7ba6d7fe18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noTextVariables": {
+    "text": "Ce Homey n’a pas de variable texte. Créez-en une dans Logic sur Homey et faites-la remplir par un Flow.",
+    "source": "d5e5f1cd94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.notJson": {
+    "text": "Ce n’est pas du JSON. Vérifiez qu’il ne manque pas un guillemet, une virgule ou un crochet.",
+    "source": "fd148c41d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.nothingFound": {
+    "text": "Aucun nombre là où pointent les chemins. Essayez « Trouver les nombres ».",
+    "source": "8c04121a43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.numbers": {
+    "text": "Les nombres",
+    "source": "2d915f82c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathHelp": {
+    "text": "Des chemins comme $.data.rooms, ou dans chaque élément comme kwh. ~ est la clé d’un élément.",
+    "source": "dc88970e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathItems": {
+    "text": "Liste",
+    "source": "6f202f54a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathLabel": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathTime": {
+    "text": "Heure",
+    "source": "33b93476cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathValue": {
+    "text": "Nombre",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickFeed": {
+    "text": "Choisir un flux de données",
+    "source": "28eb541b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickVariable": {
+    "text": "Choisir une variable texte",
+    "source": "b4bc94536e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewName": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewNumber": {
+    "text": "Nombre",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.range": {
+    "text": "Période",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.readings": {
+    "text": "Mesures",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.removeValue": {
+    "text": "Retirer {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.tooBig": {
+    "text": "C’est plus que ce qu’un graphique peut lire (256 Ko, 32 niveaux d’imbrication).",
+    "source": "25aa80d864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.value": {
+    "text": "Valeur",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.variable": {
+    "text": "Variable texte",
+    "source": "00cddcb3e4",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.decimalsPicker.auto": {
     "text": "Auto",
     "source": "0286249762",
@@ -3252,8 +3540,8 @@
     "reviewed": false
   },
   "editor.everySize.detail": {
-    "text": "{phone}, {tablet} et {desktop} affichent la même tuile ; seule sa place peut changer.",
-    "source": "3cb4f7053e",
+    "text": "{sizes} affichent la même tuile ; seule sa place peut changer.",
+    "source": "d427e71898",
     "by": "ai",
     "reviewed": false
   },
@@ -3918,8 +4206,8 @@
     "reviewed": false
   },
   "editor.hiddenTray.noteEmpty": {
-    "text": "Rien n’est masqué. Le menu d’une tuile propose <em>Masquer sur {size}</em> pour ce qui ne vous sert pas sur {device, select, phone {un téléphone} tablet {une tablette} other {un grand écran}} ; la tuile reste sur les autres tailles.",
-    "source": "fa5bbf620d",
+    "text": "Rien n’est masqué. Le menu d’une tuile propose <em>Masquer sur {size}</em> pour ce qui ne vous sert pas sur {device, select, phone {un téléphone} tablet {une tablette} square {un écran carré} other {un grand écran}} ; la tuile reste sur les autres tailles.",
+    "source": "4a6e75bae3",
     "by": "ai",
     "reviewed": false
   },
@@ -6863,6 +7151,672 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.setup.addTab": {
+    "text": "Ajouter un onglet",
+    "source": "0b8333b050",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeAttention": {
+    "text": "Un point en cas d’alerte",
+    "source": "37ed775cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeLights": {
+    "text": "Le nombre de lumières allumées",
+    "source": "593edff63a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeNone": {
+    "text": "Rien",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeOpenings": {
+    "text": "Un point si une porte ou fenêtre est ouverte",
+    "source": "a42a535738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byKind": {
+    "text": "Un onglet par type",
+    "source": "0530f672a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byOwn": {
+    "text": "Sur mesure",
+    "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byQuestion": {
+    "text": "Quels onglets",
+    "source": "46f3029eee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byRoom": {
+    "text": "Un onglet par pièce",
+    "source": "bbbded6d26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.changeTab": {
+    "text": "Modifier {name}",
+    "source": "0363a16787",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLayout": {
+    "text": "Les onglets mettent chaque partie de votre maison à portée de doigt. Une page affiche tout en défilant.",
+    "source": "f651266b2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLook": {
+    "text": "Comment les tuiles sont regroupées. × retire une tuile.",
+    "source": "9cf6ece6a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descMatters": {
+    "text": "Cochez les pièces, puis les types d’éléments qui comptent. Ce qui est en favori dans Homey est déjà coché.",
+    "source": "69d95a1c00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descScreen": {
+    "text": "Où le regarderez-vous le plus ? Nous l’adaptons à cet écran ; les autres suivent.",
+    "source": "e659d4a734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descSummaries": {
+    "text": "Ce que chaque onglet résume en haut de sa page, et ce qu’affiche son onglet, pour voir ce qui se passe sans l’ouvrir.",
+    "source": "ad9737b7e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descTabs": {
+    "text": "Chaque onglet est une page à part. Modifiez son contenu ou ajoutez votre propre onglet.",
+    "source": "7790a8268c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descVibe": {
+    "text": "Choisissez un style, puis ajustez le thème et ce qui s’affiche derrière vos tuiles.",
+    "source": "c7ea5243f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDescription": {
+    "text": "Ce qui s’affiche sur cet onglet. Pièces et types le remplissent ; cochez des éléments à ajouter ou retirer.",
+    "source": "9cd42b62d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDone": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorIcon": {
+    "text": "Icône",
+    "source": "a35abcd6da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorName": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorOneByOne": {
+    "text": "Un par un",
+    "source": "3b63fc613b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorTitle": {
+    "text": "Onglet « {name} »",
+    "source": "09bcb3d18e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupAppliance": {
+    "text": "Électroménager",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupClimate": {
+    "text": "Chauffage",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupCover": {
+    "text": "Stores et rideaux",
+    "source": "cfb5ec429c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLight": {
+    "text": "Lumières",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLock": {
+    "text": "Serrures",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupPlug": {
+    "text": "Prises",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupSensor": {
+    "text": "Capteurs",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPage": {
+    "text": "Une page",
+    "source": "e18eba637e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPageLine": {
+    "text": "Tout sur une page qui défile, avec un titre par pièce.",
+    "source": "a42009c12f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutQuestion": {
+    "text": "Onglets ou une page",
+    "source": "09e161268b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabs": {
+    "text": "Onglets",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabsLine": {
+    "text": "Un onglet par partie de votre maison. Beaucoup tient sans défiler.",
+    "source": "38ab183d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.maxTabs": {
+    "text": "Un tableau de bord compte douze onglets au plus.",
+    "source": "aa90fe47af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveDown": {
+    "text": "Descendre {name}",
+    "source": "1e94688825",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveUp": {
+    "text": "Monter {name}",
+    "source": "d1332175b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nameLabel": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.newTabName": {
+    "text": "Nouvel onglet",
+    "source": "1e08fda9c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nothingOnTab": {
+    "text": "Rien sur cet onglet pour l’instant",
+    "source": "0dc33c343f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTab": {
+    "text": "Sur l’onglet",
+    "source": "6025d2eb0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTabLabel": {
+    "text": "Sur l’onglet {tab}",
+    "source": "b2e07f6105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.pageTooFullText": {
+    "text": "{count} tuiles. Avec des onglets, tout tiendrait sans défiler.",
+    "source": "69403a1b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.previewLabel": {
+    "text": "Aperçu de votre tableau de bord",
+    "source": "100ba3b8d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.recommended": {
+    "text": "Recommandé",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeHintTabs": {
+    "text": "Touchez × pour retirer une tuile, un onglet pour l’afficher.",
+    "source": "089f3c8b6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeTab": {
+    "text": "Retirer {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktop": {
+    "text": "Un ordinateur",
+    "source": "ee65ffb54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktopLine": {
+    "text": "Onglets en haut, plus de place sur un écran",
+    "source": "8e941c1cfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhone": {
+    "text": "Mon téléphone",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhoneLine": {
+    "text": "Onglets en haut, tuiles sur deux colonnes",
+    "source": "8dc932fbc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenQuestion": {
+    "text": "Votre écran",
+    "source": "5701154928",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWall": {
+    "text": "Une tablette au mur",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWallLine": {
+    "text": "Onglets sur le côté, grandes tuiles lisibles de loin",
+    "source": "067ef89081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.splitTab": {
+    "text": "Diviser en deux",
+    "source": "9b3fa9daf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startDescription": {
+    "text": "Quelques questions et nous créons tout : des onglets pour chaque partie de votre maison, des résumés et un style qui vous plaît.",
+    "source": "b59539875a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startName": {
+    "text": "Configurer ma maison",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepLayout": {
+    "text": "Onglets",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepMatters": {
+    "text": "Ce qui compte",
+    "source": "abfedb34c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepScreen": {
+    "text": "Écran",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepSummaries": {
+    "text": "Résumés",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepTabs": {
+    "text": "Vos onglets",
+    "source": "d2f3941e3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepVibe": {
+    "text": "Votre style",
+    "source": "513df6b31f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesNone": {
+    "text": "Rien à résumer ici.",
+    "source": "7056806024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesOn": {
+    "text": "Résumés de l’onglet {tab}",
+    "source": "c6790afc16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitch": {
+    "text": "Résumés sur chaque titre",
+    "source": "972548d460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchPage": {
+    "text": "lumières allumées, température, puissance",
+    "source": "d1ee7636f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchTabs": {
+    "text": "par pièce dans un onglet ; ceux de l’onglet en haut",
+    "source": "d22448810d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabAppliance": {
+    "text": "Électroménager",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabClimate": {
+    "text": "Climat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCount": {
+    "text": "{count, plural, one {# onglet} other {# onglets}}",
+    "source": "398b9aa650",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCover": {
+    "text": "Stores",
+    "source": "043aba8af9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabEmpty": {
+    "text": "vide, il ne sera pas créé",
+    "source": "bcfe8d2b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabHome": {
+    "text": "résumés, ambiances et Flows",
+    "source": "452102f301",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLight": {
+    "text": "Lumières",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLock": {
+    "text": "Sécurité",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabPlug": {
+    "text": "Prises",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabSensor": {
+    "text": "Capteurs",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTiles": {
+    "text": "{count, plural, one {# tuile} other {# tuiles}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTooFull": {
+    "text": "trop plein",
+    "source": "59f0c598ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserTitle": {
+    "text": "Choisir un thème",
+    "source": "17d0232f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserUse": {
+    "text": "Utiliser ce thème",
+    "source": "9e11707ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeDefaultName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleFirst": {
+    "text": "Configurons votre maison",
+    "source": "9279611c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleSetup": {
+    "text": "Configurer ma maison",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullText": {
+    "text": "{count} tuiles, c’est trop pour un seul onglet. Divisez-le en deux ou retirez des éléments.",
+    "source": "dc61858784",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullTitle": {
+    "text": "« {name} » est trop plein pour un onglet",
+    "source": "d595e0a9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.useTabs": {
+    "text": "En onglets",
+    "source": "0e9ce8352f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeAllThemes": {
+    "text": "Tous les thèmes…",
+    "source": "d3a06990e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeBehind": {
+    "text": "Derrière les tuiles",
+    "source": "1062d6062d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightLine": {
+    "text": "Clair, aéré, lisible en plein soleil",
+    "source": "fa5c4407b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightName": {
+    "text": "Clair et serein",
+    "source": "c8bfa8e412",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningLine": {
+    "text": "Tons de braise sur un ciel crépusculaire",
+    "source": "eeb355ff16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningName": {
+    "text": "Soirée douillette",
+    "source": "a950976693",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassLine": {
+    "text": "Tuiles dépolies sur des vagues lentes",
+    "source": "2a056aed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassName": {
+    "text": "Verre sur la mer",
+    "source": "80e8440631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightLine": {
+    "text": "Sombre et tamisé, soie mouvante derrière",
+    "source": "5ad898eabf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightName": {
+    "text": "Écran mural de nuit",
+    "source": "e4bbe57761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperLine": {
+    "text": "Encre sur papier, pour e-ink et murs calmes",
+    "source": "cde489cd56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperName": {
+    "text": "Papier tranquille",
+    "source": "244fc169e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTheme": {
+    "text": "Thème",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashLine": {
+    "text": "Le nôtre : orange et glace sur noir",
+    "source": "2746540095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibesLabel": {
+    "text": "Un style pour commencer",
+    "source": "531c60f77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFavourites": {
+    "text": "Favoris",
+    "source": "7a1f2a83ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordHome": {
+    "text": "Maison",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordLights": {
+    "text": "Lumières",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordMoods": {
+    "text": "Ambiances",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Ajouter",
     "source": "9fd728c66c",
@@ -7241,6 +8195,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.sizeScope.followsSquare": {
+    "text": "Affiche la disposition de {desktop} sur un écran carré, avec des rangées adaptées. Personnalisez-la pour déplacer et redimensionner des tuiles pour les écrans carrés seulement.",
+    "source": "d42cd5d0f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.sizeScope.followsTablet": {
     "text": "Affiche la disposition {desktop} à la largeur d’une tablette. Personnalisez cette taille pour déplacer et redimensionner les tuiles sur tablette uniquement.",
     "source": "4f6aecce7e",
@@ -7266,8 +8226,8 @@
     "reviewed": false
   },
   "editor.sizeScopeBar.arrange": {
-    "text": "Personnaliser pour {size, select, phone {téléphone} tablet {tablette} other {ordinateur}}",
-    "source": "877ba2a462",
+    "text": "Personnaliser pour {size, select, phone {téléphone} tablet {tablette} square {écran carré} other {ordinateur}}",
+    "source": "a237d0bceb",
     "by": "ai",
     "reviewed": false
   },
@@ -8258,6 +9218,30 @@
   "editor.styleVariables.title": {
     "text": "Variables de style",
     "source": "de29a83af1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.count": {
+    "text": "{count, plural, =0 {Aucun résumé pour l’instant} one {# résumé} many {# résumés} other {# résumés}}",
+    "source": "b4fade8b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.edit": {
+    "text": "Modifier…",
+    "source": "2b8a1a002b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.elsewhere": {
+    "text": "Configurez-les sur le tableau de bord.",
+    "source": "3930a6189b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.hint": {
+    "text": "Infos en direct comme « 3 lumières allumées », un total, une température ou une valeur Homey, et leurs appuis.",
+    "source": "b147a6331e",
     "by": "ai",
     "reviewed": false
   },

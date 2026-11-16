@@ -477,6 +477,32 @@
     },
     "file": "packages/ui/src/elements/messages.ts"
   },
+  "widgets.elements.graphNoData": {
+    "en": "No data yet",
+    "context": "Centred on a chart tile (gauge, pie, chart) whose data source has sent nothing yet, or has none picked.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
+  "widgets.elements.graphNotJson": {
+    "en": "This isn’t JSON",
+    "context": "Centred on a chart tile whose data (typed in, from a variable or from a web address) can’t be read as JSON. Keep “JSON” as is.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
+  "widgets.elements.graphNothingFound": {
+    "en": "No numbers found",
+    "context": "Centred on a chart tile when its data holds no numbers where it was told to look.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
+  "widgets.elements.graphOther": {
+    "en": "Other",
+    "context": "Name of the one slice of a pie chart (or bar of a bar list) that adds up all the smaller items.",
+    "maxLength": 16,
+    "file": "packages/ui/src/elements/messages.ts"
+  },
+  "widgets.elements.graphTooBig": {
+    "en": "Too much data to draw",
+    "context": "Centred on a chart tile whose data is larger or more deeply nested than it reads.",
+    "file": "packages/ui/src/elements/messages.ts"
+  },
   "widgets.elements.green": {
     "en": "green",
     "context": "A colour said in words by a screen reader, in lower case.",
@@ -1779,6 +1805,310 @@
     "context": "Label on an energy tile: yesterday’s use.",
     "maxLength": 16,
     "file": "packages/widgets/src/energy/energy.messages.ts"
+  },
+  "widgets.header.aboveText": {
+    "en": "Your line above",
+    "context": "Label of a setting of the \"Header\" widget: the small line over the title, typed yourself.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.aboveTextPlaceholder": {
+    "en": "Downstairs",
+    "context": "Example in the empty \"Your line above\" field of the \"Header\" widget.",
+    "maxLength": 80,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.alignment": {
+    "en": "Alignment",
+    "context": "Label of a setting of the \"Header\" widget: left, centre or right.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.asTall": {
+    "en": "As tall as the tile",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.atTop": {
+    "en": "Flush at the top",
+    "context": "A choice of the \"Where\" setting of the \"Header\" widget: docked at the top, staying put while the tiles scroll.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.beside": {
+    "en": "Beside the title",
+    "context": "A choice of the \"Summaries sit\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.bold": {
+    "en": "Bold",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.capitals": {
+    "en": "In capitals",
+    "context": "Label of a yes/no setting of the \"Header\" widget: the title in capital letters.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.centre": {
+    "en": "Centre",
+    "context": "A choice of the \"Alignment\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.colour": {
+    "en": "Colour",
+    "context": "Label of a setting of the \"Header\" widget: the title’s colour.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.colourHelp": {
+    "en": "Left empty, the title takes the theme’s text colour.",
+    "context": "Help under the \"Colour\" setting of the \"Header\" widget.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.dashboardName": {
+    "en": "The dashboard’s name",
+    "context": "A choice of the \"Title\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.dashboards": {
+    "en": "The dashboard’s",
+    "context": "A choice of the \"Line above\" setting of the \"Header\" widget: the line the dashboard’s title always had.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.description": {
+    "en": "The dashboard’s title and summaries, or a title of your own, in the font, size and place you choose.",
+    "context": "Description of the \"Header\" widget, in the widget picker.",
+    "maxLength": 240,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.font": {
+    "en": "Font",
+    "context": "Label of a setting of the \"Header\" widget.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.fontName": {
+    "en": "{font}",
+    "context": "A font’s name, a choice of the \"Font\" setting of the \"Header\" widget: keep it as it is ({font} is the name).",
+    "params": {
+      "font": "A font’s name, such as Unbounded. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.header": {
+    "en": "Header",
+    "context": "Name of a built-in widget that shows a dashboard’s title and summaries, in the widget picker.",
+    "maxLength": 60,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.heading": {
+    "en": "Heading",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.heavy": {
+    "en": "Heavy",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget: the boldest.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.huge": {
+    "en": "Huge",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.large": {
+    "en": "Large",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.left": {
+    "en": "Left",
+    "context": "A choice of the \"Alignment\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.light": {
+    "en": "Light",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget: thin letters.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.likeTheme": {
+    "en": "Like the theme",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.likeTitle": {
+    "en": "Like a dashboard’s title",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget: as big as a dashboard’s title always was.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.lineAbove": {
+    "en": "Line above",
+    "context": "Label of a setting of the \"Header\" widget: a small line of text over the title.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.lineAboveHelp": {
+    "en": "The dashboard’s is its Homey and how many tiles it has.",
+    "context": "Help under the \"Line above\" setting of the \"Header\" widget.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.lineBelow": {
+    "en": "Line below",
+    "context": "Label of a setting of the \"Header\" widget: a line of text under the title.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.lineBelowPlaceholder": {
+    "en": "Good evening",
+    "context": "Example in the empty \"Line below\" field of the \"Header\" widget.",
+    "maxLength": 80,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.medium": {
+    "en": "Medium",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.none": {
+    "en": "None",
+    "context": "A choice of the \"Line above\" setting of the \"Header\" widget: no line.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.onGrid": {
+    "en": "On the grid",
+    "context": "A choice of the \"Where\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.regular": {
+    "en": "Regular",
+    "context": "A choice of the \"Weight\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.right": {
+    "en": "Right",
+    "context": "A choice of the \"Alignment\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.size": {
+    "en": "Size",
+    "context": "Label of a setting of the \"Header\" widget: how big the title is.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.smallHeading": {
+    "en": "Small heading",
+    "context": "A choice of the \"Size\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.summaries": {
+    "en": "Summaries",
+    "context": "Label of a setting of the \"Header\" widget: live facts like \"3 lights on\" next to the title.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.summariesAt": {
+    "en": "Summaries sit",
+    "context": "Label of a setting of the \"Header\" widget: where the summaries go.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.tall": {
+    "en": "{font}, tall",
+    "context": "A choice of the \"Font\" setting of the \"Header\" widget: a font name and that it is tall and narrow. {font} is the name.",
+    "params": {
+      "font": "A font’s name, such as Unbounded. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.text": {
+    "en": "Text",
+    "context": "Label of a setting of the \"Header\" widget: the title you type yourself.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.textPlaceholder": {
+    "en": "Living room",
+    "context": "Example in the empty \"Text\" field of the \"Header\" widget: a title someone might type.",
+    "maxLength": 80,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.theTitle": {
+    "en": "The title",
+    "context": "Label of a setting of the \"Header\" widget: what a tap on the title does.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.themeLabelFont": {
+    "en": "The theme’s label font",
+    "context": "A choice of the \"Font\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.themeTextFont": {
+    "en": "The theme’s text font",
+    "context": "A choice of the \"Font\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.themeTitleFont": {
+    "en": "The theme’s title font",
+    "context": "A choice of the \"Font\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.title": {
+    "en": "Title",
+    "context": "Label of a setting of the \"Header\" widget: which text is its title.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.under": {
+    "en": "Under the title",
+    "context": "A choice of the \"Summaries sit\" setting of the \"Header\" widget.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.weight": {
+    "en": "Weight",
+    "context": "Label of a setting of the \"Header\" widget: how bold the title is.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.where": {
+    "en": "Where",
+    "context": "Label of a setting of the \"Header\" widget: on the grid with the tiles, or docked at the top.",
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.wide": {
+    "en": "{font}, wide",
+    "context": "A choice of the \"Font\" setting of the \"Header\" widget: a font name and that it is wide. {font} is the name.",
+    "params": {
+      "font": "A font’s name, such as Unbounded. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.yourOwn": {
+    "en": "Your own",
+    "context": "A choice of the \"Header\" widget’s \"Title\" and \"Line above\" settings: text you type yourself.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
+  },
+  "widgets.header.yourTitle": {
+    "en": "Your title",
+    "context": "Shown faintly on a \"Header\" tile that has no text yet.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/builtin/header.messages.ts"
   },
   "widgets.partials.chip": {
     "en": "Chip",

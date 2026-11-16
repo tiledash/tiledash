@@ -1200,8 +1200,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} floorPlans {{count, plural, one {# plan d’étage} other {# plans d’étage}}} houses {{count, plural, one {# maison} other {# maisons}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
-    "source": "f84821998a",
+    "text": "{key, select, themes {{count, plural, one {# thème} other {# thèmes}}} presets {{count, plural, one {# préréglage de style} other {# préréglages de style}}} widgets {{count, plural, one {# widget ou fragment} other {# widgets et fragments}}} pictures {{count, plural, one {# image} other {# images}}} testDevices {{count, plural, one {# appareil de test} other {# appareils de test}}} floorPlans {{count, plural, one {# plan d’étage} other {# plans d’étage}}} houses {{count, plural, one {# maison} other {# maisons}}} dataFeeds {{count, plural, one {# flux de données} other {# flux de données}}} other {{count, plural, one {# enregistrement} other {# enregistrements}}}}",
+    "source": "95ed5f84eb",
     "by": "ai",
     "reviewed": false
   },
@@ -1472,6 +1472,468 @@
   "account.credits.weatherText": {
     "text": "Données météo de MET Norway (Locationforecast et Sunrise), sous licence Creative Commons Attribution 4.0.",
     "source": "b215b271b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.add": {
+    "text": "Nouveau flux de données",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.appFirst": {
+    "text": "Le meilleur moyen d’intégrer vos propres données est une app Homey qui crée un appareil pour elles : ses mesures sont enregistrées avec leur historique, fonctionnent dans les Flows et s’affichent sur n’importe quelle tuile. Utilisez un flux de données pour les données qu’aucune app n’apporte.",
+    "source": "bb7d462854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budget": {
+    "text": "Récupérations aujourd’hui : {count} sur {budget}. Les flux ne sont récupérés que tant que quelque chose qui les affiche est ouvert.",
+    "source": "d53ae30c7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budgetUsed": {
+    "text": "Les {budget} récupérations du jour sont épuisées. Les flux récupérés reprennent à minuit (UTC) ; les flux envoyés continuent de fonctionner.",
+    "source": "e4c999f7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.cancel": {
+    "text": "Annuler",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copied": {
+    "text": "Copié",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copy": {
+    "text": "Copier",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.create": {
+    "text": "Créer le flux",
+    "source": "b8a7fc1bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogAdd": {
+    "text": "Nouveau flux de données",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogEdit": {
+    "text": "Modifier {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.done": {
+    "text": "Terminé",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.edit": {
+    "text": "Modifier",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.empty": {
+    "text": "Aucun flux de données pour l’instant. Créez-en un, puis choisissez-le dans le réglage Données d’une tuile de graphique.",
+    "source": "ff142ea275",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.every": {
+    "text": "Fréquence",
+    "source": "5b3dda6ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyDay": {
+    "text": "1 jour",
+    "source": "944c27e5b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyFree": {
+    "text": "Free récupère au plus une fois par heure.",
+    "source": "7415db286d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyHours": {
+    "text": "{hours, plural, one {1 heure} many {# heures} other {# heures}}",
+    "source": "c35a4272de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyMinutes": {
+    "text": "{minutes, plural, one {# min} many {# min} other {# min}}",
+    "source": "510d98fafd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleCurl": {
+    "text": "curl",
+    "source": "427e4b79b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "text": "HomeyScript",
+    "source": "53ddfbad22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinux": {
+    "text": "CPU sous Linux",
+    "source": "898b647d18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "text": "Envoie l’utilisation du CPU de cet ordinateur toutes les 10 secondes. Le guide explique comment le laisser tourner en continu.",
+    "source": "85175399ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.examples": {
+    "text": "Essayez",
+    "source": "fe69511137",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.failing": {
+    "text": "Ne fonctionne plus depuis {time} :",
+    "source": "ca53f59872",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.goPro": {
+    "text": "Voir Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.header": {
+    "text": "En-tête (facultatif)",
+    "source": "2e8f881eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerKept": {
+    "text": "Son en-tête {name} est conservé, jamais affiché. Saisissez une nouvelle valeur pour le modifier.",
+    "source": "ceb3003db3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerName": {
+    "text": "Nom de l’en-tête",
+    "source": "c1dcc8fb31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerValue": {
+    "text": "Valeur",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.how": {
+    "text": "Mode de réception",
+    "source": "1e11562300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPull": {
+    "text": "Récupéré par Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPush": {
+    "text": "Envoyé à Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keptSince": {
+    "text": "Les tuiles gardent ses données reçues {ago}.",
+    "source": "6fa372ce3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyAbout": {
+    "text": "Les expéditeurs la placent dans un en-tête Authorization: Bearer ou X-Api-Key. Ne désactivez cette option que pour un expéditeur qui ne peut pas définir d’en-têtes.",
+    "source": "25d5fcd40c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyRequired": {
+    "text": "Exiger aussi une clé API",
+    "source": "757932da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPull": {
+    "text": "Récupéré depuis {host}, fréquence : {every}",
+    "source": "8359fb0b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPush": {
+    "text": "Envoyé à Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.lead": {
+    "text": "Des nombres venus d’ailleurs que votre Homey pour les tuiles de graphiques (jauges, graphiques et répartitions) : du JSON qu’un script ou un service envoie à Tiledash, ou que Tiledash récupère à une adresse web.",
+    "source": "314ef71fff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.limitFull": {
+    "text": "Un compte Free a un seul flux de données, et il est déjà utilisé. Pro en a {max}, récupérés jusqu’à toutes les 5 minutes et 500 fois par jour.",
+    "source": "86964ed568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.more": {
+    "text": "Plus d’options pour {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.name": {
+    "text": "Nom",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "text": "CPU du NAS",
+    "source": "ca295b5876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.never": {
+    "text": "Rien n’est encore arrivé",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newKey": {
+    "text": "Nouvelle clé API",
+    "source": "e520a08228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newSecret": {
+    "text": "Nouvelle adresse",
+    "source": "b71b5df47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.ok": {
+    "text": "Dernières données {ago} · {size}",
+    "source": "e76bd3f3a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.paused": {
+    "text": "En pause : un compte Free a un seul flux de données. Ses tuiles n’affichent rien tant que vous ne passez pas à Pro ou ne supprimez pas un autre flux.",
+    "source": "0b3aacaae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotFound": {
+    "text": "l’adresse a répondu « introuvable ».",
+    "source": "bb7c745bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotJson": {
+    "text": "ce qui est arrivé n’est pas du JSON.",
+    "source": "eb1906268f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "text": "il a envoyé plus d’une fois toutes les 5 secondes.",
+    "source": "0f4e43998f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRefused": {
+    "text": "l’adresse a refusé l’accès et demande une clé.",
+    "source": "1528638f64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTimeout": {
+    "text": "l’adresse a mis trop de temps à répondre.",
+    "source": "541666b991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTooBig": {
+    "text": "ce qui est arrivé dépasse 256 Ko.",
+    "source": "96ec439c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "text": "l’adresse est injoignable.",
+    "source": "03bd35768b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pullIdle": {
+    "text": "Il n’est récupéré que tant qu’une page, un lien ou un écran qui l’affiche est ouvert, au plus à cette fréquence. Chaque récupération compte dans les {budget} du jour.",
+    "source": "bc758af3fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pushAbout": {
+    "text": "Vous recevez une adresse secrète. Un script, un Flow Homey ou un service y envoie du JSON, au plus une fois toutes les 5 secondes et 256 Ko à la fois, et les tuiles l’affichent aussitôt.",
+    "source": "5f6527d263",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.remove": {
+    "text": "Supprimer",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.resting": {
+    "text": "En pause jusqu’à demain : les récupérations du jour sont épuisées. Ses tuiles gardent leurs dernières données.",
+    "source": "157092f3c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.save": {
+    "text": "Enregistrer",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretKey": {
+    "text": "Clé API",
+    "source": "16f0ee47f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretUrl": {
+    "text": "Adresse",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsOnce": {
+    "text": "Copiez-les maintenant : elles ne s’affichent qu’une fois. Vous les avez perdues ? Créez une nouvelle adresse ou clé depuis le menu du flux.",
+    "source": "4f7109c85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsTitle": {
+    "text": "Envoyer du JSON ici",
+    "source": "1d39767160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.tiles": {
+    "text": "{count, plural, =0 {Aucune tuile} one {# tuile} many {# tuiles} other {# tuiles}}",
+    "source": "8388034f87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.url": {
+    "text": "Adresse web",
+    "source": "45099c5588",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlKept": {
+    "text": "L’adresse sur {host} est conservée. Saisissez-en une nouvelle pour la modifier.",
+    "source": "23506d583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlProblem": {
+    "text": "Une adresse https sur Internet, comme https://api.example.org/now.json.",
+    "source": "f472789792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.withKey": {
+    "text": "Clé API exigée",
+    "source": "553b9d1c90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.failed": {
+    "text": "Le flux de données n’a pas pu être enregistré. Réessayez.",
+    "source": "953ed77652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "text": "Les flux de données n’ont pas pu être chargés.",
+    "source": "f3dab931b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "text": "Créer une nouvelle adresse pour « {name} » ?",
+    "source": "7f7eb319c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "text": "Créer une nouvelle clé API pour « {name} » ?",
+    "source": "95e21733a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.remove": {
+    "text": "Supprimer",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeText": {
+    "text": "Son adresse ne fonctionnera plus, et les tuiles qui le lisent n’afficheront rien tant que vous n’aurez pas choisi une autre source.",
+    "source": "57cc89fff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "text": "Supprimer « {name} » ?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renew": {
+    "text": "En créer une nouvelle",
+    "source": "82f142a5bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renewText": {
+    "text": "L’ancienne cesse de fonctionner aussitôt : ce qui envoie à ce flux a besoin de la nouvelle.",
+    "source": "02a56b9ab2",
     "by": "ai",
     "reviewed": false
   },
@@ -4745,6 +5207,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowDataFeeds": {
+    "text": "Flux de données",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDetailed": {
     "text": "Historique détaillé",
     "source": "e76b1ee026",
@@ -5474,6 +5942,18 @@
   "account.settings.calendarsAbout": {
     "text": "Les calendriers que vos widgets peuvent afficher.",
     "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeeds": {
+    "text": "Flux de données",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeedsAbout": {
+    "text": "Des chiffres de scripts et de services pour les graphiques de {homey}.",
+    "source": "bf07f0e3bf",
     "by": "ai",
     "reviewed": false
   },

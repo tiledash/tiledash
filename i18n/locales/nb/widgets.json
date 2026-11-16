@@ -527,6 +527,36 @@
     "by": "ai",
     "reviewed": false
   },
+  "widgets.elements.graphNoData": {
+    "text": "Ingen data ennå",
+    "source": "e2e18a767a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.elements.graphNotJson": {
+    "text": "Dette er ikke JSON",
+    "source": "65a56bc13e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.elements.graphNothingFound": {
+    "text": "Fant ingen tall",
+    "source": "fc4feaa300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.elements.graphOther": {
+    "text": "Annet",
+    "source": "f97e9da0e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.elements.graphTooBig": {
+    "text": "For mye data å tegne",
+    "source": "90d5518d7e",
+    "by": "ai",
+    "reviewed": false
+  },
   "widgets.elements.green": {
     "text": "grønn",
     "source": "ba4788b226",
@@ -1838,6 +1868,318 @@
   "widgets.energy.yesterday": {
     "text": "I går",
     "source": "566181254b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.aboveText": {
+    "text": "Din linje over",
+    "source": "e6b7d13e73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.aboveTextPlaceholder": {
+    "text": "Første etasje",
+    "source": "12a64c5b43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.alignment": {
+    "text": "Justering",
+    "source": "9d597870c4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.asTall": {
+    "text": "Like høy som flisen",
+    "source": "77ba918af6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.atTop": {
+    "text": "Fast øverst",
+    "source": "149a83397c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.beside": {
+    "text": "Ved siden av tittelen",
+    "source": "5b91652d83",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.bold": {
+    "text": "Fet",
+    "source": "94fee62e68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.capitals": {
+    "text": "Med store bokstaver",
+    "source": "43ecac3298",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.centre": {
+    "text": "Midten",
+    "source": "45c19322f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.colour": {
+    "text": "Farge",
+    "source": "3a9dfa58df",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.colourHelp": {
+    "text": "Står den tom, får tittelen temaets tekstfarge.",
+    "source": "642ab741fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.dashboardName": {
+    "text": "Dashbordets navn",
+    "source": "66e8c0f489",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.dashboards": {
+    "text": "Fra dashbordet",
+    "source": "391d6ffd69",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.description": {
+    "text": "Dashbordets tittel og sammendrag, eller en egen tittel, med skrifttypen, størrelsen og plasseringen du velger.",
+    "source": "14eb616ac3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.font": {
+    "text": "Skrifttype",
+    "source": "64d0b3adcd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.fontName": {
+    "text": "{font}",
+    "source": "9a8b01a60b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.header": {
+    "text": "Toppfelt",
+    "source": "ba5caa4285",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.heading": {
+    "text": "Overskrift",
+    "source": "b34f17f02e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.heavy": {
+    "text": "Ekstra fet",
+    "source": "caaba84670",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.huge": {
+    "text": "Enorm",
+    "source": "f171571d73",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.large": {
+    "text": "Stor",
+    "source": "ab80540d98",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.left": {
+    "text": "Venstre",
+    "source": "58eb9032e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.light": {
+    "text": "Tynn",
+    "source": "dbcd5e7bb7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.likeTheme": {
+    "text": "Som temaet",
+    "source": "7a849388eb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.likeTitle": {
+    "text": "Som en dashbordtittel",
+    "source": "6772d7bf61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.lineAbove": {
+    "text": "Linje over",
+    "source": "63f874155e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.lineAboveHelp": {
+    "text": "«Fra dashbordet» viser Homey-en og hvor mange fliser det har.",
+    "source": "c6bae8a92b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.lineBelow": {
+    "text": "Linje under",
+    "source": "8f77646606",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.lineBelowPlaceholder": {
+    "text": "God kveld",
+    "source": "15a421e4cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.medium": {
+    "text": "Medium",
+    "source": "8e588cd187",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.none": {
+    "text": "Ingen",
+    "source": "dc937b5989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.onGrid": {
+    "text": "I rutenettet",
+    "source": "037b667575",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.regular": {
+    "text": "Normal",
+    "source": "b455784ab5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.right": {
+    "text": "Høyre",
+    "source": "883361d5d6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.size": {
+    "text": "Størrelse",
+    "source": "1af8519073",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.smallHeading": {
+    "text": "Liten overskrift",
+    "source": "1768a9c109",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.summaries": {
+    "text": "Sammendrag",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.summariesAt": {
+    "text": "Plassering av sammendrag",
+    "source": "6381a52ba5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.tall": {
+    "text": "{font}, smal",
+    "source": "2fdaf521cd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.text": {
+    "text": "Tekst",
+    "source": "71988c4d8e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.textPlaceholder": {
+    "text": "Stue",
+    "source": "268d40ee19",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.theTitle": {
+    "text": "Trykk på tittelen",
+    "source": "73d64f1d0a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.themeLabelFont": {
+    "text": "Temaets etikettskrift",
+    "source": "cff6909b17",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.themeTextFont": {
+    "text": "Temaets tekstskrift",
+    "source": "c4f8c7965d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.themeTitleFont": {
+    "text": "Temaets tittelskrift",
+    "source": "1ab3fd27c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.title": {
+    "text": "Tittel",
+    "source": "7e8cd2056d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.under": {
+    "text": "Under tittelen",
+    "source": "480e0b1d22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.weight": {
+    "text": "Tykkelse",
+    "source": "81d27ef6d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.where": {
+    "text": "Plassering",
+    "source": "1daaa38f33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.wide": {
+    "text": "{font}, bred",
+    "source": "701fd62ea9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.yourOwn": {
+    "text": "Din tekst",
+    "source": "982fd50a2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "widgets.header.yourTitle": {
+    "text": "Din tittel",
+    "source": "e2d6dc448c",
     "by": "ai",
     "reviewed": false
   },

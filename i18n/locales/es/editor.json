@@ -197,6 +197,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.arrangeSize.cancel": {
+    "text": "Ahora no",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.description": {
+    "text": "{size} sigue ahora a {desktop}: muestra {kind, select, phone {los mosaicos de {desktop} en orden de lectura} other {la disposición de {desktop}}}, y solo {desktop} los mueve. Para mover mosaicos aquí, {size} recibe una disposición propia, que empieza tal como se ve ahora. {desktop} no cambia, y Volver a seguir a {desktop} lo deshace.",
+    "source": "ac243cf8b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.title": {
+    "text": "¿Dar a {size} su propia disposición?",
+    "source": "acc08590fb",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.borderSides.allSides": {
     "text": "Todos los lados",
     "source": "f174b9ece0",
@@ -1895,6 +1913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboard.moveDown": {
+    "text": "Bajar",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboard.moveUp": {
+    "text": "Subir",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboard.newStack": {
     "text": "Nueva pila",
     "source": "c300ef7aff",
@@ -2777,6 +2807,264 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dataSource.addValue": {
+    "text": "Añadir un valor",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feed": {
+    "text": "Fuente de datos",
+    "source": "396c3cb18f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedFailing": {
+    "text": "No funciona: {reason}",
+    "source": "02e68154c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedLimit": {
+    "text": "Las cuentas Free tienen una fuente de datos y ya está en uso. Pro tiene {max}.",
+    "source": "a6d01626e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedNever": {
+    "text": "Aún no ha llegado nada",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPull": {
+    "text": "Obtenida por Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPush": {
+    "text": "Enviada a Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedUpdated": {
+    "text": "Últimos datos {ago}",
+    "source": "60e976d782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.find": {
+    "text": "Buscar los números",
+    "source": "bb7b0631c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundItems": {
+    "text": "{count, plural, one {# elemento encontrado} other {# elementos encontrados}}",
+    "source": "f25b15bf3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundMore": {
+    "text": "y {count} más",
+    "source": "1a2612705d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundValue": {
+    "text": "Encontrado: {value}",
+    "source": "15df7522c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.from": {
+    "text": "Origen",
+    "source": "2181976934",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromFeed": {
+    "text": "Fuente externa",
+    "source": "43a97d8e51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromHomey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromJson": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromVariable": {
+    "text": "Variable",
+    "source": "e57e998726",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintDismiss": {
+    "text": "Entendido",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintText": {
+    "text": "«Buscar los números» recorre el JSON y rellena dónde están la lista, los nombres, las horas y los números. Cambia una ruta si no acertó; la vista previa muestra lo que encuentra.",
+    "source": "ac15cb45a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintTitle": {
+    "text": "Busca los números por ti",
+    "source": "9aebe74d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.itemName": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.json": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.newFeed": {
+    "text": "Nueva fuente de datos…",
+    "source": "c0ab61498c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noData": {
+    "text": "Aún no hay nada que leer",
+    "source": "7ba6d7fe18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noTextVariables": {
+    "text": "Este Homey no tiene variables de texto. Crea una en Logic de Homey y deja que un Flow la rellene.",
+    "source": "d5e5f1cd94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.notJson": {
+    "text": "Esto no es JSON. Comprueba si falta una comilla, una coma o un corchete.",
+    "source": "fd148c41d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.nothingFound": {
+    "text": "No hay números donde apuntan las rutas. Prueba «Buscar los números».",
+    "source": "8c04121a43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.numbers": {
+    "text": "Los números",
+    "source": "2d915f82c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathHelp": {
+    "text": "Rutas como $.data.rooms, o dentro de cada elemento como kwh. ~ es la clave de un elemento.",
+    "source": "dc88970e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathItems": {
+    "text": "Lista",
+    "source": "6f202f54a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathLabel": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathTime": {
+    "text": "Hora",
+    "source": "33b93476cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathValue": {
+    "text": "Número",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickFeed": {
+    "text": "Elige una fuente de datos",
+    "source": "28eb541b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickVariable": {
+    "text": "Elige una variable de texto",
+    "source": "b4bc94536e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewName": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewNumber": {
+    "text": "Número",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.range": {
+    "text": "Periodo",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.readings": {
+    "text": "Lecturas",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.removeValue": {
+    "text": "Quitar {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.tooBig": {
+    "text": "Es más de lo que lee un gráfico (256 KB, 32 niveles de profundidad).",
+    "source": "25aa80d864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.value": {
+    "text": "Valor",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.variable": {
+    "text": "Variable de texto",
+    "source": "00cddcb3e4",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.decimalsPicker.auto": {
     "text": "Auto",
     "source": "0286249762",
@@ -3252,8 +3540,8 @@
     "reviewed": false
   },
   "editor.everySize.detail": {
-    "text": "{phone}, {tablet} y {desktop} muestran el mismo mosaico; solo puede cambiar dónde está.",
-    "source": "3cb4f7053e",
+    "text": "{sizes} muestran el mismo mosaico; solo puede cambiar dónde está.",
+    "source": "d427e71898",
     "by": "ai",
     "reviewed": false
   },
@@ -3918,8 +4206,8 @@
     "reviewed": false
   },
   "editor.hiddenTray.noteEmpty": {
-    "text": "Nada oculto. El menú de un mosaico tiene <em>Ocultar en {size}</em> para lo que no necesitas en {device, select, phone {un teléfono} tablet {una tableta} other {una pantalla grande}}; sigue en los demás tamaños.",
-    "source": "fa5bbf620d",
+    "text": "Nada oculto. El menú de un mosaico tiene <em>Ocultar en {size}</em> para lo que no necesitas en {device, select, phone {un teléfono} tablet {una tableta} square {una pantalla cuadrada} other {una pantalla grande}}; sigue en los demás tamaños.",
+    "source": "4a6e75bae3",
     "by": "ai",
     "reviewed": false
   },
@@ -6863,6 +7151,672 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.setup.addTab": {
+    "text": "Añadir una pestaña",
+    "source": "0b8333b050",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeAttention": {
+    "text": "Un punto si algo requiere atención",
+    "source": "37ed775cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeLights": {
+    "text": "Cuántas luces están encendidas",
+    "source": "593edff63a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeNone": {
+    "text": "Nada",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeOpenings": {
+    "text": "Un punto si hay una puerta o ventana abierta",
+    "source": "a42a535738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byKind": {
+    "text": "Por tipo",
+    "source": "0530f672a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byOwn": {
+    "text": "A mi manera",
+    "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byQuestion": {
+    "text": "¿Qué pestañas?",
+    "source": "46f3029eee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byRoom": {
+    "text": "Por habitación",
+    "source": "bbbded6d26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.changeTab": {
+    "text": "Cambiar {name}",
+    "source": "0363a16787",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLayout": {
+    "text": "Las pestañas dejan cada parte de tu casa a un toque. Una sola página lo muestra todo al desplazarte.",
+    "source": "f651266b2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLook": {
+    "text": "Cómo se agrupan los mosaicos. La × deja fuera un mosaico.",
+    "source": "9cf6ece6a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descMatters": {
+    "text": "Marca las habitaciones y luego qué tipo de cosas importan. Tus favoritos de Homey ya están marcados.",
+    "source": "69d95a1c00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descScreen": {
+    "text": "¿Dónde lo mirarás más? Lo organizamos para esa pantalla; las demás se adaptan.",
+    "source": "e659d4a734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descSummaries": {
+    "text": "Qué resume cada pestaña arriba de su página y qué muestra en su botón, para ver qué pasa sin abrirla.",
+    "source": "ad9737b7e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descTabs": {
+    "text": "Cada pestaña es una página propia. Cambia lo que contiene o añade una pestaña tuya.",
+    "source": "7790a8268c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descVibe": {
+    "text": "Elige un aspecto y luego ajusta el tema y lo que se ve detrás de tus mosaicos.",
+    "source": "c7ea5243f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDescription": {
+    "text": "Lo que muestra esta pestaña. La llenan habitaciones y tipos; marca cosas sueltas para añadirlas o quitarlas.",
+    "source": "9cd42b62d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDone": {
+    "text": "Listo",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorIcon": {
+    "text": "Icono",
+    "source": "a35abcd6da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorName": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorOneByOne": {
+    "text": "Uno a uno",
+    "source": "3b63fc613b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorTitle": {
+    "text": "Pestaña «{name}»",
+    "source": "09bcb3d18e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupAppliance": {
+    "text": "Electrodomésticos",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupClimate": {
+    "text": "Calefacción",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupCover": {
+    "text": "Persianas y cortinas",
+    "source": "cfb5ec429c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLight": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLock": {
+    "text": "Cerraduras",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupPlug": {
+    "text": "Enchufes",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupSensor": {
+    "text": "Sensores",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPage": {
+    "text": "Una página",
+    "source": "e18eba637e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPageLine": {
+    "text": "Todo en una página que se desplaza, con un encabezado por habitación.",
+    "source": "a42009c12f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutQuestion": {
+    "text": "Pestañas o una página",
+    "source": "09e161268b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabs": {
+    "text": "Pestañas",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabsLine": {
+    "text": "Una pestaña para cada parte de tu casa. Cabe mucho sin desplazarte.",
+    "source": "38ab183d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.maxTabs": {
+    "text": "Doce pestañas es lo máximo que admite un dashboard.",
+    "source": "aa90fe47af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveDown": {
+    "text": "Bajar {name}",
+    "source": "1e94688825",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveUp": {
+    "text": "Subir {name}",
+    "source": "d1332175b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nameLabel": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.newTabName": {
+    "text": "Pestaña nueva",
+    "source": "1e08fda9c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nothingOnTab": {
+    "text": "Aún no hay nada en esta pestaña",
+    "source": "0dc33c343f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTab": {
+    "text": "En la pestaña",
+    "source": "6025d2eb0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTabLabel": {
+    "text": "En la pestaña {tab}",
+    "source": "b2e07f6105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.pageTooFullText": {
+    "text": "{count} mosaicos. Con pestañas cabrían sin desplazarte.",
+    "source": "69403a1b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.previewLabel": {
+    "text": "Vista previa de tu dashboard",
+    "source": "100ba3b8d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.recommended": {
+    "text": "Recomendado",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeHintTabs": {
+    "text": "Toca la × de un mosaico para quitarlo. Toca una pestaña para verla.",
+    "source": "089f3c8b6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeTab": {
+    "text": "Quitar {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktop": {
+    "text": "Una computadora",
+    "source": "ee65ffb54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktopLine": {
+    "text": "Pestañas arriba, más espacio en una pantalla",
+    "source": "8e941c1cfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhone": {
+    "text": "Mi teléfono",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhoneLine": {
+    "text": "Pestañas arriba, mosaicos de dos en dos",
+    "source": "8dc932fbc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenQuestion": {
+    "text": "Tu pantalla",
+    "source": "5701154928",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWall": {
+    "text": "Una tableta en la pared",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWallLine": {
+    "text": "Pestañas al lado y mosaicos grandes, legibles desde lejos",
+    "source": "067ef89081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.splitTab": {
+    "text": "Dividir en dos",
+    "source": "9b3fa9daf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startDescription": {
+    "text": "Unas preguntas y lo creamos todo: pestañas para cada parte de tu casa, resúmenes y un aspecto que te guste.",
+    "source": "b59539875a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startName": {
+    "text": "Configurar mi casa",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepLayout": {
+    "text": "Pestañas",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepMatters": {
+    "text": "Lo importante",
+    "source": "abfedb34c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepScreen": {
+    "text": "Pantalla",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepSummaries": {
+    "text": "Resúmenes",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepTabs": {
+    "text": "Tus pestañas",
+    "source": "d2f3941e3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepVibe": {
+    "text": "Tu estilo",
+    "source": "513df6b31f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesNone": {
+    "text": "Aquí no hay nada que resumir.",
+    "source": "7056806024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesOn": {
+    "text": "Resúmenes en {tab}",
+    "source": "c6790afc16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitch": {
+    "text": "Resúmenes en cada encabezado",
+    "source": "972548d460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchPage": {
+    "text": "luces encendidas, temperatura, potencia",
+    "source": "d1ee7636f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchTabs": {
+    "text": "por habitación en la pestaña; los de la pestaña, arriba",
+    "source": "d22448810d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabAppliance": {
+    "text": "Aparatos",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabClimate": {
+    "text": "Clima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCount": {
+    "text": "{count, plural, one {# pestaña} other {# pestañas}}",
+    "source": "398b9aa650",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCover": {
+    "text": "Persianas",
+    "source": "043aba8af9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabEmpty": {
+    "text": "vacía, así que no se crea",
+    "source": "bcfe8d2b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabHome": {
+    "text": "resúmenes, ambientes y Flows",
+    "source": "452102f301",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLight": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLock": {
+    "text": "Seguridad",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabPlug": {
+    "text": "Enchufes",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabSensor": {
+    "text": "Sensores",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTiles": {
+    "text": "{count, plural, one {# mosaico} other {# mosaicos}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTooFull": {
+    "text": "demasiado llena",
+    "source": "59f0c598ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserTitle": {
+    "text": "Elige un tema",
+    "source": "17d0232f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserUse": {
+    "text": "Usar este tema",
+    "source": "9e11707ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeDefaultName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleFirst": {
+    "text": "Vamos a configurar tu casa",
+    "source": "9279611c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleSetup": {
+    "text": "Configurar mi casa",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullText": {
+    "text": "{count} mosaicos son demasiados para una pestaña. Divídela en dos o quita cosas.",
+    "source": "dc61858784",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullTitle": {
+    "text": "«{name}» está demasiado llena para una pestaña",
+    "source": "d595e0a9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.useTabs": {
+    "text": "Usar pestañas",
+    "source": "0e9ce8352f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeAllThemes": {
+    "text": "Todos los temas…",
+    "source": "d3a06990e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeBehind": {
+    "text": "Detrás de los mosaicos",
+    "source": "1062d6062d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightLine": {
+    "text": "Claro y ligero, legible en una sala soleada",
+    "source": "fa5c4407b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightName": {
+    "text": "Luminoso y sereno",
+    "source": "c8bfa8e412",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningLine": {
+    "text": "Tonos de brasa sobre un lento atardecer",
+    "source": "eeb355ff16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningName": {
+    "text": "Tarde acogedora",
+    "source": "a950976693",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassLine": {
+    "text": "Mosaicos esmerilados sobre olas lentas",
+    "source": "2a056aed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassName": {
+    "text": "Cristal sobre el mar",
+    "source": "80e8440631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightLine": {
+    "text": "Oscuro y tenue, con seda que se mueve",
+    "source": "5ad898eabf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightName": {
+    "text": "Panel de pared nocturno",
+    "source": "e4bbe57761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperLine": {
+    "text": "Tinta y papel, para e-ink y paredes serenas",
+    "source": "cde489cd56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperName": {
+    "text": "Papel sereno",
+    "source": "244fc169e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTheme": {
+    "text": "Tema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashLine": {
+    "text": "El nuestro: naranja y hielo sobre negro",
+    "source": "2746540095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibesLabel": {
+    "text": "Un aspecto para empezar",
+    "source": "531c60f77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFavourites": {
+    "text": "Favoritos",
+    "source": "7a1f2a83ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordHome": {
+    "text": "Casa",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordLights": {
+    "text": "Luces",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordMoods": {
+    "text": "Ambientes",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Añadir",
     "source": "9fd728c66c",
@@ -7241,6 +8195,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.sizeScope.followsSquare": {
+    "text": "Muestra la organización de {desktop} en una pantalla cuadrada, con las filas ajustadas a ella. Organízala para mover y redimensionar mosaicos solo para pantallas cuadradas.",
+    "source": "d42cd5d0f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.sizeScope.followsTablet": {
     "text": "Muestra la disposición de {desktop} con el ancho de una tableta. Organízalo para mover y redimensionar mosaicos solo en tabletas.",
     "source": "4f6aecce7e",
@@ -7266,8 +8226,8 @@
     "reviewed": false
   },
   "editor.sizeScopeBar.arrange": {
-    "text": "Organizar para {size, select, phone {teléfono} tablet {tableta} other {escritorio}}",
-    "source": "877ba2a462",
+    "text": "Organizar para {size, select, phone {teléfono} tablet {tableta} square {pantalla cuadrada} other {escritorio}}",
+    "source": "a237d0bceb",
     "by": "ai",
     "reviewed": false
   },
@@ -8258,6 +9218,30 @@
   "editor.styleVariables.title": {
     "text": "Variables de estilo",
     "source": "de29a83af1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.count": {
+    "text": "{count, plural, =0 {Aún no hay resúmenes} one {# resumen} other {# resúmenes}}",
+    "source": "b4fade8b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.edit": {
+    "text": "Editar…",
+    "source": "2b8a1a002b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.elsewhere": {
+    "text": "Configúralos en el dashboard.",
+    "source": "3930a6189b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.hint": {
+    "text": "Datos en vivo como «3 luces encendidas», un total, una temperatura o un valor de Homey, cada uno con toques.",
+    "source": "b147a6331e",
     "by": "ai",
     "reviewed": false
   },

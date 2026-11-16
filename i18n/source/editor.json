@@ -217,6 +217,32 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdApplianceSourcePicker.messages.ts"
   },
+  "editor.arrangeSize.cancel": {
+    "en": "Not now",
+    "context": "Button in the question before giving a screen size its own layout: it closes the question and leaves the size following Desktop; the tile does not move.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/screenLayouts/HdArrangeSizeDialog.messages.ts"
+  },
+  "editor.arrangeSize.description": {
+    "en": "{size} follows {desktop} now: it shows {kind, select, phone {{desktop}’s tiles in reading order} other {{desktop}’s arrangement}}, and only {desktop} moves them. To move tiles here, {size} gets a layout of its own, starting as it looks now. {desktop} doesn’t change, and Follow {desktop} again undoes it.",
+    "context": "Explanation in the question before giving a screen size (Phone) its own layout so a tile can be moved there. It says how the size works now (\"tiles in reading order\" for Phone, whose tiles are stacked; \"arrangement\" for the others, which show the Desktop layout as it is), what changes, that the main layout (Desktop) stays as it is, and which button undoes it (\"Follow Desktop again\", a button in the bar above the tiles).",
+    "params": {
+      "desktop": "The name of the Desktop size. A name, already translated.",
+      "kind": "Which size this is: phone for Phone, other for Tablet or Square. Not shown; it picks the wording.",
+      "size": "The name of the size, usually Phone. A name, already translated."
+    },
+    "maxLength": 420,
+    "file": "packages/ui/src/dashboard/screenLayouts/HdArrangeSizeDialog.messages.ts"
+  },
+  "editor.arrangeSize.title": {
+    "en": "Give {size} its own layout?",
+    "context": "Title of a question in edit mode on a phone, after the person tapped Move up or Move down on a tile. The size (Phone) shows the main layout, Desktop, and its tiles cannot be moved until it has a layout of its own. The title asks whether to make one.",
+    "params": {
+      "size": "The name of the size, usually Phone. A name, already translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/screenLayouts/HdArrangeSizeDialog.messages.ts"
+  },
   "editor.borderSides.allSides": {
     "en": "All sides",
     "context": "Small text next to the width slider while the border is drawn on all four sides of the tile.",
@@ -2052,6 +2078,18 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
+  "editor.dashboard.moveDown": {
+    "en": "Move down",
+    "context": "Icon button with a down arrow in the edit toolbar on a phone or tablet, shown while one tile is selected. It moves the tile one place later on the dashboard, swapping it with the tile after it. Read out by screen readers and shown as a tooltip.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
+  },
+  "editor.dashboard.moveUp": {
+    "en": "Move up",
+    "context": "Icon button with an up arrow in the edit toolbar on a phone or tablet, shown while one tile is selected. It moves the tile one place earlier on the dashboard, swapping it with the tile before it. Read out by screen readers and shown as a tooltip.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
+  },
   "editor.dashboard.newStack": {
     "en": "New stack",
     "context": "First choice of the \"Put into\" menu. It makes a new stack (one tile that shows several pages of tiles) and puts the selected tiles in it. The other choices are existing widgets that can hold tiles.",
@@ -3016,6 +3054,265 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/useDashboardVersions.messages.ts"
   },
+  "editor.dataSource.addValue": {
+    "en": "Add a value",
+    "context": "Button that adds another value (a slice of a pie, a bar in a list).",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feed": {
+    "en": "Feed",
+    "context": "Label of the field that picks one of the account’s data feeds.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedFailing": {
+    "en": "Not working: {reason}",
+    "context": "Under the picked data feed: why it brings nothing now.",
+    "params": {
+      "reason": "The reason in words, such as “the address answered 404”."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedLimit": {
+    "en": "Free accounts have one data feed, and it’s in use. Pro has {max}.",
+    "context": "Under the data feed picker on a Free account that already has its one data feed: why “New data feed” is greyed out.",
+    "params": {
+      "max": "How many data feeds Pro has, such as 25."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedNever": {
+    "en": "Nothing has come in yet",
+    "context": "Under the picked data feed: it has never brought any data.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedPull": {
+    "en": "Fetched by Tiledash",
+    "context": "Kind of a data feed in the picker: Tiledash fetches its JSON from a web address.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedPush": {
+    "en": "Sent to Tiledash",
+    "context": "Kind of a data feed in the picker: a script or service sends its JSON to Tiledash.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.feedUpdated": {
+    "en": "Last data {ago}",
+    "context": "Under the picked data feed: when it last brought data.",
+    "params": {
+      "ago": "How long ago, already in words, such as “2 min ago”."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.find": {
+    "en": "Find the numbers",
+    "context": "Button that looks through the JSON and fills in where the numbers are by itself.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.foundItems": {
+    "en": "{count, plural, one {Found # item} other {Found # items}}",
+    "context": "Above the preview: how many items with a number were found in the JSON.",
+    "params": {
+      "count": "How many."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.foundMore": {
+    "en": "and {count} more",
+    "context": "Last line of the preview table when it shows only the first items.",
+    "params": {
+      "count": "How many more."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.foundValue": {
+    "en": "Found {value}",
+    "context": "Above the preview: the one number found in the JSON.",
+    "params": {
+      "value": "The number, already written out."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.from": {
+    "en": "From",
+    "context": "Label of the switch that picks where a chart tile’s data comes from.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.fromFeed": {
+    "en": "Data feed",
+    "context": "Choice: the data comes from a data feed, JSON that a script or service sends to Tiledash, or that Tiledash fetches from a web address.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.fromHomey": {
+    "en": "Homey",
+    "context": "Choice: the data comes from the Homey’s own devices, variables, energy and prices.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.fromJson": {
+    "en": "JSON",
+    "context": "Choice: the data is JSON typed into the tile’s settings. Keep “JSON” as is.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.fromVariable": {
+    "en": "Variable",
+    "context": "Choice: the data is JSON that a Homey flow keeps in a text variable.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.hintDismiss": {
+    "en": "Got it",
+    "context": "Button that closes that tip for good.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.hintText": {
+    "en": "Find the numbers looks through the JSON and fills in where the list, names, times and numbers are. Change a path when it guessed wrong; the preview shows what it finds.",
+    "context": "Text of that tip. “Find the numbers” is the button it points at.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.hintTitle": {
+    "en": "It finds the numbers for you",
+    "context": "Title of a one-time tip next to the Find the numbers button, the first time someone reads JSON in a chart tile.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.itemName": {
+    "en": "Name",
+    "context": "Placeholder of the name of one value in a pie or bar list, such as “Kitchen”.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.json": {
+    "en": "JSON",
+    "context": "Label of the text box where JSON is typed. Keep “JSON” as is.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.newFeed": {
+    "en": "New data feed…",
+    "context": "Button that opens the dialog to make a new data feed.",
+    "maxLength": 24,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.noData": {
+    "en": "Nothing to read yet",
+    "context": "Instead of the preview: there is no JSON yet (nothing typed, nothing sent yet).",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.noTextVariables": {
+    "en": "This Homey has no text variables. Make one in Homey’s Logic and let a flow fill it.",
+    "context": "Shown instead of the variable picker when the Homey has no text variables.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.notJson": {
+    "en": "This isn’t JSON. Check for a missing quote, comma or bracket.",
+    "context": "Instead of the preview: the text can’t be read as JSON. Keep “JSON” as is.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.nothingFound": {
+    "en": "No numbers where the paths point. Try Find the numbers.",
+    "context": "Instead of the preview: nothing was found where the paths point. “Find the numbers” is the button above.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.numbers": {
+    "en": "The numbers",
+    "context": "Heading of the part where the person says where in the JSON the numbers are.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pathHelp": {
+    "en": "Paths like $.data.rooms, or inside each item like kwh. ~ is an item’s key.",
+    "context": "Hint under the path fields. Keep the examples ($.data.rooms, kwh, ~) as they are: they are written in the JSON.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pathItems": {
+    "en": "List",
+    "context": "Label of the path to the list of items in the JSON, such as “$.rooms”.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pathLabel": {
+    "en": "Name",
+    "context": "Label of the path to each item’s name in the JSON, such as “name”.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pathTime": {
+    "en": "Time",
+    "context": "Label of the path to each item’s time in the JSON, such as “from”.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pathValue": {
+    "en": "Number",
+    "context": "Label of the path to each item’s number in the JSON, such as “kwh”.",
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pickFeed": {
+    "en": "Pick a data feed",
+    "context": "Placeholder of the data feed picker when none is picked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.pickVariable": {
+    "en": "Pick a text variable",
+    "context": "Placeholder of the text variable picker when none is picked.",
+    "maxLength": 30,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.previewName": {
+    "en": "Name",
+    "context": "Column heading in the preview table: an item’s name or time.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.previewNumber": {
+    "en": "Number",
+    "context": "Column heading in the preview table: an item’s number.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.range": {
+    "en": "Range",
+    "context": "Label of the choice of how far back a chart goes (6 hours, a day, a week…).",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.readings": {
+    "en": "Readings",
+    "context": "Label of the list of device readings a chart draws over time, with their history.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.removeValue": {
+    "en": "Remove {name}",
+    "context": "Screen reader label of the button that removes one value from the list.",
+    "params": {
+      "name": "The value’s name, or “value” when it has none."
+    },
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.tooBig": {
+    "en": "This is more than a chart reads (256 KB, 32 levels deep).",
+    "context": "Instead of the preview: the JSON is too big or too deeply nested.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.value": {
+    "en": "Value",
+    "context": "Label of the field that picks the one value a gauge shows.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
+  "editor.dataSource.variable": {
+    "en": "Text variable",
+    "context": "Label of the field that picks a Homey text variable holding JSON.",
+    "file": "packages/ui/src/dashboard/HdDataSourceField.messages.ts"
+  },
   "editor.decimalsPicker.auto": {
     "en": "Auto",
     "context": "First option of a row of buttons (a segmented control) that sets how many decimals a number on a tile shows. Auto means Tiledash picks what reads well for the size of the number. The other options show the number as it would read, such as \"2.7\".",
@@ -3533,19 +3830,17 @@
     "file": "packages/ui/src/dashboard/HdEventPopupSettings.messages.ts"
   },
   "editor.everySize.detail": {
-    "en": "{phone}, {tablet} and {desktop} show the same tile; only where it sits can differ.",
-    "context": "Second sentence of the small note at the top of a tile’s settings and style tabs, after the bold \"Applies to every size.\" It explains that the tile itself is the same on all three screen sizes, and only its place on the grid can differ per size.",
+    "en": "{sizes} show the same tile; only where it sits can differ.",
+    "context": "Second sentence of the small note at the top of a tile’s settings and style tabs, after the bold \"Applies to every size.\" It explains that the tile itself is the same on every screen size, and only its place on the grid can differ per size.",
     "params": {
-      "desktop": "The name of the Desktop size. A name, already translated.",
-      "phone": "The name of the Phone size. A name, already translated.",
-      "tablet": "The name of the Tablet size. A name, already translated."
+      "sizes": "The names of every screen size as a list, already translated and joined in the language’s own way, such as \"Phone, Tablet, Square and Desktop\"."
     },
     "maxLength": 140,
     "file": "packages/ui/src/dashboard/screenLayouts/HdEverySizeNote.messages.ts"
   },
   "editor.everySize.title": {
     "en": "Applies to every size.",
-    "context": "Bold first sentence of a small note at the top of a tile’s settings and style tabs. It says the settings below are the same on all three screen sizes (Phone, Tablet and Desktop); only where the tile sits can differ per size. The note’s second sentence follows it.",
+    "context": "Bold first sentence of a small note at the top of a tile’s settings and style tabs. It says the settings below are the same on every screen size (Phone, Tablet, Square and Desktop); only where the tile sits can differ per size. The note’s second sentence follows it.",
     "maxLength": 40,
     "file": "packages/ui/src/dashboard/screenLayouts/HdEverySizeNote.messages.ts"
   },
@@ -4256,10 +4551,10 @@
     "file": "apps/web/src/dashboards/screenSize/hiddenTiles.messages.ts"
   },
   "editor.hiddenTray.noteEmpty": {
-    "en": "Nothing hidden. A tile’s menu has <em>Hide on {size}</em> for what you don’t need on {device, select, phone {a phone} tablet {a tablet} other {a big screen}}; it stays on the other sizes.",
+    "en": "Nothing hidden. A tile’s menu has <em>Hide on {size}</em> for what you don’t need on {device, select, phone {a phone} tablet {a tablet} square {a square screen} other {a big screen}}; it stays on the other sizes.",
     "context": "Small grey note under the empty tray of hidden tiles. It says no tile is hidden on this screen size, and how to hide one: the menu of a tile has an item that hides it on this size only, and the tile stays on the other sizes. <em> is the name of that menu item, \"Hide on\" followed by the size: use the same wording as the item, which reads \"Hide on Phone\" in English. The device in the sentence is the kind of screen the size is meant for: a phone for Phone, a tablet for Tablet, a big screen for Desktop.",
     "params": {
-      "device": "The size itself: phone, tablet or desktop. Not shown; it picks the wording (desktop gives \"a big screen\").",
+      "device": "The size itself: phone, tablet, square or desktop. Not shown; it picks the wording (desktop gives \"a big screen\").",
       "size": "The name of the screen size being edited, Phone or Tablet. A name, already translated."
     },
     "maxLength": 300,
@@ -7558,6 +7853,708 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/settingKinds.messages.ts"
   },
+  "editor.setup.addTab": {
+    "en": "Add a tab",
+    "context": "Button under the list of tabs that adds a tab of the person’s own.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.badgeAttention": {
+    "en": "A dot when something needs attention",
+    "context": "Choice for what a tab’s button shows: a small pulsing dot while something on that tab needs attention (smoke, a low battery, an open door or an unlocked lock).",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.badgeLights": {
+    "en": "How many lights are on",
+    "context": "Choice for what a tab’s button shows: a small number, the lights that are on in that tab.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.badgeNone": {
+    "en": "Nothing",
+    "context": "Choice for what a tab’s button shows: nothing extra.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.badgeOpenings": {
+    "en": "A dot when a door or window is open",
+    "context": "Choice for what a tab’s button shows: a small dot while a door or window on that tab is open.",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.byKind": {
+    "en": "A tab per kind",
+    "context": "Choice: the tabs are made one for each kind of thing (lights, climate, security…), plus a Home tab.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.byOwn": {
+    "en": "My own",
+    "context": "Choice: the person arranges the tabs themselves. Picked on its own once a tab is added, moved, removed or changed.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.byQuestion": {
+    "en": "Which tabs",
+    "context": "Name of the choice above the list of tabs (a tab per room, a tab per kind, or your own), read out by screen readers.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.byRoom": {
+    "en": "A tab per room",
+    "context": "Choice: the tabs are made one for each room, plus a Home tab.",
+    "maxLength": 22,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.changeTab": {
+    "en": "Change {name}",
+    "context": "Read out by screen readers for the button that opens a tab’s editor (name, icon and what is on it).",
+    "params": {
+      "name": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descLayout": {
+    "en": "Tabs keep each part of your home one tap away. One page shows everything as you scroll.",
+    "context": "Text under the title of the Set up my home dialog on the step that picks tabs or one page.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descLook": {
+    "en": "How the tiles are grouped. × leaves a tile out.",
+    "context": "Text under the title of the Set up my home dialog on the step that picks how tiles are grouped. The × is on each tile of the preview.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descMatters": {
+    "en": "Tick the rooms, then the kinds of things that matter. Starred things in Homey are on already.",
+    "context": "Text under the title of the Set up my home dialog on the step that picks rooms and kinds of things. A starred thing is a favorite in the Homey app.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descScreen": {
+    "en": "Where will you look at it most? We lay it out for that screen; the others follow.",
+    "context": "Text under the title of the Set up my home dialog on its first step: the person picks the screen they use the dashboard on most.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descSummaries": {
+    "en": "What each tab sums up at the top of its page, and what its tab shows, so you see what’s going on without opening it.",
+    "context": "Text under the title of the Set up my home dialog on the step that picks each tab’s summaries (small live figures on top of the page) and its tab badge (a count or a dot on the tab button).",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descTabs": {
+    "en": "Each tab is a page of its own. Change what goes on it, or add a tab of your own.",
+    "context": "Text under the title of the Set up my home dialog on the step that lists the tabs, each a page of tiles.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.descVibe": {
+    "en": "Pick a look, then fine-tune the theme and what shows behind your tiles.",
+    "context": "Text under the title of the Set up my home dialog on its last step: a ready-made look, then the theme and the background.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorDescription": {
+    "en": "What shows on this tab. Rooms and kinds fill it; tick single things to add or leave out.",
+    "context": "Text under the title of the dialog that changes one tab.",
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorDone": {
+    "en": "Done",
+    "context": "Button that closes the dialog that changes one tab.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorIcon": {
+    "en": "Icon",
+    "context": "Name of the group of icons to pick from for a tab, read out by screen readers. Not visible as text.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorName": {
+    "en": "Name",
+    "context": "Label of the text field for a tab’s name, in the dialog that changes one tab.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorOneByOne": {
+    "en": "One by one",
+    "context": "Small heading over the list of single devices, Moods and Flows with a checkbox each, in the dialog that changes one tab.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.editorTitle": {
+    "en": "Tab “{name}”",
+    "context": "Title of the dialog that changes one tab: its name, icon and what is on it.",
+    "params": {
+      "name": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupAppliance": {
+    "en": "Appliances",
+    "context": "Heading over appliances (washer, dryer, dishwasher), when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupClimate": {
+    "en": "Heating",
+    "context": "Heading over thermostats and heaters, when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupCover": {
+    "en": "Blinds & curtains",
+    "context": "Heading over blinds and curtains, when the dashboard is grouped by kind.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupLight": {
+    "en": "Lights",
+    "context": "Heading over all the lights, when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupLock": {
+    "en": "Locks",
+    "context": "Heading over door locks, when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupPlug": {
+    "en": "Plugs",
+    "context": "Heading over smart plugs, when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.groupSensor": {
+    "en": "Sensors",
+    "context": "Heading over sensors, when the dashboard is grouped by kind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.layoutPage": {
+    "en": "One page",
+    "context": "Name of a card: the whole dashboard is one page that scrolls.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.layoutPageLine": {
+    "en": "Everything on one page that scrolls, with a heading per room.",
+    "context": "Text under the \"One page\" card.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.layoutQuestion": {
+    "en": "Tabs or one page",
+    "context": "Name of the group of two choices (tabs or one page) on the second step of Set up my home, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.layoutTabs": {
+    "en": "Tabs",
+    "context": "Name of a card: the dashboard has a tab for each part of the home, each a page.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.layoutTabsLine": {
+    "en": "A tab for each part of your home. Fits a lot without scrolling.",
+    "context": "Text under the \"Tabs\" card.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.maxTabs": {
+    "en": "Twelve tabs is the most a dashboard holds.",
+    "context": "Grey line under the list of tabs once there are twelve; no more can be added.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.moveDown": {
+    "en": "Move {name} down",
+    "context": "Read out by screen readers for the button that moves a tab one place down in the list.",
+    "params": {
+      "name": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.moveUp": {
+    "en": "Move {name} up",
+    "context": "Read out by screen readers for the button that moves a tab one place up in the list.",
+    "params": {
+      "name": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.nameLabel": {
+    "en": "Name",
+    "context": "Label of the text field for the name of the new dashboard.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.newTabName": {
+    "en": "New tab",
+    "context": "Name a tab the person adds starts with, before they rename it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.nothingOnTab": {
+    "en": "Nothing on this tab yet",
+    "context": "Shown in the preview when the tab that is shown has no tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.onTheTab": {
+    "en": "On the tab",
+    "context": "Small label over the choice of what a tab’s button shows (a count of lights on, a dot, or nothing).",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.onTheTabLabel": {
+    "en": "On the {tab} tab",
+    "context": "Read out by screen readers for the choice of what a tab’s button shows.",
+    "params": {
+      "tab": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.pageTooFullText": {
+    "en": "{count} tiles. Tabs would fit it without scrolling.",
+    "context": "Text of the blue box that says one page holds too many tiles; the button next to it switches to tabs.",
+    "params": {
+      "count": "How many tiles are on the page."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.previewLabel": {
+    "en": "Preview of your dashboard",
+    "context": "Read out by screen readers for the picture of the dashboard, in its theme, next to the questions.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.recommended": {
+    "en": "Recommended",
+    "context": "Small badge on a choice (the Tabs card, the Set up my home start card) marking it as the best choice for most people.",
+    "maxLength": 18,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.removeHintTabs": {
+    "en": "Tap × on a tile to leave it out. Tap a tab to see it.",
+    "context": "Grey line under the preview when the dashboard has tabs.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.removeTab": {
+    "en": "Remove {name}",
+    "context": "Read out by screen readers for the button that takes a tab out of the list.",
+    "params": {
+      "name": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenDesktop": {
+    "en": "A computer",
+    "context": "Name of a card: the person mostly looks at the dashboard on a computer.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenDesktopLine": {
+    "en": "Tabs on top, room for more on one screen",
+    "context": "Text under the \"A computer\" card: the tabs sit along the top and more tiles fit on one screen.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenPhone": {
+    "en": "My phone",
+    "context": "Name of a card: the person mostly looks at the dashboard on their phone.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenPhoneLine": {
+    "en": "Tabs on top, tiles two across",
+    "context": "Text under the \"My phone\" card: on a phone the tabs sit along the top and tiles are two across.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenQuestion": {
+    "en": "Your screen",
+    "context": "Name of the group of three screen choices on the first step of Set up my home, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenWall": {
+    "en": "A tablet on the wall",
+    "context": "Name of a card: the person mostly looks at the dashboard on a tablet or panel fixed to a wall.",
+    "maxLength": 28,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.screenWallLine": {
+    "en": "Tabs on the side, big tiles you can read from across the room",
+    "context": "Text under the \"A tablet on the wall\" card: the tabs sit along the side and the tiles are big.",
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.splitTab": {
+    "en": "Split in two",
+    "context": "Button in the blue box about a too-full tab: makes two tabs of it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.startDescription": {
+    "en": "A few questions and we build the whole thing: tabs for each part of your home, summaries and a look you like.",
+    "context": "Text on the \"Set up my home\" start card of the new-dashboard dialog, under its name. Tabs are pages of tiles on one dashboard.",
+    "maxLength": 130,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.startName": {
+    "en": "Set up my home",
+    "context": "Name of the first start card in the new-dashboard dialog: a short set of questions that builds a whole dashboard with tabs for the person’s home.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepLayout": {
+    "en": "Tabs",
+    "context": "Second step of the Set up my home dialog, in the row of steps at the top: tabs or one page.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepMatters": {
+    "en": "What matters",
+    "context": "Third step of the Set up my home dialog, in the row of steps at the top: picking the rooms and the kinds of things that matter.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepScreen": {
+    "en": "Screen",
+    "context": "First step of the Set up my home dialog, in the row of steps at the top: which screen the dashboard is mostly used on.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepSummaries": {
+    "en": "Summaries",
+    "context": "Step of the Set up my home dialog, in the row of steps at the top: what each tab sums up on top of its page and shows on its tab button. Only with tabs.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepTabs": {
+    "en": "Your tabs",
+    "context": "Step of the Set up my home dialog, in the row of steps at the top: which tabs there are and what each holds. Only with tabs.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.stepVibe": {
+    "en": "Your vibe",
+    "context": "Last step of the Set up my home dialog, in the row of steps at the top: a ready-made look, the theme and what is behind the tiles.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.summariesNone": {
+    "en": "Nothing here to sum up.",
+    "context": "Line under a tab’s name on the Summaries step when none of its devices can be summed up.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.summariesOn": {
+    "en": "Summaries on {tab}",
+    "context": "Read out by screen readers for the group of summaries a tab can have on top of its page.",
+    "params": {
+      "tab": "The tab’s name, such as \"Kitchen\"."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.summariesSwitch": {
+    "en": "Summaries on each heading",
+    "context": "Label of a switch: each heading gets its small live figures, such as \"3 lights on\" for a room.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.summariesSwitchPage": {
+    "en": "lights on, temperature, power",
+    "context": "Small text under the \"Summaries on each heading\" switch, with one page: examples of the summaries a heading shows.",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.summariesSwitchTabs": {
+    "en": "per room inside a tab; each tab’s own are on top",
+    "context": "Small text under the \"Summaries on each heading\" switch, with tabs: headings inside a tab get summaries, and each tab has its own on top of its page.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabAppliance": {
+    "en": "Appliances",
+    "context": "Name of the tab that holds appliances (washer, dryer, dishwasher), with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabClimate": {
+    "en": "Climate",
+    "context": "Name of the tab that holds thermostats and heaters, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabCount": {
+    "en": "{count, plural, one {# tab} other {# tabs}}",
+    "context": "Small count in the footer of the Set up my home dialog, before the number of tiles: how many tabs the dashboard will have.",
+    "params": {
+      "count": "How many tabs the dashboard will have, at least 1."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabCover": {
+    "en": "Blinds",
+    "context": "Name of the tab that holds blinds and curtains, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabEmpty": {
+    "en": "nothing on it, so it is left out",
+    "context": "Added after the tile count of a tab with nothing on it, in the list of tabs: such a tab isn’t made.",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabHome": {
+    "en": "summaries, Moods and Flows",
+    "context": "Added after the tile count of the Home tab in the list of tabs: it holds the summaries of the whole home and the starred Moods and Flows.",
+    "maxLength": 36,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabLight": {
+    "en": "Lights",
+    "context": "Name of the tab that holds all the lights, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabLock": {
+    "en": "Security",
+    "context": "Name of the tab that holds door locks, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabPlug": {
+    "en": "Plugs",
+    "context": "Name of the tab that holds smart plugs, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabSensor": {
+    "en": "Sensors",
+    "context": "Name of the tab that holds sensors, with a tab per kind. Short: a tab button.",
+    "maxLength": 14,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabTiles": {
+    "en": "{count, plural, one {# tile} other {# tiles}}",
+    "context": "Small line under a tab’s name in the list of tabs: how many tiles (boxes that show a device, Flow or Mood) are on it.",
+    "params": {
+      "count": "How many tiles are on the tab, at least 0."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tabTooFull": {
+    "en": "too full",
+    "context": "Added after the tile count of a tab that holds more than one page shows well, in the list of tabs.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.themeBrowserTitle": {
+    "en": "Pick a theme",
+    "context": "Title of the dialog with all themes, opened from the last step of Set up my home.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.themeBrowserUse": {
+    "en": "Use this theme",
+    "context": "Button that closes the dialog with all themes and keeps the chosen one.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.themeDefaultName": {
+    "en": "Tiledash",
+    "context": "Name shown for the theme when it can’t be looked up: Tiledash’s own look, a product name.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.titleFirst": {
+    "en": "Let’s set up your home",
+    "context": "Title of the Set up my home dialog for a person who has no dashboard yet. Friendlier than the usual title.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.titleSetup": {
+    "en": "Set up my home",
+    "context": "Title of the dialog that builds a whole dashboard from a few questions, opened from New dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tooFullText": {
+    "en": "{count} tiles is more than a tab shows well. Split it in two, or leave things out.",
+    "context": "Text of the blue box about a tab that is too full: it offers to split the tab in two or the person can leave things out.",
+    "params": {
+      "count": "How many tiles are on the tab, at least 17."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.tooFullTitle": {
+    "en": "“{name}” is too full for one tab",
+    "context": "Title of a blue box under the list of tabs: that tab holds more tiles than a page shows well.",
+    "params": {
+      "name": "The tab’s name, such as \"Everything\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.useTabs": {
+    "en": "Use tabs",
+    "context": "Button in the blue box about a page with too many tiles: switches to tabs.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeAllThemes": {
+    "en": "All themes…",
+    "context": "Button that opens the browser of all themes, on the last step of Set up my home.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeBehind": {
+    "en": "Behind the tiles",
+    "context": "Small label over the settings for what shows behind the tiles (the theme’s own, plain, a moving scene or a picture).",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeDaylightLine": {
+    "en": "Light, airy, easy to read in a sunny room",
+    "context": "Text under the \"Bright and calm\" look.",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeDaylightName": {
+    "en": "Bright and calm",
+    "context": "Name of a ready-made look: light and airy.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeEveningLine": {
+    "en": "Ember tones over a slow dusk sky",
+    "context": "Text under the \"Cosy evening\" look.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeEveningName": {
+    "en": "Cosy evening",
+    "context": "Name of a ready-made look (needs Pro): warm tones over a slow dusk sky that moves behind the tiles.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeGlassLine": {
+    "en": "Frosted tiles on drifting waves",
+    "context": "Text under the \"Glass over the sea\" look.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeGlassName": {
+    "en": "Glass over the sea",
+    "context": "Name of a ready-made look (needs Pro): frosted glass tiles over slowly moving waves.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeNightLine": {
+    "en": "Dark and dim, silk moving behind",
+    "context": "Text under the \"Night wall panel\" look.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeNightName": {
+    "en": "Night wall panel",
+    "context": "Name of a ready-made look (needs Pro): dark and dim, for a screen on the wall at night, with silk moving behind.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibePaperLine": {
+    "en": "Ink on paper, for e-ink and calm walls",
+    "context": "Text under the \"Quiet paper\" look. E-ink is a screen that looks like paper and keeps its picture without power.",
+    "maxLength": 44,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibePaperName": {
+    "en": "Quiet paper",
+    "context": "Name of a ready-made look: ink on paper, quiet and without effects.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibePro": {
+    "en": "Pro",
+    "context": "Small badge on a ready-made look that needs the Pro plan.",
+    "maxLength": 8,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeTheme": {
+    "en": "Theme",
+    "context": "Small label of the row that shows the chosen theme’s name and a button for all themes.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeTiledashLine": {
+    "en": "Our own: orange and ice on black",
+    "context": "Text under the \"Tiledash\" look.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibeTiledashName": {
+    "en": "Tiledash",
+    "context": "Name of a ready-made look: Tiledash’s own, orange and ice on black. Tiledash is the product name.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.vibesLabel": {
+    "en": "A look to start from",
+    "context": "Name of the group of ready-made looks on the last step, read out by screen readers.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.wordFavourites": {
+    "en": "Favorites",
+    "context": "Name of the tile that holds the starred Flows as buttons. Starred is Favorite in the Homey app.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.wordFlows": {
+    "en": "Flows",
+    "context": "Heading over the Flows (Homey automations that can be started) on a new dashboard, and the name of its group of buttons.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.wordHome": {
+    "en": "Home",
+    "context": "Name of the first tab: it holds the summaries of the whole home and the starred Moods and Flows.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.wordLights": {
+    "en": "Lights",
+    "context": "Heading or tile name for the lights of a room on a new dashboard.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
+  "editor.setup.wordMoods": {
+    "en": "Moods",
+    "context": "Heading or tile name for the Moods (a room’s ambiance, set with a tap) on a new dashboard.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/newDashboard/setupWizard.messages.ts"
+  },
   "editor.showWhen.add": {
     "en": "Add",
     "context": "Small word in front of two buttons that add a condition: \"Add  A value  The time\". It reads as a label for the buttons next to it, not as a button itself.",
@@ -8011,6 +9008,15 @@
     "maxLength": 190,
     "file": "packages/ui/src/dashboard/screenLayouts/sizeScope.messages.ts"
   },
+  "editor.sizeScope.followsSquare": {
+    "en": "It shows {desktop}’s arrangement on a square screen, its rows fitted to it. Arrange it to move and resize tiles for square screens only.",
+    "context": "Sentence in the bar over the canvas while the Square size is edited and has no arrangement of its own: it shows the arrangement of the main layout, Desktop, on a square screen (such as a square wall panel), with the rows made to fit that screen. It says what the Arrange for square screen button does: the person can then move and resize tiles for square screens only.",
+    "params": {
+      "desktop": "The name of the Desktop size. A name, already translated."
+    },
+    "maxLength": 190,
+    "file": "packages/ui/src/dashboard/screenLayouts/sizeScope.messages.ts"
+  },
   "editor.sizeScope.followsTablet": {
     "en": "It shows {desktop}’s arrangement at a tablet’s width. Arrange it to move and resize tiles for tablets only.",
     "context": "Sentence in the bar over the canvas while the Tablet size is edited and has no arrangement of its own: it shows the arrangement of the main layout, Desktop, at the width of a tablet. It says what the Arrange for tablet button does: the person can then move and resize tiles for tablets only.",
@@ -8050,10 +9056,10 @@
     "file": "packages/ui/src/dashboard/screenLayouts/sizeScope.messages.ts"
   },
   "editor.sizeScopeBar.arrange": {
-    "en": "Arrange for {size, select, phone {phone} tablet {tablet} other {desktop}}",
+    "en": "Arrange for {size, select, phone {phone} tablet {tablet} square {square screen} other {desktop}}",
     "context": "Button in the bar over the canvas while a screen size without an arrangement of its own is edited. It gives that size an arrangement of its own, starting as it looks now, so tiles can be moved and resized for it only. The word at the end is the kind of device, in lower case.",
     "params": {
-      "size": "Which size: phone, tablet or desktop. Not shown; it picks the device word."
+      "size": "Which size: phone, tablet, square or desktop. Not shown; it picks the device word."
     },
     "maxLength": 90,
     "file": "packages/ui/src/dashboard/screenLayouts/HdSizeScope.messages.ts"
@@ -9133,6 +10139,33 @@
     "context": "Heading of the list.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/StyleVariablesEditor.messages.ts"
+  },
+  "editor.summariesField.count": {
+    "en": "{count, plural, =0 {No summaries yet} one {# summary} other {# summaries}}",
+    "context": "The line in a Summaries setting of a tile’s settings that says how many summaries (live facts like \"3 lights on\") the tile shows.",
+    "params": {
+      "count": "How many summaries the tile shows. A number."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdSummariesSettingField.messages.ts"
+  },
+  "editor.summariesField.edit": {
+    "en": "Edit…",
+    "context": "Small button in a Summaries setting of a tile’s settings. It opens the window where the summaries are added, changed and ordered.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdSummariesSettingField.messages.ts"
+  },
+  "editor.summariesField.elsewhere": {
+    "en": "Set them up on the dashboard.",
+    "context": "Small help text in a Summaries setting of a tile’s settings where they can’t be set up from here (a preview).",
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdSummariesSettingField.messages.ts"
+  },
+  "editor.summariesField.hint": {
+    "en": "Live facts like “3 lights on”, a total, a temperature or a Homey value, each with its taps.",
+    "context": "Small line under the count in a Summaries setting of a tile’s settings.",
+    "maxLength": 110,
+    "file": "packages/ui/src/dashboard/HdSummariesSettingField.messages.ts"
   },
   "editor.summaryTap.allOff": {
     "en": "All off",

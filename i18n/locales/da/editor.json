@@ -197,6 +197,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.arrangeSize.cancel": {
+    "text": "Ikke nu",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.description": {
+    "text": "{size} følger {desktop} nu: den viser {kind, select, phone {felterne fra {desktop} i læserækkefølge} other {layoutet fra {desktop}}}, og kun {desktop} flytter dem. For at flytte felter her får {size} sit eget layout, der starter, som det ser ud nu. {desktop} ændres ikke, og Følg {desktop} igen fortryder det.",
+    "source": "ac243cf8b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.title": {
+    "text": "Giv {size} sit eget layout?",
+    "source": "acc08590fb",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.borderSides.allSides": {
     "text": "Alle sider",
     "source": "f174b9ece0",
@@ -1895,6 +1913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboard.moveDown": {
+    "text": "Flyt ned",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboard.moveUp": {
+    "text": "Flyt op",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboard.newStack": {
     "text": "Ny stak",
     "source": "c300ef7aff",
@@ -2777,6 +2807,264 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dataSource.addValue": {
+    "text": "Tilføj en værdi",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feed": {
+    "text": "Datafeed",
+    "source": "396c3cb18f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedFailing": {
+    "text": "Virker ikke: {reason}",
+    "source": "02e68154c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedLimit": {
+    "text": "En Free-konto har ét datafeed, og det er allerede i brug. Pro har {max}.",
+    "source": "a6d01626e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedNever": {
+    "text": "Der er ikke kommet noget endnu",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPull": {
+    "text": "Hentes af Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPush": {
+    "text": "Sendes til Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedUpdated": {
+    "text": "Seneste data {ago}",
+    "source": "60e976d782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.find": {
+    "text": "Find tallene",
+    "source": "bb7b0631c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundItems": {
+    "text": "{count, plural, one {Fandt # element} other {Fandt # elementer}}",
+    "source": "f25b15bf3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundMore": {
+    "text": "og {count} flere",
+    "source": "1a2612705d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundValue": {
+    "text": "Fandt {value}",
+    "source": "15df7522c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.from": {
+    "text": "Data fra",
+    "source": "2181976934",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromFeed": {
+    "text": "Datafeed",
+    "source": "43a97d8e51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromHomey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromJson": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromVariable": {
+    "text": "Variabel",
+    "source": "e57e998726",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintDismiss": {
+    "text": "Forstået",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintText": {
+    "text": "“Find tallene” gennemgår JSON’en og udfylder, hvor listen, navnene, tiderne og tallene er. Ret en sti, hvis den gættede forkert; forhåndsvisningen viser, hvad den finder.",
+    "source": "ac15cb45a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintTitle": {
+    "text": "Den finder tallene for dig",
+    "source": "9aebe74d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.itemName": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.json": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.newFeed": {
+    "text": "Nyt datafeed…",
+    "source": "c0ab61498c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noData": {
+    "text": "Intet at læse endnu",
+    "source": "7ba6d7fe18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noTextVariables": {
+    "text": "Denne Homey har ingen tekstvariabler. Opret en i Homeys Logic, og lad et Flow udfylde den.",
+    "source": "d5e5f1cd94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.notJson": {
+    "text": "Dette er ikke JSON. Tjek om der mangler et anførselstegn, et komma eller en parentes.",
+    "source": "fd148c41d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.nothingFound": {
+    "text": "Ingen tal der hvor stierne peger. Prøv »Find tallene«.",
+    "source": "8c04121a43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.numbers": {
+    "text": "Tallene",
+    "source": "2d915f82c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathHelp": {
+    "text": "Stier som $.data.rooms, eller inde i hvert element som kwh. ~ er et elements nøgle.",
+    "source": "dc88970e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathItems": {
+    "text": "Liste",
+    "source": "6f202f54a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathLabel": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathTime": {
+    "text": "Tid",
+    "source": "33b93476cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathValue": {
+    "text": "Tal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickFeed": {
+    "text": "Vælg et datafeed",
+    "source": "28eb541b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickVariable": {
+    "text": "Vælg en tekstvariabel",
+    "source": "b4bc94536e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewName": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewNumber": {
+    "text": "Tal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.range": {
+    "text": "Periode",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.readings": {
+    "text": "Måleværdier",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.removeValue": {
+    "text": "Fjern {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.tooBig": {
+    "text": "Det er mere end et diagram kan læse (256 KB, 32 niveauer dybt).",
+    "source": "25aa80d864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.value": {
+    "text": "Værdi",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.variable": {
+    "text": "Tekstvariabel",
+    "source": "00cddcb3e4",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.decimalsPicker.auto": {
     "text": "Auto",
     "source": "0286249762",
@@ -3252,8 +3540,8 @@
     "reviewed": false
   },
   "editor.everySize.detail": {
-    "text": "{phone}, {tablet} og {desktop} viser det samme felt; kun hvor det sidder, kan være forskelligt.",
-    "source": "3cb4f7053e",
+    "text": "{sizes} viser det samme felt; kun hvor det sidder, kan være forskelligt.",
+    "source": "d427e71898",
     "by": "ai",
     "reviewed": false
   },
@@ -3918,8 +4206,8 @@
     "reviewed": false
   },
   "editor.hiddenTray.noteEmpty": {
-    "text": "Intet skjult. Et felts menu har <em>Skjul på {size}</em> til det du ikke har brug for på {device, select, phone {en telefon} tablet {en tablet} other {en stor skærm}}; det bliver på de andre størrelser.",
-    "source": "fa5bbf620d",
+    "text": "Intet skjult. Et felts menu har <em>Skjul på {size}</em> til det du ikke har brug for på {device, select, phone {en telefon} tablet {en tablet} square {en kvadratisk skærm} other {en stor skærm}}; det bliver på de andre størrelser.",
+    "source": "4a6e75bae3",
     "by": "ai",
     "reviewed": false
   },
@@ -6863,6 +7151,672 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.setup.addTab": {
+    "text": "Tilføj en fane",
+    "source": "0b8333b050",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeAttention": {
+    "text": "En prik når noget kræver opmærksomhed",
+    "source": "37ed775cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeLights": {
+    "text": "Hvor mange lys der er tændt",
+    "source": "593edff63a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeNone": {
+    "text": "Intet",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeOpenings": {
+    "text": "En prik når dør eller vindue står åbent",
+    "source": "a42a535738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byKind": {
+    "text": "En fane pr. type",
+    "source": "0530f672a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byOwn": {
+    "text": "Mine egne",
+    "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byQuestion": {
+    "text": "Hvilke faner",
+    "source": "46f3029eee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byRoom": {
+    "text": "En fane pr. rum",
+    "source": "bbbded6d26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.changeTab": {
+    "text": "Rediger {name}",
+    "source": "0363a16787",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLayout": {
+    "text": "Med faner er hver del af dit hjem kun et tryk væk. Én side viser det hele, mens du ruller.",
+    "source": "f651266b2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLook": {
+    "text": "Hvordan felterne grupperes. × udelader et felt.",
+    "source": "9cf6ece6a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descMatters": {
+    "text": "Vælg rummene og derefter de typer ting der betyder noget. Det du har stjernemarkeret i Homey, er allerede med.",
+    "source": "69d95a1c00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descScreen": {
+    "text": "Hvor kigger du mest på det? Vi stiller det op til den skærm; de andre følger med.",
+    "source": "e659d4a734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descSummaries": {
+    "text": "Hvad hver fane opsummerer øverst på sin side, og hvad dens fane viser, så du kan se hvad der sker uden at åbne den.",
+    "source": "ad9737b7e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descTabs": {
+    "text": "Hver fane er sin egen side. Ændr hvad der er på den, eller tilføj din egen fane.",
+    "source": "7790a8268c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descVibe": {
+    "text": "Vælg et udseende, og finjustér så temaet og hvad der vises bag dine felter.",
+    "source": "c7ea5243f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDescription": {
+    "text": "Det der vises på fanen. Rum og typer fylder den; markér enkelte ting for at tilføje eller udelade dem.",
+    "source": "9cd42b62d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDone": {
+    "text": "Færdig",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorIcon": {
+    "text": "Ikon",
+    "source": "a35abcd6da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorName": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorOneByOne": {
+    "text": "Enkeltvis",
+    "source": "3b63fc613b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorTitle": {
+    "text": "Fanen »{name}«",
+    "source": "09bcb3d18e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupAppliance": {
+    "text": "Husholdningsapparater",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupClimate": {
+    "text": "Varme",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupCover": {
+    "text": "Persienner og gardiner",
+    "source": "cfb5ec429c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLight": {
+    "text": "Lys",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLock": {
+    "text": "Låse",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupPlug": {
+    "text": "Stikkontakter",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupSensor": {
+    "text": "Sensorer",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPage": {
+    "text": "Én side",
+    "source": "e18eba637e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPageLine": {
+    "text": "Alt på én side du ruller ned ad, med en overskrift pr. rum.",
+    "source": "a42009c12f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutQuestion": {
+    "text": "Faner eller én side",
+    "source": "09e161268b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabs": {
+    "text": "Faner",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabsLine": {
+    "text": "En fane til hver del af dit hjem. Plads til meget uden at rulle.",
+    "source": "38ab183d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.maxTabs": {
+    "text": "Et dashboard kan højst have tolv faner.",
+    "source": "aa90fe47af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveDown": {
+    "text": "Flyt {name} ned",
+    "source": "1e94688825",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveUp": {
+    "text": "Flyt {name} op",
+    "source": "d1332175b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nameLabel": {
+    "text": "Navn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.newTabName": {
+    "text": "Ny fane",
+    "source": "1e08fda9c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nothingOnTab": {
+    "text": "Intet på denne fane endnu",
+    "source": "0dc33c343f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTab": {
+    "text": "På fanen",
+    "source": "6025d2eb0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTabLabel": {
+    "text": "På fanen {tab}",
+    "source": "b2e07f6105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.pageTooFullText": {
+    "text": "{count} felter. Med faner er der plads til dem uden at rulle.",
+    "source": "69403a1b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.previewLabel": {
+    "text": "Forhåndsvisning af dit dashboard",
+    "source": "100ba3b8d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.recommended": {
+    "text": "Anbefalet",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeHintTabs": {
+    "text": "Tryk på × for at udelade et felt. Tryk på en fane for at se den.",
+    "source": "089f3c8b6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeTab": {
+    "text": "Fjern {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktop": {
+    "text": "En computer",
+    "source": "ee65ffb54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktopLine": {
+    "text": "Faner øverst, plads til mere på én skærm",
+    "source": "8e941c1cfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhone": {
+    "text": "Min telefon",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhoneLine": {
+    "text": "Faner øverst, to felter i bredden",
+    "source": "8dc932fbc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenQuestion": {
+    "text": "Din skærm",
+    "source": "5701154928",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWall": {
+    "text": "En tablet på væggen",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWallLine": {
+    "text": "Faner i siden, store felter du kan læse fra den anden ende af rummet",
+    "source": "067ef89081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.splitTab": {
+    "text": "Del i to",
+    "source": "9b3fa9daf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startDescription": {
+    "text": "Et par spørgsmål, så bygger vi det hele: faner til hver del af dit hjem, oversigter og et udseende du kan lide.",
+    "source": "b59539875a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startName": {
+    "text": "Sæt mit hjem op",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepLayout": {
+    "text": "Faner",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepMatters": {
+    "text": "Det vigtige",
+    "source": "abfedb34c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepScreen": {
+    "text": "Skærm",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepSummaries": {
+    "text": "Oversigter",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepTabs": {
+    "text": "Dine faner",
+    "source": "d2f3941e3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepVibe": {
+    "text": "Din stil",
+    "source": "513df6b31f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesNone": {
+    "text": "Intet at opsummere her.",
+    "source": "7056806024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesOn": {
+    "text": "Oversigter på {tab}",
+    "source": "c6790afc16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitch": {
+    "text": "Oversigter på hver overskrift",
+    "source": "972548d460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchPage": {
+    "text": "tændte lys, temperatur, strømforbrug",
+    "source": "d1ee7636f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchTabs": {
+    "text": "pr. rum inde i en fane; hver fanes egne står øverst",
+    "source": "d22448810d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabAppliance": {
+    "text": "Hvidevarer",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabClimate": {
+    "text": "Klima",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCount": {
+    "text": "{count, plural, one {# fane} other {# faner}}",
+    "source": "398b9aa650",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCover": {
+    "text": "Persienner",
+    "source": "043aba8af9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabEmpty": {
+    "text": "intet på den, så den udelades",
+    "source": "bcfe8d2b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabHome": {
+    "text": "oversigter, stemninger og Flows",
+    "source": "452102f301",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLight": {
+    "text": "Lys",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLock": {
+    "text": "Sikkerhed",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabPlug": {
+    "text": "Stikkontakter",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabSensor": {
+    "text": "Sensorer",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTiles": {
+    "text": "{count, plural, one {# felt} other {# felter}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTooFull": {
+    "text": "for fuld",
+    "source": "59f0c598ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserTitle": {
+    "text": "Vælg et tema",
+    "source": "17d0232f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserUse": {
+    "text": "Brug dette tema",
+    "source": "9e11707ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeDefaultName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleFirst": {
+    "text": "Lad os sætte dit hjem op",
+    "source": "9279611c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleSetup": {
+    "text": "Sæt mit hjem op",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullText": {
+    "text": "{count} felter er mere end en fane kan vise godt. Del den i to, eller udelad noget.",
+    "source": "dc61858784",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullTitle": {
+    "text": "»{name}« er for fuld til én fane",
+    "source": "d595e0a9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.useTabs": {
+    "text": "Brug faner",
+    "source": "0e9ce8352f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeAllThemes": {
+    "text": "Alle temaer…",
+    "source": "d3a06990e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeBehind": {
+    "text": "Bag felterne",
+    "source": "1062d6062d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightLine": {
+    "text": "Lyst, luftigt, let at læse i et solrigt rum",
+    "source": "fa5c4407b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightName": {
+    "text": "Lyst og roligt",
+    "source": "c8bfa8e412",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningLine": {
+    "text": "Glødende toner over en rolig skumring",
+    "source": "eeb355ff16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningName": {
+    "text": "Hyggelig aften",
+    "source": "a950976693",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassLine": {
+    "text": "Frostede felter på drivende bølger",
+    "source": "2a056aed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassName": {
+    "text": "Glas over havet",
+    "source": "80e8440631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightLine": {
+    "text": "Mørkt og dæmpet, med silke i bevægelse",
+    "source": "5ad898eabf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightName": {
+    "text": "Vægpanel om natten",
+    "source": "e4bbe57761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperLine": {
+    "text": "Blæk på papir, til e-ink og rolige vægge",
+    "source": "cde489cd56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperName": {
+    "text": "Stille papir",
+    "source": "244fc169e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTheme": {
+    "text": "Tema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashLine": {
+    "text": "Vores egen: orange og is på sort",
+    "source": "2746540095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibesLabel": {
+    "text": "Et udseende at starte fra",
+    "source": "531c60f77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFavourites": {
+    "text": "Favoritter",
+    "source": "7a1f2a83ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordHome": {
+    "text": "Hjem",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordLights": {
+    "text": "Lys",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordMoods": {
+    "text": "Stemninger",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Tilføj",
     "source": "9fd728c66c",
@@ -7241,6 +8195,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.sizeScope.followsSquare": {
+    "text": "Viser arrangementet fra {desktop} på en kvadratisk skærm, med rækkerne tilpasset. Arranger det for at flytte og ændre størrelse på felter kun for kvadratiske skærme.",
+    "source": "d42cd5d0f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.sizeScope.followsTablet": {
     "text": "Den viser layoutet fra {desktop} i en tablets bredde. Arranger den for at flytte og ændre størrelse på felter kun til tablets.",
     "source": "4f6aecce7e",
@@ -7266,8 +8226,8 @@
     "reviewed": false
   },
   "editor.sizeScopeBar.arrange": {
-    "text": "Arranger til {size, select, phone {telefon} tablet {tablet} other {computer}}",
-    "source": "877ba2a462",
+    "text": "Arranger til {size, select, phone {telefon} tablet {tablet} square {kvadratisk skærm} other {computer}}",
+    "source": "a237d0bceb",
     "by": "ai",
     "reviewed": false
   },
@@ -8258,6 +9218,30 @@
   "editor.styleVariables.title": {
     "text": "Stilvariabler",
     "source": "de29a83af1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.count": {
+    "text": "{count, plural, =0 {Ingen oversigter endnu} one {# oversigt} other {# oversigter}}",
+    "source": "b4fade8b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.edit": {
+    "text": "Rediger…",
+    "source": "2b8a1a002b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.elsewhere": {
+    "text": "Sæt dem op på dashboardet.",
+    "source": "3930a6189b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.hint": {
+    "text": "Live-fakta som »3 lys tændt«, en total, en temperatur eller en Homey-værdi, hver med sine tryk.",
+    "source": "b147a6331e",
     "by": "ai",
     "reviewed": false
   },

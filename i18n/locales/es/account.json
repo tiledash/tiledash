@@ -1200,8 +1200,8 @@
     "reviewed": false
   },
   "account.configImport.group": {
-    "text": "{key, select, themes {{count, plural, one {# tema} other {# temas}}} presets {{count, plural, one {# preajuste de estilo} other {# preajustes de estilo}}} widgets {{count, plural, one {# widget o fragmento} other {# widgets y fragmentos}}} pictures {{count, plural, one {# imagen} other {# imágenes}}} testDevices {{count, plural, one {# dispositivo de prueba} other {# dispositivos de prueba}}} floorPlans {{count, plural, one {# plano} other {# planos}}} houses {{count, plural, one {# casa} other {# casas}}} other {{count, plural, one {# registro} other {# registros}}}}",
-    "source": "f84821998a",
+    "text": "{key, select, themes {{count, plural, one {# tema} other {# temas}}} presets {{count, plural, one {# preajuste de estilo} other {# preajustes de estilo}}} widgets {{count, plural, one {# widget o fragmento} other {# widgets y fragmentos}}} pictures {{count, plural, one {# imagen} other {# imágenes}}} testDevices {{count, plural, one {# dispositivo de prueba} other {# dispositivos de prueba}}} floorPlans {{count, plural, one {# plano} other {# planos}}} houses {{count, plural, one {# casa} other {# casas}}} dataFeeds {{count, plural, one {# fuente de datos} other {# fuentes de datos}}} other {{count, plural, one {# registro} other {# registros}}}}",
+    "source": "95ed5f84eb",
     "by": "ai",
     "reviewed": false
   },
@@ -1472,6 +1472,468 @@
   "account.credits.weatherText": {
     "text": "Datos meteorológicos de MET Norway (Locationforecast y Sunrise), con licencia Creative Commons Attribution 4.0.",
     "source": "b215b271b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.add": {
+    "text": "Nueva fuente de datos",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.appFirst": {
+    "text": "La mejor forma de traer tus propios datos es una app de Homey que cree un dispositivo para ellos: sus lecturas se registran con su historial, funcionan en Flows y se muestran en cualquier mosaico. Usa una fuente de datos para lo que ninguna app trae.",
+    "source": "bb7d462854",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budget": {
+    "text": "Hoy: {count} de {budget} consultas. Las fuentes obtenidas solo se consultan mientras está abierto algo que las muestra.",
+    "source": "d53ae30c7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.budgetUsed": {
+    "text": "Ya se usaron las {budget} consultas de hoy. Las fuentes obtenidas descansan hasta medianoche (UTC); las enviadas siguen funcionando.",
+    "source": "e4c999f7fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.cancel": {
+    "text": "Cancelar",
+    "source": "19766ed6cc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copied": {
+    "text": "Copiado",
+    "source": "8d525e5f15",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.copy": {
+    "text": "Copiar",
+    "source": "e21f935f11",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.create": {
+    "text": "Crear la fuente",
+    "source": "b8a7fc1bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogAdd": {
+    "text": "Nueva fuente de datos",
+    "source": "ded9d36e62",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.dialogEdit": {
+    "text": "Editar {name}",
+    "source": "2313fe21ea",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.done": {
+    "text": "Listo",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.edit": {
+    "text": "Editar",
+    "source": "464c4ffd01",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.empty": {
+    "text": "Aún no hay fuentes de datos. Crea una y luego elígela en el ajuste «Datos» de un mosaico de gráfico.",
+    "source": "ff142ea275",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.every": {
+    "text": "Obtener cada",
+    "source": "5b3dda6ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyDay": {
+    "text": "día",
+    "source": "944c27e5b9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyFree": {
+    "text": "Con Free, como mucho una vez por hora.",
+    "source": "7415db286d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyHours": {
+    "text": "{hours, plural, one {hora} other {# horas}}",
+    "source": "c35a4272de",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.everyMinutes": {
+    "text": "{minutes, plural, one {# min} other {# min}}",
+    "source": "510d98fafd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleCurl": {
+    "text": "curl",
+    "source": "427e4b79b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleHomeyScript": {
+    "text": "HomeyScript",
+    "source": "53ddfbad22",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinux": {
+    "text": "CPU de Linux",
+    "source": "898b647d18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.exampleLinuxAbout": {
+    "text": "Envía el uso de CPU de este equipo cada 10 segundos. La guía explica cómo mantenerlo en marcha.",
+    "source": "85175399ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.examples": {
+    "text": "Pruébalo",
+    "source": "fe69511137",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.failing": {
+    "text": "No funciona desde {time}:",
+    "source": "ca53f59872",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.goPro": {
+    "text": "Ver Pro",
+    "source": "5fb2bb5f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.header": {
+    "text": "Encabezado (opcional)",
+    "source": "2e8f881eb0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerKept": {
+    "text": "Su encabezado {name} se conserva y nunca se muestra. Escribe un valor nuevo para cambiarlo.",
+    "source": "ceb3003db3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerName": {
+    "text": "Nombre del encabezado",
+    "source": "c1dcc8fb31",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.headerValue": {
+    "text": "Valor",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.how": {
+    "text": "Cómo llegan los datos",
+    "source": "1e11562300",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPull": {
+    "text": "Obtenida por Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.howPush": {
+    "text": "Enviada a Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keptSince": {
+    "text": "Los mosaicos conservan sus datos de {ago}.",
+    "source": "6fa372ce3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyAbout": {
+    "text": "Se envía en un encabezado Authorization: Bearer o X-Api-Key. Desactívala solo si quien envía no puede poner encabezados.",
+    "source": "25d5fcd40c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.keyRequired": {
+    "text": "Pedir también una clave de API",
+    "source": "757932da0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPull": {
+    "text": "Obtenida de {host} cada {every}",
+    "source": "8359fb0b9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.kindPush": {
+    "text": "Enviada a Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.lead": {
+    "text": "Números de fuera de tu Homey para mosaicos de gráficos (indicadores, gráficos y desgloses): JSON que un script o un servicio envía a Tiledash, o que Tiledash obtiene de una dirección web.",
+    "source": "314ef71fff",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.limitFull": {
+    "text": "Las cuentas Free tienen una fuente de datos y ya está en uso. Pro tiene {max}, que se obtienen hasta cada 5 minutos, 500 veces al día.",
+    "source": "86964ed568",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.more": {
+    "text": "Más opciones de {name}",
+    "source": "f608d3348f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.name": {
+    "text": "Nombre",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.namePlaceholder": {
+    "text": "CPU del NAS",
+    "source": "ca295b5876",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.never": {
+    "text": "Aún no ha llegado nada",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newKey": {
+    "text": "Nueva clave de API",
+    "source": "e520a08228",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.newSecret": {
+    "text": "Nueva dirección",
+    "source": "b71b5df47d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.ok": {
+    "text": "Últimos datos {ago} · {size}",
+    "source": "e76bd3f3a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.paused": {
+    "text": "En pausa: Free tiene una fuente de datos. Sus mosaicos no muestran nada hasta que te pases a Pro o elimines otra.",
+    "source": "0b3aacaae0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotFound": {
+    "text": "la dirección respondió «no encontrado».",
+    "source": "bb7c745bf9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemNotJson": {
+    "text": "lo que llegó no es JSON.",
+    "source": "eb1906268f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRateLimited": {
+    "text": "envió datos más de una vez cada 5 segundos.",
+    "source": "0f4e43998f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemRefused": {
+    "text": "la dirección se negó y pidió una clave.",
+    "source": "1528638f64",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTimeout": {
+    "text": "la dirección tardó demasiado en responder.",
+    "source": "541666b991",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemTooBig": {
+    "text": "lo que llegó pasa de 256 KB.",
+    "source": "96ec439c68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.problemUnreachable": {
+    "text": "no se puede acceder a la dirección.",
+    "source": "03bd35768b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pullIdle": {
+    "text": "Solo se obtiene mientras está abierta una página, un enlace o una pantalla que la muestra, como mucho con esta frecuencia. Cada consulta cuenta para las {budget} del día.",
+    "source": "bc758af3fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.pushAbout": {
+    "text": "Recibes una dirección secreta. Un script, un Flow de Homey o un servicio le envía JSON, hasta una vez cada 5 segundos y 256 KB cada vez, y los mosaicos lo muestran al instante.",
+    "source": "5f6527d263",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.remove": {
+    "text": "Eliminar",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.resting": {
+    "text": "Descansa hasta mañana: ya se usaron las consultas de hoy. Sus mosaicos conservan los últimos datos.",
+    "source": "157092f3c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.save": {
+    "text": "Guardar",
+    "source": "1509f561f2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretKey": {
+    "text": "Clave de API",
+    "source": "16f0ee47f9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretUrl": {
+    "text": "Dirección",
+    "source": "56ef8f2095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsOnce": {
+    "text": "Cópialas ahora: solo se muestran una vez. ¿Las perdiste? Crea una dirección o clave nueva desde el menú de la fuente.",
+    "source": "4f7109c85a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.secretsTitle": {
+    "text": "Envía JSON aquí",
+    "source": "1d39767160",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.tiles": {
+    "text": "{count, plural, =0 {Ningún mosaico} one {# mosaico} other {# mosaicos}}",
+    "source": "8388034f87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.url": {
+    "text": "Dirección web",
+    "source": "45099c5588",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlKept": {
+    "text": "Se conserva la dirección de {host}. Escribe una nueva para cambiarla.",
+    "source": "23506d583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.urlProblem": {
+    "text": "Una dirección https de internet, como https://api.example.org/now.json.",
+    "source": "f472789792",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeeds.withKey": {
+    "text": "Con clave de API",
+    "source": "553b9d1c90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.failed": {
+    "text": "No se ha podido guardar la fuente de datos. Inténtalo de nuevo.",
+    "source": "953ed77652",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.loadFailed": {
+    "text": "No se han podido cargar las fuentes de datos.",
+    "source": "f3dab931b5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newAddressTitle": {
+    "text": "¿Crear una dirección nueva para «{name}»?",
+    "source": "7f7eb319c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.newKeyTitle": {
+    "text": "¿Crear una clave de API nueva para «{name}»?",
+    "source": "95e21733a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.remove": {
+    "text": "Eliminar",
+    "source": "e2d0a54968",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeText": {
+    "text": "Su dirección dejará de funcionar y los mosaicos que la leen no mostrarán nada hasta que elijas otra fuente.",
+    "source": "57cc89fff6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.removeTitle": {
+    "text": "¿Eliminar «{name}»?",
+    "source": "8e13216a05",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renew": {
+    "text": "Crear una nueva",
+    "source": "82f142a5bd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.dataFeedsHost.renewText": {
+    "text": "La anterior deja de funcionar al momento: lo que envía a esta fuente necesita la nueva.",
+    "source": "02a56b9ab2",
     "by": "ai",
     "reviewed": false
   },
@@ -4745,6 +5207,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "account.plans.rowDataFeeds": {
+    "text": "Fuentes de datos",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
   "account.plans.rowDetailed": {
     "text": "Historial detallado",
     "source": "e76b1ee026",
@@ -5474,6 +5942,18 @@
   "account.settings.calendarsAbout": {
     "text": "Calendarios que pueden mostrar tus widgets.",
     "source": "bb209c97e1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeeds": {
+    "text": "Fuentes de datos",
+    "source": "01ed660607",
+    "by": "ai",
+    "reviewed": false
+  },
+  "account.settings.dataFeedsAbout": {
+    "text": "Números de scripts y servicios para los gráficos de {homey}.",
+    "source": "bf07f0e3bf",
     "by": "ai",
     "reviewed": false
   },

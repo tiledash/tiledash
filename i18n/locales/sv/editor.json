@@ -197,6 +197,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.arrangeSize.cancel": {
+    "text": "Inte nu",
+    "source": "a0e63d7c71",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.description": {
+    "text": "{size} följer {desktop} nu: den visar {kind, select, phone {rutorna från {desktop} i läsordning} other {layouten från {desktop}}}, och bara {desktop} flyttar dem. För att flytta rutor här får {size} en egen layout, som börjar som den ser ut nu. {desktop} ändras inte, och Följ {desktop} igen ångrar det.",
+    "source": "ac243cf8b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.arrangeSize.title": {
+    "text": "Ge {size} en egen layout?",
+    "source": "acc08590fb",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.borderSides.allSides": {
     "text": "Alla sidor",
     "source": "f174b9ece0",
@@ -1895,6 +1913,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboard.moveDown": {
+    "text": "Flytta ned",
+    "source": "40bb50da16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboard.moveUp": {
+    "text": "Flytta upp",
+    "source": "c66feb5eb8",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboard.newStack": {
     "text": "Ny stapel",
     "source": "c300ef7aff",
@@ -2777,6 +2807,264 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dataSource.addValue": {
+    "text": "Lägg till ett värde",
+    "source": "e2f9f33fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feed": {
+    "text": "Dataflöde",
+    "source": "396c3cb18f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedFailing": {
+    "text": "Fungerar inte: {reason}",
+    "source": "02e68154c1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedLimit": {
+    "text": "Free-konton har ett dataflöde, och det används redan. Pro har {max}.",
+    "source": "a6d01626e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedNever": {
+    "text": "Inget har kommit in än",
+    "source": "0ef51661c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPull": {
+    "text": "Hämtas av Tiledash",
+    "source": "c6f855f5c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedPush": {
+    "text": "Skickas till Tiledash",
+    "source": "3c81c3257d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.feedUpdated": {
+    "text": "Senaste data kom {ago}",
+    "source": "60e976d782",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.find": {
+    "text": "Hitta talen",
+    "source": "bb7b0631c6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundItems": {
+    "text": "{count, plural, one {Hittade # objekt} other {Hittade # objekt}}",
+    "source": "f25b15bf3e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundMore": {
+    "text": "och {count} till",
+    "source": "1a2612705d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.foundValue": {
+    "text": "Hittade {value}",
+    "source": "15df7522c7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.from": {
+    "text": "Från",
+    "source": "2181976934",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromFeed": {
+    "text": "Dataflöde",
+    "source": "43a97d8e51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromHomey": {
+    "text": "Homey",
+    "source": "7f21ae7365",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromJson": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.fromVariable": {
+    "text": "Variabel",
+    "source": "e57e998726",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintDismiss": {
+    "text": "Uppfattat",
+    "source": "5ad3dbd124",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintText": {
+    "text": "”Hitta talen” går igenom JSON och fyller i var listan, namnen, tiderna och talen finns. Ändra en sökväg om den gissade fel; förhandsvisningen visar vad den hittar.",
+    "source": "ac15cb45a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.hintTitle": {
+    "text": "Den hittar talen åt dig",
+    "source": "9aebe74d36",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.itemName": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.json": {
+    "text": "JSON",
+    "source": "db1a21a0bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.newFeed": {
+    "text": "Nytt dataflöde…",
+    "source": "c0ab61498c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noData": {
+    "text": "Inget att läsa än",
+    "source": "7ba6d7fe18",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.noTextVariables": {
+    "text": "Den här Homey har inga textvariabler. Skapa en i Homeys Logic och låt ett Flow fylla den.",
+    "source": "d5e5f1cd94",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.notJson": {
+    "text": "Det här är inte JSON. Kanske saknas ett citattecken, ett kommatecken eller en parentes.",
+    "source": "fd148c41d2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.nothingFound": {
+    "text": "Inga tal där sökvägarna pekar. Prova ”Hitta talen”.",
+    "source": "8c04121a43",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.numbers": {
+    "text": "Talen",
+    "source": "2d915f82c8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathHelp": {
+    "text": "Sökvägar som $.data.rooms, eller inuti varje objekt som kwh. ~ är ett objekts nyckel.",
+    "source": "dc88970e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathItems": {
+    "text": "Lista",
+    "source": "6f202f54a7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathLabel": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathTime": {
+    "text": "Tid",
+    "source": "33b93476cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pathValue": {
+    "text": "Tal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickFeed": {
+    "text": "Välj ett dataflöde",
+    "source": "28eb541b7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.pickVariable": {
+    "text": "Välj en textvariabel",
+    "source": "b4bc94536e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewName": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.previewNumber": {
+    "text": "Tal",
+    "source": "bd82cf1669",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.range": {
+    "text": "Period",
+    "source": "5de74a81b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.readings": {
+    "text": "Mätvärden",
+    "source": "f3a97d4404",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.removeValue": {
+    "text": "Ta bort {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.tooBig": {
+    "text": "Det här är mer än ett diagram kan läsa (256 KB, 32 nivåer djupt).",
+    "source": "25aa80d864",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.value": {
+    "text": "Värde",
+    "source": "8e37953d23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dataSource.variable": {
+    "text": "Textvariabel",
+    "source": "00cddcb3e4",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.decimalsPicker.auto": {
     "text": "Auto",
     "source": "0286249762",
@@ -3252,8 +3540,8 @@
     "reviewed": false
   },
   "editor.everySize.detail": {
-    "text": "{phone}, {tablet} och {desktop} visar samma ruta; bara var den sitter kan skilja sig.",
-    "source": "3cb4f7053e",
+    "text": "{sizes} visar samma ruta; bara var den sitter kan skilja sig.",
+    "source": "d427e71898",
     "by": "ai",
     "reviewed": false
   },
@@ -3918,8 +4206,8 @@
     "reviewed": false
   },
   "editor.hiddenTray.noteEmpty": {
-    "text": "Inget är dolt. En rutas meny har <em>Dölj på {size}</em> för det du inte behöver på {device, select, phone {en mobil} tablet {en surfplatta} other {en stor skärm}}; den finns kvar på de andra storlekarna.",
-    "source": "fa5bbf620d",
+    "text": "Inget är dolt. En rutas meny har <em>Dölj på {size}</em> för det du inte behöver på {device, select, phone {en mobil} tablet {en surfplatta} square {en kvadratisk skärm} other {en stor skärm}}; den finns kvar på de andra storlekarna.",
+    "source": "4a6e75bae3",
     "by": "ai",
     "reviewed": false
   },
@@ -6863,6 +7151,672 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.setup.addTab": {
+    "text": "Lägg till flik",
+    "source": "0b8333b050",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeAttention": {
+    "text": "En punkt när något behöver uppmärksamhet",
+    "source": "37ed775cdd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeLights": {
+    "text": "Hur många lampor som är tända",
+    "source": "593edff63a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeNone": {
+    "text": "Inget",
+    "source": "67e1bca088",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.badgeOpenings": {
+    "text": "En punkt vid öppen dörr eller öppet fönster",
+    "source": "a42a535738",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byKind": {
+    "text": "En flik per typ",
+    "source": "0530f672a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byOwn": {
+    "text": "Mina egna",
+    "source": "69ba742adb",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byQuestion": {
+    "text": "Vilka flikar",
+    "source": "46f3029eee",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.byRoom": {
+    "text": "En flik per rum",
+    "source": "bbbded6d26",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.changeTab": {
+    "text": "Ändra {name}",
+    "source": "0363a16787",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLayout": {
+    "text": "Med flikar är varje del av hemmet ett tryck bort. En sida visar allt medan du skrollar.",
+    "source": "f651266b2b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descLook": {
+    "text": "Hur rutorna grupperas. × utelämnar en ruta.",
+    "source": "9cf6ece6a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descMatters": {
+    "text": "Markera rummen och sedan de sorters saker som är viktiga. Dina favoriter i Homey är redan valda.",
+    "source": "69d95a1c00",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descScreen": {
+    "text": "Var tittar du mest på den? Vi anpassar den efter den skärmen; de andra följer med.",
+    "source": "e659d4a734",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descSummaries": {
+    "text": "Vad varje flik sammanfattar överst på sin sida och vad dess flik visar, så att du ser vad som händer utan att öppna den.",
+    "source": "ad9737b7e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descTabs": {
+    "text": "Varje flik är en egen sida. Ändra vad som finns på den, eller lägg till en egen flik.",
+    "source": "7790a8268c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.descVibe": {
+    "text": "Välj ett utseende och finjustera sedan temat och det som syns bakom rutorna.",
+    "source": "c7ea5243f7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDescription": {
+    "text": "Det som visas på fliken. Rum och typer fyller den; markera enskilda saker för att ta med eller utelämna dem.",
+    "source": "9cd42b62d1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorDone": {
+    "text": "Klar",
+    "source": "11a6767d56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorIcon": {
+    "text": "Ikon",
+    "source": "a35abcd6da",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorName": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorOneByOne": {
+    "text": "En och en",
+    "source": "3b63fc613b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.editorTitle": {
+    "text": "Fliken ”{name}”",
+    "source": "09bcb3d18e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupAppliance": {
+    "text": "Hushållsapparater",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupClimate": {
+    "text": "Värme",
+    "source": "fd1f32a1cf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupCover": {
+    "text": "Persienner och gardiner",
+    "source": "cfb5ec429c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLight": {
+    "text": "Lampor",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupLock": {
+    "text": "Lås",
+    "source": "8ecd1d82f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupPlug": {
+    "text": "Uttag",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.groupSensor": {
+    "text": "Sensorer",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPage": {
+    "text": "En sida",
+    "source": "e18eba637e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutPageLine": {
+    "text": "Allt på en sida som skrollar, med en rubrik per rum.",
+    "source": "a42009c12f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutQuestion": {
+    "text": "Flikar eller en sida",
+    "source": "09e161268b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabs": {
+    "text": "Flikar",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.layoutTabsLine": {
+    "text": "En flik för varje del av hemmet. Rymmer mycket utan att skrolla.",
+    "source": "38ab183d7b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.maxTabs": {
+    "text": "En dashboard rymmer högst tolv flikar.",
+    "source": "aa90fe47af",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveDown": {
+    "text": "Flytta ned {name}",
+    "source": "1e94688825",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.moveUp": {
+    "text": "Flytta upp {name}",
+    "source": "d1332175b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nameLabel": {
+    "text": "Namn",
+    "source": "dcd1d5223f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.newTabName": {
+    "text": "Ny flik",
+    "source": "1e08fda9c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.nothingOnTab": {
+    "text": "Inget på den här fliken än",
+    "source": "0dc33c343f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTab": {
+    "text": "På fliken",
+    "source": "6025d2eb0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.onTheTabLabel": {
+    "text": "På fliken {tab}",
+    "source": "b2e07f6105",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.pageTooFullText": {
+    "text": "{count} rutor. Med flikar får de plats utan att skrolla.",
+    "source": "69403a1b60",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.previewLabel": {
+    "text": "Förhandsvisning av din dashboard",
+    "source": "100ba3b8d5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.recommended": {
+    "text": "Rekommenderas",
+    "source": "d70604e843",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeHintTabs": {
+    "text": "Tryck på × för att utelämna en ruta. Tryck på en flik för att se den.",
+    "source": "089f3c8b6e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.removeTab": {
+    "text": "Ta bort {name}",
+    "source": "e6a3c4a125",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktop": {
+    "text": "En dator",
+    "source": "ee65ffb54d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenDesktopLine": {
+    "text": "Flikar överst, plats för mer på en skärm",
+    "source": "8e941c1cfc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhone": {
+    "text": "Min mobil",
+    "source": "c2845da052",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenPhoneLine": {
+    "text": "Flikar överst, två rutor i bredd",
+    "source": "8dc932fbc2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenQuestion": {
+    "text": "Din skärm",
+    "source": "5701154928",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWall": {
+    "text": "En surfplatta på väggen",
+    "source": "0922a824b7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.screenWallLine": {
+    "text": "Flikar i kanten, stora rutor som syns från andra sidan rummet",
+    "source": "067ef89081",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.splitTab": {
+    "text": "Dela i två",
+    "source": "9b3fa9daf1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startDescription": {
+    "text": "Några frågor, så bygger vi helheten: flikar för varje del av hemmet, sammanfattningar och ett utseende du gillar.",
+    "source": "b59539875a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.startName": {
+    "text": "Ställ in mitt hem",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepLayout": {
+    "text": "Flikar",
+    "source": "8e5ea50989",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepMatters": {
+    "text": "Det viktiga",
+    "source": "abfedb34c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepScreen": {
+    "text": "Skärm",
+    "source": "6e56137e21",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepSummaries": {
+    "text": "Sammanfattningar",
+    "source": "87bc590e04",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepTabs": {
+    "text": "Dina flikar",
+    "source": "d2f3941e3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.stepVibe": {
+    "text": "Din stil",
+    "source": "513df6b31f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesNone": {
+    "text": "Inget här att sammanfatta.",
+    "source": "7056806024",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesOn": {
+    "text": "Sammanfattningar på {tab}",
+    "source": "c6790afc16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitch": {
+    "text": "Sammanfattningar vid varje rubrik",
+    "source": "972548d460",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchPage": {
+    "text": "tända lampor, temperatur, effekt",
+    "source": "d1ee7636f1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.summariesSwitchTabs": {
+    "text": "per rum i en flik; varje fliks egna står överst",
+    "source": "d22448810d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabAppliance": {
+    "text": "Apparater",
+    "source": "b8ab7d4e77",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabClimate": {
+    "text": "Klimat",
+    "source": "b56901697f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCount": {
+    "text": "{count, plural, one {# flik} other {# flikar}}",
+    "source": "398b9aa650",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabCover": {
+    "text": "Persienner",
+    "source": "043aba8af9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabEmpty": {
+    "text": "inget på den, så den utelämnas",
+    "source": "bcfe8d2b51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabHome": {
+    "text": "sammanfattningar, stämningar, Flows",
+    "source": "452102f301",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLight": {
+    "text": "Lampor",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabLock": {
+    "text": "Säkerhet",
+    "source": "8f6fb4eb7f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabPlug": {
+    "text": "Uttag",
+    "source": "969515329e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabSensor": {
+    "text": "Sensorer",
+    "source": "76140e34f6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTiles": {
+    "text": "{count, plural, one {# ruta} other {# rutor}}",
+    "source": "fcfa4b9417",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tabTooFull": {
+    "text": "för full",
+    "source": "59f0c598ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserTitle": {
+    "text": "Välj ett tema",
+    "source": "17d0232f23",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeBrowserUse": {
+    "text": "Använd det här temat",
+    "source": "9e11707ee0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.themeDefaultName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleFirst": {
+    "text": "Nu ställer vi in ditt hem",
+    "source": "9279611c59",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.titleSetup": {
+    "text": "Ställ in mitt hem",
+    "source": "699a07904f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullText": {
+    "text": "{count} rutor är mer än en flik visar bra. Dela den i två, eller utelämna saker.",
+    "source": "dc61858784",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.tooFullTitle": {
+    "text": "”{name}” är för full för en flik",
+    "source": "d595e0a9e5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.useTabs": {
+    "text": "Använd flikar",
+    "source": "0e9ce8352f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeAllThemes": {
+    "text": "Alla teman…",
+    "source": "d3a06990e4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeBehind": {
+    "text": "Bakom rutorna",
+    "source": "1062d6062d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightLine": {
+    "text": "Ljust, luftigt, lättläst i ett soligt rum",
+    "source": "fa5c4407b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeDaylightName": {
+    "text": "Ljust och lugnt",
+    "source": "c8bfa8e412",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningLine": {
+    "text": "Glödtoner mot en lugn skymningshimmel",
+    "source": "eeb355ff16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeEveningName": {
+    "text": "Mysig kväll",
+    "source": "a950976693",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassLine": {
+    "text": "Frostade rutor över böljande vågor",
+    "source": "2a056aed30",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeGlassName": {
+    "text": "Glas över havet",
+    "source": "80e8440631",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightLine": {
+    "text": "Mörkt och dämpat, siden rör sig bakom",
+    "source": "5ad898eabf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeNightName": {
+    "text": "Nattlig väggpanel",
+    "source": "e4bbe57761",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperLine": {
+    "text": "Bläck på papper, för e-ink och lugna väggar",
+    "source": "cde489cd56",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePaperName": {
+    "text": "Stilla papper",
+    "source": "244fc169e7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibePro": {
+    "text": "Pro",
+    "source": "957b0b8745",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTheme": {
+    "text": "Tema",
+    "source": "efb52e7172",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashLine": {
+    "text": "Vår egen: orange och is på svart",
+    "source": "2746540095",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibeTiledashName": {
+    "text": "Tiledash",
+    "source": "85acdfa774",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.vibesLabel": {
+    "text": "Ett utseende att utgå från",
+    "source": "531c60f77d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFavourites": {
+    "text": "Favoriter",
+    "source": "7a1f2a83ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordFlows": {
+    "text": "Flows",
+    "source": "53544e3114",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordHome": {
+    "text": "Hem",
+    "source": "3a78695388",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordLights": {
+    "text": "Lampor",
+    "source": "18786940ec",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.setup.wordMoods": {
+    "text": "Stämningar",
+    "source": "6bae2b4628",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.showWhen.add": {
     "text": "Lägg till",
     "source": "9fd728c66c",
@@ -7241,6 +8195,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.sizeScope.followsSquare": {
+    "text": "Visar layouten för {desktop} på en kvadratisk skärm, med raderna anpassade. Ordna den för att flytta och ändra storlek på rutor bara för kvadratiska skärmar.",
+    "source": "d42cd5d0f7",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.sizeScope.followsTablet": {
     "text": "Den visar layouten från {desktop} i en surfplattas bredd. Ordna den för att flytta och ändra storlek på rutor bara för surfplattor.",
     "source": "4f6aecce7e",
@@ -7266,8 +8226,8 @@
     "reviewed": false
   },
   "editor.sizeScopeBar.arrange": {
-    "text": "Ordna för {size, select, phone {mobil} tablet {surfplatta} other {dator}}",
-    "source": "877ba2a462",
+    "text": "Ordna för {size, select, phone {mobil} tablet {surfplatta} square {kvadratisk skärm} other {dator}}",
+    "source": "a237d0bceb",
     "by": "ai",
     "reviewed": false
   },
@@ -8258,6 +9218,30 @@
   "editor.styleVariables.title": {
     "text": "Stilvariabler",
     "source": "de29a83af1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.count": {
+    "text": "{count, plural, =0 {Inga sammanfattningar än} one {# sammanfattning} other {# sammanfattningar}}",
+    "source": "b4fade8b16",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.edit": {
+    "text": "Redigera…",
+    "source": "2b8a1a002b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.elsewhere": {
+    "text": "Ställ in dem på dashboarden.",
+    "source": "3930a6189b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.summariesField.hint": {
+    "text": "Livefakta som ”3 lampor tända”, en summa, en temperatur eller ett Homey-värde, var och en med sina tryck.",
+    "source": "b147a6331e",
     "by": "ai",
     "reviewed": false
   },

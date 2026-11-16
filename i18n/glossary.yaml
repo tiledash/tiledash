@@ -329,8 +329,9 @@ terms:
     da: { preferred: udseende }
   - term: appliance
     meaning: A household machine (fridge, washing machine); the item type, not a Homey device.
-    # The appliance widget's settings.
-    except: [code.richFields.*]
+    # The appliance widget's settings, and Set up my home's short tab name (14 characters, too
+    # short for the word in most languages).
+    except: [code.richFields.*, editor.setup.tabAppliance]
     nl:
       preferred: huishoudapparaat
       notes: Keep it apart from device, which is apparaat.
@@ -375,6 +376,7 @@ terms:
       - editor.peopleValues.loadingTitle
       # "reading order", the order a page is read in.
       - editor.sizeScope.followsPhone
+      - editor.arrangeSize.description
       # Reading a backup file or a Homey's devices.
       - account.configImport.syncingTitle
       - account.configImport.syncingDetail

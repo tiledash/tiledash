@@ -5535,6 +5535,48 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
   },
+  "code.richKinds.data": {
+    "en": "Data for a chart",
+    "context": "Kind of setting (82.3): where a chart’s numbers come from: the Homey, a data feed, JSON typed in or a text variable.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.dataFromLabel": {
+    "en": "Can come from",
+    "context": "Label of the ticks for where a data setting’s numbers may come from.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.dataFromWord": {
+    "en": "{from, select, homey {Homey} feed {data feeds} json {JSON} other {variables}}",
+    "context": "Part of a data setting’s line: where its numbers may come from. Keep “Homey” and “JSON” as they are.",
+    "params": {
+      "from": "homey, feed, json or variable."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.dataReads": {
+    "en": "one value, several, or values over time",
+    "context": "What a data setting gives the template. Lower case.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.dataShape": {
+    "en": "{shape, select, value {one value} list {several values} other {values over time}}",
+    "context": "Part of a data setting’s line on its card: what it gives, one value (a gauge), several values now (a pie) or values over time (a chart). Lower case.",
+    "params": {
+      "shape": "value, list or series."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.dataShapeLabel": {
+    "en": "Gives",
+    "context": "Label of the choice of what a data setting gives: one value, several values, values over time.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
   "code.richKinds.energy": {
     "en": "Energy",
     "context": "Kind of setting: the parts of the energy flow (grid, solar…).",
@@ -5610,6 +5652,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
   },
+  "code.richKinds.newData": {
+    "en": "Data",
+    "context": "The label a new data setting gets.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
   "code.richKinds.newEnergy": {
     "en": "Energy",
     "context": "The label a new Energy setting gets.",
@@ -5643,6 +5691,12 @@
   "code.richKinds.newReadings": {
     "en": "Readings",
     "context": "The label a new Readings setting gets.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.newSummaries": {
+    "en": "Summaries",
+    "context": "The label a new Summaries setting gets.",
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
   },
@@ -5756,6 +5810,18 @@
       "source": "reading, variable or host."
     },
     "maxLength": 24,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.summaries": {
+    "en": "Summaries",
+    "context": "Kind of setting: live facts like \"3 lights on\", as a dashboard’s title has them.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
+  },
+  "code.richKinds.summariesReads": {
+    "en": "live facts, drawn by hd-summaries",
+    "context": "What a summaries setting gives the template: summaries that the hd-summaries element draws. Lower case; keep \"hd-summaries\" as it is.",
+    "maxLength": 60,
     "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
   },
   "code.richKinds.tap": {
