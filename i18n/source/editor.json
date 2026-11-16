@@ -2045,6 +2045,12 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
+  "editor.dashboard.groupThese": {
+    "en": "Group these",
+    "context": "Button in the edit toolbar, shown while tiles are selected, next to \"Stack these\". It puts the selected tiles together in a new group: one tile that holds them on a panel with its own background and an optional title, all visible at once.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
+  },
   "editor.dashboard.hideOn": {
     "en": "Hide on {size}",
     "context": "Button in the edit toolbar, shown while tiles are selected and a screen size other than the desktop is being edited. It hides the selected tiles on that size only, such as \"Hide on Phone\".",
@@ -2072,6 +2078,12 @@
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
+  "editor.dashboard.inGroup": {
+    "en": "In the group",
+    "context": "Status at the left of the floating edit toolbar while a group is being edited where it is on the dashboard (its tiles can be moved and resized; the rest of the dashboard is faded). A group is one tile that holds tiles together on a panel with its own background.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
+  },
   "editor.dashboard.inStack": {
     "en": "In the stack",
     "context": "Status at the left of the floating edit toolbar while a stack is being edited where it is on the dashboard (its tiles can be moved and resized; the rest of the dashboard is faded). A stack is one tile that shows several pages of tiles.",
@@ -2088,6 +2100,12 @@
     "en": "Move up",
     "context": "Icon button with an up arrow in the edit toolbar on a phone or tablet, shown while one tile is selected. It moves the tile one place earlier on the dashboard, swapping it with the tile before it. Read out by screen readers and shown as a tooltip.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
+  },
+  "editor.dashboard.newGroup": {
+    "en": "New group",
+    "context": "Choice of the \"Put into\" menu, after \"New stack\". It makes a new group (one tile that holds tiles together on a panel with its own background) and puts the selected tiles in it.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
   "editor.dashboard.newStack": {
@@ -11463,6 +11481,15 @@
     "en": "Stack added",
     "context": "Notification (toast) after the person made a new Stack from the widgets they picked in the widget picker; each pick fills a page of the stack. A stack is a tile that holds several tiles as pages.",
     "maxLength": 30,
+    "file": "apps/web/src/dashboards/childTiles/useStackThese.messages.ts"
+  },
+  "editor.useStackThese.grouped": {
+    "en": "{count, plural, one {Tile grouped} other {# tiles grouped}}",
+    "context": "Notification (toast) after the person put the selected tiles into a new Group. An Undo button next to it puts the tiles back where they were. A group is a tile that holds several tiles together on one panel with its own background.",
+    "params": {
+      "count": "How many tiles were grouped. A number, at least 1."
+    },
+    "maxLength": 85,
     "file": "apps/web/src/dashboards/childTiles/useStackThese.messages.ts"
   },
   "editor.useStackThese.stacked": {
