@@ -2075,9 +2075,75 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.dropAtEnd": {
+    "text": "Släpp i {where}, sist",
+    "source": "ebdaa1bfa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropFull": {
+    "text": "{where} är full",
+    "source": "b88b177e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropHoldsTiles": {
+    "text": "Har egna rutor, kan inte läggas i",
+    "source": "0606120572",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropInto": {
+    "text": "Släpp i {where}",
+    "source": "1c488689ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropKind": {
+    "text": "Den här sorten kan inte läggas i",
+    "source": "222f9ea4c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropNoRoom": {
+    "text": "Ingen plats i {where}",
+    "source": "972c07c40d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.hiddenNow": {
     "text": "Dold nu · {reason}",
     "source": "c4889eb8dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropAtEnd": {
+    "text": "Över {where}. Släpp för att lägga i den, sist.",
+    "source": "a584c43f13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropInto": {
+    "text": "Över {where}. Släpp för att lägga i den.",
+    "source": "9e631f2c61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropRefused": {
+    "text": "Kan inte läggas i {where}: {why}",
+    "source": "05f73db245",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveMoveToPage": {
+    "text": "Släpp för att flytta den till {page}.",
+    "source": "0576a495e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveTakeOut": {
+    "text": "Släpp för att ta ut den här.",
+    "source": "d1106f8433",
     "by": "ai",
     "reviewed": false
   },
@@ -2159,9 +2225,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.moveToPage": {
+    "text": "Flytta till {page}",
+    "source": "c5543e65ab",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.options": {
     "text": "Alternativ för {label}",
     "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.selectTile": {
+    "text": "Välj {label}",
+    "source": "0b87b75a03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.takeOutHere": {
+    "text": "Ta ut här",
+    "source": "80af96115b",
     "by": "ai",
     "reviewed": false
   },
@@ -6791,6 +6875,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.putIntoDragHint.text": {
+    "text": "Nästa gång kan du dra en ruta till gruppen eller stapeln och hålla den där tills den öppnas. Släpp den sedan där rutan ska vara.",
+    "source": "78f233f387",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.putIntoDragHint.title": {
+    "text": "Eller dra in dem",
+    "source": "69e4660c1a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.readingSummary.change": {
     "text": "Byt",
     "source": "c0bf75bd78",
@@ -10277,6 +10373,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.touchSelection.text": {
+    "text": "Tryck på kryssrutorna för att välja flera rutor. Gruppera dem sedan, skapa en stapel eller ändra deras stil samtidigt.",
+    "source": "a12d0c7c1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.touchSelection.title": {
+    "text": "Välj flera rutor",
+    "source": "bdd1fb0080",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.addFailed": {
     "text": "Det gick inte att lägga till.",
     "source": "5a3833296b",
@@ -10319,9 +10427,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.moveIntoFailed": {
+    "text": "Det gick inte att flytta.",
+    "source": "abe3ba4a3b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moved": {
     "text": "{count, plural, one {Flyttad till {page}} other {# rutor flyttade till {page}}}",
     "source": "b182aa38dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.movedInto": {
+    "text": "{count, plural, one {Rutan flyttad till {where}} other {# rutor flyttade till {where}}}",
+    "source": "ab61a1af93",
     "by": "ai",
     "reviewed": false
   },

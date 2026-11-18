@@ -141,6 +141,66 @@
     "maxLength": 40,
     "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
   },
+  "tours.steps.dragAcrossBody": {
+    "en": "From an open group or stack, hold a tile over another one until it lights up, then let go.",
+    "context": "Text of that step: moving a tile from one group or stack straight into another.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragAcrossTitle": {
+    "en": "Into another one",
+    "context": "Title of the tour step about dragging a tile from one opened group or stack into another group or stack.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragEndBody": {
+    "en": "When a tile can’t go in, it says why and nothing moves. Escape lets go while you keep the tile.",
+    "context": "Text of that card. While dragging, a label says why a group or stack can’t take the tile; pressing Escape lets go of the group or stack, but the tile stays in the hand.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragEndTitle": {
+    "en": "That’s dragging tiles",
+    "context": "Title of the card at the end of the tour about dragging tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragIntoBody": {
+    "en": "Drag a tile onto it and hold it there until it opens. Let go where the box shows.",
+    "context": "Text of that step, pointing at a group or stack on the dashboard. Resting a dragged tile on it opens it in place; a dashed box shows where the tile will land.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragIntoTitle": {
+    "en": "Into a group or stack",
+    "context": "Title of the first step of the tour about dragging tiles, while editing a dashboard. A group and a stack are tiles that hold tiles of their own (a stack shows them as pages with tabs).",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragOutBody": {
+    "en": "Drag a tile past the edge of an open group or stack. Take out here shows where it lands.",
+    "context": "Text of that step. \"Take out here\" is the label shown on the dashboard while doing it; keep it as the app translates that label.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragOutTitle": {
+    "en": "Out again",
+    "context": "Title of the tour step about dragging a tile out of an opened group or stack, back onto the dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragPageBody": {
+    "en": "On a stack, hold the tile on a page’s tab until the page turns, then let go.",
+    "context": "Text of that step. A stack of tiles has pages with tabs; resting a dragged tile on a tab shows that page.",
+    "maxLength": 130,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
+  "tours.steps.dragPageTitle": {
+    "en": "Onto another page",
+    "context": "Title of the tour step about dropping a tile on another page of a stack of tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/patterns/tour/tourSteps.messages.ts"
+  },
   "tours.steps.endTour": {
     "en": "End the tour",
     "context": "Label (for screen readers and on hover) of the × button that closes the tour.",

@@ -2075,9 +2075,75 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.dropAtEnd": {
+    "text": "Déposer dans {where}, à la fin",
+    "source": "ebdaa1bfa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropFull": {
+    "text": "{where} est plein",
+    "source": "b88b177e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropHoldsTiles": {
+    "text": "Contient des tuiles, ne peut pas y aller",
+    "source": "0606120572",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropInto": {
+    "text": "Déposer dans {where}",
+    "source": "1c488689ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropKind": {
+    "text": "Ce type ne peut pas y aller",
+    "source": "222f9ea4c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropNoRoom": {
+    "text": "Plus de place dans {where}",
+    "source": "972c07c40d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.hiddenNow": {
     "text": "Masquée en ce moment · {reason}",
     "source": "c4889eb8dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropAtEnd": {
+    "text": "Sur {where}. Relâchez pour l’y mettre, à la fin.",
+    "source": "a584c43f13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropInto": {
+    "text": "Sur {where}. Relâchez pour l’y mettre.",
+    "source": "9e631f2c61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropRefused": {
+    "text": "Ne peut pas aller dans {where} : {why}",
+    "source": "05f73db245",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveMoveToPage": {
+    "text": "Relâchez pour la déplacer vers {page}.",
+    "source": "0576a495e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveTakeOut": {
+    "text": "Relâchez pour la sortir ici.",
+    "source": "d1106f8433",
     "by": "ai",
     "reviewed": false
   },
@@ -2159,9 +2225,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.moveToPage": {
+    "text": "Vers {page}",
+    "source": "c5543e65ab",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.options": {
     "text": "Options de {label}",
     "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.selectTile": {
+    "text": "Sélectionner {label}",
+    "source": "0b87b75a03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.takeOutHere": {
+    "text": "Sortir ici",
+    "source": "80af96115b",
     "by": "ai",
     "reviewed": false
   },
@@ -6791,6 +6875,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.putIntoDragHint.text": {
+    "text": "La prochaine fois, faites glisser une tuile sur le groupe ou la pile et maintenez-la jusqu’à l’ouverture. Relâchez-la ensuite là où elle doit aller.",
+    "source": "78f233f387",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.putIntoDragHint.title": {
+    "text": "Ou faites-les glisser",
+    "source": "69e4660c1a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.readingSummary.change": {
     "text": "Changer",
     "source": "c0bf75bd78",
@@ -10277,6 +10373,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.touchSelection.text": {
+    "text": "Touchez les cases pour sélectionner plusieurs tuiles. Regroupez-les ensuite, créez une pile ou modifiez leur style en une fois.",
+    "source": "a12d0c7c1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.touchSelection.title": {
+    "text": "Sélectionner plusieurs tuiles",
+    "source": "bdd1fb0080",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.addFailed": {
     "text": "Impossible d’ajouter les tuiles.",
     "source": "5a3833296b",
@@ -10319,9 +10427,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.moveIntoFailed": {
+    "text": "Impossible de déplacer cela.",
+    "source": "abe3ba4a3b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moved": {
     "text": "{count, plural, one {Tuile déplacée vers {page}} other {# tuiles déplacées vers {page}}}",
     "source": "b182aa38dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.movedInto": {
+    "text": "{count, plural, one {Tuile déplacée dans {where}} other {# tuiles déplacées dans {where}}}",
+    "source": "ab61a1af93",
     "by": "ai",
     "reviewed": false
   },

@@ -2248,6 +2248,54 @@
     "maxLength": 190,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
+  "editor.dashboardGrid.dropAtEnd": {
+    "en": "Drop into {where}, at the end",
+    "context": "Label over a widget that holds tiles while a tile is dragged onto it and held there, where the tile can only go after the tiles already in it (the widget lays them out itself). Short, on a small coloured pill.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.dropFull": {
+    "en": "{where} is full",
+    "context": "Label over a widget that holds tiles while a tile is dragged onto it and it already holds as many tiles as it can. Short, on a small pill.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.dropHoldsTiles": {
+    "en": "Holds tiles itself, can’t go in",
+    "context": "Label over a group or stack of tiles while a tile is dragged onto it that holds tiles of its own (another group or stack): it can not be put inside. Short, on a small pill.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.dropInto": {
+    "en": "Drop into {where}",
+    "context": "Label over a group or stack of tiles while a tile is dragged onto it in edit mode and held there: letting go puts the tile in. Short, on a small coloured pill.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.dropKind": {
+    "en": "This kind can’t go in",
+    "context": "Label over a widget that holds tiles while a tile is dragged onto it that it does not take (for example it only takes flows). Short, on a small pill.",
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.dropNoRoom": {
+    "en": "No room in {where}",
+    "context": "Label over a group of tiles while a tile is dragged onto it and there is no free space left for it. Short, on a small pill.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
   "editor.dashboardGrid.hiddenNow": {
     "en": "Hidden now · {reason}",
     "context": "Small label on a tile in edit mode that is not shown on the screen right now, followed by a dot and why (a short reason such as a condition that is not met). Starts with a small crossed-out eye.",
@@ -2255,6 +2303,49 @@
       "reason": "Why the tile is hidden, already a short phrase in the language of the page."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.liveDropAtEnd": {
+    "en": "Over {where}. Let go to put it in, at the end.",
+    "context": "Read out by screen readers (not shown) while a tile is dragged onto a widget that holds tiles and takes new ones after the ones in it.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.liveDropInto": {
+    "en": "Over {where}. Let go to put it in.",
+    "context": "Read out by screen readers (not shown) while a tile is dragged onto a group or stack of tiles and held there.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.liveDropRefused": {
+    "en": "Can’t go into {where}: {why}",
+    "context": "Read out by screen readers (not shown) while a tile is dragged onto a widget that can not take it. The reason follows the colon.",
+    "params": {
+      "where": "Where the tiles would go: the name of a group or stack of tiles on the dashboard, such as \"Radio\", or a stack and its page, such as \"Lights › Kitchen\". Not translated.",
+      "why": "Why not, one of the short labels such as \"This kind can’t go in\", already in the language of the page."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.liveMoveToPage": {
+    "en": "Let go to move it to {page}.",
+    "context": "Read out by screen readers (not shown) while a tile of an opened stack is dragged onto one of its other page tabs.",
+    "params": {
+      "page": "The name of a page of a stack of tiles, such as \"Kitchen\". Written by the person, not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.liveTakeOut": {
+    "en": "Let go to take it out here.",
+    "context": "Read out by screen readers (not shown) while a tile is dragged out of an opened group or stack of tiles onto the dashboard.",
+    "maxLength": 70,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
   "editor.dashboardGrid.menuArrange": {
@@ -2344,6 +2435,15 @@
     "maxLength": 24,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
+  "editor.dashboardGrid.moveToPage": {
+    "en": "Move to {page}",
+    "context": "Label over a page tab of an opened stack of tiles while a tile of the stack is dragged onto it: letting go moves the tile to that page. Short, on a small pill.",
+    "params": {
+      "page": "The name of a page of a stack of tiles, such as \"Kitchen\". Written by the person, not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
   "editor.dashboardGrid.options": {
     "en": "{label} options",
     "context": "Name of the small pencil button on a tile in edit mode that opens the menu of the tile, read out by screen readers and shown as a tooltip. It starts with the name of the tile, such as \"Kitchen light options\".",
@@ -2351,6 +2451,21 @@
       "label": "The name of the tile. Not translated."
     },
     "maxLength": 60,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.selectTile": {
+    "en": "Select {label}",
+    "context": "Screen-reader label of the checkbox inside a tile while editing by touch. Checking or unchecking it adds or removes this tile from a multiple selection.",
+    "params": {
+      "label": "The tile’s own name, for example Desk lamp."
+    },
+    "maxLength": 160,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.takeOutHere": {
+    "en": "Take out here",
+    "context": "Label in a dashed box on the dashboard while a tile is dragged out of an opened group or stack of tiles: letting go puts the tile on the dashboard there. Short, on a small pill.",
+    "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
   "editor.dashboardName.copyName": {
@@ -7455,6 +7570,18 @@
     "maxLength": 90,
     "file": "apps/web/src/dashboards/useStylePresets.messages.ts"
   },
+  "editor.putIntoDragHint.text": {
+    "en": "Next time, drag a tile onto the group or stack and hold it there until it opens. Then let go where the tile should go.",
+    "context": "One-time hint at a group or stack (widgets that hold tiles of their own) after someone used Put into from the edit toolbar. Dragging a tile onto it and resting there a moment opens it in place on the dashboard; letting go puts the tile on the cell under it.",
+    "maxLength": 180,
+    "file": "apps/web/src/dashboards/childTiles/PutIntoDragHint.messages.ts"
+  },
+  "editor.putIntoDragHint.title": {
+    "en": "Or drag them in",
+    "context": "Title of the one-time hint shown at a group or stack right after someone moved tiles into it with Put into on the edit toolbar. It tells them tiles can also be dragged into it. \"them\" is the tiles.",
+    "maxLength": 40,
+    "file": "apps/web/src/dashboards/childTiles/PutIntoDragHint.messages.ts"
+  },
   "editor.readingSummary.change": {
     "en": "Change",
     "context": "Small button beside the value a summary shows: it opens the picker to choose another value.",
@@ -11280,6 +11407,18 @@
     "maxLength": 30,
     "file": "packages/ui/src/dashboard/HdTimelineValues.messages.ts"
   },
+  "editor.touchSelection.text": {
+    "en": "Tap the checkboxes to select tiles together. Then group them, stack them or change their style in one go.",
+    "context": "One-time hint about multiple selection while editing a dashboard by touch. The checkboxes are inside the top-left corner of the tiles; a tap adds or removes one tile without clearing the other selected tiles.",
+    "maxLength": 180,
+    "file": "apps/web/src/dashboards/MobileTileSelectionHint.messages.ts"
+  },
+  "editor.touchSelection.title": {
+    "en": "Select several tiles",
+    "context": "Title of the one-time hint pointing at a tile’s checkbox when editing a dashboard on a phone or touchscreen.",
+    "maxLength": 48,
+    "file": "apps/web/src/dashboards/MobileTileSelectionHint.messages.ts"
+  },
   "editor.useChildTilesWindow.addFailed": {
     "en": "Couldn’t add that.",
     "context": "Red notification (toast) when adding tiles to a widget that holds tiles did not work, for example because the connection to Tiledash was lost.",
@@ -11325,12 +11464,28 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
   },
+  "editor.useChildTilesWindow.moveIntoFailed": {
+    "en": "Couldn’t move that.",
+    "context": "Red notification (toast) when moving tiles from one widget that holds tiles into another did not work, for example because the connection to Tiledash was lost.",
+    "maxLength": 40,
+    "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
+  },
   "editor.useChildTilesWindow.moved": {
     "en": "{count, plural, one {Moved to {page}} other {# tiles moved to {page}}}",
     "context": "Notification (toast) after tiles were moved to another page of a Stack (or similar widget with pages).",
     "params": {
       "count": "How many tiles were moved. A number, at least 1.",
       "page": "The name of the page they went to. The owner’s own name, not translated."
+    },
+    "maxLength": 120,
+    "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"
+  },
+  "editor.useChildTilesWindow.movedInto": {
+    "en": "{count, plural, one {Tile moved into {where}} other {# tiles moved into {where}}}",
+    "context": "Notification (toast) after tiles were dragged out of one widget that holds tiles (such as a Group) and let go on another, which they moved into. An Undo button next to it puts them back into the first one.",
+    "params": {
+      "count": "How many tiles were moved. A number, at least 1.",
+      "where": "The widget they went into: its name, and its page when it has pages, joined with ›, such as \"Lights › Kitchen\". The owner’s own names, not translated."
     },
     "maxLength": 120,
     "file": "apps/web/src/dashboards/childTiles/useChildTilesWindow.messages.ts"

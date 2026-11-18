@@ -2075,9 +2075,75 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.dropAtEnd": {
+    "text": "In {where} ablegen, am Ende",
+    "source": "ebdaa1bfa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropFull": {
+    "text": "{where} ist voll",
+    "source": "b88b177e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropHoldsTiles": {
+    "text": "Enthält selbst Kacheln, passt nicht hinein",
+    "source": "0606120572",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropInto": {
+    "text": "In {where} ablegen",
+    "source": "1c488689ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropKind": {
+    "text": "Diese Art passt nicht hinein",
+    "source": "222f9ea4c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropNoRoom": {
+    "text": "Kein Platz in {where}",
+    "source": "972c07c40d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.hiddenNow": {
     "text": "Jetzt ausgeblendet · {reason}",
     "source": "c4889eb8dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropAtEnd": {
+    "text": "Über {where}. Loslassen, um sie am Ende hineinzulegen.",
+    "source": "a584c43f13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropInto": {
+    "text": "Über {where}. Loslassen, um sie hineinzulegen.",
+    "source": "9e631f2c61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropRefused": {
+    "text": "Kann nicht in {where}: {why}",
+    "source": "05f73db245",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveMoveToPage": {
+    "text": "Loslassen, um sie auf „{page}“ zu verschieben.",
+    "source": "0576a495e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveTakeOut": {
+    "text": "Loslassen, um sie hier herauszunehmen.",
+    "source": "d1106f8433",
     "by": "ai",
     "reviewed": false
   },
@@ -2159,9 +2225,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.moveToPage": {
+    "text": "Auf „{page}“",
+    "source": "c5543e65ab",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.options": {
     "text": "Optionen für {label}",
     "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.selectTile": {
+    "text": "{label} auswählen",
+    "source": "0b87b75a03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.takeOutHere": {
+    "text": "Hier herausnehmen",
+    "source": "80af96115b",
     "by": "ai",
     "reviewed": false
   },
@@ -6791,6 +6875,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.putIntoDragHint.text": {
+    "text": "Ziehen Sie nächstes Mal eine Kachel auf die Gruppe oder den Stapel und halten Sie sie kurz dort, bis sich die Ansicht öffnet. Lassen Sie sie dann los, wo sie hin soll.",
+    "source": "78f233f387",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.putIntoDragHint.title": {
+    "text": "Oder hineinziehen",
+    "source": "69e4660c1a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.readingSummary.change": {
     "text": "Ändern",
     "source": "c0bf75bd78",
@@ -10277,6 +10373,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.touchSelection.text": {
+    "text": "Tippen Sie auf die Kontrollkästchen, um mehrere Kacheln auszuwählen. Erstellen Sie daraus Gruppen oder Stapel, oder ändern Sie den Stil gemeinsam.",
+    "source": "a12d0c7c1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.touchSelection.title": {
+    "text": "Mehrere Kacheln auswählen",
+    "source": "bdd1fb0080",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.addFailed": {
     "text": "Das konnte nicht hinzugefügt werden.",
     "source": "5a3833296b",
@@ -10319,9 +10427,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.moveIntoFailed": {
+    "text": "Konnte nicht verschoben werden.",
+    "source": "abe3ba4a3b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moved": {
     "text": "{count, plural, one {Auf „{page}“ verschoben} other {# Kacheln auf „{page}“ verschoben}}",
     "source": "b182aa38dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.movedInto": {
+    "text": "{count, plural, one {Kachel ist jetzt in {where}} other {# Kacheln sind jetzt in {where}}}",
+    "source": "ab61a1af93",
     "by": "ai",
     "reviewed": false
   },

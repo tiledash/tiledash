@@ -2075,9 +2075,75 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.dropAtEnd": {
+    "text": "Slip i {where}, til sidst",
+    "source": "ebdaa1bfa9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropFull": {
+    "text": "{where} er fuld",
+    "source": "b88b177e09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropHoldsTiles": {
+    "text": "Har selv felter, kan ikke lægges i",
+    "source": "0606120572",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropInto": {
+    "text": "Slip i {where}",
+    "source": "1c488689ab",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropKind": {
+    "text": "Denne slags kan ikke lægges i",
+    "source": "222f9ea4c2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.dropNoRoom": {
+    "text": "Ingen plads i {where}",
+    "source": "972c07c40d",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.hiddenNow": {
     "text": "Skjult nu · {reason}",
     "source": "c4889eb8dd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropAtEnd": {
+    "text": "Over {where}. Slip for at lægge det i, til sidst.",
+    "source": "a584c43f13",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropInto": {
+    "text": "Over {where}. Slip for at lægge det i.",
+    "source": "9e631f2c61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveDropRefused": {
+    "text": "Kan ikke lægges i {where}: {why}",
+    "source": "05f73db245",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveMoveToPage": {
+    "text": "Slip for at flytte det til {page}.",
+    "source": "0576a495e2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.liveTakeOut": {
+    "text": "Slip for at tage det ud her.",
+    "source": "d1106f8433",
     "by": "ai",
     "reviewed": false
   },
@@ -2159,9 +2225,27 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.dashboardGrid.moveToPage": {
+    "text": "Flyt til {page}",
+    "source": "c5543e65ab",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.dashboardGrid.options": {
     "text": "Indstillinger for {label}",
     "source": "1cc79d0bd9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.selectTile": {
+    "text": "Vælg {label}",
+    "source": "0b87b75a03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.dashboardGrid.takeOutHere": {
+    "text": "Tag ud her",
+    "source": "80af96115b",
     "by": "ai",
     "reviewed": false
   },
@@ -6791,6 +6875,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.putIntoDragHint.text": {
+    "text": "Næste gang kan du trække et felt hen på gruppen eller stakken og holde det der til den åbner. Slip det så der hvor feltet skal være.",
+    "source": "78f233f387",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.putIntoDragHint.title": {
+    "text": "Eller træk dem ind",
+    "source": "69e4660c1a",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.readingSummary.change": {
     "text": "Skift",
     "source": "c0bf75bd78",
@@ -10277,6 +10373,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.touchSelection.text": {
+    "text": "Tryk på afkrydsningsfelterne for at vælge flere felter. Gruppér dem derefter, lav en stak eller skift deres stil på én gang.",
+    "source": "a12d0c7c1f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.touchSelection.title": {
+    "text": "Vælg flere felter",
+    "source": "bdd1fb0080",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.addFailed": {
     "text": "Kunne ikke tilføje det.",
     "source": "5a3833296b",
@@ -10319,9 +10427,21 @@
     "by": "ai",
     "reviewed": false
   },
+  "editor.useChildTilesWindow.moveIntoFailed": {
+    "text": "Kunne ikke flytte det.",
+    "source": "abe3ba4a3b",
+    "by": "ai",
+    "reviewed": false
+  },
   "editor.useChildTilesWindow.moved": {
     "text": "{count, plural, one {Flyttet til {page}} other {# felter flyttet til {page}}}",
     "source": "b182aa38dc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "editor.useChildTilesWindow.movedInto": {
+    "text": "{count, plural, one {Felt flyttet til {where}} other {# felter flyttet til {where}}}",
+    "source": "ab61a1af93",
     "by": "ai",
     "reviewed": false
   },
