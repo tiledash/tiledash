@@ -2296,6 +2296,14 @@
     "maxLength": 50,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
+  "editor.dashboardGrid.fullScreenDescription": {
+    "en": "{label}, fills the screen",
+    "context": "Accessible description of a widget filling the dashboard area in edit mode.",
+    "params": {
+      "label": "The tile name, not translated."
+    },
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
   "editor.dashboardGrid.hiddenNow": {
     "en": "Hidden now · {reason}",
     "context": "Small label on a tile in edit mode that is not shown on the screen right now, followed by a dot and why (a short reason such as a condition that is not met). Starts with a small crossed-out eye.",
@@ -2396,6 +2404,14 @@
     "maxLength": 50,
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
+  "editor.dashboardGrid.menuFullScreen": {
+    "en": "Fill the screen on {size}",
+    "context": "Tile menu action to fill the available dashboard area on only the displayed screen size, keeping other sizes unchanged.",
+    "params": {
+      "size": "The translated screen size name, such as Phone or Desktop."
+    },
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
   "editor.dashboardGrid.menuHideOn": {
     "en": "Hide on {size}",
     "context": "Item of the menu of a tile in edit mode while a screen size other than the desktop is edited. It hides the tile on that size only, such as \"Hide on Phone\".",
@@ -2427,6 +2443,14 @@
     "en": "Remove from every size",
     "context": "Red item of the menu of a tile in edit mode while screen sizes (desktop, tablet, phone) are in use. It removes the tile from the dashboard on every screen size, not only the one being edited.",
     "maxLength": 32,
+    "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
+  },
+  "editor.dashboardGrid.menuStopFullScreen": {
+    "en": "Stop filling the screen on {size}",
+    "context": "Tile menu action to restore its previous grid or dock placement on this screen size.",
+    "params": {
+      "size": "The translated screen size name, such as Phone or Desktop."
+    },
     "file": "packages/ui/src/dashboard/HdDashboardGrid.messages.ts"
   },
   "editor.dashboardGrid.menuStyle": {
@@ -4161,6 +4185,28 @@
     },
     "maxLength": 70,
     "file": "packages/ui/src/dashboard/screenLayouts/HdFollowDesktopDialog.messages.ts"
+  },
+  "editor.fullScreenHint.text": {
+    "en": "A tile can fill this screen size without changing the others. Open its menu and choose Fill the screen.",
+    "context": "One-time hint for making the selected widget fill the available dashboard area on the current size only. Other tiles are kept and the previous layout can be restored.",
+    "file": "apps/web/src/dashboards/FullScreenTileHint.messages.ts"
+  },
+  "editor.fullScreenHint.title": {
+    "en": "Did you know?",
+    "context": "Title of the one-time hint pointing at a selected tile menu and its full-screen option.",
+    "file": "apps/web/src/dashboards/FullScreenTileHint.messages.ts"
+  },
+  "editor.headerTileHint.text": {
+    "en": "Move it, make it bigger or change its font. Its summaries are in its settings, and Style gives it padding or a card.",
+    "context": "Text of the one-time tip at the dashboard’s title tile (the \"Header\" widget). \"Style\" is the name of a button that opens a tile’s look (corners, padding, background).",
+    "maxLength": 160,
+    "file": "apps/web/src/dashboards/HeaderTileHint.messages.ts"
+  },
+  "editor.headerTileHint.title": {
+    "en": "Your title is a tile now",
+    "context": "Title of a one-time tip pointing at the tile at the top of a dashboard that shows the dashboard’s name and its summaries (the \"Header\" widget), shown while the dashboard is edited.",
+    "maxLength": 40,
+    "file": "apps/web/src/dashboards/HeaderTileHint.messages.ts"
   },
   "editor.headingSettings.add": {
     "en": "Add",
