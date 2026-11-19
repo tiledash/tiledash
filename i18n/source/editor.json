@@ -2060,21 +2060,9 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
-  "editor.dashboard.hintFixed": {
-    "en": "Click a tile to change or hide it",
-    "context": "Grey hint at the end of the edit toolbar, shown while no tile is selected on a screen size whose layout follows the desktop and cannot be moved by hand. It says tiles can be changed or hidden by clicking them.",
-    "maxLength": 50,
-    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
-  },
   "editor.dashboard.hintInStack": {
     "en": "Drag to move · corner to resize · Escape to go back",
     "context": "Grey hint at the end of the edit toolbar while a stack is being edited where it is. It explains how to work with its tiles: drag a tile to move it, drag its corner to resize it, and press Escape to go back to the whole dashboard. The dots separate three short instructions.",
-    "maxLength": 90,
-    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
-  },
-  "editor.dashboard.hintMovable": {
-    "en": "Drag to move · corner to resize · drag on empty space to select",
-    "context": "Grey hint at the end of the edit toolbar, shown while no tile is selected. It explains how to work with tiles with a mouse or finger: drag a tile to move it, drag its corner to resize and drag over empty space to select several. The dots separate three short instructions.",
     "maxLength": 90,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
@@ -2184,12 +2172,6 @@
     "en": "Summaries",
     "context": "Small button beside the dashboard name while editing, when the dashboard already has summaries (small live figures like \"3 lights on\"). It opens the dialog to change them.",
     "maxLength": 20,
-    "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
-  },
-  "editor.dashboard.titleHidden": {
-    "en": "Title hidden outside editing",
-    "context": "Grey note above the dashboard name while the dashboard is edited. The dashboard is set to hide its name and summaries when it is not being edited (for a sleep screen), so the person knows why they will not see them later.",
-    "maxLength": 40,
     "file": "packages/ui/src/screens/DashboardScreenEditing.messages.ts"
   },
   "editor.dashboardChoice.dashboards": {
@@ -3047,6 +3029,16 @@
     "en": "Drawn once where two tiles meet, never doubled; or none at all.",
     "context": "Help text under the choice for the line between touching tiles. A line is drawn once where two tiles meet, not once for each tile, or left out.",
     "maxLength": 100,
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.showPhoneAppBar": {
+    "en": "Show app bar on Phone",
+    "context": "Dashboard Layout switch for the menu, logo, search and account bar on Phone only.",
+    "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
+  },
+  "editor.dashboardSettings.showPhoneAppBarHint": {
+    "en": "Hide it on this dashboard for more room. Menu keeps navigation, search and editing within reach.",
+    "context": "Hint below the per-dashboard Phone app bar switch. Other sizes retain their app bar.",
     "file": "packages/ui/src/screens/DashboardSettingsDialog.messages.ts"
   },
   "editor.dashboardSettings.showTitle": {
@@ -6973,6 +6965,103 @@
     "context": "Heading of the second group in the People tab: each person of the household with their own values, such as home or asleep.",
     "maxLength": 20,
     "file": "packages/ui/src/dashboard/HdPeopleValues.messages.ts"
+  },
+  "editor.phoneAppBarHint.text": {
+    "en": "Use Menu for navigation, search or editing. You can also bring the app bar back here.",
+    "context": "Explains the replacement menu and restore option when the dashboard Phone app bar is hidden.",
+    "file": "apps/web/src/dashboards/PhoneAppBarHint.messages.ts"
+  },
+  "editor.phoneAppBarHint.title": {
+    "en": "Your menu is still here",
+    "context": "One-time hint pointing to the compact menu after hiding the Phone app bar.",
+    "file": "apps/web/src/dashboards/PhoneAppBarHint.messages.ts"
+  },
+  "editor.phoneEditBar.back": {
+    "en": "Back to the dashboard",
+    "context": "Label (for screen readers) of the back arrow in the phone edit bar while the tiles inside a Stack or Group are edited. It goes back to editing the whole dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.close": {
+    "en": "Close",
+    "context": "Label of the close (×) button on the sheet with the screen size and hidden tiles.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.editing": {
+    "en": "Editing",
+    "context": "Text on the small folded pill at the bottom while a dashboard is edited on a phone and saved, followed by the Done button.",
+    "maxLength": 16,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.fold": {
+    "en": "Fold the edit bar",
+    "context": "Label (for screen readers and as a tooltip) of the small arrow at the left of the edit bar on a phone. It folds the bar into a small pill, so the whole dashboard shows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.followsDesktop": {
+    "en": "Follows Desktop",
+    "context": "Second line of the size chip in the phone edit bar, under the size name (e.g. \"Phone\"): this size takes its tiles’ order from the Desktop layout.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.hidden": {
+    "en": "{count, plural, one {# hidden} other {# hidden}}",
+    "context": "Added to the size chip in the phone edit bar after \"Own layout\": how many tiles are hidden on this screen size. Short: the chip is small.",
+    "params": {
+      "count": "The number of tiles hidden on this size, at least 1."
+    },
+    "maxLength": 14,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.more": {
+    "en": "More",
+    "context": "Label (for screen readers) of the ⋯ button in the phone edit bar. It opens a menu: Heading, Summaries, Stack, the screen size and hidden tiles, and the dashboard settings.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.moreForSelection": {
+    "en": "More for the selected tiles",
+    "context": "Label (for screen readers) of the ⋯ button in the phone edit bar while tiles are selected. It opens a menu: move, duplicate, put into, hide on this size, remove.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.ownLayout": {
+    "en": "Own layout",
+    "context": "Second line of the size chip in the phone edit bar, under the size name (e.g. \"Phone\"): this size is arranged on its own, so changes here don’t move Desktop’s tiles.",
+    "maxLength": 20,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.sizeAndHidden": {
+    "en": "Screen size and hidden tiles",
+    "context": "Label (for screen readers) of the chip in the phone edit bar that names the screen size and its layout, and the menu item that opens the same sheet. The sheet says whether this size follows Desktop and lists the tiles hidden on it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.sizeAndHiddenItem": {
+    "en": "Screen size and hidden tiles…",
+    "context": "Item in the More menu of the phone edit bar. It opens a sheet from the bottom with the size’s layout (its own, or following Desktop) and the tiles hidden on this size.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBar.unfold": {
+    "en": "Show the edit bar",
+    "context": "Label (for screen readers) of the arrow on the small folded pill while editing on a phone. It brings the full edit bar back.",
+    "maxLength": 40,
+    "file": "packages/ui/src/dashboard/HdEditBar.messages.ts"
+  },
+  "editor.phoneEditBarHint.text": {
+    "en": "Fold the bar to see the dashboard without it. Done stays at hand.",
+    "context": "Text of the one-time hint at the edit bar on a phone: the arrow folds the bar into a small pill, so the whole dashboard shows; the Done button stays on the pill.",
+    "maxLength": 90,
+    "file": "apps/web/src/dashboards/PhoneEditBarHint.messages.ts"
+  },
+  "editor.phoneEditBarHint.title": {
+    "en": "See your dashboard",
+    "context": "Title of a one-time hint pointing at the small arrow at the left of the edit bar, the first time someone edits a dashboard on a phone.",
+    "maxLength": 32,
+    "file": "apps/web/src/dashboards/PhoneEditBarHint.messages.ts"
   },
   "editor.pickerPurpose.dashboardButton": {
     "en": "{count, plural, =0 {Add widget} one {Add widget} other {Add # widgets}}",

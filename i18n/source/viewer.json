@@ -890,10 +890,30 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
+  "viewer.dashboard.phoneMenu": {
+    "en": "Menu",
+    "context": "Compact pinned dashboard menu replacing the hidden Phone app bar.",
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.phoneNavigation": {
+    "en": "Navigation",
+    "context": "Opens the app navigation drawer, including account access, from the compact Phone menu.",
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.phoneSearch": {
+    "en": "Search…",
+    "context": "Opens the app search from the compact Phone menu.",
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
   "viewer.dashboard.reload": {
     "en": "Reload",
     "context": "Button in the warning banner that says the dashboard was changed elsewhere. It loads the newest saved version of the dashboard.",
     "maxLength": 16,
+    "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
+  },
+  "viewer.dashboard.showPhoneAppBar": {
+    "en": "Show app bar on Phone",
+    "context": "Restores the hidden menu, logo, search and account bar for this dashboard on Phone.",
     "file": "packages/ui/src/screens/DashboardScreen.messages.ts"
   },
   "viewer.dashboard.tileCount": {
