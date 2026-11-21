@@ -2270,6 +2270,269 @@
     "maxLength": 14,
     "file": "packages/widgets/src/energy/prices.messages.ts"
   },
+  "widgets.scriptParts.actAddToVariable": {
+    "en": "Add to a number variable",
+    "context": "An action a widget’s script may ask for: adding to (or taking from) a number Homey Logic variable.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actConfirm": {
+    "en": "Ask to confirm",
+    "context": "An action a widget’s script may ask for: a yes/no question in a dialog of the app.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actIncrement": {
+    "en": "Step a value up or down",
+    "context": "An action a widget’s script may ask for: raising or lowering a device’s value by a step.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actNavigate": {
+    "en": "Go to a dashboard",
+    "context": "An action a widget’s script may ask for: leaving this dashboard for another one.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actOpenCamera": {
+    "en": "Open a camera",
+    "context": "An action a widget’s script may ask for: showing a camera big and live in a dialog.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actOpenDashboard": {
+    "en": "Open a dashboard",
+    "context": "An action a widget’s script may ask for: opening another dashboard, as a page or a popup.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actOpenDevice": {
+    "en": "Open a device",
+    "context": "An action a widget’s script may ask for: opening a device’s own controls over the page.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actOpenHistory": {
+    "en": "Show a reading’s history",
+    "context": "An action a widget’s script may ask for: opening the history chart of one reading of a device.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actSet": {
+    "en": "Set a value",
+    "context": "An action a widget’s script may ask for: setting a device’s capability, like brightness or a target temperature.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actSetMood": {
+    "en": "Set a mood",
+    "context": "An action a widget’s script may ask for. A mood is one of the Homey’s presets for several devices at once (lights, blinds, music).",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actSetVariable": {
+    "en": "Set a variable",
+    "context": "An action a widget’s script may ask for: changing a Homey Logic variable.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actStartFlow": {
+    "en": "Start a flow",
+    "context": "An action a widget’s script may ask for. A flow is one of the Homey’s automations.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actToast": {
+    "en": "Show a short message",
+    "context": "An action a widget’s script may ask for: a short message that slides in at a corner and fades.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actToggle": {
+    "en": "Switch on or off",
+    "context": "An action a widget’s script may ask for: flipping a device’s on/off (or another yes/no capability).",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.actToggleVariable": {
+    "en": "Flip a yes/no variable",
+    "context": "An action a widget’s script may ask for: flipping a yes/no Homey Logic variable.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.advisories": {
+    "en": "{count, plural, one {# advisory} other {# advisories}}",
+    "context": "Under a library: how many security advisories are known for this version.",
+    "params": {
+      "count": "How many."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.license": {
+    "en": "Licence {license}",
+    "context": "Under a library: its software licence.",
+    "params": {
+      "license": "Licence name like MIT. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.malware": {
+    "en": "Known malware: it can’t be used",
+    "context": "Error under a library that public databases list as malicious.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.noAdvisories": {
+    "en": "No known advisories",
+    "context": "Under a library: no security advisories are known for this version.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.scorecard": {
+    "en": "Scorecard {score}/10",
+    "context": "Under a library: the OpenSSF Scorecard of its source repository, a security score.",
+    "params": {
+      "score": "A number from 0 to 10."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.unknownPackage": {
+    "en": "Not a known package",
+    "context": "Under a library whose address and bytes match no known package.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.unverified": {
+    "en": "{package}, unknown source",
+    "context": "Under a library: the package its address names, but its bytes couldn’t be matched.",
+    "params": {
+      "package": "Package name and version. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scriptParts.verified": {
+    "en": "{package}, verified",
+    "context": "Under a library: which package it is; verified means its bytes match the published package.",
+    "params": {
+      "package": "Package name and version, like \"chart.js 4.4.1\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptParts.messages.ts"
+  },
+  "widgets.scripts.devices": {
+    "en": "Switches and sets devices.",
+    "context": "What a widget’s script may do: turn devices on or off, set and step their values.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.flows": {
+    "en": "Starts flows and moods.",
+    "context": "What a widget’s script may do: start Homey flows and moods.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.given": {
+    "en": "Is given {parts}.",
+    "context": "What a widget’s script may read. {parts} is a joined list like “this device, its readings and the weather”.",
+    "params": {
+      "parts": "A list of what the script is given, already joined."
+    },
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.loads": {
+    "en": "Loads code from {hosts}.",
+    "context": "What a widget’s script may do. {hosts} is a list of web addresses, like “cdn.jsdelivr.net and unpkg.com”.",
+    "params": {
+      "hosts": "A list of host names, already joined."
+    },
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.nothing": {
+    "en": "Does nothing outside its own tile.",
+    "context": "What a widget’s script may do when it asks for no permission at all.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.pages": {
+    "en": "Opens pages in the app.",
+    "context": "What a widget’s script may do: open a device, its history, a camera or another dashboard.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partCap": {
+    "en": "its readings",
+    "context": "Part of “Is given …”: the device’s capability values.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partDevice": {
+    "en": "this device",
+    "context": "Part of “Is given …”: the tile’s device.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partEnergy": {
+    "en": "the home’s energy use",
+    "context": "Part of “Is given …”: energy use and production.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partPrices": {
+    "en": "energy prices",
+    "context": "Part of “Is given …”: the electricity prices.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partSettings": {
+    "en": "its settings, including what you type in them",
+    "context": "Part of “Is given …”: the tile’s settings; text typed into a setting goes to the script too.",
+    "maxLength": 80,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partShape": {
+    "en": "the tile’s size",
+    "context": "Part of “Is given …”: the tile’s size and shape.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partState": {
+    "en": "the tile’s state",
+    "context": "Part of “Is given …”: values the tile keeps, like a chosen tab.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.partWeather": {
+    "en": "the weather",
+    "context": "Part of “Is given …”.",
+    "maxLength": 40,
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.pictures": {
+    "en": "Shows pictures from {hosts}.",
+    "context": "What a widget may do: the hosts its pictures may come from. {hosts} is a joined list of host names.",
+    "params": {
+      "hosts": "A list of host names, already joined."
+    },
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.sends": {
+    "en": "Sends and fetches data at {hosts}.",
+    "context": "What a widget’s script may do: the hosts it may reach by itself. {hosts} is a joined list of host names.",
+    "params": {
+      "hosts": "A list of host names, already joined."
+    },
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.talks": {
+    "en": "Asks you to confirm and shows messages.",
+    "context": "What a widget’s script may do: ask for a confirmation and show short messages.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
+  "widgets.scripts.variables": {
+    "en": "Changes variables.",
+    "context": "What a widget’s script may do: change Homey logic variables.",
+    "file": "packages/widgets/src/scripts/scriptPermissions.messages.ts"
+  },
   "widgets.summaries.allClear": {
     "en": "All clear",
     "context": "An alarm summary’s chip when no alarm is going off.",

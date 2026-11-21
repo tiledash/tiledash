@@ -150,8 +150,8 @@
     "reviewed": false
   },
   "community.browse.noOutside": {
-    "text": "Inga externa adresser",
-    "source": "85068e5e37",
+    "text": "Inget utifrån",
+    "source": "b881b4b090",
     "by": "ai",
     "reviewed": false
   },
@@ -206,6 +206,120 @@
   "community.card.open": {
     "text": "Öppna {title}",
     "source": "7944e5ee09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.checked": {
+    "text": "Kontrollerad",
+    "source": "0efd92a335",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.confirm": {
+    "text": "{state, select, warned {Jag har läst vad kontrollen hittade} other {Jag vet att den inte är kontrollerad än}}",
+    "source": "6da4d84cdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.held": {
+    "text": "Stoppad",
+    "source": "85cd61f8c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldBody": {
+    "text": "Vår kontroll hittade något allvarligt i den här versionen. Ingen kan installera eller uppdatera till den förrän en administratör har tittat på den.",
+    "source": "1d0fb7d025",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldTitle": {
+    "text": "Stoppad av vår säkerhetskontroll",
+    "source": "643debe072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.kind": {
+    "text": "{kind, select, sends-data-away {Den skickar data till en adress som dess syfte inte behöver} fake-login {Den ber om ett lösenord, en kod eller personuppgifter, eller härmar en inloggning} hidden-code {Den bygger eller döljer kod som den kör} addresses-reviewer {Dess text vänder sig till den som granskar den} malware-library {Ett bibliotek den läser in är känt som skadlig kod} does-more-than-described {Den gör mer än beskrivningen säger} tracking {Den spårar personer} unreadable-code {Dess kod är minifierad eller packad, så ingen kan läsa den} unknown-library-source {Ett bibliotek kommer från en adress som ingen har gått i god för} library-advisory {Ett bibliotek den läser in har en känd säkerhetsvarning} permissions-grew {Den kan få göra mer än förra versionen} other {Något annat}}",
+    "source": "487b522a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.notChecked": {
+    "text": "Inte kontrollerad än",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingBody": {
+    "text": "Dess kod har inte gått igenom vår säkerhetskontroll. Du kan installera den nu; den kommer inte till någon av sig själv förrän den har kontrollerats.",
+    "source": "4f34f48e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingTitle": {
+    "text": "Den här versionen är inte kontrollerad än",
+    "source": "e0d7e28466",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updateHeld": {
+    "text": "{version} har stoppats av vår säkerhetskontroll",
+    "source": "e3c03343b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesByHand": {
+    "text": "{version} kommer inte av sig själv: vår kontroll hittade något. Uppdatera för hand för att läsa vad.",
+    "source": "a91d19176e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesOn": {
+    "text": "Uppdaterar sig själv till {version} den {date}",
+    "source": "cf4e1e8aaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesWhenChecked": {
+    "text": "Uppdaterar sig själv till {version} när den har kontrollerats",
+    "source": "51a288fb20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.urgent": {
+    "text": "Akut rättning",
+    "source": "07ebbc8fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warned": {
+    "text": "Kontrollen hittade något",
+    "source": "c99058cedc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedBody": {
+    "text": "Läs vad den hittade innan du går vidare. Den här versionen kommer inte till någon av sig själv.",
+    "source": "d55404ed47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedTitle": {
+    "text": "Vår kontroll hittade något att titta på",
+    "source": "4670e52f9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLine": {
+    "text": "{file}, rad {line}",
+    "source": "7c779cbce0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLines": {
+    "text": "{file}, rad {from}–{to}",
+    "source": "b8bf3ced0e",
     "by": "ai",
     "reviewed": false
   },
@@ -275,9 +389,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.dialogs.acceptLead": {
+    "text": "En AI-assistent installerade den här widgeten åt dig. Dess kod körs inte på dina dashboards förrän du tillåter det; tills dess visas dess rutor utan den.",
+    "source": "b56746df3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.acceptTitle": {
+    "text": "Låta {title} köra sin kod?",
+    "source": "222c2fefa2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowAll": {
+    "text": "Jag förstår vad den läser in och får göra",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.dialogs.allowOutside": {
     "text": "Visa bilder från de här adresserna på mina skärmar",
     "source": "bbbef9d44b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowRun": {
+    "text": "Tillåt den att köra",
+    "source": "962eb9308f",
     "by": "ai",
     "reviewed": false
   },
@@ -368,6 +506,12 @@
   "community.dialogs.noNotes": {
     "text": "Inga anteckningar.",
     "source": "d767e73566",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.notNow": {
+    "text": "Inte nu",
+    "source": "a0e63d7c71",
     "by": "ai",
     "reviewed": false
   },
@@ -534,8 +678,8 @@
     "reviewed": false
   },
   "community.installed.asksFirst": {
-    "text": "{count, plural, one {En frågar först: den skulle läsa in bilder från nya platser.} other {Några frågar först: de skulle läsa in bilder från nya platser.}}",
-    "source": "e3bc71cc64",
+    "text": "{count, plural, one {En frågar först: den läser in från nya platser eller dess kod får göra mer.} other {Några frågar först: de läser in från nya platser eller deras kod får göra mer.}}",
+    "source": "70c88e7446",
     "by": "ai",
     "reviewed": false
   },
@@ -677,6 +821,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.installed.review": {
+    "text": "Granska",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.scriptMore": {
+    "text": "Dess kod skulle få göra mer än nu",
+    "source": "4e1e8708b8",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.installed.showChanges": {
     "text": "Visa ändringar",
     "source": "b12a6ef893",
@@ -746,6 +902,18 @@
   "community.installed.updatesWaiting": {
     "text": "{count, plural, one {# uppdatering väntar.} other {# uppdateringar väntar.}}",
     "source": "35ce25beef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waiting": {
+    "text": "Väntar på dig",
+    "source": "9f760ab207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waitingNote": {
+    "text": "En AI-assistent installerade den. Dess kod körs när du tillåter det.",
+    "source": "7b88bef009",
     "by": "ai",
     "reviewed": false
   },
@@ -1211,6 +1379,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.manage.allowAll": {
+    "text": "Jag förstår vad den läser in och får göra",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.manage.allowOutside": {
     "text": "Visa bilder från de här adresserna på mina skärmar",
     "source": "bbbef9d44b",
@@ -1382,6 +1556,18 @@
   "community.manage.widgetsWontFitBody": {
     "text": "Ändra vad de skickar efter uppdateringen, eller stanna på {version}.",
     "source": "d99f2281fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.acceptFailed": {
+    "text": "Kunde inte låta koden köras",
+    "source": "63f46e29f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.accepted": {
+    "text": "{title} kör sin kod nu",
+    "source": "bdb5227f82",
     "by": "ai",
     "reviewed": false
   },
@@ -2930,6 +3116,78 @@
   "community.report.yours": {
     "text": "{version} (din)",
     "source": "f89312fccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.given": {
+    "text": "Får tillgång till",
+    "source": "a25527ca1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.hosts": {
+    "text": "Skickar data till",
+    "source": "9da26b803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.leaves": {
+    "text": "Det som koden får kan lämna ditt hem.",
+    "source": "a66227e382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.libraries": {
+    "text": "Bibliotek",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.mayDo": {
+    "text": "Får göra",
+    "source": "d00024c671",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.new": {
+    "text": "Ny",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.notChecked": {
+    "text": "Inte kontrollerat än",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.pictures": {
+    "text": "Visar bilder från",
+    "source": "a2ca366e2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCode": {
+    "text": "Kör kod",
+    "source": "08318b0083",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCodeHint": {
+    "text": "Den kör egen kod på rutan, i en avskild ram.",
+    "source": "6dc51104d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.title": {
+    "text": "Vad dess kod får göra",
+    "source": "db3cbf4c66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.typed": {
+    "text": "Det gäller även det du skriver i dess inställningar.",
+    "source": "7c1160f948",
     "by": "ai",
     "reviewed": false
   },

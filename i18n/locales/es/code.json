@@ -2663,6 +2663,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.ownEditor.scriptEditor": {
+    "text": "Script (JavaScript)",
+    "source": "bb5c7fd452",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.ownEditor.settings": {
     "text": "Ajustes",
     "source": "74a883a037",
@@ -3311,6 +3317,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.scriptSyntax": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.searchActions": {
     "text": "Buscar, p. ej. Flow o confirmar",
     "source": "a625537794",
@@ -3383,6 +3395,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.syntaxIntroScripts": {
+    "text": "Expresiones, funciones y el tiledash de un script. Insertar pone un ejemplo en el cursor.",
+    "source": "407eebebe5",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.taps": {
     "text": "Toques que elige quien usa el mosaico",
     "source": "23fefef4fc",
@@ -3398,6 +3416,12 @@
   "code.panels.targets": {
     "text": "Destinos",
     "source": "27445f6ab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.panels.templateSyntax": {
+    "text": "Plantilla",
+    "source": "0575f29df8",
     "by": "ai",
     "reviewed": false
   },
@@ -5123,6 +5147,300 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.script.accept": {
+    "text": "Aceptar",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.acceptAll": {
+    "text": "Aceptar",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actions": {
+    "text": "Acciones",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actionsHint": {
+    "text": "Lo que el script puede pedirle a su mosaico. Cada acción solo se ejecuta tras un toque dentro del script, sobre lo que indican los ajustes del mosaico.",
+    "source": "3234421952",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addHost": {
+    "text": "Añadir un host",
+    "source": "53b8d99b90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addLibrary": {
+    "text": "Añadir una biblioteca",
+    "source": "d074cd8e4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addPictureHost": {
+    "text": "Añadir un host de imágenes",
+    "source": "50576920b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addScript": {
+    "text": "Añadir un script",
+    "source": "c4526bc4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asked": {
+    "text": "Solicitado",
+    "source": "0191afab1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asksForPermissions": {
+    "text": "Pide permisos",
+    "source": "40e823a0ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.context": {
+    "text": "Lo que recibe",
+    "source": "e454995e06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.contextWarning": {
+    "text": "Lo que recibe un script puede salir de tu casa a través de los hosts a los que accede.",
+    "source": "026edafe87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.decline": {
+    "text": "Rechazar",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyBody": {
+    "text": "Un script es JavaScript que se ejecuta en su propio marco aislado dentro del mosaico. Puede cargar bibliotecas, como una de gráficos, y solo hace lo que sus permisos permiten.",
+    "source": "b4fdb0847d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyTitle": {
+    "text": "Sin script",
+    "source": "6bcbbc5ee2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupDevices": {
+    "text": "Controlar dispositivos",
+    "source": "1d8d44e2a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupFlows": {
+    "text": "Flows y ambientes",
+    "source": "7df17770fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupPages": {
+    "text": "Abrir páginas",
+    "source": "d0077713d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupTalks": {
+    "text": "Preguntar y avisar",
+    "source": "73d97ab284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupVariables": {
+    "text": "Variables",
+    "source": "02db55bac5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostName": {
+    "text": "Host {number}",
+    "source": "ef1a1b24d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hosts": {
+    "text": "Hosts a los que accede",
+    "source": "306845ff7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostsHint": {
+    "text": "Nombres como api.example.com, sin https:// ni ruta.",
+    "source": "78be615240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraries": {
+    "text": "Bibliotecas",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.librariesHint": {
+    "text": "Direcciones https completas, cargadas en este orden antes del script. En jsDelivr, unpkg o cdnjs, indica una versión exacta.",
+    "source": "bc7c6a42c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraryAddress": {
+    "text": "Dirección de la biblioteca {number}",
+    "source": "34912c50b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noHosts": {
+    "text": "Ninguno: no puede acceder a internet.",
+    "source": "2c56966925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noLibraries": {
+    "text": "Ninguna: no carga código externo.",
+    "source": "8e285c2f3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noPictureHosts": {
+    "text": "Ninguno: solo muestra imágenes escritas en los ajustes de un mosaico.",
+    "source": "ab32e33cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notAddress": {
+    "text": "Una dirección https completa en un host público, sin puerto ni inicio de sesión",
+    "source": "653e73bfd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notChecked": {
+    "text": "Se comprobará tras el próximo guardado",
+    "source": "fa38754cd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notHost": {
+    "text": "Un nombre público completo en minúsculas, como api.example.com",
+    "source": "a84da54605",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingBody": {
+    "text": "Lo que ha pedido: {what} Nada de esto se aplica hasta que lo aceptes.",
+    "source": "4960f867b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingSomeone": {
+    "text": "Un asistente de IA",
+    "source": "c59fb741b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingTitle": {
+    "text": "{by} ha pedido más permisos",
+    "source": "ee64cac534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.permissionsTab": {
+    "text": "Permisos",
+    "source": "abccc78cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictureHostName": {
+    "text": "Host de imágenes {number}",
+    "source": "9e31977fd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictures": {
+    "text": "Imágenes de",
+    "source": "f68f8a63a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.picturesHint": {
+    "text": "Sus imágenes solo se muestran desde estos hosts y desde direcciones escritas en los ajustes de un mosaico.",
+    "source": "721c9fe179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.previewNote": {
+    "text": "La vista previa ejecuta este script cuando dejas de escribir. Solo puede hacer lo que puede el widget guardado: guarda para probar permisos nuevos.",
+    "source": "bd77894a20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.remove": {
+    "text": "Quitar",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeBody": {
+    "text": "Se quitan su código y sus permisos. Nada cambia hasta que guardes.",
+    "source": "336d9a22e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeRow": {
+    "text": "Quitar {what}",
+    "source": "11a34b436f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeScript": {
+    "text": "Quitar el script",
+    "source": "dc5928c74f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeTitle": {
+    "text": "¿Quitar el script?",
+    "source": "d57f0e1efd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.review": {
+    "text": "Revisar",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.scriptTab": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.settingsWarning": {
+    "text": "Incluido lo que se escribe en los ajustes de texto.",
+    "source": "7615292f0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.summary": {
+    "text": "Lo que puede hacer",
+    "source": "e4d4e49f16",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.settingFields.add": {
     "text": "Añadir",
     "source": "9fd728c66c",
@@ -5912,6 +6230,18 @@
   "code.tapLog.refusedCount": {
     "text": "{count, plural, one {# rechazado} other {# rechazados}}",
     "source": "7828ed7e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptLog": {
+    "text": "El script escribió",
+    "source": "3b0ee6d32b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptRefused": {
+    "text": "No permitido al script",
+    "source": "75af546c51",
     "by": "ai",
     "reviewed": false
   },

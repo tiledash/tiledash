@@ -150,8 +150,8 @@
     "reviewed": false
   },
   "community.browse.noOutside": {
-    "text": "Keine externen Adressen",
-    "source": "85068e5e37",
+    "text": "Nichts von außerhalb",
+    "source": "b881b4b090",
     "by": "ai",
     "reviewed": false
   },
@@ -206,6 +206,120 @@
   "community.card.open": {
     "text": "{title} öffnen",
     "source": "7944e5ee09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.checked": {
+    "text": "Geprüft",
+    "source": "0efd92a335",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.confirm": {
+    "text": "{state, select, warned {Ich habe gelesen, was die Prüfung gefunden hat} other {Ich weiß, dass diese Version noch nicht geprüft ist}}",
+    "source": "6da4d84cdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.held": {
+    "text": "Zurückgehalten",
+    "source": "85cd61f8c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldBody": {
+    "text": "Unsere Prüfung hat in dieser Version etwas Ernstes gefunden. Niemand kann sie installieren oder darauf aktualisieren, bis ein Admin sie sich angesehen hat.",
+    "source": "1d0fb7d025",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldTitle": {
+    "text": "Von unserer Sicherheitsprüfung zurückgehalten",
+    "source": "643debe072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.kind": {
+    "text": "{kind, select, sends-data-away {Es sendet Daten an eine Adresse, die für seinen Zweck nicht nötig ist} fake-login {Es fragt nach Passwort, Code oder persönlichen Daten oder ahmt eine Anmeldung nach} hidden-code {Es erzeugt oder versteckt Code, den es ausführt} addresses-reviewer {Sein Text spricht die Person an, die es prüft} malware-library {Eine Bibliothek, die es lädt, ist bekannte Malware} does-more-than-described {Es tut mehr, als seine Beschreibung sagt} tracking {Es verfolgt Personen} unreadable-code {Sein Code ist minifiziert oder gepackt, daher kann ihn niemand lesen} unknown-library-source {Eine Bibliothek stammt von einer Adresse, für die niemand bürgt} library-advisory {Für eine Bibliothek, die es lädt, gibt es eine bekannte Sicherheitswarnung} permissions-grew {Es darf eventuell mehr als die vorige Version} other {Etwas anderes}}",
+    "source": "487b522a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.notChecked": {
+    "text": "Noch nicht geprüft",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingBody": {
+    "text": "Der Code dieser Version hat unsere Sicherheitsprüfung noch nicht durchlaufen. Sie können sie jetzt installieren; automatische Updates darauf gibt es erst nach der Prüfung.",
+    "source": "4f34f48e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingTitle": {
+    "text": "Diese Version wurde noch nicht geprüft",
+    "source": "e0d7e28466",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updateHeld": {
+    "text": "{version} wird von unserer Sicherheitsprüfung zurückgehalten",
+    "source": "e3c03343b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesByHand": {
+    "text": "{version} kommt nicht von selbst: Unsere Prüfung hat etwas gefunden. Aktualisieren Sie von Hand, um es zu lesen.",
+    "source": "a91d19176e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesOn": {
+    "text": "Aktualisiert sich am {date} automatisch auf {version}",
+    "source": "cf4e1e8aaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesWhenChecked": {
+    "text": "Aktualisiert sich automatisch auf {version}, sobald sie geprüft ist",
+    "source": "51a288fb20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.urgent": {
+    "text": "Dringende Korrektur",
+    "source": "07ebbc8fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warned": {
+    "text": "Prüfung hat etwas gefunden",
+    "source": "c99058cedc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedBody": {
+    "text": "Lesen Sie, was gefunden wurde, bevor Sie fortfahren. Auf diese Version wird niemand automatisch aktualisiert.",
+    "source": "d55404ed47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedTitle": {
+    "text": "Unsere Prüfung hat etwas gefunden, das Sie ansehen sollten",
+    "source": "4670e52f9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLine": {
+    "text": "{file}, Zeile {line}",
+    "source": "7c779cbce0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLines": {
+    "text": "{file}, Zeilen {from}–{to}",
+    "source": "b8bf3ced0e",
     "by": "ai",
     "reviewed": false
   },
@@ -275,9 +389,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.dialogs.acceptLead": {
+    "text": "Ein KI-Assistent hat dieses Widget für Sie installiert. Sein Code läuft auf Ihren Dashboards erst, wenn Sie es erlauben; bis dahin zeigen seine Kacheln sich ohne ihn.",
+    "source": "b56746df3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.acceptTitle": {
+    "text": "{title} seinen Code ausführen lassen?",
+    "source": "222c2fefa2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowAll": {
+    "text": "Ich weiß, was es lädt und darf",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.dialogs.allowOutside": {
     "text": "Bilder von diesen Adressen auf meinen Bildschirmen zeigen",
     "source": "bbbef9d44b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowRun": {
+    "text": "Ausführen erlauben",
+    "source": "962eb9308f",
     "by": "ai",
     "reviewed": false
   },
@@ -368,6 +506,12 @@
   "community.dialogs.noNotes": {
     "text": "Keine Notizen.",
     "source": "d767e73566",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.notNow": {
+    "text": "Nicht jetzt",
+    "source": "a0e63d7c71",
     "by": "ai",
     "reviewed": false
   },
@@ -534,8 +678,8 @@
     "reviewed": false
   },
   "community.installed.asksFirst": {
-    "text": "{count, plural, one {Eines fragt zuerst: Es würde Bilder von neuen Adressen laden.} other {Einige fragen zuerst: Sie würden Bilder von neuen Adressen laden.}}",
-    "source": "e3bc71cc64",
+    "text": "{count, plural, one {Eines fragt zuerst: Es lädt von neuen Stellen, oder sein Code darf mehr.} other {Einige fragen zuerst: Sie laden von neuen Stellen, oder ihr Code darf mehr.}}",
+    "source": "70c88e7446",
     "by": "ai",
     "reviewed": false
   },
@@ -677,6 +821,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.installed.review": {
+    "text": "Prüfen",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.scriptMore": {
+    "text": "Sein Code dürfte mehr als bisher",
+    "source": "4e1e8708b8",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.installed.showChanges": {
     "text": "Änderungen zeigen",
     "source": "b12a6ef893",
@@ -746,6 +902,18 @@
   "community.installed.updatesWaiting": {
     "text": "{count, plural, one {# Update verfügbar.} other {# Updates verfügbar.}}",
     "source": "35ce25beef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waiting": {
+    "text": "Wartet auf Sie",
+    "source": "9f760ab207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waitingNote": {
+    "text": "Ein KI-Assistent hat es installiert. Sein Code läuft, sobald Sie es erlauben.",
+    "source": "7b88bef009",
     "by": "ai",
     "reviewed": false
   },
@@ -1211,6 +1379,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.manage.allowAll": {
+    "text": "Ich weiß, was es lädt und darf",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.manage.allowOutside": {
     "text": "Bilder von diesen Adressen auf meinen Bildschirmen zeigen",
     "source": "bbbef9d44b",
@@ -1382,6 +1556,18 @@
   "community.manage.widgetsWontFitBody": {
     "text": "Ändern Sie nach dem Update, was sie übergeben, oder bleiben Sie bei {version}.",
     "source": "d99f2281fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.acceptFailed": {
+    "text": "Code konnte nicht freigegeben werden",
+    "source": "63f46e29f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.accepted": {
+    "text": "{title} führt seinen Code jetzt aus",
+    "source": "bdb5227f82",
     "by": "ai",
     "reviewed": false
   },
@@ -2930,6 +3116,78 @@
   "community.report.yours": {
     "text": "{version} (Ihre)",
     "source": "f89312fccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.given": {
+    "text": "Erhält",
+    "source": "a25527ca1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.hosts": {
+    "text": "Sendet Daten an",
+    "source": "9da26b803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.leaves": {
+    "text": "Was sein Code erhält, kann Ihr Zuhause verlassen.",
+    "source": "a66227e382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.libraries": {
+    "text": "Bibliotheken",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.mayDo": {
+    "text": "Darf",
+    "source": "d00024c671",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.new": {
+    "text": "Neu",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.notChecked": {
+    "text": "Noch nicht geprüft",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.pictures": {
+    "text": "Zeigt Bilder von",
+    "source": "a2ca366e2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCode": {
+    "text": "Führt Code aus",
+    "source": "08318b0083",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCodeHint": {
+    "text": "Es führt auf der Kachel eigenen Code aus, in einem abgeschotteten Frame.",
+    "source": "6dc51104d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.title": {
+    "text": "Was sein Code darf",
+    "source": "db3cbf4c66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.typed": {
+    "text": "Dazu gehört, was Sie in seinen Einstellungen eingeben.",
+    "source": "7c1160f948",
     "by": "ai",
     "reviewed": false
   },

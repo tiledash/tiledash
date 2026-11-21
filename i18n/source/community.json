@@ -169,8 +169,8 @@
     "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
   "community.browse.noOutside": {
-    "en": "No outside addresses",
-    "context": "Checkbox that shows only items that load nothing from outside the Homey.",
+    "en": "Nothing from outside",
+    "context": "Checkbox that shows only items that load nothing from outside the Homey and run no code of their own (no script).",
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/communityBrowse.messages.ts"
   },
@@ -236,6 +236,148 @@
     },
     "maxLength": 60,
     "file": "packages/ui/src/screens/store/StoreCard.messages.ts"
+  },
+  "community.check.checked": {
+    "en": "Checked",
+    "context": "Quiet label on a version whose code went through the security check and nothing was found. Not \"verified\" or \"safe\".",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.confirm": {
+    "en": "{state, select, warned {I read what the check found} other {I know it hasn’t been checked yet}}",
+    "context": "Checkbox the person ticks before installing or updating to a version that is unchecked or where the check found something.",
+    "params": {
+      "state": "\"warned\" or \"pending\"."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.held": {
+    "en": "Held",
+    "context": "Badge on a version the security check held: nobody can install it until an admin looks.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.heldBody": {
+    "en": "Our check found something serious in this version. Nobody can install it or update to it until an admin has looked at it.",
+    "context": "Body of the notice about a held version.",
+    "maxLength": 180,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.heldTitle": {
+    "en": "Held by our security check",
+    "context": "Title of a notice: the version cannot be installed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.kind": {
+    "en": "{kind, select, sends-data-away {It sends data to an address its purpose doesn’t need} fake-login {It asks for a password, a code or personal details, or imitates a login} hidden-code {It builds or hides code it runs} addresses-reviewer {Its text speaks to whoever reviews it} malware-library {A library it loads is known malware} does-more-than-described {It does more than its description says} tracking {It tracks people} unreadable-code {Its code is minified or packed, so nobody can read it} unknown-library-source {A library comes from an address nobody vouched for} library-advisory {A library it loads has a known security advisory} permissions-grew {It may do more than the version before} other {Something else}}",
+    "context": "One thing the security check found in a widget’s code.",
+    "params": {
+      "kind": "The kind of finding, a fixed id."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.notChecked": {
+    "en": "Not checked yet",
+    "context": "Badge on a version whose code has not been through the security check yet.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.pendingBody": {
+    "en": "Its code hasn’t been through our security check. You can install it now; it won’t update anyone by itself until it has been checked.",
+    "context": "Body of the notice about an unchecked version.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.pendingTitle": {
+    "en": "This version hasn’t been checked yet",
+    "context": "Title of a notice in the install or update dialog.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.updateHeld": {
+    "en": "{version} is held by our security check",
+    "context": "Line in the installed list: the update cannot be installed until an admin looks.",
+    "params": {
+      "version": "The version, such as \"1.2.0\"."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.updatesByHand": {
+    "en": "{version} doesn’t update by itself: our check found something. Update by hand to read what.",
+    "context": "Line in the installed list: the update has a warning, so it never installs itself.",
+    "params": {
+      "version": "The version, such as \"1.2.0\"."
+    },
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.updatesOn": {
+    "en": "Updates to {version} by itself on {date}",
+    "context": "Line in the installed list: a checked update waits a few days, then installs itself on this date.",
+    "params": {
+      "date": "A date such as \"24 November\".",
+      "version": "The version, such as \"1.2.0\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.updatesWhenChecked": {
+    "en": "Updates to {version} by itself once it has been checked",
+    "context": "Line in the installed list: an update is waiting for the security check before it installs itself.",
+    "params": {
+      "version": "The version, such as \"1.2.0\"."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.urgent": {
+    "en": "Urgent fix",
+    "context": "Badge on a version an admin let through at once as an urgent fix.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.warned": {
+    "en": "Check found something",
+    "context": "Badge on a version where the security check found something mild to look at.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.warnedBody": {
+    "en": "Read what it found before you go on. This version won’t update anyone by itself.",
+    "context": "Body of the warning about what the security check found.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.warnedTitle": {
+    "en": "Our check found something to look at",
+    "context": "Title of a warning in the install or update dialog; a list of what was found follows.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.whereLine": {
+    "en": "{file}, line {line}",
+    "context": "Where a finding is, for the publisher: a file name and a line number.",
+    "params": {
+      "file": "A file name such as \"client.js\". Not translated.",
+      "line": "A line number."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
+  },
+  "community.check.whereLines": {
+    "en": "{file}, lines {from}–{to}",
+    "context": "Where a finding is, for the publisher: a file name and a range of lines.",
+    "params": {
+      "file": "A file name such as \"client.js\". Not translated.",
+      "from": "The first line number.",
+      "to": "The last line number."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
   },
   "community.compare.breaking": {
     "en": "Tiles may need their settings again",
@@ -306,10 +448,36 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StoreCompareDialog.messages.ts"
   },
+  "community.dialogs.acceptLead": {
+    "en": "An AI assistant installed this widget for you. Its code doesn’t run on your dashboards until you allow it; until then its tiles show without it.",
+    "context": "Text in the dialog where the person allows a community widget an AI assistant installed to run its own code.",
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.acceptTitle": {
+    "en": "Let {title} run its code?",
+    "context": "Title of the dialog where the person allows a community widget an AI assistant installed to run its own code.",
+    "params": {
+      "title": "The community widget’s name."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.allowAll": {
+    "en": "I understand what it loads and may do",
+    "context": "Checkbox in the install or update dialog of a community widget with its own code (a script): the person agrees to what its code may do and where it loads from.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
   "community.dialogs.allowOutside": {
     "en": "Show pictures from these addresses on my screens",
     "context": "Checkbox in the install dialog for an item that loads pictures from outside: the person agrees.",
     "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.allowRun": {
+    "en": "Allow it to run",
+    "context": "Button that lets a community widget an AI assistant installed run its own code.",
+    "maxLength": 24,
     "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
   },
   "community.dialogs.cancel": {
@@ -424,6 +592,12 @@
     "en": "No notes.",
     "context": "Shown when a version has no release notes.",
     "maxLength": 20,
+    "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
+  },
+  "community.dialogs.notNow": {
+    "en": "Not now",
+    "context": "Button that closes the dialog and leaves a community widget’s code waiting, not running.",
+    "maxLength": 16,
     "file": "packages/ui/src/screens/store/storeDialogs.messages.ts"
   },
   "community.dialogs.useVersion": {
@@ -622,8 +796,8 @@
     "file": "packages/ui/src/screens/store/publishViews.messages.ts"
   },
   "community.installed.asksFirst": {
-    "en": "{count, plural, one {One asks first: it would load pictures from new places.} other {Some ask first: they would load pictures from new places.}}",
-    "context": "After the update count: some updates aren’t done by \"Update all\", because they would load pictures from new outside places.",
+    "en": "{count, plural, one {One asks first: it would load from new places, or its code may do more.} other {Some ask first: they would load from new places, or their code may do more.}}",
+    "context": "After the update count: some updates aren’t done by \"Update all\", because they would load from new outside places, or their own code (script) would be allowed more.",
     "params": {
       "count": "How many ask first."
     },
@@ -790,6 +964,18 @@
     "maxLength": 120,
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
   },
+  "community.installed.review": {
+    "en": "Review",
+    "context": "Button on an installed community widget whose code waits for the person: shows what it may do, to allow it.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.scriptMore": {
+    "en": "Its code would be allowed more than now",
+    "context": "In an update notice: the new version’s own code (script) asks for permissions the installed one doesn’t have.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
   "community.installed.showChanges": {
     "en": "Show changes",
     "context": "Button that compares the installed version with the update.",
@@ -873,6 +1059,17 @@
       "count": "How many updates."
     },
     "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.waiting": {
+    "en": "Waiting for you",
+    "context": "Label on an installed community widget an AI assistant installed: its own code (script) runs only once the person allows it.",
+    "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
+  },
+  "community.installed.waitingNote": {
+    "en": "An AI assistant installed it. Its code runs once you allow it.",
+    "context": "Note on an installed community widget an AI assistant installed, whose own code (script) waits for the person.",
     "file": "packages/ui/src/screens/store/StoreInstalledList.messages.ts"
   },
   "community.installed.withdrawn": {
@@ -1385,6 +1582,12 @@
     "maxLength": 70,
     "file": "packages/ui/src/screens/store/storeManage.messages.ts"
   },
+  "community.manage.allowAll": {
+    "en": "I understand what it loads and may do",
+    "context": "Checkbox for an update of a community widget whose code (its script) may do more than before: the person agrees.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
   "community.manage.allowOutside": {
     "en": "Show pictures from these addresses on my screens",
     "context": "Checkbox for an update that loads pictures from new outside places: the person agrees.",
@@ -1619,6 +1822,21 @@
     },
     "maxLength": 80,
     "file": "packages/ui/src/screens/store/storeManage.messages.ts"
+  },
+  "community.mine.acceptFailed": {
+    "en": "Couldn’t let its code run",
+    "context": "Error toast when allowing a community widget an AI assistant installed to run its own code fails.",
+    "maxLength": 60,
+    "file": "apps/web/src/store/storeMine.messages.ts"
+  },
+  "community.mine.accepted": {
+    "en": "{title} runs its code now",
+    "context": "Toast after the person allowed a community widget an AI assistant installed to run its own code.",
+    "params": {
+      "title": "The community widget’s name."
+    },
+    "maxLength": 80,
+    "file": "apps/web/src/store/storeMine.messages.ts"
   },
   "community.mine.backOn": {
     "en": "{title} is back on {version}",
@@ -3372,6 +3590,75 @@
     },
     "maxLength": 30,
     "file": "packages/ui/src/screens/store/StoreReportDialog.messages.ts"
+  },
+  "community.script.given": {
+    "en": "Is given",
+    "context": "Heading of the list of what a widget’s code gets from the tile, like \"this device\" or \"the weather\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.hosts": {
+    "en": "Sends data to",
+    "context": "Heading of the list of internet hosts a widget’s code may send data to.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.leaves": {
+    "en": "What its code is given can leave your house.",
+    "context": "Warning under what a widget’s code gets from the tile.",
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.libraries": {
+    "en": "Libraries",
+    "context": "Heading of the list of outside code libraries (like a chart library) a widget’s code loads.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.mayDo": {
+    "en": "May do",
+    "context": "Heading of the list of actions a widget’s code may ask for, like \"Switch on or off\".",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.new": {
+    "en": "New",
+    "context": "Marks a permission in an update that the installed version didn’t have. Shown in capitals.",
+    "maxLength": 12,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.notChecked": {
+    "en": "Not checked yet",
+    "context": "Next to a library the public safety databases weren’t asked about yet.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.pictures": {
+    "en": "Shows pictures from",
+    "context": "Heading of the list of internet hosts a widget’s pictures come from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.runsCode": {
+    "en": "Runs code",
+    "context": "Small label on a community widget that carries its own JavaScript, which runs on the tile.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.runsCodeHint": {
+    "en": "It runs code of its own on the tile, in a sealed-off frame.",
+    "context": "Tooltip of the \"Runs code\" label on a community widget.",
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.title": {
+    "en": "What its code may do",
+    "context": "Heading of the list of what a community widget’s own code (its script) may do.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
+  },
+  "community.script.typed": {
+    "en": "This includes what you type in its settings.",
+    "context": "Warning after \"What its code is given can leave your house.\" when the code gets the tile’s settings.",
+    "file": "packages/ui/src/screens/store/StoreScriptPermissions.messages.ts"
   },
   "community.sections.anyRoom": {
     "en": "Any room",

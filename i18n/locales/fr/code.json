@@ -2663,6 +2663,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.ownEditor.scriptEditor": {
+    "text": "Script (JavaScript)",
+    "source": "bb5c7fd452",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.ownEditor.settings": {
     "text": "Réglages",
     "source": "74a883a037",
@@ -3311,6 +3317,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.scriptSyntax": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.searchActions": {
     "text": "Rechercher, p. ex. Flow ou confirmer",
     "source": "a625537794",
@@ -3383,6 +3395,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.syntaxIntroScripts": {
+    "text": "Expressions, fonctions et tiledash d’un script. Insérer place un exemple au curseur.",
+    "source": "407eebebe5",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.taps": {
     "text": "Appuis choisis dans la tuile",
     "source": "23fefef4fc",
@@ -3398,6 +3416,12 @@
   "code.panels.targets": {
     "text": "Cibles",
     "source": "27445f6ab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.panels.templateSyntax": {
+    "text": "Modèle",
+    "source": "0575f29df8",
     "by": "ai",
     "reviewed": false
   },
@@ -5123,6 +5147,300 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.script.accept": {
+    "text": "Accepter",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.acceptAll": {
+    "text": "Accepter",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actions": {
+    "text": "Actions",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actionsHint": {
+    "text": "Ce que le script peut demander à sa tuile. Chaque action ne s’exécute qu’après un appui dans le script, sur ce que désignent les réglages de la tuile.",
+    "source": "3234421952",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addHost": {
+    "text": "Ajouter un hôte",
+    "source": "53b8d99b90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addLibrary": {
+    "text": "Ajouter une bibliothèque",
+    "source": "d074cd8e4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addPictureHost": {
+    "text": "Ajouter un hôte d’images",
+    "source": "50576920b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addScript": {
+    "text": "Ajouter un script",
+    "source": "c4526bc4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asked": {
+    "text": "Demandée",
+    "source": "0191afab1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asksForPermissions": {
+    "text": "Demande des autorisations",
+    "source": "40e823a0ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.context": {
+    "text": "Ce qu’il reçoit",
+    "source": "e454995e06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.contextWarning": {
+    "text": "Ce que reçoit un script peut quitter votre domicile via les hôtes qu’il contacte.",
+    "source": "026edafe87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.decline": {
+    "text": "Refuser",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyBody": {
+    "text": "Un script est du JavaScript qui s’exécute dans son propre cadre isolé sur la tuile. Il peut charger des bibliothèques, comme une bibliothèque de graphiques, et ne fait que ce que ses autorisations permettent.",
+    "source": "b4fdb0847d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyTitle": {
+    "text": "Aucun script",
+    "source": "6bcbbc5ee2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupDevices": {
+    "text": "Contrôler les appareils",
+    "source": "1d8d44e2a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupFlows": {
+    "text": "Flows et ambiances",
+    "source": "7df17770fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupPages": {
+    "text": "Ouvrir des pages",
+    "source": "d0077713d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupTalks": {
+    "text": "Demander et informer",
+    "source": "73d97ab284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupVariables": {
+    "text": "Variables",
+    "source": "02db55bac5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostName": {
+    "text": "Hôte {number}",
+    "source": "ef1a1b24d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hosts": {
+    "text": "Hôtes joignables",
+    "source": "306845ff7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostsHint": {
+    "text": "Des noms comme api.example.com, sans https:// ni chemin.",
+    "source": "78be615240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraries": {
+    "text": "Bibliothèques",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.librariesHint": {
+    "text": "Adresses https complètes, chargées dans cet ordre avant le script. Sur jsDelivr, unpkg ou cdnjs, indiquez une version exacte.",
+    "source": "bc7c6a42c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraryAddress": {
+    "text": "Adresse de la bibliothèque {number}",
+    "source": "34912c50b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noHosts": {
+    "text": "Aucun : il ne peut pas accéder à Internet.",
+    "source": "2c56966925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noLibraries": {
+    "text": "Aucune : il ne charge aucun code externe.",
+    "source": "8e285c2f3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noPictureHosts": {
+    "text": "Aucun : il n’affiche que les images saisies dans les réglages d’une tuile.",
+    "source": "ab32e33cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notAddress": {
+    "text": "Une adresse https complète sur un hôte public, sans port ni identifiants",
+    "source": "653e73bfd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notChecked": {
+    "text": "Vérifiée après le prochain enregistrement",
+    "source": "fa38754cd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notHost": {
+    "text": "Un nom public complet en minuscules, comme api.example.com",
+    "source": "a84da54605",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingBody": {
+    "text": "Ce qu’elle a demandé : {what} Rien de tout cela ne s’applique tant que vous ne l’avez pas accepté.",
+    "source": "4960f867b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingSomeone": {
+    "text": "Un assistant IA",
+    "source": "c59fb741b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingTitle": {
+    "text": "{by} a demandé des autorisations supplémentaires",
+    "source": "ee64cac534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.permissionsTab": {
+    "text": "Autorisations",
+    "source": "abccc78cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictureHostName": {
+    "text": "Hôte d’images {number}",
+    "source": "9e31977fd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictures": {
+    "text": "Images depuis",
+    "source": "f68f8a63a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.picturesHint": {
+    "text": "Ses images ne s’affichent que depuis ces hôtes et depuis les adresses saisies dans les réglages d’une tuile.",
+    "source": "721c9fe179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.previewNote": {
+    "text": "L’aperçu exécute ce script dès que vous arrêtez de taper. Il ne peut que ce que peut le widget enregistré : enregistrez pour tester de nouveaux droits.",
+    "source": "bd77894a20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.remove": {
+    "text": "Retirer",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeBody": {
+    "text": "Son code et ses autorisations disparaissent. Rien ne change tant que vous n’enregistrez pas.",
+    "source": "336d9a22e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeRow": {
+    "text": "Retirer {what}",
+    "source": "11a34b436f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeScript": {
+    "text": "Retirer le script",
+    "source": "dc5928c74f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeTitle": {
+    "text": "Retirer le script ?",
+    "source": "d57f0e1efd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.review": {
+    "text": "Examiner",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.scriptTab": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.settingsWarning": {
+    "text": "Y compris ce qui est saisi dans les réglages de texte.",
+    "source": "7615292f0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.summary": {
+    "text": "Ce qu’il peut faire",
+    "source": "e4d4e49f16",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.settingFields.add": {
     "text": "Ajouter",
     "source": "9fd728c66c",
@@ -5912,6 +6230,18 @@
   "code.tapLog.refusedCount": {
     "text": "{count, plural, one {# refusé} many {# refusés} other {# refusés}}",
     "source": "7828ed7e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptLog": {
+    "text": "Le script a écrit",
+    "source": "3b0ee6d32b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptRefused": {
+    "text": "Interdit au script",
+    "source": "75af546c51",
     "by": "ai",
     "reviewed": false
   },

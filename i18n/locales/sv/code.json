@@ -2663,6 +2663,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.ownEditor.scriptEditor": {
+    "text": "Skript (JavaScript)",
+    "source": "bb5c7fd452",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.ownEditor.settings": {
     "text": "Inställningar",
     "source": "74a883a037",
@@ -3311,6 +3317,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.scriptSyntax": {
+    "text": "Skript",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.searchActions": {
     "text": "Sök, t.ex. Flow eller bekräfta",
     "source": "a625537794",
@@ -3383,6 +3395,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.syntaxIntroScripts": {
+    "text": "Uttryck, funktioner och ett skripts tiledash. Infoga lägger ett exempel vid markören.",
+    "source": "407eebebe5",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.taps": {
     "text": "Tryck som rutans användare väljer",
     "source": "23fefef4fc",
@@ -3398,6 +3416,12 @@
   "code.panels.targets": {
     "text": "Mål",
     "source": "27445f6ab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.panels.templateSyntax": {
+    "text": "Mall",
+    "source": "0575f29df8",
     "by": "ai",
     "reviewed": false
   },
@@ -5123,6 +5147,300 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.script.accept": {
+    "text": "Godkänn",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.acceptAll": {
+    "text": "Godkänn",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actions": {
+    "text": "Åtgärder",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actionsHint": {
+    "text": "Vad skriptet får be sin ruta att göra. Varje åtgärd körs bara efter ett tryck i skriptet, på det som rutans inställningar pekar på.",
+    "source": "3234421952",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addHost": {
+    "text": "Lägg till en värd",
+    "source": "53b8d99b90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addLibrary": {
+    "text": "Lägg till ett bibliotek",
+    "source": "d074cd8e4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addPictureHost": {
+    "text": "Lägg till en bildvärd",
+    "source": "50576920b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addScript": {
+    "text": "Lägg till ett skript",
+    "source": "c4526bc4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asked": {
+    "text": "Begärd",
+    "source": "0191afab1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asksForPermissions": {
+    "text": "Ber om behörigheter",
+    "source": "40e823a0ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.context": {
+    "text": "Vad det får tillgång till",
+    "source": "e454995e06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.contextWarning": {
+    "text": "Det ett skript får tillgång till kan lämna ditt hem via de värdar det når.",
+    "source": "026edafe87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.decline": {
+    "text": "Avvisa",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyBody": {
+    "text": "Ett skript är JavaScript som körs i sin egen avskilda ram på rutan. Det kan ladda bibliotek, till exempel ett diagrambibliotek, och gör bara det som dess behörigheter tillåter.",
+    "source": "b4fdb0847d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyTitle": {
+    "text": "Inget skript",
+    "source": "6bcbbc5ee2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupDevices": {
+    "text": "Styr enheter",
+    "source": "1d8d44e2a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupFlows": {
+    "text": "Flows och stämningar",
+    "source": "7df17770fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupPages": {
+    "text": "Öppna sidor",
+    "source": "d0077713d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupTalks": {
+    "text": "Fråga och meddela",
+    "source": "73d97ab284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupVariables": {
+    "text": "Variabler",
+    "source": "02db55bac5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostName": {
+    "text": "Värd {number}",
+    "source": "ef1a1b24d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hosts": {
+    "text": "Värdar det når",
+    "source": "306845ff7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostsHint": {
+    "text": "Namn som api.example.com, utan https:// eller sökväg.",
+    "source": "78be615240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraries": {
+    "text": "Bibliotek",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.librariesHint": {
+    "text": "Fullständiga https-adresser, som laddas i den här ordningen före skriptet. På jsDelivr, unpkg eller cdnjs anger du en exakt version.",
+    "source": "bc7c6a42c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraryAddress": {
+    "text": "Adress till bibliotek {number}",
+    "source": "34912c50b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noHosts": {
+    "text": "Inga: det kan inte nå internet.",
+    "source": "2c56966925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noLibraries": {
+    "text": "Inga: det laddar ingen extern kod.",
+    "source": "8e285c2f3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noPictureHosts": {
+    "text": "Inga: det visar bara bilder som skrivits in i en rutas inställningar.",
+    "source": "ab32e33cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notAddress": {
+    "text": "En fullständig https-adress till en publik värd, utan port eller inloggning",
+    "source": "653e73bfd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notChecked": {
+    "text": "Kontrolleras efter nästa sparning",
+    "source": "fa38754cd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notHost": {
+    "text": "Ett fullständigt publikt namn med små bokstäver, som api.example.com",
+    "source": "a84da54605",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingBody": {
+    "text": "Det den bad om: {what} Inget av det gäller förrän du godkänner det.",
+    "source": "4960f867b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingSomeone": {
+    "text": "En AI-assistent",
+    "source": "c59fb741b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingTitle": {
+    "text": "{by} bad om fler behörigheter",
+    "source": "ee64cac534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.permissionsTab": {
+    "text": "Behörigheter",
+    "source": "abccc78cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictureHostName": {
+    "text": "Bildvärd {number}",
+    "source": "9e31977fd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictures": {
+    "text": "Bilder från",
+    "source": "f68f8a63a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.picturesHint": {
+    "text": "Bilderna visas bara från dessa värdar och från adresser som skrivits in i en rutas inställningar.",
+    "source": "721c9fe179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.previewNote": {
+    "text": "Förhandsvisningen kör skriptet när du pausar skrivandet. Det får bara göra det som den sparade widgeten får: spara för att prova nya behörigheter.",
+    "source": "bd77894a20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.remove": {
+    "text": "Ta bort",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeBody": {
+    "text": "Dess kod och behörigheter försvinner. Inget ändras förrän du sparar.",
+    "source": "336d9a22e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeRow": {
+    "text": "Ta bort {what}",
+    "source": "11a34b436f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeScript": {
+    "text": "Ta bort skriptet",
+    "source": "dc5928c74f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeTitle": {
+    "text": "Ta bort skriptet?",
+    "source": "d57f0e1efd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.review": {
+    "text": "Granska",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.scriptTab": {
+    "text": "Skript",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.settingsWarning": {
+    "text": "Även det som skrivs i textinställningar.",
+    "source": "7615292f0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.summary": {
+    "text": "Vad det får göra",
+    "source": "e4d4e49f16",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.settingFields.add": {
     "text": "Lägg till",
     "source": "9fd728c66c",
@@ -5912,6 +6230,18 @@
   "code.tapLog.refusedCount": {
     "text": "{count, plural, one {# nekat} other {# nekade}}",
     "source": "7828ed7e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptLog": {
+    "text": "Skriptet skrev",
+    "source": "3b0ee6d32b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptRefused": {
+    "text": "Inte tillåtet för skriptet",
+    "source": "75af546c51",
     "by": "ai",
     "reviewed": false
   },

@@ -88,6 +88,34 @@ terms:
     nb: { preferred: widget }
     sv: { preferred: widget }
     da: { preferred: widget }
+  - term: script
+    meaning: A widget's own JavaScript (client.js), run in a sealed-off frame on its tile (phase 83). Also the editor's Script tab.
+    nl: { preferred: script }
+    de: { preferred: Skript }
+    es: { preferred: script }
+    fr: { preferred: script }
+    nb: { preferred: skript }
+    sv: { preferred: skript }
+    da: { preferred: script }
+  - term: code
+    meaning: What a widget's script is, in plain words for people who don't write it ("Runs code", "What its code may do"). Not a PIN, a pairing code or a voucher code.
+    except:
+      # Other codes: a PIN, Claude Code and VS Code, code in Markdown.
+      - account.aiAssistants.lead
+      - account.aiAssistants.otherFoldInside
+      - account.pin.lead
+      - community.listing.markdown
+      - shell.aiSetup.claudeCode2
+      - shell.aiSetup.vscode2
+      # Spanish and French leave the word out to fit 80 characters a branch.
+      - community.installed.asksFirst
+    nl: { preferred: code }
+    de: { preferred: Code }
+    es: { preferred: código }
+    fr: { preferred: code }
+    nb: { preferred: kode }
+    sv: { preferred: kod }
+    da: { preferred: kode }
   - term: device
     meaning: A physical or virtual thing paired with Homey (a lamp, a thermostat, a sensor).
     except: [code.partials.hintIcon, code.partials.renderingNote]

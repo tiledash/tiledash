@@ -2663,6 +2663,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.ownEditor.scriptEditor": {
+    "text": "Script (JavaScript)",
+    "source": "bb5c7fd452",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.ownEditor.settings": {
     "text": "Indstillinger",
     "source": "74a883a037",
@@ -3311,6 +3317,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.scriptSyntax": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.searchActions": {
     "text": "Søg, fx Flow eller bekræft",
     "source": "a625537794",
@@ -3383,6 +3395,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.syntaxIntroScripts": {
+    "text": "Udtryk, funktioner og et scripts tiledash. Indsæt placerer et eksempel ved markøren.",
+    "source": "407eebebe5",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.taps": {
     "text": "Tryk, feltets bruger vælger",
     "source": "23fefef4fc",
@@ -3398,6 +3416,12 @@
   "code.panels.targets": {
     "text": "Mål",
     "source": "27445f6ab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.panels.templateSyntax": {
+    "text": "Skabelon",
+    "source": "0575f29df8",
     "by": "ai",
     "reviewed": false
   },
@@ -5123,6 +5147,300 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.script.accept": {
+    "text": "Godkend",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.acceptAll": {
+    "text": "Godkend",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actions": {
+    "text": "Handlinger",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actionsHint": {
+    "text": "Hvad scriptet må bede sit felt om at gøre. Hver handling kører kun efter et tryk inde i scriptet og på det, feltets indstillinger peger på.",
+    "source": "3234421952",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addHost": {
+    "text": "Tilføj en vært",
+    "source": "53b8d99b90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addLibrary": {
+    "text": "Tilføj et bibliotek",
+    "source": "d074cd8e4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addPictureHost": {
+    "text": "Tilføj en billedvært",
+    "source": "50576920b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addScript": {
+    "text": "Tilføj et script",
+    "source": "c4526bc4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asked": {
+    "text": "Anmodet om",
+    "source": "0191afab1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asksForPermissions": {
+    "text": "Beder om tilladelser",
+    "source": "40e823a0ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.context": {
+    "text": "Hvad det får at vide",
+    "source": "e454995e06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.contextWarning": {
+    "text": "Det, et script får, kan forlade dit hjem via de værter, det kontakter.",
+    "source": "026edafe87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.decline": {
+    "text": "Afvis",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyBody": {
+    "text": "Et script er JavaScript, der kører i sin egen aflukkede ramme i feltet. Det kan indlæse biblioteker, fx et diagrambibliotek, og gør kun det, dets tilladelser tillader.",
+    "source": "b4fdb0847d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyTitle": {
+    "text": "Intet script",
+    "source": "6bcbbc5ee2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupDevices": {
+    "text": "Styr enheder",
+    "source": "1d8d44e2a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupFlows": {
+    "text": "Flows og stemninger",
+    "source": "7df17770fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupPages": {
+    "text": "Åbn sider",
+    "source": "d0077713d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupTalks": {
+    "text": "Spørg og fortæl",
+    "source": "73d97ab284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupVariables": {
+    "text": "Variabler",
+    "source": "02db55bac5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostName": {
+    "text": "Vært {number}",
+    "source": "ef1a1b24d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hosts": {
+    "text": "Værter det kontakter",
+    "source": "306845ff7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostsHint": {
+    "text": "Navne som api.example.com, uden https:// eller en sti.",
+    "source": "78be615240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraries": {
+    "text": "Biblioteker",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.librariesHint": {
+    "text": "Fulde https-adresser, indlæst i denne rækkefølge før scriptet. På jsDelivr, unpkg eller cdnjs skal du angive en præcis version.",
+    "source": "bc7c6a42c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraryAddress": {
+    "text": "Adresse på bibliotek {number}",
+    "source": "34912c50b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noHosts": {
+    "text": "Ingen: det kan ikke komme på internettet.",
+    "source": "2c56966925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noLibraries": {
+    "text": "Ingen: det indlæser ingen kode udefra.",
+    "source": "8e285c2f3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noPictureHosts": {
+    "text": "Ingen: det viser kun billeder, der er skrevet i et felts indstillinger.",
+    "source": "ab32e33cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notAddress": {
+    "text": "En fuld https-adresse på en offentlig vært, uden port eller login",
+    "source": "653e73bfd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notChecked": {
+    "text": "Tjekkes efter næste gemning",
+    "source": "fa38754cd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notHost": {
+    "text": "Et fuldt offentligt navn med små bogstaver, fx api.example.com",
+    "source": "a84da54605",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingBody": {
+    "text": "Det har bedt om: {what} Intet af det gælder, før du godkender det.",
+    "source": "4960f867b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingSomeone": {
+    "text": "En AI-assistent",
+    "source": "c59fb741b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingTitle": {
+    "text": "{by} har bedt om flere tilladelser",
+    "source": "ee64cac534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.permissionsTab": {
+    "text": "Tilladelser",
+    "source": "abccc78cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictureHostName": {
+    "text": "Billedvært {number}",
+    "source": "9e31977fd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictures": {
+    "text": "Billeder fra",
+    "source": "f68f8a63a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.picturesHint": {
+    "text": "Billederne vises kun fra disse værter og fra adresser, der er skrevet i et felts indstillinger.",
+    "source": "721c9fe179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.previewNote": {
+    "text": "Forhåndsvisningen kører scriptet, når du holder pause i skrivningen. Det må kun det, den gemte widget må: gem for at prøve nye tilladelser.",
+    "source": "bd77894a20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.remove": {
+    "text": "Fjern",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeBody": {
+    "text": "Dets kode og tilladelser forsvinder. Intet ændres, før du gemmer.",
+    "source": "336d9a22e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeRow": {
+    "text": "Fjern {what}",
+    "source": "11a34b436f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeScript": {
+    "text": "Fjern scriptet",
+    "source": "dc5928c74f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeTitle": {
+    "text": "Fjern scriptet?",
+    "source": "d57f0e1efd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.review": {
+    "text": "Gennemgå",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.scriptTab": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.settingsWarning": {
+    "text": "Også det, der er skrevet i tekstindstillinger.",
+    "source": "7615292f0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.summary": {
+    "text": "Hvad det må",
+    "source": "e4d4e49f16",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.settingFields.add": {
     "text": "Tilføj",
     "source": "9fd728c66c",
@@ -5912,6 +6230,18 @@
   "code.tapLog.refusedCount": {
     "text": "{count, plural, one {# afvist} other {# afvist}}",
     "source": "7828ed7e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptLog": {
+    "text": "Scriptet skrev",
+    "source": "3b0ee6d32b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptRefused": {
+    "text": "Ikke tilladt for scriptet",
+    "source": "75af546c51",
     "by": "ai",
     "reviewed": false
   },

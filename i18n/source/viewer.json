@@ -1543,6 +1543,50 @@
     "maxLength": 40,
     "file": "apps/web/src/devices/useDeviceTracking.messages.ts"
   },
+  "viewer.frames.confirmChange": {
+    "en": "“{widget}” wants to change {device}. Allow it?",
+    "context": "Question in a confirm dialog before a widget’s script changes a lock, an alarm or a garage door. The quotes are around the widget’s name.",
+    "params": {
+      "device": "The name of the device. Not translated.",
+      "widget": "The name of the widget. Not translated."
+    },
+    "maxLength": 120,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
+  "viewer.frames.fromWidget": {
+    "en": "{widget}: {text}",
+    "context": "A short message or question that a widget’s script shows, marked with the widget’s name so it can’t pass for a message of the app itself.",
+    "params": {
+      "text": "What the script wrote. Not translated.",
+      "widget": "The name of the widget. Not translated."
+    },
+    "maxLength": 400,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
+  "viewer.frames.offBrowser": {
+    "en": "This browser doesn’t run widget scripts on this page",
+    "context": "Line over a widget while it is edited: its script (its own JavaScript) doesn’t run because this browser can’t keep it safely apart from the page (Safari, some phones). On a share link or a paired screen it may still run.",
+    "maxLength": 90,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
+  "viewer.frames.offEditing": {
+    "en": "The script runs when you’re done editing",
+    "context": "Line over a widget on a dashboard while the dashboard is being edited: its script (its own JavaScript) is paused until editing ends.",
+    "maxLength": 90,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
+  "viewer.frames.offStopped": {
+    "en": "The script was stopped: it crashed or stopped answering",
+    "context": "Line over a widget while it is edited: its script (its own JavaScript) was switched off for a while after it took the page down or stopped responding.",
+    "maxLength": 90,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
+  "viewer.frames.offUnavailable": {
+    "en": "The script can’t run right now",
+    "context": "Line over a widget while it is edited: its script (its own JavaScript) can’t be loaded now (blocked, scripts switched off, or the server can’t be reached).",
+    "maxLength": 90,
+    "file": "apps/web/src/frames/frames.messages.ts"
+  },
   "viewer.gridItems.headingLabel": {
     "en": "Heading {text}",
     "context": "Screen reader label of a heading tile on a dashboard (a title over a section of tiles), followed by its text. Also how a toast or menu names the heading.",
@@ -2272,6 +2316,18 @@
     "maxLength": 24,
     "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
   },
+  "viewer.share.elsewhereBody": {
+    "en": "This address only works in the browser where the link was first opened. Open the link as it was shared with you, or ask for a new one.",
+    "context": "Text under the title \"Open the link you were sent\": the address in the address bar is not the share link itself, so it doesn’t work in another browser or after the browser’s data was cleared.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
+  "viewer.share.elsewhereTitle": {
+    "en": "Open the link you were sent",
+    "context": "Title of the full-page message a visitor sees when they open a share link’s address copied from another browser’s address bar: that address only works in the browser where the link was first opened.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/sharing/sharing.messages.ts"
+  },
   "viewer.share.expiredHint": {
     "en": "Shared links can be made to last a day or a week. Ask whoever shared it for a new one.",
     "context": "Text under the title \"This link has expired\", after the sentence that says until when it worked (when that is known): why it ended and what to do.",
@@ -2551,6 +2607,12 @@
     "maxLength": 20,
     "file": "apps/web/src/dashboards/tile.messages.ts"
   },
+  "viewer.tile.codeWaits": {
+    "en": "Its code waits for you.",
+    "context": "Line at the bottom of a tile whose community widget an AI assistant installed: the widget’s own code (script) runs only once the owner allows it. Followed by a \"Review\" link.",
+    "maxLength": 60,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
   "viewer.tile.deviceGone": {
     "en": "Its device is no longer on your Homey.",
     "context": "Explanation inside a tile that shows or controls a device, when that device no longer exists on the Homey (the smart-home hub).",
@@ -2591,6 +2653,12 @@
     "en": "This widget of yours was deleted. Remove the tile, or put another widget here.",
     "context": "Explanation inside a tile whose widget was one the person made themselves, and that widget has been deleted. It tells the person to remove the tile or to choose another widget for it.",
     "maxLength": 100,
+    "file": "apps/web/src/dashboards/tile.messages.ts"
+  },
+  "viewer.tile.reviewCode": {
+    "en": "Review",
+    "context": "Link after \"Its code waits for you.\" on a tile: opens what the widget’s code may do, to allow it.",
+    "maxLength": 16,
     "file": "apps/web/src/dashboards/tile.messages.ts"
   },
   "viewer.tile.unavailable": {

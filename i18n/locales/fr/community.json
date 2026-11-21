@@ -150,8 +150,8 @@
     "reviewed": false
   },
   "community.browse.noOutside": {
-    "text": "Sans adresses externes",
-    "source": "85068e5e37",
+    "text": "Rien de l’extérieur",
+    "source": "b881b4b090",
     "by": "ai",
     "reviewed": false
   },
@@ -206,6 +206,120 @@
   "community.card.open": {
     "text": "Ouvrir {title}",
     "source": "7944e5ee09",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.checked": {
+    "text": "Contrôlée",
+    "source": "0efd92a335",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.confirm": {
+    "text": "{state, select, warned {J’ai lu ce que le contrôle a trouvé} other {Je sais qu’elle n’a pas encore été contrôlée}}",
+    "source": "6da4d84cdf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.held": {
+    "text": "Retenue",
+    "source": "85cd61f8c3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldBody": {
+    "text": "Notre contrôle a trouvé un problème grave dans cette version. Personne ne peut l’installer ni la recevoir en mise à jour tant qu’un administrateur ne l’a pas examinée.",
+    "source": "1d0fb7d025",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.heldTitle": {
+    "text": "Retenue par notre contrôle de sécurité",
+    "source": "643debe072",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.kind": {
+    "text": "{kind, select, sends-data-away {Il envoie des données à une adresse dont son usage n’a pas besoin} fake-login {Il demande un mot de passe, un code ou des données personnelles, ou imite une connexion} hidden-code {Il génère ou dissimule du code qu’il exécute} addresses-reviewer {Son texte s’adresse à la personne qui l’examine} malware-library {Une bibliothèque qu’il charge est un logiciel malveillant connu} does-more-than-described {Il fait plus que ce que dit sa description} tracking {Il piste les personnes} unreadable-code {Son code est minifié ou compressé : personne ne peut le lire} unknown-library-source {Une bibliothèque vient d’une adresse dont personne ne s’est porté garant} library-advisory {Une bibliothèque qu’il charge fait l’objet d’une alerte de sécurité connue} permissions-grew {Il pourrait faire plus que la version précédente} other {Autre chose}}",
+    "source": "487b522a33",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.notChecked": {
+    "text": "Pas encore contrôlée",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingBody": {
+    "text": "Le code de cette version n’a pas encore passé notre contrôle de sécurité. Vous pouvez l’installer dès maintenant ; elle ne s’installera automatiquement chez personne avant d’avoir été contrôlée.",
+    "source": "4f34f48e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.pendingTitle": {
+    "text": "Cette version n’a pas encore été contrôlée",
+    "source": "e0d7e28466",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updateHeld": {
+    "text": "{version} est retenue par notre contrôle de sécurité",
+    "source": "e3c03343b4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesByHand": {
+    "text": "{version} ne s’installe pas seule : notre contrôle a trouvé quelque chose. Mettez à jour vous-même pour le lire.",
+    "source": "a91d19176e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesOn": {
+    "text": "Mise à jour automatique vers {version} le {date}",
+    "source": "cf4e1e8aaf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.updatesWhenChecked": {
+    "text": "Mise à jour automatique vers {version} une fois contrôlée",
+    "source": "51a288fb20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.urgent": {
+    "text": "Correctif urgent",
+    "source": "07ebbc8fe2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warned": {
+    "text": "Contrôle : à examiner",
+    "source": "c99058cedc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedBody": {
+    "text": "Lisez ce que le contrôle a trouvé avant de continuer. Cette version ne s’installera automatiquement chez personne.",
+    "source": "d55404ed47",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.warnedTitle": {
+    "text": "Notre contrôle a trouvé des points à examiner",
+    "source": "4670e52f9a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLine": {
+    "text": "{file}, ligne {line}",
+    "source": "7c779cbce0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.check.whereLines": {
+    "text": "{file}, lignes {from}–{to}",
+    "source": "b8bf3ced0e",
     "by": "ai",
     "reviewed": false
   },
@@ -275,9 +389,33 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.dialogs.acceptLead": {
+    "text": "Un assistant IA a installé ce widget pour vous. Son code ne s’exécute pas sur vos tableaux de bord tant que vous ne l’autorisez pas ; d’ici là, ses tuiles s’affichent sans lui.",
+    "source": "b56746df3a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.acceptTitle": {
+    "text": "Laisser {title} exécuter son code ?",
+    "source": "222c2fefa2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowAll": {
+    "text": "Je comprends ce qu’il charge et peut faire",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.dialogs.allowOutside": {
     "text": "Afficher les images de ces adresses sur mes écrans",
     "source": "bbbef9d44b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.allowRun": {
+    "text": "Autoriser l’exécution",
+    "source": "962eb9308f",
     "by": "ai",
     "reviewed": false
   },
@@ -368,6 +506,12 @@
   "community.dialogs.noNotes": {
     "text": "Aucune note.",
     "source": "d767e73566",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.dialogs.notNow": {
+    "text": "Pas maintenant",
+    "source": "a0e63d7c71",
     "by": "ai",
     "reviewed": false
   },
@@ -534,8 +678,8 @@
     "reviewed": false
   },
   "community.installed.asksFirst": {
-    "text": "{count, plural, one {Une attend votre accord : images venant de nouvelles adresses.} other {Certaines attendent votre accord : images venant de nouvelles adresses.}}",
-    "source": "e3bc71cc64",
+    "text": "{count, plural, one {Une attend votre accord : nouvelles adresses, ou plus de droits.} other {Certaines attendent votre accord : nouvelles adresses, ou plus de droits.}}",
+    "source": "70c88e7446",
     "by": "ai",
     "reviewed": false
   },
@@ -677,6 +821,18 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.installed.review": {
+    "text": "Examiner",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.scriptMore": {
+    "text": "Son code aurait plus de droits qu’aujourd’hui",
+    "source": "4e1e8708b8",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.installed.showChanges": {
     "text": "Voir les changements",
     "source": "b12a6ef893",
@@ -746,6 +902,18 @@
   "community.installed.updatesWaiting": {
     "text": "{count, plural, one {# mise à jour en attente.} other {# mises à jour en attente.}}",
     "source": "35ce25beef",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waiting": {
+    "text": "Attend votre accord",
+    "source": "9f760ab207",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.installed.waitingNote": {
+    "text": "Installé par un assistant IA. Son code s’exécute dès que vous l’autorisez.",
+    "source": "7b88bef009",
     "by": "ai",
     "reviewed": false
   },
@@ -1211,6 +1379,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.manage.allowAll": {
+    "text": "Je comprends ce qu’il charge et peut faire",
+    "source": "0d4a0db1e1",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.manage.allowOutside": {
     "text": "Afficher les images de ces adresses sur mes écrans",
     "source": "bbbef9d44b",
@@ -1382,6 +1556,18 @@
   "community.manage.widgetsWontFitBody": {
     "text": "Modifiez ce qu’ils transmettent après la mise à jour, ou restez en {version}.",
     "source": "d99f2281fa",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.acceptFailed": {
+    "text": "Impossible d’autoriser l’exécution de son code",
+    "source": "63f46e29f4",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.mine.accepted": {
+    "text": "{title} exécute désormais son code",
+    "source": "bdb5227f82",
     "by": "ai",
     "reviewed": false
   },
@@ -2930,6 +3116,78 @@
   "community.report.yours": {
     "text": "{version} (la vôtre)",
     "source": "f89312fccf",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.given": {
+    "text": "Reçoit",
+    "source": "a25527ca1a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.hosts": {
+    "text": "Envoie des données à",
+    "source": "9da26b803d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.leaves": {
+    "text": "Ce que reçoit son code peut quitter votre maison.",
+    "source": "a66227e382",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.libraries": {
+    "text": "Bibliothèques",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.mayDo": {
+    "text": "Peut faire",
+    "source": "d00024c671",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.new": {
+    "text": "Nouvelle",
+    "source": "18fdd549b2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.notChecked": {
+    "text": "Pas encore vérifiée",
+    "source": "881d23f6ba",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.pictures": {
+    "text": "Affiche des images de",
+    "source": "a2ca366e2a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCode": {
+    "text": "Exécute du code",
+    "source": "08318b0083",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.runsCodeHint": {
+    "text": "Il exécute son propre code sur la tuile, dans un cadre isolé.",
+    "source": "6dc51104d7",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.title": {
+    "text": "Ce que son code peut faire",
+    "source": "db3cbf4c66",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.script.typed": {
+    "text": "Cela inclut ce que vous saisissez dans ses réglages.",
+    "source": "7c1160f948",
     "by": "ai",
     "reviewed": false
   },

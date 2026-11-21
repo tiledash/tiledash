@@ -3073,6 +3073,12 @@
     "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/ownEditor.messages.ts"
   },
+  "code.ownEditor.scriptEditor": {
+    "en": "Script (JavaScript)",
+    "context": "Read out by screen readers for the widget script’s code field.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/ownEditor.messages.ts"
+  },
   "code.ownEditor.settings": {
     "en": "Settings",
     "context": "Tab of the code editor: the settings each tile of the widget picks.",
@@ -3829,6 +3835,12 @@
     "maxLength": 16,
     "file": "packages/ui/src/screens/widgets/panels.messages.ts"
   },
+  "code.panels.scriptSyntax": {
+    "en": "Script",
+    "context": "Filter of the Syntax panel: what a widget’s script can use (tiledash).",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/panels.messages.ts"
+  },
   "code.panels.searchActions": {
     "en": "Search, e.g. Flow or confirm",
     "context": "Placeholder of the Actions search.",
@@ -3905,6 +3917,12 @@
     "maxLength": 90,
     "file": "packages/ui/src/screens/widgets/panels.messages.ts"
   },
+  "code.panels.syntaxIntroScripts": {
+    "en": "Expressions, functions and a script’s tiledash. Insert puts an example at the cursor.",
+    "context": "Line under the Syntax panel’s title in the widget editor with scripts. tiledash is code: keep it.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/widgets/panels.messages.ts"
+  },
   "code.panels.taps": {
     "en": "Taps the tile’s user chooses",
     "context": "Heading of the part about tap settings.",
@@ -3923,6 +3941,12 @@
   "code.panels.targets": {
     "en": "Targets",
     "context": "Label of what an action acts on.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/panels.messages.ts"
+  },
+  "code.panels.templateSyntax": {
+    "en": "Template",
+    "context": "Filter of the Syntax panel: the template’s expressions and functions.",
     "maxLength": 16,
     "file": "packages/ui/src/screens/widgets/panels.messages.ts"
   },
@@ -5887,6 +5911,318 @@
     "maxLength": 60,
     "file": "packages/ui/src/screens/widgets/settingsKinds/richKinds.messages.ts"
   },
+  "code.script.accept": {
+    "en": "Accept",
+    "context": "Button that accepts one permission an AI assistant asked for.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.acceptAll": {
+    "en": "Accept",
+    "context": "Button on the bar that accepts what the assistant asked for and saves.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.actions": {
+    "en": "Actions",
+    "context": "Heading of the checkboxes for what the script may do on the Homey.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.actionsHint": {
+    "en": "What the script may ask its tile to do. Each only runs after a tap inside the script, on what the tile’s settings point at.",
+    "context": "Help under the Actions heading of a widget script’s permissions.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.addHost": {
+    "en": "Add a host",
+    "context": "Button that adds a row for one more host name.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.addLibrary": {
+    "en": "Add a library",
+    "context": "Button that adds a row for one more library address.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.addPictureHost": {
+    "en": "Add a picture host",
+    "context": "Button that adds a row for one more host that pictures may come from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.addScript": {
+    "en": "Add a script",
+    "context": "Button that gives the widget a small example script to start from.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.asked": {
+    "en": "Asked for",
+    "context": "Mark on a permission an AI assistant asked for that isn’t accepted yet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.asksForPermissions": {
+    "en": "Asks for permissions",
+    "context": "Badge on a widget card when an AI assistant asked for permissions the owner hasn’t accepted.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.context": {
+    "en": "What it is given",
+    "context": "Heading of the checkboxes for which data the script receives.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.contextWarning": {
+    "en": "What a script is given can leave your house through the hosts it reaches.",
+    "context": "Warning under the heading of the data a script receives.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.decline": {
+    "en": "Decline",
+    "context": "Button on the bar that drops what the assistant asked for and saves.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.emptyBody": {
+    "en": "A script is JavaScript that runs in its own sealed-off frame on the tile. It can load libraries, such as a chart library, and only does what its permissions allow.",
+    "context": "Text on the Script tab of a widget without a script, saying what one is.",
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.emptyTitle": {
+    "en": "No script",
+    "context": "Title on the Script tab of a widget that has no JavaScript.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.groupDevices": {
+    "en": "Control devices",
+    "context": "Group of actions: switching, setting and stepping devices.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.groupFlows": {
+    "en": "Flows and moods",
+    "context": "Group of actions: starting flows and setting moods.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.groupPages": {
+    "en": "Open pages",
+    "context": "Group of actions: opening a device, its history, a camera or another dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.groupTalks": {
+    "en": "Ask and tell",
+    "context": "Group of actions: asking to confirm and showing a short message.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.groupVariables": {
+    "en": "Variables",
+    "context": "Group of actions: changing Homey Logic variables.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.hostName": {
+    "en": "Host {number}",
+    "context": "Read out by screen readers for a host name field.",
+    "params": {
+      "number": "Its place in the list, from 1."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.hosts": {
+    "en": "Hosts it reaches",
+    "context": "Heading of the list of internet hosts the script may send requests to.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.hostsHint": {
+    "en": "Names like api.example.com, without https:// or a path.",
+    "context": "Help under the hosts heading.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.libraries": {
+    "en": "Libraries",
+    "context": "Heading of the list of outside code files the script loads, such as a chart library.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.librariesHint": {
+    "en": "Full https addresses, loaded in this order before the script. On jsDelivr, unpkg or cdnjs, name an exact version.",
+    "context": "Help under the Libraries heading.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.libraryAddress": {
+    "en": "Library {number} address",
+    "context": "Read out by screen readers for a library’s address field.",
+    "params": {
+      "number": "Its place in the list, from 1."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.noHosts": {
+    "en": "None: it can’t reach the internet.",
+    "context": "Shown under the hosts heading when the script may reach no host.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.noLibraries": {
+    "en": "None: it loads no outside code.",
+    "context": "Shown under the Libraries heading when the script loads no library.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.noPictureHosts": {
+    "en": "None: it shows only pictures typed in a tile’s settings.",
+    "context": "Shown under the picture hosts heading when no host is named.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.notAddress": {
+    "en": "A full https address on a public host, without a port or login",
+    "context": "Problem shown under a library address that can’t be used.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.notChecked": {
+    "en": "Checked after the next save",
+    "context": "Under a library that hasn’t been looked up yet.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.notHost": {
+    "en": "A full public name in lower case, like api.example.com",
+    "context": "Problem shown under a host name that can’t be used.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.pendingBody": {
+    "en": "What it asked for: {what} None of it applies until you accept it.",
+    "context": "Text of the bar: what the assistant asked for, as sentences.",
+    "params": {
+      "what": "One or more sentences like \"Sends data to api.example.com.\""
+    },
+    "maxLength": 400,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.pendingSomeone": {
+    "en": "An AI assistant",
+    "context": "Stands in for the assistant’s name when it isn’t known.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.pendingTitle": {
+    "en": "{by} asked for more permissions",
+    "context": "Title of the bar in the editor when an AI assistant saved a script that needs permissions the owner hasn’t given.",
+    "params": {
+      "by": "The assistant’s app name, like \"Claude Desktop\". Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.permissionsTab": {
+    "en": "Permissions",
+    "context": "Tab of the widget editor with what the widget’s script may do.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.pictureHostName": {
+    "en": "Picture host {number}",
+    "context": "Read out by screen readers for a picture host name field.",
+    "params": {
+      "number": "Its place in the list, from 1."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.pictures": {
+    "en": "Pictures from",
+    "context": "Heading of the list of internet hosts the widget’s pictures may come from (hd-image, slideshows).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.picturesHint": {
+    "en": "Its pictures show from these hosts only, and from addresses typed in a tile’s settings.",
+    "context": "Help under the picture hosts heading.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.previewNote": {
+    "en": "The preview runs this script when you pause typing. It may only do what the saved widget may do: save to try new permissions.",
+    "context": "Note on the Script tab: the preview beside the code runs the unsaved script, but with only the permissions (libraries, hosts, actions) of the last save.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.remove": {
+    "en": "Remove",
+    "context": "Button in the dialog that removes the widget’s script.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.removeBody": {
+    "en": "Its code and its permissions go. Nothing changes until you save.",
+    "context": "Text of the dialog that asks before removing the widget’s script.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.removeRow": {
+    "en": "Remove {what}",
+    "context": "Read out by screen readers for the button that removes one library or host row.",
+    "params": {
+      "what": "The address or host name. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.removeScript": {
+    "en": "Remove the script",
+    "context": "Button that takes the script and its permissions off the widget.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.removeTitle": {
+    "en": "Remove the script?",
+    "context": "Title of the dialog that asks before removing the widget’s script.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.review": {
+    "en": "Review",
+    "context": "Button on the bar that opens Permissions with the new entries marked.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.scriptTab": {
+    "en": "Script",
+    "context": "Tab of the widget editor with the widget’s own JavaScript.",
+    "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.settingsWarning": {
+    "en": "Including what is typed in text settings.",
+    "context": "Added to the warning when the script is given the tile’s settings.",
+    "maxLength": 80,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
+  "code.script.summary": {
+    "en": "What it may do",
+    "context": "Heading over the plain-language sentences saying what the script may do.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/widgets/scripts/scriptTabs.messages.ts"
+  },
   "code.settingFields.add": {
     "en": "Add",
     "context": "Button that adds the suggested setting.",
@@ -6784,6 +7120,18 @@
       "count": "How many."
     },
     "maxLength": 16,
+    "file": "packages/ui/src/screens/widgets/tapLog/tapLog.messages.ts"
+  },
+  "code.tapLog.scriptLog": {
+    "en": "The script wrote",
+    "context": "A line the widget’s own script (its JavaScript) wrote to its console, shown in the log under the preview; the text follows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/widgets/tapLog/tapLog.messages.ts"
+  },
+  "code.tapLog.scriptRefused": {
+    "en": "Not allowed for the script",
+    "context": "Why a call from the widget’s own script (its JavaScript) was refused: it didn’t declare it, it came without a tap inside the widget, or it reached outside the tile. A short code follows.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/widgets/tapLog/tapLog.messages.ts"
   },
   "code.tapLog.send": {

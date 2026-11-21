@@ -1380,7 +1380,7 @@
   },
   "shell.storeOutside.dynamicPart": {
     "en": "addresses from its settings or device data",
-    "context": "Part of \"Loads pictures from …\": addresses that are only known when it draws, because they come from its settings or a device. Lower case, joined into the list.",
+    "context": "Part of \"Loads from …\": addresses that are only known when it draws, because they come from its settings or a device. Lower case, joined into the list.",
     "maxLength": 60,
     "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
   },
@@ -1391,8 +1391,8 @@
     "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
   },
   "shell.storeOutside.summary": {
-    "en": "Loads pictures from {places}",
-    "context": "One line saying where a community item fetches pictures from outside the Homey, such as \"Loads pictures from api.example.com and addresses from its settings or device data\".",
+    "en": "Loads from {places}",
+    "context": "One line saying where a community item fetches pictures, or its own code’s libraries and data, from outside the Homey, such as \"Loads from api.example.com and addresses from its settings or device data\".",
     "params": {
       "places": "The web addresses and/or the phrase below, already joined as a list."
     },
@@ -1406,7 +1406,7 @@
     "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"
   },
   "shell.storeOutside.what": {
-    "en": "Your screen fetches these pictures straight from there, without cookies: those places can see that a screen asked, and what they send can change without a new version.",
+    "en": "Your screen reaches these places straight, without cookies: they can see that a screen asked, and what they send can change without a new version.",
     "context": "Explanation at the bottom of the panel: what loading from outside means for privacy.",
     "maxLength": 200,
     "file": "packages/ui/src/screens/store/StoreOutsideNote.messages.ts"

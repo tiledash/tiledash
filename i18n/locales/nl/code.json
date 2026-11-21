@@ -2663,6 +2663,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.ownEditor.scriptEditor": {
+    "text": "Script (JavaScript)",
+    "source": "bb5c7fd452",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.ownEditor.settings": {
     "text": "Instellingen",
     "source": "74a883a037",
@@ -3311,6 +3317,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.scriptSyntax": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.searchActions": {
     "text": "Zoek, bijv. Flow of bevestigen",
     "source": "a625537794",
@@ -3383,6 +3395,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.panels.syntaxIntroScripts": {
+    "text": "Expressies, functies en tiledash van een script. Invoegen zet een voorbeeld bij de cursor.",
+    "source": "407eebebe5",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.panels.taps": {
     "text": "Tikken die de tegelgebruiker kiest",
     "source": "23fefef4fc",
@@ -3398,6 +3416,12 @@
   "code.panels.targets": {
     "text": "Doelen",
     "source": "27445f6ab6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.panels.templateSyntax": {
+    "text": "Template",
+    "source": "0575f29df8",
     "by": "ai",
     "reviewed": false
   },
@@ -5123,6 +5147,300 @@
     "by": "ai",
     "reviewed": false
   },
+  "code.script.accept": {
+    "text": "Accepteren",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.acceptAll": {
+    "text": "Accepteren",
+    "source": "89713b9c9c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actions": {
+    "text": "Acties",
+    "source": "ff8059dc67",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.actionsHint": {
+    "text": "Wat het script zijn tegel mag laten doen. Elke actie gebeurt pas na een tik in het script, op waar de instellingen van de tegel naar wijzen.",
+    "source": "3234421952",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addHost": {
+    "text": "Host toevoegen",
+    "source": "53b8d99b90",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addLibrary": {
+    "text": "Bibliotheek toevoegen",
+    "source": "d074cd8e4a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addPictureHost": {
+    "text": "Afbeeldingshost toevoegen",
+    "source": "50576920b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.addScript": {
+    "text": "Script toevoegen",
+    "source": "c4526bc4db",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asked": {
+    "text": "Gevraagd",
+    "source": "0191afab1b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.asksForPermissions": {
+    "text": "Vraagt machtigingen",
+    "source": "40e823a0ce",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.context": {
+    "text": "Wat het meekrijgt",
+    "source": "e454995e06",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.contextWarning": {
+    "text": "Wat een script meekrijgt, kan je huis verlaten via de hosts die het bereikt.",
+    "source": "026edafe87",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.decline": {
+    "text": "Weigeren",
+    "source": "a2d285b352",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyBody": {
+    "text": "Een script is JavaScript dat in een eigen afgeschermd frame op de tegel draait. Het kan bibliotheken laden, zoals een grafiekbibliotheek, en doet alleen wat zijn machtigingen toestaan.",
+    "source": "b4fdb0847d",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.emptyTitle": {
+    "text": "Geen script",
+    "source": "6bcbbc5ee2",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupDevices": {
+    "text": "Apparaten bedienen",
+    "source": "1d8d44e2a0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupFlows": {
+    "text": "Flows en sferen",
+    "source": "7df17770fe",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupPages": {
+    "text": "Pagina’s openen",
+    "source": "d0077713d3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupTalks": {
+    "text": "Vragen en melden",
+    "source": "73d97ab284",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.groupVariables": {
+    "text": "Variabelen",
+    "source": "02db55bac5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostName": {
+    "text": "Host {number}",
+    "source": "ef1a1b24d9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hosts": {
+    "text": "Hosts die het bereikt",
+    "source": "306845ff7c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.hostsHint": {
+    "text": "Namen zoals api.example.com, zonder https:// of pad.",
+    "source": "78be615240",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraries": {
+    "text": "Bibliotheken",
+    "source": "62ef6fd92e",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.librariesHint": {
+    "text": "Volledige https-adressen, in deze volgorde voor het script geladen. Geef bij jsDelivr, unpkg of cdnjs een exacte versie op.",
+    "source": "bc7c6a42c9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.libraryAddress": {
+    "text": "Adres van bibliotheek {number}",
+    "source": "34912c50b6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noHosts": {
+    "text": "Geen: het kan het internet niet bereiken.",
+    "source": "2c56966925",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noLibraries": {
+    "text": "Geen: het laadt geen code van buitenaf.",
+    "source": "8e285c2f3c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.noPictureHosts": {
+    "text": "Geen: alleen afbeeldingen die in de instellingen van een tegel staan.",
+    "source": "ab32e33cb1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notAddress": {
+    "text": "Een volledig https-adres op een openbare host, zonder poort of login",
+    "source": "653e73bfd5",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notChecked": {
+    "text": "Gecontroleerd na de volgende keer opslaan",
+    "source": "fa38754cd1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.notHost": {
+    "text": "Een volledige openbare naam in kleine letters, zoals api.example.com",
+    "source": "a84da54605",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingBody": {
+    "text": "Dit vroeg het aan: {what} Niets hiervan gaat in voordat je het accepteert.",
+    "source": "4960f867b8",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingSomeone": {
+    "text": "Een AI-assistent",
+    "source": "c59fb741b1",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pendingTitle": {
+    "text": "{by} vroeg om meer machtigingen",
+    "source": "ee64cac534",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.permissionsTab": {
+    "text": "Machtigingen",
+    "source": "abccc78cc9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictureHostName": {
+    "text": "Afbeeldingshost {number}",
+    "source": "9e31977fd0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.pictures": {
+    "text": "Afbeeldingen van",
+    "source": "f68f8a63a6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.picturesHint": {
+    "text": "De afbeeldingen komen alleen van deze hosts, en van adressen die in de instellingen van een tegel zijn getypt.",
+    "source": "721c9fe179",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.previewNote": {
+    "text": "De preview voert dit script uit als je even stopt met typen. Het mag alleen wat de opgeslagen widget mag: sla op om nieuwe rechten te proberen.",
+    "source": "bd77894a20",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.remove": {
+    "text": "Verwijderen",
+    "source": "c3812fc4ac",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeBody": {
+    "text": "De code en de machtigingen verdwijnen. Er verandert niets totdat je opslaat.",
+    "source": "336d9a22e3",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeRow": {
+    "text": "{what} verwijderen",
+    "source": "11a34b436f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeScript": {
+    "text": "Script verwijderen",
+    "source": "dc5928c74f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.removeTitle": {
+    "text": "Script verwijderen?",
+    "source": "d57f0e1efd",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.review": {
+    "text": "Bekijken",
+    "source": "aff0766a52",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.scriptTab": {
+    "text": "Script",
+    "source": "102acc10e6",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.settingsWarning": {
+    "text": "Inclusief wat je in tekstinstellingen typt.",
+    "source": "7615292f0f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.script.summary": {
+    "text": "Wat het mag doen",
+    "source": "e4d4e49f16",
+    "by": "ai",
+    "reviewed": false
+  },
   "code.settingFields.add": {
     "text": "Toevoegen",
     "source": "9fd728c66c",
@@ -5912,6 +6230,18 @@
   "code.tapLog.refusedCount": {
     "text": "{count, plural, one {# geweigerd} other {# geweigerd}}",
     "source": "7828ed7e9f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptLog": {
+    "text": "Het script schreef",
+    "source": "3b0ee6d32b",
+    "by": "ai",
+    "reviewed": false
+  },
+  "code.tapLog.scriptRefused": {
+    "text": "Niet toegestaan voor script",
+    "source": "75af546c51",
     "by": "ai",
     "reviewed": false
   },
