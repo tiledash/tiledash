@@ -125,6 +125,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.connectApp.adminAppWarning": {
+    "text": "Elle voit ce que les pages admin montrent sur <strong>tous les utilisateurs</strong> : leurs comptes, paiements et erreurs. L’accès cesse après <strong>30 jours</strong>, ou dès que vous n’êtes plus administrateur.",
+    "source": "f00877cf1f",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.adminOnlyBody": {
     "text": "{client} a demandé un accès administrateur à Tiledash. Votre compte n’est pas administrateur, rien n’a donc été partagé. Si vous ne vous y attendiez pas, vous pouvez fermer cet onglet.",
     "source": "6df862a10a",
@@ -209,6 +215,12 @@
     "by": "ai",
     "reviewed": false
   },
+  "login.connectApp.introAdminApp": {
+    "text": "<strong>{client}</strong> souhaite afficher les pages admin de Tiledash sur votre téléphone, avec vos droits.",
+    "source": "d5876b8d18",
+    "by": "ai",
+    "reviewed": false
+  },
   "login.connectApp.introNote": {
     "text": "Ce nom vient d’elle ; Tiledash ne peut pas le vérifier. Autoriser vous renvoie vers <strong>{host}</strong>.",
     "source": "dccd3cc6c9",
@@ -284,6 +296,24 @@
   "login.consent.adminAllow4": {
     "text": "Lire les capacités en direct et les observer brièvement sur vos propres Homeys uniquement",
     "source": "38f8e5583c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAppAllow0": {
+    "text": "Lire ce que montrent les pages admin : vue d’ensemble, utilisateurs, paiements, trafic du site, parcours, temps, versions et erreurs",
+    "source": "c6057d4891",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAppAllow1": {
+    "text": "Envoyer à ce téléphone des notifications d’inscriptions, de paiements et de déploiements",
+    "source": "9e6e797c51",
+    "by": "ai",
+    "reviewed": false
+  },
+  "login.consent.adminAppDeny0": {
+    "text": "Modifier quoi que ce soit : forfaits, comptes, paiements, Homey ou réglages",
+    "source": "b87b2c7a93",
     "by": "ai",
     "reviewed": false
   },

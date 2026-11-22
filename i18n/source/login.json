@@ -158,6 +158,12 @@
     "maxLength": 70,
     "file": "packages/ui/src/screens/BlockedScreen.messages.ts"
   },
+  "login.connectApp.adminAppWarning": {
+    "en": "It sees what the admin pages show about <strong>every user</strong>: their accounts, payments and errors. Access ends after <strong>30 days</strong>, or at once when you stop being an admin.",
+    "context": "Warning box on the admin consent page for Tiledash’s own iPhone app for administrators (88). \"It\" is the app. The admin pages are Tiledash’s administration screens. The tagged parts are shown in bold.",
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
   "login.connectApp.adminOnlyBody": {
     "en": "{client} asked for admin access to Tiledash. Your account isn’t an admin, so nothing was shared. If you didn’t expect this, you can close this tab.",
     "context": "Explanation under the heading \"Only Tiledash’s admins can allow this.\": the app asked for access only Tiledash’s administrators can give, so the request was refused and nothing was shared.",
@@ -260,6 +266,15 @@
     "maxLength": 110,
     "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
   },
+  "login.connectApp.introAdminApp": {
+    "en": "<strong>{client}</strong> wants to show Tiledash’s admin pages on your phone, as you.",
+    "context": "Sentence under the heading of the admin consent page when Tiledash’s own iPhone app for administrators asks for access (88). The admin pages are Tiledash’s administration screens. \"As you\" means with the administrator’s rights. The tagged part is shown in bold.",
+    "params": {
+      "client": "The name the app calls itself (Tiledash Admin). Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/ConnectAppScreen.messages.ts"
+  },
   "login.connectApp.introNote": {
     "en": "It named itself; Tiledash can’t check that. Allowing sends you back to <strong>{host}</strong>.",
     "context": "Second and third sentence of the paragraph on the consent page. \"It\" is the app: the name was given by the app itself and Tiledash cannot verify it. After allowing, the browser returns to the address in bold.",
@@ -351,6 +366,24 @@
     "en": "Read live capabilities and run short watches on your own Homeys only",
     "context": "Expanded MCP permissions shown during renewed consent.",
     "maxLength": 240,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAppAllow0": {
+    "en": "Read what the admin pages show: the overview, users, payments, site traffic, journeys, timing, releases and errors",
+    "context": "Item in the list of what Tiledash’s own iPhone app for administrators may do (88). The admin pages are Tiledash’s administration screens; journeys are the paths people take through the app, timing is how fast the server answers, releases are new versions of Tiledash.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAppAllow1": {
+    "en": "Send this phone notifications about sign-ups, payments and deploys",
+    "context": "Item in the list of what Tiledash’s own iPhone app for administrators may do (88): push notifications when someone signs up, a payment comes in or a new version of Tiledash goes live (a deploy).",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/consent.messages.ts"
+  },
+  "login.consent.adminAppDeny0": {
+    "en": "Change anything: plans, accounts, payments, Homeys or settings",
+    "context": "Item in the list of what Tiledash’s own iPhone app for administrators can never do: it can only read. Plans are the paid or free subscriptions of users.",
+    "maxLength": 80,
     "file": "packages/ui/src/screens/consent.messages.ts"
   },
   "login.consent.adminDeny0": {
