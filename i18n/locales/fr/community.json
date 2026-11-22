@@ -2147,6 +2147,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.publish.checkHeld": {
+    "text": "Notre contrôle de sécurité a trouvé un problème grave dans son script : personne ne peut l’installer avant qu’un administrateur l’ait examiné. Vos éléments publiés indiquent ce qui a été trouvé.",
+    "source": "3ede3e985c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.checkPending": {
+    "text": "Son script s’exécute sur les tableaux de bord des autres : notre contrôle de sécurité lit d’abord son code, automatiquement et avec l’IA. D’ici là, il affiche « Pas encore contrôlée » : on confirme avant de l’installer, et personne ne le reçoit seul en mise à jour. Validé, il attend quelques jours puis se met à jour seul.",
+    "source": "4cb5f80b68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.checkWarned": {
+    "text": "Notre contrôle de sécurité a trouvé dans son script un point à examiner. Chacun le voit avant d’installer, et il ne mettra personne à jour tout seul. Vos éléments publiés indiquent ce qui a été trouvé.",
+    "source": "5fd976e018",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.done": {
     "text": "Terminé",
     "source": "11a6767d56",
@@ -2186,6 +2204,12 @@
   "community.publish.listed": {
     "text": "Tout le monde peut le trouver et l’installer. Ceux qui l’ont voient la mise à jour.",
     "source": "df274945fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.listedChecked": {
+    "text": "Tout le monde peut le trouver maintenant.",
+    "source": "659c2a640e",
     "by": "ai",
     "reviewed": false
   },

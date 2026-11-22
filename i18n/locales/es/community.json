@@ -2147,6 +2147,24 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.publish.checkHeld": {
+    "text": "Nuestra comprobación de seguridad encontró algo grave en su script, así que nadie puede instalarlo hasta que un administrador lo revise. En tus elementos publicados verás lo que encontró.",
+    "source": "3ede3e985c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.checkPending": {
+    "text": "Su script se ejecuta en dashboards de otras personas, así que nuestra comprobación de seguridad lee antes su código, de forma automática y con IA. Hasta entonces se muestra «Aún sin comprobar»: la gente confirma antes de instalarlo y nadie lo recibe solo como actualización. Tras superarla, espera unos días y se actualiza solo.",
+    "source": "4cb5f80b68",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.checkWarned": {
+    "text": "Nuestra comprobación de seguridad encontró algo que revisar en su script. La gente lo ve antes de instalarlo y no actualizará a nadie solo. En tus elementos publicados verás lo que encontró.",
+    "source": "5fd976e018",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.done": {
     "text": "Listo",
     "source": "11a6767d56",
@@ -2186,6 +2204,12 @@
   "community.publish.listed": {
     "text": "Ya cualquiera puede encontrarlo e instalarlo. Quien lo tiene ve la actualización.",
     "source": "df274945fc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publish.listedChecked": {
+    "text": "Ya puede encontrarlo cualquiera.",
+    "source": "659c2a640e",
     "by": "ai",
     "reviewed": false
   },

@@ -2484,6 +2484,24 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
   },
+  "community.publish.checkHeld": {
+    "en": "Our security check found something serious in its script, so nobody can install it until an admin has looked. Your published items show what was found.",
+    "context": "Line once published, when the security check held the version.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.checkPending": {
+    "en": "Its script runs on other people’s dashboards, so our security check reads its code first, by machine and with AI. Until then it shows “Not checked yet”: people confirm before they install it, and nobody gets it as an update by itself. Once it has passed, it waits a few days, then updates installs by itself.",
+    "context": "Line once a widget with a script is published: why its version isn’t fully available yet. \"Not checked yet\" is the badge people see (community.check.notChecked).",
+    "maxLength": 330,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.checkWarned": {
+    "en": "Our security check found something to look at in its script. People see it before they install, and it won’t update anyone by itself. Your published items show what was found.",
+    "context": "Line once published, when the security check found something mild in the script.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
   "community.publish.done": {
     "en": "Done",
     "context": "Button that closes the dialog once published.",
@@ -2535,6 +2553,12 @@
     "en": "Anyone can find and install it now. Those who have it see the update.",
     "context": "Line under \"… is in the community as …\" for an item everyone can find.",
     "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
+  },
+  "community.publish.listedChecked": {
+    "en": "Anyone can find it now.",
+    "context": "Line under \"… is in the community as …\" for an item everyone can find, when its version still goes through the security check (a line about the check follows).",
+    "maxLength": 60,
     "file": "packages/ui/src/screens/store/StorePublishDialog.messages.ts"
   },
   "community.publish.listing": {
