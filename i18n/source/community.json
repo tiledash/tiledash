@@ -271,7 +271,7 @@
     "file": "packages/ui/src/screens/store/StoreCheck.messages.ts"
   },
   "community.check.kind": {
-    "en": "{kind, select, sends-data-away {It sends data to an address its purpose doesn’t need} fake-login {It asks for a password, a code or personal details, or imitates a login} hidden-code {It builds or hides code it runs} addresses-reviewer {Its text speaks to whoever reviews it} malware-library {A library it loads is known malware} does-more-than-described {It does more than its description says} tracking {It tracks people} unreadable-code {Its code is minified or packed, so nobody can read it} unknown-library-source {A library comes from an address nobody vouched for} library-advisory {A library it loads has a known security advisory} permissions-grew {It may do more than the version before} earlier-version-held {An earlier version was held, so an admin looks at this one first} other {Something else}}",
+    "en": "{kind, select, sends-data-away {It sends data to an address its purpose doesn’t need} fake-login {It asks for a password, a code or personal details, or imitates a login} hidden-code {It builds or hides code it runs} addresses-reviewer {Its text speaks to whoever reviews it} malware-library {A library it loads is known malware} does-more-than-described {It does more than its description says} tracking {It tracks people} unreadable-code {Its code is minified or packed, so nobody can read it} unknown-library-source {A library comes from an address nobody vouched for} library-advisory {A library it loads has a known security advisory} permissions-grew {It may do more than the version before} earlier-version-held {An earlier version was held, so an admin looks at this one first} reads-memory {It seems built to time memory or the processor} other {Something else}}",
     "context": "One thing the security check found in a widget’s code.",
     "params": {
       "kind": "The kind of finding, a fixed id."
@@ -2472,6 +2472,95 @@
     "maxLength": 20,
     "file": "apps/web/src/store/storePages.messages.ts"
   },
+  "community.previewStep.card": {
+    "en": "As the Community shows it",
+    "context": "Caption under the widget’s card in the Preview step of publishing.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.deviceName": {
+    "en": "Name for {setting}",
+    "context": "Read out for the field that names a device in the card.",
+    "params": {
+      "setting": "The setting’s label (Speaker)."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.editor": {
+    "en": "Your preview’s values",
+    "context": "Choice: the card shows what the widget editor’s preview showed.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.editorSays": {
+    "en": "The settings and readings your editor’s preview showed when you saved.",
+    "context": "Line under that choice.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.noEditor": {
+    "en": "Open the preview in the editor and save once to use its values.",
+    "context": "Line under that choice when there is nothing to take from the editor yet.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.public": {
+    "en": "These are published with the widget, so anyone can see them. Your devices’ own names are not: give each one a name here.",
+    "context": "Line over the list of values.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.readings": {
+    "en": "{count, plural, one {# reading} other {# readings}} from {device}",
+    "context": "Under a device’s name: how many of its readings are published, and which of your devices they came from (only you see that).",
+    "params": {
+      "count": "How many readings.",
+      "device": "Your device’s own name."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.showWith": {
+    "en": "Show it with",
+    "context": "Heading over the two choices of what the card shows.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.skipped": {
+    "en": "Not shown: the demo fills this in",
+    "context": "For a setting whose value can’t be published as a demo (a list of devices), Tiledash’s demo fills it in.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.summary": {
+    "en": "{source, select, editor {Your preview’s values ({count, plural, one {# setting} other {# settings}})} other {Tiledash’s demo}}",
+    "context": "In the summary at the last step of publishing: what the card shows.",
+    "params": {
+      "count": "How many settings get their value from the preview.",
+      "source": "editor or tiledash."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.tiledash": {
+    "en": "Tiledash’s demo",
+    "context": "Choice: the card shows made-up values that fit the widget’s settings.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.tiledashSays": {
+    "en": "Made-up values that fit its settings, the same for every widget.",
+    "context": "Line under that choice.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
+  "community.previewStep.values": {
+    "en": "What people will see",
+    "context": "Heading over the list of values the card shows.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/store/StorePreviewStep.messages.ts"
+  },
   "community.publish.back": {
     "en": "Back",
     "context": "Button that goes back to the Listing step.",
@@ -2856,12 +2945,18 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.lead": {
-    "en": "{step, select, product {If it is a real product, say which. People find models on the Community by brand and product.} about {What it is called, and one line on what it does: the community shows both on its card.} description {Tell people what it does and how to use it. Tags help them find it.} pictures {An icon and a few screenshots, so people see it before they install it.} sharing {The licence others may use it under, where its code or home page is, and who finds it.} version {Which version this is: what changed since the last one suggests it. The listing stays as it is unless you change it.} notes {What is new in it, in a few lines; people see this with the update.} other {Check it over, then publish. The listing can be changed later; a version stays as it is.}}",
+    "en": "{step, select, product {If it is a real product, say which. People find models on the Community by brand and product.} about {What it is called, and one line on what it does: the community shows both on its card.} description {Tell people what it does and how to use it. Tags help them find it.} pictures {An icon and a few screenshots, so people see it before they install it.} sharing {The licence others may use it under, where its code or home page is, and who finds it.} version {Which version this is: what changed since the last one suggests it. The listing stays as it is unless you change it.} preview {What its card on the community shows: Tiledash’s demo, or the values your preview showed.} notes {What is new in it, in a few lines; people see this with the update.} other {Check it over, then publish. The listing can be changed later; a version stays as it is.}}",
     "context": "Line at the top of each step of publishing, saying what the step is for.",
     "params": {
-      "step": "product, about, description, pictures, sharing, version, notes or check."
+      "step": "product, about, description, pictures, sharing, version, preview, notes or check."
     },
     "maxLength": 130,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.noShot": {
+    "en": "Add a screenshot: previews never run a script, so without one its card on the Community shows only what it draws without its script.",
+    "context": "Warning when publishing a widget with a script and no screenshots. It can still be published.",
+    "maxLength": 180,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.none": {
@@ -2887,7 +2982,7 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.row": {
-    "en": "{row, select, product {Product} title {Title} address {Address} description {Description} tags {Tags} pictures {Pictures} licence {Licence} links {Links} who {Who finds it} version {Version} notes {What’s new} outside {Loads from} other {Other}}",
+    "en": "{row, select, product {Product} title {Title} address {Address} description {Description} tags {Tags} pictures {Pictures} licence {Licence} links {Links} who {Who finds it} version {Version} preview {Preview} notes {What’s new} outside {Loads from} other {Other}}",
     "context": "Label of a line in the summary at the last step of publishing. Product is the brand and product a model stands for (Sonos Arc Ultra).",
     "params": {
       "row": "Which line."
@@ -2896,10 +2991,10 @@
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.publishWizard.step": {
-    "en": "{step, select, product {Product} about {About} description {Description} pictures {Pictures} sharing {Sharing} version {Version} notes {What’s new} other {Check}}",
-    "context": "Name of a step of publishing an item to the community, in the row of steps at the top: the real product a 3D model stands for (its brand and product), about it (title, address, summary), its description, its pictures, how it is shared (licence, links, who finds it), the version and what changed, what is new in it (notes), and a last check before publishing.",
+    "en": "{step, select, product {Product} about {About} description {Description} pictures {Pictures} sharing {Sharing} version {Version} preview {Preview} notes {What’s new} other {Check}}",
+    "context": "Name of a step of publishing an item to the community, in the row of steps at the top: the real product a 3D model stands for (its brand and product), about it (title, address, summary), its description, its pictures, how it is shared (licence, links, who finds it), the version and what changed, what a widget’s card on the community shows (preview), what is new in it (notes), and a last check before publishing.",
     "params": {
-      "step": "product, about, description, pictures, sharing, version, notes or check."
+      "step": "product, about, description, pictures, sharing, version, preview, notes or check."
     },
     "maxLength": 16,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
@@ -2912,6 +3007,12 @@
       "n": "The step on screen."
     },
     "maxLength": 24,
+    "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
+  },
+  "community.publishWizard.worthALook": {
+    "en": "Worth a look",
+    "context": "Title over warnings in the last step of publishing: things it can be published with, but better fixed.",
+    "maxLength": 30,
     "file": "packages/ui/src/screens/store/StorePublishWizard.messages.ts"
   },
   "community.published.blocked": {

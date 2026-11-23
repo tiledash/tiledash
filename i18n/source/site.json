@@ -1,0 +1,3251 @@
+{
+  "site.aiBuilds.connectTitle": {
+    "en": "Connect your assistant",
+    "context": "Heading above the row of AI apps (Claude, ChatGPT…) on the public home page, introducing the steps to connect one of them to Tiledash.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.guide": {
+    "en": "Every step, in the guide",
+    "context": "Link under the connection steps of one AI app, to the guide that has all the steps in detail.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.howToConnect": {
+    "en": "{app}: how to connect",
+    "context": "Screen reader label of the steps for connecting one AI app to Tiledash, on the public home page.",
+    "params": {
+      "app": "The app’s name, such as Claude or ChatGPT. Not translated."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.madeAlt": {
+    "en": "What the assistant made: {kind}",
+    "context": "Alt text of a picture on the public home page that shows what an AI assistant built through Tiledash, such as a widget or a floor plan.",
+    "params": {
+      "kind": "What kind of thing it made, a few words, already in the page’s language."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.otherApp": {
+    "en": "Any other MCP app",
+    "context": "Last choice in the row of AI apps on the public home page: for an app that is not listed. MCP is a technical standard name for connecting AI apps to tools; keep it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.otherStep1": {
+    "en": "Add a remote MCP server (streamable HTTP) with the address below.",
+    "context": "First step for connecting any other AI app to Tiledash. “The address below” is the web address shown under the steps. MCP and streamable HTTP are technical terms; keep them.",
+    "maxLength": 120,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiBuilds.otherStep2": {
+    "en": "When the app asks, sign in with your Homey account and allow it. No key to paste.",
+    "context": "Second step for connecting any other AI app: the app opens a login with the Homey account and asks for permission; no secret key has to be copied.",
+    "maxLength": 120,
+    "file": "packages/ui/src/site/SiteAiBuilds.messages.ts"
+  },
+  "site.aiStudio.assistant": {
+    "en": "Your AI assistant",
+    "context": "Title of the left panel of the animation: the AI assistant (such as Claude or ChatGPT) where the request is typed. Also its screen reader label.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.calls": {
+    "en": "What it does in Tiledash",
+    "context": "Screen reader label of the list of tool calls the AI assistant makes in Tiledash, which appear one by one in the animation.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.pause": {
+    "en": "Pause",
+    "context": "Screen reader label of the button that pauses the animation (moving content needs a way to stop it). A verb; the button only has an icon.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.pianoAlt": {
+    "en": "An upright piano in 3D",
+    "context": "Screen reader label of the 3D preview in the animation’s model request: the piano the assistant has put together.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.play": {
+    "en": "Play",
+    "context": "Screen reader label of the button that continues the paused animation. A verb; the button only has an icon.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.preview": {
+    "en": "Preview",
+    "context": "Title of the right panel of the animation: the live picture of what the assistant is building.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.previewOf": {
+    "en": "Preview: {request}",
+    "context": "Screen reader label of the right panel: the preview of what is being built, naming the kind of request (widget, floor plan, 3D model, house in 3D).",
+    "params": {
+      "request": "The kind of request, such as “Widget”. Already in the page’s language."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.requests": {
+    "en": "Requests",
+    "context": "Screen reader label of the row of tabs (Widget, Floor plan, 3D model, House in 3D) that choose which request of the animation plays.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudio.waiting": {
+    "en": "The preview appears as it works.",
+    "context": "Note in the empty preview panel before the assistant has done its first step: the picture shows up as the assistant works.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudio.messages.ts"
+  },
+  "site.aiStudioScenes.bath": {
+    "en": "Bathroom",
+    "context": "Name of a room drawn on the first floor in the animation’s house picture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.bedroom": {
+    "en": "Bedroom",
+    "context": "Name of a room drawn on the first floor in the animation’s house picture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.firstFloor": {
+    "en": "First floor",
+    "context": "Name of the upper floor in the animation’s house picture: the floor above the ground floor.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.groundFloor": {
+    "en": "Ground floor",
+    "context": "Name of the lower floor in the animation’s floor plan and house pictures: the floor at street level.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.hall": {
+    "en": "Hallway",
+    "context": "Name of a room drawn in the animation’s floor plan picture: the entrance hall.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseCall1": {
+    "en": "Ground floor, furnished",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant reads the existing ground floor, which already has furniture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseCall2": {
+    "en": "First floor: three rooms and a landing",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds a first floor with three rooms and a landing (the open space at the top of the stairs).",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseCall3": {
+    "en": "Doors and windows",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds doors and windows to the first floor.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseCall4": {
+    "en": "Beds, wardrobe, bath",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds furniture upstairs (beds, a wardrobe, a bath).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseCall5": {
+    "en": "The house in 3D, floor by floor",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant opens a preview that shows the house in 3D, one floor at a time.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.houseLabel": {
+    "en": "House in 3D",
+    "context": "Name of the fourth request of the animation, shown as a tab: the assistant adds a floor and shows the house in 3D.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.housePrompt": {
+    "en": "Put the first floor on top: our bedroom, the kids room and a bathroom, furnished. Show me the house in 3D.",
+    "context": "What the person types to their AI assistant: a request to add a first floor (upstairs) with a bedroom, a kids room and a bathroom, furnished, and to show the house in 3D.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.humidity": {
+    "en": "{value} % humidity",
+    "context": "Text of the humidity line inside the pictured widget: the humidity as a percentage, such as “45 % humidity”. It is drawn inside a widget template, so it must not contain quote marks or curly brackets.",
+    "params": {
+      "value": "A template expression that the widget replaces by the number. Never translated or changed."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.kids": {
+    "en": "Kids room",
+    "context": "Name of a room drawn on the first floor in the animation’s house picture: a child’s room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.kitchen": {
+    "en": "Kitchen",
+    "context": "Name of a room drawn in the animation’s floor plan picture.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.landing": {
+    "en": "Landing",
+    "context": "Name of a space drawn on the first floor in the animation’s house picture: the open space at the top of the stairs.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.living": {
+    "en": "Living room",
+    "context": "Name of a room drawn in the animation’s floor plan picture. It also appears in the request text; use the same word as that text.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelCall1": {
+    "en": "The case",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant draws the case (the main body) of the piano.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelCall2": {
+    "en": "Keyboard and legs",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant draws the keyboard shelf and the legs of the piano.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelCall3": {
+    "en": "Keys and music desk",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds the piano keys and the music desk (the stand for sheet music).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelCall4": {
+    "en": "Upright piano, with pedals",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant saves the finished model, with pedals, as a 3D model named like this.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelLabel": {
+    "en": "3D model",
+    "context": "Name of the third request of the animation, shown as a tab: the assistant builds a 3D model of a piece of furniture.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.modelPrompt": {
+    "en": "Make our upright piano: black, 150 wide, 60 deep and 125 high, with brass pedals.",
+    "context": "What the person types to their AI assistant: a request for a 3D model of an upright piano, with its measurements in centimetres and brass pedals.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planCall1": {
+    "en": "Our house, ground floor",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant starts a new floor plan draft with this name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planCall2": {
+    "en": "Living room, 6 × 4 m",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds a living room of 6 by 4 metres. Keep the × sign and m for metres or use the language’s own unit abbreviation.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planCall3": {
+    "en": "Kitchen, hallway and toilet",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds three more rooms.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planCall4": {
+    "en": "Doors and windows",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds doors and windows to the floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planCall5": {
+    "en": "Sofa, dining table, kitchen",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant adds furniture (a sofa, a dining table, kitchen units).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planLabel": {
+    "en": "Floor plan",
+    "context": "Name of the second request of the animation, shown as a tab: the assistant draws a floor plan.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.planPrompt": {
+    "en": "Draw our ground floor: a living room of 6 by 4 metres with the kitchen next to it, a hallway and a toilet. Put in the sofa and the dining table.",
+    "context": "What the person types to their AI assistant: a request to draw the ground floor of their house as a floor plan, with furniture.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.toilet": {
+    "en": "Toilet",
+    "context": "Name of a room drawn in the animation’s floor plan picture: the toilet room.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetCall1": {
+    "en": "Kids room climate",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant creates a new widget with this name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetCall2": {
+    "en": "The temperature, big",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant saved the widget with the temperature shown large.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetCall3": {
+    "en": "Humidity under it",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant saved the widget with the humidity added under the temperature.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetCall4": {
+    "en": "A line of the last day",
+    "context": "Short detail beside a tool call in the animation’s log: the assistant saved the widget with a line chart of the last day added.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetLabel": {
+    "en": "Widget",
+    "context": "Name of the first of four requests of the animation, shown as a tab: the assistant builds a widget (a tile of a dashboard).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.aiStudioScenes.widgetPrompt": {
+    "en": "Make a climate tile for the kids room: the temperature big, the humidity under it and a line of the last day.",
+    "context": "What the person types to their AI assistant in the animation: a request for a widget that shows the temperature large, the humidity under it and a small chart of the last day.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/live/aiStudio/aiStudioScenes.messages.ts"
+  },
+  "site.asksFirst.adminTool": {
+    "en": "admin tool",
+    "context": "In a small code-like picture of a tool call: a grey label before the name of a tool (find_devices) that Tiledash’s own admin AI tools use. Lowercase, a few words.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.afterText": {
+    "en": "While it runs, your sidebar says so. One tap ends it.",
+    "context": "Caption under the picture of the sidebar notice: the app shows it while support can look, and one tap stops it.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.allow": {
+    "en": "Allow",
+    "context": "Button of the pictured question: say yes to support looking. A verb.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.closedText": {
+    "en": "Dashboards, devices, recordings, widgets and pictures stay closed to us until you say yes.",
+    "context": "Text under that title. “Us” is Tiledash support; “you” is the person using Tiledash.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.closedTitle": {
+    "en": "Closed by default",
+    "context": "Title of the first of three promises about privacy: Tiledash support can see nothing unless the person agrees.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.day": {
+    "en": "1 day",
+    "context": "Second choice of how long support may look, in the pictured question.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.decline": {
+    "en": "Decline",
+    "context": "Button of the pictured question: say no to support looking. A verb.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.hour": {
+    "en": "1 hour",
+    "context": "First choice of how long support may look, in the pictured question.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.howSupportWorks": {
+    "en": "How support works",
+    "context": "Link after that paragraph, to the guide page that explains how support access works.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.loggedText": {
+    "en": "Each question, answer and read goes in the audit log, with who and why.",
+    "context": "Text under that title. The audit log is a list the person can see of every question, answer and read, saying who did it and why.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.loggedTitle": {
+    "en": "Every look is logged",
+    "context": "Title of the third promise: everything support does is recorded.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.lookText": {
+    "en": "An access reads only the parts you allowed. Nothing in it can change your setup.",
+    "context": "Text under that title.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.lookTitle": {
+    "en": "Look, never change",
+    "context": "Title of the second promise: with access, support can only read, never change anything.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.more": {
+    "en": "What we see without asking, to keep Tiledash running, is your account, your Homeys’ names and whether they’re connected.",
+    "context": "Paragraph under the section, before two links. What Tiledash may see without asking: the account itself, the names of the Homeys (smart-home hubs) and whether they are connected.",
+    "maxLength": 150,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.noticeEnd": {
+    "en": "End",
+    "context": "Small button in that sidebar notice: support can no longer look, at once. A verb.",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.noticeTitle": {
+    "en": "Support can look",
+    "context": "In a picture of the app’s sidebar: the notice shown while Tiledash support is allowed to look at the setup.",
+    "maxLength": 28,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.noticeUntil": {
+    "en": "until Thu 14:30",
+    "context": "Under that notice: when the access ends, as a weekday (abbreviated) and a time. Use the weekday abbreviation and time style of the language.",
+    "maxLength": 28,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.partDashboards": {
+    "en": "Dashboards and floor plans",
+    "context": "Third item of the list of what support may see.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.partDevices": {
+    "en": "Your devices, rooms, flows and moods",
+    "context": "First item of the list of what support may see: the Homey’s devices, rooms (zones), flows (automations) and moods.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.partLive": {
+    "en": "Values straight from your Homey, and following some of them for a while",
+    "context": "Second item of the list of what support may see: live readings from the Homey, and watching some of them for a while.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.privacyPolicy": {
+    "en": "The privacy policy",
+    "context": "Link after that paragraph, to the privacy policy.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionCaption": {
+    "en": "The question, as Tiledash asks it.",
+    "context": "Caption under the picture of the question the app asks.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionFollowed": {
+    "en": "Values they follow are deleted when the access ends.",
+    "context": "Note under the list in the pictured question: readings support watched live are deleted when the access ends.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionHomey": {
+    "en": "On <b>Sam’s Homey</b>",
+    "context": "In the pictured question: which Homey it is about. Sam is a made-up person. <b>…</b> marks the name; keep the tags.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionIntro": {
+    "en": "Jesse from Tiledash support asks to see part of your setup, to help with this:",
+    "context": "First line of that pictured question. Jesse is a made-up person at support; the reason they give follows, quoted.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionLength": {
+    "en": "For how long",
+    "context": "Small heading in the pictured question, above the choice of how long support may look.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionMembers": {
+    "en": "This includes the dashboards and floor plans Noor and Daan made on it.",
+    "context": "In the pictured question: saying yes also lets support see what two other people (made-up: Noor and Daan) who share that Homey made on it.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionPromise": {
+    "en": "They can look, not change anything. Every look is logged, and you can end it sooner.",
+    "context": "Reassurance in the pictured question. “They” is the person at support; “every look is logged” means it is recorded in an audit log.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionReason": {
+    "en": "Your front door camera shows as a motion tile, without its picture. We’d like to see how your Homey describes the doorbell.",
+    "context": "The made-up reason support gives in the pictured question, spoken by support to the user (“We” is support). A Homey is the smart-home hub.",
+    "maxLength": 180,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionSees": {
+    "en": "What they would see",
+    "context": "Small heading in the pictured question, above the list of what support would be allowed to see. “They” is the person at support.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.questionTitle": {
+    "en": "May Tiledash support look?",
+    "context": "Title of a picture of the window the app shows when Tiledash support asks to see part of a person’s setup.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.refused": {
+    "en": "They haven’t allowed support to look at this.",
+    "context": "The answer of that admin tool in the picture when the person hasn’t said yes: a refusal. “They” is the person whose data it is.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.refusedCaption": {
+    "en": "Our own AI tools ask first too: without your yes, they get the same no as our admin pages.",
+    "context": "Caption under the picture of the refused tool call: Tiledash’s own AI tools need the person’s yes as well.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step1Text": {
+    "en": "Who asks, the reason, and exactly which parts we would see: your devices, your dashboards, your recordings. Nothing outside them.",
+    "context": "Text under the first step’s title. Recordings are the stored history of readings.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step1Title": {
+    "en": "We ask, and say why",
+    "context": "Title of the first of four steps, explaining how Tiledash support gets to look at a person’s setup: it starts with a question. “We” is Tiledash support.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step2Text": {
+    "en": "No is a fine answer. Or yes, for 1 hour, 1 day or 7 days. A question you leave runs out after a week.",
+    "context": "Text under the second step’s title. An unanswered question expires by itself after a week.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step2Title": {
+    "en": "You decide, and for how long",
+    "context": "Title of the second step: the person answers, and chooses how long support may look.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step3Text": {
+    "en": "Your sidebar says support can look, with End right there. We can look, never change, and every look goes in the audit log.",
+    "context": "Text under the third step’s title. “End” is the name of a button in the app’s sidebar that stops the access at once; the audit log is a list of everything support did.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step3Title": {
+    "en": "You see it while it runs",
+    "context": "Title of the third step: while support can look, the person sees it in the app.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step4Text": {
+    "en": "It ends by itself. Values we followed for a while are deleted with it. Before your yes and after, our admin pages and tools are closed.",
+    "context": "Text under the fourth step’s title. “Values we followed” are readings support watched live during the access.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.step4Title": {
+    "en": "Then it closes again",
+    "context": "Title of the fourth step: the access ends by itself.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.asksFirst.week": {
+    "en": "7 days",
+    "context": "Third choice of how long support may look, in the pictured question.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteAsksFirst.messages.ts"
+  },
+  "site.contactForm.addressUse": {
+    "en": "We use your address only to answer you.",
+    "context": "Small note beside the send button of the contact form, before a link to the privacy statement: the e-mail address is used only to reply. “We” is the Tiledash team.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.another": {
+    "en": "Send another",
+    "context": "Link-like button under the confirmation: opens the empty contact form again to write another message.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.answerAt": {
+    "en": "We’ll answer you at {email}.",
+    "context": "Line under that confirmation: the answer will be sent to the e-mail address the person entered. “We” is the Tiledash team.",
+    "params": {
+      "email": "The e-mail address the person typed. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.busy": {
+    "en": "That’s a lot of messages from here; try again in a while.",
+    "context": "Error under the contact form when too many messages were sent from the visitor’s address in a short time.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.email": {
+    "en": "E-mail",
+    "context": "Label of the e-mail address field of the contact form.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.emailError": {
+    "en": "Enter the e-mail address we can answer you on.",
+    "context": "Error under the e-mail field of the contact form when it is empty or not an e-mail address. “We” is the Tiledash team.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.failed": {
+    "en": "It didn’t go out. Check your connection and send it again.",
+    "context": "Error under the contact form when sending the message failed, for example because the connection broke.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.message": {
+    "en": "Message",
+    "context": "Label of the message field (a large text box) of the contact form.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.messageError": {
+    "en": "Tell us a little more first.",
+    "context": "Error under the message field of the contact form when the message is too short (under about ten characters).",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.messagePlaceholder": {
+    "en": "A question, something that broke or an idea",
+    "context": "Grey example text inside the empty message field of the contact form: what people can write about.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.name": {
+    "en": "Name",
+    "context": "Label of the name field of the contact form. A short label; the field is optional.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.optional": {
+    "en": "(optional)",
+    "context": "Small note after the name field’s label, saying the field can be left empty. Keep the brackets.",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.privacy": {
+    "en": "Privacy statement",
+    "context": "Link after that note, to the privacy statement.",
+    "maxLength": 28,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.send": {
+    "en": "Send message",
+    "context": "Button that sends the contact form. A verb.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.sending": {
+    "en": "Sending…",
+    "context": "Text of the contact form’s send button while the message is being sent.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.thanks": {
+    "en": "Thanks, it’s on its way.",
+    "context": "Heading of the confirmation shown after the contact form was sent.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.contactForm.unavailable": {
+    "en": "Messages can’t be sent from the site right now; try again later.",
+    "context": "Error under the contact form when sending messages is switched off or down at the moment.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/live/SiteContactForm.messages.ts"
+  },
+  "site.ctaBand.login": {
+    "en": "Log in with Homey",
+    "context": "Button in that closing band, on the plan cards and on the home page’s first screen: it goes to the Tiledash app, where you log in with your Homey account. Homey is a product name.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/CtaBand.messages.ts"
+  },
+  "site.ctaBand.text": {
+    "en": "Log in with your Homey account, pick the dashboards you want and watch them fill in. It takes a couple of minutes.",
+    "context": "Text of that closing band, under its heading: logging in with the Homey account (Homey is the smart-home hub) and getting dashboards takes a few minutes.",
+    "maxLength": 150,
+    "file": "packages/ui/src/site/CtaBand.messages.ts"
+  },
+  "site.ctaBand.title": {
+    "en": "Put your home on a screen tonight.",
+    "context": "Heading of the closing band at the bottom of a public site page, inviting the visitor to start. A friendly, short sentence.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/CtaBand.messages.ts"
+  },
+  "site.docs.currentFallback": {
+    "en": "Docs",
+    "context": "Label of the folded menu above a docs page on a phone, when the page isn’t in the menu; normally it shows the page’s own name. The name of the documentation section.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.homeLead": {
+    "en": "Find what you want to do, or search for it.",
+    "context": "The line under the heading of the docs’ first page, above the search box and the list of things people come to do.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.homeTasks": {
+    "en": "I want to…",
+    "context": "Heading of a list on the docs’ first page: each entry is something a visitor wants to do (“Build a dashboard”) and links to the page for it, so it must read as the start of a sentence the entries complete.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.homeTitle": {
+    "en": "Tiledash docs",
+    "context": "Heading of the docs’ first page on the public site, above the search box. Tiledash is the product name and stays.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.navLabel": {
+    "en": "Docs",
+    "context": "Screen reader label of the docs’ side menu on the public site (the list of pages on the left of every docs page). The name of the documentation section.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.next": {
+    "en": "Next",
+    "context": "Small label above the title of the page after this one, in the links under a docs or features page. A right arrow stands beside it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.pagerLabel": {
+    "en": "More pages",
+    "context": "Screen reader label of the two links under a docs or features page that lead to the page before and the page after it.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.previous": {
+    "en": "Previous",
+    "context": "Small label above the title of the page before this one, in the links under a docs or features page. A left arrow stands beside it.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.docs.tocLabel": {
+    "en": "On this page",
+    "context": "Small heading above the list of a docs page’s sections, beside the text on wide screens; also its screen reader label. Each entry jumps to a section of the page being read.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/docs.messages.ts"
+  },
+  "site.ecosystem.ai": {
+    "en": "Or let the assistant you already use build it: Claude, ChatGPT, Copilot or Cursor make your widgets and 3D models and check them in a live preview.",
+    "context": "Sentence on the public home page, followed by a “Pro” badge: an AI assistant can build widgets and 3D models for the person. Claude, ChatGPT, Copilot and Cursor are product names.",
+    "maxLength": 180,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.howItWorks": {
+    "en": "How it works",
+    "context": "Link after that sentence, to the guide page about using an AI assistant with Tiledash.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.live": {
+    "en": "Live, against your own devices",
+    "context": "Caption under the tile in the picture of the widget editor: the tile is drawn live with the values of the person’s own devices.",
+    "maxLength": 44,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.modelsText": {
+    "en": "Scan your sofa with your phone, or let your AI build one, for your floor plans.",
+    "context": "Text under that title: a 3D model of a piece of furniture can be scanned with a phone, or built by the person’s AI assistant.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.modelsTitle": {
+    "en": "3D models",
+    "context": "Title of the third kind of thing people make: 3D furniture for floor plans.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.noProblems": {
+    "en": "No problems with any demo",
+    "context": "Status in the picture of the widget editor: the template has been checked against every demo device and no problem was found.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.partialsText": {
+    "en": "Building blocks your widgets share, with typed settings.",
+    "context": "Text under that title. “Typed settings” are settings with a declared type (number, text…).",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.partialsTitle": {
+    "en": "Partials",
+    "context": "Title of the second kind of thing people make: a partial is a building block that several widgets share.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step1Text": {
+    "en": "Every save kept, with its changes.",
+    "context": "Text under that step: every time you save, the version is kept, and you can see what changed.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step1Title": {
+    "en": "Make it in the Workshop",
+    "context": "Title of the first of four steps in how something you made travels to other people. The Workshop is the part of the app where you make your own widgets, themes and models.",
+    "maxLength": 34,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step2Text": {
+    "en": "Free, from the app or the command line.",
+    "context": "Text under that step: publishing costs nothing, and works from the app or a terminal.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step2Title": {
+    "en": "Publish to the Community",
+    "context": "Title of the second step: you publish it to the Community, where people share things they made.",
+    "maxLength": 34,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step3Text": {
+    "en": "Previewed on their own devices first.",
+    "context": "Text under that step: before installing, people see it drawn with their own devices’ values.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step3Title": {
+    "en": "Others install it",
+    "context": "Title of the third step: other people install what you published.",
+    "maxLength": 34,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step4Text": {
+    "en": "They choose when, and can go back.",
+    "context": "Text under that step: the people who installed it decide when to update and can return to the old version.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.step4Title": {
+    "en": "Updates reach them",
+    "context": "Title of the fourth step: when you publish a new version, installers can get it.",
+    "maxLength": 34,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.tabSettings": {
+    "en": "Settings",
+    "context": "Tab name in a picture of the widget editor: the tab where a widget’s settings are declared.",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.tabStyle": {
+    "en": "Style",
+    "context": "Tab name in a picture of the widget editor: the tab with the widget’s CSS (its looks).",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.tabTemplate": {
+    "en": "Template",
+    "context": "Tab name in a picture of the widget editor on the public home page: the tab with the widget’s HTML and template code.",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.themesText": {
+    "en": "Your colours, gradients, fonts, corners and glow, and CSS for the rest.",
+    "context": "Text under that title. CSS is the language for styling web pages; keep the name.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.themesTitle": {
+    "en": "Themes",
+    "context": "Title of the fourth kind of thing people make: a theme sets the colours, fonts and corners of a dashboard. It is a Pro feature (a badge follows).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.widgetsText": {
+    "en": "HTML and Liquid, drawn live against your own devices as you type.",
+    "context": "Text under that title. HTML and Liquid (a template language) are names; keep them.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.ecosystem.widgetsTitle": {
+    "en": "Widgets",
+    "context": "Title of the first of four kinds of things people make in Tiledash (widgets, partials, 3D models, themes). A widget is a tile on a dashboard.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/SiteEcosystem.messages.ts"
+  },
+  "site.energyHouse.badge": {
+    "en": "New",
+    "context": "Small badge on the photo of the Energy house: it is a new feature.",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.foundText": {
+    "en": "It reads your energy meters: solar on the roof, the grid, the home battery and the car. What your home doesn’t have isn’t in the picture.",
+    "context": "Text under that title: the Energy house shows only the parts the home really has.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.foundTitle": {
+    "en": "Found by itself",
+    "context": "Title of the first of three points about the Energy house: it finds the person’s energy devices by itself.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.photoAlt": {
+    "en": "A tablet on a sideboard beside two vases, showing the Energy house: 175 W from the battery, 895 W used in the house and 720 W from the grid, with temperatures pointed out around the house",
+    "context": "Alt text of a photo of a tablet on a sideboard that shows the Energy house screen. W is watts (keep the unit).",
+    "maxLength": 230,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.powerText": {
+    "en": "Each value sits on its part of the house and moves with your home: what the panels make, what the car takes, what goes back to the grid.",
+    "context": "Text under that title: values (what the solar panels produce, what the car charger uses, what is returned to the grid) move live.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.powerTitle": {
+    "en": "Power you can see",
+    "context": "Title of the second point: live power values are drawn on the picture of the house.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.readingsText": {
+    "en": "Point any reading at a place of the house: the hot water upstairs, the heat pump, a phase at the meter cupboard, outside by the tree.",
+    "context": "Text under that title: examples of readings (temperatures, a phase of the electricity meter) placed at their spot in the house.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.readingsTitle": {
+    "en": "Your readings, where they are",
+    "context": "Title of the third point: any reading can be placed on a spot of the house picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.energyHouse.tutorial": {
+    "en": "Set one up in four minutes",
+    "context": "Link to the tutorial that sets up an Energy house; it takes about four minutes.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/EnergyHouseShowcase.messages.ts"
+  },
+  "site.features.allFeatures": {
+    "en": "All features",
+    "context": "First entry of the features section’s menu: opens the overview of every feature. Also the name shown for that overview in the folded phone menu and in the page-before link under the first feature.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.allText": {
+    "en": "Flows, Logic variables, moods and every device, with tap, hold and double tap.",
+    "context": "Text under that title. Flows (automations), Logic variables and moods are Homey’s own names for its features; keep them as Homey’s app names them. Tap, hold and double tap are touch gestures.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.allTitle": {
+    "en": "All of Homey",
+    "context": "Title of a tile in the public home page’s grid of six features: everything Homey has can be on a dashboard.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.energyText": {
+    "en": "Solar, battery, grid and car, moving as it happens, and the cheapest hours ahead.",
+    "context": "Text under that title: live flows of solar power, home battery, the grid and an electric car, and the hours with the lowest electricity price.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.energyTitle": {
+    "en": "Energy you can see",
+    "context": "Title of a tile in the public home page’s grid of six features: energy flows (solar, battery, grid, car) shown live.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.historyText": {
+    "en": "Days, months or years of any reading in a chart, kept for as long as your plan says.",
+    "context": "Text under that title: charts of any reading over days, months or years. “Your plan” is the Free or Pro plan, which sets how long history is kept.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.historyTitle": {
+    "en": "History you choose",
+    "context": "Title of a tile in the public home page’s grid of six features: you pick which readings are recorded and shown in charts.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.homeyText": {
+    "en": "On your own dashboards, live values and taps go from your screen to your Homey, not through us.",
+    "context": "Text under that title. “Us” is Tiledash: values and taps travel between the visitor’s screen and their Homey, not through Tiledash’s servers.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.homeyTitle": {
+    "en": "Straight from your Homey",
+    "context": "Title of a tile in the public home page’s grid of six features: the dashboard talks to your Homey (the smart home hub) directly. Homey is a product name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.houseText": {
+    "en": "Draw it once: lights glow where they hang, blinds show how far down they are.",
+    "context": "Text under that title: after drawing the floor plan once, lamps light up where they are and blinds show how far they are closed.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.houseTitle": {
+    "en": "Your house, live from above",
+    "context": "Title of a tile in the public home page’s grid of six features: a floor plan of the house seen from above, showing live states.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.layoutText": {
+    "en": "Desk, wall tablet, phone or e-ink each get their own. A kitchen tablet pairs with a code.",
+    "context": "Text under that title. E-ink is a paper-like screen. “Pairs with a code” means the tablet is linked to Tiledash by typing a short code.",
+    "maxLength": 110,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.layoutTitle": {
+    "en": "A layout per screen",
+    "context": "Title of a tile in the public home page’s grid of six features: each kind of screen gets its own arrangement of tiles.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFeatures.messages.ts"
+  },
+  "site.features.learnTitle": {
+    "en": "Learn how",
+    "context": "Heading of the list under a feature’s page with the tutorials and guide pages that show how to use it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.navLabel": {
+    "en": "Features",
+    "context": "Screen reader label of the features section’s side menu on the public site, and the small heading above the overview’s title. The section lists what Tiledash can do, one page per feature.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.overviewLead": {
+    "en": "Every feature, a page each: what it does, what it looks like, and the tutorials and guide pages that show you how.",
+    "context": "The line under the main heading of the features section’s first page, saying what each feature page contains.",
+    "maxLength": 160,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.overviewTitle": {
+    "en": "Everything Tiledash does",
+    "context": "Main heading of the features section’s first page, above every feature grouped by topic. Tiledash is the product name and stays.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.planFree": {
+    "en": "Free, on every account",
+    "context": "Line under the lead at the top of a feature’s page, for a feature that every Tiledash account has, including the free one.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.planPro": {
+    "en": "Part of Pro",
+    "context": "Line under the lead at the top of a feature’s page, for a feature that comes with the paid Pro plan. Pro is the plan name and stays.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.features.proBadge": {
+    "en": "Pro",
+    "context": "Tiny badge beside a feature’s name in a card, a list or the menu, saying it is part of the paid Pro plan. Pro is a plan name and normally stays as it is.",
+    "maxLength": 10,
+    "file": "packages/ui/src/site/features.messages.ts"
+  },
+  "site.floorPlans.badge": {
+    "en": "New",
+    "context": "Small badge on the picture of the floor plan: it is a new feature.",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.drawnText": {
+    "en": "Start from your Homey’s zones, or trace a picture of your plan. Rooms snap together and walls show their length as you draw.",
+    "context": "Text under that title. Homey’s zones are the rooms and areas set up in Homey (the smart-home hub). Tracing means drawing over a picture of the real plan.",
+    "maxLength": 160,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.drawnTitle": {
+    "en": "Drawn in minutes",
+    "context": "Title of the first of four points about floor plans: drawing one is quick.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.furnishedText": {
+    "en": "About fifty pieces drawn from free, open 3D model kits, or your own: scan a chair with your phone, or install one from the Community.",
+    "context": "Text under that title: about fifty furniture pieces are included; the person can add their own 3D models (scanned with a phone) or install them from the Community, where people share things.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.furnishedTitle": {
+    "en": "Furnished",
+    "context": "Title of the third point: floor plans can be furnished with 3D furniture.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.guide": {
+    "en": "Read the floor plans guide",
+    "context": "Link under the floor plan section, to the guide about floor plans.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.liveText": {
+    "en": "Lights glow where they hang, blinds and curtains show how far down they are, doors and locks how they stand, every room its warmth.",
+    "context": "Text under that title: what the plan shows live (lamps lit, blinds and curtains closed, doors and locks, the temperature of each room).",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.liveTitle": {
+    "en": "Live, room by room",
+    "context": "Title of the second point: the plan shows live states of the devices in each room.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.photoAlt": {
+    "en": "The demo house’s ground floor in 2.5D: furnished rooms, a lamp glowing in the living room, closed curtains and each room’s temperature",
+    "context": "Alt text of a screenshot of the demo house’s ground floor drawn in 2.5D (a slanted view from above). Demo house is a made-up example house.",
+    "maxLength": 170,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.tapText": {
+    "en": "Tap a lamp to switch it, hold it for its quick actions. In 2D on any screen, in 2.5D, or as a 3D dollhouse on Pro.",
+    "context": "Text under that title: tap a lamp on the plan to switch it, hold for more actions. 2D, 2.5D and 3D are the drawing styles; Pro is the paid plan’s name.",
+    "maxLength": 150,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.floorPlans.tapTitle": {
+    "en": "A tap away",
+    "context": "Title of the fourth point: you can control devices by tapping them on the plan.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/FloorPlanShowcase.messages.ts"
+  },
+  "site.footer.athom": {
+    "en": "Tiledash is not affiliated with or endorsed by Athom. Homey is a trademark of Athom B.V.",
+    "context": "Legal line at the very bottom of the public site: Tiledash is independent of Athom, the company that makes Homey. Tiledash, Athom, Homey and Athom B.V. are names.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/SiteFooter.messages.ts"
+  },
+  "site.footer.contactLead": {
+    "en": "A question, something that broke or an idea: we read every message and answer by e-mail.",
+    "context": "Line under the contact form’s heading: says what to write about and that the Tiledash team answers by e-mail. “We” is the Tiledash team.",
+    "maxLength": 140,
+    "file": "packages/ui/src/site/SiteFooter.messages.ts"
+  },
+  "site.footer.contactTitle": {
+    "en": "Get in touch",
+    "context": "Heading of the contact form at the bottom of every page of the public site, above the form.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFooter.messages.ts"
+  },
+  "site.footer.home": {
+    "en": "Tiledash home",
+    "context": "Screen reader label of the Tiledash logo in the footer of the public site: it links to the home page. Tiledash is the product name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteFooter.messages.ts"
+  },
+  "site.footer.write": {
+    "en": "Write to us",
+    "context": "Link shown in place of the contact form (when it can’t be shown): it goes to the contact form on the home page.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/SiteFooter.messages.ts"
+  },
+  "site.header.chapters": {
+    "en": "On the home page",
+    "context": "Screen reader label of the group of links in the public site’s top bar that jump to the parts of the home page (features, floor plans, pricing…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteHeader.messages.ts"
+  },
+  "site.header.docs": {
+    "en": "Docs",
+    "context": "Link in the public site’s top bar to the documentation (guides, tutorials, widget gallery). A short menu item.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/SiteHeader.messages.ts"
+  },
+  "site.header.home": {
+    "en": "Tiledash home",
+    "context": "Screen reader label of the Tiledash logo in the top bar of the public site: it links to the home page. Tiledash is the product name.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/SiteHeader.messages.ts"
+  },
+  "site.header.login": {
+    "en": "Log in",
+    "context": "Button in the public site’s top bar that goes to the Tiledash app’s login page, where you log in with your Homey account.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/SiteHeader.messages.ts"
+  },
+  "site.hero.clear": {
+    "en": "Clear",
+    "context": "Button that shows clear weather (no rain or snow) over the home page’s hero picture.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.free": {
+    "en": "Free for good. No trial, no timer, no card.",
+    "context": "Line above the login button of the home page: the Free plan is free for good (forever); there is no trial period, no countdown and no payment card needed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.lead": {
+    "en": "Live dashboards for the tablet by the door, the screen in the kitchen and the e-ink panel in the hall.",
+    "context": "Line under the home page’s heading. E-ink is a paper-like screen that only changes when the picture changes.",
+    "maxLength": 120,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.panelDayAlt": {
+    "en": "A Tiledash wall panel by day, showing the Energy house",
+    "context": "Alt text of a picture of a wall-mounted screen during the day, showing the Energy house (a picture of the house with live energy values).",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.panelNightAlt": {
+    "en": "A Tiledash wall panel at night, dimmed to its clock",
+    "context": "Alt text of a picture of a wall-mounted screen showing a clock, dimmed at night. Tiledash is the product name.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.pro": {
+    "en": "Living wallpapers are part of Pro",
+    "context": "Note after the weather buttons: living wallpapers (animated backgrounds) are a feature of the paid Pro plan. Pro is the plan name and stays.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.rain": {
+    "en": "Rain",
+    "context": "Button that shows rain falling over the home page’s hero picture.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.snow": {
+    "en": "Snow",
+    "context": "Button that shows snow falling over the home page’s hero picture.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.thunder": {
+    "en": "Thunder",
+    "context": "Button that shows a thunderstorm over the home page’s hero picture.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.title": {
+    "en": "<first>Your Homey,</first><second>on every wall.</second>",
+    "context": "The big heading of the public home page, on two lines: the first line, then the second. Keep both tags, in this order, and put the line break where it reads well; the two parts form one short slogan. Homey is the smart-home hub, a product name.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.weatherAt": {
+    "en": "{condition, select, rain {rain} snow {snow} thunder {thunder} other {clear}} at your Homey",
+    "context": "Small caption in the hero beside a time such as “19:30”: the weather now shown falling over the picture, as at the person’s Homey, such as “rain at your Homey”. Lowercase; the condition comes first.",
+    "params": {
+      "condition": "Which weather: rain, snow, thunder or clear. Not translated."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.weatherLabel": {
+    "en": "The weather at your Homey",
+    "context": "Screen reader label of the group of buttons (Rain, Snow, Thunder, Clear) that choose the weather in the home page’s hero picture.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.hero.weatherNote": {
+    "en": "The weather at your Homey, behind your tiles",
+    "context": "Small text before the weather buttons: a dashboard’s living wallpaper can show the real weather at the person’s Homey behind the tiles.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/live/SiteNightHero.messages.ts"
+  },
+  "site.houseFrames.caption": {
+    "en": "<b>Your house, pictured.</b> Turn a floor of your plan into a picture, by day and in the evening, with your own walls, furniture and lamps. Made with picture credits.",
+    "context": "Caption under the pictures: Tiledash can turn a floor of the person’s floor plan into a picture. <b>…</b> marks the short bold lead-in; keep the tags. “Picture credits” are the credits that are spent to make a picture.",
+    "maxLength": 220,
+    "file": "packages/ui/src/site/SiteHouseFrames.messages.ts"
+  },
+  "site.houseFrames.dayAlt": {
+    "en": "A floor of the plan, pictured by day",
+    "context": "Alt text of a picture on the public site: one floor of a floor plan, drawn as a picture in daylight.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/SiteHouseFrames.messages.ts"
+  },
+  "site.houseFrames.eveningAlt": {
+    "en": "The same floor in the evening",
+    "context": "Alt text of the second picture, which fades with the first: the same floor drawn in the evening with the lamps on.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/SiteHouseFrames.messages.ts"
+  },
+  "site.languages.alsoIn": {
+    "en": "This page is also in English.",
+    "context": "A small card on the public site, shown once to a visitor whose browser asks for this language while they read the page in another one. Name this language itself (in Dutch: “Deze pagina is er ook in het Nederlands.”).",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/siteLanguages.messages.ts"
+  },
+  "site.languages.homeNote": {
+    "en": "home page",
+    "context": "Small grey note beside a language in the language list when the current page is not translated into it: choosing it opens that language’s home page instead.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/siteLanguages.messages.ts"
+  },
+  "site.languages.label": {
+    "en": "Language",
+    "context": "Screen reader label of the language button in the top bar of the public site, and of its list of languages.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/siteLanguages.messages.ts"
+  },
+  "site.languages.readIn": {
+    "en": "Read it in English",
+    "context": "Button on that card: opens the same page in this language. Name this language itself (in Dutch: “Lees hem in het Nederlands”).",
+    "maxLength": 32,
+    "file": "packages/ui/src/site/siteLanguages.messages.ts"
+  },
+  "site.languages.stay": {
+    "en": "No thanks",
+    "context": "Button on that card, in this language: keeps reading the page as it is, and the card isn’t shown again.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/siteLanguages.messages.ts"
+  },
+  "site.links.changelog": {
+    "en": "Changelog",
+    "context": "Footer link to the page that lists every release and what changed in it. A short menu item.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.columnDocs": {
+    "en": "Docs and community",
+    "context": "Title of the second column of links in the public site’s footer: the documentation, tutorials, widget gallery and the community.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.columnLegal": {
+    "en": "Legal",
+    "context": "Title of the last column of links in the public site’s footer: privacy statement, terms and trademarks.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.columnProduct": {
+    "en": "Product",
+    "context": "Title of the first column of links in the public site’s footer: about Tiledash itself.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.community": {
+    "en": "Community",
+    "context": "Link in the public site’s top bar and in its footer to the community site, where people share widgets, themes and 3D models.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.energy": {
+    "en": "Energy",
+    "context": "Link in the public site’s top bar to the home page section about the Energy house: solar, battery, grid and car on a picture of the house.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.features": {
+    "en": "Features",
+    "context": "Link in the public site’s top bar and in its footer to the overview of what Tiledash can do. A short menu item.",
+    "maxLength": 22,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.floorPlans": {
+    "en": "Floor plans",
+    "context": "Link in the public site’s top bar to the home page section about floor plans: a drawing of your house with live lights and blinds.",
+    "maxLength": 22,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.gettingStarted": {
+    "en": "Getting started",
+    "context": "Footer link to the tutorials that take a new person through their first dashboards.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.login": {
+    "en": "Log in",
+    "context": "Footer link that goes to the Tiledash app’s login page (with the Homey account). A short menu item.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.ownWidgets": {
+    "en": "Your own widgets",
+    "context": "Footer link to the documentation on making your own widgets with HTML and templates.",
+    "maxLength": 26,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.pricing": {
+    "en": "Pricing",
+    "context": "Link in the public site’s top bar and in its footer to the plans and what they cost (Free and Pro).",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.privacy": {
+    "en": "Privacy",
+    "context": "Link in the public site’s top bar to the home page section about privacy (support asks first), and in its footer to the privacy statement.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.roadmap": {
+    "en": "Roadmap",
+    "context": "Footer link to the page of what Tiledash plans to build next. A short menu item.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.templateReference": {
+    "en": "Template reference",
+    "context": "Footer link to the reference of the template language (components, filters, expressions) widgets are written in.",
+    "maxLength": 26,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.terms": {
+    "en": "Terms",
+    "context": "Footer link to the terms of use of Tiledash. A short menu item.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.themes": {
+    "en": "Themes",
+    "context": "Link in the public site’s top bar and in its footer to the part about themes: the colours, fonts and corners of a dashboard.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.trademarks": {
+    "en": "Trademarks",
+    "context": "Footer link to the page about trademarks (Tiledash’s own, and that Homey belongs to Athom).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.widgetGallery": {
+    "en": "Widget gallery",
+    "context": "Footer link to the page that shows every built-in widget with its settings and examples.",
+    "maxLength": 24,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.links.yourAi": {
+    "en": "Your AI",
+    "context": "Link in the public site’s top bar and in its footer to the part about using your own AI assistant (Claude, ChatGPT…) to build widgets and dashboards.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
+  "site.liveExample.codeLabel": {
+    "en": "Code",
+    "context": "Screen reader label of the group of two tabs (Template and Style) above the example’s code.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.deviceLabel": {
+    "en": "Device",
+    "context": "Screen reader label of the group of choices On, Off and Away that set the state of the demo device.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.edit": {
+    "en": "Edit",
+    "context": "Button above the example’s code: makes the code editable and redraws the tile as you type. A verb.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.line": {
+    "en": "Line {line}:",
+    "context": "Start of a problem found in the edited code, before the problem text: names the line of the code, such as “Line 3:”.",
+    "params": {
+      "line": "The line number."
+    },
+    "maxLength": 16,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.reset": {
+    "en": "Reset",
+    "context": "Button above the example’s code, shown after it was edited: puts the code back as it was. A verb.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.stateAway": {
+    "en": "Away",
+    "context": "Choice above the example tile: show the demo device as unavailable (not reachable, away).",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.stateOff": {
+    "en": "Off",
+    "context": "Choice above the example tile: show the demo device switched off.",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.stateOn": {
+    "en": "On",
+    "context": "Choice above the example tile: show the demo device switched on. Three choices: On, Off, Away.",
+    "maxLength": 12,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.tabStyle": {
+    "en": "Style",
+    "context": "Tab that shows the style code (CSS) of the example, and the label of its code editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.tabTemplate": {
+    "en": "Template",
+    "context": "Tab that shows the template code (HTML with Liquid) of the example, and the label of its code editor.",
+    "maxLength": 16,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.themeLabel": {
+    "en": "Theme",
+    "context": "Screen reader label of the drop-down list that picks the theme the example tile is drawn in.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.liveExample.themePage": {
+    "en": "Tiledash (follows your device)",
+    "context": "First choice of the theme list under an example tile: Tiledash’s own theme, light or dark as the visitor’s device is set. Other choices are theme names.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/live/LiveExample.messages.ts"
+  },
+  "site.meta.homeTitle": {
+    "en": "Tiledash: live Homey dashboards for tablets and wall panels",
+    "context": "The title of the public site’s home page as the browser tab and search results show it. Tiledash is the product name and Homey the smart-home hub: both stay as they are. Say in this language what the product is.",
+    "maxLength": 90,
+    "file": "apps/site/src/site/config.messages.ts"
+  },
+  "site.page.changelog.description": {
+    "en": "What's new in Tiledash: every release, newest first, with what you can do now, what works better and what we fixed.",
+    "context": "Meta description of the changelog’s first page: what search engines show under the title.",
+    "maxLength": 170,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.descriptionPage": {
+    "en": "Older Tiledash releases, {range}: what you could do since, what worked better and what we fixed.",
+    "context": "Meta description of a later page of the changelog, which lists older releases.",
+    "params": {
+      "range": "The versions the page covers, such as “26.10.0 to 26.5.2” (made with the range message)."
+    },
+    "maxLength": 170,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.empty": {
+    "en": "The first release notes arrive with the next version.",
+    "context": "Shown on the changelog page when no release has been published yet.",
+    "maxLength": 80,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.heading": {
+    "en": "What's new in Tiledash",
+    "context": "Heading of the changelog’s first page.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.headingPage": {
+    "en": "Older releases, {range}",
+    "context": "Heading of a later page of the changelog, which lists older releases.",
+    "params": {
+      "range": "The versions the page covers (made with the range message)."
+    },
+    "maxLength": 60,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.lead": {
+    "en": "Every release, newest first: what you can do now, what works better and what we fixed. Tiledash updates itself, so you have it all already.",
+    "context": "Sentences under the heading of the changelog’s first page.",
+    "maxLength": 190,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.leadPage": {
+    "en": "Each release lists its changes by title; open one to read it.",
+    "context": "Sentence under the heading of a later page of the changelog: older releases show only their titles, which open to the full text.",
+    "maxLength": 90,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.title": {
+    "en": "Changelog",
+    "context": "Title of the changelog page (the list of every Tiledash release), in the browser tab and search results.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.titlePage": {
+    "en": "Changelog, page {page}",
+    "context": "Title of a later page of the changelog, in the browser tab: the list is split over several pages.",
+    "params": {
+      "page": "The page number, starting at 2."
+    },
+    "maxLength": 40,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.changelog.versionRange": {
+    "en": "{from} to {to}",
+    "context": "The versions a changelog page covers, in its heading and description: from the newest version on the page to the oldest.",
+    "params": {
+      "from": "The newest version on the page, such as 26.10.0. Not translated.",
+      "to": "The oldest version on the page, such as 26.5.2. Not translated."
+    },
+    "maxLength": 30,
+    "file": "apps/site/src/site/changelogPage.messages.ts"
+  },
+  "site.page.docs.buildDescription": {
+    "en": "Write widgets of your own in HTML and Liquid, share them in the Community, let your AI write them, and look up everything a template can use.",
+    "context": "Meta description of the docs’ Build page, about making your own widgets. HTML and Liquid stay as they are; the Community is Tiledash’s place to share widgets.",
+    "maxLength": 200,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.docs.tutorialsDescription": {
+    "en": "Short walks through Tiledash, one step at a time, with a picture of each.",
+    "context": "Meta description of the tutorials page: what search engines show under the title.",
+    "maxLength": 110,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.docs.tutorialsLead": {
+    "en": "Short walks through Tiledash, one step at a time, with a picture of each. Start at the top if you’re new.",
+    "context": "Sentences under the heading of the tutorials page. The first tutorial in the list is the one to start with.",
+    "maxLength": 150,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.docs.tutorialsTitle": {
+    "en": "Tutorials",
+    "context": "Title and heading of the page that lists the tutorials (step-by-step walks through Tiledash).",
+    "maxLength": 30,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.docs.welcome": {
+    "en": "Welcome",
+    "context": "Title of the docs’ first page, in the browser tab and search results.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.docs.welcomeDescription": {
+    "en": "Find what you want to do in Tiledash, or search the docs: dashboards, screens, themes, your house and energy, sharing, your AI, and making widgets.",
+    "context": "Meta description of the docs’ first page: what search engines show under the title.",
+    "maxLength": 210,
+    "file": "apps/site/src/site/docsPages.messages.ts"
+  },
+  "site.page.features.goesWellWith": {
+    "en": "Goes well with",
+    "context": "Heading above the cards of related features at the bottom of a feature’s page.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/featuresPages.messages.ts"
+  },
+  "site.page.features.lead": {
+    "en": "Every feature, a page each: what it does, what it looks like, and the tutorials and guide pages that show you how.",
+    "context": "Sentence under the heading of the features overview page, also its meta description. Each feature has its own page.",
+    "maxLength": 160,
+    "file": "apps/site/src/site/featuresPages.messages.ts"
+  },
+  "site.page.features.title": {
+    "en": "Homey dashboard features",
+    "context": "Title of the features overview page, in the browser tab and search results. Homey is the smart-home hub and keeps its name.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/featuresPages.messages.ts"
+  },
+  "site.page.home.aiEyebrow": {
+    "en": "Built with your AI",
+    "context": "Small label above the heading of the home page’s section about building dashboards with an AI assistant.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.aiLead": {
+    "en": "Tiledash supports MCP, the industry standard for connecting AI assistants to apps. Connect the one you already use and it builds widgets, dashboards, themes and 3D furniture against your own devices, with a live preview before anything changes. Part of Pro.",
+    "context": "Sentences under the heading of the home page’s AI section. MCP is a protocol name and stays as it is; Pro is the paid plan and keeps its name.",
+    "maxLength": 360,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.aiTitle": {
+    "en": "Ask for it. Watch it appear on your wall.",
+    "context": "Heading of the home page’s AI section: you ask your AI assistant for a widget or dashboard and see it on your wall display.",
+    "maxLength": 60,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.allFeatures": {
+    "en": "See all features",
+    "context": "Link under the features on the home page, to the page that lists every feature.",
+    "maxLength": 32,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.asksEyebrow": {
+    "en": "Your data",
+    "context": "Small label above the heading of the home page’s section about how Tiledash handles people’s data.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.asksLead": {
+    "en": "Your setup is stored encrypted, with a key for your account alone. Tiledash’s admins can’t see your dashboards, devices or recordings. When we need to, to help you, we ask first, say why, and you decide for how long.",
+    "context": "Sentences under the heading of the home page’s data section. Recordings are stored histories of readings.",
+    "maxLength": 310,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.asksTitle": {
+    "en": "We ask before we look.",
+    "context": "Heading of the home page’s data section: Tiledash’s admins ask permission before they can see anything of someone’s setup.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.description": {
+    "en": "Live dashboards for your Homey, on every wall. Free for good: no trial, no timer, no card. Your AI builds widgets, dashboards, themes and 3D models on Pro.",
+    "context": "Meta description of the home page: the text search engines show under the title and link previews quote. Homey is the smart-home hub and Pro the paid plan: both names stay as they are.",
+    "maxLength": 230,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.energyEyebrow": {
+    "en": "Energy",
+    "context": "Small label above the heading of the home page’s section about showing your energy use on a picture of your house.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.energyLead": {
+    "en": "See where your power goes at a glance: from the panels on the roof, into the battery and the car, and back to the grid.",
+    "context": "Sentence under the heading of the home page’s energy section. The panels are solar panels.",
+    "maxLength": 170,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.energyTitle": {
+    "en": "Your energy, on your house",
+    "context": "Heading of the home page’s energy section: power use, solar, battery and car drawn on a picture of the house.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.featuresEyebrow": {
+    "en": "Features",
+    "context": "Small label above the heading of the home page’s first section, which shows what Tiledash can do.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.featuresTitle": {
+    "en": "If your Homey can do it, a tile can do it.",
+    "context": "Heading of the home page’s first section. A tile is one square of a dashboard that shows or controls one thing; Homey is the smart-home hub and stays as it is.",
+    "maxLength": 70,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.floorPlansEyebrow": {
+    "en": "Floor plans",
+    "context": "Small label above the heading of the home page’s section about drawing your house as a floor plan.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.floorPlansLead": {
+    "en": "Draw your home once and watch it live: every room, every light, every blind, where it really is.",
+    "context": "One or two sentences under the heading of the home page’s floor plan section.",
+    "maxLength": 140,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.floorPlansTitle": {
+    "en": "Your house, live, from above",
+    "context": "Heading of the home page’s floor plan section: the house seen from above, with lights and blinds shown as they are right now.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.ownEyebrow": {
+    "en": "Make it yours",
+    "context": "Small label above the heading of the home page’s section about making and sharing your own widgets.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.ownLead": {
+    "en": "Write a widget in HTML and Liquid and watch it draw against your own devices. Publish it to the Community for free, or install what other Homey owners made.",
+    "context": "Sentences under the heading of the home page’s make-your-own section. HTML and Liquid are the languages a widget is written in and stay as they are; the Community is Tiledash’s place to share widgets and Homey the smart-home hub.",
+    "maxLength": 220,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.ownTheme": {
+    "en": "Or <link>make a theme of your own</link>: your colours, gradients, fonts, corners and glow, and CSS for the rest. Own themes are part of Pro.",
+    "context": "Sentence under the theme pictures on the home page. The link goes to the guide on making your own theme. Pro is the paid plan and keeps its name; CSS stays as it is.",
+    "maxLength": 200,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.ownTitle": {
+    "en": "Make it, share it, install it.",
+    "context": "Heading of the home page’s section about making your own widgets, sharing them and installing other people’s: three short imperative phrases.",
+    "maxLength": 45,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.picturesEyebrow": {
+    "en": "Pictures of your home",
+    "context": "Small label above the heading of the home page’s section about turning a floor plan into a picture of the house.",
+    "maxLength": 32,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.picturesLead": {
+    "en": "Turn a floor of your plan into a picture, by day and in the evening, true to life or painted. Your own walls, furniture and lamps, where they are. Made with picture credits.",
+    "context": "Sentences under the heading of the home page’s pictures section. Picture credits are the units a person spends to have a picture made.",
+    "maxLength": 240,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.picturesTitle": {
+    "en": "Your house, in the style you like",
+    "context": "Heading of the home page’s section about pictures of your house in styles such as true to life, clay or painted.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.pricingEyebrow": {
+    "en": "Pricing",
+    "context": "Small label above the heading of the home page’s section about the plans and what they cost.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.pricingTitle": {
+    "en": "Free. Not for 14 days. For good.",
+    "context": "Heading of the home page’s pricing section: the Free plan is free for good, not a 14-day trial. Three short sentences.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.structuredDescription": {
+    "en": "Live dashboards for your Homey, on every wall: a tablet by the door, a screen in the kitchen, an e-ink panel in the hall. Free for good; your AI builds widgets, dashboards, themes and 3D models on Pro.",
+    "context": "Description of the product in the data search engines read about the page (not shown on the page itself). Homey is the smart-home hub and Pro the paid plan: both names stay as they are.",
+    "maxLength": 290,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.themesEyebrow": {
+    "en": "Themes",
+    "context": "Small label above the heading of the home page’s section about themes, the looks a dashboard can have.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.home.themesTitle": {
+    "en": "A theme for every room",
+    "context": "Heading of the home page’s themes section: a different look of the dashboard to suit each room.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/homePage.messages.ts"
+  },
+  "site.page.notFound.body": {
+    "en": "It may have moved, or the address has a typo. The docs and the widget gallery are a good place to look.",
+    "context": "Text under the heading of the page-not-found page. The widget gallery is the docs page that shows every widget.",
+    "maxLength": 150,
+    "file": "apps/site/src/site/notFoundPage.messages.ts"
+  },
+  "site.page.notFound.docs": {
+    "en": "Open the docs",
+    "context": "Button on the page-not-found page: opens the documentation.",
+    "maxLength": 28,
+    "file": "apps/site/src/site/notFoundPage.messages.ts"
+  },
+  "site.page.notFound.heading": {
+    "en": "This page isn’t here.",
+    "context": "Big heading of the page shown when an address of the public site doesn’t exist, and its meta description.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/notFoundPage.messages.ts"
+  },
+  "site.page.notFound.home": {
+    "en": "Go to the home page",
+    "context": "Button on the page-not-found page: goes to the site’s home page.",
+    "maxLength": 32,
+    "file": "apps/site/src/site/notFoundPage.messages.ts"
+  },
+  "site.page.notFound.title": {
+    "en": "Page not found",
+    "context": "Title of the page shown when an address of the public site doesn’t exist, in the browser tab.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/notFoundPage.messages.ts"
+  },
+  "site.page.pricing.description": {
+    "en": "Tiledash is free for a home on one Homey, widgets of your own included. Pro keeps years of history, runs more screens, lets you make your own themes and builds widgets with your AI.",
+    "context": "Meta description of the pricing page: what search engines show under the title. Homey is the smart-home hub and Pro the paid plan: both names stay as they are.",
+    "maxLength": 260,
+    "file": "apps/site/src/site/pricingPage.messages.ts"
+  },
+  "site.page.pricing.heading": {
+    "en": "Start free. Go Pro when you want more.",
+    "context": "Heading of the pricing page above the table that compares the plans. Pro is the paid plan and keeps its name.",
+    "maxLength": 60,
+    "file": "apps/site/src/site/pricingPage.messages.ts"
+  },
+  "site.page.pricing.lead": {
+    "en": "Free has everything you need for a home on one Homey, including widgets of your own to make and share. Pro keeps years of history, runs more screens, lets you make your own themes and builds widgets with your AI.",
+    "context": "Sentences under the heading of the pricing page. Free and Pro are the names of the plans and stay as they are; Homey is the smart-home hub.",
+    "maxLength": 310,
+    "file": "apps/site/src/site/pricingPage.messages.ts"
+  },
+  "site.page.pricing.title": {
+    "en": "Pricing",
+    "context": "Title of the pricing page, in the browser tab and search results.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/pricingPage.messages.ts"
+  },
+  "site.page.reference.attributes": {
+    "en": "Attributes",
+    "context": "Heading on the HTML page of the template reference, above the list of HTML attributes a widget template may use. Also an entry of the page’s table of contents.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.attributesNote": {
+    "en": "and any <code>data-*</code> or <code>aria-*</code> attribute. An inline <code>style</code> may only set custom properties (<code>style=\"--fill: 62%\"</code>); put the rest in the widget’s style.",
+    "context": "Paragraph after the list of attributes on the HTML page of the template reference; it continues that list (“…and any data-* attribute”). Every <code> part is code and stays as it is, including its quotes. “The widget’s style” is the widget’s CSS.",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.elements": {
+    "en": "Elements",
+    "context": "Heading on the HTML page of the template reference, above the list of HTML elements a widget template may use. Also an entry of the page’s table of contents.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.events": {
+    "en": "Events",
+    "context": "Heading on the HTML page of the template reference, above the explanation of the handlers (data-hd-on-click and so on). Also an entry of the page’s table of contents.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.eventsIntro": {
+    "en": "Handlers run an <link>action</link> when something happens: <code>data-hd-on-</code> followed by",
+    "context": "First part of a sentence on the HTML page of the template reference: it is followed directly by the list of event names (click, press…) and a full stop, so it must end in a way that leads into that list. <link> links to the page about actions; <code> is code and stays as it is.",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.eventsOutro": {
+    "en": "Inline <code>on…</code> attributes are always removed.",
+    "context": "Sentence after the list of events on the HTML page of the template reference: attributes like onclick written in a template are taken out. <code> is code and stays as it is.",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.onAnyElement": {
+    "en": "On any element:",
+    "context": "Line on the HTML page of the template reference, followed by a list of attribute names (code) that every element may have.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.settings": {
+    "en": "Settings",
+    "context": "Heading on the Style variables page of the template reference, above the explanation that a widget’s settings are available as CSS variables. Also an entry of the page’s table of contents.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.settingsNote": {
+    "en": "Every simple setting of the widget reaches its style too, as <code>--setting-</code> and its name in kebab case: a colour setting <code>accentColor</code> is <code>var(--setting-accent-color)</code>. A size setting adds <code>-scale</code> (0.85, 1 or 1.25).",
+    "context": "Paragraph under the heading “Settings” on the Style variables page. Every <code> part is code and stays as it is. “Kebab case” is the writing style with hyphens between words (accent-color).",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tapsHeading": {
+    "en": "Taps the tile’s user chooses",
+    "context": "Heading on the Actions page of the template reference, above a table of marks a widget can put on a part so that whoever uses the widget picks what tapping it does.",
+    "maxLength": 60,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tapsIntro": {
+    "en": "Mark a part instead of writing a handler, and whoever uses the widget picks what tapping it does in the tile’s settings.",
+    "context": "Paragraph under the heading “Taps the tile’s user chooses” on the Actions page of the template reference.",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tapsMark": {
+    "en": "Mark",
+    "context": "Column heading of a table on the Actions page: the attribute (code) a widget puts on an element.",
+    "maxLength": 20,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tapsWhat": {
+    "en": "What it does",
+    "context": "Column heading of a table on the Actions page: what the mark in the same row does.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tileLayout": {
+    "en": "The tile’s layout",
+    "context": "Heading on the Style variables page of the template reference, above a table of the CSS variables that tell a widget’s style how its tile is laid out. Also an entry of the page’s table of contents.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.reference.tileLayoutIntro": {
+    "en": "Set by the tile’s alignment in the Style panel; read them to place your content.",
+    "context": "Paragraph under the heading “The tile’s layout” on the Style variables page: the variables below are set by the tile’s alignment option in the app’s Style panel.",
+    "file": "apps/site/src/site/referencePages.messages.ts"
+  },
+  "site.page.roadmap.description": {
+    "en": "Where Tiledash is going: what we'd like to build next. Ideas welcome on Discord.",
+    "context": "Meta description of the roadmap page: what search engines show under the title. Discord is the chat service and keeps its name.",
+    "maxLength": 130,
+    "file": "apps/site/src/site/roadmapPage.messages.ts"
+  },
+  "site.page.roadmap.heading": {
+    "en": "Where Tiledash is going",
+    "context": "Heading of the roadmap page, above the list of what is planned.",
+    "maxLength": 40,
+    "file": "apps/site/src/site/roadmapPage.messages.ts"
+  },
+  "site.page.roadmap.lead": {
+    "en": "What we’d like to build next.",
+    "context": "One sentence under the heading of the roadmap page.",
+    "maxLength": 50,
+    "file": "apps/site/src/site/roadmapPage.messages.ts"
+  },
+  "site.page.roadmap.title": {
+    "en": "Roadmap",
+    "context": "Title of the roadmap page, in the browser tab and search results, and the small label above its heading.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/roadmapPage.messages.ts"
+  },
+  "site.page.widgets.description": {
+    "en": "Every widget Tiledash comes with, shown in Tiledash Dark or Light as your device is set, with what it fits and what each of its options does.",
+    "context": "Meta description of the widget gallery page: what search engines show under the title. Tiledash Dark and Tiledash Light are names of themes and stay as they are.",
+    "maxLength": 190,
+    "file": "apps/site/src/site/widgetPages.messages.ts"
+  },
+  "site.page.widgets.lead": {
+    "en": "Every widget Tiledash comes with, in Tiledash Dark or Light as your device is set. Open one to see what it fits and what each of its options does. Apart from the Device widget, which is built in, they are Tiledash’s own in the <link>Community</link>: every account has them without installing, and they get better without waiting for an app update.",
+    "context": "Introduction under the heading of the widget gallery page. Tiledash Dark and Tiledash Light are names of themes and stay as they are. <link> is a link to the page about the Community (the shared library of widgets, themes and more).",
+    "file": "apps/site/src/site/widgetPages.messages.ts"
+  },
+  "site.page.widgets.title": {
+    "en": "Widgets",
+    "context": "Title and heading of the page that lists every widget Tiledash comes with, in the browser tab and search results.",
+    "maxLength": 30,
+    "file": "apps/site/src/site/widgetPages.messages.ts"
+  },
+  "site.page.widgets.widgetTitle": {
+    "en": "{title} widget",
+    "context": "Title of one widget’s page in the browser tab and search results, like “Climate widget”.",
+    "params": {
+      "title": "The widget’s name, like Climate or Light."
+    },
+    "maxLength": 50,
+    "file": "apps/site/src/site/widgetPages.messages.ts"
+  },
+  "site.pictureStyles.day": {
+    "en": "Day",
+    "context": "Small label under the picture that says it is shown by day. The picture fades between evening and day.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.dayAlt": {
+    "en": "The demo house’s ground floor by day, drawn {style}",
+    "context": "Alt text of a picture: the ground floor of the demo house, in daylight, drawn in one picture style.",
+    "params": {
+      "style": "The style’s name in lowercase, such as “modern dark”, already in the page’s language."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.energyLink": {
+    "en": "Your house in the Energy house",
+    "context": "Link under the pictures, to the guide on putting the person’s house in the Energy house.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.evening": {
+    "en": "Evening",
+    "context": "Small label under the picture that says it is shown in the evening (lamps on). The picture fades between evening and day.",
+    "maxLength": 14,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.eveningAlt": {
+    "en": "The same floor by evening, the lamps on, drawn {style}",
+    "context": "Alt text of the second picture: the same floor in the evening with the lamps on, in the same style.",
+    "params": {
+      "style": "The style’s name in lowercase, such as “modern dark”, already in the page’s language."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.factDay": {
+    "en": "<b>Day and evening.</b> Each picture comes in both, for the time of day.",
+    "context": "Second fact. <b>…</b> marks the bold lead-in; keep the tags. Every picture is made in a daylight and an evening version, shown to fit the time of day.",
+    "maxLength": 90,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.factPlan": {
+    "en": "<b>From your own plan.</b> Your walls, furniture and lamps, drawn where they are. Made with picture credits.",
+    "context": "Third fact. <b>…</b> marks the bold lead-in; keep the tags. “Picture credits” are the credits that are spent to make a picture.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.factTaps": {
+    "en": "<b>Taps still work.</b> Tap a lamp on the picture to switch it, as on the live plan.",
+    "context": "First of three facts under the pictures. <b>…</b> marks the short bold lead-in; keep the tags. A lamp on the picture can be tapped to switch the real lamp.",
+    "maxLength": 100,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.floorPlanLink": {
+    "en": "Pictures of your floor plan",
+    "context": "Link under the pictures, to the guide on pictures of a floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.house": {
+    "en": "Your house, for the Energy house",
+    "context": "Caption under that picture: a picture of the person’s house that is used in the Energy house (a live view of solar, battery, grid and car).",
+    "maxLength": 44,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.houseAlt": {
+    "en": "A house by evening with solar panels on the roof, a home battery, a heat pump and an electric car at its charger",
+    "context": "Alt text of a picture of a house from outside in the evening, drawn for the Energy house.",
+    "maxLength": 140,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.pictureStyles.level": {
+    "en": "A level of your floor plan",
+    "context": "Caption under the picture of one level (floor) of a floor plan.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PictureStyles.messages.ts"
+  },
+  "site.planPoints.countWord": {
+    "en": "{n, plural, =0 {no} =1 {one} =2 {two} =3 {three} =4 {four} =5 {five} =6 {six} =7 {seven} =8 {eight} =9 {nine} =10 {ten} other {#}}",
+    "context": "A number written in words, used inside a sentence such as “five dashboards”: words for 0 to 10, digits above ten. Lowercase unless the language capitalises such words.",
+    "params": {
+      "n": "The number."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.countWordFirst": {
+    "en": "{n, plural, =0 {No} =1 {One} =2 {Two} =3 {Three} =4 {Four} =5 {Five} =6 {Six} =7 {Seven} =8 {Eight} =9 {Nine} =10 {Ten} other {#}}",
+    "context": "The same number in words, but at the start of a bullet point such as “One Homey, five dashboards”, so with a capital where the language has them: words for 0 to 10, digits above ten.",
+    "params": {
+      "n": "The number."
+    },
+    "maxLength": 140,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.dashboards": {
+    "en": "{n, plural, one {{word} dashboard} other {{word} dashboards}}",
+    "context": "Part of a bullet point on a plan card: how many dashboards the plan allows, such as “five dashboards” or “50 dashboards”.",
+    "params": {
+      "n": "The number of dashboards.",
+      "word": "The number in words or digits, already in the page’s language. Not translated."
+    },
+    "maxLength": 80,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.freeFloorPlan": {
+    "en": "A live floor plan of your house",
+    "context": "Bullet point on the Free plan card: a floor plan of the house that shows live states.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.freeOwn": {
+    "en": "Make your own widgets and share them",
+    "context": "Bullet point on the Free plan card: people can make their own widgets and share them with others.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.freeScreens": {
+    "en": "A paired kitchen tablet and a link for a guest",
+    "context": "Bullet point on the Free plan card: one tablet can be paired with a code, and a share link can be given to a guest.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.freeWidgets": {
+    "en": "Every widget, on every screen you own",
+    "context": "Bullet point on the Free plan card: all widgets are included, on all of the person’s screens.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.history": {
+    "en": "{kept} of history for {readings, plural, one {# reading} other {# readings}}",
+    "context": "Bullet point on the Free plan card: how long the history of readings (such as temperatures and power) is kept, for how many readings, such as “A month of history for 25 readings”.",
+    "params": {
+      "kept": "How long, such as “A month”. Not translated.",
+      "readings": "The number of readings that can be recorded."
+    },
+    "maxLength": 100,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.homeys": {
+    "en": "{n, plural, one {{word} Homey} other {{word} Homeys}}",
+    "context": "Part of a bullet point on a plan card: how many Homeys (smart-home hubs; the name stays) the plan allows, such as “One Homey” or “Three Homeys”. It starts the bullet point.",
+    "params": {
+      "n": "The number of Homeys.",
+      "word": "The number in words (with a capital), already in the page’s language. Not translated."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.homeysDashboards": {
+    "en": "{homeys}, {dashboards}",
+    "context": "Bullet point on the Free plan card: how many Homeys and dashboards it has, such as “One Homey, five dashboards”.",
+    "params": {
+      "dashboards": "The number of dashboards, such as “five dashboards”. Not translated.",
+      "homeys": "The number of Homeys, such as “One Homey”. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.keptDays": {
+    "en": "{days, plural, one {# day} other {# days}}",
+    "context": "How long history is kept on a plan, at the start of a bullet point: such as “30 days”. Followed by “of history for …”.",
+    "params": {
+      "days": "The number of days."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.keptMonth": {
+    "en": "A month",
+    "context": "How long history is kept on a plan, at the start of a bullet point (so with a capital): “A month”. Followed by “of history for …”.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.keptYears": {
+    "en": "{years, plural, one {{word} year} other {{word} years}}",
+    "context": "How long history is kept on a plan, at the start of a bullet point (so with a capital): such as “Two years”. Followed by “of history for …”.",
+    "params": {
+      "word": "The number in words (with a capital) or digits, already in the page’s language. Not translated.",
+      "years": "The number of years."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proAi": {
+    "en": "Your AI builds widgets, dashboards, themes and 3D models",
+    "context": "Bullet point on the Pro plan card: the person’s own AI assistant can build widgets, dashboards, themes and 3D models.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proFloorPlan": {
+    "en": "Floor plans in 3D",
+    "context": "Bullet point on the Pro plan card: floor plans can be shown in 3D.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proFlows": {
+    "en": "Tiles that start your flows, and flows that change your tiles",
+    "context": "Bullet point on the Pro plan card: a tile on a dashboard can start a Homey flow when pressed, and a Homey flow can change a tile (its text, colour, icon). “Flow” is Homey’s automation and keeps its name where the glossary says.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proHistory": {
+    "en": "Years of history, and your old Homey Insights",
+    "context": "Bullet point on the Pro plan card: history is kept for years, and the old readings from Homey Insights (Homey’s own history feature; a name) can be imported.",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proLimits": {
+    "en": "{homeys}, {dashboards}, screens without limits",
+    "context": "Bullet point on the Pro plan card: how many Homeys and dashboards it has, and that the number of screens has no limit, such as “Three Homeys, 50 dashboards, screens without limits”.",
+    "params": {
+      "dashboards": "The number of dashboards, such as “50 dashboards”. Not translated.",
+      "homeys": "The number of Homeys, such as “Three Homeys”. Not translated."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.planPoints.proThemes": {
+    "en": "Your own themes and living wallpapers",
+    "context": "Bullet point on the Pro plan card: own themes (colours, fonts) and living wallpapers (animated backgrounds such as weather).",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/planPoints.messages.ts"
+  },
+  "site.pricingCards.atCheckout": {
+    "en": "Monthly or yearly, price at checkout",
+    "context": "Price line on the Pro plan card when the prices could not be read: Pro is paid per month or per year, and the price shows when paying.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.compare": {
+    "en": "Every difference, side by side",
+    "context": "Button on the Pro plan card: it goes to the table that compares Free and Pro line by line.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.freePledge": {
+    "en": "No trial. No timer. No card.",
+    "context": "Short pledge on the Free plan card: there is no trial period, no countdown and no payment card needed. Three very short sentences.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.freePrice": {
+    "en": "<b>{price}</b> for good",
+    "context": "Price line on the Free plan card: it costs nothing, for good (forever). <b>…</b> marks the amount; keep the tags.",
+    "params": {
+      "price": "The amount in the visitor’s currency, such as “€0”; or the plan name “Free” when prices are unknown. Not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.freeSay": {
+    "en": "Free stays free. Nothing turns into a bill after 14 days, or ever: you only pay when you pick Pro yourself.",
+    "context": "Paragraph on the Free plan card: the Free plan never becomes a paid one by itself; paying only starts when the person chooses the Pro plan.",
+    "maxLength": 130,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.perMonth": {
+    "en": "<b>{price}</b> a month",
+    "context": "Price line on the Pro plan card when the price is per month, such as “€4 a month”. <b>…</b> marks the amount; keep the tags.",
+    "params": {
+      "price": "The amount with its currency, such as “€4”. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.perYear": {
+    "en": "<b>{price}</b> a year",
+    "context": "Price line on the Pro plan card when only a yearly price is known, such as “€40 a year”. <b>…</b> marks the amount; keep the tags.",
+    "params": {
+      "price": "The amount with its currency, such as “€40”. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.perYearPlain": {
+    "en": "{price} a year",
+    "context": "The yearly price of Pro as the other way to pay, shown after the monthly one and a dot, such as “€40 a year”.",
+    "params": {
+      "price": "The amount with its currency, such as “€40”. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.proPledge": {
+    "en": "Only when you want it.",
+    "context": "Short pledge on the Pro plan card: Pro is only for when the person wants it.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingCards.proSay": {
+    "en": "Everything in Free, plus the things that cost us to run. Cancel any time; going back to Free never deletes a thing.",
+    "context": "Paragraph on the Pro plan card. Pro includes everything in Free, plus features that cost Tiledash money to run (AI, history, 3D). “Us” is Tiledash. Going back to Free deletes nothing.",
+    "maxLength": 150,
+    "file": "packages/ui/src/site/PricingCards.messages.ts"
+  },
+  "site.pricingTable.caption": {
+    "en": "Free and Pro compared",
+    "context": "Screen reader caption of the table that compares the Free and the Pro plan line by line. Free and Pro are plan names and stay.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/PricingTable.messages.ts"
+  },
+  "site.pricingTable.noteIncludingVat": {
+    "en": "Prices include VAT. Pay monthly or yearly with PayPal, and cancel any time. Going back to Free never deletes your dashboards.",
+    "context": "Note under the plans table: the prices include VAT (value added tax), payment is with PayPal per month or year, and ending Pro deletes nothing. PayPal is a product name.",
+    "maxLength": 150,
+    "file": "packages/ui/src/site/PricingTable.messages.ts"
+  },
+  "site.pricingTable.noteNoPrices": {
+    "en": "Pro is paid monthly or yearly; you see the price at checkout, with VAT where it applies. Going back to Free never deletes your dashboards.",
+    "context": "Note under the plans table when the prices could not be read: Pro is paid per month or year, and the price (with VAT where it applies) shows when paying.",
+    "maxLength": 160,
+    "file": "packages/ui/src/site/PricingTable.messages.ts"
+  },
+  "site.pricingTable.notePlusVat": {
+    "en": "Plus VAT where it applies. Pay monthly or yearly with PayPal, and cancel any time. Going back to Free never deletes your dashboards.",
+    "context": "Note under the plans table: VAT (value added tax) is added to the prices where it applies, payment is with PayPal per month or year, and ending Pro deletes nothing. PayPal is a product name.",
+    "maxLength": 160,
+    "file": "packages/ui/src/site/PricingTable.messages.ts"
+  },
+  "site.reference.attribute": {
+    "en": "Attribute",
+    "context": "Column heading of the table of a component in the template reference: its attributes, the names written in the opening tag.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.defaultIs": {
+    "en": "Default",
+    "context": "Start of a note in the template reference after the description of an attribute, followed by the value it has when left out as code and a full stop: “Default center.”. Only the word before the value.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.event": {
+    "en": "on {event}",
+    "context": "Small badge beside the name of a component in the template reference: the event it sends (“on click”). The event’s name is code and stays as it is.",
+    "params": {
+      "event": "The name of the event, like click. Not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.oneOf": {
+    "en": "One of",
+    "context": "Start of a note in the template reference after the description of an attribute, followed by the values it accepts as code and a full stop: “One of left, center, right.”. Only the words before the values.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.required": {
+    "en": "required",
+    "context": "Small orange note beside the name of an attribute or argument in the template reference: it must be given.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.takes": {
+    "en": "Takes",
+    "context": "Column heading of the table of a filter, function or action in the template reference: what it takes in (its arguments).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.reference.whatItIs": {
+    "en": "What it is",
+    "context": "Column heading in the template reference tables: the description of each attribute or argument.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/ReferenceEntry.messages.ts"
+  },
+  "site.roadmap.everything": {
+    "en": "Everything that changed",
+    "context": "Link under that list, to the changelog page that lists every release and all its changes.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/SiteRoadmap.messages.ts"
+  },
+  "site.roadmap.missing": {
+    "en": "Missing something? Plans change with what people ask for.",
+    "context": "Line at the bottom of the roadmap page, before a link: invites people to say what they miss; the plans follow what people ask for.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/SiteRoadmap.messages.ts"
+  },
+  "site.roadmap.share": {
+    "en": "Share an idea on Discord",
+    "context": "Link after that line, to the ideas channel on Tiledash’s Discord. Discord is a product name.",
+    "maxLength": 36,
+    "file": "packages/ui/src/site/SiteRoadmap.messages.ts"
+  },
+  "site.roadmap.shipped": {
+    "en": "Shipped recently",
+    "context": "Heading on the public roadmap page above the list of features that were released lately.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/SiteRoadmap.messages.ts"
+  },
+  "site.search.empty": {
+    "en": "Nothing matches “{query}”. Try a widget’s name, a filter or a setting.",
+    "context": "Note under the docs’ search box when nothing was found for what was typed. A filter is a Liquid template filter such as “round”; a setting is a widget setting.",
+    "params": {
+      "query": "What the visitor typed, shown in quotes. Not translated."
+    },
+    "file": "packages/ui/src/site/search.messages.ts"
+  },
+  "site.search.label": {
+    "en": "Search the docs",
+    "context": "Placeholder of the docs’ search box on the public site, and its screen reader label. People type a widget’s name, a filter or a setting.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/search.messages.ts"
+  },
+  "site.search.searching": {
+    "en": "Searching…",
+    "context": "Note under the docs’ search box while the results of what was typed are being fetched.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/search.messages.ts"
+  },
+  "site.search.unavailable": {
+    "en": "Search works in the built site (<code>noodge site:build</code>), where its index is made.",
+    "context": "Note shown while testing the site on a developer’s machine, where search has no index yet. The command in the code tag is typed as it is and never translated; keep the tag around it.",
+    "file": "packages/ui/src/site/search.messages.ts"
+  },
+  "site.sections.copied": {
+    "en": "Copied",
+    "context": "What the copy button on a code block says for a moment after it copied the code.",
+    "maxLength": 14,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.copy": {
+    "en": "Copy",
+    "context": "Button on every code block in the docs: copies the code to the clipboard.",
+    "maxLength": 14,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.docs": {
+    "en": "Docs",
+    "context": "Small label in a search result on the docs, naming the part of the site the page is in: the documentation in general. A single word or two, no commas.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.features": {
+    "en": "Features",
+    "context": "Small label in a search result: the page describes one of Tiledash’s features. No commas.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.guide": {
+    "en": "Guide",
+    "context": "Small label in a search result: the page is part of the user guide in the docs. No commas.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.templateReference": {
+    "en": "Template reference",
+    "context": "Small label in a search result: the page is part of the reference for writing widget templates. No commas.",
+    "maxLength": 28,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.tutorials": {
+    "en": "Tutorials",
+    "context": "Small label in a search result: the page is a step-by-step tutorial. No commas.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.widgets": {
+    "en": "Widgets",
+    "context": "Small label in a search result: the page is about one of the widgets Tiledash comes with. No commas.",
+    "maxLength": 24,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.sections.yourOwnWidgets": {
+    "en": "Your own widgets",
+    "context": "Small label in a search result: the page is about making widgets of your own (the docs’ Build half). No commas.",
+    "maxLength": 28,
+    "file": "apps/site/src/site/siteSections.messages.ts"
+  },
+  "site.stale.note": {
+    "en": "This page has changed in English since it was translated. <link>Read it in English</link>.",
+    "context": "A short note at the top of a translated docs page, tutorial or feature page whose English version was changed after the translation was made. The link opens the English page.",
+    "maxLength": 140,
+    "file": "apps/site/src/components/staleNote.messages.ts"
+  },
+  "site.themeGrid.alt": {
+    "en": "The dashboard in {theme}",
+    "context": "Alt text of a screenshot on the public site: the same dashboard drawn in one of the built-in themes.",
+    "params": {
+      "theme": "The theme’s name, such as “Nocturne Dark”. Not translated."
+    },
+    "maxLength": 60,
+    "file": "packages/ui/src/site/SiteThemeGrid.messages.ts"
+  },
+  "site.tutorials.aboutLabel": {
+    "en": "About this tutorial",
+    "context": "Screen reader label of the card at the top of a tutorial that lists how long it takes, how many steps it has and what to do first.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.aboutMinutes": {
+    "en": "About {minutes, plural, one {# minute} other {# minutes}}",
+    "context": "Value beside the label “Takes” at the top of a tutorial: roughly how long the tutorial takes to follow.",
+    "params": {
+      "minutes": "The number of minutes, a whole number of at least 1."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.close": {
+    "en": "Close",
+    "context": "Screen reader label of the button that closes the enlarged tutorial screenshot and returns to the page.",
+    "maxLength": 25,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.enlarge": {
+    "en": "Enlarge the picture",
+    "context": "Screen reader label of a small button over a tutorial’s screenshot that shows the picture larger, over the page.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.eyebrow": {
+    "en": "Tutorial",
+    "context": "Small label above the title at the top of a tutorial page on the public site: this page is a step-by-step tutorial.",
+    "maxLength": 25,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.first": {
+    "en": "First",
+    "context": "Label in the card at the top of a tutorial, beside a tick icon; its value links to what to do or read before starting this tutorial (“First: Add your first dashboard”).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.minutesShort": {
+    "en": "{n} min",
+    "context": "How long a tutorial takes, shown small on its card or row in a list of tutorials, beside a clock icon.",
+    "params": {
+      "n": "The number of minutes, a whole number of at least 1."
+    },
+    "maxLength": 15,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.result": {
+    "en": "What you end up with",
+    "context": "Small heading in the card at the top of a tutorial, above a picture of the finished result of the tutorial.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.stepCount": {
+    "en": "{n, plural, one {# step} other {# steps}}",
+    "context": "How many steps a tutorial has, shown small on its card or row in a list of tutorials, beside a list icon.",
+    "params": {
+      "n": "The number of steps, a whole number."
+    },
+    "maxLength": 25,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.steps": {
+    "en": "Steps",
+    "context": "Label in the card at the top of a tutorial, beside a list icon; its value is the number of steps the tutorial has.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.tutorials.takes": {
+    "en": "Takes",
+    "context": "Label in the card at the top of a tutorial, beside a clock icon; its value says how long the tutorial takes (“About 5 minutes”).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/tutorials.messages.ts"
+  },
+  "site.widgetDocs.actionCamera": {
+    "en": "open the camera big",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionDashboard": {
+    "en": "open a dashboard (as a page, a popup, a side panel or full screen)",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionDevice": {
+    "en": "open the device",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionFlow": {
+    "en": "start a flow",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionHistory": {
+    "en": "show the reading’s history",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionMood": {
+    "en": "set a mood",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionNone": {
+    "en": "do nothing else",
+    "context": "A verb phrase that takes the place of the list of tap actions (“It can …”) when a tap can do nothing besides its default. No capital, no full stop.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionRequest": {
+    "en": "send a web request",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionToggle": {
+    "en": "switch the device on or off",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionVariable": {
+    "en": "change a Logic variable",
+    "context": "A verb phrase in the sentence that says what a tile’s tap, hold or double tap can do (“Each can …”). It follows “can” or “will” and sits in a list with other actions, so write it without a capital and without a full stop.",
+    "maxLength": 80,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.actionWidget": {
+    "en": "do what the widget does",
+    "context": "A verb phrase, used like the other tap actions (“Each can …”) when the widget names no action of its own: the tap does what the widget itself does. No capital, no full stop.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseDoubleNothing": {
+    "en": "a double tap does nothing",
+    "context": "Clause in the sentence about a tile’s tap settings: what a double tap does until the user chooses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseDoubleWill": {
+    "en": "a double tap will {action}",
+    "context": "Clause in the sentence about a tile’s tap settings: what a double tap does until the user chooses.",
+    "params": {
+      "action": "What it does, a verb phrase like “open the device” (see the tap actions)."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseHoldNothing": {
+    "en": "holding it does nothing",
+    "context": "Clause in the sentence about a tile’s tap settings: what a hold does until the user chooses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseHoldWill": {
+    "en": "holding it will {action}",
+    "context": "Clause in the sentence about a tile’s tap settings: what a hold does until the user chooses.",
+    "params": {
+      "action": "What it does, a verb phrase like “open the device” (see the tap actions)."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseItNothing": {
+    "en": "it does nothing",
+    "context": "Clause in the sentence about a tile’s hold setting: what a hold does until the user chooses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseItWill": {
+    "en": "it will {action}",
+    "context": "Clause in the sentence about a tile’s hold setting: what a hold does until the user chooses.",
+    "params": {
+      "action": "What it does, a verb phrase like “open the device” (see the tap actions)."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseTapNothing": {
+    "en": "a tap does nothing",
+    "context": "Clause in the sentence about a tile’s tap settings: what a tap does until the user chooses.",
+    "maxLength": 60,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.clauseTapWill": {
+    "en": "a tap will {action}",
+    "context": "Clause in the sentence about a tile’s tap settings: what a tap does until the user chooses.",
+    "params": {
+      "action": "What it does, a verb phrase like “open the device” (see the tap actions)."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupButtons": {
+    "en": "Buttons and navigation",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupClimate": {
+    "en": "Climate and sensors",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupDevices": {
+    "en": "Lights, sockets and media",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupEnergy": {
+    "en": "Energy and prices",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupMore": {
+    "en": "Clocks, charts, maps and more",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.groupSecurity": {
+    "en": "Doors, locks and alarms",
+    "context": "Name of a group of widgets on the widget gallery of the public site: the heading above its cards, the second part of the breadcrumb on a widget’s page, and a link in the docs menu.",
+    "maxLength": 50,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindApplianceIcon": {
+    "en": "A machine",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindApplianceSource": {
+    "en": "What tells it is running",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindBoolean": {
+    "en": "On or off",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindBusy": {
+    "en": "Appliances",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindButtons": {
+    "en": "Buttons",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindCapabilities": {
+    "en": "Readings",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindCapability": {
+    "en": "A reading",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindChoice": {
+    "en": "A choice",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindColor": {
+    "en": "A colour",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindDashboard": {
+    "en": "A dashboard",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindData": {
+    "en": "Data for a chart",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindDevice": {
+    "en": "A device",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindEnergy": {
+    "en": "Energy sources",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindFloorplan": {
+    "en": "A floor plan",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindFloorplanPicture": {
+    "en": "A picture of the level",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindFlow": {
+    "en": "A flow",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindIcon": {
+    "en": "An icon",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindLayout": {
+    "en": "A layout",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindModel": {
+    "en": "A model",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindModelCamera": {
+    "en": "A 3D view",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindMood": {
+    "en": "A mood",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindNumber": {
+    "en": "A number",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindPercentage": {
+    "en": "A percentage",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindPlace": {
+    "en": "A place",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindPlaces": {
+    "en": "Places",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindReadings": {
+    "en": "Readings",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindSize": {
+    "en": "Small, medium or large",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindSpot": {
+    "en": "A spot on the tile",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindTap": {
+    "en": "Tap, hold and double tap",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindText": {
+    "en": "Text",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindTiles": {
+    "en": "Tiles",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindValue": {
+    "en": "A value",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.kindValues": {
+    "en": "Values",
+    "context": "Small grey badge beside an option’s name on a widget’s page of the public site: what kind of value the option takes (a number, a choice, a device…).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.listAnd": {
+    "en": "{items} and {last}",
+    "context": "Joins a list of names in a sentence: the first ones are already joined with commas, as in “Humidity, CO₂ and Battery”.",
+    "params": {
+      "items": "The first names, joined with commas.",
+      "last": "The last name."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.listOr": {
+    "en": "{items} or {last}",
+    "context": "Joins a list of actions in a sentence: the first ones are already joined with commas, as in “open the device, start a flow or set a mood”.",
+    "params": {
+      "items": "The first items, joined with commas.",
+      "last": "The last item."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.maxLength": {
+    "en": "Up to {count} characters",
+    "context": "How long the text of a text option may be, like “Up to 20 characters”.",
+    "params": {
+      "count": "The number of characters, a whole number."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.off": {
+    "en": "Off",
+    "context": "The value of a switch setting that is off, shown as its default and as a caption under a preview of a tile with the switch off; also the caption of a device that is off.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.on": {
+    "en": "On",
+    "context": "The value of a switch setting that is on, shown as its default and as a caption under a preview of a tile with the switch on; also the caption of a device that is on.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.percent": {
+    "en": "{percent} %",
+    "context": "The default of a percentage option, like “50 %”. Keep the spacing the language uses before the percent sign.",
+    "params": {
+      "percent": "The number, a whole number, not translated."
+    },
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.quoted": {
+    "en": "“{text}”",
+    "context": "The default of a text option, in quotation marks, like “Kitchen”. Use the language’s own quotation marks.",
+    "params": {
+      "text": "The text itself, not translated."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.range": {
+    "en": "{min} to {max}",
+    "context": "The range of a number option, like “1 h to 8 h”.",
+    "params": {
+      "max": "The largest value with its unit, not translated.",
+      "min": "The smallest value with its unit, not translated."
+    },
+    "maxLength": 30,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionChart": {
+    "en": "Chart",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionContent": {
+    "en": "Content",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionLayout": {
+    "en": "Layout",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionLive": {
+    "en": "Live plan",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionLook": {
+    "en": "Look",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionMap": {
+    "en": "Map",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionPicture": {
+    "en": "Picture",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sectionTap": {
+    "en": "Taps",
+    "context": "Title of a group of a widget’s options on the widget’s page. It is named after the tab of the widget’s settings in the app that holds those options. One word or two.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sentenceAll": {
+    "en": "What tapping, holding and tapping {part} twice do. Each can {actions}. Until you choose, {tap}, {hold} and {double}.",
+    "context": "Description of a tile’s tap setting on a widget’s page: one setting for a tap, a hold and a double tap. {tap}, {hold} and {double} are short clauses (“a tap does nothing”, “holding it will open the device”).",
+    "params": {
+      "actions": "The list of what each gesture can do, like “switch the device on or off, open the device or start a flow”.",
+      "double": "Clause about what a double tap does by default.",
+      "hold": "Clause about what a hold does by default.",
+      "part": "What is tapped, like “the tile” or “Temperature”: the name of a part of the widget, lower case when it starts with “The”.",
+      "tap": "Clause about what a tap does by default."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sentenceHold": {
+    "en": "What holding {part} does. It can {actions}. Until you choose, {outcome}.",
+    "context": "Description of a tile’s hold setting on a widget’s page: a setting for the hold gesture alone.",
+    "params": {
+      "actions": "The list of what a hold can do, like “open the device or start a flow”.",
+      "outcome": "Clause about what a hold does by default, like “it does nothing” or “it will open the device”.",
+      "part": "What is held, like “the tile” or “Temperature”: the name of a part of the widget."
+    },
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sizeLarge": {
+    "en": "Large",
+    "context": "Default value of a size option, shown as “Default: Large”. One of small, medium and large.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sizeMedium": {
+    "en": "Medium",
+    "context": "Default value of a size option, shown as “Default: Medium”. One of small, medium and large.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.sizeSmall": {
+    "en": "Small",
+    "context": "Default value of a size option, shown as “Default: Small”. One of small, medium and large.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetDocs.unavailable": {
+    "en": "Unavailable",
+    "context": "Caption under a preview of a tile as it looks when its device cannot be reached.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/widgetDocs.messages.ts"
+  },
+  "site.widgetGallery.builtIn": {
+    "en": "Built in",
+    "context": "Small badge beside a widget’s name in the widget gallery of the public site: this widget is part of the app itself instead of being installed from the Community.",
+    "maxLength": 15,
+    "file": "packages/ui/src/site/WidgetGallery.messages.ts"
+  },
+  "site.widgetPage.choiceLabel": {
+    "en": "{title} with {setting}: {choice}",
+    "context": "Screen reader description of a picture of a widget’s tile with one choice of an option made.",
+    "params": {
+      "choice": "The choice’s name.",
+      "setting": "The option’s name.",
+      "title": "The widget’s name."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.communityNote": {
+    "en": "Tiledash’s own, as <code>{id}</code>. It’s in every account’s widget picker, nothing to install, and gets better by itself. <link>About the community</link>",
+    "context": "Note under the name of a widget on its page, after the badge “Official, in the community”: the widget is published by Tiledash in the Community, comes with every account and is updated without an app update. <code> wraps the widget’s id, <link> is a link to the page about the Community.",
+    "params": {
+      "id": "The widget’s id in the Community, like @tiledash/climate. Not translated."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.communitySeal": {
+    "en": "Official, in the community",
+    "context": "Small badge at the start of a note under the name of a widget that Tiledash itself publishes in the Community (the shared library of widgets): it is an official one.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.crumbWidgets": {
+    "en": "Widgets",
+    "context": "First part of the breadcrumb above a widget’s name on its page of the public site: a link back to the list of all widgets.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.defaultBadge": {
+    "en": "Default",
+    "context": "Small badge beside a choice (or On / Off) under an option on a widget’s page: this is the choice the option has until the user changes it.",
+    "maxLength": 15,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.defaultValue": {
+    "en": "Default: {value}",
+    "context": "Small grey note under an option’s description on a widget’s page: the value the option has until the user changes it.",
+    "params": {
+      "value": "The default value, like “3 h”, “On” or “Small”."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.factAlsoShows": {
+    "en": "Also shows",
+    "context": "Label of a fact at the top of a widget’s page: the extra readings the widget shows when the device has them (“Humidity, CO₂ and Battery”).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.factFits": {
+    "en": "Fits",
+    "context": "Label of a fact at the top of a widget’s page: which devices the widget can show (“Any device with temperature”).",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.factSize": {
+    "en": "Size",
+    "context": "Label of a fact at the top of a widget’s page: how big the tile is by default and how small and large it can be.",
+    "maxLength": 20,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.fitsAnyDashboard": {
+    "en": "Any dashboard: it isn’t tied to one device",
+    "context": "Which dashboards a widget fits when it shows no single device (a clock, electricity prices).",
+    "maxLength": 70,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.fitsAnyDevice": {
+    "en": "Any device",
+    "context": "Which devices a widget fits when it is not limited to one kind of device; followed by what the device needs (“Any device with temperature”).",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.fitsDevice": {
+    "en": "{fits} with {needs}",
+    "context": "Which devices a widget fits, like “Light with turned on” or “Any device with temperature”: the kinds of device, then what the device must be able to do.",
+    "params": {
+      "fits": "The kinds of device, like “Light” or “Any device”.",
+      "needs": "The readings the device needs, in lower case, like “temperature”."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.heroLabel": {
+    "en": "{title}, as it looks on a dashboard",
+    "context": "Screen reader description of the picture of a widget’s tile at the top of its page.",
+    "params": {
+      "title": "The widget’s name."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.optionsHeading": {
+    "en": "Options",
+    "context": "Heading of the list of a widget’s options (its settings) on its page of the public site.",
+    "maxLength": 30,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.optionsHint": {
+    "en": "Change these in the tile’s settings: <configure>Configure…</configure> on the tile in edit mode.",
+    "context": "Hint under the heading “Options” on a widget’s page: where in the app the options are changed. <configure> wraps the name of the “Configure…” button as the app shows it, and is shown in bold.",
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.showcaseLabel": {
+    "en": "How it looks",
+    "context": "Screen reader label of the section on a widget’s page that shows the widget’s tile with an introduction.",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.sizeFacts": {
+    "en": "{byDefault} tiles, from {smallest} to {largest}",
+    "context": "The size of a widget in tiles at the top of its page, like “3 × 2 tiles, from 1 × 0.5 to 6 × 4”: columns × rows.",
+    "params": {
+      "byDefault": "Its default size, like “3 × 2”. Not translated.",
+      "largest": "Its largest size, like “6 × 4”. Not translated.",
+      "smallest": "Its smallest size, like “1 × 0.5”. Not translated."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.stateLabel": {
+    "en": "{title}, {state}",
+    "context": "Screen reader description of a picture of a widget’s tile as it looks with its device on, off or unavailable.",
+    "params": {
+      "state": "The state in lower case: on, off or unavailable.",
+      "title": "The widget’s name."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.statesHeading": {
+    "en": "On, off and away",
+    "context": "Heading above three pictures of a widget’s tile: with its device on, off and out of reach (“away” means the device cannot be reached).",
+    "maxLength": 40,
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.switchOffLabel": {
+    "en": "{title} with {setting} off",
+    "context": "Screen reader description of a picture of a widget’s tile with a switch option turned off.",
+    "params": {
+      "setting": "The option’s name.",
+      "title": "The widget’s name."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPage.switchOnLabel": {
+    "en": "{title} with {setting} on",
+    "context": "Screen reader description of a picture of a widget’s tile with a switch option turned on.",
+    "params": {
+      "setting": "The option’s name.",
+      "title": "The widget’s name."
+    },
+    "file": "packages/ui/src/site/WidgetDocPage.messages.ts"
+  },
+  "site.widgetPreview.label": {
+    "en": "{widget} widget",
+    "context": "Screen reader label of a picture of a widget (a tile of a dashboard) in the widget gallery and docs of the public site, such as “Clock widget”.",
+    "params": {
+      "widget": "The widget’s name, such as “Clock”. Not translated here."
+    },
+    "maxLength": 50,
+    "file": "packages/ui/src/site/live/WidgetPreview.messages.ts"
+  }
+}

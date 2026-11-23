@@ -793,6 +793,51 @@
     "maxLength": 20,
     "file": "packages/ui/src/screens/account/PaymentFailedBanner.messages.ts"
   },
+  "shell.releaseNotes.countFixed": {
+    "en": "{count, plural, other {# fixed}}",
+    "context": "A small chip beside a release’s version: how many of its changes are fixes, such as “1 fixed”.",
+    "params": {
+      "count": "How many fixes; at least one."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
+  "shell.releaseNotes.countImproved": {
+    "en": "{count, plural, other {# improved}}",
+    "context": "A small chip beside a release’s version: how many of its changes are improvements, such as “2 improved”.",
+    "params": {
+      "count": "How many improvements; at least one."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
+  "shell.releaseNotes.countNew": {
+    "en": "{count, plural, other {# new}}",
+    "context": "A small chip beside a release’s version: how many of its changes are new features, such as “3 new”.",
+    "params": {
+      "count": "How many new changes; at least one."
+    },
+    "maxLength": 24,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
+  "shell.releaseNotes.kindFixed": {
+    "en": "Fixed",
+    "context": "Label over the changes in a release that put right something that was wrong, and on such a change’s card.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
+  "shell.releaseNotes.kindImproved": {
+    "en": "Improved",
+    "context": "Label over the changes in a release that make something work better, and on such a change’s card.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
+  "shell.releaseNotes.kindNew": {
+    "en": "New",
+    "context": "Label over the changes in a release that add something you could not do before, and on such a change’s card.",
+    "maxLength": 20,
+    "file": "packages/ui/src/patterns/releaseNotes.messages.ts"
+  },
   "shell.saveHistory.compare": {
     "en": "Compare",
     "context": "Button on an earlier save: compares it with what is in the editor.",

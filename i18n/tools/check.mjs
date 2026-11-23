@@ -12306,7 +12306,8 @@ var I18N_BUNDLES = [
   "widgets",
   "tours",
   "houses",
-  "wallpanels"
+  "wallpanels",
+  "site"
 ];
 
 // packages/shared/src/i18n/messageSyntax.ts
@@ -12735,12 +12736,19 @@ function escape(text2) {
 var BOUNDARY_BEFORE = "(?<![\\p{L}\\p{N}])";
 var BOUNDARY_AFTER = "(?![\\p{L}\\p{N}])";
 function hasWord(text2, word, caseSensitive, plural2 = false) {
-  const suffix = plural2 ? "(?:s|es)?" : "";
-  return new RegExp(
-    BOUNDARY_BEFORE + escape(word) + suffix + BOUNDARY_AFTER,
-    caseSensitive ? "u" : "iu"
-  ).test(text2);
+  const key = `${caseSensitive ? 1 : 0}${plural2 ? 1 : 0}${word}`;
+  let pattern = wordPatterns.get(key);
+  if (!pattern) {
+    const suffix = plural2 ? "(?:s|es)?" : "";
+    pattern = new RegExp(
+      BOUNDARY_BEFORE + escape(word) + suffix + BOUNDARY_AFTER,
+      caseSensitive ? "u" : "iu"
+    );
+    wordPatterns.set(key, pattern);
+  }
+  return pattern.test(text2);
 }
+var wordPatterns = /* @__PURE__ */ new Map();
 function hasPart(text2, word, caseSensitive) {
   return caseSensitive ? text2.includes(word) : text2.toLowerCase().includes(word.toLowerCase());
 }
@@ -12780,14 +12788,18 @@ function tryParse(text2) {
     throw error2;
   }
 }
-function literalText(nodes) {
+function literalText(nodes, branchBreak = false) {
   const parts = [];
   const walk = (list2) => {
     for (const node2 of list2) {
       if (node2.type === "text") parts.push(node2.value);
       else if (node2.type === "tag") walk(node2.children);
       else if (node2.type === "plural" || node2.type === "select") {
-        for (const key of Object.keys(node2.branches)) walk(node2.branches[key] ?? []);
+        for (const key of Object.keys(node2.branches)) {
+          if (branchBreak) parts.push("\n\n");
+          walk(node2.branches[key] ?? []);
+          if (branchBreak) parts.push("\n\n");
+        }
       }
     }
   };
@@ -12848,6 +12860,9 @@ function glossaryRule(data2) {
   }
   return problems2;
 }
+function longerTerms(glossary, term) {
+  return glossary.terms.map((other) => other.term).filter((other) => other !== term && hasWord(other, term, false));
+}
 function glossaryPreferredRule(data2) {
   const problems2 = [];
   if (!data2.glossary) return problems2;
@@ -12860,8 +12875,8 @@ function glossaryPreferredRule(data2) {
     for (const use of termsFor(data2.glossary, language)) {
       const preferred = use.language?.preferred ?? [];
       if (isExcepted(use.term.except, id)) continue;
-      if (use.keep || preferred.length === 0 || !hasWord(englishText, use.term.term, false, true))
-        continue;
+      const own2 = withoutPhrases(englishText, longerTerms(data2.glossary, use.term.term));
+      if (use.keep || preferred.length === 0 || !hasWord(own2, use.term.term, false, true)) continue;
       if (!preferred.some((word) => hasPhrase(translated, word))) {
         problems2.push({
           severity: "warning",
@@ -13178,6 +13193,99 @@ function staleRule(data2) {
   return problems2;
 }
 
+// packages/i18n-tools/src/check/rules/styleAvoid.ts
+function escape2(text2) {
+  return text2.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+}
+function followers(avoid, glossary, language) {
+  const words = [...avoid.before];
+  if (avoid.glossary) {
+    for (const use of termsFor(glossary, language)) {
+      words.push(...use.language?.preferred ?? []);
+      if (use.keep) words.push(use.term.term);
+    }
+  }
+  const ignored = new Set(avoid.ignore.map((word) => word.toLowerCase()));
+  return [
+    ...new Set(
+      words.map((word) => word.trim()).filter((word) => word && !ignored.has(word.toLowerCase()))
+    )
+  ];
+}
+function avoidPattern(avoid, words) {
+  if (words.length === 0) return void 0;
+  const avoided = avoid.words.map(escape2).join("|");
+  const after = words.map((word) => escape2(word.length > 6 ? word.slice(0, -2) : word) + "\\p{L}{0,4}").join("|");
+  return new RegExp(`(?<![\\p{L}\\p{N}])(?:${avoided})\\s+(?:${after})(?![\\p{L}\\p{N}])`, "giu");
+}
+function sentences(text2) {
+  const breaks = /(?<=[.!?…])\s+|\n\s*\n|\n(?=\s*(?:[-*+#>|]|\d+\.)\s)|[{}]/gu;
+  const parts = [];
+  let at = 0;
+  for (const match of text2.matchAll(breaks)) {
+    parts.push({ text: text2.slice(at, match.index), at });
+    at = match.index + match[0].length;
+  }
+  parts.push({ text: text2.slice(at), at });
+  return parts;
+}
+function styleAvoidHits(text2, avoids, glossary, language, id) {
+  const hits = [];
+  for (const avoid of avoids) {
+    if (id !== void 0 && (avoid.except ?? []).includes(id)) continue;
+    const pattern = avoidPattern(avoid, followers(avoid, glossary, language));
+    if (!pattern) continue;
+    const phrases = new Set(
+      (avoid.except ?? []).filter((entry) => id !== void 0 && entry.startsWith(`${id}: `)).map((entry) => entry.slice(id.length + 2).toLowerCase())
+    );
+    const instead = avoid.again && avoid.instead.length > 0 ? new RegExp(
+      `(?<![\\p{L}\\p{N}])(?:${avoid.instead.map(escape2).join("|")})\\s+[\\p{L}\\p{N}\u2019'-]+`,
+      "giu"
+    ) : void 0;
+    for (const { text: sentence, at } of avoid.again ? sentences(text2) : [{ text: text2, at: 0 }]) {
+      const avoidedHere = [...sentence.matchAll(pattern)];
+      const insteadHere = instead ? [...sentence.matchAll(instead)] : [];
+      const first = Math.min(avoidedHere[0]?.index ?? Infinity, insteadHere[0]?.index ?? Infinity);
+      const found = [
+        // The avoided word is wrong only as a sentence's first "your" (always, without `again`).
+        ...avoidedHere.filter((match) => !avoid.again || match.index === first).map((match) => ({ match, say: avoid.say })),
+        ...insteadHere.filter((match) => match.index > first).map((match) => ({ match, say: avoid.again }))
+      ];
+      for (const { match, say } of found.sort((a, b) => a.match.index - b.match.index)) {
+        if (!phrases.has(match[0].toLowerCase())) {
+          hits.push({ found: match[0], index: at + match.index, avoid, say });
+        }
+      }
+    }
+  }
+  return hits;
+}
+function styleAvoidRule(data2) {
+  const problems2 = [];
+  for (const { language, file: file2, id, entry } of translationsOf(data2)) {
+    const avoids = data2.style[language]?.frontMatter.avoid ?? [];
+    if (avoids.length === 0) continue;
+    const parsed = tryParse(entry.text);
+    if (!parsed.ok) continue;
+    for (const { found, say } of styleAvoidHits(
+      literalText(parsed.nodes, true),
+      avoids,
+      data2.glossary,
+      language,
+      id
+    )) {
+      problems2.push({
+        severity: "warning",
+        rule: "style",
+        file: file2,
+        key: id,
+        message: `"${found}": ${say}`
+      });
+    }
+  }
+  return problems2;
+}
+
 // packages/i18n-tools/src/check/rules/unknownNames.ts
 function unknownNamesRule(data2) {
   const problems2 = [];
@@ -13267,7 +13375,8 @@ function checkI18n(data2, options = {}) {
     ...options.collectedSource ? sourceUpToDateRule(data2, options.collectedSource) : [],
     ...missingRule(data2),
     ...staleRule(data2),
-    ...glossaryPreferredRule(data2)
+    ...glossaryPreferredRule(data2),
+    ...styleAvoidRule(data2)
   ];
   const problems2 = found.map((problem) => options.release ? { ...problem, severity: "error" } : problem).sort(compare);
   const errors = problems2.filter((problem) => problem.severity === "error").length;
@@ -19693,8 +19802,34 @@ var sourceEntrySchema = external_exports.strictObject({
 var sourceFileSchema = external_exports.record(external_exports.string(), sourceEntrySchema);
 
 // packages/i18n-tools/src/files/styleFile.ts
+var styleAvoidSchema = external_exports.object({
+  /** The words to avoid there, matched whole and in any case: `[je]`. */
+  words: external_exports.array(external_exports.string().min(1)).min(1),
+  /** The words they must not stand before (a plural or case ending counts too). */
+  before: external_exports.array(external_exports.string()).default([]),
+  /** Also before every word the glossary agrees on for this language… */
+  glossary: external_exports.boolean().default(false),
+  /** …but these: the glossary's verbs and adjectives ("vastleggen", "vast"). */
+  ignore: external_exports.array(external_exports.string()).default([]),
+  /** What to write instead, shown with each hit. */
+  say: external_exports.string().min(1),
+  /** The word to write there instead (`jouw`), for `again`. */
+  instead: external_exports.array(external_exports.string().min(1)).default([]),
+  /**
+   * Set: the `instead` word only once a sentence. Its first place before one of the words takes
+   * `instead`, every later one the avoided word ("Scan jouw bank met je telefoon", the user,
+   * 2026-11-22); a repeated `instead` is shown with this.
+   */
+  again: external_exports.string().min(1).optional(),
+  /**
+   * Where the words are right after all: a message id, or `<id or site page>: <phrase>` for that
+   * phrase only (`docs/guide/account.mdx: je apparaten`).
+   */
+  except: external_exports.array(external_exports.string()).optional()
+});
 var styleFrontMatterSchema = external_exports.looseObject({
-  tone: external_exports.enum(["informal", "formal", "neutral", "unconfirmed"])
+  tone: external_exports.enum(["informal", "formal", "neutral", "unconfirmed"]),
+  avoid: external_exports.array(styleAvoidSchema).optional()
 });
 var FRONT_MATTER = /^---\r?\n([\s\S]*?)\r?\n---[ \t]*(?:\r?\n|$)/;
 function parseStyleGuide(text2) {

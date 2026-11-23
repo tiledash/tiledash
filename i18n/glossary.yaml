@@ -39,6 +39,13 @@ terms:
       - account.mapTiles.aboutStadia
       # The community site's phone menu: costs nothing to try (63.4).
       - showcase.site.menuNote
+      # tiledash.app: free of charge, for good (site languages, 2026-11-22).
+      - site.hero.free
+      - site.ecosystem.step2Text
+      - site.features.planFree
+      - site.page.home.pricingTitle
+      - site.page.home.description
+      - site.page.home.structuredDescription
   - term: Logic
     meaning: Homey's variables (Homey Logic), as named in the Homey app; kept as it is (the user, 2026-10-17).
     keep: true
@@ -380,7 +387,8 @@ terms:
   - term: admin
     meaning: Someone who runs Tiledash and reviews what users share; not the owner of a Homey.
     # A Homey's own admin rights, and the Admin area's name.
-    except: [login.*, shell.*]
+    # tiledash.app's "our admin pages and tools": the app's own wording per language.
+    except: [login.*, shell.*, site.asksFirst.*]
     nl: { preferred: beheerder }
     de: { preferred: Admin }
     es: { preferred: administrador }
@@ -428,6 +436,14 @@ terms:
         shell.aiSetup.claude1,
         shell.aiSetup.chatgpt1,
         floorplans.*,
+        # tiledash.app: "your plan" is the floor plan there.
+        site.floorPlans.*,
+        site.houseFrames.*,
+        site.pictureStyles.*,
+        site.page.home.picturesLead,
+        site.widgetDocs.sectionLive,
+        # "Plans change": what we intend to build.
+        site.roadmap.missing,
         shell.names.floorPlans,
         # The floor planner's tour (59.7): the plan being drawn.
         tours.steps.planSafeBody,

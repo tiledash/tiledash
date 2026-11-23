@@ -18,7 +18,7 @@
     "reviewed": false
   },
   "shell.aiSetup.chatgpt3": {
-    "text": "Log in met je Homey-account en geef toestemming.",
+    "text": "Log in met jouw Homey-account en geef toestemming.",
     "source": "40987708e1",
     "by": "ai",
     "reviewed": false
@@ -36,7 +36,7 @@
     "reviewed": false
   },
   "shell.aiSetup.claude3": {
-    "text": "Kies Connect: Tiledash vraagt je in te loggen met je Homey-account en toestemming te geven.",
+    "text": "Kies Connect: Tiledash vraagt je in te loggen met jouw Homey-account en toestemming te geven.",
     "source": "dcde30803d",
     "by": "ai",
     "reviewed": false
@@ -78,7 +78,7 @@
     "reviewed": false
   },
   "shell.aiSetup.vscode1": {
-    "text": "Voeg de server toe aan .vscode/mcp.json in je project (of aan je gebruikersinstellingen).",
+    "text": "Voeg de server toe aan .vscode/mcp.json in jouw project (of aan je gebruikersinstellingen).",
     "source": "16a64516d3",
     "by": "ai",
     "reviewed": false
@@ -132,13 +132,13 @@
     "reviewed": false
   },
   "shell.connectedApps.loadFailed": {
-    "text": "Je gekoppelde apps konden niet worden geladen.",
+    "text": "Jouw gekoppelde apps konden niet worden geladen.",
     "source": "981a4dd978",
     "by": "ai",
     "reviewed": false
   },
   "shell.connectedApps.tapsFailed": {
-    "text": "Kon niet wijzigen of tikken naar je Homey gaan.",
+    "text": "Kon niet wijzigen of tikken naar jouw Homey gaan.",
     "source": "83ae24c348",
     "by": "ai",
     "reviewed": false
@@ -150,7 +150,7 @@
     "reviewed": false
   },
   "shell.connectedApps.tapsOn": {
-    "text": "Tikken gaan een uur lang naar je Homey",
+    "text": "Tikken gaan een uur lang naar jouw Homey",
     "source": "b0be0e805d",
     "by": "ai",
     "reviewed": false
@@ -174,7 +174,7 @@
     "reviewed": false
   },
   "shell.homeyProblem.notOnAccount": {
-    "text": "<b>{homey} staat niet meer op je Homey-account,</b> dus Tiledash kan er niet bij. De dashboards en geschiedenis blijven bewaard tot je hem verwijdert.",
+    "text": "<b>{homey} staat niet meer op jouw Homey-account,</b> dus Tiledash kan er niet bij. De dashboards en geschiedenis blijven bewaard tot je hem verwijdert.",
     "source": "bcb259bd1b",
     "by": "ai",
     "reviewed": false
@@ -708,13 +708,13 @@
     "reviewed": false
   },
   "shell.paymentFailed.paypal": {
-    "text": "<b>Je laatste betaling is niet gelukt.</b> Controleer vóór {date} je betaalmethode in PayPal om Pro te houden.",
+    "text": "<b>Jouw laatste betaling is niet gelukt.</b> Controleer vóór {date} jouw betaalmethode in PayPal om Pro te houden.",
     "source": "f6b936e724",
     "by": "ai",
     "reviewed": false
   },
   "shell.paymentFailed.stripe": {
-    "text": "<b>Je laatste betaling is niet gelukt.</b> Werk vóór {date} je kaart bij om Pro te houden.",
+    "text": "<b>Jouw laatste betaling is niet gelukt.</b> Werk vóór {date} jouw kaart bij om Pro te houden.",
     "source": "a118880026",
     "by": "ai",
     "reviewed": false
@@ -722,6 +722,42 @@
   "shell.paymentFailed.updateCard": {
     "text": "Kaart bijwerken",
     "source": "e28b5def97",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.countFixed": {
+    "text": "{count, plural, other {# opgelost}}",
+    "source": "b48d6dd1a9",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.countImproved": {
+    "text": "{count, plural, other {# verbeterd}}",
+    "source": "608c538913",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.countNew": {
+    "text": "{count, plural, other {# nieuw}}",
+    "source": "4294c3a77f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.kindFixed": {
+    "text": "Opgelost",
+    "source": "1246fc93bc",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.kindImproved": {
+    "text": "Verbeterd",
+    "source": "c3b959224f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "shell.releaseNotes.kindNew": {
+    "text": "Nieuw",
+    "source": "18fdd549b2",
     "by": "ai",
     "reviewed": false
   },
@@ -744,7 +780,7 @@
     "reviewed": false
   },
   "shell.saveHistory.goingBack": {
-    "text": "Terugzetten zet die versie in de editor; je tegels tonen hem zodra je opslaat.",
+    "text": "Terugzetten zet die versie in de editor; jouw tegels tonen hem zodra je opslaat.",
     "source": "d60b727e8c",
     "by": "ai",
     "reviewed": false
@@ -762,7 +798,7 @@
     "reviewed": false
   },
   "shell.saveHistory.keepsLast": {
-    "text": "Tiledash bewaart je laatste {count} versies.",
+    "text": "Tiledash bewaart jouw laatste {count} versies.",
     "source": "703081a7bd",
     "by": "ai",
     "reviewed": false
@@ -1212,7 +1248,7 @@
     "reviewed": false
   },
   "shell.storeOutside.dynamic": {
-    "text": "En van adressen uit de instellingen of je apparaten, pas bekend als het getoond wordt.",
+    "text": "En van adressen uit de instellingen of jouw apparaten, pas bekend als het getoond wordt.",
     "source": "fe99c94092",
     "by": "ai",
     "reviewed": false
@@ -1236,13 +1272,13 @@
     "reviewed": false
   },
   "shell.storeOutside.title": {
-    "text": "Laadt van buiten je Homey",
+    "text": "Laadt van buiten jouw Homey",
     "source": "f5b40c1f06",
     "by": "ai",
     "reviewed": false
   },
   "shell.storeOutside.what": {
-    "text": "Je scherm bereikt deze plekken rechtstreeks, zonder cookies: zij zien dat een scherm erom vroeg, en wat ze sturen kan veranderen zonder nieuwe versie.",
+    "text": "Jouw scherm bereikt deze plekken rechtstreeks, zonder cookies: zij zien dat een scherm erom vroeg, en wat ze sturen kan veranderen zonder nieuwe versie.",
     "source": "7e00c5da0c",
     "by": "ai",
     "reviewed": false
@@ -1260,7 +1296,7 @@
     "reviewed": false
   },
   "shell.supportAccess.answerFailed": {
-    "text": "Je antwoord kwam niet aan. Probeer het zo nog eens.",
+    "text": "Jouw antwoord kwam niet aan. Probeer het zo nog eens.",
     "source": "c6a2ab001b",
     "by": "ai",
     "reviewed": false
@@ -1314,13 +1350,13 @@
     "reviewed": false
   },
   "shell.supportAccess.partHomeyData": {
-    "text": "Je apparaten, kamers, Flows en sferen",
+    "text": "Jouw apparaten, kamers, Flows en sferen",
     "source": "b87b85ff42",
     "by": "ai",
     "reviewed": false
   },
   "shell.supportAccess.partLive": {
-    "text": "Waarden rechtstreeks uit je Homey, en een paar daarvan een tijdje volgen",
+    "text": "Waarden rechtstreeks uit jouw Homey, en een paar daarvan een tijdje volgen",
     "source": "df05180190",
     "by": "ai",
     "reviewed": false
@@ -1338,7 +1374,7 @@
     "reviewed": false
   },
   "shell.supportAccess.partWidgets": {
-    "text": "Je eigen widgets en thema’s",
+    "text": "Jouw eigen widgets en thema’s",
     "source": "af0974628c",
     "by": "ai",
     "reviewed": false
@@ -1362,7 +1398,7 @@
     "reviewed": false
   },
   "shell.supportAccess.sidebarAccount": {
-    "text": "je account",
+    "text": "jouw account",
     "source": "17a7e5cfee",
     "by": "ai",
     "reviewed": false
@@ -1410,13 +1446,13 @@
     "reviewed": false
   },
   "shell.supportAccess.yourAccount": {
-    "text": "Je eigen account, los van een Homey",
+    "text": "Jouw eigen account, los van een Homey",
     "source": "b0e444bd45",
     "by": "ai",
     "reviewed": false
   },
   "shell.thisScreen.description": {
-    "text": "Hoe de app eruitziet en beweegt, alleen op dit apparaat. Je andere apparaten houden hun eigen keuze; een dashboard met een eigen thema houdt dat.",
+    "text": "Hoe de app eruitziet en beweegt, alleen op dit apparaat. Jouw andere apparaten houden hun eigen keuze; een dashboard met een eigen thema houdt dat.",
     "source": "02054d3729",
     "by": "ai",
     "reviewed": false
@@ -1560,13 +1596,13 @@
     "reviewed": false
   },
   "shell.tour.historyHintText": {
-    "text": "Tiledash bewaart nu eerdere versies van je dashboards. Open Geschiedenis onder ⋯ om terug te kijken en alles of een paar tegels terug te zetten.",
+    "text": "Tiledash bewaart nu eerdere versies van jouw dashboards. Open Geschiedenis onder ⋯ om terug te kijken en alles of een paar tegels terug te zetten.",
     "source": "f1a15301c6",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.historyHintTitle": {
-    "text": "Nieuw: de geschiedenis van je dashboard",
+    "text": "Nieuw: geschiedenis van jouw dashboard",
     "source": "6819d86496",
     "by": "ai",
     "reviewed": false
@@ -1590,7 +1626,7 @@
     "reviewed": false
   },
   "shell.tour.offerLead": {
-    "text": "Twee korte rondleidingen: wat je dashboard kan, en hoe je het op een tablet aan de muur zet.",
+    "text": "Twee korte rondleidingen: wat jouw dashboard kan, en hoe je het op een tablet aan de muur zet.",
     "source": "12d6f1881d",
     "by": "ai",
     "reviewed": false
@@ -1632,7 +1668,7 @@
     "reviewed": false
   },
   "shell.tour.questionEyebrow": {
-    "text": "Je Homey is gekoppeld",
+    "text": "Jouw Homey is gekoppeld",
     "source": "8c3431f7a8",
     "by": "ai",
     "reviewed": false
@@ -1764,7 +1800,7 @@
     "reviewed": false
   },
   "shell.tour.tourFirstDashboard": {
-    "text": "Je eerste dashboard",
+    "text": "Jouw eerste dashboard",
     "source": "edf6877596",
     "by": "ai",
     "reviewed": false
@@ -1854,13 +1890,13 @@
     "reviewed": false
   },
   "shell.tour.welcomeLead": {
-    "text": "Je Homey is verbonden en je eerste dashboard staat klaar. Wil je snel zien hoe het werkt?",
+    "text": "Jouw Homey is verbonden en je eerste dashboard staat klaar. Wil je snel zien hoe het werkt?",
     "source": "cb5f1aacf4",
     "by": "ai",
     "reviewed": false
   },
   "shell.tour.welcomeLength": {
-    "text": "3 korte stappen, daarna een lijstje om in je eigen tempo te proberen",
+    "text": "3 korte stappen, daarna een lijstje om in jouw eigen tempo te proberen",
     "source": "9cac38bee1",
     "by": "ai",
     "reviewed": false
@@ -1878,7 +1914,7 @@
     "reviewed": false
   },
   "shell.wallPanels.deleteBody": {
-    "text": "Schermen die de link openen, tonen het niet meer. Je dashboards blijven zoals ze zijn.",
+    "text": "Schermen die de link openen, tonen het niet meer. Jouw dashboards blijven zoals ze zijn.",
     "source": "13a1929fe2",
     "by": "ai",
     "reviewed": false
@@ -1974,7 +2010,7 @@
     "reviewed": false
   },
   "shell.whatsNew.eyebrowMissed": {
-    "text": "Sinds je laatste bezoek · {from} – {to}",
+    "text": "Sinds jouw laatste bezoek · {from} – {to}",
     "source": "65a095fa5d",
     "by": "ai",
     "reviewed": false
@@ -2082,7 +2118,7 @@
     "reviewed": false
   },
   "shell.workshopHint.aiTitle": {
-    "text": "Bouw er een met je AI-assistent",
+    "text": "Bouw er een met jouw AI-assistent",
     "source": "33f5413efb",
     "by": "ai",
     "reviewed": false

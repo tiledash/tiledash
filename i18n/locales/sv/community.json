@@ -240,8 +240,8 @@
     "reviewed": false
   },
   "community.check.kind": {
-    "text": "{kind, select, sends-data-away {Den skickar data till en adress som dess syfte inte behöver} fake-login {Den ber om ett lösenord, en kod eller personuppgifter, eller härmar en inloggning} hidden-code {Den bygger eller döljer kod som den kör} addresses-reviewer {Dess text vänder sig till den som granskar den} malware-library {Ett bibliotek den läser in är känt som skadlig kod} does-more-than-described {Den gör mer än beskrivningen säger} tracking {Den spårar personer} unreadable-code {Dess kod är minifierad eller packad, så ingen kan läsa den} unknown-library-source {Ett bibliotek kommer från en adress som ingen har gått i god för} library-advisory {Ett bibliotek den läser in har en känd säkerhetsvarning} permissions-grew {Den kan få göra mer än förra versionen} earlier-version-held {En tidigare version stoppades, så en administratör tittar på den här först} other {Något annat}}",
-    "source": "68b476b1c3",
+    "text": "{kind, select, sends-data-away {Den skickar data till en adress som dess syfte inte behöver} fake-login {Den ber om ett lösenord, en kod eller personuppgifter, eller härmar en inloggning} hidden-code {Den bygger eller döljer kod som den kör} addresses-reviewer {Dess text vänder sig till den som granskar den} malware-library {Ett bibliotek den läser in är känt som skadlig kod} does-more-than-described {Den gör mer än beskrivningen säger} tracking {Den spårar personer} unreadable-code {Dess kod är minifierad eller packad, så ingen kan läsa den} unknown-library-source {Ett bibliotek kommer från en adress som ingen har gått i god för} library-advisory {Ett bibliotek den läser in har en känd säkerhetsvarning} permissions-grew {Den kan få göra mer än förra versionen} earlier-version-held {En tidigare version stoppades, så en administratör tittar på den här först} reads-memory {Den verkar byggd för att tidsmäta minnet eller processorn} other {Något annat}}",
+    "source": "26ca3ae44c",
     "by": "ai",
     "reviewed": false
   },
@@ -2135,6 +2135,84 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.previewStep.card": {
+    "text": "Så som Communityn visar den",
+    "source": "b8df19794a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.deviceName": {
+    "text": "Namn för {setting}",
+    "source": "16f3536349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editor": {
+    "text": "Värdena i din förhandsvisning",
+    "source": "980ea5d501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editorSays": {
+    "text": "Inställningarna och mätvärdena som förhandsvisningen i redigeraren visade när du sparade.",
+    "source": "be1bd88710",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.noEditor": {
+    "text": "Öppna förhandsvisningen i redigeraren och spara en gång för att använda dess värden.",
+    "source": "e270dd152f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.public": {
+    "text": "De här publiceras med widgeten, så alla kan se dem. Dina enheters egna namn publiceras inte: ge var och en ett namn här.",
+    "source": "10ce20dc61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.readings": {
+    "text": "{count, plural, one {# mätvärde} other {# mätvärden}} från {device}",
+    "source": "813a2e4b57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.showWith": {
+    "text": "Visa den med",
+    "source": "325fb3b587",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.skipped": {
+    "text": "Visas inte: demon fyller i det här",
+    "source": "a1bd31ef03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.summary": {
+    "text": "{source, select, editor {Värdena i din förhandsvisning ({count, plural, one {# inställning} other {# inställningar}})} other {Demo från Tiledash}}",
+    "source": "329c07e7f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledash": {
+    "text": "Demo från Tiledash",
+    "source": "eaf75adf4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledashSays": {
+    "text": "Påhittade värden som passar dess inställningar, desamma för varje widget.",
+    "source": "0cdd5b6785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.values": {
+    "text": "Vad andra kommer att se",
+    "source": "fb51ffae13",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.back": {
     "text": "Tillbaka",
     "source": "76900f1bfd",
@@ -2472,8 +2550,14 @@
     "reviewed": false
   },
   "community.publishWizard.lead": {
-    "text": "{step, select, product {Om det är en riktig produkt, säg vilken. Folk hittar modeller i Communityn efter märke och produkt.} about {Vad den heter, och en rad om vad den gör: Communityn visar båda på kortet.} description {Berätta vad den gör och hur man använder den. Taggar hjälper andra att hitta den.} pictures {En ikon och några skärmbilder, så att andra ser den innan de installerar.} sharing {Licensen andra får använda den under, var koden eller webbplatsen finns, och vem som hittar den.} version {Vilken version det här är: vad som ändrats sedan förra föreslår den. Presentationen förblir som den är om du inte ändrar den.} notes {Vad som är nytt, på några rader; andra ser det med uppdateringen.} other {Kontrollera allt och publicera sedan. Presentationen kan ändras senare; en version förblir som den är.}}",
-    "source": "77b98b821f",
+    "text": "{step, select, product {Om det är en riktig produkt, säg vilken. Folk hittar modeller i Communityn efter märke och produkt.} about {Vad den heter, och en rad om vad den gör: Communityn visar båda på kortet.} description {Berätta vad den gör och hur man använder den. Taggar hjälper andra att hitta den.} pictures {En ikon och några skärmbilder, så att andra ser den innan de installerar.} sharing {Licensen andra får använda den under, var koden eller webbplatsen finns, och vem som hittar den.} version {Vilken version det här är: vad som ändrats sedan förra föreslår den. Presentationen förblir som den är om du inte ändrar den.} preview {Vad kortet i Communityn visar: en demo från Tiledash eller värdena som din förhandsvisning visade.} notes {Vad som är nytt, på några rader; andra ser det med uppdateringen.} other {Kontrollera allt och publicera sedan. Presentationen kan ändras senare; en version förblir som den är.}}",
+    "source": "2994c2e63f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.noShot": {
+    "text": "Lägg till en skärmbild: förhandsvisningar kör aldrig ett skript, så utan en skärmbild visar kortet i Communityn bara det den ritar utan skriptet.",
+    "source": "fa90891cea",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,20 +2580,26 @@
     "reviewed": false
   },
   "community.publishWizard.row": {
-    "text": "{row, select, product {Produkt} title {Titel} address {Adress} description {Beskrivning} tags {Taggar} pictures {Bilder} licence {Licens} links {Länkar} who {Vem hittar den} version {Version} notes {Nyheter} outside {Läses in från} other {Övrigt}}",
-    "source": "d981f229bf",
+    "text": "{row, select, product {Produkt} title {Titel} address {Adress} description {Beskrivning} tags {Taggar} pictures {Bilder} licence {Licens} links {Länkar} who {Vem hittar den} version {Version} preview {Förhandsvisning} notes {Nyheter} outside {Läses in från} other {Övrigt}}",
+    "source": "56884e8955",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.step": {
-    "text": "{step, select, product {Produkt} about {Om} description {Beskrivning} pictures {Bilder} sharing {Delning} version {Version} notes {Nyheter} other {Kontroll}}",
-    "source": "2a9c18c6e9",
+    "text": "{step, select, product {Produkt} about {Om} description {Beskrivning} pictures {Bilder} sharing {Delning} version {Version} preview {Förhandsvisning} notes {Nyheter} other {Kontroll}}",
+    "source": "e6595bc18c",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.stepOf": {
     "text": "Steg {n} av {count}",
     "source": "99913e946c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.worthALook": {
+    "text": "Värt en titt",
+    "source": "f3d31e2f8c",
     "by": "ai",
     "reviewed": false
   },

@@ -240,8 +240,8 @@
     "reviewed": false
   },
   "community.check.kind": {
-    "text": "{kind, select, sends-data-away {Es sendet Daten an eine Adresse, die für seinen Zweck nicht nötig ist} fake-login {Es fragt nach Passwort, Code oder persönlichen Daten oder ahmt eine Anmeldung nach} hidden-code {Es erzeugt oder versteckt Code, den es ausführt} addresses-reviewer {Sein Text spricht die Person an, die es prüft} malware-library {Eine Bibliothek, die es lädt, ist bekannte Malware} does-more-than-described {Es tut mehr, als seine Beschreibung sagt} tracking {Es verfolgt Personen} unreadable-code {Sein Code ist minifiziert oder gepackt, daher kann ihn niemand lesen} unknown-library-source {Eine Bibliothek stammt von einer Adresse, für die niemand bürgt} library-advisory {Für eine Bibliothek, die es lädt, gibt es eine bekannte Sicherheitswarnung} permissions-grew {Es darf eventuell mehr als die vorige Version} earlier-version-held {Eine frühere Version wurde zurückgehalten, daher sieht sich ein Admin diese zuerst an} other {Etwas anderes}}",
-    "source": "68b476b1c3",
+    "text": "{kind, select, sends-data-away {Es sendet Daten an eine Adresse, die für seinen Zweck nicht nötig ist} fake-login {Es fragt nach Passwort, Code oder persönlichen Daten oder ahmt eine Anmeldung nach} hidden-code {Es erzeugt oder versteckt Code, den es ausführt} addresses-reviewer {Sein Text spricht die Person an, die es prüft} malware-library {Eine Bibliothek, die es lädt, ist bekannte Malware} does-more-than-described {Es tut mehr, als seine Beschreibung sagt} tracking {Es verfolgt Personen} unreadable-code {Sein Code ist minifiziert oder gepackt, daher kann ihn niemand lesen} unknown-library-source {Eine Bibliothek stammt von einer Adresse, für die niemand bürgt} library-advisory {Für eine Bibliothek, die es lädt, gibt es eine bekannte Sicherheitswarnung} permissions-grew {Es darf eventuell mehr als die vorige Version} earlier-version-held {Eine frühere Version wurde zurückgehalten, daher sieht sich ein Admin diese zuerst an} reads-memory {Es scheint gebaut, um Speicher oder Prozessor zu timen} other {Etwas anderes}}",
+    "source": "26ca3ae44c",
     "by": "ai",
     "reviewed": false
   },
@@ -2135,6 +2135,84 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.previewStep.card": {
+    "text": "So zeigt es die Community",
+    "source": "b8df19794a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.deviceName": {
+    "text": "Name für {setting}",
+    "source": "16f3536349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editor": {
+    "text": "Werte Ihrer Vorschau",
+    "source": "980ea5d501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editorSays": {
+    "text": "Die Einstellungen und Messwerte, die die Vorschau im Editor beim Speichern zeigte.",
+    "source": "be1bd88710",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.noEditor": {
+    "text": "Öffnen Sie die Vorschau im Editor und speichern Sie einmal, um ihre Werte zu nutzen.",
+    "source": "e270dd152f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.public": {
+    "text": "Diese werden mit dem Widget veröffentlicht, jeder kann sie sehen. Die Namen Ihrer Geräte nicht: Geben Sie hier jedem einen Namen.",
+    "source": "10ce20dc61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.readings": {
+    "text": "{count, plural, one {# Messwert} other {# Messwerte}} von {device}",
+    "source": "813a2e4b57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.showWith": {
+    "text": "Anzeigen mit",
+    "source": "325fb3b587",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.skipped": {
+    "text": "Nicht angezeigt: Die Demo füllt es aus",
+    "source": "a1bd31ef03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.summary": {
+    "text": "{source, select, editor {Werte Ihrer Vorschau ({count, plural, one {# Einstellung} other {# Einstellungen}})} other {Demo von Tiledash}}",
+    "source": "329c07e7f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledash": {
+    "text": "Demo von Tiledash",
+    "source": "eaf75adf4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledashSays": {
+    "text": "Erfundene Werte, die zu seinen Einstellungen passen, für jedes Widget gleich.",
+    "source": "0cdd5b6785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.values": {
+    "text": "Was andere sehen",
+    "source": "fb51ffae13",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.back": {
     "text": "Zurück",
     "source": "76900f1bfd",
@@ -2472,8 +2550,14 @@
     "reviewed": false
   },
   "community.publishWizard.lead": {
-    "text": "{step, select, product {Ist es ein echtes Produkt, nennen Sie es. In der Community findet man Modelle über Marke und Produkt.} about {Wie es heißt und eine Zeile dazu, was es tut: Die Community zeigt beides auf seiner Karte.} description {Erklären Sie, was es tut und wie man es benutzt. Tags helfen anderen, es zu finden.} pictures {Ein Symbol und einige Screenshots, damit man es vor der Installation sieht.} sharing {Die Lizenz, unter der andere es nutzen dürfen, wo Code oder Website liegen, und wer es findet.} version {Welche Version das ist: Die Änderungen seit der letzten legen sie nahe. Die Angaben bleiben gleich, außer Sie ändern sie.} notes {Was neu ist, in wenigen Zeilen; man sieht es mit dem Update.} other {Prüfen Sie alles und veröffentlichen Sie dann. Die Angaben lassen sich später ändern; eine Version bleibt, wie sie ist.}}",
-    "source": "77b98b821f",
+    "text": "{step, select, product {Ist es ein echtes Produkt, nennen Sie es. In der Community findet man Modelle über Marke und Produkt.} about {Wie es heißt und eine Zeile dazu, was es tut: Die Community zeigt beides auf seiner Karte.} description {Erklären Sie, was es tut und wie man es benutzt. Tags helfen anderen, es zu finden.} pictures {Ein Symbol und einige Screenshots, damit man es vor der Installation sieht.} sharing {Die Lizenz, unter der andere es nutzen dürfen, wo Code oder Website liegen, und wer es findet.} version {Welche Version das ist: Die Änderungen seit der letzten legen sie nahe. Die Angaben bleiben gleich, außer Sie ändern sie.} preview {Was seine Karte in der Community zeigt: die Demo von Tiledash oder die Werte Ihrer Vorschau.} notes {Was neu ist, in wenigen Zeilen; man sieht es mit dem Update.} other {Prüfen Sie alles und veröffentlichen Sie dann. Die Angaben lassen sich später ändern; eine Version bleibt, wie sie ist.}}",
+    "source": "2994c2e63f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.noShot": {
+    "text": "Füge einen Screenshot hinzu: Vorschauen führen nie ein Skript aus, ohne Screenshot zeigt die Karte in der Community also nur, was das Widget ohne Skript zeichnet.",
+    "source": "fa90891cea",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,20 +2580,26 @@
     "reviewed": false
   },
   "community.publishWizard.row": {
-    "text": "{row, select, product {Produkt} title {Titel} address {Adresse} description {Beschreibung} tags {Tags} pictures {Bilder} licence {Lizenz} links {Links} who {Wer es findet} version {Version} notes {Was ist neu} outside {Lädt von} other {Sonstiges}}",
-    "source": "d981f229bf",
+    "text": "{row, select, product {Produkt} title {Titel} address {Adresse} description {Beschreibung} tags {Tags} pictures {Bilder} licence {Lizenz} links {Links} who {Wer es findet} version {Version} preview {Vorschau} notes {Was ist neu} outside {Lädt von} other {Sonstiges}}",
+    "source": "56884e8955",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.step": {
-    "text": "{step, select, product {Produkt} about {Allgemein} description {Beschreibung} pictures {Bilder} sharing {Teilen} version {Version} notes {Was ist neu} other {Prüfen}}",
-    "source": "2a9c18c6e9",
+    "text": "{step, select, product {Produkt} about {Allgemein} description {Beschreibung} pictures {Bilder} sharing {Teilen} version {Version} preview {Vorschau} notes {Was ist neu} other {Prüfen}}",
+    "source": "e6595bc18c",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.stepOf": {
     "text": "Schritt {n} von {count}",
     "source": "99913e946c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.worthALook": {
+    "text": "Einen Blick wert",
+    "source": "f3d31e2f8c",
     "by": "ai",
     "reviewed": false
   },

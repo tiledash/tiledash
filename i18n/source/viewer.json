@@ -1297,6 +1297,12 @@
     "maxLength": 50,
     "file": "apps/web/src/dashboards/DashboardPopup.messages.ts"
   },
+  "viewer.deviceControls.colour": {
+    "en": "Colour",
+    "context": "Name of the colour wheel of a colour light in its detail drawer or popup, read out by screen readers. Not visible as text.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/HdDeviceControls.messages.ts"
+  },
   "viewer.deviceControls.controls": {
     "en": "Controls",
     "context": "Name of the group of controls (switch, sliders, temperature stepper) in a device’s detail drawer, read out by screen readers. Not visible as text.",
@@ -2297,6 +2303,339 @@
     "context": "Hidden description of a dashboard that opened as a popup over another dashboard, read out by screen readers after its name. This popup closes on its own after a while without anyone touching it. Not visible as text.",
     "maxLength": 60,
     "file": "packages/ui/src/dashboard/HdDashboardPopup.messages.ts"
+  },
+  "viewer.scriptAllow.allowFailed": {
+    "en": "Couldn’t allow its script. Try again in a moment.",
+    "context": "Message when allowing a widget’s script failed (the server couldn’t be reached).",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.allowLink": {
+    "en": "Allow it here",
+    "context": "Link after that line that opens the sheet to allow the widget.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.allowedHere": {
+    "en": "Allowed on this account",
+    "context": "Short line in the widget editor’s preview when this widget’s script is allowed in browsers that can’t keep it apart.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.allowedOn": {
+    "en": "Allowed {date}",
+    "context": "When the person allowed this widget, in a row of the Security list.",
+    "params": {
+      "date": "An absolute short date, such as 22 Nov."
+    },
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.assistant": {
+    "en": "An AI assistant changed this code. Open it in the editor and save it yourself to allow it.",
+    "context": "Why the widget can’t be allowed yet: its code was last written by an AI assistant.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.button": {
+    "en": "Why this tile looks simpler",
+    "context": "Accessible name of the small round button in the corner of a tile whose script does not run in this browser.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.cameFrom": {
+    "en": "Where it came from",
+    "context": "Heading above where the widget’s code came from.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.close": {
+    "en": "Close",
+    "context": "Button that closes the sheet when the widget can’t be allowed.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.confirmBody": {
+    "en": "Letting {widget} run its script needs a sign-in from the last 15 minutes. Log in with Homey again; you come straight back here.",
+    "context": "Text of that dialog.",
+    "params": {
+      "widget": "The widget’s name, such as Pool. Not translated."
+    },
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.confirmSignIn": {
+    "en": "Log in with Homey",
+    "context": "Button in that dialog that starts the login with the Homey account again. Homey is a product name and stays as it is.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.confirmTitle": {
+    "en": "Confirm it’s you",
+    "context": "Title of the dialog that asks the person to log in with Homey again before a widget’s script is allowed (the last login is over 15 minutes old).",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.everywhere": {
+    "en": "This holds on every browser you’re signed in on that can’t keep scripts apart. Remove it any time in Settings → Security.",
+    "context": "Where an allowance applies and where to take it back.",
+    "maxLength": 220,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.fromCommunity": {
+    "en": "From the Community, by {publisher}, version {version}",
+    "context": "Where it came from: a Community widget, with its publisher and version.",
+    "params": {
+      "publisher": "The publisher’s name, such as Mara.",
+      "version": "The version, such as 1.4.0."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.hintDismiss": {
+    "en": "Got it",
+    "context": "Tip button that closes it for good.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.hintShow": {
+    "en": "Show me",
+    "context": "Tip button that opens the sheet.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.hintText": {
+    "en": "Tiles with a script look simpler in this browser. Tap the small code button to see why.",
+    "context": "Text of the one-time tip pointing at a script tile’s corner button.",
+    "maxLength": 140,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.hintTitle": {
+    "en": "Tiles with a script",
+    "context": "Title of the one-time tip pointing at the small code button on a tile.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyAdmin": {
+    "en": "Ended by Tiledash",
+    "context": "In a history row: a Tiledash administrator ended the allowances of this widget for everyone.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyAllowed": {
+    "en": "Allowed",
+    "context": "In a history row: the person allowed this widget’s script.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyBlocked": {
+    "en": "Ended: its version was blocked",
+    "context": "In a history row: the allowance ended because Tiledash blocked that version.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyEmpty": {
+    "en": "Nothing allowed or ended in the last 90 days.",
+    "context": "The history when there is nothing in it.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyHeld": {
+    "en": "Ended: its version was held for review",
+    "context": "In a history row: the allowance ended because Tiledash held that Community version back after its security check.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyIntro": {
+    "en": "Every script allowed or ended on this account in the last 90 days.",
+    "context": "Text under that heading.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyModeration": {
+    "en": "Ended: taken down from the Community",
+    "context": "In a history row: the allowance ended because the widget was taken down.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyNewCode": {
+    "en": "Ended: its code changed",
+    "context": "In a history row: the allowance ended by itself because the widget’s script changed (a new save or version).",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyRemoved": {
+    "en": "Removed by you",
+    "context": "In a history row: the person removed the allowance themselves.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.historyTitle": {
+    "en": "History",
+    "context": "Heading of the list under “Scripts allowed on this account” in Settings → Security: every time a widget’s script was allowed, removed or ended on this account.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.library": {
+    "en": "It uses a library we haven’t approved for this, so it can’t run here.",
+    "context": "Why the widget can’t be allowed: one of its code libraries is not on Tiledash’s approved list.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.listEmpty": {
+    "en": "None. Tiles with a script show their simpler look in those browsers.",
+    "context": "The list when nothing is allowed.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.listIntro": {
+    "en": "These widgets run their scripts in browsers that can’t keep them apart, like Safari on an iPhone. While any are allowed, those browsers connect to your Homey through our server.",
+    "context": "Text under that heading.",
+    "maxLength": 240,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.listTitle": {
+    "en": "Scripts allowed on this account",
+    "context": "Heading of the list in Settings → Security of widgets whose scripts may run in browsers that can’t keep them apart.",
+    "maxLength": 50,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.mayDo": {
+    "en": "What its script may do",
+    "context": "Heading above the list of what the widget’s script is allowed to do.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.notNow": {
+    "en": "Not now",
+    "context": "Button that closes the sheet without allowing anything.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.notReviewed": {
+    "en": "This version hasn’t been reviewed yet, so it can’t run here.",
+    "context": "Why the widget can’t be allowed: its version has not passed the security check and its waiting days.",
+    "maxLength": 120,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.offBrowser": {
+    "en": "Scripts don’t run in this browser.",
+    "context": "Line in the widget editor’s preview in a browser that can’t keep scripts apart.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.official": {
+    "en": "Made by Tiledash",
+    "context": "Where it came from: one of Tiledash’s own widgets.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.ownAssistant": {
+    "en": "Changed by an AI assistant on {date}",
+    "context": "Where it came from: an AI assistant last changed this widget’s code.",
+    "params": {
+      "date": "An absolute short date, such as 22 Nov."
+    },
+    "maxLength": 70,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.ownCopied": {
+    "en": "Your own widget, copied from {publisher}’s {name} {version}",
+    "context": "Where it came from: the person’s own widget, a copy of a Community widget.",
+    "params": {
+      "name": "The Community widget’s name, such as Solar flow.",
+      "publisher": "The Community widget’s publisher, such as Mara.",
+      "version": "The version it was copied from, such as 1.4.0."
+    },
+    "maxLength": 110,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.ownEditor": {
+    "en": "Your own widget, written in the editor on {date}",
+    "context": "Where it came from: the person’s own widget, last written by them in the editor.",
+    "params": {
+      "date": "An absolute short date, such as 22 Nov."
+    },
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.ownWidget": {
+    "en": "Your own widget",
+    "context": "Where it came from, in a row of the Security list: one of the person’s own widgets.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.pair": {
+    "en": "On a dashboard without people, cameras or the Timeline, you can also pair this phone as a screen.",
+    "context": "Small help line: the other way to see scripts on this phone.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.relay": {
+    "en": "While a script runs here, Tiledash connects to your Homey through our server, so your Homey’s access stays out of this page. Cameras still show; people and the Timeline don’t, in this browser.",
+    "context": "What changes once something is allowed: the page connects through Tiledash’s server; people and the Timeline are not shown in this browser.",
+    "maxLength": 300,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.relayGap": {
+    "en": "Not shown while scripts run in this browser",
+    "context": "On a tile that shows people or the Timeline, in a browser that connects through Tiledash’s server because scripts are allowed.",
+    "maxLength": 60,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.relayGapLink": {
+    "en": "Allowed scripts",
+    "context": "Link on that tile to the list of allowed scripts.",
+    "maxLength": 30,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.remove": {
+    "en": "Remove",
+    "context": "Button that takes an allowance back.",
+    "maxLength": 20,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.removeFailed": {
+    "en": "Couldn’t remove it. Try again in a moment.",
+    "context": "Message when removing an allowed widget from the Security list failed.",
+    "maxLength": 90,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.removeLast": {
+    "en": "That was the last one: on the next load, this browser connects to your Homey directly again.",
+    "context": "Shown after removing the last allowed widget.",
+    "maxLength": 160,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.risk": {
+    "en": "Only do that if you trust whoever made it completely: a script running here could read what this page shows.",
+    "context": "The risk, plainly. Shown in the sheet when the widget can be allowed.",
+    "maxLength": 200,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.run": {
+    "en": "Run its script here",
+    "context": "Button that allows the widget’s script in this browser. It asks the person to confirm it’s them first.",
+    "maxLength": 32,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.stopped": {
+    "en": "This version was stopped, so it can’t run anywhere.",
+    "context": "Why the widget can’t be allowed: Tiledash stopped this version.",
+    "maxLength": 100,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.title": {
+    "en": "This tile has a script",
+    "context": "Title of the sheet that opens from that button.",
+    "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.why": {
+    "en": "This browser can’t keep a widget’s script apart from the rest of Tiledash, so the tile shows a simpler look here. You can let this widget’s script run on your account anyway.",
+    "context": "First paragraph of the sheet: why the tile looks simpler, and that the person can change it.",
+    "maxLength": 260,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
   },
   "viewer.settingsNeeded.choose": {
     "en": "Choose…",

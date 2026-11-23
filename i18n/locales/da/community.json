@@ -240,8 +240,8 @@
     "reviewed": false
   },
   "community.check.kind": {
-    "text": "{kind, select, sends-data-away {Den sender data til en adresse som dens formål ikke kræver} fake-login {Den beder om adgangskode, kode eller personlige oplysninger, eller efterligner et login} hidden-code {Den bygger eller skjuler kode som den kører} addresses-reviewer {Dens tekst prøver at påvirke den der gennemgår den} malware-library {Et bibliotek den indlæser, er kendt malware} does-more-than-described {Den gør mere end beskrivelsen siger} tracking {Den sporer folk} unreadable-code {Dens kode er minificeret eller pakket, så ingen kan læse den} unknown-library-source {Et bibliotek kommer fra en adresse som ingen har gået god for} library-advisory {Et bibliotek den indlæser, har en kendt sikkerhedsadvarsel} permissions-grew {Den får måske lov til mere end versionen før} earlier-version-held {En tidligere version blev tilbageholdt, så en administrator ser på denne først} other {Noget andet}}",
-    "source": "68b476b1c3",
+    "text": "{kind, select, sends-data-away {Den sender data til en adresse som dens formål ikke kræver} fake-login {Den beder om adgangskode, kode eller personlige oplysninger, eller efterligner et login} hidden-code {Den bygger eller skjuler kode som den kører} addresses-reviewer {Dens tekst prøver at påvirke den der gennemgår den} malware-library {Et bibliotek den indlæser, er kendt malware} does-more-than-described {Den gør mere end beskrivelsen siger} tracking {Den sporer folk} unreadable-code {Dens kode er minificeret eller pakket, så ingen kan læse den} unknown-library-source {Et bibliotek kommer fra en adresse som ingen har gået god for} library-advisory {Et bibliotek den indlæser, har en kendt sikkerhedsadvarsel} permissions-grew {Den får måske lov til mere end versionen før} earlier-version-held {En tidligere version blev tilbageholdt, så en administrator ser på denne først} reads-memory {Den ser ud til at være lavet til at tidsmåle hukommelsen eller processoren} other {Noget andet}}",
+    "source": "26ca3ae44c",
     "by": "ai",
     "reviewed": false
   },
@@ -2135,6 +2135,84 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.previewStep.card": {
+    "text": "Som Community viser den",
+    "source": "b8df19794a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.deviceName": {
+    "text": "Navn til {setting}",
+    "source": "16f3536349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editor": {
+    "text": "Værdier fra forhåndsvisningen",
+    "source": "980ea5d501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editorSays": {
+    "text": "De indstillinger og måleværdier din forhåndsvisning i editoren viste, da du gemte.",
+    "source": "be1bd88710",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.noEditor": {
+    "text": "Åbn forhåndsvisningen i editoren og gem én gang for at bruge dens værdier.",
+    "source": "e270dd152f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.public": {
+    "text": "De udgives med widgetten, så alle kan se dem. Dine enheders egne navne udgives ikke: giv hver af dem et navn her.",
+    "source": "10ce20dc61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.readings": {
+    "text": "{count, plural, one {# måleværdi} other {# måleværdier}} fra {device}",
+    "source": "813a2e4b57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.showWith": {
+    "text": "Vis den med",
+    "source": "325fb3b587",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.skipped": {
+    "text": "Vises ikke: demoen udfylder den",
+    "source": "a1bd31ef03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.summary": {
+    "text": "{source, select, editor {Værdier fra forhåndsvisningen ({count, plural, one {# indstilling} other {# indstillinger}})} other {Tiledashs demo}}",
+    "source": "329c07e7f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledash": {
+    "text": "Tiledashs demo",
+    "source": "eaf75adf4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledashSays": {
+    "text": "Opdigtede værdier der passer til dens indstillinger, de samme for hver widget.",
+    "source": "0cdd5b6785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.values": {
+    "text": "Det folk får at se",
+    "source": "fb51ffae13",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.back": {
     "text": "Tilbage",
     "source": "76900f1bfd",
@@ -2472,8 +2550,14 @@
     "reviewed": false
   },
   "community.publishWizard.lead": {
-    "text": "{step, select, product {Hvis det er et rigtigt produkt, så skriv hvilket. Folk finder modeller i Community efter mærke og produkt.} about {Hvad den hedder, og én linje om hvad den gør: Community viser begge dele på kortet.} description {Fortæl folk hvad den gør og hvordan den bruges. Tags hjælper dem med at finde den.} pictures {Et ikon og nogle skærmbilleder, så folk kan se den, før de installerer den.} sharing {Licensen andre må bruge den under, hvor koden eller hjemmesiden er, og hvem der finder den.} version {Hvilken version det er: det der er ændret siden sidst, foreslår den. Opslaget forbliver som det er, medmindre du ændrer det.} notes {Hvad der er nyt, på et par linjer; folk ser det med opdateringen.} other {Gennemgå det, og udgiv. Opslaget kan ændres senere; en version forbliver som den er.}}",
-    "source": "77b98b821f",
+    "text": "{step, select, product {Hvis det er et rigtigt produkt, så skriv hvilket. Folk finder modeller i Community efter mærke og produkt.} about {Hvad den hedder, og én linje om hvad den gør: Community viser begge dele på kortet.} description {Fortæl folk hvad den gør og hvordan den bruges. Tags hjælper dem med at finde den.} pictures {Et ikon og nogle skærmbilleder, så folk kan se den, før de installerer den.} sharing {Licensen andre må bruge den under, hvor koden eller hjemmesiden er, og hvem der finder den.} version {Hvilken version det er: det der er ændret siden sidst, foreslår den. Opslaget forbliver som det er, medmindre du ændrer det.} preview {Hvad dens kort i Community viser: Tiledashs demo eller de værdier din forhåndsvisning viste.} notes {Hvad der er nyt, på et par linjer; folk ser det med opdateringen.} other {Gennemgå det, og udgiv. Opslaget kan ændres senere; en version forbliver som den er.}}",
+    "source": "2994c2e63f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.noShot": {
+    "text": "Tilføj et skærmbillede: forhåndsvisninger kører aldrig et script, så uden et skærmbillede viser kortet i Community kun det, den tegner uden scriptet.",
+    "source": "fa90891cea",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,20 +2580,26 @@
     "reviewed": false
   },
   "community.publishWizard.row": {
-    "text": "{row, select, product {Produkt} title {Titel} address {Adresse} description {Beskrivelse} tags {Tags} pictures {Billeder} licence {Licens} links {Links} who {Hvem finder den} version {Version} notes {Nyheder} outside {Henter fra} other {Andet}}",
-    "source": "d981f229bf",
+    "text": "{row, select, product {Produkt} title {Titel} address {Adresse} description {Beskrivelse} tags {Tags} pictures {Billeder} licence {Licens} links {Links} who {Hvem finder den} version {Version} preview {Forhåndsvisning} notes {Nyheder} outside {Henter fra} other {Andet}}",
+    "source": "56884e8955",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.step": {
-    "text": "{step, select, product {Produkt} about {Om} description {Beskrivelse} pictures {Billeder} sharing {Deling} version {Version} notes {Nyheder} other {Tjek}}",
-    "source": "2a9c18c6e9",
+    "text": "{step, select, product {Produkt} about {Om} description {Beskrivelse} pictures {Billeder} sharing {Deling} version {Version} preview {Forhåndsvisning} notes {Nyheder} other {Tjek}}",
+    "source": "e6595bc18c",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.stepOf": {
     "text": "Trin {n} af {count}",
     "source": "99913e946c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.worthALook": {
+    "text": "Værd at se på",
+    "source": "f3d31e2f8c",
     "by": "ai",
     "reviewed": false
   },

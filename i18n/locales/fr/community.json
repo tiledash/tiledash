@@ -240,8 +240,8 @@
     "reviewed": false
   },
   "community.check.kind": {
-    "text": "{kind, select, sends-data-away {Il envoie des données à une adresse dont son usage n’a pas besoin} fake-login {Il demande un mot de passe, un code ou des données personnelles, ou imite une connexion} hidden-code {Il génère ou dissimule du code qu’il exécute} addresses-reviewer {Son texte s’adresse à la personne qui l’examine} malware-library {Une bibliothèque qu’il charge est un logiciel malveillant connu} does-more-than-described {Il fait plus que ce que dit sa description} tracking {Il piste les personnes} unreadable-code {Son code est minifié ou compressé : personne ne peut le lire} unknown-library-source {Une bibliothèque vient d’une adresse dont personne ne s’est porté garant} library-advisory {Une bibliothèque qu’il charge fait l’objet d’une alerte de sécurité connue} permissions-grew {Il pourrait faire plus que la version précédente} earlier-version-held {Une version précédente a été retenue, donc un administrateur examine celle-ci d’abord} other {Autre chose}}",
-    "source": "68b476b1c3",
+    "text": "{kind, select, sends-data-away {Il envoie des données à une adresse dont son usage n’a pas besoin} fake-login {Il demande un mot de passe, un code ou des données personnelles, ou imite une connexion} hidden-code {Il génère ou dissimule du code qu’il exécute} addresses-reviewer {Son texte s’adresse à la personne qui l’examine} malware-library {Une bibliothèque qu’il charge est un logiciel malveillant connu} does-more-than-described {Il fait plus que ce que dit sa description} tracking {Il piste les personnes} unreadable-code {Son code est minifié ou compressé : personne ne peut le lire} unknown-library-source {Une bibliothèque vient d’une adresse dont personne ne s’est porté garant} library-advisory {Une bibliothèque qu’il charge fait l’objet d’une alerte de sécurité connue} permissions-grew {Il pourrait faire plus que la version précédente} earlier-version-held {Une version précédente a été retenue, donc un administrateur examine celle-ci d’abord} reads-memory {Il semble conçu pour chronométrer la mémoire ou le processeur} other {Autre chose}}",
+    "source": "26ca3ae44c",
     "by": "ai",
     "reviewed": false
   },
@@ -2135,6 +2135,84 @@
     "by": "ai",
     "reviewed": false
   },
+  "community.previewStep.card": {
+    "text": "Tel que la communauté l’affiche",
+    "source": "b8df19794a",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.deviceName": {
+    "text": "Nom pour {setting}",
+    "source": "16f3536349",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editor": {
+    "text": "Valeurs de votre aperçu",
+    "source": "980ea5d501",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.editorSays": {
+    "text": "Les réglages et mesures de l’aperçu de votre éditeur lors de l’enregistrement.",
+    "source": "be1bd88710",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.noEditor": {
+    "text": "Ouvrez l’aperçu dans l’éditeur et enregistrez une fois pour utiliser ses valeurs.",
+    "source": "e270dd152f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.public": {
+    "text": "Elles sont publiées avec le widget, donc visibles par tous. Pas les noms de vos appareils : donnez un nom à chacun ici.",
+    "source": "10ce20dc61",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.readings": {
+    "text": "{count, plural, one {# mesure} many {# mesures} other {# mesures}} de {device}",
+    "source": "813a2e4b57",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.showWith": {
+    "text": "Afficher avec",
+    "source": "325fb3b587",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.skipped": {
+    "text": "Non affiché : la démo s’en charge",
+    "source": "a1bd31ef03",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.summary": {
+    "text": "{source, select, editor {Valeurs de votre aperçu ({count, plural, one {# réglage} many {# réglages} other {# réglages}})} other {Démo de Tiledash}}",
+    "source": "329c07e7f0",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledash": {
+    "text": "Démo de Tiledash",
+    "source": "eaf75adf4c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.tiledashSays": {
+    "text": "Des valeurs inventées adaptées à ses réglages, les mêmes pour chaque widget.",
+    "source": "0cdd5b6785",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.previewStep.values": {
+    "text": "Ce que les gens verront",
+    "source": "fb51ffae13",
+    "by": "ai",
+    "reviewed": false
+  },
   "community.publish.back": {
     "text": "Retour",
     "source": "76900f1bfd",
@@ -2472,8 +2550,14 @@
     "reviewed": false
   },
   "community.publishWizard.lead": {
-    "text": "{step, select, product {S’il s’agit d’un produit réel, indiquez lequel. Dans la communauté, on trouve les modèles par marque et par produit.} about {Son nom, et une ligne sur ce qu’il fait : la communauté affiche les deux sur sa carte.} description {Expliquez ce qu’il fait et comment l’utiliser. Les étiquettes aident à le trouver.} pictures {Une icône et quelques captures d’écran, pour qu’on le voie avant de l’installer.} sharing {La licence sous laquelle d’autres peuvent l’utiliser, où sont son code ou son site web, et qui peut le trouver.} version {Le numéro de cette version : ce qui a changé depuis la dernière le suggère. La fiche reste telle quelle sauf si vous la modifiez.} notes {Ce qu’il y a de nouveau, en quelques lignes ; on le voit avec la mise à jour.} other {Vérifiez, puis publiez. La fiche reste modifiable ; une version, elle, ne change plus.}}",
-    "source": "77b98b821f",
+    "text": "{step, select, product {S’il s’agit d’un produit réel, indiquez lequel. Dans la communauté, on trouve les modèles par marque et par produit.} about {Son nom, et une ligne sur ce qu’il fait : la communauté affiche les deux sur sa carte.} description {Expliquez ce qu’il fait et comment l’utiliser. Les étiquettes aident à le trouver.} pictures {Une icône et quelques captures d’écran, pour qu’on le voie avant de l’installer.} sharing {La licence sous laquelle d’autres peuvent l’utiliser, où sont son code ou son site web, et qui peut le trouver.} version {Le numéro de cette version : ce qui a changé depuis la dernière le suggère. La fiche reste telle quelle sauf si vous la modifiez.} preview {Ce que montre sa carte dans la communauté : la démo de Tiledash, ou les valeurs de votre aperçu.} notes {Ce qu’il y a de nouveau, en quelques lignes ; on le voit avec la mise à jour.} other {Vérifiez, puis publiez. La fiche reste modifiable ; une version, elle, ne change plus.}}",
+    "source": "2994c2e63f",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.noShot": {
+    "text": "Ajoutez une capture d’écran : les aperçus n’exécutent jamais de script, donc sans capture sa carte dans la communauté ne montre que ce qu’il affiche sans script.",
+    "source": "fa90891cea",
     "by": "ai",
     "reviewed": false
   },
@@ -2496,20 +2580,26 @@
     "reviewed": false
   },
   "community.publishWizard.row": {
-    "text": "{row, select, product {Produit} title {Titre} address {Adresse} description {Description} tags {Étiquettes} pictures {Images} licence {Licence} links {Liens} who {Qui le trouve} version {Version} notes {Nouveautés} outside {Charge depuis} other {Autre}}",
-    "source": "d981f229bf",
+    "text": "{row, select, product {Produit} title {Titre} address {Adresse} description {Description} tags {Étiquettes} pictures {Images} licence {Licence} links {Liens} who {Qui le trouve} version {Version} preview {Aperçu} notes {Nouveautés} outside {Charge depuis} other {Autre}}",
+    "source": "56884e8955",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.step": {
-    "text": "{step, select, product {Produit} about {À propos} description {Description} pictures {Images} sharing {Partage} version {Version} notes {Nouveautés} other {Vérifier}}",
-    "source": "2a9c18c6e9",
+    "text": "{step, select, product {Produit} about {À propos} description {Description} pictures {Images} sharing {Partage} version {Version} preview {Aperçu} notes {Nouveautés} other {Vérifier}}",
+    "source": "e6595bc18c",
     "by": "ai",
     "reviewed": false
   },
   "community.publishWizard.stepOf": {
     "text": "Étape {n} sur {count}",
     "source": "99913e946c",
+    "by": "ai",
+    "reviewed": false
+  },
+  "community.publishWizard.worthALook": {
+    "text": "À vérifier",
+    "source": "f3d31e2f8c",
     "by": "ai",
     "reviewed": false
   },
