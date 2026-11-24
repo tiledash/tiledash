@@ -2332,7 +2332,7 @@
     "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
   },
   "viewer.scriptAllow.assistant": {
-    "en": "An AI assistant changed this code. Open it in the editor and save it yourself to allow it.",
+    "en": "An AI assistant wrote this code. Change it yourself in the editor to allow it.",
     "context": "Why the widget can’t be allowed yet: its code was last written by an AI assistant.",
     "maxLength": 140,
     "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
@@ -2629,6 +2629,12 @@
     "en": "This tile has a script",
     "context": "Title of the sheet that opens from that button.",
     "maxLength": 40,
+    "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
+  },
+  "viewer.scriptAllow.unknownOrigin": {
+    "en": "This code was saved before we kept who wrote it. Change it yourself in the editor to allow it.",
+    "context": "Why the person’s own widget can’t be allowed yet: its code was saved before Tiledash recorded whether the person or an AI assistant wrote it.",
+    "maxLength": 140,
     "file": "packages/ui/src/screens/scriptAllow/scriptAllow.messages.ts"
   },
   "viewer.scriptAllow.why": {
