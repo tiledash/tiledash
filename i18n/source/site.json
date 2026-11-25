@@ -1349,6 +1349,12 @@
     "maxLength": 18,
     "file": "packages/ui/src/site/siteLinks.messages.ts"
   },
+  "site.links.developers": {
+    "en": "Developers",
+    "context": "Link in the public site’s top bar and in its footer to the developer site (in English): how to write widgets of your own, with the template reference.",
+    "maxLength": 18,
+    "file": "packages/ui/src/site/siteLinks.messages.ts"
+  },
   "site.links.energy": {
     "en": "Energy",
     "context": "Link in the public site’s top bar to the home page section about the Energy house: solar, battery, grid and car on a picture of the house.",
@@ -1592,12 +1598,6 @@
     },
     "maxLength": 30,
     "file": "apps/site/src/site/changelogPage.messages.ts"
-  },
-  "site.page.docs.buildDescription": {
-    "en": "Write widgets of your own in HTML and Liquid, share them in the Community, let your AI write them, and look up everything a template can use.",
-    "context": "Meta description of the docs’ Build page, about making your own widgets. HTML and Liquid stay as they are; the Community is Tiledash’s place to share widgets.",
-    "maxLength": 200,
-    "file": "apps/site/src/site/docsPages.messages.ts"
   },
   "site.page.docs.tutorialsDescription": {
     "en": "Short walks through Tiledash, one step at a time, with a picture of each.",
